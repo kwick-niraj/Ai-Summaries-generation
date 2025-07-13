@@ -1,0 +1,408 @@
+{
+  "bookId": "2611",
+  "timestamp": "2025-07-11T07:59:57.128Z",
+  "success": false,
+  "processingTime": -1752220485016,
+  "stats": {
+    "totalSections": 10,
+    "totalWords": 4670,
+    "totalAudioFiles": 10,
+    "totalDuration": 2258.987375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 8,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 10,
+    "successful": 10,
+    "failed": 0,
+    "duration": 2258.987375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2611/optimized_text/2611.md",
+    "fileSize": 642,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2611.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2611/metadata/2611_chapters.json",
+    "totalChapters": 10,
+    "totalDuration": 2258.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2611/metadata/2611_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2611/metadata/2611_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 10,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 8
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2611/2611_complete.wav",
+    "duration": 2258.987375,
+    "fileSize": 108431472,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2611/introduction.wav",
+          "duration": 84.027875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.027875,
+          "startTime": 0,
+          "endTime": 84.027875
+        },
+        {
+          "path": "Audio/output/2611/chapter_01.wav",
+          "duration": 271.289792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Concept and Potential of Superintelligence",
+          "actualDuration": 271.289792,
+          "startTime": 85.527875,
+          "endTime": 356.817667
+        },
+        {
+          "path": "Audio/output/2611/chapter_02.wav",
+          "duration": 282.252083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Roads to Superintelligence and Their Unique Challenges",
+          "actualDuration": 282.252083,
+          "startTime": 358.317667,
+          "endTime": 640.56975
+        },
+        {
+          "path": "Audio/output/2611/chapter_03.wav",
+          "duration": 279.6145,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Risks and Dangers of Uncontrolled Superintelligence",
+          "actualDuration": 279.6145,
+          "startTime": 642.06975,
+          "endTime": 921.68425
+        },
+        {
+          "path": "Audio/output/2611/chapter_04.wav",
+          "duration": 276.28675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Strategic Approaches to AI Safety and the Importance of Global Coordination",
+          "actualDuration": 276.28675,
+          "startTime": 923.18425,
+          "endTime": 1199.471
+        },
+        {
+          "path": "Audio/output/2611/chapter_05.wav",
+          "duration": 211.137417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Frameworks for Aligning Superintelligent Systems with Human Values",
+          "actualDuration": 211.137417,
+          "startTime": 1200.971,
+          "endTime": 1412.108417
+        },
+        {
+          "path": "Audio/output/2611/chapter_06.wav",
+          "duration": 238.411833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Technical and Philosophical Challenges in Encoding Ethics",
+          "actualDuration": 238.411833,
+          "startTime": 1413.608417,
+          "endTime": 1652.02025
+        },
+        {
+          "path": "Audio/output/2611/chapter_07.wav",
+          "duration": 232.792333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Institutional and Societal Readiness for Superintelligence",
+          "actualDuration": 232.792333,
+          "startTime": 1653.52025,
+          "endTime": 1886.3125830000001
+        },
+        {
+          "path": "Audio/output/2611/chapter_08.wav",
+          "duration": 238.834292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Prudent Stewardship and the Path Forward",
+          "actualDuration": 238.834292,
+          "startTime": 1887.8125830000001,
+          "endTime": 2126.6468750000004
+        },
+        {
+          "path": "Audio/output/2611/conclusion.wav",
+          "duration": 144.3405,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.3405,
+          "startTime": 2128.1468750000004,
+          "endTime": 2272.487375
+        }
+      ],
+      "totalDuration": 2272.487375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.03,
+          "actualStart": 0,
+          "actualEnd": 84.027875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Concept and Potential of Superintelligence",
+          "expectedStart": 84.03,
+          "expectedEnd": 355.32,
+          "actualStart": 85.527875,
+          "actualEnd": 356.817667,
+          "timeDifference": 1.4978749999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Roads to Superintelligence and Their Unique Challenges",
+          "expectedStart": 355.32,
+          "expectedEnd": 637.57,
+          "actualStart": 358.317667,
+          "actualEnd": 640.56975,
+          "timeDifference": 2.9976669999999785
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Risks and Dangers of Uncontrolled Superintelligence",
+          "expectedStart": 637.57,
+          "expectedEnd": 917.18,
+          "actualStart": 642.06975,
+          "actualEnd": 921.68425,
+          "timeDifference": 4.499749999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Strategic Approaches to AI Safety and the Importance of Global Coordination",
+          "expectedStart": 917.18,
+          "expectedEnd": 1193.47,
+          "actualStart": 923.18425,
+          "actualEnd": 1199.471,
+          "timeDifference": 6.00425000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Frameworks for Aligning Superintelligent Systems with Human Values",
+          "expectedStart": 1193.47,
+          "expectedEnd": 1404.61,
+          "actualStart": 1200.971,
+          "actualEnd": 1412.108417,
+          "timeDifference": 7.500999999999976
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Technical and Philosophical Challenges in Encoding Ethics",
+          "expectedStart": 1404.61,
+          "expectedEnd": 1643.02,
+          "actualStart": 1413.608417,
+          "actualEnd": 1652.02025,
+          "timeDifference": 8.998417000000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Institutional and Societal Readiness for Superintelligence",
+          "expectedStart": 1643.02,
+          "expectedEnd": 1875.81,
+          "actualStart": 1653.52025,
+          "actualEnd": 1886.3125830000001,
+          "timeDifference": 10.500250000000051
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Prudent Stewardship and the Path Forward",
+          "expectedStart": 1875.81,
+          "expectedEnd": 2114.64,
+          "actualStart": 1887.8125830000001,
+          "actualEnd": 2126.6468750000004,
+          "timeDifference": 12.002583000000186
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2114.64,
+          "expectedEnd": 2258.98,
+          "actualStart": 2128.1468750000004,
+          "actualEnd": 2272.487375,
+          "timeDifference": 13.506875000000491
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.027875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Concept and Potential of Superintelligence"
+        },
+        {
+          "startTime": 356.817667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Concept and Potential of Superintelligence and Chapter 2 The Many Roads to Superintelligence and Their Unique Challenges"
+        },
+        {
+          "startTime": 640.56975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Roads to Superintelligence and Their Unique Challenges and Chapter 3 The Risks and Dangers of Uncontrolled Superintelligence"
+        },
+        {
+          "startTime": 921.68425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Risks and Dangers of Uncontrolled Superintelligence and Chapter 4 Strategic Approaches to AI Safety and the Importance of Global Coordination"
+        },
+        {
+          "startTime": 1199.471,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Strategic Approaches to AI Safety and the Importance of Global Coordination and Chapter 5 Frameworks for Aligning Superintelligent Systems with Human Values"
+        },
+        {
+          "startTime": 1412.108417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Frameworks for Aligning Superintelligent Systems with Human Values and Chapter 6 Technical and Philosophical Challenges in Encoding Ethics"
+        },
+        {
+          "startTime": 1652.02025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Technical and Philosophical Challenges in Encoding Ethics and Chapter 7 Institutional and Societal Readiness for Superintelligence"
+        },
+        {
+          "startTime": 1886.3125830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Institutional and Societal Readiness for Superintelligence and Chapter 8 Prudent Stewardship and the Path Forward"
+        },
+        {
+          "startTime": 2126.6468750000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Prudent Stewardship and the Path Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2611",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:54:45.519Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

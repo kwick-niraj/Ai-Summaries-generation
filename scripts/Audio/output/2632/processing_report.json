@@ -1,0 +1,456 @@
+{
+  "bookId": "2632",
+  "timestamp": "2025-07-11T09:02:53.225Z",
+  "success": false,
+  "processingTime": -1752224091345,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4185,
+    "totalAudioFiles": 12,
+    "totalDuration": 2369.040125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2369.040125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2632/optimized_text/2632.md",
+    "fileSize": 807,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2632.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2632/metadata/2632_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2369.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2632/metadata/2632_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2632/metadata/2632_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2632/2632_complete.wav",
+    "duration": 2369.040125,
+    "fileSize": 113714004,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2632/introduction.wav",
+          "duration": 101.736042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.736042,
+          "startTime": 0,
+          "endTime": 101.736042
+        },
+        {
+          "path": "Audio/output/2632/chapter_01.wav",
+          "duration": 194.193417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Distraction: Why Attention Slips Away",
+          "actualDuration": 194.193417,
+          "startTime": 103.236042,
+          "endTime": 297.429459
+        },
+        {
+          "path": "Audio/output/2632/chapter_02.wav",
+          "duration": 242.044083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mechanics of Digital Manipulation: How Technology Hijacks the Mind",
+          "actualDuration": 242.044083,
+          "startTime": 298.929459,
+          "endTime": 540.973542
+        },
+        {
+          "path": "Audio/output/2632/chapter_03.wav",
+          "duration": 220.076958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Reclaiming Agency: Building Psychological Resistance to Distraction",
+          "actualDuration": 220.076958,
+          "startTime": 542.473542,
+          "endTime": 762.5504999999999
+        },
+        {
+          "path": "Audio/output/2632/chapter_04.wav",
+          "duration": 241.410958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Designing Environments and Routines for Focused Living",
+          "actualDuration": 241.410958,
+          "startTime": 764.0504999999999,
+          "endTime": 1005.461458
+        },
+        {
+          "path": "Audio/output/2632/chapter_05.wav",
+          "duration": 202.663,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindfulness and Self-Awareness: Intercepting Distraction Before It Starts",
+          "actualDuration": 202.663,
+          "startTime": 1006.961458,
+          "endTime": 1209.624458
+        },
+        {
+          "path": "Audio/output/2632/chapter_06.wav",
+          "duration": 224.789417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Focus Strategies: Deep Work and Flow States",
+          "actualDuration": 224.789417,
+          "startTime": 1211.124458,
+          "endTime": 1435.913875
+        },
+        {
+          "path": "Audio/output/2632/chapter_07.wav",
+          "duration": 199.057708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Digital Boundaries: Creating Healthy Relationships with Technology",
+          "actualDuration": 199.057708,
+          "startTime": 1437.413875,
+          "endTime": 1636.471583
+        },
+        {
+          "path": "Audio/output/2632/chapter_08.wav",
+          "duration": 206.694375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Focus into Relationships and Community",
+          "actualDuration": 206.694375,
+          "startTime": 1637.971583,
+          "endTime": 1844.665958
+        },
+        {
+          "path": "Audio/output/2632/chapter_09.wav",
+          "duration": 203.820125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Change: Building Habits and Navigating Setbacks",
+          "actualDuration": 203.820125,
+          "startTime": 1846.165958,
+          "endTime": 2049.9860830000002
+        },
+        {
+          "path": "Audio/output/2632/chapter_10.wav",
+          "duration": 202.5935,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Intention: Designing a Life of Meaningful Attention",
+          "actualDuration": 202.5935,
+          "startTime": 2051.4860830000002,
+          "endTime": 2254.079583
+        },
+        {
+          "path": "Audio/output/2632/conclusion.wav",
+          "duration": 129.960542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.960542,
+          "startTime": 2255.579583,
+          "endTime": 2385.540125
+        }
+      ],
+      "totalDuration": 2385.540125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.74,
+          "actualStart": 0,
+          "actualEnd": 101.736042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Distraction: Why Attention Slips Away",
+          "expectedStart": 101.74,
+          "expectedEnd": 295.93,
+          "actualStart": 103.236042,
+          "actualEnd": 297.429459,
+          "timeDifference": 1.4960420000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mechanics of Digital Manipulation: How Technology Hijacks the Mind",
+          "expectedStart": 295.93,
+          "expectedEnd": 537.97,
+          "actualStart": 298.929459,
+          "actualEnd": 540.973542,
+          "timeDifference": 2.9994590000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Reclaiming Agency: Building Psychological Resistance to Distraction",
+          "expectedStart": 537.97,
+          "expectedEnd": 758.05,
+          "actualStart": 542.473542,
+          "actualEnd": 762.5504999999999,
+          "timeDifference": 4.503541999999925
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Designing Environments and Routines for Focused Living",
+          "expectedStart": 758.05,
+          "expectedEnd": 999.46,
+          "actualStart": 764.0504999999999,
+          "actualEnd": 1005.461458,
+          "timeDifference": 6.000499999999988
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindfulness and Self-Awareness: Intercepting Distraction Before It Starts",
+          "expectedStart": 999.46,
+          "expectedEnd": 1202.12,
+          "actualStart": 1006.961458,
+          "actualEnd": 1209.624458,
+          "timeDifference": 7.501457999999957
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Focus Strategies: Deep Work and Flow States",
+          "expectedStart": 1202.12,
+          "expectedEnd": 1426.91,
+          "actualStart": 1211.124458,
+          "actualEnd": 1435.913875,
+          "timeDifference": 9.004458000000113
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Digital Boundaries: Creating Healthy Relationships with Technology",
+          "expectedStart": 1426.91,
+          "expectedEnd": 1625.97,
+          "actualStart": 1437.413875,
+          "actualEnd": 1636.471583,
+          "timeDifference": 10.50387499999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Focus into Relationships and Community",
+          "expectedStart": 1625.97,
+          "expectedEnd": 1832.66,
+          "actualStart": 1637.971583,
+          "actualEnd": 1844.665958,
+          "timeDifference": 12.001582999999982
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Change: Building Habits and Navigating Setbacks",
+          "expectedStart": 1832.66,
+          "expectedEnd": 2036.48,
+          "actualStart": 1846.165958,
+          "actualEnd": 2049.9860830000002,
+          "timeDifference": 13.505957999999964
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Intention: Designing a Life of Meaningful Attention",
+          "expectedStart": 2036.48,
+          "expectedEnd": 2239.07,
+          "actualStart": 2051.4860830000002,
+          "actualEnd": 2254.079583,
+          "timeDifference": 15.006083000000217
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2239.07,
+          "expectedEnd": 2369.03,
+          "actualStart": 2255.579583,
+          "actualEnd": 2385.540125,
+          "timeDifference": 16.50958300000002
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.736042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Distraction: Why Attention Slips Away"
+        },
+        {
+          "startTime": 297.429459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Distraction: Why Attention Slips Away and Chapter 2 The Mechanics of Digital Manipulation: How Technology Hijacks the Mind"
+        },
+        {
+          "startTime": 540.973542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mechanics of Digital Manipulation: How Technology Hijacks the Mind and Chapter 3 Reclaiming Agency: Building Psychological Resistance to Distraction"
+        },
+        {
+          "startTime": 762.5504999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Reclaiming Agency: Building Psychological Resistance to Distraction and Chapter 4 Designing Environments and Routines for Focused Living"
+        },
+        {
+          "startTime": 1005.461458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Designing Environments and Routines for Focused Living and Chapter 5 Mindfulness and Self-Awareness: Intercepting Distraction Before It Starts"
+        },
+        {
+          "startTime": 1209.624458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindfulness and Self-Awareness: Intercepting Distraction Before It Starts and Chapter 6 Advanced Focus Strategies: Deep Work and Flow States"
+        },
+        {
+          "startTime": 1435.913875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Focus Strategies: Deep Work and Flow States and Chapter 7 Digital Boundaries: Creating Healthy Relationships with Technology"
+        },
+        {
+          "startTime": 1636.471583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Digital Boundaries: Creating Healthy Relationships with Technology and Chapter 8 Integrating Focus into Relationships and Community"
+        },
+        {
+          "startTime": 1844.665958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Focus into Relationships and Community and Chapter 9 Sustaining Change: Building Habits and Navigating Setbacks"
+        },
+        {
+          "startTime": 2049.9860830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Change: Building Habits and Navigating Setbacks and Chapter 10 Living with Intention: Designing a Life of Meaningful Attention"
+        },
+        {
+          "startTime": 2254.079583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Intention: Designing a Life of Meaningful Attention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2632",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:54:52.894Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

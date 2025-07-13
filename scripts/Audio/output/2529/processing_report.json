@@ -1,0 +1,432 @@
+{
+  "bookId": "2529",
+  "timestamp": "2025-07-11T03:15:45.863Z",
+  "success": false,
+  "processingTime": -1752203516512,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3802,
+    "totalAudioFiles": 11,
+    "totalDuration": 1795.6953340000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1795.6953340000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2529/optimized_text/2529.md",
+    "fileSize": 593,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2529.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2529/metadata/2529_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1795.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2529/metadata/2529_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2529/metadata/2529_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2529/2529_complete.wav",
+    "duration": 1795.695333,
+    "fileSize": 86193454,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2529/introduction.wav",
+          "duration": 95.367083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.367083,
+          "startTime": 0,
+          "endTime": 95.367083
+        },
+        {
+          "path": "Audio/output/2529/chapter_01.wav",
+          "duration": 179.646292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Innocence and Wonder in Everyday Life",
+          "actualDuration": 179.646292,
+          "startTime": 96.867083,
+          "endTime": 276.513375
+        },
+        {
+          "path": "Audio/output/2529/chapter_02.wav",
+          "duration": 194.739875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Experience and the Shadows of Growing Up",
+          "actualDuration": 194.739875,
+          "startTime": 278.013375,
+          "endTime": 472.75325
+        },
+        {
+          "path": "Audio/output/2529/chapter_03.wav",
+          "duration": 198.799042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle Between Oppression and the Desire for Freedom",
+          "actualDuration": 198.799042,
+          "startTime": 474.25325,
+          "endTime": 673.052292
+        },
+        {
+          "path": "Audio/output/2529/chapter_04.wav",
+          "duration": 156.964875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Imagination and the Search for Meaning",
+          "actualDuration": 156.964875,
+          "startTime": 674.552292,
+          "endTime": 831.517167
+        },
+        {
+          "path": "Audio/output/2529/chapter_05.wav",
+          "duration": 181.654917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Visions, Prophecy, and the Unseen World",
+          "actualDuration": 181.654917,
+          "startTime": 833.017167,
+          "endTime": 1014.672084
+        },
+        {
+          "path": "Audio/output/2529/chapter_06.wav",
+          "duration": 188.720125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Good, Evil, and the Dance of Contraries",
+          "actualDuration": 188.720125,
+          "startTime": 1016.172084,
+          "endTime": 1204.892209
+        },
+        {
+          "path": "Audio/output/2529/chapter_07.wav",
+          "duration": 183.690667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Human Heart and the Longing for Connection",
+          "actualDuration": 183.690667,
+          "startTime": 1206.392209,
+          "endTime": 1390.0828760000002
+        },
+        {
+          "path": "Audio/output/2529/chapter_08.wav",
+          "duration": 155.9685,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Poet’s Role and the Power of Art",
+          "actualDuration": 155.9685,
+          "startTime": 1391.5828760000002,
+          "endTime": 1547.5513760000001
+        },
+        {
+          "path": "Audio/output/2529/chapter_09.wav",
+          "duration": 140.196458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy, Influence, and the Ongoing Search",
+          "actualDuration": 140.196458,
+          "startTime": 1549.0513760000001,
+          "endTime": 1689.2478340000002
+        },
+        {
+          "path": "Audio/output/2529/conclusion.wav",
+          "duration": 119.9475,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.9475,
+          "startTime": 1690.7478340000002,
+          "endTime": 1810.6953340000002
+        }
+      ],
+      "totalDuration": 1810.6953340000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.37,
+          "actualStart": 0,
+          "actualEnd": 95.367083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Innocence and Wonder in Everyday Life",
+          "expectedStart": 95.37,
+          "expectedEnd": 275.02,
+          "actualStart": 96.867083,
+          "actualEnd": 276.513375,
+          "timeDifference": 1.4970829999999893
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Experience and the Shadows of Growing Up",
+          "expectedStart": 275.02,
+          "expectedEnd": 469.76,
+          "actualStart": 278.013375,
+          "actualEnd": 472.75325,
+          "timeDifference": 2.9933750000000146
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle Between Oppression and the Desire for Freedom",
+          "expectedStart": 469.76,
+          "expectedEnd": 668.56,
+          "actualStart": 474.25325,
+          "actualEnd": 673.052292,
+          "timeDifference": 4.493249999999989
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Imagination and the Search for Meaning",
+          "expectedStart": 668.56,
+          "expectedEnd": 825.52,
+          "actualStart": 674.552292,
+          "actualEnd": 831.517167,
+          "timeDifference": 5.99229200000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Visions, Prophecy, and the Unseen World",
+          "expectedStart": 825.52,
+          "expectedEnd": 1007.17,
+          "actualStart": 833.017167,
+          "actualEnd": 1014.672084,
+          "timeDifference": 7.49716699999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Good, Evil, and the Dance of Contraries",
+          "expectedStart": 1007.17,
+          "expectedEnd": 1195.89,
+          "actualStart": 1016.172084,
+          "actualEnd": 1204.892209,
+          "timeDifference": 9.002084000000082
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Human Heart and the Longing for Connection",
+          "expectedStart": 1195.89,
+          "expectedEnd": 1379.58,
+          "actualStart": 1206.392209,
+          "actualEnd": 1390.0828760000002,
+          "timeDifference": 10.502208999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Poet’s Role and the Power of Art",
+          "expectedStart": 1379.58,
+          "expectedEnd": 1535.55,
+          "actualStart": 1391.5828760000002,
+          "actualEnd": 1547.5513760000001,
+          "timeDifference": 12.002876000000242
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy, Influence, and the Ongoing Search",
+          "expectedStart": 1535.55,
+          "expectedEnd": 1675.75,
+          "actualStart": 1549.0513760000001,
+          "actualEnd": 1689.2478340000002,
+          "timeDifference": 13.501376000000164
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1675.75,
+          "expectedEnd": 1795.7,
+          "actualStart": 1690.7478340000002,
+          "actualEnd": 1810.6953340000002,
+          "timeDifference": 14.997834000000239
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.367083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Innocence and Wonder in Everyday Life"
+        },
+        {
+          "startTime": 276.513375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Innocence and Wonder in Everyday Life and Chapter 2 Facing Experience and the Shadows of Growing Up"
+        },
+        {
+          "startTime": 472.75325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Experience and the Shadows of Growing Up and Chapter 3 The Struggle Between Oppression and the Desire for Freedom"
+        },
+        {
+          "startTime": 673.052292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle Between Oppression and the Desire for Freedom and Chapter 4 The Power of Imagination and the Search for Meaning"
+        },
+        {
+          "startTime": 831.517167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Imagination and the Search for Meaning and Chapter 5 Visions, Prophecy, and the Unseen World"
+        },
+        {
+          "startTime": 1014.672084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Visions, Prophecy, and the Unseen World and Chapter 6 Good, Evil, and the Dance of Contraries"
+        },
+        {
+          "startTime": 1204.892209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Good, Evil, and the Dance of Contraries and Chapter 7 The Human Heart and the Longing for Connection"
+        },
+        {
+          "startTime": 1390.0828760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Human Heart and the Longing for Connection and Chapter 8 The Poet’s Role and the Power of Art"
+        },
+        {
+          "startTime": 1547.5513760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Poet’s Role and the Power of Art and Chapter 9 Legacy, Influence, and the Ongoing Search"
+        },
+        {
+          "startTime": 1689.2478340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy, Influence, and the Ongoing Search and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2529",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:11:58.145Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

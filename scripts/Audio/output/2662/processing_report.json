@@ -1,0 +1,456 @@
+{
+  "bookId": "2662",
+  "timestamp": "2025-07-12T09:10:19.311Z",
+  "success": false,
+  "processingTime": -1752311134465,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5151,
+    "totalAudioFiles": 12,
+    "totalDuration": 2375.6291659999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2375.6291659999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2662/optimized_text/2662.md",
+    "fileSize": 843,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2662.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2662/metadata/2662_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2375.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2662/metadata/2662_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2662/metadata/2662_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2662/2662_complete.wav",
+    "duration": 2375.629167,
+    "fileSize": 114030278,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2662/introduction.wav",
+          "duration": 116.23525,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.23525,
+          "startTime": 0,
+          "endTime": 116.23525
+        },
+        {
+          "path": "Audio/output/2662/chapter_01.wav",
+          "duration": 238.828208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Dreams of a New World—Jefferson’s Vision and Lewis’s Early Path",
+          "actualDuration": 238.828208,
+          "startTime": 117.73525,
+          "endTime": 356.56345799999997
+        },
+        {
+          "path": "Audio/output/2662/chapter_02.wav",
+          "duration": 278.769375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Preparing for the Unknown—Building the Corps of Discovery",
+          "actualDuration": 278.769375,
+          "startTime": 358.06345799999997,
+          "endTime": 636.8328329999999
+        },
+        {
+          "path": "Audio/output/2662/chapter_03.wav",
+          "duration": 302.354125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Into the Wild—Hardships, Discovery, and the Power of Leadership",
+          "actualDuration": 302.354125,
+          "startTime": 638.3328329999999,
+          "endTime": 940.686958
+        },
+        {
+          "path": "Audio/output/2662/chapter_04.wav",
+          "duration": 235.060917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Across the Divide—Mountains, Sacrifice, and the Limits of Endurance",
+          "actualDuration": 235.060917,
+          "startTime": 942.186958,
+          "endTime": 1177.247875
+        },
+        {
+          "path": "Audio/output/2662/chapter_05.wav",
+          "duration": 229.678875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reaching the Pacific—Discovery, Disappointment, and the Long Road Home",
+          "actualDuration": 229.678875,
+          "startTime": 1178.747875,
+          "endTime": 1408.42675
+        },
+        {
+          "path": "Audio/output/2662/chapter_06.wav",
+          "duration": 222.171958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Return—Homecoming, Fame, and the Shadows of the Past",
+          "actualDuration": 222.171958,
+          "startTime": 1409.92675,
+          "endTime": 1632.098708
+        },
+        {
+          "path": "Audio/output/2662/chapter_07.wav",
+          "duration": 178.414667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Burden of Leadership—Lewis’s Struggles and the Price of Vision",
+          "actualDuration": 178.414667,
+          "startTime": 1633.598708,
+          "endTime": 1812.013375
+        },
+        {
+          "path": "Audio/output/2662/chapter_08.wav",
+          "duration": 178.669958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Journey—Loss, Mystery, and the End of an Era",
+          "actualDuration": 178.669958,
+          "startTime": 1813.513375,
+          "endTime": 1992.183333
+        },
+        {
+          "path": "Audio/output/2662/chapter_09.wav",
+          "duration": 151.713333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy—Memory, Myth, and the Meaning of the West",
+          "actualDuration": 151.713333,
+          "startTime": 1993.683333,
+          "endTime": 2145.396666
+        },
+        {
+          "path": "Audio/output/2662/chapter_10.wav",
+          "duration": 110.232792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections—Lessons for Today and the Enduring Spirit of Discovery",
+          "actualDuration": 110.232792,
+          "startTime": 2146.896666,
+          "endTime": 2257.129458
+        },
+        {
+          "path": "Audio/output/2662/conclusion.wav",
+          "duration": 133.499708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.499708,
+          "startTime": 2258.629458,
+          "endTime": 2392.1291659999997
+        }
+      ],
+      "totalDuration": 2392.1291659999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.24,
+          "actualStart": 0,
+          "actualEnd": 116.23525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Dreams of a New World—Jefferson’s Vision and Lewis’s Early Path",
+          "expectedStart": 116.24,
+          "expectedEnd": 355.07,
+          "actualStart": 117.73525,
+          "actualEnd": 356.56345799999997,
+          "timeDifference": 1.4952499999999986
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Preparing for the Unknown—Building the Corps of Discovery",
+          "expectedStart": 355.07,
+          "expectedEnd": 633.84,
+          "actualStart": 358.06345799999997,
+          "actualEnd": 636.8328329999999,
+          "timeDifference": 2.9934579999999755
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Into the Wild—Hardships, Discovery, and the Power of Leadership",
+          "expectedStart": 633.84,
+          "expectedEnd": 936.19,
+          "actualStart": 638.3328329999999,
+          "actualEnd": 940.686958,
+          "timeDifference": 4.492832999999905
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Across the Divide—Mountains, Sacrifice, and the Limits of Endurance",
+          "expectedStart": 936.19,
+          "expectedEnd": 1171.25,
+          "actualStart": 942.186958,
+          "actualEnd": 1177.247875,
+          "timeDifference": 5.99695799999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reaching the Pacific—Discovery, Disappointment, and the Long Road Home",
+          "expectedStart": 1171.25,
+          "expectedEnd": 1400.93,
+          "actualStart": 1178.747875,
+          "actualEnd": 1408.42675,
+          "timeDifference": 7.497875000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Return—Homecoming, Fame, and the Shadows of the Past",
+          "expectedStart": 1400.93,
+          "expectedEnd": 1623.1,
+          "actualStart": 1409.92675,
+          "actualEnd": 1632.098708,
+          "timeDifference": 8.99675000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Burden of Leadership—Lewis’s Struggles and the Price of Vision",
+          "expectedStart": 1623.1,
+          "expectedEnd": 1801.51,
+          "actualStart": 1633.598708,
+          "actualEnd": 1812.013375,
+          "timeDifference": 10.498708000000079
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Journey—Loss, Mystery, and the End of an Era",
+          "expectedStart": 1801.51,
+          "expectedEnd": 1980.18,
+          "actualStart": 1813.513375,
+          "actualEnd": 1992.183333,
+          "timeDifference": 12.003375000000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy—Memory, Myth, and the Meaning of the West",
+          "expectedStart": 1980.18,
+          "expectedEnd": 2131.89,
+          "actualStart": 1993.683333,
+          "actualEnd": 2145.396666,
+          "timeDifference": 13.503332999999884
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections—Lessons for Today and the Enduring Spirit of Discovery",
+          "expectedStart": 2131.89,
+          "expectedEnd": 2242.12,
+          "actualStart": 2146.896666,
+          "actualEnd": 2257.129458,
+          "timeDifference": 15.006666000000223
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2242.12,
+          "expectedEnd": 2375.62,
+          "actualStart": 2258.629458,
+          "actualEnd": 2392.1291659999997,
+          "timeDifference": 16.509457999999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.23525,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Dreams of a New World—Jefferson’s Vision and Lewis’s Early Path"
+        },
+        {
+          "startTime": 356.56345799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Dreams of a New World—Jefferson’s Vision and Lewis’s Early Path and Chapter 2 Preparing for the Unknown—Building the Corps of Discovery"
+        },
+        {
+          "startTime": 636.8328329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Preparing for the Unknown—Building the Corps of Discovery and Chapter 3 Into the Wild—Hardships, Discovery, and the Power of Leadership"
+        },
+        {
+          "startTime": 940.686958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Into the Wild—Hardships, Discovery, and the Power of Leadership and Chapter 4 Across the Divide—Mountains, Sacrifice, and the Limits of Endurance"
+        },
+        {
+          "startTime": 1177.247875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Across the Divide—Mountains, Sacrifice, and the Limits of Endurance and Chapter 5 Reaching the Pacific—Discovery, Disappointment, and the Long Road Home"
+        },
+        {
+          "startTime": 1408.42675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reaching the Pacific—Discovery, Disappointment, and the Long Road Home and Chapter 6 The Return—Homecoming, Fame, and the Shadows of the Past"
+        },
+        {
+          "startTime": 1632.098708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Return—Homecoming, Fame, and the Shadows of the Past and Chapter 7 The Burden of Leadership—Lewis’s Struggles and the Price of Vision"
+        },
+        {
+          "startTime": 1812.013375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Burden of Leadership—Lewis’s Struggles and the Price of Vision and Chapter 8 The Final Journey—Loss, Mystery, and the End of an Era"
+        },
+        {
+          "startTime": 1992.183333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Journey—Loss, Mystery, and the End of an Era and Chapter 9 The Legacy—Memory, Myth, and the Meaning of the West"
+        },
+        {
+          "startTime": 2145.396666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy—Memory, Myth, and the Meaning of the West and Chapter 10 Reflections—Lessons for Today and the Enduring Spirit of Discovery"
+        },
+        {
+          "startTime": 2257.129458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections—Lessons for Today and the Enduring Spirit of Discovery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2662",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:05:35.793Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

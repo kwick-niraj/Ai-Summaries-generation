@@ -1,0 +1,456 @@
+{
+  "bookId": "2383",
+  "timestamp": "2025-07-10T19:51:09.635Z",
+  "success": false,
+  "processingTime": -1752176754808,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5011,
+    "totalAudioFiles": 14,
+    "totalDuration": 1903.514292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 12,
+    "failed": 2,
+    "duration": 1903.514292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2383/optimized_text/2383.md",
+    "fileSize": 800,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2383.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2383/metadata/2383_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 1903.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2383/metadata/2383_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2383/metadata/2383_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2383/2383_complete.wav",
+    "duration": 1903.514292,
+    "fileSize": 91368764,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2383/introduction.wav",
+          "duration": 111.207083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.207083,
+          "startTime": 0,
+          "endTime": 111.207083
+        },
+        {
+          "path": "Audio/output/2383/chapter_03.wav",
+          "duration": 184.553042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Harm of Coming into Existence",
+          "actualDuration": 184.553042,
+          "startTime": 112.707083,
+          "endTime": 297.260125
+        },
+        {
+          "path": "Audio/output/2383/chapter_04.wav",
+          "duration": 191.773583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rethinking Procreation as a Moral Issue",
+          "actualDuration": 191.773583,
+          "startTime": 298.760125,
+          "endTime": 490.53370800000005
+        },
+        {
+          "path": "Audio/output/2383/chapter_05.wav",
+          "duration": 228.132875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Common Objections and the Power of Optimism Bias",
+          "actualDuration": 228.132875,
+          "startTime": 492.03370800000005,
+          "endTime": 720.1665830000001
+        },
+        {
+          "path": "Audio/output/2383/chapter_06.wav",
+          "duration": 169.932375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unchosen Burden: Consent and the Ethics of Creation",
+          "actualDuration": 169.932375,
+          "startTime": 721.6665830000001,
+          "endTime": 891.598958
+        },
+        {
+          "path": "Audio/output/2383/chapter_07.wav",
+          "duration": 151.941417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Scope of Harm: Suffering Across Species",
+          "actualDuration": 151.941417,
+          "startTime": 893.098958,
+          "endTime": 1045.040375
+        },
+        {
+          "path": "Audio/output/2383/chapter_08.wav",
+          "duration": 159.274667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Pull of Tradition and the Weight of Social Pressure",
+          "actualDuration": 159.274667,
+          "startTime": 1046.540375,
+          "endTime": 1205.815042
+        },
+        {
+          "path": "Audio/output/2383/chapter_09.wav",
+          "duration": 173.014833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Compensation: Can Good Make Up for Harm?",
+          "actualDuration": 173.014833,
+          "startTime": 1207.315042,
+          "endTime": 1380.329875
+        },
+        {
+          "path": "Audio/output/2383/chapter_10.wav",
+          "duration": 137.489792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Irreversibility of Existence",
+          "actualDuration": 137.489792,
+          "startTime": 1381.829875,
+          "endTime": 1519.319667
+        },
+        {
+          "path": "Audio/output/2383/chapter_11.wav",
+          "duration": 157.546,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Broader Consequences: Population, Environment, and the Future",
+          "actualDuration": 157.546,
+          "startTime": 1520.819667,
+          "endTime": 1678.365667
+        },
+        {
+          "path": "Audio/output/2383/chapter_12.wav",
+          "duration": 124.954583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living with the Knowledge: Compassion, Responsibility, and Hope",
+          "actualDuration": 124.954583,
+          "startTime": 1679.865667,
+          "endTime": 1804.82025
+        },
+        {
+          "path": "Audio/output/2383/conclusion.wav",
+          "duration": 113.694042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.694042,
+          "startTime": 1806.32025,
+          "endTime": 1920.014292
+        }
+      ],
+      "totalDuration": 1920.014292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.21,
+          "actualStart": 0,
+          "actualEnd": 111.207083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Harm of Coming into Existence",
+          "expectedStart": 111.21,
+          "expectedEnd": 295.76,
+          "actualStart": 112.707083,
+          "actualEnd": 297.260125,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rethinking Procreation as a Moral Issue",
+          "expectedStart": 295.76,
+          "expectedEnd": 487.53,
+          "actualStart": 298.760125,
+          "actualEnd": 490.53370800000005,
+          "timeDifference": 3.0001250000000255
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Common Objections and the Power of Optimism Bias",
+          "expectedStart": 487.53,
+          "expectedEnd": 715.66,
+          "actualStart": 492.03370800000005,
+          "actualEnd": 720.1665830000001,
+          "timeDifference": 4.503708000000074
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unchosen Burden: Consent and the Ethics of Creation",
+          "expectedStart": 715.66,
+          "expectedEnd": 885.59,
+          "actualStart": 721.6665830000001,
+          "actualEnd": 891.598958,
+          "timeDifference": 6.0065830000000915
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Scope of Harm: Suffering Across Species",
+          "expectedStart": 885.59,
+          "expectedEnd": 1037.53,
+          "actualStart": 893.098958,
+          "actualEnd": 1045.040375,
+          "timeDifference": 7.508958000000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Pull of Tradition and the Weight of Social Pressure",
+          "expectedStart": 1037.53,
+          "expectedEnd": 1196.8,
+          "actualStart": 1046.540375,
+          "actualEnd": 1205.815042,
+          "timeDifference": 9.010375000000067
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Compensation: Can Good Make Up for Harm?",
+          "expectedStart": 1196.8,
+          "expectedEnd": 1369.81,
+          "actualStart": 1207.315042,
+          "actualEnd": 1380.329875,
+          "timeDifference": 10.515041999999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Irreversibility of Existence",
+          "expectedStart": 1369.81,
+          "expectedEnd": 1507.3,
+          "actualStart": 1381.829875,
+          "actualEnd": 1519.319667,
+          "timeDifference": 12.019874999999956
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Broader Consequences: Population, Environment, and the Future",
+          "expectedStart": 1507.3,
+          "expectedEnd": 1664.85,
+          "actualStart": 1520.819667,
+          "actualEnd": 1678.365667,
+          "timeDifference": 13.519667000000027
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living with the Knowledge: Compassion, Responsibility, and Hope",
+          "expectedStart": 1664.85,
+          "expectedEnd": 1789.8,
+          "actualStart": 1679.865667,
+          "actualEnd": 1804.82025,
+          "timeDifference": 15.015667000000121
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1789.8,
+          "expectedEnd": 1903.49,
+          "actualStart": 1806.32025,
+          "actualEnd": 1920.014292,
+          "timeDifference": 16.520250000000033
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.207083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 3 The Harm of Coming into Existence"
+        },
+        {
+          "startTime": 297.260125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Harm of Coming into Existence and Chapter 4 Rethinking Procreation as a Moral Issue"
+        },
+        {
+          "startTime": 490.53370800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rethinking Procreation as a Moral Issue and Chapter 5 Common Objections and the Power of Optimism Bias"
+        },
+        {
+          "startTime": 720.1665830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Common Objections and the Power of Optimism Bias and Chapter 6 The Unchosen Burden: Consent and the Ethics of Creation"
+        },
+        {
+          "startTime": 891.598958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unchosen Burden: Consent and the Ethics of Creation and Chapter 7 The Scope of Harm: Suffering Across Species"
+        },
+        {
+          "startTime": 1045.040375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Scope of Harm: Suffering Across Species and Chapter 8 The Pull of Tradition and the Weight of Social Pressure"
+        },
+        {
+          "startTime": 1205.815042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Pull of Tradition and the Weight of Social Pressure and Chapter 9 The Limits of Compensation: Can Good Make Up for Harm?"
+        },
+        {
+          "startTime": 1380.329875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Compensation: Can Good Make Up for Harm? and Chapter 10 The Irreversibility of Existence"
+        },
+        {
+          "startTime": 1519.319667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Irreversibility of Existence and Chapter 11 The Broader Consequences: Population, Environment, and the Future"
+        },
+        {
+          "startTime": 1678.365667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Broader Consequences: Population, Environment, and the Future and Chapter 12 Living with the Knowledge: Compassion, Responsibility, and Hope"
+        },
+        {
+          "startTime": 1804.82025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living with the Knowledge: Compassion, Responsibility, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2383",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:45:55.369Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

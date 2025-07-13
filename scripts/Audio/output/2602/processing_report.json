@@ -1,0 +1,456 @@
+{
+  "bookId": "2602",
+  "timestamp": "2025-07-11T07:35:22.373Z",
+  "success": false,
+  "processingTime": -1752218982681,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4891,
+    "totalAudioFiles": 12,
+    "totalDuration": 2313.917916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2313.917916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2602/optimized_text/2602.md",
+    "fileSize": 657,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2602.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2602/metadata/2602_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2313.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2602/metadata/2602_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2602/metadata/2602_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2602/2602_complete.wav",
+    "duration": 2313.917917,
+    "fileSize": 111068138,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2602/introduction.wav",
+          "duration": 102.845583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.845583,
+          "startTime": 0,
+          "endTime": 102.845583
+        },
+        {
+          "path": "Audio/output/2602/chapter_01.wav",
+          "duration": 258.0725,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out with Dreams and Uncertainty",
+          "actualDuration": 258.0725,
+          "startTime": 104.345583,
+          "endTime": 362.418083
+        },
+        {
+          "path": "Audio/output/2602/chapter_02.wav",
+          "duration": 284.3535,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Meeting People and Witnessing Everyday Struggles",
+          "actualDuration": 284.3535,
+          "startTime": 363.918083,
+          "endTime": 648.271583
+        },
+        {
+          "path": "Audio/output/2602/chapter_03.wav",
+          "duration": 267.534042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Confronting Injustice and Growing Awareness",
+          "actualDuration": 267.534042,
+          "startTime": 649.771583,
+          "endTime": 917.305625
+        },
+        {
+          "path": "Audio/output/2602/chapter_04.wav",
+          "duration": 230.669208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Discovering Solidarity and the Power of Compassion",
+          "actualDuration": 230.669208,
+          "startTime": 918.805625,
+          "endTime": 1149.474833
+        },
+        {
+          "path": "Audio/output/2602/chapter_05.wav",
+          "duration": 195.005125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Transformation and the Seeds of a New Purpose",
+          "actualDuration": 195.005125,
+          "startTime": 1150.974833,
+          "endTime": 1345.979958
+        },
+        {
+          "path": "Audio/output/2602/chapter_06.wav",
+          "duration": 191.905542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road’s Harsh Lessons and the Weight of Responsibility",
+          "actualDuration": 191.905542,
+          "startTime": 1347.479958,
+          "endTime": 1539.3854999999999
+        },
+        {
+          "path": "Audio/output/2602/chapter_07.wav",
+          "duration": 195.13975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Encounters with Hope and the Seeds of Change",
+          "actualDuration": 195.13975,
+          "startTime": 1540.8854999999999,
+          "endTime": 1736.02525
+        },
+        {
+          "path": "Audio/output/2602/chapter_08.wav",
+          "duration": 158.405042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Mortality and the Limits of Idealism",
+          "actualDuration": 158.405042,
+          "startTime": 1737.52525,
+          "endTime": 1895.930292
+        },
+        {
+          "path": "Audio/output/2602/chapter_09.wav",
+          "duration": 146.548458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Awakening of Political Consciousness",
+          "actualDuration": 146.548458,
+          "startTime": 1897.430292,
+          "endTime": 2043.97875
+        },
+        {
+          "path": "Audio/output/2602/chapter_10.wav",
+          "duration": 140.092208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Final Stretch—Reflection and Farewell",
+          "actualDuration": 140.092208,
+          "startTime": 2045.47875,
+          "endTime": 2185.570958
+        },
+        {
+          "path": "Audio/output/2602/conclusion.wav",
+          "duration": 143.346958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.346958,
+          "startTime": 2187.070958,
+          "endTime": 2330.417916
+        }
+      ],
+      "totalDuration": 2330.417916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.85,
+          "actualStart": 0,
+          "actualEnd": 102.845583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out with Dreams and Uncertainty",
+          "expectedStart": 102.85,
+          "expectedEnd": 360.92,
+          "actualStart": 104.345583,
+          "actualEnd": 362.418083,
+          "timeDifference": 1.4955830000000105
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Meeting People and Witnessing Everyday Struggles",
+          "expectedStart": 360.92,
+          "expectedEnd": 645.27,
+          "actualStart": 363.918083,
+          "actualEnd": 648.271583,
+          "timeDifference": 2.9980830000000083
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Confronting Injustice and Growing Awareness",
+          "expectedStart": 645.27,
+          "expectedEnd": 912.8,
+          "actualStart": 649.771583,
+          "actualEnd": 917.305625,
+          "timeDifference": 4.501582999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Discovering Solidarity and the Power of Compassion",
+          "expectedStart": 912.8,
+          "expectedEnd": 1143.47,
+          "actualStart": 918.805625,
+          "actualEnd": 1149.474833,
+          "timeDifference": 6.005625000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Transformation and the Seeds of a New Purpose",
+          "expectedStart": 1143.47,
+          "expectedEnd": 1338.48,
+          "actualStart": 1150.974833,
+          "actualEnd": 1345.979958,
+          "timeDifference": 7.504832999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road’s Harsh Lessons and the Weight of Responsibility",
+          "expectedStart": 1338.48,
+          "expectedEnd": 1530.39,
+          "actualStart": 1347.479958,
+          "actualEnd": 1539.3854999999999,
+          "timeDifference": 8.999957999999879
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Encounters with Hope and the Seeds of Change",
+          "expectedStart": 1530.39,
+          "expectedEnd": 1725.53,
+          "actualStart": 1540.8854999999999,
+          "actualEnd": 1736.02525,
+          "timeDifference": 10.495499999999765
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Mortality and the Limits of Idealism",
+          "expectedStart": 1725.53,
+          "expectedEnd": 1883.94,
+          "actualStart": 1737.52525,
+          "actualEnd": 1895.930292,
+          "timeDifference": 11.995249999999942
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Awakening of Political Consciousness",
+          "expectedStart": 1883.94,
+          "expectedEnd": 2030.49,
+          "actualStart": 1897.430292,
+          "actualEnd": 2043.97875,
+          "timeDifference": 13.490291999999954
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Final Stretch—Reflection and Farewell",
+          "expectedStart": 2030.49,
+          "expectedEnd": 2170.58,
+          "actualStart": 2045.47875,
+          "actualEnd": 2185.570958,
+          "timeDifference": 14.988749999999982
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2170.58,
+          "expectedEnd": 2313.93,
+          "actualStart": 2187.070958,
+          "actualEnd": 2330.417916,
+          "timeDifference": 16.490957999999864
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.845583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out with Dreams and Uncertainty"
+        },
+        {
+          "startTime": 362.418083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out with Dreams and Uncertainty and Chapter 2 Meeting People and Witnessing Everyday Struggles"
+        },
+        {
+          "startTime": 648.271583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Meeting People and Witnessing Everyday Struggles and Chapter 3 Confronting Injustice and Growing Awareness"
+        },
+        {
+          "startTime": 917.305625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Confronting Injustice and Growing Awareness and Chapter 4 Discovering Solidarity and the Power of Compassion"
+        },
+        {
+          "startTime": 1149.474833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Discovering Solidarity and the Power of Compassion and Chapter 5 Transformation and the Seeds of a New Purpose"
+        },
+        {
+          "startTime": 1345.979958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Transformation and the Seeds of a New Purpose and Chapter 6 The Road’s Harsh Lessons and the Weight of Responsibility"
+        },
+        {
+          "startTime": 1539.3854999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road’s Harsh Lessons and the Weight of Responsibility and Chapter 7 Encounters with Hope and the Seeds of Change"
+        },
+        {
+          "startTime": 1736.02525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Encounters with Hope and the Seeds of Change and Chapter 8 Facing Mortality and the Limits of Idealism"
+        },
+        {
+          "startTime": 1895.930292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Mortality and the Limits of Idealism and Chapter 9 The Awakening of Political Consciousness"
+        },
+        {
+          "startTime": 2043.97875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Awakening of Political Consciousness and Chapter 10 The Final Stretch—Reflection and Farewell"
+        },
+        {
+          "startTime": 2185.570958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Final Stretch—Reflection and Farewell and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2602",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:29:43.206Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

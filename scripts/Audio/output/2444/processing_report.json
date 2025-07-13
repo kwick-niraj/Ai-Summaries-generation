@@ -1,0 +1,456 @@
+{
+  "bookId": "2444",
+  "timestamp": "2025-07-10T23:00:34.426Z",
+  "success": false,
+  "processingTime": -1752188099396,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4307,
+    "totalAudioFiles": 12,
+    "totalDuration": 1871.7392519999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1871.7392519999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2444/optimized_text/2444.md",
+    "fileSize": 783,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2444.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2444/metadata/2444_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1871.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2444/metadata/2444_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2444/metadata/2444_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2444/2444_complete.wav",
+    "duration": 1871.73925,
+    "fileSize": 89843562,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2444/introduction.wav",
+          "duration": 90.896125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.896125,
+          "startTime": 0,
+          "endTime": 90.896125
+        },
+        {
+          "path": "Audio/output/2444/chapter_01.wav",
+          "duration": 225.490167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Dreams of the North and the Promise of Discovery",
+          "actualDuration": 225.490167,
+          "startTime": 92.396125,
+          "endTime": 317.886292
+        },
+        {
+          "path": "Audio/output/2444/chapter_02.wav",
+          "duration": 184.971042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Into the Ice—Hope, Uncertainty, and the First Trials",
+          "actualDuration": 184.971042,
+          "startTime": 319.386292,
+          "endTime": 504.35733400000004
+        },
+        {
+          "path": "Audio/output/2444/chapter_03.wav",
+          "duration": 204.230292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Long Night—Endurance, Leadership, and the Limits of Optimism",
+          "actualDuration": 204.230292,
+          "startTime": 505.85733400000004,
+          "endTime": 710.087626
+        },
+        {
+          "path": "Audio/output/2444/chapter_04.wav",
+          "duration": 168.14025,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Catastrophe and the Fight for Survival",
+          "actualDuration": 168.14025,
+          "startTime": 711.587626,
+          "endTime": 879.727876
+        },
+        {
+          "path": "Audio/output/2444/chapter_05.wav",
+          "duration": 172.708583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Edge of the World—Loss, Memory, and the Meaning of Endurance",
+          "actualDuration": 172.708583,
+          "startTime": 881.227876,
+          "endTime": 1053.936459
+        },
+        {
+          "path": "Audio/output/2444/chapter_06.wav",
+          "duration": 158.321792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath on the Siberian Coast—A New Kind of Wilderness",
+          "actualDuration": 158.321792,
+          "startTime": 1055.436459,
+          "endTime": 1213.758251
+        },
+        {
+          "path": "Audio/output/2444/chapter_07.wav",
+          "duration": 143.321375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Search Parties—Desperation, Loyalty, and the Cost of Rescue",
+          "actualDuration": 143.321375,
+          "startTime": 1215.258251,
+          "endTime": 1358.579626
+        },
+        {
+          "path": "Audio/output/2444/chapter_08.wav",
+          "duration": 136.848375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Homecoming—Fame, Grief, and the Weight of Memory",
+          "actualDuration": 136.848375,
+          "startTime": 1360.079626,
+          "endTime": 1496.928001
+        },
+        {
+          "path": "Audio/output/2444/chapter_09.wav",
+          "duration": 151.811542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of the Jeannette—Science, Myth, and the Changing Face of Exploration",
+          "actualDuration": 151.811542,
+          "startTime": 1498.428001,
+          "endTime": 1650.239543
+        },
+        {
+          "path": "Audio/output/2444/chapter_10.wav",
+          "duration": 113.380792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections—What the Kingdom of Ice Still Teaches Us",
+          "actualDuration": 113.380792,
+          "startTime": 1651.739543,
+          "endTime": 1765.1203349999998
+        },
+        {
+          "path": "Audio/output/2444/conclusion.wav",
+          "duration": 121.618917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.618917,
+          "startTime": 1766.6203349999998,
+          "endTime": 1888.2392519999999
+        }
+      ],
+      "totalDuration": 1888.2392519999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.9,
+          "actualStart": 0,
+          "actualEnd": 90.896125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Dreams of the North and the Promise of Discovery",
+          "expectedStart": 90.9,
+          "expectedEnd": 316.39,
+          "actualStart": 92.396125,
+          "actualEnd": 317.886292,
+          "timeDifference": 1.4961249999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Into the Ice—Hope, Uncertainty, and the First Trials",
+          "expectedStart": 316.39,
+          "expectedEnd": 501.36,
+          "actualStart": 319.386292,
+          "actualEnd": 504.35733400000004,
+          "timeDifference": 2.9962920000000395
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Long Night—Endurance, Leadership, and the Limits of Optimism",
+          "expectedStart": 501.36,
+          "expectedEnd": 705.59,
+          "actualStart": 505.85733400000004,
+          "actualEnd": 710.087626,
+          "timeDifference": 4.4973340000000235
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Catastrophe and the Fight for Survival",
+          "expectedStart": 705.59,
+          "expectedEnd": 873.73,
+          "actualStart": 711.587626,
+          "actualEnd": 879.727876,
+          "timeDifference": 5.997625999999968
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Edge of the World—Loss, Memory, and the Meaning of Endurance",
+          "expectedStart": 873.73,
+          "expectedEnd": 1046.44,
+          "actualStart": 881.227876,
+          "actualEnd": 1053.936459,
+          "timeDifference": 7.497876000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath on the Siberian Coast—A New Kind of Wilderness",
+          "expectedStart": 1046.44,
+          "expectedEnd": 1204.76,
+          "actualStart": 1055.436459,
+          "actualEnd": 1213.758251,
+          "timeDifference": 8.996458999999959
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Search Parties—Desperation, Loyalty, and the Cost of Rescue",
+          "expectedStart": 1204.76,
+          "expectedEnd": 1348.08,
+          "actualStart": 1215.258251,
+          "actualEnd": 1358.579626,
+          "timeDifference": 10.498250999999982
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Homecoming—Fame, Grief, and the Weight of Memory",
+          "expectedStart": 1348.08,
+          "expectedEnd": 1484.93,
+          "actualStart": 1360.079626,
+          "actualEnd": 1496.928001,
+          "timeDifference": 11.999626000000035
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of the Jeannette—Science, Myth, and the Changing Face of Exploration",
+          "expectedStart": 1484.93,
+          "expectedEnd": 1636.74,
+          "actualStart": 1498.428001,
+          "actualEnd": 1650.239543,
+          "timeDifference": 13.498000999999931
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections—What the Kingdom of Ice Still Teaches Us",
+          "expectedStart": 1636.74,
+          "expectedEnd": 1750.12,
+          "actualStart": 1651.739543,
+          "actualEnd": 1765.1203349999998,
+          "timeDifference": 14.999542999999903
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1750.12,
+          "expectedEnd": 1871.74,
+          "actualStart": 1766.6203349999998,
+          "actualEnd": 1888.2392519999999,
+          "timeDifference": 16.50033499999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.896125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Dreams of the North and the Promise of Discovery"
+        },
+        {
+          "startTime": 317.886292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Dreams of the North and the Promise of Discovery and Chapter 2 Into the Ice—Hope, Uncertainty, and the First Trials"
+        },
+        {
+          "startTime": 504.35733400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Into the Ice—Hope, Uncertainty, and the First Trials and Chapter 3 The Long Night—Endurance, Leadership, and the Limits of Optimism"
+        },
+        {
+          "startTime": 710.087626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Long Night—Endurance, Leadership, and the Limits of Optimism and Chapter 4 Catastrophe and the Fight for Survival"
+        },
+        {
+          "startTime": 879.727876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Catastrophe and the Fight for Survival and Chapter 5 The Edge of the World—Loss, Memory, and the Meaning of Endurance"
+        },
+        {
+          "startTime": 1053.936459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Edge of the World—Loss, Memory, and the Meaning of Endurance and Chapter 6 Aftermath on the Siberian Coast—A New Kind of Wilderness"
+        },
+        {
+          "startTime": 1213.758251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath on the Siberian Coast—A New Kind of Wilderness and Chapter 7 The Search Parties—Desperation, Loyalty, and the Cost of Rescue"
+        },
+        {
+          "startTime": 1358.579626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Search Parties—Desperation, Loyalty, and the Cost of Rescue and Chapter 8 Homecoming—Fame, Grief, and the Weight of Memory"
+        },
+        {
+          "startTime": 1496.928001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Homecoming—Fame, Grief, and the Weight of Memory and Chapter 9 The Legacy of the Jeannette—Science, Myth, and the Changing Face of Exploration"
+        },
+        {
+          "startTime": 1650.239543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of the Jeannette—Science, Myth, and the Changing Face of Exploration and Chapter 10 Reflections—What the Kingdom of Ice Still Teaches Us"
+        },
+        {
+          "startTime": 1765.1203349999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections—What the Kingdom of Ice Still Teaches Us and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2444",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:54:59.976Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

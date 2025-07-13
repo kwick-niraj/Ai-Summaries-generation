@@ -1,0 +1,431 @@
+{
+  "bookId": "2355",
+  "timestamp": "2025-07-10T17:51:09.108Z",
+  "success": false,
+  "processingTime": -1752169549313,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4310,
+    "totalAudioFiles": 11,
+    "totalDuration": 1838.637041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1838.637041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2355/optimized_text/2355.md",
+    "fileSize": 645,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2355.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2355/metadata/2355_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1838.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2355/metadata/2355_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2355/metadata/2355_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2355/2355_complete.wav",
+    "duration": 1838.637042,
+    "fileSize": 88254656,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2355/introduction.wav",
+          "duration": 82.425417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.425417,
+          "startTime": 0,
+          "endTime": 82.425417
+        },
+        {
+          "path": "Audio/output/2355/chapter_01.wav",
+          "duration": 195.345875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How the Internet Changed Everyday Language",
+          "actualDuration": 195.345875,
+          "startTime": 83.925417,
+          "endTime": 279.271292
+        },
+        {
+          "path": "Audio/output/2355/chapter_02.wav",
+          "duration": 224.539958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Online Communities and Their Unique Ways of Speaking",
+          "actualDuration": 224.539958,
+          "startTime": 280.771292,
+          "endTime": 505.31125000000003
+        },
+        {
+          "path": "Audio/output/2355/chapter_03.wav",
+          "duration": 194.06075,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Generational Differences in Online Language",
+          "actualDuration": 194.06075,
+          "startTime": 506.81125000000003,
+          "endTime": 700.8720000000001
+        },
+        {
+          "path": "Audio/output/2355/chapter_04.wav",
+          "duration": 188.729042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Punctuation, Capitalization, and the Subtle Art of Online Tone",
+          "actualDuration": 188.729042,
+          "startTime": 702.3720000000001,
+          "endTime": 891.101042
+        },
+        {
+          "path": "Audio/output/2355/chapter_05.wav",
+          "duration": 192.778958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memes, Emojis, and the New Visual Language",
+          "actualDuration": 192.778958,
+          "startTime": 892.601042,
+          "endTime": 1085.38
+        },
+        {
+          "path": "Audio/output/2355/chapter_06.wav",
+          "duration": 169.775833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 How the Internet Documents Language Change in Real Time",
+          "actualDuration": 169.775833,
+          "startTime": 1086.88,
+          "endTime": 1256.655833
+        },
+        {
+          "path": "Audio/output/2355/chapter_07.wav",
+          "duration": 169.704583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Identity, Belonging, and the Language of the Internet",
+          "actualDuration": 169.704583,
+          "startTime": 1258.155833,
+          "endTime": 1427.860416
+        },
+        {
+          "path": "Audio/output/2355/chapter_08.wav",
+          "duration": 153.9485,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Internet’s Influence on Formal and Informal English",
+          "actualDuration": 153.9485,
+          "startTime": 1429.360416,
+          "endTime": 1583.308916
+        },
+        {
+          "path": "Audio/output/2355/chapter_09.wav",
+          "duration": 129.067958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of English in a Connected World",
+          "actualDuration": 129.067958,
+          "startTime": 1584.808916,
+          "endTime": 1713.876874
+        },
+        {
+          "path": "Audio/output/2355/conclusion.wav",
+          "duration": 138.260167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.260167,
+          "startTime": 1715.376874,
+          "endTime": 1853.637041
+        }
+      ],
+      "totalDuration": 1853.637041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.43,
+          "actualStart": 0,
+          "actualEnd": 82.425417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How the Internet Changed Everyday Language",
+          "expectedStart": 82.43,
+          "expectedEnd": 277.78,
+          "actualStart": 83.925417,
+          "actualEnd": 279.271292,
+          "timeDifference": 1.4954169999999891
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Online Communities and Their Unique Ways of Speaking",
+          "expectedStart": 277.78,
+          "expectedEnd": 502.32,
+          "actualStart": 280.771292,
+          "actualEnd": 505.31125000000003,
+          "timeDifference": 2.991292000000044
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Generational Differences in Online Language",
+          "expectedStart": 502.32,
+          "expectedEnd": 696.38,
+          "actualStart": 506.81125000000003,
+          "actualEnd": 700.8720000000001,
+          "timeDifference": 4.491250000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Punctuation, Capitalization, and the Subtle Art of Online Tone",
+          "expectedStart": 696.38,
+          "expectedEnd": 885.11,
+          "actualStart": 702.3720000000001,
+          "actualEnd": 891.101042,
+          "timeDifference": 5.9920000000000755
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memes, Emojis, and the New Visual Language",
+          "expectedStart": 885.11,
+          "expectedEnd": 1077.89,
+          "actualStart": 892.601042,
+          "actualEnd": 1085.38,
+          "timeDifference": 7.491041999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 How the Internet Documents Language Change in Real Time",
+          "expectedStart": 1077.89,
+          "expectedEnd": 1247.67,
+          "actualStart": 1086.88,
+          "actualEnd": 1256.655833,
+          "timeDifference": 8.990000000000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Identity, Belonging, and the Language of the Internet",
+          "expectedStart": 1247.67,
+          "expectedEnd": 1417.37,
+          "actualStart": 1258.155833,
+          "actualEnd": 1427.860416,
+          "timeDifference": 10.485832999999957
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Internet’s Influence on Formal and Informal English",
+          "expectedStart": 1417.37,
+          "expectedEnd": 1571.32,
+          "actualStart": 1429.360416,
+          "actualEnd": 1583.308916,
+          "timeDifference": 11.990416000000096
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of English in a Connected World",
+          "expectedStart": 1571.32,
+          "expectedEnd": 1700.39,
+          "actualStart": 1584.808916,
+          "actualEnd": 1713.876874,
+          "timeDifference": 13.488916000000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1700.39,
+          "expectedEnd": 1838.65,
+          "actualStart": 1715.376874,
+          "actualEnd": 1853.637041,
+          "timeDifference": 14.986873999999943
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.425417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How the Internet Changed Everyday Language"
+        },
+        {
+          "startTime": 279.271292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How the Internet Changed Everyday Language and Chapter 2 The Rise of Online Communities and Their Unique Ways of Speaking"
+        },
+        {
+          "startTime": 505.31125000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Online Communities and Their Unique Ways of Speaking and Chapter 3 Generational Differences in Online Language"
+        },
+        {
+          "startTime": 700.8720000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Generational Differences in Online Language and Chapter 4 Punctuation, Capitalization, and the Subtle Art of Online Tone"
+        },
+        {
+          "startTime": 891.101042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Punctuation, Capitalization, and the Subtle Art of Online Tone and Chapter 5 Memes, Emojis, and the New Visual Language"
+        },
+        {
+          "startTime": 1085.38,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memes, Emojis, and the New Visual Language and Chapter 6 How the Internet Documents Language Change in Real Time"
+        },
+        {
+          "startTime": 1256.655833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 How the Internet Documents Language Change in Real Time and Chapter 7 Identity, Belonging, and the Language of the Internet"
+        },
+        {
+          "startTime": 1427.860416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Identity, Belonging, and the Language of the Internet and Chapter 8 The Internet’s Influence on Formal and Informal English"
+        },
+        {
+          "startTime": 1583.308916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Internet’s Influence on Formal and Informal English and Chapter 9 The Future of English in a Connected World"
+        },
+        {
+          "startTime": 1713.876874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of English in a Connected World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2355",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T17:45:49.886Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

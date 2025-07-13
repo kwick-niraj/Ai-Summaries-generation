@@ -1,0 +1,409 @@
+{
+  "bookId": "2345",
+  "timestamp": "2025-07-10T17:03:45.965Z",
+  "success": false,
+  "processingTime": -1752166749881,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4862,
+    "totalAudioFiles": 11,
+    "totalDuration": 2049.316251
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 2049.316251
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2345/optimized_text/2345.md",
+    "fileSize": 0,
+    "wordCount": 0,
+    "format": "markdown",
+    "filename": "2345.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2345/metadata/2345_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2049.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2345/metadata/2345_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2345/metadata/2345_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2345/2345_complete.wav",
+    "duration": 2049.31625,
+    "fileSize": 98367258,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2345/introduction.wav",
+          "duration": 97.64,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.64,
+          "startTime": 0,
+          "endTime": 97.64
+        },
+        {
+          "path": "Audio/output/2345/chapter_01.wav",
+          "duration": 201.855625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Meaning in a World of Many Paths",
+          "actualDuration": 201.855625,
+          "startTime": 99.14,
+          "endTime": 300.995625
+        },
+        {
+          "path": "Audio/output/2345/chapter_02.wav",
+          "duration": 229.026167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Heart of Hinduism—Embracing the Many Faces of the Divine",
+          "actualDuration": 229.026167,
+          "startTime": 302.495625,
+          "endTime": 531.521792
+        },
+        {
+          "path": "Audio/output/2345/chapter_03.wav",
+          "duration": 250.755875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Path of the Buddha—Finding Freedom from Suffering",
+          "actualDuration": 250.755875,
+          "startTime": 533.021792,
+          "endTime": 783.7776670000001
+        },
+        {
+          "path": "Audio/output/2345/chapter_04.wav",
+          "duration": 238.587917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Wisdom of Confucius—Building Harmony in Human Relationships",
+          "actualDuration": 238.587917,
+          "startTime": 785.2776670000001,
+          "endTime": 1023.8655840000001
+        },
+        {
+          "path": "Audio/output/2345/chapter_05.wav",
+          "duration": 239.334125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Way of Taoism—Living in Harmony with the Flow of Life",
+          "actualDuration": 239.334125,
+          "startTime": 1025.3655840000001,
+          "endTime": 1264.6997090000002
+        },
+        {
+          "path": "Audio/output/2345/chapter_06.wav",
+          "duration": 202.365708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Story of Judaism—Remembering, Belonging, and the Power of Covenant",
+          "actualDuration": 202.365708,
+          "startTime": 1266.1997090000002,
+          "endTime": 1468.5654170000003
+        },
+        {
+          "path": "Audio/output/2345/chapter_07.wav",
+          "duration": 208.577917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Christianity—Love, Sacrifice, and the Promise of Renewal",
+          "actualDuration": 208.577917,
+          "startTime": 1470.0654170000003,
+          "endTime": 1678.6433340000003
+        },
+        {
+          "path": "Audio/output/2345/chapter_08.wav",
+          "duration": 210.974125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Islam—Surrender, Community, and the Beauty of Devotion",
+          "actualDuration": 210.974125,
+          "startTime": 1680.1433340000003,
+          "endTime": 1891.1174590000003
+        },
+        {
+          "path": "Audio/output/2345/chapter_09.wav",
+          "duration": 170.198792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Many Paths—Encounter, Dialogue, and the Challenge of Pluralism",
+          "actualDuration": 170.198792,
+          "startTime": 1892.6174590000003,
+          "endTime": 2062.816251
+        }
+      ],
+      "totalDuration": 2062.816251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.64,
+          "actualStart": 0,
+          "actualEnd": 97.64,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Meaning in a World of Many Paths",
+          "expectedStart": 97.64,
+          "expectedEnd": 299.5,
+          "actualStart": 99.14,
+          "actualEnd": 300.995625,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Heart of Hinduism—Embracing the Many Faces of the Divine",
+          "expectedStart": 299.5,
+          "expectedEnd": 528.53,
+          "actualStart": 302.495625,
+          "actualEnd": 531.521792,
+          "timeDifference": 2.995625000000018
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Path of the Buddha—Finding Freedom from Suffering",
+          "expectedStart": 528.53,
+          "expectedEnd": 779.29,
+          "actualStart": 533.021792,
+          "actualEnd": 783.7776670000001,
+          "timeDifference": 4.491792000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Wisdom of Confucius—Building Harmony in Human Relationships",
+          "expectedStart": 779.29,
+          "expectedEnd": 1017.88,
+          "actualStart": 785.2776670000001,
+          "actualEnd": 1023.8655840000001,
+          "timeDifference": 5.987667000000101
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Way of Taoism—Living in Harmony with the Flow of Life",
+          "expectedStart": 1017.88,
+          "expectedEnd": 1257.21,
+          "actualStart": 1025.3655840000001,
+          "actualEnd": 1264.6997090000002,
+          "timeDifference": 7.485584000000131
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Story of Judaism—Remembering, Belonging, and the Power of Covenant",
+          "expectedStart": 1257.21,
+          "expectedEnd": 1459.58,
+          "actualStart": 1266.1997090000002,
+          "actualEnd": 1468.5654170000003,
+          "timeDifference": 8.989709000000175
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Christianity—Love, Sacrifice, and the Promise of Renewal",
+          "expectedStart": 1459.58,
+          "expectedEnd": 1668.16,
+          "actualStart": 1470.0654170000003,
+          "actualEnd": 1678.6433340000003,
+          "timeDifference": 10.485417000000325
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Islam—Surrender, Community, and the Beauty of Devotion",
+          "expectedStart": 1668.16,
+          "expectedEnd": 1879.13,
+          "actualStart": 1680.1433340000003,
+          "actualEnd": 1891.1174590000003,
+          "timeDifference": 11.98333400000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Many Paths—Encounter, Dialogue, and the Challenge of Pluralism",
+          "expectedStart": 1879.13,
+          "expectedEnd": 2049.33,
+          "actualStart": 1892.6174590000003,
+          "actualEnd": 2062.816251,
+          "timeDifference": 13.487459000000172
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.64,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Meaning in a World of Many Paths"
+        },
+        {
+          "startTime": 300.995625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Meaning in a World of Many Paths and Chapter 2 The Heart of Hinduism—Embracing the Many Faces of the Divine"
+        },
+        {
+          "startTime": 531.521792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Heart of Hinduism—Embracing the Many Faces of the Divine and Chapter 3 The Path of the Buddha—Finding Freedom from Suffering"
+        },
+        {
+          "startTime": 783.7776670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Path of the Buddha—Finding Freedom from Suffering and Chapter 4 The Wisdom of Confucius—Building Harmony in Human Relationships"
+        },
+        {
+          "startTime": 1023.8655840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Wisdom of Confucius—Building Harmony in Human Relationships and Chapter 5 The Way of Taoism—Living in Harmony with the Flow of Life"
+        },
+        {
+          "startTime": 1264.6997090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Way of Taoism—Living in Harmony with the Flow of Life and Chapter 6 The Story of Judaism—Remembering, Belonging, and the Power of Covenant"
+        },
+        {
+          "startTime": 1468.5654170000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Story of Judaism—Remembering, Belonging, and the Power of Covenant and Chapter 7 Christianity—Love, Sacrifice, and the Promise of Renewal"
+        },
+        {
+          "startTime": 1678.6433340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Christianity—Love, Sacrifice, and the Promise of Renewal and Chapter 8 Islam—Surrender, Community, and the Beauty of Devotion"
+        },
+        {
+          "startTime": 1891.1174590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Islam—Surrender, Community, and the Beauty of Devotion and Chapter 9 The Many Paths—Encounter, Dialogue, and the Challenge of Pluralism"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2345",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T16:59:11.555Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

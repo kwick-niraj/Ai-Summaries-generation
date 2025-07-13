@@ -1,0 +1,456 @@
+{
+  "bookId": "2465",
+  "timestamp": "2025-07-10T23:49:36.892Z",
+  "success": false,
+  "processingTime": -1752191107160,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4620,
+    "totalAudioFiles": 12,
+    "totalDuration": 2182.876916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2182.876916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2465/optimized_text/2465.md",
+    "fileSize": 601,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2465.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2465/metadata/2465_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2182.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2465/metadata/2465_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2465/metadata/2465_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2465/2465_complete.wav",
+    "duration": 2182.876917,
+    "fileSize": 104778170,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2465/introduction.wav",
+          "duration": 91.298958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.298958,
+          "startTime": 0,
+          "endTime": 91.298958
+        },
+        {
+          "path": "Audio/output/2465/chapter_01.wav",
+          "duration": 255.71225,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Doubt in a World That Questions Everything",
+          "actualDuration": 255.71225,
+          "startTime": 92.798958,
+          "endTime": 348.511208
+        },
+        {
+          "path": "Audio/output/2465/chapter_02.wav",
+          "duration": 257.634083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding What Faith Really Means",
+          "actualDuration": 257.634083,
+          "startTime": 350.011208,
+          "endTime": 607.645291
+        },
+        {
+          "path": "Audio/output/2465/chapter_03.wav",
+          "duration": 257.770917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Myth of Conflict Between Science and Faith",
+          "actualDuration": 257.770917,
+          "startTime": 609.145291,
+          "endTime": 866.9162080000001
+        },
+        {
+          "path": "Audio/output/2465/chapter_04.wav",
+          "duration": 251.988583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Belief in God Can Be Rational",
+          "actualDuration": 251.988583,
+          "startTime": 868.4162080000001,
+          "endTime": 1120.4047910000002
+        },
+        {
+          "path": "Audio/output/2465/chapter_05.wav",
+          "duration": 216.590958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Hidden Faith of Atheism",
+          "actualDuration": 216.590958,
+          "startTime": 1121.9047910000002,
+          "endTime": 1338.4957490000002
+        },
+        {
+          "path": "Audio/output/2465/chapter_06.wav",
+          "duration": 165.723917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Responding to Challenges Without Fear",
+          "actualDuration": 165.723917,
+          "startTime": 1339.9957490000002,
+          "endTime": 1505.7196660000002
+        },
+        {
+          "path": "Audio/output/2465/chapter_07.wav",
+          "duration": 151.510667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Humility and Confidence—A New Way to Hold Faith",
+          "actualDuration": 151.510667,
+          "startTime": 1507.2196660000002,
+          "endTime": 1658.7303330000002
+        },
+        {
+          "path": "Audio/output/2465/chapter_08.wav",
+          "duration": 154.294833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Engaging a Skeptical World—Practical Wisdom",
+          "actualDuration": 154.294833,
+          "startTime": 1660.2303330000002,
+          "endTime": 1814.5251660000001
+        },
+        {
+          "path": "Audio/output/2465/chapter_09.wav",
+          "duration": 135.082042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Community in Strengthening Faith",
+          "actualDuration": 135.082042,
+          "startTime": 1816.0251660000001,
+          "endTime": 1951.1072080000001
+        },
+        {
+          "path": "Audio/output/2465/chapter_10.wav",
+          "duration": 119.783708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Out Faith with Integrity",
+          "actualDuration": 119.783708,
+          "startTime": 1952.6072080000001,
+          "endTime": 2072.3909160000003
+        },
+        {
+          "path": "Audio/output/2465/conclusion.wav",
+          "duration": 125.486,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.486,
+          "startTime": 2073.8909160000003,
+          "endTime": 2199.376916
+        }
+      ],
+      "totalDuration": 2199.376916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.3,
+          "actualStart": 0,
+          "actualEnd": 91.298958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Doubt in a World That Questions Everything",
+          "expectedStart": 91.3,
+          "expectedEnd": 347.01,
+          "actualStart": 92.798958,
+          "actualEnd": 348.511208,
+          "timeDifference": 1.4989580000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding What Faith Really Means",
+          "expectedStart": 347.01,
+          "expectedEnd": 604.64,
+          "actualStart": 350.011208,
+          "actualEnd": 607.645291,
+          "timeDifference": 3.0012080000000196
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Myth of Conflict Between Science and Faith",
+          "expectedStart": 604.64,
+          "expectedEnd": 862.41,
+          "actualStart": 609.145291,
+          "actualEnd": 866.9162080000001,
+          "timeDifference": 4.505291000000057
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Belief in God Can Be Rational",
+          "expectedStart": 862.41,
+          "expectedEnd": 1114.4,
+          "actualStart": 868.4162080000001,
+          "actualEnd": 1120.4047910000002,
+          "timeDifference": 6.006208000000129
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Hidden Faith of Atheism",
+          "expectedStart": 1114.4,
+          "expectedEnd": 1330.99,
+          "actualStart": 1121.9047910000002,
+          "actualEnd": 1338.4957490000002,
+          "timeDifference": 7.504791000000068
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Responding to Challenges Without Fear",
+          "expectedStart": 1330.99,
+          "expectedEnd": 1496.71,
+          "actualStart": 1339.9957490000002,
+          "actualEnd": 1505.7196660000002,
+          "timeDifference": 9.00574900000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Humility and Confidence—A New Way to Hold Faith",
+          "expectedStart": 1496.71,
+          "expectedEnd": 1648.22,
+          "actualStart": 1507.2196660000002,
+          "actualEnd": 1658.7303330000002,
+          "timeDifference": 10.509666000000152
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Engaging a Skeptical World—Practical Wisdom",
+          "expectedStart": 1648.22,
+          "expectedEnd": 1802.51,
+          "actualStart": 1660.2303330000002,
+          "actualEnd": 1814.5251660000001,
+          "timeDifference": 12.010333000000173
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Community in Strengthening Faith",
+          "expectedStart": 1802.51,
+          "expectedEnd": 1937.59,
+          "actualStart": 1816.0251660000001,
+          "actualEnd": 1951.1072080000001,
+          "timeDifference": 13.515166000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Out Faith with Integrity",
+          "expectedStart": 1937.59,
+          "expectedEnd": 2057.37,
+          "actualStart": 1952.6072080000001,
+          "actualEnd": 2072.3909160000003,
+          "timeDifference": 15.01720800000021
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2057.37,
+          "expectedEnd": 2182.86,
+          "actualStart": 2073.8909160000003,
+          "actualEnd": 2199.376916,
+          "timeDifference": 16.520916000000398
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.298958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Doubt in a World That Questions Everything"
+        },
+        {
+          "startTime": 348.511208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Doubt in a World That Questions Everything and Chapter 2 Understanding What Faith Really Means"
+        },
+        {
+          "startTime": 607.645291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding What Faith Really Means and Chapter 3 The Myth of Conflict Between Science and Faith"
+        },
+        {
+          "startTime": 866.9162080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Myth of Conflict Between Science and Faith and Chapter 4 How Belief in God Can Be Rational"
+        },
+        {
+          "startTime": 1120.4047910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Belief in God Can Be Rational and Chapter 5 The Hidden Faith of Atheism"
+        },
+        {
+          "startTime": 1338.4957490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Hidden Faith of Atheism and Chapter 6 Responding to Challenges Without Fear"
+        },
+        {
+          "startTime": 1505.7196660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Responding to Challenges Without Fear and Chapter 7 Humility and Confidence—A New Way to Hold Faith"
+        },
+        {
+          "startTime": 1658.7303330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Humility and Confidence—A New Way to Hold Faith and Chapter 8 Engaging a Skeptical World—Practical Wisdom"
+        },
+        {
+          "startTime": 1814.5251660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Engaging a Skeptical World—Practical Wisdom and Chapter 9 The Role of Community in Strengthening Faith"
+        },
+        {
+          "startTime": 1951.1072080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Community in Strengthening Faith and Chapter 10 Living Out Faith with Integrity"
+        },
+        {
+          "startTime": 2072.3909160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Out Faith with Integrity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2465",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:45:07.689Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

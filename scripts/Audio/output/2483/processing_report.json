@@ -1,0 +1,456 @@
+{
+  "bookId": "2483",
+  "timestamp": "2025-07-11T00:35:46.941Z",
+  "success": false,
+  "processingTime": -1752193901386,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4274,
+    "totalAudioFiles": 12,
+    "totalDuration": 1866.8162490000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1866.8162490000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2483/optimized_text/2483.md",
+    "fileSize": 820,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "2483.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2483/metadata/2483_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1866.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2483/metadata/2483_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2483/metadata/2483_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2483/2483_complete.wav",
+    "duration": 1866.81625,
+    "fileSize": 89607258,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2483/introduction.wav",
+          "duration": 93.760708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.760708,
+          "startTime": 0,
+          "endTime": 93.760708
+        },
+        {
+          "path": "Audio/output/2483/chapter_01.wav",
+          "duration": 182.146167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Boy’s Beginnings: From Caribbean Shadows to French Promise",
+          "actualDuration": 182.146167,
+          "startTime": 95.260708,
+          "endTime": 277.406875
+        },
+        {
+          "path": "Audio/output/2483/chapter_02.wav",
+          "duration": 191.648208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rising Through the Ranks: The Making of a Revolutionary Soldier",
+          "actualDuration": 191.648208,
+          "startTime": 278.906875,
+          "endTime": 470.555083
+        },
+        {
+          "path": "Audio/output/2483/chapter_03.wav",
+          "duration": 204.386958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Highs and Lows of Revolutionary France: Heroism, Prejudice, and Political Shifts",
+          "actualDuration": 204.386958,
+          "startTime": 472.055083,
+          "endTime": 676.442041
+        },
+        {
+          "path": "Audio/output/2483/chapter_04.wav",
+          "duration": 165.789958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Betrayal and Imprisonment: The Price of Principle",
+          "actualDuration": 165.789958,
+          "startTime": 677.942041,
+          "endTime": 843.7319990000001
+        },
+        {
+          "path": "Audio/output/2483/chapter_05.wav",
+          "duration": 136.194917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Legacy and Inspiration: A Son’s Imagination and the Echoes of History",
+          "actualDuration": 136.194917,
+          "startTime": 845.2319990000001,
+          "endTime": 981.4269160000001
+        },
+        {
+          "path": "Audio/output/2483/chapter_06.wav",
+          "duration": 180.839208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shadow of a Father: Alexandre Dumas and the Weight of Memory",
+          "actualDuration": 180.839208,
+          "startTime": 982.9269160000001,
+          "endTime": 1163.7661240000002
+        },
+        {
+          "path": "Audio/output/2483/chapter_07.wav",
+          "duration": 172.129875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Writing Against the Grain: Alexandre’s Literary Ascent",
+          "actualDuration": 172.129875,
+          "startTime": 1165.2661240000002,
+          "endTime": 1337.3959990000003
+        },
+        {
+          "path": "Audio/output/2483/chapter_08.wav",
+          "duration": 163.132542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ghosts of Revolution: France’s Uneasy Reckoning",
+          "actualDuration": 163.132542,
+          "startTime": 1338.8959990000003,
+          "endTime": 1502.0285410000004
+        },
+        {
+          "path": "Audio/output/2483/chapter_09.wav",
+          "duration": 124.178792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Count of Monte Cristo: Art as Memory and Justice",
+          "actualDuration": 124.178792,
+          "startTime": 1503.5285410000004,
+          "endTime": 1627.7073330000003
+        },
+        {
+          "path": "Audio/output/2483/chapter_10.wav",
+          "duration": 138.332833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Echoes Across Time: Race, Memory, and the Unfinished Revolution",
+          "actualDuration": 138.332833,
+          "startTime": 1629.2073330000003,
+          "endTime": 1767.5401660000002
+        },
+        {
+          "path": "Audio/output/2483/conclusion.wav",
+          "duration": 114.276083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.276083,
+          "startTime": 1769.0401660000002,
+          "endTime": 1883.3162490000002
+        }
+      ],
+      "totalDuration": 1883.3162490000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.76,
+          "actualStart": 0,
+          "actualEnd": 93.760708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Boy’s Beginnings: From Caribbean Shadows to French Promise",
+          "expectedStart": 93.76,
+          "expectedEnd": 275.91,
+          "actualStart": 95.260708,
+          "actualEnd": 277.406875,
+          "timeDifference": 1.5007079999999888
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rising Through the Ranks: The Making of a Revolutionary Soldier",
+          "expectedStart": 275.91,
+          "expectedEnd": 467.56,
+          "actualStart": 278.906875,
+          "actualEnd": 470.555083,
+          "timeDifference": 2.9968749999999886
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Highs and Lows of Revolutionary France: Heroism, Prejudice, and Political Shifts",
+          "expectedStart": 467.56,
+          "expectedEnd": 671.95,
+          "actualStart": 472.055083,
+          "actualEnd": 676.442041,
+          "timeDifference": 4.495083000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Betrayal and Imprisonment: The Price of Principle",
+          "expectedStart": 671.95,
+          "expectedEnd": 837.74,
+          "actualStart": 677.942041,
+          "actualEnd": 843.7319990000001,
+          "timeDifference": 5.992040999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Legacy and Inspiration: A Son’s Imagination and the Echoes of History",
+          "expectedStart": 837.74,
+          "expectedEnd": 973.93,
+          "actualStart": 845.2319990000001,
+          "actualEnd": 981.4269160000001,
+          "timeDifference": 7.491999000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shadow of a Father: Alexandre Dumas and the Weight of Memory",
+          "expectedStart": 973.93,
+          "expectedEnd": 1154.77,
+          "actualStart": 982.9269160000001,
+          "actualEnd": 1163.7661240000002,
+          "timeDifference": 8.99691600000017
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Writing Against the Grain: Alexandre’s Literary Ascent",
+          "expectedStart": 1154.77,
+          "expectedEnd": 1326.9,
+          "actualStart": 1165.2661240000002,
+          "actualEnd": 1337.3959990000003,
+          "timeDifference": 10.496124000000236
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ghosts of Revolution: France’s Uneasy Reckoning",
+          "expectedStart": 1326.9,
+          "expectedEnd": 1490.03,
+          "actualStart": 1338.8959990000003,
+          "actualEnd": 1502.0285410000004,
+          "timeDifference": 11.99599900000021
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Count of Monte Cristo: Art as Memory and Justice",
+          "expectedStart": 1490.03,
+          "expectedEnd": 1614.21,
+          "actualStart": 1503.5285410000004,
+          "actualEnd": 1627.7073330000003,
+          "timeDifference": 13.498541000000387
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Echoes Across Time: Race, Memory, and the Unfinished Revolution",
+          "expectedStart": 1614.21,
+          "expectedEnd": 1752.54,
+          "actualStart": 1629.2073330000003,
+          "actualEnd": 1767.5401660000002,
+          "timeDifference": 14.997333000000253
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1752.54,
+          "expectedEnd": 1866.82,
+          "actualStart": 1769.0401660000002,
+          "actualEnd": 1883.3162490000002,
+          "timeDifference": 16.500166000000263
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.760708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Boy’s Beginnings: From Caribbean Shadows to French Promise"
+        },
+        {
+          "startTime": 277.406875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Boy’s Beginnings: From Caribbean Shadows to French Promise and Chapter 2 Rising Through the Ranks: The Making of a Revolutionary Soldier"
+        },
+        {
+          "startTime": 470.555083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rising Through the Ranks: The Making of a Revolutionary Soldier and Chapter 3 The Highs and Lows of Revolutionary France: Heroism, Prejudice, and Political Shifts"
+        },
+        {
+          "startTime": 676.442041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Highs and Lows of Revolutionary France: Heroism, Prejudice, and Political Shifts and Chapter 4 Betrayal and Imprisonment: The Price of Principle"
+        },
+        {
+          "startTime": 843.7319990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Betrayal and Imprisonment: The Price of Principle and Chapter 5 Legacy and Inspiration: A Son’s Imagination and the Echoes of History"
+        },
+        {
+          "startTime": 981.4269160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Legacy and Inspiration: A Son’s Imagination and the Echoes of History and Chapter 6 The Shadow of a Father: Alexandre Dumas and the Weight of Memory"
+        },
+        {
+          "startTime": 1163.7661240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shadow of a Father: Alexandre Dumas and the Weight of Memory and Chapter 7 Writing Against the Grain: Alexandre’s Literary Ascent"
+        },
+        {
+          "startTime": 1337.3959990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Writing Against the Grain: Alexandre’s Literary Ascent and Chapter 8 The Ghosts of Revolution: France’s Uneasy Reckoning"
+        },
+        {
+          "startTime": 1502.0285410000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ghosts of Revolution: France’s Uneasy Reckoning and Chapter 9 The Count of Monte Cristo: Art as Memory and Justice"
+        },
+        {
+          "startTime": 1627.7073330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Count of Monte Cristo: Art as Memory and Justice and Chapter 10 Echoes Across Time: Race, Memory, and the Unfinished Revolution"
+        },
+        {
+          "startTime": 1767.5401660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Echoes Across Time: Race, Memory, and the Unfinished Revolution and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2483",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:31:42.604Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

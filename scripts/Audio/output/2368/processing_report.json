@@ -1,0 +1,552 @@
+{
+  "bookId": "2368",
+  "timestamp": "2025-07-10T18:52:03.597Z",
+  "success": false,
+  "processingTime": -1752172941961,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 6301,
+    "totalAudioFiles": 16,
+    "totalDuration": 2986.7111670000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2986.7111670000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2368/optimized_text/2368.md",
+    "fileSize": 1226,
+    "wordCount": 174,
+    "format": "markdown",
+    "filename": "2368.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2368/metadata/2368_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2986.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2368/metadata/2368_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2368/metadata/2368_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2368/2368_complete.wav",
+    "duration": 2986.711167,
+    "fileSize": 143362214,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2368/introduction.wav",
+          "duration": 96.432417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.432417,
+          "startTime": 0,
+          "endTime": 96.432417
+        },
+        {
+          "path": "Audio/output/2368/chapter_01.wav",
+          "duration": 238.629583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Heart of Tradition: How Prophetic Teachings Shape Everyday Life",
+          "actualDuration": 238.629583,
+          "startTime": 97.932417,
+          "endTime": 336.562
+        },
+        {
+          "path": "Audio/output/2368/chapter_02.wav",
+          "duration": 230.107292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Foundations of Faith: Belief, Worship, and the Rhythm of Ritual",
+          "actualDuration": 230.107292,
+          "startTime": 338.062,
+          "endTime": 568.169292
+        },
+        {
+          "path": "Audio/output/2368/chapter_03.wav",
+          "duration": 213.368333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living with Integrity: Ethics, Manners, and the Art of Good Character",
+          "actualDuration": 213.368333,
+          "startTime": 569.669292,
+          "endTime": 783.037625
+        },
+        {
+          "path": "Audio/output/2368/chapter_04.wav",
+          "duration": 207.078125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Community: Social Bonds, Justice, and the Balance of Rights",
+          "actualDuration": 207.078125,
+          "startTime": 784.537625,
+          "endTime": 991.61575
+        },
+        {
+          "path": "Audio/output/2368/chapter_05.wav",
+          "duration": 192.536667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Path of Knowledge: Learning, Teaching, and the Preservation of Wisdom",
+          "actualDuration": 192.536667,
+          "startTime": 993.11575,
+          "endTime": 1185.652417
+        },
+        {
+          "path": "Audio/output/2368/chapter_06.wav",
+          "duration": 203.876083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Life’s Challenges: Illness, Loss, and the Power of Patience",
+          "actualDuration": 203.876083,
+          "startTime": 1187.152417,
+          "endTime": 1391.0285
+        },
+        {
+          "path": "Audio/output/2368/chapter_07.wav",
+          "duration": 185.527542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Sacredness of Time: Mindfulness, Moderation, and the Value of Each Moment",
+          "actualDuration": 185.527542,
+          "startTime": 1392.5285,
+          "endTime": 1578.056042
+        },
+        {
+          "path": "Audio/output/2368/chapter_08.wav",
+          "duration": 184.807083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ethics of Wealth: Earning, Spending, and the Spirit of Generosity",
+          "actualDuration": 184.807083,
+          "startTime": 1579.556042,
+          "endTime": 1764.3631249999999
+        },
+        {
+          "path": "Audio/output/2368/chapter_09.wav",
+          "duration": 186.938125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ties That Bind: Family, Friendship, and the Circle of Care",
+          "actualDuration": 186.938125,
+          "startTime": 1765.8631249999999,
+          "endTime": 1952.80125
+        },
+        {
+          "path": "Audio/output/2368/chapter_10.wav",
+          "duration": 181.702458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Light of Forgiveness: Mercy, Reconciliation, and Letting Go",
+          "actualDuration": 181.702458,
+          "startTime": 1954.30125,
+          "endTime": 2136.003708
+        },
+        {
+          "path": "Audio/output/2368/chapter_11.wav",
+          "duration": 201.53725,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Beauty of Simplicity: Humility, Gratitude, and the Joy of Enough",
+          "actualDuration": 201.53725,
+          "startTime": 2137.503708,
+          "endTime": 2339.040958
+        },
+        {
+          "path": "Audio/output/2368/chapter_12.wav",
+          "duration": 185.247292,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Call to Service: Leadership, Responsibility, and Making a Difference",
+          "actualDuration": 185.247292,
+          "startTime": 2340.540958,
+          "endTime": 2525.78825
+        },
+        {
+          "path": "Audio/output/2368/chapter_13.wav",
+          "duration": 182.98475,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Journey Within: Self-Reflection, Repentance, and Spiritual Growth",
+          "actualDuration": 182.98475,
+          "startTime": 2527.28825,
+          "endTime": 2710.273
+        },
+        {
+          "path": "Audio/output/2368/chapter_14.wav",
+          "duration": 162.862167,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Promise of Hope: Faith, Resilience, and the Light Ahead",
+          "actualDuration": 162.862167,
+          "startTime": 2711.773,
+          "endTime": 2874.6351670000004
+        },
+        {
+          "path": "Audio/output/2368/conclusion.wav",
+          "duration": 133.076,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.076,
+          "startTime": 2876.1351670000004,
+          "endTime": 3009.2111670000004
+        }
+      ],
+      "totalDuration": 3009.2111670000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.43,
+          "actualStart": 0,
+          "actualEnd": 96.432417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Heart of Tradition: How Prophetic Teachings Shape Everyday Life",
+          "expectedStart": 96.43,
+          "expectedEnd": 335.06,
+          "actualStart": 97.932417,
+          "actualEnd": 336.562,
+          "timeDifference": 1.5024169999999941
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Foundations of Faith: Belief, Worship, and the Rhythm of Ritual",
+          "expectedStart": 335.06,
+          "expectedEnd": 565.17,
+          "actualStart": 338.062,
+          "actualEnd": 568.169292,
+          "timeDifference": 3.0020000000000095
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living with Integrity: Ethics, Manners, and the Art of Good Character",
+          "expectedStart": 565.17,
+          "expectedEnd": 778.54,
+          "actualStart": 569.669292,
+          "actualEnd": 783.037625,
+          "timeDifference": 4.499292000000082
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Community: Social Bonds, Justice, and the Balance of Rights",
+          "expectedStart": 778.54,
+          "expectedEnd": 985.62,
+          "actualStart": 784.537625,
+          "actualEnd": 991.61575,
+          "timeDifference": 5.997625000000085
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Path of Knowledge: Learning, Teaching, and the Preservation of Wisdom",
+          "expectedStart": 985.62,
+          "expectedEnd": 1178.16,
+          "actualStart": 993.11575,
+          "actualEnd": 1185.652417,
+          "timeDifference": 7.495750000000044
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Life’s Challenges: Illness, Loss, and the Power of Patience",
+          "expectedStart": 1178.16,
+          "expectedEnd": 1382.04,
+          "actualStart": 1187.152417,
+          "actualEnd": 1391.0285,
+          "timeDifference": 8.992416999999932
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Sacredness of Time: Mindfulness, Moderation, and the Value of Each Moment",
+          "expectedStart": 1382.04,
+          "expectedEnd": 1567.57,
+          "actualStart": 1392.5285,
+          "actualEnd": 1578.056042,
+          "timeDifference": 10.48849999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ethics of Wealth: Earning, Spending, and the Spirit of Generosity",
+          "expectedStart": 1567.57,
+          "expectedEnd": 1752.38,
+          "actualStart": 1579.556042,
+          "actualEnd": 1764.3631249999999,
+          "timeDifference": 11.986041999999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ties That Bind: Family, Friendship, and the Circle of Care",
+          "expectedStart": 1752.38,
+          "expectedEnd": 1939.32,
+          "actualStart": 1765.8631249999999,
+          "actualEnd": 1952.80125,
+          "timeDifference": 13.483124999999745
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Light of Forgiveness: Mercy, Reconciliation, and Letting Go",
+          "expectedStart": 1939.32,
+          "expectedEnd": 2121.02,
+          "actualStart": 1954.30125,
+          "actualEnd": 2136.003708,
+          "timeDifference": 14.981250000000045
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Beauty of Simplicity: Humility, Gratitude, and the Joy of Enough",
+          "expectedStart": 2121.02,
+          "expectedEnd": 2322.56,
+          "actualStart": 2137.503708,
+          "actualEnd": 2339.040958,
+          "timeDifference": 16.483708000000206
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Call to Service: Leadership, Responsibility, and Making a Difference",
+          "expectedStart": 2322.56,
+          "expectedEnd": 2507.81,
+          "actualStart": 2340.540958,
+          "actualEnd": 2525.78825,
+          "timeDifference": 17.9809580000001
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Journey Within: Self-Reflection, Repentance, and Spiritual Growth",
+          "expectedStart": 2507.81,
+          "expectedEnd": 2690.79,
+          "actualStart": 2527.28825,
+          "actualEnd": 2710.273,
+          "timeDifference": 19.478250000000116
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Promise of Hope: Faith, Resilience, and the Light Ahead",
+          "expectedStart": 2690.79,
+          "expectedEnd": 2853.65,
+          "actualStart": 2711.773,
+          "actualEnd": 2874.6351670000004,
+          "timeDifference": 20.983000000000175
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2853.65,
+          "expectedEnd": 2986.73,
+          "actualStart": 2876.1351670000004,
+          "actualEnd": 3009.2111670000004,
+          "timeDifference": 22.485167000000274
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.432417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Heart of Tradition: How Prophetic Teachings Shape Everyday Life"
+        },
+        {
+          "startTime": 336.562,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Heart of Tradition: How Prophetic Teachings Shape Everyday Life and Chapter 2 Foundations of Faith: Belief, Worship, and the Rhythm of Ritual"
+        },
+        {
+          "startTime": 568.169292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Foundations of Faith: Belief, Worship, and the Rhythm of Ritual and Chapter 3 Living with Integrity: Ethics, Manners, and the Art of Good Character"
+        },
+        {
+          "startTime": 783.037625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living with Integrity: Ethics, Manners, and the Art of Good Character and Chapter 4 Building Community: Social Bonds, Justice, and the Balance of Rights"
+        },
+        {
+          "startTime": 991.61575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Community: Social Bonds, Justice, and the Balance of Rights and Chapter 5 The Path of Knowledge: Learning, Teaching, and the Preservation of Wisdom"
+        },
+        {
+          "startTime": 1185.652417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Path of Knowledge: Learning, Teaching, and the Preservation of Wisdom and Chapter 6 Navigating Life’s Challenges: Illness, Loss, and the Power of Patience"
+        },
+        {
+          "startTime": 1391.0285,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Life’s Challenges: Illness, Loss, and the Power of Patience and Chapter 7 The Sacredness of Time: Mindfulness, Moderation, and the Value of Each Moment"
+        },
+        {
+          "startTime": 1578.056042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Sacredness of Time: Mindfulness, Moderation, and the Value of Each Moment and Chapter 8 The Ethics of Wealth: Earning, Spending, and the Spirit of Generosity"
+        },
+        {
+          "startTime": 1764.3631249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ethics of Wealth: Earning, Spending, and the Spirit of Generosity and Chapter 9 The Ties That Bind: Family, Friendship, and the Circle of Care"
+        },
+        {
+          "startTime": 1952.80125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ties That Bind: Family, Friendship, and the Circle of Care and Chapter 10 The Light of Forgiveness: Mercy, Reconciliation, and Letting Go"
+        },
+        {
+          "startTime": 2136.003708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Light of Forgiveness: Mercy, Reconciliation, and Letting Go and Chapter 11 The Beauty of Simplicity: Humility, Gratitude, and the Joy of Enough"
+        },
+        {
+          "startTime": 2339.040958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Beauty of Simplicity: Humility, Gratitude, and the Joy of Enough and Chapter 12 The Call to Service: Leadership, Responsibility, and Making a Difference"
+        },
+        {
+          "startTime": 2525.78825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Call to Service: Leadership, Responsibility, and Making a Difference and Chapter 13 The Journey Within: Self-Reflection, Repentance, and Spiritual Growth"
+        },
+        {
+          "startTime": 2710.273,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Journey Within: Self-Reflection, Repentance, and Spiritual Growth and Chapter 14 The Promise of Hope: Faith, Resilience, and the Light Ahead"
+        },
+        {
+          "startTime": 2874.6351670000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Promise of Hope: Faith, Resilience, and the Light Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2368",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:42:23.351Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

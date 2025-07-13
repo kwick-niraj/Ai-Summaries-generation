@@ -1,0 +1,456 @@
+{
+  "bookId": "2432",
+  "timestamp": "2025-07-10T22:32:53.626Z",
+  "success": false,
+  "processingTime": -1752186329224,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4430,
+    "totalAudioFiles": 12,
+    "totalDuration": 2293.2383750000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2293.2383750000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2432/optimized_text/2432.md",
+    "fileSize": 707,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2432.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2432/metadata/2432_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2293.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2432/metadata/2432_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2432/metadata/2432_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 74,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2432/2432_complete.wav",
+    "duration": 2293.238375,
+    "fileSize": 110075520,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2432/introduction.wav",
+          "duration": 89.9305,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.9305,
+          "startTime": 0,
+          "endTime": 89.9305
+        },
+        {
+          "path": "Audio/output/2432/chapter_01.wav",
+          "duration": 215.5015,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Wealth from a Biblical Perspective",
+          "actualDuration": 215.5015,
+          "startTime": 91.4305,
+          "endTime": 306.932
+        },
+        {
+          "path": "Audio/output/2432/chapter_02.wav",
+          "duration": 217.879792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Free from Limiting Beliefs about Money",
+          "actualDuration": 217.879792,
+          "startTime": 308.432,
+          "endTime": 526.311792
+        },
+        {
+          "path": "Audio/output/2432/chapter_03.wav",
+          "duration": 187.402958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Faith and Prayer in Financial Breakthrough",
+          "actualDuration": 187.402958,
+          "startTime": 527.811792,
+          "endTime": 715.21475
+        },
+        {
+          "path": "Audio/output/2432/chapter_04.wav",
+          "duration": 218.979,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Generosity and Stewardship as Keys to Lasting Prosperity",
+          "actualDuration": 218.979,
+          "startTime": 716.71475,
+          "endTime": 935.69375
+        },
+        {
+          "path": "Audio/output/2432/chapter_05.wav",
+          "duration": 221.970875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aligning Purpose with Provision for a Fulfilling Life",
+          "actualDuration": 221.970875,
+          "startTime": 937.19375,
+          "endTime": 1159.1646250000001
+        },
+        {
+          "path": "Audio/output/2432/chapter_06.wav",
+          "duration": 214.623083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building a Mindset for Multiplication",
+          "actualDuration": 214.623083,
+          "startTime": 1160.6646250000001,
+          "endTime": 1375.287708
+        },
+        {
+          "path": "Audio/output/2432/chapter_07.wav",
+          "duration": 217.720958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Obstacles and Navigating Seasons of Lack",
+          "actualDuration": 217.720958,
+          "startTime": 1376.787708,
+          "endTime": 1594.5086660000002
+        },
+        {
+          "path": "Audio/output/2432/chapter_08.wav",
+          "duration": 194.313625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Practical Tools for Managing and Growing Resources",
+          "actualDuration": 194.313625,
+          "startTime": 1596.0086660000002,
+          "endTime": 1790.3222910000002
+        },
+        {
+          "path": "Audio/output/2432/chapter_09.wav",
+          "duration": 188.55975,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creating Generational Impact and Legacy",
+          "actualDuration": 188.55975,
+          "startTime": 1791.8222910000002,
+          "endTime": 1980.3820410000003
+        },
+        {
+          "path": "Audio/output/2432/chapter_10.wav",
+          "duration": 187.771667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining and Multiplying Wealth through Community and Collaboration",
+          "actualDuration": 187.771667,
+          "startTime": 1981.8820410000003,
+          "endTime": 2169.6537080000003
+        },
+        {
+          "path": "Audio/output/2432/conclusion.wav",
+          "duration": 138.584667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.584667,
+          "startTime": 2171.1537080000003,
+          "endTime": 2309.7383750000004
+        }
+      ],
+      "totalDuration": 2309.7383750000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.93,
+          "actualStart": 0,
+          "actualEnd": 89.9305,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Wealth from a Biblical Perspective",
+          "expectedStart": 89.93,
+          "expectedEnd": 305.43,
+          "actualStart": 91.4305,
+          "actualEnd": 306.932,
+          "timeDifference": 1.5004999999999882
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Free from Limiting Beliefs about Money",
+          "expectedStart": 305.43,
+          "expectedEnd": 523.31,
+          "actualStart": 308.432,
+          "actualEnd": 526.311792,
+          "timeDifference": 3.0020000000000095
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Faith and Prayer in Financial Breakthrough",
+          "expectedStart": 523.31,
+          "expectedEnd": 710.71,
+          "actualStart": 527.811792,
+          "actualEnd": 715.21475,
+          "timeDifference": 4.501792000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Generosity and Stewardship as Keys to Lasting Prosperity",
+          "expectedStart": 710.71,
+          "expectedEnd": 929.69,
+          "actualStart": 716.71475,
+          "actualEnd": 935.69375,
+          "timeDifference": 6.0047499999999445
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aligning Purpose with Provision for a Fulfilling Life",
+          "expectedStart": 929.69,
+          "expectedEnd": 1151.66,
+          "actualStart": 937.19375,
+          "actualEnd": 1159.1646250000001,
+          "timeDifference": 7.503749999999968
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building a Mindset for Multiplication",
+          "expectedStart": 1151.66,
+          "expectedEnd": 1366.28,
+          "actualStart": 1160.6646250000001,
+          "actualEnd": 1375.287708,
+          "timeDifference": 9.004625000000033
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Obstacles and Navigating Seasons of Lack",
+          "expectedStart": 1366.28,
+          "expectedEnd": 1584,
+          "actualStart": 1376.787708,
+          "actualEnd": 1594.5086660000002,
+          "timeDifference": 10.507708000000093
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Practical Tools for Managing and Growing Resources",
+          "expectedStart": 1584,
+          "expectedEnd": 1778.31,
+          "actualStart": 1596.0086660000002,
+          "actualEnd": 1790.3222910000002,
+          "timeDifference": 12.008666000000176
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creating Generational Impact and Legacy",
+          "expectedStart": 1778.31,
+          "expectedEnd": 1966.87,
+          "actualStart": 1791.8222910000002,
+          "actualEnd": 1980.3820410000003,
+          "timeDifference": 13.512291000000232
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining and Multiplying Wealth through Community and Collaboration",
+          "expectedStart": 1966.87,
+          "expectedEnd": 2154.64,
+          "actualStart": 1981.8820410000003,
+          "actualEnd": 2169.6537080000003,
+          "timeDifference": 15.012041000000409
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2154.64,
+          "expectedEnd": 2293.22,
+          "actualStart": 2171.1537080000003,
+          "actualEnd": 2309.7383750000004,
+          "timeDifference": 16.513708000000406
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.9305,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Wealth from a Biblical Perspective"
+        },
+        {
+          "startTime": 306.932,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Wealth from a Biblical Perspective and Chapter 2 Breaking Free from Limiting Beliefs about Money"
+        },
+        {
+          "startTime": 526.311792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Free from Limiting Beliefs about Money and Chapter 3 The Role of Faith and Prayer in Financial Breakthrough"
+        },
+        {
+          "startTime": 715.21475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Faith and Prayer in Financial Breakthrough and Chapter 4 Generosity and Stewardship as Keys to Lasting Prosperity"
+        },
+        {
+          "startTime": 935.69375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Generosity and Stewardship as Keys to Lasting Prosperity and Chapter 5 Aligning Purpose with Provision for a Fulfilling Life"
+        },
+        {
+          "startTime": 1159.1646250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aligning Purpose with Provision for a Fulfilling Life and Chapter 6 Building a Mindset for Multiplication"
+        },
+        {
+          "startTime": 1375.287708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building a Mindset for Multiplication and Chapter 7 Overcoming Obstacles and Navigating Seasons of Lack"
+        },
+        {
+          "startTime": 1594.5086660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Obstacles and Navigating Seasons of Lack and Chapter 8 Practical Tools for Managing and Growing Resources"
+        },
+        {
+          "startTime": 1790.3222910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Practical Tools for Managing and Growing Resources and Chapter 9 Creating Generational Impact and Legacy"
+        },
+        {
+          "startTime": 1980.3820410000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creating Generational Impact and Legacy and Chapter 10 Sustaining and Multiplying Wealth through Community and Collaboration"
+        },
+        {
+          "startTime": 2169.6537080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining and Multiplying Wealth through Community and Collaboration and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2432",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 74,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:25:30.747Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

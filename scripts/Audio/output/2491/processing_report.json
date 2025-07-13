@@ -1,0 +1,504 @@
+{
+  "bookId": "2491",
+  "timestamp": "2025-07-11T01:15:31.921Z",
+  "success": false,
+  "processingTime": -1752196140011,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5977,
+    "totalAudioFiles": 14,
+    "totalDuration": 3002.4708759999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 3002.4708759999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2491/optimized_text/2491.md",
+    "fileSize": 817,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "2491.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2491/metadata/2491_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 3002.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2491/metadata/2491_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2491/metadata/2491_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2491/2491_complete.wav",
+    "duration": 3002.470875,
+    "fileSize": 144118680,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2491/introduction.wav",
+          "duration": 107.198792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.198792,
+          "startTime": 0,
+          "endTime": 107.198792
+        },
+        {
+          "path": "Audio/output/2491/chapter_01.wav",
+          "duration": 268.584292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Real Stakes Matter in Everyday Decisions",
+          "actualDuration": 268.584292,
+          "startTime": 108.698792,
+          "endTime": 377.28308400000003
+        },
+        {
+          "path": "Audio/output/2491/chapter_02.wav",
+          "duration": 287.501333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Dangers of Asymmetry",
+          "actualDuration": 287.501333,
+          "startTime": 378.78308400000003,
+          "endTime": 666.2844170000001
+        },
+        {
+          "path": "Audio/output/2491/chapter_03.wav",
+          "duration": 261.20575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Value of Personal Exposure in Leadership and Ethics",
+          "actualDuration": 261.20575,
+          "startTime": 667.7844170000001,
+          "endTime": 928.9901670000002
+        },
+        {
+          "path": "Audio/output/2491/chapter_04.wav",
+          "duration": 309.515208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Problem with Experts and Systems Lacking Accountability",
+          "actualDuration": 309.515208,
+          "startTime": 930.4901670000002,
+          "endTime": 1240.0053750000002
+        },
+        {
+          "path": "Audio/output/2491/chapter_05.wav",
+          "duration": 267.485417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Why Decentralized and Bottom-Up Approaches Build Stronger Societies",
+          "actualDuration": 267.485417,
+          "startTime": 1241.5053750000002,
+          "endTime": 1508.990792
+        },
+        {
+          "path": "Audio/output/2491/chapter_06.wav",
+          "duration": 206.539292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Power of Minority Rules",
+          "actualDuration": 206.539292,
+          "startTime": 1510.490792,
+          "endTime": 1717.030084
+        },
+        {
+          "path": "Audio/output/2491/chapter_07.wav",
+          "duration": 229.782125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ethics of Risk and the Cost of Intervention",
+          "actualDuration": 229.782125,
+          "startTime": 1718.530084,
+          "endTime": 1948.312209
+        },
+        {
+          "path": "Audio/output/2491/chapter_08.wav",
+          "duration": 221.640625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Skin in the Game and the Wisdom of Tradition",
+          "actualDuration": 221.640625,
+          "startTime": 1949.812209,
+          "endTime": 2171.4528339999997
+        },
+        {
+          "path": "Audio/output/2491/chapter_09.wav",
+          "duration": 195.306458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Prediction and the Value of Uncertainty",
+          "actualDuration": 195.306458,
+          "startTime": 2172.9528339999997,
+          "endTime": 2368.2592919999997
+        },
+        {
+          "path": "Audio/output/2491/chapter_10.wav",
+          "duration": 174.879375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Courage, Honor, and the Human Cost of Risk",
+          "actualDuration": 174.879375,
+          "startTime": 2369.7592919999997,
+          "endTime": 2544.6386669999997
+        },
+        {
+          "path": "Audio/output/2491/chapter_11.wav",
+          "duration": 180.943542,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Fragility of Systems Without Skin in the Game",
+          "actualDuration": 180.943542,
+          "startTime": 2546.1386669999997,
+          "endTime": 2727.0822089999997
+        },
+        {
+          "path": "Audio/output/2491/chapter_12.wav",
+          "duration": 153.274,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Building a Life—and a World—With Skin in the Game",
+          "actualDuration": 153.274,
+          "startTime": 2728.5822089999997,
+          "endTime": 2881.8562089999996
+        },
+        {
+          "path": "Audio/output/2491/conclusion.wav",
+          "duration": 138.614667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.614667,
+          "startTime": 2883.3562089999996,
+          "endTime": 3021.9708759999994
+        }
+      ],
+      "totalDuration": 3021.9708759999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.2,
+          "actualStart": 0,
+          "actualEnd": 107.198792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Real Stakes Matter in Everyday Decisions",
+          "expectedStart": 107.2,
+          "expectedEnd": 375.78,
+          "actualStart": 108.698792,
+          "actualEnd": 377.28308400000003,
+          "timeDifference": 1.4987919999999946
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Dangers of Asymmetry",
+          "expectedStart": 375.78,
+          "expectedEnd": 663.28,
+          "actualStart": 378.78308400000003,
+          "actualEnd": 666.2844170000001,
+          "timeDifference": 3.003084000000058
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Value of Personal Exposure in Leadership and Ethics",
+          "expectedStart": 663.28,
+          "expectedEnd": 924.49,
+          "actualStart": 667.7844170000001,
+          "actualEnd": 928.9901670000002,
+          "timeDifference": 4.504417000000103
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Problem with Experts and Systems Lacking Accountability",
+          "expectedStart": 924.49,
+          "expectedEnd": 1234.01,
+          "actualStart": 930.4901670000002,
+          "actualEnd": 1240.0053750000002,
+          "timeDifference": 6.000167000000147
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Why Decentralized and Bottom-Up Approaches Build Stronger Societies",
+          "expectedStart": 1234.01,
+          "expectedEnd": 1501.5,
+          "actualStart": 1241.5053750000002,
+          "actualEnd": 1508.990792,
+          "timeDifference": 7.495375000000195
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Power of Minority Rules",
+          "expectedStart": 1501.5,
+          "expectedEnd": 1708.04,
+          "actualStart": 1510.490792,
+          "actualEnd": 1717.030084,
+          "timeDifference": 8.990792000000056
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ethics of Risk and the Cost of Intervention",
+          "expectedStart": 1708.04,
+          "expectedEnd": 1937.82,
+          "actualStart": 1718.530084,
+          "actualEnd": 1948.312209,
+          "timeDifference": 10.490084000000024
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Skin in the Game and the Wisdom of Tradition",
+          "expectedStart": 1937.82,
+          "expectedEnd": 2159.46,
+          "actualStart": 1949.812209,
+          "actualEnd": 2171.4528339999997,
+          "timeDifference": 11.992209000000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Prediction and the Value of Uncertainty",
+          "expectedStart": 2159.46,
+          "expectedEnd": 2354.77,
+          "actualStart": 2172.9528339999997,
+          "actualEnd": 2368.2592919999997,
+          "timeDifference": 13.492833999999675
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Courage, Honor, and the Human Cost of Risk",
+          "expectedStart": 2354.77,
+          "expectedEnd": 2529.65,
+          "actualStart": 2369.7592919999997,
+          "actualEnd": 2544.6386669999997,
+          "timeDifference": 14.98929199999975
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Fragility of Systems Without Skin in the Game",
+          "expectedStart": 2529.65,
+          "expectedEnd": 2710.59,
+          "actualStart": 2546.1386669999997,
+          "actualEnd": 2727.0822089999997,
+          "timeDifference": 16.488666999999623
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Building a Life—and a World—With Skin in the Game",
+          "expectedStart": 2710.59,
+          "expectedEnd": 2863.86,
+          "actualStart": 2728.5822089999997,
+          "actualEnd": 2881.8562089999996,
+          "timeDifference": 17.992208999999548
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2863.86,
+          "expectedEnd": 3002.47,
+          "actualStart": 2883.3562089999996,
+          "actualEnd": 3021.9708759999994,
+          "timeDifference": 19.496208999999453
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.198792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Real Stakes Matter in Everyday Decisions"
+        },
+        {
+          "startTime": 377.28308400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Real Stakes Matter in Everyday Decisions and Chapter 2 The Hidden Dangers of Asymmetry"
+        },
+        {
+          "startTime": 666.2844170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Dangers of Asymmetry and Chapter 3 The Value of Personal Exposure in Leadership and Ethics"
+        },
+        {
+          "startTime": 928.9901670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Value of Personal Exposure in Leadership and Ethics and Chapter 4 The Problem with Experts and Systems Lacking Accountability"
+        },
+        {
+          "startTime": 1240.0053750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Problem with Experts and Systems Lacking Accountability and Chapter 5 Why Decentralized and Bottom-Up Approaches Build Stronger Societies"
+        },
+        {
+          "startTime": 1508.990792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Why Decentralized and Bottom-Up Approaches Build Stronger Societies and Chapter 6 The Unseen Power of Minority Rules"
+        },
+        {
+          "startTime": 1717.030084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Power of Minority Rules and Chapter 7 The Ethics of Risk and the Cost of Intervention"
+        },
+        {
+          "startTime": 1948.312209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ethics of Risk and the Cost of Intervention and Chapter 8 Skin in the Game and the Wisdom of Tradition"
+        },
+        {
+          "startTime": 2171.4528339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Skin in the Game and the Wisdom of Tradition and Chapter 9 The Limits of Prediction and the Value of Uncertainty"
+        },
+        {
+          "startTime": 2368.2592919999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Prediction and the Value of Uncertainty and Chapter 10 Courage, Honor, and the Human Cost of Risk"
+        },
+        {
+          "startTime": 2544.6386669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Courage, Honor, and the Human Cost of Risk and Chapter 11 The Fragility of Systems Without Skin in the Game"
+        },
+        {
+          "startTime": 2727.0822089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Fragility of Systems Without Skin in the Game and Chapter 12 Building a Life—and a World—With Skin in the Game"
+        },
+        {
+          "startTime": 2881.8562089999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Building a Life—and a World—With Skin in the Game and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2491",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:09:00.569Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

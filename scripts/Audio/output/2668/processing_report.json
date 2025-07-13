@@ -1,0 +1,456 @@
+{
+  "bookId": "2668",
+  "timestamp": "2025-07-12T09:40:34.842Z",
+  "success": false,
+  "processingTime": -1752312899361,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4121,
+    "totalAudioFiles": 12,
+    "totalDuration": 1773.9189579999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1773.9189579999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2668/optimized_text/2668.md",
+    "fileSize": 631,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2668.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2668/metadata/2668_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1773.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2668/metadata/2668_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2668/metadata/2668_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2668/2668_complete.wav",
+    "duration": 1773.918958,
+    "fileSize": 85148188,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2668/introduction.wav",
+          "duration": 102.1205,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.1205,
+          "startTime": 0,
+          "endTime": 102.1205
+        },
+        {
+          "path": "Audio/output/2668/chapter_01.wav",
+          "duration": 182.602708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary Lives Before the Storm",
+          "actualDuration": 182.602708,
+          "startTime": 103.6205,
+          "endTime": 286.223208
+        },
+        {
+          "path": "Audio/output/2668/chapter_02.wav",
+          "duration": 190.407417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Training, Brotherhood, and the Weight of Expectation",
+          "actualDuration": 190.407417,
+          "startTime": 287.723208,
+          "endTime": 478.130625
+        },
+        {
+          "path": "Audio/output/2668/chapter_03.wav",
+          "duration": 186.342042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Battle for Iwo Jima—Chaos, Courage, and Survival",
+          "actualDuration": 186.342042,
+          "startTime": 479.630625,
+          "endTime": 665.972667
+        },
+        {
+          "path": "Audio/output/2668/chapter_04.wav",
+          "duration": 163.103083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Flag Raising—A Moment That Changed Everything",
+          "actualDuration": 163.103083,
+          "startTime": 667.472667,
+          "endTime": 830.57575
+        },
+        {
+          "path": "Audio/output/2668/chapter_05.wav",
+          "duration": 163.71775,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath—Fame, Loss, and the Search for Meaning",
+          "actualDuration": 163.71775,
+          "startTime": 832.07575,
+          "endTime": 995.7935
+        },
+        {
+          "path": "Audio/output/2668/chapter_06.wav",
+          "duration": 166.1705,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow—Living with the Legend",
+          "actualDuration": 166.1705,
+          "startTime": 997.2935,
+          "endTime": 1163.464
+        },
+        {
+          "path": "Audio/output/2668/chapter_07.wav",
+          "duration": 138.914,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Memory, Myth, and the Making of History",
+          "actualDuration": 138.914,
+          "startTime": 1164.964,
+          "endTime": 1303.878
+        },
+        {
+          "path": "Audio/output/2668/chapter_08.wav",
+          "duration": 135.4285,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Fathers and Sons—The Next Generation",
+          "actualDuration": 135.4285,
+          "startTime": 1305.378,
+          "endTime": 1440.8065
+        },
+        {
+          "path": "Audio/output/2668/chapter_09.wav",
+          "duration": 116.040333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Lessons of Iwo Jima",
+          "actualDuration": 116.040333,
+          "startTime": 1442.3065,
+          "endTime": 1558.3468329999998
+        },
+        {
+          "path": "Audio/output/2668/chapter_10.wav",
+          "duration": 111.118958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Letting Go—Finding Peace in the Present",
+          "actualDuration": 111.118958,
+          "startTime": 1559.8468329999998,
+          "endTime": 1670.9657909999999
+        },
+        {
+          "path": "Audio/output/2668/conclusion.wav",
+          "duration": 117.953167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.953167,
+          "startTime": 1672.4657909999999,
+          "endTime": 1790.4189579999997
+        }
+      ],
+      "totalDuration": 1790.4189579999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.12,
+          "actualStart": 0,
+          "actualEnd": 102.1205,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ordinary Lives Before the Storm",
+          "expectedStart": 102.12,
+          "expectedEnd": 284.72,
+          "actualStart": 103.6205,
+          "actualEnd": 286.223208,
+          "timeDifference": 1.5005000000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Training, Brotherhood, and the Weight of Expectation",
+          "expectedStart": 284.72,
+          "expectedEnd": 475.13,
+          "actualStart": 287.723208,
+          "actualEnd": 478.130625,
+          "timeDifference": 3.0032079999999723
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Battle for Iwo Jima—Chaos, Courage, and Survival",
+          "expectedStart": 475.13,
+          "expectedEnd": 661.47,
+          "actualStart": 479.630625,
+          "actualEnd": 665.972667,
+          "timeDifference": 4.500625000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Flag Raising—A Moment That Changed Everything",
+          "expectedStart": 661.47,
+          "expectedEnd": 824.57,
+          "actualStart": 667.472667,
+          "actualEnd": 830.57575,
+          "timeDifference": 6.002666999999974
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath—Fame, Loss, and the Search for Meaning",
+          "expectedStart": 824.57,
+          "expectedEnd": 988.29,
+          "actualStart": 832.07575,
+          "actualEnd": 995.7935,
+          "timeDifference": 7.505749999999921
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow—Living with the Legend",
+          "expectedStart": 988.29,
+          "expectedEnd": 1154.46,
+          "actualStart": 997.2935,
+          "actualEnd": 1163.464,
+          "timeDifference": 9.003500000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Memory, Myth, and the Making of History",
+          "expectedStart": 1154.46,
+          "expectedEnd": 1293.37,
+          "actualStart": 1164.964,
+          "actualEnd": 1303.878,
+          "timeDifference": 10.503999999999905
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Fathers and Sons—The Next Generation",
+          "expectedStart": 1293.37,
+          "expectedEnd": 1428.8,
+          "actualStart": 1305.378,
+          "actualEnd": 1440.8065,
+          "timeDifference": 12.008000000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Lessons of Iwo Jima",
+          "expectedStart": 1428.8,
+          "expectedEnd": 1544.84,
+          "actualStart": 1442.3065,
+          "actualEnd": 1558.3468329999998,
+          "timeDifference": 13.50649999999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Letting Go—Finding Peace in the Present",
+          "expectedStart": 1544.84,
+          "expectedEnd": 1655.96,
+          "actualStart": 1559.8468329999998,
+          "actualEnd": 1670.9657909999999,
+          "timeDifference": 15.006832999999915
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1655.96,
+          "expectedEnd": 1773.91,
+          "actualStart": 1672.4657909999999,
+          "actualEnd": 1790.4189579999997,
+          "timeDifference": 16.505790999999817
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.1205,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ordinary Lives Before the Storm"
+        },
+        {
+          "startTime": 286.223208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary Lives Before the Storm and Chapter 2 Training, Brotherhood, and the Weight of Expectation"
+        },
+        {
+          "startTime": 478.130625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Training, Brotherhood, and the Weight of Expectation and Chapter 3 The Battle for Iwo Jima—Chaos, Courage, and Survival"
+        },
+        {
+          "startTime": 665.972667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Battle for Iwo Jima—Chaos, Courage, and Survival and Chapter 4 The Flag Raising—A Moment That Changed Everything"
+        },
+        {
+          "startTime": 830.57575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Flag Raising—A Moment That Changed Everything and Chapter 5 Aftermath—Fame, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 995.7935,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath—Fame, Loss, and the Search for Meaning and Chapter 6 The Long Shadow—Living with the Legend"
+        },
+        {
+          "startTime": 1163.464,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow—Living with the Legend and Chapter 7 Memory, Myth, and the Making of History"
+        },
+        {
+          "startTime": 1303.878,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Memory, Myth, and the Making of History and Chapter 8 Fathers and Sons—The Next Generation"
+        },
+        {
+          "startTime": 1440.8065,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Fathers and Sons—The Next Generation and Chapter 9 The Enduring Lessons of Iwo Jima"
+        },
+        {
+          "startTime": 1558.3468329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Lessons of Iwo Jima and Chapter 10 Letting Go—Finding Peace in the Present"
+        },
+        {
+          "startTime": 1670.9657909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Letting Go—Finding Peace in the Present and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2668",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:34:59.848Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "bookId": "2625",
+  "timestamp": "2025-07-11T08:44:08.133Z",
+  "success": false,
+  "processingTime": -1752223089232,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5587,
+    "totalAudioFiles": 17,
+    "totalDuration": 2702.202542000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2702.202542000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2625/optimized_text/2625.md",
+    "fileSize": 1058,
+    "wordCount": 152,
+    "format": "markdown",
+    "filename": "2625.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2625/metadata/2625_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2702.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2625/metadata/2625_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2625/metadata/2625_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2625/2625_complete.wav",
+    "duration": 2702.202542,
+    "fileSize": 129705800,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2625/introduction.wav",
+          "duration": 107.972,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.972,
+          "startTime": 0,
+          "endTime": 107.972
+        },
+        {
+          "path": "Audio/output/2625/chapter_01.wav",
+          "duration": 197.394333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Forgotten Question: What Does It Mean To Be?",
+          "actualDuration": 197.394333,
+          "startTime": 109.472,
+          "endTime": 306.866333
+        },
+        {
+          "path": "Audio/output/2625/chapter_02.wav",
+          "duration": 207.662125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Human Existence as “Being-There”: The Uniqueness of Dasein",
+          "actualDuration": 207.662125,
+          "startTime": 308.366333,
+          "endTime": 516.028458
+        },
+        {
+          "path": "Audio/output/2625/chapter_03.wav",
+          "duration": 213.592625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living in the World: Everyday Life and Practical Involvement",
+          "actualDuration": 213.592625,
+          "startTime": 517.528458,
+          "endTime": 731.121083
+        },
+        {
+          "path": "Audio/output/2625/chapter_04.wav",
+          "duration": 191.903083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Pull of the Crowd: Conformity and the Struggle for Authenticity",
+          "actualDuration": 191.903083,
+          "startTime": 732.621083,
+          "endTime": 924.524166
+        },
+        {
+          "path": "Audio/output/2625/chapter_05.wav",
+          "duration": 183.753042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Time, Possibility, and Facing Mortality",
+          "actualDuration": 183.753042,
+          "startTime": 926.024166,
+          "endTime": 1109.777208
+        },
+        {
+          "path": "Audio/output/2625/chapter_06.wav",
+          "duration": 200.058375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Care at the Core: What It Means to Be Human",
+          "actualDuration": 200.058375,
+          "startTime": 1111.277208,
+          "endTime": 1311.335583
+        },
+        {
+          "path": "Audio/output/2625/chapter_07.wav",
+          "duration": 156.608042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Tradition: Inheriting a World",
+          "actualDuration": 156.608042,
+          "startTime": 1312.835583,
+          "endTime": 1469.443625
+        },
+        {
+          "path": "Audio/output/2625/chapter_08.wav",
+          "duration": 171.909667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Critique of “Present-at-Hand”: Moving Beyond Detached Thinking",
+          "actualDuration": 171.909667,
+          "startTime": 1470.943625,
+          "endTime": 1642.8532920000002
+        },
+        {
+          "path": "Audio/output/2625/chapter_09.wav",
+          "duration": 152.265,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Anxiety and the Uncanny: When the World Falls Away",
+          "actualDuration": 152.265,
+          "startTime": 1644.3532920000002,
+          "endTime": 1796.618292
+        },
+        {
+          "path": "Audio/output/2625/chapter_10.wav",
+          "duration": 153.347708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Authenticity and the Call of Conscience",
+          "actualDuration": 153.347708,
+          "startTime": 1798.118292,
+          "endTime": 1951.4660000000001
+        },
+        {
+          "path": "Audio/output/2625/chapter_11.wav",
+          "duration": 140.333917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Temporality: Living Toward the Future",
+          "actualDuration": 140.333917,
+          "startTime": 1952.9660000000001,
+          "endTime": 2093.2999170000003
+        },
+        {
+          "path": "Audio/output/2625/chapter_12.wav",
+          "duration": 119.29325,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Death and the Meaning of Life",
+          "actualDuration": 119.29325,
+          "startTime": 2094.7999170000003,
+          "endTime": 2214.0931670000004
+        },
+        {
+          "path": "Audio/output/2625/chapter_13.wav",
+          "duration": 141.158792,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Freedom, Responsibility, and the Challenge of Choice",
+          "actualDuration": 141.158792,
+          "startTime": 2215.5931670000004,
+          "endTime": 2356.7519590000006
+        },
+        {
+          "path": "Audio/output/2625/chapter_14.wav",
+          "duration": 120.761417,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Everyday and the Extraordinary: Finding Meaning in Ordinary Life",
+          "actualDuration": 120.761417,
+          "startTime": 2358.2519590000006,
+          "endTime": 2479.013376000001
+        },
+        {
+          "path": "Audio/output/2625/chapter_15.wav",
+          "duration": 121.699083,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Task of Philosophy: Returning to the Question of Being",
+          "actualDuration": 121.699083,
+          "startTime": 2480.513376000001,
+          "endTime": 2602.2124590000008
+        },
+        {
+          "path": "Audio/output/2625/conclusion.wav",
+          "duration": 122.490083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.490083,
+          "startTime": 2603.7124590000008,
+          "endTime": 2726.202542000001
+        }
+      ],
+      "totalDuration": 2726.202542000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.97,
+          "actualStart": 0,
+          "actualEnd": 107.972,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Forgotten Question: What Does It Mean To Be?",
+          "expectedStart": 107.97,
+          "expectedEnd": 305.36,
+          "actualStart": 109.472,
+          "actualEnd": 306.866333,
+          "timeDifference": 1.5019999999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Human Existence as “Being-There”: The Uniqueness of Dasein",
+          "expectedStart": 305.36,
+          "expectedEnd": 513.02,
+          "actualStart": 308.366333,
+          "actualEnd": 516.028458,
+          "timeDifference": 3.0063329999999837
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living in the World: Everyday Life and Practical Involvement",
+          "expectedStart": 513.02,
+          "expectedEnd": 726.61,
+          "actualStart": 517.528458,
+          "actualEnd": 731.121083,
+          "timeDifference": 4.508458000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Pull of the Crowd: Conformity and the Struggle for Authenticity",
+          "expectedStart": 726.61,
+          "expectedEnd": 918.51,
+          "actualStart": 732.621083,
+          "actualEnd": 924.524166,
+          "timeDifference": 6.011082999999985
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Time, Possibility, and Facing Mortality",
+          "expectedStart": 918.51,
+          "expectedEnd": 1102.26,
+          "actualStart": 926.024166,
+          "actualEnd": 1109.777208,
+          "timeDifference": 7.514166000000046
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Care at the Core: What It Means to Be Human",
+          "expectedStart": 1102.26,
+          "expectedEnd": 1302.32,
+          "actualStart": 1111.277208,
+          "actualEnd": 1311.335583,
+          "timeDifference": 9.017207999999982
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Tradition: Inheriting a World",
+          "expectedStart": 1302.32,
+          "expectedEnd": 1458.93,
+          "actualStart": 1312.835583,
+          "actualEnd": 1469.443625,
+          "timeDifference": 10.515583000000106
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Critique of “Present-at-Hand”: Moving Beyond Detached Thinking",
+          "expectedStart": 1458.93,
+          "expectedEnd": 1630.84,
+          "actualStart": 1470.943625,
+          "actualEnd": 1642.8532920000002,
+          "timeDifference": 12.013625000000047
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Anxiety and the Uncanny: When the World Falls Away",
+          "expectedStart": 1630.84,
+          "expectedEnd": 1783.11,
+          "actualStart": 1644.3532920000002,
+          "actualEnd": 1796.618292,
+          "timeDifference": 13.51329200000032
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Authenticity and the Call of Conscience",
+          "expectedStart": 1783.11,
+          "expectedEnd": 1936.46,
+          "actualStart": 1798.118292,
+          "actualEnd": 1951.4660000000001,
+          "timeDifference": 15.00829200000021
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Temporality: Living Toward the Future",
+          "expectedStart": 1936.46,
+          "expectedEnd": 2076.79,
+          "actualStart": 1952.9660000000001,
+          "actualEnd": 2093.2999170000003,
+          "timeDifference": 16.506000000000085
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Death and the Meaning of Life",
+          "expectedStart": 2076.79,
+          "expectedEnd": 2196.08,
+          "actualStart": 2094.7999170000003,
+          "actualEnd": 2214.0931670000004,
+          "timeDifference": 18.009917000000314
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Freedom, Responsibility, and the Challenge of Choice",
+          "expectedStart": 2196.08,
+          "expectedEnd": 2337.24,
+          "actualStart": 2215.5931670000004,
+          "actualEnd": 2356.7519590000006,
+          "timeDifference": 19.51316700000052
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Everyday and the Extraordinary: Finding Meaning in Ordinary Life",
+          "expectedStart": 2337.24,
+          "expectedEnd": 2458,
+          "actualStart": 2358.2519590000006,
+          "actualEnd": 2479.013376000001,
+          "timeDifference": 21.011959000000843
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Task of Philosophy: Returning to the Question of Being",
+          "expectedStart": 2458,
+          "expectedEnd": 2579.7,
+          "actualStart": 2480.513376000001,
+          "actualEnd": 2602.2124590000008,
+          "timeDifference": 22.51337600000079
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2579.7,
+          "expectedEnd": 2702.19,
+          "actualStart": 2603.7124590000008,
+          "actualEnd": 2726.202542000001,
+          "timeDifference": 24.012459000000945
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.972,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Forgotten Question: What Does It Mean To Be?"
+        },
+        {
+          "startTime": 306.866333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Forgotten Question: What Does It Mean To Be? and Chapter 2 Human Existence as “Being-There”: The Uniqueness of Dasein"
+        },
+        {
+          "startTime": 516.028458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Human Existence as “Being-There”: The Uniqueness of Dasein and Chapter 3 Living in the World: Everyday Life and Practical Involvement"
+        },
+        {
+          "startTime": 731.121083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living in the World: Everyday Life and Practical Involvement and Chapter 4 The Pull of the Crowd: Conformity and the Struggle for Authenticity"
+        },
+        {
+          "startTime": 924.524166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Pull of the Crowd: Conformity and the Struggle for Authenticity and Chapter 5 Time, Possibility, and Facing Mortality"
+        },
+        {
+          "startTime": 1109.777208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Time, Possibility, and Facing Mortality and Chapter 6 Care at the Core: What It Means to Be Human"
+        },
+        {
+          "startTime": 1311.335583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Care at the Core: What It Means to Be Human and Chapter 7 The Weight of Tradition: Inheriting a World"
+        },
+        {
+          "startTime": 1469.443625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Tradition: Inheriting a World and Chapter 8 The Critique of “Present-at-Hand”: Moving Beyond Detached Thinking"
+        },
+        {
+          "startTime": 1642.8532920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Critique of “Present-at-Hand”: Moving Beyond Detached Thinking and Chapter 9 Anxiety and the Uncanny: When the World Falls Away"
+        },
+        {
+          "startTime": 1796.618292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Anxiety and the Uncanny: When the World Falls Away and Chapter 10 Authenticity and the Call of Conscience"
+        },
+        {
+          "startTime": 1951.4660000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Authenticity and the Call of Conscience and Chapter 11 Temporality: Living Toward the Future"
+        },
+        {
+          "startTime": 2093.2999170000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Temporality: Living Toward the Future and Chapter 12 Death and the Meaning of Life"
+        },
+        {
+          "startTime": 2214.0931670000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Death and the Meaning of Life and Chapter 13 Freedom, Responsibility, and the Challenge of Choice"
+        },
+        {
+          "startTime": 2356.7519590000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Freedom, Responsibility, and the Challenge of Choice and Chapter 14 The Everyday and the Extraordinary: Finding Meaning in Ordinary Life"
+        },
+        {
+          "startTime": 2479.013376000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Everyday and the Extraordinary: Finding Meaning in Ordinary Life and Chapter 15 The Task of Philosophy: Returning to the Question of Being"
+        },
+        {
+          "startTime": 2602.2124590000008,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Task of Philosophy: Returning to the Question of Being and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2625",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:38:10.758Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

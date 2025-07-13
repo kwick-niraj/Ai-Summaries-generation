@@ -1,0 +1,456 @@
+{
+  "bookId": "2386",
+  "timestamp": "2025-07-10T20:02:46.810Z",
+  "success": false,
+  "processingTime": -1752177376086,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5443,
+    "totalAudioFiles": 12,
+    "totalDuration": 2388.4840849999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2388.4840849999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2386/optimized_text/2386.md",
+    "fileSize": 634,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2386.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2386/metadata/2386_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2388.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2386/metadata/2386_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2386/metadata/2386_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2386/2386_complete.wav",
+    "duration": 2388.484083,
+    "fileSize": 114647314,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2386/introduction.wav",
+          "duration": 94.508875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.508875,
+          "startTime": 0,
+          "endTime": 94.508875
+        },
+        {
+          "path": "Audio/output/2386/chapter_01.wav",
+          "duration": 237.776917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Heart of Tea in Everyday Life",
+          "actualDuration": 237.776917,
+          "startTime": 96.008875,
+          "endTime": 333.785792
+        },
+        {
+          "path": "Audio/output/2386/chapter_02.wav",
+          "duration": 251.758333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Journey of Tea Across Cultures and Time",
+          "actualDuration": 251.758333,
+          "startTime": 335.285792,
+          "endTime": 587.044125
+        },
+        {
+          "path": "Audio/output/2386/chapter_03.wav",
+          "duration": 251.647458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Art of Simplicity and the Beauty of Imperfection",
+          "actualDuration": 251.647458,
+          "startTime": 588.544125,
+          "endTime": 840.191583
+        },
+        {
+          "path": "Audio/output/2386/chapter_04.wav",
+          "duration": 251.199167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Tea as a Path to Harmony and Mutual Respect",
+          "actualDuration": 251.199167,
+          "startTime": 841.691583,
+          "endTime": 1092.89075
+        },
+        {
+          "path": "Audio/output/2386/chapter_05.wav",
+          "duration": 237.871792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Interwoven Nature of Art, Spirit, and Daily Living",
+          "actualDuration": 237.871792,
+          "startTime": 1094.39075,
+          "endTime": 1332.262542
+        },
+        {
+          "path": "Audio/output/2386/chapter_06.wav",
+          "duration": 226.130667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 East Meets West: Misunderstandings and Moments of Connection",
+          "actualDuration": 226.130667,
+          "startTime": 1333.762542,
+          "endTime": 1559.8932089999998
+        },
+        {
+          "path": "Audio/output/2386/chapter_07.wav",
+          "duration": 202.444833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Philosophy of the Fleeting Moment",
+          "actualDuration": 202.444833,
+          "startTime": 1561.3932089999998,
+          "endTime": 1763.8380419999999
+        },
+        {
+          "path": "Audio/output/2386/chapter_08.wav",
+          "duration": 177.254792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Quiet Power of Hospitality",
+          "actualDuration": 177.254792,
+          "startTime": 1765.3380419999999,
+          "endTime": 1942.5928339999998
+        },
+        {
+          "path": "Audio/output/2386/chapter_09.wav",
+          "duration": 180.220917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Tea Room as a Sanctuary",
+          "actualDuration": 180.220917,
+          "startTime": 1944.0928339999998,
+          "endTime": 2124.3137509999997
+        },
+        {
+          "path": "Audio/output/2386/chapter_10.wav",
+          "duration": 150.388042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Relevance of the Way of Tea",
+          "actualDuration": 150.388042,
+          "startTime": 2125.8137509999997,
+          "endTime": 2276.2017929999997
+        },
+        {
+          "path": "Audio/output/2386/conclusion.wav",
+          "duration": 127.282292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.282292,
+          "startTime": 2277.7017929999997,
+          "endTime": 2404.9840849999996
+        }
+      ],
+      "totalDuration": 2404.9840849999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.51,
+          "actualStart": 0,
+          "actualEnd": 94.508875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Heart of Tea in Everyday Life",
+          "expectedStart": 94.51,
+          "expectedEnd": 332.29,
+          "actualStart": 96.008875,
+          "actualEnd": 333.785792,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Journey of Tea Across Cultures and Time",
+          "expectedStart": 332.29,
+          "expectedEnd": 584.05,
+          "actualStart": 335.285792,
+          "actualEnd": 587.044125,
+          "timeDifference": 2.9957919999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Art of Simplicity and the Beauty of Imperfection",
+          "expectedStart": 584.05,
+          "expectedEnd": 835.7,
+          "actualStart": 588.544125,
+          "actualEnd": 840.191583,
+          "timeDifference": 4.494125000000054
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Tea as a Path to Harmony and Mutual Respect",
+          "expectedStart": 835.7,
+          "expectedEnd": 1086.9,
+          "actualStart": 841.691583,
+          "actualEnd": 1092.89075,
+          "timeDifference": 5.991582999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Interwoven Nature of Art, Spirit, and Daily Living",
+          "expectedStart": 1086.9,
+          "expectedEnd": 1324.77,
+          "actualStart": 1094.39075,
+          "actualEnd": 1332.262542,
+          "timeDifference": 7.4907499999999345
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 East Meets West: Misunderstandings and Moments of Connection",
+          "expectedStart": 1324.77,
+          "expectedEnd": 1550.9,
+          "actualStart": 1333.762542,
+          "actualEnd": 1559.8932089999998,
+          "timeDifference": 8.992541999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Philosophy of the Fleeting Moment",
+          "expectedStart": 1550.9,
+          "expectedEnd": 1753.34,
+          "actualStart": 1561.3932089999998,
+          "actualEnd": 1763.8380419999999,
+          "timeDifference": 10.493208999999752
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Quiet Power of Hospitality",
+          "expectedStart": 1753.34,
+          "expectedEnd": 1930.59,
+          "actualStart": 1765.3380419999999,
+          "actualEnd": 1942.5928339999998,
+          "timeDifference": 11.998041999999941
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Tea Room as a Sanctuary",
+          "expectedStart": 1930.59,
+          "expectedEnd": 2110.81,
+          "actualStart": 1944.0928339999998,
+          "actualEnd": 2124.3137509999997,
+          "timeDifference": 13.502833999999893
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Relevance of the Way of Tea",
+          "expectedStart": 2110.81,
+          "expectedEnd": 2261.2,
+          "actualStart": 2125.8137509999997,
+          "actualEnd": 2276.2017929999997,
+          "timeDifference": 15.003750999999738
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2261.2,
+          "expectedEnd": 2388.48,
+          "actualStart": 2277.7017929999997,
+          "actualEnd": 2404.9840849999996,
+          "timeDifference": 16.501792999999907
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.508875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Heart of Tea in Everyday Life"
+        },
+        {
+          "startTime": 333.785792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Heart of Tea in Everyday Life and Chapter 2 The Journey of Tea Across Cultures and Time"
+        },
+        {
+          "startTime": 587.044125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Journey of Tea Across Cultures and Time and Chapter 3 The Art of Simplicity and the Beauty of Imperfection"
+        },
+        {
+          "startTime": 840.191583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Art of Simplicity and the Beauty of Imperfection and Chapter 4 Tea as a Path to Harmony and Mutual Respect"
+        },
+        {
+          "startTime": 1092.89075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Tea as a Path to Harmony and Mutual Respect and Chapter 5 The Interwoven Nature of Art, Spirit, and Daily Living"
+        },
+        {
+          "startTime": 1332.262542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Interwoven Nature of Art, Spirit, and Daily Living and Chapter 6 East Meets West: Misunderstandings and Moments of Connection"
+        },
+        {
+          "startTime": 1559.8932089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 East Meets West: Misunderstandings and Moments of Connection and Chapter 7 The Philosophy of the Fleeting Moment"
+        },
+        {
+          "startTime": 1763.8380419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Philosophy of the Fleeting Moment and Chapter 8 The Quiet Power of Hospitality"
+        },
+        {
+          "startTime": 1942.5928339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Quiet Power of Hospitality and Chapter 9 The Tea Room as a Sanctuary"
+        },
+        {
+          "startTime": 2124.3137509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Tea Room as a Sanctuary and Chapter 10 The Enduring Relevance of the Way of Tea"
+        },
+        {
+          "startTime": 2276.2017929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Relevance of the Way of Tea and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2386",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:56:17.713Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

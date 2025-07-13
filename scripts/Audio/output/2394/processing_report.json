@@ -1,0 +1,456 @@
+{
+  "bookId": "2394",
+  "timestamp": "2025-07-10T20:32:57.070Z",
+  "success": false,
+  "processingTime": -1752179188039,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4543,
+    "totalAudioFiles": 12,
+    "totalDuration": 2203.188834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2203.188834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2394/optimized_text/2394.md",
+    "fileSize": 847,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2394.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2394/metadata/2394_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2203.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2394/metadata/2394_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2394/metadata/2394_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2394/2394_complete.wav",
+    "duration": 2203.188833,
+    "fileSize": 105753142,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2394/introduction.wav",
+          "duration": 90.401875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.401875,
+          "startTime": 0,
+          "endTime": 90.401875
+        },
+        {
+          "path": "Audio/output/2394/chapter_01.wav",
+          "duration": 247.850292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Management—Why Old Rules Fall Short",
+          "actualDuration": 247.850292,
+          "startTime": 91.901875,
+          "endTime": 339.752167
+        },
+        {
+          "path": "Audio/output/2394/chapter_02.wav",
+          "duration": 239.30975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Talent—Why Strengths Matter More Than Skills",
+          "actualDuration": 239.30975,
+          "startTime": 341.252167,
+          "endTime": 580.561917
+        },
+        {
+          "path": "Audio/output/2394/chapter_03.wav",
+          "duration": 236.070583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Defining Outcomes, Not Steps—Giving People Room to Excel",
+          "actualDuration": 236.070583,
+          "startTime": 582.061917,
+          "endTime": 818.1324999999999
+        },
+        {
+          "path": "Audio/output/2394/chapter_04.wav",
+          "duration": 240.654667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Manager-Employee Relationship—The Heart of Engagement and Retention",
+          "actualDuration": 240.654667,
+          "startTime": 819.6324999999999,
+          "endTime": 1060.287167
+        },
+        {
+          "path": "Audio/output/2394/chapter_05.wav",
+          "duration": 220.63075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Measuring and Sustaining Engagement—The Role of the Twelve Questions",
+          "actualDuration": 220.63075,
+          "startTime": 1061.787167,
+          "endTime": 1282.417917
+        },
+        {
+          "path": "Audio/output/2394/chapter_06.wav",
+          "duration": 180.232042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Turning Conversations into Growth—The Art of Individualized Coaching",
+          "actualDuration": 180.232042,
+          "startTime": 1283.917917,
+          "endTime": 1464.149959
+        },
+        {
+          "path": "Audio/output/2394/chapter_07.wav",
+          "duration": 179.064292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Team of Individuals—Harnessing Diversity of Strengths",
+          "actualDuration": 179.064292,
+          "startTime": 1465.649959,
+          "endTime": 1644.714251
+        },
+        {
+          "path": "Audio/output/2394/chapter_08.wav",
+          "duration": 138.767083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Performance Challenges—Managing Around Weaknesses",
+          "actualDuration": 138.767083,
+          "startTime": 1646.214251,
+          "endTime": 1784.981334
+        },
+        {
+          "path": "Audio/output/2394/chapter_09.wav",
+          "duration": 151.908292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining High Performance—Recognition, Growth, and Purpose",
+          "actualDuration": 151.908292,
+          "startTime": 1786.481334,
+          "endTime": 1938.3896260000001
+        },
+        {
+          "path": "Audio/output/2394/chapter_10.wav",
+          "duration": 160.576708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Manager’s Ongoing Journey—Learning, Adapting, and Leading by Example",
+          "actualDuration": 160.576708,
+          "startTime": 1939.8896260000001,
+          "endTime": 2100.466334
+        },
+        {
+          "path": "Audio/output/2394/conclusion.wav",
+          "duration": 117.7225,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.7225,
+          "startTime": 2101.966334,
+          "endTime": 2219.688834
+        }
+      ],
+      "totalDuration": 2219.688834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.4,
+          "actualStart": 0,
+          "actualEnd": 90.401875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Management—Why Old Rules Fall Short",
+          "expectedStart": 90.4,
+          "expectedEnd": 338.25,
+          "actualStart": 91.901875,
+          "actualEnd": 339.752167,
+          "timeDifference": 1.5018749999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Talent—Why Strengths Matter More Than Skills",
+          "expectedStart": 338.25,
+          "expectedEnd": 577.56,
+          "actualStart": 341.252167,
+          "actualEnd": 580.561917,
+          "timeDifference": 3.002166999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Defining Outcomes, Not Steps—Giving People Room to Excel",
+          "expectedStart": 577.56,
+          "expectedEnd": 813.63,
+          "actualStart": 582.061917,
+          "actualEnd": 818.1324999999999,
+          "timeDifference": 4.501917000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Manager-Employee Relationship—The Heart of Engagement and Retention",
+          "expectedStart": 813.63,
+          "expectedEnd": 1054.28,
+          "actualStart": 819.6324999999999,
+          "actualEnd": 1060.287167,
+          "timeDifference": 6.002499999999941
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Measuring and Sustaining Engagement—The Role of the Twelve Questions",
+          "expectedStart": 1054.28,
+          "expectedEnd": 1274.91,
+          "actualStart": 1061.787167,
+          "actualEnd": 1282.417917,
+          "timeDifference": 7.507166999999981
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Turning Conversations into Growth—The Art of Individualized Coaching",
+          "expectedStart": 1274.91,
+          "expectedEnd": 1455.14,
+          "actualStart": 1283.917917,
+          "actualEnd": 1464.149959,
+          "timeDifference": 9.007916999999907
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Team of Individuals—Harnessing Diversity of Strengths",
+          "expectedStart": 1455.14,
+          "expectedEnd": 1634.2,
+          "actualStart": 1465.649959,
+          "actualEnd": 1644.714251,
+          "timeDifference": 10.50995899999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Performance Challenges—Managing Around Weaknesses",
+          "expectedStart": 1634.2,
+          "expectedEnd": 1772.97,
+          "actualStart": 1646.214251,
+          "actualEnd": 1784.981334,
+          "timeDifference": 12.014251000000058
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining High Performance—Recognition, Growth, and Purpose",
+          "expectedStart": 1772.97,
+          "expectedEnd": 1924.88,
+          "actualStart": 1786.481334,
+          "actualEnd": 1938.3896260000001,
+          "timeDifference": 13.511334000000033
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Manager’s Ongoing Journey—Learning, Adapting, and Leading by Example",
+          "expectedStart": 1924.88,
+          "expectedEnd": 2085.46,
+          "actualStart": 1939.8896260000001,
+          "actualEnd": 2100.466334,
+          "timeDifference": 15.009626000000026
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2085.46,
+          "expectedEnd": 2203.18,
+          "actualStart": 2101.966334,
+          "actualEnd": 2219.688834,
+          "timeDifference": 16.50633400000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.401875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Management—Why Old Rules Fall Short"
+        },
+        {
+          "startTime": 339.752167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Management—Why Old Rules Fall Short and Chapter 2 The Power of Talent—Why Strengths Matter More Than Skills"
+        },
+        {
+          "startTime": 580.561917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Talent—Why Strengths Matter More Than Skills and Chapter 3 Defining Outcomes, Not Steps—Giving People Room to Excel"
+        },
+        {
+          "startTime": 818.1324999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Defining Outcomes, Not Steps—Giving People Room to Excel and Chapter 4 The Manager-Employee Relationship—The Heart of Engagement and Retention"
+        },
+        {
+          "startTime": 1060.287167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Manager-Employee Relationship—The Heart of Engagement and Retention and Chapter 5 Measuring and Sustaining Engagement—The Role of the Twelve Questions"
+        },
+        {
+          "startTime": 1282.417917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Measuring and Sustaining Engagement—The Role of the Twelve Questions and Chapter 6 Turning Conversations into Growth—The Art of Individualized Coaching"
+        },
+        {
+          "startTime": 1464.149959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Turning Conversations into Growth—The Art of Individualized Coaching and Chapter 7 Building a Team of Individuals—Harnessing Diversity of Strengths"
+        },
+        {
+          "startTime": 1644.714251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Team of Individuals—Harnessing Diversity of Strengths and Chapter 8 Navigating Performance Challenges—Managing Around Weaknesses"
+        },
+        {
+          "startTime": 1784.981334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Performance Challenges—Managing Around Weaknesses and Chapter 9 Sustaining High Performance—Recognition, Growth, and Purpose"
+        },
+        {
+          "startTime": 1938.3896260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining High Performance—Recognition, Growth, and Purpose and Chapter 10 The Manager’s Ongoing Journey—Learning, Adapting, and Leading by Example"
+        },
+        {
+          "startTime": 2100.466334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Manager’s Ongoing Journey—Learning, Adapting, and Leading by Example and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2394",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:26:28.564Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

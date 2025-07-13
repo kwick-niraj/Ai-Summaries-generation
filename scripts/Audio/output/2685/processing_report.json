@@ -1,0 +1,456 @@
+{
+  "bookId": "2685",
+  "timestamp": "2025-07-12T10:55:45.474Z",
+  "success": false,
+  "processingTime": -1752317378180,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4319,
+    "totalAudioFiles": 12,
+    "totalDuration": 1973.4765419999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1973.4765419999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2685/optimized_text/2685.md",
+    "fileSize": 713,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2685.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2685/metadata/2685_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1973.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2685/metadata/2685_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2685/metadata/2685_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2685/2685_complete.wav",
+    "duration": 1973.476542,
+    "fileSize": 94726952,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2685/introduction.wav",
+          "duration": 72.463167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.463167,
+          "startTime": 0,
+          "endTime": 72.463167
+        },
+        {
+          "path": "Audio/output/2685/chapter_01.wav",
+          "duration": 205.317542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Looking Is Shaped by Where We Stand",
+          "actualDuration": 205.317542,
+          "startTime": 73.963167,
+          "endTime": 279.280709
+        },
+        {
+          "path": "Audio/output/2685/chapter_02.wav",
+          "duration": 227.268083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Reproduced Images Change What Art Means",
+          "actualDuration": 227.268083,
+          "startTime": 280.780709,
+          "endTime": 508.048792
+        },
+        {
+          "path": "Audio/output/2685/chapter_03.wav",
+          "duration": 203.304292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Art Reflects Power, Property, and Status",
+          "actualDuration": 203.304292,
+          "startTime": 509.548792,
+          "endTime": 712.853084
+        },
+        {
+          "path": "Audio/output/2685/chapter_04.wav",
+          "duration": 193.973208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Gaze and the Portrayal of Women in Art",
+          "actualDuration": 193.973208,
+          "startTime": 714.353084,
+          "endTime": 908.326292
+        },
+        {
+          "path": "Audio/output/2685/chapter_05.wav",
+          "duration": 181.384292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Words, Images, and the Power of Framing",
+          "actualDuration": 181.384292,
+          "startTime": 909.826292,
+          "endTime": 1091.210584
+        },
+        {
+          "path": "Audio/output/2685/chapter_06.wav",
+          "duration": 181.23725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Mirror of Advertising—Desire, Absence, and the Promise of More",
+          "actualDuration": 181.23725,
+          "startTime": 1092.710584,
+          "endTime": 1273.9478339999998
+        },
+        {
+          "path": "Audio/output/2685/chapter_07.wav",
+          "duration": 154.86625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Construction of Self—Identity in a World of Images",
+          "actualDuration": 154.86625,
+          "startTime": 1275.4478339999998,
+          "endTime": 1430.3140839999999
+        },
+        {
+          "path": "Audio/output/2685/chapter_08.wav",
+          "duration": 153.02575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Everyday Spectacle—How Visual Culture Shapes Modern Life",
+          "actualDuration": 153.02575,
+          "startTime": 1431.8140839999999,
+          "endTime": 1584.8398339999999
+        },
+        {
+          "path": "Audio/output/2685/chapter_09.wav",
+          "duration": 140.855417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Seeing Through the Surface—Critical Looking in a Visual Age",
+          "actualDuration": 140.855417,
+          "startTime": 1586.3398339999999,
+          "endTime": 1727.1952509999999
+        },
+        {
+          "path": "Audio/output/2685/chapter_10.wav",
+          "duration": 119.056833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 New Ways of Seeing—Imagination, Agency, and the Future",
+          "actualDuration": 119.056833,
+          "startTime": 1728.6952509999999,
+          "endTime": 1847.752084
+        },
+        {
+          "path": "Audio/output/2685/conclusion.wav",
+          "duration": 140.724458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.724458,
+          "startTime": 1849.252084,
+          "endTime": 1989.9765419999999
+        }
+      ],
+      "totalDuration": 1989.9765419999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.46,
+          "actualStart": 0,
+          "actualEnd": 72.463167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Looking Is Shaped by Where We Stand",
+          "expectedStart": 72.46,
+          "expectedEnd": 277.78,
+          "actualStart": 73.963167,
+          "actualEnd": 279.280709,
+          "timeDifference": 1.5031670000000048
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Reproduced Images Change What Art Means",
+          "expectedStart": 277.78,
+          "expectedEnd": 505.05,
+          "actualStart": 280.780709,
+          "actualEnd": 508.048792,
+          "timeDifference": 3.000709000000029
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Art Reflects Power, Property, and Status",
+          "expectedStart": 505.05,
+          "expectedEnd": 708.35,
+          "actualStart": 509.548792,
+          "actualEnd": 712.853084,
+          "timeDifference": 4.49879199999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Gaze and the Portrayal of Women in Art",
+          "expectedStart": 708.35,
+          "expectedEnd": 902.32,
+          "actualStart": 714.353084,
+          "actualEnd": 908.326292,
+          "timeDifference": 6.003083999999944
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Words, Images, and the Power of Framing",
+          "expectedStart": 902.32,
+          "expectedEnd": 1083.7,
+          "actualStart": 909.826292,
+          "actualEnd": 1091.210584,
+          "timeDifference": 7.506291999999917
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Mirror of Advertising—Desire, Absence, and the Promise of More",
+          "expectedStart": 1083.7,
+          "expectedEnd": 1264.94,
+          "actualStart": 1092.710584,
+          "actualEnd": 1273.9478339999998,
+          "timeDifference": 9.01058399999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Construction of Self—Identity in a World of Images",
+          "expectedStart": 1264.94,
+          "expectedEnd": 1419.81,
+          "actualStart": 1275.4478339999998,
+          "actualEnd": 1430.3140839999999,
+          "timeDifference": 10.507833999999775
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Everyday Spectacle—How Visual Culture Shapes Modern Life",
+          "expectedStart": 1419.81,
+          "expectedEnd": 1572.84,
+          "actualStart": 1431.8140839999999,
+          "actualEnd": 1584.8398339999999,
+          "timeDifference": 12.00408399999992
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Seeing Through the Surface—Critical Looking in a Visual Age",
+          "expectedStart": 1572.84,
+          "expectedEnd": 1713.7,
+          "actualStart": 1586.3398339999999,
+          "actualEnd": 1727.1952509999999,
+          "timeDifference": 13.499833999999964
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 New Ways of Seeing—Imagination, Agency, and the Future",
+          "expectedStart": 1713.7,
+          "expectedEnd": 1832.76,
+          "actualStart": 1728.6952509999999,
+          "actualEnd": 1847.752084,
+          "timeDifference": 14.995250999999826
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1832.76,
+          "expectedEnd": 1973.48,
+          "actualStart": 1849.252084,
+          "actualEnd": 1989.9765419999999,
+          "timeDifference": 16.492083999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.463167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Looking Is Shaped by Where We Stand"
+        },
+        {
+          "startTime": 279.280709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Looking Is Shaped by Where We Stand and Chapter 2 How Reproduced Images Change What Art Means"
+        },
+        {
+          "startTime": 508.048792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Reproduced Images Change What Art Means and Chapter 3 How Art Reflects Power, Property, and Status"
+        },
+        {
+          "startTime": 712.853084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Art Reflects Power, Property, and Status and Chapter 4 The Gaze and the Portrayal of Women in Art"
+        },
+        {
+          "startTime": 908.326292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Gaze and the Portrayal of Women in Art and Chapter 5 Words, Images, and the Power of Framing"
+        },
+        {
+          "startTime": 1091.210584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Words, Images, and the Power of Framing and Chapter 6 The Mirror of Advertising—Desire, Absence, and the Promise of More"
+        },
+        {
+          "startTime": 1273.9478339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Mirror of Advertising—Desire, Absence, and the Promise of More and Chapter 7 The Construction of Self—Identity in a World of Images"
+        },
+        {
+          "startTime": 1430.3140839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Construction of Self—Identity in a World of Images and Chapter 8 The Everyday Spectacle—How Visual Culture Shapes Modern Life"
+        },
+        {
+          "startTime": 1584.8398339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Everyday Spectacle—How Visual Culture Shapes Modern Life and Chapter 9 Seeing Through the Surface—Critical Looking in a Visual Age"
+        },
+        {
+          "startTime": 1727.1952509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Seeing Through the Surface—Critical Looking in a Visual Age and Chapter 10 New Ways of Seeing—Imagination, Agency, and the Future"
+        },
+        {
+          "startTime": 1847.752084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 New Ways of Seeing—Imagination, Agency, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2685",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:49:38.717Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

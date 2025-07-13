@@ -1,0 +1,456 @@
+{
+  "bookId": "2627",
+  "timestamp": "2025-07-11T08:54:50.340Z",
+  "success": false,
+  "processingTime": -1752223755617,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4485,
+    "totalAudioFiles": 12,
+    "totalDuration": 2250.588875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2250.588875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2627/optimized_text/2627.md",
+    "fileSize": 861,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2627.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2627/metadata/2627_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2250.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2627/metadata/2627_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2627/metadata/2627_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2627/2627_complete.wav",
+    "duration": 2250.588875,
+    "fileSize": 108028344,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2627/introduction.wav",
+          "duration": 86.481958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.481958,
+          "startTime": 0,
+          "endTime": 86.481958
+        },
+        {
+          "path": "Audio/output/2627/chapter_01.wav",
+          "duration": 236.792042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the New Partnership: Humans and Artificial Intelligence",
+          "actualDuration": 236.792042,
+          "startTime": 87.981958,
+          "endTime": 324.774
+        },
+        {
+          "path": "Audio/output/2627/chapter_02.wav",
+          "duration": 282.84925,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What AI Can and Cannot Do: Recognizing Strengths and Boundaries",
+          "actualDuration": 282.84925,
+          "startTime": 326.274,
+          "endTime": 609.12325
+        },
+        {
+          "path": "Audio/output/2627/chapter_03.wav",
+          "duration": 240.175542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Experimenting and Learning: Building Skills for Human-AI Collaboration",
+          "actualDuration": 240.175542,
+          "startTime": 610.62325,
+          "endTime": 850.798792
+        },
+        {
+          "path": "Audio/output/2627/chapter_04.wav",
+          "duration": 216.205083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Critical Engagement: Questioning, Verifying, and Guiding AI Outputs",
+          "actualDuration": 216.205083,
+          "startTime": 852.298792,
+          "endTime": 1068.503875
+        },
+        {
+          "path": "Audio/output/2627/chapter_05.wav",
+          "duration": 255.814792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Human Strengths in an AI-Augmented World: Context, Judgment, and Ethics",
+          "actualDuration": 255.814792,
+          "startTime": 1070.003875,
+          "endTime": 1325.818667
+        },
+        {
+          "path": "Audio/output/2627/chapter_06.wav",
+          "duration": 178.268458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Designing Workflows for Co-Intelligence: Practical Integration Strategies",
+          "actualDuration": 178.268458,
+          "startTime": 1327.318667,
+          "endTime": 1505.587125
+        },
+        {
+          "path": "Audio/output/2627/chapter_07.wav",
+          "duration": 161.617875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Adapting Roles and Skills: Navigating Change with Confidence",
+          "actualDuration": 161.617875,
+          "startTime": 1507.087125,
+          "endTime": 1668.705
+        },
+        {
+          "path": "Audio/output/2627/chapter_08.wav",
+          "duration": 173.068542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Trust and Transparency: Foundations for Responsible AI Use",
+          "actualDuration": 173.068542,
+          "startTime": 1670.205,
+          "endTime": 1843.273542
+        },
+        {
+          "path": "Audio/output/2627/chapter_09.wav",
+          "duration": 140.192042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Shaping the Future Together: Participatory Co-Intelligence",
+          "actualDuration": 140.192042,
+          "startTime": 1844.773542,
+          "endTime": 1984.9655839999998
+        },
+        {
+          "path": "Audio/output/2627/chapter_10.wav",
+          "duration": 152.825833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Co-Intelligence: Lifelong Learning and Adaptation",
+          "actualDuration": 152.825833,
+          "startTime": 1986.4655839999998,
+          "endTime": 2139.291417
+        },
+        {
+          "path": "Audio/output/2627/conclusion.wav",
+          "duration": 126.297458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.297458,
+          "startTime": 2140.791417,
+          "endTime": 2267.088875
+        }
+      ],
+      "totalDuration": 2267.088875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.48,
+          "actualStart": 0,
+          "actualEnd": 86.481958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the New Partnership: Humans and Artificial Intelligence",
+          "expectedStart": 86.48,
+          "expectedEnd": 323.27,
+          "actualStart": 87.981958,
+          "actualEnd": 324.774,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What AI Can and Cannot Do: Recognizing Strengths and Boundaries",
+          "expectedStart": 323.27,
+          "expectedEnd": 606.12,
+          "actualStart": 326.274,
+          "actualEnd": 609.12325,
+          "timeDifference": 3.004000000000019
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Experimenting and Learning: Building Skills for Human-AI Collaboration",
+          "expectedStart": 606.12,
+          "expectedEnd": 846.3,
+          "actualStart": 610.62325,
+          "actualEnd": 850.798792,
+          "timeDifference": 4.50324999999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Critical Engagement: Questioning, Verifying, and Guiding AI Outputs",
+          "expectedStart": 846.3,
+          "expectedEnd": 1062.51,
+          "actualStart": 852.298792,
+          "actualEnd": 1068.503875,
+          "timeDifference": 5.998792000000094
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Human Strengths in an AI-Augmented World: Context, Judgment, and Ethics",
+          "expectedStart": 1062.51,
+          "expectedEnd": 1318.32,
+          "actualStart": 1070.003875,
+          "actualEnd": 1325.818667,
+          "timeDifference": 7.493875000000116
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Designing Workflows for Co-Intelligence: Practical Integration Strategies",
+          "expectedStart": 1318.32,
+          "expectedEnd": 1496.59,
+          "actualStart": 1327.318667,
+          "actualEnd": 1505.587125,
+          "timeDifference": 8.998667000000069
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Adapting Roles and Skills: Navigating Change with Confidence",
+          "expectedStart": 1496.59,
+          "expectedEnd": 1658.21,
+          "actualStart": 1507.087125,
+          "actualEnd": 1668.705,
+          "timeDifference": 10.497125000000096
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Trust and Transparency: Foundations for Responsible AI Use",
+          "expectedStart": 1658.21,
+          "expectedEnd": 1831.28,
+          "actualStart": 1670.205,
+          "actualEnd": 1843.273542,
+          "timeDifference": 11.99499999999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Shaping the Future Together: Participatory Co-Intelligence",
+          "expectedStart": 1831.28,
+          "expectedEnd": 1971.47,
+          "actualStart": 1844.773542,
+          "actualEnd": 1984.9655839999998,
+          "timeDifference": 13.493541999999934
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Co-Intelligence: Lifelong Learning and Adaptation",
+          "expectedStart": 1971.47,
+          "expectedEnd": 2124.3,
+          "actualStart": 1986.4655839999998,
+          "actualEnd": 2139.291417,
+          "timeDifference": 14.99558399999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2124.3,
+          "expectedEnd": 2250.6,
+          "actualStart": 2140.791417,
+          "actualEnd": 2267.088875,
+          "timeDifference": 16.49141699999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.481958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the New Partnership: Humans and Artificial Intelligence"
+        },
+        {
+          "startTime": 324.774,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the New Partnership: Humans and Artificial Intelligence and Chapter 2 What AI Can and Cannot Do: Recognizing Strengths and Boundaries"
+        },
+        {
+          "startTime": 609.12325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What AI Can and Cannot Do: Recognizing Strengths and Boundaries and Chapter 3 Experimenting and Learning: Building Skills for Human-AI Collaboration"
+        },
+        {
+          "startTime": 850.798792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Experimenting and Learning: Building Skills for Human-AI Collaboration and Chapter 4 Critical Engagement: Questioning, Verifying, and Guiding AI Outputs"
+        },
+        {
+          "startTime": 1068.503875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Critical Engagement: Questioning, Verifying, and Guiding AI Outputs and Chapter 5 Human Strengths in an AI-Augmented World: Context, Judgment, and Ethics"
+        },
+        {
+          "startTime": 1325.818667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Human Strengths in an AI-Augmented World: Context, Judgment, and Ethics and Chapter 6 Designing Workflows for Co-Intelligence: Practical Integration Strategies"
+        },
+        {
+          "startTime": 1505.587125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Designing Workflows for Co-Intelligence: Practical Integration Strategies and Chapter 7 Adapting Roles and Skills: Navigating Change with Confidence"
+        },
+        {
+          "startTime": 1668.705,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Adapting Roles and Skills: Navigating Change with Confidence and Chapter 8 Building Trust and Transparency: Foundations for Responsible AI Use"
+        },
+        {
+          "startTime": 1843.273542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Trust and Transparency: Foundations for Responsible AI Use and Chapter 9 Shaping the Future Together: Participatory Co-Intelligence"
+        },
+        {
+          "startTime": 1984.9655839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Shaping the Future Together: Participatory Co-Intelligence and Chapter 10 Sustaining Co-Intelligence: Lifelong Learning and Adaptation"
+        },
+        {
+          "startTime": 2139.291417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Co-Intelligence: Lifelong Learning and Adaptation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2627",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:49:17.137Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

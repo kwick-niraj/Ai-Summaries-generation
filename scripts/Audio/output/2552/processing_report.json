@@ -1,0 +1,456 @@
+{
+  "bookId": "2552",
+  "timestamp": "2025-07-11T04:54:42.665Z",
+  "success": false,
+  "processingTime": -1752209372792,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4221,
+    "totalAudioFiles": 12,
+    "totalDuration": 1961.4372899999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1961.4372899999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2552/optimized_text/2552.md",
+    "fileSize": 599,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2552.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2552/metadata/2552_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1961.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2552/metadata/2552_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2552/metadata/2552_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2552/2552_complete.wav",
+    "duration": 1961.437292,
+    "fileSize": 94149068,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2552/introduction.wav",
+          "duration": 93.712625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.712625,
+          "startTime": 0,
+          "endTime": 93.712625
+        },
+        {
+          "path": "Audio/output/2552/chapter_01.wav",
+          "duration": 216.152833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Surrounded by Music and Chaos",
+          "actualDuration": 216.152833,
+          "startTime": 95.212625,
+          "endTime": 311.365458
+        },
+        {
+          "path": "Audio/output/2552/chapter_02.wav",
+          "duration": 227.314708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chasing the Dream and Finding a Band",
+          "actualDuration": 227.314708,
+          "startTime": 312.865458,
+          "endTime": 540.180166
+        },
+        {
+          "path": "Audio/output/2552/chapter_03.wav",
+          "duration": 207.371375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Highs and Lows of Rock Stardom",
+          "actualDuration": 207.371375,
+          "startTime": 541.680166,
+          "endTime": 749.051541
+        },
+        {
+          "path": "Audio/output/2552/chapter_04.wav",
+          "duration": 181.846125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Addiction, Recovery, and the Cost of Excess",
+          "actualDuration": 181.846125,
+          "startTime": 750.551541,
+          "endTime": 932.3976660000001
+        },
+        {
+          "path": "Audio/output/2552/chapter_05.wav",
+          "duration": 175.673333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Family, Relationships, and the Search for Balance",
+          "actualDuration": 175.673333,
+          "startTime": 933.8976660000001,
+          "endTime": 1109.570999
+        },
+        {
+          "path": "Audio/output/2552/chapter_06.wav",
+          "duration": 191.235583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reinvention and the Power of Second Chances",
+          "actualDuration": 191.235583,
+          "startTime": 1111.070999,
+          "endTime": 1302.306582
+        },
+        {
+          "path": "Audio/output/2552/chapter_07.wav",
+          "duration": 169.873625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Creative Identity",
+          "actualDuration": 169.873625,
+          "startTime": 1303.806582,
+          "endTime": 1473.6802069999999
+        },
+        {
+          "path": "Audio/output/2552/chapter_08.wav",
+          "duration": 162.162625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy, Loss, and the Meaning of Success",
+          "actualDuration": 162.162625,
+          "startTime": 1475.1802069999999,
+          "endTime": 1637.3428319999998
+        },
+        {
+          "path": "Audio/output/2552/chapter_09.wav",
+          "duration": 143.408667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing the Present and Looking Forward",
+          "actualDuration": 143.408667,
+          "startTime": 1638.8428319999998,
+          "endTime": 1782.2514989999997
+        },
+        {
+          "path": "Audio/output/2552/chapter_10.wav",
+          "duration": 84.606208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit of Rock and Roll",
+          "actualDuration": 84.606208,
+          "startTime": 1783.7514989999997,
+          "endTime": 1868.3577069999997
+        },
+        {
+          "path": "Audio/output/2552/conclusion.wav",
+          "duration": 108.079583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.079583,
+          "startTime": 1869.8577069999997,
+          "endTime": 1977.9372899999996
+        }
+      ],
+      "totalDuration": 1977.9372899999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.71,
+          "actualStart": 0,
+          "actualEnd": 93.712625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Surrounded by Music and Chaos",
+          "expectedStart": 93.71,
+          "expectedEnd": 309.86,
+          "actualStart": 95.212625,
+          "actualEnd": 311.365458,
+          "timeDifference": 1.502625000000009
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chasing the Dream and Finding a Band",
+          "expectedStart": 309.86,
+          "expectedEnd": 537.17,
+          "actualStart": 312.865458,
+          "actualEnd": 540.180166,
+          "timeDifference": 3.005457999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Highs and Lows of Rock Stardom",
+          "expectedStart": 537.17,
+          "expectedEnd": 744.54,
+          "actualStart": 541.680166,
+          "actualEnd": 749.051541,
+          "timeDifference": 4.5101660000000265
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Addiction, Recovery, and the Cost of Excess",
+          "expectedStart": 744.54,
+          "expectedEnd": 926.39,
+          "actualStart": 750.551541,
+          "actualEnd": 932.3976660000001,
+          "timeDifference": 6.011541000000079
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Family, Relationships, and the Search for Balance",
+          "expectedStart": 926.39,
+          "expectedEnd": 1102.06,
+          "actualStart": 933.8976660000001,
+          "actualEnd": 1109.570999,
+          "timeDifference": 7.507666000000086
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reinvention and the Power of Second Chances",
+          "expectedStart": 1102.06,
+          "expectedEnd": 1293.3,
+          "actualStart": 1111.070999,
+          "actualEnd": 1302.306582,
+          "timeDifference": 9.010999000000083
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Creative Identity",
+          "expectedStart": 1293.3,
+          "expectedEnd": 1463.17,
+          "actualStart": 1303.806582,
+          "actualEnd": 1473.6802069999999,
+          "timeDifference": 10.50658199999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy, Loss, and the Meaning of Success",
+          "expectedStart": 1463.17,
+          "expectedEnd": 1625.33,
+          "actualStart": 1475.1802069999999,
+          "actualEnd": 1637.3428319999998,
+          "timeDifference": 12.01020699999981
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing the Present and Looking Forward",
+          "expectedStart": 1625.33,
+          "expectedEnd": 1768.74,
+          "actualStart": 1638.8428319999998,
+          "actualEnd": 1782.2514989999997,
+          "timeDifference": 13.51283199999989
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit of Rock and Roll",
+          "expectedStart": 1768.74,
+          "expectedEnd": 1853.35,
+          "actualStart": 1783.7514989999997,
+          "actualEnd": 1868.3577069999997,
+          "timeDifference": 15.01149899999973
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1853.35,
+          "expectedEnd": 1961.43,
+          "actualStart": 1869.8577069999997,
+          "actualEnd": 1977.9372899999996,
+          "timeDifference": 16.507706999999755
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.712625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Surrounded by Music and Chaos"
+        },
+        {
+          "startTime": 311.365458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Surrounded by Music and Chaos and Chapter 2 Chasing the Dream and Finding a Band"
+        },
+        {
+          "startTime": 540.180166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chasing the Dream and Finding a Band and Chapter 3 The Highs and Lows of Rock Stardom"
+        },
+        {
+          "startTime": 749.051541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Highs and Lows of Rock Stardom and Chapter 4 Addiction, Recovery, and the Cost of Excess"
+        },
+        {
+          "startTime": 932.3976660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Addiction, Recovery, and the Cost of Excess and Chapter 5 Family, Relationships, and the Search for Balance"
+        },
+        {
+          "startTime": 1109.570999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Family, Relationships, and the Search for Balance and Chapter 6 Reinvention and the Power of Second Chances"
+        },
+        {
+          "startTime": 1302.306582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reinvention and the Power of Second Chances and Chapter 7 The Evolution of Creative Identity"
+        },
+        {
+          "startTime": 1473.6802069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Creative Identity and Chapter 8 Legacy, Loss, and the Meaning of Success"
+        },
+        {
+          "startTime": 1637.3428319999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy, Loss, and the Meaning of Success and Chapter 9 Embracing the Present and Looking Forward"
+        },
+        {
+          "startTime": 1782.2514989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing the Present and Looking Forward and Chapter 10 The Enduring Spirit of Rock and Roll"
+        },
+        {
+          "startTime": 1868.3577069999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit of Rock and Roll and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2552",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:49:33.316Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

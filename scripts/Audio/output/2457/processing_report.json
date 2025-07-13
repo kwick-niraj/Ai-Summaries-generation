@@ -1,0 +1,456 @@
+{
+  "bookId": "2457",
+  "timestamp": "2025-07-10T23:28:35.341Z",
+  "success": false,
+  "processingTime": -1752189735676,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4679,
+    "totalAudioFiles": 12,
+    "totalDuration": 2310.665042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2310.665042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2457/optimized_text/2457.md",
+    "fileSize": 841,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "2457.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2457/metadata/2457_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2310.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2457/metadata/2457_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2457/metadata/2457_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2457/2457_complete.wav",
+    "duration": 2310.665042,
+    "fileSize": 110912000,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2457/introduction.wav",
+          "duration": 126.307625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 126.307625,
+          "startTime": 0,
+          "endTime": 126.307625
+        },
+        {
+          "path": "Audio/output/2457/chapter_01.wav",
+          "duration": 222.060958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 What Shapes a Life: The Power of Desire Beneath the Surface",
+          "actualDuration": 222.060958,
+          "startTime": 127.807625,
+          "endTime": 349.868583
+        },
+        {
+          "path": "Audio/output/2457/chapter_02.wav",
+          "duration": 241.415333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Habits That Form the Heart: How Everyday Practices Shape Desire",
+          "actualDuration": 241.415333,
+          "startTime": 351.368583,
+          "endTime": 592.783916
+        },
+        {
+          "path": "Audio/output/2457/chapter_03.wav",
+          "duration": 235.64175,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Competing Stories: How Culture’s Rituals Shape What People Love",
+          "actualDuration": 235.64175,
+          "startTime": 594.283916,
+          "endTime": 829.925666
+        },
+        {
+          "path": "Audio/output/2457/chapter_04.wav",
+          "duration": 207.765042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Worship as Formation: How Christian Practices Redirect Desire",
+          "actualDuration": 207.765042,
+          "startTime": 831.425666,
+          "endTime": 1039.190708
+        },
+        {
+          "path": "Audio/output/2457/chapter_05.wav",
+          "duration": 184.307417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intentional Practices: Building Habits That Aim the Heart Toward God",
+          "actualDuration": 184.307417,
+          "startTime": 1040.690708,
+          "endTime": 1224.998125
+        },
+        {
+          "path": "Audio/output/2457/chapter_06.wav",
+          "duration": 201.372083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Home as a Habitation of Love: Family Rituals and the Formation of Desire",
+          "actualDuration": 201.372083,
+          "startTime": 1226.498125,
+          "endTime": 1427.870208
+        },
+        {
+          "path": "Audio/output/2457/chapter_07.wav",
+          "duration": 191.879667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Community and the Shared Life: How Friendship and Belonging Shape the Heart",
+          "actualDuration": 191.879667,
+          "startTime": 1429.370208,
+          "endTime": 1621.249875
+        },
+        {
+          "path": "Audio/output/2457/chapter_08.wav",
+          "duration": 199.060833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Work, Vocation, and the Habits of Meaning",
+          "actualDuration": 199.060833,
+          "startTime": 1622.749875,
+          "endTime": 1821.810708
+        },
+        {
+          "path": "Audio/output/2457/chapter_09.wav",
+          "duration": 193.907542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Wider World: Public Life, Justice, and the Habits of Hope",
+          "actualDuration": 193.907542,
+          "startTime": 1823.310708,
+          "endTime": 2017.21825
+        },
+        {
+          "path": "Audio/output/2457/chapter_10.wav",
+          "duration": 167.201125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Journey: Grace, Failure, and the Ongoing Formation of Desire",
+          "actualDuration": 167.201125,
+          "startTime": 2018.71825,
+          "endTime": 2185.919375
+        },
+        {
+          "path": "Audio/output/2457/conclusion.wav",
+          "duration": 139.745667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.745667,
+          "startTime": 2187.419375,
+          "endTime": 2327.165042
+        }
+      ],
+      "totalDuration": 2327.165042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 126.31,
+          "actualStart": 0,
+          "actualEnd": 126.307625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 What Shapes a Life: The Power of Desire Beneath the Surface",
+          "expectedStart": 126.31,
+          "expectedEnd": 348.37,
+          "actualStart": 127.807625,
+          "actualEnd": 349.868583,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Habits That Form the Heart: How Everyday Practices Shape Desire",
+          "expectedStart": 348.37,
+          "expectedEnd": 589.79,
+          "actualStart": 351.368583,
+          "actualEnd": 592.783916,
+          "timeDifference": 2.9985829999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Competing Stories: How Culture’s Rituals Shape What People Love",
+          "expectedStart": 589.79,
+          "expectedEnd": 825.43,
+          "actualStart": 594.283916,
+          "actualEnd": 829.925666,
+          "timeDifference": 4.493916000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Worship as Formation: How Christian Practices Redirect Desire",
+          "expectedStart": 825.43,
+          "expectedEnd": 1033.2,
+          "actualStart": 831.425666,
+          "actualEnd": 1039.190708,
+          "timeDifference": 5.995666000000028
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intentional Practices: Building Habits That Aim the Heart Toward God",
+          "expectedStart": 1033.2,
+          "expectedEnd": 1217.51,
+          "actualStart": 1040.690708,
+          "actualEnd": 1224.998125,
+          "timeDifference": 7.490708000000041
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Home as a Habitation of Love: Family Rituals and the Formation of Desire",
+          "expectedStart": 1217.51,
+          "expectedEnd": 1418.88,
+          "actualStart": 1226.498125,
+          "actualEnd": 1427.870208,
+          "timeDifference": 8.988125000000082
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Community and the Shared Life: How Friendship and Belonging Shape the Heart",
+          "expectedStart": 1418.88,
+          "expectedEnd": 1610.76,
+          "actualStart": 1429.370208,
+          "actualEnd": 1621.249875,
+          "timeDifference": 10.490207999999939
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Work, Vocation, and the Habits of Meaning",
+          "expectedStart": 1610.76,
+          "expectedEnd": 1809.82,
+          "actualStart": 1622.749875,
+          "actualEnd": 1821.810708,
+          "timeDifference": 11.989874999999984
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Wider World: Public Life, Justice, and the Habits of Hope",
+          "expectedStart": 1809.82,
+          "expectedEnd": 2003.73,
+          "actualStart": 1823.310708,
+          "actualEnd": 2017.21825,
+          "timeDifference": 13.49070800000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Journey: Grace, Failure, and the Ongoing Formation of Desire",
+          "expectedStart": 2003.73,
+          "expectedEnd": 2170.93,
+          "actualStart": 2018.71825,
+          "actualEnd": 2185.919375,
+          "timeDifference": 14.98824999999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2170.93,
+          "expectedEnd": 2310.68,
+          "actualStart": 2187.419375,
+          "actualEnd": 2327.165042,
+          "timeDifference": 16.48937500000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 126.307625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 What Shapes a Life: The Power of Desire Beneath the Surface"
+        },
+        {
+          "startTime": 349.868583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 What Shapes a Life: The Power of Desire Beneath the Surface and Chapter 2 Habits That Form the Heart: How Everyday Practices Shape Desire"
+        },
+        {
+          "startTime": 592.783916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Habits That Form the Heart: How Everyday Practices Shape Desire and Chapter 3 Competing Stories: How Culture’s Rituals Shape What People Love"
+        },
+        {
+          "startTime": 829.925666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Competing Stories: How Culture’s Rituals Shape What People Love and Chapter 4 Worship as Formation: How Christian Practices Redirect Desire"
+        },
+        {
+          "startTime": 1039.190708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Worship as Formation: How Christian Practices Redirect Desire and Chapter 5 Intentional Practices: Building Habits That Aim the Heart Toward God"
+        },
+        {
+          "startTime": 1224.998125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intentional Practices: Building Habits That Aim the Heart Toward God and Chapter 6 The Home as a Habitation of Love: Family Rituals and the Formation of Desire"
+        },
+        {
+          "startTime": 1427.870208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Home as a Habitation of Love: Family Rituals and the Formation of Desire and Chapter 7 Community and the Shared Life: How Friendship and Belonging Shape the Heart"
+        },
+        {
+          "startTime": 1621.249875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Community and the Shared Life: How Friendship and Belonging Shape the Heart and Chapter 8 Work, Vocation, and the Habits of Meaning"
+        },
+        {
+          "startTime": 1821.810708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Work, Vocation, and the Habits of Meaning and Chapter 9 The Wider World: Public Life, Justice, and the Habits of Hope"
+        },
+        {
+          "startTime": 2017.21825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Wider World: Public Life, Justice, and the Habits of Hope and Chapter 10 The Long Journey: Grace, Failure, and the Ongoing Formation of Desire"
+        },
+        {
+          "startTime": 2185.919375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Journey: Grace, Failure, and the Ongoing Formation of Desire and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2457",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:22:16.262Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

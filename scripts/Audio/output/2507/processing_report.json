@@ -1,0 +1,456 @@
+{
+  "bookId": "2507",
+  "timestamp": "2025-07-11T02:25:00.733Z",
+  "success": false,
+  "processingTime": -1752200401932,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4856,
+    "totalAudioFiles": 12,
+    "totalDuration": 2201.2825830000006
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2201.2825830000006
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2507/optimized_text/2507.md",
+    "fileSize": 695,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2507.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2507/metadata/2507_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2201.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2507/metadata/2507_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2507/metadata/2507_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2507/2507_complete.wav",
+    "duration": 2201.282583,
+    "fileSize": 105661642,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2507/introduction.wav",
+          "duration": 104.423333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.423333,
+          "startTime": 0,
+          "endTime": 104.423333
+        },
+        {
+          "path": "Audio/output/2507/chapter_01.wav",
+          "duration": 288.014583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Balance of Nature’s Top Predators",
+          "actualDuration": 288.014583,
+          "startTime": 105.923333,
+          "endTime": 393.93791600000003
+        },
+        {
+          "path": "Audio/output/2507/chapter_02.wav",
+          "duration": 218.386417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Ripple Effects of Predator Loss",
+          "actualDuration": 218.386417,
+          "startTime": 395.43791600000003,
+          "endTime": 613.824333
+        },
+        {
+          "path": "Audio/output/2507/chapter_03.wav",
+          "duration": 229.965583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Fear and Misunderstanding Shaped Our Relationship with Predators",
+          "actualDuration": 229.965583,
+          "startTime": 615.324333,
+          "endTime": 845.2899160000001
+        },
+        {
+          "path": "Audio/output/2507/chapter_04.wav",
+          "duration": 211.47125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Science of Trophic Cascades and Ecosystem Collapse",
+          "actualDuration": 211.47125,
+          "startTime": 846.7899160000001,
+          "endTime": 1058.261166
+        },
+        {
+          "path": "Audio/output/2507/chapter_05.wav",
+          "duration": 161.820625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Human Choices and the Path to Restoration",
+          "actualDuration": 161.820625,
+          "startTime": 1059.761166,
+          "endTime": 1221.581791
+        },
+        {
+          "path": "Audio/output/2507/chapter_06.wav",
+          "duration": 181.104,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Challenge of Bringing Predators Back",
+          "actualDuration": 181.104,
+          "startTime": 1223.081791,
+          "endTime": 1404.185791
+        },
+        {
+          "path": "Audio/output/2507/chapter_07.wav",
+          "duration": 192.058542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Living with Predators—Stories of Coexistence",
+          "actualDuration": 192.058542,
+          "startTime": 1405.685791,
+          "endTime": 1597.744333
+        },
+        {
+          "path": "Audio/output/2507/chapter_08.wav",
+          "duration": 184.563,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unseen Benefits of Predators",
+          "actualDuration": 184.563,
+          "startTime": 1599.244333,
+          "endTime": 1783.8073330000002
+        },
+        {
+          "path": "Audio/output/2507/chapter_09.wav",
+          "duration": 155.252958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Conservation—Hope, Uncertainty, and the Wild Things Ahead",
+          "actualDuration": 155.252958,
+          "startTime": 1785.3073330000002,
+          "endTime": 1940.5602910000002
+        },
+        {
+          "path": "Audio/output/2507/chapter_10.wav",
+          "duration": 153.735375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Remembering What Was Lost, Imagining What Can Be Restored",
+          "actualDuration": 153.735375,
+          "startTime": 1942.0602910000002,
+          "endTime": 2095.7956660000004
+        },
+        {
+          "path": "Audio/output/2507/conclusion.wav",
+          "duration": 120.486917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.486917,
+          "startTime": 2097.2956660000004,
+          "endTime": 2217.7825830000006
+        }
+      ],
+      "totalDuration": 2217.7825830000006,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.42,
+          "actualStart": 0,
+          "actualEnd": 104.423333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Balance of Nature’s Top Predators",
+          "expectedStart": 104.42,
+          "expectedEnd": 392.43,
+          "actualStart": 105.923333,
+          "actualEnd": 393.93791600000003,
+          "timeDifference": 1.5033329999999978
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Ripple Effects of Predator Loss",
+          "expectedStart": 392.43,
+          "expectedEnd": 610.82,
+          "actualStart": 395.43791600000003,
+          "actualEnd": 613.824333,
+          "timeDifference": 3.007916000000023
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Fear and Misunderstanding Shaped Our Relationship with Predators",
+          "expectedStart": 610.82,
+          "expectedEnd": 840.79,
+          "actualStart": 615.324333,
+          "actualEnd": 845.2899160000001,
+          "timeDifference": 4.504332999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Science of Trophic Cascades and Ecosystem Collapse",
+          "expectedStart": 840.79,
+          "expectedEnd": 1052.26,
+          "actualStart": 846.7899160000001,
+          "actualEnd": 1058.261166,
+          "timeDifference": 5.999916000000098
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Human Choices and the Path to Restoration",
+          "expectedStart": 1052.26,
+          "expectedEnd": 1214.08,
+          "actualStart": 1059.761166,
+          "actualEnd": 1221.581791,
+          "timeDifference": 7.501166000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Challenge of Bringing Predators Back",
+          "expectedStart": 1214.08,
+          "expectedEnd": 1395.18,
+          "actualStart": 1223.081791,
+          "actualEnd": 1404.185791,
+          "timeDifference": 9.00179100000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Living with Predators—Stories of Coexistence",
+          "expectedStart": 1395.18,
+          "expectedEnd": 1587.24,
+          "actualStart": 1405.685791,
+          "actualEnd": 1597.744333,
+          "timeDifference": 10.505791000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unseen Benefits of Predators",
+          "expectedStart": 1587.24,
+          "expectedEnd": 1771.8,
+          "actualStart": 1599.244333,
+          "actualEnd": 1783.8073330000002,
+          "timeDifference": 12.004333000000088
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Conservation—Hope, Uncertainty, and the Wild Things Ahead",
+          "expectedStart": 1771.8,
+          "expectedEnd": 1927.05,
+          "actualStart": 1785.3073330000002,
+          "actualEnd": 1940.5602910000002,
+          "timeDifference": 13.507333000000244
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Remembering What Was Lost, Imagining What Can Be Restored",
+          "expectedStart": 1927.05,
+          "expectedEnd": 2080.79,
+          "actualStart": 1942.0602910000002,
+          "actualEnd": 2095.7956660000004,
+          "timeDifference": 15.01029100000028
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2080.79,
+          "expectedEnd": 2201.28,
+          "actualStart": 2097.2956660000004,
+          "actualEnd": 2217.7825830000006,
+          "timeDifference": 16.505666000000474
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.423333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Balance of Nature’s Top Predators"
+        },
+        {
+          "startTime": 393.93791600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Balance of Nature’s Top Predators and Chapter 2 The Ripple Effects of Predator Loss"
+        },
+        {
+          "startTime": 613.824333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Ripple Effects of Predator Loss and Chapter 3 How Fear and Misunderstanding Shaped Our Relationship with Predators"
+        },
+        {
+          "startTime": 845.2899160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Fear and Misunderstanding Shaped Our Relationship with Predators and Chapter 4 The Science of Trophic Cascades and Ecosystem Collapse"
+        },
+        {
+          "startTime": 1058.261166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Science of Trophic Cascades and Ecosystem Collapse and Chapter 5 Human Choices and the Path to Restoration"
+        },
+        {
+          "startTime": 1221.581791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Human Choices and the Path to Restoration and Chapter 6 The Challenge of Bringing Predators Back"
+        },
+        {
+          "startTime": 1404.185791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Challenge of Bringing Predators Back and Chapter 7 Living with Predators—Stories of Coexistence"
+        },
+        {
+          "startTime": 1597.744333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Living with Predators—Stories of Coexistence and Chapter 8 The Unseen Benefits of Predators"
+        },
+        {
+          "startTime": 1783.8073330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unseen Benefits of Predators and Chapter 9 The Future of Conservation—Hope, Uncertainty, and the Wild Things Ahead"
+        },
+        {
+          "startTime": 1940.5602910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Conservation—Hope, Uncertainty, and the Wild Things Ahead and Chapter 10 Remembering What Was Lost, Imagining What Can Be Restored"
+        },
+        {
+          "startTime": 2095.7956660000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Remembering What Was Lost, Imagining What Can Be Restored and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2507",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:20:02.460Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

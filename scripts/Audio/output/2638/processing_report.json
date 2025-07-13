@@ -1,0 +1,455 @@
+{
+  "bookId": "2638",
+  "timestamp": "2025-07-11T09:17:57.974Z",
+  "success": false,
+  "processingTime": -1752225213809,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4348,
+    "totalAudioFiles": 12,
+    "totalDuration": 1861.7331679999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1861.7331679999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2638/optimized_text/2638.md",
+    "fileSize": 613,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "2638.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2638/metadata/2638_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1861.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2638/metadata/2638_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2638/metadata/2638_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2638/2638_complete.wav",
+    "duration": 1861.733167,
+    "fileSize": 89363270,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2638/introduction.wav",
+          "duration": 98.008,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.008,
+          "startTime": 0,
+          "endTime": 98.008
+        },
+        {
+          "path": "Audio/output/2638/chapter_01.wav",
+          "duration": 197.189667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding What Feminism Means in Everyday Life",
+          "actualDuration": 197.189667,
+          "startTime": 99.508,
+          "endTime": 296.69766699999997
+        },
+        {
+          "path": "Audio/output/2638/chapter_02.wav",
+          "duration": 178.846708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Culture Shapes Gender Roles and Expectations",
+          "actualDuration": 178.846708,
+          "startTime": 298.19766699999997,
+          "endTime": 477.04437499999995
+        },
+        {
+          "path": "Audio/output/2638/chapter_03.wav",
+          "duration": 206.327083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Everyday Sexism and Its Hidden Costs",
+          "actualDuration": 206.327083,
+          "startTime": 478.54437499999995,
+          "endTime": 684.871458
+        },
+        {
+          "path": "Audio/output/2638/chapter_04.wav",
+          "duration": 155.925792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Why Empowering Women Benefits Everyone",
+          "actualDuration": 155.925792,
+          "startTime": 686.371458,
+          "endTime": 842.29725
+        },
+        {
+          "path": "Audio/output/2638/chapter_05.wav",
+          "duration": 159.927167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building an Inclusive and Honest Feminism",
+          "actualDuration": 159.927167,
+          "startTime": 843.79725,
+          "endTime": 1003.7244169999999
+        },
+        {
+          "path": "Audio/output/2638/chapter_06.wav",
+          "duration": 173.407,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Challenging Assumptions and Everyday Habits",
+          "actualDuration": 173.407,
+          "startTime": 1005.2244169999999,
+          "endTime": 1178.6314169999998
+        },
+        {
+          "path": "Audio/output/2638/chapter_07.wav",
+          "duration": 166.4115,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Language and Storytelling",
+          "actualDuration": 166.4115,
+          "startTime": 1180.1314169999998,
+          "endTime": 1346.5429169999998
+        },
+        {
+          "path": "Audio/output/2638/chapter_08.wav",
+          "duration": 136.33775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Raising the Next Generation Differently",
+          "actualDuration": 136.33775,
+          "startTime": 1348.0429169999998,
+          "endTime": 1484.3806669999997
+        },
+        {
+          "path": "Audio/output/2638/chapter_09.wav",
+          "duration": 150.620042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Men as Allies and Partners in Change",
+          "actualDuration": 150.620042,
+          "startTime": 1485.8806669999997,
+          "endTime": 1636.5007089999997
+        },
+        {
+          "path": "Audio/output/2638/chapter_10.wav",
+          "duration": 114.681792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Imagining a More Just and Inclusive World",
+          "actualDuration": 114.681792,
+          "startTime": 1638.0007089999997,
+          "endTime": 1752.6825009999998
+        },
+        {
+          "path": "Audio/output/2638/conclusion.wav",
+          "duration": 124.050667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.050667,
+          "startTime": 1754.1825009999998,
+          "endTime": 1878.2331679999998
+        }
+      ],
+      "totalDuration": 1878.2331679999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.01,
+          "actualStart": 0,
+          "actualEnd": 98.008,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding What Feminism Means in Everyday Life",
+          "expectedStart": 98.01,
+          "expectedEnd": 295.2,
+          "actualStart": 99.508,
+          "actualEnd": 296.69766699999997,
+          "timeDifference": 1.4979999999999905
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Culture Shapes Gender Roles and Expectations",
+          "expectedStart": 295.2,
+          "expectedEnd": 474.05,
+          "actualStart": 298.19766699999997,
+          "actualEnd": 477.04437499999995,
+          "timeDifference": 2.9976669999999785
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Everyday Sexism and Its Hidden Costs",
+          "expectedStart": 474.05,
+          "expectedEnd": 680.38,
+          "actualStart": 478.54437499999995,
+          "actualEnd": 684.871458,
+          "timeDifference": 4.494374999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Why Empowering Women Benefits Everyone",
+          "expectedStart": 680.38,
+          "expectedEnd": 836.31,
+          "actualStart": 686.371458,
+          "actualEnd": 842.29725,
+          "timeDifference": 5.991457999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building an Inclusive and Honest Feminism",
+          "expectedStart": 836.31,
+          "expectedEnd": 996.24,
+          "actualStart": 843.79725,
+          "actualEnd": 1003.7244169999999,
+          "timeDifference": 7.487250000000017
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Challenging Assumptions and Everyday Habits",
+          "expectedStart": 996.24,
+          "expectedEnd": 1169.65,
+          "actualStart": 1005.2244169999999,
+          "actualEnd": 1178.6314169999998,
+          "timeDifference": 8.984416999999894
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Language and Storytelling",
+          "expectedStart": 1169.65,
+          "expectedEnd": 1336.06,
+          "actualStart": 1180.1314169999998,
+          "actualEnd": 1346.5429169999998,
+          "timeDifference": 10.481416999999738
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Raising the Next Generation Differently",
+          "expectedStart": 1336.06,
+          "expectedEnd": 1472.4,
+          "actualStart": 1348.0429169999998,
+          "actualEnd": 1484.3806669999997,
+          "timeDifference": 11.982916999999816
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Men as Allies and Partners in Change",
+          "expectedStart": 1472.4,
+          "expectedEnd": 1623.02,
+          "actualStart": 1485.8806669999997,
+          "actualEnd": 1636.5007089999997,
+          "timeDifference": 13.480666999999585
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Imagining a More Just and Inclusive World",
+          "expectedStart": 1623.02,
+          "expectedEnd": 1737.7,
+          "actualStart": 1638.0007089999997,
+          "actualEnd": 1752.6825009999998,
+          "timeDifference": 14.980708999999706
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1737.7,
+          "expectedEnd": 1861.75,
+          "actualStart": 1754.1825009999998,
+          "actualEnd": 1878.2331679999998,
+          "timeDifference": 16.48250099999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.008,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding What Feminism Means in Everyday Life"
+        },
+        {
+          "startTime": 296.69766699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding What Feminism Means in Everyday Life and Chapter 2 How Culture Shapes Gender Roles and Expectations"
+        },
+        {
+          "startTime": 477.04437499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Culture Shapes Gender Roles and Expectations and Chapter 3 Everyday Sexism and Its Hidden Costs"
+        },
+        {
+          "startTime": 684.871458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Everyday Sexism and Its Hidden Costs and Chapter 4 Why Empowering Women Benefits Everyone"
+        },
+        {
+          "startTime": 842.29725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Why Empowering Women Benefits Everyone and Chapter 5 Building an Inclusive and Honest Feminism"
+        },
+        {
+          "startTime": 1003.7244169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building an Inclusive and Honest Feminism and Chapter 6 Challenging Assumptions and Everyday Habits"
+        },
+        {
+          "startTime": 1178.6314169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Challenging Assumptions and Everyday Habits and Chapter 7 The Power of Language and Storytelling"
+        },
+        {
+          "startTime": 1346.5429169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Language and Storytelling and Chapter 8 Raising the Next Generation Differently"
+        },
+        {
+          "startTime": 1484.3806669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Raising the Next Generation Differently and Chapter 9 Men as Allies and Partners in Change"
+        },
+        {
+          "startTime": 1636.5007089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Men as Allies and Partners in Change and Chapter 10 Imagining a More Just and Inclusive World"
+        },
+        {
+          "startTime": 1752.6825009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Imagining a More Just and Inclusive World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2638",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T09:13:35.328Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

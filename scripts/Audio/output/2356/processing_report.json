@@ -1,0 +1,456 @@
+{
+  "bookId": "2356",
+  "timestamp": "2025-07-10T17:58:07.098Z",
+  "success": false,
+  "processingTime": -1752169870112,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4299,
+    "totalAudioFiles": 12,
+    "totalDuration": 2140.371166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2140.371166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2356/optimized_text/2356.md",
+    "fileSize": 652,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2356.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2356/metadata/2356_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2140.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2356/metadata/2356_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2356/metadata/2356_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2356/2356_complete.wav",
+    "duration": 2140.371167,
+    "fileSize": 102737894,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2356/introduction.wav",
+          "duration": 108.492792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.492792,
+          "startTime": 0,
+          "endTime": 108.492792
+        },
+        {
+          "path": "Audio/output/2356/chapter_01.wav",
+          "duration": 247.359708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Lakota: Family, Land, and the First Lessons",
+          "actualDuration": 247.359708,
+          "startTime": 109.992792,
+          "endTime": 357.3525
+        },
+        {
+          "path": "Audio/output/2356/chapter_02.wav",
+          "duration": 217.720583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Storytelling: Memory, Humor, and Survival",
+          "actualDuration": 217.720583,
+          "startTime": 358.8525,
+          "endTime": 576.573083
+        },
+        {
+          "path": "Audio/output/2356/chapter_03.wav",
+          "duration": 239.180625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Vision Seeking and the Sacred Path",
+          "actualDuration": 239.180625,
+          "startTime": 578.073083,
+          "endTime": 817.253708
+        },
+        {
+          "path": "Audio/output/2356/chapter_04.wav",
+          "duration": 223.337708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Struggles and Survival in a Changing World",
+          "actualDuration": 223.337708,
+          "startTime": 818.753708,
+          "endTime": 1042.091416
+        },
+        {
+          "path": "Audio/output/2356/chapter_05.wav",
+          "duration": 165.187125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Sacredness of Nature and the Web of Life",
+          "actualDuration": 165.187125,
+          "startTime": 1043.591416,
+          "endTime": 1208.778541
+        },
+        {
+          "path": "Audio/output/2356/chapter_06.wav",
+          "duration": 165.038167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road to Activism: Standing Up and Speaking Out",
+          "actualDuration": 165.038167,
+          "startTime": 1210.278541,
+          "endTime": 1375.3167079999998
+        },
+        {
+          "path": "Audio/output/2356/chapter_07.wav",
+          "duration": 174.443708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing Wounds: The Role of Spirituality",
+          "actualDuration": 174.443708,
+          "startTime": 1376.8167079999998,
+          "endTime": 1551.2604159999999
+        },
+        {
+          "path": "Audio/output/2356/chapter_08.wav",
+          "duration": 188.393542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bridging Worlds: Tradition and Modernity",
+          "actualDuration": 188.393542,
+          "startTime": 1552.7604159999999,
+          "endTime": 1741.1539579999999
+        },
+        {
+          "path": "Audio/output/2356/chapter_09.wav",
+          "duration": 154.567208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Trickster’s Lesson: Embracing Paradox",
+          "actualDuration": 154.567208,
+          "startTime": 1742.6539579999999,
+          "endTime": 1897.2211659999998
+        },
+        {
+          "path": "Audio/output/2356/chapter_10.wav",
+          "duration": 132.933375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Passing the Fire: Legacy and the Next Generation",
+          "actualDuration": 132.933375,
+          "startTime": 1898.7211659999998,
+          "endTime": 2031.6545409999999
+        },
+        {
+          "path": "Audio/output/2356/conclusion.wav",
+          "duration": 123.716625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.716625,
+          "startTime": 2033.1545409999999,
+          "endTime": 2156.871166
+        }
+      ],
+      "totalDuration": 2156.871166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.49,
+          "actualStart": 0,
+          "actualEnd": 108.492792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Lakota: Family, Land, and the First Lessons",
+          "expectedStart": 108.49,
+          "expectedEnd": 355.85,
+          "actualStart": 109.992792,
+          "actualEnd": 357.3525,
+          "timeDifference": 1.5027919999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Storytelling: Memory, Humor, and Survival",
+          "expectedStart": 355.85,
+          "expectedEnd": 573.57,
+          "actualStart": 358.8525,
+          "actualEnd": 576.573083,
+          "timeDifference": 3.0024999999999977
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Vision Seeking and the Sacred Path",
+          "expectedStart": 573.57,
+          "expectedEnd": 812.75,
+          "actualStart": 578.073083,
+          "actualEnd": 817.253708,
+          "timeDifference": 4.503082999999947
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Struggles and Survival in a Changing World",
+          "expectedStart": 812.75,
+          "expectedEnd": 1036.09,
+          "actualStart": 818.753708,
+          "actualEnd": 1042.091416,
+          "timeDifference": 6.0037079999999605
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Sacredness of Nature and the Web of Life",
+          "expectedStart": 1036.09,
+          "expectedEnd": 1201.28,
+          "actualStart": 1043.591416,
+          "actualEnd": 1208.778541,
+          "timeDifference": 7.501416000000063
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road to Activism: Standing Up and Speaking Out",
+          "expectedStart": 1201.28,
+          "expectedEnd": 1366.32,
+          "actualStart": 1210.278541,
+          "actualEnd": 1375.3167079999998,
+          "timeDifference": 8.998540999999932
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing Wounds: The Role of Spirituality",
+          "expectedStart": 1366.32,
+          "expectedEnd": 1540.76,
+          "actualStart": 1376.8167079999998,
+          "actualEnd": 1551.2604159999999,
+          "timeDifference": 10.496707999999899
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bridging Worlds: Tradition and Modernity",
+          "expectedStart": 1540.76,
+          "expectedEnd": 1729.15,
+          "actualStart": 1552.7604159999999,
+          "actualEnd": 1741.1539579999999,
+          "timeDifference": 12.00041599999986
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Trickster’s Lesson: Embracing Paradox",
+          "expectedStart": 1729.15,
+          "expectedEnd": 1883.72,
+          "actualStart": 1742.6539579999999,
+          "actualEnd": 1897.2211659999998,
+          "timeDifference": 13.503957999999784
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Passing the Fire: Legacy and the Next Generation",
+          "expectedStart": 1883.72,
+          "expectedEnd": 2016.65,
+          "actualStart": 1898.7211659999998,
+          "actualEnd": 2031.6545409999999,
+          "timeDifference": 15.001165999999785
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2016.65,
+          "expectedEnd": 2140.37,
+          "actualStart": 2033.1545409999999,
+          "actualEnd": 2156.871166,
+          "timeDifference": 16.50454099999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.492792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Lakota: Family, Land, and the First Lessons"
+        },
+        {
+          "startTime": 357.3525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Lakota: Family, Land, and the First Lessons and Chapter 2 The Power of Storytelling: Memory, Humor, and Survival"
+        },
+        {
+          "startTime": 576.573083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Storytelling: Memory, Humor, and Survival and Chapter 3 Vision Seeking and the Sacred Path"
+        },
+        {
+          "startTime": 817.253708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Vision Seeking and the Sacred Path and Chapter 4 Struggles and Survival in a Changing World"
+        },
+        {
+          "startTime": 1042.091416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Struggles and Survival in a Changing World and Chapter 5 The Sacredness of Nature and the Web of Life"
+        },
+        {
+          "startTime": 1208.778541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Sacredness of Nature and the Web of Life and Chapter 6 The Road to Activism: Standing Up and Speaking Out"
+        },
+        {
+          "startTime": 1375.3167079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road to Activism: Standing Up and Speaking Out and Chapter 7 Healing Wounds: The Role of Spirituality"
+        },
+        {
+          "startTime": 1551.2604159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing Wounds: The Role of Spirituality and Chapter 8 Bridging Worlds: Tradition and Modernity"
+        },
+        {
+          "startTime": 1741.1539579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bridging Worlds: Tradition and Modernity and Chapter 9 The Trickster’s Lesson: Embracing Paradox"
+        },
+        {
+          "startTime": 1897.2211659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Trickster’s Lesson: Embracing Paradox and Chapter 10 Passing the Fire: Legacy and the Next Generation"
+        },
+        {
+          "startTime": 2031.6545409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Passing the Fire: Legacy and the Next Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2356",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T17:51:11.316Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

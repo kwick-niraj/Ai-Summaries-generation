@@ -1,0 +1,456 @@
+{
+  "bookId": "2375",
+  "timestamp": "2025-07-10T19:24:34.338Z",
+  "success": false,
+  "processingTime": -1752175209228,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4808,
+    "totalAudioFiles": 12,
+    "totalDuration": 2074.871542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2074.871542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2375/optimized_text/2375.md",
+    "fileSize": 701,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2375.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2375/metadata/2375_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2074.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2375/metadata/2375_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2375/metadata/2375_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2375/2375_complete.wav",
+    "duration": 2074.871542,
+    "fileSize": 99593912,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2375/introduction.wav",
+          "duration": 88.936292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.936292,
+          "startTime": 0,
+          "endTime": 88.936292
+        },
+        {
+          "path": "Audio/output/2375/chapter_01.wav",
+          "duration": 228.193208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Search for Certainty",
+          "actualDuration": 228.193208,
+          "startTime": 90.436292,
+          "endTime": 318.6295
+        },
+        {
+          "path": "Audio/output/2375/chapter_02.wav",
+          "duration": 234.389792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Challenging Authority and the Birth of a Movement",
+          "actualDuration": 234.389792,
+          "startTime": 320.1295,
+          "endTime": 554.519292
+        },
+        {
+          "path": "Audio/output/2375/chapter_03.wav",
+          "duration": 213.168417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Crisis and Defining Belief",
+          "actualDuration": 213.168417,
+          "startTime": 556.019292,
+          "endTime": 769.1877089999999
+        },
+        {
+          "path": "Audio/output/2375/chapter_04.wav",
+          "duration": 206.047458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reform, Resistance, and the Cost of Change",
+          "actualDuration": 206.047458,
+          "startTime": 770.6877089999999,
+          "endTime": 976.7351669999999
+        },
+        {
+          "path": "Audio/output/2375/chapter_05.wav",
+          "duration": 192.768458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building a New Community and Shaping a Legacy",
+          "actualDuration": 192.768458,
+          "startTime": 978.2351669999999,
+          "endTime": 1171.0036249999998
+        },
+        {
+          "path": "Audio/output/2375/chapter_06.wav",
+          "duration": 189.32375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Leadership and the Struggle for Unity",
+          "actualDuration": 189.32375,
+          "startTime": 1172.5036249999998,
+          "endTime": 1361.8273749999998
+        },
+        {
+          "path": "Audio/output/2375/chapter_07.wav",
+          "duration": 145.751833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Personal Cost—Illness, Doubt, and Endurance",
+          "actualDuration": 145.751833,
+          "startTime": 1363.3273749999998,
+          "endTime": 1509.0792079999999
+        },
+        {
+          "path": "Audio/output/2375/chapter_08.wav",
+          "duration": 154.98025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Deepening of Legacy—Education, Family, and Everyday Faith",
+          "actualDuration": 154.98025,
+          "startTime": 1510.5792079999999,
+          "endTime": 1665.559458
+        },
+        {
+          "path": "Audio/output/2375/chapter_09.wav",
+          "duration": 149.163542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Society, Politics, and the World Beyond",
+          "actualDuration": 149.163542,
+          "startTime": 1667.059458,
+          "endTime": 1816.223
+        },
+        {
+          "path": "Audio/output/2375/chapter_10.wav",
+          "duration": 159.067042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Final Years—Reflection, Reconciliation, and Enduring Hope",
+          "actualDuration": 159.067042,
+          "startTime": 1817.723,
+          "endTime": 1976.7900419999999
+        },
+        {
+          "path": "Audio/output/2375/conclusion.wav",
+          "duration": 113.0815,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.0815,
+          "startTime": 1978.2900419999999,
+          "endTime": 2091.371542
+        }
+      ],
+      "totalDuration": 2091.371542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.94,
+          "actualStart": 0,
+          "actualEnd": 88.936292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Search for Certainty",
+          "expectedStart": 88.94,
+          "expectedEnd": 317.13,
+          "actualStart": 90.436292,
+          "actualEnd": 318.6295,
+          "timeDifference": 1.4962919999999968
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Challenging Authority and the Birth of a Movement",
+          "expectedStart": 317.13,
+          "expectedEnd": 551.52,
+          "actualStart": 320.1295,
+          "actualEnd": 554.519292,
+          "timeDifference": 2.999500000000012
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Crisis and Defining Belief",
+          "expectedStart": 551.52,
+          "expectedEnd": 764.69,
+          "actualStart": 556.019292,
+          "actualEnd": 769.1877089999999,
+          "timeDifference": 4.4992919999999685
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reform, Resistance, and the Cost of Change",
+          "expectedStart": 764.69,
+          "expectedEnd": 970.74,
+          "actualStart": 770.6877089999999,
+          "actualEnd": 976.7351669999999,
+          "timeDifference": 5.9977089999998725
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building a New Community and Shaping a Legacy",
+          "expectedStart": 970.74,
+          "expectedEnd": 1163.51,
+          "actualStart": 978.2351669999999,
+          "actualEnd": 1171.0036249999998,
+          "timeDifference": 7.495166999999924
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Leadership and the Struggle for Unity",
+          "expectedStart": 1163.51,
+          "expectedEnd": 1352.83,
+          "actualStart": 1172.5036249999998,
+          "actualEnd": 1361.8273749999998,
+          "timeDifference": 8.993624999999838
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Personal Cost—Illness, Doubt, and Endurance",
+          "expectedStart": 1352.83,
+          "expectedEnd": 1498.58,
+          "actualStart": 1363.3273749999998,
+          "actualEnd": 1509.0792079999999,
+          "timeDifference": 10.49737499999992
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Deepening of Legacy—Education, Family, and Everyday Faith",
+          "expectedStart": 1498.58,
+          "expectedEnd": 1653.56,
+          "actualStart": 1510.5792079999999,
+          "actualEnd": 1665.559458,
+          "timeDifference": 11.999207999999953
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Society, Politics, and the World Beyond",
+          "expectedStart": 1653.56,
+          "expectedEnd": 1802.72,
+          "actualStart": 1667.059458,
+          "actualEnd": 1816.223,
+          "timeDifference": 13.499458000000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Final Years—Reflection, Reconciliation, and Enduring Hope",
+          "expectedStart": 1802.72,
+          "expectedEnd": 1961.79,
+          "actualStart": 1817.723,
+          "actualEnd": 1976.7900419999999,
+          "timeDifference": 15.002999999999929
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1961.79,
+          "expectedEnd": 2074.87,
+          "actualStart": 1978.2900419999999,
+          "actualEnd": 2091.371542,
+          "timeDifference": 16.500041999999894
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.936292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Struggles and the Search for Certainty"
+        },
+        {
+          "startTime": 318.6295,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Search for Certainty and Chapter 2 Challenging Authority and the Birth of a Movement"
+        },
+        {
+          "startTime": 554.519292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Challenging Authority and the Birth of a Movement and Chapter 3 Facing Crisis and Defining Belief"
+        },
+        {
+          "startTime": 769.1877089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Crisis and Defining Belief and Chapter 4 Reform, Resistance, and the Cost of Change"
+        },
+        {
+          "startTime": 976.7351669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reform, Resistance, and the Cost of Change and Chapter 5 Building a New Community and Shaping a Legacy"
+        },
+        {
+          "startTime": 1171.0036249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building a New Community and Shaping a Legacy and Chapter 6 The Weight of Leadership and the Struggle for Unity"
+        },
+        {
+          "startTime": 1361.8273749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Leadership and the Struggle for Unity and Chapter 7 The Personal Cost—Illness, Doubt, and Endurance"
+        },
+        {
+          "startTime": 1509.0792079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Personal Cost—Illness, Doubt, and Endurance and Chapter 8 The Deepening of Legacy—Education, Family, and Everyday Faith"
+        },
+        {
+          "startTime": 1665.559458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Deepening of Legacy—Education, Family, and Everyday Faith and Chapter 9 The Ripple Effect—Society, Politics, and the World Beyond"
+        },
+        {
+          "startTime": 1816.223,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Society, Politics, and the World Beyond and Chapter 10 The Final Years—Reflection, Reconciliation, and Enduring Hope"
+        },
+        {
+          "startTime": 1976.7900419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Final Years—Reflection, Reconciliation, and Enduring Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2375",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:20:10.403Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

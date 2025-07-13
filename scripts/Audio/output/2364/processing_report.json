@@ -1,0 +1,503 @@
+{
+  "bookId": "2364",
+  "timestamp": "2025-07-10T18:29:49.233Z",
+  "success": false,
+  "processingTime": -1752171816787,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4674,
+    "totalAudioFiles": 14,
+    "totalDuration": 1997.3386670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 1997.3386670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2364/optimized_text/2364.md",
+    "fileSize": 908,
+    "wordCount": 142,
+    "format": "markdown",
+    "filename": "2364.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2364/metadata/2364_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 1997.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2364/metadata/2364_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2364/metadata/2364_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2364/2364_complete.wav",
+    "duration": 1997.338667,
+    "fileSize": 95872334,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2364/introduction.wav",
+          "duration": 85.243958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.243958,
+          "startTime": 0,
+          "endTime": 85.243958
+        },
+        {
+          "path": "Audio/output/2364/chapter_01.wav",
+          "duration": 185.465958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Calm Before the Storm: Ordinary Life on the Edge of War",
+          "actualDuration": 185.465958,
+          "startTime": 86.743958,
+          "endTime": 272.209916
+        },
+        {
+          "path": "Audio/output/2364/chapter_02.wav",
+          "duration": 174.991875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 First Air Raids: Fear, Confusion, and the Search for Safety",
+          "actualDuration": 174.991875,
+          "startTime": 273.709916,
+          "endTime": 448.701791
+        },
+        {
+          "path": "Audio/output/2364/chapter_03.wav",
+          "duration": 173.232375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Everyday Life Under Siege: Adapting to the New Normal",
+          "actualDuration": 173.232375,
+          "startTime": 450.201791,
+          "endTime": 623.434166
+        },
+        {
+          "path": "Audio/output/2364/chapter_04.wav",
+          "duration": 159.130292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Friendship, and the Weight of Uncertainty",
+          "actualDuration": 159.130292,
+          "startTime": 624.934166,
+          "endTime": 784.0644580000001
+        },
+        {
+          "path": "Audio/output/2364/chapter_05.wav",
+          "duration": 173.33425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reflections on Society, Politics, and the Meaning of Endurance",
+          "actualDuration": 173.33425,
+          "startTime": 785.5644580000001,
+          "endTime": 958.898708
+        },
+        {
+          "path": "Audio/output/2364/chapter_06.wav",
+          "duration": 167.373625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Rhythm of Danger: Nightly Raids and the Pulse of the City",
+          "actualDuration": 167.373625,
+          "startTime": 960.398708,
+          "endTime": 1127.7723330000001
+        },
+        {
+          "path": "Audio/output/2364/chapter_07.wav",
+          "duration": 148.395875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Loss, Grief, and the Quiet Work of Carrying On",
+          "actualDuration": 148.395875,
+          "startTime": 1129.2723330000001,
+          "endTime": 1277.668208
+        },
+        {
+          "path": "Audio/output/2364/chapter_08.wav",
+          "duration": 124.660417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Small Joys and the Persistence of Hope",
+          "actualDuration": 124.660417,
+          "startTime": 1279.168208,
+          "endTime": 1403.828625
+        },
+        {
+          "path": "Audio/output/2364/chapter_09.wav",
+          "duration": 129.940042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Changing Face of Community: New Roles and Responsibilities",
+          "actualDuration": 129.940042,
+          "startTime": 1405.328625,
+          "endTime": 1535.268667
+        },
+        {
+          "path": "Audio/output/2364/chapter_10.wav",
+          "duration": 138.264625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Haul: Fatigue, Doubt, and the Struggle to Endure",
+          "actualDuration": 138.264625,
+          "startTime": 1536.768667,
+          "endTime": 1675.033292
+        },
+        {
+          "path": "Audio/output/2364/chapter_11.wav",
+          "duration": 122.8115,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The War’s Turning Point: Signs of Change and the Return of Hope",
+          "actualDuration": 122.8115,
+          "startTime": 1676.533292,
+          "endTime": 1799.344792
+        },
+        {
+          "path": "Audio/output/2364/chapter_12.wav",
+          "duration": 109.216417,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Looking Back: Memory, Meaning, and the Legacy of the Blitz",
+          "actualDuration": 109.216417,
+          "startTime": 1800.844792,
+          "endTime": 1910.0612090000002
+        },
+        {
+          "path": "Audio/output/2364/conclusion.wav",
+          "duration": 105.277458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.277458,
+          "startTime": 1911.5612090000002,
+          "endTime": 2016.8386670000002
+        }
+      ],
+      "totalDuration": 2016.8386670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.24,
+          "actualStart": 0,
+          "actualEnd": 85.243958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Calm Before the Storm: Ordinary Life on the Edge of War",
+          "expectedStart": 85.24,
+          "expectedEnd": 270.71,
+          "actualStart": 86.743958,
+          "actualEnd": 272.209916,
+          "timeDifference": 1.5039580000000115
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 First Air Raids: Fear, Confusion, and the Search for Safety",
+          "expectedStart": 270.71,
+          "expectedEnd": 445.7,
+          "actualStart": 273.709916,
+          "actualEnd": 448.701791,
+          "timeDifference": 2.9999160000000415
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Everyday Life Under Siege: Adapting to the New Normal",
+          "expectedStart": 445.7,
+          "expectedEnd": 618.93,
+          "actualStart": 450.201791,
+          "actualEnd": 623.434166,
+          "timeDifference": 4.501791000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Friendship, and the Weight of Uncertainty",
+          "expectedStart": 618.93,
+          "expectedEnd": 778.06,
+          "actualStart": 624.934166,
+          "actualEnd": 784.0644580000001,
+          "timeDifference": 6.004166000000055
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reflections on Society, Politics, and the Meaning of Endurance",
+          "expectedStart": 778.06,
+          "expectedEnd": 951.39,
+          "actualStart": 785.5644580000001,
+          "actualEnd": 958.898708,
+          "timeDifference": 7.504458000000113
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Rhythm of Danger: Nightly Raids and the Pulse of the City",
+          "expectedStart": 951.39,
+          "expectedEnd": 1118.76,
+          "actualStart": 960.398708,
+          "actualEnd": 1127.7723330000001,
+          "timeDifference": 9.00870800000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Loss, Grief, and the Quiet Work of Carrying On",
+          "expectedStart": 1118.76,
+          "expectedEnd": 1267.16,
+          "actualStart": 1129.2723330000001,
+          "actualEnd": 1277.668208,
+          "timeDifference": 10.512333000000126
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Small Joys and the Persistence of Hope",
+          "expectedStart": 1267.16,
+          "expectedEnd": 1391.82,
+          "actualStart": 1279.168208,
+          "actualEnd": 1403.828625,
+          "timeDifference": 12.008207999999968
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Changing Face of Community: New Roles and Responsibilities",
+          "expectedStart": 1391.82,
+          "expectedEnd": 1521.76,
+          "actualStart": 1405.328625,
+          "actualEnd": 1535.268667,
+          "timeDifference": 13.508625000000166
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Haul: Fatigue, Doubt, and the Struggle to Endure",
+          "expectedStart": 1521.76,
+          "expectedEnd": 1660.02,
+          "actualStart": 1536.768667,
+          "actualEnd": 1675.033292,
+          "timeDifference": 15.00866700000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The War’s Turning Point: Signs of Change and the Return of Hope",
+          "expectedStart": 1660.02,
+          "expectedEnd": 1782.83,
+          "actualStart": 1676.533292,
+          "actualEnd": 1799.344792,
+          "timeDifference": 16.513292000000092
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Looking Back: Memory, Meaning, and the Legacy of the Blitz",
+          "expectedStart": 1782.83,
+          "expectedEnd": 1892.05,
+          "actualStart": 1800.844792,
+          "actualEnd": 1910.0612090000002,
+          "timeDifference": 18.01479200000017
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1892.05,
+          "expectedEnd": 1997.33,
+          "actualStart": 1911.5612090000002,
+          "actualEnd": 2016.8386670000002,
+          "timeDifference": 19.511209000000235
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.243958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Calm Before the Storm: Ordinary Life on the Edge of War"
+        },
+        {
+          "startTime": 272.209916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Calm Before the Storm: Ordinary Life on the Edge of War and Chapter 2 First Air Raids: Fear, Confusion, and the Search for Safety"
+        },
+        {
+          "startTime": 448.701791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 First Air Raids: Fear, Confusion, and the Search for Safety and Chapter 3 Everyday Life Under Siege: Adapting to the New Normal"
+        },
+        {
+          "startTime": 623.434166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Everyday Life Under Siege: Adapting to the New Normal and Chapter 4 Family, Friendship, and the Weight of Uncertainty"
+        },
+        {
+          "startTime": 784.0644580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Friendship, and the Weight of Uncertainty and Chapter 5 Reflections on Society, Politics, and the Meaning of Endurance"
+        },
+        {
+          "startTime": 958.898708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reflections on Society, Politics, and the Meaning of Endurance and Chapter 6 The Rhythm of Danger: Nightly Raids and the Pulse of the City"
+        },
+        {
+          "startTime": 1127.7723330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Rhythm of Danger: Nightly Raids and the Pulse of the City and Chapter 7 Loss, Grief, and the Quiet Work of Carrying On"
+        },
+        {
+          "startTime": 1277.668208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Loss, Grief, and the Quiet Work of Carrying On and Chapter 8 Small Joys and the Persistence of Hope"
+        },
+        {
+          "startTime": 1403.828625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Small Joys and the Persistence of Hope and Chapter 9 The Changing Face of Community: New Roles and Responsibilities"
+        },
+        {
+          "startTime": 1535.268667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Changing Face of Community: New Roles and Responsibilities and Chapter 10 The Long Haul: Fatigue, Doubt, and the Struggle to Endure"
+        },
+        {
+          "startTime": 1675.033292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Haul: Fatigue, Doubt, and the Struggle to Endure and Chapter 11 The War’s Turning Point: Signs of Change and the Return of Hope"
+        },
+        {
+          "startTime": 1799.344792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The War’s Turning Point: Signs of Change and the Return of Hope and Chapter 12 Looking Back: Memory, Meaning, and the Legacy of the Blitz"
+        },
+        {
+          "startTime": 1910.0612090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Looking Back: Memory, Meaning, and the Legacy of the Blitz and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2364",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:23:38.006Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

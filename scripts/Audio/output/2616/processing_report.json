@@ -1,0 +1,456 @@
+{
+  "bookId": "2616",
+  "timestamp": "2025-07-11T08:10:10.944Z",
+  "success": false,
+  "processingTime": -1752221106973,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4058,
+    "totalAudioFiles": 12,
+    "totalDuration": 2021.8487920000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2021.8487920000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2616/optimized_text/2616.md",
+    "fileSize": 798,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2616.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2616/metadata/2616_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2021.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2616/metadata/2616_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2616/metadata/2616_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2616/2616_complete.wav",
+    "duration": 2021.848792,
+    "fileSize": 97048820,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2616/introduction.wav",
+          "duration": 91.320417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.320417,
+          "startTime": 0,
+          "endTime": 91.320417
+        },
+        {
+          "path": "Audio/output/2616/chapter_01.wav",
+          "duration": 205.671333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Lighthouse Effect and Its Everyday Power",
+          "actualDuration": 205.671333,
+          "startTime": 92.820417,
+          "endTime": 298.49175
+        },
+        {
+          "path": "Audio/output/2616/chapter_02.wav",
+          "duration": 188.357792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Recognizing the Lighthouses in Everyday Life",
+          "actualDuration": 188.357792,
+          "startTime": 299.99175,
+          "endTime": 488.34954200000004
+        },
+        {
+          "path": "Audio/output/2616/chapter_03.wav",
+          "duration": 246.356625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Resilience Through Connection and Support",
+          "actualDuration": 246.356625,
+          "startTime": 489.84954200000004,
+          "endTime": 736.206167
+        },
+        {
+          "path": "Audio/output/2616/chapter_04.wav",
+          "duration": 219.557833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ripple Effect of Small Acts and Everyday Kindness",
+          "actualDuration": 219.557833,
+          "startTime": 737.706167,
+          "endTime": 957.264
+        },
+        {
+          "path": "Audio/output/2616/chapter_05.wav",
+          "duration": 191.132917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Becoming a Lighthouse—Embracing the Role and Responsibility",
+          "actualDuration": 191.132917,
+          "startTime": 958.764,
+          "endTime": 1149.896917
+        },
+        {
+          "path": "Audio/output/2616/chapter_06.wav",
+          "duration": 175.397833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Barriers—Overcoming Doubt, Fatigue, and Setbacks",
+          "actualDuration": 175.397833,
+          "startTime": 1151.396917,
+          "endTime": 1326.79475
+        },
+        {
+          "path": "Audio/output/2616/chapter_07.wav",
+          "duration": 159.111625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Lighthouse Effect in Families—Cultivating Safe Harbors at Home",
+          "actualDuration": 159.111625,
+          "startTime": 1328.29475,
+          "endTime": 1487.406375
+        },
+        {
+          "path": "Audio/output/2616/chapter_08.wav",
+          "duration": 136.284917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lighthouses in the Workplace—Fostering Cultures of Support and Growth",
+          "actualDuration": 136.284917,
+          "startTime": 1488.906375,
+          "endTime": 1625.191292
+        },
+        {
+          "path": "Audio/output/2616/chapter_09.wav",
+          "duration": 129.245542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Community Lighthouses—Building Networks of Hope and Belonging",
+          "actualDuration": 129.245542,
+          "startTime": 1626.691292,
+          "endTime": 1755.936834
+        },
+        {
+          "path": "Audio/output/2616/chapter_10.wav",
+          "duration": 151.193708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Lighthouse Effect—Reflection, Renewal, and Growth",
+          "actualDuration": 151.193708,
+          "startTime": 1757.436834,
+          "endTime": 1908.630542
+        },
+        {
+          "path": "Audio/output/2616/conclusion.wav",
+          "duration": 128.21825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.21825,
+          "startTime": 1910.130542,
+          "endTime": 2038.3487920000002
+        }
+      ],
+      "totalDuration": 2038.3487920000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.32,
+          "actualStart": 0,
+          "actualEnd": 91.320417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Lighthouse Effect and Its Everyday Power",
+          "expectedStart": 91.32,
+          "expectedEnd": 296.99,
+          "actualStart": 92.820417,
+          "actualEnd": 298.49175,
+          "timeDifference": 1.500417000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Recognizing the Lighthouses in Everyday Life",
+          "expectedStart": 296.99,
+          "expectedEnd": 485.35,
+          "actualStart": 299.99175,
+          "actualEnd": 488.34954200000004,
+          "timeDifference": 3.0017500000000155
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Resilience Through Connection and Support",
+          "expectedStart": 485.35,
+          "expectedEnd": 731.71,
+          "actualStart": 489.84954200000004,
+          "actualEnd": 736.206167,
+          "timeDifference": 4.4995420000000195
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ripple Effect of Small Acts and Everyday Kindness",
+          "expectedStart": 731.71,
+          "expectedEnd": 951.27,
+          "actualStart": 737.706167,
+          "actualEnd": 957.264,
+          "timeDifference": 5.996167000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Becoming a Lighthouse—Embracing the Role and Responsibility",
+          "expectedStart": 951.27,
+          "expectedEnd": 1142.4,
+          "actualStart": 958.764,
+          "actualEnd": 1149.896917,
+          "timeDifference": 7.494000000000028
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Barriers—Overcoming Doubt, Fatigue, and Setbacks",
+          "expectedStart": 1142.4,
+          "expectedEnd": 1317.8,
+          "actualStart": 1151.396917,
+          "actualEnd": 1326.79475,
+          "timeDifference": 8.99691699999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Lighthouse Effect in Families—Cultivating Safe Harbors at Home",
+          "expectedStart": 1317.8,
+          "expectedEnd": 1476.91,
+          "actualStart": 1328.29475,
+          "actualEnd": 1487.406375,
+          "timeDifference": 10.494750000000067
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lighthouses in the Workplace—Fostering Cultures of Support and Growth",
+          "expectedStart": 1476.91,
+          "expectedEnd": 1613.19,
+          "actualStart": 1488.906375,
+          "actualEnd": 1625.191292,
+          "timeDifference": 11.996374999999944
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Community Lighthouses—Building Networks of Hope and Belonging",
+          "expectedStart": 1613.19,
+          "expectedEnd": 1742.44,
+          "actualStart": 1626.691292,
+          "actualEnd": 1755.936834,
+          "timeDifference": 13.501291999999921
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Lighthouse Effect—Reflection, Renewal, and Growth",
+          "expectedStart": 1742.44,
+          "expectedEnd": 1893.63,
+          "actualStart": 1757.436834,
+          "actualEnd": 1908.630542,
+          "timeDifference": 14.996834000000035
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1893.63,
+          "expectedEnd": 2021.85,
+          "actualStart": 1910.130542,
+          "actualEnd": 2038.3487920000002,
+          "timeDifference": 16.500541999999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.320417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Lighthouse Effect and Its Everyday Power"
+        },
+        {
+          "startTime": 298.49175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Lighthouse Effect and Its Everyday Power and Chapter 2 Recognizing the Lighthouses in Everyday Life"
+        },
+        {
+          "startTime": 488.34954200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Recognizing the Lighthouses in Everyday Life and Chapter 3 Building Resilience Through Connection and Support"
+        },
+        {
+          "startTime": 736.206167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Resilience Through Connection and Support and Chapter 4 The Ripple Effect of Small Acts and Everyday Kindness"
+        },
+        {
+          "startTime": 957.264,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ripple Effect of Small Acts and Everyday Kindness and Chapter 5 Becoming a Lighthouse—Embracing the Role and Responsibility"
+        },
+        {
+          "startTime": 1149.896917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Becoming a Lighthouse—Embracing the Role and Responsibility and Chapter 6 Navigating Barriers—Overcoming Doubt, Fatigue, and Setbacks"
+        },
+        {
+          "startTime": 1326.79475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Barriers—Overcoming Doubt, Fatigue, and Setbacks and Chapter 7 The Lighthouse Effect in Families—Cultivating Safe Harbors at Home"
+        },
+        {
+          "startTime": 1487.406375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Lighthouse Effect in Families—Cultivating Safe Harbors at Home and Chapter 8 Lighthouses in the Workplace—Fostering Cultures of Support and Growth"
+        },
+        {
+          "startTime": 1625.191292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lighthouses in the Workplace—Fostering Cultures of Support and Growth and Chapter 9 Community Lighthouses—Building Networks of Hope and Belonging"
+        },
+        {
+          "startTime": 1755.936834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Community Lighthouses—Building Networks of Hope and Belonging and Chapter 10 Sustaining the Lighthouse Effect—Reflection, Renewal, and Growth"
+        },
+        {
+          "startTime": 1908.630542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Lighthouse Effect—Reflection, Renewal, and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2616",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:05:08.778Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

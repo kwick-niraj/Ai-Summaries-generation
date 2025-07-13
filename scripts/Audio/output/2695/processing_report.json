@@ -1,0 +1,456 @@
+{
+  "bookId": "2695",
+  "timestamp": "2025-07-12T11:26:38.829Z",
+  "success": false,
+  "processingTime": -1752319211995,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4171,
+    "totalAudioFiles": 12,
+    "totalDuration": 1971.104584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1971.104584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2695/optimized_text/2695.md",
+    "fileSize": 641,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2695.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2695/metadata/2695_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1971.11,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2695/metadata/2695_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2695/metadata/2695_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2695/2695_complete.wav",
+    "duration": 1971.104583,
+    "fileSize": 94613098,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2695/introduction.wav",
+          "duration": 91.104583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.104583,
+          "startTime": 0,
+          "endTime": 91.104583
+        },
+        {
+          "path": "Audio/output/2695/chapter_01.wav",
+          "duration": 214.306583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Thoughts Shape Who We Become",
+          "actualDuration": 214.306583,
+          "startTime": 92.604583,
+          "endTime": 306.911166
+        },
+        {
+          "path": "Audio/output/2695/chapter_02.wav",
+          "duration": 225.65725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Link Between Inner Life and Outer Circumstances",
+          "actualDuration": 225.65725,
+          "startTime": 308.411166,
+          "endTime": 534.068416
+        },
+        {
+          "path": "Audio/output/2695/chapter_03.wav",
+          "duration": 159.976083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Purposeful Thinking",
+          "actualDuration": 159.976083,
+          "startTime": 535.568416,
+          "endTime": 695.544499
+        },
+        {
+          "path": "Audio/output/2695/chapter_04.wav",
+          "duration": 171.4065,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Consequences of Negative and Positive Thinking",
+          "actualDuration": 171.4065,
+          "startTime": 697.044499,
+          "endTime": 868.4509989999999
+        },
+        {
+          "path": "Audio/output/2695/chapter_05.wav",
+          "duration": 154.596417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Self-Mastery and Personal Responsibility",
+          "actualDuration": 154.596417,
+          "startTime": 869.9509989999999,
+          "endTime": 1024.5474159999999
+        },
+        {
+          "path": "Audio/output/2695/chapter_06.wav",
+          "duration": 172.907917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Planting Seeds: The Practice of Thoughtful Living",
+          "actualDuration": 172.907917,
+          "startTime": 1026.0474159999999,
+          "endTime": 1198.9553329999999
+        },
+        {
+          "path": "Audio/output/2695/chapter_07.wav",
+          "duration": 176.299667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: How Thoughts Shape Relationships",
+          "actualDuration": 176.299667,
+          "startTime": 1200.4553329999999,
+          "endTime": 1376.7549999999999
+        },
+        {
+          "path": "Audio/output/2695/chapter_08.wav",
+          "duration": 168.82075,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Adversity: The Mind’s Role in Overcoming Hardship",
+          "actualDuration": 168.82075,
+          "startTime": 1378.2549999999999,
+          "endTime": 1547.07575
+        },
+        {
+          "path": "Audio/output/2695/chapter_09.wav",
+          "duration": 177.021292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Power of Serenity",
+          "actualDuration": 177.021292,
+          "startTime": 1548.57575,
+          "endTime": 1725.5970419999999
+        },
+        {
+          "path": "Audio/output/2695/chapter_10.wav",
+          "duration": 139.334,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Growth Without End",
+          "actualDuration": 139.334,
+          "startTime": 1727.0970419999999,
+          "endTime": 1866.431042
+        },
+        {
+          "path": "Audio/output/2695/conclusion.wav",
+          "duration": 119.673542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.673542,
+          "startTime": 1867.931042,
+          "endTime": 1987.604584
+        }
+      ],
+      "totalDuration": 1987.604584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.1,
+          "actualStart": 0,
+          "actualEnd": 91.104583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Thoughts Shape Who We Become",
+          "expectedStart": 91.1,
+          "expectedEnd": 305.41,
+          "actualStart": 92.604583,
+          "actualEnd": 306.911166,
+          "timeDifference": 1.5045830000000109
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Link Between Inner Life and Outer Circumstances",
+          "expectedStart": 305.41,
+          "expectedEnd": 531.07,
+          "actualStart": 308.411166,
+          "actualEnd": 534.068416,
+          "timeDifference": 3.001165999999955
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Purposeful Thinking",
+          "expectedStart": 531.07,
+          "expectedEnd": 691.05,
+          "actualStart": 535.568416,
+          "actualEnd": 695.544499,
+          "timeDifference": 4.4984159999999065
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Consequences of Negative and Positive Thinking",
+          "expectedStart": 691.05,
+          "expectedEnd": 862.46,
+          "actualStart": 697.044499,
+          "actualEnd": 868.4509989999999,
+          "timeDifference": 5.994499000000019
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Self-Mastery and Personal Responsibility",
+          "expectedStart": 862.46,
+          "expectedEnd": 1017.06,
+          "actualStart": 869.9509989999999,
+          "actualEnd": 1024.5474159999999,
+          "timeDifference": 7.490998999999874
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Planting Seeds: The Practice of Thoughtful Living",
+          "expectedStart": 1017.06,
+          "expectedEnd": 1189.97,
+          "actualStart": 1026.0474159999999,
+          "actualEnd": 1198.9553329999999,
+          "timeDifference": 8.98741599999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: How Thoughts Shape Relationships",
+          "expectedStart": 1189.97,
+          "expectedEnd": 1366.27,
+          "actualStart": 1200.4553329999999,
+          "actualEnd": 1376.7549999999999,
+          "timeDifference": 10.485332999999855
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Adversity: The Mind’s Role in Overcoming Hardship",
+          "expectedStart": 1366.27,
+          "expectedEnd": 1535.09,
+          "actualStart": 1378.2549999999999,
+          "actualEnd": 1547.07575,
+          "timeDifference": 11.9849999999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Power of Serenity",
+          "expectedStart": 1535.09,
+          "expectedEnd": 1712.11,
+          "actualStart": 1548.57575,
+          "actualEnd": 1725.5970419999999,
+          "timeDifference": 13.485750000000053
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Growth Without End",
+          "expectedStart": 1712.11,
+          "expectedEnd": 1851.44,
+          "actualStart": 1727.0970419999999,
+          "actualEnd": 1866.431042,
+          "timeDifference": 14.987041999999974
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1851.44,
+          "expectedEnd": 1971.11,
+          "actualStart": 1867.931042,
+          "actualEnd": 1987.604584,
+          "timeDifference": 16.49104199999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.104583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Thoughts Shape Who We Become"
+        },
+        {
+          "startTime": 306.911166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Thoughts Shape Who We Become and Chapter 2 The Link Between Inner Life and Outer Circumstances"
+        },
+        {
+          "startTime": 534.068416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Link Between Inner Life and Outer Circumstances and Chapter 3 The Power of Purposeful Thinking"
+        },
+        {
+          "startTime": 695.544499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Purposeful Thinking and Chapter 4 The Consequences of Negative and Positive Thinking"
+        },
+        {
+          "startTime": 868.4509989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Consequences of Negative and Positive Thinking and Chapter 5 Building Self-Mastery and Personal Responsibility"
+        },
+        {
+          "startTime": 1024.5474159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Self-Mastery and Personal Responsibility and Chapter 6 Planting Seeds: The Practice of Thoughtful Living"
+        },
+        {
+          "startTime": 1198.9553329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Planting Seeds: The Practice of Thoughtful Living and Chapter 7 The Ripple Effect: How Thoughts Shape Relationships"
+        },
+        {
+          "startTime": 1376.7549999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: How Thoughts Shape Relationships and Chapter 8 Facing Adversity: The Mind’s Role in Overcoming Hardship"
+        },
+        {
+          "startTime": 1547.07575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Adversity: The Mind’s Role in Overcoming Hardship and Chapter 9 The Quiet Power of Serenity"
+        },
+        {
+          "startTime": 1725.5970419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Power of Serenity and Chapter 10 The Ongoing Journey: Growth Without End"
+        },
+        {
+          "startTime": 1866.431042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Growth Without End and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2695",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T11:20:13.208Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

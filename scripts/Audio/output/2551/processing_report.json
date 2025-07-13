@@ -1,0 +1,431 @@
+{
+  "bookId": "2551",
+  "timestamp": "2025-07-11T04:49:31.787Z",
+  "success": false,
+  "processingTime": -1752209073993,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4087,
+    "totalAudioFiles": 12,
+    "totalDuration": 1529.3690420000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1529.3690420000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2551/optimized_text/2551.md",
+    "fileSize": 732,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2551.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2551/metadata/2551_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1529.38,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2551/metadata/2551_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2551/metadata/2551_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2551/2551_complete.wav",
+    "duration": 1529.369042,
+    "fileSize": 73409792,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2551/introduction.wav",
+          "duration": 94.991583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.991583,
+          "startTime": 0,
+          "endTime": 94.991583
+        },
+        {
+          "path": "Audio/output/2551/chapter_02.wav",
+          "duration": 175.577125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Preacher’s Double Life and the Limits of Justice",
+          "actualDuration": 175.577125,
+          "startTime": 96.491583,
+          "endTime": 272.068708
+        },
+        {
+          "path": "Audio/output/2551/chapter_03.wav",
+          "duration": 156.128792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Harper Lee’s Return and the Weight of Unfinished Stories",
+          "actualDuration": 156.128792,
+          "startTime": 273.568708,
+          "endTime": 429.6975
+        },
+        {
+          "path": "Audio/output/2551/chapter_04.wav",
+          "duration": 142.108833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Fact, Fiction, and the Stories We Tell Ourselves",
+          "actualDuration": 142.108833,
+          "startTime": 431.1975,
+          "endTime": 573.306333
+        },
+        {
+          "path": "Audio/output/2551/chapter_05.wav",
+          "duration": 114.341042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The South’s Enduring Mysteries and the Cost of Truth",
+          "actualDuration": 114.341042,
+          "startTime": 574.806333,
+          "endTime": 689.147375
+        },
+        {
+          "path": "Audio/output/2551/chapter_06.wav",
+          "duration": 183.026875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Writer’s Obsession and the Ghosts of Monroeville",
+          "actualDuration": 183.026875,
+          "startTime": 690.647375,
+          "endTime": 873.67425
+        },
+        {
+          "path": "Audio/output/2551/chapter_07.wav",
+          "duration": 157.359292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unwritten Book and the Price of Silence",
+          "actualDuration": 157.359292,
+          "startTime": 875.17425,
+          "endTime": 1032.5335420000001
+        },
+        {
+          "path": "Audio/output/2551/chapter_08.wav",
+          "duration": 132.19725,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Echoes of Justice and the Stories We Inherit",
+          "actualDuration": 132.19725,
+          "startTime": 1034.0335420000001,
+          "endTime": 1166.230792
+        },
+        {
+          "path": "Audio/output/2551/chapter_09.wav",
+          "duration": 131.587958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Writer’s Legacy and the Power of Bearing Witness",
+          "actualDuration": 131.587958,
+          "startTime": 1167.730792,
+          "endTime": 1299.3187500000001
+        },
+        {
+          "path": "Audio/output/2551/chapter_10.wav",
+          "duration": 119.164042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The South’s Reckoning and the Stories Yet to Be Told",
+          "actualDuration": 119.164042,
+          "startTime": 1300.8187500000001,
+          "endTime": 1419.9827920000002
+        },
+        {
+          "path": "Audio/output/2551/conclusion.wav",
+          "duration": 122.88625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.88625,
+          "startTime": 1421.4827920000002,
+          "endTime": 1544.3690420000003
+        }
+      ],
+      "totalDuration": 1544.3690420000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.99,
+          "actualStart": 0,
+          "actualEnd": 94.991583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Preacher’s Double Life and the Limits of Justice",
+          "expectedStart": 94.99,
+          "expectedEnd": 270.57,
+          "actualStart": 96.491583,
+          "actualEnd": 272.068708,
+          "timeDifference": 1.5015830000000108
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Harper Lee’s Return and the Weight of Unfinished Stories",
+          "expectedStart": 270.57,
+          "expectedEnd": 426.7,
+          "actualStart": 273.568708,
+          "actualEnd": 429.6975,
+          "timeDifference": 2.998708000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Fact, Fiction, and the Stories We Tell Ourselves",
+          "expectedStart": 426.7,
+          "expectedEnd": 568.81,
+          "actualStart": 431.1975,
+          "actualEnd": 573.306333,
+          "timeDifference": 4.497500000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The South’s Enduring Mysteries and the Cost of Truth",
+          "expectedStart": 568.81,
+          "expectedEnd": 683.15,
+          "actualStart": 574.806333,
+          "actualEnd": 689.147375,
+          "timeDifference": 5.99633300000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Writer’s Obsession and the Ghosts of Monroeville",
+          "expectedStart": 683.15,
+          "expectedEnd": 866.18,
+          "actualStart": 690.647375,
+          "actualEnd": 873.67425,
+          "timeDifference": 7.497375000000034
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unwritten Book and the Price of Silence",
+          "expectedStart": 866.18,
+          "expectedEnd": 1023.54,
+          "actualStart": 875.17425,
+          "actualEnd": 1032.5335420000001,
+          "timeDifference": 8.99425000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Echoes of Justice and the Stories We Inherit",
+          "expectedStart": 1023.54,
+          "expectedEnd": 1155.74,
+          "actualStart": 1034.0335420000001,
+          "actualEnd": 1166.230792,
+          "timeDifference": 10.493542000000161
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Writer’s Legacy and the Power of Bearing Witness",
+          "expectedStart": 1155.74,
+          "expectedEnd": 1287.33,
+          "actualStart": 1167.730792,
+          "actualEnd": 1299.3187500000001,
+          "timeDifference": 11.990792000000056
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The South’s Reckoning and the Stories Yet to Be Told",
+          "expectedStart": 1287.33,
+          "expectedEnd": 1406.49,
+          "actualStart": 1300.8187500000001,
+          "actualEnd": 1419.9827920000002,
+          "timeDifference": 13.48875000000021
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1406.49,
+          "expectedEnd": 1529.38,
+          "actualStart": 1421.4827920000002,
+          "actualEnd": 1544.3690420000003,
+          "timeDifference": 14.992792000000236
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.991583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 The Preacher’s Double Life and the Limits of Justice"
+        },
+        {
+          "startTime": 272.068708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Preacher’s Double Life and the Limits of Justice and Chapter 3 Harper Lee’s Return and the Weight of Unfinished Stories"
+        },
+        {
+          "startTime": 429.6975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Harper Lee’s Return and the Weight of Unfinished Stories and Chapter 4 Fact, Fiction, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 573.306333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Fact, Fiction, and the Stories We Tell Ourselves and Chapter 5 The South’s Enduring Mysteries and the Cost of Truth"
+        },
+        {
+          "startTime": 689.147375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The South’s Enduring Mysteries and the Cost of Truth and Chapter 6 The Writer’s Obsession and the Ghosts of Monroeville"
+        },
+        {
+          "startTime": 873.67425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Writer’s Obsession and the Ghosts of Monroeville and Chapter 7 The Unwritten Book and the Price of Silence"
+        },
+        {
+          "startTime": 1032.5335420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unwritten Book and the Price of Silence and Chapter 8 The Echoes of Justice and the Stories We Inherit"
+        },
+        {
+          "startTime": 1166.230792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Echoes of Justice and the Stories We Inherit and Chapter 9 The Writer’s Legacy and the Power of Bearing Witness"
+        },
+        {
+          "startTime": 1299.3187500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Writer’s Legacy and the Power of Bearing Witness and Chapter 10 The South’s Reckoning and the Stories Yet to Be Told"
+        },
+        {
+          "startTime": 1419.9827920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The South’s Reckoning and the Stories Yet to Be Told and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2551",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:44:34.625Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2405",
+  "timestamp": "2025-07-10T21:22:31.965Z",
+  "success": false,
+  "processingTime": -1752182220462,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4970,
+    "totalAudioFiles": 12,
+    "totalDuration": 2146.436001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2146.436001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2405/optimized_text/2405.md",
+    "fileSize": 819,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "2405.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2405/metadata/2405_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2146.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2405/metadata/2405_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2405/metadata/2405_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2405/2405_complete.wav",
+    "duration": 2146.436,
+    "fileSize": 103029006,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2405/introduction.wav",
+          "duration": 94.608542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.608542,
+          "startTime": 0,
+          "endTime": 94.608542
+        },
+        {
+          "path": "Audio/output/2405/chapter_01.wav",
+          "duration": 259.016917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a Changing World: Traditions, Family, and Early Doubts",
+          "actualDuration": 259.016917,
+          "startTime": 96.108542,
+          "endTime": 355.125459
+        },
+        {
+          "path": "Audio/output/2405/chapter_02.wav",
+          "duration": 224.055708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Schooling, Friendship, and the First Taste of Rebellion",
+          "actualDuration": 224.055708,
+          "startTime": 356.625459,
+          "endTime": 580.681167
+        },
+        {
+          "path": "Audio/output/2405/chapter_03.wav",
+          "duration": 245.87975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Outbreak of War: Patriotism, Fear, and the Rush to Enlist",
+          "actualDuration": 245.87975,
+          "startTime": 582.181167,
+          "endTime": 828.060917
+        },
+        {
+          "path": "Audio/output/2405/chapter_04.wav",
+          "duration": 206.039333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Life in the Trenches: Horror, Camaraderie, and the Loss of Innocence",
+          "actualDuration": 206.039333,
+          "startTime": 829.560917,
+          "endTime": 1035.60025
+        },
+        {
+          "path": "Audio/output/2405/chapter_05.wav",
+          "duration": 161.396875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Wounds, Recovery, and the Struggle to Make Sense of Trauma",
+          "actualDuration": 161.396875,
+          "startTime": 1037.10025,
+          "endTime": 1198.4971249999999
+        },
+        {
+          "path": "Audio/output/2405/chapter_06.wav",
+          "duration": 207.437792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War’s End: Disbelief, Dislocation, and the Search for Home",
+          "actualDuration": 207.437792,
+          "startTime": 1199.9971249999999,
+          "endTime": 1407.4349169999998
+        },
+        {
+          "path": "Audio/output/2405/chapter_07.wav",
+          "duration": 158.950208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Lost Generation: Disillusionment, Art, and the Search for Voice",
+          "actualDuration": 158.950208,
+          "startTime": 1408.9349169999998,
+          "endTime": 1567.8851249999998
+        },
+        {
+          "path": "Audio/output/2405/chapter_08.wav",
+          "duration": 161.469042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Love, Loss, and the Fragility of Connection",
+          "actualDuration": 161.469042,
+          "startTime": 1569.3851249999998,
+          "endTime": 1730.8541669999997
+        },
+        {
+          "path": "Audio/output/2405/chapter_09.wav",
+          "duration": 184.27725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Long Shadow: Memory, Guilt, and the Weight of the Past",
+          "actualDuration": 184.27725,
+          "startTime": 1732.3541669999997,
+          "endTime": 1916.6314169999998
+        },
+        {
+          "path": "Audio/output/2405/chapter_10.wav",
+          "duration": 135.918167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rebuilding and Renewal: Hope, Change, and the Possibility of New Beginnings",
+          "actualDuration": 135.918167,
+          "startTime": 1918.1314169999998,
+          "endTime": 2054.049584
+        },
+        {
+          "path": "Audio/output/2405/conclusion.wav",
+          "duration": 107.386417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.386417,
+          "startTime": 2055.549584,
+          "endTime": 2162.936001
+        }
+      ],
+      "totalDuration": 2162.936001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.61,
+          "actualStart": 0,
+          "actualEnd": 94.608542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a Changing World: Traditions, Family, and Early Doubts",
+          "expectedStart": 94.61,
+          "expectedEnd": 353.63,
+          "actualStart": 96.108542,
+          "actualEnd": 355.125459,
+          "timeDifference": 1.4985420000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Schooling, Friendship, and the First Taste of Rebellion",
+          "expectedStart": 353.63,
+          "expectedEnd": 577.69,
+          "actualStart": 356.625459,
+          "actualEnd": 580.681167,
+          "timeDifference": 2.9954589999999826
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Outbreak of War: Patriotism, Fear, and the Rush to Enlist",
+          "expectedStart": 577.69,
+          "expectedEnd": 823.57,
+          "actualStart": 582.181167,
+          "actualEnd": 828.060917,
+          "timeDifference": 4.491166999999905
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Life in the Trenches: Horror, Camaraderie, and the Loss of Innocence",
+          "expectedStart": 823.57,
+          "expectedEnd": 1029.61,
+          "actualStart": 829.560917,
+          "actualEnd": 1035.60025,
+          "timeDifference": 5.990916999999968
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Wounds, Recovery, and the Struggle to Make Sense of Trauma",
+          "expectedStart": 1029.61,
+          "expectedEnd": 1191.01,
+          "actualStart": 1037.10025,
+          "actualEnd": 1198.4971249999999,
+          "timeDifference": 7.49025000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War’s End: Disbelief, Dislocation, and the Search for Home",
+          "expectedStart": 1191.01,
+          "expectedEnd": 1398.45,
+          "actualStart": 1199.9971249999999,
+          "actualEnd": 1407.4349169999998,
+          "timeDifference": 8.987124999999878
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Lost Generation: Disillusionment, Art, and the Search for Voice",
+          "expectedStart": 1398.45,
+          "expectedEnd": 1557.4,
+          "actualStart": 1408.9349169999998,
+          "actualEnd": 1567.8851249999998,
+          "timeDifference": 10.484916999999768
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Love, Loss, and the Fragility of Connection",
+          "expectedStart": 1557.4,
+          "expectedEnd": 1718.87,
+          "actualStart": 1569.3851249999998,
+          "actualEnd": 1730.8541669999997,
+          "timeDifference": 11.985124999999698
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Long Shadow: Memory, Guilt, and the Weight of the Past",
+          "expectedStart": 1718.87,
+          "expectedEnd": 1903.15,
+          "actualStart": 1732.3541669999997,
+          "actualEnd": 1916.6314169999998,
+          "timeDifference": 13.484166999999843
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rebuilding and Renewal: Hope, Change, and the Possibility of New Beginnings",
+          "expectedStart": 1903.15,
+          "expectedEnd": 2039.07,
+          "actualStart": 1918.1314169999998,
+          "actualEnd": 2054.049584,
+          "timeDifference": 14.981416999999738
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2039.07,
+          "expectedEnd": 2146.46,
+          "actualStart": 2055.549584,
+          "actualEnd": 2162.936001,
+          "timeDifference": 16.47958399999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.608542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a Changing World: Traditions, Family, and Early Doubts"
+        },
+        {
+          "startTime": 355.125459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a Changing World: Traditions, Family, and Early Doubts and Chapter 2 Schooling, Friendship, and the First Taste of Rebellion"
+        },
+        {
+          "startTime": 580.681167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Schooling, Friendship, and the First Taste of Rebellion and Chapter 3 The Outbreak of War: Patriotism, Fear, and the Rush to Enlist"
+        },
+        {
+          "startTime": 828.060917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Outbreak of War: Patriotism, Fear, and the Rush to Enlist and Chapter 4 Life in the Trenches: Horror, Camaraderie, and the Loss of Innocence"
+        },
+        {
+          "startTime": 1035.60025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Life in the Trenches: Horror, Camaraderie, and the Loss of Innocence and Chapter 5 Wounds, Recovery, and the Struggle to Make Sense of Trauma"
+        },
+        {
+          "startTime": 1198.4971249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Wounds, Recovery, and the Struggle to Make Sense of Trauma and Chapter 6 The War’s End: Disbelief, Dislocation, and the Search for Home"
+        },
+        {
+          "startTime": 1407.4349169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War’s End: Disbelief, Dislocation, and the Search for Home and Chapter 7 The Lost Generation: Disillusionment, Art, and the Search for Voice"
+        },
+        {
+          "startTime": 1567.8851249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Lost Generation: Disillusionment, Art, and the Search for Voice and Chapter 8 Love, Loss, and the Fragility of Connection"
+        },
+        {
+          "startTime": 1730.8541669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Love, Loss, and the Fragility of Connection and Chapter 9 The Long Shadow: Memory, Guilt, and the Weight of the Past"
+        },
+        {
+          "startTime": 1916.6314169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Long Shadow: Memory, Guilt, and the Weight of the Past and Chapter 10 Rebuilding and Renewal: Hope, Change, and the Possibility of New Beginnings"
+        },
+        {
+          "startTime": 2054.049584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rebuilding and Renewal: Hope, Change, and the Possibility of New Beginnings and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2405",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:17:01.676Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

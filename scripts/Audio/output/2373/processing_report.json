@@ -1,0 +1,432 @@
+{
+  "bookId": "2373",
+  "timestamp": "2025-07-10T19:13:12.140Z",
+  "success": false,
+  "processingTime": -1752174443479,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4497,
+    "totalAudioFiles": 11,
+    "totalDuration": 2269.162168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2269.162168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2373/optimized_text/2373.md",
+    "fileSize": 733,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2373.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2373/metadata/2373_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2269.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2373/metadata/2373_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2373/metadata/2373_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2373/2373_complete.wav",
+    "duration": 2269.162167,
+    "fileSize": 108919862,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2373/introduction.wav",
+          "duration": 104.06375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.06375,
+          "startTime": 0,
+          "endTime": 104.06375
+        },
+        {
+          "path": "Audio/output/2373/chapter_01.wav",
+          "duration": 268.034,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Augustus Inherited: Chaos, Ambition, and the End of the Republic",
+          "actualDuration": 268.034,
+          "startTime": 105.56375,
+          "endTime": 373.59775
+        },
+        {
+          "path": "Audio/output/2373/chapter_02.wav",
+          "duration": 297.956125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rising to Power: War, Alliances, and the Art of Survival",
+          "actualDuration": 297.956125,
+          "startTime": 375.09775,
+          "endTime": 673.0538750000001
+        },
+        {
+          "path": "Audio/output/2373/chapter_03.wav",
+          "duration": 235.403417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a New Order: Balancing Tradition and Innovation",
+          "actualDuration": 235.403417,
+          "startTime": 674.5538750000001,
+          "endTime": 909.957292
+        },
+        {
+          "path": "Audio/output/2373/chapter_04.wav",
+          "duration": 223.643417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Power, Family, and the Limits of Control",
+          "actualDuration": 223.643417,
+          "startTime": 911.457292,
+          "endTime": 1135.100709
+        },
+        {
+          "path": "Audio/output/2373/chapter_05.wav",
+          "duration": 245.901917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Long Reign: Peace, Prosperity, and the Price of Stability",
+          "actualDuration": 245.901917,
+          "startTime": 1136.600709,
+          "endTime": 1382.502626
+        },
+        {
+          "path": "Audio/output/2373/chapter_06.wav",
+          "duration": 220.488917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Edges of Empire: Expansion, Resistance, and the Limits of Power",
+          "actualDuration": 220.488917,
+          "startTime": 1384.002626,
+          "endTime": 1604.4915429999999
+        },
+        {
+          "path": "Audio/output/2373/chapter_07.wav",
+          "duration": 157.992208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Burden of Succession: Hope, Loss, and the Search for an Heir",
+          "actualDuration": 157.992208,
+          "startTime": 1605.9915429999999,
+          "endTime": 1763.9837509999998
+        },
+        {
+          "path": "Audio/output/2373/chapter_08.wav",
+          "duration": 187.976125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Years: Reflection, Legacy, and the Weight of History",
+          "actualDuration": 187.976125,
+          "startTime": 1765.4837509999998,
+          "endTime": 1953.4598759999997
+        },
+        {
+          "path": "Audio/output/2373/chapter_09.wav",
+          "duration": 178.747125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Empire After Augustus: Memory, Myth, and the Shape of the Future",
+          "actualDuration": 178.747125,
+          "startTime": 1954.9598759999997,
+          "endTime": 2133.7070009999998
+        },
+        {
+          "path": "Audio/output/2373/conclusion.wav",
+          "duration": 148.955167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 148.955167,
+          "startTime": 2135.2070009999998,
+          "endTime": 2284.162168
+        }
+      ],
+      "totalDuration": 2284.162168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.06,
+          "actualStart": 0,
+          "actualEnd": 104.06375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Augustus Inherited: Chaos, Ambition, and the End of the Republic",
+          "expectedStart": 104.06,
+          "expectedEnd": 372.09,
+          "actualStart": 105.56375,
+          "actualEnd": 373.59775,
+          "timeDifference": 1.5037499999999966
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rising to Power: War, Alliances, and the Art of Survival",
+          "expectedStart": 372.09,
+          "expectedEnd": 670.05,
+          "actualStart": 375.09775,
+          "actualEnd": 673.0538750000001,
+          "timeDifference": 3.007750000000044
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a New Order: Balancing Tradition and Innovation",
+          "expectedStart": 670.05,
+          "expectedEnd": 905.45,
+          "actualStart": 674.5538750000001,
+          "actualEnd": 909.957292,
+          "timeDifference": 4.503875000000107
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Power, Family, and the Limits of Control",
+          "expectedStart": 905.45,
+          "expectedEnd": 1129.09,
+          "actualStart": 911.457292,
+          "actualEnd": 1135.100709,
+          "timeDifference": 6.007292000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Long Reign: Peace, Prosperity, and the Price of Stability",
+          "expectedStart": 1129.09,
+          "expectedEnd": 1374.99,
+          "actualStart": 1136.600709,
+          "actualEnd": 1382.502626,
+          "timeDifference": 7.5107090000001335
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Edges of Empire: Expansion, Resistance, and the Limits of Power",
+          "expectedStart": 1374.99,
+          "expectedEnd": 1595.48,
+          "actualStart": 1384.002626,
+          "actualEnd": 1604.4915429999999,
+          "timeDifference": 9.012625999999955
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Burden of Succession: Hope, Loss, and the Search for an Heir",
+          "expectedStart": 1595.48,
+          "expectedEnd": 1753.47,
+          "actualStart": 1605.9915429999999,
+          "actualEnd": 1763.9837509999998,
+          "timeDifference": 10.511542999999847
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Years: Reflection, Legacy, and the Weight of History",
+          "expectedStart": 1753.47,
+          "expectedEnd": 1941.45,
+          "actualStart": 1765.4837509999998,
+          "actualEnd": 1953.4598759999997,
+          "timeDifference": 12.01375099999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Empire After Augustus: Memory, Myth, and the Shape of the Future",
+          "expectedStart": 1941.45,
+          "expectedEnd": 2120.2,
+          "actualStart": 1954.9598759999997,
+          "actualEnd": 2133.7070009999998,
+          "timeDifference": 13.509875999999622
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2120.2,
+          "expectedEnd": 2269.16,
+          "actualStart": 2135.2070009999998,
+          "actualEnd": 2284.162168,
+          "timeDifference": 15.007000999999946
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.06375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Augustus Inherited: Chaos, Ambition, and the End of the Republic"
+        },
+        {
+          "startTime": 373.59775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Augustus Inherited: Chaos, Ambition, and the End of the Republic and Chapter 2 Rising to Power: War, Alliances, and the Art of Survival"
+        },
+        {
+          "startTime": 673.0538750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rising to Power: War, Alliances, and the Art of Survival and Chapter 3 Building a New Order: Balancing Tradition and Innovation"
+        },
+        {
+          "startTime": 909.957292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a New Order: Balancing Tradition and Innovation and Chapter 4 Power, Family, and the Limits of Control"
+        },
+        {
+          "startTime": 1135.100709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Power, Family, and the Limits of Control and Chapter 5 The Long Reign: Peace, Prosperity, and the Price of Stability"
+        },
+        {
+          "startTime": 1382.502626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Long Reign: Peace, Prosperity, and the Price of Stability and Chapter 6 The Edges of Empire: Expansion, Resistance, and the Limits of Power"
+        },
+        {
+          "startTime": 1604.4915429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Edges of Empire: Expansion, Resistance, and the Limits of Power and Chapter 7 The Burden of Succession: Hope, Loss, and the Search for an Heir"
+        },
+        {
+          "startTime": 1763.9837509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Burden of Succession: Hope, Loss, and the Search for an Heir and Chapter 8 The Final Years: Reflection, Legacy, and the Weight of History"
+        },
+        {
+          "startTime": 1953.4598759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Years: Reflection, Legacy, and the Weight of History and Chapter 9 The Empire After Augustus: Memory, Myth, and the Shape of the Future"
+        },
+        {
+          "startTime": 2133.7070009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Empire After Augustus: Memory, Myth, and the Shape of the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2373",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:07:24.054Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

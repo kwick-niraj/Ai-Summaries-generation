@@ -1,0 +1,456 @@
+{
+  "bookId": "2362",
+  "timestamp": "2025-07-10T18:18:14.370Z",
+  "success": false,
+  "processingTime": -1752171196195,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4231,
+    "totalAudioFiles": 12,
+    "totalDuration": 1961.293208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1961.293208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2362/optimized_text/2362.md",
+    "fileSize": 628,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2362.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2362/metadata/2362_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1961.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2362/metadata/2362_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2362/metadata/2362_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2362/2362_complete.wav",
+    "duration": 1961.293208,
+    "fileSize": 94142152,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2362/introduction.wav",
+          "duration": 94.155625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.155625,
+          "startTime": 0,
+          "endTime": 94.155625
+        },
+        {
+          "path": "Audio/output/2362/chapter_01.wav",
+          "duration": 177.267958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Myths Still Matter in Everyday Life",
+          "actualDuration": 177.267958,
+          "startTime": 95.655625,
+          "endTime": 272.923583
+        },
+        {
+          "path": "Audio/output/2362/chapter_02.wav",
+          "duration": 198.906583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Personal Path Through Ancient Patterns",
+          "actualDuration": 198.906583,
+          "startTime": 274.423583,
+          "endTime": 473.330166
+        },
+        {
+          "path": "Audio/output/2362/chapter_03.wav",
+          "duration": 191.956583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Archetypes and Symbols as Guides for Inner Growth",
+          "actualDuration": 191.956583,
+          "startTime": 474.830166,
+          "endTime": 666.786749
+        },
+        {
+          "path": "Audio/output/2362/chapter_04.wav",
+          "duration": 193.637708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hero’s Journey as a Blueprint for Change",
+          "actualDuration": 193.637708,
+          "startTime": 668.286749,
+          "endTime": 861.924457
+        },
+        {
+          "path": "Audio/output/2362/chapter_05.wav",
+          "duration": 197.443542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating the Unconscious for True Transformation",
+          "actualDuration": 197.443542,
+          "startTime": 863.424457,
+          "endTime": 1060.867999
+        },
+        {
+          "path": "Audio/output/2362/chapter_06.wav",
+          "duration": 157.341167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rituals: Marking the Turning Points of Life",
+          "actualDuration": 157.341167,
+          "startTime": 1062.367999,
+          "endTime": 1219.709166
+        },
+        {
+          "path": "Audio/output/2362/chapter_07.wav",
+          "duration": 164.369792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Major Life Transitions",
+          "actualDuration": 164.369792,
+          "startTime": 1221.209166,
+          "endTime": 1385.578958
+        },
+        {
+          "path": "Audio/output/2362/chapter_08.wav",
+          "duration": 170.882042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Search for Meaning",
+          "actualDuration": 170.882042,
+          "startTime": 1387.078958,
+          "endTime": 1557.961
+        },
+        {
+          "path": "Audio/output/2362/chapter_09.wav",
+          "duration": 147.656458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Community, Connection, and the Shared Story",
+          "actualDuration": 147.656458,
+          "startTime": 1559.461,
+          "endTime": 1707.117458
+        },
+        {
+          "path": "Audio/output/2362/chapter_10.wav",
+          "duration": 146.975208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Mythically: Bringing the Wisdom Home",
+          "actualDuration": 146.975208,
+          "startTime": 1708.617458,
+          "endTime": 1855.592666
+        },
+        {
+          "path": "Audio/output/2362/conclusion.wav",
+          "duration": 120.700542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.700542,
+          "startTime": 1857.092666,
+          "endTime": 1977.793208
+        }
+      ],
+      "totalDuration": 1977.793208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.16,
+          "actualStart": 0,
+          "actualEnd": 94.155625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Myths Still Matter in Everyday Life",
+          "expectedStart": 94.16,
+          "expectedEnd": 271.43,
+          "actualStart": 95.655625,
+          "actualEnd": 272.923583,
+          "timeDifference": 1.495625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Personal Path Through Ancient Patterns",
+          "expectedStart": 271.43,
+          "expectedEnd": 470.34,
+          "actualStart": 274.423583,
+          "actualEnd": 473.330166,
+          "timeDifference": 2.993583000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Archetypes and Symbols as Guides for Inner Growth",
+          "expectedStart": 470.34,
+          "expectedEnd": 662.3,
+          "actualStart": 474.830166,
+          "actualEnd": 666.786749,
+          "timeDifference": 4.490166000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hero’s Journey as a Blueprint for Change",
+          "expectedStart": 662.3,
+          "expectedEnd": 855.94,
+          "actualStart": 668.286749,
+          "actualEnd": 861.924457,
+          "timeDifference": 5.986749000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating the Unconscious for True Transformation",
+          "expectedStart": 855.94,
+          "expectedEnd": 1053.38,
+          "actualStart": 863.424457,
+          "actualEnd": 1060.867999,
+          "timeDifference": 7.484456999999907
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rituals: Marking the Turning Points of Life",
+          "expectedStart": 1053.38,
+          "expectedEnd": 1210.72,
+          "actualStart": 1062.367999,
+          "actualEnd": 1219.709166,
+          "timeDifference": 8.987998999999945
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Major Life Transitions",
+          "expectedStart": 1210.72,
+          "expectedEnd": 1375.09,
+          "actualStart": 1221.209166,
+          "actualEnd": 1385.578958,
+          "timeDifference": 10.489166000000068
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Search for Meaning",
+          "expectedStart": 1375.09,
+          "expectedEnd": 1545.97,
+          "actualStart": 1387.078958,
+          "actualEnd": 1557.961,
+          "timeDifference": 11.988958000000139
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Community, Connection, and the Shared Story",
+          "expectedStart": 1545.97,
+          "expectedEnd": 1693.63,
+          "actualStart": 1559.461,
+          "actualEnd": 1707.117458,
+          "timeDifference": 13.490999999999985
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Mythically: Bringing the Wisdom Home",
+          "expectedStart": 1693.63,
+          "expectedEnd": 1840.61,
+          "actualStart": 1708.617458,
+          "actualEnd": 1855.592666,
+          "timeDifference": 14.987457999999833
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1840.61,
+          "expectedEnd": 1961.31,
+          "actualStart": 1857.092666,
+          "actualEnd": 1977.793208,
+          "timeDifference": 16.48266600000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.155625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Myths Still Matter in Everyday Life"
+        },
+        {
+          "startTime": 272.923583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Myths Still Matter in Everyday Life and Chapter 2 Finding a Personal Path Through Ancient Patterns"
+        },
+        {
+          "startTime": 473.330166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Personal Path Through Ancient Patterns and Chapter 3 Archetypes and Symbols as Guides for Inner Growth"
+        },
+        {
+          "startTime": 666.786749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Archetypes and Symbols as Guides for Inner Growth and Chapter 4 The Hero’s Journey as a Blueprint for Change"
+        },
+        {
+          "startTime": 861.924457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hero’s Journey as a Blueprint for Change and Chapter 5 Integrating the Unconscious for True Transformation"
+        },
+        {
+          "startTime": 1060.867999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating the Unconscious for True Transformation and Chapter 6 Rituals: Marking the Turning Points of Life"
+        },
+        {
+          "startTime": 1219.709166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rituals: Marking the Turning Points of Life and Chapter 7 Navigating Major Life Transitions"
+        },
+        {
+          "startTime": 1385.578958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Major Life Transitions and Chapter 8 The Ongoing Search for Meaning"
+        },
+        {
+          "startTime": 1557.961,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Search for Meaning and Chapter 9 Community, Connection, and the Shared Story"
+        },
+        {
+          "startTime": 1707.117458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Community, Connection, and the Shared Story and Chapter 10 Living Mythically: Bringing the Wisdom Home"
+        },
+        {
+          "startTime": 1855.592666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Mythically: Bringing the Wisdom Home and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2362",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:13:17.668Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

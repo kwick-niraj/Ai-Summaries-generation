@@ -1,0 +1,456 @@
+{
+  "bookId": "2531",
+  "timestamp": "2025-07-11T03:27:17.316Z",
+  "success": false,
+  "processingTime": -1752204006826,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4816,
+    "totalAudioFiles": 12,
+    "totalDuration": 2102.0317929999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2102.0317929999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2531/optimized_text/2531.md",
+    "fileSize": 761,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2531.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2531/metadata/2531_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2102.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2531/metadata/2531_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2531/metadata/2531_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2531/2531_complete.wav",
+    "duration": 2102.031792,
+    "fileSize": 100897604,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2531/introduction.wav",
+          "duration": 93.946833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.946833,
+          "startTime": 0,
+          "endTime": 93.946833
+        },
+        {
+          "path": "Audio/output/2531/chapter_01.wav",
+          "duration": 241.64375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Life Shaped by Conviction and Curiosity",
+          "actualDuration": 241.64375,
+          "startTime": 95.446833,
+          "endTime": 337.09058300000004
+        },
+        {
+          "path": "Audio/output/2531/chapter_02.wav",
+          "duration": 242.246167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 From Gridiron to Battlefield—A Choice That Stunned a Nation",
+          "actualDuration": 242.246167,
+          "startTime": 338.59058300000004,
+          "endTime": 580.83675
+        },
+        {
+          "path": "Audio/output/2531/chapter_03.wav",
+          "duration": 224.191708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Fog of War and the Search for Meaning",
+          "actualDuration": 224.191708,
+          "startTime": 582.33675,
+          "endTime": 806.528458
+        },
+        {
+          "path": "Audio/output/2531/chapter_04.wav",
+          "duration": 177.787417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Tragedy, Truth, and the Machinery of Myth",
+          "actualDuration": 177.787417,
+          "startTime": 808.028458,
+          "endTime": 985.815875
+        },
+        {
+          "path": "Audio/output/2531/chapter_05.wav",
+          "duration": 176.665,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cost of Patriotism and the Search for Authentic Heroism",
+          "actualDuration": 176.665,
+          "startTime": 987.315875,
+          "endTime": 1163.980875
+        },
+        {
+          "path": "Audio/output/2531/chapter_06.wav",
+          "duration": 177.498625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples Through the Ranks—The Aftermath in Uniform",
+          "actualDuration": 177.498625,
+          "startTime": 1165.480875,
+          "endTime": 1342.9795
+        },
+        {
+          "path": "Audio/output/2531/chapter_07.wav",
+          "duration": 198.061667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Public Reckoning—Media, Memory, and the Battle for Truth",
+          "actualDuration": 198.061667,
+          "startTime": 1344.4795,
+          "endTime": 1542.5411669999999
+        },
+        {
+          "path": "Audio/output/2531/chapter_08.wav",
+          "duration": 157.806042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow—Grief, Healing, and the Work of Remembrance",
+          "actualDuration": 157.806042,
+          "startTime": 1544.0411669999999,
+          "endTime": 1701.8472089999998
+        },
+        {
+          "path": "Audio/output/2531/chapter_09.wav",
+          "duration": 152.985792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Leadership—Integrity, Accountability, and the Courage to Change",
+          "actualDuration": 152.985792,
+          "startTime": 1703.3472089999998,
+          "endTime": 1856.3330009999997
+        },
+        {
+          "path": "Audio/output/2531/chapter_10.wav",
+          "duration": 134.312792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Legacy—Conviction, Complexity, and the Call to Action",
+          "actualDuration": 134.312792,
+          "startTime": 1857.8330009999997,
+          "endTime": 1992.1457929999997
+        },
+        {
+          "path": "Audio/output/2531/conclusion.wav",
+          "duration": 124.886,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.886,
+          "startTime": 1993.6457929999997,
+          "endTime": 2118.5317929999997
+        }
+      ],
+      "totalDuration": 2118.5317929999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.95,
+          "actualStart": 0,
+          "actualEnd": 93.946833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Life Shaped by Conviction and Curiosity",
+          "expectedStart": 93.95,
+          "expectedEnd": 335.59,
+          "actualStart": 95.446833,
+          "actualEnd": 337.09058300000004,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 From Gridiron to Battlefield—A Choice That Stunned a Nation",
+          "expectedStart": 335.59,
+          "expectedEnd": 577.84,
+          "actualStart": 338.59058300000004,
+          "actualEnd": 580.83675,
+          "timeDifference": 3.000583000000063
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Fog of War and the Search for Meaning",
+          "expectedStart": 577.84,
+          "expectedEnd": 802.03,
+          "actualStart": 582.33675,
+          "actualEnd": 806.528458,
+          "timeDifference": 4.49675000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Tragedy, Truth, and the Machinery of Myth",
+          "expectedStart": 802.03,
+          "expectedEnd": 979.82,
+          "actualStart": 808.028458,
+          "actualEnd": 985.815875,
+          "timeDifference": 5.998458000000028
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cost of Patriotism and the Search for Authentic Heroism",
+          "expectedStart": 979.82,
+          "expectedEnd": 1156.49,
+          "actualStart": 987.315875,
+          "actualEnd": 1163.980875,
+          "timeDifference": 7.495874999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples Through the Ranks—The Aftermath in Uniform",
+          "expectedStart": 1156.49,
+          "expectedEnd": 1333.99,
+          "actualStart": 1165.480875,
+          "actualEnd": 1342.9795,
+          "timeDifference": 8.99087499999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Public Reckoning—Media, Memory, and the Battle for Truth",
+          "expectedStart": 1333.99,
+          "expectedEnd": 1532.05,
+          "actualStart": 1344.4795,
+          "actualEnd": 1542.5411669999999,
+          "timeDifference": 10.489499999999907
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow—Grief, Healing, and the Work of Remembrance",
+          "expectedStart": 1532.05,
+          "expectedEnd": 1689.86,
+          "actualStart": 1544.0411669999999,
+          "actualEnd": 1701.8472089999998,
+          "timeDifference": 11.991166999999905
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Leadership—Integrity, Accountability, and the Courage to Change",
+          "expectedStart": 1689.86,
+          "expectedEnd": 1842.85,
+          "actualStart": 1703.3472089999998,
+          "actualEnd": 1856.3330009999997,
+          "timeDifference": 13.487208999999893
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Legacy—Conviction, Complexity, and the Call to Action",
+          "expectedStart": 1842.85,
+          "expectedEnd": 1977.16,
+          "actualStart": 1857.8330009999997,
+          "actualEnd": 1992.1457929999997,
+          "timeDifference": 14.983000999999831
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1977.16,
+          "expectedEnd": 2102.05,
+          "actualStart": 1993.6457929999997,
+          "actualEnd": 2118.5317929999997,
+          "timeDifference": 16.485792999999603
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.946833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Life Shaped by Conviction and Curiosity"
+        },
+        {
+          "startTime": 337.09058300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Life Shaped by Conviction and Curiosity and Chapter 2 From Gridiron to Battlefield—A Choice That Stunned a Nation"
+        },
+        {
+          "startTime": 580.83675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 From Gridiron to Battlefield—A Choice That Stunned a Nation and Chapter 3 The Fog of War and the Search for Meaning"
+        },
+        {
+          "startTime": 806.528458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Fog of War and the Search for Meaning and Chapter 4 Tragedy, Truth, and the Machinery of Myth"
+        },
+        {
+          "startTime": 985.815875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Tragedy, Truth, and the Machinery of Myth and Chapter 5 The Cost of Patriotism and the Search for Authentic Heroism"
+        },
+        {
+          "startTime": 1163.980875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cost of Patriotism and the Search for Authentic Heroism and Chapter 6 Ripples Through the Ranks—The Aftermath in Uniform"
+        },
+        {
+          "startTime": 1342.9795,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples Through the Ranks—The Aftermath in Uniform and Chapter 7 The Public Reckoning—Media, Memory, and the Battle for Truth"
+        },
+        {
+          "startTime": 1542.5411669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Public Reckoning—Media, Memory, and the Battle for Truth and Chapter 8 The Long Shadow—Grief, Healing, and the Work of Remembrance"
+        },
+        {
+          "startTime": 1701.8472089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow—Grief, Healing, and the Work of Remembrance and Chapter 9 Lessons in Leadership—Integrity, Accountability, and the Courage to Change"
+        },
+        {
+          "startTime": 1856.3330009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Leadership—Integrity, Accountability, and the Courage to Change and Chapter 10 Enduring Legacy—Conviction, Complexity, and the Call to Action"
+        },
+        {
+          "startTime": 1992.1457929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Legacy—Conviction, Complexity, and the Call to Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2531",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:20:07.344Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

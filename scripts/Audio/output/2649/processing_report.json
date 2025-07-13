@@ -1,0 +1,576 @@
+{
+  "bookId": "2649",
+  "timestamp": "2025-07-12T08:16:14.398Z",
+  "success": false,
+  "processingTime": -1752307741805,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4315,
+    "totalAudioFiles": 17,
+    "totalDuration": 2479.3341659999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2479.3341659999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2649/optimized_text/2649.md",
+    "fileSize": 1085,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "2649.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2649/metadata/2649_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2479.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2649/metadata/2649_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2649/metadata/2649_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2649/2649_complete.wav",
+    "duration": 2479.334167,
+    "fileSize": 119008118,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2649/introduction.wav",
+          "duration": 87.133625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.133625,
+          "startTime": 0,
+          "endTime": 87.133625
+        },
+        {
+          "path": "Audio/output/2649/chapter_01.wav",
+          "duration": 205.825625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Core Differences in Emotional Needs and Communication",
+          "actualDuration": 205.825625,
+          "startTime": 88.633625,
+          "endTime": 294.45925
+        },
+        {
+          "path": "Audio/output/2649/chapter_02.wav",
+          "duration": 170.450583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Men and Women Approach Problems and Stress",
+          "actualDuration": 170.450583,
+          "startTime": 295.95925,
+          "endTime": 466.409833
+        },
+        {
+          "path": "Audio/output/2649/chapter_03.wav",
+          "duration": 212.201417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Expressing Needs Without Criticism and Listening With Empathy",
+          "actualDuration": 212.201417,
+          "startTime": 467.909833,
+          "endTime": 680.1112499999999
+        },
+        {
+          "path": "Audio/output/2649/chapter_04.wav",
+          "duration": 188.267042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Conflict and Reconnecting After Disconnection",
+          "actualDuration": 188.267042,
+          "startTime": 681.6112499999999,
+          "endTime": 869.8782919999999
+        },
+        {
+          "path": "Audio/output/2649/chapter_05.wav",
+          "duration": 172.516917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Empathy, Patience, and Lasting Partnership",
+          "actualDuration": 172.516917,
+          "startTime": 871.3782919999999,
+          "endTime": 1043.8952089999998
+        },
+        {
+          "path": "Audio/output/2649/chapter_06.wav",
+          "duration": 163.243208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Giving and Receiving Support",
+          "actualDuration": 163.243208,
+          "startTime": 1045.3952089999998,
+          "endTime": 1208.638417
+        },
+        {
+          "path": "Audio/output/2649/chapter_07.wav",
+          "duration": 141.000917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Expectations and Avoiding the Trap of Resentment",
+          "actualDuration": 141.000917,
+          "startTime": 1210.138417,
+          "endTime": 1351.139334
+        },
+        {
+          "path": "Audio/output/2649/chapter_08.wav",
+          "duration": 146.844208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Appreciation and Positive Reinforcement",
+          "actualDuration": 146.844208,
+          "startTime": 1352.639334,
+          "endTime": 1499.483542
+        },
+        {
+          "path": "Audio/output/2649/chapter_09.wav",
+          "duration": 159.421708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Differences in Intimacy and Affection",
+          "actualDuration": 159.421708,
+          "startTime": 1500.983542,
+          "endTime": 1660.40525
+        },
+        {
+          "path": "Audio/output/2649/chapter_10.wav",
+          "duration": 119.950375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Repairing After Hurt and Rebuilding Trust",
+          "actualDuration": 119.950375,
+          "startTime": 1661.90525,
+          "endTime": 1781.855625
+        },
+        {
+          "path": "Audio/output/2649/chapter_11.wav",
+          "duration": 104.755875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Growing Together—Supporting Each Other’s Individuality",
+          "actualDuration": 104.755875,
+          "startTime": 1783.355625,
+          "endTime": 1888.1115
+        },
+        {
+          "path": "Audio/output/2649/chapter_12.wav",
+          "duration": 117.789958,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Weathering Life’s Transitions Together",
+          "actualDuration": 117.789958,
+          "startTime": 1889.6115,
+          "endTime": 2007.401458
+        },
+        {
+          "path": "Audio/output/2649/chapter_13.wav",
+          "duration": 136.65,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Advanced Communication—Navigating Difficult Conversations",
+          "actualDuration": 136.65,
+          "startTime": 2008.901458,
+          "endTime": 2145.551458
+        },
+        {
+          "path": "Audio/output/2649/chapter_14.wav",
+          "duration": 118.69975,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Preventing Burnout and Keeping the Relationship Fresh",
+          "actualDuration": 118.69975,
+          "startTime": 2147.051458,
+          "endTime": 2265.7512079999997
+        },
+        {
+          "path": "Audio/output/2649/chapter_15.wav",
+          "duration": 103.654583,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 When to Seek Help—Recognizing the Limits of Self-Sufficiency",
+          "actualDuration": 103.654583,
+          "startTime": 2267.2512079999997,
+          "endTime": 2370.9057909999997
+        },
+        {
+          "path": "Audio/output/2649/conclusion.wav",
+          "duration": 130.928375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.928375,
+          "startTime": 2372.4057909999997,
+          "endTime": 2503.3341659999996
+        }
+      ],
+      "totalDuration": 2503.3341659999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.13,
+          "actualStart": 0,
+          "actualEnd": 87.133625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Core Differences in Emotional Needs and Communication",
+          "expectedStart": 87.13,
+          "expectedEnd": 292.96,
+          "actualStart": 88.633625,
+          "actualEnd": 294.45925,
+          "timeDifference": 1.5036249999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Men and Women Approach Problems and Stress",
+          "expectedStart": 292.96,
+          "expectedEnd": 463.41,
+          "actualStart": 295.95925,
+          "actualEnd": 466.409833,
+          "timeDifference": 2.9992500000000177
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Expressing Needs Without Criticism and Listening With Empathy",
+          "expectedStart": 463.41,
+          "expectedEnd": 675.61,
+          "actualStart": 467.909833,
+          "actualEnd": 680.1112499999999,
+          "timeDifference": 4.499832999999967
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Conflict and Reconnecting After Disconnection",
+          "expectedStart": 675.61,
+          "expectedEnd": 863.88,
+          "actualStart": 681.6112499999999,
+          "actualEnd": 869.8782919999999,
+          "timeDifference": 6.001249999999914
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Empathy, Patience, and Lasting Partnership",
+          "expectedStart": 863.88,
+          "expectedEnd": 1036.4,
+          "actualStart": 871.3782919999999,
+          "actualEnd": 1043.8952089999998,
+          "timeDifference": 7.4982919999998785
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Giving and Receiving Support",
+          "expectedStart": 1036.4,
+          "expectedEnd": 1199.64,
+          "actualStart": 1045.3952089999998,
+          "actualEnd": 1208.638417,
+          "timeDifference": 8.995208999999704
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Expectations and Avoiding the Trap of Resentment",
+          "expectedStart": 1199.64,
+          "expectedEnd": 1340.64,
+          "actualStart": 1210.138417,
+          "actualEnd": 1351.139334,
+          "timeDifference": 10.49841699999979
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Appreciation and Positive Reinforcement",
+          "expectedStart": 1340.64,
+          "expectedEnd": 1487.48,
+          "actualStart": 1352.639334,
+          "actualEnd": 1499.483542,
+          "timeDifference": 11.999333999999862
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Differences in Intimacy and Affection",
+          "expectedStart": 1487.48,
+          "expectedEnd": 1646.9,
+          "actualStart": 1500.983542,
+          "actualEnd": 1660.40525,
+          "timeDifference": 13.503541999999925
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Repairing After Hurt and Rebuilding Trust",
+          "expectedStart": 1646.9,
+          "expectedEnd": 1766.85,
+          "actualStart": 1661.90525,
+          "actualEnd": 1781.855625,
+          "timeDifference": 15.005249999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Growing Together—Supporting Each Other’s Individuality",
+          "expectedStart": 1766.85,
+          "expectedEnd": 1871.61,
+          "actualStart": 1783.355625,
+          "actualEnd": 1888.1115,
+          "timeDifference": 16.50562500000001
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Weathering Life’s Transitions Together",
+          "expectedStart": 1871.61,
+          "expectedEnd": 1989.4,
+          "actualStart": 1889.6115,
+          "actualEnd": 2007.401458,
+          "timeDifference": 18.001500000000078
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Advanced Communication—Navigating Difficult Conversations",
+          "expectedStart": 1989.4,
+          "expectedEnd": 2126.05,
+          "actualStart": 2008.901458,
+          "actualEnd": 2145.551458,
+          "timeDifference": 19.501457999999957
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Preventing Burnout and Keeping the Relationship Fresh",
+          "expectedStart": 2126.05,
+          "expectedEnd": 2244.75,
+          "actualStart": 2147.051458,
+          "actualEnd": 2265.7512079999997,
+          "timeDifference": 21.00145799999973
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 When to Seek Help—Recognizing the Limits of Self-Sufficiency",
+          "expectedStart": 2244.75,
+          "expectedEnd": 2348.4,
+          "actualStart": 2267.2512079999997,
+          "actualEnd": 2370.9057909999997,
+          "timeDifference": 22.50120799999968
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2348.4,
+          "expectedEnd": 2479.33,
+          "actualStart": 2372.4057909999997,
+          "actualEnd": 2503.3341659999996,
+          "timeDifference": 24.00579099999959
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.133625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Core Differences in Emotional Needs and Communication"
+        },
+        {
+          "startTime": 294.45925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Core Differences in Emotional Needs and Communication and Chapter 2 How Men and Women Approach Problems and Stress"
+        },
+        {
+          "startTime": 466.409833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Men and Women Approach Problems and Stress and Chapter 3 Expressing Needs Without Criticism and Listening With Empathy"
+        },
+        {
+          "startTime": 680.1112499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Expressing Needs Without Criticism and Listening With Empathy and Chapter 4 Navigating Conflict and Reconnecting After Disconnection"
+        },
+        {
+          "startTime": 869.8782919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Conflict and Reconnecting After Disconnection and Chapter 5 Building Empathy, Patience, and Lasting Partnership"
+        },
+        {
+          "startTime": 1043.8952089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Empathy, Patience, and Lasting Partnership and Chapter 6 The Art of Giving and Receiving Support"
+        },
+        {
+          "startTime": 1208.638417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Giving and Receiving Support and Chapter 7 Managing Expectations and Avoiding the Trap of Resentment"
+        },
+        {
+          "startTime": 1351.139334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Expectations and Avoiding the Trap of Resentment and Chapter 8 The Power of Appreciation and Positive Reinforcement"
+        },
+        {
+          "startTime": 1499.483542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Appreciation and Positive Reinforcement and Chapter 9 Navigating Differences in Intimacy and Affection"
+        },
+        {
+          "startTime": 1660.40525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Differences in Intimacy and Affection and Chapter 10 Repairing After Hurt and Rebuilding Trust"
+        },
+        {
+          "startTime": 1781.855625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Repairing After Hurt and Rebuilding Trust and Chapter 11 Growing Together—Supporting Each Other’s Individuality"
+        },
+        {
+          "startTime": 1888.1115,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Growing Together—Supporting Each Other’s Individuality and Chapter 12 Weathering Life’s Transitions Together"
+        },
+        {
+          "startTime": 2007.401458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Weathering Life’s Transitions Together and Chapter 13 Advanced Communication—Navigating Difficult Conversations"
+        },
+        {
+          "startTime": 2145.551458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Advanced Communication—Navigating Difficult Conversations and Chapter 14 Preventing Burnout and Keeping the Relationship Fresh"
+        },
+        {
+          "startTime": 2265.7512079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Preventing Burnout and Keeping the Relationship Fresh and Chapter 15 When to Seek Help—Recognizing the Limits of Self-Sufficiency"
+        },
+        {
+          "startTime": 2370.9057909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 When to Seek Help—Recognizing the Limits of Self-Sufficiency and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2649",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:09:02.973Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

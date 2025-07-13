@@ -1,0 +1,456 @@
+{
+  "bookId": "2395",
+  "timestamp": "2025-07-10T20:40:06.495Z",
+  "success": false,
+  "processingTime": -1752179578074,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4294,
+    "totalAudioFiles": 12,
+    "totalDuration": 2296.152416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2296.152416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2395/optimized_text/2395.md",
+    "fileSize": 847,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2395.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2395/metadata/2395_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2296.15,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2395/metadata/2395_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2395/metadata/2395_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2395/2395_complete.wav",
+    "duration": 2296.152417,
+    "fileSize": 110215394,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2395/introduction.wav",
+          "duration": 114.649333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 114.649333,
+          "startTime": 0,
+          "endTime": 114.649333
+        },
+        {
+          "path": "Audio/output/2395/chapter_01.wav",
+          "duration": 209.770708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Sales: From Lone Wolf to Collaborative Strategist",
+          "actualDuration": 209.770708,
+          "startTime": 116.149333,
+          "endTime": 325.920041
+        },
+        {
+          "path": "Audio/output/2395/chapter_02.wav",
+          "duration": 225.121458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mapping the Decision Landscape: Identifying Key Stakeholders",
+          "actualDuration": 225.121458,
+          "startTime": 327.420041,
+          "endTime": 552.541499
+        },
+        {
+          "path": "Audio/output/2395/chapter_03.wav",
+          "duration": 238.499917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Understanding Motivations: What Drives Each Stakeholder",
+          "actualDuration": 238.499917,
+          "startTime": 554.041499,
+          "endTime": 792.541416
+        },
+        {
+          "path": "Audio/output/2395/chapter_04.wav",
+          "duration": 230.533,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Managing Change and Resistance: Navigating the Dynamics of Complex Sales",
+          "actualDuration": 230.533,
+          "startTime": 794.041416,
+          "endTime": 1024.574416
+        },
+        {
+          "path": "Audio/output/2395/chapter_05.wav",
+          "duration": 224.4475,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building a Repeatable System: Tools and Habits for Strategic Selling",
+          "actualDuration": 224.4475,
+          "startTime": 1026.074416,
+          "endTime": 1250.521916
+        },
+        {
+          "path": "Audio/output/2395/chapter_06.wav",
+          "duration": 187.960875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aligning Solutions with Organizational Priorities: Crafting the Win-Win",
+          "actualDuration": 187.960875,
+          "startTime": 1252.021916,
+          "endTime": 1439.982791
+        },
+        {
+          "path": "Audio/output/2395/chapter_07.wav",
+          "duration": 184.413167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Relationships: Trust, Credibility, and Long-Term Value",
+          "actualDuration": 184.413167,
+          "startTime": 1441.482791,
+          "endTime": 1625.8959579999998
+        },
+        {
+          "path": "Audio/output/2395/chapter_08.wav",
+          "duration": 189.190125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mastering the Buying Cycle: Timing, Triggers, and Momentum",
+          "actualDuration": 189.190125,
+          "startTime": 1627.3959579999998,
+          "endTime": 1816.586083
+        },
+        {
+          "path": "Audio/output/2395/chapter_09.wav",
+          "duration": 181.59325,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Strategic Account Management: Growing Value Beyond the First Sale",
+          "actualDuration": 181.59325,
+          "startTime": 1818.086083,
+          "endTime": 1999.679333
+        },
+        {
+          "path": "Audio/output/2395/chapter_10.wav",
+          "duration": 164.877625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Continuous Learning and Adaptation: Evolving with the Client and Market",
+          "actualDuration": 164.877625,
+          "startTime": 2001.179333,
+          "endTime": 2166.056958
+        },
+        {
+          "path": "Audio/output/2395/conclusion.wav",
+          "duration": 145.095458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.095458,
+          "startTime": 2167.556958,
+          "endTime": 2312.652416
+        }
+      ],
+      "totalDuration": 2312.652416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 114.65,
+          "actualStart": 0,
+          "actualEnd": 114.649333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Sales: From Lone Wolf to Collaborative Strategist",
+          "expectedStart": 114.65,
+          "expectedEnd": 324.42,
+          "actualStart": 116.149333,
+          "actualEnd": 325.920041,
+          "timeDifference": 1.499332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mapping the Decision Landscape: Identifying Key Stakeholders",
+          "expectedStart": 324.42,
+          "expectedEnd": 549.54,
+          "actualStart": 327.420041,
+          "actualEnd": 552.541499,
+          "timeDifference": 3.00004100000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Understanding Motivations: What Drives Each Stakeholder",
+          "expectedStart": 549.54,
+          "expectedEnd": 788.04,
+          "actualStart": 554.041499,
+          "actualEnd": 792.541416,
+          "timeDifference": 4.501499000000081
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Managing Change and Resistance: Navigating the Dynamics of Complex Sales",
+          "expectedStart": 788.04,
+          "expectedEnd": 1018.57,
+          "actualStart": 794.041416,
+          "actualEnd": 1024.574416,
+          "timeDifference": 6.001416000000063
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building a Repeatable System: Tools and Habits for Strategic Selling",
+          "expectedStart": 1018.57,
+          "expectedEnd": 1243.02,
+          "actualStart": 1026.074416,
+          "actualEnd": 1250.521916,
+          "timeDifference": 7.504415999999878
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aligning Solutions with Organizational Priorities: Crafting the Win-Win",
+          "expectedStart": 1243.02,
+          "expectedEnd": 1430.98,
+          "actualStart": 1252.021916,
+          "actualEnd": 1439.982791,
+          "timeDifference": 9.001915999999937
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Relationships: Trust, Credibility, and Long-Term Value",
+          "expectedStart": 1430.98,
+          "expectedEnd": 1615.39,
+          "actualStart": 1441.482791,
+          "actualEnd": 1625.8959579999998,
+          "timeDifference": 10.502790999999888
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mastering the Buying Cycle: Timing, Triggers, and Momentum",
+          "expectedStart": 1615.39,
+          "expectedEnd": 1804.58,
+          "actualStart": 1627.3959579999998,
+          "actualEnd": 1816.586083,
+          "timeDifference": 12.005957999999737
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Strategic Account Management: Growing Value Beyond the First Sale",
+          "expectedStart": 1804.58,
+          "expectedEnd": 1986.17,
+          "actualStart": 1818.086083,
+          "actualEnd": 1999.679333,
+          "timeDifference": 13.50608299999999
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Continuous Learning and Adaptation: Evolving with the Client and Market",
+          "expectedStart": 1986.17,
+          "expectedEnd": 2151.05,
+          "actualStart": 2001.179333,
+          "actualEnd": 2166.056958,
+          "timeDifference": 15.00933299999997
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2151.05,
+          "expectedEnd": 2296.15,
+          "actualStart": 2167.556958,
+          "actualEnd": 2312.652416,
+          "timeDifference": 16.50695799999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 114.649333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Sales: From Lone Wolf to Collaborative Strategist"
+        },
+        {
+          "startTime": 325.920041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Sales: From Lone Wolf to Collaborative Strategist and Chapter 2 Mapping the Decision Landscape: Identifying Key Stakeholders"
+        },
+        {
+          "startTime": 552.541499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mapping the Decision Landscape: Identifying Key Stakeholders and Chapter 3 Understanding Motivations: What Drives Each Stakeholder"
+        },
+        {
+          "startTime": 792.541416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Understanding Motivations: What Drives Each Stakeholder and Chapter 4 Managing Change and Resistance: Navigating the Dynamics of Complex Sales"
+        },
+        {
+          "startTime": 1024.574416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Managing Change and Resistance: Navigating the Dynamics of Complex Sales and Chapter 5 Building a Repeatable System: Tools and Habits for Strategic Selling"
+        },
+        {
+          "startTime": 1250.521916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building a Repeatable System: Tools and Habits for Strategic Selling and Chapter 6 Aligning Solutions with Organizational Priorities: Crafting the Win-Win"
+        },
+        {
+          "startTime": 1439.982791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aligning Solutions with Organizational Priorities: Crafting the Win-Win and Chapter 7 Deepening Relationships: Trust, Credibility, and Long-Term Value"
+        },
+        {
+          "startTime": 1625.8959579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Relationships: Trust, Credibility, and Long-Term Value and Chapter 8 Mastering the Buying Cycle: Timing, Triggers, and Momentum"
+        },
+        {
+          "startTime": 1816.586083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mastering the Buying Cycle: Timing, Triggers, and Momentum and Chapter 9 Strategic Account Management: Growing Value Beyond the First Sale"
+        },
+        {
+          "startTime": 1999.679333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Strategic Account Management: Growing Value Beyond the First Sale and Chapter 10 Continuous Learning and Adaptation: Evolving with the Client and Market"
+        },
+        {
+          "startTime": 2166.056958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Continuous Learning and Adaptation: Evolving with the Client and Market and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2395",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:32:59.833Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

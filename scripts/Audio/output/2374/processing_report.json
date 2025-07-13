@@ -1,0 +1,455 @@
+{
+  "bookId": "2374",
+  "timestamp": "2025-07-10T19:20:08.224Z",
+  "success": false,
+  "processingTime": -1752174793145,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5272,
+    "totalAudioFiles": 12,
+    "totalDuration": 2150.302667
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2150.302667
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2374/optimized_text/2374.md",
+    "fileSize": 853,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2374.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2374/metadata/2374_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2150.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2374/metadata/2374_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2374/metadata/2374_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2374/2374_complete.wav",
+    "duration": 2150.302667,
+    "fileSize": 103214606,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2374/introduction.wav",
+          "duration": 98.996167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.996167,
+          "startTime": 0,
+          "endTime": 98.996167
+        },
+        {
+          "path": "Audio/output/2374/chapter_01.wav",
+          "duration": 186.036417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years: Family, Loss, and the Seeds of Restlessness",
+          "actualDuration": 186.036417,
+          "startTime": 100.496167,
+          "endTime": 286.532584
+        },
+        {
+          "path": "Audio/output/2374/chapter_02.wav",
+          "duration": 231.821333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Education, Friendship, and the First Encounters with Philosophy",
+          "actualDuration": 231.821333,
+          "startTime": 288.032584,
+          "endTime": 519.853917
+        },
+        {
+          "path": "Audio/output/2374/chapter_03.wav",
+          "duration": 231.781042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Scholar’s Life: Illness, Creativity, and the Strain of Expectations",
+          "actualDuration": 231.781042,
+          "startTime": 521.353917,
+          "endTime": 753.134959
+        },
+        {
+          "path": "Audio/output/2374/chapter_04.wav",
+          "duration": 217.602667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Encounters with Great Minds: Wagner, Friendship, and the Limits of Belonging",
+          "actualDuration": 217.602667,
+          "startTime": 754.634959,
+          "endTime": 972.237626
+        },
+        {
+          "path": "Audio/output/2374/chapter_05.wav",
+          "duration": 198.290083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Away: Radical Thought, Isolation, and the Birth of a New Voice",
+          "actualDuration": 198.290083,
+          "startTime": 973.737626,
+          "endTime": 1172.027709
+        },
+        {
+          "path": "Audio/output/2374/chapter_06.wav",
+          "duration": 220.545458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Philosopher in Exile: Solitude, Vision, and the Edge of Madness",
+          "actualDuration": 220.545458,
+          "startTime": 1173.527709,
+          "endTime": 1394.073167
+        },
+        {
+          "path": "Audio/output/2374/chapter_07.wav",
+          "duration": 196.042458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Birth of the Übermensch: Courage, Creativity, and the Challenge of Becoming",
+          "actualDuration": 196.042458,
+          "startTime": 1395.573167,
+          "endTime": 1591.615625
+        },
+        {
+          "path": "Audio/output/2374/chapter_08.wav",
+          "duration": 171.770417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Collapse: The Final Years and the Descent into Darkness",
+          "actualDuration": 171.770417,
+          "startTime": 1593.115625,
+          "endTime": 1764.8860419999999
+        },
+        {
+          "path": "Audio/output/2374/chapter_09.wav",
+          "duration": 170.618625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Aftermath: The Shaping of a Legacy",
+          "actualDuration": 170.618625,
+          "startTime": 1766.3860419999999,
+          "endTime": 1937.004667
+        },
+        {
+          "path": "Audio/output/2374/chapter_10.wav",
+          "duration": 120.808083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Echoes of Dynamite: Influence, Misunderstanding, and the Ongoing Search",
+          "actualDuration": 120.808083,
+          "startTime": 1938.504667,
+          "endTime": 2059.31275
+        },
+        {
+          "path": "Audio/output/2374/conclusion.wav",
+          "duration": 105.989917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.989917,
+          "startTime": 2060.81275,
+          "endTime": 2166.802667
+        }
+      ],
+      "totalDuration": 2166.802667,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99,
+          "actualStart": 0,
+          "actualEnd": 98.996167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years: Family, Loss, and the Seeds of Restlessness",
+          "expectedStart": 99,
+          "expectedEnd": 285.04,
+          "actualStart": 100.496167,
+          "actualEnd": 286.532584,
+          "timeDifference": 1.4961669999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Education, Friendship, and the First Encounters with Philosophy",
+          "expectedStart": 285.04,
+          "expectedEnd": 516.86,
+          "actualStart": 288.032584,
+          "actualEnd": 519.853917,
+          "timeDifference": 2.9925839999999653
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Scholar’s Life: Illness, Creativity, and the Strain of Expectations",
+          "expectedStart": 516.86,
+          "expectedEnd": 748.64,
+          "actualStart": 521.353917,
+          "actualEnd": 753.134959,
+          "timeDifference": 4.49391700000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Encounters with Great Minds: Wagner, Friendship, and the Limits of Belonging",
+          "expectedStart": 748.64,
+          "expectedEnd": 966.24,
+          "actualStart": 754.634959,
+          "actualEnd": 972.237626,
+          "timeDifference": 5.994958999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Away: Radical Thought, Isolation, and the Birth of a New Voice",
+          "expectedStart": 966.24,
+          "expectedEnd": 1164.53,
+          "actualStart": 973.737626,
+          "actualEnd": 1172.027709,
+          "timeDifference": 7.497625999999968
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Philosopher in Exile: Solitude, Vision, and the Edge of Madness",
+          "expectedStart": 1164.53,
+          "expectedEnd": 1385.08,
+          "actualStart": 1173.527709,
+          "actualEnd": 1394.073167,
+          "timeDifference": 8.997708999999986
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Birth of the Übermensch: Courage, Creativity, and the Challenge of Becoming",
+          "expectedStart": 1385.08,
+          "expectedEnd": 1581.12,
+          "actualStart": 1395.573167,
+          "actualEnd": 1591.615625,
+          "timeDifference": 10.493167000000085
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Collapse: The Final Years and the Descent into Darkness",
+          "expectedStart": 1581.12,
+          "expectedEnd": 1752.89,
+          "actualStart": 1593.115625,
+          "actualEnd": 1764.8860419999999,
+          "timeDifference": 11.995625000000018
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Aftermath: The Shaping of a Legacy",
+          "expectedStart": 1752.89,
+          "expectedEnd": 1923.51,
+          "actualStart": 1766.3860419999999,
+          "actualEnd": 1937.004667,
+          "timeDifference": 13.496041999999761
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Echoes of Dynamite: Influence, Misunderstanding, and the Ongoing Search",
+          "expectedStart": 1923.51,
+          "expectedEnd": 2044.32,
+          "actualStart": 1938.504667,
+          "actualEnd": 2059.31275,
+          "timeDifference": 14.994666999999936
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2044.32,
+          "expectedEnd": 2150.31,
+          "actualStart": 2060.81275,
+          "actualEnd": 2166.802667,
+          "timeDifference": 16.492750000000115
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.996167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years: Family, Loss, and the Seeds of Restlessness"
+        },
+        {
+          "startTime": 286.532584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years: Family, Loss, and the Seeds of Restlessness and Chapter 2 Education, Friendship, and the First Encounters with Philosophy"
+        },
+        {
+          "startTime": 519.853917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Education, Friendship, and the First Encounters with Philosophy and Chapter 3 The Scholar’s Life: Illness, Creativity, and the Strain of Expectations"
+        },
+        {
+          "startTime": 753.134959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Scholar’s Life: Illness, Creativity, and the Strain of Expectations and Chapter 4 Encounters with Great Minds: Wagner, Friendship, and the Limits of Belonging"
+        },
+        {
+          "startTime": 972.237626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Encounters with Great Minds: Wagner, Friendship, and the Limits of Belonging and Chapter 5 Breaking Away: Radical Thought, Isolation, and the Birth of a New Voice"
+        },
+        {
+          "startTime": 1172.027709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Away: Radical Thought, Isolation, and the Birth of a New Voice and Chapter 6 The Philosopher in Exile: Solitude, Vision, and the Edge of Madness"
+        },
+        {
+          "startTime": 1394.073167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Philosopher in Exile: Solitude, Vision, and the Edge of Madness and Chapter 7 The Birth of the Übermensch: Courage, Creativity, and the Challenge of Becoming"
+        },
+        {
+          "startTime": 1591.615625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Birth of the Übermensch: Courage, Creativity, and the Challenge of Becoming and Chapter 8 Collapse: The Final Years and the Descent into Darkness"
+        },
+        {
+          "startTime": 1764.8860419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Collapse: The Final Years and the Descent into Darkness and Chapter 9 Aftermath: The Shaping of a Legacy"
+        },
+        {
+          "startTime": 1937.004667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Aftermath: The Shaping of a Legacy and Chapter 10 The Echoes of Dynamite: Influence, Misunderstanding, and the Ongoing Search"
+        },
+        {
+          "startTime": 2059.31275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Echoes of Dynamite: Influence, Misunderstanding, and the Ongoing Search and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2374",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:13:14.365Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

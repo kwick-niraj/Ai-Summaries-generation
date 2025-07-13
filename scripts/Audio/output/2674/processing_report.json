@@ -1,0 +1,456 @@
+{
+  "bookId": "2674",
+  "timestamp": "2025-07-12T10:10:38.967Z",
+  "success": false,
+  "processingTime": -1752314815672,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4229,
+    "totalAudioFiles": 12,
+    "totalDuration": 1856.554999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1856.554999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2674/optimized_text/2674.md",
+    "fileSize": 648,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2674.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2674/metadata/2674_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1856.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2674/metadata/2674_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2674/metadata/2674_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2674/2674_complete.wav",
+    "duration": 1856.555,
+    "fileSize": 89114718,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2674/introduction.wav",
+          "duration": 94.923667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.923667,
+          "startTime": 0,
+          "endTime": 94.923667
+        },
+        {
+          "path": "Audio/output/2674/chapter_01.wav",
+          "duration": 201.125708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Country on the Brink of Change",
+          "actualDuration": 201.125708,
+          "startTime": 96.423667,
+          "endTime": 297.549375
+        },
+        {
+          "path": "Audio/output/2674/chapter_02.wav",
+          "duration": 194.480708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life in the Trenches and the Reality of War",
+          "actualDuration": 194.480708,
+          "startTime": 299.049375,
+          "endTime": 493.530083
+        },
+        {
+          "path": "Audio/output/2674/chapter_03.wav",
+          "duration": 170.566458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Political Divisions and the Erosion of Unity",
+          "actualDuration": 170.566458,
+          "startTime": 495.030083,
+          "endTime": 665.596541
+        },
+        {
+          "path": "Audio/output/2674/chapter_04.wav",
+          "duration": 160.74625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The May Days and the Collapse of Revolutionary Spirit",
+          "actualDuration": 160.74625,
+          "startTime": 667.096541,
+          "endTime": 827.842791
+        },
+        {
+          "path": "Audio/output/2674/chapter_05.wav",
+          "duration": 166.565708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Propaganda and the Search for Truth",
+          "actualDuration": 166.565708,
+          "startTime": 829.342791,
+          "endTime": 995.908499
+        },
+        {
+          "path": "Audio/output/2674/chapter_06.wav",
+          "duration": 180.298042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath: Picking Up the Pieces",
+          "actualDuration": 180.298042,
+          "startTime": 997.408499,
+          "endTime": 1177.706541
+        },
+        {
+          "path": "Audio/output/2674/chapter_07.wav",
+          "duration": 150.725625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Personal Transformation: What War Leaves Behind",
+          "actualDuration": 150.725625,
+          "startTime": 1179.206541,
+          "endTime": 1329.932166
+        },
+        {
+          "path": "Audio/output/2674/chapter_08.wav",
+          "duration": 155.782833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Struggle for Meaning",
+          "actualDuration": 155.782833,
+          "startTime": 1331.432166,
+          "endTime": 1487.214999
+        },
+        {
+          "path": "Audio/output/2674/chapter_09.wav",
+          "duration": 141.155625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory, Storytelling, and the Weight of the Past",
+          "actualDuration": 141.155625,
+          "startTime": 1488.714999,
+          "endTime": 1629.8706240000001
+        },
+        {
+          "path": "Audio/output/2674/chapter_10.wav",
+          "duration": 144.869583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the Future: Justice, Hope, and Human Nature",
+          "actualDuration": 144.869583,
+          "startTime": 1631.3706240000001,
+          "endTime": 1776.240207
+        },
+        {
+          "path": "Audio/output/2674/conclusion.wav",
+          "duration": 95.314792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.314792,
+          "startTime": 1777.740207,
+          "endTime": 1873.054999
+        }
+      ],
+      "totalDuration": 1873.054999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.92,
+          "actualStart": 0,
+          "actualEnd": 94.923667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Country on the Brink of Change",
+          "expectedStart": 94.92,
+          "expectedEnd": 296.05,
+          "actualStart": 96.423667,
+          "actualEnd": 297.549375,
+          "timeDifference": 1.503666999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life in the Trenches and the Reality of War",
+          "expectedStart": 296.05,
+          "expectedEnd": 490.53,
+          "actualStart": 299.049375,
+          "actualEnd": 493.530083,
+          "timeDifference": 2.9993749999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Political Divisions and the Erosion of Unity",
+          "expectedStart": 490.53,
+          "expectedEnd": 661.1,
+          "actualStart": 495.030083,
+          "actualEnd": 665.596541,
+          "timeDifference": 4.500083000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The May Days and the Collapse of Revolutionary Spirit",
+          "expectedStart": 661.1,
+          "expectedEnd": 821.85,
+          "actualStart": 667.096541,
+          "actualEnd": 827.842791,
+          "timeDifference": 5.996540999999979
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Propaganda and the Search for Truth",
+          "expectedStart": 821.85,
+          "expectedEnd": 988.42,
+          "actualStart": 829.342791,
+          "actualEnd": 995.908499,
+          "timeDifference": 7.492791000000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath: Picking Up the Pieces",
+          "expectedStart": 988.42,
+          "expectedEnd": 1168.72,
+          "actualStart": 997.408499,
+          "actualEnd": 1177.706541,
+          "timeDifference": 8.988499000000047
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Personal Transformation: What War Leaves Behind",
+          "expectedStart": 1168.72,
+          "expectedEnd": 1319.45,
+          "actualStart": 1179.206541,
+          "actualEnd": 1329.932166,
+          "timeDifference": 10.486540999999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Struggle for Meaning",
+          "expectedStart": 1319.45,
+          "expectedEnd": 1475.23,
+          "actualStart": 1331.432166,
+          "actualEnd": 1487.214999,
+          "timeDifference": 11.982166000000007
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory, Storytelling, and the Weight of the Past",
+          "expectedStart": 1475.23,
+          "expectedEnd": 1616.39,
+          "actualStart": 1488.714999,
+          "actualEnd": 1629.8706240000001,
+          "timeDifference": 13.484999000000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the Future: Justice, Hope, and Human Nature",
+          "expectedStart": 1616.39,
+          "expectedEnd": 1761.26,
+          "actualStart": 1631.3706240000001,
+          "actualEnd": 1776.240207,
+          "timeDifference": 14.980624000000034
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1761.26,
+          "expectedEnd": 1856.57,
+          "actualStart": 1777.740207,
+          "actualEnd": 1873.054999,
+          "timeDifference": 16.480207000000064
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.923667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Country on the Brink of Change"
+        },
+        {
+          "startTime": 297.549375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Country on the Brink of Change and Chapter 2 Life in the Trenches and the Reality of War"
+        },
+        {
+          "startTime": 493.530083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life in the Trenches and the Reality of War and Chapter 3 Political Divisions and the Erosion of Unity"
+        },
+        {
+          "startTime": 665.596541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Political Divisions and the Erosion of Unity and Chapter 4 The May Days and the Collapse of Revolutionary Spirit"
+        },
+        {
+          "startTime": 827.842791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The May Days and the Collapse of Revolutionary Spirit and Chapter 5 Facing Propaganda and the Search for Truth"
+        },
+        {
+          "startTime": 995.908499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Propaganda and the Search for Truth and Chapter 6 The Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1177.706541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath: Picking Up the Pieces and Chapter 7 Personal Transformation: What War Leaves Behind"
+        },
+        {
+          "startTime": 1329.932166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Personal Transformation: What War Leaves Behind and Chapter 8 The Enduring Struggle for Meaning"
+        },
+        {
+          "startTime": 1487.214999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Struggle for Meaning and Chapter 9 Memory, Storytelling, and the Weight of the Past"
+        },
+        {
+          "startTime": 1629.8706240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory, Storytelling, and the Weight of the Past and Chapter 10 Lessons for the Future: Justice, Hope, and Human Nature"
+        },
+        {
+          "startTime": 1776.240207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the Future: Justice, Hope, and Human Nature and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2674",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:06:56.228Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

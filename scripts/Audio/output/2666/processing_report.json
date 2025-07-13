@@ -1,0 +1,456 @@
+{
+  "bookId": "2666",
+  "timestamp": "2025-07-12T09:30:46.487Z",
+  "success": false,
+  "processingTime": -1752312335938,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4843,
+    "totalAudioFiles": 12,
+    "totalDuration": 2285.961918
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2285.961918
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2666/optimized_text/2666.md",
+    "fileSize": 786,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2666.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2666/metadata/2666_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2285.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2666/metadata/2666_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2666/metadata/2666_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2666/2666_complete.wav",
+    "duration": 2285.961917,
+    "fileSize": 109726250,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2666/introduction.wav",
+          "duration": 109.169667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.169667,
+          "startTime": 0,
+          "endTime": 109.169667
+        },
+        {
+          "path": "Audio/output/2666/chapter_01.wav",
+          "duration": 252.105292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Curiosity, Family Tensions, and the Roots of Nonconformity",
+          "actualDuration": 252.105292,
+          "startTime": 110.669667,
+          "endTime": 362.77495899999997
+        },
+        {
+          "path": "Audio/output/2666/chapter_02.wav",
+          "duration": 269.984917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Student Years, First Loves, and the Struggle for Belonging",
+          "actualDuration": 269.984917,
+          "startTime": 364.27495899999997,
+          "endTime": 634.259876
+        },
+        {
+          "path": "Audio/output/2666/chapter_03.wav",
+          "duration": 221.83975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Patent Office, Quiet Genius, and the Birth of Revolutionary Ideas",
+          "actualDuration": 221.83975,
+          "startTime": 635.759876,
+          "endTime": 857.599626
+        },
+        {
+          "path": "Audio/output/2666/chapter_04.wav",
+          "duration": 198.904708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Fame, Controversy, and the Responsibilities of Genius",
+          "actualDuration": 198.904708,
+          "startTime": 859.099626,
+          "endTime": 1058.004334
+        },
+        {
+          "path": "Audio/output/2666/chapter_05.wav",
+          "duration": 176.737667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Later Years, Legacy, and the Enduring Mystery of Genius",
+          "actualDuration": 176.737667,
+          "startTime": 1059.504334,
+          "endTime": 1236.242001
+        },
+        {
+          "path": "Audio/output/2666/chapter_06.wav",
+          "duration": 221.047917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Exile, Identity, and the Search for Home",
+          "actualDuration": 221.047917,
+          "startTime": 1237.742001,
+          "endTime": 1458.7899180000002
+        },
+        {
+          "path": "Audio/output/2666/chapter_07.wav",
+          "duration": 208.6505,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Reluctant Revolutionary: Science, War, and the Atomic Age",
+          "actualDuration": 208.6505,
+          "startTime": 1460.2899180000002,
+          "endTime": 1668.9404180000001
+        },
+        {
+          "path": "Audio/output/2666/chapter_08.wav",
+          "duration": 168.102458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Friendship, Rivalry, and the Human Side of Genius",
+          "actualDuration": 168.102458,
+          "startTime": 1670.4404180000001,
+          "endTime": 1838.5428760000002
+        },
+        {
+          "path": "Audio/output/2666/chapter_09.wav",
+          "duration": 160.658917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Quest: Unification, Wonder, and the Limits of Knowledge",
+          "actualDuration": 160.658917,
+          "startTime": 1840.0428760000002,
+          "endTime": 2000.7017930000002
+        },
+        {
+          "path": "Audio/output/2666/chapter_10.wav",
+          "duration": 168.468042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Light: Influence, Inspiration, and the Meaning of a Life",
+          "actualDuration": 168.468042,
+          "startTime": 2002.2017930000002,
+          "endTime": 2170.669835
+        },
+        {
+          "path": "Audio/output/2666/conclusion.wav",
+          "duration": 130.292083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.292083,
+          "startTime": 2172.169835,
+          "endTime": 2302.461918
+        }
+      ],
+      "totalDuration": 2302.461918,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.17,
+          "actualStart": 0,
+          "actualEnd": 109.169667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Curiosity, Family Tensions, and the Roots of Nonconformity",
+          "expectedStart": 109.17,
+          "expectedEnd": 361.28,
+          "actualStart": 110.669667,
+          "actualEnd": 362.77495899999997,
+          "timeDifference": 1.4996670000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Student Years, First Loves, and the Struggle for Belonging",
+          "expectedStart": 361.28,
+          "expectedEnd": 631.26,
+          "actualStart": 364.27495899999997,
+          "actualEnd": 634.259876,
+          "timeDifference": 2.9949589999999944
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Patent Office, Quiet Genius, and the Birth of Revolutionary Ideas",
+          "expectedStart": 631.26,
+          "expectedEnd": 853.1,
+          "actualStart": 635.759876,
+          "actualEnd": 857.599626,
+          "timeDifference": 4.499875999999972
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Fame, Controversy, and the Responsibilities of Genius",
+          "expectedStart": 853.1,
+          "expectedEnd": 1052,
+          "actualStart": 859.099626,
+          "actualEnd": 1058.004334,
+          "timeDifference": 5.999625999999921
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Later Years, Legacy, and the Enduring Mystery of Genius",
+          "expectedStart": 1052,
+          "expectedEnd": 1228.74,
+          "actualStart": 1059.504334,
+          "actualEnd": 1236.242001,
+          "timeDifference": 7.504333999999972
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Exile, Identity, and the Search for Home",
+          "expectedStart": 1228.74,
+          "expectedEnd": 1449.79,
+          "actualStart": 1237.742001,
+          "actualEnd": 1458.7899180000002,
+          "timeDifference": 9.002001000000064
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Reluctant Revolutionary: Science, War, and the Atomic Age",
+          "expectedStart": 1449.79,
+          "expectedEnd": 1658.44,
+          "actualStart": 1460.2899180000002,
+          "actualEnd": 1668.9404180000001,
+          "timeDifference": 10.499918000000207
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Friendship, Rivalry, and the Human Side of Genius",
+          "expectedStart": 1658.44,
+          "expectedEnd": 1826.54,
+          "actualStart": 1670.4404180000001,
+          "actualEnd": 1838.5428760000002,
+          "timeDifference": 12.000418000000082
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Quest: Unification, Wonder, and the Limits of Knowledge",
+          "expectedStart": 1826.54,
+          "expectedEnd": 1987.2,
+          "actualStart": 1840.0428760000002,
+          "actualEnd": 2000.7017930000002,
+          "timeDifference": 13.502876000000242
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Light: Influence, Inspiration, and the Meaning of a Life",
+          "expectedStart": 1987.2,
+          "expectedEnd": 2155.67,
+          "actualStart": 2002.2017930000002,
+          "actualEnd": 2170.669835,
+          "timeDifference": 15.001793000000134
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2155.67,
+          "expectedEnd": 2285.96,
+          "actualStart": 2172.169835,
+          "actualEnd": 2302.461918,
+          "timeDifference": 16.499835000000076
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.169667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Curiosity, Family Tensions, and the Roots of Nonconformity"
+        },
+        {
+          "startTime": 362.77495899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Curiosity, Family Tensions, and the Roots of Nonconformity and Chapter 2 Student Years, First Loves, and the Struggle for Belonging"
+        },
+        {
+          "startTime": 634.259876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Student Years, First Loves, and the Struggle for Belonging and Chapter 3 The Patent Office, Quiet Genius, and the Birth of Revolutionary Ideas"
+        },
+        {
+          "startTime": 857.599626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Patent Office, Quiet Genius, and the Birth of Revolutionary Ideas and Chapter 4 Fame, Controversy, and the Responsibilities of Genius"
+        },
+        {
+          "startTime": 1058.004334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Fame, Controversy, and the Responsibilities of Genius and Chapter 5 Later Years, Legacy, and the Enduring Mystery of Genius"
+        },
+        {
+          "startTime": 1236.242001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Later Years, Legacy, and the Enduring Mystery of Genius and Chapter 6 Exile, Identity, and the Search for Home"
+        },
+        {
+          "startTime": 1458.7899180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Exile, Identity, and the Search for Home and Chapter 7 The Reluctant Revolutionary: Science, War, and the Atomic Age"
+        },
+        {
+          "startTime": 1668.9404180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Reluctant Revolutionary: Science, War, and the Atomic Age and Chapter 8 Friendship, Rivalry, and the Human Side of Genius"
+        },
+        {
+          "startTime": 1838.5428760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Friendship, Rivalry, and the Human Side of Genius and Chapter 9 The Final Quest: Unification, Wonder, and the Limits of Knowledge"
+        },
+        {
+          "startTime": 2000.7017930000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Quest: Unification, Wonder, and the Limits of Knowledge and Chapter 10 The Enduring Light: Influence, Inspiration, and the Meaning of a Life"
+        },
+        {
+          "startTime": 2170.669835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Light: Influence, Inspiration, and the Meaning of a Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2666",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:25:37.141Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

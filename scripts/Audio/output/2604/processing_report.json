@@ -1,0 +1,480 @@
+{
+  "bookId": "2604",
+  "timestamp": "2025-07-11T07:45:20.659Z",
+  "success": false,
+  "processingTime": -1752219611342,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4608,
+    "totalAudioFiles": 13,
+    "totalDuration": 2122.73725
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2122.73725
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2604/optimized_text/2604.md",
+    "fileSize": 646,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2604.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2604/metadata/2604_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2122.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2604/metadata/2604_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2604/metadata/2604_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2604/2604_complete.wav",
+    "duration": 2122.73725,
+    "fileSize": 101891466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2604/introduction.wav",
+          "duration": 94.832292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.832292,
+          "startTime": 0,
+          "endTime": 94.832292
+        },
+        {
+          "path": "Audio/output/2604/chapter_01.wav",
+          "duration": 186.697042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Lasting Power of Simple Beginnings",
+          "actualDuration": 186.697042,
+          "startTime": 96.332292,
+          "endTime": 283.029334
+        },
+        {
+          "path": "Audio/output/2604/chapter_02.wav",
+          "duration": 190.833542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Meaning in Ordinary Moments",
+          "actualDuration": 190.833542,
+          "startTime": 284.529334,
+          "endTime": 475.362876
+        },
+        {
+          "path": "Audio/output/2604/chapter_03.wav",
+          "duration": 218.536083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Value of Kindness, Fairness, and Apology",
+          "actualDuration": 218.536083,
+          "startTime": 476.862876,
+          "endTime": 695.398959
+        },
+        {
+          "path": "Audio/output/2604/chapter_04.wav",
+          "duration": 192.971875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Nurturing Curiosity and Wonder at Every Age",
+          "actualDuration": 192.971875,
+          "startTime": 696.898959,
+          "endTime": 889.8708340000001
+        },
+        {
+          "path": "Audio/output/2604/chapter_05.wav",
+          "duration": 172.624667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Community Through Shared Experience",
+          "actualDuration": 172.624667,
+          "startTime": 891.3708340000001,
+          "endTime": 1063.995501
+        },
+        {
+          "path": "Audio/output/2604/chapter_06.wav",
+          "duration": 201.376167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Change and Embracing Uncertainty",
+          "actualDuration": 201.376167,
+          "startTime": 1065.495501,
+          "endTime": 1266.8716680000002
+        },
+        {
+          "path": "Audio/output/2604/chapter_07.wav",
+          "duration": 171.098333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Loss and Finding Renewal",
+          "actualDuration": 171.098333,
+          "startTime": 1268.3716680000002,
+          "endTime": 1439.4700010000001
+        },
+        {
+          "path": "Audio/output/2604/chapter_08.wav",
+          "duration": 180.394083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Play and the Importance of Rest",
+          "actualDuration": 180.394083,
+          "startTime": 1440.9700010000001,
+          "endTime": 1621.364084
+        },
+        {
+          "path": "Audio/output/2604/chapter_09.wav",
+          "duration": 135.667083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with Integrity and Authenticity",
+          "actualDuration": 135.667083,
+          "startTime": 1622.864084,
+          "endTime": 1758.531167
+        },
+        {
+          "path": "Audio/output/2604/chapter_10.wav",
+          "duration": 145.523,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Practicing Gratitude and Savoring the Present",
+          "actualDuration": 145.523,
+          "startTime": 1760.031167,
+          "endTime": 1905.554167
+        },
+        {
+          "path": "Audio/output/2604/chapter_11.wav",
+          "duration": 106.599375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Passing Wisdom Forward",
+          "actualDuration": 106.599375,
+          "startTime": 1907.054167,
+          "endTime": 2013.653542
+        },
+        {
+          "path": "Audio/output/2604/conclusion.wav",
+          "duration": 125.583708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.583708,
+          "startTime": 2015.153542,
+          "endTime": 2140.73725
+        }
+      ],
+      "totalDuration": 2140.73725,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.83,
+          "actualStart": 0,
+          "actualEnd": 94.832292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Lasting Power of Simple Beginnings",
+          "expectedStart": 94.83,
+          "expectedEnd": 281.53,
+          "actualStart": 96.332292,
+          "actualEnd": 283.029334,
+          "timeDifference": 1.502291999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Meaning in Ordinary Moments",
+          "expectedStart": 281.53,
+          "expectedEnd": 472.36,
+          "actualStart": 284.529334,
+          "actualEnd": 475.362876,
+          "timeDifference": 2.999334000000033
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Value of Kindness, Fairness, and Apology",
+          "expectedStart": 472.36,
+          "expectedEnd": 690.9,
+          "actualStart": 476.862876,
+          "actualEnd": 695.398959,
+          "timeDifference": 4.502876000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Nurturing Curiosity and Wonder at Every Age",
+          "expectedStart": 690.9,
+          "expectedEnd": 883.87,
+          "actualStart": 696.898959,
+          "actualEnd": 889.8708340000001,
+          "timeDifference": 5.9989590000000135
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Community Through Shared Experience",
+          "expectedStart": 883.87,
+          "expectedEnd": 1056.49,
+          "actualStart": 891.3708340000001,
+          "actualEnd": 1063.995501,
+          "timeDifference": 7.500834000000054
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Change and Embracing Uncertainty",
+          "expectedStart": 1056.49,
+          "expectedEnd": 1257.87,
+          "actualStart": 1065.495501,
+          "actualEnd": 1266.8716680000002,
+          "timeDifference": 9.005501000000095
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Loss and Finding Renewal",
+          "expectedStart": 1257.87,
+          "expectedEnd": 1428.97,
+          "actualStart": 1268.3716680000002,
+          "actualEnd": 1439.4700010000001,
+          "timeDifference": 10.501668000000336
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Play and the Importance of Rest",
+          "expectedStart": 1428.97,
+          "expectedEnd": 1609.36,
+          "actualStart": 1440.9700010000001,
+          "actualEnd": 1621.364084,
+          "timeDifference": 12.000001000000111
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with Integrity and Authenticity",
+          "expectedStart": 1609.36,
+          "expectedEnd": 1745.03,
+          "actualStart": 1622.864084,
+          "actualEnd": 1758.531167,
+          "timeDifference": 13.504084000000148
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Practicing Gratitude and Savoring the Present",
+          "expectedStart": 1745.03,
+          "expectedEnd": 1890.55,
+          "actualStart": 1760.031167,
+          "actualEnd": 1905.554167,
+          "timeDifference": 15.001167000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Passing Wisdom Forward",
+          "expectedStart": 1890.55,
+          "expectedEnd": 1997.15,
+          "actualStart": 1907.054167,
+          "actualEnd": 2013.653542,
+          "timeDifference": 16.504167000000052
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1997.15,
+          "expectedEnd": 2122.73,
+          "actualStart": 2015.153542,
+          "actualEnd": 2140.73725,
+          "timeDifference": 18.003541999999925
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.832292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Lasting Power of Simple Beginnings"
+        },
+        {
+          "startTime": 283.029334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Lasting Power of Simple Beginnings and Chapter 2 Finding Meaning in Ordinary Moments"
+        },
+        {
+          "startTime": 475.362876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Meaning in Ordinary Moments and Chapter 3 The Value of Kindness, Fairness, and Apology"
+        },
+        {
+          "startTime": 695.398959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Value of Kindness, Fairness, and Apology and Chapter 4 Nurturing Curiosity and Wonder at Every Age"
+        },
+        {
+          "startTime": 889.8708340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Nurturing Curiosity and Wonder at Every Age and Chapter 5 Building Community Through Shared Experience"
+        },
+        {
+          "startTime": 1063.995501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Community Through Shared Experience and Chapter 6 Navigating Change and Embracing Uncertainty"
+        },
+        {
+          "startTime": 1266.8716680000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Change and Embracing Uncertainty and Chapter 7 Facing Loss and Finding Renewal"
+        },
+        {
+          "startTime": 1439.4700010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Loss and Finding Renewal and Chapter 8 The Art of Play and the Importance of Rest"
+        },
+        {
+          "startTime": 1621.364084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Play and the Importance of Rest and Chapter 9 Living with Integrity and Authenticity"
+        },
+        {
+          "startTime": 1758.531167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with Integrity and Authenticity and Chapter 10 Practicing Gratitude and Savoring the Present"
+        },
+        {
+          "startTime": 1905.554167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Practicing Gratitude and Savoring the Present and Chapter 11 Passing Wisdom Forward"
+        },
+        {
+          "startTime": 2013.653542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Passing Wisdom Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2604",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:40:11.836Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

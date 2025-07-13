@@ -1,0 +1,456 @@
+{
+  "bookId": "2464",
+  "timestamp": "2025-07-10T23:45:06.155Z",
+  "success": false,
+  "processingTime": -1752190856877,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4354,
+    "totalAudioFiles": 12,
+    "totalDuration": 2060.4280000000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2060.4280000000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2464/optimized_text/2464.md",
+    "fileSize": 468,
+    "wordCount": 63,
+    "format": "markdown",
+    "filename": "2464.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2464/metadata/2464_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2060.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2464/metadata/2464_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2464/metadata/2464_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2464/2464_complete.wav",
+    "duration": 2060.428,
+    "fileSize": 98900622,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2464/introduction.wav",
+          "duration": 84.431208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.431208,
+          "startTime": 0,
+          "endTime": 84.431208
+        },
+        {
+          "path": "Audio/output/2464/chapter_01.wav",
+          "duration": 215.042875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Changing America",
+          "actualDuration": 215.042875,
+          "startTime": 85.931208,
+          "endTime": 300.974083
+        },
+        {
+          "path": "Audio/output/2464/chapter_02.wav",
+          "duration": 233.8145,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering Purpose in Uniform",
+          "actualDuration": 233.8145,
+          "startTime": 302.474083,
+          "endTime": 536.288583
+        },
+        {
+          "path": "Audio/output/2464/chapter_03.wav",
+          "duration": 231.666792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Lessons from the Battlefield",
+          "actualDuration": 231.666792,
+          "startTime": 537.788583,
+          "endTime": 769.455375
+        },
+        {
+          "path": "Audio/output/2464/chapter_04.wav",
+          "duration": 202.96325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating the Halls of Power",
+          "actualDuration": 202.96325,
+          "startTime": 770.955375,
+          "endTime": 973.918625
+        },
+        {
+          "path": "Audio/output/2464/chapter_05.wav",
+          "duration": 216.987167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Barriers and Embracing Responsibility",
+          "actualDuration": 216.987167,
+          "startTime": 975.418625,
+          "endTime": 1192.405792
+        },
+        {
+          "path": "Audio/output/2464/chapter_06.wav",
+          "duration": 192.604917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Command",
+          "actualDuration": 192.604917,
+          "startTime": 1193.905792,
+          "endTime": 1386.5107090000001
+        },
+        {
+          "path": "Audio/output/2464/chapter_07.wav",
+          "duration": 160.961958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Crisis and Character",
+          "actualDuration": 160.961958,
+          "startTime": 1388.0107090000001,
+          "endTime": 1548.9726670000002
+        },
+        {
+          "path": "Audio/output/2464/chapter_08.wav",
+          "duration": 136.237583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Example",
+          "actualDuration": 136.237583,
+          "startTime": 1550.4726670000002,
+          "endTime": 1686.7102500000003
+        },
+        {
+          "path": "Audio/output/2464/chapter_09.wav",
+          "duration": 135.139292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections on America",
+          "actualDuration": 135.139292,
+          "startTime": 1688.2102500000003,
+          "endTime": 1823.3495420000004
+        },
+        {
+          "path": "Audio/output/2464/chapter_10.wav",
+          "duration": 116.095458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Passing the Torch",
+          "actualDuration": 116.095458,
+          "startTime": 1824.8495420000004,
+          "endTime": 1940.9450000000004
+        },
+        {
+          "path": "Audio/output/2464/conclusion.wav",
+          "duration": 134.483,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.483,
+          "startTime": 1942.4450000000004,
+          "endTime": 2076.9280000000003
+        }
+      ],
+      "totalDuration": 2076.9280000000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.43,
+          "actualStart": 0,
+          "actualEnd": 84.431208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Changing America",
+          "expectedStart": 84.43,
+          "expectedEnd": 299.47,
+          "actualStart": 85.931208,
+          "actualEnd": 300.974083,
+          "timeDifference": 1.5012079999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering Purpose in Uniform",
+          "expectedStart": 299.47,
+          "expectedEnd": 533.28,
+          "actualStart": 302.474083,
+          "actualEnd": 536.288583,
+          "timeDifference": 3.00408299999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Lessons from the Battlefield",
+          "expectedStart": 533.28,
+          "expectedEnd": 764.95,
+          "actualStart": 537.788583,
+          "actualEnd": 769.455375,
+          "timeDifference": 4.508583000000044
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating the Halls of Power",
+          "expectedStart": 764.95,
+          "expectedEnd": 967.91,
+          "actualStart": 770.955375,
+          "actualEnd": 973.918625,
+          "timeDifference": 6.005374999999958
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Barriers and Embracing Responsibility",
+          "expectedStart": 967.91,
+          "expectedEnd": 1184.9,
+          "actualStart": 975.418625,
+          "actualEnd": 1192.405792,
+          "timeDifference": 7.508625000000052
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Command",
+          "expectedStart": 1184.9,
+          "expectedEnd": 1377.5,
+          "actualStart": 1193.905792,
+          "actualEnd": 1386.5107090000001,
+          "timeDifference": 9.005791999999929
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Crisis and Character",
+          "expectedStart": 1377.5,
+          "expectedEnd": 1538.46,
+          "actualStart": 1388.0107090000001,
+          "actualEnd": 1548.9726670000002,
+          "timeDifference": 10.510709000000134
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Example",
+          "expectedStart": 1538.46,
+          "expectedEnd": 1674.7,
+          "actualStart": 1550.4726670000002,
+          "actualEnd": 1686.7102500000003,
+          "timeDifference": 12.012667000000192
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections on America",
+          "expectedStart": 1674.7,
+          "expectedEnd": 1809.84,
+          "actualStart": 1688.2102500000003,
+          "actualEnd": 1823.3495420000004,
+          "timeDifference": 13.51025000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Passing the Torch",
+          "expectedStart": 1809.84,
+          "expectedEnd": 1925.94,
+          "actualStart": 1824.8495420000004,
+          "actualEnd": 1940.9450000000004,
+          "timeDifference": 15.009542000000465
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1925.94,
+          "expectedEnd": 2060.42,
+          "actualStart": 1942.4450000000004,
+          "actualEnd": 2076.9280000000003,
+          "timeDifference": 16.505000000000337
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.431208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Changing America"
+        },
+        {
+          "startTime": 300.974083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Changing America and Chapter 2 Discovering Purpose in Uniform"
+        },
+        {
+          "startTime": 536.288583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering Purpose in Uniform and Chapter 3 Lessons from the Battlefield"
+        },
+        {
+          "startTime": 769.455375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Lessons from the Battlefield and Chapter 4 Navigating the Halls of Power"
+        },
+        {
+          "startTime": 973.918625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating the Halls of Power and Chapter 5 Breaking Barriers and Embracing Responsibility"
+        },
+        {
+          "startTime": 1192.405792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Barriers and Embracing Responsibility and Chapter 6 The Weight of Command"
+        },
+        {
+          "startTime": 1386.5107090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Command and Chapter 7 Crisis and Character"
+        },
+        {
+          "startTime": 1548.9726670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Crisis and Character and Chapter 8 The Power of Example"
+        },
+        {
+          "startTime": 1686.7102500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Example and Chapter 9 Reflections on America"
+        },
+        {
+          "startTime": 1823.3495420000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections on America and Chapter 10 Passing the Torch"
+        },
+        {
+          "startTime": 1940.9450000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Passing the Torch and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2464",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:40:58.092Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

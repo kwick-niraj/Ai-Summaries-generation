@@ -1,0 +1,456 @@
+{
+  "bookId": "2562",
+  "timestamp": "2025-07-11T05:36:22.954Z",
+  "success": false,
+  "processingTime": -1752211910418,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4651,
+    "totalAudioFiles": 12,
+    "totalDuration": 2246.836332
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2246.836332
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2562/optimized_text/2562.md",
+    "fileSize": 670,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2562.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2562/metadata/2562_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2246.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2562/metadata/2562_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2562/metadata/2562_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2562/2562_complete.wav",
+    "duration": 2246.836333,
+    "fileSize": 107848222,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2562/introduction.wav",
+          "duration": 115.510583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 115.510583,
+          "startTime": 0,
+          "endTime": 115.510583
+        },
+        {
+          "path": "Audio/output/2562/chapter_01.wav",
+          "duration": 251.290333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Procrastination and the Power of Prioritization",
+          "actualDuration": 251.290333,
+          "startTime": 117.010583,
+          "endTime": 368.30091600000003
+        },
+        {
+          "path": "Audio/output/2562/chapter_02.wav",
+          "duration": 238.329458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Setting Clear Goals and Planning Each Day",
+          "actualDuration": 238.329458,
+          "startTime": 369.80091600000003,
+          "endTime": 608.1303740000001
+        },
+        {
+          "path": "Audio/output/2562/chapter_03.wav",
+          "duration": 211.438667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Down Big Tasks and Building Momentum",
+          "actualDuration": 211.438667,
+          "startTime": 609.6303740000001,
+          "endTime": 821.0690410000001
+        },
+        {
+          "path": "Audio/output/2562/chapter_04.wav",
+          "duration": 211.506333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mastering Self-Discipline and Developing Productive Habits",
+          "actualDuration": 211.506333,
+          "startTime": 822.5690410000001,
+          "endTime": 1034.075374
+        },
+        {
+          "path": "Audio/output/2562/chapter_05.wav",
+          "duration": 211.691083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Mental Barriers and Taking Immediate Action",
+          "actualDuration": 211.691083,
+          "startTime": 1035.575374,
+          "endTime": 1247.266457
+        },
+        {
+          "path": "Audio/output/2562/chapter_06.wav",
+          "duration": 178.562917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Leveraging the Power of Focus and Single-Tasking",
+          "actualDuration": 178.562917,
+          "startTime": 1248.766457,
+          "endTime": 1427.329374
+        },
+        {
+          "path": "Audio/output/2562/chapter_07.wav",
+          "duration": 195.422125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Energy, Not Just Time",
+          "actualDuration": 195.422125,
+          "startTime": 1428.829374,
+          "endTime": 1624.251499
+        },
+        {
+          "path": "Audio/output/2562/chapter_08.wav",
+          "duration": 186.126208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Delegating, Automating, and Saying No",
+          "actualDuration": 186.126208,
+          "startTime": 1625.751499,
+          "endTime": 1811.8777069999999
+        },
+        {
+          "path": "Audio/output/2562/chapter_09.wav",
+          "duration": 143.6495,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reviewing Progress and Adapting Strategies",
+          "actualDuration": 143.6495,
+          "startTime": 1813.3777069999999,
+          "endTime": 1957.0272069999999
+        },
+        {
+          "path": "Audio/output/2562/chapter_10.wav",
+          "duration": 162.198458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Motivation and Building a Growth Mindset",
+          "actualDuration": 162.198458,
+          "startTime": 1958.5272069999999,
+          "endTime": 2120.725665
+        },
+        {
+          "path": "Audio/output/2562/conclusion.wav",
+          "duration": 141.110667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.110667,
+          "startTime": 2122.225665,
+          "endTime": 2263.336332
+        }
+      ],
+      "totalDuration": 2263.336332,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 115.51,
+          "actualStart": 0,
+          "actualEnd": 115.510583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Procrastination and the Power of Prioritization",
+          "expectedStart": 115.51,
+          "expectedEnd": 366.8,
+          "actualStart": 117.010583,
+          "actualEnd": 368.30091600000003,
+          "timeDifference": 1.5005829999999918
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Setting Clear Goals and Planning Each Day",
+          "expectedStart": 366.8,
+          "expectedEnd": 605.13,
+          "actualStart": 369.80091600000003,
+          "actualEnd": 608.1303740000001,
+          "timeDifference": 3.000916000000018
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Down Big Tasks and Building Momentum",
+          "expectedStart": 605.13,
+          "expectedEnd": 816.57,
+          "actualStart": 609.6303740000001,
+          "actualEnd": 821.0690410000001,
+          "timeDifference": 4.500374000000079
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mastering Self-Discipline and Developing Productive Habits",
+          "expectedStart": 816.57,
+          "expectedEnd": 1028.08,
+          "actualStart": 822.5690410000001,
+          "actualEnd": 1034.075374,
+          "timeDifference": 5.999041000000034
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Mental Barriers and Taking Immediate Action",
+          "expectedStart": 1028.08,
+          "expectedEnd": 1239.77,
+          "actualStart": 1035.575374,
+          "actualEnd": 1247.266457,
+          "timeDifference": 7.4953740000000835
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Leveraging the Power of Focus and Single-Tasking",
+          "expectedStart": 1239.77,
+          "expectedEnd": 1418.33,
+          "actualStart": 1248.766457,
+          "actualEnd": 1427.329374,
+          "timeDifference": 8.996456999999964
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Energy, Not Just Time",
+          "expectedStart": 1418.33,
+          "expectedEnd": 1613.75,
+          "actualStart": 1428.829374,
+          "actualEnd": 1624.251499,
+          "timeDifference": 10.499373999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Delegating, Automating, and Saying No",
+          "expectedStart": 1613.75,
+          "expectedEnd": 1799.88,
+          "actualStart": 1625.751499,
+          "actualEnd": 1811.8777069999999,
+          "timeDifference": 12.001498999999967
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reviewing Progress and Adapting Strategies",
+          "expectedStart": 1799.88,
+          "expectedEnd": 1943.53,
+          "actualStart": 1813.3777069999999,
+          "actualEnd": 1957.0272069999999,
+          "timeDifference": 13.497706999999764
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Motivation and Building a Growth Mindset",
+          "expectedStart": 1943.53,
+          "expectedEnd": 2105.73,
+          "actualStart": 1958.5272069999999,
+          "actualEnd": 2120.725665,
+          "timeDifference": 14.99720699999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2105.73,
+          "expectedEnd": 2246.84,
+          "actualStart": 2122.225665,
+          "actualEnd": 2263.336332,
+          "timeDifference": 16.495664999999917
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 115.510583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Procrastination and the Power of Prioritization"
+        },
+        {
+          "startTime": 368.30091600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Procrastination and the Power of Prioritization and Chapter 2 Setting Clear Goals and Planning Each Day"
+        },
+        {
+          "startTime": 608.1303740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Setting Clear Goals and Planning Each Day and Chapter 3 Breaking Down Big Tasks and Building Momentum"
+        },
+        {
+          "startTime": 821.0690410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Down Big Tasks and Building Momentum and Chapter 4 Mastering Self-Discipline and Developing Productive Habits"
+        },
+        {
+          "startTime": 1034.075374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mastering Self-Discipline and Developing Productive Habits and Chapter 5 Overcoming Mental Barriers and Taking Immediate Action"
+        },
+        {
+          "startTime": 1247.266457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Mental Barriers and Taking Immediate Action and Chapter 6 Leveraging the Power of Focus and Single-Tasking"
+        },
+        {
+          "startTime": 1427.329374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Leveraging the Power of Focus and Single-Tasking and Chapter 7 Managing Energy, Not Just Time"
+        },
+        {
+          "startTime": 1624.251499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Energy, Not Just Time and Chapter 8 Delegating, Automating, and Saying No"
+        },
+        {
+          "startTime": 1811.8777069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Delegating, Automating, and Saying No and Chapter 9 Reviewing Progress and Adapting Strategies"
+        },
+        {
+          "startTime": 1957.0272069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reviewing Progress and Adapting Strategies and Chapter 10 Sustaining Motivation and Building a Growth Mindset"
+        },
+        {
+          "startTime": 2120.725665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Motivation and Building a Growth Mindset and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2562",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T05:31:52.084Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2549",
+  "timestamp": "2025-07-11T04:37:28.061Z",
+  "success": false,
+  "processingTime": -1752208187300,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5494,
+    "totalAudioFiles": 12,
+    "totalDuration": 2777.6035009999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2777.6035009999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2549/optimized_text/2549.md",
+    "fileSize": 884,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "2549.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2549/metadata/2549_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2777.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2549/metadata/2549_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2549/metadata/2549_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2549/2549_complete.wav",
+    "duration": 2777.6035,
+    "fileSize": 133325046,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2549/introduction.wav",
+          "duration": 128.369667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 128.369667,
+          "startTime": 0,
+          "endTime": 128.369667
+        },
+        {
+          "path": "Audio/output/2549/chapter_01.wav",
+          "duration": 230.50875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Crisis: Why Capitalism Can No Longer Deliver",
+          "actualDuration": 230.50875,
+          "startTime": 129.869667,
+          "endTime": 360.378417
+        },
+        {
+          "path": "Audio/output/2549/chapter_02.wav",
+          "duration": 255.250792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Transitional Demands: Bridging Everyday Struggles and Revolutionary Goals",
+          "actualDuration": 255.250792,
+          "startTime": 361.878417,
+          "endTime": 617.129209
+        },
+        {
+          "path": "Audio/output/2549/chapter_03.wav",
+          "duration": 255.90575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Need for Revolutionary Leadership: Why a Vanguard Party Is Essential",
+          "actualDuration": 255.90575,
+          "startTime": 618.629209,
+          "endTime": 874.534959
+        },
+        {
+          "path": "Audio/output/2549/chapter_04.wav",
+          "duration": 299.255125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Mass Action: From Defensive Struggles to Offensive Movements",
+          "actualDuration": 299.255125,
+          "startTime": 876.034959,
+          "endTime": 1175.290084
+        },
+        {
+          "path": "Audio/output/2549/chapter_05.wav",
+          "duration": 241.278208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Exposing the Limits of Reformism: Why Lasting Change Requires Revolution",
+          "actualDuration": 241.278208,
+          "startTime": 1176.790084,
+          "endTime": 1418.068292
+        },
+        {
+          "path": "Audio/output/2549/chapter_06.wav",
+          "duration": 281.2505,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Workers’ Councils and Dual Power: Building the Foundations of a New Society",
+          "actualDuration": 281.2505,
+          "startTime": 1419.568292,
+          "endTime": 1700.818792
+        },
+        {
+          "path": "Audio/output/2549/chapter_07.wav",
+          "duration": 286.824792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fight Against Fascism and Reaction: Defending Democracy and Unity",
+          "actualDuration": 286.824792,
+          "startTime": 1702.318792,
+          "endTime": 1989.143584
+        },
+        {
+          "path": "Audio/output/2549/chapter_08.wav",
+          "duration": 241.733875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Internationalism: The Global Nature of the Struggle",
+          "actualDuration": 241.733875,
+          "startTime": 1990.643584,
+          "endTime": 2232.377459
+        },
+        {
+          "path": "Audio/output/2549/chapter_09.wav",
+          "duration": 213.001542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Transitional Program in Practice: Tactics, Flexibility, and Learning",
+          "actualDuration": 213.001542,
+          "startTime": 2233.877459,
+          "endTime": 2446.879001
+        },
+        {
+          "path": "Audio/output/2549/chapter_10.wav",
+          "duration": 194.25425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Road to Socialist Revolution: Seizing the Moment",
+          "actualDuration": 194.25425,
+          "startTime": 2448.379001,
+          "endTime": 2642.6332509999997
+        },
+        {
+          "path": "Audio/output/2549/conclusion.wav",
+          "duration": 149.97025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.97025,
+          "startTime": 2644.1332509999997,
+          "endTime": 2794.1035009999996
+        }
+      ],
+      "totalDuration": 2794.1035009999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 128.37,
+          "actualStart": 0,
+          "actualEnd": 128.369667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Crisis: Why Capitalism Can No Longer Deliver",
+          "expectedStart": 128.37,
+          "expectedEnd": 358.88,
+          "actualStart": 129.869667,
+          "actualEnd": 360.378417,
+          "timeDifference": 1.499666999999988
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Transitional Demands: Bridging Everyday Struggles and Revolutionary Goals",
+          "expectedStart": 358.88,
+          "expectedEnd": 614.13,
+          "actualStart": 361.878417,
+          "actualEnd": 617.129209,
+          "timeDifference": 2.9984170000000177
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Need for Revolutionary Leadership: Why a Vanguard Party Is Essential",
+          "expectedStart": 614.13,
+          "expectedEnd": 870.04,
+          "actualStart": 618.629209,
+          "actualEnd": 874.534959,
+          "timeDifference": 4.499208999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Mass Action: From Defensive Struggles to Offensive Movements",
+          "expectedStart": 870.04,
+          "expectedEnd": 1169.3,
+          "actualStart": 876.034959,
+          "actualEnd": 1175.290084,
+          "timeDifference": 5.994958999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Exposing the Limits of Reformism: Why Lasting Change Requires Revolution",
+          "expectedStart": 1169.3,
+          "expectedEnd": 1410.58,
+          "actualStart": 1176.790084,
+          "actualEnd": 1418.068292,
+          "timeDifference": 7.490084000000024
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Workers’ Councils and Dual Power: Building the Foundations of a New Society",
+          "expectedStart": 1410.58,
+          "expectedEnd": 1691.83,
+          "actualStart": 1419.568292,
+          "actualEnd": 1700.818792,
+          "timeDifference": 8.988292000000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fight Against Fascism and Reaction: Defending Democracy and Unity",
+          "expectedStart": 1691.83,
+          "expectedEnd": 1978.65,
+          "actualStart": 1702.318792,
+          "actualEnd": 1989.143584,
+          "timeDifference": 10.488792000000103
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Internationalism: The Global Nature of the Struggle",
+          "expectedStart": 1978.65,
+          "expectedEnd": 2220.38,
+          "actualStart": 1990.643584,
+          "actualEnd": 2232.377459,
+          "timeDifference": 11.993583999999828
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Transitional Program in Practice: Tactics, Flexibility, and Learning",
+          "expectedStart": 2220.38,
+          "expectedEnd": 2433.38,
+          "actualStart": 2233.877459,
+          "actualEnd": 2446.879001,
+          "timeDifference": 13.497458999999708
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Road to Socialist Revolution: Seizing the Moment",
+          "expectedStart": 2433.38,
+          "expectedEnd": 2627.63,
+          "actualStart": 2448.379001,
+          "actualEnd": 2642.6332509999997,
+          "timeDifference": 14.99900099999968
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2627.63,
+          "expectedEnd": 2777.6,
+          "actualStart": 2644.1332509999997,
+          "actualEnd": 2794.1035009999996,
+          "timeDifference": 16.503250999999636
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 128.369667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Crisis: Why Capitalism Can No Longer Deliver"
+        },
+        {
+          "startTime": 360.378417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Crisis: Why Capitalism Can No Longer Deliver and Chapter 2 The Role of Transitional Demands: Bridging Everyday Struggles and Revolutionary Goals"
+        },
+        {
+          "startTime": 617.129209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Transitional Demands: Bridging Everyday Struggles and Revolutionary Goals and Chapter 3 The Need for Revolutionary Leadership: Why a Vanguard Party Is Essential"
+        },
+        {
+          "startTime": 874.534959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Need for Revolutionary Leadership: Why a Vanguard Party Is Essential and Chapter 4 Building Mass Action: From Defensive Struggles to Offensive Movements"
+        },
+        {
+          "startTime": 1175.290084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Mass Action: From Defensive Struggles to Offensive Movements and Chapter 5 Exposing the Limits of Reformism: Why Lasting Change Requires Revolution"
+        },
+        {
+          "startTime": 1418.068292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Exposing the Limits of Reformism: Why Lasting Change Requires Revolution and Chapter 6 Workers’ Councils and Dual Power: Building the Foundations of a New Society"
+        },
+        {
+          "startTime": 1700.818792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Workers’ Councils and Dual Power: Building the Foundations of a New Society and Chapter 7 The Fight Against Fascism and Reaction: Defending Democracy and Unity"
+        },
+        {
+          "startTime": 1989.143584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fight Against Fascism and Reaction: Defending Democracy and Unity and Chapter 8 Internationalism: The Global Nature of the Struggle"
+        },
+        {
+          "startTime": 2232.377459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Internationalism: The Global Nature of the Struggle and Chapter 9 The Transitional Program in Practice: Tactics, Flexibility, and Learning"
+        },
+        {
+          "startTime": 2446.879001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Transitional Program in Practice: Tactics, Flexibility, and Learning and Chapter 10 The Road to Socialist Revolution: Seizing the Moment"
+        },
+        {
+          "startTime": 2642.6332509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Road to Socialist Revolution: Seizing the Moment and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2549",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:29:48.817Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

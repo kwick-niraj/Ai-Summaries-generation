@@ -1,0 +1,504 @@
+{
+  "bookId": "2470",
+  "timestamp": "2025-07-11T00:15:29.845Z",
+  "success": false,
+  "processingTime": -1752192590234,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5023,
+    "totalAudioFiles": 14,
+    "totalDuration": 2327.6036240000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2327.6036240000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2470/optimized_text/2470.md",
+    "fileSize": 751,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2470.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2470/metadata/2470_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2327.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2470/metadata/2470_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2470/metadata/2470_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2470/2470_complete.wav",
+    "duration": 2327.603625,
+    "fileSize": 111725052,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2470/introduction.wav",
+          "duration": 80.919083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.919083,
+          "startTime": 0,
+          "endTime": 80.919083
+        },
+        {
+          "path": "Audio/output/2470/chapter_01.wav",
+          "duration": 223.112708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Ancient Voices in the Desert",
+          "actualDuration": 223.112708,
+          "startTime": 82.419083,
+          "endTime": 305.531791
+        },
+        {
+          "path": "Audio/output/2470/chapter_02.wav",
+          "duration": 210.278167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life and Rituals in the Qumran Community",
+          "actualDuration": 210.278167,
+          "startTime": 307.031791,
+          "endTime": 517.309958
+        },
+        {
+          "path": "Audio/output/2470/chapter_03.wav",
+          "duration": 221.070875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Sacred Texts and the Art of Interpretation",
+          "actualDuration": 221.070875,
+          "startTime": 518.809958,
+          "endTime": 739.880833
+        },
+        {
+          "path": "Audio/output/2470/chapter_04.wav",
+          "duration": 202.536625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Laws, Purity, and the Boundaries of Belonging",
+          "actualDuration": 202.536625,
+          "startTime": 741.380833,
+          "endTime": 943.917458
+        },
+        {
+          "path": "Audio/output/2470/chapter_05.wav",
+          "duration": 215.95425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Messianic Hopes and Visions of the End",
+          "actualDuration": 215.95425,
+          "startTime": 945.417458,
+          "endTime": 1161.3717080000001
+        },
+        {
+          "path": "Audio/output/2470/chapter_06.wav",
+          "duration": 174.183917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Diversity and Disagreement in Ancient Judaism",
+          "actualDuration": 174.183917,
+          "startTime": 1162.8717080000001,
+          "endTime": 1337.0556250000002
+        },
+        {
+          "path": "Audio/output/2470/chapter_07.wav",
+          "duration": 192.656208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Transmission, Preservation, and the Fragility of Memory",
+          "actualDuration": 192.656208,
+          "startTime": 1338.5556250000002,
+          "endTime": 1531.2118330000003
+        },
+        {
+          "path": "Audio/output/2470/chapter_08.wav",
+          "duration": 142.499708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Women, Family, and Everyday Life",
+          "actualDuration": 142.499708,
+          "startTime": 1532.7118330000003,
+          "endTime": 1675.2115410000004
+        },
+        {
+          "path": "Audio/output/2470/chapter_09.wav",
+          "duration": 138.337333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Songs, Prayers, and the Search for the Divine",
+          "actualDuration": 138.337333,
+          "startTime": 1676.7115410000004,
+          "endTime": 1815.0488740000003
+        },
+        {
+          "path": "Audio/output/2470/chapter_10.wav",
+          "duration": 119.407042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Conflict, Crisis, and the End of the Qumran Community",
+          "actualDuration": 119.407042,
+          "startTime": 1816.5488740000003,
+          "endTime": 1935.9559160000003
+        },
+        {
+          "path": "Audio/output/2470/chapter_11.wav",
+          "duration": 145.940042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Scrolls Rediscovered—A Modern Journey",
+          "actualDuration": 145.940042,
+          "startTime": 1937.4559160000003,
+          "endTime": 2083.3959580000005
+        },
+        {
+          "path": "Audio/output/2470/chapter_12.wav",
+          "duration": 130.134333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Legacy of the Dead Sea Scrolls",
+          "actualDuration": 130.134333,
+          "startTime": 2084.8959580000005,
+          "endTime": 2215.0302910000005
+        },
+        {
+          "path": "Audio/output/2470/conclusion.wav",
+          "duration": 130.573333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.573333,
+          "startTime": 2216.5302910000005,
+          "endTime": 2347.1036240000003
+        }
+      ],
+      "totalDuration": 2347.1036240000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.92,
+          "actualStart": 0,
+          "actualEnd": 80.919083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Ancient Voices in the Desert",
+          "expectedStart": 80.92,
+          "expectedEnd": 304.03,
+          "actualStart": 82.419083,
+          "actualEnd": 305.531791,
+          "timeDifference": 1.4990829999999988
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life and Rituals in the Qumran Community",
+          "expectedStart": 304.03,
+          "expectedEnd": 514.31,
+          "actualStart": 307.031791,
+          "actualEnd": 517.309958,
+          "timeDifference": 3.0017910000000256
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Sacred Texts and the Art of Interpretation",
+          "expectedStart": 514.31,
+          "expectedEnd": 735.38,
+          "actualStart": 518.809958,
+          "actualEnd": 739.880833,
+          "timeDifference": 4.499958000000106
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Laws, Purity, and the Boundaries of Belonging",
+          "expectedStart": 735.38,
+          "expectedEnd": 937.92,
+          "actualStart": 741.380833,
+          "actualEnd": 943.917458,
+          "timeDifference": 6.000833000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Messianic Hopes and Visions of the End",
+          "expectedStart": 937.92,
+          "expectedEnd": 1153.87,
+          "actualStart": 945.417458,
+          "actualEnd": 1161.3717080000001,
+          "timeDifference": 7.4974580000000515
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Diversity and Disagreement in Ancient Judaism",
+          "expectedStart": 1153.87,
+          "expectedEnd": 1328.05,
+          "actualStart": 1162.8717080000001,
+          "actualEnd": 1337.0556250000002,
+          "timeDifference": 9.001708000000235
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Transmission, Preservation, and the Fragility of Memory",
+          "expectedStart": 1328.05,
+          "expectedEnd": 1520.71,
+          "actualStart": 1338.5556250000002,
+          "actualEnd": 1531.2118330000003,
+          "timeDifference": 10.505625000000236
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Women, Family, and Everyday Life",
+          "expectedStart": 1520.71,
+          "expectedEnd": 1663.21,
+          "actualStart": 1532.7118330000003,
+          "actualEnd": 1675.2115410000004,
+          "timeDifference": 12.00183300000026
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Songs, Prayers, and the Search for the Divine",
+          "expectedStart": 1663.21,
+          "expectedEnd": 1801.55,
+          "actualStart": 1676.7115410000004,
+          "actualEnd": 1815.0488740000003,
+          "timeDifference": 13.501541000000316
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Conflict, Crisis, and the End of the Qumran Community",
+          "expectedStart": 1801.55,
+          "expectedEnd": 1920.96,
+          "actualStart": 1816.5488740000003,
+          "actualEnd": 1935.9559160000003,
+          "timeDifference": 14.998874000000342
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Scrolls Rediscovered—A Modern Journey",
+          "expectedStart": 1920.96,
+          "expectedEnd": 2066.9,
+          "actualStart": 1937.4559160000003,
+          "actualEnd": 2083.3959580000005,
+          "timeDifference": 16.495916000000307
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Legacy of the Dead Sea Scrolls",
+          "expectedStart": 2066.9,
+          "expectedEnd": 2197.03,
+          "actualStart": 2084.8959580000005,
+          "actualEnd": 2215.0302910000005,
+          "timeDifference": 17.995958000000428
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2197.03,
+          "expectedEnd": 2327.6,
+          "actualStart": 2216.5302910000005,
+          "actualEnd": 2347.1036240000003,
+          "timeDifference": 19.50029100000029
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.919083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Ancient Voices in the Desert"
+        },
+        {
+          "startTime": 305.531791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Ancient Voices in the Desert and Chapter 2 Life and Rituals in the Qumran Community"
+        },
+        {
+          "startTime": 517.309958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life and Rituals in the Qumran Community and Chapter 3 Sacred Texts and the Art of Interpretation"
+        },
+        {
+          "startTime": 739.880833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Sacred Texts and the Art of Interpretation and Chapter 4 Laws, Purity, and the Boundaries of Belonging"
+        },
+        {
+          "startTime": 943.917458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Laws, Purity, and the Boundaries of Belonging and Chapter 5 Messianic Hopes and Visions of the End"
+        },
+        {
+          "startTime": 1161.3717080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Messianic Hopes and Visions of the End and Chapter 6 Diversity and Disagreement in Ancient Judaism"
+        },
+        {
+          "startTime": 1337.0556250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Diversity and Disagreement in Ancient Judaism and Chapter 7 Transmission, Preservation, and the Fragility of Memory"
+        },
+        {
+          "startTime": 1531.2118330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Transmission, Preservation, and the Fragility of Memory and Chapter 8 Women, Family, and Everyday Life"
+        },
+        {
+          "startTime": 1675.2115410000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Women, Family, and Everyday Life and Chapter 9 Songs, Prayers, and the Search for the Divine"
+        },
+        {
+          "startTime": 1815.0488740000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Songs, Prayers, and the Search for the Divine and Chapter 10 Conflict, Crisis, and the End of the Qumran Community"
+        },
+        {
+          "startTime": 1935.9559160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Conflict, Crisis, and the End of the Qumran Community and Chapter 11 The Scrolls Rediscovered—A Modern Journey"
+        },
+        {
+          "startTime": 2083.3959580000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Scrolls Rediscovered—A Modern Journey and Chapter 12 The Legacy of the Dead Sea Scrolls"
+        },
+        {
+          "startTime": 2215.0302910000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Legacy of the Dead Sea Scrolls and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2470",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:09:51.847Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

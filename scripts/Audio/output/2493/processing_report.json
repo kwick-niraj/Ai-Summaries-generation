@@ -1,0 +1,456 @@
+{
+  "bookId": "2493",
+  "timestamp": "2025-07-11T01:26:50.958Z",
+  "success": false,
+  "processingTime": -1752196795908,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4389,
+    "totalAudioFiles": 12,
+    "totalDuration": 2124.5250419999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2124.5250419999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2493/optimized_text/2493.md",
+    "fileSize": 900,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "2493.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2493/metadata/2493_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2124.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2493/metadata/2493_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2493/metadata/2493_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2493/2493_complete.wav",
+    "duration": 2124.525042,
+    "fileSize": 101977280,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2493/introduction.wav",
+          "duration": 88.371417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.371417,
+          "startTime": 0,
+          "endTime": 88.371417
+        },
+        {
+          "path": "Audio/output/2493/chapter_01.wav",
+          "duration": 216.901667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking How Businesses Work: The Case for Open-Book Management",
+          "actualDuration": 216.901667,
+          "startTime": 89.871417,
+          "endTime": 306.773084
+        },
+        {
+          "path": "Audio/output/2493/chapter_02.wav",
+          "duration": 216.399708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Teaching the Rules: Building Financial Literacy for Everyone",
+          "actualDuration": 216.399708,
+          "startTime": 308.273084,
+          "endTime": 524.672792
+        },
+        {
+          "path": "Audio/output/2493/chapter_03.wav",
+          "duration": 228.497625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creating a Culture of Ownership: Involvement, Accountability, and Shared Success",
+          "actualDuration": 228.497625,
+          "startTime": 526.172792,
+          "endTime": 754.6704169999999
+        },
+        {
+          "path": "Audio/output/2493/chapter_04.wav",
+          "duration": 230.7485,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Keeping Everyone Aligned: The Power of Regular Huddles and Open Communication",
+          "actualDuration": 230.7485,
+          "startTime": 756.1704169999999,
+          "endTime": 986.918917
+        },
+        {
+          "path": "Audio/output/2493/chapter_05.wav",
+          "duration": 200.060542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Linking Rewards to Results: Profit Sharing and the Motivation to Win",
+          "actualDuration": 200.060542,
+          "startTime": 988.418917,
+          "endTime": 1188.479459
+        },
+        {
+          "path": "Audio/output/2493/chapter_06.wav",
+          "duration": 196.795292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining the System: Building Habits and Guardrails for Long-Term Success",
+          "actualDuration": 196.795292,
+          "startTime": 1189.979459,
+          "endTime": 1386.774751
+        },
+        {
+          "path": "Audio/output/2493/chapter_07.wav",
+          "duration": 180.965333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Setbacks: Addressing Resistance and Learning from Failure",
+          "actualDuration": 180.965333,
+          "startTime": 1388.274751,
+          "endTime": 1569.240084
+        },
+        {
+          "path": "Audio/output/2493/chapter_08.wav",
+          "duration": 164.563208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Scaling the Approach: Adapting Open-Book Management to Different Teams and Organizations",
+          "actualDuration": 164.563208,
+          "startTime": 1570.740084,
+          "endTime": 1735.303292
+        },
+        {
+          "path": "Audio/output/2493/chapter_09.wav",
+          "duration": 151.46375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Measuring Impact: Tracking Results and Refining the System",
+          "actualDuration": 151.46375,
+          "startTime": 1736.803292,
+          "endTime": 1888.267042
+        },
+        {
+          "path": "Audio/output/2493/chapter_10.wav",
+          "duration": 129.4755,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Side: Trust, Meaning, and the Spirit of the Game",
+          "actualDuration": 129.4755,
+          "startTime": 1889.767042,
+          "endTime": 2019.242542
+        },
+        {
+          "path": "Audio/output/2493/conclusion.wav",
+          "duration": 120.2825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.2825,
+          "startTime": 2020.742542,
+          "endTime": 2141.0250419999998
+        }
+      ],
+      "totalDuration": 2141.0250419999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.37,
+          "actualStart": 0,
+          "actualEnd": 88.371417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking How Businesses Work: The Case for Open-Book Management",
+          "expectedStart": 88.37,
+          "expectedEnd": 305.27,
+          "actualStart": 89.871417,
+          "actualEnd": 306.773084,
+          "timeDifference": 1.5014169999999893
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Teaching the Rules: Building Financial Literacy for Everyone",
+          "expectedStart": 305.27,
+          "expectedEnd": 521.67,
+          "actualStart": 308.273084,
+          "actualEnd": 524.672792,
+          "timeDifference": 3.003084000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creating a Culture of Ownership: Involvement, Accountability, and Shared Success",
+          "expectedStart": 521.67,
+          "expectedEnd": 750.17,
+          "actualStart": 526.172792,
+          "actualEnd": 754.6704169999999,
+          "timeDifference": 4.5027919999999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Keeping Everyone Aligned: The Power of Regular Huddles and Open Communication",
+          "expectedStart": 750.17,
+          "expectedEnd": 980.92,
+          "actualStart": 756.1704169999999,
+          "actualEnd": 986.918917,
+          "timeDifference": 6.00041699999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Linking Rewards to Results: Profit Sharing and the Motivation to Win",
+          "expectedStart": 980.92,
+          "expectedEnd": 1180.98,
+          "actualStart": 988.418917,
+          "actualEnd": 1188.479459,
+          "timeDifference": 7.498917000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining the System: Building Habits and Guardrails for Long-Term Success",
+          "expectedStart": 1180.98,
+          "expectedEnd": 1377.78,
+          "actualStart": 1189.979459,
+          "actualEnd": 1386.774751,
+          "timeDifference": 8.999458999999888
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Setbacks: Addressing Resistance and Learning from Failure",
+          "expectedStart": 1377.78,
+          "expectedEnd": 1558.75,
+          "actualStart": 1388.274751,
+          "actualEnd": 1569.240084,
+          "timeDifference": 10.494750999999951
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Scaling the Approach: Adapting Open-Book Management to Different Teams and Organizations",
+          "expectedStart": 1558.75,
+          "expectedEnd": 1723.31,
+          "actualStart": 1570.740084,
+          "actualEnd": 1735.303292,
+          "timeDifference": 11.990084000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Measuring Impact: Tracking Results and Refining the System",
+          "expectedStart": 1723.31,
+          "expectedEnd": 1874.77,
+          "actualStart": 1736.803292,
+          "actualEnd": 1888.267042,
+          "timeDifference": 13.49329200000011
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Side: Trust, Meaning, and the Spirit of the Game",
+          "expectedStart": 1874.77,
+          "expectedEnd": 2004.25,
+          "actualStart": 1889.767042,
+          "actualEnd": 2019.242542,
+          "timeDifference": 14.997041999999965
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2004.25,
+          "expectedEnd": 2124.53,
+          "actualStart": 2020.742542,
+          "actualEnd": 2141.0250419999998,
+          "timeDifference": 16.492541999999958
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.371417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking How Businesses Work: The Case for Open-Book Management"
+        },
+        {
+          "startTime": 306.773084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking How Businesses Work: The Case for Open-Book Management and Chapter 2 Teaching the Rules: Building Financial Literacy for Everyone"
+        },
+        {
+          "startTime": 524.672792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Teaching the Rules: Building Financial Literacy for Everyone and Chapter 3 Creating a Culture of Ownership: Involvement, Accountability, and Shared Success"
+        },
+        {
+          "startTime": 754.6704169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creating a Culture of Ownership: Involvement, Accountability, and Shared Success and Chapter 4 Keeping Everyone Aligned: The Power of Regular Huddles and Open Communication"
+        },
+        {
+          "startTime": 986.918917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Keeping Everyone Aligned: The Power of Regular Huddles and Open Communication and Chapter 5 Linking Rewards to Results: Profit Sharing and the Motivation to Win"
+        },
+        {
+          "startTime": 1188.479459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Linking Rewards to Results: Profit Sharing and the Motivation to Win and Chapter 6 Sustaining the System: Building Habits and Guardrails for Long-Term Success"
+        },
+        {
+          "startTime": 1386.774751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining the System: Building Habits and Guardrails for Long-Term Success and Chapter 7 Navigating Setbacks: Addressing Resistance and Learning from Failure"
+        },
+        {
+          "startTime": 1569.240084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Setbacks: Addressing Resistance and Learning from Failure and Chapter 8 Scaling the Approach: Adapting Open-Book Management to Different Teams and Organizations"
+        },
+        {
+          "startTime": 1735.303292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Scaling the Approach: Adapting Open-Book Management to Different Teams and Organizations and Chapter 9 Measuring Impact: Tracking Results and Refining the System"
+        },
+        {
+          "startTime": 1888.267042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Measuring Impact: Tracking Results and Refining the System and Chapter 10 The Human Side: Trust, Meaning, and the Spirit of the Game"
+        },
+        {
+          "startTime": 2019.242542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Side: Trust, Meaning, and the Spirit of the Game and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2493",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:19:56.445Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

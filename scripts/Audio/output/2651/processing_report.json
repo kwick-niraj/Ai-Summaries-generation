@@ -1,0 +1,432 @@
+{
+  "bookId": "2651",
+  "timestamp": "2025-07-12T08:23:19.166Z",
+  "success": false,
+  "processingTime": -1752308175401,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4373,
+    "totalAudioFiles": 12,
+    "totalDuration": 1949.9402910000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1949.9402910000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2651/optimized_text/2651.md",
+    "fileSize": 627,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2651.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2651/metadata/2651_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1949.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2651/metadata/2651_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2651/metadata/2651_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2651/2651_complete.wav",
+    "duration": 1949.940292,
+    "fileSize": 93597212,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2651/introduction.wav",
+          "duration": 107.172625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.172625,
+          "startTime": 0,
+          "endTime": 107.172625
+        },
+        {
+          "path": "Audio/output/2651/chapter_01.wav",
+          "duration": 249.714542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Without a Name for Difference",
+          "actualDuration": 249.714542,
+          "startTime": 108.672625,
+          "endTime": 358.387167
+        },
+        {
+          "path": "Audio/output/2651/chapter_03.wav",
+          "duration": 232.116333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating a World Built for Others",
+          "actualDuration": 232.116333,
+          "startTime": 359.887167,
+          "endTime": 592.0035
+        },
+        {
+          "path": "Audio/output/2651/chapter_04.wav",
+          "duration": 219.83325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Discovering Strengths and Building a Life",
+          "actualDuration": 219.83325,
+          "startTime": 593.5035,
+          "endTime": 813.33675
+        },
+        {
+          "path": "Audio/output/2651/chapter_05.wav",
+          "duration": 187.409583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Understanding and the Gift of Diagnosis",
+          "actualDuration": 187.409583,
+          "startTime": 814.83675,
+          "endTime": 1002.246333
+        },
+        {
+          "path": "Audio/output/2651/chapter_06.wav",
+          "duration": 191.243042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Finding a Place in the World",
+          "actualDuration": 191.243042,
+          "startTime": 1003.746333,
+          "endTime": 1194.989375
+        },
+        {
+          "path": "Audio/output/2651/chapter_07.wav",
+          "duration": 203.966833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Friendship, and the Challenge of Intimacy",
+          "actualDuration": 203.966833,
+          "startTime": 1196.489375,
+          "endTime": 1400.456208
+        },
+        {
+          "path": "Audio/output/2651/chapter_08.wav",
+          "duration": 164.386208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Advocacy and Sharing the Story",
+          "actualDuration": 164.386208,
+          "startTime": 1401.956208,
+          "endTime": 1566.342416
+        },
+        {
+          "path": "Audio/output/2651/chapter_09.wav",
+          "duration": 141.104917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey of Self-Acceptance",
+          "actualDuration": 141.104917,
+          "startTime": 1567.842416,
+          "endTime": 1708.947333
+        },
+        {
+          "path": "Audio/output/2651/chapter_10.wav",
+          "duration": 132.244833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Hope, Change, and the Value of Difference",
+          "actualDuration": 132.244833,
+          "startTime": 1710.447333,
+          "endTime": 1842.692166
+        },
+        {
+          "path": "Audio/output/2651/conclusion.wav",
+          "duration": 120.748125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.748125,
+          "startTime": 1844.192166,
+          "endTime": 1964.9402910000001
+        }
+      ],
+      "totalDuration": 1964.9402910000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.17,
+          "actualStart": 0,
+          "actualEnd": 107.172625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Without a Name for Difference",
+          "expectedStart": 107.17,
+          "expectedEnd": 356.88,
+          "actualStart": 108.672625,
+          "actualEnd": 358.387167,
+          "timeDifference": 1.5026249999999948
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating a World Built for Others",
+          "expectedStart": 356.88,
+          "expectedEnd": 589,
+          "actualStart": 359.887167,
+          "actualEnd": 592.0035,
+          "timeDifference": 3.0071669999999813
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Discovering Strengths and Building a Life",
+          "expectedStart": 589,
+          "expectedEnd": 808.83,
+          "actualStart": 593.5035,
+          "actualEnd": 813.33675,
+          "timeDifference": 4.503500000000031
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Understanding and the Gift of Diagnosis",
+          "expectedStart": 808.83,
+          "expectedEnd": 996.24,
+          "actualStart": 814.83675,
+          "actualEnd": 1002.246333,
+          "timeDifference": 6.006750000000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Finding a Place in the World",
+          "expectedStart": 996.24,
+          "expectedEnd": 1187.48,
+          "actualStart": 1003.746333,
+          "actualEnd": 1194.989375,
+          "timeDifference": 7.506333000000041
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Friendship, and the Challenge of Intimacy",
+          "expectedStart": 1187.48,
+          "expectedEnd": 1391.45,
+          "actualStart": 1196.489375,
+          "actualEnd": 1400.456208,
+          "timeDifference": 9.009375000000091
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Advocacy and Sharing the Story",
+          "expectedStart": 1391.45,
+          "expectedEnd": 1555.84,
+          "actualStart": 1401.956208,
+          "actualEnd": 1566.342416,
+          "timeDifference": 10.506208000000015
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey of Self-Acceptance",
+          "expectedStart": 1555.84,
+          "expectedEnd": 1696.94,
+          "actualStart": 1567.842416,
+          "actualEnd": 1708.947333,
+          "timeDifference": 12.00241600000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Hope, Change, and the Value of Difference",
+          "expectedStart": 1696.94,
+          "expectedEnd": 1829.18,
+          "actualStart": 1710.447333,
+          "actualEnd": 1842.692166,
+          "timeDifference": 13.507333000000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1829.18,
+          "expectedEnd": 1949.93,
+          "actualStart": 1844.192166,
+          "actualEnd": 1964.9402910000001,
+          "timeDifference": 15.01216599999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.172625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Without a Name for Difference"
+        },
+        {
+          "startTime": 358.387167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Without a Name for Difference and Chapter 3 Navigating a World Built for Others"
+        },
+        {
+          "startTime": 592.0035,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating a World Built for Others and Chapter 4 Discovering Strengths and Building a Life"
+        },
+        {
+          "startTime": 813.33675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Discovering Strengths and Building a Life and Chapter 5 The Power of Understanding and the Gift of Diagnosis"
+        },
+        {
+          "startTime": 1002.246333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Understanding and the Gift of Diagnosis and Chapter 6 Finding a Place in the World"
+        },
+        {
+          "startTime": 1194.989375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Finding a Place in the World and Chapter 7 Love, Friendship, and the Challenge of Intimacy"
+        },
+        {
+          "startTime": 1400.456208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Friendship, and the Challenge of Intimacy and Chapter 8 Embracing Advocacy and Sharing the Story"
+        },
+        {
+          "startTime": 1566.342416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Advocacy and Sharing the Story and Chapter 9 The Ongoing Journey of Self-Acceptance"
+        },
+        {
+          "startTime": 1708.947333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey of Self-Acceptance and Chapter 10 Looking Forward: Hope, Change, and the Value of Difference"
+        },
+        {
+          "startTime": 1842.692166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Hope, Change, and the Value of Difference and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2651",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:16:16.577Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

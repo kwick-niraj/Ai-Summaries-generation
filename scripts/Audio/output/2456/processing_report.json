@@ -1,0 +1,456 @@
+{
+  "bookId": "2456",
+  "timestamp": "2025-07-10T23:22:14.671Z",
+  "success": false,
+  "processingTime": -1752189483423,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4290,
+    "totalAudioFiles": 12,
+    "totalDuration": 2030.3977089999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2030.3977089999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2456/optimized_text/2456.md",
+    "fileSize": 540,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "2456.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2456/metadata/2456_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2030.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2456/metadata/2456_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2456/metadata/2456_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2456/2456_complete.wav",
+    "duration": 2030.397708,
+    "fileSize": 97459168,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2456/introduction.wav",
+          "duration": 102.935375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.935375,
+          "startTime": 0,
+          "endTime": 102.935375
+        },
+        {
+          "path": "Audio/output/2456/chapter_01.wav",
+          "duration": 190.93875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeds of Ambition and the Search for Belonging",
+          "actualDuration": 190.93875,
+          "startTime": 104.435375,
+          "endTime": 295.374125
+        },
+        {
+          "path": "Audio/output/2456/chapter_02.wav",
+          "duration": 242.30425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First Steps Toward Disruption",
+          "actualDuration": 242.30425,
+          "startTime": 296.874125,
+          "endTime": 539.178375
+        },
+        {
+          "path": "Audio/output/2456/chapter_03.wav",
+          "duration": 230.521917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Birth of a New Social Network",
+          "actualDuration": 230.521917,
+          "startTime": 540.678375,
+          "endTime": 771.200292
+        },
+        {
+          "path": "Audio/output/2456/chapter_04.wav",
+          "duration": 235.302917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Growth, Opportunity, and the First Signs of Betrayal",
+          "actualDuration": 235.302917,
+          "startTime": 772.700292,
+          "endTime": 1008.003209
+        },
+        {
+          "path": "Audio/output/2456/chapter_05.wav",
+          "duration": 244.688833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Tipping Point—From Campus Project to Global Phenomenon",
+          "actualDuration": 244.688833,
+          "startTime": 1009.503209,
+          "endTime": 1254.192042
+        },
+        {
+          "path": "Audio/output/2456/chapter_06.wav",
+          "duration": 182.080375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 New Players, New Pressures",
+          "actualDuration": 182.080375,
+          "startTime": 1255.692042,
+          "endTime": 1437.772417
+        },
+        {
+          "path": "Audio/output/2456/chapter_07.wav",
+          "duration": 141.806375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Ambition",
+          "actualDuration": 141.806375,
+          "startTime": 1439.272417,
+          "endTime": 1581.0787919999998
+        },
+        {
+          "path": "Audio/output/2456/chapter_08.wav",
+          "duration": 110.245125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Breaking Points and Broken Bonds",
+          "actualDuration": 110.245125,
+          "startTime": 1582.5787919999998,
+          "endTime": 1692.8239169999997
+        },
+        {
+          "path": "Audio/output/2456/chapter_09.wav",
+          "duration": 118.662,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The World Watches",
+          "actualDuration": 118.662,
+          "startTime": 1694.3239169999997,
+          "endTime": 1812.9859169999997
+        },
+        {
+          "path": "Audio/output/2456/chapter_10.wav",
+          "duration": 100.727292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Lessons",
+          "actualDuration": 100.727292,
+          "startTime": 1814.4859169999997,
+          "endTime": 1915.2132089999998
+        },
+        {
+          "path": "Audio/output/2456/conclusion.wav",
+          "duration": 130.1845,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.1845,
+          "startTime": 1916.7132089999998,
+          "endTime": 2046.8977089999998
+        }
+      ],
+      "totalDuration": 2046.8977089999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.94,
+          "actualStart": 0,
+          "actualEnd": 102.935375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeds of Ambition and the Search for Belonging",
+          "expectedStart": 102.94,
+          "expectedEnd": 293.88,
+          "actualStart": 104.435375,
+          "actualEnd": 295.374125,
+          "timeDifference": 1.4953749999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First Steps Toward Disruption",
+          "expectedStart": 293.88,
+          "expectedEnd": 536.18,
+          "actualStart": 296.874125,
+          "actualEnd": 539.178375,
+          "timeDifference": 2.994124999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Birth of a New Social Network",
+          "expectedStart": 536.18,
+          "expectedEnd": 766.7,
+          "actualStart": 540.678375,
+          "actualEnd": 771.200292,
+          "timeDifference": 4.49837500000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Growth, Opportunity, and the First Signs of Betrayal",
+          "expectedStart": 766.7,
+          "expectedEnd": 1002,
+          "actualStart": 772.700292,
+          "actualEnd": 1008.003209,
+          "timeDifference": 6.000291999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Tipping Point—From Campus Project to Global Phenomenon",
+          "expectedStart": 1002,
+          "expectedEnd": 1246.69,
+          "actualStart": 1009.503209,
+          "actualEnd": 1254.192042,
+          "timeDifference": 7.50320899999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 New Players, New Pressures",
+          "expectedStart": 1246.69,
+          "expectedEnd": 1428.77,
+          "actualStart": 1255.692042,
+          "actualEnd": 1437.772417,
+          "timeDifference": 9.002041999999847
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Ambition",
+          "expectedStart": 1428.77,
+          "expectedEnd": 1570.58,
+          "actualStart": 1439.272417,
+          "actualEnd": 1581.0787919999998,
+          "timeDifference": 10.502416999999923
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Breaking Points and Broken Bonds",
+          "expectedStart": 1570.58,
+          "expectedEnd": 1680.83,
+          "actualStart": 1582.5787919999998,
+          "actualEnd": 1692.8239169999997,
+          "timeDifference": 11.998791999999867
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The World Watches",
+          "expectedStart": 1680.83,
+          "expectedEnd": 1799.49,
+          "actualStart": 1694.3239169999997,
+          "actualEnd": 1812.9859169999997,
+          "timeDifference": 13.493916999999783
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Lessons",
+          "expectedStart": 1799.49,
+          "expectedEnd": 1900.22,
+          "actualStart": 1814.4859169999997,
+          "actualEnd": 1915.2132089999998,
+          "timeDifference": 14.995916999999736
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1900.22,
+          "expectedEnd": 2030.4,
+          "actualStart": 1916.7132089999998,
+          "actualEnd": 2046.8977089999998,
+          "timeDifference": 16.49320899999975
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.935375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeds of Ambition and the Search for Belonging"
+        },
+        {
+          "startTime": 295.374125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeds of Ambition and the Search for Belonging and Chapter 2 The First Steps Toward Disruption"
+        },
+        {
+          "startTime": 539.178375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First Steps Toward Disruption and Chapter 3 The Birth of a New Social Network"
+        },
+        {
+          "startTime": 771.200292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Birth of a New Social Network and Chapter 4 Growth, Opportunity, and the First Signs of Betrayal"
+        },
+        {
+          "startTime": 1008.003209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Growth, Opportunity, and the First Signs of Betrayal and Chapter 5 The Tipping Point—From Campus Project to Global Phenomenon"
+        },
+        {
+          "startTime": 1254.192042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Tipping Point—From Campus Project to Global Phenomenon and Chapter 6 New Players, New Pressures"
+        },
+        {
+          "startTime": 1437.772417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 New Players, New Pressures and Chapter 7 The Cost of Ambition"
+        },
+        {
+          "startTime": 1581.0787919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Ambition and Chapter 8 Breaking Points and Broken Bonds"
+        },
+        {
+          "startTime": 1692.8239169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Breaking Points and Broken Bonds and Chapter 9 The World Watches"
+        },
+        {
+          "startTime": 1812.9859169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The World Watches and Chapter 10 Legacy and Lessons"
+        },
+        {
+          "startTime": 1915.2132089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Lessons and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2456",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:18:05.049Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

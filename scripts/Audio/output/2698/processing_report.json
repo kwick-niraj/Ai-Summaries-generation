@@ -1,0 +1,456 @@
+{
+  "bookId": "2698",
+  "timestamp": "2025-07-12T11:40:47.848Z",
+  "success": false,
+  "processingTime": -1752320219391,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4599,
+    "totalAudioFiles": 12,
+    "totalDuration": 2151.338666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2151.338666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2698/optimized_text/2698.md",
+    "fileSize": 781,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "2698.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2698/metadata/2698_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2151.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2698/metadata/2698_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2698/metadata/2698_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2698/2698_complete.wav",
+    "duration": 2151.338667,
+    "fileSize": 103264334,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2698/introduction.wav",
+          "duration": 117.163583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 117.163583,
+          "startTime": 0,
+          "endTime": 117.163583
+        },
+        {
+          "path": "Audio/output/2698/chapter_01.wav",
+          "duration": 226.010542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Injustice: Early Encounters with the System",
+          "actualDuration": 226.010542,
+          "startTime": 118.663583,
+          "endTime": 344.674125
+        },
+        {
+          "path": "Audio/output/2698/chapter_02.wav",
+          "duration": 264.435083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Case of Walter McMillian: A Town’s Prejudice and a Man’s Fight",
+          "actualDuration": 264.435083,
+          "startTime": 346.174125,
+          "endTime": 610.6092080000001
+        },
+        {
+          "path": "Audio/output/2698/chapter_03.wav",
+          "duration": 200.991792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Poverty and Race: Who Gets Punished and Why",
+          "actualDuration": 200.991792,
+          "startTime": 612.1092080000001,
+          "endTime": 813.1010000000001
+        },
+        {
+          "path": "Audio/output/2698/chapter_04.wav",
+          "duration": 183.169667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Children in the Crosshairs: Harsh Sentences for the Young",
+          "actualDuration": 183.169667,
+          "startTime": 814.6010000000001,
+          "endTime": 997.7706670000001
+        },
+        {
+          "path": "Audio/output/2698/chapter_05.wav",
+          "duration": 192.372583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Death Penalty: Finality, Error, and the Cost of Unforgiving Justice",
+          "actualDuration": 192.372583,
+          "startTime": 999.2706670000001,
+          "endTime": 1191.64325
+        },
+        {
+          "path": "Audio/output/2698/chapter_06.wav",
+          "duration": 188.923458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Broken by the System: The Hidden Toll of Incarceration",
+          "actualDuration": 188.923458,
+          "startTime": 1193.14325,
+          "endTime": 1382.066708
+        },
+        {
+          "path": "Audio/output/2698/chapter_07.wav",
+          "duration": 150.7305,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Redemption: Stories of Change and Hope",
+          "actualDuration": 150.7305,
+          "startTime": 1383.566708,
+          "endTime": 1534.297208
+        },
+        {
+          "path": "Audio/output/2698/chapter_08.wav",
+          "duration": 171.987417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Advocacy: Standing Up When Others Stay Silent",
+          "actualDuration": 171.987417,
+          "startTime": 1535.797208,
+          "endTime": 1707.784625
+        },
+        {
+          "path": "Audio/output/2698/chapter_09.wav",
+          "duration": 170.381583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing and Forgiveness: The Other Side of Justice",
+          "actualDuration": 170.381583,
+          "startTime": 1709.284625,
+          "endTime": 1879.666208
+        },
+        {
+          "path": "Audio/output/2698/chapter_10.wav",
+          "duration": 158.704083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a More Merciful Future: Lessons and Possibilities",
+          "actualDuration": 158.704083,
+          "startTime": 1881.166208,
+          "endTime": 2039.8702910000002
+        },
+        {
+          "path": "Audio/output/2698/conclusion.wav",
+          "duration": 126.468375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.468375,
+          "startTime": 2041.3702910000002,
+          "endTime": 2167.838666
+        }
+      ],
+      "totalDuration": 2167.838666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 117.16,
+          "actualStart": 0,
+          "actualEnd": 117.163583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Injustice: Early Encounters with the System",
+          "expectedStart": 117.16,
+          "expectedEnd": 343.17,
+          "actualStart": 118.663583,
+          "actualEnd": 344.674125,
+          "timeDifference": 1.503583000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Case of Walter McMillian: A Town’s Prejudice and a Man’s Fight",
+          "expectedStart": 343.17,
+          "expectedEnd": 607.61,
+          "actualStart": 346.174125,
+          "actualEnd": 610.6092080000001,
+          "timeDifference": 3.0041249999999877
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Poverty and Race: Who Gets Punished and Why",
+          "expectedStart": 607.61,
+          "expectedEnd": 808.6,
+          "actualStart": 612.1092080000001,
+          "actualEnd": 813.1010000000001,
+          "timeDifference": 4.499208000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Children in the Crosshairs: Harsh Sentences for the Young",
+          "expectedStart": 808.6,
+          "expectedEnd": 991.77,
+          "actualStart": 814.6010000000001,
+          "actualEnd": 997.7706670000001,
+          "timeDifference": 6.00100000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Death Penalty: Finality, Error, and the Cost of Unforgiving Justice",
+          "expectedStart": 991.77,
+          "expectedEnd": 1184.14,
+          "actualStart": 999.2706670000001,
+          "actualEnd": 1191.64325,
+          "timeDifference": 7.500667000000135
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Broken by the System: The Hidden Toll of Incarceration",
+          "expectedStart": 1184.14,
+          "expectedEnd": 1373.06,
+          "actualStart": 1193.14325,
+          "actualEnd": 1382.066708,
+          "timeDifference": 9.00324999999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Redemption: Stories of Change and Hope",
+          "expectedStart": 1373.06,
+          "expectedEnd": 1523.79,
+          "actualStart": 1383.566708,
+          "actualEnd": 1534.297208,
+          "timeDifference": 10.506708000000117
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Advocacy: Standing Up When Others Stay Silent",
+          "expectedStart": 1523.79,
+          "expectedEnd": 1695.78,
+          "actualStart": 1535.797208,
+          "actualEnd": 1707.784625,
+          "timeDifference": 12.007207999999991
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing and Forgiveness: The Other Side of Justice",
+          "expectedStart": 1695.78,
+          "expectedEnd": 1866.16,
+          "actualStart": 1709.284625,
+          "actualEnd": 1879.666208,
+          "timeDifference": 13.504625000000033
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a More Merciful Future: Lessons and Possibilities",
+          "expectedStart": 1866.16,
+          "expectedEnd": 2024.86,
+          "actualStart": 1881.166208,
+          "actualEnd": 2039.8702910000002,
+          "timeDifference": 15.006208000000015
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2024.86,
+          "expectedEnd": 2151.33,
+          "actualStart": 2041.3702910000002,
+          "actualEnd": 2167.838666,
+          "timeDifference": 16.51029100000028
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 117.163583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Injustice: Early Encounters with the System"
+        },
+        {
+          "startTime": 344.674125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Injustice: Early Encounters with the System and Chapter 2 The Case of Walter McMillian: A Town’s Prejudice and a Man’s Fight"
+        },
+        {
+          "startTime": 610.6092080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Case of Walter McMillian: A Town’s Prejudice and a Man’s Fight and Chapter 3 The Weight of Poverty and Race: Who Gets Punished and Why"
+        },
+        {
+          "startTime": 813.1010000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Poverty and Race: Who Gets Punished and Why and Chapter 4 Children in the Crosshairs: Harsh Sentences for the Young"
+        },
+        {
+          "startTime": 997.7706670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Children in the Crosshairs: Harsh Sentences for the Young and Chapter 5 The Death Penalty: Finality, Error, and the Cost of Unforgiving Justice"
+        },
+        {
+          "startTime": 1191.64325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Death Penalty: Finality, Error, and the Cost of Unforgiving Justice and Chapter 6 Broken by the System: The Hidden Toll of Incarceration"
+        },
+        {
+          "startTime": 1382.066708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Broken by the System: The Hidden Toll of Incarceration and Chapter 7 The Power of Redemption: Stories of Change and Hope"
+        },
+        {
+          "startTime": 1534.297208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Redemption: Stories of Change and Hope and Chapter 8 The Role of Advocacy: Standing Up When Others Stay Silent"
+        },
+        {
+          "startTime": 1707.784625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Advocacy: Standing Up When Others Stay Silent and Chapter 9 Healing and Forgiveness: The Other Side of Justice"
+        },
+        {
+          "startTime": 1879.666208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing and Forgiveness: The Other Side of Justice and Chapter 10 Toward a More Merciful Future: Lessons and Possibilities"
+        },
+        {
+          "startTime": 2039.8702910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a More Merciful Future: Lessons and Possibilities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2698",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T11:37:00.976Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

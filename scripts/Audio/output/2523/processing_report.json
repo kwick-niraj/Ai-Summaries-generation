@@ -1,0 +1,456 @@
+{
+  "bookId": "2523",
+  "timestamp": "2025-07-11T03:06:24.596Z",
+  "success": false,
+  "processingTime": -1752202787661,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5010,
+    "totalAudioFiles": 12,
+    "totalDuration": 2500.8437910000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2500.8437910000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2523/optimized_text/2523.md",
+    "fileSize": 680,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2523.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2523/metadata/2523_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2500.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2523/metadata/2523_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2523/metadata/2523_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 82,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2523/2523_complete.wav",
+    "duration": 2500.843792,
+    "fileSize": 120040580,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2523/introduction.wav",
+          "duration": 85.649208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.649208,
+          "startTime": 0,
+          "endTime": 85.649208
+        },
+        {
+          "path": "Audio/output/2523/chapter_01.wav",
+          "duration": 294.237875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation: Why Relationships Matter in Leadership",
+          "actualDuration": 294.237875,
+          "startTime": 87.149208,
+          "endTime": 381.38708299999996
+        },
+        {
+          "path": "Audio/output/2523/chapter_02.wav",
+          "duration": 281.401958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Radical Candor Framework",
+          "actualDuration": 281.401958,
+          "startTime": 382.88708299999996,
+          "endTime": 664.289041
+        },
+        {
+          "path": "Audio/output/2523/chapter_03.wav",
+          "duration": 260.535792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Giving and Receiving Feedback with Care and Clarity",
+          "actualDuration": 260.535792,
+          "startTime": 665.789041,
+          "endTime": 926.324833
+        },
+        {
+          "path": "Audio/output/2523/chapter_04.wav",
+          "duration": 240.223583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building a Culture of Open Communication",
+          "actualDuration": 240.223583,
+          "startTime": 927.824833,
+          "endTime": 1168.048416
+        },
+        {
+          "path": "Audio/output/2523/chapter_05.wav",
+          "duration": 248.434792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Avoiding the Traps: Recognizing and Escaping Unhelpful Patterns",
+          "actualDuration": 248.434792,
+          "startTime": 1169.548416,
+          "endTime": 1417.983208
+        },
+        {
+          "path": "Audio/output/2523/chapter_06.wav",
+          "duration": 211.83825,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Implementing Radical Candor in Daily Management",
+          "actualDuration": 211.83825,
+          "startTime": 1419.483208,
+          "endTime": 1631.3214580000001
+        },
+        {
+          "path": "Audio/output/2523/chapter_07.wav",
+          "duration": 213.391333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Developing and Growing Teams with Radical Candor",
+          "actualDuration": 213.391333,
+          "startTime": 1632.8214580000001,
+          "endTime": 1846.2127910000002
+        },
+        {
+          "path": "Audio/output/2523/chapter_08.wav",
+          "duration": 180.456083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Addressing Performance Issues with Compassion and Clarity",
+          "actualDuration": 180.456083,
+          "startTime": 1847.7127910000002,
+          "endTime": 2028.1688740000002
+        },
+        {
+          "path": "Audio/output/2523/chapter_09.wav",
+          "duration": 190.749917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining a Culture of Candor Over Time",
+          "actualDuration": 190.749917,
+          "startTime": 2029.6688740000002,
+          "endTime": 2220.418791
+        },
+        {
+          "path": "Audio/output/2523/chapter_10.wav",
+          "duration": 162.79775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Radical Candor Beyond the Workplace",
+          "actualDuration": 162.79775,
+          "startTime": 2221.918791,
+          "endTime": 2384.7165410000002
+        },
+        {
+          "path": "Audio/output/2523/conclusion.wav",
+          "duration": 131.12725,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.12725,
+          "startTime": 2386.2165410000002,
+          "endTime": 2517.3437910000002
+        }
+      ],
+      "totalDuration": 2517.3437910000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.65,
+          "actualStart": 0,
+          "actualEnd": 85.649208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation: Why Relationships Matter in Leadership",
+          "expectedStart": 85.65,
+          "expectedEnd": 379.89,
+          "actualStart": 87.149208,
+          "actualEnd": 381.38708299999996,
+          "timeDifference": 1.4992079999999959
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Radical Candor Framework",
+          "expectedStart": 379.89,
+          "expectedEnd": 661.29,
+          "actualStart": 382.88708299999996,
+          "actualEnd": 664.289041,
+          "timeDifference": 2.997082999999975
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Giving and Receiving Feedback with Care and Clarity",
+          "expectedStart": 661.29,
+          "expectedEnd": 921.83,
+          "actualStart": 665.789041,
+          "actualEnd": 926.324833,
+          "timeDifference": 4.499041000000034
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building a Culture of Open Communication",
+          "expectedStart": 921.83,
+          "expectedEnd": 1162.05,
+          "actualStart": 927.824833,
+          "actualEnd": 1168.048416,
+          "timeDifference": 5.994832999999971
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Avoiding the Traps: Recognizing and Escaping Unhelpful Patterns",
+          "expectedStart": 1162.05,
+          "expectedEnd": 1410.48,
+          "actualStart": 1169.548416,
+          "actualEnd": 1417.983208,
+          "timeDifference": 7.498416000000134
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Implementing Radical Candor in Daily Management",
+          "expectedStart": 1410.48,
+          "expectedEnd": 1622.32,
+          "actualStart": 1419.483208,
+          "actualEnd": 1631.3214580000001,
+          "timeDifference": 9.003208000000086
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Developing and Growing Teams with Radical Candor",
+          "expectedStart": 1622.32,
+          "expectedEnd": 1835.71,
+          "actualStart": 1632.8214580000001,
+          "actualEnd": 1846.2127910000002,
+          "timeDifference": 10.501458000000184
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Addressing Performance Issues with Compassion and Clarity",
+          "expectedStart": 1835.71,
+          "expectedEnd": 2016.17,
+          "actualStart": 1847.7127910000002,
+          "actualEnd": 2028.1688740000002,
+          "timeDifference": 12.002791000000116
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining a Culture of Candor Over Time",
+          "expectedStart": 2016.17,
+          "expectedEnd": 2206.92,
+          "actualStart": 2029.6688740000002,
+          "actualEnd": 2220.418791,
+          "timeDifference": 13.498874000000114
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Radical Candor Beyond the Workplace",
+          "expectedStart": 2206.92,
+          "expectedEnd": 2369.72,
+          "actualStart": 2221.918791,
+          "actualEnd": 2384.7165410000002,
+          "timeDifference": 14.998790999999983
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2369.72,
+          "expectedEnd": 2500.85,
+          "actualStart": 2386.2165410000002,
+          "actualEnd": 2517.3437910000002,
+          "timeDifference": 16.496541000000434
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.649208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation: Why Relationships Matter in Leadership"
+        },
+        {
+          "startTime": 381.38708299999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation: Why Relationships Matter in Leadership and Chapter 2 Understanding the Radical Candor Framework"
+        },
+        {
+          "startTime": 664.289041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Radical Candor Framework and Chapter 3 Giving and Receiving Feedback with Care and Clarity"
+        },
+        {
+          "startTime": 926.324833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Giving and Receiving Feedback with Care and Clarity and Chapter 4 Building a Culture of Open Communication"
+        },
+        {
+          "startTime": 1168.048416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building a Culture of Open Communication and Chapter 5 Avoiding the Traps: Recognizing and Escaping Unhelpful Patterns"
+        },
+        {
+          "startTime": 1417.983208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Avoiding the Traps: Recognizing and Escaping Unhelpful Patterns and Chapter 6 Implementing Radical Candor in Daily Management"
+        },
+        {
+          "startTime": 1631.3214580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Implementing Radical Candor in Daily Management and Chapter 7 Developing and Growing Teams with Radical Candor"
+        },
+        {
+          "startTime": 1846.2127910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Developing and Growing Teams with Radical Candor and Chapter 8 Addressing Performance Issues with Compassion and Clarity"
+        },
+        {
+          "startTime": 2028.1688740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Addressing Performance Issues with Compassion and Clarity and Chapter 9 Sustaining a Culture of Candor Over Time"
+        },
+        {
+          "startTime": 2220.418791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining a Culture of Candor Over Time and Chapter 10 Radical Candor Beyond the Workplace"
+        },
+        {
+          "startTime": 2384.7165410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Radical Candor Beyond the Workplace and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2523",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 82,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:59:49.185Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

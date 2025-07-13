@@ -1,0 +1,455 @@
+{
+  "bookId": "2393",
+  "timestamp": "2025-07-10T20:26:27.034Z",
+  "success": false,
+  "processingTime": -1752178936967,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4398,
+    "totalAudioFiles": 12,
+    "totalDuration": 2140.422708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2140.422708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2393/optimized_text/2393.md",
+    "fileSize": 756,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2393.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2393/metadata/2393_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2140.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2393/metadata/2393_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2393/metadata/2393_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2393/2393_complete.wav",
+    "duration": 2140.422708,
+    "fileSize": 102740368,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2393/introduction.wav",
+          "duration": 82.018292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.018292,
+          "startTime": 0,
+          "endTime": 82.018292
+        },
+        {
+          "path": "Audio/output/2393/chapter_01.wav",
+          "duration": 215.233083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Self-Esteem as the Foundation of Personal Growth",
+          "actualDuration": 215.233083,
+          "startTime": 83.518292,
+          "endTime": 298.751375
+        },
+        {
+          "path": "Audio/output/2393/chapter_02.wav",
+          "duration": 240.971708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying the Roots of Low Self-Esteem",
+          "actualDuration": 240.971708,
+          "startTime": 300.251375,
+          "endTime": 541.223083
+        },
+        {
+          "path": "Audio/output/2393/chapter_03.wav",
+          "duration": 221.786917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Reframing Negative Self-Talk and Limiting Beliefs",
+          "actualDuration": 221.786917,
+          "startTime": 542.723083,
+          "endTime": 764.51
+        },
+        {
+          "path": "Audio/output/2393/chapter_04.wav",
+          "duration": 205.570917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Confidence Through Practical Exercises and Daily Habits",
+          "actualDuration": 205.570917,
+          "startTime": 766.01,
+          "endTime": 971.580917
+        },
+        {
+          "path": "Audio/output/2393/chapter_05.wav",
+          "duration": 245.926708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultivating Self-Acceptance and Compassion for Lasting Change",
+          "actualDuration": 245.926708,
+          "startTime": 973.080917,
+          "endTime": 1219.007625
+        },
+        {
+          "path": "Audio/output/2393/chapter_06.wav",
+          "duration": 169.564542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Linking Self-Esteem to Life Satisfaction and Purpose",
+          "actualDuration": 169.564542,
+          "startTime": 1220.507625,
+          "endTime": 1390.072167
+        },
+        {
+          "path": "Audio/output/2393/chapter_07.wav",
+          "duration": 147.057125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Maintaining Progress: Navigating Setbacks and Plateaus",
+          "actualDuration": 147.057125,
+          "startTime": 1391.572167,
+          "endTime": 1538.629292
+        },
+        {
+          "path": "Audio/output/2393/chapter_08.wav",
+          "duration": 157.573458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Self-Esteem Techniques into Relationships",
+          "actualDuration": 157.573458,
+          "startTime": 1540.129292,
+          "endTime": 1697.7027500000002
+        },
+        {
+          "path": "Audio/output/2393/chapter_09.wav",
+          "duration": 158.971458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Self-Esteem in Daily Life: Rituals and Reminders",
+          "actualDuration": 158.971458,
+          "startTime": 1699.2027500000002,
+          "endTime": 1858.1742080000001
+        },
+        {
+          "path": "Audio/output/2393/chapter_10.wav",
+          "duration": 147.422333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Lifelong Growth: Self-Esteem as a Living Practice",
+          "actualDuration": 147.422333,
+          "startTime": 1859.6742080000001,
+          "endTime": 2007.0965410000001
+        },
+        {
+          "path": "Audio/output/2393/conclusion.wav",
+          "duration": 148.326167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 148.326167,
+          "startTime": 2008.5965410000001,
+          "endTime": 2156.922708
+        }
+      ],
+      "totalDuration": 2156.922708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.02,
+          "actualStart": 0,
+          "actualEnd": 82.018292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Self-Esteem as the Foundation of Personal Growth",
+          "expectedStart": 82.02,
+          "expectedEnd": 297.25,
+          "actualStart": 83.518292,
+          "actualEnd": 298.751375,
+          "timeDifference": 1.4982920000000064
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying the Roots of Low Self-Esteem",
+          "expectedStart": 297.25,
+          "expectedEnd": 538.22,
+          "actualStart": 300.251375,
+          "actualEnd": 541.223083,
+          "timeDifference": 3.001374999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Reframing Negative Self-Talk and Limiting Beliefs",
+          "expectedStart": 538.22,
+          "expectedEnd": 760.01,
+          "actualStart": 542.723083,
+          "actualEnd": 764.51,
+          "timeDifference": 4.503082999999947
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Confidence Through Practical Exercises and Daily Habits",
+          "expectedStart": 760.01,
+          "expectedEnd": 965.58,
+          "actualStart": 766.01,
+          "actualEnd": 971.580917,
+          "timeDifference": 6
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultivating Self-Acceptance and Compassion for Lasting Change",
+          "expectedStart": 965.58,
+          "expectedEnd": 1211.51,
+          "actualStart": 973.080917,
+          "actualEnd": 1219.007625,
+          "timeDifference": 7.5009169999999585
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Linking Self-Esteem to Life Satisfaction and Purpose",
+          "expectedStart": 1211.51,
+          "expectedEnd": 1381.07,
+          "actualStart": 1220.507625,
+          "actualEnd": 1390.072167,
+          "timeDifference": 8.997624999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Maintaining Progress: Navigating Setbacks and Plateaus",
+          "expectedStart": 1381.07,
+          "expectedEnd": 1528.13,
+          "actualStart": 1391.572167,
+          "actualEnd": 1538.629292,
+          "timeDifference": 10.5021670000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Self-Esteem Techniques into Relationships",
+          "expectedStart": 1528.13,
+          "expectedEnd": 1685.7,
+          "actualStart": 1540.129292,
+          "actualEnd": 1697.7027500000002,
+          "timeDifference": 11.999291999999969
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Self-Esteem in Daily Life: Rituals and Reminders",
+          "expectedStart": 1685.7,
+          "expectedEnd": 1844.67,
+          "actualStart": 1699.2027500000002,
+          "actualEnd": 1858.1742080000001,
+          "timeDifference": 13.502750000000106
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Lifelong Growth: Self-Esteem as a Living Practice",
+          "expectedStart": 1844.67,
+          "expectedEnd": 1992.09,
+          "actualStart": 1859.6742080000001,
+          "actualEnd": 2007.0965410000001,
+          "timeDifference": 15.004208000000062
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1992.09,
+          "expectedEnd": 2140.42,
+          "actualStart": 2008.5965410000001,
+          "actualEnd": 2156.922708,
+          "timeDifference": 16.506541000000198
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.018292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Self-Esteem as the Foundation of Personal Growth"
+        },
+        {
+          "startTime": 298.751375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Self-Esteem as the Foundation of Personal Growth and Chapter 2 Identifying the Roots of Low Self-Esteem"
+        },
+        {
+          "startTime": 541.223083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying the Roots of Low Self-Esteem and Chapter 3 Reframing Negative Self-Talk and Limiting Beliefs"
+        },
+        {
+          "startTime": 764.51,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Reframing Negative Self-Talk and Limiting Beliefs and Chapter 4 Building Confidence Through Practical Exercises and Daily Habits"
+        },
+        {
+          "startTime": 971.580917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Confidence Through Practical Exercises and Daily Habits and Chapter 5 Cultivating Self-Acceptance and Compassion for Lasting Change"
+        },
+        {
+          "startTime": 1219.007625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultivating Self-Acceptance and Compassion for Lasting Change and Chapter 6 Linking Self-Esteem to Life Satisfaction and Purpose"
+        },
+        {
+          "startTime": 1390.072167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Linking Self-Esteem to Life Satisfaction and Purpose and Chapter 7 Maintaining Progress: Navigating Setbacks and Plateaus"
+        },
+        {
+          "startTime": 1538.629292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Maintaining Progress: Navigating Setbacks and Plateaus and Chapter 8 Integrating Self-Esteem Techniques into Relationships"
+        },
+        {
+          "startTime": 1697.7027500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Self-Esteem Techniques into Relationships and Chapter 9 Sustaining Self-Esteem in Daily Life: Rituals and Reminders"
+        },
+        {
+          "startTime": 1858.1742080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Self-Esteem in Daily Life: Rituals and Reminders and Chapter 10 Embracing Lifelong Growth: Self-Esteem as a Living Practice"
+        },
+        {
+          "startTime": 2007.0965410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Lifelong Growth: Self-Esteem as a Living Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2393",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:22:17.519Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2675",
+  "timestamp": "2025-07-12T10:15:55.867Z",
+  "success": false,
+  "processingTime": -1752315039971,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3829,
+    "totalAudioFiles": 12,
+    "totalDuration": 1636.3088340000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1636.3088340000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2675/optimized_text/2675.md",
+    "fileSize": 620,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "2675.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2675/metadata/2675_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1636.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2675/metadata/2675_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2675/metadata/2675_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2675/2675_complete.wav",
+    "duration": 1636.308833,
+    "fileSize": 78542902,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2675/introduction.wav",
+          "duration": 71.068125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 71.068125,
+          "startTime": 0,
+          "endTime": 71.068125
+        },
+        {
+          "path": "Audio/output/2675/chapter_01.wav",
+          "duration": 185.479958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Uncertainty and Finding Steadiness",
+          "actualDuration": 185.479958,
+          "startTime": 72.568125,
+          "endTime": 258.048083
+        },
+        {
+          "path": "Audio/output/2675/chapter_02.wav",
+          "duration": 180.179167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Authenticity and Self-Acceptance",
+          "actualDuration": 180.179167,
+          "startTime": 259.548083,
+          "endTime": 439.72725
+        },
+        {
+          "path": "Audio/output/2675/chapter_03.wav",
+          "duration": 175.327167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Supportive Relationships and Community",
+          "actualDuration": 175.327167,
+          "startTime": 441.22725,
+          "endTime": 616.5544170000001
+        },
+        {
+          "path": "Audio/output/2675/chapter_04.wav",
+          "duration": 167.732708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Anxiety and Self-Doubt",
+          "actualDuration": 167.732708,
+          "startTime": 618.0544170000001,
+          "endTime": 785.7871250000001
+        },
+        {
+          "path": "Audio/output/2675/chapter_05.wav",
+          "duration": 145.050167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Habits That Sustain Hope",
+          "actualDuration": 145.050167,
+          "startTime": 787.2871250000001,
+          "endTime": 932.337292
+        },
+        {
+          "path": "Audio/output/2675/chapter_06.wav",
+          "duration": 142.0945,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Kindness—To Self and Others",
+          "actualDuration": 142.0945,
+          "startTime": 933.837292,
+          "endTime": 1075.931792
+        },
+        {
+          "path": "Audio/output/2675/chapter_07.wav",
+          "duration": 137.588667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Shifting Perspective—Seeing the Bigger Picture",
+          "actualDuration": 137.588667,
+          "startTime": 1077.431792,
+          "endTime": 1215.020459
+        },
+        {
+          "path": "Audio/output/2675/chapter_08.wav",
+          "duration": 119.570375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Courage in Action—Making a Difference, Big or Small",
+          "actualDuration": 119.570375,
+          "startTime": 1216.520459,
+          "endTime": 1336.090834
+        },
+        {
+          "path": "Audio/output/2675/chapter_09.wav",
+          "duration": 103.085542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Practice of Hope—Sustaining Light in the Long Run",
+          "actualDuration": 103.085542,
+          "startTime": 1337.590834,
+          "endTime": 1440.6763760000001
+        },
+        {
+          "path": "Audio/output/2675/chapter_10.wav",
+          "duration": 102.04925,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Light Forward",
+          "actualDuration": 102.04925,
+          "startTime": 1442.1763760000001,
+          "endTime": 1544.2256260000001
+        },
+        {
+          "path": "Audio/output/2675/conclusion.wav",
+          "duration": 107.083208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.083208,
+          "startTime": 1545.7256260000001,
+          "endTime": 1652.8088340000002
+        }
+      ],
+      "totalDuration": 1652.8088340000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 71.07,
+          "actualStart": 0,
+          "actualEnd": 71.068125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Uncertainty and Finding Steadiness",
+          "expectedStart": 71.07,
+          "expectedEnd": 256.55,
+          "actualStart": 72.568125,
+          "actualEnd": 258.048083,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Authenticity and Self-Acceptance",
+          "expectedStart": 256.55,
+          "expectedEnd": 436.73,
+          "actualStart": 259.548083,
+          "actualEnd": 439.72725,
+          "timeDifference": 2.9980830000000083
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Supportive Relationships and Community",
+          "expectedStart": 436.73,
+          "expectedEnd": 612.06,
+          "actualStart": 441.22725,
+          "actualEnd": 616.5544170000001,
+          "timeDifference": 4.497250000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Anxiety and Self-Doubt",
+          "expectedStart": 612.06,
+          "expectedEnd": 779.79,
+          "actualStart": 618.0544170000001,
+          "actualEnd": 785.7871250000001,
+          "timeDifference": 5.994417000000112
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Habits That Sustain Hope",
+          "expectedStart": 779.79,
+          "expectedEnd": 924.84,
+          "actualStart": 787.2871250000001,
+          "actualEnd": 932.337292,
+          "timeDifference": 7.497125000000096
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Kindness—To Self and Others",
+          "expectedStart": 924.84,
+          "expectedEnd": 1066.93,
+          "actualStart": 933.837292,
+          "actualEnd": 1075.931792,
+          "timeDifference": 8.997292000000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Shifting Perspective—Seeing the Bigger Picture",
+          "expectedStart": 1066.93,
+          "expectedEnd": 1204.52,
+          "actualStart": 1077.431792,
+          "actualEnd": 1215.020459,
+          "timeDifference": 10.501792000000023
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Courage in Action—Making a Difference, Big or Small",
+          "expectedStart": 1204.52,
+          "expectedEnd": 1324.09,
+          "actualStart": 1216.520459,
+          "actualEnd": 1336.090834,
+          "timeDifference": 12.000459000000092
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Practice of Hope—Sustaining Light in the Long Run",
+          "expectedStart": 1324.09,
+          "expectedEnd": 1427.18,
+          "actualStart": 1337.590834,
+          "actualEnd": 1440.6763760000001,
+          "timeDifference": 13.500834000000168
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Light Forward",
+          "expectedStart": 1427.18,
+          "expectedEnd": 1529.23,
+          "actualStart": 1442.1763760000001,
+          "actualEnd": 1544.2256260000001,
+          "timeDifference": 14.996376000000055
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1529.23,
+          "expectedEnd": 1636.31,
+          "actualStart": 1545.7256260000001,
+          "actualEnd": 1652.8088340000002,
+          "timeDifference": 16.49562600000013
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 71.068125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Uncertainty and Finding Steadiness"
+        },
+        {
+          "startTime": 258.048083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Uncertainty and Finding Steadiness and Chapter 2 Embracing Authenticity and Self-Acceptance"
+        },
+        {
+          "startTime": 439.72725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Authenticity and Self-Acceptance and Chapter 3 Building Supportive Relationships and Community"
+        },
+        {
+          "startTime": 616.5544170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Supportive Relationships and Community and Chapter 4 Navigating Anxiety and Self-Doubt"
+        },
+        {
+          "startTime": 785.7871250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Anxiety and Self-Doubt and Chapter 5 Small Habits That Sustain Hope"
+        },
+        {
+          "startTime": 932.337292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Habits That Sustain Hope and Chapter 6 The Power of Kindness—To Self and Others"
+        },
+        {
+          "startTime": 1075.931792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Kindness—To Self and Others and Chapter 7 Shifting Perspective—Seeing the Bigger Picture"
+        },
+        {
+          "startTime": 1215.020459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Shifting Perspective—Seeing the Bigger Picture and Chapter 8 Courage in Action—Making a Difference, Big or Small"
+        },
+        {
+          "startTime": 1336.090834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Courage in Action—Making a Difference, Big or Small and Chapter 9 The Practice of Hope—Sustaining Light in the Long Run"
+        },
+        {
+          "startTime": 1440.6763760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Practice of Hope—Sustaining Light in the Long Run and Chapter 10 Carrying the Light Forward"
+        },
+        {
+          "startTime": 1544.2256260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Light Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2675",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:10:40.484Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "bookId": "2648",
+  "timestamp": "2025-07-12T08:09:00.798Z",
+  "success": false,
+  "processingTime": -1752307334483,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 5696,
+    "totalAudioFiles": 15,
+    "totalDuration": 2636.8950830000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2636.8950830000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2648/optimized_text/2648.md",
+    "fileSize": 1053,
+    "wordCount": 154,
+    "format": "markdown",
+    "filename": "2648.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2648/metadata/2648_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2636.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2648/metadata/2648_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2648/metadata/2648_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2648/2648_complete.wav",
+    "duration": 2636.895083,
+    "fileSize": 126571042,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2648/introduction.wav",
+          "duration": 100.662792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.662792,
+          "startTime": 0,
+          "endTime": 100.662792
+        },
+        {
+          "path": "Audio/output/2648/chapter_01.wav",
+          "duration": 290.964333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Nature Crosses the Line: The First Encounters with a Deadly Virus",
+          "actualDuration": 290.964333,
+          "startTime": 102.162792,
+          "endTime": 393.127125
+        },
+        {
+          "path": "Audio/output/2648/chapter_02.wav",
+          "duration": 251.908458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Dangers in Everyday Life: How Viruses Travel and Spread",
+          "actualDuration": 251.908458,
+          "startTime": 394.627125,
+          "endTime": 646.535583
+        },
+        {
+          "path": "Audio/output/2648/chapter_03.wav",
+          "duration": 215.613125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Race to Understand: Scientists, Soldiers, and the Battle for Containment",
+          "actualDuration": 215.613125,
+          "startTime": 648.035583,
+          "endTime": 863.6487079999999
+        },
+        {
+          "path": "Audio/output/2648/chapter_04.wav",
+          "duration": 193.618292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost: Fear, Sacrifice, and the Weight of Responsibility",
+          "actualDuration": 193.618292,
+          "startTime": 865.1487079999999,
+          "endTime": 1058.7669999999998
+        },
+        {
+          "path": "Audio/output/2648/chapter_05.wav",
+          "duration": 161.921792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Unpredictable Future: Lessons from the Edge of Disaster",
+          "actualDuration": 161.921792,
+          "startTime": 1060.2669999999998,
+          "endTime": 1222.188792
+        },
+        {
+          "path": "Audio/output/2648/chapter_06.wav",
+          "duration": 185.373875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Monkey House: A Suburban Outbreak and the Limits of Control",
+          "actualDuration": 185.373875,
+          "startTime": 1223.688792,
+          "endTime": 1409.062667
+        },
+        {
+          "path": "Audio/output/2648/chapter_07.wav",
+          "duration": 192.811042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Anatomy of Fear: How Panic Spreads Faster Than Disease",
+          "actualDuration": 192.811042,
+          "startTime": 1410.562667,
+          "endTime": 1603.373709
+        },
+        {
+          "path": "Audio/output/2648/chapter_08.wav",
+          "duration": 160.948042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Patient Zero: Tracing the Path of Outbreaks",
+          "actualDuration": 160.948042,
+          "startTime": 1604.873709,
+          "endTime": 1765.821751
+        },
+        {
+          "path": "Audio/output/2648/chapter_09.wav",
+          "duration": 191.844958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Labyrinth of Biosecurity: Building Barriers, Facing Risks",
+          "actualDuration": 191.844958,
+          "startTime": 1767.321751,
+          "endTime": 1959.1667089999999
+        },
+        {
+          "path": "Audio/output/2648/chapter_10.wav",
+          "duration": 148.287458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: How Outbreaks Change Science and Society",
+          "actualDuration": 148.287458,
+          "startTime": 1960.6667089999999,
+          "endTime": 2108.954167
+        },
+        {
+          "path": "Audio/output/2648/chapter_11.wav",
+          "duration": 155.505708,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Long Shadow: Survivors, Memory, and the Aftermath",
+          "actualDuration": 155.505708,
+          "startTime": 2110.454167,
+          "endTime": 2265.959875
+        },
+        {
+          "path": "Audio/output/2648/chapter_12.wav",
+          "duration": 135.762708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Next Frontier: Preparing for the Unknown",
+          "actualDuration": 135.762708,
+          "startTime": 2267.459875,
+          "endTime": 2403.222583
+        },
+        {
+          "path": "Audio/output/2648/chapter_13.wav",
+          "duration": 116.113833,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Human Thread: Connection, Compassion, and the Will to Endure",
+          "actualDuration": 116.113833,
+          "startTime": 2404.722583,
+          "endTime": 2520.836416
+        },
+        {
+          "path": "Audio/output/2648/conclusion.wav",
+          "duration": 135.558667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.558667,
+          "startTime": 2522.336416,
+          "endTime": 2657.8950830000003
+        }
+      ],
+      "totalDuration": 2657.8950830000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.66,
+          "actualStart": 0,
+          "actualEnd": 100.662792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Nature Crosses the Line: The First Encounters with a Deadly Virus",
+          "expectedStart": 100.66,
+          "expectedEnd": 391.62,
+          "actualStart": 102.162792,
+          "actualEnd": 393.127125,
+          "timeDifference": 1.5027919999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Dangers in Everyday Life: How Viruses Travel and Spread",
+          "expectedStart": 391.62,
+          "expectedEnd": 643.53,
+          "actualStart": 394.627125,
+          "actualEnd": 646.535583,
+          "timeDifference": 3.0071249999999736
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Race to Understand: Scientists, Soldiers, and the Battle for Containment",
+          "expectedStart": 643.53,
+          "expectedEnd": 859.14,
+          "actualStart": 648.035583,
+          "actualEnd": 863.6487079999999,
+          "timeDifference": 4.5055830000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost: Fear, Sacrifice, and the Weight of Responsibility",
+          "expectedStart": 859.14,
+          "expectedEnd": 1052.76,
+          "actualStart": 865.1487079999999,
+          "actualEnd": 1058.7669999999998,
+          "timeDifference": 6.008707999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Unpredictable Future: Lessons from the Edge of Disaster",
+          "expectedStart": 1052.76,
+          "expectedEnd": 1214.68,
+          "actualStart": 1060.2669999999998,
+          "actualEnd": 1222.188792,
+          "timeDifference": 7.5069999999998345
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Monkey House: A Suburban Outbreak and the Limits of Control",
+          "expectedStart": 1214.68,
+          "expectedEnd": 1400.05,
+          "actualStart": 1223.688792,
+          "actualEnd": 1409.062667,
+          "timeDifference": 9.008791999999858
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Anatomy of Fear: How Panic Spreads Faster Than Disease",
+          "expectedStart": 1400.05,
+          "expectedEnd": 1592.86,
+          "actualStart": 1410.562667,
+          "actualEnd": 1603.373709,
+          "timeDifference": 10.512666999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Patient Zero: Tracing the Path of Outbreaks",
+          "expectedStart": 1592.86,
+          "expectedEnd": 1753.81,
+          "actualStart": 1604.873709,
+          "actualEnd": 1765.821751,
+          "timeDifference": 12.013709000000063
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Labyrinth of Biosecurity: Building Barriers, Facing Risks",
+          "expectedStart": 1753.81,
+          "expectedEnd": 1945.65,
+          "actualStart": 1767.321751,
+          "actualEnd": 1959.1667089999999,
+          "timeDifference": 13.511751000000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: How Outbreaks Change Science and Society",
+          "expectedStart": 1945.65,
+          "expectedEnd": 2093.94,
+          "actualStart": 1960.6667089999999,
+          "actualEnd": 2108.954167,
+          "timeDifference": 15.016708999999764
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Long Shadow: Survivors, Memory, and the Aftermath",
+          "expectedStart": 2093.94,
+          "expectedEnd": 2249.45,
+          "actualStart": 2110.454167,
+          "actualEnd": 2265.959875,
+          "timeDifference": 16.514166999999816
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Next Frontier: Preparing for the Unknown",
+          "expectedStart": 2249.45,
+          "expectedEnd": 2385.21,
+          "actualStart": 2267.459875,
+          "actualEnd": 2403.222583,
+          "timeDifference": 18.009875000000193
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Human Thread: Connection, Compassion, and the Will to Endure",
+          "expectedStart": 2385.21,
+          "expectedEnd": 2501.32,
+          "actualStart": 2404.722583,
+          "actualEnd": 2520.836416,
+          "timeDifference": 19.512583000000177
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2501.32,
+          "expectedEnd": 2636.88,
+          "actualStart": 2522.336416,
+          "actualEnd": 2657.8950830000003,
+          "timeDifference": 21.016415999999936
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.662792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Nature Crosses the Line: The First Encounters with a Deadly Virus"
+        },
+        {
+          "startTime": 393.127125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Nature Crosses the Line: The First Encounters with a Deadly Virus and Chapter 2 The Hidden Dangers in Everyday Life: How Viruses Travel and Spread"
+        },
+        {
+          "startTime": 646.535583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Dangers in Everyday Life: How Viruses Travel and Spread and Chapter 3 The Race to Understand: Scientists, Soldiers, and the Battle for Containment"
+        },
+        {
+          "startTime": 863.6487079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Race to Understand: Scientists, Soldiers, and the Battle for Containment and Chapter 4 The Human Cost: Fear, Sacrifice, and the Weight of Responsibility"
+        },
+        {
+          "startTime": 1058.7669999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost: Fear, Sacrifice, and the Weight of Responsibility and Chapter 5 The Unpredictable Future: Lessons from the Edge of Disaster"
+        },
+        {
+          "startTime": 1222.188792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Unpredictable Future: Lessons from the Edge of Disaster and Chapter 6 The Monkey House: A Suburban Outbreak and the Limits of Control"
+        },
+        {
+          "startTime": 1409.062667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Monkey House: A Suburban Outbreak and the Limits of Control and Chapter 7 The Anatomy of Fear: How Panic Spreads Faster Than Disease"
+        },
+        {
+          "startTime": 1603.373709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Anatomy of Fear: How Panic Spreads Faster Than Disease and Chapter 8 The Search for Patient Zero: Tracing the Path of Outbreaks"
+        },
+        {
+          "startTime": 1765.821751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Patient Zero: Tracing the Path of Outbreaks and Chapter 9 The Labyrinth of Biosecurity: Building Barriers, Facing Risks"
+        },
+        {
+          "startTime": 1959.1667089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Labyrinth of Biosecurity: Building Barriers, Facing Risks and Chapter 10 The Ripple Effect: How Outbreaks Change Science and Society"
+        },
+        {
+          "startTime": 2108.954167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: How Outbreaks Change Science and Society and Chapter 11 The Long Shadow: Survivors, Memory, and the Aftermath"
+        },
+        {
+          "startTime": 2265.959875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Long Shadow: Survivors, Memory, and the Aftermath and Chapter 12 The Next Frontier: Preparing for the Unknown"
+        },
+        {
+          "startTime": 2403.222583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Next Frontier: Preparing for the Unknown and Chapter 13 The Human Thread: Connection, Compassion, and the Will to Endure"
+        },
+        {
+          "startTime": 2520.836416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Human Thread: Connection, Compassion, and the Will to Endure and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2648",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:02:15.653Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

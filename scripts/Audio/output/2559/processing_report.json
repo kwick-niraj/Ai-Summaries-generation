@@ -1,0 +1,432 @@
+{
+  "bookId": "2559",
+  "timestamp": "2025-07-11T05:19:11.587Z",
+  "success": false,
+  "processingTime": -1752210879761,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4896,
+    "totalAudioFiles": 12,
+    "totalDuration": 1980.5892489999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1980.5892489999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2559/optimized_text/2559.md",
+    "fileSize": 661,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2559.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2559/metadata/2559_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1980.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2559/metadata/2559_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2559/metadata/2559_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2559/2559_complete.wav",
+    "duration": 1980.58925,
+    "fileSize": 95068362,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2559/introduction.wav",
+          "duration": 104.785208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.785208,
+          "startTime": 0,
+          "endTime": 104.785208
+        },
+        {
+          "path": "Audio/output/2559/chapter_01.wav",
+          "duration": 242.587125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Faith in the Shadow of Oppression",
+          "actualDuration": 242.587125,
+          "startTime": 106.285208,
+          "endTime": 348.87233299999997
+        },
+        {
+          "path": "Audio/output/2559/chapter_02.wav",
+          "duration": 271.016542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Cost of Belief and the Reality of Suffering",
+          "actualDuration": 271.016542,
+          "startTime": 350.37233299999997,
+          "endTime": 621.388875
+        },
+        {
+          "path": "Audio/output/2559/chapter_04.wav",
+          "duration": 233.467208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Church and the Power of Community",
+          "actualDuration": 233.467208,
+          "startTime": 622.888875,
+          "endTime": 856.356083
+        },
+        {
+          "path": "Audio/output/2559/chapter_05.wav",
+          "duration": 192.687542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Call to Remember and Stand with the Persecuted",
+          "actualDuration": 192.687542,
+          "startTime": 857.856083,
+          "endTime": 1050.543625
+        },
+        {
+          "path": "Audio/output/2559/chapter_06.wav",
+          "duration": 184.05775,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Battle—Faith Under Surveillance",
+          "actualDuration": 184.05775,
+          "startTime": 1052.043625,
+          "endTime": 1236.101375
+        },
+        {
+          "path": "Audio/output/2559/chapter_07.wav",
+          "duration": 172.01425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Words—Stories, Songs, and Secret Messages",
+          "actualDuration": 172.01425,
+          "startTime": 1237.601375,
+          "endTime": 1409.615625
+        },
+        {
+          "path": "Audio/output/2559/chapter_08.wav",
+          "duration": 166.281208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Struggle to Rebuild—Freedom’s Complicated Gift",
+          "actualDuration": 166.281208,
+          "startTime": 1411.115625,
+          "endTime": 1577.3968329999998
+        },
+        {
+          "path": "Audio/output/2559/chapter_09.wav",
+          "duration": 144.52475,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Courage—Passing the Torch",
+          "actualDuration": 144.52475,
+          "startTime": 1578.8968329999998,
+          "endTime": 1723.4215829999998
+        },
+        {
+          "path": "Audio/output/2559/chapter_10.wav",
+          "duration": 143.330708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Struggle—Faith and Freedom Today",
+          "actualDuration": 143.330708,
+          "startTime": 1724.9215829999998,
+          "endTime": 1868.2522909999998
+        },
+        {
+          "path": "Audio/output/2559/conclusion.wav",
+          "duration": 125.836958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.836958,
+          "startTime": 1869.7522909999998,
+          "endTime": 1995.5892489999999
+        }
+      ],
+      "totalDuration": 1995.5892489999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.79,
+          "actualStart": 0,
+          "actualEnd": 104.785208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Faith in the Shadow of Oppression",
+          "expectedStart": 104.79,
+          "expectedEnd": 347.38,
+          "actualStart": 106.285208,
+          "actualEnd": 348.87233299999997,
+          "timeDifference": 1.495207999999991
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Cost of Belief and the Reality of Suffering",
+          "expectedStart": 347.38,
+          "expectedEnd": 618.4,
+          "actualStart": 350.37233299999997,
+          "actualEnd": 621.388875,
+          "timeDifference": 2.9923329999999737
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Church and the Power of Community",
+          "expectedStart": 618.4,
+          "expectedEnd": 851.87,
+          "actualStart": 622.888875,
+          "actualEnd": 856.356083,
+          "timeDifference": 4.488875000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Call to Remember and Stand with the Persecuted",
+          "expectedStart": 851.87,
+          "expectedEnd": 1044.56,
+          "actualStart": 857.856083,
+          "actualEnd": 1050.543625,
+          "timeDifference": 5.986083000000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Battle—Faith Under Surveillance",
+          "expectedStart": 1044.56,
+          "expectedEnd": 1228.62,
+          "actualStart": 1052.043625,
+          "actualEnd": 1236.101375,
+          "timeDifference": 7.483625000000075
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Words—Stories, Songs, and Secret Messages",
+          "expectedStart": 1228.62,
+          "expectedEnd": 1400.63,
+          "actualStart": 1237.601375,
+          "actualEnd": 1409.615625,
+          "timeDifference": 8.981375000000071
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Struggle to Rebuild—Freedom’s Complicated Gift",
+          "expectedStart": 1400.63,
+          "expectedEnd": 1566.91,
+          "actualStart": 1411.115625,
+          "actualEnd": 1577.3968329999998,
+          "timeDifference": 10.4856249999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Courage—Passing the Torch",
+          "expectedStart": 1566.91,
+          "expectedEnd": 1711.43,
+          "actualStart": 1578.8968329999998,
+          "actualEnd": 1723.4215829999998,
+          "timeDifference": 11.986832999999706
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Struggle—Faith and Freedom Today",
+          "expectedStart": 1711.43,
+          "expectedEnd": 1854.76,
+          "actualStart": 1724.9215829999998,
+          "actualEnd": 1868.2522909999998,
+          "timeDifference": 13.491582999999764
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1854.76,
+          "expectedEnd": 1980.6,
+          "actualStart": 1869.7522909999998,
+          "actualEnd": 1995.5892489999999,
+          "timeDifference": 14.992290999999796
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.785208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Faith in the Shadow of Oppression"
+        },
+        {
+          "startTime": 348.87233299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Faith in the Shadow of Oppression and Chapter 2 The Cost of Belief and the Reality of Suffering"
+        },
+        {
+          "startTime": 621.388875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Cost of Belief and the Reality of Suffering and Chapter 4 The Hidden Church and the Power of Community"
+        },
+        {
+          "startTime": 856.356083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Church and the Power of Community and Chapter 5 The Call to Remember and Stand with the Persecuted"
+        },
+        {
+          "startTime": 1050.543625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Call to Remember and Stand with the Persecuted and Chapter 6 The Unseen Battle—Faith Under Surveillance"
+        },
+        {
+          "startTime": 1236.101375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Battle—Faith Under Surveillance and Chapter 7 The Power of Words—Stories, Songs, and Secret Messages"
+        },
+        {
+          "startTime": 1409.615625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Words—Stories, Songs, and Secret Messages and Chapter 8 The Struggle to Rebuild—Freedom’s Complicated Gift"
+        },
+        {
+          "startTime": 1577.3968329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Struggle to Rebuild—Freedom’s Complicated Gift and Chapter 9 The Legacy of Courage—Passing the Torch"
+        },
+        {
+          "startTime": 1723.4215829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Courage—Passing the Torch and Chapter 10 The Ongoing Struggle—Faith and Freedom Today"
+        },
+        {
+          "startTime": 1868.2522909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Struggle—Faith and Freedom Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2559",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T05:14:40.987Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2504",
+  "timestamp": "2025-07-11T02:09:07.267Z",
+  "success": false,
+  "processingTime": -1752199460088,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4455,
+    "totalAudioFiles": 12,
+    "totalDuration": 1880.4497089999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1880.4497089999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2504/optimized_text/2504.md",
+    "fileSize": 812,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2504.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2504/metadata/2504_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1880.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2504/metadata/2504_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2504/metadata/2504_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2504/2504_complete.wav",
+    "duration": 1880.449708,
+    "fileSize": 90261664,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2504/introduction.wav",
+          "duration": 92.14925,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.14925,
+          "startTime": 0,
+          "endTime": 92.14925
+        },
+        {
+          "path": "Audio/output/2504/chapter_01.wav",
+          "duration": 239.725542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Changes Without Warning: The First Signs and Family Reactions",
+          "actualDuration": 239.725542,
+          "startTime": 93.64925,
+          "endTime": 333.37479199999996
+        },
+        {
+          "path": "Audio/output/2504/chapter_02.wav",
+          "duration": 202.9655,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Living with Uncertainty: The Daily Realities of Bipolar Disorder",
+          "actualDuration": 202.9655,
+          "startTime": 334.87479199999996,
+          "endTime": 537.840292
+        },
+        {
+          "path": "Audio/output/2504/chapter_03.wav",
+          "duration": 181.058042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Stigma and Misunderstanding: The Challenge of Being Seen",
+          "actualDuration": 181.058042,
+          "startTime": 539.340292,
+          "endTime": 720.398334
+        },
+        {
+          "path": "Audio/output/2504/chapter_04.wav",
+          "duration": 178.877542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating the Mental Health System: Searching for Help and Hope",
+          "actualDuration": 178.877542,
+          "startTime": 721.898334,
+          "endTime": 900.7758759999999
+        },
+        {
+          "path": "Audio/output/2504/chapter_05.wav",
+          "duration": 145.753333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Strength Together: Family Bonds and the Power of Support",
+          "actualDuration": 145.753333,
+          "startTime": 902.2758759999999,
+          "endTime": 1048.0292089999998
+        },
+        {
+          "path": "Audio/output/2504/chapter_06.wav",
+          "duration": 185.315583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering the Storms: Setbacks, Relapses, and the Long Road to Stability",
+          "actualDuration": 185.315583,
+          "startTime": 1049.5292089999998,
+          "endTime": 1234.8447919999999
+        },
+        {
+          "path": "Audio/output/2504/chapter_07.wav",
+          "duration": 151.553292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Redefining Normal: Acceptance, Adaptation, and Everyday Life",
+          "actualDuration": 151.553292,
+          "startTime": 1236.3447919999999,
+          "endTime": 1387.898084
+        },
+        {
+          "path": "Audio/output/2504/chapter_08.wav",
+          "duration": 141.7155,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Meaning: Growth, Purpose, and Advocacy",
+          "actualDuration": 141.7155,
+          "startTime": 1389.398084,
+          "endTime": 1531.113584
+        },
+        {
+          "path": "Audio/output/2504/chapter_09.wav",
+          "duration": 118.909125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Enduring Hope: Looking Forward, Together",
+          "actualDuration": 118.909125,
+          "startTime": 1532.613584,
+          "endTime": 1651.5227089999998
+        },
+        {
+          "path": "Audio/output/2504/chapter_10.wav",
+          "duration": 122.361125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Journey Continues: Lessons Learned and the Road Ahead",
+          "actualDuration": 122.361125,
+          "startTime": 1653.0227089999998,
+          "endTime": 1775.3838339999998
+        },
+        {
+          "path": "Audio/output/2504/conclusion.wav",
+          "duration": 120.065875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.065875,
+          "startTime": 1776.8838339999998,
+          "endTime": 1896.9497089999998
+        }
+      ],
+      "totalDuration": 1896.9497089999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.15,
+          "actualStart": 0,
+          "actualEnd": 92.14925,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Changes Without Warning: The First Signs and Family Reactions",
+          "expectedStart": 92.15,
+          "expectedEnd": 331.88,
+          "actualStart": 93.64925,
+          "actualEnd": 333.37479199999996,
+          "timeDifference": 1.4992499999999893
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Living with Uncertainty: The Daily Realities of Bipolar Disorder",
+          "expectedStart": 331.88,
+          "expectedEnd": 534.85,
+          "actualStart": 334.87479199999996,
+          "actualEnd": 537.840292,
+          "timeDifference": 2.9947919999999613
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Stigma and Misunderstanding: The Challenge of Being Seen",
+          "expectedStart": 534.85,
+          "expectedEnd": 715.91,
+          "actualStart": 539.340292,
+          "actualEnd": 720.398334,
+          "timeDifference": 4.490291999999954
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating the Mental Health System: Searching for Help and Hope",
+          "expectedStart": 715.91,
+          "expectedEnd": 894.79,
+          "actualStart": 721.898334,
+          "actualEnd": 900.7758759999999,
+          "timeDifference": 5.988334000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Strength Together: Family Bonds and the Power of Support",
+          "expectedStart": 894.79,
+          "expectedEnd": 1040.54,
+          "actualStart": 902.2758759999999,
+          "actualEnd": 1048.0292089999998,
+          "timeDifference": 7.485875999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering the Storms: Setbacks, Relapses, and the Long Road to Stability",
+          "expectedStart": 1040.54,
+          "expectedEnd": 1225.86,
+          "actualStart": 1049.5292089999998,
+          "actualEnd": 1234.8447919999999,
+          "timeDifference": 8.989208999999846
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Redefining Normal: Acceptance, Adaptation, and Everyday Life",
+          "expectedStart": 1225.86,
+          "expectedEnd": 1377.41,
+          "actualStart": 1236.3447919999999,
+          "actualEnd": 1387.898084,
+          "timeDifference": 10.48479199999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Meaning: Growth, Purpose, and Advocacy",
+          "expectedStart": 1377.41,
+          "expectedEnd": 1519.13,
+          "actualStart": 1389.398084,
+          "actualEnd": 1531.113584,
+          "timeDifference": 11.988083999999844
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Enduring Hope: Looking Forward, Together",
+          "expectedStart": 1519.13,
+          "expectedEnd": 1638.04,
+          "actualStart": 1532.613584,
+          "actualEnd": 1651.5227089999998,
+          "timeDifference": 13.483583999999837
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Journey Continues: Lessons Learned and the Road Ahead",
+          "expectedStart": 1638.04,
+          "expectedEnd": 1760.4,
+          "actualStart": 1653.0227089999998,
+          "actualEnd": 1775.3838339999998,
+          "timeDifference": 14.982708999999886
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1760.4,
+          "expectedEnd": 1880.47,
+          "actualStart": 1776.8838339999998,
+          "actualEnd": 1896.9497089999998,
+          "timeDifference": 16.48383399999966
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.14925,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Changes Without Warning: The First Signs and Family Reactions"
+        },
+        {
+          "startTime": 333.37479199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Changes Without Warning: The First Signs and Family Reactions and Chapter 2 Living with Uncertainty: The Daily Realities of Bipolar Disorder"
+        },
+        {
+          "startTime": 537.840292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Living with Uncertainty: The Daily Realities of Bipolar Disorder and Chapter 3 Facing Stigma and Misunderstanding: The Challenge of Being Seen"
+        },
+        {
+          "startTime": 720.398334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Stigma and Misunderstanding: The Challenge of Being Seen and Chapter 4 Navigating the Mental Health System: Searching for Help and Hope"
+        },
+        {
+          "startTime": 900.7758759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating the Mental Health System: Searching for Help and Hope and Chapter 5 Finding Strength Together: Family Bonds and the Power of Support"
+        },
+        {
+          "startTime": 1048.0292089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Strength Together: Family Bonds and the Power of Support and Chapter 6 Weathering the Storms: Setbacks, Relapses, and the Long Road to Stability"
+        },
+        {
+          "startTime": 1234.8447919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering the Storms: Setbacks, Relapses, and the Long Road to Stability and Chapter 7 Redefining Normal: Acceptance, Adaptation, and Everyday Life"
+        },
+        {
+          "startTime": 1387.898084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Redefining Normal: Acceptance, Adaptation, and Everyday Life and Chapter 8 The Search for Meaning: Growth, Purpose, and Advocacy"
+        },
+        {
+          "startTime": 1531.113584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Meaning: Growth, Purpose, and Advocacy and Chapter 9 Enduring Hope: Looking Forward, Together"
+        },
+        {
+          "startTime": 1651.5227089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Enduring Hope: Looking Forward, Together and Chapter 10 The Journey Continues: Lessons Learned and the Road Ahead"
+        },
+        {
+          "startTime": 1775.3838339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Journey Continues: Lessons Learned and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2504",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:04:20.608Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2509",
+  "timestamp": "2025-07-11T02:32:12.202Z",
+  "success": false,
+  "processingTime": -1752200701738,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4059,
+    "totalAudioFiles": 12,
+    "totalDuration": 2006.2110840000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2006.2110840000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2509/optimized_text/2509.md",
+    "fileSize": 707,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2509.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2509/metadata/2509_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2006.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2509/metadata/2509_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2509/metadata/2509_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2509/2509_complete.wav",
+    "duration": 2006.211083,
+    "fileSize": 96298210,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2509/introduction.wav",
+          "duration": 83.49675,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.49675,
+          "startTime": 0,
+          "endTime": 83.49675
+        },
+        {
+          "path": "Audio/output/2509/chapter_01.wav",
+          "duration": 175.966333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Power of a Single Action",
+          "actualDuration": 175.966333,
+          "startTime": 84.99675,
+          "endTime": 260.963083
+        },
+        {
+          "path": "Audio/output/2509/chapter_02.wav",
+          "duration": 190.152167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Overcoming Fear, Doubt, and the Trap of Inaction",
+          "actualDuration": 190.152167,
+          "startTime": 262.463083,
+          "endTime": 452.61524999999995
+        },
+        {
+          "path": "Audio/output/2509/chapter_03.wav",
+          "duration": 181.700792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Faith and Trust in Uncertain Times",
+          "actualDuration": 181.700792,
+          "startTime": 454.11524999999995,
+          "endTime": 635.8160419999999
+        },
+        {
+          "path": "Audio/output/2509/chapter_04.wav",
+          "duration": 213.519958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Momentum Through Consistent Small Steps",
+          "actualDuration": 213.519958,
+          "startTime": 637.3160419999999,
+          "endTime": 850.8359999999999
+        },
+        {
+          "path": "Audio/output/2509/chapter_05.wav",
+          "duration": 196.007667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Discovering Purpose and Meaning Through Incremental Progress",
+          "actualDuration": 196.007667,
+          "startTime": 852.3359999999999,
+          "endTime": 1048.3436669999999
+        },
+        {
+          "path": "Audio/output/2509/chapter_06.wav",
+          "duration": 187.935125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks and Embracing Resilience",
+          "actualDuration": 187.935125,
+          "startTime": 1049.8436669999999,
+          "endTime": 1237.7787919999998
+        },
+        {
+          "path": "Audio/output/2509/chapter_07.wav",
+          "duration": 191.486583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Expanding the Circle—Helping Others Take Their First Step",
+          "actualDuration": 191.486583,
+          "startTime": 1239.2787919999998,
+          "endTime": 1430.765375
+        },
+        {
+          "path": "Audio/output/2509/chapter_08.wav",
+          "duration": 163.379292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Change—The Role of Reflection and Renewal",
+          "actualDuration": 163.379292,
+          "startTime": 1432.265375,
+          "endTime": 1595.644667
+        },
+        {
+          "path": "Audio/output/2509/chapter_09.wav",
+          "duration": 160.534458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the One Step Approach into Everyday Life",
+          "actualDuration": 160.534458,
+          "startTime": 1597.144667,
+          "endTime": 1757.679125
+        },
+        {
+          "path": "Audio/output/2509/chapter_10.wav",
+          "duration": 143.062292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward—Embracing a Lifelong Journey of Growth",
+          "actualDuration": 143.062292,
+          "startTime": 1759.179125,
+          "endTime": 1902.2414170000002
+        },
+        {
+          "path": "Audio/output/2509/conclusion.wav",
+          "duration": 118.969667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.969667,
+          "startTime": 1903.7414170000002,
+          "endTime": 2022.7110840000003
+        }
+      ],
+      "totalDuration": 2022.7110840000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.5,
+          "actualStart": 0,
+          "actualEnd": 83.49675,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Power of a Single Action",
+          "expectedStart": 83.5,
+          "expectedEnd": 259.47,
+          "actualStart": 84.99675,
+          "actualEnd": 260.963083,
+          "timeDifference": 1.4967500000000058
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Overcoming Fear, Doubt, and the Trap of Inaction",
+          "expectedStart": 259.47,
+          "expectedEnd": 449.62,
+          "actualStart": 262.463083,
+          "actualEnd": 452.61524999999995,
+          "timeDifference": 2.993082999999956
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Faith and Trust in Uncertain Times",
+          "expectedStart": 449.62,
+          "expectedEnd": 631.32,
+          "actualStart": 454.11524999999995,
+          "actualEnd": 635.8160419999999,
+          "timeDifference": 4.495249999999942
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Momentum Through Consistent Small Steps",
+          "expectedStart": 631.32,
+          "expectedEnd": 844.84,
+          "actualStart": 637.3160419999999,
+          "actualEnd": 850.8359999999999,
+          "timeDifference": 5.996041999999875
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Discovering Purpose and Meaning Through Incremental Progress",
+          "expectedStart": 844.84,
+          "expectedEnd": 1040.85,
+          "actualStart": 852.3359999999999,
+          "actualEnd": 1048.3436669999999,
+          "timeDifference": 7.495999999999867
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks and Embracing Resilience",
+          "expectedStart": 1040.85,
+          "expectedEnd": 1228.79,
+          "actualStart": 1049.8436669999999,
+          "actualEnd": 1237.7787919999998,
+          "timeDifference": 8.99366699999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Expanding the Circle—Helping Others Take Their First Step",
+          "expectedStart": 1228.79,
+          "expectedEnd": 1420.28,
+          "actualStart": 1239.2787919999998,
+          "actualEnd": 1430.765375,
+          "timeDifference": 10.488791999999876
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Change—The Role of Reflection and Renewal",
+          "expectedStart": 1420.28,
+          "expectedEnd": 1583.66,
+          "actualStart": 1432.265375,
+          "actualEnd": 1595.644667,
+          "timeDifference": 11.985374999999976
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the One Step Approach into Everyday Life",
+          "expectedStart": 1583.66,
+          "expectedEnd": 1744.19,
+          "actualStart": 1597.144667,
+          "actualEnd": 1757.679125,
+          "timeDifference": 13.484666999999945
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward—Embracing a Lifelong Journey of Growth",
+          "expectedStart": 1744.19,
+          "expectedEnd": 1887.25,
+          "actualStart": 1759.179125,
+          "actualEnd": 1902.2414170000002,
+          "timeDifference": 14.989125000000058
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1887.25,
+          "expectedEnd": 2006.22,
+          "actualStart": 1903.7414170000002,
+          "actualEnd": 2022.7110840000003,
+          "timeDifference": 16.491417000000183
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.49675,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Power of a Single Action"
+        },
+        {
+          "startTime": 260.963083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Power of a Single Action and Chapter 2 Overcoming Fear, Doubt, and the Trap of Inaction"
+        },
+        {
+          "startTime": 452.61524999999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Overcoming Fear, Doubt, and the Trap of Inaction and Chapter 3 Embracing Faith and Trust in Uncertain Times"
+        },
+        {
+          "startTime": 635.8160419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Faith and Trust in Uncertain Times and Chapter 4 Building Momentum Through Consistent Small Steps"
+        },
+        {
+          "startTime": 850.8359999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Momentum Through Consistent Small Steps and Chapter 5 Discovering Purpose and Meaning Through Incremental Progress"
+        },
+        {
+          "startTime": 1048.3436669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Discovering Purpose and Meaning Through Incremental Progress and Chapter 6 Navigating Setbacks and Embracing Resilience"
+        },
+        {
+          "startTime": 1237.7787919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks and Embracing Resilience and Chapter 7 Expanding the Circle—Helping Others Take Their First Step"
+        },
+        {
+          "startTime": 1430.765375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Expanding the Circle—Helping Others Take Their First Step and Chapter 8 Sustaining Change—The Role of Reflection and Renewal"
+        },
+        {
+          "startTime": 1595.644667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Change—The Role of Reflection and Renewal and Chapter 9 Integrating the One Step Approach into Everyday Life"
+        },
+        {
+          "startTime": 1757.679125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the One Step Approach into Everyday Life and Chapter 10 Living Forward—Embracing a Lifelong Journey of Growth"
+        },
+        {
+          "startTime": 1902.2414170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward—Embracing a Lifelong Journey of Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2509",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:25:02.249Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

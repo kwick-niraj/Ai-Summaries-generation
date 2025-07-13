@@ -1,0 +1,576 @@
+{
+  "bookId": "2561",
+  "timestamp": "2025-07-11T05:31:49.413Z",
+  "success": false,
+  "processingTime": -1752211529427,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5419,
+    "totalAudioFiles": 17,
+    "totalDuration": 2906.4401239999993
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2906.4401239999993
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2561/optimized_text/2561.md",
+    "fileSize": 1407,
+    "wordCount": 187,
+    "format": "markdown",
+    "filename": "2561.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2561/metadata/2561_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2906.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2561/metadata/2561_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2561/metadata/2561_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2561/2561_complete.wav",
+    "duration": 2906.440125,
+    "fileSize": 139509204,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2561/introduction.wav",
+          "duration": 97.199458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.199458,
+          "startTime": 0,
+          "endTime": 97.199458
+        },
+        {
+          "path": "Audio/output/2561/chapter_01.wav",
+          "duration": 265.167917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Spark of New Ideas—How the Brain Finds Unexpected Connections",
+          "actualDuration": 265.167917,
+          "startTime": 98.699458,
+          "endTime": 363.867375
+        },
+        {
+          "path": "Audio/output/2561/chapter_02.wav",
+          "duration": 242.721375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Solitude—Why Being Alone Can Unlock Original Thinking",
+          "actualDuration": 242.721375,
+          "startTime": 365.367375,
+          "endTime": 608.08875
+        },
+        {
+          "path": "Audio/output/2561/chapter_03.wav",
+          "duration": 237.055583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Frustration and Relaxation—How Breakthroughs Emerge from Struggle and Letting Go",
+          "actualDuration": 237.055583,
+          "startTime": 609.58875,
+          "endTime": 846.644333
+        },
+        {
+          "path": "Audio/output/2561/chapter_04.wav",
+          "duration": 265.999083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Influence of Environment—How Culture, Space, and Diversity Shape Creative Work",
+          "actualDuration": 265.999083,
+          "startTime": 848.144333,
+          "endTime": 1114.143416
+        },
+        {
+          "path": "Audio/output/2561/chapter_05.wav",
+          "duration": 214.53325,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Myth of the Lone Genius—Why Collaboration and Community Matter",
+          "actualDuration": 214.53325,
+          "startTime": 1115.643416,
+          "endTime": 1330.1766659999998
+        },
+        {
+          "path": "Audio/output/2561/chapter_06.wav",
+          "duration": 172.699,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Science of Daydreaming—How Letting the Mind Wander Fuels Innovation",
+          "actualDuration": 172.699,
+          "startTime": 1331.6766659999998,
+          "endTime": 1504.375666
+        },
+        {
+          "path": "Audio/output/2561/chapter_07.wav",
+          "duration": 189.805,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Practice—How Repetition and Mastery Set the Stage for Breakthroughs",
+          "actualDuration": 189.805,
+          "startTime": 1505.875666,
+          "endTime": 1695.680666
+        },
+        {
+          "path": "Audio/output/2561/chapter_08.wav",
+          "duration": 143.151875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Constraints—How Limits Can Spark Creative Solutions",
+          "actualDuration": 143.151875,
+          "startTime": 1697.180666,
+          "endTime": 1840.332541
+        },
+        {
+          "path": "Audio/output/2561/chapter_09.wav",
+          "duration": 151.772833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Importance of Play—How Fun and Experimentation Lead to Discovery",
+          "actualDuration": 151.772833,
+          "startTime": 1841.832541,
+          "endTime": 1993.605374
+        },
+        {
+          "path": "Audio/output/2561/chapter_10.wav",
+          "duration": 164.800792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Value of Failure—How Mistakes Become Stepping Stones to Success",
+          "actualDuration": 164.800792,
+          "startTime": 1995.105374,
+          "endTime": 2159.9061659999998
+        },
+        {
+          "path": "Audio/output/2561/chapter_11.wav",
+          "duration": 125.804667,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Social Side of Creativity—How Networks and Relationships Shape Ideas",
+          "actualDuration": 125.804667,
+          "startTime": 2161.4061659999998,
+          "endTime": 2287.2108329999996
+        },
+        {
+          "path": "Audio/output/2561/chapter_12.wav",
+          "duration": 140.346708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Role of Leadership—How Vision and Support Nurture Creative Teams",
+          "actualDuration": 140.346708,
+          "startTime": 2288.7108329999996,
+          "endTime": 2429.0575409999997
+        },
+        {
+          "path": "Audio/output/2561/chapter_13.wav",
+          "duration": 148.990708,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Impact of Technology—How Tools and Platforms Expand Creative Possibilities",
+          "actualDuration": 148.990708,
+          "startTime": 2430.5575409999997,
+          "endTime": 2579.5482489999995
+        },
+        {
+          "path": "Audio/output/2561/chapter_14.wav",
+          "duration": 115.202875,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Practice of Mindfulness—How Awareness and Presence Enhance Creative Flow",
+          "actualDuration": 115.202875,
+          "startTime": 2581.0482489999995,
+          "endTime": 2696.2511239999994
+        },
+        {
+          "path": "Audio/output/2561/chapter_15.wav",
+          "duration": 112.691167,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Journey of Lifelong Creativity—How to Sustain Innovation Over Time",
+          "actualDuration": 112.691167,
+          "startTime": 2697.7511239999994,
+          "endTime": 2810.4422909999994
+        },
+        {
+          "path": "Audio/output/2561/conclusion.wav",
+          "duration": 118.497833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.497833,
+          "startTime": 2811.9422909999994,
+          "endTime": 2930.4401239999993
+        }
+      ],
+      "totalDuration": 2930.4401239999993,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.2,
+          "actualStart": 0,
+          "actualEnd": 97.199458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Spark of New Ideas—How the Brain Finds Unexpected Connections",
+          "expectedStart": 97.2,
+          "expectedEnd": 362.37,
+          "actualStart": 98.699458,
+          "actualEnd": 363.867375,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Solitude—Why Being Alone Can Unlock Original Thinking",
+          "expectedStart": 362.37,
+          "expectedEnd": 605.09,
+          "actualStart": 365.367375,
+          "actualEnd": 608.08875,
+          "timeDifference": 2.997374999999977
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Frustration and Relaxation—How Breakthroughs Emerge from Struggle and Letting Go",
+          "expectedStart": 605.09,
+          "expectedEnd": 842.15,
+          "actualStart": 609.58875,
+          "actualEnd": 846.644333,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Influence of Environment—How Culture, Space, and Diversity Shape Creative Work",
+          "expectedStart": 842.15,
+          "expectedEnd": 1108.15,
+          "actualStart": 848.144333,
+          "actualEnd": 1114.143416,
+          "timeDifference": 5.994332999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Myth of the Lone Genius—Why Collaboration and Community Matter",
+          "expectedStart": 1108.15,
+          "expectedEnd": 1322.68,
+          "actualStart": 1115.643416,
+          "actualEnd": 1330.1766659999998,
+          "timeDifference": 7.493415999999797
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Science of Daydreaming—How Letting the Mind Wander Fuels Innovation",
+          "expectedStart": 1322.68,
+          "expectedEnd": 1495.38,
+          "actualStart": 1331.6766659999998,
+          "actualEnd": 1504.375666,
+          "timeDifference": 8.996665999999777
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Practice—How Repetition and Mastery Set the Stage for Breakthroughs",
+          "expectedStart": 1495.38,
+          "expectedEnd": 1685.19,
+          "actualStart": 1505.875666,
+          "actualEnd": 1695.680666,
+          "timeDifference": 10.495665999999801
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Constraints—How Limits Can Spark Creative Solutions",
+          "expectedStart": 1685.19,
+          "expectedEnd": 1828.34,
+          "actualStart": 1697.180666,
+          "actualEnd": 1840.332541,
+          "timeDifference": 11.99066599999992
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Importance of Play—How Fun and Experimentation Lead to Discovery",
+          "expectedStart": 1828.34,
+          "expectedEnd": 1980.11,
+          "actualStart": 1841.832541,
+          "actualEnd": 1993.605374,
+          "timeDifference": 13.492541000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Value of Failure—How Mistakes Become Stepping Stones to Success",
+          "expectedStart": 1980.11,
+          "expectedEnd": 2144.91,
+          "actualStart": 1995.105374,
+          "actualEnd": 2159.9061659999998,
+          "timeDifference": 14.995374000000083
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Social Side of Creativity—How Networks and Relationships Shape Ideas",
+          "expectedStart": 2144.91,
+          "expectedEnd": 2270.71,
+          "actualStart": 2161.4061659999998,
+          "actualEnd": 2287.2108329999996,
+          "timeDifference": 16.496165999999903
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Role of Leadership—How Vision and Support Nurture Creative Teams",
+          "expectedStart": 2270.71,
+          "expectedEnd": 2411.06,
+          "actualStart": 2288.7108329999996,
+          "actualEnd": 2429.0575409999997,
+          "timeDifference": 18.000832999999602
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Impact of Technology—How Tools and Platforms Expand Creative Possibilities",
+          "expectedStart": 2411.06,
+          "expectedEnd": 2560.05,
+          "actualStart": 2430.5575409999997,
+          "actualEnd": 2579.5482489999995,
+          "timeDifference": 19.49754099999973
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Practice of Mindfulness—How Awareness and Presence Enhance Creative Flow",
+          "expectedStart": 2560.05,
+          "expectedEnd": 2675.25,
+          "actualStart": 2581.0482489999995,
+          "actualEnd": 2696.2511239999994,
+          "timeDifference": 20.998248999999305
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Journey of Lifelong Creativity—How to Sustain Innovation Over Time",
+          "expectedStart": 2675.25,
+          "expectedEnd": 2787.94,
+          "actualStart": 2697.7511239999994,
+          "actualEnd": 2810.4422909999994,
+          "timeDifference": 22.501123999999436
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2787.94,
+          "expectedEnd": 2906.44,
+          "actualStart": 2811.9422909999994,
+          "actualEnd": 2930.4401239999993,
+          "timeDifference": 24.00229099999933
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.199458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Spark of New Ideas—How the Brain Finds Unexpected Connections"
+        },
+        {
+          "startTime": 363.867375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Spark of New Ideas—How the Brain Finds Unexpected Connections and Chapter 2 The Power of Solitude—Why Being Alone Can Unlock Original Thinking"
+        },
+        {
+          "startTime": 608.08875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Solitude—Why Being Alone Can Unlock Original Thinking and Chapter 3 The Role of Frustration and Relaxation—How Breakthroughs Emerge from Struggle and Letting Go"
+        },
+        {
+          "startTime": 846.644333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Frustration and Relaxation—How Breakthroughs Emerge from Struggle and Letting Go and Chapter 4 The Influence of Environment—How Culture, Space, and Diversity Shape Creative Work"
+        },
+        {
+          "startTime": 1114.143416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Influence of Environment—How Culture, Space, and Diversity Shape Creative Work and Chapter 5 The Myth of the Lone Genius—Why Collaboration and Community Matter"
+        },
+        {
+          "startTime": 1330.1766659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Myth of the Lone Genius—Why Collaboration and Community Matter and Chapter 6 The Science of Daydreaming—How Letting the Mind Wander Fuels Innovation"
+        },
+        {
+          "startTime": 1504.375666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Science of Daydreaming—How Letting the Mind Wander Fuels Innovation and Chapter 7 The Role of Practice—How Repetition and Mastery Set the Stage for Breakthroughs"
+        },
+        {
+          "startTime": 1695.680666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Practice—How Repetition and Mastery Set the Stage for Breakthroughs and Chapter 8 The Power of Constraints—How Limits Can Spark Creative Solutions"
+        },
+        {
+          "startTime": 1840.332541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Constraints—How Limits Can Spark Creative Solutions and Chapter 9 The Importance of Play—How Fun and Experimentation Lead to Discovery"
+        },
+        {
+          "startTime": 1993.605374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Importance of Play—How Fun and Experimentation Lead to Discovery and Chapter 10 The Value of Failure—How Mistakes Become Stepping Stones to Success"
+        },
+        {
+          "startTime": 2159.9061659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Value of Failure—How Mistakes Become Stepping Stones to Success and Chapter 11 The Social Side of Creativity—How Networks and Relationships Shape Ideas"
+        },
+        {
+          "startTime": 2287.2108329999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Social Side of Creativity—How Networks and Relationships Shape Ideas and Chapter 12 The Role of Leadership—How Vision and Support Nurture Creative Teams"
+        },
+        {
+          "startTime": 2429.0575409999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Role of Leadership—How Vision and Support Nurture Creative Teams and Chapter 13 The Impact of Technology—How Tools and Platforms Expand Creative Possibilities"
+        },
+        {
+          "startTime": 2579.5482489999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Impact of Technology—How Tools and Platforms Expand Creative Possibilities and Chapter 14 The Practice of Mindfulness—How Awareness and Presence Enhance Creative Flow"
+        },
+        {
+          "startTime": 2696.2511239999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Practice of Mindfulness—How Awareness and Presence Enhance Creative Flow and Chapter 15 The Journey of Lifelong Creativity—How to Sustain Innovation Over Time"
+        },
+        {
+          "startTime": 2810.4422909999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Journey of Lifelong Creativity—How to Sustain Innovation Over Time and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2561",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T05:25:30.953Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

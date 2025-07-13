@@ -1,0 +1,456 @@
+{
+  "bookId": "2350",
+  "timestamp": "2025-07-10T17:25:17.927Z",
+  "success": false,
+  "processingTime": -1752168013246,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4170,
+    "totalAudioFiles": 12,
+    "totalDuration": 2217.6454580000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2217.6454580000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2350/optimized_text/2350.md",
+    "fileSize": 729,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2350.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2350/metadata/2350_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2217.64,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2350/metadata/2350_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2350/metadata/2350_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2350/2350_complete.wav",
+    "duration": 2217.645458,
+    "fileSize": 106447060,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2350/introduction.wav",
+          "duration": 87.67775,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.67775,
+          "startTime": 0,
+          "endTime": 87.67775
+        },
+        {
+          "path": "Audio/output/2350/chapter_01.wav",
+          "duration": 188.402208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding What Minerals Are and Why They Matter",
+          "actualDuration": 188.402208,
+          "startTime": 89.17775,
+          "endTime": 277.57995800000003
+        },
+        {
+          "path": "Audio/output/2350/chapter_02.wav",
+          "duration": 207.35325,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Crystallography in Identifying Minerals",
+          "actualDuration": 207.35325,
+          "startTime": 279.07995800000003,
+          "endTime": 486.43320800000004
+        },
+        {
+          "path": "Audio/output/2350/chapter_03.wav",
+          "duration": 250.121958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Physical Properties as Clues for Mineral Identification",
+          "actualDuration": 250.121958,
+          "startTime": 487.93320800000004,
+          "endTime": 738.0551660000001
+        },
+        {
+          "path": "Audio/output/2350/chapter_04.wav",
+          "duration": 249.351542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Chemical Composition and the Classification of Minerals",
+          "actualDuration": 249.351542,
+          "startTime": 739.5551660000001,
+          "endTime": 988.9067080000001
+        },
+        {
+          "path": "Audio/output/2350/chapter_05.wav",
+          "duration": 232.685,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Laboratory Techniques for Mineral Analysis and Identification",
+          "actualDuration": 232.685,
+          "startTime": 990.4067080000001,
+          "endTime": 1223.0917080000002
+        },
+        {
+          "path": "Audio/output/2350/chapter_06.wav",
+          "duration": 207.247417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Systematic Mineral Classification—From Structure to Function",
+          "actualDuration": 207.247417,
+          "startTime": 1224.5917080000002,
+          "endTime": 1431.8391250000002
+        },
+        {
+          "path": "Audio/output/2350/chapter_07.wav",
+          "duration": 180.424417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mineral Genesis—How Minerals Form and Transform",
+          "actualDuration": 180.424417,
+          "startTime": 1433.3391250000002,
+          "endTime": 1613.7635420000001
+        },
+        {
+          "path": "Audio/output/2350/chapter_08.wav",
+          "duration": 170.7035,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mineral Stability—The Rules of Change",
+          "actualDuration": 170.7035,
+          "startTime": 1615.2635420000001,
+          "endTime": 1785.9670420000002
+        },
+        {
+          "path": "Audio/output/2350/chapter_09.wav",
+          "duration": 167.2485,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Minerals as Recorders of Earth’s History",
+          "actualDuration": 167.2485,
+          "startTime": 1787.4670420000002,
+          "endTime": 1954.7155420000001
+        },
+        {
+          "path": "Audio/output/2350/chapter_10.wav",
+          "duration": 149.747833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Broader Significance—Minerals in Society and the Future",
+          "actualDuration": 149.747833,
+          "startTime": 1956.2155420000001,
+          "endTime": 2105.9633750000003
+        },
+        {
+          "path": "Audio/output/2350/conclusion.wav",
+          "duration": 126.682083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.682083,
+          "startTime": 2107.4633750000003,
+          "endTime": 2234.1454580000004
+        }
+      ],
+      "totalDuration": 2234.1454580000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.68,
+          "actualStart": 0,
+          "actualEnd": 87.67775,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding What Minerals Are and Why They Matter",
+          "expectedStart": 87.68,
+          "expectedEnd": 276.08,
+          "actualStart": 89.17775,
+          "actualEnd": 277.57995800000003,
+          "timeDifference": 1.4977499999999964
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Crystallography in Identifying Minerals",
+          "expectedStart": 276.08,
+          "expectedEnd": 483.43,
+          "actualStart": 279.07995800000003,
+          "actualEnd": 486.43320800000004,
+          "timeDifference": 2.999958000000049
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Physical Properties as Clues for Mineral Identification",
+          "expectedStart": 483.43,
+          "expectedEnd": 733.55,
+          "actualStart": 487.93320800000004,
+          "actualEnd": 738.0551660000001,
+          "timeDifference": 4.503208000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Chemical Composition and the Classification of Minerals",
+          "expectedStart": 733.55,
+          "expectedEnd": 982.9,
+          "actualStart": 739.5551660000001,
+          "actualEnd": 988.9067080000001,
+          "timeDifference": 6.005166000000145
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Laboratory Techniques for Mineral Analysis and Identification",
+          "expectedStart": 982.9,
+          "expectedEnd": 1215.59,
+          "actualStart": 990.4067080000001,
+          "actualEnd": 1223.0917080000002,
+          "timeDifference": 7.506708000000117
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Systematic Mineral Classification—From Structure to Function",
+          "expectedStart": 1215.59,
+          "expectedEnd": 1422.84,
+          "actualStart": 1224.5917080000002,
+          "actualEnd": 1431.8391250000002,
+          "timeDifference": 9.001708000000235
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mineral Genesis—How Minerals Form and Transform",
+          "expectedStart": 1422.84,
+          "expectedEnd": 1603.26,
+          "actualStart": 1433.3391250000002,
+          "actualEnd": 1613.7635420000001,
+          "timeDifference": 10.499125000000276
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mineral Stability—The Rules of Change",
+          "expectedStart": 1603.26,
+          "expectedEnd": 1773.96,
+          "actualStart": 1615.2635420000001,
+          "actualEnd": 1785.9670420000002,
+          "timeDifference": 12.003542000000152
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Minerals as Recorders of Earth’s History",
+          "expectedStart": 1773.96,
+          "expectedEnd": 1941.21,
+          "actualStart": 1787.4670420000002,
+          "actualEnd": 1954.7155420000001,
+          "timeDifference": 13.507042000000183
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Broader Significance—Minerals in Society and the Future",
+          "expectedStart": 1941.21,
+          "expectedEnd": 2090.96,
+          "actualStart": 1956.2155420000001,
+          "actualEnd": 2105.9633750000003,
+          "timeDifference": 15.005542000000105
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2090.96,
+          "expectedEnd": 2217.64,
+          "actualStart": 2107.4633750000003,
+          "actualEnd": 2234.1454580000004,
+          "timeDifference": 16.503375000000233
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.67775,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding What Minerals Are and Why They Matter"
+        },
+        {
+          "startTime": 277.57995800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding What Minerals Are and Why They Matter and Chapter 2 The Role of Crystallography in Identifying Minerals"
+        },
+        {
+          "startTime": 486.43320800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Crystallography in Identifying Minerals and Chapter 3 Physical Properties as Clues for Mineral Identification"
+        },
+        {
+          "startTime": 738.0551660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Physical Properties as Clues for Mineral Identification and Chapter 4 Chemical Composition and the Classification of Minerals"
+        },
+        {
+          "startTime": 988.9067080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Chemical Composition and the Classification of Minerals and Chapter 5 Laboratory Techniques for Mineral Analysis and Identification"
+        },
+        {
+          "startTime": 1223.0917080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Laboratory Techniques for Mineral Analysis and Identification and Chapter 6 Systematic Mineral Classification—From Structure to Function"
+        },
+        {
+          "startTime": 1431.8391250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Systematic Mineral Classification—From Structure to Function and Chapter 7 Mineral Genesis—How Minerals Form and Transform"
+        },
+        {
+          "startTime": 1613.7635420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mineral Genesis—How Minerals Form and Transform and Chapter 8 Mineral Stability—The Rules of Change"
+        },
+        {
+          "startTime": 1785.9670420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mineral Stability—The Rules of Change and Chapter 9 Minerals as Recorders of Earth’s History"
+        },
+        {
+          "startTime": 1954.7155420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Minerals as Recorders of Earth’s History and Chapter 10 The Broader Significance—Minerals in Society and the Future"
+        },
+        {
+          "startTime": 2105.9633750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Broader Significance—Minerals in Society and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2350",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T17:20:14.441Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

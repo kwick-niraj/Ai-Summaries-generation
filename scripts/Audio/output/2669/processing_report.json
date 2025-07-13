@@ -1,0 +1,456 @@
+{
+  "bookId": "2669",
+  "timestamp": "2025-07-12T09:47:43.962Z",
+  "success": false,
+  "processingTime": -1752313235847,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4313,
+    "totalAudioFiles": 12,
+    "totalDuration": 2065.327875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2065.327875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2669/optimized_text/2669.md",
+    "fileSize": 637,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2669.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2669/metadata/2669_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2065.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2669/metadata/2669_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2669/metadata/2669_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2669/2669_complete.wav",
+    "duration": 2065.327875,
+    "fileSize": 99135816,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2669/introduction.wav",
+          "duration": 84.2115,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.2115,
+          "startTime": 0,
+          "endTime": 84.2115
+        },
+        {
+          "path": "Audio/output/2669/chapter_01.wav",
+          "duration": 220.06125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Trauma Changes the Brain, Mind, and Body",
+          "actualDuration": 220.06125,
+          "startTime": 85.7115,
+          "endTime": 305.77275
+        },
+        {
+          "path": "Audio/output/2669/chapter_02.wav",
+          "duration": 238.385958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Why Traumatic Memories Linger and Resurface",
+          "actualDuration": 238.385958,
+          "startTime": 307.27275,
+          "endTime": 545.6587079999999
+        },
+        {
+          "path": "Audio/output/2669/chapter_03.wav",
+          "duration": 221.97525,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Limits of Traditional Talk Therapy for Trauma",
+          "actualDuration": 221.97525,
+          "startTime": 547.1587079999999,
+          "endTime": 769.1339579999999
+        },
+        {
+          "path": "Audio/output/2669/chapter_04.wav",
+          "duration": 191.737083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Body-Based Approaches for Healing Trauma",
+          "actualDuration": 191.737083,
+          "startTime": 770.6339579999999,
+          "endTime": 962.3710409999999
+        },
+        {
+          "path": "Audio/output/2669/chapter_05.wav",
+          "duration": 186.432875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Safety, Connection, and Community in Recovery",
+          "actualDuration": 186.432875,
+          "startTime": 963.8710409999999,
+          "endTime": 1150.3039159999998
+        },
+        {
+          "path": "Audio/output/2669/chapter_06.wav",
+          "duration": 184.37325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reclaiming Agency—Restoring Control and Choice",
+          "actualDuration": 184.37325,
+          "startTime": 1151.8039159999998,
+          "endTime": 1336.177166
+        },
+        {
+          "path": "Audio/output/2669/chapter_07.wav",
+          "duration": 138.001542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Resilience—How People Grow After Trauma",
+          "actualDuration": 138.001542,
+          "startTime": 1337.677166,
+          "endTime": 1475.678708
+        },
+        {
+          "path": "Audio/output/2669/chapter_08.wav",
+          "duration": 170.146375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Recovery into Daily Life",
+          "actualDuration": 170.146375,
+          "startTime": 1477.178708,
+          "endTime": 1647.325083
+        },
+        {
+          "path": "Audio/output/2669/chapter_09.wav",
+          "duration": 168.762125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Triggers",
+          "actualDuration": 168.762125,
+          "startTime": 1648.825083,
+          "endTime": 1817.587208
+        },
+        {
+          "path": "Audio/output/2669/chapter_10.wav",
+          "duration": 137.764,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Life Beyond Trauma",
+          "actualDuration": 137.764,
+          "startTime": 1819.087208,
+          "endTime": 1956.851208
+        },
+        {
+          "path": "Audio/output/2669/conclusion.wav",
+          "duration": 123.476667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.476667,
+          "startTime": 1958.351208,
+          "endTime": 2081.827875
+        }
+      ],
+      "totalDuration": 2081.827875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.21,
+          "actualStart": 0,
+          "actualEnd": 84.2115,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Trauma Changes the Brain, Mind, and Body",
+          "expectedStart": 84.21,
+          "expectedEnd": 304.27,
+          "actualStart": 85.7115,
+          "actualEnd": 305.77275,
+          "timeDifference": 1.5015000000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Why Traumatic Memories Linger and Resurface",
+          "expectedStart": 304.27,
+          "expectedEnd": 542.66,
+          "actualStart": 307.27275,
+          "actualEnd": 545.6587079999999,
+          "timeDifference": 3.002749999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Limits of Traditional Talk Therapy for Trauma",
+          "expectedStart": 542.66,
+          "expectedEnd": 764.64,
+          "actualStart": 547.1587079999999,
+          "actualEnd": 769.1339579999999,
+          "timeDifference": 4.498707999999965
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Body-Based Approaches for Healing Trauma",
+          "expectedStart": 764.64,
+          "expectedEnd": 956.38,
+          "actualStart": 770.6339579999999,
+          "actualEnd": 962.3710409999999,
+          "timeDifference": 5.993957999999907
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Safety, Connection, and Community in Recovery",
+          "expectedStart": 956.38,
+          "expectedEnd": 1142.81,
+          "actualStart": 963.8710409999999,
+          "actualEnd": 1150.3039159999998,
+          "timeDifference": 7.491040999999882
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reclaiming Agency—Restoring Control and Choice",
+          "expectedStart": 1142.81,
+          "expectedEnd": 1327.18,
+          "actualStart": 1151.8039159999998,
+          "actualEnd": 1336.177166,
+          "timeDifference": 8.9939159999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Resilience—How People Grow After Trauma",
+          "expectedStart": 1327.18,
+          "expectedEnd": 1465.18,
+          "actualStart": 1337.677166,
+          "actualEnd": 1475.678708,
+          "timeDifference": 10.49716599999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Recovery into Daily Life",
+          "expectedStart": 1465.18,
+          "expectedEnd": 1635.33,
+          "actualStart": 1477.178708,
+          "actualEnd": 1647.325083,
+          "timeDifference": 11.998707999999851
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Triggers",
+          "expectedStart": 1635.33,
+          "expectedEnd": 1804.09,
+          "actualStart": 1648.825083,
+          "actualEnd": 1817.587208,
+          "timeDifference": 13.495083000000022
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Life Beyond Trauma",
+          "expectedStart": 1804.09,
+          "expectedEnd": 1941.85,
+          "actualStart": 1819.087208,
+          "actualEnd": 1956.851208,
+          "timeDifference": 14.997208
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1941.85,
+          "expectedEnd": 2065.33,
+          "actualStart": 1958.351208,
+          "actualEnd": 2081.827875,
+          "timeDifference": 16.501208000000133
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.2115,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Trauma Changes the Brain, Mind, and Body"
+        },
+        {
+          "startTime": 305.77275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Trauma Changes the Brain, Mind, and Body and Chapter 2 Why Traumatic Memories Linger and Resurface"
+        },
+        {
+          "startTime": 545.6587079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Why Traumatic Memories Linger and Resurface and Chapter 3 The Limits of Traditional Talk Therapy for Trauma"
+        },
+        {
+          "startTime": 769.1339579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Limits of Traditional Talk Therapy for Trauma and Chapter 4 Body-Based Approaches for Healing Trauma"
+        },
+        {
+          "startTime": 962.3710409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Body-Based Approaches for Healing Trauma and Chapter 5 The Role of Safety, Connection, and Community in Recovery"
+        },
+        {
+          "startTime": 1150.3039159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Safety, Connection, and Community in Recovery and Chapter 6 Reclaiming Agency—Restoring Control and Choice"
+        },
+        {
+          "startTime": 1336.177166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reclaiming Agency—Restoring Control and Choice and Chapter 7 The Science of Resilience—How People Grow After Trauma"
+        },
+        {
+          "startTime": 1475.678708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Resilience—How People Grow After Trauma and Chapter 8 Integrating Recovery into Daily Life"
+        },
+        {
+          "startTime": 1647.325083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Recovery into Daily Life and Chapter 9 Navigating Setbacks and Triggers"
+        },
+        {
+          "startTime": 1817.587208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Triggers and Chapter 10 Creating a Life Beyond Trauma"
+        },
+        {
+          "startTime": 1956.851208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Life Beyond Trauma and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2669",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:40:37.553Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

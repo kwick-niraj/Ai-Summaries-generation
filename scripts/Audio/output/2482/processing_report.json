@@ -1,0 +1,456 @@
+{
+  "bookId": "2482",
+  "timestamp": "2025-07-11T00:31:40.381Z",
+  "success": false,
+  "processingTime": -1752193532970,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4298,
+    "totalAudioFiles": 12,
+    "totalDuration": 2112.41054
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2112.41054
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2482/optimized_text/2482.md",
+    "fileSize": 663,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2482.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2482/metadata/2482_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2112.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2482/metadata/2482_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2482/metadata/2482_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2482/2482_complete.wav",
+    "duration": 2112.410542,
+    "fileSize": 101395784,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2482/introduction.wav",
+          "duration": 78.57875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.57875,
+          "startTime": 0,
+          "endTime": 78.57875
+        },
+        {
+          "path": "Audio/output/2482/chapter_01.wav",
+          "duration": 236.881708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Life, Family Roots, and the Seeds of Ambition",
+          "actualDuration": 236.881708,
+          "startTime": 80.07875,
+          "endTime": 316.960458
+        },
+        {
+          "path": "Audio/output/2482/chapter_02.wav",
+          "duration": 253.717083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating Barriers and Finding Purpose in Education",
+          "actualDuration": 253.717083,
+          "startTime": 318.460458,
+          "endTime": 572.177541
+        },
+        {
+          "path": "Audio/output/2482/chapter_03.wav",
+          "duration": 231.045708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Becoming a Teacher and Shaping Young Minds",
+          "actualDuration": 231.045708,
+          "startTime": 573.677541,
+          "endTime": 804.723249
+        },
+        {
+          "path": "Audio/output/2482/chapter_04.wav",
+          "duration": 229.629875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leading Schools and Transforming Communities",
+          "actualDuration": 229.629875,
+          "startTime": 806.223249,
+          "endTime": 1035.853124
+        },
+        {
+          "path": "Audio/output/2482/chapter_05.wav",
+          "duration": 189.904125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultural Identity, Legacy, and the Evolution of Education",
+          "actualDuration": 189.904125,
+          "startTime": 1037.353124,
+          "endTime": 1227.257249
+        },
+        {
+          "path": "Audio/output/2482/chapter_06.wav",
+          "duration": 213.390208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Championing Educational Reform and Facing Resistance",
+          "actualDuration": 213.390208,
+          "startTime": 1228.757249,
+          "endTime": 1442.147457
+        },
+        {
+          "path": "Audio/output/2482/chapter_07.wav",
+          "duration": 188.422292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mentorship, Legacy, and the Power of Example",
+          "actualDuration": 188.422292,
+          "startTime": 1443.647457,
+          "endTime": 1632.069749
+        },
+        {
+          "path": "Audio/output/2482/chapter_08.wav",
+          "duration": 128.190792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Family, Faith, and the Balance of Service",
+          "actualDuration": 128.190792,
+          "startTime": 1633.569749,
+          "endTime": 1761.760541
+        },
+        {
+          "path": "Audio/output/2482/chapter_09.wav",
+          "duration": 144.608833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Impact: Reflections and Farewells",
+          "actualDuration": 144.608833,
+          "startTime": 1763.260541,
+          "endTime": 1907.869374
+        },
+        {
+          "path": "Audio/output/2482/chapter_10.wav",
+          "duration": 99.779458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the Next Generation",
+          "actualDuration": 99.779458,
+          "startTime": 1909.369374,
+          "endTime": 2009.148832
+        },
+        {
+          "path": "Audio/output/2482/conclusion.wav",
+          "duration": 118.261708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.261708,
+          "startTime": 2010.648832,
+          "endTime": 2128.91054
+        }
+      ],
+      "totalDuration": 2128.91054,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.58,
+          "actualStart": 0,
+          "actualEnd": 78.57875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Life, Family Roots, and the Seeds of Ambition",
+          "expectedStart": 78.58,
+          "expectedEnd": 315.46,
+          "actualStart": 80.07875,
+          "actualEnd": 316.960458,
+          "timeDifference": 1.4987500000000011
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating Barriers and Finding Purpose in Education",
+          "expectedStart": 315.46,
+          "expectedEnd": 569.18,
+          "actualStart": 318.460458,
+          "actualEnd": 572.177541,
+          "timeDifference": 3.0004580000000374
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Becoming a Teacher and Shaping Young Minds",
+          "expectedStart": 569.18,
+          "expectedEnd": 800.23,
+          "actualStart": 573.677541,
+          "actualEnd": 804.723249,
+          "timeDifference": 4.497541000000069
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leading Schools and Transforming Communities",
+          "expectedStart": 800.23,
+          "expectedEnd": 1029.86,
+          "actualStart": 806.223249,
+          "actualEnd": 1035.853124,
+          "timeDifference": 5.993248999999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultural Identity, Legacy, and the Evolution of Education",
+          "expectedStart": 1029.86,
+          "expectedEnd": 1219.76,
+          "actualStart": 1037.353124,
+          "actualEnd": 1227.257249,
+          "timeDifference": 7.49312400000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Championing Educational Reform and Facing Resistance",
+          "expectedStart": 1219.76,
+          "expectedEnd": 1433.15,
+          "actualStart": 1228.757249,
+          "actualEnd": 1442.147457,
+          "timeDifference": 8.99724900000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mentorship, Legacy, and the Power of Example",
+          "expectedStart": 1433.15,
+          "expectedEnd": 1621.57,
+          "actualStart": 1443.647457,
+          "actualEnd": 1632.069749,
+          "timeDifference": 10.49745699999994
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Family, Faith, and the Balance of Service",
+          "expectedStart": 1621.57,
+          "expectedEnd": 1749.76,
+          "actualStart": 1633.569749,
+          "actualEnd": 1761.760541,
+          "timeDifference": 11.999749000000065
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Impact: Reflections and Farewells",
+          "expectedStart": 1749.76,
+          "expectedEnd": 1894.37,
+          "actualStart": 1763.260541,
+          "actualEnd": 1907.869374,
+          "timeDifference": 13.500541000000112
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the Next Generation",
+          "expectedStart": 1894.37,
+          "expectedEnd": 1994.15,
+          "actualStart": 1909.369374,
+          "actualEnd": 2009.148832,
+          "timeDifference": 14.999374000000216
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1994.15,
+          "expectedEnd": 2112.41,
+          "actualStart": 2010.648832,
+          "actualEnd": 2128.91054,
+          "timeDifference": 16.498831999999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.57875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Life, Family Roots, and the Seeds of Ambition"
+        },
+        {
+          "startTime": 316.960458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Life, Family Roots, and the Seeds of Ambition and Chapter 2 Navigating Barriers and Finding Purpose in Education"
+        },
+        {
+          "startTime": 572.177541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating Barriers and Finding Purpose in Education and Chapter 3 Becoming a Teacher and Shaping Young Minds"
+        },
+        {
+          "startTime": 804.723249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Becoming a Teacher and Shaping Young Minds and Chapter 4 Leading Schools and Transforming Communities"
+        },
+        {
+          "startTime": 1035.853124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leading Schools and Transforming Communities and Chapter 5 Cultural Identity, Legacy, and the Evolution of Education"
+        },
+        {
+          "startTime": 1227.257249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultural Identity, Legacy, and the Evolution of Education and Chapter 6 Championing Educational Reform and Facing Resistance"
+        },
+        {
+          "startTime": 1442.147457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Championing Educational Reform and Facing Resistance and Chapter 7 Mentorship, Legacy, and the Power of Example"
+        },
+        {
+          "startTime": 1632.069749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mentorship, Legacy, and the Power of Example and Chapter 8 Family, Faith, and the Balance of Service"
+        },
+        {
+          "startTime": 1761.760541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Family, Faith, and the Balance of Service and Chapter 9 The Enduring Impact: Reflections and Farewells"
+        },
+        {
+          "startTime": 1907.869374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Impact: Reflections and Farewells and Chapter 10 Lessons for the Next Generation"
+        },
+        {
+          "startTime": 2009.148832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the Next Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2482",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:25:33.517Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

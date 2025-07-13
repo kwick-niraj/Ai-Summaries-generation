@@ -1,0 +1,456 @@
+{
+  "bookId": "2367",
+  "timestamp": "2025-07-10T18:42:20.958Z",
+  "success": false,
+  "processingTime": -1752172597200,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4898,
+    "totalAudioFiles": 12,
+    "totalDuration": 2475.424832
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2475.424832
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2367/optimized_text/2367.md",
+    "fileSize": 849,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2367.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2367/metadata/2367_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2475.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2367/metadata/2367_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2367/metadata/2367_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2367/2367_complete.wav",
+    "duration": 2475.424833,
+    "fileSize": 118820470,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2367/introduction.wav",
+          "duration": 97.596625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.596625,
+          "startTime": 0,
+          "endTime": 97.596625
+        },
+        {
+          "path": "Audio/output/2367/chapter_01.wav",
+          "duration": 294.491833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Strong Financial Foundation—Spending Less Than You Earn",
+          "actualDuration": 294.491833,
+          "startTime": 99.096625,
+          "endTime": 393.588458
+        },
+        {
+          "path": "Audio/output/2367/chapter_02.wav",
+          "duration": 302.229417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Demystifying Investing—Simple Strategies for Ordinary People",
+          "actualDuration": 302.229417,
+          "startTime": 395.088458,
+          "endTime": 697.317875
+        },
+        {
+          "path": "Audio/output/2367/chapter_03.wav",
+          "duration": 246.483958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Harnessing the Power of Compounding—Small Steps, Big Results",
+          "actualDuration": 246.483958,
+          "startTime": 698.817875,
+          "endTime": 945.301833
+        },
+        {
+          "path": "Audio/output/2367/chapter_04.wav",
+          "duration": 286.672792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Making the Most of Tax-Advantaged Accounts and Employer Benefits",
+          "actualDuration": 286.672792,
+          "startTime": 946.801833,
+          "endTime": 1233.474625
+        },
+        {
+          "path": "Audio/output/2367/chapter_05.wav",
+          "duration": 231.644708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Protecting Wealth—Insurance, Estate Planning, and Avoiding Scams",
+          "actualDuration": 231.644708,
+          "startTime": 1234.974625,
+          "endTime": 1466.619333
+        },
+        {
+          "path": "Audio/output/2367/chapter_06.wav",
+          "duration": 240.053958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Investment Strategies—Diversification, Asset Allocation, and Rebalancing",
+          "actualDuration": 240.053958,
+          "startTime": 1468.119333,
+          "endTime": 1708.173291
+        },
+        {
+          "path": "Audio/output/2367/chapter_07.wav",
+          "duration": 207.224042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Behavioral Pitfalls—Understanding and Managing Your Own Psychology",
+          "actualDuration": 207.224042,
+          "startTime": 1709.673291,
+          "endTime": 1916.8973330000001
+        },
+        {
+          "path": "Audio/output/2367/chapter_08.wav",
+          "duration": 162.180458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lifelong Financial Health—Checklists and Periodic Reviews",
+          "actualDuration": 162.180458,
+          "startTime": 1918.3973330000001,
+          "endTime": 2080.577791
+        },
+        {
+          "path": "Audio/output/2367/chapter_09.wav",
+          "duration": 136.006875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Teaching and Sharing—Passing Financial Wisdom to Others",
+          "actualDuration": 136.006875,
+          "startTime": 2082.077791,
+          "endTime": 2218.084666
+        },
+        {
+          "path": "Audio/output/2367/chapter_10.wav",
+          "duration": 154.610583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Adapting to Change—Staying Flexible in a Shifting World",
+          "actualDuration": 154.610583,
+          "startTime": 2219.584666,
+          "endTime": 2374.1952490000003
+        },
+        {
+          "path": "Audio/output/2367/conclusion.wav",
+          "duration": 116.229583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.229583,
+          "startTime": 2375.6952490000003,
+          "endTime": 2491.924832
+        }
+      ],
+      "totalDuration": 2491.924832,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.6,
+          "actualStart": 0,
+          "actualEnd": 97.596625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Strong Financial Foundation—Spending Less Than You Earn",
+          "expectedStart": 97.6,
+          "expectedEnd": 392.09,
+          "actualStart": 99.096625,
+          "actualEnd": 393.588458,
+          "timeDifference": 1.4966250000000088
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Demystifying Investing—Simple Strategies for Ordinary People",
+          "expectedStart": 392.09,
+          "expectedEnd": 694.32,
+          "actualStart": 395.088458,
+          "actualEnd": 697.317875,
+          "timeDifference": 2.998458000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Harnessing the Power of Compounding—Small Steps, Big Results",
+          "expectedStart": 694.32,
+          "expectedEnd": 940.8,
+          "actualStart": 698.817875,
+          "actualEnd": 945.301833,
+          "timeDifference": 4.497874999999908
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Making the Most of Tax-Advantaged Accounts and Employer Benefits",
+          "expectedStart": 940.8,
+          "expectedEnd": 1227.47,
+          "actualStart": 946.801833,
+          "actualEnd": 1233.474625,
+          "timeDifference": 6.001833000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Protecting Wealth—Insurance, Estate Planning, and Avoiding Scams",
+          "expectedStart": 1227.47,
+          "expectedEnd": 1459.11,
+          "actualStart": 1234.974625,
+          "actualEnd": 1466.619333,
+          "timeDifference": 7.504625000000033
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Investment Strategies—Diversification, Asset Allocation, and Rebalancing",
+          "expectedStart": 1459.11,
+          "expectedEnd": 1699.16,
+          "actualStart": 1468.119333,
+          "actualEnd": 1708.173291,
+          "timeDifference": 9.009333000000197
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Behavioral Pitfalls—Understanding and Managing Your Own Psychology",
+          "expectedStart": 1699.16,
+          "expectedEnd": 1906.38,
+          "actualStart": 1709.673291,
+          "actualEnd": 1916.8973330000001,
+          "timeDifference": 10.513290999999981
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lifelong Financial Health—Checklists and Periodic Reviews",
+          "expectedStart": 1906.38,
+          "expectedEnd": 2068.56,
+          "actualStart": 1918.3973330000001,
+          "actualEnd": 2080.577791,
+          "timeDifference": 12.017333000000008
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Teaching and Sharing—Passing Financial Wisdom to Others",
+          "expectedStart": 2068.56,
+          "expectedEnd": 2204.57,
+          "actualStart": 2082.077791,
+          "actualEnd": 2218.084666,
+          "timeDifference": 13.517791000000216
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Adapting to Change—Staying Flexible in a Shifting World",
+          "expectedStart": 2204.57,
+          "expectedEnd": 2359.18,
+          "actualStart": 2219.584666,
+          "actualEnd": 2374.1952490000003,
+          "timeDifference": 15.014666000000034
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2359.18,
+          "expectedEnd": 2475.41,
+          "actualStart": 2375.6952490000003,
+          "actualEnd": 2491.924832,
+          "timeDifference": 16.515249000000495
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.596625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Strong Financial Foundation—Spending Less Than You Earn"
+        },
+        {
+          "startTime": 393.588458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Strong Financial Foundation—Spending Less Than You Earn and Chapter 2 Demystifying Investing—Simple Strategies for Ordinary People"
+        },
+        {
+          "startTime": 697.317875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Demystifying Investing—Simple Strategies for Ordinary People and Chapter 3 Harnessing the Power of Compounding—Small Steps, Big Results"
+        },
+        {
+          "startTime": 945.301833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Harnessing the Power of Compounding—Small Steps, Big Results and Chapter 4 Making the Most of Tax-Advantaged Accounts and Employer Benefits"
+        },
+        {
+          "startTime": 1233.474625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Making the Most of Tax-Advantaged Accounts and Employer Benefits and Chapter 5 Protecting Wealth—Insurance, Estate Planning, and Avoiding Scams"
+        },
+        {
+          "startTime": 1466.619333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Protecting Wealth—Insurance, Estate Planning, and Avoiding Scams and Chapter 6 Advanced Investment Strategies—Diversification, Asset Allocation, and Rebalancing"
+        },
+        {
+          "startTime": 1708.173291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Investment Strategies—Diversification, Asset Allocation, and Rebalancing and Chapter 7 Behavioral Pitfalls—Understanding and Managing Your Own Psychology"
+        },
+        {
+          "startTime": 1916.8973330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Behavioral Pitfalls—Understanding and Managing Your Own Psychology and Chapter 8 Lifelong Financial Health—Checklists and Periodic Reviews"
+        },
+        {
+          "startTime": 2080.577791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lifelong Financial Health—Checklists and Periodic Reviews and Chapter 9 Teaching and Sharing—Passing Financial Wisdom to Others"
+        },
+        {
+          "startTime": 2218.084666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Teaching and Sharing—Passing Financial Wisdom to Others and Chapter 10 Adapting to Change—Staying Flexible in a Shifting World"
+        },
+        {
+          "startTime": 2374.1952490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Adapting to Change—Staying Flexible in a Shifting World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2367",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:36:38.392Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

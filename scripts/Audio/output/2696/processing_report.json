@@ -1,0 +1,455 @@
+{
+  "bookId": "2696",
+  "timestamp": "2025-07-12T11:31:32.162Z",
+  "success": false,
+  "processingTime": -1752319599835,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4620,
+    "totalAudioFiles": 12,
+    "totalDuration": 1848.643376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1848.643376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2696/optimized_text/2696.md",
+    "fileSize": 648,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2696.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2696/metadata/2696_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1848.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2696/metadata/2696_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2696/metadata/2696_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2696/2696_complete.wav",
+    "duration": 1848.643375,
+    "fileSize": 88734960,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2696/introduction.wav",
+          "duration": 71.136458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 71.136458,
+          "startTime": 0,
+          "endTime": 71.136458
+        },
+        {
+          "path": "Audio/output/2696/chapter_01.wav",
+          "duration": 194.265708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years Shaped by Silence and Secrets",
+          "actualDuration": 194.265708,
+          "startTime": 72.636458,
+          "endTime": 266.90216599999997
+        },
+        {
+          "path": "Audio/output/2696/chapter_02.wav",
+          "duration": 218.035542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Running from Home and Searching for Belonging",
+          "actualDuration": 218.035542,
+          "startTime": 268.40216599999997,
+          "endTime": 486.43770799999993
+        },
+        {
+          "path": "Audio/output/2696/chapter_03.wav",
+          "duration": 189.396625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Falling into Exploitation and the Cost of Survival",
+          "actualDuration": 189.396625,
+          "startTime": 487.93770799999993,
+          "endTime": 677.3343329999999
+        },
+        {
+          "path": "Audio/output/2696/chapter_04.wav",
+          "duration": 190.163625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Patterns and Finding a Voice",
+          "actualDuration": 190.163625,
+          "startTime": 678.8343329999999,
+          "endTime": 868.9979579999999
+        },
+        {
+          "path": "Audio/output/2696/chapter_05.wav",
+          "duration": 177.243125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Work of Healing and Self-Discovery",
+          "actualDuration": 177.243125,
+          "startTime": 870.4979579999999,
+          "endTime": 1047.741083
+        },
+        {
+          "path": "Audio/output/2696/chapter_06.wav",
+          "duration": 182.62425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reaching for Dreams in a World That Doesn’t Wait",
+          "actualDuration": 182.62425,
+          "startTime": 1049.241083,
+          "endTime": 1231.865333
+        },
+        {
+          "path": "Audio/output/2696/chapter_07.wav",
+          "duration": 189.432292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Loss, and the Risk of Letting Others In",
+          "actualDuration": 189.432292,
+          "startTime": 1233.365333,
+          "endTime": 1422.797625
+        },
+        {
+          "path": "Audio/output/2696/chapter_08.wav",
+          "duration": 125.778167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Making Peace with the Past",
+          "actualDuration": 125.778167,
+          "startTime": 1424.297625,
+          "endTime": 1550.0757919999999
+        },
+        {
+          "path": "Audio/output/2696/chapter_09.wav",
+          "duration": 113.679,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Claiming Her Story and Sharing It with the World",
+          "actualDuration": 113.679,
+          "startTime": 1551.5757919999999,
+          "endTime": 1665.254792
+        },
+        {
+          "path": "Audio/output/2696/chapter_10.wav",
+          "duration": 113.465042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward: Hope, Resilience, and the Ongoing Journey",
+          "actualDuration": 113.465042,
+          "startTime": 1666.754792,
+          "endTime": 1780.219834
+        },
+        {
+          "path": "Audio/output/2696/conclusion.wav",
+          "duration": 83.423542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 83.423542,
+          "startTime": 1781.719834,
+          "endTime": 1865.143376
+        }
+      ],
+      "totalDuration": 1865.143376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 71.14,
+          "actualStart": 0,
+          "actualEnd": 71.136458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years Shaped by Silence and Secrets",
+          "expectedStart": 71.14,
+          "expectedEnd": 265.41,
+          "actualStart": 72.636458,
+          "actualEnd": 266.90216599999997,
+          "timeDifference": 1.496458000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Running from Home and Searching for Belonging",
+          "expectedStart": 265.41,
+          "expectedEnd": 483.45,
+          "actualStart": 268.40216599999997,
+          "actualEnd": 486.43770799999993,
+          "timeDifference": 2.9921659999999406
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Falling into Exploitation and the Cost of Survival",
+          "expectedStart": 483.45,
+          "expectedEnd": 672.85,
+          "actualStart": 487.93770799999993,
+          "actualEnd": 677.3343329999999,
+          "timeDifference": 4.487707999999941
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Patterns and Finding a Voice",
+          "expectedStart": 672.85,
+          "expectedEnd": 863.01,
+          "actualStart": 678.8343329999999,
+          "actualEnd": 868.9979579999999,
+          "timeDifference": 5.984332999999879
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Work of Healing and Self-Discovery",
+          "expectedStart": 863.01,
+          "expectedEnd": 1040.25,
+          "actualStart": 870.4979579999999,
+          "actualEnd": 1047.741083,
+          "timeDifference": 7.487957999999935
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reaching for Dreams in a World That Doesn’t Wait",
+          "expectedStart": 1040.25,
+          "expectedEnd": 1222.87,
+          "actualStart": 1049.241083,
+          "actualEnd": 1231.865333,
+          "timeDifference": 8.99108299999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Loss, and the Risk of Letting Others In",
+          "expectedStart": 1222.87,
+          "expectedEnd": 1412.3,
+          "actualStart": 1233.365333,
+          "actualEnd": 1422.797625,
+          "timeDifference": 10.495333000000073
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Making Peace with the Past",
+          "expectedStart": 1412.3,
+          "expectedEnd": 1538.08,
+          "actualStart": 1424.297625,
+          "actualEnd": 1550.0757919999999,
+          "timeDifference": 11.997624999999971
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Claiming Her Story and Sharing It with the World",
+          "expectedStart": 1538.08,
+          "expectedEnd": 1651.76,
+          "actualStart": 1551.5757919999999,
+          "actualEnd": 1665.254792,
+          "timeDifference": 13.495791999999938
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward: Hope, Resilience, and the Ongoing Journey",
+          "expectedStart": 1651.76,
+          "expectedEnd": 1765.23,
+          "actualStart": 1666.754792,
+          "actualEnd": 1780.219834,
+          "timeDifference": 14.994791999999961
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1765.23,
+          "expectedEnd": 1848.65,
+          "actualStart": 1781.719834,
+          "actualEnd": 1865.143376,
+          "timeDifference": 16.489833999999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 71.136458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years Shaped by Silence and Secrets"
+        },
+        {
+          "startTime": 266.90216599999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years Shaped by Silence and Secrets and Chapter 2 Running from Home and Searching for Belonging"
+        },
+        {
+          "startTime": 486.43770799999993,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Running from Home and Searching for Belonging and Chapter 3 Falling into Exploitation and the Cost of Survival"
+        },
+        {
+          "startTime": 677.3343329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Falling into Exploitation and the Cost of Survival and Chapter 4 Breaking Patterns and Finding a Voice"
+        },
+        {
+          "startTime": 868.9979579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Patterns and Finding a Voice and Chapter 5 The Ongoing Work of Healing and Self-Discovery"
+        },
+        {
+          "startTime": 1047.741083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Work of Healing and Self-Discovery and Chapter 6 Reaching for Dreams in a World That Doesn’t Wait"
+        },
+        {
+          "startTime": 1231.865333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reaching for Dreams in a World That Doesn’t Wait and Chapter 7 Love, Loss, and the Risk of Letting Others In"
+        },
+        {
+          "startTime": 1422.797625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Loss, and the Risk of Letting Others In and Chapter 8 Making Peace with the Past"
+        },
+        {
+          "startTime": 1550.0757919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Making Peace with the Past and Chapter 9 Claiming Her Story and Sharing It with the World"
+        },
+        {
+          "startTime": 1665.254792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Claiming Her Story and Sharing It with the World and Chapter 10 Living Forward: Hope, Resilience, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1780.219834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward: Hope, Resilience, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2696",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T11:26:41.038Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

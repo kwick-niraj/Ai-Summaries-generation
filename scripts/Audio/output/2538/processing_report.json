@@ -1,0 +1,456 @@
+{
+  "bookId": "2538",
+  "timestamp": "2025-07-11T03:55:14.465Z",
+  "success": false,
+  "processingTime": -1752205754360,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4137,
+    "totalAudioFiles": 12,
+    "totalDuration": 2018.7278749999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2018.7278749999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2538/optimized_text/2538.md",
+    "fileSize": 669,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2538.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2538/metadata/2538_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2018.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2538/metadata/2538_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2538/metadata/2538_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2538/2538_complete.wav",
+    "duration": 2018.727875,
+    "fileSize": 96899016,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2538/introduction.wav",
+          "duration": 96.762292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.762292,
+          "startTime": 0,
+          "endTime": 96.762292
+        },
+        {
+          "path": "Audio/output/2538/chapter_01.wav",
+          "duration": 182.797208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Freedom Feels Secure: The Seeds of Complacency",
+          "actualDuration": 182.797208,
+          "startTime": 98.262292,
+          "endTime": 281.0595
+        },
+        {
+          "path": "Audio/output/2538/chapter_02.wav",
+          "duration": 193.20375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Temptation of Strong Leaders and the Erosion of Limits",
+          "actualDuration": 193.20375,
+          "startTime": 282.5595,
+          "endTime": 475.76325
+        },
+        {
+          "path": "Audio/output/2538/chapter_03.wav",
+          "duration": 199.372417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Slow Drift Toward Centralized Power",
+          "actualDuration": 199.372417,
+          "startTime": 477.26325,
+          "endTime": 676.635667
+        },
+        {
+          "path": "Audio/output/2538/chapter_04.wav",
+          "duration": 201.986083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Economic Turmoil and the Rise of Authoritarian Promises",
+          "actualDuration": 201.986083,
+          "startTime": 678.135667,
+          "endTime": 880.12175
+        },
+        {
+          "path": "Audio/output/2538/chapter_05.wav",
+          "duration": 182.835458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Subtle Loss of Rights and the Normalization of Control",
+          "actualDuration": 182.835458,
+          "startTime": 881.62175,
+          "endTime": 1064.457208
+        },
+        {
+          "path": "Audio/output/2538/chapter_06.wav",
+          "duration": 200.544958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Courage of Resistance",
+          "actualDuration": 200.544958,
+          "startTime": 1065.957208,
+          "endTime": 1266.502166
+        },
+        {
+          "path": "Audio/output/2538/chapter_07.wav",
+          "duration": 177.615292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power and Peril of Civic Engagement",
+          "actualDuration": 177.615292,
+          "startTime": 1268.002166,
+          "endTime": 1445.617458
+        },
+        {
+          "path": "Audio/output/2538/chapter_08.wav",
+          "duration": 143.857583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Memory and the Stories We Tell",
+          "actualDuration": 143.857583,
+          "startTime": 1447.117458,
+          "endTime": 1590.975041
+        },
+        {
+          "path": "Audio/output/2538/chapter_09.wav",
+          "duration": 162.365292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Tipping Point: When Societies Push Back",
+          "actualDuration": 162.365292,
+          "startTime": 1592.475041,
+          "endTime": 1754.8403329999999
+        },
+        {
+          "path": "Audio/output/2538/chapter_10.wav",
+          "duration": 129.855042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Struggle and the Fragility of Freedom",
+          "actualDuration": 129.855042,
+          "startTime": 1756.3403329999999,
+          "endTime": 1886.1953749999998
+        },
+        {
+          "path": "Audio/output/2538/conclusion.wav",
+          "duration": 147.5325,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 147.5325,
+          "startTime": 1887.6953749999998,
+          "endTime": 2035.2278749999998
+        }
+      ],
+      "totalDuration": 2035.2278749999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.76,
+          "actualStart": 0,
+          "actualEnd": 96.762292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Freedom Feels Secure: The Seeds of Complacency",
+          "expectedStart": 96.76,
+          "expectedEnd": 279.56,
+          "actualStart": 98.262292,
+          "actualEnd": 281.0595,
+          "timeDifference": 1.502291999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Temptation of Strong Leaders and the Erosion of Limits",
+          "expectedStart": 279.56,
+          "expectedEnd": 472.76,
+          "actualStart": 282.5595,
+          "actualEnd": 475.76325,
+          "timeDifference": 2.999500000000012
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Slow Drift Toward Centralized Power",
+          "expectedStart": 472.76,
+          "expectedEnd": 672.13,
+          "actualStart": 477.26325,
+          "actualEnd": 676.635667,
+          "timeDifference": 4.503250000000037
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Economic Turmoil and the Rise of Authoritarian Promises",
+          "expectedStart": 672.13,
+          "expectedEnd": 874.12,
+          "actualStart": 678.135667,
+          "actualEnd": 880.12175,
+          "timeDifference": 6.005667000000017
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Subtle Loss of Rights and the Normalization of Control",
+          "expectedStart": 874.12,
+          "expectedEnd": 1056.96,
+          "actualStart": 881.62175,
+          "actualEnd": 1064.457208,
+          "timeDifference": 7.5017500000000155
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Courage of Resistance",
+          "expectedStart": 1056.96,
+          "expectedEnd": 1257.5,
+          "actualStart": 1065.957208,
+          "actualEnd": 1266.502166,
+          "timeDifference": 8.997208
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power and Peril of Civic Engagement",
+          "expectedStart": 1257.5,
+          "expectedEnd": 1435.12,
+          "actualStart": 1268.002166,
+          "actualEnd": 1445.617458,
+          "timeDifference": 10.502165999999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Memory and the Stories We Tell",
+          "expectedStart": 1435.12,
+          "expectedEnd": 1578.98,
+          "actualStart": 1447.117458,
+          "actualEnd": 1590.975041,
+          "timeDifference": 11.997458000000051
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Tipping Point: When Societies Push Back",
+          "expectedStart": 1578.98,
+          "expectedEnd": 1741.35,
+          "actualStart": 1592.475041,
+          "actualEnd": 1754.8403329999999,
+          "timeDifference": 13.495040999999901
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Struggle and the Fragility of Freedom",
+          "expectedStart": 1741.35,
+          "expectedEnd": 1871.21,
+          "actualStart": 1756.3403329999999,
+          "actualEnd": 1886.1953749999998,
+          "timeDifference": 14.990332999999964
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1871.21,
+          "expectedEnd": 2018.74,
+          "actualStart": 1887.6953749999998,
+          "actualEnd": 2035.2278749999998,
+          "timeDifference": 16.48537499999975
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.762292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Freedom Feels Secure: The Seeds of Complacency"
+        },
+        {
+          "startTime": 281.0595,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Freedom Feels Secure: The Seeds of Complacency and Chapter 2 The Temptation of Strong Leaders and the Erosion of Limits"
+        },
+        {
+          "startTime": 475.76325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Temptation of Strong Leaders and the Erosion of Limits and Chapter 3 The Slow Drift Toward Centralized Power"
+        },
+        {
+          "startTime": 676.635667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Slow Drift Toward Centralized Power and Chapter 4 Economic Turmoil and the Rise of Authoritarian Promises"
+        },
+        {
+          "startTime": 880.12175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Economic Turmoil and the Rise of Authoritarian Promises and Chapter 5 The Subtle Loss of Rights and the Normalization of Control"
+        },
+        {
+          "startTime": 1064.457208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Subtle Loss of Rights and the Normalization of Control and Chapter 6 The Quiet Courage of Resistance"
+        },
+        {
+          "startTime": 1266.502166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Courage of Resistance and Chapter 7 The Power and Peril of Civic Engagement"
+        },
+        {
+          "startTime": 1445.617458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power and Peril of Civic Engagement and Chapter 8 The Role of Memory and the Stories We Tell"
+        },
+        {
+          "startTime": 1590.975041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Memory and the Stories We Tell and Chapter 9 The Tipping Point: When Societies Push Back"
+        },
+        {
+          "startTime": 1754.8403329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Tipping Point: When Societies Push Back and Chapter 10 The Enduring Struggle and the Fragility of Freedom"
+        },
+        {
+          "startTime": 1886.1953749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Struggle and the Fragility of Freedom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2538",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:49:15.552Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

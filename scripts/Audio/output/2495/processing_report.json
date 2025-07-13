@@ -1,0 +1,456 @@
+{
+  "bookId": "2495",
+  "timestamp": "2025-07-11T01:39:19.578Z",
+  "success": false,
+  "processingTime": -1752197578258,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4826,
+    "totalAudioFiles": 12,
+    "totalDuration": 2255.909291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2255.909291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2495/optimized_text/2495.md",
+    "fileSize": 733,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2495.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2495/metadata/2495_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2255.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2495/metadata/2495_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2495/metadata/2495_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2495/2495_complete.wav",
+    "duration": 2255.909292,
+    "fileSize": 108283724,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2495/introduction.wav",
+          "duration": 87.306,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.306,
+          "startTime": 0,
+          "endTime": 87.306
+        },
+        {
+          "path": "Audio/output/2495/chapter_01.wav",
+          "duration": 208.407708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Uncertain Times and Places",
+          "actualDuration": 208.407708,
+          "startTime": 88.806,
+          "endTime": 297.213708
+        },
+        {
+          "path": "Audio/output/2495/chapter_02.wav",
+          "duration": 235.144,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Voice in Radio, Hollywood, and Public Life",
+          "actualDuration": 235.144,
+          "startTime": 298.713708,
+          "endTime": 533.857708
+        },
+        {
+          "path": "Audio/output/2495/chapter_03.wav",
+          "duration": 263.931458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Conservatism and Entering the Political Arena",
+          "actualDuration": 263.931458,
+          "startTime": 535.357708,
+          "endTime": 799.289166
+        },
+        {
+          "path": "Audio/output/2495/chapter_04.wav",
+          "duration": 241.556125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Road to the White House and the Power of Image",
+          "actualDuration": 241.556125,
+          "startTime": 800.789166,
+          "endTime": 1042.345291
+        },
+        {
+          "path": "Audio/output/2495/chapter_05.wav",
+          "duration": 246.831625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Confronting the Cold War and Redefining American Power",
+          "actualDuration": 246.831625,
+          "startTime": 1043.845291,
+          "endTime": 1290.6769160000001
+        },
+        {
+          "path": "Audio/output/2495/chapter_06.wav",
+          "duration": 196.546417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Domestic Storms—Economics, Crisis, and the Human Cost",
+          "actualDuration": 196.546417,
+          "startTime": 1292.1769160000001,
+          "endTime": 1488.7233330000001
+        },
+        {
+          "path": "Audio/output/2495/chapter_07.wav",
+          "duration": 194.063292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Scandal, Shadows, and the Limits of Power",
+          "actualDuration": 194.063292,
+          "startTime": 1490.2233330000001,
+          "endTime": 1684.2866250000002
+        },
+        {
+          "path": "Audio/output/2495/chapter_08.wav",
+          "duration": 165.51325,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Years—Legacy, Farewell, and the Weight of Memory",
+          "actualDuration": 165.51325,
+          "startTime": 1685.7866250000002,
+          "endTime": 1851.2998750000002
+        },
+        {
+          "path": "Audio/output/2495/chapter_09.wav",
+          "duration": 144.91575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Private Man—Family, Faith, and the Quiet Struggles",
+          "actualDuration": 144.91575,
+          "startTime": 1852.7998750000002,
+          "endTime": 1997.7156250000003
+        },
+        {
+          "path": "Audio/output/2495/chapter_10.wav",
+          "duration": 143.542458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Echoes of Leadership—Reagan’s Enduring Influence",
+          "actualDuration": 143.542458,
+          "startTime": 1999.2156250000003,
+          "endTime": 2142.758083
+        },
+        {
+          "path": "Audio/output/2495/conclusion.wav",
+          "duration": 128.151208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.151208,
+          "startTime": 2144.258083,
+          "endTime": 2272.409291
+        }
+      ],
+      "totalDuration": 2272.409291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.31,
+          "actualStart": 0,
+          "actualEnd": 87.306,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Uncertain Times and Places",
+          "expectedStart": 87.31,
+          "expectedEnd": 295.72,
+          "actualStart": 88.806,
+          "actualEnd": 297.213708,
+          "timeDifference": 1.4959999999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Voice in Radio, Hollywood, and Public Life",
+          "expectedStart": 295.72,
+          "expectedEnd": 530.86,
+          "actualStart": 298.713708,
+          "actualEnd": 533.857708,
+          "timeDifference": 2.9937079999999696
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Conservatism and Entering the Political Arena",
+          "expectedStart": 530.86,
+          "expectedEnd": 794.79,
+          "actualStart": 535.357708,
+          "actualEnd": 799.289166,
+          "timeDifference": 4.497707999999989
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Road to the White House and the Power of Image",
+          "expectedStart": 794.79,
+          "expectedEnd": 1036.35,
+          "actualStart": 800.789166,
+          "actualEnd": 1042.345291,
+          "timeDifference": 5.999166000000059
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Confronting the Cold War and Redefining American Power",
+          "expectedStart": 1036.35,
+          "expectedEnd": 1283.18,
+          "actualStart": 1043.845291,
+          "actualEnd": 1290.6769160000001,
+          "timeDifference": 7.495291000000179
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Domestic Storms—Economics, Crisis, and the Human Cost",
+          "expectedStart": 1283.18,
+          "expectedEnd": 1479.73,
+          "actualStart": 1292.1769160000001,
+          "actualEnd": 1488.7233330000001,
+          "timeDifference": 8.996916000000056
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Scandal, Shadows, and the Limits of Power",
+          "expectedStart": 1479.73,
+          "expectedEnd": 1673.79,
+          "actualStart": 1490.2233330000001,
+          "actualEnd": 1684.2866250000002,
+          "timeDifference": 10.49333300000012
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Years—Legacy, Farewell, and the Weight of Memory",
+          "expectedStart": 1673.79,
+          "expectedEnd": 1839.3,
+          "actualStart": 1685.7866250000002,
+          "actualEnd": 1851.2998750000002,
+          "timeDifference": 11.996625000000222
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Private Man—Family, Faith, and the Quiet Struggles",
+          "expectedStart": 1839.3,
+          "expectedEnd": 1984.22,
+          "actualStart": 1852.7998750000002,
+          "actualEnd": 1997.7156250000003,
+          "timeDifference": 13.499875000000202
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Echoes of Leadership—Reagan’s Enduring Influence",
+          "expectedStart": 1984.22,
+          "expectedEnd": 2127.76,
+          "actualStart": 1999.2156250000003,
+          "actualEnd": 2142.758083,
+          "timeDifference": 14.995625000000246
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2127.76,
+          "expectedEnd": 2255.91,
+          "actualStart": 2144.258083,
+          "actualEnd": 2272.409291,
+          "timeDifference": 16.49808299999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.306,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Uncertain Times and Places"
+        },
+        {
+          "startTime": 297.213708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Uncertain Times and Places and Chapter 2 Finding a Voice in Radio, Hollywood, and Public Life"
+        },
+        {
+          "startTime": 533.857708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Voice in Radio, Hollywood, and Public Life and Chapter 3 Embracing Conservatism and Entering the Political Arena"
+        },
+        {
+          "startTime": 799.289166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Conservatism and Entering the Political Arena and Chapter 4 The Road to the White House and the Power of Image"
+        },
+        {
+          "startTime": 1042.345291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Road to the White House and the Power of Image and Chapter 5 Confronting the Cold War and Redefining American Power"
+        },
+        {
+          "startTime": 1290.6769160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Confronting the Cold War and Redefining American Power and Chapter 6 Navigating Domestic Storms—Economics, Crisis, and the Human Cost"
+        },
+        {
+          "startTime": 1488.7233330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Domestic Storms—Economics, Crisis, and the Human Cost and Chapter 7 Scandal, Shadows, and the Limits of Power"
+        },
+        {
+          "startTime": 1684.2866250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Scandal, Shadows, and the Limits of Power and Chapter 8 The Final Years—Legacy, Farewell, and the Weight of Memory"
+        },
+        {
+          "startTime": 1851.2998750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Years—Legacy, Farewell, and the Weight of Memory and Chapter 9 The Private Man—Family, Faith, and the Quiet Struggles"
+        },
+        {
+          "startTime": 1997.7156250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Private Man—Family, Faith, and the Quiet Struggles and Chapter 10 The Echoes of Leadership—Reagan’s Enduring Influence"
+        },
+        {
+          "startTime": 2142.758083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Echoes of Leadership—Reagan’s Enduring Influence and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2495",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:32:59.783Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

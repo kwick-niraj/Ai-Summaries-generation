@@ -1,0 +1,456 @@
+{
+  "bookId": "2591",
+  "timestamp": "2025-07-11T07:15:54.473Z",
+  "success": false,
+  "processingTime": -1752217860660,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4106,
+    "totalAudioFiles": 12,
+    "totalDuration": 1989.1702100000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1989.1702100000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2591/optimized_text/2591.md",
+    "fileSize": 551,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2591.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2591/metadata/2591_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1989.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2591/metadata/2591_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2591/metadata/2591_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2591/2591_complete.wav",
+    "duration": 1989.170208,
+    "fileSize": 95480248,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2591/introduction.wav",
+          "duration": 82.005667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.005667,
+          "startTime": 0,
+          "endTime": 82.005667
+        },
+        {
+          "path": "Audio/output/2591/chapter_01.wav",
+          "duration": 211.940292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Modern Eating Lost Its Way",
+          "actualDuration": 211.940292,
+          "startTime": 83.505667,
+          "endTime": 295.445959
+        },
+        {
+          "path": "Audio/output/2591/chapter_02.wav",
+          "duration": 235.5555,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise and Fall of Nutritionism",
+          "actualDuration": 235.5555,
+          "startTime": 296.945959,
+          "endTime": 532.5014590000001
+        },
+        {
+          "path": "Audio/output/2591/chapter_03.wav",
+          "duration": 229.481417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Western Diet and Its Consequences",
+          "actualDuration": 229.481417,
+          "startTime": 534.0014590000001,
+          "endTime": 763.482876
+        },
+        {
+          "path": "Audio/output/2591/chapter_04.wav",
+          "duration": 196.408167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rediscovering the Value of Real Food",
+          "actualDuration": 196.408167,
+          "startTime": 764.982876,
+          "endTime": 961.3910430000001
+        },
+        {
+          "path": "Audio/output/2591/chapter_05.wav",
+          "duration": 144.652833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Simple Principles for Eating Well",
+          "actualDuration": 144.652833,
+          "startTime": 962.8910430000001,
+          "endTime": 1107.5438760000002
+        },
+        {
+          "path": "Audio/output/2591/chapter_06.wav",
+          "duration": 170.555792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating the Modern Food Environment",
+          "actualDuration": 170.555792,
+          "startTime": 1109.0438760000002,
+          "endTime": 1279.5996680000003
+        },
+        {
+          "path": "Audio/output/2591/chapter_07.wav",
+          "duration": 160.760833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Tradition and Culture",
+          "actualDuration": 160.760833,
+          "startTime": 1281.0996680000003,
+          "endTime": 1441.8605010000003
+        },
+        {
+          "path": "Audio/output/2591/chapter_08.wav",
+          "duration": 147.498417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Food, Pleasure, and the Senses",
+          "actualDuration": 147.498417,
+          "startTime": 1443.3605010000003,
+          "endTime": 1590.8589180000004
+        },
+        {
+          "path": "Audio/output/2591/chapter_09.wav",
+          "duration": 143.781708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Eating Together—The Social Side of Food",
+          "actualDuration": 143.781708,
+          "startTime": 1592.3589180000004,
+          "endTime": 1736.1406260000003
+        },
+        {
+          "path": "Audio/output/2591/chapter_10.wav",
+          "duration": 157.667542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Food, Health, and the Bigger Picture",
+          "actualDuration": 157.667542,
+          "startTime": 1737.6406260000003,
+          "endTime": 1895.3081680000003
+        },
+        {
+          "path": "Audio/output/2591/conclusion.wav",
+          "duration": 108.862042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.862042,
+          "startTime": 1896.8081680000003,
+          "endTime": 2005.6702100000002
+        }
+      ],
+      "totalDuration": 2005.6702100000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.01,
+          "actualStart": 0,
+          "actualEnd": 82.005667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Modern Eating Lost Its Way",
+          "expectedStart": 82.01,
+          "expectedEnd": 293.95,
+          "actualStart": 83.505667,
+          "actualEnd": 295.445959,
+          "timeDifference": 1.4956669999999974
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise and Fall of Nutritionism",
+          "expectedStart": 293.95,
+          "expectedEnd": 529.51,
+          "actualStart": 296.945959,
+          "actualEnd": 532.5014590000001,
+          "timeDifference": 2.9959590000000276
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Western Diet and Its Consequences",
+          "expectedStart": 529.51,
+          "expectedEnd": 758.99,
+          "actualStart": 534.0014590000001,
+          "actualEnd": 763.482876,
+          "timeDifference": 4.491459000000077
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rediscovering the Value of Real Food",
+          "expectedStart": 758.99,
+          "expectedEnd": 955.4,
+          "actualStart": 764.982876,
+          "actualEnd": 961.3910430000001,
+          "timeDifference": 5.992876000000024
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Simple Principles for Eating Well",
+          "expectedStart": 955.4,
+          "expectedEnd": 1100.05,
+          "actualStart": 962.8910430000001,
+          "actualEnd": 1107.5438760000002,
+          "timeDifference": 7.491043000000104
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating the Modern Food Environment",
+          "expectedStart": 1100.05,
+          "expectedEnd": 1270.61,
+          "actualStart": 1109.0438760000002,
+          "actualEnd": 1279.5996680000003,
+          "timeDifference": 8.993876000000228
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Tradition and Culture",
+          "expectedStart": 1270.61,
+          "expectedEnd": 1431.37,
+          "actualStart": 1281.0996680000003,
+          "actualEnd": 1441.8605010000003,
+          "timeDifference": 10.489668000000393
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Food, Pleasure, and the Senses",
+          "expectedStart": 1431.37,
+          "expectedEnd": 1578.87,
+          "actualStart": 1443.3605010000003,
+          "actualEnd": 1590.8589180000004,
+          "timeDifference": 11.99050100000045
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Eating Together—The Social Side of Food",
+          "expectedStart": 1578.87,
+          "expectedEnd": 1722.65,
+          "actualStart": 1592.3589180000004,
+          "actualEnd": 1736.1406260000003,
+          "timeDifference": 13.488918000000467
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Food, Health, and the Bigger Picture",
+          "expectedStart": 1722.65,
+          "expectedEnd": 1880.32,
+          "actualStart": 1737.6406260000003,
+          "actualEnd": 1895.3081680000003,
+          "timeDifference": 14.990626000000248
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1880.32,
+          "expectedEnd": 1989.18,
+          "actualStart": 1896.8081680000003,
+          "actualEnd": 2005.6702100000002,
+          "timeDifference": 16.488168000000314
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.005667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Modern Eating Lost Its Way"
+        },
+        {
+          "startTime": 295.445959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Modern Eating Lost Its Way and Chapter 2 The Rise and Fall of Nutritionism"
+        },
+        {
+          "startTime": 532.5014590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise and Fall of Nutritionism and Chapter 3 The Western Diet and Its Consequences"
+        },
+        {
+          "startTime": 763.482876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Western Diet and Its Consequences and Chapter 4 Rediscovering the Value of Real Food"
+        },
+        {
+          "startTime": 961.3910430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rediscovering the Value of Real Food and Chapter 5 Simple Principles for Eating Well"
+        },
+        {
+          "startTime": 1107.5438760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Simple Principles for Eating Well and Chapter 6 Navigating the Modern Food Environment"
+        },
+        {
+          "startTime": 1279.5996680000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating the Modern Food Environment and Chapter 7 The Power of Tradition and Culture"
+        },
+        {
+          "startTime": 1441.8605010000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Tradition and Culture and Chapter 8 Food, Pleasure, and the Senses"
+        },
+        {
+          "startTime": 1590.8589180000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Food, Pleasure, and the Senses and Chapter 9 Eating Together—The Social Side of Food"
+        },
+        {
+          "startTime": 1736.1406260000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Eating Together—The Social Side of Food and Chapter 10 Food, Health, and the Bigger Picture"
+        },
+        {
+          "startTime": 1895.3081680000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Food, Health, and the Bigger Picture and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2591",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:11:01.191Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

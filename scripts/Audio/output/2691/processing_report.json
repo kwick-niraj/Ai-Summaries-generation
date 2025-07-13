@@ -1,0 +1,456 @@
+{
+  "bookId": "2691",
+  "timestamp": "2025-07-12T11:20:10.985Z",
+  "success": false,
+  "processingTime": -1752318906039,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3998,
+    "totalAudioFiles": 12,
+    "totalDuration": 1999.2330000000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1999.2330000000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2691/optimized_text/2691.md",
+    "fileSize": 703,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2691.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2691/metadata/2691_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1999.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2691/metadata/2691_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2691/metadata/2691_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2691/2691_complete.wav",
+    "duration": 1999.233,
+    "fileSize": 95963262,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2691/introduction.wav",
+          "duration": 86.329417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.329417,
+          "startTime": 0,
+          "endTime": 86.329417
+        },
+        {
+          "path": "Audio/output/2691/chapter_01.wav",
+          "duration": 209.523542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Early Conditioning Shapes Perception and Limits Possibility",
+          "actualDuration": 209.523542,
+          "startTime": 87.829417,
+          "endTime": 297.352959
+        },
+        {
+          "path": "Audio/output/2691/chapter_02.wav",
+          "duration": 243.076583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Power of Thoughts and Intentions",
+          "actualDuration": 243.076583,
+          "startTime": 298.852959,
+          "endTime": 541.929542
+        },
+        {
+          "path": "Audio/output/2691/chapter_03.wav",
+          "duration": 205.57075,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Free from Self-Imposed Barriers",
+          "actualDuration": 205.57075,
+          "startTime": 543.429542,
+          "endTime": 749.000292
+        },
+        {
+          "path": "Audio/output/2691/chapter_04.wav",
+          "duration": 185.218125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Conscious Will in Shaping Experience",
+          "actualDuration": 185.218125,
+          "startTime": 750.500292,
+          "endTime": 935.7184169999999
+        },
+        {
+          "path": "Audio/output/2691/chapter_05.wav",
+          "duration": 199.136083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Moving Beyond Consensus Reality and Embracing New Possibilities",
+          "actualDuration": 199.136083,
+          "startTime": 937.2184169999999,
+          "endTime": 1136.3545
+        },
+        {
+          "path": "Audio/output/2691/chapter_06.wav",
+          "duration": 169.125167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Inner Dialogue—Recognizing the Voice Within",
+          "actualDuration": 169.125167,
+          "startTime": 1137.8545,
+          "endTime": 1306.9796669999998
+        },
+        {
+          "path": "Audio/output/2691/chapter_07.wav",
+          "duration": 169.779375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Trap of Identity—Letting Go of the Labels",
+          "actualDuration": 169.779375,
+          "startTime": 1308.4796669999998,
+          "endTime": 1478.259042
+        },
+        {
+          "path": "Audio/output/2691/chapter_08.wav",
+          "duration": 119.636625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Presence—Living in the Here and Now",
+          "actualDuration": 119.636625,
+          "startTime": 1479.759042,
+          "endTime": 1599.395667
+        },
+        {
+          "path": "Audio/output/2691/chapter_09.wav",
+          "duration": 133.044583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Courage to Choose—Responding Instead of Reacting",
+          "actualDuration": 133.044583,
+          "startTime": 1600.895667,
+          "endTime": 1733.94025
+        },
+        {
+          "path": "Audio/output/2691/chapter_10.wav",
+          "duration": 117.141667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Journey of Integration—Becoming Whole",
+          "actualDuration": 117.141667,
+          "startTime": 1735.44025,
+          "endTime": 1852.5819170000002
+        },
+        {
+          "path": "Audio/output/2691/conclusion.wav",
+          "duration": 161.651083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.651083,
+          "startTime": 1854.0819170000002,
+          "endTime": 2015.7330000000002
+        }
+      ],
+      "totalDuration": 2015.7330000000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.33,
+          "actualStart": 0,
+          "actualEnd": 86.329417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Early Conditioning Shapes Perception and Limits Possibility",
+          "expectedStart": 86.33,
+          "expectedEnd": 295.85,
+          "actualStart": 87.829417,
+          "actualEnd": 297.352959,
+          "timeDifference": 1.4994170000000082
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Power of Thoughts and Intentions",
+          "expectedStart": 295.85,
+          "expectedEnd": 538.93,
+          "actualStart": 298.852959,
+          "actualEnd": 541.929542,
+          "timeDifference": 3.0029589999999757
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Free from Self-Imposed Barriers",
+          "expectedStart": 538.93,
+          "expectedEnd": 744.5,
+          "actualStart": 543.429542,
+          "actualEnd": 749.000292,
+          "timeDifference": 4.4995420000000195
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Conscious Will in Shaping Experience",
+          "expectedStart": 744.5,
+          "expectedEnd": 929.72,
+          "actualStart": 750.500292,
+          "actualEnd": 935.7184169999999,
+          "timeDifference": 6.000291999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Moving Beyond Consensus Reality and Embracing New Possibilities",
+          "expectedStart": 929.72,
+          "expectedEnd": 1128.86,
+          "actualStart": 937.2184169999999,
+          "actualEnd": 1136.3545,
+          "timeDifference": 7.498416999999904
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Inner Dialogue—Recognizing the Voice Within",
+          "expectedStart": 1128.86,
+          "expectedEnd": 1297.99,
+          "actualStart": 1137.8545,
+          "actualEnd": 1306.9796669999998,
+          "timeDifference": 8.994500000000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Trap of Identity—Letting Go of the Labels",
+          "expectedStart": 1297.99,
+          "expectedEnd": 1467.77,
+          "actualStart": 1308.4796669999998,
+          "actualEnd": 1478.259042,
+          "timeDifference": 10.489666999999827
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Presence—Living in the Here and Now",
+          "expectedStart": 1467.77,
+          "expectedEnd": 1587.41,
+          "actualStart": 1479.759042,
+          "actualEnd": 1599.395667,
+          "timeDifference": 11.989041999999927
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Courage to Choose—Responding Instead of Reacting",
+          "expectedStart": 1587.41,
+          "expectedEnd": 1720.45,
+          "actualStart": 1600.895667,
+          "actualEnd": 1733.94025,
+          "timeDifference": 13.485666999999921
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Journey of Integration—Becoming Whole",
+          "expectedStart": 1720.45,
+          "expectedEnd": 1837.59,
+          "actualStart": 1735.44025,
+          "actualEnd": 1852.5819170000002,
+          "timeDifference": 14.99025000000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1837.59,
+          "expectedEnd": 1999.24,
+          "actualStart": 1854.0819170000002,
+          "actualEnd": 2015.7330000000002,
+          "timeDifference": 16.491917000000285
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.329417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Early Conditioning Shapes Perception and Limits Possibility"
+        },
+        {
+          "startTime": 297.352959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Early Conditioning Shapes Perception and Limits Possibility and Chapter 2 The Hidden Power of Thoughts and Intentions"
+        },
+        {
+          "startTime": 541.929542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Power of Thoughts and Intentions and Chapter 3 Breaking Free from Self-Imposed Barriers"
+        },
+        {
+          "startTime": 749.000292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Free from Self-Imposed Barriers and Chapter 4 The Role of Conscious Will in Shaping Experience"
+        },
+        {
+          "startTime": 935.7184169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Conscious Will in Shaping Experience and Chapter 5 Moving Beyond Consensus Reality and Embracing New Possibilities"
+        },
+        {
+          "startTime": 1136.3545,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Moving Beyond Consensus Reality and Embracing New Possibilities and Chapter 6 The Inner Dialogue—Recognizing the Voice Within"
+        },
+        {
+          "startTime": 1306.9796669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Inner Dialogue—Recognizing the Voice Within and Chapter 7 The Trap of Identity—Letting Go of the Labels"
+        },
+        {
+          "startTime": 1478.259042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Trap of Identity—Letting Go of the Labels and Chapter 8 The Power of Presence—Living in the Here and Now"
+        },
+        {
+          "startTime": 1599.395667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Presence—Living in the Here and Now and Chapter 9 The Courage to Choose—Responding Instead of Reacting"
+        },
+        {
+          "startTime": 1733.94025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Courage to Choose—Responding Instead of Reacting and Chapter 10 The Journey of Integration—Becoming Whole"
+        },
+        {
+          "startTime": 1852.5819170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Journey of Integration—Becoming Whole and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2691",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T11:15:06.608Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

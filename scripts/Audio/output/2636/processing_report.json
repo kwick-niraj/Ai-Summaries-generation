@@ -1,0 +1,456 @@
+{
+  "bookId": "2636",
+  "timestamp": "2025-07-11T09:13:32.805Z",
+  "success": false,
+  "processingTime": -1752224855188,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5297,
+    "totalAudioFiles": 12,
+    "totalDuration": 2441.9272090000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2441.9272090000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2636/optimized_text/2636.md",
+    "fileSize": 827,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "2636.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2636/metadata/2636_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2441.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2636/metadata/2636_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2636/metadata/2636_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2636/2636_complete.wav",
+    "duration": 2441.927208,
+    "fileSize": 117212584,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2636/introduction.wav",
+          "duration": 105.41925,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.41925,
+          "startTime": 0,
+          "endTime": 105.41925
+        },
+        {
+          "path": "Audio/output/2636/chapter_01.wav",
+          "duration": 276.719958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Dawn of a New Intelligence: How Machines Are Learning to Think",
+          "actualDuration": 276.719958,
+          "startTime": 106.91925,
+          "endTime": 383.63920800000005
+        },
+        {
+          "path": "Audio/output/2636/chapter_02.wav",
+          "duration": 280.387125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unseen Risks: When Machines Learn the Wrong Lessons",
+          "actualDuration": 280.387125,
+          "startTime": 385.13920800000005,
+          "endTime": 665.526333
+        },
+        {
+          "path": "Audio/output/2636/chapter_03.wav",
+          "duration": 257.017,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mirror Effect: How AI Reflects Human Choices and Values",
+          "actualDuration": 257.017,
+          "startTime": 667.026333,
+          "endTime": 924.0433330000001
+        },
+        {
+          "path": "Audio/output/2636/chapter_04.wav",
+          "duration": 277.552083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Tipping Point: When Artificial Intelligence Surpasses Human Abilities",
+          "actualDuration": 277.552083,
+          "startTime": 925.5433330000001,
+          "endTime": 1203.0954160000001
+        },
+        {
+          "path": "Audio/output/2636/chapter_05.wav",
+          "duration": 244.395375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Human Responsibility: Shaping the Moral Compass of Artificial Intelligence",
+          "actualDuration": 244.395375,
+          "startTime": 1204.5954160000001,
+          "endTime": 1448.9907910000002
+        },
+        {
+          "path": "Audio/output/2636/chapter_06.wav",
+          "duration": 221.435042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Collective Action: Guiding AI’s Evolution Together",
+          "actualDuration": 221.435042,
+          "startTime": 1450.4907910000002,
+          "endTime": 1671.9258330000002
+        },
+        {
+          "path": "Audio/output/2636/chapter_07.wav",
+          "duration": 180.466917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Empathy: Teaching Machines to Care",
+          "actualDuration": 180.466917,
+          "startTime": 1673.4258330000002,
+          "endTime": 1853.8927500000002
+        },
+        {
+          "path": "Audio/output/2636/chapter_08.wav",
+          "duration": 176.795292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Importance of Transparency: Building Trust in a Machine-Driven World",
+          "actualDuration": 176.795292,
+          "startTime": 1855.3927500000002,
+          "endTime": 2032.1880420000002
+        },
+        {
+          "path": "Audio/output/2636/chapter_09.wav",
+          "duration": 181.087042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Path Forward: Practical Steps for a Compassionate AI Future",
+          "actualDuration": 181.087042,
+          "startTime": 2033.6880420000002,
+          "endTime": 2214.7750840000003
+        },
+        {
+          "path": "Audio/output/2636/chapter_10.wav",
+          "duration": 138.207458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Call to Action: Becoming Stewards of the Future",
+          "actualDuration": 138.207458,
+          "startTime": 2216.2750840000003,
+          "endTime": 2354.482542
+        },
+        {
+          "path": "Audio/output/2636/conclusion.wav",
+          "duration": 102.444667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.444667,
+          "startTime": 2355.982542,
+          "endTime": 2458.4272090000004
+        }
+      ],
+      "totalDuration": 2458.4272090000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.42,
+          "actualStart": 0,
+          "actualEnd": 105.41925,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Dawn of a New Intelligence: How Machines Are Learning to Think",
+          "expectedStart": 105.42,
+          "expectedEnd": 382.14,
+          "actualStart": 106.91925,
+          "actualEnd": 383.63920800000005,
+          "timeDifference": 1.4992500000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unseen Risks: When Machines Learn the Wrong Lessons",
+          "expectedStart": 382.14,
+          "expectedEnd": 662.53,
+          "actualStart": 385.13920800000005,
+          "actualEnd": 665.526333,
+          "timeDifference": 2.999208000000067
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mirror Effect: How AI Reflects Human Choices and Values",
+          "expectedStart": 662.53,
+          "expectedEnd": 919.55,
+          "actualStart": 667.026333,
+          "actualEnd": 924.0433330000001,
+          "timeDifference": 4.49633300000005
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Tipping Point: When Artificial Intelligence Surpasses Human Abilities",
+          "expectedStart": 919.55,
+          "expectedEnd": 1197.1,
+          "actualStart": 925.5433330000001,
+          "actualEnd": 1203.0954160000001,
+          "timeDifference": 5.993333000000121
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Human Responsibility: Shaping the Moral Compass of Artificial Intelligence",
+          "expectedStart": 1197.1,
+          "expectedEnd": 1441.5,
+          "actualStart": 1204.5954160000001,
+          "actualEnd": 1448.9907910000002,
+          "timeDifference": 7.495416000000205
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Collective Action: Guiding AI’s Evolution Together",
+          "expectedStart": 1441.5,
+          "expectedEnd": 1662.94,
+          "actualStart": 1450.4907910000002,
+          "actualEnd": 1671.9258330000002,
+          "timeDifference": 8.990791000000172
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Empathy: Teaching Machines to Care",
+          "expectedStart": 1662.94,
+          "expectedEnd": 1843.41,
+          "actualStart": 1673.4258330000002,
+          "actualEnd": 1853.8927500000002,
+          "timeDifference": 10.485833000000184
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Importance of Transparency: Building Trust in a Machine-Driven World",
+          "expectedStart": 1843.41,
+          "expectedEnd": 2020.21,
+          "actualStart": 1855.3927500000002,
+          "actualEnd": 2032.1880420000002,
+          "timeDifference": 11.982750000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Path Forward: Practical Steps for a Compassionate AI Future",
+          "expectedStart": 2020.21,
+          "expectedEnd": 2201.3,
+          "actualStart": 2033.6880420000002,
+          "actualEnd": 2214.7750840000003,
+          "timeDifference": 13.478042000000187
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Call to Action: Becoming Stewards of the Future",
+          "expectedStart": 2201.3,
+          "expectedEnd": 2339.51,
+          "actualStart": 2216.2750840000003,
+          "actualEnd": 2354.482542,
+          "timeDifference": 14.975084000000152
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2339.51,
+          "expectedEnd": 2441.95,
+          "actualStart": 2355.982542,
+          "actualEnd": 2458.4272090000004,
+          "timeDifference": 16.472541999999976
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.41925,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Dawn of a New Intelligence: How Machines Are Learning to Think"
+        },
+        {
+          "startTime": 383.63920800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Dawn of a New Intelligence: How Machines Are Learning to Think and Chapter 2 The Unseen Risks: When Machines Learn the Wrong Lessons"
+        },
+        {
+          "startTime": 665.526333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unseen Risks: When Machines Learn the Wrong Lessons and Chapter 3 The Mirror Effect: How AI Reflects Human Choices and Values"
+        },
+        {
+          "startTime": 924.0433330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mirror Effect: How AI Reflects Human Choices and Values and Chapter 4 The Tipping Point: When Artificial Intelligence Surpasses Human Abilities"
+        },
+        {
+          "startTime": 1203.0954160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Tipping Point: When Artificial Intelligence Surpasses Human Abilities and Chapter 5 Human Responsibility: Shaping the Moral Compass of Artificial Intelligence"
+        },
+        {
+          "startTime": 1448.9907910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Human Responsibility: Shaping the Moral Compass of Artificial Intelligence and Chapter 6 The Power of Collective Action: Guiding AI’s Evolution Together"
+        },
+        {
+          "startTime": 1671.9258330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Collective Action: Guiding AI’s Evolution Together and Chapter 7 The Role of Empathy: Teaching Machines to Care"
+        },
+        {
+          "startTime": 1853.8927500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Empathy: Teaching Machines to Care and Chapter 8 The Importance of Transparency: Building Trust in a Machine-Driven World"
+        },
+        {
+          "startTime": 2032.1880420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Importance of Transparency: Building Trust in a Machine-Driven World and Chapter 9 The Path Forward: Practical Steps for a Compassionate AI Future"
+        },
+        {
+          "startTime": 2214.7750840000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Path Forward: Practical Steps for a Compassionate AI Future and Chapter 10 The Call to Action: Becoming Stewards of the Future"
+        },
+        {
+          "startTime": 2354.482542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Call to Action: Becoming Stewards of the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2636",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T09:07:35.707Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

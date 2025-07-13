@@ -1,0 +1,455 @@
+{
+  "bookId": "2645",
+  "timestamp": "2025-07-12T07:56:46.888Z",
+  "success": false,
+  "processingTime": -1752306736291,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5062,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.1952490000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.1952490000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2645/optimized_text/2645.md",
+    "fileSize": 756,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2645.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2645/metadata/2645_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2645/metadata/2645_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2645/metadata/2645_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2645/2645_complete.wav",
+    "duration": 1995.19525,
+    "fileSize": 95769450,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2645/introduction.wav",
+          "duration": 72.094167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.094167,
+          "startTime": 0,
+          "endTime": 72.094167
+        },
+        {
+          "path": "Audio/output/2645/chapter_01.wav",
+          "duration": 266.969833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Worlds Collide: The Promise and Peril of Cross-Cultural Marriage",
+          "actualDuration": 266.969833,
+          "startTime": 73.594167,
+          "endTime": 340.56399999999996
+        },
+        {
+          "path": "Audio/output/2645/chapter_02.wav",
+          "duration": 225.209583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Trapped by Tradition: The Shift from Guest to Prisoner",
+          "actualDuration": 225.209583,
+          "startTime": 342.06399999999996,
+          "endTime": 567.2735829999999
+        },
+        {
+          "path": "Audio/output/2645/chapter_03.wav",
+          "duration": 206.661958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating a Hostile System: Seeking Help in a Foreign Land",
+          "actualDuration": 206.661958,
+          "startTime": 568.7735829999999,
+          "endTime": 775.435541
+        },
+        {
+          "path": "Audio/output/2645/chapter_04.wav",
+          "duration": 176.947375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Cost of Survival: Endurance, Deception, and the Weight of Fear",
+          "actualDuration": 176.947375,
+          "startTime": 776.935541,
+          "endTime": 953.8829159999999
+        },
+        {
+          "path": "Audio/output/2645/chapter_05.wav",
+          "duration": 165.328708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Acts of Defiance: Building a Path Toward Escape",
+          "actualDuration": 165.328708,
+          "startTime": 955.3829159999999,
+          "endTime": 1120.711624
+        },
+        {
+          "path": "Audio/output/2645/chapter_06.wav",
+          "duration": 193.281708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Escape Plan: Trust, Betrayal, and the Edge of Hope",
+          "actualDuration": 193.281708,
+          "startTime": 1122.211624,
+          "endTime": 1315.493332
+        },
+        {
+          "path": "Audio/output/2645/chapter_07.wav",
+          "duration": 160.236875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Road Out: Fear, Fatigue, and the Kindness of Strangers",
+          "actualDuration": 160.236875,
+          "startTime": 1316.993332,
+          "endTime": 1477.230207
+        },
+        {
+          "path": "Audio/output/2645/chapter_08.wav",
+          "duration": 160.799833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Crossing the Border: The Price of Freedom",
+          "actualDuration": 160.799833,
+          "startTime": 1478.730207,
+          "endTime": 1639.53004
+        },
+        {
+          "path": "Audio/output/2645/chapter_09.wav",
+          "duration": 161.856125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Coming Home: The Challenge of Rebuilding",
+          "actualDuration": 161.856125,
+          "startTime": 1641.03004,
+          "endTime": 1802.8861650000001
+        },
+        {
+          "path": "Audio/output/2645/chapter_10.wav",
+          "duration": 113.550167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons in Courage: Moving Forward After Trauma",
+          "actualDuration": 113.550167,
+          "startTime": 1804.3861650000001,
+          "endTime": 1917.9363320000002
+        },
+        {
+          "path": "Audio/output/2645/conclusion.wav",
+          "duration": 92.258917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 92.258917,
+          "startTime": 1919.4363320000002,
+          "endTime": 2011.6952490000003
+        }
+      ],
+      "totalDuration": 2011.6952490000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.09,
+          "actualStart": 0,
+          "actualEnd": 72.094167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Worlds Collide: The Promise and Peril of Cross-Cultural Marriage",
+          "expectedStart": 72.09,
+          "expectedEnd": 339.06,
+          "actualStart": 73.594167,
+          "actualEnd": 340.56399999999996,
+          "timeDifference": 1.5041669999999954
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Trapped by Tradition: The Shift from Guest to Prisoner",
+          "expectedStart": 339.06,
+          "expectedEnd": 564.27,
+          "actualStart": 342.06399999999996,
+          "actualEnd": 567.2735829999999,
+          "timeDifference": 3.0039999999999623
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating a Hostile System: Seeking Help in a Foreign Land",
+          "expectedStart": 564.27,
+          "expectedEnd": 770.93,
+          "actualStart": 568.7735829999999,
+          "actualEnd": 775.435541,
+          "timeDifference": 4.503582999999935
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Cost of Survival: Endurance, Deception, and the Weight of Fear",
+          "expectedStart": 770.93,
+          "expectedEnd": 947.88,
+          "actualStart": 776.935541,
+          "actualEnd": 953.8829159999999,
+          "timeDifference": 6.005540999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Acts of Defiance: Building a Path Toward Escape",
+          "expectedStart": 947.88,
+          "expectedEnd": 1113.21,
+          "actualStart": 955.3829159999999,
+          "actualEnd": 1120.711624,
+          "timeDifference": 7.502915999999914
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Escape Plan: Trust, Betrayal, and the Edge of Hope",
+          "expectedStart": 1113.21,
+          "expectedEnd": 1306.49,
+          "actualStart": 1122.211624,
+          "actualEnd": 1315.493332,
+          "timeDifference": 9.001623999999993
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Road Out: Fear, Fatigue, and the Kindness of Strangers",
+          "expectedStart": 1306.49,
+          "expectedEnd": 1466.73,
+          "actualStart": 1316.993332,
+          "actualEnd": 1477.230207,
+          "timeDifference": 10.503332
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Crossing the Border: The Price of Freedom",
+          "expectedStart": 1466.73,
+          "expectedEnd": 1627.53,
+          "actualStart": 1478.730207,
+          "actualEnd": 1639.53004,
+          "timeDifference": 12.000207000000046
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Coming Home: The Challenge of Rebuilding",
+          "expectedStart": 1627.53,
+          "expectedEnd": 1789.39,
+          "actualStart": 1641.03004,
+          "actualEnd": 1802.8861650000001,
+          "timeDifference": 13.500040000000126
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons in Courage: Moving Forward After Trauma",
+          "expectedStart": 1789.39,
+          "expectedEnd": 1902.94,
+          "actualStart": 1804.3861650000001,
+          "actualEnd": 1917.9363320000002,
+          "timeDifference": 14.996165000000019
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1902.94,
+          "expectedEnd": 1995.2,
+          "actualStart": 1919.4363320000002,
+          "actualEnd": 2011.6952490000003,
+          "timeDifference": 16.496332000000166
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.094167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Worlds Collide: The Promise and Peril of Cross-Cultural Marriage"
+        },
+        {
+          "startTime": 340.56399999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Worlds Collide: The Promise and Peril of Cross-Cultural Marriage and Chapter 2 Trapped by Tradition: The Shift from Guest to Prisoner"
+        },
+        {
+          "startTime": 567.2735829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Trapped by Tradition: The Shift from Guest to Prisoner and Chapter 3 Navigating a Hostile System: Seeking Help in a Foreign Land"
+        },
+        {
+          "startTime": 775.435541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating a Hostile System: Seeking Help in a Foreign Land and Chapter 4 The Hidden Cost of Survival: Endurance, Deception, and the Weight of Fear"
+        },
+        {
+          "startTime": 953.8829159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Cost of Survival: Endurance, Deception, and the Weight of Fear and Chapter 5 Small Acts of Defiance: Building a Path Toward Escape"
+        },
+        {
+          "startTime": 1120.711624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Acts of Defiance: Building a Path Toward Escape and Chapter 6 The Escape Plan: Trust, Betrayal, and the Edge of Hope"
+        },
+        {
+          "startTime": 1315.493332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Escape Plan: Trust, Betrayal, and the Edge of Hope and Chapter 7 The Long Road Out: Fear, Fatigue, and the Kindness of Strangers"
+        },
+        {
+          "startTime": 1477.230207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Road Out: Fear, Fatigue, and the Kindness of Strangers and Chapter 8 Crossing the Border: The Price of Freedom"
+        },
+        {
+          "startTime": 1639.53004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Crossing the Border: The Price of Freedom and Chapter 9 Coming Home: The Challenge of Rebuilding"
+        },
+        {
+          "startTime": 1802.8861650000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Coming Home: The Challenge of Rebuilding and Chapter 10 Lessons in Courage: Moving Forward After Trauma"
+        },
+        {
+          "startTime": 1917.9363320000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons in Courage: Moving Forward After Trauma and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2645",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T07:52:16.796Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

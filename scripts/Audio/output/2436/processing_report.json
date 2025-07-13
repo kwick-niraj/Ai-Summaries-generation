@@ -1,0 +1,456 @@
+{
+  "bookId": "2436",
+  "timestamp": "2025-07-10T22:37:46.962Z",
+  "success": false,
+  "processingTime": -1752186774631,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5326,
+    "totalAudioFiles": 12,
+    "totalDuration": 2620.5691669999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2620.5691669999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2436/optimized_text/2436.md",
+    "fileSize": 661,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "2436.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2436/metadata/2436_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2620.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2436/metadata/2436_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2436/metadata/2436_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2436/2436_complete.wav",
+    "duration": 2620.569167,
+    "fileSize": 125787398,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2436/introduction.wav",
+          "duration": 90.280792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.280792,
+          "startTime": 0,
+          "endTime": 90.280792
+        },
+        {
+          "path": "Audio/output/2436/chapter_01.wav",
+          "duration": 280.246167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Leadership as a Set of Learnable Behaviors",
+          "actualDuration": 280.246167,
+          "startTime": 91.780792,
+          "endTime": 372.02695900000003
+        },
+        {
+          "path": "Audio/output/2436/chapter_02.wav",
+          "duration": 275.114083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Setting the Example Through Consistent Actions",
+          "actualDuration": 275.114083,
+          "startTime": 373.52695900000003,
+          "endTime": 648.641042
+        },
+        {
+          "path": "Audio/output/2436/chapter_03.wav",
+          "duration": 262.364417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creating a Compelling Vision and Inspiring Others",
+          "actualDuration": 262.364417,
+          "startTime": 650.141042,
+          "endTime": 912.505459
+        },
+        {
+          "path": "Audio/output/2436/chapter_04.wav",
+          "duration": 256.433542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Driving Innovation and Embracing Change",
+          "actualDuration": 256.433542,
+          "startTime": 914.005459,
+          "endTime": 1170.439001
+        },
+        {
+          "path": "Audio/output/2436/chapter_05.wav",
+          "duration": 260.915167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Trust and Empowering Others",
+          "actualDuration": 260.915167,
+          "startTime": 1171.939001,
+          "endTime": 1432.8541679999998
+        },
+        {
+          "path": "Audio/output/2436/chapter_06.wav",
+          "duration": 244.365083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Recognizing Contributions and Celebrating Values",
+          "actualDuration": 244.365083,
+          "startTime": 1434.3541679999998,
+          "endTime": 1678.7192509999998
+        },
+        {
+          "path": "Audio/output/2436/chapter_07.wav",
+          "duration": 210.762875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining Leadership Growth Through Reflection and Learning",
+          "actualDuration": 210.762875,
+          "startTime": 1680.2192509999998,
+          "endTime": 1890.9821259999999
+        },
+        {
+          "path": "Audio/output/2436/chapter_08.wav",
+          "duration": 200.699458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and Building Resilience",
+          "actualDuration": 200.699458,
+          "startTime": 1892.4821259999999,
+          "endTime": 2093.181584
+        },
+        {
+          "path": "Audio/output/2436/chapter_09.wav",
+          "duration": 184.834833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Fostering a Culture of Shared Leadership",
+          "actualDuration": 184.834833,
+          "startTime": 2094.681584,
+          "endTime": 2279.516417
+        },
+        {
+          "path": "Audio/output/2436/chapter_10.wav",
+          "duration": 195.465875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Practices—Leadership as a Daily Habit",
+          "actualDuration": 195.465875,
+          "startTime": 2281.016417,
+          "endTime": 2476.4822919999997
+        },
+        {
+          "path": "Audio/output/2436/conclusion.wav",
+          "duration": 159.086875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 159.086875,
+          "startTime": 2477.9822919999997,
+          "endTime": 2637.0691669999997
+        }
+      ],
+      "totalDuration": 2637.0691669999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.28,
+          "actualStart": 0,
+          "actualEnd": 90.280792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Leadership as a Set of Learnable Behaviors",
+          "expectedStart": 90.28,
+          "expectedEnd": 370.53,
+          "actualStart": 91.780792,
+          "actualEnd": 372.02695900000003,
+          "timeDifference": 1.5007920000000041
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Setting the Example Through Consistent Actions",
+          "expectedStart": 370.53,
+          "expectedEnd": 645.64,
+          "actualStart": 373.52695900000003,
+          "actualEnd": 648.641042,
+          "timeDifference": 2.9969590000000608
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creating a Compelling Vision and Inspiring Others",
+          "expectedStart": 645.64,
+          "expectedEnd": 908,
+          "actualStart": 650.141042,
+          "actualEnd": 912.505459,
+          "timeDifference": 4.501041999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Driving Innovation and Embracing Change",
+          "expectedStart": 908,
+          "expectedEnd": 1164.43,
+          "actualStart": 914.005459,
+          "actualEnd": 1170.439001,
+          "timeDifference": 6.0054589999999735
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Trust and Empowering Others",
+          "expectedStart": 1164.43,
+          "expectedEnd": 1425.35,
+          "actualStart": 1171.939001,
+          "actualEnd": 1432.8541679999998,
+          "timeDifference": 7.509000999999898
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Recognizing Contributions and Celebrating Values",
+          "expectedStart": 1425.35,
+          "expectedEnd": 1669.72,
+          "actualStart": 1434.3541679999998,
+          "actualEnd": 1678.7192509999998,
+          "timeDifference": 9.004167999999936
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining Leadership Growth Through Reflection and Learning",
+          "expectedStart": 1669.72,
+          "expectedEnd": 1880.48,
+          "actualStart": 1680.2192509999998,
+          "actualEnd": 1890.9821259999999,
+          "timeDifference": 10.499250999999731
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and Building Resilience",
+          "expectedStart": 1880.48,
+          "expectedEnd": 2081.18,
+          "actualStart": 1892.4821259999999,
+          "actualEnd": 2093.181584,
+          "timeDifference": 12.002125999999862
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Fostering a Culture of Shared Leadership",
+          "expectedStart": 2081.18,
+          "expectedEnd": 2266.01,
+          "actualStart": 2094.681584,
+          "actualEnd": 2279.516417,
+          "timeDifference": 13.501584000000094
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Practices—Leadership as a Daily Habit",
+          "expectedStart": 2266.01,
+          "expectedEnd": 2461.48,
+          "actualStart": 2281.016417,
+          "actualEnd": 2476.4822919999997,
+          "timeDifference": 15.006416999999601
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2461.48,
+          "expectedEnd": 2620.57,
+          "actualStart": 2477.9822919999997,
+          "actualEnd": 2637.0691669999997,
+          "timeDifference": 16.50229199999967
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.280792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Leadership as a Set of Learnable Behaviors"
+        },
+        {
+          "startTime": 372.02695900000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Leadership as a Set of Learnable Behaviors and Chapter 2 Setting the Example Through Consistent Actions"
+        },
+        {
+          "startTime": 648.641042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Setting the Example Through Consistent Actions and Chapter 3 Creating a Compelling Vision and Inspiring Others"
+        },
+        {
+          "startTime": 912.505459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creating a Compelling Vision and Inspiring Others and Chapter 4 Driving Innovation and Embracing Change"
+        },
+        {
+          "startTime": 1170.439001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Driving Innovation and Embracing Change and Chapter 5 Building Trust and Empowering Others"
+        },
+        {
+          "startTime": 1432.8541679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Trust and Empowering Others and Chapter 6 Recognizing Contributions and Celebrating Values"
+        },
+        {
+          "startTime": 1678.7192509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Recognizing Contributions and Celebrating Values and Chapter 7 Sustaining Leadership Growth Through Reflection and Learning"
+        },
+        {
+          "startTime": 1890.9821259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining Leadership Growth Through Reflection and Learning and Chapter 8 Navigating Setbacks and Building Resilience"
+        },
+        {
+          "startTime": 2093.181584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and Building Resilience and Chapter 9 Fostering a Culture of Shared Leadership"
+        },
+        {
+          "startTime": 2279.516417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Fostering a Culture of Shared Leadership and Chapter 10 Integrating the Practices—Leadership as a Daily Habit"
+        },
+        {
+          "startTime": 2476.4822919999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Practices—Leadership as a Daily Habit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2436",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:32:55.948Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

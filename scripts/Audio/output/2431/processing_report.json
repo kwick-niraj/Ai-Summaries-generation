@@ -1,0 +1,456 @@
+{
+  "bookId": "2431",
+  "timestamp": "2025-07-10T22:25:28.219Z",
+  "success": false,
+  "processingTime": -1752185948410,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4502,
+    "totalAudioFiles": 12,
+    "totalDuration": 2105.247959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2105.247959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2431/optimized_text/2431.md",
+    "fileSize": 483,
+    "wordCount": 71,
+    "format": "markdown",
+    "filename": "2431.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2431/metadata/2431_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2105.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2431/metadata/2431_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2431/metadata/2431_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2431/2431_complete.wav",
+    "duration": 2105.247958,
+    "fileSize": 101051980,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2431/introduction.wav",
+          "duration": 102.842042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.842042,
+          "startTime": 0,
+          "endTime": 102.842042
+        },
+        {
+          "path": "Audio/output/2431/chapter_01.wav",
+          "duration": 233.757417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Changing England",
+          "actualDuration": 233.757417,
+          "startTime": 104.342042,
+          "endTime": 338.099459
+        },
+        {
+          "path": "Audio/output/2431/chapter_02.wav",
+          "duration": 220.396542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering Patterns in the Earth",
+          "actualDuration": 220.396542,
+          "startTime": 339.599459,
+          "endTime": 559.996001
+        },
+        {
+          "path": "Audio/output/2431/chapter_03.wav",
+          "duration": 211.9685,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle to Be Heard",
+          "actualDuration": 211.9685,
+          "startTime": 561.496001,
+          "endTime": 773.4645009999999
+        },
+        {
+          "path": "Audio/output/2431/chapter_04.wav",
+          "duration": 209.471167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating the First Geological Map",
+          "actualDuration": 209.471167,
+          "startTime": 774.9645009999999,
+          "endTime": 984.435668
+        },
+        {
+          "path": "Audio/output/2431/chapter_05.wav",
+          "duration": 142.114542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Setbacks and Seeking Recognition",
+          "actualDuration": 142.114542,
+          "startTime": 985.935668,
+          "endTime": 1128.0502099999999
+        },
+        {
+          "path": "Audio/output/2431/chapter_06.wav",
+          "duration": 177.798958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Map’s Ripple Effect",
+          "actualDuration": 177.798958,
+          "startTime": 1129.5502099999999,
+          "endTime": 1307.349168
+        },
+        {
+          "path": "Audio/output/2431/chapter_07.wav",
+          "duration": 193.275417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Birth of a New Science",
+          "actualDuration": 193.275417,
+          "startTime": 1308.849168,
+          "endTime": 1502.124585
+        },
+        {
+          "path": "Audio/output/2431/chapter_08.wav",
+          "duration": 171.367458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost of Discovery",
+          "actualDuration": 171.367458,
+          "startTime": 1503.624585,
+          "endTime": 1674.992043
+        },
+        {
+          "path": "Audio/output/2431/chapter_09.wav",
+          "duration": 161.722833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 A Legacy Written in Stone",
+          "actualDuration": 161.722833,
+          "startTime": 1676.492043,
+          "endTime": 1838.214876
+        },
+        {
+          "path": "Audio/output/2431/chapter_10.wav",
+          "duration": 159.453708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The World Remade",
+          "actualDuration": 159.453708,
+          "startTime": 1839.714876,
+          "endTime": 1999.168584
+        },
+        {
+          "path": "Audio/output/2431/conclusion.wav",
+          "duration": 121.079375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.079375,
+          "startTime": 2000.668584,
+          "endTime": 2121.747959
+        }
+      ],
+      "totalDuration": 2121.747959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.84,
+          "actualStart": 0,
+          "actualEnd": 102.842042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Changing England",
+          "expectedStart": 102.84,
+          "expectedEnd": 336.6,
+          "actualStart": 104.342042,
+          "actualEnd": 338.099459,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering Patterns in the Earth",
+          "expectedStart": 336.6,
+          "expectedEnd": 557,
+          "actualStart": 339.599459,
+          "actualEnd": 559.996001,
+          "timeDifference": 2.9994590000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle to Be Heard",
+          "expectedStart": 557,
+          "expectedEnd": 768.97,
+          "actualStart": 561.496001,
+          "actualEnd": 773.4645009999999,
+          "timeDifference": 4.496000999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating the First Geological Map",
+          "expectedStart": 768.97,
+          "expectedEnd": 978.44,
+          "actualStart": 774.9645009999999,
+          "actualEnd": 984.435668,
+          "timeDifference": 5.9945009999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Setbacks and Seeking Recognition",
+          "expectedStart": 978.44,
+          "expectedEnd": 1120.55,
+          "actualStart": 985.935668,
+          "actualEnd": 1128.0502099999999,
+          "timeDifference": 7.49566799999991
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Map’s Ripple Effect",
+          "expectedStart": 1120.55,
+          "expectedEnd": 1298.35,
+          "actualStart": 1129.5502099999999,
+          "actualEnd": 1307.349168,
+          "timeDifference": 9.000209999999925
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Birth of a New Science",
+          "expectedStart": 1298.35,
+          "expectedEnd": 1491.63,
+          "actualStart": 1308.849168,
+          "actualEnd": 1502.124585,
+          "timeDifference": 10.499168000000054
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost of Discovery",
+          "expectedStart": 1491.63,
+          "expectedEnd": 1663,
+          "actualStart": 1503.624585,
+          "actualEnd": 1674.992043,
+          "timeDifference": 11.994584999999915
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 A Legacy Written in Stone",
+          "expectedStart": 1663,
+          "expectedEnd": 1824.72,
+          "actualStart": 1676.492043,
+          "actualEnd": 1838.214876,
+          "timeDifference": 13.492042999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The World Remade",
+          "expectedStart": 1824.72,
+          "expectedEnd": 1984.17,
+          "actualStart": 1839.714876,
+          "actualEnd": 1999.168584,
+          "timeDifference": 14.994875999999977
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1984.17,
+          "expectedEnd": 2105.25,
+          "actualStart": 2000.668584,
+          "actualEnd": 2121.747959,
+          "timeDifference": 16.498583999999937
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.842042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Changing England"
+        },
+        {
+          "startTime": 338.099459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Changing England and Chapter 2 Discovering Patterns in the Earth"
+        },
+        {
+          "startTime": 559.996001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering Patterns in the Earth and Chapter 3 The Struggle to Be Heard"
+        },
+        {
+          "startTime": 773.4645009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle to Be Heard and Chapter 4 Creating the First Geological Map"
+        },
+        {
+          "startTime": 984.435668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating the First Geological Map and Chapter 5 Facing Setbacks and Seeking Recognition"
+        },
+        {
+          "startTime": 1128.0502099999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Setbacks and Seeking Recognition and Chapter 6 The Map’s Ripple Effect"
+        },
+        {
+          "startTime": 1307.349168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Map’s Ripple Effect and Chapter 7 The Birth of a New Science"
+        },
+        {
+          "startTime": 1502.124585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Birth of a New Science and Chapter 8 The Human Cost of Discovery"
+        },
+        {
+          "startTime": 1674.992043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost of Discovery and Chapter 9 A Legacy Written in Stone"
+        },
+        {
+          "startTime": 1838.214876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 A Legacy Written in Stone and Chapter 10 The World Remade"
+        },
+        {
+          "startTime": 1999.168584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The World Remade and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2431",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:19:08.936Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

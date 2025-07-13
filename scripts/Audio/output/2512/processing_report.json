@@ -1,0 +1,455 @@
+{
+  "bookId": "2512",
+  "timestamp": "2025-07-11T02:36:46.658Z",
+  "success": false,
+  "processingTime": -1752201133207,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4982,
+    "totalAudioFiles": 12,
+    "totalDuration": 2073.228875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2073.228875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2512/optimized_text/2512.md",
+    "fileSize": 658,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2512.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2512/metadata/2512_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2073.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2512/metadata/2512_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2512/metadata/2512_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2512/2512_complete.wav",
+    "duration": 2073.228875,
+    "fileSize": 99515064,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2512/introduction.wav",
+          "duration": 113.799833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.799833,
+          "startTime": 0,
+          "endTime": 113.799833
+        },
+        {
+          "path": "Audio/output/2512/chapter_01.wav",
+          "duration": 214.748667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Life Shaped by Hardship and Change",
+          "actualDuration": 214.748667,
+          "startTime": 115.299833,
+          "endTime": 330.0485
+        },
+        {
+          "path": "Audio/output/2512/chapter_02.wav",
+          "duration": 206.253625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Becoming Sandra: Identity, Transition, and the Search for Self",
+          "actualDuration": 206.253625,
+          "startTime": 331.5485,
+          "endTime": 537.8021249999999
+        },
+        {
+          "path": "Audio/output/2512/chapter_03.wav",
+          "duration": 193.171083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden World of Trauma Cleaning",
+          "actualDuration": 193.171083,
+          "startTime": 539.3021249999999,
+          "endTime": 732.4732079999999
+        },
+        {
+          "path": "Audio/output/2512/chapter_04.wav",
+          "duration": 234.134458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Encounters with Suffering: Stories from the Margins",
+          "actualDuration": 234.134458,
+          "startTime": 733.9732079999999,
+          "endTime": 968.1076659999999
+        },
+        {
+          "path": "Audio/output/2512/chapter_05.wav",
+          "duration": 165.97225,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Compassion, Dignity, and the Ethics of Care",
+          "actualDuration": 165.97225,
+          "startTime": 969.6076659999999,
+          "endTime": 1135.579916
+        },
+        {
+          "path": "Audio/output/2512/chapter_06.wav",
+          "duration": 196.136417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Cost of Bearing Witness",
+          "actualDuration": 196.136417,
+          "startTime": 1137.079916,
+          "endTime": 1333.2163329999998
+        },
+        {
+          "path": "Audio/output/2512/chapter_07.wav",
+          "duration": 179.974417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Family, Forgiveness, and the Long Shadow of the Past",
+          "actualDuration": 179.974417,
+          "startTime": 1334.7163329999998,
+          "endTime": 1514.6907499999998
+        },
+        {
+          "path": "Audio/output/2512/chapter_08.wav",
+          "duration": 180.532958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Business of Death and Renewal",
+          "actualDuration": 180.532958,
+          "startTime": 1516.1907499999998,
+          "endTime": 1696.7237079999998
+        },
+        {
+          "path": "Audio/output/2512/chapter_09.wav",
+          "duration": 156.789292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Resilience: What Trauma Cleaning Teaches",
+          "actualDuration": 156.789292,
+          "startTime": 1698.2237079999998,
+          "endTime": 1855.0129999999997
+        },
+        {
+          "path": "Audio/output/2512/chapter_10.wav",
+          "duration": 116.146292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Meaning of Care: Reflections on Life, Death, and What Remains",
+          "actualDuration": 116.146292,
+          "startTime": 1856.5129999999997,
+          "endTime": 1972.6592919999996
+        },
+        {
+          "path": "Audio/output/2512/conclusion.wav",
+          "duration": 115.569583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.569583,
+          "startTime": 1974.1592919999996,
+          "endTime": 2089.728875
+        }
+      ],
+      "totalDuration": 2089.728875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.8,
+          "actualStart": 0,
+          "actualEnd": 113.799833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Life Shaped by Hardship and Change",
+          "expectedStart": 113.8,
+          "expectedEnd": 328.55,
+          "actualStart": 115.299833,
+          "actualEnd": 330.0485,
+          "timeDifference": 1.4998330000000095
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Becoming Sandra: Identity, Transition, and the Search for Self",
+          "expectedStart": 328.55,
+          "expectedEnd": 534.8,
+          "actualStart": 331.5485,
+          "actualEnd": 537.8021249999999,
+          "timeDifference": 2.9984999999999786
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden World of Trauma Cleaning",
+          "expectedStart": 534.8,
+          "expectedEnd": 727.97,
+          "actualStart": 539.3021249999999,
+          "actualEnd": 732.4732079999999,
+          "timeDifference": 4.502124999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Encounters with Suffering: Stories from the Margins",
+          "expectedStart": 727.97,
+          "expectedEnd": 962.1,
+          "actualStart": 733.9732079999999,
+          "actualEnd": 968.1076659999999,
+          "timeDifference": 6.003207999999859
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Compassion, Dignity, and the Ethics of Care",
+          "expectedStart": 962.1,
+          "expectedEnd": 1128.07,
+          "actualStart": 969.6076659999999,
+          "actualEnd": 1135.579916,
+          "timeDifference": 7.507665999999858
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Cost of Bearing Witness",
+          "expectedStart": 1128.07,
+          "expectedEnd": 1324.21,
+          "actualStart": 1137.079916,
+          "actualEnd": 1333.2163329999998,
+          "timeDifference": 9.009915999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Family, Forgiveness, and the Long Shadow of the Past",
+          "expectedStart": 1324.21,
+          "expectedEnd": 1504.18,
+          "actualStart": 1334.7163329999998,
+          "actualEnd": 1514.6907499999998,
+          "timeDifference": 10.506332999999813
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Business of Death and Renewal",
+          "expectedStart": 1504.18,
+          "expectedEnd": 1684.71,
+          "actualStart": 1516.1907499999998,
+          "actualEnd": 1696.7237079999998,
+          "timeDifference": 12.010749999999689
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Resilience: What Trauma Cleaning Teaches",
+          "expectedStart": 1684.71,
+          "expectedEnd": 1841.5,
+          "actualStart": 1698.2237079999998,
+          "actualEnd": 1855.0129999999997,
+          "timeDifference": 13.513707999999724
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Meaning of Care: Reflections on Life, Death, and What Remains",
+          "expectedStart": 1841.5,
+          "expectedEnd": 1957.65,
+          "actualStart": 1856.5129999999997,
+          "actualEnd": 1972.6592919999996,
+          "timeDifference": 15.012999999999693
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1957.65,
+          "expectedEnd": 2073.22,
+          "actualStart": 1974.1592919999996,
+          "actualEnd": 2089.728875,
+          "timeDifference": 16.509291999999505
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.799833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Life Shaped by Hardship and Change"
+        },
+        {
+          "startTime": 330.0485,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Life Shaped by Hardship and Change and Chapter 2 Becoming Sandra: Identity, Transition, and the Search for Self"
+        },
+        {
+          "startTime": 537.8021249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Becoming Sandra: Identity, Transition, and the Search for Self and Chapter 3 The Hidden World of Trauma Cleaning"
+        },
+        {
+          "startTime": 732.4732079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden World of Trauma Cleaning and Chapter 4 Encounters with Suffering: Stories from the Margins"
+        },
+        {
+          "startTime": 968.1076659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Encounters with Suffering: Stories from the Margins and Chapter 5 Compassion, Dignity, and the Ethics of Care"
+        },
+        {
+          "startTime": 1135.579916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Compassion, Dignity, and the Ethics of Care and Chapter 6 The Cost of Bearing Witness"
+        },
+        {
+          "startTime": 1333.2163329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Cost of Bearing Witness and Chapter 7 Family, Forgiveness, and the Long Shadow of the Past"
+        },
+        {
+          "startTime": 1514.6907499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Family, Forgiveness, and the Long Shadow of the Past and Chapter 8 The Business of Death and Renewal"
+        },
+        {
+          "startTime": 1696.7237079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Business of Death and Renewal and Chapter 9 Lessons in Resilience: What Trauma Cleaning Teaches"
+        },
+        {
+          "startTime": 1855.0129999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Resilience: What Trauma Cleaning Teaches and Chapter 10 The Meaning of Care: Reflections on Life, Death, and What Remains"
+        },
+        {
+          "startTime": 1972.6592919999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Meaning of Care: Reflections on Life, Death, and What Remains and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2512",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:32:14.919Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

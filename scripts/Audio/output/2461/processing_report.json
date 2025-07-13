@@ -1,0 +1,456 @@
+{
+  "bookId": "2461",
+  "timestamp": "2025-07-10T23:35:08.767Z",
+  "success": false,
+  "processingTime": -1752190116347,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4816,
+    "totalAudioFiles": 12,
+    "totalDuration": 2470.7966669999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2470.7966669999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2461/optimized_text/2461.md",
+    "fileSize": 713,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2461.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2461/metadata/2461_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2470.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2461/metadata/2461_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2461/metadata/2461_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2461/2461_complete.wav",
+    "duration": 2470.796667,
+    "fileSize": 118598318,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2461/introduction.wav",
+          "duration": 81.400917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.400917,
+          "startTime": 0,
+          "endTime": 81.400917
+        },
+        {
+          "path": "Audio/output/2461/chapter_01.wav",
+          "duration": 213.3105,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Way Things Are Made and Disposed",
+          "actualDuration": 213.3105,
+          "startTime": 82.900917,
+          "endTime": 296.211417
+        },
+        {
+          "path": "Audio/output/2461/chapter_02.wav",
+          "duration": 241.486667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Nature’s Cycles and Closed Loops",
+          "actualDuration": 241.486667,
+          "startTime": 297.711417,
+          "endTime": 539.198084
+        },
+        {
+          "path": "Audio/output/2461/chapter_03.wav",
+          "duration": 253.575458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Moving Beyond Efficiency to True Effectiveness",
+          "actualDuration": 253.575458,
+          "startTime": 540.698084,
+          "endTime": 794.273542
+        },
+        {
+          "path": "Audio/output/2461/chapter_04.wav",
+          "duration": 215.471333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Designing Products for Continuous Reuse and Regeneration",
+          "actualDuration": 215.471333,
+          "startTime": 795.773542,
+          "endTime": 1011.244875
+        },
+        {
+          "path": "Audio/output/2461/chapter_05.wav",
+          "duration": 218.843292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating a Positive Impact Through Intentional Design",
+          "actualDuration": 218.843292,
+          "startTime": 1012.744875,
+          "endTime": 1231.5881669999999
+        },
+        {
+          "path": "Audio/output/2461/chapter_06.wav",
+          "duration": 255.919708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Implementing the Cradle-to-Cradle Framework in Business and Industry",
+          "actualDuration": 255.919708,
+          "startTime": 1233.0881669999999,
+          "endTime": 1489.0078749999998
+        },
+        {
+          "path": "Audio/output/2461/chapter_07.wav",
+          "duration": 227.980417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Policy, Regulation, and the Role of Government",
+          "actualDuration": 227.980417,
+          "startTime": 1490.5078749999998,
+          "endTime": 1718.4882919999998
+        },
+        {
+          "path": "Audio/output/2461/chapter_08.wav",
+          "duration": 186.553333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Scaling Up—From Products to Cities and Systems",
+          "actualDuration": 186.553333,
+          "startTime": 1719.9882919999998,
+          "endTime": 1906.5416249999998
+        },
+        {
+          "path": "Audio/output/2461/chapter_09.wav",
+          "duration": 222.564125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Barriers and Navigating Trade-Offs",
+          "actualDuration": 222.564125,
+          "startTime": 1908.0416249999998,
+          "endTime": 2130.6057499999997
+        },
+        {
+          "path": "Audio/output/2461/chapter_10.wav",
+          "duration": 202.564,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Dimension—Values, Mindset, and Leadership",
+          "actualDuration": 202.564,
+          "startTime": 2132.1057499999997,
+          "endTime": 2334.6697499999996
+        },
+        {
+          "path": "Audio/output/2461/conclusion.wav",
+          "duration": 151.126917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 151.126917,
+          "startTime": 2336.1697499999996,
+          "endTime": 2487.2966669999996
+        }
+      ],
+      "totalDuration": 2487.2966669999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.4,
+          "actualStart": 0,
+          "actualEnd": 81.400917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Way Things Are Made and Disposed",
+          "expectedStart": 81.4,
+          "expectedEnd": 294.71,
+          "actualStart": 82.900917,
+          "actualEnd": 296.211417,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Nature’s Cycles and Closed Loops",
+          "expectedStart": 294.71,
+          "expectedEnd": 536.2,
+          "actualStart": 297.711417,
+          "actualEnd": 539.198084,
+          "timeDifference": 3.0014170000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Moving Beyond Efficiency to True Effectiveness",
+          "expectedStart": 536.2,
+          "expectedEnd": 789.78,
+          "actualStart": 540.698084,
+          "actualEnd": 794.273542,
+          "timeDifference": 4.498083999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Designing Products for Continuous Reuse and Regeneration",
+          "expectedStart": 789.78,
+          "expectedEnd": 1005.25,
+          "actualStart": 795.773542,
+          "actualEnd": 1011.244875,
+          "timeDifference": 5.993542000000048
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating a Positive Impact Through Intentional Design",
+          "expectedStart": 1005.25,
+          "expectedEnd": 1224.09,
+          "actualStart": 1012.744875,
+          "actualEnd": 1231.5881669999999,
+          "timeDifference": 7.494874999999979
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Implementing the Cradle-to-Cradle Framework in Business and Industry",
+          "expectedStart": 1224.09,
+          "expectedEnd": 1480.01,
+          "actualStart": 1233.0881669999999,
+          "actualEnd": 1489.0078749999998,
+          "timeDifference": 8.998166999999967
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Policy, Regulation, and the Role of Government",
+          "expectedStart": 1480.01,
+          "expectedEnd": 1707.99,
+          "actualStart": 1490.5078749999998,
+          "actualEnd": 1718.4882919999998,
+          "timeDifference": 10.497874999999794
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Scaling Up—From Products to Cities and Systems",
+          "expectedStart": 1707.99,
+          "expectedEnd": 1894.54,
+          "actualStart": 1719.9882919999998,
+          "actualEnd": 1906.5416249999998,
+          "timeDifference": 11.998291999999765
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Barriers and Navigating Trade-Offs",
+          "expectedStart": 1894.54,
+          "expectedEnd": 2117.1,
+          "actualStart": 1908.0416249999998,
+          "actualEnd": 2130.6057499999997,
+          "timeDifference": 13.501624999999876
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Dimension—Values, Mindset, and Leadership",
+          "expectedStart": 2117.1,
+          "expectedEnd": 2319.66,
+          "actualStart": 2132.1057499999997,
+          "actualEnd": 2334.6697499999996,
+          "timeDifference": 15.005749999999807
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2319.66,
+          "expectedEnd": 2470.79,
+          "actualStart": 2336.1697499999996,
+          "actualEnd": 2487.2966669999996,
+          "timeDifference": 16.509749999999713
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.400917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Way Things Are Made and Disposed"
+        },
+        {
+          "startTime": 296.211417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Way Things Are Made and Disposed and Chapter 2 Learning from Nature’s Cycles and Closed Loops"
+        },
+        {
+          "startTime": 539.198084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Nature’s Cycles and Closed Loops and Chapter 3 Moving Beyond Efficiency to True Effectiveness"
+        },
+        {
+          "startTime": 794.273542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Moving Beyond Efficiency to True Effectiveness and Chapter 4 Designing Products for Continuous Reuse and Regeneration"
+        },
+        {
+          "startTime": 1011.244875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Designing Products for Continuous Reuse and Regeneration and Chapter 5 Creating a Positive Impact Through Intentional Design"
+        },
+        {
+          "startTime": 1231.5881669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating a Positive Impact Through Intentional Design and Chapter 6 Implementing the Cradle-to-Cradle Framework in Business and Industry"
+        },
+        {
+          "startTime": 1489.0078749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Implementing the Cradle-to-Cradle Framework in Business and Industry and Chapter 7 Policy, Regulation, and the Role of Government"
+        },
+        {
+          "startTime": 1718.4882919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Policy, Regulation, and the Role of Government and Chapter 8 Scaling Up—From Products to Cities and Systems"
+        },
+        {
+          "startTime": 1906.5416249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Scaling Up—From Products to Cities and Systems and Chapter 9 Overcoming Barriers and Navigating Trade-Offs"
+        },
+        {
+          "startTime": 2130.6057499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Barriers and Navigating Trade-Offs and Chapter 10 The Human Dimension—Values, Mindset, and Leadership"
+        },
+        {
+          "startTime": 2334.6697499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Dimension—Values, Mindset, and Leadership and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2461",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:28:37.902Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

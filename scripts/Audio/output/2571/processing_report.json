@@ -1,0 +1,528 @@
+{
+  "bookId": "2571",
+  "timestamp": "2025-07-11T06:43:23.384Z",
+  "success": false,
+  "processingTime": -1752215869310,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 5998,
+    "totalAudioFiles": 15,
+    "totalDuration": 2607.123877
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2607.123877
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2571/optimized_text/2571.md",
+    "fileSize": 1007,
+    "wordCount": 137,
+    "format": "markdown",
+    "filename": "2571.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2571/metadata/2571_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2607.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2571/metadata/2571_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2571/metadata/2571_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2571/2571_complete.wav",
+    "duration": 2607.123875,
+    "fileSize": 125142024,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2571/introduction.wav",
+          "duration": 99.336,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.336,
+          "startTime": 0,
+          "endTime": 99.336
+        },
+        {
+          "path": "Audio/output/2571/chapter_01.wav",
+          "duration": 282.75275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out on a Journey Through Time and Faith",
+          "actualDuration": 282.75275,
+          "startTime": 100.836,
+          "endTime": 383.58875
+        },
+        {
+          "path": "Audio/output/2571/chapter_02.wav",
+          "duration": 229.019042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Monastic Heartlands and the Fragility of Tradition",
+          "actualDuration": 229.019042,
+          "startTime": 385.08875,
+          "endTime": 614.107792
+        },
+        {
+          "path": "Audio/output/2571/chapter_03.wav",
+          "duration": 205.606667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Coexistence, Conflict, and the Ties That Bind",
+          "actualDuration": 205.606667,
+          "startTime": 615.607792,
+          "endTime": 821.214459
+        },
+        {
+          "path": "Audio/output/2571/chapter_04.wav",
+          "duration": 202.720958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Pilgrimage, Memory, and the Search for Belonging",
+          "actualDuration": 202.720958,
+          "startTime": 822.714459,
+          "endTime": 1025.4354170000001
+        },
+        {
+          "path": "Audio/output/2571/chapter_05.wav",
+          "duration": 184.874167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Weight of History and the Struggle to Endure",
+          "actualDuration": 184.874167,
+          "startTime": 1026.9354170000001,
+          "endTime": 1211.809584
+        },
+        {
+          "path": "Audio/output/2571/chapter_06.wav",
+          "duration": 186.151667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Shadows of Empire and the Echoes of Loss",
+          "actualDuration": 186.151667,
+          "startTime": 1213.309584,
+          "endTime": 1399.4612510000002
+        },
+        {
+          "path": "Audio/output/2571/chapter_07.wav",
+          "duration": 156.447917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Faith Under Fire—Persecution, Adaptation, and Quiet Courage",
+          "actualDuration": 156.447917,
+          "startTime": 1400.9612510000002,
+          "endTime": 1557.4091680000001
+        },
+        {
+          "path": "Audio/output/2571/chapter_08.wav",
+          "duration": 147.166583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Diaspora Dreams—Leaving, Longing, and the Ties That Remain",
+          "actualDuration": 147.166583,
+          "startTime": 1558.9091680000001,
+          "endTime": 1706.075751
+        },
+        {
+          "path": "Audio/output/2571/chapter_09.wav",
+          "duration": 150.611,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Women at the Crossroads—Tradition, Change, and Quiet Leadership",
+          "actualDuration": 150.611,
+          "startTime": 1707.575751,
+          "endTime": 1858.1867510000002
+        },
+        {
+          "path": "Audio/output/2571/chapter_10.wav",
+          "duration": 167.577292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Language of Faith—Words, Songs, and the Struggle to Remember",
+          "actualDuration": 167.577292,
+          "startTime": 1859.6867510000002,
+          "endTime": 2027.2640430000001
+        },
+        {
+          "path": "Audio/output/2571/chapter_11.wav",
+          "duration": 141.767875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Sacred Places, Shifting Borders—Land, Identity, and the Meaning of Home",
+          "actualDuration": 141.767875,
+          "startTime": 2028.7640430000001,
+          "endTime": 2170.531918
+        },
+        {
+          "path": "Audio/output/2571/chapter_12.wav",
+          "duration": 147.921417,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Next Generation—Hope, Uncertainty, and the Question of the Future",
+          "actualDuration": 147.921417,
+          "startTime": 2172.031918,
+          "endTime": 2319.953335
+        },
+        {
+          "path": "Audio/output/2571/chapter_13.wav",
+          "duration": 155.606,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Pilgrimage Revisited—Returning, Remembering, and the Power of Presence",
+          "actualDuration": 155.606,
+          "startTime": 2321.453335,
+          "endTime": 2477.059335
+        },
+        {
+          "path": "Audio/output/2571/conclusion.wav",
+          "duration": 149.564542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.564542,
+          "startTime": 2478.559335,
+          "endTime": 2628.123877
+        }
+      ],
+      "totalDuration": 2628.123877,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.34,
+          "actualStart": 0,
+          "actualEnd": 99.336,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out on a Journey Through Time and Faith",
+          "expectedStart": 99.34,
+          "expectedEnd": 382.09,
+          "actualStart": 100.836,
+          "actualEnd": 383.58875,
+          "timeDifference": 1.4959999999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Monastic Heartlands and the Fragility of Tradition",
+          "expectedStart": 382.09,
+          "expectedEnd": 611.11,
+          "actualStart": 385.08875,
+          "actualEnd": 614.107792,
+          "timeDifference": 2.9987500000000296
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Coexistence, Conflict, and the Ties That Bind",
+          "expectedStart": 611.11,
+          "expectedEnd": 816.72,
+          "actualStart": 615.607792,
+          "actualEnd": 821.214459,
+          "timeDifference": 4.497792000000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Pilgrimage, Memory, and the Search for Belonging",
+          "expectedStart": 816.72,
+          "expectedEnd": 1019.44,
+          "actualStart": 822.714459,
+          "actualEnd": 1025.4354170000001,
+          "timeDifference": 5.994459000000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Weight of History and the Struggle to Endure",
+          "expectedStart": 1019.44,
+          "expectedEnd": 1204.31,
+          "actualStart": 1026.9354170000001,
+          "actualEnd": 1211.809584,
+          "timeDifference": 7.495417000000089
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Shadows of Empire and the Echoes of Loss",
+          "expectedStart": 1204.31,
+          "expectedEnd": 1390.46,
+          "actualStart": 1213.309584,
+          "actualEnd": 1399.4612510000002,
+          "timeDifference": 8.99958400000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Faith Under Fire—Persecution, Adaptation, and Quiet Courage",
+          "expectedStart": 1390.46,
+          "expectedEnd": 1546.91,
+          "actualStart": 1400.9612510000002,
+          "actualEnd": 1557.4091680000001,
+          "timeDifference": 10.501251000000138
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Diaspora Dreams—Leaving, Longing, and the Ties That Remain",
+          "expectedStart": 1546.91,
+          "expectedEnd": 1694.08,
+          "actualStart": 1558.9091680000001,
+          "actualEnd": 1706.075751,
+          "timeDifference": 11.999168000000054
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Women at the Crossroads—Tradition, Change, and Quiet Leadership",
+          "expectedStart": 1694.08,
+          "expectedEnd": 1844.69,
+          "actualStart": 1707.575751,
+          "actualEnd": 1858.1867510000002,
+          "timeDifference": 13.495751000000155
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Language of Faith—Words, Songs, and the Struggle to Remember",
+          "expectedStart": 1844.69,
+          "expectedEnd": 2012.27,
+          "actualStart": 1859.6867510000002,
+          "actualEnd": 2027.2640430000001,
+          "timeDifference": 14.996751000000131
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Sacred Places, Shifting Borders—Land, Identity, and the Meaning of Home",
+          "expectedStart": 2012.27,
+          "expectedEnd": 2154.04,
+          "actualStart": 2028.7640430000001,
+          "actualEnd": 2170.531918,
+          "timeDifference": 16.494043000000147
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Next Generation—Hope, Uncertainty, and the Question of the Future",
+          "expectedStart": 2154.04,
+          "expectedEnd": 2301.96,
+          "actualStart": 2172.031918,
+          "actualEnd": 2319.953335,
+          "timeDifference": 17.99191800000017
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Pilgrimage Revisited—Returning, Remembering, and the Power of Presence",
+          "expectedStart": 2301.96,
+          "expectedEnd": 2457.57,
+          "actualStart": 2321.453335,
+          "actualEnd": 2477.059335,
+          "timeDifference": 19.493335000000116
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2457.57,
+          "expectedEnd": 2607.13,
+          "actualStart": 2478.559335,
+          "actualEnd": 2628.123877,
+          "timeDifference": 20.989334999999755
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.336,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out on a Journey Through Time and Faith"
+        },
+        {
+          "startTime": 383.58875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out on a Journey Through Time and Faith and Chapter 2 The Monastic Heartlands and the Fragility of Tradition"
+        },
+        {
+          "startTime": 614.107792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Monastic Heartlands and the Fragility of Tradition and Chapter 3 Coexistence, Conflict, and the Ties That Bind"
+        },
+        {
+          "startTime": 821.214459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Coexistence, Conflict, and the Ties That Bind and Chapter 4 Pilgrimage, Memory, and the Search for Belonging"
+        },
+        {
+          "startTime": 1025.4354170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Pilgrimage, Memory, and the Search for Belonging and Chapter 5 The Weight of History and the Struggle to Endure"
+        },
+        {
+          "startTime": 1211.809584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Weight of History and the Struggle to Endure and Chapter 6 Shadows of Empire and the Echoes of Loss"
+        },
+        {
+          "startTime": 1399.4612510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Shadows of Empire and the Echoes of Loss and Chapter 7 Faith Under Fire—Persecution, Adaptation, and Quiet Courage"
+        },
+        {
+          "startTime": 1557.4091680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Faith Under Fire—Persecution, Adaptation, and Quiet Courage and Chapter 8 Diaspora Dreams—Leaving, Longing, and the Ties That Remain"
+        },
+        {
+          "startTime": 1706.075751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Diaspora Dreams—Leaving, Longing, and the Ties That Remain and Chapter 9 Women at the Crossroads—Tradition, Change, and Quiet Leadership"
+        },
+        {
+          "startTime": 1858.1867510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Women at the Crossroads—Tradition, Change, and Quiet Leadership and Chapter 10 The Language of Faith—Words, Songs, and the Struggle to Remember"
+        },
+        {
+          "startTime": 2027.2640430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Language of Faith—Words, Songs, and the Struggle to Remember and Chapter 11 Sacred Places, Shifting Borders—Land, Identity, and the Meaning of Home"
+        },
+        {
+          "startTime": 2170.531918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Sacred Places, Shifting Borders—Land, Identity, and the Meaning of Home and Chapter 12 The Next Generation—Hope, Uncertainty, and the Question of the Future"
+        },
+        {
+          "startTime": 2319.953335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Next Generation—Hope, Uncertainty, and the Question of the Future and Chapter 13 Pilgrimage Revisited—Returning, Remembering, and the Power of Presence"
+        },
+        {
+          "startTime": 2477.059335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Pilgrimage Revisited—Returning, Remembering, and the Power of Presence and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2571",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:37:49.844Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

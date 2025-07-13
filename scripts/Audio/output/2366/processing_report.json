@@ -1,0 +1,456 @@
+{
+  "bookId": "2366",
+  "timestamp": "2025-07-10T18:36:36.196Z",
+  "success": false,
+  "processingTime": -1752172190239,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4369,
+    "totalAudioFiles": 12,
+    "totalDuration": 2224.718791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2224.718791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2366/optimized_text/2366.md",
+    "fileSize": 798,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2366.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2366/metadata/2366_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2224.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2366/metadata/2366_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2366/metadata/2366_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2366/2366_complete.wav",
+    "duration": 2224.718792,
+    "fileSize": 106786580,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2366/introduction.wav",
+          "duration": 102.94625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.94625,
+          "startTime": 0,
+          "endTime": 102.94625
+        },
+        {
+          "path": "Audio/output/2366/chapter_01.wav",
+          "duration": 232.614875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Journey of Capital in a Modern Economy",
+          "actualDuration": 232.614875,
+          "startTime": 104.44625,
+          "endTime": 337.061125
+        },
+        {
+          "path": "Audio/output/2366/chapter_02.wav",
+          "duration": 206.332333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Three Circuits of Capital and Their Interdependence",
+          "actualDuration": 206.332333,
+          "startTime": 338.561125,
+          "endTime": 544.893458
+        },
+        {
+          "path": "Audio/output/2366/chapter_03.wav",
+          "duration": 219.593958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Importance of Turnover Time and the Pace of Capital Movement",
+          "actualDuration": 219.593958,
+          "startTime": 546.393458,
+          "endTime": 765.9874159999999
+        },
+        {
+          "path": "Audio/output/2366/chapter_04.wav",
+          "duration": 243.442542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Simple and Expanded Reproduction—How Economies Sustain and Grow",
+          "actualDuration": 243.442542,
+          "startTime": 767.4874159999999,
+          "endTime": 1010.9299579999999
+        },
+        {
+          "path": "Audio/output/2366/chapter_05.wav",
+          "duration": 212.087083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Social Web of Capital—Interdependence and Systemic Effects",
+          "actualDuration": 212.087083,
+          "startTime": 1012.4299579999999,
+          "endTime": 1224.517041
+        },
+        {
+          "path": "Audio/output/2366/chapter_06.wav",
+          "duration": 213.380333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Contradictions in Capital Circulation—Where Tensions Arise",
+          "actualDuration": 213.380333,
+          "startTime": 1226.017041,
+          "endTime": 1439.3973740000001
+        },
+        {
+          "path": "Audio/output/2366/chapter_07.wav",
+          "duration": 150.593458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Credit—Greasing the Wheels and Raising the Stakes",
+          "actualDuration": 150.593458,
+          "startTime": 1440.8973740000001,
+          "endTime": 1591.4908320000002
+        },
+        {
+          "path": "Audio/output/2366/chapter_08.wav",
+          "duration": 172.55,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Money’s Double Role—Medium of Exchange and Store of Value",
+          "actualDuration": 172.55,
+          "startTime": 1592.9908320000002,
+          "endTime": 1765.5408320000001
+        },
+        {
+          "path": "Audio/output/2366/chapter_09.wav",
+          "duration": 183.714417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Crisis and Renewal—How Disruptions Shape the System",
+          "actualDuration": 183.714417,
+          "startTime": 1767.0408320000001,
+          "endTime": 1950.755249
+        },
+        {
+          "path": "Audio/output/2366/chapter_10.wav",
+          "duration": 164.111292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Capital Circulation—Adapting to Change",
+          "actualDuration": 164.111292,
+          "startTime": 1952.255249,
+          "endTime": 2116.366541
+        },
+        {
+          "path": "Audio/output/2366/conclusion.wav",
+          "duration": 123.35225,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.35225,
+          "startTime": 2117.866541,
+          "endTime": 2241.218791
+        }
+      ],
+      "totalDuration": 2241.218791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.95,
+          "actualStart": 0,
+          "actualEnd": 102.94625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Journey of Capital in a Modern Economy",
+          "expectedStart": 102.95,
+          "expectedEnd": 335.56,
+          "actualStart": 104.44625,
+          "actualEnd": 337.061125,
+          "timeDifference": 1.4962500000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Three Circuits of Capital and Their Interdependence",
+          "expectedStart": 335.56,
+          "expectedEnd": 541.89,
+          "actualStart": 338.561125,
+          "actualEnd": 544.893458,
+          "timeDifference": 3.001125000000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Importance of Turnover Time and the Pace of Capital Movement",
+          "expectedStart": 541.89,
+          "expectedEnd": 761.48,
+          "actualStart": 546.393458,
+          "actualEnd": 765.9874159999999,
+          "timeDifference": 4.503458000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Simple and Expanded Reproduction—How Economies Sustain and Grow",
+          "expectedStart": 761.48,
+          "expectedEnd": 1004.92,
+          "actualStart": 767.4874159999999,
+          "actualEnd": 1010.9299579999999,
+          "timeDifference": 6.007415999999921
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Social Web of Capital—Interdependence and Systemic Effects",
+          "expectedStart": 1004.92,
+          "expectedEnd": 1217.01,
+          "actualStart": 1012.4299579999999,
+          "actualEnd": 1224.517041,
+          "timeDifference": 7.509957999999983
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Contradictions in Capital Circulation—Where Tensions Arise",
+          "expectedStart": 1217.01,
+          "expectedEnd": 1430.39,
+          "actualStart": 1226.017041,
+          "actualEnd": 1439.3973740000001,
+          "timeDifference": 9.007041000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Credit—Greasing the Wheels and Raising the Stakes",
+          "expectedStart": 1430.39,
+          "expectedEnd": 1580.98,
+          "actualStart": 1440.8973740000001,
+          "actualEnd": 1591.4908320000002,
+          "timeDifference": 10.507374000000027
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Money’s Double Role—Medium of Exchange and Store of Value",
+          "expectedStart": 1580.98,
+          "expectedEnd": 1753.53,
+          "actualStart": 1592.9908320000002,
+          "actualEnd": 1765.5408320000001,
+          "timeDifference": 12.010832000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Crisis and Renewal—How Disruptions Shape the System",
+          "expectedStart": 1753.53,
+          "expectedEnd": 1937.24,
+          "actualStart": 1767.0408320000001,
+          "actualEnd": 1950.755249,
+          "timeDifference": 13.510832000000164
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Capital Circulation—Adapting to Change",
+          "expectedStart": 1937.24,
+          "expectedEnd": 2101.35,
+          "actualStart": 1952.255249,
+          "actualEnd": 2116.366541,
+          "timeDifference": 15.01524900000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2101.35,
+          "expectedEnd": 2224.7,
+          "actualStart": 2117.866541,
+          "actualEnd": 2241.218791,
+          "timeDifference": 16.51654099999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.94625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Journey of Capital in a Modern Economy"
+        },
+        {
+          "startTime": 337.061125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Journey of Capital in a Modern Economy and Chapter 2 The Three Circuits of Capital and Their Interdependence"
+        },
+        {
+          "startTime": 544.893458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Three Circuits of Capital and Their Interdependence and Chapter 3 The Importance of Turnover Time and the Pace of Capital Movement"
+        },
+        {
+          "startTime": 765.9874159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Importance of Turnover Time and the Pace of Capital Movement and Chapter 4 Simple and Expanded Reproduction—How Economies Sustain and Grow"
+        },
+        {
+          "startTime": 1010.9299579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Simple and Expanded Reproduction—How Economies Sustain and Grow and Chapter 5 The Social Web of Capital—Interdependence and Systemic Effects"
+        },
+        {
+          "startTime": 1224.517041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Social Web of Capital—Interdependence and Systemic Effects and Chapter 6 Contradictions in Capital Circulation—Where Tensions Arise"
+        },
+        {
+          "startTime": 1439.3973740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Contradictions in Capital Circulation—Where Tensions Arise and Chapter 7 The Role of Credit—Greasing the Wheels and Raising the Stakes"
+        },
+        {
+          "startTime": 1591.4908320000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Credit—Greasing the Wheels and Raising the Stakes and Chapter 8 Money’s Double Role—Medium of Exchange and Store of Value"
+        },
+        {
+          "startTime": 1765.5408320000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Money’s Double Role—Medium of Exchange and Store of Value and Chapter 9 Crisis and Renewal—How Disruptions Shape the System"
+        },
+        {
+          "startTime": 1950.755249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Crisis and Renewal—How Disruptions Shape the System and Chapter 10 The Future of Capital Circulation—Adapting to Change"
+        },
+        {
+          "startTime": 2116.366541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Capital Circulation—Adapting to Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2366",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:29:51.428Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

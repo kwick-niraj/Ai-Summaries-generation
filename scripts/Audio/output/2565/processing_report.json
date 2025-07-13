@@ -1,0 +1,432 @@
+{
+  "bookId": "2565",
+  "timestamp": "2025-07-11T06:23:32.939Z",
+  "success": false,
+  "processingTime": -1752214746202,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4574,
+    "totalAudioFiles": 11,
+    "totalDuration": 2173.534416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2173.534416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2565/optimized_text/2565.md",
+    "fileSize": 620,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2565.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2565/metadata/2565_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2173.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2565/metadata/2565_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2565/metadata/2565_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2565/2565_complete.wav",
+    "duration": 2173.534417,
+    "fileSize": 104329730,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2565/introduction.wav",
+          "duration": 86.863708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.863708,
+          "startTime": 0,
+          "endTime": 86.863708
+        },
+        {
+          "path": "Audio/output/2565/chapter_01.wav",
+          "duration": 263.67125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Marginal Note That Changed Everything",
+          "actualDuration": 263.67125,
+          "startTime": 88.363708,
+          "endTime": 352.03495799999996
+        },
+        {
+          "path": "Audio/output/2565/chapter_02.wav",
+          "duration": 258.507875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Growth of Number Theory and the Power of Collaboration",
+          "actualDuration": 258.507875,
+          "startTime": 353.53495799999996,
+          "endTime": 612.042833
+        },
+        {
+          "path": "Audio/output/2565/chapter_03.wav",
+          "duration": 272.388792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Modern Era: New Tools, New Hope",
+          "actualDuration": 272.388792,
+          "startTime": 613.542833,
+          "endTime": 885.9316249999999
+        },
+        {
+          "path": "Audio/output/2565/chapter_04.wav",
+          "duration": 264.801625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Andrew Wiles: A Life Shaped by a Dream",
+          "actualDuration": 264.801625,
+          "startTime": 887.4316249999999,
+          "endTime": 1152.23325
+        },
+        {
+          "path": "Audio/output/2565/chapter_05.wav",
+          "duration": 205.45475,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Nature of Proof and the Human Side of Mathematics",
+          "actualDuration": 205.45475,
+          "startTime": 1153.73325,
+          "endTime": 1359.188
+        },
+        {
+          "path": "Audio/output/2565/chapter_06.wav",
+          "duration": 224.178083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath: Ripples Through the Mathematical World",
+          "actualDuration": 224.178083,
+          "startTime": 1360.688,
+          "endTime": 1584.8660830000001
+        },
+        {
+          "path": "Audio/output/2565/chapter_07.wav",
+          "duration": 182.918458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Broader Legacy: New Questions, New Frontiers",
+          "actualDuration": 182.918458,
+          "startTime": 1586.3660830000001,
+          "endTime": 1769.284541
+        },
+        {
+          "path": "Audio/output/2565/chapter_08.wav",
+          "duration": 145.767583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mathematics and the Human Spirit: Lessons Beyond Numbers",
+          "actualDuration": 145.767583,
+          "startTime": 1770.784541,
+          "endTime": 1916.552124
+        },
+        {
+          "path": "Audio/output/2565/chapter_09.wav",
+          "duration": 145.826375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey: Inspiration for Future Generations",
+          "actualDuration": 145.826375,
+          "startTime": 1918.052124,
+          "endTime": 2063.878499
+        },
+        {
+          "path": "Audio/output/2565/conclusion.wav",
+          "duration": 123.155917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.155917,
+          "startTime": 2065.378499,
+          "endTime": 2188.534416
+        }
+      ],
+      "totalDuration": 2188.534416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.86,
+          "actualStart": 0,
+          "actualEnd": 86.863708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Marginal Note That Changed Everything",
+          "expectedStart": 86.86,
+          "expectedEnd": 350.53,
+          "actualStart": 88.363708,
+          "actualEnd": 352.03495799999996,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Growth of Number Theory and the Power of Collaboration",
+          "expectedStart": 350.53,
+          "expectedEnd": 609.04,
+          "actualStart": 353.53495799999996,
+          "actualEnd": 612.042833,
+          "timeDifference": 3.004957999999988
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Modern Era: New Tools, New Hope",
+          "expectedStart": 609.04,
+          "expectedEnd": 881.43,
+          "actualStart": 613.542833,
+          "actualEnd": 885.9316249999999,
+          "timeDifference": 4.50283300000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Andrew Wiles: A Life Shaped by a Dream",
+          "expectedStart": 881.43,
+          "expectedEnd": 1146.23,
+          "actualStart": 887.4316249999999,
+          "actualEnd": 1152.23325,
+          "timeDifference": 6.00162499999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Nature of Proof and the Human Side of Mathematics",
+          "expectedStart": 1146.23,
+          "expectedEnd": 1351.68,
+          "actualStart": 1153.73325,
+          "actualEnd": 1359.188,
+          "timeDifference": 7.50324999999998
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath: Ripples Through the Mathematical World",
+          "expectedStart": 1351.68,
+          "expectedEnd": 1575.86,
+          "actualStart": 1360.688,
+          "actualEnd": 1584.8660830000001,
+          "timeDifference": 9.008000000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Broader Legacy: New Questions, New Frontiers",
+          "expectedStart": 1575.86,
+          "expectedEnd": 1758.78,
+          "actualStart": 1586.3660830000001,
+          "actualEnd": 1769.284541,
+          "timeDifference": 10.506083000000217
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mathematics and the Human Spirit: Lessons Beyond Numbers",
+          "expectedStart": 1758.78,
+          "expectedEnd": 1904.55,
+          "actualStart": 1770.784541,
+          "actualEnd": 1916.552124,
+          "timeDifference": 12.004541000000017
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey: Inspiration for Future Generations",
+          "expectedStart": 1904.55,
+          "expectedEnd": 2050.38,
+          "actualStart": 1918.052124,
+          "actualEnd": 2063.878499,
+          "timeDifference": 13.502124000000094
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2050.38,
+          "expectedEnd": 2173.54,
+          "actualStart": 2065.378499,
+          "actualEnd": 2188.534416,
+          "timeDifference": 14.99849899999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.863708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Marginal Note That Changed Everything"
+        },
+        {
+          "startTime": 352.03495799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Marginal Note That Changed Everything and Chapter 2 The Growth of Number Theory and the Power of Collaboration"
+        },
+        {
+          "startTime": 612.042833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Growth of Number Theory and the Power of Collaboration and Chapter 3 The Modern Era: New Tools, New Hope"
+        },
+        {
+          "startTime": 885.9316249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Modern Era: New Tools, New Hope and Chapter 4 Andrew Wiles: A Life Shaped by a Dream"
+        },
+        {
+          "startTime": 1152.23325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Andrew Wiles: A Life Shaped by a Dream and Chapter 5 The Nature of Proof and the Human Side of Mathematics"
+        },
+        {
+          "startTime": 1359.188,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Nature of Proof and the Human Side of Mathematics and Chapter 6 The Aftermath: Ripples Through the Mathematical World"
+        },
+        {
+          "startTime": 1584.8660830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath: Ripples Through the Mathematical World and Chapter 7 The Broader Legacy: New Questions, New Frontiers"
+        },
+        {
+          "startTime": 1769.284541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Broader Legacy: New Questions, New Frontiers and Chapter 8 Mathematics and the Human Spirit: Lessons Beyond Numbers"
+        },
+        {
+          "startTime": 1916.552124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mathematics and the Human Spirit: Lessons Beyond Numbers and Chapter 9 The Ongoing Journey: Inspiration for Future Generations"
+        },
+        {
+          "startTime": 2063.878499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey: Inspiration for Future Generations and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2565",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:19:07.972Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

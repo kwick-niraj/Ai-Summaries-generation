@@ -1,0 +1,455 @@
+{
+  "bookId": "2505",
+  "timestamp": "2025-07-11T02:15:03.140Z",
+  "success": false,
+  "processingTime": -1752199748271,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4175,
+    "totalAudioFiles": 12,
+    "totalDuration": 1819.0209590000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1819.0209590000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2505/optimized_text/2505.md",
+    "fileSize": 794,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2505.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2505/metadata/2505_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1819.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2505/metadata/2505_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2505/metadata/2505_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2505/2505_complete.wav",
+    "duration": 1819.020958,
+    "fileSize": 87313084,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2505/introduction.wav",
+          "duration": 80.004792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.004792,
+          "startTime": 0,
+          "endTime": 80.004792
+        },
+        {
+          "path": "Audio/output/2505/chapter_01.wav",
+          "duration": 188.041208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Drawing: Skill, Perception, and the Brain",
+          "actualDuration": 188.041208,
+          "startTime": 81.504792,
+          "endTime": 269.546
+        },
+        {
+          "path": "Audio/output/2505/chapter_02.wav",
+          "duration": 201.988667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Five Core Skills of Drawing: Foundations for Seeing",
+          "actualDuration": 201.988667,
+          "startTime": 271.046,
+          "endTime": 473.034667
+        },
+        {
+          "path": "Audio/output/2505/chapter_03.wav",
+          "duration": 202.346792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shifting to the Perceptual Mind: Overcoming Barriers and Engaging Creativity",
+          "actualDuration": 202.346792,
+          "startTime": 474.534667,
+          "endTime": 676.881459
+        },
+        {
+          "path": "Audio/output/2505/chapter_04.wav",
+          "duration": 220.39125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Tools and Exercises for Developing Drawing Skills",
+          "actualDuration": 220.39125,
+          "startTime": 678.381459,
+          "endTime": 898.772709
+        },
+        {
+          "path": "Audio/output/2505/chapter_05.wav",
+          "duration": 139.238208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Drawing as a Transformative Experience: Beyond Technique",
+          "actualDuration": 139.238208,
+          "startTime": 900.272709,
+          "endTime": 1039.510917
+        },
+        {
+          "path": "Audio/output/2505/chapter_06.wav",
+          "duration": 160.624833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating the Five Skills: Drawing Complex Subjects",
+          "actualDuration": 160.624833,
+          "startTime": 1041.010917,
+          "endTime": 1201.6357500000001
+        },
+        {
+          "path": "Audio/output/2505/chapter_07.wav",
+          "duration": 148.654792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Portrait Drawing: Seeing and Capturing the Human Face",
+          "actualDuration": 148.654792,
+          "startTime": 1203.1357500000001,
+          "endTime": 1351.7905420000002
+        },
+        {
+          "path": "Audio/output/2505/chapter_08.wav",
+          "duration": 153.0085,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Drawing from Imagination: Bridging Perception and Creativity",
+          "actualDuration": 153.0085,
+          "startTime": 1353.2905420000002,
+          "endTime": 1506.299042
+        },
+        {
+          "path": "Audio/output/2505/chapter_09.wav",
+          "duration": 133.792417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Growth: Practice, Reflection, and Lifelong Learning",
+          "actualDuration": 133.792417,
+          "startTime": 1507.799042,
+          "endTime": 1641.5914590000002
+        },
+        {
+          "path": "Audio/output/2505/chapter_10.wav",
+          "duration": 92.776167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Drawing as a Way of Seeing: Applying Perceptual Skills Beyond Art",
+          "actualDuration": 92.776167,
+          "startTime": 1643.0914590000002,
+          "endTime": 1735.8676260000002
+        },
+        {
+          "path": "Audio/output/2505/conclusion.wav",
+          "duration": 98.153333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.153333,
+          "startTime": 1737.3676260000002,
+          "endTime": 1835.5209590000002
+        }
+      ],
+      "totalDuration": 1835.5209590000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80,
+          "actualStart": 0,
+          "actualEnd": 80.004792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Drawing: Skill, Perception, and the Brain",
+          "expectedStart": 80,
+          "expectedEnd": 268.04,
+          "actualStart": 81.504792,
+          "actualEnd": 269.546,
+          "timeDifference": 1.5047919999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Five Core Skills of Drawing: Foundations for Seeing",
+          "expectedStart": 268.04,
+          "expectedEnd": 470.03,
+          "actualStart": 271.046,
+          "actualEnd": 473.034667,
+          "timeDifference": 3.005999999999972
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shifting to the Perceptual Mind: Overcoming Barriers and Engaging Creativity",
+          "expectedStart": 470.03,
+          "expectedEnd": 672.38,
+          "actualStart": 474.534667,
+          "actualEnd": 676.881459,
+          "timeDifference": 4.50466700000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Tools and Exercises for Developing Drawing Skills",
+          "expectedStart": 672.38,
+          "expectedEnd": 892.77,
+          "actualStart": 678.381459,
+          "actualEnd": 898.772709,
+          "timeDifference": 6.001458999999954
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Drawing as a Transformative Experience: Beyond Technique",
+          "expectedStart": 892.77,
+          "expectedEnd": 1032.01,
+          "actualStart": 900.272709,
+          "actualEnd": 1039.510917,
+          "timeDifference": 7.502708999999982
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating the Five Skills: Drawing Complex Subjects",
+          "expectedStart": 1032.01,
+          "expectedEnd": 1192.63,
+          "actualStart": 1041.010917,
+          "actualEnd": 1201.6357500000001,
+          "timeDifference": 9.000917000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Portrait Drawing: Seeing and Capturing the Human Face",
+          "expectedStart": 1192.63,
+          "expectedEnd": 1341.28,
+          "actualStart": 1203.1357500000001,
+          "actualEnd": 1351.7905420000002,
+          "timeDifference": 10.505750000000035
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Drawing from Imagination: Bridging Perception and Creativity",
+          "expectedStart": 1341.28,
+          "expectedEnd": 1494.29,
+          "actualStart": 1353.2905420000002,
+          "actualEnd": 1506.299042,
+          "timeDifference": 12.010542000000214
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Growth: Practice, Reflection, and Lifelong Learning",
+          "expectedStart": 1494.29,
+          "expectedEnd": 1628.08,
+          "actualStart": 1507.799042,
+          "actualEnd": 1641.5914590000002,
+          "timeDifference": 13.509042000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Drawing as a Way of Seeing: Applying Perceptual Skills Beyond Art",
+          "expectedStart": 1628.08,
+          "expectedEnd": 1720.86,
+          "actualStart": 1643.0914590000002,
+          "actualEnd": 1735.8676260000002,
+          "timeDifference": 15.011459000000286
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1720.86,
+          "expectedEnd": 1819.01,
+          "actualStart": 1737.3676260000002,
+          "actualEnd": 1835.5209590000002,
+          "timeDifference": 16.5076260000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.004792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Drawing: Skill, Perception, and the Brain"
+        },
+        {
+          "startTime": 269.546,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Drawing: Skill, Perception, and the Brain and Chapter 2 The Five Core Skills of Drawing: Foundations for Seeing"
+        },
+        {
+          "startTime": 473.034667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Five Core Skills of Drawing: Foundations for Seeing and Chapter 3 Shifting to the Perceptual Mind: Overcoming Barriers and Engaging Creativity"
+        },
+        {
+          "startTime": 676.881459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shifting to the Perceptual Mind: Overcoming Barriers and Engaging Creativity and Chapter 4 Practical Tools and Exercises for Developing Drawing Skills"
+        },
+        {
+          "startTime": 898.772709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Tools and Exercises for Developing Drawing Skills and Chapter 5 Drawing as a Transformative Experience: Beyond Technique"
+        },
+        {
+          "startTime": 1039.510917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Drawing as a Transformative Experience: Beyond Technique and Chapter 6 Integrating the Five Skills: Drawing Complex Subjects"
+        },
+        {
+          "startTime": 1201.6357500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating the Five Skills: Drawing Complex Subjects and Chapter 7 Portrait Drawing: Seeing and Capturing the Human Face"
+        },
+        {
+          "startTime": 1351.7905420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Portrait Drawing: Seeing and Capturing the Human Face and Chapter 8 Drawing from Imagination: Bridging Perception and Creativity"
+        },
+        {
+          "startTime": 1506.299042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Drawing from Imagination: Bridging Perception and Creativity and Chapter 9 Sustaining Growth: Practice, Reflection, and Lifelong Learning"
+        },
+        {
+          "startTime": 1641.5914590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Growth: Practice, Reflection, and Lifelong Learning and Chapter 10 Drawing as a Way of Seeing: Applying Perceptual Skills Beyond Art"
+        },
+        {
+          "startTime": 1735.8676260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Drawing as a Way of Seeing: Applying Perceptual Skills Beyond Art and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2505",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:09:08.841Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2618",
+  "timestamp": "2025-07-11T08:21:37.742Z",
+  "success": false,
+  "processingTime": -1752221800232,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4173,
+    "totalAudioFiles": 12,
+    "totalDuration": 2046.56221
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2046.56221
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2618/optimized_text/2618.md",
+    "fileSize": 747,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2618.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2618/metadata/2618_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2046.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2618/metadata/2618_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2618/metadata/2618_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2618/2618_complete.wav",
+    "duration": 2046.562208,
+    "fileSize": 98235064,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2618/introduction.wav",
+          "duration": 109.005667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.005667,
+          "startTime": 0,
+          "endTime": 109.005667
+        },
+        {
+          "path": "Audio/output/2618/chapter_01.wav",
+          "duration": 218.929542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Arrival of Artificial Intelligence in Everyday Life",
+          "actualDuration": 218.929542,
+          "startTime": 110.505667,
+          "endTime": 329.435209
+        },
+        {
+          "path": "Audio/output/2618/chapter_02.wav",
+          "duration": 227.104667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How AI Changes What We Know and How We Decide",
+          "actualDuration": 227.104667,
+          "startTime": 330.935209,
+          "endTime": 558.039876
+        },
+        {
+          "path": "Audio/output/2618/chapter_03.wav",
+          "duration": 206.088167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Ethical and Social Dilemmas of Intelligent Machines",
+          "actualDuration": 206.088167,
+          "startTime": 559.539876,
+          "endTime": 765.628043
+        },
+        {
+          "path": "Audio/output/2618/chapter_04.wav",
+          "duration": 164.787208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 AI’s Influence on Power, Security, and Global Order",
+          "actualDuration": 164.787208,
+          "startTime": 767.128043,
+          "endTime": 931.915251
+        },
+        {
+          "path": "Audio/output/2618/chapter_05.wav",
+          "duration": 170.360375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Preserving Human Agency and Values in an AI World",
+          "actualDuration": 170.360375,
+          "startTime": 933.415251,
+          "endTime": 1103.775626
+        },
+        {
+          "path": "Audio/output/2618/chapter_06.wav",
+          "duration": 175.878042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Responsibility in the Age of Intelligent Machines",
+          "actualDuration": 175.878042,
+          "startTime": 1105.275626,
+          "endTime": 1281.1536680000002
+        },
+        {
+          "path": "Audio/output/2618/chapter_07.wav",
+          "duration": 160.2515,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Governing the Unpredictable—AI and the Challenge of Regulation",
+          "actualDuration": 160.2515,
+          "startTime": 1282.6536680000002,
+          "endTime": 1442.9051680000002
+        },
+        {
+          "path": "Audio/output/2618/chapter_08.wav",
+          "duration": 155.125833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human-Machine Partnership—Redefining Work and Purpose",
+          "actualDuration": 155.125833,
+          "startTime": 1444.4051680000002,
+          "endTime": 1599.5310010000003
+        },
+        {
+          "path": "Audio/output/2618/chapter_09.wav",
+          "duration": 174.851542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Education for an AI World—Learning to Thrive, Not Just Survive",
+          "actualDuration": 174.851542,
+          "startTime": 1601.0310010000003,
+          "endTime": 1775.8825430000002
+        },
+        {
+          "path": "Audio/output/2618/chapter_10.wav",
+          "duration": 145.9295,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Path Forward—Building a Shared Future with AI",
+          "actualDuration": 145.9295,
+          "startTime": 1777.3825430000002,
+          "endTime": 1923.3120430000001
+        },
+        {
+          "path": "Audio/output/2618/conclusion.wav",
+          "duration": 138.250167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.250167,
+          "startTime": 1924.8120430000001,
+          "endTime": 2063.06221
+        }
+      ],
+      "totalDuration": 2063.06221,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.01,
+          "actualStart": 0,
+          "actualEnd": 109.005667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Arrival of Artificial Intelligence in Everyday Life",
+          "expectedStart": 109.01,
+          "expectedEnd": 327.94,
+          "actualStart": 110.505667,
+          "actualEnd": 329.435209,
+          "timeDifference": 1.4956669999999974
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How AI Changes What We Know and How We Decide",
+          "expectedStart": 327.94,
+          "expectedEnd": 555.04,
+          "actualStart": 330.935209,
+          "actualEnd": 558.039876,
+          "timeDifference": 2.9952089999999885
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Ethical and Social Dilemmas of Intelligent Machines",
+          "expectedStart": 555.04,
+          "expectedEnd": 761.13,
+          "actualStart": 559.539876,
+          "actualEnd": 765.628043,
+          "timeDifference": 4.499876000000086
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 AI’s Influence on Power, Security, and Global Order",
+          "expectedStart": 761.13,
+          "expectedEnd": 925.92,
+          "actualStart": 767.128043,
+          "actualEnd": 931.915251,
+          "timeDifference": 5.998043000000052
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Preserving Human Agency and Values in an AI World",
+          "expectedStart": 925.92,
+          "expectedEnd": 1096.28,
+          "actualStart": 933.415251,
+          "actualEnd": 1103.775626,
+          "timeDifference": 7.495251000000053
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Responsibility in the Age of Intelligent Machines",
+          "expectedStart": 1096.28,
+          "expectedEnd": 1272.16,
+          "actualStart": 1105.275626,
+          "actualEnd": 1281.1536680000002,
+          "timeDifference": 8.99562600000013
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Governing the Unpredictable—AI and the Challenge of Regulation",
+          "expectedStart": 1272.16,
+          "expectedEnd": 1432.41,
+          "actualStart": 1282.6536680000002,
+          "actualEnd": 1442.9051680000002,
+          "timeDifference": 10.49366800000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human-Machine Partnership—Redefining Work and Purpose",
+          "expectedStart": 1432.41,
+          "expectedEnd": 1587.54,
+          "actualStart": 1444.4051680000002,
+          "actualEnd": 1599.5310010000003,
+          "timeDifference": 11.995168000000149
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Education for an AI World—Learning to Thrive, Not Just Survive",
+          "expectedStart": 1587.54,
+          "expectedEnd": 1762.39,
+          "actualStart": 1601.0310010000003,
+          "actualEnd": 1775.8825430000002,
+          "timeDifference": 13.491001000000324
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Path Forward—Building a Shared Future with AI",
+          "expectedStart": 1762.39,
+          "expectedEnd": 1908.32,
+          "actualStart": 1777.3825430000002,
+          "actualEnd": 1923.3120430000001,
+          "timeDifference": 14.992543000000069
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1908.32,
+          "expectedEnd": 2046.57,
+          "actualStart": 1924.8120430000001,
+          "actualEnd": 2063.06221,
+          "timeDifference": 16.492043000000194
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.005667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Arrival of Artificial Intelligence in Everyday Life"
+        },
+        {
+          "startTime": 329.435209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Arrival of Artificial Intelligence in Everyday Life and Chapter 2 How AI Changes What We Know and How We Decide"
+        },
+        {
+          "startTime": 558.039876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How AI Changes What We Know and How We Decide and Chapter 3 The Ethical and Social Dilemmas of Intelligent Machines"
+        },
+        {
+          "startTime": 765.628043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Ethical and Social Dilemmas of Intelligent Machines and Chapter 4 AI’s Influence on Power, Security, and Global Order"
+        },
+        {
+          "startTime": 931.915251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 AI’s Influence on Power, Security, and Global Order and Chapter 5 Preserving Human Agency and Values in an AI World"
+        },
+        {
+          "startTime": 1103.775626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Preserving Human Agency and Values in an AI World and Chapter 6 Responsibility in the Age of Intelligent Machines"
+        },
+        {
+          "startTime": 1281.1536680000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Responsibility in the Age of Intelligent Machines and Chapter 7 Governing the Unpredictable—AI and the Challenge of Regulation"
+        },
+        {
+          "startTime": 1442.9051680000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Governing the Unpredictable—AI and the Challenge of Regulation and Chapter 8 The Human-Machine Partnership—Redefining Work and Purpose"
+        },
+        {
+          "startTime": 1599.5310010000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human-Machine Partnership—Redefining Work and Purpose and Chapter 9 Education for an AI World—Learning to Thrive, Not Just Survive"
+        },
+        {
+          "startTime": 1775.8825430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Education for an AI World—Learning to Thrive, Not Just Survive and Chapter 10 The Path Forward—Building a Shared Future with AI"
+        },
+        {
+          "startTime": 1923.3120430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Path Forward—Building a Shared Future with AI and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2618",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:16:41.769Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

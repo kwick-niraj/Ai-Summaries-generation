@@ -1,0 +1,432 @@
+{
+  "bookId": "2617",
+  "timestamp": "2025-07-11T08:16:39.228Z",
+  "success": false,
+  "processingTime": -1752221411949,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5436,
+    "totalAudioFiles": 12,
+    "totalDuration": 2130.55125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2130.55125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2617/optimized_text/2617.md",
+    "fileSize": 742,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2617.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2617/metadata/2617_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2130.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2617/metadata/2617_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2617/metadata/2617_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2617/2617_complete.wav",
+    "duration": 2130.55125,
+    "fileSize": 102266538,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2617/introduction.wav",
+          "duration": 95.841083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.841083,
+          "startTime": 0,
+          "endTime": 95.841083
+        },
+        {
+          "path": "Audio/output/2617/chapter_01.wav",
+          "duration": 245.844417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood Interrupted by War and the Loss of Home",
+          "actualDuration": 245.844417,
+          "startTime": 97.341083,
+          "endTime": 343.1855
+        },
+        {
+          "path": "Audio/output/2617/chapter_03.wav",
+          "duration": 221.777208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Psychological Toll and the Struggle to Hold Onto Humanity",
+          "actualDuration": 221.777208,
+          "startTime": 344.6855,
+          "endTime": 566.462708
+        },
+        {
+          "path": "Audio/output/2617/chapter_04.wav",
+          "duration": 242.631708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Road to Rehabilitation and the Challenge of Trust",
+          "actualDuration": 242.631708,
+          "startTime": 567.962708,
+          "endTime": 810.594416
+        },
+        {
+          "path": "Audio/output/2617/chapter_05.wav",
+          "duration": 209.818417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Hope, and the Search for a New Beginning",
+          "actualDuration": 209.818417,
+          "startTime": 812.094416,
+          "endTime": 1021.9128330000001
+        },
+        {
+          "path": "Audio/output/2617/chapter_06.wav",
+          "duration": 214.56025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow of Trauma and the Struggle for Normalcy",
+          "actualDuration": 214.56025,
+          "startTime": 1023.4128330000001,
+          "endTime": 1237.973083
+        },
+        {
+          "path": "Audio/output/2617/chapter_07.wav",
+          "duration": 201.03025,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Storytelling and the Burden of Bearing Witness",
+          "actualDuration": 201.03025,
+          "startTime": 1239.473083,
+          "endTime": 1440.503333
+        },
+        {
+          "path": "Audio/output/2617/chapter_08.wav",
+          "duration": 191.2685,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Compassion and the Importance of Community",
+          "actualDuration": 191.2685,
+          "startTime": 1442.003333,
+          "endTime": 1633.271833
+        },
+        {
+          "path": "Audio/output/2617/chapter_09.wav",
+          "duration": 187.113417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the World: Advocacy, Education, and the Fight for Change",
+          "actualDuration": 187.113417,
+          "startTime": 1634.771833,
+          "endTime": 1821.88525
+        },
+        {
+          "path": "Audio/output/2617/chapter_10.wav",
+          "duration": 184.393958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reconciliation, Forgiveness, and the Ongoing Journey",
+          "actualDuration": 184.393958,
+          "startTime": 1823.38525,
+          "endTime": 2007.779208
+        },
+        {
+          "path": "Audio/output/2617/conclusion.wav",
+          "duration": 136.272042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.272042,
+          "startTime": 2009.279208,
+          "endTime": 2145.55125
+        }
+      ],
+      "totalDuration": 2145.55125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.84,
+          "actualStart": 0,
+          "actualEnd": 95.841083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood Interrupted by War and the Loss of Home",
+          "expectedStart": 95.84,
+          "expectedEnd": 341.68,
+          "actualStart": 97.341083,
+          "actualEnd": 343.1855,
+          "timeDifference": 1.5010829999999942
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Psychological Toll and the Struggle to Hold Onto Humanity",
+          "expectedStart": 341.68,
+          "expectedEnd": 563.46,
+          "actualStart": 344.6855,
+          "actualEnd": 566.462708,
+          "timeDifference": 3.0054999999999836
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Road to Rehabilitation and the Challenge of Trust",
+          "expectedStart": 563.46,
+          "expectedEnd": 806.09,
+          "actualStart": 567.962708,
+          "actualEnd": 810.594416,
+          "timeDifference": 4.502707999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Hope, and the Search for a New Beginning",
+          "expectedStart": 806.09,
+          "expectedEnd": 1015.91,
+          "actualStart": 812.094416,
+          "actualEnd": 1021.9128330000001,
+          "timeDifference": 6.004415999999992
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow of Trauma and the Struggle for Normalcy",
+          "expectedStart": 1015.91,
+          "expectedEnd": 1230.47,
+          "actualStart": 1023.4128330000001,
+          "actualEnd": 1237.973083,
+          "timeDifference": 7.502833000000123
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Storytelling and the Burden of Bearing Witness",
+          "expectedStart": 1230.47,
+          "expectedEnd": 1431.5,
+          "actualStart": 1239.473083,
+          "actualEnd": 1440.503333,
+          "timeDifference": 9.00308300000006
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Compassion and the Importance of Community",
+          "expectedStart": 1431.5,
+          "expectedEnd": 1622.77,
+          "actualStart": 1442.003333,
+          "actualEnd": 1633.271833,
+          "timeDifference": 10.503333000000111
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the World: Advocacy, Education, and the Fight for Change",
+          "expectedStart": 1622.77,
+          "expectedEnd": 1809.88,
+          "actualStart": 1634.771833,
+          "actualEnd": 1821.88525,
+          "timeDifference": 12.001833000000033
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reconciliation, Forgiveness, and the Ongoing Journey",
+          "expectedStart": 1809.88,
+          "expectedEnd": 1994.27,
+          "actualStart": 1823.38525,
+          "actualEnd": 2007.779208,
+          "timeDifference": 13.505249999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1994.27,
+          "expectedEnd": 2130.54,
+          "actualStart": 2009.279208,
+          "actualEnd": 2145.55125,
+          "timeDifference": 15.009207999999944
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.841083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood Interrupted by War and the Loss of Home"
+        },
+        {
+          "startTime": 343.1855,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood Interrupted by War and the Loss of Home and Chapter 3 The Psychological Toll and the Struggle to Hold Onto Humanity"
+        },
+        {
+          "startTime": 566.462708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Psychological Toll and the Struggle to Hold Onto Humanity and Chapter 4 The Road to Rehabilitation and the Challenge of Trust"
+        },
+        {
+          "startTime": 810.594416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Road to Rehabilitation and the Challenge of Trust and Chapter 5 Memory, Hope, and the Search for a New Beginning"
+        },
+        {
+          "startTime": 1021.9128330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Hope, and the Search for a New Beginning and Chapter 6 The Long Shadow of Trauma and the Struggle for Normalcy"
+        },
+        {
+          "startTime": 1237.973083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow of Trauma and the Struggle for Normalcy and Chapter 7 The Power of Storytelling and the Burden of Bearing Witness"
+        },
+        {
+          "startTime": 1440.503333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Storytelling and the Burden of Bearing Witness and Chapter 8 The Role of Compassion and the Importance of Community"
+        },
+        {
+          "startTime": 1633.271833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Compassion and the Importance of Community and Chapter 9 Facing the World: Advocacy, Education, and the Fight for Change"
+        },
+        {
+          "startTime": 1821.88525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the World: Advocacy, Education, and the Fight for Change and Chapter 10 Reconciliation, Forgiveness, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2007.779208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reconciliation, Forgiveness, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2617",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:10:13.485Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

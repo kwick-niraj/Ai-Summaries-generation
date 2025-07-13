@@ -1,0 +1,456 @@
+{
+  "bookId": "2443",
+  "timestamp": "2025-07-10T22:54:58.391Z",
+  "success": false,
+  "processingTime": -1752187822274,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4054,
+    "totalAudioFiles": 12,
+    "totalDuration": 1868.832126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1868.832126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2443/optimized_text/2443.md",
+    "fileSize": 559,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2443.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2443/metadata/2443_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1868.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2443/metadata/2443_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2443/metadata/2443_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2443/2443_complete.wav",
+    "duration": 1868.832125,
+    "fileSize": 89704020,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2443/introduction.wav",
+          "duration": 87.994583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.994583,
+          "startTime": 0,
+          "endTime": 87.994583
+        },
+        {
+          "path": "Audio/output/2443/chapter_01.wav",
+          "duration": 175.778792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Self in Everyday Life",
+          "actualDuration": 175.778792,
+          "startTime": 89.494583,
+          "endTime": 265.273375
+        },
+        {
+          "path": "Audio/output/2443/chapter_02.wav",
+          "duration": 173.596333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing the Body and the Senses",
+          "actualDuration": 173.596333,
+          "startTime": 266.773375,
+          "endTime": 440.36970799999995
+        },
+        {
+          "path": "Audio/output/2443/chapter_03.wav",
+          "duration": 191.413833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Unity with Nature and Others",
+          "actualDuration": 191.413833,
+          "startTime": 441.86970799999995,
+          "endTime": 633.283541
+        },
+        {
+          "path": "Audio/output/2443/chapter_04.wav",
+          "duration": 195.208917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Equality, Democracy, and the Value of Every Person",
+          "actualDuration": 195.208917,
+          "startTime": 634.783541,
+          "endTime": 829.992458
+        },
+        {
+          "path": "Audio/output/2443/chapter_05.wav",
+          "duration": 159.085917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Spirituality in Ordinary Experience",
+          "actualDuration": 159.085917,
+          "startTime": 831.492458,
+          "endTime": 990.578375
+        },
+        {
+          "path": "Audio/output/2443/chapter_06.wav",
+          "duration": 161.575083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Celebrating Life in Its Fullness",
+          "actualDuration": 161.575083,
+          "startTime": 992.078375,
+          "endTime": 1153.653458
+        },
+        {
+          "path": "Audio/output/2443/chapter_07.wav",
+          "duration": 136.468042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Courage to Break from Convention",
+          "actualDuration": 136.468042,
+          "startTime": 1155.153458,
+          "endTime": 1291.6215
+        },
+        {
+          "path": "Audio/output/2443/chapter_08.wav",
+          "duration": 142.853625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Death, Loss, and the Mystery of Continuity",
+          "actualDuration": 142.853625,
+          "startTime": 1293.1215,
+          "endTime": 1435.975125
+        },
+        {
+          "path": "Audio/output/2443/chapter_09.wav",
+          "duration": 153.239792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Invitation to Belong",
+          "actualDuration": 153.239792,
+          "startTime": 1437.475125,
+          "endTime": 1590.714917
+        },
+        {
+          "path": "Audio/output/2443/chapter_10.wav",
+          "duration": 151.316417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Openness and Wonder",
+          "actualDuration": 151.316417,
+          "startTime": 1592.214917,
+          "endTime": 1743.531334
+        },
+        {
+          "path": "Audio/output/2443/conclusion.wav",
+          "duration": 140.300792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.300792,
+          "startTime": 1745.031334,
+          "endTime": 1885.332126
+        }
+      ],
+      "totalDuration": 1885.332126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.99,
+          "actualStart": 0,
+          "actualEnd": 87.994583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Self in Everyday Life",
+          "expectedStart": 87.99,
+          "expectedEnd": 263.77,
+          "actualStart": 89.494583,
+          "actualEnd": 265.273375,
+          "timeDifference": 1.5045830000000109
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing the Body and the Senses",
+          "expectedStart": 263.77,
+          "expectedEnd": 437.37,
+          "actualStart": 266.773375,
+          "actualEnd": 440.36970799999995,
+          "timeDifference": 3.0033750000000055
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Unity with Nature and Others",
+          "expectedStart": 437.37,
+          "expectedEnd": 628.78,
+          "actualStart": 441.86970799999995,
+          "actualEnd": 633.283541,
+          "timeDifference": 4.499707999999941
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Equality, Democracy, and the Value of Every Person",
+          "expectedStart": 628.78,
+          "expectedEnd": 823.99,
+          "actualStart": 634.783541,
+          "actualEnd": 829.992458,
+          "timeDifference": 6.003541000000041
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Spirituality in Ordinary Experience",
+          "expectedStart": 823.99,
+          "expectedEnd": 983.08,
+          "actualStart": 831.492458,
+          "actualEnd": 990.578375,
+          "timeDifference": 7.502458000000047
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Celebrating Life in Its Fullness",
+          "expectedStart": 983.08,
+          "expectedEnd": 1144.66,
+          "actualStart": 992.078375,
+          "actualEnd": 1153.653458,
+          "timeDifference": 8.99837500000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Courage to Break from Convention",
+          "expectedStart": 1144.66,
+          "expectedEnd": 1281.13,
+          "actualStart": 1155.153458,
+          "actualEnd": 1291.6215,
+          "timeDifference": 10.493457999999919
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Death, Loss, and the Mystery of Continuity",
+          "expectedStart": 1281.13,
+          "expectedEnd": 1423.98,
+          "actualStart": 1293.1215,
+          "actualEnd": 1435.975125,
+          "timeDifference": 11.99149999999986
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Invitation to Belong",
+          "expectedStart": 1423.98,
+          "expectedEnd": 1577.22,
+          "actualStart": 1437.475125,
+          "actualEnd": 1590.714917,
+          "timeDifference": 13.495124999999916
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Openness and Wonder",
+          "expectedStart": 1577.22,
+          "expectedEnd": 1728.54,
+          "actualStart": 1592.214917,
+          "actualEnd": 1743.531334,
+          "timeDifference": 14.994916999999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1728.54,
+          "expectedEnd": 1868.84,
+          "actualStart": 1745.031334,
+          "actualEnd": 1885.332126,
+          "timeDifference": 16.49133400000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.994583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Self in Everyday Life"
+        },
+        {
+          "startTime": 265.273375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Self in Everyday Life and Chapter 2 Embracing the Body and the Senses"
+        },
+        {
+          "startTime": 440.36970799999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing the Body and the Senses and Chapter 3 Finding Unity with Nature and Others"
+        },
+        {
+          "startTime": 633.283541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Unity with Nature and Others and Chapter 4 Equality, Democracy, and the Value of Every Person"
+        },
+        {
+          "startTime": 829.992458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Equality, Democracy, and the Value of Every Person and Chapter 5 Spirituality in Ordinary Experience"
+        },
+        {
+          "startTime": 990.578375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Spirituality in Ordinary Experience and Chapter 6 Celebrating Life in Its Fullness"
+        },
+        {
+          "startTime": 1153.653458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Celebrating Life in Its Fullness and Chapter 7 The Courage to Break from Convention"
+        },
+        {
+          "startTime": 1291.6215,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Courage to Break from Convention and Chapter 8 Death, Loss, and the Mystery of Continuity"
+        },
+        {
+          "startTime": 1435.975125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Death, Loss, and the Mystery of Continuity and Chapter 9 The Invitation to Belong"
+        },
+        {
+          "startTime": 1590.714917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Invitation to Belong and Chapter 10 Living with Openness and Wonder"
+        },
+        {
+          "startTime": 1743.531334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Openness and Wonder and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2443",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:50:23.484Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

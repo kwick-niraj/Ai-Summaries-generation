@@ -1,0 +1,455 @@
+{
+  "bookId": "2387",
+  "timestamp": "2025-07-10T20:06:55.306Z",
+  "success": false,
+  "processingTime": -1752177767814,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4188,
+    "totalAudioFiles": 12,
+    "totalDuration": 1782.1803330000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1782.1803330000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2387/optimized_text/2387.md",
+    "fileSize": 693,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2387.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2387/metadata/2387_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1782.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2387/metadata/2387_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2387/metadata/2387_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2387/2387_complete.wav",
+    "duration": 1782.180333,
+    "fileSize": 85544734,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2387/introduction.wav",
+          "duration": 89.617042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.617042,
+          "startTime": 0,
+          "endTime": 89.617042
+        },
+        {
+          "path": "Audio/output/2387/chapter_01.wav",
+          "duration": 193.082167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in the Spotlight and Learning to Stand Alone",
+          "actualDuration": 193.082167,
+          "startTime": 91.117042,
+          "endTime": 284.199209
+        },
+        {
+          "path": "Audio/output/2387/chapter_02.wav",
+          "duration": 180.992083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Adversity and Finding the Will to Rebuild",
+          "actualDuration": 180.992083,
+          "startTime": 285.699209,
+          "endTime": 466.691292
+        },
+        {
+          "path": "Audio/output/2387/chapter_03.wav",
+          "duration": 162.469583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Redefining Family and the Power of Chosen Connections",
+          "actualDuration": 162.469583,
+          "startTime": 468.191292,
+          "endTime": 630.660875
+        },
+        {
+          "path": "Audio/output/2387/chapter_04.wav",
+          "duration": 131.819292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Independence and Forging a Unique Path",
+          "actualDuration": 131.819292,
+          "startTime": 632.160875,
+          "endTime": 763.980167
+        },
+        {
+          "path": "Audio/output/2387/chapter_05.wav",
+          "duration": 127.057958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Gratitude, Optimism, and the Art of Moving Forward",
+          "actualDuration": 127.057958,
+          "startTime": 765.480167,
+          "endTime": 892.538125
+        },
+        {
+          "path": "Audio/output/2387/chapter_06.wav",
+          "duration": 156.621083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Creativity as Survival and Self-Expression",
+          "actualDuration": 156.621083,
+          "startTime": 894.038125,
+          "endTime": 1050.659208
+        },
+        {
+          "path": "Audio/output/2387/chapter_07.wav",
+          "duration": 174.108667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Motherhood—A New Chapter of Vulnerability and Strength",
+          "actualDuration": 174.108667,
+          "startTime": 1052.159208,
+          "endTime": 1226.267875
+        },
+        {
+          "path": "Audio/output/2387/chapter_08.wav",
+          "duration": 163.108917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing Old Wounds and Making Peace with the Past",
+          "actualDuration": 163.108917,
+          "startTime": 1227.767875,
+          "endTime": 1390.876792
+        },
+        {
+          "path": "Audio/output/2387/chapter_09.wav",
+          "duration": 140.259583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Dance of Identity and Reinvention",
+          "actualDuration": 140.259583,
+          "startTime": 1392.376792,
+          "endTime": 1532.636375
+        },
+        {
+          "path": "Audio/output/2387/chapter_10.wav",
+          "duration": 130.589208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Letting Go, and the Wisdom of Enough",
+          "actualDuration": 130.589208,
+          "startTime": 1534.136375,
+          "endTime": 1664.7255830000001
+        },
+        {
+          "path": "Audio/output/2387/conclusion.wav",
+          "duration": 132.45475,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.45475,
+          "startTime": 1666.2255830000001,
+          "endTime": 1798.6803330000002
+        }
+      ],
+      "totalDuration": 1798.6803330000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.62,
+          "actualStart": 0,
+          "actualEnd": 89.617042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in the Spotlight and Learning to Stand Alone",
+          "expectedStart": 89.62,
+          "expectedEnd": 282.7,
+          "actualStart": 91.117042,
+          "actualEnd": 284.199209,
+          "timeDifference": 1.4970419999999933
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Adversity and Finding the Will to Rebuild",
+          "expectedStart": 282.7,
+          "expectedEnd": 463.69,
+          "actualStart": 285.699209,
+          "actualEnd": 466.691292,
+          "timeDifference": 2.9992090000000076
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Redefining Family and the Power of Chosen Connections",
+          "expectedStart": 463.69,
+          "expectedEnd": 626.16,
+          "actualStart": 468.191292,
+          "actualEnd": 630.660875,
+          "timeDifference": 4.501291999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Independence and Forging a Unique Path",
+          "expectedStart": 626.16,
+          "expectedEnd": 757.98,
+          "actualStart": 632.160875,
+          "actualEnd": 763.980167,
+          "timeDifference": 6.000875000000065
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Gratitude, Optimism, and the Art of Moving Forward",
+          "expectedStart": 757.98,
+          "expectedEnd": 885.04,
+          "actualStart": 765.480167,
+          "actualEnd": 892.538125,
+          "timeDifference": 7.500167000000033
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Creativity as Survival and Self-Expression",
+          "expectedStart": 885.04,
+          "expectedEnd": 1041.66,
+          "actualStart": 894.038125,
+          "actualEnd": 1050.659208,
+          "timeDifference": 8.998125000000073
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Motherhood—A New Chapter of Vulnerability and Strength",
+          "expectedStart": 1041.66,
+          "expectedEnd": 1215.77,
+          "actualStart": 1052.159208,
+          "actualEnd": 1226.267875,
+          "timeDifference": 10.499207999999953
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing Old Wounds and Making Peace with the Past",
+          "expectedStart": 1215.77,
+          "expectedEnd": 1378.88,
+          "actualStart": 1227.767875,
+          "actualEnd": 1390.876792,
+          "timeDifference": 11.997875000000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Dance of Identity and Reinvention",
+          "expectedStart": 1378.88,
+          "expectedEnd": 1519.14,
+          "actualStart": 1392.376792,
+          "actualEnd": 1532.636375,
+          "timeDifference": 13.496791999999914
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Letting Go, and the Wisdom of Enough",
+          "expectedStart": 1519.14,
+          "expectedEnd": 1649.73,
+          "actualStart": 1534.136375,
+          "actualEnd": 1664.7255830000001,
+          "timeDifference": 14.996374999999944
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1649.73,
+          "expectedEnd": 1782.18,
+          "actualStart": 1666.2255830000001,
+          "actualEnd": 1798.6803330000002,
+          "timeDifference": 16.495583000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.617042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in the Spotlight and Learning to Stand Alone"
+        },
+        {
+          "startTime": 284.199209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in the Spotlight and Learning to Stand Alone and Chapter 2 Facing Adversity and Finding the Will to Rebuild"
+        },
+        {
+          "startTime": 466.691292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Adversity and Finding the Will to Rebuild and Chapter 3 Redefining Family and the Power of Chosen Connections"
+        },
+        {
+          "startTime": 630.660875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Redefining Family and the Power of Chosen Connections and Chapter 4 Embracing Independence and Forging a Unique Path"
+        },
+        {
+          "startTime": 763.980167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Independence and Forging a Unique Path and Chapter 5 Gratitude, Optimism, and the Art of Moving Forward"
+        },
+        {
+          "startTime": 892.538125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Gratitude, Optimism, and the Art of Moving Forward and Chapter 6 Creativity as Survival and Self-Expression"
+        },
+        {
+          "startTime": 1050.659208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Creativity as Survival and Self-Expression and Chapter 7 Motherhood—A New Chapter of Vulnerability and Strength"
+        },
+        {
+          "startTime": 1226.267875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Motherhood—A New Chapter of Vulnerability and Strength and Chapter 8 Healing Old Wounds and Making Peace with the Past"
+        },
+        {
+          "startTime": 1390.876792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing Old Wounds and Making Peace with the Past and Chapter 9 The Ongoing Dance of Identity and Reinvention"
+        },
+        {
+          "startTime": 1532.636375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Dance of Identity and Reinvention and Chapter 10 Legacy, Letting Go, and the Wisdom of Enough"
+        },
+        {
+          "startTime": 1664.7255830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Letting Go, and the Wisdom of Enough and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2387",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:02:49.535Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

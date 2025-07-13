@@ -1,0 +1,456 @@
+{
+  "bookId": "2497",
+  "timestamp": "2025-07-11T01:44:35.767Z",
+  "success": false,
+  "processingTime": -1752197960583,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4145,
+    "totalAudioFiles": 12,
+    "totalDuration": 2241.757584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2241.757584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2497/optimized_text/2497.md",
+    "fileSize": 738,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2497.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2497/metadata/2497_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2241.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2497/metadata/2497_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2497/metadata/2497_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2497/2497_complete.wav",
+    "duration": 2241.757583,
+    "fileSize": 107604442,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2497/introduction.wav",
+          "duration": 97.811333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.811333,
+          "startTime": 0,
+          "endTime": 97.811333
+        },
+        {
+          "path": "Audio/output/2497/chapter_01.wav",
+          "duration": 179.432792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Value from the Customer’s Perspective",
+          "actualDuration": 179.432792,
+          "startTime": 99.311333,
+          "endTime": 278.744125
+        },
+        {
+          "path": "Audio/output/2497/chapter_02.wav",
+          "duration": 268.434667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mapping the Value Stream to Reveal and Remove Waste",
+          "actualDuration": 268.434667,
+          "startTime": 280.244125,
+          "endTime": 548.6787919999999
+        },
+        {
+          "path": "Audio/output/2497/chapter_03.wav",
+          "duration": 252.0625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creating Flow by Removing Barriers and Interruptions",
+          "actualDuration": 252.0625,
+          "startTime": 550.1787919999999,
+          "endTime": 802.2412919999999
+        },
+        {
+          "path": "Audio/output/2497/chapter_04.wav",
+          "duration": 223.529042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Establishing Pull to Align Production with Real Demand",
+          "actualDuration": 223.529042,
+          "startTime": 803.7412919999999,
+          "endTime": 1027.2703339999998
+        },
+        {
+          "path": "Audio/output/2497/chapter_05.wav",
+          "duration": 179.606792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Pursuing Perfection through Continuous Improvement",
+          "actualDuration": 179.606792,
+          "startTime": 1028.7703339999998,
+          "endTime": 1208.3771259999999
+        },
+        {
+          "path": "Audio/output/2497/chapter_06.wav",
+          "duration": 208.91875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Leading the Lean Transformation: The Role of Leadership and Mindset",
+          "actualDuration": 208.91875,
+          "startTime": 1209.8771259999999,
+          "endTime": 1418.795876
+        },
+        {
+          "path": "Audio/output/2497/chapter_07.wav",
+          "duration": 179.373792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Effective Teams and Fostering Collaboration",
+          "actualDuration": 179.373792,
+          "startTime": 1420.295876,
+          "endTime": 1599.669668
+        },
+        {
+          "path": "Audio/output/2497/chapter_08.wav",
+          "duration": 201.2795,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Lean: Systems, Habits, and Daily Management",
+          "actualDuration": 201.2795,
+          "startTime": 1601.169668,
+          "endTime": 1802.449168
+        },
+        {
+          "path": "Audio/output/2497/chapter_09.wav",
+          "duration": 163.063458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Adapting Lean to Different Contexts and Challenges",
+          "actualDuration": 163.063458,
+          "startTime": 1803.949168,
+          "endTime": 1967.0126260000002
+        },
+        {
+          "path": "Audio/output/2497/chapter_10.wav",
+          "duration": 163.341375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Measuring Success and Realizing the Benefits of Lean",
+          "actualDuration": 163.341375,
+          "startTime": 1968.5126260000002,
+          "endTime": 2131.854001
+        },
+        {
+          "path": "Audio/output/2497/conclusion.wav",
+          "duration": 124.903583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.903583,
+          "startTime": 2133.354001,
+          "endTime": 2258.257584
+        }
+      ],
+      "totalDuration": 2258.257584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.81,
+          "actualStart": 0,
+          "actualEnd": 97.811333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Value from the Customer’s Perspective",
+          "expectedStart": 97.81,
+          "expectedEnd": 277.24,
+          "actualStart": 99.311333,
+          "actualEnd": 278.744125,
+          "timeDifference": 1.5013330000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mapping the Value Stream to Reveal and Remove Waste",
+          "expectedStart": 277.24,
+          "expectedEnd": 545.67,
+          "actualStart": 280.244125,
+          "actualEnd": 548.6787919999999,
+          "timeDifference": 3.0041249999999877
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creating Flow by Removing Barriers and Interruptions",
+          "expectedStart": 545.67,
+          "expectedEnd": 797.73,
+          "actualStart": 550.1787919999999,
+          "actualEnd": 802.2412919999999,
+          "timeDifference": 4.508791999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Establishing Pull to Align Production with Real Demand",
+          "expectedStart": 797.73,
+          "expectedEnd": 1021.26,
+          "actualStart": 803.7412919999999,
+          "actualEnd": 1027.2703339999998,
+          "timeDifference": 6.011291999999912
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Pursuing Perfection through Continuous Improvement",
+          "expectedStart": 1021.26,
+          "expectedEnd": 1200.87,
+          "actualStart": 1028.7703339999998,
+          "actualEnd": 1208.3771259999999,
+          "timeDifference": 7.51033399999983
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Leading the Lean Transformation: The Role of Leadership and Mindset",
+          "expectedStart": 1200.87,
+          "expectedEnd": 1409.79,
+          "actualStart": 1209.8771259999999,
+          "actualEnd": 1418.795876,
+          "timeDifference": 9.007125999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Effective Teams and Fostering Collaboration",
+          "expectedStart": 1409.79,
+          "expectedEnd": 1589.16,
+          "actualStart": 1420.295876,
+          "actualEnd": 1599.669668,
+          "timeDifference": 10.505875999999944
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Lean: Systems, Habits, and Daily Management",
+          "expectedStart": 1589.16,
+          "expectedEnd": 1790.44,
+          "actualStart": 1601.169668,
+          "actualEnd": 1802.449168,
+          "timeDifference": 12.00966799999992
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Adapting Lean to Different Contexts and Challenges",
+          "expectedStart": 1790.44,
+          "expectedEnd": 1953.5,
+          "actualStart": 1803.949168,
+          "actualEnd": 1967.0126260000002,
+          "timeDifference": 13.509168000000045
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Measuring Success and Realizing the Benefits of Lean",
+          "expectedStart": 1953.5,
+          "expectedEnd": 2116.84,
+          "actualStart": 1968.5126260000002,
+          "actualEnd": 2131.854001,
+          "timeDifference": 15.012626000000182
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2116.84,
+          "expectedEnd": 2241.74,
+          "actualStart": 2133.354001,
+          "actualEnd": 2258.257584,
+          "timeDifference": 16.514001000000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.811333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Value from the Customer’s Perspective"
+        },
+        {
+          "startTime": 278.744125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Value from the Customer’s Perspective and Chapter 2 Mapping the Value Stream to Reveal and Remove Waste"
+        },
+        {
+          "startTime": 548.6787919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mapping the Value Stream to Reveal and Remove Waste and Chapter 3 Creating Flow by Removing Barriers and Interruptions"
+        },
+        {
+          "startTime": 802.2412919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creating Flow by Removing Barriers and Interruptions and Chapter 4 Establishing Pull to Align Production with Real Demand"
+        },
+        {
+          "startTime": 1027.2703339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Establishing Pull to Align Production with Real Demand and Chapter 5 Pursuing Perfection through Continuous Improvement"
+        },
+        {
+          "startTime": 1208.3771259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Pursuing Perfection through Continuous Improvement and Chapter 6 Leading the Lean Transformation: The Role of Leadership and Mindset"
+        },
+        {
+          "startTime": 1418.795876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Leading the Lean Transformation: The Role of Leadership and Mindset and Chapter 7 Building Effective Teams and Fostering Collaboration"
+        },
+        {
+          "startTime": 1599.669668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Effective Teams and Fostering Collaboration and Chapter 8 Sustaining Lean: Systems, Habits, and Daily Management"
+        },
+        {
+          "startTime": 1802.449168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Lean: Systems, Habits, and Daily Management and Chapter 9 Adapting Lean to Different Contexts and Challenges"
+        },
+        {
+          "startTime": 1967.0126260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Adapting Lean to Different Contexts and Challenges and Chapter 10 Measuring Success and Realizing the Benefits of Lean"
+        },
+        {
+          "startTime": 2131.854001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Measuring Success and Realizing the Benefits of Lean and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2497",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:39:22.114Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

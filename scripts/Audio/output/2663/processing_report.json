@@ -1,0 +1,456 @@
+{
+  "bookId": "2663",
+  "timestamp": "2025-07-12T09:16:50.363Z",
+  "success": false,
+  "processingTime": -1752311420315,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3832,
+    "totalAudioFiles": 12,
+    "totalDuration": 1984.0992929999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1984.0992929999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2663/optimized_text/2663.md",
+    "fileSize": 622,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2663.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2663/metadata/2663_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1984.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2663/metadata/2663_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2663/metadata/2663_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2663/2663_complete.wav",
+    "duration": 1984.099292,
+    "fileSize": 95236844,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2663/introduction.wav",
+          "duration": 83.26275,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.26275,
+          "startTime": 0,
+          "endTime": 83.26275
+        },
+        {
+          "path": "Audio/output/2663/chapter_01.wav",
+          "duration": 195.848,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Brevity Matters in a Noisy World",
+          "actualDuration": 195.848,
+          "startTime": 84.76275,
+          "endTime": 280.61075
+        },
+        {
+          "path": "Audio/output/2663/chapter_02.wav",
+          "duration": 226.748292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Structuring Messages for Maximum Impact",
+          "actualDuration": 226.748292,
+          "startTime": 282.11075,
+          "endTime": 508.859042
+        },
+        {
+          "path": "Audio/output/2663/chapter_03.wav",
+          "duration": 219.551792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Editing Ruthlessly Without Losing Meaning",
+          "actualDuration": 219.551792,
+          "startTime": 510.359042,
+          "endTime": 729.910834
+        },
+        {
+          "path": "Audio/output/2663/chapter_04.wav",
+          "duration": 217.77075,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting Brevity to Digital Platforms",
+          "actualDuration": 217.77075,
+          "startTime": 731.410834,
+          "endTime": 949.181584
+        },
+        {
+          "path": "Audio/output/2663/chapter_05.wav",
+          "duration": 197.643875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Brevity as a Team and Organizational Habit",
+          "actualDuration": 197.643875,
+          "startTime": 950.681584,
+          "endTime": 1148.3254590000001
+        },
+        {
+          "path": "Audio/output/2663/chapter_06.wav",
+          "duration": 161.169792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Applications: Brevity in Storytelling and Persuasion",
+          "actualDuration": 161.169792,
+          "startTime": 1149.8254590000001,
+          "endTime": 1310.995251
+        },
+        {
+          "path": "Audio/output/2663/chapter_07.wav",
+          "duration": 149.691542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Common Barriers to Brevity",
+          "actualDuration": 149.691542,
+          "startTime": 1312.495251,
+          "endTime": 1462.186793
+        },
+        {
+          "path": "Audio/output/2663/chapter_08.wav",
+          "duration": 145.887792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Brevity into Daily Routines",
+          "actualDuration": 145.887792,
+          "startTime": 1463.686793,
+          "endTime": 1609.574585
+        },
+        {
+          "path": "Audio/output/2663/chapter_09.wav",
+          "duration": 142.498833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Brevity in Leadership and Influence",
+          "actualDuration": 142.498833,
+          "startTime": 1611.074585,
+          "endTime": 1753.573418
+        },
+        {
+          "path": "Audio/output/2663/chapter_10.wav",
+          "duration": 131.149583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Brevity: Reflection, Feedback, and Growth",
+          "actualDuration": 131.149583,
+          "startTime": 1755.073418,
+          "endTime": 1886.2230009999998
+        },
+        {
+          "path": "Audio/output/2663/conclusion.wav",
+          "duration": 112.876292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.876292,
+          "startTime": 1887.7230009999998,
+          "endTime": 2000.5992929999998
+        }
+      ],
+      "totalDuration": 2000.5992929999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.26,
+          "actualStart": 0,
+          "actualEnd": 83.26275,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Brevity Matters in a Noisy World",
+          "expectedStart": 83.26,
+          "expectedEnd": 279.11,
+          "actualStart": 84.76275,
+          "actualEnd": 280.61075,
+          "timeDifference": 1.5027499999999918
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Structuring Messages for Maximum Impact",
+          "expectedStart": 279.11,
+          "expectedEnd": 505.86,
+          "actualStart": 282.11075,
+          "actualEnd": 508.859042,
+          "timeDifference": 3.0007499999999823
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Editing Ruthlessly Without Losing Meaning",
+          "expectedStart": 505.86,
+          "expectedEnd": 725.41,
+          "actualStart": 510.359042,
+          "actualEnd": 729.910834,
+          "timeDifference": 4.4990419999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting Brevity to Digital Platforms",
+          "expectedStart": 725.41,
+          "expectedEnd": 943.18,
+          "actualStart": 731.410834,
+          "actualEnd": 949.181584,
+          "timeDifference": 6.000834000000054
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Brevity as a Team and Organizational Habit",
+          "expectedStart": 943.18,
+          "expectedEnd": 1140.82,
+          "actualStart": 950.681584,
+          "actualEnd": 1148.3254590000001,
+          "timeDifference": 7.5015840000000935
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Applications: Brevity in Storytelling and Persuasion",
+          "expectedStart": 1140.82,
+          "expectedEnd": 1301.99,
+          "actualStart": 1149.8254590000001,
+          "actualEnd": 1310.995251,
+          "timeDifference": 9.0054590000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Common Barriers to Brevity",
+          "expectedStart": 1301.99,
+          "expectedEnd": 1451.68,
+          "actualStart": 1312.495251,
+          "actualEnd": 1462.186793,
+          "timeDifference": 10.505251000000044
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Brevity into Daily Routines",
+          "expectedStart": 1451.68,
+          "expectedEnd": 1597.57,
+          "actualStart": 1463.686793,
+          "actualEnd": 1609.574585,
+          "timeDifference": 12.006793000000016
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Brevity in Leadership and Influence",
+          "expectedStart": 1597.57,
+          "expectedEnd": 1740.07,
+          "actualStart": 1611.074585,
+          "actualEnd": 1753.573418,
+          "timeDifference": 13.504585000000134
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Brevity: Reflection, Feedback, and Growth",
+          "expectedStart": 1740.07,
+          "expectedEnd": 1871.22,
+          "actualStart": 1755.073418,
+          "actualEnd": 1886.2230009999998,
+          "timeDifference": 15.00341800000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1871.22,
+          "expectedEnd": 1984.1,
+          "actualStart": 1887.7230009999998,
+          "actualEnd": 2000.5992929999998,
+          "timeDifference": 16.503000999999813
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.26275,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Brevity Matters in a Noisy World"
+        },
+        {
+          "startTime": 280.61075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Brevity Matters in a Noisy World and Chapter 2 Structuring Messages for Maximum Impact"
+        },
+        {
+          "startTime": 508.859042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Structuring Messages for Maximum Impact and Chapter 3 Editing Ruthlessly Without Losing Meaning"
+        },
+        {
+          "startTime": 729.910834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Editing Ruthlessly Without Losing Meaning and Chapter 4 Adapting Brevity to Digital Platforms"
+        },
+        {
+          "startTime": 949.181584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting Brevity to Digital Platforms and Chapter 5 Brevity as a Team and Organizational Habit"
+        },
+        {
+          "startTime": 1148.3254590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Brevity as a Team and Organizational Habit and Chapter 6 Advanced Applications: Brevity in Storytelling and Persuasion"
+        },
+        {
+          "startTime": 1310.995251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Applications: Brevity in Storytelling and Persuasion and Chapter 7 Overcoming Common Barriers to Brevity"
+        },
+        {
+          "startTime": 1462.186793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Common Barriers to Brevity and Chapter 8 Integrating Brevity into Daily Routines"
+        },
+        {
+          "startTime": 1609.574585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Brevity into Daily Routines and Chapter 9 Brevity in Leadership and Influence"
+        },
+        {
+          "startTime": 1753.573418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Brevity in Leadership and Influence and Chapter 10 Sustaining Brevity: Reflection, Feedback, and Growth"
+        },
+        {
+          "startTime": 1886.2230009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Brevity: Reflection, Feedback, and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2663",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:10:20.801Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2583",
+  "timestamp": "2025-07-11T07:02:15.814Z",
+  "success": false,
+  "processingTime": -1752217012436,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4858,
+    "totalAudioFiles": 12,
+    "totalDuration": 2380.448542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2380.448542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2583/optimized_text/2583.md",
+    "fileSize": 681,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "2583.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2583/metadata/2583_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2380.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2583/metadata/2583_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2583/metadata/2583_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2583/2583_complete.wav",
+    "duration": 2380.448542,
+    "fileSize": 114261608,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2583/introduction.wav",
+          "duration": 87.12225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.12225,
+          "startTime": 0,
+          "endTime": 87.12225
+        },
+        {
+          "path": "Audio/output/2583/chapter_01.wav",
+          "duration": 233.908333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Nature of Personal Freedom",
+          "actualDuration": 233.908333,
+          "startTime": 88.62225,
+          "endTime": 322.530583
+        },
+        {
+          "path": "Audio/output/2583/chapter_02.wav",
+          "duration": 265.371708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Recognizing and Escaping Common Social Traps",
+          "actualDuration": 265.371708,
+          "startTime": 324.030583,
+          "endTime": 589.402291
+        },
+        {
+          "path": "Audio/output/2583/chapter_03.wav",
+          "duration": 263.837042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Taking Responsibility for Personal Happiness",
+          "actualDuration": 263.837042,
+          "startTime": 590.902291,
+          "endTime": 854.739333
+        },
+        {
+          "path": "Audio/output/2583/chapter_04.wav",
+          "duration": 243.429667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Challenging Conventional Rules and Social Expectations",
+          "actualDuration": 243.429667,
+          "startTime": 856.239333,
+          "endTime": 1099.6689999999999
+        },
+        {
+          "path": "Audio/output/2583/chapter_05.wav",
+          "duration": 235.837458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Strategies for Creating Daily Freedom",
+          "actualDuration": 235.837458,
+          "startTime": 1101.1689999999999,
+          "endTime": 1337.0064579999998
+        },
+        {
+          "path": "Audio/output/2583/chapter_06.wav",
+          "duration": 216.239833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Financial Autonomy as a Foundation for Freedom",
+          "actualDuration": 216.239833,
+          "startTime": 1338.5064579999998,
+          "endTime": 1554.746291
+        },
+        {
+          "path": "Audio/output/2583/chapter_07.wav",
+          "duration": 198.518917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Redefining Relationships and Social Connections",
+          "actualDuration": 198.518917,
+          "startTime": 1556.246291,
+          "endTime": 1754.7652079999998
+        },
+        {
+          "path": "Audio/output/2583/chapter_08.wav",
+          "duration": 176.158125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Designing a Life of Ongoing Experimentation",
+          "actualDuration": 176.158125,
+          "startTime": 1756.2652079999998,
+          "endTime": 1932.4233329999997
+        },
+        {
+          "path": "Audio/output/2583/chapter_09.wav",
+          "duration": 149.102417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Uncertainty with Resilience",
+          "actualDuration": 149.102417,
+          "startTime": 1933.9233329999997,
+          "endTime": 2083.02575
+        },
+        {
+          "path": "Audio/output/2583/chapter_10.wav",
+          "duration": 163.683375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Freedom Through Reflection and Renewal",
+          "actualDuration": 163.683375,
+          "startTime": 2084.52575,
+          "endTime": 2248.209125
+        },
+        {
+          "path": "Audio/output/2583/conclusion.wav",
+          "duration": 147.239417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 147.239417,
+          "startTime": 2249.709125,
+          "endTime": 2396.948542
+        }
+      ],
+      "totalDuration": 2396.948542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.12,
+          "actualStart": 0,
+          "actualEnd": 87.12225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Nature of Personal Freedom",
+          "expectedStart": 87.12,
+          "expectedEnd": 321.03,
+          "actualStart": 88.62225,
+          "actualEnd": 322.530583,
+          "timeDifference": 1.5022499999999894
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Recognizing and Escaping Common Social Traps",
+          "expectedStart": 321.03,
+          "expectedEnd": 586.4,
+          "actualStart": 324.030583,
+          "actualEnd": 589.402291,
+          "timeDifference": 3.000583000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Taking Responsibility for Personal Happiness",
+          "expectedStart": 586.4,
+          "expectedEnd": 850.24,
+          "actualStart": 590.902291,
+          "actualEnd": 854.739333,
+          "timeDifference": 4.502291000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Challenging Conventional Rules and Social Expectations",
+          "expectedStart": 850.24,
+          "expectedEnd": 1093.67,
+          "actualStart": 856.239333,
+          "actualEnd": 1099.6689999999999,
+          "timeDifference": 5.999332999999979
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Strategies for Creating Daily Freedom",
+          "expectedStart": 1093.67,
+          "expectedEnd": 1329.51,
+          "actualStart": 1101.1689999999999,
+          "actualEnd": 1337.0064579999998,
+          "timeDifference": 7.498999999999796
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Financial Autonomy as a Foundation for Freedom",
+          "expectedStart": 1329.51,
+          "expectedEnd": 1545.75,
+          "actualStart": 1338.5064579999998,
+          "actualEnd": 1554.746291,
+          "timeDifference": 8.996457999999848
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Redefining Relationships and Social Connections",
+          "expectedStart": 1545.75,
+          "expectedEnd": 1744.27,
+          "actualStart": 1556.246291,
+          "actualEnd": 1754.7652079999998,
+          "timeDifference": 10.496290999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Designing a Life of Ongoing Experimentation",
+          "expectedStart": 1744.27,
+          "expectedEnd": 1920.43,
+          "actualStart": 1756.2652079999998,
+          "actualEnd": 1932.4233329999997,
+          "timeDifference": 11.99520799999982
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Uncertainty with Resilience",
+          "expectedStart": 1920.43,
+          "expectedEnd": 2069.53,
+          "actualStart": 1933.9233329999997,
+          "actualEnd": 2083.02575,
+          "timeDifference": 13.493332999999666
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Freedom Through Reflection and Renewal",
+          "expectedStart": 2069.53,
+          "expectedEnd": 2233.21,
+          "actualStart": 2084.52575,
+          "actualEnd": 2248.209125,
+          "timeDifference": 14.995749999999589
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2233.21,
+          "expectedEnd": 2380.45,
+          "actualStart": 2249.709125,
+          "actualEnd": 2396.948542,
+          "timeDifference": 16.49912499999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.12225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Nature of Personal Freedom"
+        },
+        {
+          "startTime": 322.530583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Nature of Personal Freedom and Chapter 2 Recognizing and Escaping Common Social Traps"
+        },
+        {
+          "startTime": 589.402291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Recognizing and Escaping Common Social Traps and Chapter 3 Taking Responsibility for Personal Happiness"
+        },
+        {
+          "startTime": 854.739333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Taking Responsibility for Personal Happiness and Chapter 4 Challenging Conventional Rules and Social Expectations"
+        },
+        {
+          "startTime": 1099.6689999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Challenging Conventional Rules and Social Expectations and Chapter 5 Practical Strategies for Creating Daily Freedom"
+        },
+        {
+          "startTime": 1337.0064579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Strategies for Creating Daily Freedom and Chapter 6 Building Financial Autonomy as a Foundation for Freedom"
+        },
+        {
+          "startTime": 1554.746291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Financial Autonomy as a Foundation for Freedom and Chapter 7 Redefining Relationships and Social Connections"
+        },
+        {
+          "startTime": 1754.7652079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Redefining Relationships and Social Connections and Chapter 8 Designing a Life of Ongoing Experimentation"
+        },
+        {
+          "startTime": 1932.4233329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Designing a Life of Ongoing Experimentation and Chapter 9 Navigating Setbacks and Uncertainty with Resilience"
+        },
+        {
+          "startTime": 2083.02575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Uncertainty with Resilience and Chapter 10 Sustaining Freedom Through Reflection and Renewal"
+        },
+        {
+          "startTime": 2248.209125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Freedom Through Reflection and Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2583",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:56:52.970Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

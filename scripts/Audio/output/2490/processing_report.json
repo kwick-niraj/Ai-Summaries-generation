@@ -1,0 +1,455 @@
+{
+  "bookId": "2490",
+  "timestamp": "2025-07-11T01:08:59.006Z",
+  "success": false,
+  "processingTime": -1752195919471,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4308,
+    "totalAudioFiles": 12,
+    "totalDuration": 1793.570584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1793.570584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2490/optimized_text/2490.md",
+    "fileSize": 758,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2490.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2490/metadata/2490_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1793.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2490/metadata/2490_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2490/metadata/2490_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2490/2490_complete.wav",
+    "duration": 1793.570583,
+    "fileSize": 86091466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2490/introduction.wav",
+          "duration": 76.444042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.444042,
+          "startTime": 0,
+          "endTime": 76.444042
+        },
+        {
+          "path": "Audio/output/2490/chapter_01.wav",
+          "duration": 207.403458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Finding Solace in Words: The Power of Prayer and Poetry",
+          "actualDuration": 207.403458,
+          "startTime": 77.944042,
+          "endTime": 285.34749999999997
+        },
+        {
+          "path": "Audio/output/2490/chapter_02.wav",
+          "duration": 162.632208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Seeking Connection: Reaching Toward the Divine and the Self",
+          "actualDuration": 162.632208,
+          "startTime": 286.84749999999997,
+          "endTime": 449.47970799999996
+        },
+        {
+          "path": "Audio/output/2490/chapter_03.wav",
+          "duration": 186.30675,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Gratitude and Hope: Expressing Thanks and Longing Through Verse",
+          "actualDuration": 186.30675,
+          "startTime": 450.97970799999996,
+          "endTime": 637.2864579999999
+        },
+        {
+          "path": "Audio/output/2490/chapter_04.wav",
+          "duration": 133.959125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reflection and Meaning: Understanding Life Through Spiritual Language",
+          "actualDuration": 133.959125,
+          "startTime": 638.7864579999999,
+          "endTime": 772.7455829999999
+        },
+        {
+          "path": "Audio/output/2490/chapter_05.wav",
+          "duration": 159.245167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Healing and Belonging: Words as a Path to Comfort and Community",
+          "actualDuration": 159.245167,
+          "startTime": 774.2455829999999,
+          "endTime": 933.4907499999999
+        },
+        {
+          "path": "Audio/output/2490/chapter_06.wav",
+          "duration": 183.497625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Courage of Vulnerability: Letting Words Speak the Unspoken",
+          "actualDuration": 183.497625,
+          "startTime": 934.9907499999999,
+          "endTime": 1118.488375
+        },
+        {
+          "path": "Audio/output/2490/chapter_07.wav",
+          "duration": 155.621042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rituals and Rhythm: The Comfort of Repetition",
+          "actualDuration": 155.621042,
+          "startTime": 1119.988375,
+          "endTime": 1275.609417
+        },
+        {
+          "path": "Audio/output/2490/chapter_08.wav",
+          "duration": 144.419625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Silence and Listening: The Spaces Between Words",
+          "actualDuration": 144.419625,
+          "startTime": 1277.109417,
+          "endTime": 1421.529042
+        },
+        {
+          "path": "Audio/output/2490/chapter_09.wav",
+          "duration": 151.942667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Transformation and Growth: Words as Seeds",
+          "actualDuration": 151.942667,
+          "startTime": 1423.029042,
+          "endTime": 1574.971709
+        },
+        {
+          "path": "Audio/output/2490/chapter_10.wav",
+          "duration": 121.584708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying Light Forward: Living with Intention",
+          "actualDuration": 121.584708,
+          "startTime": 1576.471709,
+          "endTime": 1698.056417
+        },
+        {
+          "path": "Audio/output/2490/conclusion.wav",
+          "duration": 110.514167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.514167,
+          "startTime": 1699.556417,
+          "endTime": 1810.070584
+        }
+      ],
+      "totalDuration": 1810.070584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.44,
+          "actualStart": 0,
+          "actualEnd": 76.444042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Finding Solace in Words: The Power of Prayer and Poetry",
+          "expectedStart": 76.44,
+          "expectedEnd": 283.84,
+          "actualStart": 77.944042,
+          "actualEnd": 285.34749999999997,
+          "timeDifference": 1.5040419999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Seeking Connection: Reaching Toward the Divine and the Self",
+          "expectedStart": 283.84,
+          "expectedEnd": 446.47,
+          "actualStart": 286.84749999999997,
+          "actualEnd": 449.47970799999996,
+          "timeDifference": 3.007499999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Gratitude and Hope: Expressing Thanks and Longing Through Verse",
+          "expectedStart": 446.47,
+          "expectedEnd": 632.78,
+          "actualStart": 450.97970799999996,
+          "actualEnd": 637.2864579999999,
+          "timeDifference": 4.509707999999932
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reflection and Meaning: Understanding Life Through Spiritual Language",
+          "expectedStart": 632.78,
+          "expectedEnd": 766.74,
+          "actualStart": 638.7864579999999,
+          "actualEnd": 772.7455829999999,
+          "timeDifference": 6.006457999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Healing and Belonging: Words as a Path to Comfort and Community",
+          "expectedStart": 766.74,
+          "expectedEnd": 925.99,
+          "actualStart": 774.2455829999999,
+          "actualEnd": 933.4907499999999,
+          "timeDifference": 7.505582999999888
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Courage of Vulnerability: Letting Words Speak the Unspoken",
+          "expectedStart": 925.99,
+          "expectedEnd": 1109.49,
+          "actualStart": 934.9907499999999,
+          "actualEnd": 1118.488375,
+          "timeDifference": 9.000749999999925
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rituals and Rhythm: The Comfort of Repetition",
+          "expectedStart": 1109.49,
+          "expectedEnd": 1265.11,
+          "actualStart": 1119.988375,
+          "actualEnd": 1275.609417,
+          "timeDifference": 10.498374999999896
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Silence and Listening: The Spaces Between Words",
+          "expectedStart": 1265.11,
+          "expectedEnd": 1409.53,
+          "actualStart": 1277.109417,
+          "actualEnd": 1421.529042,
+          "timeDifference": 11.999416999999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Transformation and Growth: Words as Seeds",
+          "expectedStart": 1409.53,
+          "expectedEnd": 1561.47,
+          "actualStart": 1423.029042,
+          "actualEnd": 1574.971709,
+          "timeDifference": 13.499041999999918
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying Light Forward: Living with Intention",
+          "expectedStart": 1561.47,
+          "expectedEnd": 1683.05,
+          "actualStart": 1576.471709,
+          "actualEnd": 1698.056417,
+          "timeDifference": 15.001708999999892
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1683.05,
+          "expectedEnd": 1793.56,
+          "actualStart": 1699.556417,
+          "actualEnd": 1810.070584,
+          "timeDifference": 16.506417000000056
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.444042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Finding Solace in Words: The Power of Prayer and Poetry"
+        },
+        {
+          "startTime": 285.34749999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Finding Solace in Words: The Power of Prayer and Poetry and Chapter 2 Seeking Connection: Reaching Toward the Divine and the Self"
+        },
+        {
+          "startTime": 449.47970799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Seeking Connection: Reaching Toward the Divine and the Self and Chapter 3 Gratitude and Hope: Expressing Thanks and Longing Through Verse"
+        },
+        {
+          "startTime": 637.2864579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Gratitude and Hope: Expressing Thanks and Longing Through Verse and Chapter 4 Reflection and Meaning: Understanding Life Through Spiritual Language"
+        },
+        {
+          "startTime": 772.7455829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reflection and Meaning: Understanding Life Through Spiritual Language and Chapter 5 Healing and Belonging: Words as a Path to Comfort and Community"
+        },
+        {
+          "startTime": 933.4907499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Healing and Belonging: Words as a Path to Comfort and Community and Chapter 6 The Quiet Courage of Vulnerability: Letting Words Speak the Unspoken"
+        },
+        {
+          "startTime": 1118.488375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Courage of Vulnerability: Letting Words Speak the Unspoken and Chapter 7 Rituals and Rhythm: The Comfort of Repetition"
+        },
+        {
+          "startTime": 1275.609417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rituals and Rhythm: The Comfort of Repetition and Chapter 8 Silence and Listening: The Spaces Between Words"
+        },
+        {
+          "startTime": 1421.529042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Silence and Listening: The Spaces Between Words and Chapter 9 Transformation and Growth: Words as Seeds"
+        },
+        {
+          "startTime": 1574.971709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Transformation and Growth: Words as Seeds and Chapter 10 Carrying Light Forward: Living with Intention"
+        },
+        {
+          "startTime": 1698.056417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying Light Forward: Living with Intention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2490",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:05:21.075Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

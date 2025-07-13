@@ -1,0 +1,432 @@
+{
+  "bookId": "2545",
+  "timestamp": "2025-07-11T04:11:28.901Z",
+  "success": false,
+  "processingTime": -1752206730097,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4265,
+    "totalAudioFiles": 12,
+    "totalDuration": 1762.0394139999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1762.0394139999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2545/optimized_text/2545.md",
+    "fileSize": 3260,
+    "wordCount": 527,
+    "format": "markdown",
+    "filename": "2545.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2545/metadata/2545_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1762.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2545/metadata/2545_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2545/metadata/2545_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2545/2545_complete.wav",
+    "duration": 1762.039417,
+    "fileSize": 84577970,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2545/introduction.wav",
+          "duration": 76.691375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.691375,
+          "startTime": 0,
+          "endTime": 76.691375
+        },
+        {
+          "path": "Audio/output/2545/chapter_01.wav",
+          "duration": 198.584333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Restless: Early Struggles and the Making of a Fighter",
+          "actualDuration": 198.584333,
+          "startTime": 78.191375,
+          "endTime": 276.775708
+        },
+        {
+          "path": "Audio/output/2545/chapter_02.wav",
+          "duration": 210.91825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chasing Olympic Dreams: Triumphs, Setbacks, and the Power of Will",
+          "actualDuration": 210.91825,
+          "startTime": 278.275708,
+          "endTime": 489.193958
+        },
+        {
+          "path": "Audio/output/2545/chapter_03.wav",
+          "duration": 227.784833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Into War: From Bombardier to Survivor in the Pacific",
+          "actualDuration": 227.784833,
+          "startTime": 490.693958,
+          "endTime": 718.478791
+        },
+        {
+          "path": "Audio/output/2545/chapter_05.wav",
+          "duration": 173.077625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Liberation, Aftermath, and the Long Road to Healing",
+          "actualDuration": 173.077625,
+          "startTime": 719.978791,
+          "endTime": 893.056416
+        },
+        {
+          "path": "Audio/output/2545/chapter_06.wav",
+          "duration": 147.216708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Wrestling with Shadows: The Battle After the War",
+          "actualDuration": 147.216708,
+          "startTime": 894.556416,
+          "endTime": 1041.773124
+        },
+        {
+          "path": "Audio/output/2545/chapter_07.wav",
+          "duration": 142.649208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Search for Meaning: Faith, Forgiveness, and Redemption",
+          "actualDuration": 142.649208,
+          "startTime": 1043.273124,
+          "endTime": 1185.922332
+        },
+        {
+          "path": "Audio/output/2545/chapter_08.wav",
+          "duration": 164.711333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Past: Returning to Japan and the Power of Reconciliation",
+          "actualDuration": 164.711333,
+          "startTime": 1187.422332,
+          "endTime": 1352.133665
+        },
+        {
+          "path": "Audio/output/2545/chapter_09.wav",
+          "duration": 157.326208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sharing the Story: Inspiring Others and the Ripple Effect of Resilience",
+          "actualDuration": 157.326208,
+          "startTime": 1353.633665,
+          "endTime": 1510.959873
+        },
+        {
+          "path": "Audio/output/2545/chapter_10.wav",
+          "duration": 134.329583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy: Lessons for a Lifetime",
+          "actualDuration": 134.329583,
+          "startTime": 1512.459873,
+          "endTime": 1646.789456
+        },
+        {
+          "path": "Audio/output/2545/conclusion.wav",
+          "duration": 128.749958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.749958,
+          "startTime": 1648.289456,
+          "endTime": 1777.0394139999999
+        }
+      ],
+      "totalDuration": 1777.0394139999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.69,
+          "actualStart": 0,
+          "actualEnd": 76.691375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Restless: Early Struggles and the Making of a Fighter",
+          "expectedStart": 76.69,
+          "expectedEnd": 275.27,
+          "actualStart": 78.191375,
+          "actualEnd": 276.775708,
+          "timeDifference": 1.501374999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chasing Olympic Dreams: Triumphs, Setbacks, and the Power of Will",
+          "expectedStart": 275.27,
+          "expectedEnd": 486.19,
+          "actualStart": 278.275708,
+          "actualEnd": 489.193958,
+          "timeDifference": 3.005708000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Into War: From Bombardier to Survivor in the Pacific",
+          "expectedStart": 486.19,
+          "expectedEnd": 713.97,
+          "actualStart": 490.693958,
+          "actualEnd": 718.478791,
+          "timeDifference": 4.5039580000000115
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Liberation, Aftermath, and the Long Road to Healing",
+          "expectedStart": 713.97,
+          "expectedEnd": 887.05,
+          "actualStart": 719.978791,
+          "actualEnd": 893.056416,
+          "timeDifference": 6.008790999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Wrestling with Shadows: The Battle After the War",
+          "expectedStart": 887.05,
+          "expectedEnd": 1034.27,
+          "actualStart": 894.556416,
+          "actualEnd": 1041.773124,
+          "timeDifference": 7.506416000000058
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Search for Meaning: Faith, Forgiveness, and Redemption",
+          "expectedStart": 1034.27,
+          "expectedEnd": 1176.92,
+          "actualStart": 1043.273124,
+          "actualEnd": 1185.922332,
+          "timeDifference": 9.00312400000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Past: Returning to Japan and the Power of Reconciliation",
+          "expectedStart": 1176.92,
+          "expectedEnd": 1341.63,
+          "actualStart": 1187.422332,
+          "actualEnd": 1352.133665,
+          "timeDifference": 10.502332000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sharing the Story: Inspiring Others and the Ripple Effect of Resilience",
+          "expectedStart": 1341.63,
+          "expectedEnd": 1498.96,
+          "actualStart": 1353.633665,
+          "actualEnd": 1510.959873,
+          "timeDifference": 12.003664999999955
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy: Lessons for a Lifetime",
+          "expectedStart": 1498.96,
+          "expectedEnd": 1633.29,
+          "actualStart": 1512.459873,
+          "actualEnd": 1646.789456,
+          "timeDifference": 13.49987299999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1633.29,
+          "expectedEnd": 1762.04,
+          "actualStart": 1648.289456,
+          "actualEnd": 1777.0394139999999,
+          "timeDifference": 14.99945600000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.691375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Restless: Early Struggles and the Making of a Fighter"
+        },
+        {
+          "startTime": 276.775708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Restless: Early Struggles and the Making of a Fighter and Chapter 2 Chasing Olympic Dreams: Triumphs, Setbacks, and the Power of Will"
+        },
+        {
+          "startTime": 489.193958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chasing Olympic Dreams: Triumphs, Setbacks, and the Power of Will and Chapter 3 Into War: From Bombardier to Survivor in the Pacific"
+        },
+        {
+          "startTime": 718.478791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Into War: From Bombardier to Survivor in the Pacific and Chapter 5 Liberation, Aftermath, and the Long Road to Healing"
+        },
+        {
+          "startTime": 893.056416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Liberation, Aftermath, and the Long Road to Healing and Chapter 6 Wrestling with Shadows: The Battle After the War"
+        },
+        {
+          "startTime": 1041.773124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Wrestling with Shadows: The Battle After the War and Chapter 7 The Search for Meaning: Faith, Forgiveness, and Redemption"
+        },
+        {
+          "startTime": 1185.922332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Search for Meaning: Faith, Forgiveness, and Redemption and Chapter 8 Facing the Past: Returning to Japan and the Power of Reconciliation"
+        },
+        {
+          "startTime": 1352.133665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Past: Returning to Japan and the Power of Reconciliation and Chapter 9 Sharing the Story: Inspiring Others and the Ripple Effect of Resilience"
+        },
+        {
+          "startTime": 1510.959873,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sharing the Story: Inspiring Others and the Ripple Effect of Resilience and Chapter 10 Legacy: Lessons for a Lifetime"
+        },
+        {
+          "startTime": 1646.789456,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy: Lessons for a Lifetime and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2545",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:05:31.821Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

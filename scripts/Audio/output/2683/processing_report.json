@@ -1,0 +1,455 @@
+{
+  "bookId": "2683",
+  "timestamp": "2025-07-12T10:49:37.174Z",
+  "success": false,
+  "processingTime": -1752317085186,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4659,
+    "totalAudioFiles": 12,
+    "totalDuration": 1905.3629570000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1905.3629570000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2683/optimized_text/2683.md",
+    "fileSize": 664,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2683.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2683/metadata/2683_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1905.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2683/metadata/2683_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2683/metadata/2683_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2683/2683_complete.wav",
+    "duration": 1905.362958,
+    "fileSize": 91457500,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2683/introduction.wav",
+          "duration": 91.993708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.993708,
+          "startTime": 0,
+          "endTime": 91.993708
+        },
+        {
+          "path": "Audio/output/2683/chapter_01.wav",
+          "duration": 261.046292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Wrestling with Doubt and the Search for Something Real",
+          "actualDuration": 261.046292,
+          "startTime": 93.493708,
+          "endTime": 354.53999999999996
+        },
+        {
+          "path": "Audio/output/2683/chapter_02.wav",
+          "duration": 197.750542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Messiness of Recovery and the Ongoing Work of Grace",
+          "actualDuration": 197.750542,
+          "startTime": 356.03999999999996,
+          "endTime": 553.790542
+        },
+        {
+          "path": "Audio/output/2683/chapter_03.wav",
+          "duration": 189.285125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Belonging in Imperfect Community",
+          "actualDuration": 189.285125,
+          "startTime": 555.290542,
+          "endTime": 744.575667
+        },
+        {
+          "path": "Audio/output/2683/chapter_04.wav",
+          "duration": 196.445792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Sacred in Everyday Life and the Practice of Parenthood",
+          "actualDuration": 196.445792,
+          "startTime": 746.075667,
+          "endTime": 942.5214589999999
+        },
+        {
+          "path": "Audio/output/2683/chapter_05.wav",
+          "duration": 178.341083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Learning to Forgive and Accept Imperfection",
+          "actualDuration": 178.341083,
+          "startTime": 944.0214589999999,
+          "endTime": 1122.3625419999998
+        },
+        {
+          "path": "Audio/output/2683/chapter_06.wav",
+          "duration": 143.030083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courage to Tell the Truth",
+          "actualDuration": 143.030083,
+          "startTime": 1123.8625419999998,
+          "endTime": 1266.892625
+        },
+        {
+          "path": "Audio/output/2683/chapter_07.wav",
+          "duration": 145.735083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unlikely Teachers Along the Way",
+          "actualDuration": 145.735083,
+          "startTime": 1268.392625,
+          "endTime": 1414.127708
+        },
+        {
+          "path": "Audio/output/2683/chapter_08.wav",
+          "duration": 146.801083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Road of Grief and the Promise of Hope",
+          "actualDuration": 146.801083,
+          "startTime": 1415.627708,
+          "endTime": 1562.428791
+        },
+        {
+          "path": "Audio/output/2683/chapter_09.wav",
+          "duration": 137.557833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Practice of Gratitude and the Gift of Enough",
+          "actualDuration": 137.557833,
+          "startTime": 1563.928791,
+          "endTime": 1701.4866240000001
+        },
+        {
+          "path": "Audio/output/2683/chapter_10.wav",
+          "duration": 123.7215,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Uncertainty and the Ongoing Work of Faith",
+          "actualDuration": 123.7215,
+          "startTime": 1702.9866240000001,
+          "endTime": 1826.7081240000002
+        },
+        {
+          "path": "Audio/output/2683/conclusion.wav",
+          "duration": 93.654833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.654833,
+          "startTime": 1828.2081240000002,
+          "endTime": 1921.8629570000003
+        }
+      ],
+      "totalDuration": 1921.8629570000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.99,
+          "actualStart": 0,
+          "actualEnd": 91.993708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Wrestling with Doubt and the Search for Something Real",
+          "expectedStart": 91.99,
+          "expectedEnd": 353.04,
+          "actualStart": 93.493708,
+          "actualEnd": 354.53999999999996,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Messiness of Recovery and the Ongoing Work of Grace",
+          "expectedStart": 353.04,
+          "expectedEnd": 550.79,
+          "actualStart": 356.03999999999996,
+          "actualEnd": 553.790542,
+          "timeDifference": 2.999999999999943
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Belonging in Imperfect Community",
+          "expectedStart": 550.79,
+          "expectedEnd": 740.08,
+          "actualStart": 555.290542,
+          "actualEnd": 744.575667,
+          "timeDifference": 4.500541999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Sacred in Everyday Life and the Practice of Parenthood",
+          "expectedStart": 740.08,
+          "expectedEnd": 936.53,
+          "actualStart": 746.075667,
+          "actualEnd": 942.5214589999999,
+          "timeDifference": 5.995666999999912
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Learning to Forgive and Accept Imperfection",
+          "expectedStart": 936.53,
+          "expectedEnd": 1114.87,
+          "actualStart": 944.0214589999999,
+          "actualEnd": 1122.3625419999998,
+          "timeDifference": 7.4914589999999635
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courage to Tell the Truth",
+          "expectedStart": 1114.87,
+          "expectedEnd": 1257.9,
+          "actualStart": 1123.8625419999998,
+          "actualEnd": 1266.892625,
+          "timeDifference": 8.992541999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unlikely Teachers Along the Way",
+          "expectedStart": 1257.9,
+          "expectedEnd": 1403.64,
+          "actualStart": 1268.392625,
+          "actualEnd": 1414.127708,
+          "timeDifference": 10.492624999999862
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Road of Grief and the Promise of Hope",
+          "expectedStart": 1403.64,
+          "expectedEnd": 1550.44,
+          "actualStart": 1415.627708,
+          "actualEnd": 1562.428791,
+          "timeDifference": 11.987707999999884
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Practice of Gratitude and the Gift of Enough",
+          "expectedStart": 1550.44,
+          "expectedEnd": 1688,
+          "actualStart": 1563.928791,
+          "actualEnd": 1701.4866240000001,
+          "timeDifference": 13.488790999999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Uncertainty and the Ongoing Work of Faith",
+          "expectedStart": 1688,
+          "expectedEnd": 1811.72,
+          "actualStart": 1702.9866240000001,
+          "actualEnd": 1826.7081240000002,
+          "timeDifference": 14.98662400000012
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1811.72,
+          "expectedEnd": 1905.37,
+          "actualStart": 1828.2081240000002,
+          "actualEnd": 1921.8629570000003,
+          "timeDifference": 16.488124000000198
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.993708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Wrestling with Doubt and the Search for Something Real"
+        },
+        {
+          "startTime": 354.53999999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Wrestling with Doubt and the Search for Something Real and Chapter 2 The Messiness of Recovery and the Ongoing Work of Grace"
+        },
+        {
+          "startTime": 553.790542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Messiness of Recovery and the Ongoing Work of Grace and Chapter 3 Finding Belonging in Imperfect Community"
+        },
+        {
+          "startTime": 744.575667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Belonging in Imperfect Community and Chapter 4 The Sacred in Everyday Life and the Practice of Parenthood"
+        },
+        {
+          "startTime": 942.5214589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Sacred in Everyday Life and the Practice of Parenthood and Chapter 5 Learning to Forgive and Accept Imperfection"
+        },
+        {
+          "startTime": 1122.3625419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Learning to Forgive and Accept Imperfection and Chapter 6 The Courage to Tell the Truth"
+        },
+        {
+          "startTime": 1266.892625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courage to Tell the Truth and Chapter 7 The Unlikely Teachers Along the Way"
+        },
+        {
+          "startTime": 1414.127708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unlikely Teachers Along the Way and Chapter 8 The Long Road of Grief and the Promise of Hope"
+        },
+        {
+          "startTime": 1562.428791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Road of Grief and the Promise of Hope and Chapter 9 The Practice of Gratitude and the Gift of Enough"
+        },
+        {
+          "startTime": 1701.4866240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Practice of Gratitude and the Gift of Enough and Chapter 10 Living with Uncertainty and the Ongoing Work of Faith"
+        },
+        {
+          "startTime": 1826.7081240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Uncertainty and the Ongoing Work of Faith and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2683",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:44:45.737Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

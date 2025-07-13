@@ -1,0 +1,456 @@
+{
+  "bookId": "2359",
+  "timestamp": "2025-07-10T18:07:22.326Z",
+  "success": false,
+  "processingTime": -1752170564824,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4178,
+    "totalAudioFiles": 12,
+    "totalDuration": 2130.969208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2130.969208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2359/optimized_text/2359.md",
+    "fileSize": 822,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2359.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2359/metadata/2359_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2130.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2359/metadata/2359_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2359/metadata/2359_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2359/2359_complete.wav",
+    "duration": 2130.969208,
+    "fileSize": 102286600,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2359/introduction.wav",
+          "duration": 89.303583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.303583,
+          "startTime": 0,
+          "endTime": 89.303583
+        },
+        {
+          "path": "Audio/output/2359/chapter_01.wav",
+          "duration": 208.8035,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 What Sets Enduring Companies Apart from the Rest",
+          "actualDuration": 208.8035,
+          "startTime": 90.803583,
+          "endTime": 299.607083
+        },
+        {
+          "path": "Audio/output/2359/chapter_02.wav",
+          "duration": 217.718,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Core Ideology—Values and Purpose Beyond Profit",
+          "actualDuration": 217.718,
+          "startTime": 301.107083,
+          "endTime": 518.825083
+        },
+        {
+          "path": "Audio/output/2359/chapter_03.wav",
+          "duration": 207.519667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Balancing Consistency with Adaptability—Preserve the Core, Stimulate Progress",
+          "actualDuration": 207.519667,
+          "startTime": 520.325083,
+          "endTime": 727.84475
+        },
+        {
+          "path": "Audio/output/2359/chapter_04.wav",
+          "duration": 198.894583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Systems, Not Just Relying on Leaders—Clock Building Over Time Telling",
+          "actualDuration": 198.894583,
+          "startTime": 729.34475,
+          "endTime": 928.239333
+        },
+        {
+          "path": "Audio/output/2359/chapter_05.wav",
+          "duration": 205.508583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Fostering a Culture of Experimentation and Continuous Improvement",
+          "actualDuration": 205.508583,
+          "startTime": 929.739333,
+          "endTime": 1135.247916
+        },
+        {
+          "path": "Audio/output/2359/chapter_06.wav",
+          "duration": 163.202458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Setting Big, Hairy, Audacious Goals (BHAGs)—Ambition as a Catalyst",
+          "actualDuration": 163.202458,
+          "startTime": 1136.747916,
+          "endTime": 1299.950374
+        },
+        {
+          "path": "Audio/output/2359/chapter_07.wav",
+          "duration": 186.217792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Aligning Culture, Strategy, and Practices—Creating Internal Consistency",
+          "actualDuration": 186.217792,
+          "startTime": 1301.450374,
+          "endTime": 1487.668166
+        },
+        {
+          "path": "Audio/output/2359/chapter_08.wav",
+          "duration": 156.820417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Home-Grown Management—Promoting from Within",
+          "actualDuration": 156.820417,
+          "startTime": 1489.168166,
+          "endTime": 1645.9885829999998
+        },
+        {
+          "path": "Audio/output/2359/chapter_09.wav",
+          "duration": 180.223292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Momentum—The Flywheel Effect",
+          "actualDuration": 180.223292,
+          "startTime": 1647.4885829999998,
+          "endTime": 1827.7118749999997
+        },
+        {
+          "path": "Audio/output/2359/chapter_10.wav",
+          "duration": 160.556,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Paradox—The “Genius of the AND”",
+          "actualDuration": 160.556,
+          "startTime": 1829.2118749999997,
+          "endTime": 1989.7678749999998
+        },
+        {
+          "path": "Audio/output/2359/conclusion.wav",
+          "duration": 156.201333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 156.201333,
+          "startTime": 1991.2678749999998,
+          "endTime": 2147.469208
+        }
+      ],
+      "totalDuration": 2147.469208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.3,
+          "actualStart": 0,
+          "actualEnd": 89.303583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 What Sets Enduring Companies Apart from the Rest",
+          "expectedStart": 89.3,
+          "expectedEnd": 298.1,
+          "actualStart": 90.803583,
+          "actualEnd": 299.607083,
+          "timeDifference": 1.503583000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Core Ideology—Values and Purpose Beyond Profit",
+          "expectedStart": 298.1,
+          "expectedEnd": 515.82,
+          "actualStart": 301.107083,
+          "actualEnd": 518.825083,
+          "timeDifference": 3.007082999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Balancing Consistency with Adaptability—Preserve the Core, Stimulate Progress",
+          "expectedStart": 515.82,
+          "expectedEnd": 723.34,
+          "actualStart": 520.325083,
+          "actualEnd": 727.84475,
+          "timeDifference": 4.5050829999999
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Systems, Not Just Relying on Leaders—Clock Building Over Time Telling",
+          "expectedStart": 723.34,
+          "expectedEnd": 922.23,
+          "actualStart": 729.34475,
+          "actualEnd": 928.239333,
+          "timeDifference": 6.0047499999999445
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Fostering a Culture of Experimentation and Continuous Improvement",
+          "expectedStart": 922.23,
+          "expectedEnd": 1127.74,
+          "actualStart": 929.739333,
+          "actualEnd": 1135.247916,
+          "timeDifference": 7.50933299999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Setting Big, Hairy, Audacious Goals (BHAGs)—Ambition as a Catalyst",
+          "expectedStart": 1127.74,
+          "expectedEnd": 1290.94,
+          "actualStart": 1136.747916,
+          "actualEnd": 1299.950374,
+          "timeDifference": 9.007916000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Aligning Culture, Strategy, and Practices—Creating Internal Consistency",
+          "expectedStart": 1290.94,
+          "expectedEnd": 1477.16,
+          "actualStart": 1301.450374,
+          "actualEnd": 1487.668166,
+          "timeDifference": 10.510373999999956
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Home-Grown Management—Promoting from Within",
+          "expectedStart": 1477.16,
+          "expectedEnd": 1633.98,
+          "actualStart": 1489.168166,
+          "actualEnd": 1645.9885829999998,
+          "timeDifference": 12.008165999999846
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Momentum—The Flywheel Effect",
+          "expectedStart": 1633.98,
+          "expectedEnd": 1814.2,
+          "actualStart": 1647.4885829999998,
+          "actualEnd": 1827.7118749999997,
+          "timeDifference": 13.508582999999817
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Paradox—The “Genius of the AND”",
+          "expectedStart": 1814.2,
+          "expectedEnd": 1974.76,
+          "actualStart": 1829.2118749999997,
+          "actualEnd": 1989.7678749999998,
+          "timeDifference": 15.01187499999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1974.76,
+          "expectedEnd": 2130.96,
+          "actualStart": 1991.2678749999998,
+          "actualEnd": 2147.469208,
+          "timeDifference": 16.507874999999785
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.303583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 What Sets Enduring Companies Apart from the Rest"
+        },
+        {
+          "startTime": 299.607083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 What Sets Enduring Companies Apart from the Rest and Chapter 2 The Power of Core Ideology—Values and Purpose Beyond Profit"
+        },
+        {
+          "startTime": 518.825083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Core Ideology—Values and Purpose Beyond Profit and Chapter 3 Balancing Consistency with Adaptability—Preserve the Core, Stimulate Progress"
+        },
+        {
+          "startTime": 727.84475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Balancing Consistency with Adaptability—Preserve the Core, Stimulate Progress and Chapter 4 Building Systems, Not Just Relying on Leaders—Clock Building Over Time Telling"
+        },
+        {
+          "startTime": 928.239333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Systems, Not Just Relying on Leaders—Clock Building Over Time Telling and Chapter 5 Fostering a Culture of Experimentation and Continuous Improvement"
+        },
+        {
+          "startTime": 1135.247916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Fostering a Culture of Experimentation and Continuous Improvement and Chapter 6 Setting Big, Hairy, Audacious Goals (BHAGs)—Ambition as a Catalyst"
+        },
+        {
+          "startTime": 1299.950374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Setting Big, Hairy, Audacious Goals (BHAGs)—Ambition as a Catalyst and Chapter 7 Aligning Culture, Strategy, and Practices—Creating Internal Consistency"
+        },
+        {
+          "startTime": 1487.668166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Aligning Culture, Strategy, and Practices—Creating Internal Consistency and Chapter 8 Cultivating Home-Grown Management—Promoting from Within"
+        },
+        {
+          "startTime": 1645.9885829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Home-Grown Management—Promoting from Within and Chapter 9 Sustaining Momentum—The Flywheel Effect"
+        },
+        {
+          "startTime": 1827.7118749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Momentum—The Flywheel Effect and Chapter 10 Embracing Paradox—The “Genius of the AND”"
+        },
+        {
+          "startTime": 1989.7678749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Paradox—The “Genius of the AND” and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2359",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:02:45.551Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2411",
+  "timestamp": "2025-07-10T21:43:52.931Z",
+  "success": false,
+  "processingTime": -1752183549153,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4412,
+    "totalAudioFiles": 12,
+    "totalDuration": 2048.6110009999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2048.6110009999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2411/optimized_text/2411.md",
+    "fileSize": 809,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "2411.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2411/metadata/2411_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2048.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2411/metadata/2411_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2411/metadata/2411_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2411/2411_complete.wav",
+    "duration": 2048.611,
+    "fileSize": 98333406,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2411/introduction.wav",
+          "duration": 105.899458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.899458,
+          "startTime": 0,
+          "endTime": 105.899458
+        },
+        {
+          "path": "Audio/output/2411/chapter_01.wav",
+          "duration": 213.010792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life as a Mental Game: Understanding the Rules and Setting the Stage",
+          "actualDuration": 213.010792,
+          "startTime": 107.399458,
+          "endTime": 320.41025
+        },
+        {
+          "path": "Audio/output/2411/chapter_02.wav",
+          "duration": 218.439,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Words and Thoughts: Planting Seeds for Success",
+          "actualDuration": 218.439,
+          "startTime": 321.91025,
+          "endTime": 540.34925
+        },
+        {
+          "path": "Audio/output/2411/chapter_03.wav",
+          "duration": 202.878375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faith, Expectation, and the Law of Attraction: Drawing Good into Life",
+          "actualDuration": 202.878375,
+          "startTime": 541.84925,
+          "endTime": 744.727625
+        },
+        {
+          "path": "Audio/output/2411/chapter_04.wav",
+          "duration": 201.430083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Fear and Negative Patterns: Clearing the Path for Good",
+          "actualDuration": 201.430083,
+          "startTime": 746.227625,
+          "endTime": 947.657708
+        },
+        {
+          "path": "Audio/output/2411/chapter_05.wav",
+          "duration": 196.66875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intuition and Divine Guidance: Listening for the Next Right Step",
+          "actualDuration": 196.66875,
+          "startTime": 949.157708,
+          "endTime": 1145.826458
+        },
+        {
+          "path": "Audio/output/2411/chapter_06.wav",
+          "duration": 181.154292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Law of Giving and Receiving: Circulating Good in the Game",
+          "actualDuration": 181.154292,
+          "startTime": 1147.326458,
+          "endTime": 1328.48075
+        },
+        {
+          "path": "Audio/output/2411/chapter_07.wav",
+          "duration": 184.1145,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Forgiveness and Release: Clearing Emotional Debts",
+          "actualDuration": 184.1145,
+          "startTime": 1329.98075,
+          "endTime": 1514.0952499999999
+        },
+        {
+          "path": "Audio/output/2411/chapter_08.wav",
+          "duration": 151.7,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of the Spoken Word: Declarations and Commands",
+          "actualDuration": 151.7,
+          "startTime": 1515.5952499999999,
+          "endTime": 1667.29525
+        },
+        {
+          "path": "Audio/output/2411/chapter_09.wav",
+          "duration": 159.982542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limitless Potential of Belief: Expanding the Field of Possibility",
+          "actualDuration": 159.982542,
+          "startTime": 1668.79525,
+          "endTime": 1828.7777919999999
+        },
+        {
+          "path": "Audio/output/2411/chapter_10.wav",
+          "duration": 124.113417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Game: Integration and Daily Practice",
+          "actualDuration": 124.113417,
+          "startTime": 1830.2777919999999,
+          "endTime": 1954.391209
+        },
+        {
+          "path": "Audio/output/2411/conclusion.wav",
+          "duration": 109.219792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.219792,
+          "startTime": 1955.891209,
+          "endTime": 2065.1110009999998
+        }
+      ],
+      "totalDuration": 2065.1110009999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.9,
+          "actualStart": 0,
+          "actualEnd": 105.899458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life as a Mental Game: Understanding the Rules and Setting the Stage",
+          "expectedStart": 105.9,
+          "expectedEnd": 318.91,
+          "actualStart": 107.399458,
+          "actualEnd": 320.41025,
+          "timeDifference": 1.49945799999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Words and Thoughts: Planting Seeds for Success",
+          "expectedStart": 318.91,
+          "expectedEnd": 537.35,
+          "actualStart": 321.91025,
+          "actualEnd": 540.34925,
+          "timeDifference": 3.000249999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faith, Expectation, and the Law of Attraction: Drawing Good into Life",
+          "expectedStart": 537.35,
+          "expectedEnd": 740.23,
+          "actualStart": 541.84925,
+          "actualEnd": 744.727625,
+          "timeDifference": 4.499249999999961
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Fear and Negative Patterns: Clearing the Path for Good",
+          "expectedStart": 740.23,
+          "expectedEnd": 941.66,
+          "actualStart": 746.227625,
+          "actualEnd": 947.657708,
+          "timeDifference": 5.997624999999971
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intuition and Divine Guidance: Listening for the Next Right Step",
+          "expectedStart": 941.66,
+          "expectedEnd": 1138.33,
+          "actualStart": 949.157708,
+          "actualEnd": 1145.826458,
+          "timeDifference": 7.497707999999989
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Law of Giving and Receiving: Circulating Good in the Game",
+          "expectedStart": 1138.33,
+          "expectedEnd": 1319.48,
+          "actualStart": 1147.326458,
+          "actualEnd": 1328.48075,
+          "timeDifference": 8.996458000000075
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Forgiveness and Release: Clearing Emotional Debts",
+          "expectedStart": 1319.48,
+          "expectedEnd": 1503.59,
+          "actualStart": 1329.98075,
+          "actualEnd": 1514.0952499999999,
+          "timeDifference": 10.500749999999925
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of the Spoken Word: Declarations and Commands",
+          "expectedStart": 1503.59,
+          "expectedEnd": 1655.29,
+          "actualStart": 1515.5952499999999,
+          "actualEnd": 1667.29525,
+          "timeDifference": 12.005249999999933
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limitless Potential of Belief: Expanding the Field of Possibility",
+          "expectedStart": 1655.29,
+          "expectedEnd": 1815.27,
+          "actualStart": 1668.79525,
+          "actualEnd": 1828.7777919999999,
+          "timeDifference": 13.505249999999933
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Game: Integration and Daily Practice",
+          "expectedStart": 1815.27,
+          "expectedEnd": 1939.38,
+          "actualStart": 1830.2777919999999,
+          "actualEnd": 1954.391209,
+          "timeDifference": 15.007791999999881
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1939.38,
+          "expectedEnd": 2048.6,
+          "actualStart": 1955.891209,
+          "actualEnd": 2065.1110009999998,
+          "timeDifference": 16.51120899999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.899458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life as a Mental Game: Understanding the Rules and Setting the Stage"
+        },
+        {
+          "startTime": 320.41025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life as a Mental Game: Understanding the Rules and Setting the Stage and Chapter 2 The Power of Words and Thoughts: Planting Seeds for Success"
+        },
+        {
+          "startTime": 540.34925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Words and Thoughts: Planting Seeds for Success and Chapter 3 Faith, Expectation, and the Law of Attraction: Drawing Good into Life"
+        },
+        {
+          "startTime": 744.727625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faith, Expectation, and the Law of Attraction: Drawing Good into Life and Chapter 4 Overcoming Fear and Negative Patterns: Clearing the Path for Good"
+        },
+        {
+          "startTime": 947.657708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Fear and Negative Patterns: Clearing the Path for Good and Chapter 5 Intuition and Divine Guidance: Listening for the Next Right Step"
+        },
+        {
+          "startTime": 1145.826458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intuition and Divine Guidance: Listening for the Next Right Step and Chapter 6 The Law of Giving and Receiving: Circulating Good in the Game"
+        },
+        {
+          "startTime": 1328.48075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Law of Giving and Receiving: Circulating Good in the Game and Chapter 7 Forgiveness and Release: Clearing Emotional Debts"
+        },
+        {
+          "startTime": 1514.0952499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Forgiveness and Release: Clearing Emotional Debts and Chapter 8 The Power of the Spoken Word: Declarations and Commands"
+        },
+        {
+          "startTime": 1667.29525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of the Spoken Word: Declarations and Commands and Chapter 9 The Limitless Potential of Belief: Expanding the Field of Possibility"
+        },
+        {
+          "startTime": 1828.7777919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limitless Potential of Belief: Expanding the Field of Possibility and Chapter 10 Living the Game: Integration and Daily Practice"
+        },
+        {
+          "startTime": 1954.391209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Game: Integration and Daily Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2411",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:39:09.688Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

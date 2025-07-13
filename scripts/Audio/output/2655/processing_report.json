@@ -1,0 +1,432 @@
+{
+  "bookId": "2655",
+  "timestamp": "2025-07-12T08:39:52.125Z",
+  "success": false,
+  "processingTime": -1752309249035,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4492,
+    "totalAudioFiles": 12,
+    "totalDuration": 1853.5231259999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1853.5231259999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2655/optimized_text/2655.md",
+    "fileSize": 795,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2655.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2655/metadata/2655_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1853.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2655/metadata/2655_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2655/metadata/2655_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2655/2655_complete.wav",
+    "duration": 1853.523125,
+    "fileSize": 88969188,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2655/introduction.wav",
+          "duration": 79.937875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.937875,
+          "startTime": 0,
+          "endTime": 79.937875
+        },
+        {
+          "path": "Audio/output/2655/chapter_01.wav",
+          "duration": 192.213,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Old Order Unravels: Europe’s Fragile Balance Before the Storm",
+          "actualDuration": 192.213,
+          "startTime": 81.437875,
+          "endTime": 273.650875
+        },
+        {
+          "path": "Audio/output/2655/chapter_02.wav",
+          "duration": 183.190708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First World War: Catastrophe and the Seeds of Upheaval",
+          "actualDuration": 183.190708,
+          "startTime": 275.150875,
+          "endTime": 458.341583
+        },
+        {
+          "path": "Audio/output/2655/chapter_03.wav",
+          "duration": 199.522042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shattered Societies: Revolution, Extremism, and the Struggle for Stability",
+          "actualDuration": 199.522042,
+          "startTime": 459.841583,
+          "endTime": 659.363625
+        },
+        {
+          "path": "Audio/output/2655/chapter_04.wav",
+          "duration": 189.099458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Great Depression and the Rise of Dictatorships",
+          "actualDuration": 189.099458,
+          "startTime": 660.863625,
+          "endTime": 849.963083
+        },
+        {
+          "path": "Audio/output/2655/chapter_05.wav",
+          "duration": 198.391458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Road to War: Nationalism, Appeasement, and the Collapse of Peace",
+          "actualDuration": 198.391458,
+          "startTime": 851.463083,
+          "endTime": 1049.854541
+        },
+        {
+          "path": "Audio/output/2655/chapter_07.wav",
+          "duration": 204.544792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Liberation and Reckoning: Picking Up the Pieces",
+          "actualDuration": 204.544792,
+          "startTime": 1051.354541,
+          "endTime": 1255.8993329999998
+        },
+        {
+          "path": "Audio/output/2655/chapter_08.wav",
+          "duration": 195.001667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cold Peace: Division, Occupation, and the Birth of New Europe",
+          "actualDuration": 195.001667,
+          "startTime": 1257.3993329999998,
+          "endTime": 1452.4009999999998
+        },
+        {
+          "path": "Audio/output/2655/chapter_09.wav",
+          "duration": 164.715917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory, Guilt, and the Search for Meaning",
+          "actualDuration": 164.715917,
+          "startTime": 1453.9009999999998,
+          "endTime": 1618.6169169999998
+        },
+        {
+          "path": "Audio/output/2655/chapter_10.wav",
+          "duration": 141.460917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rebuilding and Renewal: The Foundations of Modern Europe",
+          "actualDuration": 141.460917,
+          "startTime": 1620.1169169999998,
+          "endTime": 1761.5778339999997
+        },
+        {
+          "path": "Audio/output/2655/conclusion.wav",
+          "duration": 105.445292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.445292,
+          "startTime": 1763.0778339999997,
+          "endTime": 1868.5231259999996
+        }
+      ],
+      "totalDuration": 1868.5231259999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.94,
+          "actualStart": 0,
+          "actualEnd": 79.937875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Old Order Unravels: Europe’s Fragile Balance Before the Storm",
+          "expectedStart": 79.94,
+          "expectedEnd": 272.15,
+          "actualStart": 81.437875,
+          "actualEnd": 273.650875,
+          "timeDifference": 1.4978750000000076
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First World War: Catastrophe and the Seeds of Upheaval",
+          "expectedStart": 272.15,
+          "expectedEnd": 455.34,
+          "actualStart": 275.150875,
+          "actualEnd": 458.341583,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shattered Societies: Revolution, Extremism, and the Struggle for Stability",
+          "expectedStart": 455.34,
+          "expectedEnd": 654.86,
+          "actualStart": 459.841583,
+          "actualEnd": 659.363625,
+          "timeDifference": 4.501583000000039
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Great Depression and the Rise of Dictatorships",
+          "expectedStart": 654.86,
+          "expectedEnd": 843.96,
+          "actualStart": 660.863625,
+          "actualEnd": 849.963083,
+          "timeDifference": 6.003624999999943
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Road to War: Nationalism, Appeasement, and the Collapse of Peace",
+          "expectedStart": 843.96,
+          "expectedEnd": 1042.35,
+          "actualStart": 851.463083,
+          "actualEnd": 1049.854541,
+          "timeDifference": 7.503082999999947
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Liberation and Reckoning: Picking Up the Pieces",
+          "expectedStart": 1042.35,
+          "expectedEnd": 1246.89,
+          "actualStart": 1051.354541,
+          "actualEnd": 1255.8993329999998,
+          "timeDifference": 9.004541000000017
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cold Peace: Division, Occupation, and the Birth of New Europe",
+          "expectedStart": 1246.89,
+          "expectedEnd": 1441.89,
+          "actualStart": 1257.3993329999998,
+          "actualEnd": 1452.4009999999998,
+          "timeDifference": 10.509332999999742
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory, Guilt, and the Search for Meaning",
+          "expectedStart": 1441.89,
+          "expectedEnd": 1606.61,
+          "actualStart": 1453.9009999999998,
+          "actualEnd": 1618.6169169999998,
+          "timeDifference": 12.01099999999974
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rebuilding and Renewal: The Foundations of Modern Europe",
+          "expectedStart": 1606.61,
+          "expectedEnd": 1748.07,
+          "actualStart": 1620.1169169999998,
+          "actualEnd": 1761.5778339999997,
+          "timeDifference": 13.50691699999993
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1748.07,
+          "expectedEnd": 1853.52,
+          "actualStart": 1763.0778339999997,
+          "actualEnd": 1868.5231259999996,
+          "timeDifference": 15.007833999999775
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.937875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Old Order Unravels: Europe’s Fragile Balance Before the Storm"
+        },
+        {
+          "startTime": 273.650875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Old Order Unravels: Europe’s Fragile Balance Before the Storm and Chapter 2 The First World War: Catastrophe and the Seeds of Upheaval"
+        },
+        {
+          "startTime": 458.341583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First World War: Catastrophe and the Seeds of Upheaval and Chapter 3 Shattered Societies: Revolution, Extremism, and the Struggle for Stability"
+        },
+        {
+          "startTime": 659.363625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shattered Societies: Revolution, Extremism, and the Struggle for Stability and Chapter 4 The Great Depression and the Rise of Dictatorships"
+        },
+        {
+          "startTime": 849.963083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Great Depression and the Rise of Dictatorships and Chapter 5 The Road to War: Nationalism, Appeasement, and the Collapse of Peace"
+        },
+        {
+          "startTime": 1049.854541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Road to War: Nationalism, Appeasement, and the Collapse of Peace and Chapter 7 Liberation and Reckoning: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1255.8993329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Liberation and Reckoning: Picking Up the Pieces and Chapter 8 The Cold Peace: Division, Occupation, and the Birth of New Europe"
+        },
+        {
+          "startTime": 1452.4009999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cold Peace: Division, Occupation, and the Birth of New Europe and Chapter 9 Memory, Guilt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1618.6169169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory, Guilt, and the Search for Meaning and Chapter 10 Rebuilding and Renewal: The Foundations of Modern Europe"
+        },
+        {
+          "startTime": 1761.5778339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rebuilding and Renewal: The Foundations of Modern Europe and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2655",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:34:10.202Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

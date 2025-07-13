@@ -1,0 +1,456 @@
+{
+  "bookId": "2425",
+  "timestamp": "2025-07-10T22:14:23.328Z",
+  "success": false,
+  "processingTime": -1752185340778,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3847,
+    "totalAudioFiles": 12,
+    "totalDuration": 1983.6704180000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1983.6704180000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2425/optimized_text/2425.md",
+    "fileSize": 819,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2425.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2425/metadata/2425_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1983.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2425/metadata/2425_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2425/metadata/2425_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2425/2425_complete.wav",
+    "duration": 1983.670417,
+    "fileSize": 95216258,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2425/introduction.wav",
+          "duration": 84.762875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.762875,
+          "startTime": 0,
+          "endTime": 84.762875
+        },
+        {
+          "path": "Audio/output/2425/chapter_01.wav",
+          "duration": 164.863167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Poverty—Beyond Material Needs",
+          "actualDuration": 164.863167,
+          "startTime": 86.262875,
+          "endTime": 251.12604199999998
+        },
+        {
+          "path": "Audio/output/2425/chapter_02.wav",
+          "duration": 235.033708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Pitfalls of Good Intentions—When Helping Causes Harm",
+          "actualDuration": 235.033708,
+          "startTime": 252.62604199999998,
+          "endTime": 487.65975
+        },
+        {
+          "path": "Audio/output/2425/chapter_03.wav",
+          "duration": 212.201792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Right Response—Relief, Rehabilitation, and Development",
+          "actualDuration": 212.201792,
+          "startTime": 489.15975,
+          "endTime": 701.361542
+        },
+        {
+          "path": "Audio/output/2425/chapter_04.wav",
+          "duration": 167.036917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Empowerment Over Dependency—Building on Community Strengths",
+          "actualDuration": 167.036917,
+          "startTime": 702.861542,
+          "endTime": 869.898459
+        },
+        {
+          "path": "Audio/output/2425/chapter_05.wav",
+          "duration": 188.671917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Relationships—Restoring Connection and Dignity",
+          "actualDuration": 188.671917,
+          "startTime": 871.398459,
+          "endTime": 1060.0703760000001
+        },
+        {
+          "path": "Audio/output/2425/chapter_06.wav",
+          "duration": 177.192917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Church as a Catalyst—Redefining Its Role in Poverty Alleviation",
+          "actualDuration": 177.192917,
+          "startTime": 1061.5703760000001,
+          "endTime": 1238.7632930000002
+        },
+        {
+          "path": "Audio/output/2425/chapter_07.wav",
+          "duration": 165.963417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Walking with, Not Ahead—The Practice of Participatory Development",
+          "actualDuration": 165.963417,
+          "startTime": 1240.2632930000002,
+          "endTime": 1406.2267100000001
+        },
+        {
+          "path": "Audio/output/2425/chapter_08.wav",
+          "duration": 162.854208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Complexities—When Good Plans Meet Real-World Challenges",
+          "actualDuration": 162.854208,
+          "startTime": 1407.7267100000001,
+          "endTime": 1570.580918
+        },
+        {
+          "path": "Audio/output/2425/chapter_09.wav",
+          "duration": 159.799917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Measuring Success—Redefining Outcomes in Poverty Alleviation",
+          "actualDuration": 159.799917,
+          "startTime": 1572.080918,
+          "endTime": 1731.8808350000002
+        },
+        {
+          "path": "Audio/output/2425/chapter_10.wav",
+          "duration": 134.853083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Journey—Cultivating Hope, Humility, and Perseverance",
+          "actualDuration": 134.853083,
+          "startTime": 1733.3808350000002,
+          "endTime": 1868.2339180000001
+        },
+        {
+          "path": "Audio/output/2425/conclusion.wav",
+          "duration": 130.4365,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.4365,
+          "startTime": 1869.7339180000001,
+          "endTime": 2000.1704180000002
+        }
+      ],
+      "totalDuration": 2000.1704180000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.76,
+          "actualStart": 0,
+          "actualEnd": 84.762875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Poverty—Beyond Material Needs",
+          "expectedStart": 84.76,
+          "expectedEnd": 249.62,
+          "actualStart": 86.262875,
+          "actualEnd": 251.12604199999998,
+          "timeDifference": 1.5028749999999889
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Pitfalls of Good Intentions—When Helping Causes Harm",
+          "expectedStart": 249.62,
+          "expectedEnd": 484.65,
+          "actualStart": 252.62604199999998,
+          "actualEnd": 487.65975,
+          "timeDifference": 3.0060419999999795
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Right Response—Relief, Rehabilitation, and Development",
+          "expectedStart": 484.65,
+          "expectedEnd": 696.85,
+          "actualStart": 489.15975,
+          "actualEnd": 701.361542,
+          "timeDifference": 4.509749999999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Empowerment Over Dependency—Building on Community Strengths",
+          "expectedStart": 696.85,
+          "expectedEnd": 863.89,
+          "actualStart": 702.861542,
+          "actualEnd": 869.898459,
+          "timeDifference": 6.011541999999963
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Relationships—Restoring Connection and Dignity",
+          "expectedStart": 863.89,
+          "expectedEnd": 1052.56,
+          "actualStart": 871.398459,
+          "actualEnd": 1060.0703760000001,
+          "timeDifference": 7.508459000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Church as a Catalyst—Redefining Its Role in Poverty Alleviation",
+          "expectedStart": 1052.56,
+          "expectedEnd": 1229.75,
+          "actualStart": 1061.5703760000001,
+          "actualEnd": 1238.7632930000002,
+          "timeDifference": 9.010376000000178
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Walking with, Not Ahead—The Practice of Participatory Development",
+          "expectedStart": 1229.75,
+          "expectedEnd": 1395.71,
+          "actualStart": 1240.2632930000002,
+          "actualEnd": 1406.2267100000001,
+          "timeDifference": 10.513293000000203
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Complexities—When Good Plans Meet Real-World Challenges",
+          "expectedStart": 1395.71,
+          "expectedEnd": 1558.56,
+          "actualStart": 1407.7267100000001,
+          "actualEnd": 1570.580918,
+          "timeDifference": 12.016710000000103
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Measuring Success—Redefining Outcomes in Poverty Alleviation",
+          "expectedStart": 1558.56,
+          "expectedEnd": 1718.36,
+          "actualStart": 1572.080918,
+          "actualEnd": 1731.8808350000002,
+          "timeDifference": 13.520918000000165
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Journey—Cultivating Hope, Humility, and Perseverance",
+          "expectedStart": 1718.36,
+          "expectedEnd": 1853.21,
+          "actualStart": 1733.3808350000002,
+          "actualEnd": 1868.2339180000001,
+          "timeDifference": 15.020835000000261
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1853.21,
+          "expectedEnd": 1983.65,
+          "actualStart": 1869.7339180000001,
+          "actualEnd": 2000.1704180000002,
+          "timeDifference": 16.523918000000094
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.762875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Poverty—Beyond Material Needs"
+        },
+        {
+          "startTime": 251.12604199999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Poverty—Beyond Material Needs and Chapter 2 The Pitfalls of Good Intentions—When Helping Causes Harm"
+        },
+        {
+          "startTime": 487.65975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Pitfalls of Good Intentions—When Helping Causes Harm and Chapter 3 The Right Response—Relief, Rehabilitation, and Development"
+        },
+        {
+          "startTime": 701.361542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Right Response—Relief, Rehabilitation, and Development and Chapter 4 Empowerment Over Dependency—Building on Community Strengths"
+        },
+        {
+          "startTime": 869.898459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Empowerment Over Dependency—Building on Community Strengths and Chapter 5 The Role of Relationships—Restoring Connection and Dignity"
+        },
+        {
+          "startTime": 1060.0703760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Relationships—Restoring Connection and Dignity and Chapter 6 The Church as a Catalyst—Redefining Its Role in Poverty Alleviation"
+        },
+        {
+          "startTime": 1238.7632930000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Church as a Catalyst—Redefining Its Role in Poverty Alleviation and Chapter 7 Walking with, Not Ahead—The Practice of Participatory Development"
+        },
+        {
+          "startTime": 1406.2267100000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Walking with, Not Ahead—The Practice of Participatory Development and Chapter 8 Navigating Complexities—When Good Plans Meet Real-World Challenges"
+        },
+        {
+          "startTime": 1570.580918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Complexities—When Good Plans Meet Real-World Challenges and Chapter 9 Measuring Success—Redefining Outcomes in Poverty Alleviation"
+        },
+        {
+          "startTime": 1731.8808350000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Measuring Success—Redefining Outcomes in Poverty Alleviation and Chapter 10 Sustaining the Journey—Cultivating Hope, Humility, and Perseverance"
+        },
+        {
+          "startTime": 1868.2339180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Journey—Cultivating Hope, Humility, and Perseverance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2425",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:09:02.108Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

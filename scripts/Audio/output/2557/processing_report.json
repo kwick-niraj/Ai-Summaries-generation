@@ -1,0 +1,456 @@
+{
+  "bookId": "2557",
+  "timestamp": "2025-07-11T05:06:43.023Z",
+  "success": false,
+  "processingTime": -1752210015469,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5353,
+    "totalAudioFiles": 12,
+    "totalDuration": 2562.160458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2562.160458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2557/optimized_text/2557.md",
+    "fileSize": 666,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2557.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2557/metadata/2557_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2562.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2557/metadata/2557_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2557/metadata/2557_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2557/2557_complete.wav",
+    "duration": 2562.160458,
+    "fileSize": 122983780,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2557/introduction.wav",
+          "duration": 110.81675,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.81675,
+          "startTime": 0,
+          "endTime": 110.81675
+        },
+        {
+          "path": "Audio/output/2557/chapter_01.wav",
+          "duration": 273.380208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Restless America",
+          "actualDuration": 273.380208,
+          "startTime": 112.31675,
+          "endTime": 385.696958
+        },
+        {
+          "path": "Audio/output/2557/chapter_02.wav",
+          "duration": 302.446792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Visions, Revelations, and the Birth of a New Faith",
+          "actualDuration": 302.446792,
+          "startTime": 387.196958,
+          "endTime": 689.64375
+        },
+        {
+          "path": "Audio/output/2557/chapter_03.wav",
+          "duration": 294.23525,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Community and Facing Hostility",
+          "actualDuration": 294.23525,
+          "startTime": 691.14375,
+          "endTime": 985.3789999999999
+        },
+        {
+          "path": "Audio/output/2557/chapter_04.wav",
+          "duration": 287.40025,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Revelation, Change, and the Struggle for Unity",
+          "actualDuration": 287.40025,
+          "startTime": 986.8789999999999,
+          "endTime": 1274.27925
+        },
+        {
+          "path": "Audio/output/2557/chapter_05.wav",
+          "duration": 241.59075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Burden of Leadership and the Cost of Belief",
+          "actualDuration": 241.59075,
+          "startTime": 1275.77925,
+          "endTime": 1517.3700000000001
+        },
+        {
+          "path": "Audio/output/2557/chapter_06.wav",
+          "duration": 222.38725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nauvoo—A City of Hope and Tension",
+          "actualDuration": 222.38725,
+          "startTime": 1518.8700000000001,
+          "endTime": 1741.25725
+        },
+        {
+          "path": "Audio/output/2557/chapter_07.wav",
+          "duration": 190.794333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Secret and the Storm—Polygamy and Betrayal",
+          "actualDuration": 190.794333,
+          "startTime": 1742.75725,
+          "endTime": 1933.5515830000002
+        },
+        {
+          "path": "Audio/output/2557/chapter_08.wav",
+          "duration": 180.976167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Days—Arrest, Betrayal, and Martyrdom",
+          "actualDuration": 180.976167,
+          "startTime": 1935.0515830000002,
+          "endTime": 2116.02775
+        },
+        {
+          "path": "Audio/output/2557/chapter_09.wav",
+          "duration": 142.479,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Aftermath—Scattering, Survival, and the Search for Direction",
+          "actualDuration": 142.479,
+          "startTime": 2117.52775,
+          "endTime": 2260.00675
+        },
+        {
+          "path": "Audio/output/2557/chapter_10.wav",
+          "duration": 188.038708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy—Memory, Meaning, and the Making of a Movement",
+          "actualDuration": 188.038708,
+          "startTime": 2261.50675,
+          "endTime": 2449.545458
+        },
+        {
+          "path": "Audio/output/2557/conclusion.wav",
+          "duration": 127.615,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.615,
+          "startTime": 2451.045458,
+          "endTime": 2578.660458
+        }
+      ],
+      "totalDuration": 2578.660458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.82,
+          "actualStart": 0,
+          "actualEnd": 110.81675,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Restless America",
+          "expectedStart": 110.82,
+          "expectedEnd": 384.2,
+          "actualStart": 112.31675,
+          "actualEnd": 385.696958,
+          "timeDifference": 1.4967500000000058
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Visions, Revelations, and the Birth of a New Faith",
+          "expectedStart": 384.2,
+          "expectedEnd": 686.65,
+          "actualStart": 387.196958,
+          "actualEnd": 689.64375,
+          "timeDifference": 2.9969580000000065
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Community and Facing Hostility",
+          "expectedStart": 686.65,
+          "expectedEnd": 980.89,
+          "actualStart": 691.14375,
+          "actualEnd": 985.3789999999999,
+          "timeDifference": 4.493749999999977
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Revelation, Change, and the Struggle for Unity",
+          "expectedStart": 980.89,
+          "expectedEnd": 1268.29,
+          "actualStart": 986.8789999999999,
+          "actualEnd": 1274.27925,
+          "timeDifference": 5.988999999999919
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Burden of Leadership and the Cost of Belief",
+          "expectedStart": 1268.29,
+          "expectedEnd": 1509.88,
+          "actualStart": 1275.77925,
+          "actualEnd": 1517.3700000000001,
+          "timeDifference": 7.489250000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nauvoo—A City of Hope and Tension",
+          "expectedStart": 1509.88,
+          "expectedEnd": 1732.27,
+          "actualStart": 1518.8700000000001,
+          "actualEnd": 1741.25725,
+          "timeDifference": 8.990000000000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Secret and the Storm—Polygamy and Betrayal",
+          "expectedStart": 1732.27,
+          "expectedEnd": 1923.06,
+          "actualStart": 1742.75725,
+          "actualEnd": 1933.5515830000002,
+          "timeDifference": 10.487250000000131
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Days—Arrest, Betrayal, and Martyrdom",
+          "expectedStart": 1923.06,
+          "expectedEnd": 2104.04,
+          "actualStart": 1935.0515830000002,
+          "actualEnd": 2116.02775,
+          "timeDifference": 11.991583000000219
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Aftermath—Scattering, Survival, and the Search for Direction",
+          "expectedStart": 2104.04,
+          "expectedEnd": 2246.52,
+          "actualStart": 2117.52775,
+          "actualEnd": 2260.00675,
+          "timeDifference": 13.487750000000233
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy—Memory, Meaning, and the Making of a Movement",
+          "expectedStart": 2246.52,
+          "expectedEnd": 2434.56,
+          "actualStart": 2261.50675,
+          "actualEnd": 2449.545458,
+          "timeDifference": 14.986750000000029
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2434.56,
+          "expectedEnd": 2562.17,
+          "actualStart": 2451.045458,
+          "actualEnd": 2578.660458,
+          "timeDifference": 16.485458000000108
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.81675,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Restless America"
+        },
+        {
+          "startTime": 385.696958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Restless America and Chapter 2 Visions, Revelations, and the Birth of a New Faith"
+        },
+        {
+          "startTime": 689.64375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Visions, Revelations, and the Birth of a New Faith and Chapter 3 Building a Community and Facing Hostility"
+        },
+        {
+          "startTime": 985.3789999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Community and Facing Hostility and Chapter 4 Revelation, Change, and the Struggle for Unity"
+        },
+        {
+          "startTime": 1274.27925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Revelation, Change, and the Struggle for Unity and Chapter 5 The Burden of Leadership and the Cost of Belief"
+        },
+        {
+          "startTime": 1517.3700000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Burden of Leadership and the Cost of Belief and Chapter 6 Nauvoo—A City of Hope and Tension"
+        },
+        {
+          "startTime": 1741.25725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nauvoo—A City of Hope and Tension and Chapter 7 The Secret and the Storm—Polygamy and Betrayal"
+        },
+        {
+          "startTime": 1933.5515830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Secret and the Storm—Polygamy and Betrayal and Chapter 8 The Final Days—Arrest, Betrayal, and Martyrdom"
+        },
+        {
+          "startTime": 2116.02775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Days—Arrest, Betrayal, and Martyrdom and Chapter 9 Aftermath—Scattering, Survival, and the Search for Direction"
+        },
+        {
+          "startTime": 2260.00675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Aftermath—Scattering, Survival, and the Search for Direction and Chapter 10 Legacy—Memory, Meaning, and the Making of a Movement"
+        },
+        {
+          "startTime": 2449.545458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy—Memory, Meaning, and the Making of a Movement and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2557",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T05:00:17.010Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

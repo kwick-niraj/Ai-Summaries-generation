@@ -1,0 +1,408 @@
+{
+  "bookId": "2673",
+  "timestamp": "2025-07-12T10:06:54.668Z",
+  "success": false,
+  "processingTime": -1752314587561,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4946,
+    "totalAudioFiles": 12,
+    "totalDuration": 1636.4802900000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1636.4802900000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2673/optimized_text/2673.md",
+    "fileSize": 642,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2673.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2673/metadata/2673_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1636.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2673/metadata/2673_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2673/metadata/2673_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2673/2673_complete.wav",
+    "duration": 1636.480292,
+    "fileSize": 78551132,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2673/introduction.wav",
+          "duration": 89.81375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.81375,
+          "startTime": 0,
+          "endTime": 89.81375
+        },
+        {
+          "path": "Audio/output/2673/chapter_01.wav",
+          "duration": 237.436333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A King’s Dream and the Scramble for Africa",
+          "actualDuration": 237.436333,
+          "startTime": 91.31375,
+          "endTime": 328.750083
+        },
+        {
+          "path": "Audio/output/2673/chapter_03.wav",
+          "duration": 227.483333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Bearing Witness: The First Whispers of Outrage",
+          "actualDuration": 227.483333,
+          "startTime": 330.250083,
+          "endTime": 557.733416
+        },
+        {
+          "path": "Audio/output/2673/chapter_05.wav",
+          "duration": 200.486708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Unraveling of a Regime and the Lessons of Memory",
+          "actualDuration": 200.486708,
+          "startTime": 559.233416,
+          "endTime": 759.720124
+        },
+        {
+          "path": "Audio/output/2673/chapter_06.wav",
+          "duration": 197.655,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "actualDuration": 197.655,
+          "startTime": 761.220124,
+          "endTime": 958.875124
+        },
+        {
+          "path": "Audio/output/2673/chapter_07.wav",
+          "duration": 166.504375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle for Historical Memory",
+          "actualDuration": 166.504375,
+          "startTime": 960.375124,
+          "endTime": 1126.8794990000001
+        },
+        {
+          "path": "Audio/output/2673/chapter_08.wav",
+          "duration": 149.411833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Echoes in the Modern World",
+          "actualDuration": 149.411833,
+          "startTime": 1128.3794990000001,
+          "endTime": 1277.7913320000002
+        },
+        {
+          "path": "Audio/output/2673/chapter_09.wav",
+          "duration": 86.384,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bearing Witness Today: The Power of Story",
+          "actualDuration": 86.384,
+          "startTime": 1279.2913320000002,
+          "endTime": 1365.6753320000003
+        },
+        {
+          "path": "Audio/output/2673/chapter_10.wav",
+          "duration": 145.403125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Unfinished Work of Justice",
+          "actualDuration": 145.403125,
+          "startTime": 1367.1753320000003,
+          "endTime": 1512.5784570000003
+        },
+        {
+          "path": "Audio/output/2673/conclusion.wav",
+          "duration": 135.901833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.901833,
+          "startTime": 1514.0784570000003,
+          "endTime": 1649.9802900000004
+        }
+      ],
+      "totalDuration": 1649.9802900000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.81,
+          "actualStart": 0,
+          "actualEnd": 89.81375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A King’s Dream and the Scramble for Africa",
+          "expectedStart": 89.81,
+          "expectedEnd": 327.25,
+          "actualStart": 91.31375,
+          "actualEnd": 328.750083,
+          "timeDifference": 1.5037499999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Bearing Witness: The First Whispers of Outrage",
+          "expectedStart": 327.25,
+          "expectedEnd": 554.73,
+          "actualStart": 330.250083,
+          "actualEnd": 557.733416,
+          "timeDifference": 3.000083000000018
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Unraveling of a Regime and the Lessons of Memory",
+          "expectedStart": 554.73,
+          "expectedEnd": 755.22,
+          "actualStart": 559.233416,
+          "actualEnd": 759.720124,
+          "timeDifference": 4.503416000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "expectedStart": 755.22,
+          "expectedEnd": 952.88,
+          "actualStart": 761.220124,
+          "actualEnd": 958.875124,
+          "timeDifference": 6.000124000000028
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle for Historical Memory",
+          "expectedStart": 952.88,
+          "expectedEnd": 1119.38,
+          "actualStart": 960.375124,
+          "actualEnd": 1126.8794990000001,
+          "timeDifference": 7.4951240000000325
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Echoes in the Modern World",
+          "expectedStart": 1119.38,
+          "expectedEnd": 1268.79,
+          "actualStart": 1128.3794990000001,
+          "actualEnd": 1277.7913320000002,
+          "timeDifference": 8.999499000000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bearing Witness Today: The Power of Story",
+          "expectedStart": 1268.79,
+          "expectedEnd": 1355.17,
+          "actualStart": 1279.2913320000002,
+          "actualEnd": 1365.6753320000003,
+          "timeDifference": 10.501332000000275
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Unfinished Work of Justice",
+          "expectedStart": 1355.17,
+          "expectedEnd": 1500.57,
+          "actualStart": 1367.1753320000003,
+          "actualEnd": 1512.5784570000003,
+          "timeDifference": 12.00533200000018
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1500.57,
+          "expectedEnd": 1636.47,
+          "actualStart": 1514.0784570000003,
+          "actualEnd": 1649.9802900000004,
+          "timeDifference": 13.508457000000362
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.81375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A King’s Dream and the Scramble for Africa"
+        },
+        {
+          "startTime": 328.750083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A King’s Dream and the Scramble for Africa and Chapter 3 Bearing Witness: The First Whispers of Outrage"
+        },
+        {
+          "startTime": 557.733416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Bearing Witness: The First Whispers of Outrage and Chapter 5 The Unraveling of a Regime and the Lessons of Memory"
+        },
+        {
+          "startTime": 759.720124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Unraveling of a Regime and the Lessons of Memory and Chapter 6 Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 958.875124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces and Chapter 7 The Struggle for Historical Memory"
+        },
+        {
+          "startTime": 1126.8794990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle for Historical Memory and Chapter 8 Echoes in the Modern World"
+        },
+        {
+          "startTime": 1277.7913320000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Echoes in the Modern World and Chapter 9 Bearing Witness Today: The Power of Story"
+        },
+        {
+          "startTime": 1365.6753320000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bearing Witness Today: The Power of Story and Chapter 10 The Unfinished Work of Justice"
+        },
+        {
+          "startTime": 1512.5784570000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Unfinished Work of Justice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2673",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:03:09.182Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

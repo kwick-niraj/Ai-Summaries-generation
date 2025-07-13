@@ -1,0 +1,456 @@
+{
+  "bookId": "2623",
+  "timestamp": "2025-07-11T08:38:08.227Z",
+  "success": false,
+  "processingTime": -1752222699598,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4949,
+    "totalAudioFiles": 12,
+    "totalDuration": 2103.702124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2103.702124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2623/optimized_text/2623.md",
+    "fileSize": 772,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "2623.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2623/metadata/2623_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2103.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2623/metadata/2623_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2623/metadata/2623_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2623/2623_complete.wav",
+    "duration": 2103.702125,
+    "fileSize": 100977780,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2623/introduction.wav",
+          "duration": 82.395708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.395708,
+          "startTime": 0,
+          "endTime": 82.395708
+        },
+        {
+          "path": "Audio/output/2623/chapter_01.wav",
+          "duration": 210.968458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life Before the Darkness: Music, Family, and the City’s Pulse",
+          "actualDuration": 210.968458,
+          "startTime": 83.895708,
+          "endTime": 294.864166
+        },
+        {
+          "path": "Audio/output/2623/chapter_02.wav",
+          "duration": 227.636083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Ghetto: Loss, Adaptation, and the Struggle to Endure",
+          "actualDuration": 227.636083,
+          "startTime": 296.364166,
+          "endTime": 524.000249
+        },
+        {
+          "path": "Audio/output/2623/chapter_03.wav",
+          "duration": 191.136625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Separation and Hiding: The Cost of Survival",
+          "actualDuration": 191.136625,
+          "startTime": 525.500249,
+          "endTime": 716.636874
+        },
+        {
+          "path": "Audio/output/2623/chapter_04.wav",
+          "duration": 225.564667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The City in Ruins: Isolation, Desperation, and Unexpected Kindness",
+          "actualDuration": 225.564667,
+          "startTime": 718.136874,
+          "endTime": 943.701541
+        },
+        {
+          "path": "Audio/output/2623/chapter_05.wav",
+          "duration": 179.622333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Waiting for Liberation: The Final Ordeal and the Return of Hope",
+          "actualDuration": 179.622333,
+          "startTime": 945.201541,
+          "endTime": 1124.823874
+        },
+        {
+          "path": "Audio/output/2623/chapter_06.wav",
+          "duration": 234.015292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces in a Changed World",
+          "actualDuration": 234.015292,
+          "startTime": 1126.323874,
+          "endTime": 1360.339166
+        },
+        {
+          "path": "Audio/output/2623/chapter_07.wav",
+          "duration": 212.627083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Road to Healing: Memory, Guilt, and the Search for Meaning",
+          "actualDuration": 212.627083,
+          "startTime": 1361.839166,
+          "endTime": 1574.466249
+        },
+        {
+          "path": "Audio/output/2623/chapter_08.wav",
+          "duration": 185.896333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bearing Witness: Sharing the Story and Honoring the Lost",
+          "actualDuration": 185.896333,
+          "startTime": 1575.966249,
+          "endTime": 1761.862582
+        },
+        {
+          "path": "Audio/output/2623/chapter_09.wav",
+          "duration": 131.646375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Resilience: What Survives After Everything Else Is Gone",
+          "actualDuration": 131.646375,
+          "startTime": 1763.362582,
+          "endTime": 1895.008957
+        },
+        {
+          "path": "Audio/output/2623/chapter_10.wav",
+          "duration": 114.4985,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Music and Memory",
+          "actualDuration": 114.4985,
+          "startTime": 1896.508957,
+          "endTime": 2011.007457
+        },
+        {
+          "path": "Audio/output/2623/conclusion.wav",
+          "duration": 107.694667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.694667,
+          "startTime": 2012.507457,
+          "endTime": 2120.202124
+        }
+      ],
+      "totalDuration": 2120.202124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.4,
+          "actualStart": 0,
+          "actualEnd": 82.395708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life Before the Darkness: Music, Family, and the City’s Pulse",
+          "expectedStart": 82.4,
+          "expectedEnd": 293.37,
+          "actualStart": 83.895708,
+          "actualEnd": 294.864166,
+          "timeDifference": 1.4957079999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Ghetto: Loss, Adaptation, and the Struggle to Endure",
+          "expectedStart": 293.37,
+          "expectedEnd": 521.01,
+          "actualStart": 296.364166,
+          "actualEnd": 524.000249,
+          "timeDifference": 2.994166000000007
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Separation and Hiding: The Cost of Survival",
+          "expectedStart": 521.01,
+          "expectedEnd": 712.15,
+          "actualStart": 525.500249,
+          "actualEnd": 716.636874,
+          "timeDifference": 4.4902490000000626
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The City in Ruins: Isolation, Desperation, and Unexpected Kindness",
+          "expectedStart": 712.15,
+          "expectedEnd": 937.71,
+          "actualStart": 718.136874,
+          "actualEnd": 943.701541,
+          "timeDifference": 5.986874000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Waiting for Liberation: The Final Ordeal and the Return of Hope",
+          "expectedStart": 937.71,
+          "expectedEnd": 1117.33,
+          "actualStart": 945.201541,
+          "actualEnd": 1124.823874,
+          "timeDifference": 7.491540999999984
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces in a Changed World",
+          "expectedStart": 1117.33,
+          "expectedEnd": 1351.35,
+          "actualStart": 1126.323874,
+          "actualEnd": 1360.339166,
+          "timeDifference": 8.993874000000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Road to Healing: Memory, Guilt, and the Search for Meaning",
+          "expectedStart": 1351.35,
+          "expectedEnd": 1563.98,
+          "actualStart": 1361.839166,
+          "actualEnd": 1574.466249,
+          "timeDifference": 10.489166000000068
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bearing Witness: Sharing the Story and Honoring the Lost",
+          "expectedStart": 1563.98,
+          "expectedEnd": 1749.88,
+          "actualStart": 1575.966249,
+          "actualEnd": 1761.862582,
+          "timeDifference": 11.986249000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Resilience: What Survives After Everything Else Is Gone",
+          "expectedStart": 1749.88,
+          "expectedEnd": 1881.53,
+          "actualStart": 1763.362582,
+          "actualEnd": 1895.008957,
+          "timeDifference": 13.482581999999866
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Music and Memory",
+          "expectedStart": 1881.53,
+          "expectedEnd": 1996.03,
+          "actualStart": 1896.508957,
+          "actualEnd": 2011.007457,
+          "timeDifference": 14.978957000000037
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1996.03,
+          "expectedEnd": 2103.72,
+          "actualStart": 2012.507457,
+          "actualEnd": 2120.202124,
+          "timeDifference": 16.47745699999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.395708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life Before the Darkness: Music, Family, and the City’s Pulse"
+        },
+        {
+          "startTime": 294.864166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life Before the Darkness: Music, Family, and the City’s Pulse and Chapter 2 The Ghetto: Loss, Adaptation, and the Struggle to Endure"
+        },
+        {
+          "startTime": 524.000249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Ghetto: Loss, Adaptation, and the Struggle to Endure and Chapter 3 Separation and Hiding: The Cost of Survival"
+        },
+        {
+          "startTime": 716.636874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Separation and Hiding: The Cost of Survival and Chapter 4 The City in Ruins: Isolation, Desperation, and Unexpected Kindness"
+        },
+        {
+          "startTime": 943.701541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The City in Ruins: Isolation, Desperation, and Unexpected Kindness and Chapter 5 Waiting for Liberation: The Final Ordeal and the Return of Hope"
+        },
+        {
+          "startTime": 1124.823874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Waiting for Liberation: The Final Ordeal and the Return of Hope and Chapter 6 Aftermath: Picking Up the Pieces in a Changed World"
+        },
+        {
+          "startTime": 1360.339166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces in a Changed World and Chapter 7 The Long Road to Healing: Memory, Guilt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1574.466249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Road to Healing: Memory, Guilt, and the Search for Meaning and Chapter 8 Bearing Witness: Sharing the Story and Honoring the Lost"
+        },
+        {
+          "startTime": 1761.862582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bearing Witness: Sharing the Story and Honoring the Lost and Chapter 9 Lessons in Resilience: What Survives After Everything Else Is Gone"
+        },
+        {
+          "startTime": 1895.008957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Resilience: What Survives After Everything Else Is Gone and Chapter 10 The Enduring Power of Music and Memory"
+        },
+        {
+          "startTime": 2011.007457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Music and Memory and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2623",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:31:40.894Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "bookId": "2681",
+  "timestamp": "2025-07-12T10:40:59.868Z",
+  "success": false,
+  "processingTime": -1752316356562,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5244,
+    "totalAudioFiles": 17,
+    "totalDuration": 2582.459915
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2582.459915
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2681/optimized_text/2681.md",
+    "fileSize": 1077,
+    "wordCount": 168,
+    "format": "markdown",
+    "filename": "2681.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2681/metadata/2681_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2582.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2681/metadata/2681_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2681/metadata/2681_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2681/2681_complete.wav",
+    "duration": 2582.459917,
+    "fileSize": 123958154,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2681/introduction.wav",
+          "duration": 83.511958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.511958,
+          "startTime": 0,
+          "endTime": 83.511958
+        },
+        {
+          "path": "Audio/output/2681/chapter_01.wav",
+          "duration": 261.035583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why We Think We’re Rational (But Rarely Are)",
+          "actualDuration": 261.035583,
+          "startTime": 85.011958,
+          "endTime": 346.04754099999997
+        },
+        {
+          "path": "Audio/output/2681/chapter_02.wav",
+          "duration": 218.596458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Comparisons and the Trap of Anchoring",
+          "actualDuration": 218.596458,
+          "startTime": 347.54754099999997,
+          "endTime": 566.143999
+        },
+        {
+          "path": "Audio/output/2681/chapter_03.wav",
+          "duration": 179.921667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Strange Allure of Free and the Cost of Zero",
+          "actualDuration": 179.921667,
+          "startTime": 567.643999,
+          "endTime": 747.565666
+        },
+        {
+          "path": "Audio/output/2681/chapter_04.wav",
+          "duration": 186.034125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Why We Overvalue What We Own and Struggle to Let Go",
+          "actualDuration": 186.034125,
+          "startTime": 749.065666,
+          "endTime": 935.099791
+        },
+        {
+          "path": "Audio/output/2681/chapter_05.wav",
+          "duration": 173.118292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Procrastination, Self-Control, and the Struggle Against Immediate Temptation",
+          "actualDuration": 173.118292,
+          "startTime": 936.599791,
+          "endTime": 1109.718083
+        },
+        {
+          "path": "Audio/output/2681/chapter_06.wav",
+          "duration": 192.744958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Pull of Social Norms and the Power of Community",
+          "actualDuration": 192.744958,
+          "startTime": 1111.218083,
+          "endTime": 1303.963041
+        },
+        {
+          "path": "Audio/output/2681/chapter_07.wav",
+          "duration": 178.204333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Influence of Expectations and the Stories We Tell Ourselves",
+          "actualDuration": 178.204333,
+          "startTime": 1305.463041,
+          "endTime": 1483.6673739999999
+        },
+        {
+          "path": "Audio/output/2681/chapter_08.wav",
+          "duration": 133.755083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The High Price of Ownership: Why We Can’t Let Go",
+          "actualDuration": 133.755083,
+          "startTime": 1485.1673739999999,
+          "endTime": 1618.922457
+        },
+        {
+          "path": "Audio/output/2681/chapter_09.wav",
+          "duration": 139.024542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Problem with “Keeping Up”: Relativity and Envy",
+          "actualDuration": 139.024542,
+          "startTime": 1620.422457,
+          "endTime": 1759.4469989999998
+        },
+        {
+          "path": "Audio/output/2681/chapter_10.wav",
+          "duration": 120.099167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Cost of Dishonesty: Why We Cheat (A Little)",
+          "actualDuration": 120.099167,
+          "startTime": 1760.9469989999998,
+          "endTime": 1881.0461659999999
+        },
+        {
+          "path": "Audio/output/2681/chapter_11.wav",
+          "duration": 110.863458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of Placebo: How Belief Shapes Reality",
+          "actualDuration": 110.863458,
+          "startTime": 1882.5461659999999,
+          "endTime": 1993.409624
+        },
+        {
+          "path": "Audio/output/2681/chapter_12.wav",
+          "duration": 103.904167,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The High Cost of Ownership: Why We Overpay and Overcommit",
+          "actualDuration": 103.904167,
+          "startTime": 1994.909624,
+          "endTime": 2098.813791
+        },
+        {
+          "path": "Audio/output/2681/chapter_13.wav",
+          "duration": 108.194833,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Power of Price: How Cost Shapes Experience",
+          "actualDuration": 108.194833,
+          "startTime": 2100.313791,
+          "endTime": 2208.508624
+        },
+        {
+          "path": "Audio/output/2681/chapter_14.wav",
+          "duration": 135.547208,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Power of Rituals and the Comfort of Routine",
+          "actualDuration": 135.547208,
+          "startTime": 2210.008624,
+          "endTime": 2345.555832
+        },
+        {
+          "path": "Audio/output/2681/chapter_15.wav",
+          "duration": 94.573458,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Power of Awareness: Seeing the Invisible Strings",
+          "actualDuration": 94.573458,
+          "startTime": 2347.055832,
+          "endTime": 2441.62929
+        },
+        {
+          "path": "Audio/output/2681/conclusion.wav",
+          "duration": 163.330625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 163.330625,
+          "startTime": 2443.12929,
+          "endTime": 2606.459915
+        }
+      ],
+      "totalDuration": 2606.459915,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.51,
+          "actualStart": 0,
+          "actualEnd": 83.511958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why We Think We’re Rational (But Rarely Are)",
+          "expectedStart": 83.51,
+          "expectedEnd": 344.55,
+          "actualStart": 85.011958,
+          "actualEnd": 346.04754099999997,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Comparisons and the Trap of Anchoring",
+          "expectedStart": 344.55,
+          "expectedEnd": 563.15,
+          "actualStart": 347.54754099999997,
+          "actualEnd": 566.143999,
+          "timeDifference": 2.9975409999999556
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Strange Allure of Free and the Cost of Zero",
+          "expectedStart": 563.15,
+          "expectedEnd": 743.07,
+          "actualStart": 567.643999,
+          "actualEnd": 747.565666,
+          "timeDifference": 4.493999000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Why We Overvalue What We Own and Struggle to Let Go",
+          "expectedStart": 743.07,
+          "expectedEnd": 929.1,
+          "actualStart": 749.065666,
+          "actualEnd": 935.099791,
+          "timeDifference": 5.995665999999915
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Procrastination, Self-Control, and the Struggle Against Immediate Temptation",
+          "expectedStart": 929.1,
+          "expectedEnd": 1102.22,
+          "actualStart": 936.599791,
+          "actualEnd": 1109.718083,
+          "timeDifference": 7.499790999999959
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Pull of Social Norms and the Power of Community",
+          "expectedStart": 1102.22,
+          "expectedEnd": 1294.96,
+          "actualStart": 1111.218083,
+          "actualEnd": 1303.963041,
+          "timeDifference": 8.998082999999951
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Influence of Expectations and the Stories We Tell Ourselves",
+          "expectedStart": 1294.96,
+          "expectedEnd": 1473.16,
+          "actualStart": 1305.463041,
+          "actualEnd": 1483.6673739999999,
+          "timeDifference": 10.50304099999994
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The High Price of Ownership: Why We Can’t Let Go",
+          "expectedStart": 1473.16,
+          "expectedEnd": 1606.92,
+          "actualStart": 1485.1673739999999,
+          "actualEnd": 1618.922457,
+          "timeDifference": 12.0073739999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Problem with “Keeping Up”: Relativity and Envy",
+          "expectedStart": 1606.92,
+          "expectedEnd": 1745.94,
+          "actualStart": 1620.422457,
+          "actualEnd": 1759.4469989999998,
+          "timeDifference": 13.502456999999822
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Cost of Dishonesty: Why We Cheat (A Little)",
+          "expectedStart": 1745.94,
+          "expectedEnd": 1866.04,
+          "actualStart": 1760.9469989999998,
+          "actualEnd": 1881.0461659999999,
+          "timeDifference": 15.006998999999723
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of Placebo: How Belief Shapes Reality",
+          "expectedStart": 1866.04,
+          "expectedEnd": 1976.9,
+          "actualStart": 1882.5461659999999,
+          "actualEnd": 1993.409624,
+          "timeDifference": 16.506165999999894
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The High Cost of Ownership: Why We Overpay and Overcommit",
+          "expectedStart": 1976.9,
+          "expectedEnd": 2080.8,
+          "actualStart": 1994.909624,
+          "actualEnd": 2098.813791,
+          "timeDifference": 18.009623999999803
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Power of Price: How Cost Shapes Experience",
+          "expectedStart": 2080.8,
+          "expectedEnd": 2188.99,
+          "actualStart": 2100.313791,
+          "actualEnd": 2208.508624,
+          "timeDifference": 19.513790999999856
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Power of Rituals and the Comfort of Routine",
+          "expectedStart": 2188.99,
+          "expectedEnd": 2324.54,
+          "actualStart": 2210.008624,
+          "actualEnd": 2345.555832,
+          "timeDifference": 21.018624000000273
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Power of Awareness: Seeing the Invisible Strings",
+          "expectedStart": 2324.54,
+          "expectedEnd": 2419.11,
+          "actualStart": 2347.055832,
+          "actualEnd": 2441.62929,
+          "timeDifference": 22.515832000000046
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2419.11,
+          "expectedEnd": 2582.44,
+          "actualStart": 2443.12929,
+          "actualEnd": 2606.459915,
+          "timeDifference": 24.019289999999728
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.511958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why We Think We’re Rational (But Rarely Are)"
+        },
+        {
+          "startTime": 346.04754099999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why We Think We’re Rational (But Rarely Are) and Chapter 2 The Power of Comparisons and the Trap of Anchoring"
+        },
+        {
+          "startTime": 566.143999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Comparisons and the Trap of Anchoring and Chapter 3 The Strange Allure of Free and the Cost of Zero"
+        },
+        {
+          "startTime": 747.565666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Strange Allure of Free and the Cost of Zero and Chapter 4 Why We Overvalue What We Own and Struggle to Let Go"
+        },
+        {
+          "startTime": 935.099791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Why We Overvalue What We Own and Struggle to Let Go and Chapter 5 Procrastination, Self-Control, and the Struggle Against Immediate Temptation"
+        },
+        {
+          "startTime": 1109.718083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Procrastination, Self-Control, and the Struggle Against Immediate Temptation and Chapter 6 The Pull of Social Norms and the Power of Community"
+        },
+        {
+          "startTime": 1303.963041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Pull of Social Norms and the Power of Community and Chapter 7 The Influence of Expectations and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1483.6673739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Influence of Expectations and the Stories We Tell Ourselves and Chapter 8 The High Price of Ownership: Why We Can’t Let Go"
+        },
+        {
+          "startTime": 1618.922457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The High Price of Ownership: Why We Can’t Let Go and Chapter 9 The Problem with “Keeping Up”: Relativity and Envy"
+        },
+        {
+          "startTime": 1759.4469989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Problem with “Keeping Up”: Relativity and Envy and Chapter 10 The Cost of Dishonesty: Why We Cheat (A Little)"
+        },
+        {
+          "startTime": 1881.0461659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Cost of Dishonesty: Why We Cheat (A Little) and Chapter 11 The Power of Placebo: How Belief Shapes Reality"
+        },
+        {
+          "startTime": 1993.409624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of Placebo: How Belief Shapes Reality and Chapter 12 The High Cost of Ownership: Why We Overpay and Overcommit"
+        },
+        {
+          "startTime": 2098.813791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The High Cost of Ownership: Why We Overpay and Overcommit and Chapter 13 The Power of Price: How Cost Shapes Experience"
+        },
+        {
+          "startTime": 2208.508624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Power of Price: How Cost Shapes Experience and Chapter 14 The Power of Rituals and the Comfort of Routine"
+        },
+        {
+          "startTime": 2345.555832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Power of Rituals and the Comfort of Routine and Chapter 15 The Power of Awareness: Seeing the Invisible Strings"
+        },
+        {
+          "startTime": 2441.62929,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Power of Awareness: Seeing the Invisible Strings and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2681",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:32:37.764Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

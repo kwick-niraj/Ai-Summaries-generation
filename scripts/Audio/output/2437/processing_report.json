@@ -1,0 +1,456 @@
+{
+  "bookId": "2437",
+  "timestamp": "2025-07-10T22:42:15.880Z",
+  "success": false,
+  "processingTime": -1752187067967,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4556,
+    "totalAudioFiles": 12,
+    "totalDuration": 2097.415501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2097.415501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2437/optimized_text/2437.md",
+    "fileSize": 700,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2437.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2437/metadata/2437_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2097.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2437/metadata/2437_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2437/metadata/2437_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2437/2437_complete.wav",
+    "duration": 2097.4155,
+    "fileSize": 100676022,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2437/introduction.wav",
+          "duration": 91.295917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.295917,
+          "startTime": 0,
+          "endTime": 91.295917
+        },
+        {
+          "path": "Audio/output/2437/chapter_01.wav",
+          "duration": 190.741667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Shared Heart of Mystical Poetry",
+          "actualDuration": 190.741667,
+          "startTime": 92.795917,
+          "endTime": 283.53758400000004
+        },
+        {
+          "path": "Audio/output/2437/chapter_02.wav",
+          "duration": 216.232625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Faces of Divine Longing",
+          "actualDuration": 216.232625,
+          "startTime": 285.03758400000004,
+          "endTime": 501.270209
+        },
+        {
+          "path": "Audio/output/2437/chapter_03.wav",
+          "duration": 211.573292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Surrender and Transformation on the Spiritual Path",
+          "actualDuration": 211.573292,
+          "startTime": 502.770209,
+          "endTime": 714.3435010000001
+        },
+        {
+          "path": "Audio/output/2437/chapter_04.wav",
+          "duration": 219.375917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Joy, Suffering, and the Paradox of Divine Love",
+          "actualDuration": 219.375917,
+          "startTime": 715.8435010000001,
+          "endTime": 935.219418
+        },
+        {
+          "path": "Audio/output/2437/chapter_05.wav",
+          "duration": 224.803458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Universality of Mystical Experience Across Cultures",
+          "actualDuration": 224.803458,
+          "startTime": 936.719418,
+          "endTime": 1161.522876
+        },
+        {
+          "path": "Audio/output/2437/chapter_06.wav",
+          "duration": 192.466208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance of Paradox: Embracing Contradiction on the Path",
+          "actualDuration": 192.466208,
+          "startTime": 1163.022876,
+          "endTime": 1355.489084
+        },
+        {
+          "path": "Audio/output/2437/chapter_07.wav",
+          "duration": 178.033375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Dissolving the Boundaries: Self, Other, and the Divine",
+          "actualDuration": 178.033375,
+          "startTime": 1356.989084,
+          "endTime": 1535.022459
+        },
+        {
+          "path": "Audio/output/2437/chapter_08.wav",
+          "duration": 155.242042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Language of the Heart: Poetry as Spiritual Practice",
+          "actualDuration": 155.242042,
+          "startTime": 1536.522459,
+          "endTime": 1691.764501
+        },
+        {
+          "path": "Audio/output/2437/chapter_09.wav",
+          "duration": 153.889333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Relevance of Mystical Poetry",
+          "actualDuration": 153.889333,
+          "startTime": 1693.264501,
+          "endTime": 1847.1538340000002
+        },
+        {
+          "path": "Audio/output/2437/chapter_10.wav",
+          "duration": 121.285375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Wisdom: Bringing Mystical Insight into Daily Life",
+          "actualDuration": 121.285375,
+          "startTime": 1848.6538340000002,
+          "endTime": 1969.9392090000001
+        },
+        {
+          "path": "Audio/output/2437/conclusion.wav",
+          "duration": 142.476292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.476292,
+          "startTime": 1971.4392090000001,
+          "endTime": 2113.915501
+        }
+      ],
+      "totalDuration": 2113.915501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.3,
+          "actualStart": 0,
+          "actualEnd": 91.295917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Shared Heart of Mystical Poetry",
+          "expectedStart": 91.3,
+          "expectedEnd": 282.04,
+          "actualStart": 92.795917,
+          "actualEnd": 283.53758400000004,
+          "timeDifference": 1.4959170000000057
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Faces of Divine Longing",
+          "expectedStart": 282.04,
+          "expectedEnd": 498.27,
+          "actualStart": 285.03758400000004,
+          "actualEnd": 501.270209,
+          "timeDifference": 2.9975840000000176
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Surrender and Transformation on the Spiritual Path",
+          "expectedStart": 498.27,
+          "expectedEnd": 709.84,
+          "actualStart": 502.770209,
+          "actualEnd": 714.3435010000001,
+          "timeDifference": 4.500209000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Joy, Suffering, and the Paradox of Divine Love",
+          "expectedStart": 709.84,
+          "expectedEnd": 929.22,
+          "actualStart": 715.8435010000001,
+          "actualEnd": 935.219418,
+          "timeDifference": 6.003501000000028
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Universality of Mystical Experience Across Cultures",
+          "expectedStart": 929.22,
+          "expectedEnd": 1154.02,
+          "actualStart": 936.719418,
+          "actualEnd": 1161.522876,
+          "timeDifference": 7.4994179999999915
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance of Paradox: Embracing Contradiction on the Path",
+          "expectedStart": 1154.02,
+          "expectedEnd": 1346.49,
+          "actualStart": 1163.022876,
+          "actualEnd": 1355.489084,
+          "timeDifference": 9.002876000000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Dissolving the Boundaries: Self, Other, and the Divine",
+          "expectedStart": 1346.49,
+          "expectedEnd": 1524.52,
+          "actualStart": 1356.989084,
+          "actualEnd": 1535.022459,
+          "timeDifference": 10.499084000000039
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Language of the Heart: Poetry as Spiritual Practice",
+          "expectedStart": 1524.52,
+          "expectedEnd": 1679.76,
+          "actualStart": 1536.522459,
+          "actualEnd": 1691.764501,
+          "timeDifference": 12.002459000000044
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Relevance of Mystical Poetry",
+          "expectedStart": 1679.76,
+          "expectedEnd": 1833.65,
+          "actualStart": 1693.264501,
+          "actualEnd": 1847.1538340000002,
+          "timeDifference": 13.504501000000118
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Wisdom: Bringing Mystical Insight into Daily Life",
+          "expectedStart": 1833.65,
+          "expectedEnd": 1954.94,
+          "actualStart": 1848.6538340000002,
+          "actualEnd": 1969.9392090000001,
+          "timeDifference": 15.003834000000097
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1954.94,
+          "expectedEnd": 2097.42,
+          "actualStart": 1971.4392090000001,
+          "actualEnd": 2113.915501,
+          "timeDifference": 16.499209000000064
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.295917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Shared Heart of Mystical Poetry"
+        },
+        {
+          "startTime": 283.53758400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Shared Heart of Mystical Poetry and Chapter 2 The Many Faces of Divine Longing"
+        },
+        {
+          "startTime": 501.270209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Faces of Divine Longing and Chapter 3 Surrender and Transformation on the Spiritual Path"
+        },
+        {
+          "startTime": 714.3435010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Surrender and Transformation on the Spiritual Path and Chapter 4 Joy, Suffering, and the Paradox of Divine Love"
+        },
+        {
+          "startTime": 935.219418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Joy, Suffering, and the Paradox of Divine Love and Chapter 5 The Universality of Mystical Experience Across Cultures"
+        },
+        {
+          "startTime": 1161.522876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Universality of Mystical Experience Across Cultures and Chapter 6 The Dance of Paradox: Embracing Contradiction on the Path"
+        },
+        {
+          "startTime": 1355.489084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance of Paradox: Embracing Contradiction on the Path and Chapter 7 Dissolving the Boundaries: Self, Other, and the Divine"
+        },
+        {
+          "startTime": 1535.022459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Dissolving the Boundaries: Self, Other, and the Divine and Chapter 8 The Language of the Heart: Poetry as Spiritual Practice"
+        },
+        {
+          "startTime": 1691.764501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Language of the Heart: Poetry as Spiritual Practice and Chapter 9 The Enduring Relevance of Mystical Poetry"
+        },
+        {
+          "startTime": 1847.1538340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Relevance of Mystical Poetry and Chapter 10 Living the Wisdom: Bringing Mystical Insight into Daily Life"
+        },
+        {
+          "startTime": 1969.9392090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Wisdom: Bringing Mystical Insight into Daily Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2437",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:37:48.470Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

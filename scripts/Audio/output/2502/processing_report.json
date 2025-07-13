@@ -1,0 +1,361 @@
+{
+  "bookId": "2502",
+  "timestamp": "2025-07-11T02:00:15.243Z",
+  "success": false,
+  "processingTime": -1752198883712,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5017,
+    "totalAudioFiles": 12,
+    "totalDuration": 1388.582125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 8,
+    "failed": 4,
+    "duration": 1388.582125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2502/optimized_text/2502.md",
+    "fileSize": 6086,
+    "wordCount": 944,
+    "format": "markdown",
+    "filename": "2502.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2502/metadata/2502_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1388.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2502/metadata/2502_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2502/metadata/2502_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2502/2502_complete.wav",
+    "duration": 1388.582125,
+    "fileSize": 66652020,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2502/chapter_03.wav",
+          "duration": 257.640458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life Inside: Survival, Suffering, and Small Acts of Defiance",
+          "actualDuration": 257.640458,
+          "startTime": 0,
+          "endTime": 257.640458
+        },
+        {
+          "path": "Audio/output/2502/chapter_05.wav",
+          "duration": 166.634292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Cost: Trauma, Memory, and the Struggle to Reclaim Dignity",
+          "actualDuration": 166.634292,
+          "startTime": 259.140458,
+          "endTime": 425.77475000000004
+        },
+        {
+          "path": "Audio/output/2502/chapter_06.wav",
+          "duration": 171.852333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Web of Collaboration: Choices, Compromises, and the Gray Zone",
+          "actualDuration": 171.852333,
+          "startTime": 427.27475000000004,
+          "endTime": 599.1270830000001
+        },
+        {
+          "path": "Audio/output/2502/chapter_07.wav",
+          "duration": 182.07525,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Resistance and Rebellion: The Flicker of Hope",
+          "actualDuration": 182.07525,
+          "startTime": 600.6270830000001,
+          "endTime": 782.7023330000001
+        },
+        {
+          "path": "Audio/output/2502/chapter_08.wav",
+          "duration": 179.613125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Guards: Ordinary People, Extraordinary Cruelty",
+          "actualDuration": 179.613125,
+          "startTime": 784.2023330000001,
+          "endTime": 963.815458
+        },
+        {
+          "path": "Audio/output/2502/chapter_09.wav",
+          "duration": 164.271333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Liberation: The End of the Camp, the Beginning of Another Struggle",
+          "actualDuration": 164.271333,
+          "startTime": 965.315458,
+          "endTime": 1129.586791
+        },
+        {
+          "path": "Audio/output/2502/chapter_10.wav",
+          "duration": 144.711167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bearing Witness: Memory, Justice, and the Long Shadow of the Camps",
+          "actualDuration": 144.711167,
+          "startTime": 1131.086791,
+          "endTime": 1275.7979579999999
+        },
+        {
+          "path": "Audio/output/2502/conclusion.wav",
+          "duration": 121.784167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.784167,
+          "startTime": 1277.2979579999999,
+          "endTime": 1399.082125
+        }
+      ],
+      "totalDuration": 1399.082125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life Inside: Survival, Suffering, and Small Acts of Defiance",
+          "expectedStart": 0,
+          "expectedEnd": 257.64,
+          "actualStart": 0,
+          "actualEnd": 257.640458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Cost: Trauma, Memory, and the Struggle to Reclaim Dignity",
+          "expectedStart": 257.64,
+          "expectedEnd": 424.27,
+          "actualStart": 259.140458,
+          "actualEnd": 425.77475000000004,
+          "timeDifference": 1.5004580000000374
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Web of Collaboration: Choices, Compromises, and the Gray Zone",
+          "expectedStart": 424.27,
+          "expectedEnd": 596.12,
+          "actualStart": 427.27475000000004,
+          "actualEnd": 599.1270830000001,
+          "timeDifference": 3.004750000000058
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Resistance and Rebellion: The Flicker of Hope",
+          "expectedStart": 596.12,
+          "expectedEnd": 778.2,
+          "actualStart": 600.6270830000001,
+          "actualEnd": 782.7023330000001,
+          "timeDifference": 4.50708300000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Guards: Ordinary People, Extraordinary Cruelty",
+          "expectedStart": 778.2,
+          "expectedEnd": 957.81,
+          "actualStart": 784.2023330000001,
+          "actualEnd": 963.815458,
+          "timeDifference": 6.0023330000000215
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Liberation: The End of the Camp, the Beginning of Another Struggle",
+          "expectedStart": 957.81,
+          "expectedEnd": 1122.08,
+          "actualStart": 965.315458,
+          "actualEnd": 1129.586791,
+          "timeDifference": 7.50545800000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bearing Witness: Memory, Justice, and the Long Shadow of the Camps",
+          "expectedStart": 1122.08,
+          "expectedEnd": 1266.79,
+          "actualStart": 1131.086791,
+          "actualEnd": 1275.7979579999999,
+          "timeDifference": 9.006791000000021
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1266.79,
+          "expectedEnd": 1388.57,
+          "actualStart": 1277.2979579999999,
+          "actualEnd": 1399.082125,
+          "timeDifference": 10.507957999999917
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 257.640458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life Inside: Survival, Suffering, and Small Acts of Defiance and Chapter 5 The Human Cost: Trauma, Memory, and the Struggle to Reclaim Dignity"
+        },
+        {
+          "startTime": 425.77475000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Cost: Trauma, Memory, and the Struggle to Reclaim Dignity and Chapter 6 The Web of Collaboration: Choices, Compromises, and the Gray Zone"
+        },
+        {
+          "startTime": 599.1270830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Web of Collaboration: Choices, Compromises, and the Gray Zone and Chapter 7 Resistance and Rebellion: The Flicker of Hope"
+        },
+        {
+          "startTime": 782.7023330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Resistance and Rebellion: The Flicker of Hope and Chapter 8 The Guards: Ordinary People, Extraordinary Cruelty"
+        },
+        {
+          "startTime": 963.815458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Guards: Ordinary People, Extraordinary Cruelty and Chapter 9 Liberation: The End of the Camp, the Beginning of Another Struggle"
+        },
+        {
+          "startTime": 1129.586791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Liberation: The End of the Camp, the Beginning of Another Struggle and Chapter 10 Bearing Witness: Memory, Justice, and the Long Shadow of the Camps"
+        },
+        {
+          "startTime": 1275.7979579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bearing Witness: Memory, Justice, and the Long Shadow of the Camps and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 8
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2502",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:54:45.247Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

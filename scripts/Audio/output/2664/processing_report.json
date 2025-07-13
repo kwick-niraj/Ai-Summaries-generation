@@ -1,0 +1,456 @@
+{
+  "bookId": "2664",
+  "timestamp": "2025-07-12T09:20:18.949Z",
+  "success": false,
+  "processingTime": -1752311811367,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4023,
+    "totalAudioFiles": 12,
+    "totalDuration": 1954.4283750000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1954.4283750000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2664/optimized_text/2664.md",
+    "fileSize": 697,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2664.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2664/metadata/2664_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1954.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2664/metadata/2664_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2664/metadata/2664_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2664/2664_complete.wav",
+    "duration": 1954.428375,
+    "fileSize": 93812640,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2664/introduction.wav",
+          "duration": 110.072167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.072167,
+          "startTime": 0,
+          "endTime": 110.072167
+        },
+        {
+          "path": "Audio/output/2664/chapter_01.wav",
+          "duration": 203.698,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Grit and the Seeds of Brotherhood",
+          "actualDuration": 203.698,
+          "startTime": 111.572167,
+          "endTime": 315.270167
+        },
+        {
+          "path": "Audio/output/2664/chapter_02.wav",
+          "duration": 217.84575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a SEAL: Endurance, Brotherhood, and the Warrior Mindset",
+          "actualDuration": 217.84575,
+          "startTime": 316.770167,
+          "endTime": 534.6159170000001
+        },
+        {
+          "path": "Audio/output/2664/chapter_03.wav",
+          "duration": 226.138,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Into the Mountains: The Mission That Changed Everything",
+          "actualDuration": 226.138,
+          "startTime": 536.1159170000001,
+          "endTime": 762.2539170000001
+        },
+        {
+          "path": "Audio/output/2664/chapter_04.wav",
+          "duration": 176.261833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Survival, Kindness, and the Cost of War",
+          "actualDuration": 176.261833,
+          "startTime": 763.7539170000001,
+          "endTime": 940.0157500000001
+        },
+        {
+          "path": "Audio/output/2664/chapter_05.wav",
+          "duration": 152.056167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Honor, Memory, and the Meaning of Sacrifice",
+          "actualDuration": 152.056167,
+          "startTime": 941.5157500000001,
+          "endTime": 1093.5719170000002
+        },
+        {
+          "path": "Audio/output/2664/chapter_06.wav",
+          "duration": 161.040042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Survival and the Search for Meaning",
+          "actualDuration": 161.040042,
+          "startTime": 1095.0719170000002,
+          "endTime": 1256.1119590000003
+        },
+        {
+          "path": "Audio/output/2664/chapter_07.wav",
+          "duration": 144.964292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Brotherhood Beyond the Battlefield",
+          "actualDuration": 144.964292,
+          "startTime": 1257.6119590000003,
+          "endTime": 1402.5762510000004
+        },
+        {
+          "path": "Audio/output/2664/chapter_08.wav",
+          "duration": 159.3895,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Burden and Gift of Telling the Story",
+          "actualDuration": 159.3895,
+          "startTime": 1404.0762510000004,
+          "endTime": 1563.4657510000004
+        },
+        {
+          "path": "Audio/output/2664/chapter_09.wav",
+          "duration": 148.954708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for Life: Courage, Compassion, and the Power of Choice",
+          "actualDuration": 148.954708,
+          "startTime": 1564.9657510000004,
+          "endTime": 1713.9204590000004
+        },
+        {
+          "path": "Audio/output/2664/chapter_10.wav",
+          "duration": 131.120458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Legacy: Hope, Remembrance, and Moving Forward",
+          "actualDuration": 131.120458,
+          "startTime": 1715.4204590000004,
+          "endTime": 1846.5409170000005
+        },
+        {
+          "path": "Audio/output/2664/conclusion.wav",
+          "duration": 122.887458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.887458,
+          "startTime": 1848.0409170000005,
+          "endTime": 1970.9283750000004
+        }
+      ],
+      "totalDuration": 1970.9283750000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.07,
+          "actualStart": 0,
+          "actualEnd": 110.072167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Grit and the Seeds of Brotherhood",
+          "expectedStart": 110.07,
+          "expectedEnd": 313.77,
+          "actualStart": 111.572167,
+          "actualEnd": 315.270167,
+          "timeDifference": 1.502167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a SEAL: Endurance, Brotherhood, and the Warrior Mindset",
+          "expectedStart": 313.77,
+          "expectedEnd": 531.62,
+          "actualStart": 316.770167,
+          "actualEnd": 534.6159170000001,
+          "timeDifference": 3.000167000000033
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Into the Mountains: The Mission That Changed Everything",
+          "expectedStart": 531.62,
+          "expectedEnd": 757.76,
+          "actualStart": 536.1159170000001,
+          "actualEnd": 762.2539170000001,
+          "timeDifference": 4.495917000000077
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Survival, Kindness, and the Cost of War",
+          "expectedStart": 757.76,
+          "expectedEnd": 934.02,
+          "actualStart": 763.7539170000001,
+          "actualEnd": 940.0157500000001,
+          "timeDifference": 5.993917000000124
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Honor, Memory, and the Meaning of Sacrifice",
+          "expectedStart": 934.02,
+          "expectedEnd": 1086.08,
+          "actualStart": 941.5157500000001,
+          "actualEnd": 1093.5719170000002,
+          "timeDifference": 7.495750000000157
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Survival and the Search for Meaning",
+          "expectedStart": 1086.08,
+          "expectedEnd": 1247.12,
+          "actualStart": 1095.0719170000002,
+          "actualEnd": 1256.1119590000003,
+          "timeDifference": 8.991917000000285
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Brotherhood Beyond the Battlefield",
+          "expectedStart": 1247.12,
+          "expectedEnd": 1392.08,
+          "actualStart": 1257.6119590000003,
+          "actualEnd": 1402.5762510000004,
+          "timeDifference": 10.491959000000406
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Burden and Gift of Telling the Story",
+          "expectedStart": 1392.08,
+          "expectedEnd": 1551.47,
+          "actualStart": 1404.0762510000004,
+          "actualEnd": 1563.4657510000004,
+          "timeDifference": 11.996251000000484
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for Life: Courage, Compassion, and the Power of Choice",
+          "expectedStart": 1551.47,
+          "expectedEnd": 1700.42,
+          "actualStart": 1564.9657510000004,
+          "actualEnd": 1713.9204590000004,
+          "timeDifference": 13.495751000000382
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Legacy: Hope, Remembrance, and Moving Forward",
+          "expectedStart": 1700.42,
+          "expectedEnd": 1831.54,
+          "actualStart": 1715.4204590000004,
+          "actualEnd": 1846.5409170000005,
+          "timeDifference": 15.000459000000319
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1831.54,
+          "expectedEnd": 1954.43,
+          "actualStart": 1848.0409170000005,
+          "actualEnd": 1970.9283750000004,
+          "timeDifference": 16.500917000000527
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.072167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Grit and the Seeds of Brotherhood"
+        },
+        {
+          "startTime": 315.270167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Grit and the Seeds of Brotherhood and Chapter 2 The Making of a SEAL: Endurance, Brotherhood, and the Warrior Mindset"
+        },
+        {
+          "startTime": 534.6159170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a SEAL: Endurance, Brotherhood, and the Warrior Mindset and Chapter 3 Into the Mountains: The Mission That Changed Everything"
+        },
+        {
+          "startTime": 762.2539170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Into the Mountains: The Mission That Changed Everything and Chapter 4 Survival, Kindness, and the Cost of War"
+        },
+        {
+          "startTime": 940.0157500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Survival, Kindness, and the Cost of War and Chapter 5 Honor, Memory, and the Meaning of Sacrifice"
+        },
+        {
+          "startTime": 1093.5719170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Honor, Memory, and the Meaning of Sacrifice and Chapter 6 The Weight of Survival and the Search for Meaning"
+        },
+        {
+          "startTime": 1256.1119590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Survival and the Search for Meaning and Chapter 7 Brotherhood Beyond the Battlefield"
+        },
+        {
+          "startTime": 1402.5762510000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Brotherhood Beyond the Battlefield and Chapter 8 The Burden and Gift of Telling the Story"
+        },
+        {
+          "startTime": 1563.4657510000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Burden and Gift of Telling the Story and Chapter 9 Lessons for Life: Courage, Compassion, and the Power of Choice"
+        },
+        {
+          "startTime": 1713.9204590000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for Life: Courage, Compassion, and the Power of Choice and Chapter 10 Enduring Legacy: Hope, Remembrance, and Moving Forward"
+        },
+        {
+          "startTime": 1846.5409170000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Legacy: Hope, Remembrance, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2664",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:16:53.003Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

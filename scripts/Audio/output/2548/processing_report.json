@@ -1,0 +1,456 @@
+{
+  "bookId": "2548",
+  "timestamp": "2025-07-11T04:29:46.294Z",
+  "success": false,
+  "processingTime": -1752207885064,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4402,
+    "totalAudioFiles": 12,
+    "totalDuration": 2005.9926239999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2005.9926239999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2548/optimized_text/2548.md",
+    "fileSize": 609,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "2548.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2548/metadata/2548_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2005.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2548/metadata/2548_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2548/metadata/2548_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2548/2548_complete.wav",
+    "duration": 2005.992625,
+    "fileSize": 96287724,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2548/introduction.wav",
+          "duration": 90.999667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.999667,
+          "startTime": 0,
+          "endTime": 90.999667
+        },
+        {
+          "path": "Audio/output/2548/chapter_01.wav",
+          "duration": 186.218958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Call to Something More: Why Quests Matter",
+          "actualDuration": 186.218958,
+          "startTime": 92.499667,
+          "endTime": 278.718625
+        },
+        {
+          "path": "Audio/output/2548/chapter_02.wav",
+          "duration": 218.920542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ordinary People, Extraordinary Journeys",
+          "actualDuration": 218.920542,
+          "startTime": 280.218625,
+          "endTime": 499.139167
+        },
+        {
+          "path": "Audio/output/2548/chapter_03.wav",
+          "duration": 193.394875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Discomfort and Uncertainty",
+          "actualDuration": 193.394875,
+          "startTime": 500.639167,
+          "endTime": 694.034042
+        },
+        {
+          "path": "Audio/output/2548/chapter_04.wav",
+          "duration": 207.530458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding and Defining a Personal Quest",
+          "actualDuration": 207.530458,
+          "startTime": 695.534042,
+          "endTime": 903.0645
+        },
+        {
+          "path": "Audio/output/2548/chapter_05.wav",
+          "duration": 171.616125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Community and Shared Pursuits",
+          "actualDuration": 171.616125,
+          "startTime": 904.5645,
+          "endTime": 1076.180625
+        },
+        {
+          "path": "Audio/output/2548/chapter_06.wav",
+          "duration": 194.834833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Middle: Where Transformation Happens",
+          "actualDuration": 194.834833,
+          "startTime": 1077.680625,
+          "endTime": 1272.5154579999999
+        },
+        {
+          "path": "Audio/output/2548/chapter_07.wav",
+          "duration": 185.388333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Setbacks and Redefining Success",
+          "actualDuration": 185.388333,
+          "startTime": 1274.0154579999999,
+          "endTime": 1459.4037909999997
+        },
+        {
+          "path": "Audio/output/2548/chapter_08.wav",
+          "duration": 164.73375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: How Quests Change Lives",
+          "actualDuration": 164.73375,
+          "startTime": 1460.9037909999997,
+          "endTime": 1625.6375409999996
+        },
+        {
+          "path": "Audio/output/2548/chapter_09.wav",
+          "duration": 158.772292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Return: Integrating the Quest into Everyday Life",
+          "actualDuration": 158.772292,
+          "startTime": 1627.1375409999996,
+          "endTime": 1785.9098329999997
+        },
+        {
+          "path": "Audio/output/2548/chapter_10.wav",
+          "duration": 103.501083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living a Life of Purposeful Pursuit",
+          "actualDuration": 103.501083,
+          "startTime": 1787.4098329999997,
+          "endTime": 1890.9109159999998
+        },
+        {
+          "path": "Audio/output/2548/conclusion.wav",
+          "duration": 130.081708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.081708,
+          "startTime": 1892.4109159999998,
+          "endTime": 2022.4926239999998
+        }
+      ],
+      "totalDuration": 2022.4926239999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91,
+          "actualStart": 0,
+          "actualEnd": 90.999667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Call to Something More: Why Quests Matter",
+          "expectedStart": 91,
+          "expectedEnd": 277.22,
+          "actualStart": 92.499667,
+          "actualEnd": 278.718625,
+          "timeDifference": 1.4996670000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ordinary People, Extraordinary Journeys",
+          "expectedStart": 277.22,
+          "expectedEnd": 496.14,
+          "actualStart": 280.218625,
+          "actualEnd": 499.139167,
+          "timeDifference": 2.9986249999999472
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Discomfort and Uncertainty",
+          "expectedStart": 496.14,
+          "expectedEnd": 689.53,
+          "actualStart": 500.639167,
+          "actualEnd": 694.034042,
+          "timeDifference": 4.499167
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding and Defining a Personal Quest",
+          "expectedStart": 689.53,
+          "expectedEnd": 897.06,
+          "actualStart": 695.534042,
+          "actualEnd": 903.0645,
+          "timeDifference": 6.004042000000027
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Community and Shared Pursuits",
+          "expectedStart": 897.06,
+          "expectedEnd": 1068.68,
+          "actualStart": 904.5645,
+          "actualEnd": 1076.180625,
+          "timeDifference": 7.504500000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Middle: Where Transformation Happens",
+          "expectedStart": 1068.68,
+          "expectedEnd": 1263.51,
+          "actualStart": 1077.680625,
+          "actualEnd": 1272.5154579999999,
+          "timeDifference": 9.0006249999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Setbacks and Redefining Success",
+          "expectedStart": 1263.51,
+          "expectedEnd": 1448.9,
+          "actualStart": 1274.0154579999999,
+          "actualEnd": 1459.4037909999997,
+          "timeDifference": 10.505457999999862
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: How Quests Change Lives",
+          "expectedStart": 1448.9,
+          "expectedEnd": 1613.63,
+          "actualStart": 1460.9037909999997,
+          "actualEnd": 1625.6375409999996,
+          "timeDifference": 12.003790999999637
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Return: Integrating the Quest into Everyday Life",
+          "expectedStart": 1613.63,
+          "expectedEnd": 1772.4,
+          "actualStart": 1627.1375409999996,
+          "actualEnd": 1785.9098329999997,
+          "timeDifference": 13.507540999999492
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living a Life of Purposeful Pursuit",
+          "expectedStart": 1772.4,
+          "expectedEnd": 1875.9,
+          "actualStart": 1787.4098329999997,
+          "actualEnd": 1890.9109159999998,
+          "timeDifference": 15.009832999999617
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1875.9,
+          "expectedEnd": 2005.98,
+          "actualStart": 1892.4109159999998,
+          "actualEnd": 2022.4926239999998,
+          "timeDifference": 16.510915999999725
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.999667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Call to Something More: Why Quests Matter"
+        },
+        {
+          "startTime": 278.718625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Call to Something More: Why Quests Matter and Chapter 2 Ordinary People, Extraordinary Journeys"
+        },
+        {
+          "startTime": 499.139167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ordinary People, Extraordinary Journeys and Chapter 3 Embracing Discomfort and Uncertainty"
+        },
+        {
+          "startTime": 694.034042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Discomfort and Uncertainty and Chapter 4 Finding and Defining a Personal Quest"
+        },
+        {
+          "startTime": 903.0645,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding and Defining a Personal Quest and Chapter 5 The Power of Community and Shared Pursuits"
+        },
+        {
+          "startTime": 1076.180625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Community and Shared Pursuits and Chapter 6 The Middle: Where Transformation Happens"
+        },
+        {
+          "startTime": 1272.5154579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Middle: Where Transformation Happens and Chapter 7 Facing Setbacks and Redefining Success"
+        },
+        {
+          "startTime": 1459.4037909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Setbacks and Redefining Success and Chapter 8 The Ripple Effect: How Quests Change Lives"
+        },
+        {
+          "startTime": 1625.6375409999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: How Quests Change Lives and Chapter 9 The Return: Integrating the Quest into Everyday Life"
+        },
+        {
+          "startTime": 1785.9098329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Return: Integrating the Quest into Everyday Life and Chapter 10 Living a Life of Purposeful Pursuit"
+        },
+        {
+          "startTime": 1890.9109159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living a Life of Purposeful Pursuit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2548",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:24:46.607Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

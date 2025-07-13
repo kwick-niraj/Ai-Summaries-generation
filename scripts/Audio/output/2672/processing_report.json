@@ -1,0 +1,456 @@
+{
+  "bookId": "2672",
+  "timestamp": "2025-07-12T10:03:06.556Z",
+  "success": false,
+  "processingTime": -1752314169428,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4531,
+    "totalAudioFiles": 12,
+    "totalDuration": 2054.090998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2054.090998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2672/optimized_text/2672.md",
+    "fileSize": 792,
+    "wordCount": 126,
+    "format": "markdown",
+    "filename": "2672.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2672/metadata/2672_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2054.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2672/metadata/2672_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2672/metadata/2672_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2672/2672_complete.wav",
+    "duration": 2054.091,
+    "fileSize": 98596446,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2672/introduction.wav",
+          "duration": 91.640625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.640625,
+          "startTime": 0,
+          "endTime": 91.640625
+        },
+        {
+          "path": "Audio/output/2672/chapter_01.wav",
+          "duration": 286.931833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World on Edge — Uncertainty and Hope at the Dawn of Revolution",
+          "actualDuration": 286.931833,
+          "startTime": 93.140625,
+          "endTime": 380.072458
+        },
+        {
+          "path": "Audio/output/2672/chapter_02.wav",
+          "duration": 253.749083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing the British Lion — The Struggle for New York",
+          "actualDuration": 253.749083,
+          "startTime": 381.572458,
+          "endTime": 635.321541
+        },
+        {
+          "path": "Audio/output/2672/chapter_03.wav",
+          "duration": 257.747625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Hard Lessons and New Resolve — The Army on the Brink",
+          "actualDuration": 257.747625,
+          "startTime": 636.821541,
+          "endTime": 894.569166
+        },
+        {
+          "path": "Audio/output/2672/chapter_04.wav",
+          "duration": 197.024583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The People Behind the Struggle — Ordinary Lives, Extraordinary Choices",
+          "actualDuration": 197.024583,
+          "startTime": 896.069166,
+          "endTime": 1093.0937490000001
+        },
+        {
+          "path": "Audio/output/2672/chapter_05.wav",
+          "duration": 162.557708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Turning Point — Perseverance and the Birth of a Nation",
+          "actualDuration": 162.557708,
+          "startTime": 1094.5937490000001,
+          "endTime": 1257.1514570000002
+        },
+        {
+          "path": "Audio/output/2672/chapter_06.wav",
+          "duration": 163.642958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War Grows Personal — Bonds, Betrayals, and the Weight of Command",
+          "actualDuration": 163.642958,
+          "startTime": 1258.6514570000002,
+          "endTime": 1422.294415
+        },
+        {
+          "path": "Audio/output/2672/chapter_07.wav",
+          "duration": 155.854917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Shifting Tides — New Strategies and the Power of Adaptation",
+          "actualDuration": 155.854917,
+          "startTime": 1423.794415,
+          "endTime": 1579.649332
+        },
+        {
+          "path": "Audio/output/2672/chapter_08.wav",
+          "duration": 132.970208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Watches — Allies, Enemies, and the Global Stage",
+          "actualDuration": 132.970208,
+          "startTime": 1581.149332,
+          "endTime": 1714.11954
+        },
+        {
+          "path": "Audio/output/2672/chapter_09.wav",
+          "duration": 139.136792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Endurance and Sacrifice — The Cost of Freedom",
+          "actualDuration": 139.136792,
+          "startTime": 1715.61954,
+          "endTime": 1854.756332
+        },
+        {
+          "path": "Audio/output/2672/chapter_10.wav",
+          "duration": 105.429583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of 1776 — Lessons for the Future",
+          "actualDuration": 105.429583,
+          "startTime": 1856.256332,
+          "endTime": 1961.685915
+        },
+        {
+          "path": "Audio/output/2672/conclusion.wav",
+          "duration": 107.405083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.405083,
+          "startTime": 1963.185915,
+          "endTime": 2070.590998
+        }
+      ],
+      "totalDuration": 2070.590998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.64,
+          "actualStart": 0,
+          "actualEnd": 91.640625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World on Edge — Uncertainty and Hope at the Dawn of Revolution",
+          "expectedStart": 91.64,
+          "expectedEnd": 378.57,
+          "actualStart": 93.140625,
+          "actualEnd": 380.072458,
+          "timeDifference": 1.5006249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing the British Lion — The Struggle for New York",
+          "expectedStart": 378.57,
+          "expectedEnd": 632.32,
+          "actualStart": 381.572458,
+          "actualEnd": 635.321541,
+          "timeDifference": 3.00245799999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Hard Lessons and New Resolve — The Army on the Brink",
+          "expectedStart": 632.32,
+          "expectedEnd": 890.07,
+          "actualStart": 636.821541,
+          "actualEnd": 894.569166,
+          "timeDifference": 4.501540999999975
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The People Behind the Struggle — Ordinary Lives, Extraordinary Choices",
+          "expectedStart": 890.07,
+          "expectedEnd": 1087.09,
+          "actualStart": 896.069166,
+          "actualEnd": 1093.0937490000001,
+          "timeDifference": 5.999165999999946
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Turning Point — Perseverance and the Birth of a Nation",
+          "expectedStart": 1087.09,
+          "expectedEnd": 1249.65,
+          "actualStart": 1094.5937490000001,
+          "actualEnd": 1257.1514570000002,
+          "timeDifference": 7.503749000000198
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War Grows Personal — Bonds, Betrayals, and the Weight of Command",
+          "expectedStart": 1249.65,
+          "expectedEnd": 1413.29,
+          "actualStart": 1258.6514570000002,
+          "actualEnd": 1422.294415,
+          "timeDifference": 9.001457000000073
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Shifting Tides — New Strategies and the Power of Adaptation",
+          "expectedStart": 1413.29,
+          "expectedEnd": 1569.14,
+          "actualStart": 1423.794415,
+          "actualEnd": 1579.649332,
+          "timeDifference": 10.504415000000108
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Watches — Allies, Enemies, and the Global Stage",
+          "expectedStart": 1569.14,
+          "expectedEnd": 1702.11,
+          "actualStart": 1581.149332,
+          "actualEnd": 1714.11954,
+          "timeDifference": 12.009331999999858
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Endurance and Sacrifice — The Cost of Freedom",
+          "expectedStart": 1702.11,
+          "expectedEnd": 1841.25,
+          "actualStart": 1715.61954,
+          "actualEnd": 1854.756332,
+          "timeDifference": 13.509540000000015
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of 1776 — Lessons for the Future",
+          "expectedStart": 1841.25,
+          "expectedEnd": 1946.68,
+          "actualStart": 1856.256332,
+          "actualEnd": 1961.685915,
+          "timeDifference": 15.00633199999993
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1946.68,
+          "expectedEnd": 2054.09,
+          "actualStart": 1963.185915,
+          "actualEnd": 2070.590998,
+          "timeDifference": 16.50591499999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.640625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World on Edge — Uncertainty and Hope at the Dawn of Revolution"
+        },
+        {
+          "startTime": 380.072458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World on Edge — Uncertainty and Hope at the Dawn of Revolution and Chapter 2 Facing the British Lion — The Struggle for New York"
+        },
+        {
+          "startTime": 635.321541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing the British Lion — The Struggle for New York and Chapter 3 Hard Lessons and New Resolve — The Army on the Brink"
+        },
+        {
+          "startTime": 894.569166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Hard Lessons and New Resolve — The Army on the Brink and Chapter 4 The People Behind the Struggle — Ordinary Lives, Extraordinary Choices"
+        },
+        {
+          "startTime": 1093.0937490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The People Behind the Struggle — Ordinary Lives, Extraordinary Choices and Chapter 5 The Turning Point — Perseverance and the Birth of a Nation"
+        },
+        {
+          "startTime": 1257.1514570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Turning Point — Perseverance and the Birth of a Nation and Chapter 6 The War Grows Personal — Bonds, Betrayals, and the Weight of Command"
+        },
+        {
+          "startTime": 1422.294415,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War Grows Personal — Bonds, Betrayals, and the Weight of Command and Chapter 7 Shifting Tides — New Strategies and the Power of Adaptation"
+        },
+        {
+          "startTime": 1579.649332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Shifting Tides — New Strategies and the Power of Adaptation and Chapter 8 The World Watches — Allies, Enemies, and the Global Stage"
+        },
+        {
+          "startTime": 1714.11954,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Watches — Allies, Enemies, and the Global Stage and Chapter 9 Endurance and Sacrifice — The Cost of Freedom"
+        },
+        {
+          "startTime": 1854.756332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Endurance and Sacrifice — The Cost of Freedom and Chapter 10 The Legacy of 1776 — Lessons for the Future"
+        },
+        {
+          "startTime": 1961.685915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of 1776 — Lessons for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2672",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:56:09.933Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

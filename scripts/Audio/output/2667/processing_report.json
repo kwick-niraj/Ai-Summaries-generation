@@ -1,0 +1,432 @@
+{
+  "bookId": "2667",
+  "timestamp": "2025-07-12T09:34:58.356Z",
+  "success": false,
+  "processingTime": -1752312647492,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4724,
+    "totalAudioFiles": 11,
+    "totalDuration": 1810.806209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1810.806209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2667/optimized_text/2667.md",
+    "fileSize": 728,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2667.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2667/metadata/2667_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1810.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2667/metadata/2667_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2667/metadata/2667_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2667/2667_complete.wav",
+    "duration": 1810.806208,
+    "fileSize": 86918776,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2667/introduction.wav",
+          "duration": 78.408375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.408375,
+          "startTime": 0,
+          "endTime": 78.408375
+        },
+        {
+          "path": "Audio/output/2667/chapter_01.wav",
+          "duration": 229.077417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary Beginnings and Unseen Shadows",
+          "actualDuration": 229.077417,
+          "startTime": 79.908375,
+          "endTime": 308.985792
+        },
+        {
+          "path": "Audio/output/2667/chapter_02.wav",
+          "duration": 202.92475,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mask of Normalcy and the Power of Deception",
+          "actualDuration": 202.92475,
+          "startTime": 310.485792,
+          "endTime": 513.410542
+        },
+        {
+          "path": "Audio/output/2667/chapter_03.wav",
+          "duration": 158.728875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unraveling: Suspicion, Denial, and the Search for Truth",
+          "actualDuration": 158.728875,
+          "startTime": 514.910542,
+          "endTime": 673.639417
+        },
+        {
+          "path": "Audio/output/2667/chapter_04.wav",
+          "duration": 156.667625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Breaking Point: Arrest, Revelation, and the Cost of Betrayal",
+          "actualDuration": 156.667625,
+          "startTime": 675.139417,
+          "endTime": 831.8070419999999
+        },
+        {
+          "path": "Audio/output/2667/chapter_05.wav",
+          "duration": 146.82625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath: Grief, Reflection, and the Long Road to Understanding",
+          "actualDuration": 146.82625,
+          "startTime": 833.3070419999999,
+          "endTime": 980.1332919999999
+        },
+        {
+          "path": "Audio/output/2667/chapter_06.wav",
+          "duration": 119.824625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes in the Courtroom: Facing the Unthinkable",
+          "actualDuration": 119.824625,
+          "startTime": 981.6332919999999,
+          "endTime": 1101.457917
+        },
+        {
+          "path": "Audio/output/2667/chapter_07.wav",
+          "duration": 158.14675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Investigation: Lessons Learned and Changes Made",
+          "actualDuration": 158.14675,
+          "startTime": 1102.957917,
+          "endTime": 1261.104667
+        },
+        {
+          "path": "Audio/output/2667/chapter_08.wav",
+          "duration": 158.7435,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Survivors and the Weight of Memory",
+          "actualDuration": 158.7435,
+          "startTime": 1262.604667,
+          "endTime": 1421.348167
+        },
+        {
+          "path": "Audio/output/2667/chapter_09.wav",
+          "duration": 158.8785,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Author’s Dilemma: Friendship, Guilt, and the Search for Meaning",
+          "actualDuration": 158.8785,
+          "startTime": 1422.848167,
+          "endTime": 1581.7266670000001
+        },
+        {
+          "path": "Audio/output/2667/chapter_10.wav",
+          "duration": 242.579542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Impact: How a City—and a Nation—Changed",
+          "actualDuration": 242.579542,
+          "startTime": 1583.2266670000001,
+          "endTime": 1825.806209
+        }
+      ],
+      "totalDuration": 1825.806209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.41,
+          "actualStart": 0,
+          "actualEnd": 78.408375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ordinary Beginnings and Unseen Shadows",
+          "expectedStart": 78.41,
+          "expectedEnd": 307.49,
+          "actualStart": 79.908375,
+          "actualEnd": 308.985792,
+          "timeDifference": 1.49837500000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mask of Normalcy and the Power of Deception",
+          "expectedStart": 307.49,
+          "expectedEnd": 510.41,
+          "actualStart": 310.485792,
+          "actualEnd": 513.410542,
+          "timeDifference": 2.9957919999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unraveling: Suspicion, Denial, and the Search for Truth",
+          "expectedStart": 510.41,
+          "expectedEnd": 669.14,
+          "actualStart": 514.910542,
+          "actualEnd": 673.639417,
+          "timeDifference": 4.500541999999939
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Breaking Point: Arrest, Revelation, and the Cost of Betrayal",
+          "expectedStart": 669.14,
+          "expectedEnd": 825.81,
+          "actualStart": 675.139417,
+          "actualEnd": 831.8070419999999,
+          "timeDifference": 5.999416999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath: Grief, Reflection, and the Long Road to Understanding",
+          "expectedStart": 825.81,
+          "expectedEnd": 972.64,
+          "actualStart": 833.3070419999999,
+          "actualEnd": 980.1332919999999,
+          "timeDifference": 7.497041999999965
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes in the Courtroom: Facing the Unthinkable",
+          "expectedStart": 972.64,
+          "expectedEnd": 1092.46,
+          "actualStart": 981.6332919999999,
+          "actualEnd": 1101.457917,
+          "timeDifference": 8.993291999999883
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Investigation: Lessons Learned and Changes Made",
+          "expectedStart": 1092.46,
+          "expectedEnd": 1250.61,
+          "actualStart": 1102.957917,
+          "actualEnd": 1261.104667,
+          "timeDifference": 10.497916999999916
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Survivors and the Weight of Memory",
+          "expectedStart": 1250.61,
+          "expectedEnd": 1409.35,
+          "actualStart": 1262.604667,
+          "actualEnd": 1421.348167,
+          "timeDifference": 11.994667000000163
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Author’s Dilemma: Friendship, Guilt, and the Search for Meaning",
+          "expectedStart": 1409.35,
+          "expectedEnd": 1568.23,
+          "actualStart": 1422.848167,
+          "actualEnd": 1581.7266670000001,
+          "timeDifference": 13.498167000000194
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Impact: How a City—and a Nation—Changed",
+          "expectedStart": 1568.23,
+          "expectedEnd": 1810.81,
+          "actualStart": 1583.2266670000001,
+          "actualEnd": 1825.806209,
+          "timeDifference": 14.996667000000116
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.408375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ordinary Beginnings and Unseen Shadows"
+        },
+        {
+          "startTime": 308.985792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary Beginnings and Unseen Shadows and Chapter 2 The Mask of Normalcy and the Power of Deception"
+        },
+        {
+          "startTime": 513.410542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mask of Normalcy and the Power of Deception and Chapter 3 The Unraveling: Suspicion, Denial, and the Search for Truth"
+        },
+        {
+          "startTime": 673.639417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unraveling: Suspicion, Denial, and the Search for Truth and Chapter 4 The Breaking Point: Arrest, Revelation, and the Cost of Betrayal"
+        },
+        {
+          "startTime": 831.8070419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Breaking Point: Arrest, Revelation, and the Cost of Betrayal and Chapter 5 The Aftermath: Grief, Reflection, and the Long Road to Understanding"
+        },
+        {
+          "startTime": 980.1332919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath: Grief, Reflection, and the Long Road to Understanding and Chapter 6 Echoes in the Courtroom: Facing the Unthinkable"
+        },
+        {
+          "startTime": 1101.457917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes in the Courtroom: Facing the Unthinkable and Chapter 7 The Evolution of Investigation: Lessons Learned and Changes Made"
+        },
+        {
+          "startTime": 1261.104667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Investigation: Lessons Learned and Changes Made and Chapter 8 Survivors and the Weight of Memory"
+        },
+        {
+          "startTime": 1421.348167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Survivors and the Weight of Memory and Chapter 9 The Author’s Dilemma: Friendship, Guilt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1581.7266670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Author’s Dilemma: Friendship, Guilt, and the Search for Meaning and Chapter 10 Enduring Impact: How a City—and a Nation—Changed"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2667",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T09:30:48.690Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

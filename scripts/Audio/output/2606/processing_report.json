@@ -1,0 +1,456 @@
+{
+  "bookId": "2606",
+  "timestamp": "2025-07-11T07:50:14.675Z",
+  "success": false,
+  "processingTime": -1752219921665,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4735,
+    "totalAudioFiles": 12,
+    "totalDuration": 2324.7880840000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2324.7880840000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2606/optimized_text/2606.md",
+    "fileSize": 739,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2606.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2606/metadata/2606_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2324.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2606/metadata/2606_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2606/metadata/2606_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2606/2606_complete.wav",
+    "duration": 2324.788083,
+    "fileSize": 111589906,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2606/introduction.wav",
+          "duration": 86.102042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.102042,
+          "startTime": 0,
+          "endTime": 86.102042
+        },
+        {
+          "path": "Audio/output/2606/chapter_01.wav",
+          "duration": 242.161917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When the World Changed Shape—A New Kind of Neighborhood",
+          "actualDuration": 242.161917,
+          "startTime": 87.602042,
+          "endTime": 329.763959
+        },
+        {
+          "path": "Audio/output/2606/chapter_02.wav",
+          "duration": 325.852417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Ten Forces That Leveled the Playing Field",
+          "actualDuration": 325.852417,
+          "startTime": 331.263959,
+          "endTime": 657.116376
+        },
+        {
+          "path": "Audio/output/2606/chapter_03.wav",
+          "duration": 234.995833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Outsourcing and Offshoring Changed Everyday Life",
+          "actualDuration": 234.995833,
+          "startTime": 658.616376,
+          "endTime": 893.6122089999999
+        },
+        {
+          "path": "Audio/output/2606/chapter_04.wav",
+          "duration": 225.026458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Competing and Thriving in a Connected World",
+          "actualDuration": 225.026458,
+          "startTime": 895.1122089999999,
+          "endTime": 1120.138667
+        },
+        {
+          "path": "Audio/output/2606/chapter_05.wav",
+          "duration": 206.864,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Education and Policy in a Flattened World",
+          "actualDuration": 206.864,
+          "startTime": 1121.638667,
+          "endTime": 1328.502667
+        },
+        {
+          "path": "Audio/output/2606/chapter_06.wav",
+          "duration": 192.494417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Power of Culture in a Flat World",
+          "actualDuration": 192.494417,
+          "startTime": 1330.002667,
+          "endTime": 1522.497084
+        },
+        {
+          "path": "Audio/output/2606/chapter_07.wav",
+          "duration": 186.303708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unseen Hand—Politics, Power, and the Flat World",
+          "actualDuration": 186.303708,
+          "startTime": 1523.997084,
+          "endTime": 1710.300792
+        },
+        {
+          "path": "Audio/output/2606/chapter_08.wav",
+          "duration": 161.590208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Great Sorting—Winners, Losers, and the Search for Meaning",
+          "actualDuration": 161.590208,
+          "startTime": 1711.800792,
+          "endTime": 1873.391
+        },
+        {
+          "path": "Audio/output/2606/chapter_09.wav",
+          "duration": 159.040667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Revolution—Innovation, Imagination, and the Human Spirit",
+          "actualDuration": 159.040667,
+          "startTime": 1874.891,
+          "endTime": 2033.931667
+        },
+        {
+          "path": "Audio/output/2606/chapter_10.wav",
+          "duration": 144.774375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Adapting for Tomorrow—Resilience, Responsibility, and Hope",
+          "actualDuration": 144.774375,
+          "startTime": 2035.431667,
+          "endTime": 2180.2060420000003
+        },
+        {
+          "path": "Audio/output/2606/conclusion.wav",
+          "duration": 159.582042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 159.582042,
+          "startTime": 2181.7060420000003,
+          "endTime": 2341.2880840000003
+        }
+      ],
+      "totalDuration": 2341.2880840000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.1,
+          "actualStart": 0,
+          "actualEnd": 86.102042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When the World Changed Shape—A New Kind of Neighborhood",
+          "expectedStart": 86.1,
+          "expectedEnd": 328.26,
+          "actualStart": 87.602042,
+          "actualEnd": 329.763959,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Ten Forces That Leveled the Playing Field",
+          "expectedStart": 328.26,
+          "expectedEnd": 654.11,
+          "actualStart": 331.263959,
+          "actualEnd": 657.116376,
+          "timeDifference": 3.003959000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Outsourcing and Offshoring Changed Everyday Life",
+          "expectedStart": 654.11,
+          "expectedEnd": 889.11,
+          "actualStart": 658.616376,
+          "actualEnd": 893.6122089999999,
+          "timeDifference": 4.506375999999932
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Competing and Thriving in a Connected World",
+          "expectedStart": 889.11,
+          "expectedEnd": 1114.14,
+          "actualStart": 895.1122089999999,
+          "actualEnd": 1120.138667,
+          "timeDifference": 6.00220899999988
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Education and Policy in a Flattened World",
+          "expectedStart": 1114.14,
+          "expectedEnd": 1321,
+          "actualStart": 1121.638667,
+          "actualEnd": 1328.502667,
+          "timeDifference": 7.498666999999841
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Power of Culture in a Flat World",
+          "expectedStart": 1321,
+          "expectedEnd": 1513.49,
+          "actualStart": 1330.002667,
+          "actualEnd": 1522.497084,
+          "timeDifference": 9.002666999999974
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unseen Hand—Politics, Power, and the Flat World",
+          "expectedStart": 1513.49,
+          "expectedEnd": 1699.79,
+          "actualStart": 1523.997084,
+          "actualEnd": 1710.300792,
+          "timeDifference": 10.507084000000077
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Great Sorting—Winners, Losers, and the Search for Meaning",
+          "expectedStart": 1699.79,
+          "expectedEnd": 1861.38,
+          "actualStart": 1711.800792,
+          "actualEnd": 1873.391,
+          "timeDifference": 12.010792000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Revolution—Innovation, Imagination, and the Human Spirit",
+          "expectedStart": 1861.38,
+          "expectedEnd": 2020.42,
+          "actualStart": 1874.891,
+          "actualEnd": 2033.931667,
+          "timeDifference": 13.510999999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Adapting for Tomorrow—Resilience, Responsibility, and Hope",
+          "expectedStart": 2020.42,
+          "expectedEnd": 2165.19,
+          "actualStart": 2035.431667,
+          "actualEnd": 2180.2060420000003,
+          "timeDifference": 15.011666999999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2165.19,
+          "expectedEnd": 2324.77,
+          "actualStart": 2181.7060420000003,
+          "actualEnd": 2341.2880840000003,
+          "timeDifference": 16.516042000000198
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.102042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When the World Changed Shape—A New Kind of Neighborhood"
+        },
+        {
+          "startTime": 329.763959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When the World Changed Shape—A New Kind of Neighborhood and Chapter 2 The Ten Forces That Leveled the Playing Field"
+        },
+        {
+          "startTime": 657.116376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Ten Forces That Leveled the Playing Field and Chapter 3 How Outsourcing and Offshoring Changed Everyday Life"
+        },
+        {
+          "startTime": 893.6122089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Outsourcing and Offshoring Changed Everyday Life and Chapter 4 Competing and Thriving in a Connected World"
+        },
+        {
+          "startTime": 1120.138667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Competing and Thriving in a Connected World and Chapter 5 The Role of Education and Policy in a Flattened World"
+        },
+        {
+          "startTime": 1328.502667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Education and Policy in a Flattened World and Chapter 6 The Quiet Power of Culture in a Flat World"
+        },
+        {
+          "startTime": 1522.497084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Power of Culture in a Flat World and Chapter 7 The Unseen Hand—Politics, Power, and the Flat World"
+        },
+        {
+          "startTime": 1710.300792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unseen Hand—Politics, Power, and the Flat World and Chapter 8 The Great Sorting—Winners, Losers, and the Search for Meaning"
+        },
+        {
+          "startTime": 1873.391,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Great Sorting—Winners, Losers, and the Search for Meaning and Chapter 9 The Quiet Revolution—Innovation, Imagination, and the Human Spirit"
+        },
+        {
+          "startTime": 2033.931667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Revolution—Innovation, Imagination, and the Human Spirit and Chapter 10 Adapting for Tomorrow—Resilience, Responsibility, and Hope"
+        },
+        {
+          "startTime": 2180.2060420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Adapting for Tomorrow—Resilience, Responsibility, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2606",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:45:23.351Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

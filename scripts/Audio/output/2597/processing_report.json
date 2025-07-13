@@ -1,0 +1,504 @@
+{
+  "bookId": "2597",
+  "timestamp": "2025-07-11T07:25:13.594Z",
+  "success": false,
+  "processingTime": -1752218459858,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4188,
+    "totalAudioFiles": 14,
+    "totalDuration": 1915.6140010000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 1915.6140010000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2597/optimized_text/2597.md",
+    "fileSize": 832,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2597.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2597/metadata/2597_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 1915.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2597/metadata/2597_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2597/metadata/2597_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2597/2597_complete.wav",
+    "duration": 1915.614,
+    "fileSize": 91949550,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2597/introduction.wav",
+          "duration": 81.675542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.675542,
+          "startTime": 0,
+          "endTime": 81.675542
+        },
+        {
+          "path": "Audio/output/2597/chapter_01.wav",
+          "duration": 169.042875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Step—Facing Money Without Fear or Shame",
+          "actualDuration": 169.042875,
+          "startTime": 83.175542,
+          "endTime": 252.218417
+        },
+        {
+          "path": "Audio/output/2597/chapter_02.wav",
+          "duration": 155.99825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Stories We Tell Ourselves About Money",
+          "actualDuration": 155.99825,
+          "startTime": 253.718417,
+          "endTime": 409.71666700000003
+        },
+        {
+          "path": "Audio/output/2597/chapter_03.wav",
+          "duration": 159.596,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Budget That Fits Real Life, Not Just Numbers",
+          "actualDuration": 159.596,
+          "startTime": 411.21666700000003,
+          "endTime": 570.812667
+        },
+        {
+          "path": "Audio/output/2597/chapter_04.wav",
+          "duration": 148.982292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Free from Comparison and Financial Shame",
+          "actualDuration": 148.982292,
+          "startTime": 572.312667,
+          "endTime": 721.2949590000001
+        },
+        {
+          "path": "Audio/output/2597/chapter_05.wav",
+          "duration": 173.61925,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating a System That Supports Real Goals and Values",
+          "actualDuration": 173.61925,
+          "startTime": 722.7949590000001,
+          "endTime": 896.414209
+        },
+        {
+          "path": "Audio/output/2597/chapter_06.wav",
+          "duration": 143.246667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Tackling Debt—Finding Relief and Building Momentum",
+          "actualDuration": 143.246667,
+          "startTime": 897.914209,
+          "endTime": 1041.160876
+        },
+        {
+          "path": "Audio/output/2597/chapter_07.wav",
+          "duration": 137.17175,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Saving—Building Safety, Freedom, and Possibility",
+          "actualDuration": 137.17175,
+          "startTime": 1042.660876,
+          "endTime": 1179.832626
+        },
+        {
+          "path": "Audio/output/2597/chapter_08.wav",
+          "duration": 134.951375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Earning More—Expanding What’s Possible",
+          "actualDuration": 134.951375,
+          "startTime": 1181.332626,
+          "endTime": 1316.284001
+        },
+        {
+          "path": "Audio/output/2597/chapter_09.wav",
+          "duration": 130.266583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Staying Motivated",
+          "actualDuration": 130.266583,
+          "startTime": 1317.784001,
+          "endTime": 1448.050584
+        },
+        {
+          "path": "Audio/output/2597/chapter_10.wav",
+          "duration": 136.5295,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Money and Relationships—Finding Common Ground",
+          "actualDuration": 136.5295,
+          "startTime": 1449.550584,
+          "endTime": 1586.0800840000002
+        },
+        {
+          "path": "Audio/output/2597/chapter_11.wav",
+          "duration": 124.365542,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Long-Term Planning—Dreams, Security, and Legacy",
+          "actualDuration": 124.365542,
+          "startTime": 1587.5800840000002,
+          "endTime": 1711.9456260000002
+        },
+        {
+          "path": "Audio/output/2597/chapter_12.wav",
+          "duration": 115.05025,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Redefining Success—Money as a Means, Not an End",
+          "actualDuration": 115.05025,
+          "startTime": 1713.4456260000002,
+          "endTime": 1828.4958760000002
+        },
+        {
+          "path": "Audio/output/2597/conclusion.wav",
+          "duration": 105.118125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.118125,
+          "startTime": 1829.9958760000002,
+          "endTime": 1935.1140010000001
+        }
+      ],
+      "totalDuration": 1935.1140010000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.68,
+          "actualStart": 0,
+          "actualEnd": 81.675542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Step—Facing Money Without Fear or Shame",
+          "expectedStart": 81.68,
+          "expectedEnd": 250.72,
+          "actualStart": 83.175542,
+          "actualEnd": 252.218417,
+          "timeDifference": 1.4955419999999862
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Stories We Tell Ourselves About Money",
+          "expectedStart": 250.72,
+          "expectedEnd": 406.72,
+          "actualStart": 253.718417,
+          "actualEnd": 409.71666700000003,
+          "timeDifference": 2.9984169999999892
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Budget That Fits Real Life, Not Just Numbers",
+          "expectedStart": 406.72,
+          "expectedEnd": 566.32,
+          "actualStart": 411.21666700000003,
+          "actualEnd": 570.812667,
+          "timeDifference": 4.496667000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Free from Comparison and Financial Shame",
+          "expectedStart": 566.32,
+          "expectedEnd": 715.3,
+          "actualStart": 572.312667,
+          "actualEnd": 721.2949590000001,
+          "timeDifference": 5.992666999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating a System That Supports Real Goals and Values",
+          "expectedStart": 715.3,
+          "expectedEnd": 888.92,
+          "actualStart": 722.7949590000001,
+          "actualEnd": 896.414209,
+          "timeDifference": 7.494959000000108
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Tackling Debt—Finding Relief and Building Momentum",
+          "expectedStart": 888.92,
+          "expectedEnd": 1032.17,
+          "actualStart": 897.914209,
+          "actualEnd": 1041.160876,
+          "timeDifference": 8.994209000000069
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Saving—Building Safety, Freedom, and Possibility",
+          "expectedStart": 1032.17,
+          "expectedEnd": 1169.34,
+          "actualStart": 1042.660876,
+          "actualEnd": 1179.832626,
+          "timeDifference": 10.490875999999844
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Earning More—Expanding What’s Possible",
+          "expectedStart": 1169.34,
+          "expectedEnd": 1304.29,
+          "actualStart": 1181.332626,
+          "actualEnd": 1316.284001,
+          "timeDifference": 11.992625999999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Staying Motivated",
+          "expectedStart": 1304.29,
+          "expectedEnd": 1434.56,
+          "actualStart": 1317.784001,
+          "actualEnd": 1448.050584,
+          "timeDifference": 13.494001000000026
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Money and Relationships—Finding Common Ground",
+          "expectedStart": 1434.56,
+          "expectedEnd": 1571.09,
+          "actualStart": 1449.550584,
+          "actualEnd": 1586.0800840000002,
+          "timeDifference": 14.990584000000126
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Long-Term Planning—Dreams, Security, and Legacy",
+          "expectedStart": 1571.09,
+          "expectedEnd": 1695.46,
+          "actualStart": 1587.5800840000002,
+          "actualEnd": 1711.9456260000002,
+          "timeDifference": 16.49008400000025
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Redefining Success—Money as a Means, Not an End",
+          "expectedStart": 1695.46,
+          "expectedEnd": 1810.51,
+          "actualStart": 1713.4456260000002,
+          "actualEnd": 1828.4958760000002,
+          "timeDifference": 17.98562600000014
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1810.51,
+          "expectedEnd": 1915.63,
+          "actualStart": 1829.9958760000002,
+          "actualEnd": 1935.1140010000001,
+          "timeDifference": 19.48587600000019
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.675542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Step—Facing Money Without Fear or Shame"
+        },
+        {
+          "startTime": 252.218417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Step—Facing Money Without Fear or Shame and Chapter 2 Understanding the Stories We Tell Ourselves About Money"
+        },
+        {
+          "startTime": 409.71666700000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Stories We Tell Ourselves About Money and Chapter 3 Building a Budget That Fits Real Life, Not Just Numbers"
+        },
+        {
+          "startTime": 570.812667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Budget That Fits Real Life, Not Just Numbers and Chapter 4 Breaking Free from Comparison and Financial Shame"
+        },
+        {
+          "startTime": 721.2949590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Free from Comparison and Financial Shame and Chapter 5 Creating a System That Supports Real Goals and Values"
+        },
+        {
+          "startTime": 896.414209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating a System That Supports Real Goals and Values and Chapter 6 Tackling Debt—Finding Relief and Building Momentum"
+        },
+        {
+          "startTime": 1041.160876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Tackling Debt—Finding Relief and Building Momentum and Chapter 7 Saving—Building Safety, Freedom, and Possibility"
+        },
+        {
+          "startTime": 1179.832626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Saving—Building Safety, Freedom, and Possibility and Chapter 8 Earning More—Expanding What’s Possible"
+        },
+        {
+          "startTime": 1316.284001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Earning More—Expanding What’s Possible and Chapter 9 Navigating Setbacks and Staying Motivated"
+        },
+        {
+          "startTime": 1448.050584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Staying Motivated and Chapter 10 Money and Relationships—Finding Common Ground"
+        },
+        {
+          "startTime": 1586.0800840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Money and Relationships—Finding Common Ground and Chapter 11 Long-Term Planning—Dreams, Security, and Legacy"
+        },
+        {
+          "startTime": 1711.9456260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Long-Term Planning—Dreams, Security, and Legacy and Chapter 12 Redefining Success—Money as a Means, Not an End"
+        },
+        {
+          "startTime": 1828.4958760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Redefining Success—Money as a Means, Not an End and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2597",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:21:01.375Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

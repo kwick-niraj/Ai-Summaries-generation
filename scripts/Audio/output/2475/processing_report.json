@@ -1,0 +1,456 @@
+{
+  "bookId": "2475",
+  "timestamp": "2025-07-11T00:21:18.340Z",
+  "success": false,
+  "processingTime": -1752192930851,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4866,
+    "totalAudioFiles": 12,
+    "totalDuration": 2157.8689579999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2157.8689579999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2475/optimized_text/2475.md",
+    "fileSize": 730,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "2475.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2475/metadata/2475_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2157.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2475/metadata/2475_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2475/metadata/2475_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2475/2475_complete.wav",
+    "duration": 2157.868958,
+    "fileSize": 103577788,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2475/introduction.wav",
+          "duration": 109.153583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.153583,
+          "startTime": 0,
+          "endTime": 109.153583
+        },
+        {
+          "path": "Audio/output/2475/chapter_01.wav",
+          "duration": 231.525625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Curiosity and Quiet Determination",
+          "actualDuration": 231.525625,
+          "startTime": 110.653583,
+          "endTime": 342.179208
+        },
+        {
+          "path": "Audio/output/2475/chapter_02.wav",
+          "duration": 235.104625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Testing Limits in the Skies and Facing Real Danger",
+          "actualDuration": 235.104625,
+          "startTime": 343.679208,
+          "endTime": 578.783833
+        },
+        {
+          "path": "Audio/output/2475/chapter_03.wav",
+          "duration": 240.41475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Entering the Space Program and Navigating New Frontiers",
+          "actualDuration": 240.41475,
+          "startTime": 580.283833,
+          "endTime": 820.698583
+        },
+        {
+          "path": "Audio/output/2475/chapter_04.wav",
+          "duration": 241.734375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Apollo 11 Mission and the Weight of History",
+          "actualDuration": 241.734375,
+          "startTime": 822.198583,
+          "endTime": 1063.9329579999999
+        },
+        {
+          "path": "Audio/output/2475/chapter_05.wav",
+          "duration": 217.509792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Returning Home and Living with the Legacy",
+          "actualDuration": 217.509792,
+          "startTime": 1065.4329579999999,
+          "endTime": 1282.94275
+        },
+        {
+          "path": "Audio/output/2475/chapter_06.wav",
+          "duration": 185.221875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Life After the Moon — Searching for Balance",
+          "actualDuration": 185.221875,
+          "startTime": 1284.44275,
+          "endTime": 1469.664625
+        },
+        {
+          "path": "Audio/output/2475/chapter_07.wav",
+          "duration": 182.342333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Greatness — Family, Privacy, and the Human Toll",
+          "actualDuration": 182.342333,
+          "startTime": 1471.164625,
+          "endTime": 1653.506958
+        },
+        {
+          "path": "Audio/output/2475/chapter_08.wav",
+          "duration": 150.036167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 A Reluctant Spokesman — Advocacy, Critique, and the Future of Space",
+          "actualDuration": 150.036167,
+          "startTime": 1655.006958,
+          "endTime": 1805.043125
+        },
+        {
+          "path": "Audio/output/2475/chapter_09.wav",
+          "duration": 135.521583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Quiet Leadership and the Power of Example",
+          "actualDuration": 135.521583,
+          "startTime": 1806.543125,
+          "endTime": 1942.0647079999999
+        },
+        {
+          "path": "Audio/output/2475/chapter_10.wav",
+          "duration": 147.938417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Reflection, and the Enduring Spirit of Exploration",
+          "actualDuration": 147.938417,
+          "startTime": 1943.5647079999999,
+          "endTime": 2091.5031249999997
+        },
+        {
+          "path": "Audio/output/2475/conclusion.wav",
+          "duration": 81.365833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 81.365833,
+          "startTime": 2093.0031249999997,
+          "endTime": 2174.3689579999996
+        }
+      ],
+      "totalDuration": 2174.3689579999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.15,
+          "actualStart": 0,
+          "actualEnd": 109.153583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Curiosity and Quiet Determination",
+          "expectedStart": 109.15,
+          "expectedEnd": 340.68,
+          "actualStart": 110.653583,
+          "actualEnd": 342.179208,
+          "timeDifference": 1.503582999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Testing Limits in the Skies and Facing Real Danger",
+          "expectedStart": 340.68,
+          "expectedEnd": 575.78,
+          "actualStart": 343.679208,
+          "actualEnd": 578.783833,
+          "timeDifference": 2.99920800000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Entering the Space Program and Navigating New Frontiers",
+          "expectedStart": 575.78,
+          "expectedEnd": 816.19,
+          "actualStart": 580.283833,
+          "actualEnd": 820.698583,
+          "timeDifference": 4.503832999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Apollo 11 Mission and the Weight of History",
+          "expectedStart": 816.19,
+          "expectedEnd": 1057.92,
+          "actualStart": 822.198583,
+          "actualEnd": 1063.9329579999999,
+          "timeDifference": 6.0085829999999305
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Returning Home and Living with the Legacy",
+          "expectedStart": 1057.92,
+          "expectedEnd": 1275.43,
+          "actualStart": 1065.4329579999999,
+          "actualEnd": 1282.94275,
+          "timeDifference": 7.512957999999799
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Life After the Moon — Searching for Balance",
+          "expectedStart": 1275.43,
+          "expectedEnd": 1460.65,
+          "actualStart": 1284.44275,
+          "actualEnd": 1469.664625,
+          "timeDifference": 9.012749999999869
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Greatness — Family, Privacy, and the Human Toll",
+          "expectedStart": 1460.65,
+          "expectedEnd": 1642.99,
+          "actualStart": 1471.164625,
+          "actualEnd": 1653.506958,
+          "timeDifference": 10.514624999999796
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 A Reluctant Spokesman — Advocacy, Critique, and the Future of Space",
+          "expectedStart": 1642.99,
+          "expectedEnd": 1793.03,
+          "actualStart": 1655.006958,
+          "actualEnd": 1805.043125,
+          "timeDifference": 12.016957999999931
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Quiet Leadership and the Power of Example",
+          "expectedStart": 1793.03,
+          "expectedEnd": 1928.55,
+          "actualStart": 1806.543125,
+          "actualEnd": 1942.0647079999999,
+          "timeDifference": 13.513124999999945
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Reflection, and the Enduring Spirit of Exploration",
+          "expectedStart": 1928.55,
+          "expectedEnd": 2076.49,
+          "actualStart": 1943.5647079999999,
+          "actualEnd": 2091.5031249999997,
+          "timeDifference": 15.014707999999928
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2076.49,
+          "expectedEnd": 2157.86,
+          "actualStart": 2093.0031249999997,
+          "actualEnd": 2174.3689579999996,
+          "timeDifference": 16.513124999999945
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.153583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Curiosity and Quiet Determination"
+        },
+        {
+          "startTime": 342.179208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Curiosity and Quiet Determination and Chapter 2 Testing Limits in the Skies and Facing Real Danger"
+        },
+        {
+          "startTime": 578.783833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Testing Limits in the Skies and Facing Real Danger and Chapter 3 Entering the Space Program and Navigating New Frontiers"
+        },
+        {
+          "startTime": 820.698583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Entering the Space Program and Navigating New Frontiers and Chapter 4 The Apollo 11 Mission and the Weight of History"
+        },
+        {
+          "startTime": 1063.9329579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Apollo 11 Mission and the Weight of History and Chapter 5 Returning Home and Living with the Legacy"
+        },
+        {
+          "startTime": 1282.94275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Returning Home and Living with the Legacy and Chapter 6 Navigating Life After the Moon — Searching for Balance"
+        },
+        {
+          "startTime": 1469.664625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Life After the Moon — Searching for Balance and Chapter 7 The Cost of Greatness — Family, Privacy, and the Human Toll"
+        },
+        {
+          "startTime": 1653.506958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Greatness — Family, Privacy, and the Human Toll and Chapter 8 A Reluctant Spokesman — Advocacy, Critique, and the Future of Space"
+        },
+        {
+          "startTime": 1805.043125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 A Reluctant Spokesman — Advocacy, Critique, and the Future of Space and Chapter 9 Quiet Leadership and the Power of Example"
+        },
+        {
+          "startTime": 1942.0647079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Quiet Leadership and the Power of Example and Chapter 10 Legacy, Reflection, and the Enduring Spirit of Exploration"
+        },
+        {
+          "startTime": 2091.5031249999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Reflection, and the Enduring Spirit of Exploration and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2475",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:15:32.394Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

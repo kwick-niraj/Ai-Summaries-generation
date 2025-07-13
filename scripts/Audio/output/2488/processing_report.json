@@ -1,0 +1,456 @@
+{
+  "bookId": "2488",
+  "timestamp": "2025-07-11T01:05:18.466Z",
+  "success": false,
+  "processingTime": -1752195552942,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4217,
+    "totalAudioFiles": 12,
+    "totalDuration": 2055.981
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2055.981
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2488/optimized_text/2488.md",
+    "fileSize": 730,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2488.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2488/metadata/2488_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2055.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2488/metadata/2488_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2488/metadata/2488_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2488/2488_complete.wav",
+    "duration": 2055.981,
+    "fileSize": 98687166,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2488/introduction.wav",
+          "duration": 93.755458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.755458,
+          "startTime": 0,
+          "endTime": 93.755458
+        },
+        {
+          "path": "Audio/output/2488/chapter_01.wav",
+          "duration": 240.209292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Professional Help Became the Standard for Solving Life’s Problems",
+          "actualDuration": 240.209292,
+          "startTime": 95.255458,
+          "endTime": 335.46475
+        },
+        {
+          "path": "Audio/output/2488/chapter_02.wav",
+          "duration": 214.92525,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of Relying on Experts",
+          "actualDuration": 214.92525,
+          "startTime": 336.96475,
+          "endTime": 551.89
+        },
+        {
+          "path": "Audio/output/2488/chapter_03.wav",
+          "duration": 227.403625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Professions Define Needs and Exclude Local Solutions",
+          "actualDuration": 227.403625,
+          "startTime": 553.39,
+          "endTime": 780.793625
+        },
+        {
+          "path": "Audio/output/2488/chapter_04.wav",
+          "duration": 196.356167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 When Institutional Help Makes People Weaker, Not Stronger",
+          "actualDuration": 196.356167,
+          "startTime": 782.293625,
+          "endTime": 978.649792
+        },
+        {
+          "path": "Audio/output/2488/chapter_05.wav",
+          "duration": 204.69725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Language of Expertise and the Creation of Social Hierarchies",
+          "actualDuration": 204.69725,
+          "startTime": 980.149792,
+          "endTime": 1184.847042
+        },
+        {
+          "path": "Audio/output/2488/chapter_06.wav",
+          "duration": 151.61425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Professionalism Crowds Out Common Sense",
+          "actualDuration": 151.61425,
+          "startTime": 1186.347042,
+          "endTime": 1337.9612920000002
+        },
+        {
+          "path": "Audio/output/2488/chapter_07.wav",
+          "duration": 160.858292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Trap of Credentialism and the Loss of Meaningful Work",
+          "actualDuration": 160.858292,
+          "startTime": 1339.4612920000002,
+          "endTime": 1500.3195840000003
+        },
+        {
+          "path": "Audio/output/2488/chapter_08.wav",
+          "duration": 143.781708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Deprofessionalization—Reclaiming Skills and Restoring Confidence",
+          "actualDuration": 143.781708,
+          "startTime": 1501.8195840000003,
+          "endTime": 1645.6012920000003
+        },
+        {
+          "path": "Audio/output/2488/chapter_09.wav",
+          "duration": 138.221625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Communities of Mutual Support",
+          "actualDuration": 138.221625,
+          "startTime": 1647.1012920000003,
+          "endTime": 1785.3229170000002
+        },
+        {
+          "path": "Audio/output/2488/chapter_10.wav",
+          "duration": 119.01575,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rethinking the Role of Professionals",
+          "actualDuration": 119.01575,
+          "startTime": 1786.8229170000002,
+          "endTime": 1905.8386670000002
+        },
+        {
+          "path": "Audio/output/2488/conclusion.wav",
+          "duration": 165.142333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 165.142333,
+          "startTime": 1907.3386670000002,
+          "endTime": 2072.481
+        }
+      ],
+      "totalDuration": 2072.481,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.76,
+          "actualStart": 0,
+          "actualEnd": 93.755458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Professional Help Became the Standard for Solving Life’s Problems",
+          "expectedStart": 93.76,
+          "expectedEnd": 333.97,
+          "actualStart": 95.255458,
+          "actualEnd": 335.46475,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of Relying on Experts",
+          "expectedStart": 333.97,
+          "expectedEnd": 548.9,
+          "actualStart": 336.96475,
+          "actualEnd": 551.89,
+          "timeDifference": 2.9947499999999536
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Professions Define Needs and Exclude Local Solutions",
+          "expectedStart": 548.9,
+          "expectedEnd": 776.3,
+          "actualStart": 553.39,
+          "actualEnd": 780.793625,
+          "timeDifference": 4.490000000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 When Institutional Help Makes People Weaker, Not Stronger",
+          "expectedStart": 776.3,
+          "expectedEnd": 972.66,
+          "actualStart": 782.293625,
+          "actualEnd": 978.649792,
+          "timeDifference": 5.9936250000000655
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Language of Expertise and the Creation of Social Hierarchies",
+          "expectedStart": 972.66,
+          "expectedEnd": 1177.36,
+          "actualStart": 980.149792,
+          "actualEnd": 1184.847042,
+          "timeDifference": 7.4897920000000795
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Professionalism Crowds Out Common Sense",
+          "expectedStart": 1177.36,
+          "expectedEnd": 1328.97,
+          "actualStart": 1186.347042,
+          "actualEnd": 1337.9612920000002,
+          "timeDifference": 8.987042000000201
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Trap of Credentialism and the Loss of Meaningful Work",
+          "expectedStart": 1328.97,
+          "expectedEnd": 1489.83,
+          "actualStart": 1339.4612920000002,
+          "actualEnd": 1500.3195840000003,
+          "timeDifference": 10.491292000000158
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Deprofessionalization—Reclaiming Skills and Restoring Confidence",
+          "expectedStart": 1489.83,
+          "expectedEnd": 1633.61,
+          "actualStart": 1501.8195840000003,
+          "actualEnd": 1645.6012920000003,
+          "timeDifference": 11.989584000000377
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Communities of Mutual Support",
+          "expectedStart": 1633.61,
+          "expectedEnd": 1771.83,
+          "actualStart": 1647.1012920000003,
+          "actualEnd": 1785.3229170000002,
+          "timeDifference": 13.491292000000385
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rethinking the Role of Professionals",
+          "expectedStart": 1771.83,
+          "expectedEnd": 1890.85,
+          "actualStart": 1786.8229170000002,
+          "actualEnd": 1905.8386670000002,
+          "timeDifference": 14.992917000000261
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1890.85,
+          "expectedEnd": 2055.99,
+          "actualStart": 1907.3386670000002,
+          "actualEnd": 2072.481,
+          "timeDifference": 16.488667000000305
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.755458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Professional Help Became the Standard for Solving Life’s Problems"
+        },
+        {
+          "startTime": 335.46475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Professional Help Became the Standard for Solving Life’s Problems and Chapter 2 The Hidden Costs of Relying on Experts"
+        },
+        {
+          "startTime": 551.89,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of Relying on Experts and Chapter 3 How Professions Define Needs and Exclude Local Solutions"
+        },
+        {
+          "startTime": 780.793625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Professions Define Needs and Exclude Local Solutions and Chapter 4 When Institutional Help Makes People Weaker, Not Stronger"
+        },
+        {
+          "startTime": 978.649792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 When Institutional Help Makes People Weaker, Not Stronger and Chapter 5 The Language of Expertise and the Creation of Social Hierarchies"
+        },
+        {
+          "startTime": 1184.847042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Language of Expertise and the Creation of Social Hierarchies and Chapter 6 When Professionalism Crowds Out Common Sense"
+        },
+        {
+          "startTime": 1337.9612920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Professionalism Crowds Out Common Sense and Chapter 7 The Trap of Credentialism and the Loss of Meaningful Work"
+        },
+        {
+          "startTime": 1500.3195840000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Trap of Credentialism and the Loss of Meaningful Work and Chapter 8 Deprofessionalization—Reclaiming Skills and Restoring Confidence"
+        },
+        {
+          "startTime": 1645.6012920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Deprofessionalization—Reclaiming Skills and Restoring Confidence and Chapter 9 Building Communities of Mutual Support"
+        },
+        {
+          "startTime": 1785.3229170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Communities of Mutual Support and Chapter 10 Rethinking the Role of Professionals"
+        },
+        {
+          "startTime": 1905.8386670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rethinking the Role of Professionals and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2488",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:59:14.595Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

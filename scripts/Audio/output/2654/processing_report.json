@@ -1,0 +1,456 @@
+{
+  "bookId": "2654",
+  "timestamp": "2025-07-12T08:34:08.031Z",
+  "success": false,
+  "processingTime": -1752308867850,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3997,
+    "totalAudioFiles": 12,
+    "totalDuration": 1753.1707090000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1753.1707090000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2654/optimized_text/2654.md",
+    "fileSize": 643,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2654.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2654/metadata/2654_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1753.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2654/metadata/2654_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2654/metadata/2654_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2654/2654_complete.wav",
+    "duration": 1753.170708,
+    "fileSize": 84152272,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2654/introduction.wav",
+          "duration": 96.571625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.571625,
+          "startTime": 0,
+          "endTime": 96.571625
+        },
+        {
+          "path": "Audio/output/2654/chapter_01.wav",
+          "duration": 177.478125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Questioning the Roots of Morality and Truth",
+          "actualDuration": 177.478125,
+          "startTime": 98.071625,
+          "endTime": 275.54975
+        },
+        {
+          "path": "Audio/output/2654/chapter_02.wav",
+          "duration": 171.797375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Motives Behind Philosophical Systems",
+          "actualDuration": 171.797375,
+          "startTime": 277.04975,
+          "endTime": 448.847125
+        },
+        {
+          "path": "Audio/output/2654/chapter_03.wav",
+          "duration": 165.075542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Invention of Good and Evil",
+          "actualDuration": 165.075542,
+          "startTime": 450.347125,
+          "endTime": 615.422667
+        },
+        {
+          "path": "Audio/output/2654/chapter_04.wav",
+          "duration": 157.544708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Master and Slave Morality—Two Ways of Valuing",
+          "actualDuration": 157.544708,
+          "startTime": 616.922667,
+          "endTime": 774.4673750000001
+        },
+        {
+          "path": "Audio/output/2654/chapter_05.wav",
+          "duration": 150.236583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Will to Power and the Creation of Values",
+          "actualDuration": 150.236583,
+          "startTime": 775.9673750000001,
+          "endTime": 926.2039580000001
+        },
+        {
+          "path": "Audio/output/2654/chapter_06.wav",
+          "duration": 143.563167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance of Doubt—Skepticism as a Way of Life",
+          "actualDuration": 143.563167,
+          "startTime": 927.7039580000001,
+          "endTime": 1071.267125
+        },
+        {
+          "path": "Audio/output/2654/chapter_07.wav",
+          "duration": 153.712542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Perspectivism—Seeing Through Many Eyes",
+          "actualDuration": 153.712542,
+          "startTime": 1072.767125,
+          "endTime": 1226.479667
+        },
+        {
+          "path": "Audio/output/2654/chapter_08.wav",
+          "duration": 161.892917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Critique of Religion and the Death of God",
+          "actualDuration": 161.892917,
+          "startTime": 1227.979667,
+          "endTime": 1389.8725840000002
+        },
+        {
+          "path": "Audio/output/2654/chapter_09.wav",
+          "duration": 138.163583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Free Spirit—Becoming Who You Are",
+          "actualDuration": 138.163583,
+          "startTime": 1391.3725840000002,
+          "endTime": 1529.5361670000002
+        },
+        {
+          "path": "Audio/output/2654/chapter_10.wav",
+          "duration": 123.677167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The New Philosopher—Embracing Uncertainty and Creativity",
+          "actualDuration": 123.677167,
+          "startTime": 1531.0361670000002,
+          "endTime": 1654.7133340000003
+        },
+        {
+          "path": "Audio/output/2654/conclusion.wav",
+          "duration": 113.457375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.457375,
+          "startTime": 1656.2133340000003,
+          "endTime": 1769.6707090000002
+        }
+      ],
+      "totalDuration": 1769.6707090000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.57,
+          "actualStart": 0,
+          "actualEnd": 96.571625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Questioning the Roots of Morality and Truth",
+          "expectedStart": 96.57,
+          "expectedEnd": 274.05,
+          "actualStart": 98.071625,
+          "actualEnd": 275.54975,
+          "timeDifference": 1.5016250000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Motives Behind Philosophical Systems",
+          "expectedStart": 274.05,
+          "expectedEnd": 445.85,
+          "actualStart": 277.04975,
+          "actualEnd": 448.847125,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Invention of Good and Evil",
+          "expectedStart": 445.85,
+          "expectedEnd": 610.93,
+          "actualStart": 450.347125,
+          "actualEnd": 615.422667,
+          "timeDifference": 4.497124999999983
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Master and Slave Morality—Two Ways of Valuing",
+          "expectedStart": 610.93,
+          "expectedEnd": 768.47,
+          "actualStart": 616.922667,
+          "actualEnd": 774.4673750000001,
+          "timeDifference": 5.992667000000097
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Will to Power and the Creation of Values",
+          "expectedStart": 768.47,
+          "expectedEnd": 918.71,
+          "actualStart": 775.9673750000001,
+          "actualEnd": 926.2039580000001,
+          "timeDifference": 7.497375000000034
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance of Doubt—Skepticism as a Way of Life",
+          "expectedStart": 918.71,
+          "expectedEnd": 1062.27,
+          "actualStart": 927.7039580000001,
+          "actualEnd": 1071.267125,
+          "timeDifference": 8.99395800000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Perspectivism—Seeing Through Many Eyes",
+          "expectedStart": 1062.27,
+          "expectedEnd": 1215.98,
+          "actualStart": 1072.767125,
+          "actualEnd": 1226.479667,
+          "timeDifference": 10.497125000000096
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Critique of Religion and the Death of God",
+          "expectedStart": 1215.98,
+          "expectedEnd": 1377.87,
+          "actualStart": 1227.979667,
+          "actualEnd": 1389.8725840000002,
+          "timeDifference": 11.999667000000045
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Free Spirit—Becoming Who You Are",
+          "expectedStart": 1377.87,
+          "expectedEnd": 1516.03,
+          "actualStart": 1391.3725840000002,
+          "actualEnd": 1529.5361670000002,
+          "timeDifference": 13.502584000000297
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The New Philosopher—Embracing Uncertainty and Creativity",
+          "expectedStart": 1516.03,
+          "expectedEnd": 1639.71,
+          "actualStart": 1531.0361670000002,
+          "actualEnd": 1654.7133340000003,
+          "timeDifference": 15.006167000000232
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1639.71,
+          "expectedEnd": 1753.17,
+          "actualStart": 1656.2133340000003,
+          "actualEnd": 1769.6707090000002,
+          "timeDifference": 16.503334000000223
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.571625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Questioning the Roots of Morality and Truth"
+        },
+        {
+          "startTime": 275.54975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Questioning the Roots of Morality and Truth and Chapter 2 The Hidden Motives Behind Philosophical Systems"
+        },
+        {
+          "startTime": 448.847125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Motives Behind Philosophical Systems and Chapter 3 The Invention of Good and Evil"
+        },
+        {
+          "startTime": 615.422667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Invention of Good and Evil and Chapter 4 Master and Slave Morality—Two Ways of Valuing"
+        },
+        {
+          "startTime": 774.4673750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Master and Slave Morality—Two Ways of Valuing and Chapter 5 The Will to Power and the Creation of Values"
+        },
+        {
+          "startTime": 926.2039580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Will to Power and the Creation of Values and Chapter 6 The Dance of Doubt—Skepticism as a Way of Life"
+        },
+        {
+          "startTime": 1071.267125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance of Doubt—Skepticism as a Way of Life and Chapter 7 Perspectivism—Seeing Through Many Eyes"
+        },
+        {
+          "startTime": 1226.479667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Perspectivism—Seeing Through Many Eyes and Chapter 8 The Critique of Religion and the Death of God"
+        },
+        {
+          "startTime": 1389.8725840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Critique of Religion and the Death of God and Chapter 9 The Free Spirit—Becoming Who You Are"
+        },
+        {
+          "startTime": 1529.5361670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Free Spirit—Becoming Who You Are and Chapter 10 The New Philosopher—Embracing Uncertainty and Creativity"
+        },
+        {
+          "startTime": 1654.7133340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The New Philosopher—Embracing Uncertainty and Creativity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2654",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:27:48.331Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "bookId": "2635",
+  "timestamp": "2025-07-11T09:07:34.183Z",
+  "success": false,
+  "processingTime": -1752224574230,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4498,
+    "totalAudioFiles": 12,
+    "totalDuration": 1579.1230410000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1579.1230410000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2635/optimized_text/2635.md",
+    "fileSize": 619,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2635.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2635/metadata/2635_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1579.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2635/metadata/2635_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2635/metadata/2635_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2635/2635_complete.wav",
+    "duration": 1579.123042,
+    "fileSize": 75797984,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2635/introduction.wav",
+          "duration": 84.465042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.465042,
+          "startTime": 0,
+          "endTime": 84.465042
+        },
+        {
+          "path": "Audio/output/2635/chapter_01.wav",
+          "duration": 183.485875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood Interrupted by War and Fear",
+          "actualDuration": 183.485875,
+          "startTime": 85.965042,
+          "endTime": 269.450917
+        },
+        {
+          "path": "Audio/output/2635/chapter_03.wav",
+          "duration": 206.965708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life in Block 66 and the Struggle to Survive",
+          "actualDuration": 206.965708,
+          "startTime": 270.950917,
+          "endTime": 477.916625
+        },
+        {
+          "path": "Audio/output/2635/chapter_04.wav",
+          "duration": 140.938625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Endurance, Liberation, and the Scars That Remain",
+          "actualDuration": 140.938625,
+          "startTime": 479.416625,
+          "endTime": 620.3552500000001
+        },
+        {
+          "path": "Audio/output/2635/chapter_05.wav",
+          "duration": 139.440958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rebuilding Life and Bearing Witness",
+          "actualDuration": 139.440958,
+          "startTime": 621.8552500000001,
+          "endTime": 761.2962080000001
+        },
+        {
+          "path": "Audio/output/2635/chapter_06.wav",
+          "duration": 164.91,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Healing",
+          "actualDuration": 164.91,
+          "startTime": 762.7962080000001,
+          "endTime": 927.7062080000001
+        },
+        {
+          "path": "Audio/output/2635/chapter_07.wav",
+          "duration": 170.430583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Finding Family and Forging New Bonds",
+          "actualDuration": 170.430583,
+          "startTime": 929.2062080000001,
+          "endTime": 1099.6367910000001
+        },
+        {
+          "path": "Audio/output/2635/chapter_08.wav",
+          "duration": 150.6955,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Memory and the Responsibility to Remember",
+          "actualDuration": 150.6955,
+          "startTime": 1101.1367910000001,
+          "endTime": 1251.8322910000002
+        },
+        {
+          "path": "Audio/output/2635/chapter_09.wav",
+          "duration": 142.993208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building a Life of Meaning and Purpose",
+          "actualDuration": 142.993208,
+          "startTime": 1253.3322910000002,
+          "endTime": 1396.3254990000003
+        },
+        {
+          "path": "Audio/output/2635/chapter_10.wav",
+          "duration": 103.499667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the Future and the Enduring Light of Hope",
+          "actualDuration": 103.499667,
+          "startTime": 1397.8254990000003,
+          "endTime": 1501.3251660000003
+        },
+        {
+          "path": "Audio/output/2635/conclusion.wav",
+          "duration": 91.297875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 91.297875,
+          "startTime": 1502.8251660000003,
+          "endTime": 1594.1230410000003
+        }
+      ],
+      "totalDuration": 1594.1230410000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.47,
+          "actualStart": 0,
+          "actualEnd": 84.465042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood Interrupted by War and Fear",
+          "expectedStart": 84.47,
+          "expectedEnd": 267.96,
+          "actualStart": 85.965042,
+          "actualEnd": 269.450917,
+          "timeDifference": 1.495041999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life in Block 66 and the Struggle to Survive",
+          "expectedStart": 267.96,
+          "expectedEnd": 474.93,
+          "actualStart": 270.950917,
+          "actualEnd": 477.916625,
+          "timeDifference": 2.9909170000000245
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Endurance, Liberation, and the Scars That Remain",
+          "expectedStart": 474.93,
+          "expectedEnd": 615.87,
+          "actualStart": 479.416625,
+          "actualEnd": 620.3552500000001,
+          "timeDifference": 4.486625000000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rebuilding Life and Bearing Witness",
+          "expectedStart": 615.87,
+          "expectedEnd": 755.31,
+          "actualStart": 621.8552500000001,
+          "actualEnd": 761.2962080000001,
+          "timeDifference": 5.985250000000065
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Healing",
+          "expectedStart": 755.31,
+          "expectedEnd": 920.22,
+          "actualStart": 762.7962080000001,
+          "actualEnd": 927.7062080000001,
+          "timeDifference": 7.486208000000147
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Finding Family and Forging New Bonds",
+          "expectedStart": 920.22,
+          "expectedEnd": 1090.65,
+          "actualStart": 929.2062080000001,
+          "actualEnd": 1099.6367910000001,
+          "timeDifference": 8.986208000000033
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Memory and the Responsibility to Remember",
+          "expectedStart": 1090.65,
+          "expectedEnd": 1241.35,
+          "actualStart": 1101.1367910000001,
+          "actualEnd": 1251.8322910000002,
+          "timeDifference": 10.48679100000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building a Life of Meaning and Purpose",
+          "expectedStart": 1241.35,
+          "expectedEnd": 1384.34,
+          "actualStart": 1253.3322910000002,
+          "actualEnd": 1396.3254990000003,
+          "timeDifference": 11.98229100000026
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the Future and the Enduring Light of Hope",
+          "expectedStart": 1384.34,
+          "expectedEnd": 1487.84,
+          "actualStart": 1397.8254990000003,
+          "actualEnd": 1501.3251660000003,
+          "timeDifference": 13.485499000000345
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1487.84,
+          "expectedEnd": 1579.14,
+          "actualStart": 1502.8251660000003,
+          "actualEnd": 1594.1230410000003,
+          "timeDifference": 14.98516600000039
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.465042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood Interrupted by War and Fear"
+        },
+        {
+          "startTime": 269.450917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood Interrupted by War and Fear and Chapter 3 Life in Block 66 and the Struggle to Survive"
+        },
+        {
+          "startTime": 477.916625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life in Block 66 and the Struggle to Survive and Chapter 4 Endurance, Liberation, and the Scars That Remain"
+        },
+        {
+          "startTime": 620.3552500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Endurance, Liberation, and the Scars That Remain and Chapter 5 Rebuilding Life and Bearing Witness"
+        },
+        {
+          "startTime": 761.2962080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rebuilding Life and Bearing Witness and Chapter 6 The Long Road to Healing"
+        },
+        {
+          "startTime": 927.7062080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Healing and Chapter 7 Finding Family and Forging New Bonds"
+        },
+        {
+          "startTime": 1099.6367910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Finding Family and Forging New Bonds and Chapter 8 The Power of Memory and the Responsibility to Remember"
+        },
+        {
+          "startTime": 1251.8322910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Memory and the Responsibility to Remember and Chapter 9 Building a Life of Meaning and Purpose"
+        },
+        {
+          "startTime": 1396.3254990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building a Life of Meaning and Purpose and Chapter 10 Lessons for the Future and the Enduring Light of Hope"
+        },
+        {
+          "startTime": 1501.3251660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the Future and the Enduring Light of Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2635",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T09:02:55.756Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

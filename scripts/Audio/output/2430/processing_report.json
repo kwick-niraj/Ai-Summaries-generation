@@ -1,0 +1,480 @@
+{
+  "bookId": "2430",
+  "timestamp": "2025-07-10T22:19:07.404Z",
+  "success": false,
+  "processingTime": -1752185664332,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5958,
+    "totalAudioFiles": 13,
+    "totalDuration": 2715.5337070000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2715.5337070000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2430/optimized_text/2430.md",
+    "fileSize": 784,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2430.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2430/metadata/2430_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2715.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2430/metadata/2430_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2430/metadata/2430_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2430/2430_complete.wav",
+    "duration": 2715.533708,
+    "fileSize": 130345696,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2430/introduction.wav",
+          "duration": 125.816833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 125.816833,
+          "startTime": 0,
+          "endTime": 125.816833
+        },
+        {
+          "path": "Audio/output/2430/chapter_01.wav",
+          "duration": 292.646417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Nietzsche: The Man Behind the Myths",
+          "actualDuration": 292.646417,
+          "startTime": 127.316833,
+          "endTime": 419.96325
+        },
+        {
+          "path": "Audio/output/2430/chapter_02.wav",
+          "duration": 293.648875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Critique of Morality and Religion: Breaking Old Chains",
+          "actualDuration": 293.648875,
+          "startTime": 421.46325,
+          "endTime": 715.112125
+        },
+        {
+          "path": "Audio/output/2430/chapter_03.wav",
+          "duration": 269.934125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Will to Power and the Search for Meaning",
+          "actualDuration": 269.934125,
+          "startTime": 716.612125,
+          "endTime": 986.54625
+        },
+        {
+          "path": "Audio/output/2430/chapter_04.wav",
+          "duration": 227.569458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Eternal Recurrence and the Courage to Affirm Life",
+          "actualDuration": 227.569458,
+          "startTime": 988.04625,
+          "endTime": 1215.615708
+        },
+        {
+          "path": "Audio/output/2430/chapter_05.wav",
+          "duration": 185.180792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Übermensch and the Art of Becoming",
+          "actualDuration": 185.180792,
+          "startTime": 1217.115708,
+          "endTime": 1402.2965
+        },
+        {
+          "path": "Audio/output/2430/chapter_06.wav",
+          "duration": 235.4505,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nietzsche the Psychologist: Peering into the Human Soul",
+          "actualDuration": 235.4505,
+          "startTime": 1403.7965,
+          "endTime": 1639.2469999999998
+        },
+        {
+          "path": "Audio/output/2430/chapter_07.wav",
+          "duration": 200.099833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Style as Substance: Nietzsche’s Art of Writing",
+          "actualDuration": 200.099833,
+          "startTime": 1640.7469999999998,
+          "endTime": 1840.8468329999998
+        },
+        {
+          "path": "Audio/output/2430/chapter_08.wav",
+          "duration": 204.189583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shadow of Misinterpretation: Twists, Turns, and Tragedies",
+          "actualDuration": 204.189583,
+          "startTime": 1842.3468329999998,
+          "endTime": 2046.536416
+        },
+        {
+          "path": "Audio/output/2430/chapter_09.wav",
+          "duration": 183.348625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living Dangerously: Nietzsche’s Call to Adventure",
+          "actualDuration": 183.348625,
+          "startTime": 2048.036416,
+          "endTime": 2231.385041
+        },
+        {
+          "path": "Audio/output/2430/chapter_10.wav",
+          "duration": 178.820583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Dance of Affirmation: Joy, Suffering, and the Art of Saying Yes",
+          "actualDuration": 178.820583,
+          "startTime": 2232.885041,
+          "endTime": 2411.705624
+        },
+        {
+          "path": "Audio/output/2430/chapter_11.wav",
+          "duration": 157.548333,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Legacy of Nietzsche: Seeds for the Future",
+          "actualDuration": 157.548333,
+          "startTime": 2413.205624,
+          "endTime": 2570.7539570000004
+        },
+        {
+          "path": "Audio/output/2430/conclusion.wav",
+          "duration": 161.27975,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.27975,
+          "startTime": 2572.2539570000004,
+          "endTime": 2733.5337070000005
+        }
+      ],
+      "totalDuration": 2733.5337070000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 125.82,
+          "actualStart": 0,
+          "actualEnd": 125.816833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Nietzsche: The Man Behind the Myths",
+          "expectedStart": 125.82,
+          "expectedEnd": 418.47,
+          "actualStart": 127.316833,
+          "actualEnd": 419.96325,
+          "timeDifference": 1.4968330000000094
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Critique of Morality and Religion: Breaking Old Chains",
+          "expectedStart": 418.47,
+          "expectedEnd": 712.12,
+          "actualStart": 421.46325,
+          "actualEnd": 715.112125,
+          "timeDifference": 2.993249999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Will to Power and the Search for Meaning",
+          "expectedStart": 712.12,
+          "expectedEnd": 982.05,
+          "actualStart": 716.612125,
+          "actualEnd": 986.54625,
+          "timeDifference": 4.492124999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Eternal Recurrence and the Courage to Affirm Life",
+          "expectedStart": 982.05,
+          "expectedEnd": 1209.62,
+          "actualStart": 988.04625,
+          "actualEnd": 1215.615708,
+          "timeDifference": 5.996250000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Übermensch and the Art of Becoming",
+          "expectedStart": 1209.62,
+          "expectedEnd": 1394.8,
+          "actualStart": 1217.115708,
+          "actualEnd": 1402.2965,
+          "timeDifference": 7.49570800000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nietzsche the Psychologist: Peering into the Human Soul",
+          "expectedStart": 1394.8,
+          "expectedEnd": 1630.25,
+          "actualStart": 1403.7965,
+          "actualEnd": 1639.2469999999998,
+          "timeDifference": 8.996499999999969
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Style as Substance: Nietzsche’s Art of Writing",
+          "expectedStart": 1630.25,
+          "expectedEnd": 1830.35,
+          "actualStart": 1640.7469999999998,
+          "actualEnd": 1840.8468329999998,
+          "timeDifference": 10.496999999999844
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shadow of Misinterpretation: Twists, Turns, and Tragedies",
+          "expectedStart": 1830.35,
+          "expectedEnd": 2034.54,
+          "actualStart": 1842.3468329999998,
+          "actualEnd": 2046.536416,
+          "timeDifference": 11.996832999999924
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living Dangerously: Nietzsche’s Call to Adventure",
+          "expectedStart": 2034.54,
+          "expectedEnd": 2217.89,
+          "actualStart": 2048.036416,
+          "actualEnd": 2231.385041,
+          "timeDifference": 13.496415999999954
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Dance of Affirmation: Joy, Suffering, and the Art of Saying Yes",
+          "expectedStart": 2217.89,
+          "expectedEnd": 2396.71,
+          "actualStart": 2232.885041,
+          "actualEnd": 2411.705624,
+          "timeDifference": 14.995041000000128
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Legacy of Nietzsche: Seeds for the Future",
+          "expectedStart": 2396.71,
+          "expectedEnd": 2554.26,
+          "actualStart": 2413.205624,
+          "actualEnd": 2570.7539570000004,
+          "timeDifference": 16.495624000000134
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2554.26,
+          "expectedEnd": 2715.54,
+          "actualStart": 2572.2539570000004,
+          "actualEnd": 2733.5337070000005,
+          "timeDifference": 17.993957000000137
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 125.816833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Nietzsche: The Man Behind the Myths"
+        },
+        {
+          "startTime": 419.96325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Nietzsche: The Man Behind the Myths and Chapter 2 The Critique of Morality and Religion: Breaking Old Chains"
+        },
+        {
+          "startTime": 715.112125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Critique of Morality and Religion: Breaking Old Chains and Chapter 3 The Will to Power and the Search for Meaning"
+        },
+        {
+          "startTime": 986.54625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Will to Power and the Search for Meaning and Chapter 4 Eternal Recurrence and the Courage to Affirm Life"
+        },
+        {
+          "startTime": 1215.615708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Eternal Recurrence and the Courage to Affirm Life and Chapter 5 The Übermensch and the Art of Becoming"
+        },
+        {
+          "startTime": 1402.2965,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Übermensch and the Art of Becoming and Chapter 6 Nietzsche the Psychologist: Peering into the Human Soul"
+        },
+        {
+          "startTime": 1639.2469999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nietzsche the Psychologist: Peering into the Human Soul and Chapter 7 Style as Substance: Nietzsche’s Art of Writing"
+        },
+        {
+          "startTime": 1840.8468329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Style as Substance: Nietzsche’s Art of Writing and Chapter 8 The Shadow of Misinterpretation: Twists, Turns, and Tragedies"
+        },
+        {
+          "startTime": 2046.536416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shadow of Misinterpretation: Twists, Turns, and Tragedies and Chapter 9 Living Dangerously: Nietzsche’s Call to Adventure"
+        },
+        {
+          "startTime": 2231.385041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living Dangerously: Nietzsche’s Call to Adventure and Chapter 10 The Dance of Affirmation: Joy, Suffering, and the Art of Saying Yes"
+        },
+        {
+          "startTime": 2411.705624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Dance of Affirmation: Joy, Suffering, and the Art of Saying Yes and Chapter 11 The Legacy of Nietzsche: Seeds for the Future"
+        },
+        {
+          "startTime": 2570.7539570000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Legacy of Nietzsche: Seeds for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2430",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:14:25.530Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2415",
+  "timestamp": "2025-07-10T21:50:46.826Z",
+  "success": false,
+  "processingTime": -1752183833936,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4543,
+    "totalAudioFiles": 12,
+    "totalDuration": 2091.8913749999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2091.8913749999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2415/optimized_text/2415.md",
+    "fileSize": 672,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2415.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2415/metadata/2415_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2091.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2415/metadata/2415_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2415/metadata/2415_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2415/2415_complete.wav",
+    "duration": 2091.891375,
+    "fileSize": 100410864,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2415/introduction.wav",
+          "duration": 93.448292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.448292,
+          "startTime": 0,
+          "endTime": 93.448292
+        },
+        {
+          "path": "Audio/output/2415/chapter_01.wav",
+          "duration": 218.90175,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Real Joy in Faith",
+          "actualDuration": 218.90175,
+          "startTime": 94.948292,
+          "endTime": 313.850042
+        },
+        {
+          "path": "Audio/output/2415/chapter_02.wav",
+          "duration": 220.348958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Why God’s Glory and Human Happiness Belong Together",
+          "actualDuration": 220.348958,
+          "startTime": 315.350042,
+          "endTime": 535.699
+        },
+        {
+          "path": "Audio/output/2415/chapter_03.wav",
+          "duration": 227.908125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Desire and Delight in Worship",
+          "actualDuration": 227.908125,
+          "startTime": 537.199,
+          "endTime": 765.107125
+        },
+        {
+          "path": "Audio/output/2415/chapter_04.wav",
+          "duration": 209.76825,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Joy in God Changes Prayer, Marriage, and Everyday Life",
+          "actualDuration": 209.76825,
+          "startTime": 766.607125,
+          "endTime": 976.375375
+        },
+        {
+          "path": "Audio/output/2415/chapter_05.wav",
+          "duration": 174.813625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Self-Denial and Suffering in the Light of Joy",
+          "actualDuration": 174.813625,
+          "startTime": 977.875375,
+          "endTime": 1152.6889999999999
+        },
+        {
+          "path": "Audio/output/2415/chapter_06.wav",
+          "duration": 168.3555,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Joy-Driven Generosity: Giving as Overflow, Not Obligation",
+          "actualDuration": 168.3555,
+          "startTime": 1154.1889999999999,
+          "endTime": 1322.5445
+        },
+        {
+          "path": "Audio/output/2415/chapter_07.wav",
+          "duration": 196.796542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Missions and the Spread of Joy",
+          "actualDuration": 196.796542,
+          "startTime": 1324.0445,
+          "endTime": 1520.841042
+        },
+        {
+          "path": "Audio/output/2415/chapter_08.wav",
+          "duration": 171.024833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ultimate Purpose: God’s Glory and Our Joy",
+          "actualDuration": 171.024833,
+          "startTime": 1522.341042,
+          "endTime": 1693.365875
+        },
+        {
+          "path": "Audio/output/2415/chapter_09.wav",
+          "duration": 149.944583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living the Life of Christian Hedonism: Everyday Practices",
+          "actualDuration": 149.944583,
+          "startTime": 1694.865875,
+          "endTime": 1844.810458
+        },
+        {
+          "path": "Audio/output/2415/chapter_10.wav",
+          "duration": 130.150917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Hope of Final Joy: Looking Forward",
+          "actualDuration": 130.150917,
+          "startTime": 1846.310458,
+          "endTime": 1976.4613749999999
+        },
+        {
+          "path": "Audio/output/2415/conclusion.wav",
+          "duration": 130.43,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.43,
+          "startTime": 1977.9613749999999,
+          "endTime": 2108.3913749999997
+        }
+      ],
+      "totalDuration": 2108.3913749999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.45,
+          "actualStart": 0,
+          "actualEnd": 93.448292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Real Joy in Faith",
+          "expectedStart": 93.45,
+          "expectedEnd": 312.35,
+          "actualStart": 94.948292,
+          "actualEnd": 313.850042,
+          "timeDifference": 1.4982919999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Why God’s Glory and Human Happiness Belong Together",
+          "expectedStart": 312.35,
+          "expectedEnd": 532.7,
+          "actualStart": 315.350042,
+          "actualEnd": 535.699,
+          "timeDifference": 3.000041999999951
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Desire and Delight in Worship",
+          "expectedStart": 532.7,
+          "expectedEnd": 760.61,
+          "actualStart": 537.199,
+          "actualEnd": 765.107125,
+          "timeDifference": 4.49899999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Joy in God Changes Prayer, Marriage, and Everyday Life",
+          "expectedStart": 760.61,
+          "expectedEnd": 970.38,
+          "actualStart": 766.607125,
+          "actualEnd": 976.375375,
+          "timeDifference": 5.997124999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Self-Denial and Suffering in the Light of Joy",
+          "expectedStart": 970.38,
+          "expectedEnd": 1145.19,
+          "actualStart": 977.875375,
+          "actualEnd": 1152.6889999999999,
+          "timeDifference": 7.495374999999967
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Joy-Driven Generosity: Giving as Overflow, Not Obligation",
+          "expectedStart": 1145.19,
+          "expectedEnd": 1313.55,
+          "actualStart": 1154.1889999999999,
+          "actualEnd": 1322.5445,
+          "timeDifference": 8.998999999999796
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Missions and the Spread of Joy",
+          "expectedStart": 1313.55,
+          "expectedEnd": 1510.35,
+          "actualStart": 1324.0445,
+          "actualEnd": 1520.841042,
+          "timeDifference": 10.494500000000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ultimate Purpose: God’s Glory and Our Joy",
+          "expectedStart": 1510.35,
+          "expectedEnd": 1681.37,
+          "actualStart": 1522.341042,
+          "actualEnd": 1693.365875,
+          "timeDifference": 11.991042000000107
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living the Life of Christian Hedonism: Everyday Practices",
+          "expectedStart": 1681.37,
+          "expectedEnd": 1831.31,
+          "actualStart": 1694.865875,
+          "actualEnd": 1844.810458,
+          "timeDifference": 13.49587500000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Hope of Final Joy: Looking Forward",
+          "expectedStart": 1831.31,
+          "expectedEnd": 1961.46,
+          "actualStart": 1846.310458,
+          "actualEnd": 1976.4613749999999,
+          "timeDifference": 15.00045799999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1961.46,
+          "expectedEnd": 2091.89,
+          "actualStart": 1977.9613749999999,
+          "actualEnd": 2108.3913749999997,
+          "timeDifference": 16.501374999999825
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.448292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Real Joy in Faith"
+        },
+        {
+          "startTime": 313.850042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Real Joy in Faith and Chapter 2 Why God’s Glory and Human Happiness Belong Together"
+        },
+        {
+          "startTime": 535.699,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Why God’s Glory and Human Happiness Belong Together and Chapter 3 The Role of Desire and Delight in Worship"
+        },
+        {
+          "startTime": 765.107125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Desire and Delight in Worship and Chapter 4 How Joy in God Changes Prayer, Marriage, and Everyday Life"
+        },
+        {
+          "startTime": 976.375375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Joy in God Changes Prayer, Marriage, and Everyday Life and Chapter 5 Rethinking Self-Denial and Suffering in the Light of Joy"
+        },
+        {
+          "startTime": 1152.6889999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Self-Denial and Suffering in the Light of Joy and Chapter 6 Joy-Driven Generosity: Giving as Overflow, Not Obligation"
+        },
+        {
+          "startTime": 1322.5445,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Joy-Driven Generosity: Giving as Overflow, Not Obligation and Chapter 7 Missions and the Spread of Joy"
+        },
+        {
+          "startTime": 1520.841042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Missions and the Spread of Joy and Chapter 8 The Ultimate Purpose: God’s Glory and Our Joy"
+        },
+        {
+          "startTime": 1693.365875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ultimate Purpose: God’s Glory and Our Joy and Chapter 9 Living the Life of Christian Hedonism: Everyday Practices"
+        },
+        {
+          "startTime": 1844.810458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living the Life of Christian Hedonism: Everyday Practices and Chapter 10 The Hope of Final Joy: Looking Forward"
+        },
+        {
+          "startTime": 1976.4613749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Hope of Final Joy: Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2415",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:43:54.453Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

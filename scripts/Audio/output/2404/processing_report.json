@@ -1,0 +1,503 @@
+{
+  "bookId": "2404",
+  "timestamp": "2025-07-10T21:16:59.457Z",
+  "success": false,
+  "processingTime": -1752181766514,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5650,
+    "totalAudioFiles": 14,
+    "totalDuration": 2303.426168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2303.426168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2404/optimized_text/2404.md",
+    "fileSize": 884,
+    "wordCount": 126,
+    "format": "markdown",
+    "filename": "2404.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2404/metadata/2404_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2303.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2404/metadata/2404_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2404/metadata/2404_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2404/2404_complete.wav",
+    "duration": 2303.426167,
+    "fileSize": 110564534,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2404/introduction.wav",
+          "duration": 91.475167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.475167,
+          "startTime": 0,
+          "endTime": 91.475167
+        },
+        {
+          "path": "Audio/output/2404/chapter_01.wav",
+          "duration": 238.437917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Hearing the Father’s Call: Rediscovering God’s Heart",
+          "actualDuration": 238.437917,
+          "startTime": 92.975167,
+          "endTime": 331.413084
+        },
+        {
+          "path": "Audio/output/2404/chapter_02.wav",
+          "duration": 233.734458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Heart of the Father: Source of Mercy, Healing, and Protection",
+          "actualDuration": 233.734458,
+          "startTime": 332.913084,
+          "endTime": 566.647542
+        },
+        {
+          "path": "Audio/output/2404/chapter_03.wav",
+          "duration": 223.43975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Consecration: Entrusting Life to the Father’s Heart",
+          "actualDuration": 223.43975,
+          "startTime": 568.147542,
+          "endTime": 791.587292
+        },
+        {
+          "path": "Audio/output/2404/chapter_04.wav",
+          "duration": 220.816417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Prayers and Practices: Living the Devotion Each Day",
+          "actualDuration": 220.816417,
+          "startTime": 793.087292,
+          "endTime": 1013.903709
+        },
+        {
+          "path": "Audio/output/2404/chapter_05.wav",
+          "duration": 195.084542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Father’s Promises: Hope and Strength for Troubled Times",
+          "actualDuration": 195.084542,
+          "startTime": 1015.403709,
+          "endTime": 1210.488251
+        },
+        {
+          "path": "Audio/output/2404/chapter_06.wav",
+          "duration": 160.357292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Father’s Heart and the Story of Salvation",
+          "actualDuration": 160.357292,
+          "startTime": 1211.988251,
+          "endTime": 1372.345543
+        },
+        {
+          "path": "Audio/output/2404/chapter_07.wav",
+          "duration": 144.216625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Father’s Heart and the Hearts of Jesus and Mary",
+          "actualDuration": 144.216625,
+          "startTime": 1373.845543,
+          "endTime": 1518.062168
+        },
+        {
+          "path": "Audio/output/2404/chapter_08.wav",
+          "duration": 178.541333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Call to the Church: Healing, Unity, and Mission",
+          "actualDuration": 178.541333,
+          "startTime": 1519.562168,
+          "endTime": 1698.103501
+        },
+        {
+          "path": "Audio/output/2404/chapter_09.wav",
+          "duration": 151.118625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Father’s Heart and the World: A Universal Invitation",
+          "actualDuration": 151.118625,
+          "startTime": 1699.603501,
+          "endTime": 1850.7221260000001
+        },
+        {
+          "path": "Audio/output/2404/chapter_10.wav",
+          "duration": 156.5235,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Devotion: Challenges, Growth, and Perseverance",
+          "actualDuration": 156.5235,
+          "startTime": 1852.2221260000001,
+          "endTime": 2008.7456260000001
+        },
+        {
+          "path": "Audio/output/2404/chapter_11.wav",
+          "duration": 114.754042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Fruits of Devotion: Transformation and Witness",
+          "actualDuration": 114.754042,
+          "startTime": 2010.2456260000001,
+          "endTime": 2124.999668
+        },
+        {
+          "path": "Audio/output/2404/chapter_12.wav",
+          "duration": 84.780875,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Father’s Heart: A Path for the Future",
+          "actualDuration": 84.780875,
+          "startTime": 2126.499668,
+          "endTime": 2211.280543
+        },
+        {
+          "path": "Audio/output/2404/conclusion.wav",
+          "duration": 110.145625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.145625,
+          "startTime": 2212.780543,
+          "endTime": 2322.926168
+        }
+      ],
+      "totalDuration": 2322.926168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.48,
+          "actualStart": 0,
+          "actualEnd": 91.475167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Hearing the Father’s Call: Rediscovering God’s Heart",
+          "expectedStart": 91.48,
+          "expectedEnd": 329.92,
+          "actualStart": 92.975167,
+          "actualEnd": 331.413084,
+          "timeDifference": 1.495166999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Heart of the Father: Source of Mercy, Healing, and Protection",
+          "expectedStart": 329.92,
+          "expectedEnd": 563.65,
+          "actualStart": 332.913084,
+          "actualEnd": 566.647542,
+          "timeDifference": 2.9930840000000103
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Consecration: Entrusting Life to the Father’s Heart",
+          "expectedStart": 563.65,
+          "expectedEnd": 787.09,
+          "actualStart": 568.147542,
+          "actualEnd": 791.587292,
+          "timeDifference": 4.497542000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Prayers and Practices: Living the Devotion Each Day",
+          "expectedStart": 787.09,
+          "expectedEnd": 1007.91,
+          "actualStart": 793.087292,
+          "actualEnd": 1013.903709,
+          "timeDifference": 5.997292000000016
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Father’s Promises: Hope and Strength for Troubled Times",
+          "expectedStart": 1007.91,
+          "expectedEnd": 1202.99,
+          "actualStart": 1015.403709,
+          "actualEnd": 1210.488251,
+          "timeDifference": 7.493709000000081
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Father’s Heart and the Story of Salvation",
+          "expectedStart": 1202.99,
+          "expectedEnd": 1363.35,
+          "actualStart": 1211.988251,
+          "actualEnd": 1372.345543,
+          "timeDifference": 8.998250999999982
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Father’s Heart and the Hearts of Jesus and Mary",
+          "expectedStart": 1363.35,
+          "expectedEnd": 1507.57,
+          "actualStart": 1373.845543,
+          "actualEnd": 1518.062168,
+          "timeDifference": 10.495542999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Call to the Church: Healing, Unity, and Mission",
+          "expectedStart": 1507.57,
+          "expectedEnd": 1686.11,
+          "actualStart": 1519.562168,
+          "actualEnd": 1698.103501,
+          "timeDifference": 11.992167999999992
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Father’s Heart and the World: A Universal Invitation",
+          "expectedStart": 1686.11,
+          "expectedEnd": 1837.23,
+          "actualStart": 1699.603501,
+          "actualEnd": 1850.7221260000001,
+          "timeDifference": 13.493501000000151
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Devotion: Challenges, Growth, and Perseverance",
+          "expectedStart": 1837.23,
+          "expectedEnd": 1993.75,
+          "actualStart": 1852.2221260000001,
+          "actualEnd": 2008.7456260000001,
+          "timeDifference": 14.992126000000098
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Fruits of Devotion: Transformation and Witness",
+          "expectedStart": 1993.75,
+          "expectedEnd": 2108.5,
+          "actualStart": 2010.2456260000001,
+          "actualEnd": 2124.999668,
+          "timeDifference": 16.49562600000013
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Father’s Heart: A Path for the Future",
+          "expectedStart": 2108.5,
+          "expectedEnd": 2193.28,
+          "actualStart": 2126.499668,
+          "actualEnd": 2211.280543,
+          "timeDifference": 17.99966799999993
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2193.28,
+          "expectedEnd": 2303.43,
+          "actualStart": 2212.780543,
+          "actualEnd": 2322.926168,
+          "timeDifference": 19.500542999999652
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.475167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Hearing the Father’s Call: Rediscovering God’s Heart"
+        },
+        {
+          "startTime": 331.413084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Hearing the Father’s Call: Rediscovering God’s Heart and Chapter 2 The Heart of the Father: Source of Mercy, Healing, and Protection"
+        },
+        {
+          "startTime": 566.647542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Heart of the Father: Source of Mercy, Healing, and Protection and Chapter 3 Consecration: Entrusting Life to the Father’s Heart"
+        },
+        {
+          "startTime": 791.587292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Consecration: Entrusting Life to the Father’s Heart and Chapter 4 Prayers and Practices: Living the Devotion Each Day"
+        },
+        {
+          "startTime": 1013.903709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Prayers and Practices: Living the Devotion Each Day and Chapter 5 The Father’s Promises: Hope and Strength for Troubled Times"
+        },
+        {
+          "startTime": 1210.488251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Father’s Promises: Hope and Strength for Troubled Times and Chapter 6 The Father’s Heart and the Story of Salvation"
+        },
+        {
+          "startTime": 1372.345543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Father’s Heart and the Story of Salvation and Chapter 7 The Father’s Heart and the Hearts of Jesus and Mary"
+        },
+        {
+          "startTime": 1518.062168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Father’s Heart and the Hearts of Jesus and Mary and Chapter 8 The Call to the Church: Healing, Unity, and Mission"
+        },
+        {
+          "startTime": 1698.103501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Call to the Church: Healing, Unity, and Mission and Chapter 9 The Father’s Heart and the World: A Universal Invitation"
+        },
+        {
+          "startTime": 1850.7221260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Father’s Heart and the World: A Universal Invitation and Chapter 10 Living the Devotion: Challenges, Growth, and Perseverance"
+        },
+        {
+          "startTime": 2008.7456260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Devotion: Challenges, Growth, and Perseverance and Chapter 11 The Fruits of Devotion: Transformation and Witness"
+        },
+        {
+          "startTime": 2124.999668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Fruits of Devotion: Transformation and Witness and Chapter 12 The Father’s Heart: A Path for the Future"
+        },
+        {
+          "startTime": 2211.280543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Father’s Heart: A Path for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2404",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:09:28.345Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

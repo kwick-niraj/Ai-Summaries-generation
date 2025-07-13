@@ -1,0 +1,456 @@
+{
+  "bookId": "2581",
+  "timestamp": "2025-07-11T06:56:51.431Z",
+  "success": false,
+  "processingTime": -1752216734174,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4178,
+    "totalAudioFiles": 12,
+    "totalDuration": 2055.0223750000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2055.0223750000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2581/optimized_text/2581.md",
+    "fileSize": 606,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2581.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2581/metadata/2581_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2055.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2581/metadata/2581_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2581/metadata/2581_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2581/2581_complete.wav",
+    "duration": 2055.022375,
+    "fileSize": 98641152,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2581/introduction.wav",
+          "duration": 89.592542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.592542,
+          "startTime": 0,
+          "endTime": 89.592542
+        },
+        {
+          "path": "Audio/output/2581/chapter_01.wav",
+          "duration": 226.538708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Mind in a World of Distraction",
+          "actualDuration": 226.538708,
+          "startTime": 91.092542,
+          "endTime": 317.63125
+        },
+        {
+          "path": "Audio/output/2581/chapter_02.wav",
+          "duration": 262.442333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Technology Shapes the Way We Think",
+          "actualDuration": 262.442333,
+          "startTime": 319.13125,
+          "endTime": 581.5735830000001
+        },
+        {
+          "path": "Audio/output/2581/chapter_03.wav",
+          "duration": 216.338167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Brain’s Plasticity and the Power of Habit",
+          "actualDuration": 216.338167,
+          "startTime": 583.0735830000001,
+          "endTime": 799.4117500000001
+        },
+        {
+          "path": "Audio/output/2581/chapter_04.wav",
+          "duration": 190.643,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 From Deep Reading to Superficial Browsing",
+          "actualDuration": 190.643,
+          "startTime": 800.9117500000001,
+          "endTime": 991.5547500000001
+        },
+        {
+          "path": "Audio/output/2581/chapter_05.wav",
+          "duration": 146.92675,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Medium Shapes the Message and the Mind",
+          "actualDuration": 146.92675,
+          "startTime": 993.0547500000001,
+          "endTime": 1139.9815
+        },
+        {
+          "path": "Audio/output/2581/chapter_06.wav",
+          "duration": 186.097083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Internet’s Impact on Memory and Learning",
+          "actualDuration": 186.097083,
+          "startTime": 1141.4815,
+          "endTime": 1327.578583
+        },
+        {
+          "path": "Audio/output/2581/chapter_07.wav",
+          "duration": 165.022583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Culture of Distraction",
+          "actualDuration": 165.022583,
+          "startTime": 1329.078583,
+          "endTime": 1494.101166
+        },
+        {
+          "path": "Audio/output/2581/chapter_08.wav",
+          "duration": 159.631667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Science of Attention and the Cost of Multitasking",
+          "actualDuration": 159.631667,
+          "startTime": 1495.601166,
+          "endTime": 1655.232833
+        },
+        {
+          "path": "Audio/output/2581/chapter_09.wav",
+          "duration": 146.705292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Searching for Balance in a Digital World",
+          "actualDuration": 146.705292,
+          "startTime": 1656.732833,
+          "endTime": 1803.4381250000001
+        },
+        {
+          "path": "Audio/output/2581/chapter_10.wav",
+          "duration": 135.658417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reclaiming Deep Thought and Presence",
+          "actualDuration": 135.658417,
+          "startTime": 1804.9381250000001,
+          "endTime": 1940.5965420000002
+        },
+        {
+          "path": "Audio/output/2581/conclusion.wav",
+          "duration": 129.425833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.425833,
+          "startTime": 1942.0965420000002,
+          "endTime": 2071.5223750000005
+        }
+      ],
+      "totalDuration": 2071.5223750000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.59,
+          "actualStart": 0,
+          "actualEnd": 89.592542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Mind in a World of Distraction",
+          "expectedStart": 89.59,
+          "expectedEnd": 316.13,
+          "actualStart": 91.092542,
+          "actualEnd": 317.63125,
+          "timeDifference": 1.5025419999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Technology Shapes the Way We Think",
+          "expectedStart": 316.13,
+          "expectedEnd": 578.57,
+          "actualStart": 319.13125,
+          "actualEnd": 581.5735830000001,
+          "timeDifference": 3.0012500000000273
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Brain’s Plasticity and the Power of Habit",
+          "expectedStart": 578.57,
+          "expectedEnd": 794.91,
+          "actualStart": 583.0735830000001,
+          "actualEnd": 799.4117500000001,
+          "timeDifference": 4.503583000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 From Deep Reading to Superficial Browsing",
+          "expectedStart": 794.91,
+          "expectedEnd": 985.55,
+          "actualStart": 800.9117500000001,
+          "actualEnd": 991.5547500000001,
+          "timeDifference": 6.001750000000129
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Medium Shapes the Message and the Mind",
+          "expectedStart": 985.55,
+          "expectedEnd": 1132.48,
+          "actualStart": 993.0547500000001,
+          "actualEnd": 1139.9815,
+          "timeDifference": 7.504750000000172
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Internet’s Impact on Memory and Learning",
+          "expectedStart": 1132.48,
+          "expectedEnd": 1318.58,
+          "actualStart": 1141.4815,
+          "actualEnd": 1327.578583,
+          "timeDifference": 9.001500000000078
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Culture of Distraction",
+          "expectedStart": 1318.58,
+          "expectedEnd": 1483.6,
+          "actualStart": 1329.078583,
+          "actualEnd": 1494.101166,
+          "timeDifference": 10.498583000000053
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Science of Attention and the Cost of Multitasking",
+          "expectedStart": 1483.6,
+          "expectedEnd": 1643.23,
+          "actualStart": 1495.601166,
+          "actualEnd": 1655.232833,
+          "timeDifference": 12.001166000000012
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Searching for Balance in a Digital World",
+          "expectedStart": 1643.23,
+          "expectedEnd": 1789.94,
+          "actualStart": 1656.732833,
+          "actualEnd": 1803.4381250000001,
+          "timeDifference": 13.50283300000001
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reclaiming Deep Thought and Presence",
+          "expectedStart": 1789.94,
+          "expectedEnd": 1925.6,
+          "actualStart": 1804.9381250000001,
+          "actualEnd": 1940.5965420000002,
+          "timeDifference": 14.998125000000073
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1925.6,
+          "expectedEnd": 2055.03,
+          "actualStart": 1942.0965420000002,
+          "actualEnd": 2071.5223750000005,
+          "timeDifference": 16.496542000000318
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.592542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Mind in a World of Distraction"
+        },
+        {
+          "startTime": 317.63125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Mind in a World of Distraction and Chapter 2 How Technology Shapes the Way We Think"
+        },
+        {
+          "startTime": 581.5735830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Technology Shapes the Way We Think and Chapter 3 The Brain’s Plasticity and the Power of Habit"
+        },
+        {
+          "startTime": 799.4117500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Brain’s Plasticity and the Power of Habit and Chapter 4 From Deep Reading to Superficial Browsing"
+        },
+        {
+          "startTime": 991.5547500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 From Deep Reading to Superficial Browsing and Chapter 5 The Medium Shapes the Message and the Mind"
+        },
+        {
+          "startTime": 1139.9815,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Medium Shapes the Message and the Mind and Chapter 6 The Internet’s Impact on Memory and Learning"
+        },
+        {
+          "startTime": 1327.578583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Internet’s Impact on Memory and Learning and Chapter 7 The Culture of Distraction"
+        },
+        {
+          "startTime": 1494.101166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Culture of Distraction and Chapter 8 The Science of Attention and the Cost of Multitasking"
+        },
+        {
+          "startTime": 1655.232833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Science of Attention and the Cost of Multitasking and Chapter 9 Searching for Balance in a Digital World"
+        },
+        {
+          "startTime": 1803.4381250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Searching for Balance in a Digital World and Chapter 10 Reclaiming Deep Thought and Presence"
+        },
+        {
+          "startTime": 1940.5965420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reclaiming Deep Thought and Presence and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2581",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:52:14.700Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

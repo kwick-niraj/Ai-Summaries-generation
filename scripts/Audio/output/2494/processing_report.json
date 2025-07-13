@@ -1,0 +1,456 @@
+{
+  "bookId": "2494",
+  "timestamp": "2025-07-11T01:32:57.253Z",
+  "success": false,
+  "processingTime": -1752197211963,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3866,
+    "totalAudioFiles": 12,
+    "totalDuration": 1799.920333
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1799.920333
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2494/optimized_text/2494.md",
+    "fileSize": 769,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2494.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2494/metadata/2494_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1799.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2494/metadata/2494_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2494/metadata/2494_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2494/2494_complete.wav",
+    "duration": 1799.920333,
+    "fileSize": 86396254,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2494/introduction.wav",
+          "duration": 87.7085,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.7085,
+          "startTime": 0,
+          "endTime": 87.7085
+        },
+        {
+          "path": "Audio/output/2494/chapter_01.wav",
+          "duration": 197.172292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Finance Took Center Stage in American Life",
+          "actualDuration": 197.172292,
+          "startTime": 89.2085,
+          "endTime": 286.380792
+        },
+        {
+          "path": "Audio/output/2494/chapter_02.wav",
+          "duration": 197.8355,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Shareholder Value and the Decline of Long-Term Thinking",
+          "actualDuration": 197.8355,
+          "startTime": 287.880792,
+          "endTime": 485.71629199999995
+        },
+        {
+          "path": "Audio/output/2494/chapter_03.wav",
+          "duration": 202.3835,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Financial Engineering Replaced Real Innovation",
+          "actualDuration": 202.3835,
+          "startTime": 487.21629199999995,
+          "endTime": 689.599792
+        },
+        {
+          "path": "Audio/output/2494/chapter_04.wav",
+          "duration": 169.05325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Widening Gap Between Wall Street and Main Street",
+          "actualDuration": 169.05325,
+          "startTime": 691.099792,
+          "endTime": 860.1530419999999
+        },
+        {
+          "path": "Audio/output/2494/chapter_05.wav",
+          "duration": 150.056583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Social and Economic Costs of Financialization",
+          "actualDuration": 150.056583,
+          "startTime": 861.6530419999999,
+          "endTime": 1011.709625
+        },
+        {
+          "path": "Audio/output/2494/chapter_06.wav",
+          "duration": 143.116375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Hidden Machinery: How Tax Policy and Regulation Fuel Finance’s Dominance",
+          "actualDuration": 143.116375,
+          "startTime": 1013.209625,
+          "endTime": 1156.326
+        },
+        {
+          "path": "Audio/output/2494/chapter_07.wav",
+          "duration": 137.297083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Global Ripple: How American Finance Reshaped the World",
+          "actualDuration": 137.297083,
+          "startTime": 1157.826,
+          "endTime": 1295.123083
+        },
+        {
+          "path": "Audio/output/2494/chapter_08.wav",
+          "duration": 142.829792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Accountability: Who Bears the Cost?",
+          "actualDuration": 142.829792,
+          "startTime": 1296.623083,
+          "endTime": 1439.452875
+        },
+        {
+          "path": "Audio/output/2494/chapter_09.wav",
+          "duration": 130.311292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Resistance: People and Companies Pushing Back",
+          "actualDuration": 130.311292,
+          "startTime": 1440.952875,
+          "endTime": 1571.264167
+        },
+        {
+          "path": "Audio/output/2494/chapter_10.wav",
+          "duration": 127.100583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rethinking the Role of Finance: Toward a More Balanced Future",
+          "actualDuration": 127.100583,
+          "startTime": 1572.764167,
+          "endTime": 1699.86475
+        },
+        {
+          "path": "Audio/output/2494/conclusion.wav",
+          "duration": 115.055583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.055583,
+          "startTime": 1701.36475,
+          "endTime": 1816.420333
+        }
+      ],
+      "totalDuration": 1816.420333,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.71,
+          "actualStart": 0,
+          "actualEnd": 87.7085,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Finance Took Center Stage in American Life",
+          "expectedStart": 87.71,
+          "expectedEnd": 284.88,
+          "actualStart": 89.2085,
+          "actualEnd": 286.380792,
+          "timeDifference": 1.498500000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Shareholder Value and the Decline of Long-Term Thinking",
+          "expectedStart": 284.88,
+          "expectedEnd": 482.72,
+          "actualStart": 287.880792,
+          "actualEnd": 485.71629199999995,
+          "timeDifference": 3.00079199999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Financial Engineering Replaced Real Innovation",
+          "expectedStart": 482.72,
+          "expectedEnd": 685.1,
+          "actualStart": 487.21629199999995,
+          "actualEnd": 689.599792,
+          "timeDifference": 4.496291999999926
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Widening Gap Between Wall Street and Main Street",
+          "expectedStart": 685.1,
+          "expectedEnd": 854.15,
+          "actualStart": 691.099792,
+          "actualEnd": 860.1530419999999,
+          "timeDifference": 5.999791999999957
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Social and Economic Costs of Financialization",
+          "expectedStart": 854.15,
+          "expectedEnd": 1004.21,
+          "actualStart": 861.6530419999999,
+          "actualEnd": 1011.709625,
+          "timeDifference": 7.503041999999937
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Hidden Machinery: How Tax Policy and Regulation Fuel Finance’s Dominance",
+          "expectedStart": 1004.21,
+          "expectedEnd": 1147.33,
+          "actualStart": 1013.209625,
+          "actualEnd": 1156.326,
+          "timeDifference": 8.999624999999924
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Global Ripple: How American Finance Reshaped the World",
+          "expectedStart": 1147.33,
+          "expectedEnd": 1284.63,
+          "actualStart": 1157.826,
+          "actualEnd": 1295.123083,
+          "timeDifference": 10.496000000000095
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Accountability: Who Bears the Cost?",
+          "expectedStart": 1284.63,
+          "expectedEnd": 1427.46,
+          "actualStart": 1296.623083,
+          "actualEnd": 1439.452875,
+          "timeDifference": 11.993082999999842
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Resistance: People and Companies Pushing Back",
+          "expectedStart": 1427.46,
+          "expectedEnd": 1557.77,
+          "actualStart": 1440.952875,
+          "actualEnd": 1571.264167,
+          "timeDifference": 13.492874999999913
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rethinking the Role of Finance: Toward a More Balanced Future",
+          "expectedStart": 1557.77,
+          "expectedEnd": 1684.87,
+          "actualStart": 1572.764167,
+          "actualEnd": 1699.86475,
+          "timeDifference": 14.994167000000061
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1684.87,
+          "expectedEnd": 1799.93,
+          "actualStart": 1701.36475,
+          "actualEnd": 1816.420333,
+          "timeDifference": 16.494750000000067
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.7085,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Finance Took Center Stage in American Life"
+        },
+        {
+          "startTime": 286.380792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Finance Took Center Stage in American Life and Chapter 2 The Rise of Shareholder Value and the Decline of Long-Term Thinking"
+        },
+        {
+          "startTime": 485.71629199999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Shareholder Value and the Decline of Long-Term Thinking and Chapter 3 How Financial Engineering Replaced Real Innovation"
+        },
+        {
+          "startTime": 689.599792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Financial Engineering Replaced Real Innovation and Chapter 4 The Widening Gap Between Wall Street and Main Street"
+        },
+        {
+          "startTime": 860.1530419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Widening Gap Between Wall Street and Main Street and Chapter 5 The Social and Economic Costs of Financialization"
+        },
+        {
+          "startTime": 1011.709625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Social and Economic Costs of Financialization and Chapter 6 The Hidden Machinery: How Tax Policy and Regulation Fuel Finance’s Dominance"
+        },
+        {
+          "startTime": 1156.326,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Hidden Machinery: How Tax Policy and Regulation Fuel Finance’s Dominance and Chapter 7 The Global Ripple: How American Finance Reshaped the World"
+        },
+        {
+          "startTime": 1295.123083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Global Ripple: How American Finance Reshaped the World and Chapter 8 The Search for Accountability: Who Bears the Cost?"
+        },
+        {
+          "startTime": 1439.452875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Accountability: Who Bears the Cost? and Chapter 9 The Quiet Resistance: People and Companies Pushing Back"
+        },
+        {
+          "startTime": 1571.264167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Resistance: People and Companies Pushing Back and Chapter 10 Rethinking the Role of Finance: Toward a More Balanced Future"
+        },
+        {
+          "startTime": 1699.86475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rethinking the Role of Finance: Toward a More Balanced Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2494",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:26:53.568Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

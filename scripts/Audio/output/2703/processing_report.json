@@ -1,0 +1,456 @@
+{
+  "bookId": "2703",
+  "timestamp": "2025-07-13T15:48:23.399Z",
+  "success": false,
+  "processingTime": -1752421424028,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4528,
+    "totalAudioFiles": 12,
+    "totalDuration": 2428.3598340000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2428.3598340000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2703/optimized_text/2703.md",
+    "fileSize": 845,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2703.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2703/metadata/2703_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2428.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2703/metadata/2703_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2703/metadata/2703_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2703/2703_complete.wav",
+    "duration": 2428.359833,
+    "fileSize": 116561350,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2703/introduction.wav",
+          "duration": 95.16625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.16625,
+          "startTime": 0,
+          "endTime": 95.16625
+        },
+        {
+          "path": "Audio/output/2703/chapter_01.wav",
+          "duration": 270.253875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Work, Success, and the Meaning of Wealth",
+          "actualDuration": 270.253875,
+          "startTime": 96.66625,
+          "endTime": 366.920125
+        },
+        {
+          "path": "Audio/output/2703/chapter_02.wav",
+          "duration": 237.966375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Focusing on What Matters—Elimination and the Power of Selective Attention",
+          "actualDuration": 237.966375,
+          "startTime": 368.420125,
+          "endTime": 606.3865
+        },
+        {
+          "path": "Audio/output/2703/chapter_03.wav",
+          "duration": 228.942458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Outsourcing and Delegation—Freeing Time Through Smart Systems",
+          "actualDuration": 228.942458,
+          "startTime": 607.8865,
+          "endTime": 836.828958
+        },
+        {
+          "path": "Audio/output/2703/chapter_04.wav",
+          "duration": 248.788917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Automated Income—Building a Muse Business for Freedom",
+          "actualDuration": 248.788917,
+          "startTime": 838.328958,
+          "endTime": 1087.117875
+        },
+        {
+          "path": "Audio/output/2703/chapter_05.wav",
+          "duration": 201.443125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Designing Mobility and Embracing Remote Work as a Default",
+          "actualDuration": 201.443125,
+          "startTime": 1088.617875,
+          "endTime": 1290.061
+        },
+        {
+          "path": "Audio/output/2703/chapter_06.wav",
+          "duration": 202.059625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining Momentum—Overcoming Obstacles and Avoiding the Drift",
+          "actualDuration": 202.059625,
+          "startTime": 1291.561,
+          "endTime": 1493.620625
+        },
+        {
+          "path": "Audio/output/2703/chapter_07.wav",
+          "duration": 180.351292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mini-Retirements—Redefining Leisure and Life’s Rhythm",
+          "actualDuration": 180.351292,
+          "startTime": 1495.120625,
+          "endTime": 1675.471917
+        },
+        {
+          "path": "Audio/output/2703/chapter_08.wav",
+          "duration": 204.485917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mastering Remote Management—Leading and Collaborating from Anywhere",
+          "actualDuration": 204.485917,
+          "startTime": 1676.971917,
+          "endTime": 1881.457834
+        },
+        {
+          "path": "Audio/output/2703/chapter_09.wav",
+          "duration": 227.189375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Uncertainty—Building Flexibility and Emotional Resilience",
+          "actualDuration": 227.189375,
+          "startTime": 1882.957834,
+          "endTime": 2110.147209
+        },
+        {
+          "path": "Audio/output/2703/chapter_10.wav",
+          "duration": 160.625625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reconnecting with Purpose—Crafting a Life of Meaning and Contribution",
+          "actualDuration": 160.625625,
+          "startTime": 2111.647209,
+          "endTime": 2272.2728340000003
+        },
+        {
+          "path": "Audio/output/2703/conclusion.wav",
+          "duration": 171.087,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 171.087,
+          "startTime": 2273.7728340000003,
+          "endTime": 2444.8598340000003
+        }
+      ],
+      "totalDuration": 2444.8598340000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.17,
+          "actualStart": 0,
+          "actualEnd": 95.16625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Work, Success, and the Meaning of Wealth",
+          "expectedStart": 95.17,
+          "expectedEnd": 365.42,
+          "actualStart": 96.66625,
+          "actualEnd": 366.920125,
+          "timeDifference": 1.4962500000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Focusing on What Matters—Elimination and the Power of Selective Attention",
+          "expectedStart": 365.42,
+          "expectedEnd": 603.39,
+          "actualStart": 368.420125,
+          "actualEnd": 606.3865,
+          "timeDifference": 3.0001249999999686
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Outsourcing and Delegation—Freeing Time Through Smart Systems",
+          "expectedStart": 603.39,
+          "expectedEnd": 832.33,
+          "actualStart": 607.8865,
+          "actualEnd": 836.828958,
+          "timeDifference": 4.496499999999969
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Automated Income—Building a Muse Business for Freedom",
+          "expectedStart": 832.33,
+          "expectedEnd": 1081.12,
+          "actualStart": 838.328958,
+          "actualEnd": 1087.117875,
+          "timeDifference": 5.998957999999902
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Designing Mobility and Embracing Remote Work as a Default",
+          "expectedStart": 1081.12,
+          "expectedEnd": 1282.56,
+          "actualStart": 1088.617875,
+          "actualEnd": 1290.061,
+          "timeDifference": 7.497875000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining Momentum—Overcoming Obstacles and Avoiding the Drift",
+          "expectedStart": 1282.56,
+          "expectedEnd": 1484.62,
+          "actualStart": 1291.561,
+          "actualEnd": 1493.620625,
+          "timeDifference": 9.000999999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mini-Retirements—Redefining Leisure and Life’s Rhythm",
+          "expectedStart": 1484.62,
+          "expectedEnd": 1664.97,
+          "actualStart": 1495.120625,
+          "actualEnd": 1675.471917,
+          "timeDifference": 10.500625000000127
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mastering Remote Management—Leading and Collaborating from Anywhere",
+          "expectedStart": 1664.97,
+          "expectedEnd": 1869.46,
+          "actualStart": 1676.971917,
+          "actualEnd": 1881.457834,
+          "timeDifference": 12.001917000000049
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Uncertainty—Building Flexibility and Emotional Resilience",
+          "expectedStart": 1869.46,
+          "expectedEnd": 2096.65,
+          "actualStart": 1882.957834,
+          "actualEnd": 2110.147209,
+          "timeDifference": 13.497834000000012
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reconnecting with Purpose—Crafting a Life of Meaning and Contribution",
+          "expectedStart": 2096.65,
+          "expectedEnd": 2257.28,
+          "actualStart": 2111.647209,
+          "actualEnd": 2272.2728340000003,
+          "timeDifference": 14.997209000000112
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2257.28,
+          "expectedEnd": 2428.37,
+          "actualStart": 2273.7728340000003,
+          "actualEnd": 2444.8598340000003,
+          "timeDifference": 16.49283400000013
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.16625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Work, Success, and the Meaning of Wealth"
+        },
+        {
+          "startTime": 366.920125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Work, Success, and the Meaning of Wealth and Chapter 2 Focusing on What Matters—Elimination and the Power of Selective Attention"
+        },
+        {
+          "startTime": 606.3865,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Focusing on What Matters—Elimination and the Power of Selective Attention and Chapter 3 Outsourcing and Delegation—Freeing Time Through Smart Systems"
+        },
+        {
+          "startTime": 836.828958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Outsourcing and Delegation—Freeing Time Through Smart Systems and Chapter 4 Creating Automated Income—Building a Muse Business for Freedom"
+        },
+        {
+          "startTime": 1087.117875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Automated Income—Building a Muse Business for Freedom and Chapter 5 Designing Mobility and Embracing Remote Work as a Default"
+        },
+        {
+          "startTime": 1290.061,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Designing Mobility and Embracing Remote Work as a Default and Chapter 6 Sustaining Momentum—Overcoming Obstacles and Avoiding the Drift"
+        },
+        {
+          "startTime": 1493.620625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining Momentum—Overcoming Obstacles and Avoiding the Drift and Chapter 7 Mini-Retirements—Redefining Leisure and Life’s Rhythm"
+        },
+        {
+          "startTime": 1675.471917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mini-Retirements—Redefining Leisure and Life’s Rhythm and Chapter 8 Mastering Remote Management—Leading and Collaborating from Anywhere"
+        },
+        {
+          "startTime": 1881.457834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mastering Remote Management—Leading and Collaborating from Anywhere and Chapter 9 Navigating Uncertainty—Building Flexibility and Emotional Resilience"
+        },
+        {
+          "startTime": 2110.147209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Uncertainty—Building Flexibility and Emotional Resilience and Chapter 10 Reconnecting with Purpose—Crafting a Life of Meaning and Contribution"
+        },
+        {
+          "startTime": 2272.2728340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reconnecting with Purpose—Crafting a Life of Meaning and Contribution and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2703",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T15:43:46.072Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

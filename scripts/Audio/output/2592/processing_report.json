@@ -1,0 +1,456 @@
+{
+  "bookId": "2592",
+  "timestamp": "2025-07-11T07:20:58.853Z",
+  "success": false,
+  "processingTime": -1752218155479,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5018,
+    "totalAudioFiles": 12,
+    "totalDuration": 2303.1855
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2303.1855
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2592/optimized_text/2592.md",
+    "fileSize": 769,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2592.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2592/metadata/2592_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2303.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2592/metadata/2592_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2592/metadata/2592_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2592/2592_complete.wav",
+    "duration": 2303.1855,
+    "fileSize": 110552982,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2592/introduction.wav",
+          "duration": 83.113708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.113708,
+          "startTime": 0,
+          "endTime": 83.113708
+        },
+        {
+          "path": "Audio/output/2592/chapter_01.wav",
+          "duration": 256.426875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Spark That Starts It All—Recognizing the Fire Within",
+          "actualDuration": 256.426875,
+          "startTime": 84.613708,
+          "endTime": 341.04058299999997
+        },
+        {
+          "path": "Audio/output/2592/chapter_02.wav",
+          "duration": 267.148958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mindset of Initiators—What Sets Firestarters Apart",
+          "actualDuration": 267.148958,
+          "startTime": 342.54058299999997,
+          "endTime": 609.689541
+        },
+        {
+          "path": "Audio/output/2592/chapter_03.wav",
+          "duration": 269.433417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Overcoming Fear and Inertia—Moving from Hesitation to Action",
+          "actualDuration": 269.433417,
+          "startTime": 611.189541,
+          "endTime": 880.6229579999999
+        },
+        {
+          "path": "Audio/output/2592/chapter_04.wav",
+          "duration": 229.112875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning from Real Firestarters—Stories of Change and Possibility",
+          "actualDuration": 229.112875,
+          "startTime": 882.1229579999999,
+          "endTime": 1111.235833
+        },
+        {
+          "path": "Audio/output/2592/chapter_05.wav",
+          "duration": 218.610167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Turning Ideas into Action—The Process of Ignition",
+          "actualDuration": 218.610167,
+          "startTime": 1112.735833,
+          "endTime": 1331.346
+        },
+        {
+          "path": "Audio/output/2592/chapter_06.wav",
+          "duration": 193.727708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Resistance—When the World Pushes Back",
+          "actualDuration": 193.727708,
+          "startTime": 1332.846,
+          "endTime": 1526.573708
+        },
+        {
+          "path": "Audio/output/2592/chapter_07.wav",
+          "duration": 186.106083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining the Flame—Avoiding Burnout and Staying Inspired",
+          "actualDuration": 186.106083,
+          "startTime": 1528.073708,
+          "endTime": 1714.179791
+        },
+        {
+          "path": "Audio/output/2592/chapter_08.wav",
+          "duration": 184.600458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Spreading the Fire—Inspiring Others to Act",
+          "actualDuration": 184.600458,
+          "startTime": 1715.679791,
+          "endTime": 1900.280249
+        },
+        {
+          "path": "Audio/output/2592/chapter_09.wav",
+          "duration": 162.262667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Firestarter’s Toolkit—Habits and Practices for Everyday Innovation",
+          "actualDuration": 162.262667,
+          "startTime": 1901.780249,
+          "endTime": 2064.042916
+        },
+        {
+          "path": "Audio/output/2592/chapter_10.wav",
+          "duration": 118.126792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Becoming a Firestarter—Your Turn to Ignite",
+          "actualDuration": 118.126792,
+          "startTime": 2065.542916,
+          "endTime": 2183.669708
+        },
+        {
+          "path": "Audio/output/2592/conclusion.wav",
+          "duration": 134.515792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.515792,
+          "startTime": 2185.169708,
+          "endTime": 2319.6855
+        }
+      ],
+      "totalDuration": 2319.6855,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.11,
+          "actualStart": 0,
+          "actualEnd": 83.113708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Spark That Starts It All—Recognizing the Fire Within",
+          "expectedStart": 83.11,
+          "expectedEnd": 339.54,
+          "actualStart": 84.613708,
+          "actualEnd": 341.04058299999997,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mindset of Initiators—What Sets Firestarters Apart",
+          "expectedStart": 339.54,
+          "expectedEnd": 606.69,
+          "actualStart": 342.54058299999997,
+          "actualEnd": 609.689541,
+          "timeDifference": 3.000582999999949
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Overcoming Fear and Inertia—Moving from Hesitation to Action",
+          "expectedStart": 606.69,
+          "expectedEnd": 876.12,
+          "actualStart": 611.189541,
+          "actualEnd": 880.6229579999999,
+          "timeDifference": 4.499540999999908
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning from Real Firestarters—Stories of Change and Possibility",
+          "expectedStart": 876.12,
+          "expectedEnd": 1105.23,
+          "actualStart": 882.1229579999999,
+          "actualEnd": 1111.235833,
+          "timeDifference": 6.002957999999921
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Turning Ideas into Action—The Process of Ignition",
+          "expectedStart": 1105.23,
+          "expectedEnd": 1323.84,
+          "actualStart": 1112.735833,
+          "actualEnd": 1331.346,
+          "timeDifference": 7.505832999999939
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Resistance—When the World Pushes Back",
+          "expectedStart": 1323.84,
+          "expectedEnd": 1517.57,
+          "actualStart": 1332.846,
+          "actualEnd": 1526.573708,
+          "timeDifference": 9.006000000000085
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining the Flame—Avoiding Burnout and Staying Inspired",
+          "expectedStart": 1517.57,
+          "expectedEnd": 1703.68,
+          "actualStart": 1528.073708,
+          "actualEnd": 1714.179791,
+          "timeDifference": 10.50370799999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Spreading the Fire—Inspiring Others to Act",
+          "expectedStart": 1703.68,
+          "expectedEnd": 1888.28,
+          "actualStart": 1715.679791,
+          "actualEnd": 1900.280249,
+          "timeDifference": 11.99979099999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Firestarter’s Toolkit—Habits and Practices for Everyday Innovation",
+          "expectedStart": 1888.28,
+          "expectedEnd": 2050.54,
+          "actualStart": 1901.780249,
+          "actualEnd": 2064.042916,
+          "timeDifference": 13.50024899999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Becoming a Firestarter—Your Turn to Ignite",
+          "expectedStart": 2050.54,
+          "expectedEnd": 2168.67,
+          "actualStart": 2065.542916,
+          "actualEnd": 2183.669708,
+          "timeDifference": 15.002915999999914
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2168.67,
+          "expectedEnd": 2303.19,
+          "actualStart": 2185.169708,
+          "actualEnd": 2319.6855,
+          "timeDifference": 16.499707999999828
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.113708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Spark That Starts It All—Recognizing the Fire Within"
+        },
+        {
+          "startTime": 341.04058299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Spark That Starts It All—Recognizing the Fire Within and Chapter 2 The Mindset of Initiators—What Sets Firestarters Apart"
+        },
+        {
+          "startTime": 609.689541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mindset of Initiators—What Sets Firestarters Apart and Chapter 3 Overcoming Fear and Inertia—Moving from Hesitation to Action"
+        },
+        {
+          "startTime": 880.6229579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Overcoming Fear and Inertia—Moving from Hesitation to Action and Chapter 4 Learning from Real Firestarters—Stories of Change and Possibility"
+        },
+        {
+          "startTime": 1111.235833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning from Real Firestarters—Stories of Change and Possibility and Chapter 5 Turning Ideas into Action—The Process of Ignition"
+        },
+        {
+          "startTime": 1331.346,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Turning Ideas into Action—The Process of Ignition and Chapter 6 Navigating Resistance—When the World Pushes Back"
+        },
+        {
+          "startTime": 1526.573708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Resistance—When the World Pushes Back and Chapter 7 Sustaining the Flame—Avoiding Burnout and Staying Inspired"
+        },
+        {
+          "startTime": 1714.179791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining the Flame—Avoiding Burnout and Staying Inspired and Chapter 8 Spreading the Fire—Inspiring Others to Act"
+        },
+        {
+          "startTime": 1900.280249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Spreading the Fire—Inspiring Others to Act and Chapter 9 The Firestarter’s Toolkit—Habits and Practices for Everyday Innovation"
+        },
+        {
+          "startTime": 2064.042916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Firestarter’s Toolkit—Habits and Practices for Everyday Innovation and Chapter 10 Becoming a Firestarter—Your Turn to Ignite"
+        },
+        {
+          "startTime": 2183.669708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Becoming a Firestarter—Your Turn to Ignite and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2592",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:15:56.121Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

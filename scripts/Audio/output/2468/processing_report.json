@@ -1,0 +1,456 @@
+{
+  "bookId": "2468",
+  "timestamp": "2025-07-11T00:09:49.229Z",
+  "success": false,
+  "processingTime": -1752192150455,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4691,
+    "totalAudioFiles": 12,
+    "totalDuration": 2190.588084
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2190.588084
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2468/optimized_text/2468.md",
+    "fileSize": 693,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2468.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2468/metadata/2468_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2190.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2468/metadata/2468_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2468/metadata/2468_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2468/2468_complete.wav",
+    "duration": 2190.588083,
+    "fileSize": 105148306,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2468/introduction.wav",
+          "duration": 118.725458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 118.725458,
+          "startTime": 0,
+          "endTime": 118.725458
+        },
+        {
+          "path": "Audio/output/2468/chapter_01.wav",
+          "duration": 240.367042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A World on the Edge: Rome Before Caesar",
+          "actualDuration": 240.367042,
+          "startTime": 120.225458,
+          "endTime": 360.5925
+        },
+        {
+          "path": "Audio/output/2468/chapter_02.wav",
+          "duration": 227.832542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ambition and Survival: Caesar’s Early Struggles",
+          "actualDuration": 227.832542,
+          "startTime": 362.0925,
+          "endTime": 589.925042
+        },
+        {
+          "path": "Audio/output/2468/chapter_03.wav",
+          "duration": 237.480375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Conquest and Command: The Gallic Wars",
+          "actualDuration": 237.480375,
+          "startTime": 591.425042,
+          "endTime": 828.9054169999999
+        },
+        {
+          "path": "Audio/output/2468/chapter_04.wav",
+          "duration": 241.158333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Crossing the Rubicon: Civil War and the End of the Republic",
+          "actualDuration": 241.158333,
+          "startTime": 830.4054169999999,
+          "endTime": 1071.56375
+        },
+        {
+          "path": "Audio/output/2468/chapter_05.wav",
+          "duration": 215.098542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Power, Reform, and the Shadow of Assassination",
+          "actualDuration": 215.098542,
+          "startTime": 1073.06375,
+          "endTime": 1288.162292
+        },
+        {
+          "path": "Audio/output/2468/chapter_06.wav",
+          "duration": 202.058625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World After Caesar: Shockwaves and Unraveling",
+          "actualDuration": 202.058625,
+          "startTime": 1289.662292,
+          "endTime": 1491.720917
+        },
+        {
+          "path": "Audio/output/2468/chapter_07.wav",
+          "duration": 204.485917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rise of Octavian: Inheritance and Transformation",
+          "actualDuration": 204.485917,
+          "startTime": 1493.220917,
+          "endTime": 1697.706834
+        },
+        {
+          "path": "Audio/output/2468/chapter_08.wav",
+          "duration": 158.034583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Caesar’s Legacy: Memory, Myth, and Meaning",
+          "actualDuration": 158.034583,
+          "startTime": 1699.206834,
+          "endTime": 1857.2414170000002
+        },
+        {
+          "path": "Audio/output/2468/chapter_09.wav",
+          "duration": 156.968958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from a Colossus: Power, Ambition, and Human Nature",
+          "actualDuration": 156.968958,
+          "startTime": 1858.7414170000002,
+          "endTime": 2015.710375
+        },
+        {
+          "path": "Audio/output/2468/chapter_10.wav",
+          "duration": 79.710917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Debate: Tyrant, Reformer, or Something More?",
+          "actualDuration": 79.710917,
+          "startTime": 2017.210375,
+          "endTime": 2096.921292
+        },
+        {
+          "path": "Audio/output/2468/conclusion.wav",
+          "duration": 108.666792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.666792,
+          "startTime": 2098.421292,
+          "endTime": 2207.088084
+        }
+      ],
+      "totalDuration": 2207.088084,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 118.73,
+          "actualStart": 0,
+          "actualEnd": 118.725458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A World on the Edge: Rome Before Caesar",
+          "expectedStart": 118.73,
+          "expectedEnd": 359.1,
+          "actualStart": 120.225458,
+          "actualEnd": 360.5925,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ambition and Survival: Caesar’s Early Struggles",
+          "expectedStart": 359.1,
+          "expectedEnd": 586.93,
+          "actualStart": 362.0925,
+          "actualEnd": 589.925042,
+          "timeDifference": 2.99249999999995
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Conquest and Command: The Gallic Wars",
+          "expectedStart": 586.93,
+          "expectedEnd": 824.41,
+          "actualStart": 591.425042,
+          "actualEnd": 828.9054169999999,
+          "timeDifference": 4.495042000000012
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Crossing the Rubicon: Civil War and the End of the Republic",
+          "expectedStart": 824.41,
+          "expectedEnd": 1065.57,
+          "actualStart": 830.4054169999999,
+          "actualEnd": 1071.56375,
+          "timeDifference": 5.995416999999975
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Power, Reform, and the Shadow of Assassination",
+          "expectedStart": 1065.57,
+          "expectedEnd": 1280.67,
+          "actualStart": 1073.06375,
+          "actualEnd": 1288.162292,
+          "timeDifference": 7.493750000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World After Caesar: Shockwaves and Unraveling",
+          "expectedStart": 1280.67,
+          "expectedEnd": 1482.73,
+          "actualStart": 1289.662292,
+          "actualEnd": 1491.720917,
+          "timeDifference": 8.992291999999907
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rise of Octavian: Inheritance and Transformation",
+          "expectedStart": 1482.73,
+          "expectedEnd": 1687.22,
+          "actualStart": 1493.220917,
+          "actualEnd": 1697.706834,
+          "timeDifference": 10.490917000000081
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Caesar’s Legacy: Memory, Myth, and Meaning",
+          "expectedStart": 1687.22,
+          "expectedEnd": 1845.25,
+          "actualStart": 1699.206834,
+          "actualEnd": 1857.2414170000002,
+          "timeDifference": 11.986834000000044
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from a Colossus: Power, Ambition, and Human Nature",
+          "expectedStart": 1845.25,
+          "expectedEnd": 2002.22,
+          "actualStart": 1858.7414170000002,
+          "actualEnd": 2015.710375,
+          "timeDifference": 13.491417000000183
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Debate: Tyrant, Reformer, or Something More?",
+          "expectedStart": 2002.22,
+          "expectedEnd": 2081.93,
+          "actualStart": 2017.210375,
+          "actualEnd": 2096.921292,
+          "timeDifference": 14.990375000000085
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2081.93,
+          "expectedEnd": 2190.6,
+          "actualStart": 2098.421292,
+          "actualEnd": 2207.088084,
+          "timeDifference": 16.491292000000158
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 118.725458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A World on the Edge: Rome Before Caesar"
+        },
+        {
+          "startTime": 360.5925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A World on the Edge: Rome Before Caesar and Chapter 2 Ambition and Survival: Caesar’s Early Struggles"
+        },
+        {
+          "startTime": 589.925042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ambition and Survival: Caesar’s Early Struggles and Chapter 3 Conquest and Command: The Gallic Wars"
+        },
+        {
+          "startTime": 828.9054169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Conquest and Command: The Gallic Wars and Chapter 4 Crossing the Rubicon: Civil War and the End of the Republic"
+        },
+        {
+          "startTime": 1071.56375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Crossing the Rubicon: Civil War and the End of the Republic and Chapter 5 Power, Reform, and the Shadow of Assassination"
+        },
+        {
+          "startTime": 1288.162292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Power, Reform, and the Shadow of Assassination and Chapter 6 The World After Caesar: Shockwaves and Unraveling"
+        },
+        {
+          "startTime": 1491.720917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World After Caesar: Shockwaves and Unraveling and Chapter 7 The Rise of Octavian: Inheritance and Transformation"
+        },
+        {
+          "startTime": 1697.706834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rise of Octavian: Inheritance and Transformation and Chapter 8 Caesar’s Legacy: Memory, Myth, and Meaning"
+        },
+        {
+          "startTime": 1857.2414170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Caesar’s Legacy: Memory, Myth, and Meaning and Chapter 9 Lessons from a Colossus: Power, Ambition, and Human Nature"
+        },
+        {
+          "startTime": 2015.710375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from a Colossus: Power, Ambition, and Human Nature and Chapter 10 The Enduring Debate: Tyrant, Reformer, or Something More?"
+        },
+        {
+          "startTime": 2096.921292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Debate: Tyrant, Reformer, or Something More? and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2468",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:02:30.479Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

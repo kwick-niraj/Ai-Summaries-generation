@@ -1,0 +1,456 @@
+{
+  "bookId": "2371",
+  "timestamp": "2025-07-10T19:03:18.492Z",
+  "success": false,
+  "processingTime": -1752173817887,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3745,
+    "totalAudioFiles": 12,
+    "totalDuration": 1980.242127
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1980.242127
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2371/optimized_text/2371.md",
+    "fileSize": 597,
+    "wordCount": 74,
+    "format": "markdown",
+    "filename": "2371.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2371/metadata/2371_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1980.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2371/metadata/2371_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2371/metadata/2371_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2371/2371_complete.wav",
+    "duration": 1980.242125,
+    "fileSize": 95051700,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2371/introduction.wav",
+          "duration": 105.83875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.83875,
+          "startTime": 0,
+          "endTime": 105.83875
+        },
+        {
+          "path": "Audio/output/2371/chapter_01.wav",
+          "duration": 175.658417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Simplicity in Marketing Planning Matters",
+          "actualDuration": 175.658417,
+          "startTime": 107.33875,
+          "endTime": 282.997167
+        },
+        {
+          "path": "Audio/output/2371/chapter_02.wav",
+          "duration": 193.255375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Defining and Targeting the Ideal Customer",
+          "actualDuration": 193.255375,
+          "startTime": 284.497167,
+          "endTime": 477.75254199999995
+        },
+        {
+          "path": "Audio/output/2371/chapter_03.wav",
+          "duration": 192.574917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Crafting a Message That Resonates",
+          "actualDuration": 192.574917,
+          "startTime": 479.25254199999995,
+          "endTime": 671.827459
+        },
+        {
+          "path": "Audio/output/2371/chapter_04.wav",
+          "duration": 202.012792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Attracting Attention and Generating Leads",
+          "actualDuration": 202.012792,
+          "startTime": 673.327459,
+          "endTime": 875.340251
+        },
+        {
+          "path": "Audio/output/2371/chapter_05.wav",
+          "duration": 207.037292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Nurturing Leads and Building Trust",
+          "actualDuration": 207.037292,
+          "startTime": 876.840251,
+          "endTime": 1083.877543
+        },
+        {
+          "path": "Audio/output/2371/chapter_06.wav",
+          "duration": 175.992542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Converting Leads into Customers",
+          "actualDuration": 175.992542,
+          "startTime": 1085.377543,
+          "endTime": 1261.370085
+        },
+        {
+          "path": "Audio/output/2371/chapter_07.wav",
+          "duration": 147.651875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Delivering a Remarkable Customer Experience",
+          "actualDuration": 147.651875,
+          "startTime": 1262.870085,
+          "endTime": 1410.52196
+        },
+        {
+          "path": "Audio/output/2371/chapter_08.wav",
+          "duration": 146.319208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Encouraging Repeat Business and Referrals",
+          "actualDuration": 146.319208,
+          "startTime": 1412.02196,
+          "endTime": 1558.341168
+        },
+        {
+          "path": "Audio/output/2371/chapter_09.wav",
+          "duration": 186.2425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Systematizing and Automating for Consistency",
+          "actualDuration": 186.2425,
+          "startTime": 1559.841168,
+          "endTime": 1746.083668
+        },
+        {
+          "path": "Audio/output/2371/chapter_10.wav",
+          "duration": 126.005417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reviewing, Refining, and Evolving the Plan",
+          "actualDuration": 126.005417,
+          "startTime": 1747.583668,
+          "endTime": 1873.589085
+        },
+        {
+          "path": "Audio/output/2371/conclusion.wav",
+          "duration": 121.653042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.653042,
+          "startTime": 1875.089085,
+          "endTime": 1996.742127
+        }
+      ],
+      "totalDuration": 1996.742127,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.84,
+          "actualStart": 0,
+          "actualEnd": 105.83875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Simplicity in Marketing Planning Matters",
+          "expectedStart": 105.84,
+          "expectedEnd": 281.5,
+          "actualStart": 107.33875,
+          "actualEnd": 282.997167,
+          "timeDifference": 1.4987500000000011
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Defining and Targeting the Ideal Customer",
+          "expectedStart": 281.5,
+          "expectedEnd": 474.76,
+          "actualStart": 284.497167,
+          "actualEnd": 477.75254199999995,
+          "timeDifference": 2.9971669999999904
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Crafting a Message That Resonates",
+          "expectedStart": 474.76,
+          "expectedEnd": 667.33,
+          "actualStart": 479.25254199999995,
+          "actualEnd": 671.827459,
+          "timeDifference": 4.492541999999958
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Attracting Attention and Generating Leads",
+          "expectedStart": 667.33,
+          "expectedEnd": 869.34,
+          "actualStart": 673.327459,
+          "actualEnd": 875.340251,
+          "timeDifference": 5.997458999999935
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Nurturing Leads and Building Trust",
+          "expectedStart": 869.34,
+          "expectedEnd": 1076.38,
+          "actualStart": 876.840251,
+          "actualEnd": 1083.877543,
+          "timeDifference": 7.500250999999935
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Converting Leads into Customers",
+          "expectedStart": 1076.38,
+          "expectedEnd": 1252.37,
+          "actualStart": 1085.377543,
+          "actualEnd": 1261.370085,
+          "timeDifference": 8.99754299999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Delivering a Remarkable Customer Experience",
+          "expectedStart": 1252.37,
+          "expectedEnd": 1400.02,
+          "actualStart": 1262.870085,
+          "actualEnd": 1410.52196,
+          "timeDifference": 10.500085000000126
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Encouraging Repeat Business and Referrals",
+          "expectedStart": 1400.02,
+          "expectedEnd": 1546.34,
+          "actualStart": 1412.02196,
+          "actualEnd": 1558.341168,
+          "timeDifference": 12.001960000000054
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Systematizing and Automating for Consistency",
+          "expectedStart": 1546.34,
+          "expectedEnd": 1732.58,
+          "actualStart": 1559.841168,
+          "actualEnd": 1746.083668,
+          "timeDifference": 13.501168000000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reviewing, Refining, and Evolving the Plan",
+          "expectedStart": 1732.58,
+          "expectedEnd": 1858.59,
+          "actualStart": 1747.583668,
+          "actualEnd": 1873.589085,
+          "timeDifference": 15.003668000000062
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1858.59,
+          "expectedEnd": 1980.24,
+          "actualStart": 1875.089085,
+          "actualEnd": 1996.742127,
+          "timeDifference": 16.49908500000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.83875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Simplicity in Marketing Planning Matters"
+        },
+        {
+          "startTime": 282.997167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Simplicity in Marketing Planning Matters and Chapter 2 Defining and Targeting the Ideal Customer"
+        },
+        {
+          "startTime": 477.75254199999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Defining and Targeting the Ideal Customer and Chapter 3 Crafting a Message That Resonates"
+        },
+        {
+          "startTime": 671.827459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Crafting a Message That Resonates and Chapter 4 Attracting Attention and Generating Leads"
+        },
+        {
+          "startTime": 875.340251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Attracting Attention and Generating Leads and Chapter 5 Nurturing Leads and Building Trust"
+        },
+        {
+          "startTime": 1083.877543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Nurturing Leads and Building Trust and Chapter 6 Converting Leads into Customers"
+        },
+        {
+          "startTime": 1261.370085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Converting Leads into Customers and Chapter 7 Delivering a Remarkable Customer Experience"
+        },
+        {
+          "startTime": 1410.52196,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Delivering a Remarkable Customer Experience and Chapter 8 Encouraging Repeat Business and Referrals"
+        },
+        {
+          "startTime": 1558.341168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Encouraging Repeat Business and Referrals and Chapter 9 Systematizing and Automating for Consistency"
+        },
+        {
+          "startTime": 1746.083668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Systematizing and Automating for Consistency and Chapter 10 Reviewing, Refining, and Evolving the Plan"
+        },
+        {
+          "startTime": 1873.589085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reviewing, Refining, and Evolving the Plan and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2371",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:56:58.790Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

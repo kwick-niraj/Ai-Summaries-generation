@@ -1,0 +1,552 @@
+{
+  "bookId": "2521",
+  "timestamp": "2025-07-11T02:59:46.655Z",
+  "success": false,
+  "processingTime": -1752202205138,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5694,
+    "totalAudioFiles": 16,
+    "totalDuration": 2755.9289179999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2755.9289179999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2521/optimized_text/2521.md",
+    "fileSize": 1091,
+    "wordCount": 165,
+    "format": "markdown",
+    "filename": "2521.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2521/metadata/2521_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2755.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2521/metadata/2521_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2521/metadata/2521_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2521/2521_complete.wav",
+    "duration": 2755.928917,
+    "fileSize": 132284666,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2521/introduction.wav",
+          "duration": 96.493,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.493,
+          "startTime": 0,
+          "endTime": 96.493
+        },
+        {
+          "path": "Audio/output/2521/chapter_01.wav",
+          "duration": 219.882417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Changing World — First Encounters with Postcolonial Africa",
+          "actualDuration": 219.882417,
+          "startTime": 97.993,
+          "endTime": 317.87541699999997
+        },
+        {
+          "path": "Audio/output/2521/chapter_02.wav",
+          "duration": 232.601,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Everyday Life and the Struggle for Dignity",
+          "actualDuration": 232.601,
+          "startTime": 319.37541699999997,
+          "endTime": 551.976417
+        },
+        {
+          "path": "Audio/output/2521/chapter_03.wav",
+          "duration": 221.11525,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Power, Politics, and the Legacy of Colonialism",
+          "actualDuration": 221.11525,
+          "startTime": 553.476417,
+          "endTime": 774.5916669999999
+        },
+        {
+          "path": "Audio/output/2521/chapter_04.wav",
+          "duration": 205.131083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Outsider Understanding",
+          "actualDuration": 205.131083,
+          "startTime": 776.0916669999999,
+          "endTime": 981.2227499999999
+        },
+        {
+          "path": "Audio/output/2521/chapter_05.wav",
+          "duration": 211.883167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Resilience, Survival, and the Everyday Heroism of Ordinary People",
+          "actualDuration": 211.883167,
+          "startTime": 982.7227499999999,
+          "endTime": 1194.6059169999999
+        },
+        {
+          "path": "Audio/output/2521/chapter_06.wav",
+          "duration": 186.019125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Many Africas — Diversity, Contradiction, and the Myth of a Single Story",
+          "actualDuration": 186.019125,
+          "startTime": 1196.1059169999999,
+          "endTime": 1382.125042
+        },
+        {
+          "path": "Audio/output/2521/chapter_07.wav",
+          "duration": 177.666542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Dance of Tradition and Change",
+          "actualDuration": 177.666542,
+          "startTime": 1383.625042,
+          "endTime": 1561.2915839999998
+        },
+        {
+          "path": "Audio/output/2521/chapter_08.wav",
+          "duration": 161.549875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bearing Witness — The Journalist’s Dilemma",
+          "actualDuration": 161.549875,
+          "startTime": 1562.7915839999998,
+          "endTime": 1724.3414589999998
+        },
+        {
+          "path": "Audio/output/2521/chapter_09.wav",
+          "duration": 171.222042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Weight of History — Memory, Trauma, and the Long Road to Healing",
+          "actualDuration": 171.222042,
+          "startTime": 1725.8414589999998,
+          "endTime": 1897.0635009999996
+        },
+        {
+          "path": "Audio/output/2521/chapter_10.wav",
+          "duration": 176.296583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Unseen Forces — Faith, Fate, and the Search for Meaning",
+          "actualDuration": 176.296583,
+          "startTime": 1898.5635009999996,
+          "endTime": 2074.8600839999995
+        },
+        {
+          "path": "Audio/output/2521/chapter_11.wav",
+          "duration": 164.005792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Pulse of the City — Urban Life, Hustle, and the Dream of Progress",
+          "actualDuration": 164.005792,
+          "startTime": 2076.3600839999995,
+          "endTime": 2240.3658759999994
+        },
+        {
+          "path": "Audio/output/2521/chapter_12.wav",
+          "duration": 151.419792,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Land and Its People — Nature, Survival, and the Fragility of Plenty",
+          "actualDuration": 151.419792,
+          "startTime": 2241.8658759999994,
+          "endTime": 2393.2856679999995
+        },
+        {
+          "path": "Audio/output/2521/chapter_13.wav",
+          "duration": 152.012958,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Next Generation — Youth, Education, and the Promise of Tomorrow",
+          "actualDuration": 152.012958,
+          "startTime": 2394.7856679999995,
+          "endTime": 2546.7986259999993
+        },
+        {
+          "path": "Audio/output/2521/chapter_14.wav",
+          "duration": 130.6725,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Farewells and Returns — The Enduring Pull of Africa",
+          "actualDuration": 130.6725,
+          "startTime": 2548.2986259999993,
+          "endTime": 2678.9711259999995
+        },
+        {
+          "path": "Audio/output/2521/conclusion.wav",
+          "duration": 97.957792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 97.957792,
+          "startTime": 2680.4711259999995,
+          "endTime": 2778.4289179999996
+        }
+      ],
+      "totalDuration": 2778.4289179999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.49,
+          "actualStart": 0,
+          "actualEnd": 96.493,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Changing World — First Encounters with Postcolonial Africa",
+          "expectedStart": 96.49,
+          "expectedEnd": 316.37,
+          "actualStart": 97.993,
+          "actualEnd": 317.87541699999997,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Everyday Life and the Struggle for Dignity",
+          "expectedStart": 316.37,
+          "expectedEnd": 548.97,
+          "actualStart": 319.37541699999997,
+          "actualEnd": 551.976417,
+          "timeDifference": 3.005416999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Power, Politics, and the Legacy of Colonialism",
+          "expectedStart": 548.97,
+          "expectedEnd": 770.09,
+          "actualStart": 553.476417,
+          "actualEnd": 774.5916669999999,
+          "timeDifference": 4.506416999999942
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Outsider Understanding",
+          "expectedStart": 770.09,
+          "expectedEnd": 975.22,
+          "actualStart": 776.0916669999999,
+          "actualEnd": 981.2227499999999,
+          "timeDifference": 6.001666999999884
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Resilience, Survival, and the Everyday Heroism of Ordinary People",
+          "expectedStart": 975.22,
+          "expectedEnd": 1187.1,
+          "actualStart": 982.7227499999999,
+          "actualEnd": 1194.6059169999999,
+          "timeDifference": 7.502749999999878
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Many Africas — Diversity, Contradiction, and the Myth of a Single Story",
+          "expectedStart": 1187.1,
+          "expectedEnd": 1373.12,
+          "actualStart": 1196.1059169999999,
+          "actualEnd": 1382.125042,
+          "timeDifference": 9.005916999999954
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Dance of Tradition and Change",
+          "expectedStart": 1373.12,
+          "expectedEnd": 1550.79,
+          "actualStart": 1383.625042,
+          "actualEnd": 1561.2915839999998,
+          "timeDifference": 10.505042000000003
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bearing Witness — The Journalist’s Dilemma",
+          "expectedStart": 1550.79,
+          "expectedEnd": 1712.34,
+          "actualStart": 1562.7915839999998,
+          "actualEnd": 1724.3414589999998,
+          "timeDifference": 12.001583999999866
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Weight of History — Memory, Trauma, and the Long Road to Healing",
+          "expectedStart": 1712.34,
+          "expectedEnd": 1883.56,
+          "actualStart": 1725.8414589999998,
+          "actualEnd": 1897.0635009999996,
+          "timeDifference": 13.50145899999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Unseen Forces — Faith, Fate, and the Search for Meaning",
+          "expectedStart": 1883.56,
+          "expectedEnd": 2059.86,
+          "actualStart": 1898.5635009999996,
+          "actualEnd": 2074.8600839999995,
+          "timeDifference": 15.003500999999687
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Pulse of the City — Urban Life, Hustle, and the Dream of Progress",
+          "expectedStart": 2059.86,
+          "expectedEnd": 2223.87,
+          "actualStart": 2076.3600839999995,
+          "actualEnd": 2240.3658759999994,
+          "timeDifference": 16.500083999999333
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Land and Its People — Nature, Survival, and the Fragility of Plenty",
+          "expectedStart": 2223.87,
+          "expectedEnd": 2375.29,
+          "actualStart": 2241.8658759999994,
+          "actualEnd": 2393.2856679999995,
+          "timeDifference": 17.995875999999498
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Next Generation — Youth, Education, and the Promise of Tomorrow",
+          "expectedStart": 2375.29,
+          "expectedEnd": 2527.3,
+          "actualStart": 2394.7856679999995,
+          "actualEnd": 2546.7986259999993,
+          "timeDifference": 19.49566799999957
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Farewells and Returns — The Enduring Pull of Africa",
+          "expectedStart": 2527.3,
+          "expectedEnd": 2657.97,
+          "actualStart": 2548.2986259999993,
+          "actualEnd": 2678.9711259999995,
+          "timeDifference": 20.99862599999915
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2657.97,
+          "expectedEnd": 2755.93,
+          "actualStart": 2680.4711259999995,
+          "actualEnd": 2778.4289179999996,
+          "timeDifference": 22.50112599999966
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.493,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Changing World — First Encounters with Postcolonial Africa"
+        },
+        {
+          "startTime": 317.87541699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Changing World — First Encounters with Postcolonial Africa and Chapter 2 Everyday Life and the Struggle for Dignity"
+        },
+        {
+          "startTime": 551.976417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Everyday Life and the Struggle for Dignity and Chapter 3 Power, Politics, and the Legacy of Colonialism"
+        },
+        {
+          "startTime": 774.5916669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Power, Politics, and the Legacy of Colonialism and Chapter 4 The Limits of Outsider Understanding"
+        },
+        {
+          "startTime": 981.2227499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Outsider Understanding and Chapter 5 Resilience, Survival, and the Everyday Heroism of Ordinary People"
+        },
+        {
+          "startTime": 1194.6059169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Resilience, Survival, and the Everyday Heroism of Ordinary People and Chapter 6 The Many Africas — Diversity, Contradiction, and the Myth of a Single Story"
+        },
+        {
+          "startTime": 1382.125042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Many Africas — Diversity, Contradiction, and the Myth of a Single Story and Chapter 7 The Dance of Tradition and Change"
+        },
+        {
+          "startTime": 1561.2915839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Dance of Tradition and Change and Chapter 8 Bearing Witness — The Journalist’s Dilemma"
+        },
+        {
+          "startTime": 1724.3414589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bearing Witness — The Journalist’s Dilemma and Chapter 9 The Weight of History — Memory, Trauma, and the Long Road to Healing"
+        },
+        {
+          "startTime": 1897.0635009999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Weight of History — Memory, Trauma, and the Long Road to Healing and Chapter 10 The Unseen Forces — Faith, Fate, and the Search for Meaning"
+        },
+        {
+          "startTime": 2074.8600839999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Unseen Forces — Faith, Fate, and the Search for Meaning and Chapter 11 The Pulse of the City — Urban Life, Hustle, and the Dream of Progress"
+        },
+        {
+          "startTime": 2240.3658759999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Pulse of the City — Urban Life, Hustle, and the Dream of Progress and Chapter 12 The Land and Its People — Nature, Survival, and the Fragility of Plenty"
+        },
+        {
+          "startTime": 2393.2856679999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Land and Its People — Nature, Survival, and the Fragility of Plenty and Chapter 13 The Next Generation — Youth, Education, and the Promise of Tomorrow"
+        },
+        {
+          "startTime": 2546.7986259999993,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Next Generation — Youth, Education, and the Promise of Tomorrow and Chapter 14 Farewells and Returns — The Enduring Pull of Africa"
+        },
+        {
+          "startTime": 2678.9711259999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Farewells and Returns — The Enduring Pull of Africa and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2521",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:50:06.710Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

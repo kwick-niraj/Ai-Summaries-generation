@@ -1,0 +1,455 @@
+{
+  "bookId": "2506",
+  "timestamp": "2025-07-11T02:20:00.927Z",
+  "success": false,
+  "processingTime": -1752200104145,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4283,
+    "totalAudioFiles": 12,
+    "totalDuration": 1818.5850840000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1818.5850840000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2506/optimized_text/2506.md",
+    "fileSize": 696,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2506.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2506/metadata/2506_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1818.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2506/metadata/2506_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2506/metadata/2506_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2506/2506_complete.wav",
+    "duration": 1818.585083,
+    "fileSize": 87292162,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2506/introduction.wav",
+          "duration": 86.528667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.528667,
+          "startTime": 0,
+          "endTime": 86.528667
+        },
+        {
+          "path": "Audio/output/2506/chapter_01.wav",
+          "duration": 211.532792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Privilege and Boundaries",
+          "actualDuration": 211.532792,
+          "startTime": 88.028667,
+          "endTime": 299.561459
+        },
+        {
+          "path": "Audio/output/2506/chapter_02.wav",
+          "duration": 196.124,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Tradition and the Power of Family",
+          "actualDuration": 196.124,
+          "startTime": 301.061459,
+          "endTime": 497.18545900000004
+        },
+        {
+          "path": "Audio/output/2506/chapter_03.wav",
+          "duration": 188.299333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Hidden Lives: The Reality of Women’s Restrictions",
+          "actualDuration": 188.299333,
+          "startTime": 498.68545900000004,
+          "endTime": 686.984792
+        },
+        {
+          "path": "Audio/output/2506/chapter_04.wav",
+          "duration": 192.491375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Moments of Courage and Quiet Resistance",
+          "actualDuration": 192.491375,
+          "startTime": 688.484792,
+          "endTime": 880.976167
+        },
+        {
+          "path": "Audio/output/2506/chapter_05.wav",
+          "duration": 157.960667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Privilege and the Hope for Change",
+          "actualDuration": 157.960667,
+          "startTime": 882.476167,
+          "endTime": 1040.436834
+        },
+        {
+          "path": "Audio/output/2506/chapter_06.wav",
+          "duration": 154.09625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Winds of Change: Encounters with the Outside World",
+          "actualDuration": 154.09625,
+          "startTime": 1041.936834,
+          "endTime": 1196.0330840000001
+        },
+        {
+          "path": "Audio/output/2506/chapter_07.wav",
+          "duration": 133.677667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Price of Defiance: Stories of Sacrifice and Loss",
+          "actualDuration": 133.677667,
+          "startTime": 1197.5330840000001,
+          "endTime": 1331.210751
+        },
+        {
+          "path": "Audio/output/2506/chapter_08.wav",
+          "duration": 143.390417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Sisterhood: Finding Strength in Each Other",
+          "actualDuration": 143.390417,
+          "startTime": 1332.710751,
+          "endTime": 1476.1011680000001
+        },
+        {
+          "path": "Audio/output/2506/chapter_09.wav",
+          "duration": 145.594833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Slow March Forward: Signs of Progress and Setbacks",
+          "actualDuration": 145.594833,
+          "startTime": 1477.6011680000001,
+          "endTime": 1623.1960010000003
+        },
+        {
+          "path": "Audio/output/2506/chapter_10.wav",
+          "duration": 113.219083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Dignity, Identity, and the Unfinished Journey",
+          "actualDuration": 113.219083,
+          "startTime": 1624.6960010000003,
+          "endTime": 1737.9150840000002
+        },
+        {
+          "path": "Audio/output/2506/conclusion.wav",
+          "duration": 95.67,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.67,
+          "startTime": 1739.4150840000002,
+          "endTime": 1835.0850840000003
+        }
+      ],
+      "totalDuration": 1835.0850840000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.53,
+          "actualStart": 0,
+          "actualEnd": 86.528667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Privilege and Boundaries",
+          "expectedStart": 86.53,
+          "expectedEnd": 298.06,
+          "actualStart": 88.028667,
+          "actualEnd": 299.561459,
+          "timeDifference": 1.4986669999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Tradition and the Power of Family",
+          "expectedStart": 298.06,
+          "expectedEnd": 494.18,
+          "actualStart": 301.061459,
+          "actualEnd": 497.18545900000004,
+          "timeDifference": 3.001459000000011
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Hidden Lives: The Reality of Women’s Restrictions",
+          "expectedStart": 494.18,
+          "expectedEnd": 682.48,
+          "actualStart": 498.68545900000004,
+          "actualEnd": 686.984792,
+          "timeDifference": 4.50545900000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Moments of Courage and Quiet Resistance",
+          "expectedStart": 682.48,
+          "expectedEnd": 874.97,
+          "actualStart": 688.484792,
+          "actualEnd": 880.976167,
+          "timeDifference": 6.004791999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Privilege and the Hope for Change",
+          "expectedStart": 874.97,
+          "expectedEnd": 1032.93,
+          "actualStart": 882.476167,
+          "actualEnd": 1040.436834,
+          "timeDifference": 7.506167000000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Winds of Change: Encounters with the Outside World",
+          "expectedStart": 1032.93,
+          "expectedEnd": 1187.03,
+          "actualStart": 1041.936834,
+          "actualEnd": 1196.0330840000001,
+          "timeDifference": 9.006834000000026
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Price of Defiance: Stories of Sacrifice and Loss",
+          "expectedStart": 1187.03,
+          "expectedEnd": 1320.71,
+          "actualStart": 1197.5330840000001,
+          "actualEnd": 1331.210751,
+          "timeDifference": 10.503084000000172
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Sisterhood: Finding Strength in Each Other",
+          "expectedStart": 1320.71,
+          "expectedEnd": 1464.1,
+          "actualStart": 1332.710751,
+          "actualEnd": 1476.1011680000001,
+          "timeDifference": 12.000751000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Slow March Forward: Signs of Progress and Setbacks",
+          "expectedStart": 1464.1,
+          "expectedEnd": 1609.69,
+          "actualStart": 1477.6011680000001,
+          "actualEnd": 1623.1960010000003,
+          "timeDifference": 13.501168000000234
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Dignity, Identity, and the Unfinished Journey",
+          "expectedStart": 1609.69,
+          "expectedEnd": 1722.91,
+          "actualStart": 1624.6960010000003,
+          "actualEnd": 1737.9150840000002,
+          "timeDifference": 15.006001000000197
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1722.91,
+          "expectedEnd": 1818.58,
+          "actualStart": 1739.4150840000002,
+          "actualEnd": 1835.0850840000003,
+          "timeDifference": 16.505084000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.528667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Privilege and Boundaries"
+        },
+        {
+          "startTime": 299.561459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Privilege and Boundaries and Chapter 2 The Weight of Tradition and the Power of Family"
+        },
+        {
+          "startTime": 497.18545900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Tradition and the Power of Family and Chapter 3 Hidden Lives: The Reality of Women’s Restrictions"
+        },
+        {
+          "startTime": 686.984792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Hidden Lives: The Reality of Women’s Restrictions and Chapter 4 Moments of Courage and Quiet Resistance"
+        },
+        {
+          "startTime": 880.976167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Moments of Courage and Quiet Resistance and Chapter 5 The Limits of Privilege and the Hope for Change"
+        },
+        {
+          "startTime": 1040.436834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Privilege and the Hope for Change and Chapter 6 The Winds of Change: Encounters with the Outside World"
+        },
+        {
+          "startTime": 1196.0330840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Winds of Change: Encounters with the Outside World and Chapter 7 The Price of Defiance: Stories of Sacrifice and Loss"
+        },
+        {
+          "startTime": 1331.210751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Price of Defiance: Stories of Sacrifice and Loss and Chapter 8 The Power of Sisterhood: Finding Strength in Each Other"
+        },
+        {
+          "startTime": 1476.1011680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Sisterhood: Finding Strength in Each Other and Chapter 9 The Slow March Forward: Signs of Progress and Setbacks"
+        },
+        {
+          "startTime": 1623.1960010000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Slow March Forward: Signs of Progress and Setbacks and Chapter 10 Dignity, Identity, and the Unfinished Journey"
+        },
+        {
+          "startTime": 1737.9150840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Dignity, Identity, and the Unfinished Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2506",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:15:05.349Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

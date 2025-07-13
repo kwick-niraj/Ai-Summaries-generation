@@ -1,0 +1,552 @@
+{
+  "bookId": "2376",
+  "timestamp": "2025-07-10T19:31:08.123Z",
+  "success": false,
+  "processingTime": -1752175475342,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 6376,
+    "totalAudioFiles": 16,
+    "totalDuration": 3537.9964160000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 3537.9964160000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2376/optimized_text/2376.md",
+    "fileSize": 958,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "2376.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2376/metadata/2376_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 3538,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2376/metadata/2376_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2376/metadata/2376_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2376/2376_complete.wav",
+    "duration": 3537.996417,
+    "fileSize": 169823906,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2376/introduction.wav",
+          "duration": 94.706458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.706458,
+          "startTime": 0,
+          "endTime": 94.706458
+        },
+        {
+          "path": "Audio/output/2376/chapter_01.wav",
+          "duration": 280.905083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Meeting the Body—A Familiar Stranger",
+          "actualDuration": 280.905083,
+          "startTime": 96.206458,
+          "endTime": 377.111541
+        },
+        {
+          "path": "Audio/output/2376/chapter_02.wav",
+          "duration": 314.291208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Skin, Hair, and Outer Defenses—First Line of Protection",
+          "actualDuration": 314.291208,
+          "startTime": 378.611541,
+          "endTime": 692.902749
+        },
+        {
+          "path": "Audio/output/2376/chapter_03.wav",
+          "duration": 326.558375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Brain and Nervous System—Command Center of Experience",
+          "actualDuration": 326.558375,
+          "startTime": 694.402749,
+          "endTime": 1020.9611239999999
+        },
+        {
+          "path": "Audio/output/2376/chapter_04.wav",
+          "duration": 302.490417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Heart, Blood, and Circulation—Keeping Life in Motion",
+          "actualDuration": 302.490417,
+          "startTime": 1022.4611239999999,
+          "endTime": 1324.951541
+        },
+        {
+          "path": "Audio/output/2376/chapter_05.wav",
+          "duration": 265.613667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Immune System—Defending Against Invisible Threats",
+          "actualDuration": 265.613667,
+          "startTime": 1326.451541,
+          "endTime": 1592.065208
+        },
+        {
+          "path": "Audio/output/2376/chapter_06.wav",
+          "duration": 257.675083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Digestive System—Turning Food into Life",
+          "actualDuration": 257.675083,
+          "startTime": 1593.565208,
+          "endTime": 1851.240291
+        },
+        {
+          "path": "Audio/output/2376/chapter_07.wav",
+          "duration": 249.851042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Liver, Kidneys, and Detox—The Body’s Cleanup Crew",
+          "actualDuration": 249.851042,
+          "startTime": 1852.740291,
+          "endTime": 2102.5913330000003
+        },
+        {
+          "path": "Audio/output/2376/chapter_08.wav",
+          "duration": 257.390083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Muscles and Skeleton—Framework and Force",
+          "actualDuration": 257.390083,
+          "startTime": 2104.0913330000003,
+          "endTime": 2361.4814160000005
+        },
+        {
+          "path": "Audio/output/2376/chapter_09.wav",
+          "duration": 230.930917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Senses—Windows to the World",
+          "actualDuration": 230.930917,
+          "startTime": 2362.9814160000005,
+          "endTime": 2593.9123330000007
+        },
+        {
+          "path": "Audio/output/2376/chapter_10.wav",
+          "duration": 217.75175,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Reproductive System—Creation and Continuity",
+          "actualDuration": 217.75175,
+          "startTime": 2595.4123330000007,
+          "endTime": 2813.1640830000006
+        },
+        {
+          "path": "Audio/output/2376/chapter_11.wav",
+          "duration": 172.523667,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Endocrine System—Messengers and Balance",
+          "actualDuration": 172.523667,
+          "startTime": 2814.6640830000006,
+          "endTime": 2987.1877500000005
+        },
+        {
+          "path": "Audio/output/2376/chapter_12.wav",
+          "duration": 182.919375,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Body and Disease—Battles Within",
+          "actualDuration": 182.919375,
+          "startTime": 2988.6877500000005,
+          "endTime": 3171.6071250000005
+        },
+        {
+          "path": "Audio/output/2376/chapter_13.wav",
+          "duration": 160.229958,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Aging and the Passage of Time—The Changing Body",
+          "actualDuration": 160.229958,
+          "startTime": 3173.1071250000005,
+          "endTime": 3333.3370830000003
+        },
+        {
+          "path": "Audio/output/2376/chapter_14.wav",
+          "duration": 115.636208,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Body’s Mysteries—What We Still Don’t Know",
+          "actualDuration": 115.636208,
+          "startTime": 3334.8370830000003,
+          "endTime": 3450.4732910000002
+        },
+        {
+          "path": "Audio/output/2376/conclusion.wav",
+          "duration": 108.523125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.523125,
+          "startTime": 3451.9732910000002,
+          "endTime": 3560.4964160000004
+        }
+      ],
+      "totalDuration": 3560.4964160000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.71,
+          "actualStart": 0,
+          "actualEnd": 94.706458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Meeting the Body—A Familiar Stranger",
+          "expectedStart": 94.71,
+          "expectedEnd": 375.62,
+          "actualStart": 96.206458,
+          "actualEnd": 377.111541,
+          "timeDifference": 1.496458000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Skin, Hair, and Outer Defenses—First Line of Protection",
+          "expectedStart": 375.62,
+          "expectedEnd": 689.91,
+          "actualStart": 378.611541,
+          "actualEnd": 692.902749,
+          "timeDifference": 2.991540999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Brain and Nervous System—Command Center of Experience",
+          "expectedStart": 689.91,
+          "expectedEnd": 1016.47,
+          "actualStart": 694.402749,
+          "actualEnd": 1020.9611239999999,
+          "timeDifference": 4.492749000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Heart, Blood, and Circulation—Keeping Life in Motion",
+          "expectedStart": 1016.47,
+          "expectedEnd": 1318.96,
+          "actualStart": 1022.4611239999999,
+          "actualEnd": 1324.951541,
+          "timeDifference": 5.9911239999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Immune System—Defending Against Invisible Threats",
+          "expectedStart": 1318.96,
+          "expectedEnd": 1584.57,
+          "actualStart": 1326.451541,
+          "actualEnd": 1592.065208,
+          "timeDifference": 7.49154099999987
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Digestive System—Turning Food into Life",
+          "expectedStart": 1584.57,
+          "expectedEnd": 1842.25,
+          "actualStart": 1593.565208,
+          "actualEnd": 1851.240291,
+          "timeDifference": 8.995208000000048
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Liver, Kidneys, and Detox—The Body’s Cleanup Crew",
+          "expectedStart": 1842.25,
+          "expectedEnd": 2092.1,
+          "actualStart": 1852.740291,
+          "actualEnd": 2102.5913330000003,
+          "timeDifference": 10.49029100000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Muscles and Skeleton—Framework and Force",
+          "expectedStart": 2092.1,
+          "expectedEnd": 2349.49,
+          "actualStart": 2104.0913330000003,
+          "actualEnd": 2361.4814160000005,
+          "timeDifference": 11.991333000000395
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Senses—Windows to the World",
+          "expectedStart": 2349.49,
+          "expectedEnd": 2580.42,
+          "actualStart": 2362.9814160000005,
+          "actualEnd": 2593.9123330000007,
+          "timeDifference": 13.491416000000754
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Reproductive System—Creation and Continuity",
+          "expectedStart": 2580.42,
+          "expectedEnd": 2798.17,
+          "actualStart": 2595.4123330000007,
+          "actualEnd": 2813.1640830000006,
+          "timeDifference": 14.992333000000599
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Endocrine System—Messengers and Balance",
+          "expectedStart": 2798.17,
+          "expectedEnd": 2970.69,
+          "actualStart": 2814.6640830000006,
+          "actualEnd": 2987.1877500000005,
+          "timeDifference": 16.4940830000005
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Body and Disease—Battles Within",
+          "expectedStart": 2970.69,
+          "expectedEnd": 3153.61,
+          "actualStart": 2988.6877500000005,
+          "actualEnd": 3171.6071250000005,
+          "timeDifference": 17.99775000000045
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Aging and the Passage of Time—The Changing Body",
+          "expectedStart": 3153.61,
+          "expectedEnd": 3313.84,
+          "actualStart": 3173.1071250000005,
+          "actualEnd": 3333.3370830000003,
+          "timeDifference": 19.497125000000324
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Body’s Mysteries—What We Still Don’t Know",
+          "expectedStart": 3313.84,
+          "expectedEnd": 3429.48,
+          "actualStart": 3334.8370830000003,
+          "actualEnd": 3450.4732910000002,
+          "timeDifference": 20.997083000000202
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 3429.48,
+          "expectedEnd": 3538,
+          "actualStart": 3451.9732910000002,
+          "actualEnd": 3560.4964160000004,
+          "timeDifference": 22.493291000000227
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.706458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Meeting the Body—A Familiar Stranger"
+        },
+        {
+          "startTime": 377.111541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Meeting the Body—A Familiar Stranger and Chapter 2 The Skin, Hair, and Outer Defenses—First Line of Protection"
+        },
+        {
+          "startTime": 692.902749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Skin, Hair, and Outer Defenses—First Line of Protection and Chapter 3 The Brain and Nervous System—Command Center of Experience"
+        },
+        {
+          "startTime": 1020.9611239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Brain and Nervous System—Command Center of Experience and Chapter 4 The Heart, Blood, and Circulation—Keeping Life in Motion"
+        },
+        {
+          "startTime": 1324.951541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Heart, Blood, and Circulation—Keeping Life in Motion and Chapter 5 The Immune System—Defending Against Invisible Threats"
+        },
+        {
+          "startTime": 1592.065208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Immune System—Defending Against Invisible Threats and Chapter 6 The Digestive System—Turning Food into Life"
+        },
+        {
+          "startTime": 1851.240291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Digestive System—Turning Food into Life and Chapter 7 The Liver, Kidneys, and Detox—The Body’s Cleanup Crew"
+        },
+        {
+          "startTime": 2102.5913330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Liver, Kidneys, and Detox—The Body’s Cleanup Crew and Chapter 8 The Muscles and Skeleton—Framework and Force"
+        },
+        {
+          "startTime": 2361.4814160000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Muscles and Skeleton—Framework and Force and Chapter 9 The Senses—Windows to the World"
+        },
+        {
+          "startTime": 2593.9123330000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Senses—Windows to the World and Chapter 10 The Reproductive System—Creation and Continuity"
+        },
+        {
+          "startTime": 2813.1640830000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Reproductive System—Creation and Continuity and Chapter 11 The Endocrine System—Messengers and Balance"
+        },
+        {
+          "startTime": 2987.1877500000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Endocrine System—Messengers and Balance and Chapter 12 The Body and Disease—Battles Within"
+        },
+        {
+          "startTime": 3171.6071250000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Body and Disease—Battles Within and Chapter 13 Aging and the Passage of Time—The Changing Body"
+        },
+        {
+          "startTime": 3333.3370830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Aging and the Passage of Time—The Changing Body and Chapter 14 The Body’s Mysteries—What We Still Don’t Know"
+        },
+        {
+          "startTime": 3450.4732910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Body’s Mysteries—What We Still Don’t Know and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2376",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:24:35.916Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

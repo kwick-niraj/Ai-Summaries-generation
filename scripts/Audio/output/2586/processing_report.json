@@ -1,0 +1,432 @@
+{
+  "bookId": "2586",
+  "timestamp": "2025-07-11T07:06:48.059Z",
+  "success": false,
+  "processingTime": -1752217336820,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4195,
+    "totalAudioFiles": 11,
+    "totalDuration": 2018.830001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2018.830001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2586/optimized_text/2586.md",
+    "fileSize": 693,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2586.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2586/metadata/2586_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2018.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2586/metadata/2586_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2586/metadata/2586_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2586/2586_complete.wav",
+    "duration": 2018.83,
+    "fileSize": 96903918,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2586/introduction.wav",
+          "duration": 93.038292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.038292,
+          "startTime": 0,
+          "endTime": 93.038292
+        },
+        {
+          "path": "Audio/output/2586/chapter_01.wav",
+          "duration": 268.367042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Encounters with Injustice and the Seeds of Compassion",
+          "actualDuration": 268.367042,
+          "startTime": 94.538292,
+          "endTime": 362.90533400000004
+        },
+        {
+          "path": "Audio/output/2586/chapter_02.wav",
+          "duration": 245.834875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a New Model for Health and Justice in Haiti",
+          "actualDuration": 245.834875,
+          "startTime": 364.40533400000004,
+          "endTime": 610.240209
+        },
+        {
+          "path": "Audio/output/2586/chapter_03.wav",
+          "duration": 260.43275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Confronting Global Health Systems and the Limits of Good Intentions",
+          "actualDuration": 260.43275,
+          "startTime": 611.740209,
+          "endTime": 872.172959
+        },
+        {
+          "path": "Audio/output/2586/chapter_04.wav",
+          "duration": 233.01675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Personal Cost of Commitment and the Power of Community",
+          "actualDuration": 233.01675,
+          "startTime": 873.672959,
+          "endTime": 1106.689709
+        },
+        {
+          "path": "Audio/output/2586/chapter_05.wav",
+          "duration": 198.122833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Scaling the Vision—From One Clinic to a Movement",
+          "actualDuration": 198.122833,
+          "startTime": 1108.189709,
+          "endTime": 1306.3125420000001
+        },
+        {
+          "path": "Audio/output/2586/chapter_06.wav",
+          "duration": 176.036333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advocacy, Policy, and the Battle for Systemic Change",
+          "actualDuration": 176.036333,
+          "startTime": 1307.8125420000001,
+          "endTime": 1483.8488750000001
+        },
+        {
+          "path": "Audio/output/2586/chapter_07.wav",
+          "duration": 161.656542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Tragedy, Finding Resilience",
+          "actualDuration": 161.656542,
+          "startTime": 1485.3488750000001,
+          "endTime": 1647.005417
+        },
+        {
+          "path": "Audio/output/2586/chapter_08.wav",
+          "duration": 139.987042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Legacy—Teaching, Mentoring, and Inspiring the Next Generation",
+          "actualDuration": 139.987042,
+          "startTime": 1648.505417,
+          "endTime": 1788.492459
+        },
+        {
+          "path": "Audio/output/2586/chapter_09.wav",
+          "duration": 110.783875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 A Life’s Work—Reflection, Hope, and the Ongoing Struggle",
+          "actualDuration": 110.783875,
+          "startTime": 1789.992459,
+          "endTime": 1900.7763340000001
+        },
+        {
+          "path": "Audio/output/2586/conclusion.wav",
+          "duration": 131.553667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.553667,
+          "startTime": 1902.2763340000001,
+          "endTime": 2033.830001
+        }
+      ],
+      "totalDuration": 2033.830001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.04,
+          "actualStart": 0,
+          "actualEnd": 93.038292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Encounters with Injustice and the Seeds of Compassion",
+          "expectedStart": 93.04,
+          "expectedEnd": 361.41,
+          "actualStart": 94.538292,
+          "actualEnd": 362.90533400000004,
+          "timeDifference": 1.4982919999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a New Model for Health and Justice in Haiti",
+          "expectedStart": 361.41,
+          "expectedEnd": 607.24,
+          "actualStart": 364.40533400000004,
+          "actualEnd": 610.240209,
+          "timeDifference": 2.995334000000014
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Confronting Global Health Systems and the Limits of Good Intentions",
+          "expectedStart": 607.24,
+          "expectedEnd": 867.67,
+          "actualStart": 611.740209,
+          "actualEnd": 872.172959,
+          "timeDifference": 4.500209000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Personal Cost of Commitment and the Power of Community",
+          "expectedStart": 867.67,
+          "expectedEnd": 1100.69,
+          "actualStart": 873.672959,
+          "actualEnd": 1106.689709,
+          "timeDifference": 6.002959000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Scaling the Vision—From One Clinic to a Movement",
+          "expectedStart": 1100.69,
+          "expectedEnd": 1298.81,
+          "actualStart": 1108.189709,
+          "actualEnd": 1306.3125420000001,
+          "timeDifference": 7.499708999999939
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advocacy, Policy, and the Battle for Systemic Change",
+          "expectedStart": 1298.81,
+          "expectedEnd": 1474.85,
+          "actualStart": 1307.8125420000001,
+          "actualEnd": 1483.8488750000001,
+          "timeDifference": 9.002542000000176
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Tragedy, Finding Resilience",
+          "expectedStart": 1474.85,
+          "expectedEnd": 1636.51,
+          "actualStart": 1485.3488750000001,
+          "actualEnd": 1647.005417,
+          "timeDifference": 10.498875000000226
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Legacy—Teaching, Mentoring, and Inspiring the Next Generation",
+          "expectedStart": 1636.51,
+          "expectedEnd": 1776.5,
+          "actualStart": 1648.505417,
+          "actualEnd": 1788.492459,
+          "timeDifference": 11.995417000000089
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 A Life’s Work—Reflection, Hope, and the Ongoing Struggle",
+          "expectedStart": 1776.5,
+          "expectedEnd": 1887.28,
+          "actualStart": 1789.992459,
+          "actualEnd": 1900.7763340000001,
+          "timeDifference": 13.492459000000053
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1887.28,
+          "expectedEnd": 2018.83,
+          "actualStart": 1902.2763340000001,
+          "actualEnd": 2033.830001,
+          "timeDifference": 14.99633400000016
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.038292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Encounters with Injustice and the Seeds of Compassion"
+        },
+        {
+          "startTime": 362.90533400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Encounters with Injustice and the Seeds of Compassion and Chapter 2 Building a New Model for Health and Justice in Haiti"
+        },
+        {
+          "startTime": 610.240209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a New Model for Health and Justice in Haiti and Chapter 3 Confronting Global Health Systems and the Limits of Good Intentions"
+        },
+        {
+          "startTime": 872.172959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Confronting Global Health Systems and the Limits of Good Intentions and Chapter 4 The Personal Cost of Commitment and the Power of Community"
+        },
+        {
+          "startTime": 1106.689709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Personal Cost of Commitment and the Power of Community and Chapter 5 Scaling the Vision—From One Clinic to a Movement"
+        },
+        {
+          "startTime": 1306.3125420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Scaling the Vision—From One Clinic to a Movement and Chapter 6 Advocacy, Policy, and the Battle for Systemic Change"
+        },
+        {
+          "startTime": 1483.8488750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advocacy, Policy, and the Battle for Systemic Change and Chapter 7 Facing Tragedy, Finding Resilience"
+        },
+        {
+          "startTime": 1647.005417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Tragedy, Finding Resilience and Chapter 8 The Enduring Legacy—Teaching, Mentoring, and Inspiring the Next Generation"
+        },
+        {
+          "startTime": 1788.492459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Legacy—Teaching, Mentoring, and Inspiring the Next Generation and Chapter 9 A Life’s Work—Reflection, Hope, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 1900.7763340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 A Life’s Work—Reflection, Hope, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2586",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:02:18.441Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2687",
+  "timestamp": "2025-07-12T11:04:23.931Z",
+  "success": false,
+  "processingTime": -1752317746479,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5033,
+    "totalAudioFiles": 12,
+    "totalDuration": 2262.176293
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2262.176293
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2687/optimized_text/2687.md",
+    "fileSize": 702,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2687.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2687/metadata/2687_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2262.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2687/metadata/2687_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2687/metadata/2687_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2687/2687_complete.wav",
+    "duration": 2262.176292,
+    "fileSize": 108584540,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2687/introduction.wav",
+          "duration": 98.800917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.800917,
+          "startTime": 0,
+          "endTime": 98.800917
+        },
+        {
+          "path": "Audio/output/2687/chapter_01.wav",
+          "duration": 285.769417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Black and Learning to See the World",
+          "actualDuration": 285.769417,
+          "startTime": 100.300917,
+          "endTime": 386.070334
+        },
+        {
+          "path": "Audio/output/2687/chapter_02.wav",
+          "duration": 243.737458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Reality of the Black Body and the Threat of Violence",
+          "actualDuration": 243.737458,
+          "startTime": 387.570334,
+          "endTime": 631.3077920000001
+        },
+        {
+          "path": "Audio/output/2687/chapter_03.wav",
+          "duration": 232.634625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Illusion of the American Dream and Its Hidden Costs",
+          "actualDuration": 232.634625,
+          "startTime": 632.8077920000001,
+          "endTime": 865.4424170000001
+        },
+        {
+          "path": "Audio/output/2687/chapter_04.wav",
+          "duration": 214.585917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Fear, and the Struggle to Protect",
+          "actualDuration": 214.585917,
+          "startTime": 866.9424170000001,
+          "endTime": 1081.528334
+        },
+        {
+          "path": "Audio/output/2687/chapter_05.wav",
+          "duration": 202.573458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Education, Curiosity, and the Power of Self-Discovery",
+          "actualDuration": 202.573458,
+          "startTime": 1083.028334,
+          "endTime": 1285.6017920000002
+        },
+        {
+          "path": "Audio/output/2687/chapter_06.wav",
+          "duration": 227.827042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of History and the Stories We Inherit",
+          "actualDuration": 227.827042,
+          "startTime": 1287.1017920000002,
+          "endTime": 1514.9288340000003
+        },
+        {
+          "path": "Audio/output/2687/chapter_07.wav",
+          "duration": 188.796833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Friendship, Community, and the Power of Collective Struggle",
+          "actualDuration": 188.796833,
+          "startTime": 1516.4288340000003,
+          "endTime": 1705.2256670000002
+        },
+        {
+          "path": "Audio/output/2687/chapter_08.wav",
+          "duration": 170.436917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Grief, Loss, and the Search for Meaning",
+          "actualDuration": 170.436917,
+          "startTime": 1706.7256670000002,
+          "endTime": 1877.1625840000002
+        },
+        {
+          "path": "Audio/output/2687/chapter_09.wav",
+          "duration": 151.551125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Struggle for Justice and the Limits of Hope",
+          "actualDuration": 151.551125,
+          "startTime": 1878.6625840000002,
+          "endTime": 2030.213709
+        },
+        {
+          "path": "Audio/output/2687/chapter_10.wav",
+          "duration": 127.649417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Love, Resilience, and the Possibility of Transformation",
+          "actualDuration": 127.649417,
+          "startTime": 2031.713709,
+          "endTime": 2159.363126
+        },
+        {
+          "path": "Audio/output/2687/conclusion.wav",
+          "duration": 117.813167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.813167,
+          "startTime": 2160.863126,
+          "endTime": 2278.676293
+        }
+      ],
+      "totalDuration": 2278.676293,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.8,
+          "actualStart": 0,
+          "actualEnd": 98.800917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Black and Learning to See the World",
+          "expectedStart": 98.8,
+          "expectedEnd": 384.57,
+          "actualStart": 100.300917,
+          "actualEnd": 386.070334,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Reality of the Black Body and the Threat of Violence",
+          "expectedStart": 384.57,
+          "expectedEnd": 628.31,
+          "actualStart": 387.570334,
+          "actualEnd": 631.3077920000001,
+          "timeDifference": 3.0003340000000094
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Illusion of the American Dream and Its Hidden Costs",
+          "expectedStart": 628.31,
+          "expectedEnd": 860.94,
+          "actualStart": 632.8077920000001,
+          "actualEnd": 865.4424170000001,
+          "timeDifference": 4.497792000000118
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Fear, and the Struggle to Protect",
+          "expectedStart": 860.94,
+          "expectedEnd": 1075.53,
+          "actualStart": 866.9424170000001,
+          "actualEnd": 1081.528334,
+          "timeDifference": 6.002417000000037
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Education, Curiosity, and the Power of Self-Discovery",
+          "expectedStart": 1075.53,
+          "expectedEnd": 1278.1,
+          "actualStart": 1083.028334,
+          "actualEnd": 1285.6017920000002,
+          "timeDifference": 7.4983340000001135
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of History and the Stories We Inherit",
+          "expectedStart": 1278.1,
+          "expectedEnd": 1505.93,
+          "actualStart": 1287.1017920000002,
+          "actualEnd": 1514.9288340000003,
+          "timeDifference": 9.00179200000025
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Friendship, Community, and the Power of Collective Struggle",
+          "expectedStart": 1505.93,
+          "expectedEnd": 1694.73,
+          "actualStart": 1516.4288340000003,
+          "actualEnd": 1705.2256670000002,
+          "timeDifference": 10.498834000000215
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Grief, Loss, and the Search for Meaning",
+          "expectedStart": 1694.73,
+          "expectedEnd": 1865.17,
+          "actualStart": 1706.7256670000002,
+          "actualEnd": 1877.1625840000002,
+          "timeDifference": 11.99566700000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Struggle for Justice and the Limits of Hope",
+          "expectedStart": 1865.17,
+          "expectedEnd": 2016.72,
+          "actualStart": 1878.6625840000002,
+          "actualEnd": 2030.213709,
+          "timeDifference": 13.492584000000079
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Love, Resilience, and the Possibility of Transformation",
+          "expectedStart": 2016.72,
+          "expectedEnd": 2144.37,
+          "actualStart": 2031.713709,
+          "actualEnd": 2159.363126,
+          "timeDifference": 14.99370900000008
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2144.37,
+          "expectedEnd": 2262.18,
+          "actualStart": 2160.863126,
+          "actualEnd": 2278.676293,
+          "timeDifference": 16.493126000000302
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.800917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Black and Learning to See the World"
+        },
+        {
+          "startTime": 386.070334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Black and Learning to See the World and Chapter 2 The Reality of the Black Body and the Threat of Violence"
+        },
+        {
+          "startTime": 631.3077920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Reality of the Black Body and the Threat of Violence and Chapter 3 The Illusion of the American Dream and Its Hidden Costs"
+        },
+        {
+          "startTime": 865.4424170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Illusion of the American Dream and Its Hidden Costs and Chapter 4 Family, Fear, and the Struggle to Protect"
+        },
+        {
+          "startTime": 1081.528334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Fear, and the Struggle to Protect and Chapter 5 Education, Curiosity, and the Power of Self-Discovery"
+        },
+        {
+          "startTime": 1285.6017920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Education, Curiosity, and the Power of Self-Discovery and Chapter 6 The Weight of History and the Stories We Inherit"
+        },
+        {
+          "startTime": 1514.9288340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of History and the Stories We Inherit and Chapter 7 Friendship, Community, and the Power of Collective Struggle"
+        },
+        {
+          "startTime": 1705.2256670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Friendship, Community, and the Power of Collective Struggle and Chapter 8 Grief, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 1877.1625840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Grief, Loss, and the Search for Meaning and Chapter 9 The Struggle for Justice and the Limits of Hope"
+        },
+        {
+          "startTime": 2030.213709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Struggle for Justice and the Limits of Hope and Chapter 10 Love, Resilience, and the Possibility of Transformation"
+        },
+        {
+          "startTime": 2159.363126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Love, Resilience, and the Possibility of Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2687",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:55:47.674Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2622",
+  "timestamp": "2025-07-11T08:31:38.593Z",
+  "success": false,
+  "processingTime": -1752222387161,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4536,
+    "totalAudioFiles": 12,
+    "totalDuration": 2051.6239180000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2051.6239180000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2622/optimized_text/2622.md",
+    "fileSize": 695,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2622.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2622/metadata/2622_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2051.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2622/metadata/2622_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2622/metadata/2622_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2622/2622_complete.wav",
+    "duration": 2051.623917,
+    "fileSize": 98478026,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2622/introduction.wav",
+          "duration": 73.292833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 73.292833,
+          "startTime": 0,
+          "endTime": 73.292833
+        },
+        {
+          "path": "Audio/output/2622/chapter_01.wav",
+          "duration": 263.798167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A World on the Edge: The Calm Before the Storm",
+          "actualDuration": 263.798167,
+          "startTime": 74.792833,
+          "endTime": 338.591
+        },
+        {
+          "path": "Audio/output/2622/chapter_02.wav",
+          "duration": 246.926375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The March to War: Plans, Pride, and Misjudgments",
+          "actualDuration": 246.926375,
+          "startTime": 340.091,
+          "endTime": 587.017375
+        },
+        {
+          "path": "Audio/output/2622/chapter_03.wav",
+          "duration": 237.84275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Western Front: The Battle for France Begins",
+          "actualDuration": 237.84275,
+          "startTime": 588.517375,
+          "endTime": 826.360125
+        },
+        {
+          "path": "Audio/output/2622/chapter_04.wav",
+          "duration": 204.040583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Eastern Front and the Collapse of Old Certainties",
+          "actualDuration": 204.040583,
+          "startTime": 827.860125,
+          "endTime": 1031.9007080000001
+        },
+        {
+          "path": "Audio/output/2622/chapter_05.wav",
+          "duration": 168.978667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The War Spreads and the World Changes",
+          "actualDuration": 168.978667,
+          "startTime": 1033.4007080000001,
+          "endTime": 1202.3793750000002
+        },
+        {
+          "path": "Audio/output/2622/chapter_06.wav",
+          "duration": 184.707542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Deepening Tragedy: Stalemate and Suffering",
+          "actualDuration": 184.707542,
+          "startTime": 1203.8793750000002,
+          "endTime": 1388.586917
+        },
+        {
+          "path": "Audio/output/2622/chapter_07.wav",
+          "duration": 153.445042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Strain of Leadership: Decisions in the Dark",
+          "actualDuration": 153.445042,
+          "startTime": 1390.086917,
+          "endTime": 1543.5319590000001
+        },
+        {
+          "path": "Audio/output/2622/chapter_08.wav",
+          "duration": 137.089625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Watches: Neutrality, Intervention, and the Global Ripple",
+          "actualDuration": 137.089625,
+          "startTime": 1545.0319590000001,
+          "endTime": 1682.1215840000002
+        },
+        {
+          "path": "Audio/output/2622/chapter_09.wav",
+          "duration": 124.234542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Hubris: The Cost of Overconfidence",
+          "actualDuration": 124.234542,
+          "startTime": 1683.6215840000002,
+          "endTime": 1807.8561260000001
+        },
+        {
+          "path": "Audio/output/2622/chapter_10.wav",
+          "duration": 147.529542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Shadow: Memory, Change, and the World Remade",
+          "actualDuration": 147.529542,
+          "startTime": 1809.3561260000001,
+          "endTime": 1956.8856680000001
+        },
+        {
+          "path": "Audio/output/2622/conclusion.wav",
+          "duration": 109.73825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.73825,
+          "startTime": 1958.3856680000001,
+          "endTime": 2068.1239180000002
+        }
+      ],
+      "totalDuration": 2068.1239180000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 73.29,
+          "actualStart": 0,
+          "actualEnd": 73.292833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A World on the Edge: The Calm Before the Storm",
+          "expectedStart": 73.29,
+          "expectedEnd": 337.09,
+          "actualStart": 74.792833,
+          "actualEnd": 338.591,
+          "timeDifference": 1.5028329999999954
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The March to War: Plans, Pride, and Misjudgments",
+          "expectedStart": 337.09,
+          "expectedEnd": 584.02,
+          "actualStart": 340.091,
+          "actualEnd": 587.017375,
+          "timeDifference": 3.001000000000033
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Western Front: The Battle for France Begins",
+          "expectedStart": 584.02,
+          "expectedEnd": 821.86,
+          "actualStart": 588.517375,
+          "actualEnd": 826.360125,
+          "timeDifference": 4.497375000000034
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Eastern Front and the Collapse of Old Certainties",
+          "expectedStart": 821.86,
+          "expectedEnd": 1025.9,
+          "actualStart": 827.860125,
+          "actualEnd": 1031.9007080000001,
+          "timeDifference": 6.0001250000000255
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The War Spreads and the World Changes",
+          "expectedStart": 1025.9,
+          "expectedEnd": 1194.88,
+          "actualStart": 1033.4007080000001,
+          "actualEnd": 1202.3793750000002,
+          "timeDifference": 7.5007080000000315
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Deepening Tragedy: Stalemate and Suffering",
+          "expectedStart": 1194.88,
+          "expectedEnd": 1379.59,
+          "actualStart": 1203.8793750000002,
+          "actualEnd": 1388.586917,
+          "timeDifference": 8.9993750000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Strain of Leadership: Decisions in the Dark",
+          "expectedStart": 1379.59,
+          "expectedEnd": 1533.04,
+          "actualStart": 1390.086917,
+          "actualEnd": 1543.5319590000001,
+          "timeDifference": 10.496917000000167
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Watches: Neutrality, Intervention, and the Global Ripple",
+          "expectedStart": 1533.04,
+          "expectedEnd": 1670.13,
+          "actualStart": 1545.0319590000001,
+          "actualEnd": 1682.1215840000002,
+          "timeDifference": 11.991959000000179
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Hubris: The Cost of Overconfidence",
+          "expectedStart": 1670.13,
+          "expectedEnd": 1794.36,
+          "actualStart": 1683.6215840000002,
+          "actualEnd": 1807.8561260000001,
+          "timeDifference": 13.491584000000103
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Shadow: Memory, Change, and the World Remade",
+          "expectedStart": 1794.36,
+          "expectedEnd": 1941.89,
+          "actualStart": 1809.3561260000001,
+          "actualEnd": 1956.8856680000001,
+          "timeDifference": 14.996126000000231
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1941.89,
+          "expectedEnd": 2051.63,
+          "actualStart": 1958.3856680000001,
+          "actualEnd": 2068.1239180000002,
+          "timeDifference": 16.495668000000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 73.292833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A World on the Edge: The Calm Before the Storm"
+        },
+        {
+          "startTime": 338.591,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A World on the Edge: The Calm Before the Storm and Chapter 2 The March to War: Plans, Pride, and Misjudgments"
+        },
+        {
+          "startTime": 587.017375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The March to War: Plans, Pride, and Misjudgments and Chapter 3 The Western Front: The Battle for France Begins"
+        },
+        {
+          "startTime": 826.360125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Western Front: The Battle for France Begins and Chapter 4 The Eastern Front and the Collapse of Old Certainties"
+        },
+        {
+          "startTime": 1031.9007080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Eastern Front and the Collapse of Old Certainties and Chapter 5 The War Spreads and the World Changes"
+        },
+        {
+          "startTime": 1202.3793750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The War Spreads and the World Changes and Chapter 6 The Deepening Tragedy: Stalemate and Suffering"
+        },
+        {
+          "startTime": 1388.586917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Deepening Tragedy: Stalemate and Suffering and Chapter 7 The Strain of Leadership: Decisions in the Dark"
+        },
+        {
+          "startTime": 1543.5319590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Strain of Leadership: Decisions in the Dark and Chapter 8 The World Watches: Neutrality, Intervention, and the Global Ripple"
+        },
+        {
+          "startTime": 1682.1215840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Watches: Neutrality, Intervention, and the Global Ripple and Chapter 9 Lessons in Hubris: The Cost of Overconfidence"
+        },
+        {
+          "startTime": 1807.8561260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Hubris: The Cost of Overconfidence and Chapter 10 The Enduring Shadow: Memory, Change, and the World Remade"
+        },
+        {
+          "startTime": 1956.8856680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Shadow: Memory, Change, and the World Remade and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2622",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T08:26:27.688Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

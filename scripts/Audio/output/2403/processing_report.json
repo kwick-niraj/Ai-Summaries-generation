@@ -1,0 +1,456 @@
+{
+  "bookId": "2403",
+  "timestamp": "2025-07-10T21:09:25.509Z",
+  "success": false,
+  "processingTime": -1752181332851,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4558,
+    "totalAudioFiles": 12,
+    "totalDuration": 2181.422375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2181.422375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2403/optimized_text/2403.md",
+    "fileSize": 840,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "2403.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2403/metadata/2403_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2181.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2403/metadata/2403_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2403/metadata/2403_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2403/2403_complete.wav",
+    "duration": 2181.422375,
+    "fileSize": 104708352,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2403/introduction.wav",
+          "duration": 93.9575,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.9575,
+          "startTime": 0,
+          "endTime": 93.9575
+        },
+        {
+          "path": "Audio/output/2403/chapter_01.wav",
+          "duration": 227.750083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Wild: Early Curiosity and the First Steps into Nature",
+          "actualDuration": 227.750083,
+          "startTime": 95.4575,
+          "endTime": 323.207583
+        },
+        {
+          "path": "Audio/output/2403/chapter_02.wav",
+          "duration": 260.39025,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Lessons from a Mentor: Stalking Wolf’s Teachings and the Art of Awareness",
+          "actualDuration": 260.39025,
+          "startTime": 324.707583,
+          "endTime": 585.097833
+        },
+        {
+          "path": "Audio/output/2403/chapter_03.wav",
+          "duration": 221.404458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Survival in the Wilderness: Facing Hardship and Learning Self-Reliance",
+          "actualDuration": 221.404458,
+          "startTime": 586.597833,
+          "endTime": 808.002291
+        },
+        {
+          "path": "Audio/output/2403/chapter_04.wav",
+          "duration": 216.05075,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Spiritual Side of Tracking: Finding Meaning and Connection in Nature",
+          "actualDuration": 216.05075,
+          "startTime": 809.502291,
+          "endTime": 1025.5530410000001
+        },
+        {
+          "path": "Audio/output/2403/chapter_05.wav",
+          "duration": 188.367667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Coming of Age: Growth, Responsibility, and Passing on the Wisdom",
+          "actualDuration": 188.367667,
+          "startTime": 1027.0530410000001,
+          "endTime": 1215.420708
+        },
+        {
+          "path": "Audio/output/2403/chapter_06.wav",
+          "duration": 198.68625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Into the Unknown: Testing Limits and Facing the Edge",
+          "actualDuration": 198.68625,
+          "startTime": 1216.920708,
+          "endTime": 1415.606958
+        },
+        {
+          "path": "Audio/output/2403/chapter_07.wav",
+          "duration": 184.941292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Call of Responsibility: Sharing Wisdom in a Changing World",
+          "actualDuration": 184.941292,
+          "startTime": 1417.106958,
+          "endTime": 1602.04825
+        },
+        {
+          "path": "Audio/output/2403/chapter_08.wav",
+          "duration": 186.504792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Return of Stalking Wolf: Final Lessons and Lasting Legacy",
+          "actualDuration": 186.504792,
+          "startTime": 1603.54825,
+          "endTime": 1790.053042
+        },
+        {
+          "path": "Audio/output/2403/chapter_09.wav",
+          "duration": 147.532208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Healing Power of Nature: Finding Solace in the Wild",
+          "actualDuration": 147.532208,
+          "startTime": 1791.553042,
+          "endTime": 1939.08525
+        },
+        {
+          "path": "Audio/output/2403/chapter_10.wav",
+          "duration": 152.06525,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Path: Living the Lessons and Looking Forward",
+          "actualDuration": 152.06525,
+          "startTime": 1940.58525,
+          "endTime": 2092.6505
+        },
+        {
+          "path": "Audio/output/2403/conclusion.wav",
+          "duration": 103.771875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 103.771875,
+          "startTime": 2094.1505,
+          "endTime": 2197.922375
+        }
+      ],
+      "totalDuration": 2197.922375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.96,
+          "actualStart": 0,
+          "actualEnd": 93.9575,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Wild: Early Curiosity and the First Steps into Nature",
+          "expectedStart": 93.96,
+          "expectedEnd": 321.71,
+          "actualStart": 95.4575,
+          "actualEnd": 323.207583,
+          "timeDifference": 1.4975000000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Lessons from a Mentor: Stalking Wolf’s Teachings and the Art of Awareness",
+          "expectedStart": 321.71,
+          "expectedEnd": 582.1,
+          "actualStart": 324.707583,
+          "actualEnd": 585.097833,
+          "timeDifference": 2.99758300000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Survival in the Wilderness: Facing Hardship and Learning Self-Reliance",
+          "expectedStart": 582.1,
+          "expectedEnd": 803.5,
+          "actualStart": 586.597833,
+          "actualEnd": 808.002291,
+          "timeDifference": 4.497833000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Spiritual Side of Tracking: Finding Meaning and Connection in Nature",
+          "expectedStart": 803.5,
+          "expectedEnd": 1019.55,
+          "actualStart": 809.502291,
+          "actualEnd": 1025.5530410000001,
+          "timeDifference": 6.002291000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Coming of Age: Growth, Responsibility, and Passing on the Wisdom",
+          "expectedStart": 1019.55,
+          "expectedEnd": 1207.92,
+          "actualStart": 1027.0530410000001,
+          "actualEnd": 1215.420708,
+          "timeDifference": 7.503041000000167
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Into the Unknown: Testing Limits and Facing the Edge",
+          "expectedStart": 1207.92,
+          "expectedEnd": 1406.61,
+          "actualStart": 1216.920708,
+          "actualEnd": 1415.606958,
+          "timeDifference": 9.000708000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Call of Responsibility: Sharing Wisdom in a Changing World",
+          "expectedStart": 1406.61,
+          "expectedEnd": 1591.55,
+          "actualStart": 1417.106958,
+          "actualEnd": 1602.04825,
+          "timeDifference": 10.496958000000177
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Return of Stalking Wolf: Final Lessons and Lasting Legacy",
+          "expectedStart": 1591.55,
+          "expectedEnd": 1778.05,
+          "actualStart": 1603.54825,
+          "actualEnd": 1790.053042,
+          "timeDifference": 11.998250000000098
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Healing Power of Nature: Finding Solace in the Wild",
+          "expectedStart": 1778.05,
+          "expectedEnd": 1925.58,
+          "actualStart": 1791.553042,
+          "actualEnd": 1939.08525,
+          "timeDifference": 13.50304200000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Path: Living the Lessons and Looking Forward",
+          "expectedStart": 1925.58,
+          "expectedEnd": 2077.65,
+          "actualStart": 1940.58525,
+          "actualEnd": 2092.6505,
+          "timeDifference": 15.00525000000016
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2077.65,
+          "expectedEnd": 2181.42,
+          "actualStart": 2094.1505,
+          "actualEnd": 2197.922375,
+          "timeDifference": 16.500500000000102
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.9575,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Wild: Early Curiosity and the First Steps into Nature"
+        },
+        {
+          "startTime": 323.207583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Wild: Early Curiosity and the First Steps into Nature and Chapter 2 Lessons from a Mentor: Stalking Wolf’s Teachings and the Art of Awareness"
+        },
+        {
+          "startTime": 585.097833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Lessons from a Mentor: Stalking Wolf’s Teachings and the Art of Awareness and Chapter 3 Survival in the Wilderness: Facing Hardship and Learning Self-Reliance"
+        },
+        {
+          "startTime": 808.002291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Survival in the Wilderness: Facing Hardship and Learning Self-Reliance and Chapter 4 The Spiritual Side of Tracking: Finding Meaning and Connection in Nature"
+        },
+        {
+          "startTime": 1025.5530410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Spiritual Side of Tracking: Finding Meaning and Connection in Nature and Chapter 5 Coming of Age: Growth, Responsibility, and Passing on the Wisdom"
+        },
+        {
+          "startTime": 1215.420708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Coming of Age: Growth, Responsibility, and Passing on the Wisdom and Chapter 6 Into the Unknown: Testing Limits and Facing the Edge"
+        },
+        {
+          "startTime": 1415.606958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Into the Unknown: Testing Limits and Facing the Edge and Chapter 7 The Call of Responsibility: Sharing Wisdom in a Changing World"
+        },
+        {
+          "startTime": 1602.04825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Call of Responsibility: Sharing Wisdom in a Changing World and Chapter 8 The Return of Stalking Wolf: Final Lessons and Lasting Legacy"
+        },
+        {
+          "startTime": 1790.053042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Return of Stalking Wolf: Final Lessons and Lasting Legacy and Chapter 9 The Healing Power of Nature: Finding Solace in the Wild"
+        },
+        {
+          "startTime": 1939.08525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Healing Power of Nature: Finding Solace in the Wild and Chapter 10 The Enduring Path: Living the Lessons and Looking Forward"
+        },
+        {
+          "startTime": 2092.6505,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Path: Living the Lessons and Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2403",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:02:13.373Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

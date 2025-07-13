@@ -1,0 +1,456 @@
+{
+  "bookId": "2658",
+  "timestamp": "2025-07-12T08:49:59.632Z",
+  "success": false,
+  "processingTime": -1752309923043,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4303,
+    "totalAudioFiles": 12,
+    "totalDuration": 2247.453419
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2247.453419
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2658/optimized_text/2658.md",
+    "fileSize": 652,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "2658.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2658/metadata/2658_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2247.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2658/metadata/2658_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2658/metadata/2658_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2658/2658_complete.wav",
+    "duration": 2247.453417,
+    "fileSize": 107877842,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2658/introduction.wav",
+          "duration": 90.75875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.75875,
+          "startTime": 0,
+          "endTime": 90.75875
+        },
+        {
+          "path": "Audio/output/2658/chapter_01.wav",
+          "duration": 222.646917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing High Sensitivity as a Natural Trait",
+          "actualDuration": 222.646917,
+          "startTime": 92.25875,
+          "endTime": 314.905667
+        },
+        {
+          "path": "Audio/output/2658/chapter_02.wav",
+          "duration": 202.05075,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science and Psychology Behind Sensitivity",
+          "actualDuration": 202.05075,
+          "startTime": 316.405667,
+          "endTime": 518.456417
+        },
+        {
+          "path": "Audio/output/2658/chapter_03.wav",
+          "duration": 247.340917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Overstimulation and Emotional Overload",
+          "actualDuration": 247.340917,
+          "startTime": 519.956417,
+          "endTime": 767.297334
+        },
+        {
+          "path": "Audio/output/2658/chapter_04.wav",
+          "duration": 201.532625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Self-Acceptance and Healthy Boundaries",
+          "actualDuration": 201.532625,
+          "startTime": 768.797334,
+          "endTime": 970.3299589999999
+        },
+        {
+          "path": "Audio/output/2658/chapter_05.wav",
+          "duration": 229.888125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Thriving in Relationships and Social Settings",
+          "actualDuration": 229.888125,
+          "startTime": 971.8299589999999,
+          "endTime": 1201.7180839999999
+        },
+        {
+          "path": "Audio/output/2658/chapter_06.wav",
+          "duration": 236.837167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Work and Career as a Highly Sensitive Person",
+          "actualDuration": 236.837167,
+          "startTime": 1203.2180839999999,
+          "endTime": 1440.0552509999998
+        },
+        {
+          "path": "Audio/output/2658/chapter_07.wav",
+          "duration": 179.416375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Self-Care as a Foundation for Resilience",
+          "actualDuration": 179.416375,
+          "startTime": 1441.5552509999998,
+          "endTime": 1620.9716259999998
+        },
+        {
+          "path": "Audio/output/2658/chapter_08.wav",
+          "duration": 183.490292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Transforming Sensitivity into Strength",
+          "actualDuration": 183.490292,
+          "startTime": 1622.4716259999998,
+          "endTime": 1805.9619179999997
+        },
+        {
+          "path": "Audio/output/2658/chapter_09.wav",
+          "duration": 187.853292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lifelong Growth and Navigating Change",
+          "actualDuration": 187.853292,
+          "startTime": 1807.4619179999997,
+          "endTime": 1995.3152099999998
+        },
+        {
+          "path": "Audio/output/2658/chapter_10.wav",
+          "duration": 146.705292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Sensitivity into a Fulfilling Life",
+          "actualDuration": 146.705292,
+          "startTime": 1996.8152099999998,
+          "endTime": 2143.520502
+        },
+        {
+          "path": "Audio/output/2658/conclusion.wav",
+          "duration": 118.932917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.932917,
+          "startTime": 2145.020502,
+          "endTime": 2263.953419
+        }
+      ],
+      "totalDuration": 2263.953419,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.76,
+          "actualStart": 0,
+          "actualEnd": 90.75875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing High Sensitivity as a Natural Trait",
+          "expectedStart": 90.76,
+          "expectedEnd": 313.41,
+          "actualStart": 92.25875,
+          "actualEnd": 314.905667,
+          "timeDifference": 1.4987500000000011
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science and Psychology Behind Sensitivity",
+          "expectedStart": 313.41,
+          "expectedEnd": 515.46,
+          "actualStart": 316.405667,
+          "actualEnd": 518.456417,
+          "timeDifference": 2.995666999999969
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Overstimulation and Emotional Overload",
+          "expectedStart": 515.46,
+          "expectedEnd": 762.8,
+          "actualStart": 519.956417,
+          "actualEnd": 767.297334,
+          "timeDifference": 4.496416999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Self-Acceptance and Healthy Boundaries",
+          "expectedStart": 762.8,
+          "expectedEnd": 964.33,
+          "actualStart": 768.797334,
+          "actualEnd": 970.3299589999999,
+          "timeDifference": 5.9973340000000235
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Thriving in Relationships and Social Settings",
+          "expectedStart": 964.33,
+          "expectedEnd": 1194.22,
+          "actualStart": 971.8299589999999,
+          "actualEnd": 1201.7180839999999,
+          "timeDifference": 7.499958999999876
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Work and Career as a Highly Sensitive Person",
+          "expectedStart": 1194.22,
+          "expectedEnd": 1431.06,
+          "actualStart": 1203.2180839999999,
+          "actualEnd": 1440.0552509999998,
+          "timeDifference": 8.998083999999835
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Self-Care as a Foundation for Resilience",
+          "expectedStart": 1431.06,
+          "expectedEnd": 1610.48,
+          "actualStart": 1441.5552509999998,
+          "actualEnd": 1620.9716259999998,
+          "timeDifference": 10.495250999999826
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Transforming Sensitivity into Strength",
+          "expectedStart": 1610.48,
+          "expectedEnd": 1793.97,
+          "actualStart": 1622.4716259999998,
+          "actualEnd": 1805.9619179999997,
+          "timeDifference": 11.99162599999977
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lifelong Growth and Navigating Change",
+          "expectedStart": 1793.97,
+          "expectedEnd": 1981.82,
+          "actualStart": 1807.4619179999997,
+          "actualEnd": 1995.3152099999998,
+          "timeDifference": 13.491917999999714
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Sensitivity into a Fulfilling Life",
+          "expectedStart": 1981.82,
+          "expectedEnd": 2128.53,
+          "actualStart": 1996.8152099999998,
+          "actualEnd": 2143.520502,
+          "timeDifference": 14.995209999999815
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2128.53,
+          "expectedEnd": 2247.46,
+          "actualStart": 2145.020502,
+          "actualEnd": 2263.953419,
+          "timeDifference": 16.49050199999965
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.75875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing High Sensitivity as a Natural Trait"
+        },
+        {
+          "startTime": 314.905667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing High Sensitivity as a Natural Trait and Chapter 2 The Science and Psychology Behind Sensitivity"
+        },
+        {
+          "startTime": 518.456417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science and Psychology Behind Sensitivity and Chapter 3 Navigating Overstimulation and Emotional Overload"
+        },
+        {
+          "startTime": 767.297334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Overstimulation and Emotional Overload and Chapter 4 Building Self-Acceptance and Healthy Boundaries"
+        },
+        {
+          "startTime": 970.3299589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Self-Acceptance and Healthy Boundaries and Chapter 5 Thriving in Relationships and Social Settings"
+        },
+        {
+          "startTime": 1201.7180839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Thriving in Relationships and Social Settings and Chapter 6 Navigating Work and Career as a Highly Sensitive Person"
+        },
+        {
+          "startTime": 1440.0552509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Work and Career as a Highly Sensitive Person and Chapter 7 Self-Care as a Foundation for Resilience"
+        },
+        {
+          "startTime": 1620.9716259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Self-Care as a Foundation for Resilience and Chapter 8 Transforming Sensitivity into Strength"
+        },
+        {
+          "startTime": 1805.9619179999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Transforming Sensitivity into Strength and Chapter 9 Lifelong Growth and Navigating Change"
+        },
+        {
+          "startTime": 1995.3152099999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lifelong Growth and Navigating Change and Chapter 10 Integrating Sensitivity into a Fulfilling Life"
+        },
+        {
+          "startTime": 2143.520502,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Sensitivity into a Fulfilling Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2658",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:45:24.315Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

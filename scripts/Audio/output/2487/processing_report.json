@@ -1,0 +1,456 @@
+{
+  "bookId": "2487",
+  "timestamp": "2025-07-11T00:59:11.936Z",
+  "success": false,
+  "processingTime": -1752195139991,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4254,
+    "totalAudioFiles": 12,
+    "totalDuration": 2237.865584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2237.865584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2487/optimized_text/2487.md",
+    "fileSize": 847,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2487.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2487/metadata/2487_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2237.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2487/metadata/2487_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2487/metadata/2487_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2487/2487_complete.wav",
+    "duration": 2237.865583,
+    "fileSize": 107417626,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2487/introduction.wav",
+          "duration": 95.01725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.01725,
+          "startTime": 0,
+          "endTime": 95.01725
+        },
+        {
+          "path": "Audio/output/2487/chapter_01.wav",
+          "duration": 252.268375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When the Mind’s Map Breaks: Phantom Limbs and the Brain’s Body Image",
+          "actualDuration": 252.268375,
+          "startTime": 96.51725,
+          "endTime": 348.785625
+        },
+        {
+          "path": "Audio/output/2487/chapter_02.wav",
+          "duration": 241.682875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Brain’s Illusions: How Perception Shapes Reality",
+          "actualDuration": 241.682875,
+          "startTime": 350.285625,
+          "endTime": 591.9685
+        },
+        {
+          "path": "Audio/output/2487/chapter_03.wav",
+          "duration": 251.491125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Self in Fragments: Identity, Delusion, and the Brain",
+          "actualDuration": 251.491125,
+          "startTime": 593.4685,
+          "endTime": 844.959625
+        },
+        {
+          "path": "Audio/output/2487/chapter_04.wav",
+          "duration": 226.197792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Brain’s Flexibility: Rewiring, Recovery, and Adaptation",
+          "actualDuration": 226.197792,
+          "startTime": 846.459625,
+          "endTime": 1072.657417
+        },
+        {
+          "path": "Audio/output/2487/chapter_05.wav",
+          "duration": 187.18675,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons from the Edge: What Brain Disorders Teach About Being Human",
+          "actualDuration": 187.18675,
+          "startTime": 1074.157417,
+          "endTime": 1261.344167
+        },
+        {
+          "path": "Audio/output/2487/chapter_06.wav",
+          "duration": 201.689125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ghost in the Machine: Consciousness and the Search for the Self",
+          "actualDuration": 201.689125,
+          "startTime": 1262.844167,
+          "endTime": 1464.533292
+        },
+        {
+          "path": "Audio/output/2487/chapter_07.wav",
+          "duration": 175.649625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Roots of Belief: How the Brain Makes Meaning",
+          "actualDuration": 175.649625,
+          "startTime": 1466.033292,
+          "endTime": 1641.682917
+        },
+        {
+          "path": "Audio/output/2487/chapter_08.wav",
+          "duration": 162.035875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Divided Brain: Hemispheres, Specialization, and the Nature of Thought",
+          "actualDuration": 162.035875,
+          "startTime": 1643.182917,
+          "endTime": 1805.2187920000001
+        },
+        {
+          "path": "Audio/output/2487/chapter_09.wav",
+          "duration": 162.207292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Brain’s Blind Spots: Denial, Confabulation, and the Limits of Self-Knowledge",
+          "actualDuration": 162.207292,
+          "startTime": 1806.7187920000001,
+          "endTime": 1968.9260840000002
+        },
+        {
+          "path": "Audio/output/2487/chapter_10.wav",
+          "duration": 160.903958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Healing Mind: Hope, Recovery, and the Future of Neuroscience",
+          "actualDuration": 160.903958,
+          "startTime": 1970.4260840000002,
+          "endTime": 2131.330042
+        },
+        {
+          "path": "Audio/output/2487/conclusion.wav",
+          "duration": 121.535542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.535542,
+          "startTime": 2132.830042,
+          "endTime": 2254.365584
+        }
+      ],
+      "totalDuration": 2254.365584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.02,
+          "actualStart": 0,
+          "actualEnd": 95.01725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When the Mind’s Map Breaks: Phantom Limbs and the Brain’s Body Image",
+          "expectedStart": 95.02,
+          "expectedEnd": 347.29,
+          "actualStart": 96.51725,
+          "actualEnd": 348.785625,
+          "timeDifference": 1.4972500000000082
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Brain’s Illusions: How Perception Shapes Reality",
+          "expectedStart": 347.29,
+          "expectedEnd": 588.97,
+          "actualStart": 350.285625,
+          "actualEnd": 591.9685,
+          "timeDifference": 2.9956249999999613
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Self in Fragments: Identity, Delusion, and the Brain",
+          "expectedStart": 588.97,
+          "expectedEnd": 840.46,
+          "actualStart": 593.4685,
+          "actualEnd": 844.959625,
+          "timeDifference": 4.498499999999922
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Brain’s Flexibility: Rewiring, Recovery, and Adaptation",
+          "expectedStart": 840.46,
+          "expectedEnd": 1066.66,
+          "actualStart": 846.459625,
+          "actualEnd": 1072.657417,
+          "timeDifference": 5.999624999999924
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons from the Edge: What Brain Disorders Teach About Being Human",
+          "expectedStart": 1066.66,
+          "expectedEnd": 1253.85,
+          "actualStart": 1074.157417,
+          "actualEnd": 1261.344167,
+          "timeDifference": 7.497416999999814
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ghost in the Machine: Consciousness and the Search for the Self",
+          "expectedStart": 1253.85,
+          "expectedEnd": 1455.54,
+          "actualStart": 1262.844167,
+          "actualEnd": 1464.533292,
+          "timeDifference": 8.994167000000061
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Roots of Belief: How the Brain Makes Meaning",
+          "expectedStart": 1455.54,
+          "expectedEnd": 1631.19,
+          "actualStart": 1466.033292,
+          "actualEnd": 1641.682917,
+          "timeDifference": 10.49329200000011
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Divided Brain: Hemispheres, Specialization, and the Nature of Thought",
+          "expectedStart": 1631.19,
+          "expectedEnd": 1793.23,
+          "actualStart": 1643.182917,
+          "actualEnd": 1805.2187920000001,
+          "timeDifference": 11.992917000000034
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Brain’s Blind Spots: Denial, Confabulation, and the Limits of Self-Knowledge",
+          "expectedStart": 1793.23,
+          "expectedEnd": 1955.44,
+          "actualStart": 1806.7187920000001,
+          "actualEnd": 1968.9260840000002,
+          "timeDifference": 13.488792000000103
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Healing Mind: Hope, Recovery, and the Future of Neuroscience",
+          "expectedStart": 1955.44,
+          "expectedEnd": 2116.34,
+          "actualStart": 1970.4260840000002,
+          "actualEnd": 2131.330042,
+          "timeDifference": 14.986084000000119
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2116.34,
+          "expectedEnd": 2237.88,
+          "actualStart": 2132.830042,
+          "actualEnd": 2254.365584,
+          "timeDifference": 16.490041999999903
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.01725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When the Mind’s Map Breaks: Phantom Limbs and the Brain’s Body Image"
+        },
+        {
+          "startTime": 348.785625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When the Mind’s Map Breaks: Phantom Limbs and the Brain’s Body Image and Chapter 2 The Brain’s Illusions: How Perception Shapes Reality"
+        },
+        {
+          "startTime": 591.9685,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Brain’s Illusions: How Perception Shapes Reality and Chapter 3 The Self in Fragments: Identity, Delusion, and the Brain"
+        },
+        {
+          "startTime": 844.959625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Self in Fragments: Identity, Delusion, and the Brain and Chapter 4 The Brain’s Flexibility: Rewiring, Recovery, and Adaptation"
+        },
+        {
+          "startTime": 1072.657417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Brain’s Flexibility: Rewiring, Recovery, and Adaptation and Chapter 5 Lessons from the Edge: What Brain Disorders Teach About Being Human"
+        },
+        {
+          "startTime": 1261.344167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons from the Edge: What Brain Disorders Teach About Being Human and Chapter 6 The Ghost in the Machine: Consciousness and the Search for the Self"
+        },
+        {
+          "startTime": 1464.533292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ghost in the Machine: Consciousness and the Search for the Self and Chapter 7 The Roots of Belief: How the Brain Makes Meaning"
+        },
+        {
+          "startTime": 1641.682917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Roots of Belief: How the Brain Makes Meaning and Chapter 8 The Divided Brain: Hemispheres, Specialization, and the Nature of Thought"
+        },
+        {
+          "startTime": 1805.2187920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Divided Brain: Hemispheres, Specialization, and the Nature of Thought and Chapter 9 The Brain’s Blind Spots: Denial, Confabulation, and the Limits of Self-Knowledge"
+        },
+        {
+          "startTime": 1968.9260840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Brain’s Blind Spots: Denial, Confabulation, and the Limits of Self-Knowledge and Chapter 10 The Healing Mind: Hope, Recovery, and the Future of Neuroscience"
+        },
+        {
+          "startTime": 2131.330042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Healing Mind: Hope, Recovery, and the Future of Neuroscience and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2487",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:52:20.527Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

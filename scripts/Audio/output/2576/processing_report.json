@@ -1,0 +1,456 @@
+{
+  "bookId": "2576",
+  "timestamp": "2025-07-11T06:48:15.094Z",
+  "success": false,
+  "processingTime": -1752216204390,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4663,
+    "totalAudioFiles": 12,
+    "totalDuration": 1962.0560429999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1962.0560429999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2576/optimized_text/2576.md",
+    "fileSize": 664,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2576.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2576/metadata/2576_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1962.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2576/metadata/2576_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2576/metadata/2576_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 80,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+6) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2576/2576_complete.wav",
+    "duration": 1962.056042,
+    "fileSize": 94178768,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2576/introduction.wav",
+          "duration": 91.215542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.215542,
+          "startTime": 0,
+          "endTime": 91.215542
+        },
+        {
+          "path": "Audio/output/2576/chapter_01.wav",
+          "duration": 202.493,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Roots and the Search for Belonging",
+          "actualDuration": 202.493,
+          "startTime": 92.715542,
+          "endTime": 295.20854199999997
+        },
+        {
+          "path": "Audio/output/2576/chapter_02.wav",
+          "duration": 217.652292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Birth of Apple and the Power of Thinking Differently",
+          "actualDuration": 217.652292,
+          "startTime": 296.70854199999997,
+          "endTime": 514.360834
+        },
+        {
+          "path": "Audio/output/2576/chapter_03.wav",
+          "duration": 225.158167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Setbacks, Loss, and the Lessons of Failure",
+          "actualDuration": 225.158167,
+          "startTime": 515.860834,
+          "endTime": 741.0190009999999
+        },
+        {
+          "path": "Audio/output/2576/chapter_04.wav",
+          "duration": 210.264458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Return, Reinvention, and the Pursuit of Excellence",
+          "actualDuration": 210.264458,
+          "startTime": 742.5190009999999,
+          "endTime": 952.7834589999999
+        },
+        {
+          "path": "Audio/output/2576/chapter_05.wav",
+          "duration": 158.669917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Legacy, Reflection, and the Human Side of Genius",
+          "actualDuration": 158.669917,
+          "startTime": 954.2834589999999,
+          "endTime": 1112.953376
+        },
+        {
+          "path": "Audio/output/2576/chapter_06.wav",
+          "duration": 174.0485,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Simplicity and the Relentless Pursuit of Beauty",
+          "actualDuration": 174.0485,
+          "startTime": 1114.453376,
+          "endTime": 1288.5018759999998
+        },
+        {
+          "path": "Audio/output/2576/chapter_07.wav",
+          "duration": 158.485125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Culture of Innovation",
+          "actualDuration": 158.485125,
+          "startTime": 1290.0018759999998,
+          "endTime": 1448.4870009999997
+        },
+        {
+          "path": "Audio/output/2576/chapter_08.wav",
+          "duration": 146.809,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Storytelling and Marketing",
+          "actualDuration": 146.809,
+          "startTime": 1449.9870009999997,
+          "endTime": 1596.7960009999997
+        },
+        {
+          "path": "Audio/output/2576/chapter_09.wav",
+          "duration": 130.183042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Personal Growth, Relationships, and the Cost of Ambition",
+          "actualDuration": 130.183042,
+          "startTime": 1598.2960009999997,
+          "endTime": 1728.4790429999998
+        },
+        {
+          "path": "Audio/output/2576/chapter_10.wav",
+          "duration": 126.321875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Influence and the Ripple Effect",
+          "actualDuration": 126.321875,
+          "startTime": 1729.9790429999998,
+          "endTime": 1856.300918
+        },
+        {
+          "path": "Audio/output/2576/conclusion.wav",
+          "duration": 120.755125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.755125,
+          "startTime": 1857.800918,
+          "endTime": 1978.5560429999998
+        }
+      ],
+      "totalDuration": 1978.5560429999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.22,
+          "actualStart": 0,
+          "actualEnd": 91.215542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Roots and the Search for Belonging",
+          "expectedStart": 91.22,
+          "expectedEnd": 293.71,
+          "actualStart": 92.715542,
+          "actualEnd": 295.20854199999997,
+          "timeDifference": 1.4955420000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Birth of Apple and the Power of Thinking Differently",
+          "expectedStart": 293.71,
+          "expectedEnd": 511.36,
+          "actualStart": 296.70854199999997,
+          "actualEnd": 514.360834,
+          "timeDifference": 2.9985419999999863
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Setbacks, Loss, and the Lessons of Failure",
+          "expectedStart": 511.36,
+          "expectedEnd": 736.52,
+          "actualStart": 515.860834,
+          "actualEnd": 741.0190009999999,
+          "timeDifference": 4.500833999999941
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Return, Reinvention, and the Pursuit of Excellence",
+          "expectedStart": 736.52,
+          "expectedEnd": 946.78,
+          "actualStart": 742.5190009999999,
+          "actualEnd": 952.7834589999999,
+          "timeDifference": 5.999000999999907
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Legacy, Reflection, and the Human Side of Genius",
+          "expectedStart": 946.78,
+          "expectedEnd": 1105.45,
+          "actualStart": 954.2834589999999,
+          "actualEnd": 1112.953376,
+          "timeDifference": 7.503458999999907
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Simplicity and the Relentless Pursuit of Beauty",
+          "expectedStart": 1105.45,
+          "expectedEnd": 1279.5,
+          "actualStart": 1114.453376,
+          "actualEnd": 1288.5018759999998,
+          "timeDifference": 9.00337599999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Culture of Innovation",
+          "expectedStart": 1279.5,
+          "expectedEnd": 1437.99,
+          "actualStart": 1290.0018759999998,
+          "actualEnd": 1448.4870009999997,
+          "timeDifference": 10.501875999999811
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Storytelling and Marketing",
+          "expectedStart": 1437.99,
+          "expectedEnd": 1584.8,
+          "actualStart": 1449.9870009999997,
+          "actualEnd": 1596.7960009999997,
+          "timeDifference": 11.997000999999727
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Personal Growth, Relationships, and the Cost of Ambition",
+          "expectedStart": 1584.8,
+          "expectedEnd": 1714.98,
+          "actualStart": 1598.2960009999997,
+          "actualEnd": 1728.4790429999998,
+          "timeDifference": 13.496000999999751
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Influence and the Ripple Effect",
+          "expectedStart": 1714.98,
+          "expectedEnd": 1841.3,
+          "actualStart": 1729.9790429999998,
+          "actualEnd": 1856.300918,
+          "timeDifference": 14.999042999999801
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1841.3,
+          "expectedEnd": 1962.06,
+          "actualStart": 1857.800918,
+          "actualEnd": 1978.5560429999998,
+          "timeDifference": 16.500917999999956
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.215542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Roots and the Search for Belonging"
+        },
+        {
+          "startTime": 295.20854199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Roots and the Search for Belonging and Chapter 2 The Birth of Apple and the Power of Thinking Differently"
+        },
+        {
+          "startTime": 514.360834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Birth of Apple and the Power of Thinking Differently and Chapter 3 Setbacks, Loss, and the Lessons of Failure"
+        },
+        {
+          "startTime": 741.0190009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Setbacks, Loss, and the Lessons of Failure and Chapter 4 Return, Reinvention, and the Pursuit of Excellence"
+        },
+        {
+          "startTime": 952.7834589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Return, Reinvention, and the Pursuit of Excellence and Chapter 5 Legacy, Reflection, and the Human Side of Genius"
+        },
+        {
+          "startTime": 1112.953376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Legacy, Reflection, and the Human Side of Genius and Chapter 6 The Art of Simplicity and the Relentless Pursuit of Beauty"
+        },
+        {
+          "startTime": 1288.5018759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Simplicity and the Relentless Pursuit of Beauty and Chapter 7 Building a Culture of Innovation"
+        },
+        {
+          "startTime": 1448.4870009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Culture of Innovation and Chapter 8 The Power of Storytelling and Marketing"
+        },
+        {
+          "startTime": 1596.7960009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Storytelling and Marketing and Chapter 9 Personal Growth, Relationships, and the Cost of Ambition"
+        },
+        {
+          "startTime": 1728.4790429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Personal Growth, Relationships, and the Cost of Ambition and Chapter 10 Enduring Influence and the Ripple Effect"
+        },
+        {
+          "startTime": 1856.300918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Influence and the Ripple Effect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2576",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 80,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+6) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:43:25.596Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

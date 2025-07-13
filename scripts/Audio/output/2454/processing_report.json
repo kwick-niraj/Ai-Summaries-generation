@@ -1,0 +1,456 @@
+{
+  "bookId": "2454",
+  "timestamp": "2025-07-10T23:11:28.301Z",
+  "success": false,
+  "processingTime": -1752188813491,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4760,
+    "totalAudioFiles": 12,
+    "totalDuration": 2307.123126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2307.123126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2454/optimized_text/2454.md",
+    "fileSize": 779,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2454.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2454/metadata/2454_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2307.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2454/metadata/2454_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2454/metadata/2454_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2454/2454_complete.wav",
+    "duration": 2307.123125,
+    "fileSize": 110741988,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2454/introduction.wav",
+          "duration": 82.669792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.669792,
+          "startTime": 0,
+          "endTime": 82.669792
+        },
+        {
+          "path": "Audio/output/2454/chapter_01.wav",
+          "duration": 270.280125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Power of Social Transmission Over Traditional Advertising",
+          "actualDuration": 270.280125,
+          "startTime": 84.169792,
+          "endTime": 354.449917
+        },
+        {
+          "path": "Audio/output/2454/chapter_02.wav",
+          "duration": 247.570333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Social Currency—Why People Share What Makes Them Look Good",
+          "actualDuration": 247.570333,
+          "startTime": 355.949917,
+          "endTime": 603.52025
+        },
+        {
+          "path": "Audio/output/2454/chapter_03.wav",
+          "duration": 216.064667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Triggers—How Everyday Cues Spark Sharing and Remind People to Talk",
+          "actualDuration": 216.064667,
+          "startTime": 605.02025,
+          "endTime": 821.084917
+        },
+        {
+          "path": "Audio/output/2454/chapter_04.wav",
+          "duration": 225.887125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Emotion—Why Feelings Drive People to Share and Spread Ideas",
+          "actualDuration": 225.887125,
+          "startTime": 822.584917,
+          "endTime": 1048.472042
+        },
+        {
+          "path": "Audio/output/2454/chapter_05.wav",
+          "duration": 200.139667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Public Visibility—How Making Things Observable Fuels Imitation and Spread",
+          "actualDuration": 200.139667,
+          "startTime": 1049.972042,
+          "endTime": 1250.111709
+        },
+        {
+          "path": "Audio/output/2454/chapter_06.wav",
+          "duration": 223.07125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practical Value—Why Useful Information Travels Fast",
+          "actualDuration": 223.07125,
+          "startTime": 1251.611709,
+          "endTime": 1474.682959
+        },
+        {
+          "path": "Audio/output/2454/chapter_07.wav",
+          "duration": 209.60625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Stories—How Narratives Carry Ideas Further",
+          "actualDuration": 209.60625,
+          "startTime": 1476.182959,
+          "endTime": 1685.789209
+        },
+        {
+          "path": "Audio/output/2454/chapter_08.wav",
+          "duration": 200.098875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Interplay of Principles—Designing for Virality",
+          "actualDuration": 200.098875,
+          "startTime": 1687.289209,
+          "endTime": 1887.388084
+        },
+        {
+          "path": "Audio/output/2454/chapter_09.wav",
+          "duration": 152.568875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Barriers and Ethical Considerations",
+          "actualDuration": 152.568875,
+          "startTime": 1888.888084,
+          "endTime": 2041.4569589999999
+        },
+        {
+          "path": "Audio/output/2454/chapter_10.wav",
+          "duration": 151.08675,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Applying the Framework—From Ideas to Real-World Impact",
+          "actualDuration": 151.08675,
+          "startTime": 2042.9569589999999,
+          "endTime": 2194.043709
+        },
+        {
+          "path": "Audio/output/2454/conclusion.wav",
+          "duration": 128.079417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.079417,
+          "startTime": 2195.543709,
+          "endTime": 2323.623126
+        }
+      ],
+      "totalDuration": 2323.623126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.67,
+          "actualStart": 0,
+          "actualEnd": 82.669792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Power of Social Transmission Over Traditional Advertising",
+          "expectedStart": 82.67,
+          "expectedEnd": 352.95,
+          "actualStart": 84.169792,
+          "actualEnd": 354.449917,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Social Currency—Why People Share What Makes Them Look Good",
+          "expectedStart": 352.95,
+          "expectedEnd": 600.52,
+          "actualStart": 355.949917,
+          "actualEnd": 603.52025,
+          "timeDifference": 2.999917000000039
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Triggers—How Everyday Cues Spark Sharing and Remind People to Talk",
+          "expectedStart": 600.52,
+          "expectedEnd": 816.58,
+          "actualStart": 605.02025,
+          "actualEnd": 821.084917,
+          "timeDifference": 4.500250000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Emotion—Why Feelings Drive People to Share and Spread Ideas",
+          "expectedStart": 816.58,
+          "expectedEnd": 1042.47,
+          "actualStart": 822.584917,
+          "actualEnd": 1048.472042,
+          "timeDifference": 6.004916999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Public Visibility—How Making Things Observable Fuels Imitation and Spread",
+          "expectedStart": 1042.47,
+          "expectedEnd": 1242.61,
+          "actualStart": 1049.972042,
+          "actualEnd": 1250.111709,
+          "timeDifference": 7.502042000000074
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practical Value—Why Useful Information Travels Fast",
+          "expectedStart": 1242.61,
+          "expectedEnd": 1465.68,
+          "actualStart": 1251.611709,
+          "actualEnd": 1474.682959,
+          "timeDifference": 9.001709000000119
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Stories—How Narratives Carry Ideas Further",
+          "expectedStart": 1465.68,
+          "expectedEnd": 1675.29,
+          "actualStart": 1476.182959,
+          "actualEnd": 1685.789209,
+          "timeDifference": 10.502958999999919
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Interplay of Principles—Designing for Virality",
+          "expectedStart": 1675.29,
+          "expectedEnd": 1875.39,
+          "actualStart": 1687.289209,
+          "actualEnd": 1887.388084,
+          "timeDifference": 11.999209000000064
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Barriers and Ethical Considerations",
+          "expectedStart": 1875.39,
+          "expectedEnd": 2027.96,
+          "actualStart": 1888.888084,
+          "actualEnd": 2041.4569589999999,
+          "timeDifference": 13.498083999999835
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Applying the Framework—From Ideas to Real-World Impact",
+          "expectedStart": 2027.96,
+          "expectedEnd": 2179.05,
+          "actualStart": 2042.9569589999999,
+          "actualEnd": 2194.043709,
+          "timeDifference": 14.996958999999833
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2179.05,
+          "expectedEnd": 2307.13,
+          "actualStart": 2195.543709,
+          "actualEnd": 2323.623126,
+          "timeDifference": 16.493708999999853
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.669792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Power of Social Transmission Over Traditional Advertising"
+        },
+        {
+          "startTime": 354.449917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Power of Social Transmission Over Traditional Advertising and Chapter 2 Social Currency—Why People Share What Makes Them Look Good"
+        },
+        {
+          "startTime": 603.52025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Social Currency—Why People Share What Makes Them Look Good and Chapter 3 Triggers—How Everyday Cues Spark Sharing and Remind People to Talk"
+        },
+        {
+          "startTime": 821.084917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Triggers—How Everyday Cues Spark Sharing and Remind People to Talk and Chapter 4 Emotion—Why Feelings Drive People to Share and Spread Ideas"
+        },
+        {
+          "startTime": 1048.472042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Emotion—Why Feelings Drive People to Share and Spread Ideas and Chapter 5 Public Visibility—How Making Things Observable Fuels Imitation and Spread"
+        },
+        {
+          "startTime": 1250.111709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Public Visibility—How Making Things Observable Fuels Imitation and Spread and Chapter 6 Practical Value—Why Useful Information Travels Fast"
+        },
+        {
+          "startTime": 1474.682959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practical Value—Why Useful Information Travels Fast and Chapter 7 Stories—How Narratives Carry Ideas Further"
+        },
+        {
+          "startTime": 1685.789209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Stories—How Narratives Carry Ideas Further and Chapter 8 The Interplay of Principles—Designing for Virality"
+        },
+        {
+          "startTime": 1887.388084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Interplay of Principles—Designing for Virality and Chapter 9 Overcoming Barriers and Ethical Considerations"
+        },
+        {
+          "startTime": 2041.4569589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Barriers and Ethical Considerations and Chapter 10 Applying the Framework—From Ideas to Real-World Impact"
+        },
+        {
+          "startTime": 2194.043709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Applying the Framework—From Ideas to Real-World Impact and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2454",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:06:54.714Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

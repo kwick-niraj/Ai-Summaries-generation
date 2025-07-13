@@ -1,0 +1,455 @@
+{
+  "bookId": "2600",
+  "timestamp": "2025-07-11T07:29:41.676Z",
+  "success": false,
+  "processingTime": -1752218714599,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3803,
+    "totalAudioFiles": 12,
+    "totalDuration": 1671.3551670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1671.3551670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2600/optimized_text/2600.md",
+    "fileSize": 757,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2600.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2600/metadata/2600_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1671.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2600/metadata/2600_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2600/metadata/2600_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2600/2600_complete.wav",
+    "duration": 1671.355167,
+    "fileSize": 80225126,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2600/introduction.wav",
+          "duration": 81.397875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.397875,
+          "startTime": 0,
+          "endTime": 81.397875
+        },
+        {
+          "path": "Audio/output/2600/chapter_01.wav",
+          "duration": 175.127417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Unexpected and the Weight of Loss",
+          "actualDuration": 175.127417,
+          "startTime": 82.897875,
+          "endTime": 258.02529200000004
+        },
+        {
+          "path": "Audio/output/2600/chapter_02.wav",
+          "duration": 199.239125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Long Road to the Campaign and the Realities of Ambition",
+          "actualDuration": 199.239125,
+          "startTime": 259.52529200000004,
+          "endTime": 458.76441700000004
+        },
+        {
+          "path": "Audio/output/2600/chapter_03.wav",
+          "duration": 163.627208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Gender, Scrutiny, and the Glass Ceiling",
+          "actualDuration": 163.627208,
+          "startTime": 460.26441700000004,
+          "endTime": 623.891625
+        },
+        {
+          "path": "Audio/output/2600/chapter_04.wav",
+          "duration": 167.796833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Misinformation, Media, and Foreign Interference",
+          "actualDuration": 167.796833,
+          "startTime": 625.391625,
+          "endTime": 793.188458
+        },
+        {
+          "path": "Audio/output/2600/chapter_05.wav",
+          "duration": 184.744042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Party Divisions, Personal Responsibility, and the Path to Resilience",
+          "actualDuration": 184.744042,
+          "startTime": 794.688458,
+          "endTime": 979.4325
+        },
+        {
+          "path": "Audio/output/2600/chapter_06.wav",
+          "duration": 155.49175,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces—Life After the Storm",
+          "actualDuration": 155.49175,
+          "startTime": 980.9325,
+          "endTime": 1136.42425
+        },
+        {
+          "path": "Audio/output/2600/chapter_07.wav",
+          "duration": 113.443667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons in Leadership—Redefining Strength and Service",
+          "actualDuration": 113.443667,
+          "startTime": 1137.92425,
+          "endTime": 1251.367917
+        },
+        {
+          "path": "Audio/output/2600/chapter_08.wav",
+          "duration": 124.498792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Democracy Under Pressure—The Fragility of Institutions",
+          "actualDuration": 124.498792,
+          "startTime": 1252.867917,
+          "endTime": 1377.3667090000001
+        },
+        {
+          "path": "Audio/output/2600/chapter_09.wav",
+          "duration": 111.339958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Fight for Equality—Women, Minorities, and the Next Generation",
+          "actualDuration": 111.339958,
+          "startTime": 1378.8667090000001,
+          "endTime": 1490.2066670000002
+        },
+        {
+          "path": "Audio/output/2600/chapter_10.wav",
+          "duration": 95.541708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Purpose—Turning Pain into Action",
+          "actualDuration": 95.541708,
+          "startTime": 1491.7066670000002,
+          "endTime": 1587.2483750000001
+        },
+        {
+          "path": "Audio/output/2600/conclusion.wav",
+          "duration": 99.106792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.106792,
+          "startTime": 1588.7483750000001,
+          "endTime": 1687.8551670000002
+        }
+      ],
+      "totalDuration": 1687.8551670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.4,
+          "actualStart": 0,
+          "actualEnd": 81.397875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Unexpected and the Weight of Loss",
+          "expectedStart": 81.4,
+          "expectedEnd": 256.53,
+          "actualStart": 82.897875,
+          "actualEnd": 258.02529200000004,
+          "timeDifference": 1.4978749999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Long Road to the Campaign and the Realities of Ambition",
+          "expectedStart": 256.53,
+          "expectedEnd": 455.77,
+          "actualStart": 259.52529200000004,
+          "actualEnd": 458.76441700000004,
+          "timeDifference": 2.995292000000063
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Gender, Scrutiny, and the Glass Ceiling",
+          "expectedStart": 455.77,
+          "expectedEnd": 619.4,
+          "actualStart": 460.26441700000004,
+          "actualEnd": 623.891625,
+          "timeDifference": 4.494417000000055
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Misinformation, Media, and Foreign Interference",
+          "expectedStart": 619.4,
+          "expectedEnd": 787.2,
+          "actualStart": 625.391625,
+          "actualEnd": 793.188458,
+          "timeDifference": 5.991624999999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Party Divisions, Personal Responsibility, and the Path to Resilience",
+          "expectedStart": 787.2,
+          "expectedEnd": 971.94,
+          "actualStart": 794.688458,
+          "actualEnd": 979.4325,
+          "timeDifference": 7.488457999999923
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces—Life After the Storm",
+          "expectedStart": 971.94,
+          "expectedEnd": 1127.43,
+          "actualStart": 980.9325,
+          "actualEnd": 1136.42425,
+          "timeDifference": 8.99249999999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons in Leadership—Redefining Strength and Service",
+          "expectedStart": 1127.43,
+          "expectedEnd": 1240.87,
+          "actualStart": 1137.92425,
+          "actualEnd": 1251.367917,
+          "timeDifference": 10.494249999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Democracy Under Pressure—The Fragility of Institutions",
+          "expectedStart": 1240.87,
+          "expectedEnd": 1365.37,
+          "actualStart": 1252.867917,
+          "actualEnd": 1377.3667090000001,
+          "timeDifference": 11.997917000000143
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Fight for Equality—Women, Minorities, and the Next Generation",
+          "expectedStart": 1365.37,
+          "expectedEnd": 1476.71,
+          "actualStart": 1378.8667090000001,
+          "actualEnd": 1490.2066670000002,
+          "timeDifference": 13.496709000000237
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Purpose—Turning Pain into Action",
+          "expectedStart": 1476.71,
+          "expectedEnd": 1572.25,
+          "actualStart": 1491.7066670000002,
+          "actualEnd": 1587.2483750000001,
+          "timeDifference": 14.996667000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1572.25,
+          "expectedEnd": 1671.36,
+          "actualStart": 1588.7483750000001,
+          "actualEnd": 1687.8551670000002,
+          "timeDifference": 16.498375000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.397875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Unexpected and the Weight of Loss"
+        },
+        {
+          "startTime": 258.02529200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Unexpected and the Weight of Loss and Chapter 2 The Long Road to the Campaign and the Realities of Ambition"
+        },
+        {
+          "startTime": 458.76441700000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Long Road to the Campaign and the Realities of Ambition and Chapter 3 The Role of Gender, Scrutiny, and the Glass Ceiling"
+        },
+        {
+          "startTime": 623.891625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Gender, Scrutiny, and the Glass Ceiling and Chapter 4 The Power of Misinformation, Media, and Foreign Interference"
+        },
+        {
+          "startTime": 793.188458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Misinformation, Media, and Foreign Interference and Chapter 5 Party Divisions, Personal Responsibility, and the Path to Resilience"
+        },
+        {
+          "startTime": 979.4325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Party Divisions, Personal Responsibility, and the Path to Resilience and Chapter 6 Picking Up the Pieces—Life After the Storm"
+        },
+        {
+          "startTime": 1136.42425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces—Life After the Storm and Chapter 7 Lessons in Leadership—Redefining Strength and Service"
+        },
+        {
+          "startTime": 1251.367917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons in Leadership—Redefining Strength and Service and Chapter 8 Democracy Under Pressure—The Fragility of Institutions"
+        },
+        {
+          "startTime": 1377.3667090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Democracy Under Pressure—The Fragility of Institutions and Chapter 9 The Ongoing Fight for Equality—Women, Minorities, and the Next Generation"
+        },
+        {
+          "startTime": 1490.2066670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Fight for Equality—Women, Minorities, and the Next Generation and Chapter 10 Finding Purpose—Turning Pain into Action"
+        },
+        {
+          "startTime": 1587.2483750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Purpose—Turning Pain into Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2600",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:25:15.115Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

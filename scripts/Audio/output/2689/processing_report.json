@@ -1,0 +1,503 @@
+{
+  "bookId": "2689",
+  "timestamp": "2025-07-12T11:10:46.339Z",
+  "success": false,
+  "processingTime": -1752318264936,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5238,
+    "totalAudioFiles": 14,
+    "totalDuration": 2296.229915
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2296.229915
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2689/optimized_text/2689.md",
+    "fileSize": 795,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "2689.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2689/metadata/2689_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2296.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2689/metadata/2689_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2689/metadata/2689_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2689/2689_complete.wav",
+    "duration": 2296.229917,
+    "fileSize": 110219114,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2689/introduction.wav",
+          "duration": 89.894042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.894042,
+          "startTime": 0,
+          "endTime": 89.894042
+        },
+        {
+          "path": "Audio/output/2689/chapter_01.wav",
+          "duration": 204.035583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Path Beneath Everyday Life",
+          "actualDuration": 204.035583,
+          "startTime": 91.394042,
+          "endTime": 295.429625
+        },
+        {
+          "path": "Audio/output/2689/chapter_02.wav",
+          "duration": 218.495125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Simplicity and the Beauty of Less",
+          "actualDuration": 218.495125,
+          "startTime": 296.929625,
+          "endTime": 515.42475
+        },
+        {
+          "path": "Audio/output/2689/chapter_03.wav",
+          "duration": 207.816708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Letting Go of Control and Finding True Acceptance",
+          "actualDuration": 207.816708,
+          "startTime": 516.92475,
+          "endTime": 724.741458
+        },
+        {
+          "path": "Audio/output/2689/chapter_04.wav",
+          "duration": 213.994542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Effortless Action in Everyday Life",
+          "actualDuration": 213.994542,
+          "startTime": 726.241458,
+          "endTime": 940.236
+        },
+        {
+          "path": "Audio/output/2689/chapter_05.wav",
+          "duration": 196.160125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living in Harmony with Nature and Others",
+          "actualDuration": 196.160125,
+          "startTime": 941.736,
+          "endTime": 1137.896125
+        },
+        {
+          "path": "Audio/output/2689/chapter_06.wav",
+          "duration": 172.514958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Wisdom of Yielding: Strength in Softness",
+          "actualDuration": 172.514958,
+          "startTime": 1139.396125,
+          "endTime": 1311.911083
+        },
+        {
+          "path": "Audio/output/2689/chapter_07.wav",
+          "duration": 164.005458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Mystery of Not-Knowing: Embracing Uncertainty",
+          "actualDuration": 164.005458,
+          "startTime": 1313.411083,
+          "endTime": 1477.416541
+        },
+        {
+          "path": "Audio/output/2689/chapter_08.wav",
+          "duration": 147.225458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Stillness: The Quiet Power Within",
+          "actualDuration": 147.225458,
+          "startTime": 1478.916541,
+          "endTime": 1626.141999
+        },
+        {
+          "path": "Audio/output/2689/chapter_09.wav",
+          "duration": 146.893333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Art of Balance: Walking the Middle Way",
+          "actualDuration": 146.893333,
+          "startTime": 1627.641999,
+          "endTime": 1774.535332
+        },
+        {
+          "path": "Audio/output/2689/chapter_10.wav",
+          "duration": 142.66075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Practice of Compassion: Kindness as a Way of Life",
+          "actualDuration": 142.66075,
+          "startTime": 1776.035332,
+          "endTime": 1918.696082
+        },
+        {
+          "path": "Audio/output/2689/chapter_11.wav",
+          "duration": 133.875583,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Returning to the Source: Remembering Who You Are",
+          "actualDuration": 133.875583,
+          "startTime": 1920.196082,
+          "endTime": 2054.071665
+        },
+        {
+          "path": "Audio/output/2689/chapter_12.wav",
+          "duration": 141.478583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living the Dao: Everyday Practices for Harmony and Joy",
+          "actualDuration": 141.478583,
+          "startTime": 2055.571665,
+          "endTime": 2197.050248
+        },
+        {
+          "path": "Audio/output/2689/conclusion.wav",
+          "duration": 117.179667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.179667,
+          "startTime": 2198.550248,
+          "endTime": 2315.729915
+        }
+      ],
+      "totalDuration": 2315.729915,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.89,
+          "actualStart": 0,
+          "actualEnd": 89.894042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Path Beneath Everyday Life",
+          "expectedStart": 89.89,
+          "expectedEnd": 293.93,
+          "actualStart": 91.394042,
+          "actualEnd": 295.429625,
+          "timeDifference": 1.5040419999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Simplicity and the Beauty of Less",
+          "expectedStart": 293.93,
+          "expectedEnd": 512.43,
+          "actualStart": 296.929625,
+          "actualEnd": 515.42475,
+          "timeDifference": 2.9996249999999804
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Letting Go of Control and Finding True Acceptance",
+          "expectedStart": 512.43,
+          "expectedEnd": 720.25,
+          "actualStart": 516.92475,
+          "actualEnd": 724.741458,
+          "timeDifference": 4.494750000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Effortless Action in Everyday Life",
+          "expectedStart": 720.25,
+          "expectedEnd": 934.24,
+          "actualStart": 726.241458,
+          "actualEnd": 940.236,
+          "timeDifference": 5.991457999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living in Harmony with Nature and Others",
+          "expectedStart": 934.24,
+          "expectedEnd": 1130.4,
+          "actualStart": 941.736,
+          "actualEnd": 1137.896125,
+          "timeDifference": 7.495999999999981
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Wisdom of Yielding: Strength in Softness",
+          "expectedStart": 1130.4,
+          "expectedEnd": 1302.91,
+          "actualStart": 1139.396125,
+          "actualEnd": 1311.911083,
+          "timeDifference": 8.996124999999893
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Mystery of Not-Knowing: Embracing Uncertainty",
+          "expectedStart": 1302.91,
+          "expectedEnd": 1466.92,
+          "actualStart": 1313.411083,
+          "actualEnd": 1477.416541,
+          "timeDifference": 10.50108299999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Stillness: The Quiet Power Within",
+          "expectedStart": 1466.92,
+          "expectedEnd": 1614.15,
+          "actualStart": 1478.916541,
+          "actualEnd": 1626.141999,
+          "timeDifference": 11.99654099999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Art of Balance: Walking the Middle Way",
+          "expectedStart": 1614.15,
+          "expectedEnd": 1761.04,
+          "actualStart": 1627.641999,
+          "actualEnd": 1774.535332,
+          "timeDifference": 13.49199899999985
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Practice of Compassion: Kindness as a Way of Life",
+          "expectedStart": 1761.04,
+          "expectedEnd": 1903.7,
+          "actualStart": 1776.035332,
+          "actualEnd": 1918.696082,
+          "timeDifference": 14.995331999999962
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Returning to the Source: Remembering Who You Are",
+          "expectedStart": 1903.7,
+          "expectedEnd": 2037.58,
+          "actualStart": 1920.196082,
+          "actualEnd": 2054.071665,
+          "timeDifference": 16.496081999999888
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living the Dao: Everyday Practices for Harmony and Joy",
+          "expectedStart": 2037.58,
+          "expectedEnd": 2179.06,
+          "actualStart": 2055.571665,
+          "actualEnd": 2197.050248,
+          "timeDifference": 17.991665000000012
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2179.06,
+          "expectedEnd": 2296.24,
+          "actualStart": 2198.550248,
+          "actualEnd": 2315.729915,
+          "timeDifference": 19.490248000000065
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.894042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Path Beneath Everyday Life"
+        },
+        {
+          "startTime": 295.429625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Path Beneath Everyday Life and Chapter 2 Embracing Simplicity and the Beauty of Less"
+        },
+        {
+          "startTime": 515.42475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Simplicity and the Beauty of Less and Chapter 3 Letting Go of Control and Finding True Acceptance"
+        },
+        {
+          "startTime": 724.741458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Letting Go of Control and Finding True Acceptance and Chapter 4 The Power of Effortless Action in Everyday Life"
+        },
+        {
+          "startTime": 940.236,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Effortless Action in Everyday Life and Chapter 5 Living in Harmony with Nature and Others"
+        },
+        {
+          "startTime": 1137.896125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living in Harmony with Nature and Others and Chapter 6 The Wisdom of Yielding: Strength in Softness"
+        },
+        {
+          "startTime": 1311.911083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Wisdom of Yielding: Strength in Softness and Chapter 7 The Mystery of Not-Knowing: Embracing Uncertainty"
+        },
+        {
+          "startTime": 1477.416541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Mystery of Not-Knowing: Embracing Uncertainty and Chapter 8 Cultivating Stillness: The Quiet Power Within"
+        },
+        {
+          "startTime": 1626.141999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Stillness: The Quiet Power Within and Chapter 9 The Art of Balance: Walking the Middle Way"
+        },
+        {
+          "startTime": 1774.535332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Art of Balance: Walking the Middle Way and Chapter 10 The Practice of Compassion: Kindness as a Way of Life"
+        },
+        {
+          "startTime": 1918.696082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Practice of Compassion: Kindness as a Way of Life and Chapter 11 Returning to the Source: Remembering Who You Are"
+        },
+        {
+          "startTime": 2054.071665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Returning to the Source: Remembering Who You Are and Chapter 12 Living the Dao: Everyday Practices for Harmony and Joy"
+        },
+        {
+          "startTime": 2197.050248,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living the Dao: Everyday Practices for Harmony and Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2689",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T11:04:26.300Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

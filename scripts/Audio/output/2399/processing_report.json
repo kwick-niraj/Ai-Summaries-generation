@@ -1,0 +1,432 @@
+{
+  "bookId": "2399",
+  "timestamp": "2025-07-10T20:57:16.821Z",
+  "success": false,
+  "processingTime": -1752180710899,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4302,
+    "totalAudioFiles": 12,
+    "totalDuration": 1614.7061250000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1614.7061250000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2399/optimized_text/2399.md",
+    "fileSize": 821,
+    "wordCount": 127,
+    "format": "markdown",
+    "filename": "2399.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2399/metadata/2399_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1614.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2399/metadata/2399_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2399/metadata/2399_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2399/2399_complete.wav",
+    "duration": 1614.706125,
+    "fileSize": 77505972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2399/introduction.wav",
+          "duration": 86.872667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.872667,
+          "startTime": 0,
+          "endTime": 86.872667
+        },
+        {
+          "path": "Audio/output/2399/chapter_01.wav",
+          "duration": 202.093125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Born Into Bondage: Early Life and the Roots of Injustice",
+          "actualDuration": 202.093125,
+          "startTime": 88.372667,
+          "endTime": 290.46579199999996
+        },
+        {
+          "path": "Audio/output/2399/chapter_03.wav",
+          "duration": 167.973375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Courtroom Struggle: Law, Identity, and the Limits of Justice",
+          "actualDuration": 167.973375,
+          "startTime": 291.96579199999996,
+          "endTime": 459.939167
+        },
+        {
+          "path": "Audio/output/2399/chapter_04.wav",
+          "duration": 157.736417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Supreme Court Decision: A Nation Divided and the Cost of Injustice",
+          "actualDuration": 157.736417,
+          "startTime": 461.439167,
+          "endTime": 619.175584
+        },
+        {
+          "path": "Audio/output/2399/chapter_05.wav",
+          "duration": 161.788208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath and Legacy: Courage, Change, and the Long Road to Freedom",
+          "actualDuration": 161.788208,
+          "startTime": 620.675584,
+          "endTime": 782.463792
+        },
+        {
+          "path": "Audio/output/2399/chapter_06.wav",
+          "duration": 170.369,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes Across the Land: The Dred Scott Decision and a Nation in Turmoil",
+          "actualDuration": 170.369,
+          "startTime": 783.963792,
+          "endTime": 954.332792
+        },
+        {
+          "path": "Audio/output/2399/chapter_07.wav",
+          "duration": 186.215833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Seeds of War: The Road to Emancipation",
+          "actualDuration": 186.215833,
+          "startTime": 955.832792,
+          "endTime": 1142.0486250000001
+        },
+        {
+          "path": "Audio/output/2399/chapter_08.wav",
+          "duration": 146.426958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Freedom’s First Light: The End of Slavery and the Struggle for Citizenship",
+          "actualDuration": 146.426958,
+          "startTime": 1143.5486250000001,
+          "endTime": 1289.9755830000001
+        },
+        {
+          "path": "Audio/output/2399/chapter_09.wav",
+          "duration": 121.0645,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory and Meaning: The Dred Scott Case in American Life",
+          "actualDuration": 121.0645,
+          "startTime": 1291.4755830000001,
+          "endTime": 1412.540083
+        },
+        {
+          "path": "Audio/output/2399/chapter_10.wav",
+          "duration": 104.86025,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Shadow: Civil Rights, Justice, and the Ongoing Struggle",
+          "actualDuration": 104.86025,
+          "startTime": 1414.040083,
+          "endTime": 1518.900333
+        },
+        {
+          "path": "Audio/output/2399/conclusion.wav",
+          "duration": 109.305792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.305792,
+          "startTime": 1520.400333,
+          "endTime": 1629.7061250000002
+        }
+      ],
+      "totalDuration": 1629.7061250000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.87,
+          "actualStart": 0,
+          "actualEnd": 86.872667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Born Into Bondage: Early Life and the Roots of Injustice",
+          "expectedStart": 86.87,
+          "expectedEnd": 288.96,
+          "actualStart": 88.372667,
+          "actualEnd": 290.46579199999996,
+          "timeDifference": 1.5026670000000024
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Courtroom Struggle: Law, Identity, and the Limits of Justice",
+          "expectedStart": 288.96,
+          "expectedEnd": 456.93,
+          "actualStart": 291.96579199999996,
+          "actualEnd": 459.939167,
+          "timeDifference": 3.0057919999999854
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Supreme Court Decision: A Nation Divided and the Cost of Injustice",
+          "expectedStart": 456.93,
+          "expectedEnd": 614.67,
+          "actualStart": 461.439167,
+          "actualEnd": 619.175584,
+          "timeDifference": 4.509166999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath and Legacy: Courage, Change, and the Long Road to Freedom",
+          "expectedStart": 614.67,
+          "expectedEnd": 776.46,
+          "actualStart": 620.675584,
+          "actualEnd": 782.463792,
+          "timeDifference": 6.005583999999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes Across the Land: The Dred Scott Decision and a Nation in Turmoil",
+          "expectedStart": 776.46,
+          "expectedEnd": 946.83,
+          "actualStart": 783.963792,
+          "actualEnd": 954.332792,
+          "timeDifference": 7.503791999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Seeds of War: The Road to Emancipation",
+          "expectedStart": 946.83,
+          "expectedEnd": 1133.05,
+          "actualStart": 955.832792,
+          "actualEnd": 1142.0486250000001,
+          "timeDifference": 9.002792
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Freedom’s First Light: The End of Slavery and the Struggle for Citizenship",
+          "expectedStart": 1133.05,
+          "expectedEnd": 1279.48,
+          "actualStart": 1143.5486250000001,
+          "actualEnd": 1289.9755830000001,
+          "timeDifference": 10.498625000000175
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory and Meaning: The Dred Scott Case in American Life",
+          "expectedStart": 1279.48,
+          "expectedEnd": 1400.54,
+          "actualStart": 1291.4755830000001,
+          "actualEnd": 1412.540083,
+          "timeDifference": 11.995583000000124
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Shadow: Civil Rights, Justice, and the Ongoing Struggle",
+          "expectedStart": 1400.54,
+          "expectedEnd": 1505.4,
+          "actualStart": 1414.040083,
+          "actualEnd": 1518.900333,
+          "timeDifference": 13.500083000000132
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1505.4,
+          "expectedEnd": 1614.71,
+          "actualStart": 1520.400333,
+          "actualEnd": 1629.7061250000002,
+          "timeDifference": 15.000332999999955
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.872667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Born Into Bondage: Early Life and the Roots of Injustice"
+        },
+        {
+          "startTime": 290.46579199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Born Into Bondage: Early Life and the Roots of Injustice and Chapter 3 The Courtroom Struggle: Law, Identity, and the Limits of Justice"
+        },
+        {
+          "startTime": 459.939167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Courtroom Struggle: Law, Identity, and the Limits of Justice and Chapter 4 The Supreme Court Decision: A Nation Divided and the Cost of Injustice"
+        },
+        {
+          "startTime": 619.175584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Supreme Court Decision: A Nation Divided and the Cost of Injustice and Chapter 5 Aftermath and Legacy: Courage, Change, and the Long Road to Freedom"
+        },
+        {
+          "startTime": 782.463792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath and Legacy: Courage, Change, and the Long Road to Freedom and Chapter 6 Echoes Across the Land: The Dred Scott Decision and a Nation in Turmoil"
+        },
+        {
+          "startTime": 954.332792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes Across the Land: The Dred Scott Decision and a Nation in Turmoil and Chapter 7 Seeds of War: The Road to Emancipation"
+        },
+        {
+          "startTime": 1142.0486250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Seeds of War: The Road to Emancipation and Chapter 8 Freedom’s First Light: The End of Slavery and the Struggle for Citizenship"
+        },
+        {
+          "startTime": 1289.9755830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Freedom’s First Light: The End of Slavery and the Struggle for Citizenship and Chapter 9 Memory and Meaning: The Dred Scott Case in American Life"
+        },
+        {
+          "startTime": 1412.540083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory and Meaning: The Dred Scott Case in American Life and Chapter 10 The Long Shadow: Civil Rights, Justice, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 1518.900333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Shadow: Civil Rights, Justice, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2399",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:51:52.644Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

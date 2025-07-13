@@ -1,0 +1,456 @@
+{
+  "bookId": "2550",
+  "timestamp": "2025-07-11T04:44:32.989Z",
+  "success": false,
+  "processingTime": -1752208776266,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5495,
+    "totalAudioFiles": 12,
+    "totalDuration": 2562.680209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2562.680209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2550/optimized_text/2550.md",
+    "fileSize": 826,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "2550.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2550/metadata/2550_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2562.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2550/metadata/2550_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2550/metadata/2550_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2550/2550_complete.wav",
+    "duration": 2562.680208,
+    "fileSize": 123008728,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2550/introduction.wav",
+          "duration": 125.321833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 125.321833,
+          "startTime": 0,
+          "endTime": 125.321833
+        },
+        {
+          "path": "Audio/output/2550/chapter_01.wav",
+          "duration": 242.28725,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Along the Mississippi and the Roots of a Restless Spirit",
+          "actualDuration": 242.28725,
+          "startTime": 126.821833,
+          "endTime": 369.109083
+        },
+        {
+          "path": "Audio/output/2550/chapter_02.wav",
+          "duration": 275.470583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chasing Dreams and Facing Disappointment in a Changing America",
+          "actualDuration": 275.470583,
+          "startTime": 370.609083,
+          "endTime": 646.079666
+        },
+        {
+          "path": "Audio/output/2550/chapter_03.wav",
+          "duration": 308.120417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding a Literary Voice and Navigating the Costs of Success",
+          "actualDuration": 308.120417,
+          "startTime": 647.579666,
+          "endTime": 955.700083
+        },
+        {
+          "path": "Audio/output/2550/chapter_04.wav",
+          "duration": 281.446875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Wrestling with Fame, Fortune, and the Shadows of Personal Loss",
+          "actualDuration": 281.446875,
+          "startTime": 957.200083,
+          "endTime": 1238.6469579999998
+        },
+        {
+          "path": "Audio/output/2550/chapter_05.wav",
+          "duration": 246.370917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Final Years—Legacy, Reflection, and the Enduring Power of Story",
+          "actualDuration": 246.370917,
+          "startTime": 1240.1469579999998,
+          "endTime": 1486.5178749999998
+        },
+        {
+          "path": "Audio/output/2550/chapter_06.wav",
+          "duration": 226.084417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 A World Traveler’s Eyes—Mark Twain Abroad",
+          "actualDuration": 226.084417,
+          "startTime": 1488.0178749999998,
+          "endTime": 1714.1022919999998
+        },
+        {
+          "path": "Audio/output/2550/chapter_07.wav",
+          "duration": 194.10475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Darkening View—Disillusionment and the Shadow of Loss",
+          "actualDuration": 194.10475,
+          "startTime": 1715.6022919999998,
+          "endTime": 1909.7070419999998
+        },
+        {
+          "path": "Audio/output/2550/chapter_08.wav",
+          "duration": 174.537625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Private Twain—Letters, Family, and the Search for Meaning",
+          "actualDuration": 174.537625,
+          "startTime": 1911.2070419999998,
+          "endTime": 2085.744667
+        },
+        {
+          "path": "Audio/output/2550/chapter_09.wav",
+          "duration": 193.685875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Making of a Legend—Twain’s Influence on American Culture",
+          "actualDuration": 193.685875,
+          "startTime": 2087.244667,
+          "endTime": 2280.930542
+        },
+        {
+          "path": "Audio/output/2550/chapter_10.wav",
+          "duration": 155.931292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Voice—Twain’s Final Days and the Lessons He Left Behind",
+          "actualDuration": 155.931292,
+          "startTime": 2282.430542,
+          "endTime": 2438.3618340000003
+        },
+        {
+          "path": "Audio/output/2550/conclusion.wav",
+          "duration": 139.318375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.318375,
+          "startTime": 2439.8618340000003,
+          "endTime": 2579.180209
+        }
+      ],
+      "totalDuration": 2579.180209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 125.32,
+          "actualStart": 0,
+          "actualEnd": 125.321833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Along the Mississippi and the Roots of a Restless Spirit",
+          "expectedStart": 125.32,
+          "expectedEnd": 367.61,
+          "actualStart": 126.821833,
+          "actualEnd": 369.109083,
+          "timeDifference": 1.5018330000000049
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chasing Dreams and Facing Disappointment in a Changing America",
+          "expectedStart": 367.61,
+          "expectedEnd": 643.08,
+          "actualStart": 370.609083,
+          "actualEnd": 646.079666,
+          "timeDifference": 2.9990829999999846
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding a Literary Voice and Navigating the Costs of Success",
+          "expectedStart": 643.08,
+          "expectedEnd": 951.2,
+          "actualStart": 647.579666,
+          "actualEnd": 955.700083,
+          "timeDifference": 4.499665999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Wrestling with Fame, Fortune, and the Shadows of Personal Loss",
+          "expectedStart": 951.2,
+          "expectedEnd": 1232.65,
+          "actualStart": 957.200083,
+          "actualEnd": 1238.6469579999998,
+          "timeDifference": 6.000082999999904
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Final Years—Legacy, Reflection, and the Enduring Power of Story",
+          "expectedStart": 1232.65,
+          "expectedEnd": 1479.02,
+          "actualStart": 1240.1469579999998,
+          "actualEnd": 1486.5178749999998,
+          "timeDifference": 7.496957999999722
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 A World Traveler’s Eyes—Mark Twain Abroad",
+          "expectedStart": 1479.02,
+          "expectedEnd": 1705.1,
+          "actualStart": 1488.0178749999998,
+          "actualEnd": 1714.1022919999998,
+          "timeDifference": 8.997874999999794
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Darkening View—Disillusionment and the Shadow of Loss",
+          "expectedStart": 1705.1,
+          "expectedEnd": 1899.2,
+          "actualStart": 1715.6022919999998,
+          "actualEnd": 1909.7070419999998,
+          "timeDifference": 10.502291999999898
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Private Twain—Letters, Family, and the Search for Meaning",
+          "expectedStart": 1899.2,
+          "expectedEnd": 2073.74,
+          "actualStart": 1911.2070419999998,
+          "actualEnd": 2085.744667,
+          "timeDifference": 12.007041999999728
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Making of a Legend—Twain’s Influence on American Culture",
+          "expectedStart": 2073.74,
+          "expectedEnd": 2267.43,
+          "actualStart": 2087.244667,
+          "actualEnd": 2280.930542,
+          "timeDifference": 13.504667000000154
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Voice—Twain’s Final Days and the Lessons He Left Behind",
+          "expectedStart": 2267.43,
+          "expectedEnd": 2423.36,
+          "actualStart": 2282.430542,
+          "actualEnd": 2438.3618340000003,
+          "timeDifference": 15.000542000000223
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2423.36,
+          "expectedEnd": 2562.68,
+          "actualStart": 2439.8618340000003,
+          "actualEnd": 2579.180209,
+          "timeDifference": 16.501834000000144
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 125.321833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Along the Mississippi and the Roots of a Restless Spirit"
+        },
+        {
+          "startTime": 369.109083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Along the Mississippi and the Roots of a Restless Spirit and Chapter 2 Chasing Dreams and Facing Disappointment in a Changing America"
+        },
+        {
+          "startTime": 646.079666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chasing Dreams and Facing Disappointment in a Changing America and Chapter 3 Finding a Literary Voice and Navigating the Costs of Success"
+        },
+        {
+          "startTime": 955.700083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding a Literary Voice and Navigating the Costs of Success and Chapter 4 Wrestling with Fame, Fortune, and the Shadows of Personal Loss"
+        },
+        {
+          "startTime": 1238.6469579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Wrestling with Fame, Fortune, and the Shadows of Personal Loss and Chapter 5 The Final Years—Legacy, Reflection, and the Enduring Power of Story"
+        },
+        {
+          "startTime": 1486.5178749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Final Years—Legacy, Reflection, and the Enduring Power of Story and Chapter 6 A World Traveler’s Eyes—Mark Twain Abroad"
+        },
+        {
+          "startTime": 1714.1022919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 A World Traveler’s Eyes—Mark Twain Abroad and Chapter 7 The Darkening View—Disillusionment and the Shadow of Loss"
+        },
+        {
+          "startTime": 1909.7070419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Darkening View—Disillusionment and the Shadow of Loss and Chapter 8 The Private Twain—Letters, Family, and the Search for Meaning"
+        },
+        {
+          "startTime": 2085.744667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Private Twain—Letters, Family, and the Search for Meaning and Chapter 9 The Making of a Legend—Twain’s Influence on American Culture"
+        },
+        {
+          "startTime": 2280.930542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Making of a Legend—Twain’s Influence on American Culture and Chapter 10 The Enduring Voice—Twain’s Final Days and the Lessons He Left Behind"
+        },
+        {
+          "startTime": 2438.3618340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Voice—Twain’s Final Days and the Lessons He Left Behind and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2550",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:39:36.583Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

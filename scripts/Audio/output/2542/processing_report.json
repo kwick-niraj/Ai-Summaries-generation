@@ -1,0 +1,456 @@
+{
+  "bookId": "2542",
+  "timestamp": "2025-07-11T03:59:40.071Z",
+  "success": false,
+  "processingTime": -1752206115470,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4063,
+    "totalAudioFiles": 12,
+    "totalDuration": 2053.9734179999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2053.9734179999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2542/optimized_text/2542.md",
+    "fileSize": 827,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2542.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2542/metadata/2542_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2053.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2542/metadata/2542_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2542/metadata/2542_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2542/2542_complete.wav",
+    "duration": 2053.973417,
+    "fileSize": 98590802,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2542/introduction.wav",
+          "duration": 82.152,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.152,
+          "startTime": 0,
+          "endTime": 82.152
+        },
+        {
+          "path": "Audio/output/2542/chapter_01.wav",
+          "duration": 200.533125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation—Why Simple Habits Shape Financial Futures",
+          "actualDuration": 200.533125,
+          "startTime": 83.652,
+          "endTime": 284.185125
+        },
+        {
+          "path": "Audio/output/2542/chapter_02.wav",
+          "duration": 206.817792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Paying Yourself First—The Most Important Step in Saving",
+          "actualDuration": 206.817792,
+          "startTime": 285.685125,
+          "endTime": 492.502917
+        },
+        {
+          "path": "Audio/output/2542/chapter_03.wav",
+          "duration": 211.985458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Making Investing Simple—Why Consistency Beats Complexity",
+          "actualDuration": 211.985458,
+          "startTime": 494.002917,
+          "endTime": 705.988375
+        },
+        {
+          "path": "Audio/output/2542/chapter_04.wav",
+          "duration": 201.301292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Managing Debt and Spending—Staying in Control of Everyday Finances",
+          "actualDuration": 201.301292,
+          "startTime": 707.488375,
+          "endTime": 908.789667
+        },
+        {
+          "path": "Audio/output/2542/chapter_05.wav",
+          "duration": 188.3615,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Protecting What Matters—Insurance and Planning for the Unexpected",
+          "actualDuration": 188.3615,
+          "startTime": 910.289667,
+          "endTime": 1098.651167
+        },
+        {
+          "path": "Audio/output/2542/chapter_06.wav",
+          "duration": 189.064917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Setting Long-Term Goals—Turning Dreams into Actionable Plans",
+          "actualDuration": 189.064917,
+          "startTime": 1100.151167,
+          "endTime": 1289.216084
+        },
+        {
+          "path": "Audio/output/2542/chapter_07.wav",
+          "duration": 169.616292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Teaching Financial Skills to Family—Building a Legacy of Confidence",
+          "actualDuration": 169.616292,
+          "startTime": 1290.716084,
+          "endTime": 1460.3323759999998
+        },
+        {
+          "path": "Audio/output/2542/chapter_08.wav",
+          "duration": 154.557167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Principles—Creating a Cohesive Financial Life",
+          "actualDuration": 154.557167,
+          "startTime": 1461.8323759999998,
+          "endTime": 1616.3895429999998
+        },
+        {
+          "path": "Audio/output/2542/chapter_09.wav",
+          "duration": 168.72675,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Life’s Transitions—Adapting Your Plan Over Time",
+          "actualDuration": 168.72675,
+          "startTime": 1617.8895429999998,
+          "endTime": 1786.6162929999998
+        },
+        {
+          "path": "Audio/output/2542/chapter_10.wav",
+          "duration": 152.316875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Motivation—Staying the Course for a Lifetime",
+          "actualDuration": 152.316875,
+          "startTime": 1788.1162929999998,
+          "endTime": 1940.4331679999998
+        },
+        {
+          "path": "Audio/output/2542/conclusion.wav",
+          "duration": 128.54025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.54025,
+          "startTime": 1941.9331679999998,
+          "endTime": 2070.4734179999996
+        }
+      ],
+      "totalDuration": 2070.4734179999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.15,
+          "actualStart": 0,
+          "actualEnd": 82.152,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation—Why Simple Habits Shape Financial Futures",
+          "expectedStart": 82.15,
+          "expectedEnd": 282.68,
+          "actualStart": 83.652,
+          "actualEnd": 284.185125,
+          "timeDifference": 1.5019999999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Paying Yourself First—The Most Important Step in Saving",
+          "expectedStart": 282.68,
+          "expectedEnd": 489.5,
+          "actualStart": 285.685125,
+          "actualEnd": 492.502917,
+          "timeDifference": 3.005125000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Making Investing Simple—Why Consistency Beats Complexity",
+          "expectedStart": 489.5,
+          "expectedEnd": 701.49,
+          "actualStart": 494.002917,
+          "actualEnd": 705.988375,
+          "timeDifference": 4.502917000000025
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Managing Debt and Spending—Staying in Control of Everyday Finances",
+          "expectedStart": 701.49,
+          "expectedEnd": 902.79,
+          "actualStart": 707.488375,
+          "actualEnd": 908.789667,
+          "timeDifference": 5.99837500000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Protecting What Matters—Insurance and Planning for the Unexpected",
+          "expectedStart": 902.79,
+          "expectedEnd": 1091.15,
+          "actualStart": 910.289667,
+          "actualEnd": 1098.651167,
+          "timeDifference": 7.499667000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Setting Long-Term Goals—Turning Dreams into Actionable Plans",
+          "expectedStart": 1091.15,
+          "expectedEnd": 1280.21,
+          "actualStart": 1100.151167,
+          "actualEnd": 1289.216084,
+          "timeDifference": 9.001166999999896
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Teaching Financial Skills to Family—Building a Legacy of Confidence",
+          "expectedStart": 1280.21,
+          "expectedEnd": 1449.83,
+          "actualStart": 1290.716084,
+          "actualEnd": 1460.3323759999998,
+          "timeDifference": 10.506083999999873
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Principles—Creating a Cohesive Financial Life",
+          "expectedStart": 1449.83,
+          "expectedEnd": 1604.39,
+          "actualStart": 1461.8323759999998,
+          "actualEnd": 1616.3895429999998,
+          "timeDifference": 12.002375999999913
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Life’s Transitions—Adapting Your Plan Over Time",
+          "expectedStart": 1604.39,
+          "expectedEnd": 1773.12,
+          "actualStart": 1617.8895429999998,
+          "actualEnd": 1786.6162929999998,
+          "timeDifference": 13.499542999999676
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Motivation—Staying the Course for a Lifetime",
+          "expectedStart": 1773.12,
+          "expectedEnd": 1925.44,
+          "actualStart": 1788.1162929999998,
+          "actualEnd": 1940.4331679999998,
+          "timeDifference": 14.996292999999923
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1925.44,
+          "expectedEnd": 2053.98,
+          "actualStart": 1941.9331679999998,
+          "actualEnd": 2070.4734179999996,
+          "timeDifference": 16.49316799999974
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.152,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation—Why Simple Habits Shape Financial Futures"
+        },
+        {
+          "startTime": 284.185125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation—Why Simple Habits Shape Financial Futures and Chapter 2 Paying Yourself First—The Most Important Step in Saving"
+        },
+        {
+          "startTime": 492.502917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Paying Yourself First—The Most Important Step in Saving and Chapter 3 Making Investing Simple—Why Consistency Beats Complexity"
+        },
+        {
+          "startTime": 705.988375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Making Investing Simple—Why Consistency Beats Complexity and Chapter 4 Managing Debt and Spending—Staying in Control of Everyday Finances"
+        },
+        {
+          "startTime": 908.789667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Managing Debt and Spending—Staying in Control of Everyday Finances and Chapter 5 Protecting What Matters—Insurance and Planning for the Unexpected"
+        },
+        {
+          "startTime": 1098.651167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Protecting What Matters—Insurance and Planning for the Unexpected and Chapter 6 Setting Long-Term Goals—Turning Dreams into Actionable Plans"
+        },
+        {
+          "startTime": 1289.216084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Setting Long-Term Goals—Turning Dreams into Actionable Plans and Chapter 7 Teaching Financial Skills to Family—Building a Legacy of Confidence"
+        },
+        {
+          "startTime": 1460.3323759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Teaching Financial Skills to Family—Building a Legacy of Confidence and Chapter 8 Integrating Principles—Creating a Cohesive Financial Life"
+        },
+        {
+          "startTime": 1616.3895429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Principles—Creating a Cohesive Financial Life and Chapter 9 Navigating Life’s Transitions—Adapting Your Plan Over Time"
+        },
+        {
+          "startTime": 1786.6162929999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Life’s Transitions—Adapting Your Plan Over Time and Chapter 10 Sustaining Motivation—Staying the Course for a Lifetime"
+        },
+        {
+          "startTime": 1940.4331679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Motivation—Staying the Course for a Lifetime and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2542",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:55:16.661Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "2544",
+  "timestamp": "2025-07-11T04:05:29.092Z",
+  "success": false,
+  "processingTime": -1752206381076,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4314,
+    "totalAudioFiles": 12,
+    "totalDuration": 1772.253457
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1772.253457
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2544/optimized_text/2544.md",
+    "fileSize": 597,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2544.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2544/metadata/2544_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1772.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2544/metadata/2544_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2544/metadata/2544_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2544/2544_complete.wav",
+    "duration": 1772.253458,
+    "fileSize": 85068244,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2544/introduction.wav",
+          "duration": 92.185833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.185833,
+          "startTime": 0,
+          "endTime": 92.185833
+        },
+        {
+          "path": "Audio/output/2544/chapter_01.wav",
+          "duration": 186.829375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Music Shapes Who We Are",
+          "actualDuration": 186.829375,
+          "startTime": 93.685833,
+          "endTime": 280.51520800000003
+        },
+        {
+          "path": "Audio/output/2544/chapter_02.wav",
+          "duration": 170.96875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Music as a Bridge Between Cultures",
+          "actualDuration": 170.96875,
+          "startTime": 282.01520800000003,
+          "endTime": 452.98395800000003
+        },
+        {
+          "path": "Audio/output/2544/chapter_03.wav",
+          "duration": 180.680958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Healing and Strength Through Musical Experience",
+          "actualDuration": 180.680958,
+          "startTime": 454.48395800000003,
+          "endTime": 635.1649160000001
+        },
+        {
+          "path": "Audio/output/2544/chapter_04.wav",
+          "duration": 184.030083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Passing Down Traditions and Stories Through Song",
+          "actualDuration": 184.030083,
+          "startTime": 636.6649160000001,
+          "endTime": 820.694999
+        },
+        {
+          "path": "Audio/output/2544/chapter_05.wav",
+          "duration": 157.49875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Emotional Power and Lasting Impact of Music",
+          "actualDuration": 157.49875,
+          "startTime": 822.194999,
+          "endTime": 979.693749
+        },
+        {
+          "path": "Audio/output/2544/chapter_06.wav",
+          "duration": 154.301833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Music in Times of Change and Upheaval",
+          "actualDuration": 154.301833,
+          "startTime": 981.193749,
+          "endTime": 1135.495582
+        },
+        {
+          "path": "Audio/output/2544/chapter_07.wav",
+          "duration": 135.385667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Everyday Magic of Making Music",
+          "actualDuration": 135.385667,
+          "startTime": 1136.995582,
+          "endTime": 1272.381249
+        },
+        {
+          "path": "Audio/output/2544/chapter_08.wav",
+          "duration": 153.244583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Technology, Memory, and the Changing Soundscape",
+          "actualDuration": 153.244583,
+          "startTime": 1273.881249,
+          "endTime": 1427.125832
+        },
+        {
+          "path": "Audio/output/2544/chapter_09.wav",
+          "duration": 131.626875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Music, Ritual, and the Sacred",
+          "actualDuration": 131.626875,
+          "startTime": 1428.625832,
+          "endTime": 1560.2527069999999
+        },
+        {
+          "path": "Audio/output/2544/chapter_10.wav",
+          "duration": 122.953625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Story—Music as a Living Thread",
+          "actualDuration": 122.953625,
+          "startTime": 1561.7527069999999,
+          "endTime": 1684.706332
+        },
+        {
+          "path": "Audio/output/2544/conclusion.wav",
+          "duration": 102.547125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.547125,
+          "startTime": 1686.206332,
+          "endTime": 1788.753457
+        }
+      ],
+      "totalDuration": 1788.753457,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.19,
+          "actualStart": 0,
+          "actualEnd": 92.185833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Music Shapes Who We Are",
+          "expectedStart": 92.19,
+          "expectedEnd": 279.02,
+          "actualStart": 93.685833,
+          "actualEnd": 280.51520800000003,
+          "timeDifference": 1.4958330000000046
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Music as a Bridge Between Cultures",
+          "expectedStart": 279.02,
+          "expectedEnd": 449.99,
+          "actualStart": 282.01520800000003,
+          "actualEnd": 452.98395800000003,
+          "timeDifference": 2.995208000000048
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Healing and Strength Through Musical Experience",
+          "expectedStart": 449.99,
+          "expectedEnd": 630.67,
+          "actualStart": 454.48395800000003,
+          "actualEnd": 635.1649160000001,
+          "timeDifference": 4.4939580000000205
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Passing Down Traditions and Stories Through Song",
+          "expectedStart": 630.67,
+          "expectedEnd": 814.7,
+          "actualStart": 636.6649160000001,
+          "actualEnd": 820.694999,
+          "timeDifference": 5.994916000000103
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Emotional Power and Lasting Impact of Music",
+          "expectedStart": 814.7,
+          "expectedEnd": 972.2,
+          "actualStart": 822.194999,
+          "actualEnd": 979.693749,
+          "timeDifference": 7.494999000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Music in Times of Change and Upheaval",
+          "expectedStart": 972.2,
+          "expectedEnd": 1126.5,
+          "actualStart": 981.193749,
+          "actualEnd": 1135.495582,
+          "timeDifference": 8.99374899999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Everyday Magic of Making Music",
+          "expectedStart": 1126.5,
+          "expectedEnd": 1261.89,
+          "actualStart": 1136.995582,
+          "actualEnd": 1272.381249,
+          "timeDifference": 10.495582000000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Technology, Memory, and the Changing Soundscape",
+          "expectedStart": 1261.89,
+          "expectedEnd": 1415.13,
+          "actualStart": 1273.881249,
+          "actualEnd": 1427.125832,
+          "timeDifference": 11.991248999999925
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Music, Ritual, and the Sacred",
+          "expectedStart": 1415.13,
+          "expectedEnd": 1546.76,
+          "actualStart": 1428.625832,
+          "actualEnd": 1560.2527069999999,
+          "timeDifference": 13.495831999999837
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Story—Music as a Living Thread",
+          "expectedStart": 1546.76,
+          "expectedEnd": 1669.71,
+          "actualStart": 1561.7527069999999,
+          "actualEnd": 1684.706332,
+          "timeDifference": 14.992706999999882
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1669.71,
+          "expectedEnd": 1772.26,
+          "actualStart": 1686.206332,
+          "actualEnd": 1788.753457,
+          "timeDifference": 16.49633199999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.185833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Music Shapes Who We Are"
+        },
+        {
+          "startTime": 280.51520800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Music Shapes Who We Are and Chapter 2 Music as a Bridge Between Cultures"
+        },
+        {
+          "startTime": 452.98395800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Music as a Bridge Between Cultures and Chapter 3 Healing and Strength Through Musical Experience"
+        },
+        {
+          "startTime": 635.1649160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Healing and Strength Through Musical Experience and Chapter 4 Passing Down Traditions and Stories Through Song"
+        },
+        {
+          "startTime": 820.694999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Passing Down Traditions and Stories Through Song and Chapter 5 The Emotional Power and Lasting Impact of Music"
+        },
+        {
+          "startTime": 979.693749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Emotional Power and Lasting Impact of Music and Chapter 6 Music in Times of Change and Upheaval"
+        },
+        {
+          "startTime": 1135.495582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Music in Times of Change and Upheaval and Chapter 7 The Everyday Magic of Making Music"
+        },
+        {
+          "startTime": 1272.381249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Everyday Magic of Making Music and Chapter 8 Technology, Memory, and the Changing Soundscape"
+        },
+        {
+          "startTime": 1427.125832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Technology, Memory, and the Changing Soundscape and Chapter 9 Music, Ritual, and the Sacred"
+        },
+        {
+          "startTime": 1560.2527069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Music, Ritual, and the Sacred and Chapter 10 The Ongoing Story—Music as a Living Thread"
+        },
+        {
+          "startTime": 1684.706332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Story—Music as a Living Thread and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2544",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:59:41.615Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2555",
+  "timestamp": "2025-07-11T05:00:14.464Z",
+  "success": false,
+  "processingTime": -1752209683671,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4715,
+    "totalAudioFiles": 12,
+    "totalDuration": 2146.4075
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2146.4075
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2555/optimized_text/2555.md",
+    "fileSize": 852,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2555.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2555/metadata/2555_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2146.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2555/metadata/2555_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2555/metadata/2555_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2555/2555_complete.wav",
+    "duration": 2146.4075,
+    "fileSize": 103027638,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2555/introduction.wav",
+          "duration": 81.488125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.488125,
+          "startTime": 0,
+          "endTime": 81.488125
+        },
+        {
+          "path": "Audio/output/2555/chapter_01.wav",
+          "duration": 225.678458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Circus: Life’s Oddities and Annoyances",
+          "actualDuration": 225.678458,
+          "startTime": 82.988125,
+          "endTime": 308.666583
+        },
+        {
+          "path": "Audio/output/2555/chapter_02.wav",
+          "duration": 237.781375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Language Games: How Words Shape Reality",
+          "actualDuration": 237.781375,
+          "startTime": 310.166583,
+          "endTime": 547.947958
+        },
+        {
+          "path": "Audio/output/2555/chapter_03.wav",
+          "duration": 252.143625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Questioning Authority: Institutions, Beliefs, and the Search for Meaning",
+          "actualDuration": 252.143625,
+          "startTime": 549.447958,
+          "endTime": 801.5915829999999
+        },
+        {
+          "path": "Audio/output/2555/chapter_04.wav",
+          "duration": 192.507958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Condition: Mortality, Aging, and the Search for Connection",
+          "actualDuration": 192.507958,
+          "startTime": 803.0915829999999,
+          "endTime": 995.5995409999999
+        },
+        {
+          "path": "Audio/output/2555/chapter_05.wav",
+          "duration": 189.555083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Pet Peeves and Private Battles: Finding Humor in Frustration",
+          "actualDuration": 189.555083,
+          "startTime": 997.0995409999999,
+          "endTime": 1186.654624
+        },
+        {
+          "path": "Audio/output/2555/chapter_06.wav",
+          "duration": 183.288625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Comedy of Manners: Social Rituals and Everyday Performance",
+          "actualDuration": 183.288625,
+          "startTime": 1188.154624,
+          "endTime": 1371.443249
+        },
+        {
+          "path": "Audio/output/2555/chapter_07.wav",
+          "duration": 181.485667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Absurdity of Modern Life: Technology, Media, and the Information Overload",
+          "actualDuration": 181.485667,
+          "startTime": 1372.943249,
+          "endTime": 1554.4289159999998
+        },
+        {
+          "path": "Audio/output/2555/chapter_08.wav",
+          "duration": 173.795333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Mirror of Self: Flaws, Fears, and the Art of Not Taking Yourself Too Seriously",
+          "actualDuration": 173.795333,
+          "startTime": 1555.9289159999998,
+          "endTime": 1729.7242489999999
+        },
+        {
+          "path": "Audio/output/2555/chapter_09.wav",
+          "duration": 158.635917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dance of Skepticism and Hope: Navigating Cynicism Without Losing Heart",
+          "actualDuration": 158.635917,
+          "startTime": 1731.2242489999999,
+          "endTime": 1889.860166
+        },
+        {
+          "path": "Audio/output/2555/chapter_10.wav",
+          "duration": 135.402167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Role of Humor: Survival, Subversion, and the Power to Heal",
+          "actualDuration": 135.402167,
+          "startTime": 1891.360166,
+          "endTime": 2026.762333
+        },
+        {
+          "path": "Audio/output/2555/conclusion.wav",
+          "duration": 134.645167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.645167,
+          "startTime": 2028.262333,
+          "endTime": 2162.9075
+        }
+      ],
+      "totalDuration": 2162.9075,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.49,
+          "actualStart": 0,
+          "actualEnd": 81.488125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Circus: Life’s Oddities and Annoyances",
+          "expectedStart": 81.49,
+          "expectedEnd": 307.17,
+          "actualStart": 82.988125,
+          "actualEnd": 308.666583,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Language Games: How Words Shape Reality",
+          "expectedStart": 307.17,
+          "expectedEnd": 544.95,
+          "actualStart": 310.166583,
+          "actualEnd": 547.947958,
+          "timeDifference": 2.996582999999987
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Questioning Authority: Institutions, Beliefs, and the Search for Meaning",
+          "expectedStart": 544.95,
+          "expectedEnd": 797.09,
+          "actualStart": 549.447958,
+          "actualEnd": 801.5915829999999,
+          "timeDifference": 4.497957999999926
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Condition: Mortality, Aging, and the Search for Connection",
+          "expectedStart": 797.09,
+          "expectedEnd": 989.6,
+          "actualStart": 803.0915829999999,
+          "actualEnd": 995.5995409999999,
+          "timeDifference": 6.001582999999869
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Pet Peeves and Private Battles: Finding Humor in Frustration",
+          "expectedStart": 989.6,
+          "expectedEnd": 1179.16,
+          "actualStart": 997.0995409999999,
+          "actualEnd": 1186.654624,
+          "timeDifference": 7.499540999999908
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Comedy of Manners: Social Rituals and Everyday Performance",
+          "expectedStart": 1179.16,
+          "expectedEnd": 1362.45,
+          "actualStart": 1188.154624,
+          "actualEnd": 1371.443249,
+          "timeDifference": 8.99462399999993
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Absurdity of Modern Life: Technology, Media, and the Information Overload",
+          "expectedStart": 1362.45,
+          "expectedEnd": 1543.94,
+          "actualStart": 1372.943249,
+          "actualEnd": 1554.4289159999998,
+          "timeDifference": 10.493248999999878
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Mirror of Self: Flaws, Fears, and the Art of Not Taking Yourself Too Seriously",
+          "expectedStart": 1543.94,
+          "expectedEnd": 1717.74,
+          "actualStart": 1555.9289159999998,
+          "actualEnd": 1729.7242489999999,
+          "timeDifference": 11.98891599999979
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dance of Skepticism and Hope: Navigating Cynicism Without Losing Heart",
+          "expectedStart": 1717.74,
+          "expectedEnd": 1876.38,
+          "actualStart": 1731.2242489999999,
+          "actualEnd": 1889.860166,
+          "timeDifference": 13.484248999999863
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Role of Humor: Survival, Subversion, and the Power to Heal",
+          "expectedStart": 1876.38,
+          "expectedEnd": 2011.78,
+          "actualStart": 1891.360166,
+          "actualEnd": 2026.762333,
+          "timeDifference": 14.980165999999826
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2011.78,
+          "expectedEnd": 2146.43,
+          "actualStart": 2028.262333,
+          "actualEnd": 2162.9075,
+          "timeDifference": 16.482332999999926
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.488125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Circus: Life’s Oddities and Annoyances"
+        },
+        {
+          "startTime": 308.666583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Circus: Life’s Oddities and Annoyances and Chapter 2 Language Games: How Words Shape Reality"
+        },
+        {
+          "startTime": 547.947958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Language Games: How Words Shape Reality and Chapter 3 Questioning Authority: Institutions, Beliefs, and the Search for Meaning"
+        },
+        {
+          "startTime": 801.5915829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Questioning Authority: Institutions, Beliefs, and the Search for Meaning and Chapter 4 The Human Condition: Mortality, Aging, and the Search for Connection"
+        },
+        {
+          "startTime": 995.5995409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Condition: Mortality, Aging, and the Search for Connection and Chapter 5 Pet Peeves and Private Battles: Finding Humor in Frustration"
+        },
+        {
+          "startTime": 1186.654624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Pet Peeves and Private Battles: Finding Humor in Frustration and Chapter 6 The Comedy of Manners: Social Rituals and Everyday Performance"
+        },
+        {
+          "startTime": 1371.443249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Comedy of Manners: Social Rituals and Everyday Performance and Chapter 7 The Absurdity of Modern Life: Technology, Media, and the Information Overload"
+        },
+        {
+          "startTime": 1554.4289159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Absurdity of Modern Life: Technology, Media, and the Information Overload and Chapter 8 The Mirror of Self: Flaws, Fears, and the Art of Not Taking Yourself Too Seriously"
+        },
+        {
+          "startTime": 1729.7242489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Mirror of Self: Flaws, Fears, and the Art of Not Taking Yourself Too Seriously and Chapter 9 The Dance of Skepticism and Hope: Navigating Cynicism Without Losing Heart"
+        },
+        {
+          "startTime": 1889.860166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dance of Skepticism and Hope: Navigating Cynicism Without Losing Heart and Chapter 10 The Role of Humor: Survival, Subversion, and the Power to Heal"
+        },
+        {
+          "startTime": 2026.762333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Role of Humor: Survival, Subversion, and the Power to Heal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2555",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:54:45.249Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

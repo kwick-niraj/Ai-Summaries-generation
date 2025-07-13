@@ -1,0 +1,456 @@
+{
+  "bookId": "2378",
+  "timestamp": "2025-07-10T19:41:51.123Z",
+  "success": false,
+  "processingTime": -1752176194583,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3828,
+    "totalAudioFiles": 12,
+    "totalDuration": 1695.761
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1695.761
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2378/optimized_text/2378.md",
+    "fileSize": 640,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2378.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2378/metadata/2378_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1695.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2378/metadata/2378_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2378/metadata/2378_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2378/2378_complete.wav",
+    "duration": 1695.761,
+    "fileSize": 81396606,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2378/introduction.wav",
+          "duration": 84.108333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.108333,
+          "startTime": 0,
+          "endTime": 84.108333
+        },
+        {
+          "path": "Audio/output/2378/chapter_01.wav",
+          "duration": 192.750375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World That Changed Overnight",
+          "actualDuration": 192.750375,
+          "startTime": 85.608333,
+          "endTime": 278.358708
+        },
+        {
+          "path": "Audio/output/2378/chapter_02.wav",
+          "duration": 171.332,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Surviving the Unthinkable and the Power of Human Connection",
+          "actualDuration": 171.332,
+          "startTime": 279.858708,
+          "endTime": 451.190708
+        },
+        {
+          "path": "Audio/output/2378/chapter_03.wav",
+          "duration": 161.557,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Choosing Gratitude and Forgiveness Over Hatred",
+          "actualDuration": 161.557,
+          "startTime": 452.690708,
+          "endTime": 614.247708
+        },
+        {
+          "path": "Audio/output/2378/chapter_04.wav",
+          "duration": 155.258458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Joy in Everyday Life and Sharing Hope",
+          "actualDuration": 155.258458,
+          "startTime": 615.747708,
+          "endTime": 771.006166
+        },
+        {
+          "path": "Audio/output/2378/chapter_05.wav",
+          "duration": 141.070292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Lasting Impact of Kindness and the Gift of Each Day",
+          "actualDuration": 141.070292,
+          "startTime": 772.506166,
+          "endTime": 913.576458
+        },
+        {
+          "path": "Audio/output/2378/chapter_06.wav",
+          "duration": 154.198208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Strength of Resilience",
+          "actualDuration": 154.198208,
+          "startTime": 915.076458,
+          "endTime": 1069.274666
+        },
+        {
+          "path": "Audio/output/2378/chapter_07.wav",
+          "duration": 132.996708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Life of Meaning and Purpose",
+          "actualDuration": 132.996708,
+          "startTime": 1070.774666,
+          "endTime": 1203.771374
+        },
+        {
+          "path": "Audio/output/2378/chapter_08.wav",
+          "duration": 134.530417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect of Compassion",
+          "actualDuration": 134.530417,
+          "startTime": 1205.271374,
+          "endTime": 1339.8017909999999
+        },
+        {
+          "path": "Audio/output/2378/chapter_09.wav",
+          "duration": 134.974375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the Shadows—Living with Memory and Loss",
+          "actualDuration": 134.974375,
+          "startTime": 1341.3017909999999,
+          "endTime": 1476.2761659999999
+        },
+        {
+          "path": "Audio/output/2378/chapter_10.wav",
+          "duration": 117.077667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Choosing Hope—A Legacy for the Future",
+          "actualDuration": 117.077667,
+          "startTime": 1477.7761659999999,
+          "endTime": 1594.853833
+        },
+        {
+          "path": "Audio/output/2378/conclusion.wav",
+          "duration": 115.907167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.907167,
+          "startTime": 1596.353833,
+          "endTime": 1712.261
+        }
+      ],
+      "totalDuration": 1712.261,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.11,
+          "actualStart": 0,
+          "actualEnd": 84.108333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World That Changed Overnight",
+          "expectedStart": 84.11,
+          "expectedEnd": 276.86,
+          "actualStart": 85.608333,
+          "actualEnd": 278.358708,
+          "timeDifference": 1.4983330000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Surviving the Unthinkable and the Power of Human Connection",
+          "expectedStart": 276.86,
+          "expectedEnd": 448.19,
+          "actualStart": 279.858708,
+          "actualEnd": 451.190708,
+          "timeDifference": 2.998707999999965
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Choosing Gratitude and Forgiveness Over Hatred",
+          "expectedStart": 448.19,
+          "expectedEnd": 609.75,
+          "actualStart": 452.690708,
+          "actualEnd": 614.247708,
+          "timeDifference": 4.500707999999975
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Joy in Everyday Life and Sharing Hope",
+          "expectedStart": 609.75,
+          "expectedEnd": 765.01,
+          "actualStart": 615.747708,
+          "actualEnd": 771.006166,
+          "timeDifference": 5.997707999999989
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Lasting Impact of Kindness and the Gift of Each Day",
+          "expectedStart": 765.01,
+          "expectedEnd": 906.08,
+          "actualStart": 772.506166,
+          "actualEnd": 913.576458,
+          "timeDifference": 7.4961660000000165
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Strength of Resilience",
+          "expectedStart": 906.08,
+          "expectedEnd": 1060.28,
+          "actualStart": 915.076458,
+          "actualEnd": 1069.274666,
+          "timeDifference": 8.996457999999961
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Life of Meaning and Purpose",
+          "expectedStart": 1060.28,
+          "expectedEnd": 1193.28,
+          "actualStart": 1070.774666,
+          "actualEnd": 1203.771374,
+          "timeDifference": 10.494666000000052
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect of Compassion",
+          "expectedStart": 1193.28,
+          "expectedEnd": 1327.81,
+          "actualStart": 1205.271374,
+          "actualEnd": 1339.8017909999999,
+          "timeDifference": 11.99137399999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the Shadows—Living with Memory and Loss",
+          "expectedStart": 1327.81,
+          "expectedEnd": 1462.78,
+          "actualStart": 1341.3017909999999,
+          "actualEnd": 1476.2761659999999,
+          "timeDifference": 13.491790999999921
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Choosing Hope—A Legacy for the Future",
+          "expectedStart": 1462.78,
+          "expectedEnd": 1579.86,
+          "actualStart": 1477.7761659999999,
+          "actualEnd": 1594.853833,
+          "timeDifference": 14.996165999999903
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1579.86,
+          "expectedEnd": 1695.77,
+          "actualStart": 1596.353833,
+          "actualEnd": 1712.261,
+          "timeDifference": 16.493832999999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.108333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World That Changed Overnight"
+        },
+        {
+          "startTime": 278.358708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World That Changed Overnight and Chapter 2 Surviving the Unthinkable and the Power of Human Connection"
+        },
+        {
+          "startTime": 451.190708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Surviving the Unthinkable and the Power of Human Connection and Chapter 3 Choosing Gratitude and Forgiveness Over Hatred"
+        },
+        {
+          "startTime": 614.247708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Choosing Gratitude and Forgiveness Over Hatred and Chapter 4 Finding Joy in Everyday Life and Sharing Hope"
+        },
+        {
+          "startTime": 771.006166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Joy in Everyday Life and Sharing Hope and Chapter 5 The Lasting Impact of Kindness and the Gift of Each Day"
+        },
+        {
+          "startTime": 913.576458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Lasting Impact of Kindness and the Gift of Each Day and Chapter 6 The Quiet Strength of Resilience"
+        },
+        {
+          "startTime": 1069.274666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Strength of Resilience and Chapter 7 Building a Life of Meaning and Purpose"
+        },
+        {
+          "startTime": 1203.771374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Life of Meaning and Purpose and Chapter 8 The Ripple Effect of Compassion"
+        },
+        {
+          "startTime": 1339.8017909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect of Compassion and Chapter 9 Facing the Shadows—Living with Memory and Loss"
+        },
+        {
+          "startTime": 1476.2761659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the Shadows—Living with Memory and Loss and Chapter 10 Choosing Hope—A Legacy for the Future"
+        },
+        {
+          "startTime": 1594.853833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Choosing Hope—A Legacy for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2378",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:36:36.174Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

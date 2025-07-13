@@ -1,0 +1,456 @@
+{
+  "bookId": "2646",
+  "timestamp": "2025-07-12T08:02:13.477Z",
+  "success": false,
+  "processingTime": -1752307007893,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4497,
+    "totalAudioFiles": 12,
+    "totalDuration": 2270.059042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2270.059042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2646/optimized_text/2646.md",
+    "fileSize": 835,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2646.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2646/metadata/2646_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2270.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2646/metadata/2646_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2646/metadata/2646_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2646/2646_complete.wav",
+    "duration": 2270.059042,
+    "fileSize": 108962912,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2646/introduction.wav",
+          "duration": 96.62,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.62,
+          "startTime": 0,
+          "endTime": 96.62
+        },
+        {
+          "path": "Audio/output/2646/chapter_01.wav",
+          "duration": 254.745542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Essential Nature of Sleep and Its Biological Foundations",
+          "actualDuration": 254.745542,
+          "startTime": 98.12,
+          "endTime": 352.865542
+        },
+        {
+          "path": "Audio/output/2646/chapter_02.wav",
+          "duration": 233.063083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Sleep Shapes the Brain, Memory, and Learning",
+          "actualDuration": 233.063083,
+          "startTime": 354.365542,
+          "endTime": 587.428625
+        },
+        {
+          "path": "Audio/output/2646/chapter_03.wav",
+          "duration": 244.39125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Consequences of Sleep Deprivation on Body and Mind",
+          "actualDuration": 244.39125,
+          "startTime": 588.928625,
+          "endTime": 833.319875
+        },
+        {
+          "path": "Audio/output/2646/chapter_04.wav",
+          "duration": 270.838333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sleep Across the Lifespan and Its Role in Health and Disease Prevention",
+          "actualDuration": 270.838333,
+          "startTime": 834.819875,
+          "endTime": 1105.658208
+        },
+        {
+          "path": "Audio/output/2646/chapter_05.wav",
+          "duration": 262.223292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Modern Life, Cultural Attitudes, and Practical Steps for Better Sleep",
+          "actualDuration": 262.223292,
+          "startTime": 1107.158208,
+          "endTime": 1369.3815
+        },
+        {
+          "path": "Audio/output/2646/chapter_06.wav",
+          "duration": 158.721917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sleep and Emotional Regulation—The Night Shift for Mental Health",
+          "actualDuration": 158.721917,
+          "startTime": 1370.8815,
+          "endTime": 1529.603417
+        },
+        {
+          "path": "Audio/output/2646/chapter_07.wav",
+          "duration": 170.622208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science and Meaning of Dreams—Why the Brain Weaves Stories at Night",
+          "actualDuration": 170.622208,
+          "startTime": 1531.103417,
+          "endTime": 1701.725625
+        },
+        {
+          "path": "Audio/output/2646/chapter_08.wav",
+          "duration": 170.122875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sleep Disorders—Recognizing and Addressing Barriers to Rest",
+          "actualDuration": 170.122875,
+          "startTime": 1703.225625,
+          "endTime": 1873.3485
+        },
+        {
+          "path": "Audio/output/2646/chapter_09.wav",
+          "duration": 161.486042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Societal Implications—Sleep, Productivity, and Public Health",
+          "actualDuration": 161.486042,
+          "startTime": 1874.8485,
+          "endTime": 2036.334542
+        },
+        {
+          "path": "Audio/output/2646/chapter_10.wav",
+          "duration": 133.501667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Personal Sleep Practice—Sustaining Rest in a Busy World",
+          "actualDuration": 133.501667,
+          "startTime": 2037.834542,
+          "endTime": 2171.336209
+        },
+        {
+          "path": "Audio/output/2646/conclusion.wav",
+          "duration": 113.722833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.722833,
+          "startTime": 2172.836209,
+          "endTime": 2286.559042
+        }
+      ],
+      "totalDuration": 2286.559042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.62,
+          "actualStart": 0,
+          "actualEnd": 96.62,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Essential Nature of Sleep and Its Biological Foundations",
+          "expectedStart": 96.62,
+          "expectedEnd": 351.37,
+          "actualStart": 98.12,
+          "actualEnd": 352.865542,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Sleep Shapes the Brain, Memory, and Learning",
+          "expectedStart": 351.37,
+          "expectedEnd": 584.43,
+          "actualStart": 354.365542,
+          "actualEnd": 587.428625,
+          "timeDifference": 2.9955420000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Consequences of Sleep Deprivation on Body and Mind",
+          "expectedStart": 584.43,
+          "expectedEnd": 828.82,
+          "actualStart": 588.928625,
+          "actualEnd": 833.319875,
+          "timeDifference": 4.498625000000061
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sleep Across the Lifespan and Its Role in Health and Disease Prevention",
+          "expectedStart": 828.82,
+          "expectedEnd": 1099.66,
+          "actualStart": 834.819875,
+          "actualEnd": 1105.658208,
+          "timeDifference": 5.9998749999999745
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Modern Life, Cultural Attitudes, and Practical Steps for Better Sleep",
+          "expectedStart": 1099.66,
+          "expectedEnd": 1361.88,
+          "actualStart": 1107.158208,
+          "actualEnd": 1369.3815,
+          "timeDifference": 7.498207999999977
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sleep and Emotional Regulation—The Night Shift for Mental Health",
+          "expectedStart": 1361.88,
+          "expectedEnd": 1520.6,
+          "actualStart": 1370.8815,
+          "actualEnd": 1529.603417,
+          "timeDifference": 9.00149999999985
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science and Meaning of Dreams—Why the Brain Weaves Stories at Night",
+          "expectedStart": 1520.6,
+          "expectedEnd": 1691.22,
+          "actualStart": 1531.103417,
+          "actualEnd": 1701.725625,
+          "timeDifference": 10.503417000000127
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sleep Disorders—Recognizing and Addressing Barriers to Rest",
+          "expectedStart": 1691.22,
+          "expectedEnd": 1861.34,
+          "actualStart": 1703.225625,
+          "actualEnd": 1873.3485,
+          "timeDifference": 12.005625000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Societal Implications—Sleep, Productivity, and Public Health",
+          "expectedStart": 1861.34,
+          "expectedEnd": 2022.83,
+          "actualStart": 1874.8485,
+          "actualEnd": 2036.334542,
+          "timeDifference": 13.50850000000014
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Personal Sleep Practice—Sustaining Rest in a Busy World",
+          "expectedStart": 2022.83,
+          "expectedEnd": 2156.33,
+          "actualStart": 2037.834542,
+          "actualEnd": 2171.336209,
+          "timeDifference": 15.004542000000129
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2156.33,
+          "expectedEnd": 2270.05,
+          "actualStart": 2172.836209,
+          "actualEnd": 2286.559042,
+          "timeDifference": 16.506209000000126
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.62,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Essential Nature of Sleep and Its Biological Foundations"
+        },
+        {
+          "startTime": 352.865542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Essential Nature of Sleep and Its Biological Foundations and Chapter 2 How Sleep Shapes the Brain, Memory, and Learning"
+        },
+        {
+          "startTime": 587.428625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Sleep Shapes the Brain, Memory, and Learning and Chapter 3 The Consequences of Sleep Deprivation on Body and Mind"
+        },
+        {
+          "startTime": 833.319875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Consequences of Sleep Deprivation on Body and Mind and Chapter 4 Sleep Across the Lifespan and Its Role in Health and Disease Prevention"
+        },
+        {
+          "startTime": 1105.658208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sleep Across the Lifespan and Its Role in Health and Disease Prevention and Chapter 5 Modern Life, Cultural Attitudes, and Practical Steps for Better Sleep"
+        },
+        {
+          "startTime": 1369.3815,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Modern Life, Cultural Attitudes, and Practical Steps for Better Sleep and Chapter 6 Sleep and Emotional Regulation—The Night Shift for Mental Health"
+        },
+        {
+          "startTime": 1529.603417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sleep and Emotional Regulation—The Night Shift for Mental Health and Chapter 7 The Science and Meaning of Dreams—Why the Brain Weaves Stories at Night"
+        },
+        {
+          "startTime": 1701.725625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science and Meaning of Dreams—Why the Brain Weaves Stories at Night and Chapter 8 Sleep Disorders—Recognizing and Addressing Barriers to Rest"
+        },
+        {
+          "startTime": 1873.3485,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sleep Disorders—Recognizing and Addressing Barriers to Rest and Chapter 9 Societal Implications—Sleep, Productivity, and Public Health"
+        },
+        {
+          "startTime": 2036.334542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Societal Implications—Sleep, Productivity, and Public Health and Chapter 10 Building a Personal Sleep Practice—Sustaining Rest in a Busy World"
+        },
+        {
+          "startTime": 2171.336209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Personal Sleep Practice—Sustaining Rest in a Busy World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2646",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T07:56:48.396Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

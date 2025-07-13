@@ -1,0 +1,480 @@
+{
+  "bookId": "2406",
+  "timestamp": "2025-07-10T21:28:33.907Z",
+  "success": false,
+  "processingTime": -1752182552970,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4095,
+    "totalAudioFiles": 13,
+    "totalDuration": 2117.663916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2117.663916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2406/optimized_text/2406.md",
+    "fileSize": 819,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2406.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2406/metadata/2406_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2117.67,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2406/metadata/2406_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2406/metadata/2406_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2406/2406_complete.wav",
+    "duration": 2117.663917,
+    "fileSize": 101647946,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2406/introduction.wav",
+          "duration": 86.615458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.615458,
+          "startTime": 0,
+          "endTime": 86.615458
+        },
+        {
+          "path": "Audio/output/2406/chapter_01.wav",
+          "duration": 259.755875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Happiness—From Fixing Weaknesses to Building Strengths",
+          "actualDuration": 259.755875,
+          "startTime": 88.115458,
+          "endTime": 347.871333
+        },
+        {
+          "path": "Audio/output/2406/chapter_02.wav",
+          "duration": 204.053375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Three Dimensions of Lasting Happiness",
+          "actualDuration": 204.053375,
+          "startTime": 349.371333,
+          "endTime": 553.424708
+        },
+        {
+          "path": "Audio/output/2406/chapter_03.wav",
+          "duration": 191.249958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Measuring and Understanding Well-Being",
+          "actualDuration": 191.249958,
+          "startTime": 554.924708,
+          "endTime": 746.174666
+        },
+        {
+          "path": "Audio/output/2406/chapter_04.wav",
+          "duration": 190.781292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Strengths—Identifying and Using Core Virtues",
+          "actualDuration": 190.781292,
+          "startTime": 747.674666,
+          "endTime": 938.455958
+        },
+        {
+          "path": "Audio/output/2406/chapter_05.wav",
+          "duration": 204.398792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Optimism, Resilience, and the Science of Bouncing Back",
+          "actualDuration": 204.398792,
+          "startTime": 939.955958,
+          "endTime": 1144.35475
+        },
+        {
+          "path": "Audio/output/2406/chapter_06.wav",
+          "duration": 170.869333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Positive Emotion—The Practice of Gratitude and Savoring",
+          "actualDuration": 170.869333,
+          "startTime": 1145.85475,
+          "endTime": 1316.724083
+        },
+        {
+          "path": "Audio/output/2406/chapter_07.wav",
+          "duration": 144.909875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Engagement—Finding Flow in Everyday Life",
+          "actualDuration": 144.909875,
+          "startTime": 1318.224083,
+          "endTime": 1463.1339580000001
+        },
+        {
+          "path": "Audio/output/2406/chapter_08.wav",
+          "duration": 138.396542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Meaning—Connecting to Something Larger",
+          "actualDuration": 138.396542,
+          "startTime": 1464.6339580000001,
+          "endTime": 1603.0305
+        },
+        {
+          "path": "Audio/output/2406/chapter_09.wav",
+          "duration": 130.573625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Relationships and the Social Web of Well-Being",
+          "actualDuration": 130.573625,
+          "startTime": 1604.5305,
+          "endTime": 1735.104125
+        },
+        {
+          "path": "Audio/output/2406/chapter_10.wav",
+          "duration": 131.726208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Overcoming Obstacles—Dealing with Negative Emotions and Setbacks",
+          "actualDuration": 131.726208,
+          "startTime": 1736.604125,
+          "endTime": 1868.330333
+        },
+        {
+          "path": "Audio/output/2406/chapter_11.wav",
+          "duration": 135.721625,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Designing a Life of Fulfillment—Integrating the Pillars",
+          "actualDuration": 135.721625,
+          "startTime": 1869.830333,
+          "endTime": 2005.551958
+        },
+        {
+          "path": "Audio/output/2406/conclusion.wav",
+          "duration": 128.611958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.611958,
+          "startTime": 2007.051958,
+          "endTime": 2135.663916
+        }
+      ],
+      "totalDuration": 2135.663916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.62,
+          "actualStart": 0,
+          "actualEnd": 86.615458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Happiness—From Fixing Weaknesses to Building Strengths",
+          "expectedStart": 86.62,
+          "expectedEnd": 346.38,
+          "actualStart": 88.115458,
+          "actualEnd": 347.871333,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Three Dimensions of Lasting Happiness",
+          "expectedStart": 346.38,
+          "expectedEnd": 550.43,
+          "actualStart": 349.371333,
+          "actualEnd": 553.424708,
+          "timeDifference": 2.9913329999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Measuring and Understanding Well-Being",
+          "expectedStart": 550.43,
+          "expectedEnd": 741.68,
+          "actualStart": 554.924708,
+          "actualEnd": 746.174666,
+          "timeDifference": 4.49470800000006
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Strengths—Identifying and Using Core Virtues",
+          "expectedStart": 741.68,
+          "expectedEnd": 932.46,
+          "actualStart": 747.674666,
+          "actualEnd": 938.455958,
+          "timeDifference": 5.994666000000052
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Optimism, Resilience, and the Science of Bouncing Back",
+          "expectedStart": 932.46,
+          "expectedEnd": 1136.86,
+          "actualStart": 939.955958,
+          "actualEnd": 1144.35475,
+          "timeDifference": 7.495957999999973
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Positive Emotion—The Practice of Gratitude and Savoring",
+          "expectedStart": 1136.86,
+          "expectedEnd": 1307.73,
+          "actualStart": 1145.85475,
+          "actualEnd": 1316.724083,
+          "timeDifference": 8.994750000000067
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Engagement—Finding Flow in Everyday Life",
+          "expectedStart": 1307.73,
+          "expectedEnd": 1452.64,
+          "actualStart": 1318.224083,
+          "actualEnd": 1463.1339580000001,
+          "timeDifference": 10.494083000000046
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Meaning—Connecting to Something Larger",
+          "expectedStart": 1452.64,
+          "expectedEnd": 1591.04,
+          "actualStart": 1464.6339580000001,
+          "actualEnd": 1603.0305,
+          "timeDifference": 11.99395800000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Relationships and the Social Web of Well-Being",
+          "expectedStart": 1591.04,
+          "expectedEnd": 1721.61,
+          "actualStart": 1604.5305,
+          "actualEnd": 1735.104125,
+          "timeDifference": 13.490500000000111
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Overcoming Obstacles—Dealing with Negative Emotions and Setbacks",
+          "expectedStart": 1721.61,
+          "expectedEnd": 1853.34,
+          "actualStart": 1736.604125,
+          "actualEnd": 1868.330333,
+          "timeDifference": 14.994125000000167
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Designing a Life of Fulfillment—Integrating the Pillars",
+          "expectedStart": 1853.34,
+          "expectedEnd": 1989.06,
+          "actualStart": 1869.830333,
+          "actualEnd": 2005.551958,
+          "timeDifference": 16.49033300000019
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1989.06,
+          "expectedEnd": 2117.67,
+          "actualStart": 2007.051958,
+          "actualEnd": 2135.663916,
+          "timeDifference": 17.991958000000068
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.615458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Happiness—From Fixing Weaknesses to Building Strengths"
+        },
+        {
+          "startTime": 347.871333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Happiness—From Fixing Weaknesses to Building Strengths and Chapter 2 The Three Dimensions of Lasting Happiness"
+        },
+        {
+          "startTime": 553.424708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Three Dimensions of Lasting Happiness and Chapter 3 Measuring and Understanding Well-Being"
+        },
+        {
+          "startTime": 746.174666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Measuring and Understanding Well-Being and Chapter 4 The Power of Strengths—Identifying and Using Core Virtues"
+        },
+        {
+          "startTime": 938.455958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Strengths—Identifying and Using Core Virtues and Chapter 5 Optimism, Resilience, and the Science of Bouncing Back"
+        },
+        {
+          "startTime": 1144.35475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Optimism, Resilience, and the Science of Bouncing Back and Chapter 6 Cultivating Positive Emotion—The Practice of Gratitude and Savoring"
+        },
+        {
+          "startTime": 1316.724083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Positive Emotion—The Practice of Gratitude and Savoring and Chapter 7 Deepening Engagement—Finding Flow in Everyday Life"
+        },
+        {
+          "startTime": 1463.1339580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Engagement—Finding Flow in Everyday Life and Chapter 8 Building Meaning—Connecting to Something Larger"
+        },
+        {
+          "startTime": 1603.0305,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Meaning—Connecting to Something Larger and Chapter 9 Relationships and the Social Web of Well-Being"
+        },
+        {
+          "startTime": 1735.104125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Relationships and the Social Web of Well-Being and Chapter 10 Overcoming Obstacles—Dealing with Negative Emotions and Setbacks"
+        },
+        {
+          "startTime": 1868.330333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Overcoming Obstacles—Dealing with Negative Emotions and Setbacks and Chapter 11 Designing a Life of Fulfillment—Integrating the Pillars"
+        },
+        {
+          "startTime": 2005.551958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Designing a Life of Fulfillment—Integrating the Pillars and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2406",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:22:34.292Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2579",
+  "timestamp": "2025-07-11T06:52:13.169Z",
+  "success": false,
+  "processingTime": -1752216496100,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4302,
+    "totalAudioFiles": 12,
+    "totalDuration": 1990.697209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1990.697209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2579/optimized_text/2579.md",
+    "fileSize": 791,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "2579.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2579/metadata/2579_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1990.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2579/metadata/2579_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2579/metadata/2579_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2579/2579_complete.wav",
+    "duration": 1990.697208,
+    "fileSize": 95553544,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2579/introduction.wav",
+          "duration": 99.563958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.563958,
+          "startTime": 0,
+          "endTime": 99.563958
+        },
+        {
+          "path": "Audio/output/2579/chapter_01.wav",
+          "duration": 223.034375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Oxford’s Quiet Corners: Where Friendships Begin",
+          "actualDuration": 223.034375,
+          "startTime": 101.063958,
+          "endTime": 324.098333
+        },
+        {
+          "path": "Audio/output/2579/chapter_02.wav",
+          "duration": 241.838417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The People Behind the Stories: Lewis, Tolkien, Williams, and Their Circle",
+          "actualDuration": 241.838417,
+          "startTime": 325.598333,
+          "endTime": 567.4367500000001
+        },
+        {
+          "path": "Audio/output/2579/chapter_03.wav",
+          "duration": 202.972792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Shared Imagination: How Collaboration Shaped Their Work",
+          "actualDuration": 202.972792,
+          "startTime": 568.9367500000001,
+          "endTime": 771.9095420000001
+        },
+        {
+          "path": "Audio/output/2579/chapter_04.wav",
+          "duration": 167.281333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Faith, Doubt, and the Search for Meaning",
+          "actualDuration": 167.281333,
+          "startTime": 773.4095420000001,
+          "endTime": 940.6908750000001
+        },
+        {
+          "path": "Audio/output/2579/chapter_05.wav",
+          "duration": 186.184792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Oxford’s Influence: The Social and Academic World Around the Inklings",
+          "actualDuration": 186.184792,
+          "startTime": 942.1908750000001,
+          "endTime": 1128.375667
+        },
+        {
+          "path": "Audio/output/2579/chapter_06.wav",
+          "duration": 180.896125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Strains of Success: When Friendship Meets Ambition",
+          "actualDuration": 180.896125,
+          "startTime": 1129.875667,
+          "endTime": 1310.771792
+        },
+        {
+          "path": "Audio/output/2579/chapter_07.wav",
+          "duration": 149.183083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadow of War: Loss, Change, and the End of an Era",
+          "actualDuration": 149.183083,
+          "startTime": 1312.271792,
+          "endTime": 1461.454875
+        },
+        {
+          "path": "Audio/output/2579/chapter_08.wav",
+          "duration": 157.592,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Legacy of the Inklings: Stories That Outlast Their Tellers",
+          "actualDuration": 157.592,
+          "startTime": 1462.954875,
+          "endTime": 1620.546875
+        },
+        {
+          "path": "Audio/output/2579/chapter_09.wav",
+          "duration": 147.763667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Friendship and Creativity: What the Inklings Teach Us Now",
+          "actualDuration": 147.763667,
+          "startTime": 1622.046875,
+          "endTime": 1769.810542
+        },
+        {
+          "path": "Audio/output/2579/chapter_10.wav",
+          "duration": 112.395417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Magic: Why Their Story Still Matters",
+          "actualDuration": 112.395417,
+          "startTime": 1771.310542,
+          "endTime": 1883.705959
+        },
+        {
+          "path": "Audio/output/2579/conclusion.wav",
+          "duration": 121.99125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.99125,
+          "startTime": 1885.205959,
+          "endTime": 2007.197209
+        }
+      ],
+      "totalDuration": 2007.197209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.56,
+          "actualStart": 0,
+          "actualEnd": 99.563958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Oxford’s Quiet Corners: Where Friendships Begin",
+          "expectedStart": 99.56,
+          "expectedEnd": 322.59,
+          "actualStart": 101.063958,
+          "actualEnd": 324.098333,
+          "timeDifference": 1.5039579999999972
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The People Behind the Stories: Lewis, Tolkien, Williams, and Their Circle",
+          "expectedStart": 322.59,
+          "expectedEnd": 564.43,
+          "actualStart": 325.598333,
+          "actualEnd": 567.4367500000001,
+          "timeDifference": 3.00833300000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Shared Imagination: How Collaboration Shaped Their Work",
+          "expectedStart": 564.43,
+          "expectedEnd": 767.4,
+          "actualStart": 568.9367500000001,
+          "actualEnd": 771.9095420000001,
+          "timeDifference": 4.506750000000125
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Faith, Doubt, and the Search for Meaning",
+          "expectedStart": 767.4,
+          "expectedEnd": 934.68,
+          "actualStart": 773.4095420000001,
+          "actualEnd": 940.6908750000001,
+          "timeDifference": 6.009542000000124
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Oxford’s Influence: The Social and Academic World Around the Inklings",
+          "expectedStart": 934.68,
+          "expectedEnd": 1120.86,
+          "actualStart": 942.1908750000001,
+          "actualEnd": 1128.375667,
+          "timeDifference": 7.510875000000169
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Strains of Success: When Friendship Meets Ambition",
+          "expectedStart": 1120.86,
+          "expectedEnd": 1301.76,
+          "actualStart": 1129.875667,
+          "actualEnd": 1310.771792,
+          "timeDifference": 9.015667000000121
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadow of War: Loss, Change, and the End of an Era",
+          "expectedStart": 1301.76,
+          "expectedEnd": 1450.94,
+          "actualStart": 1312.271792,
+          "actualEnd": 1461.454875,
+          "timeDifference": 10.511792000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Legacy of the Inklings: Stories That Outlast Their Tellers",
+          "expectedStart": 1450.94,
+          "expectedEnd": 1608.53,
+          "actualStart": 1462.954875,
+          "actualEnd": 1620.546875,
+          "timeDifference": 12.014874999999847
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Friendship and Creativity: What the Inklings Teach Us Now",
+          "expectedStart": 1608.53,
+          "expectedEnd": 1756.29,
+          "actualStart": 1622.046875,
+          "actualEnd": 1769.810542,
+          "timeDifference": 13.516875000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Magic: Why Their Story Still Matters",
+          "expectedStart": 1756.29,
+          "expectedEnd": 1868.69,
+          "actualStart": 1771.310542,
+          "actualEnd": 1883.705959,
+          "timeDifference": 15.020541999999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1868.69,
+          "expectedEnd": 1990.68,
+          "actualStart": 1885.205959,
+          "actualEnd": 2007.197209,
+          "timeDifference": 16.51595899999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.563958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Oxford’s Quiet Corners: Where Friendships Begin"
+        },
+        {
+          "startTime": 324.098333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Oxford’s Quiet Corners: Where Friendships Begin and Chapter 2 The People Behind the Stories: Lewis, Tolkien, Williams, and Their Circle"
+        },
+        {
+          "startTime": 567.4367500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The People Behind the Stories: Lewis, Tolkien, Williams, and Their Circle and Chapter 3 The Power of Shared Imagination: How Collaboration Shaped Their Work"
+        },
+        {
+          "startTime": 771.9095420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Shared Imagination: How Collaboration Shaped Their Work and Chapter 4 Faith, Doubt, and the Search for Meaning"
+        },
+        {
+          "startTime": 940.6908750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Faith, Doubt, and the Search for Meaning and Chapter 5 Oxford’s Influence: The Social and Academic World Around the Inklings"
+        },
+        {
+          "startTime": 1128.375667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Oxford’s Influence: The Social and Academic World Around the Inklings and Chapter 6 The Strains of Success: When Friendship Meets Ambition"
+        },
+        {
+          "startTime": 1310.771792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Strains of Success: When Friendship Meets Ambition and Chapter 7 The Shadow of War: Loss, Change, and the End of an Era"
+        },
+        {
+          "startTime": 1461.454875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadow of War: Loss, Change, and the End of an Era and Chapter 8 The Legacy of the Inklings: Stories That Outlast Their Tellers"
+        },
+        {
+          "startTime": 1620.546875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Legacy of the Inklings: Stories That Outlast Their Tellers and Chapter 9 Lessons in Friendship and Creativity: What the Inklings Teach Us Now"
+        },
+        {
+          "startTime": 1769.810542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Friendship and Creativity: What the Inklings Teach Us Now and Chapter 10 The Enduring Magic: Why Their Story Still Matters"
+        },
+        {
+          "startTime": 1883.705959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Magic: Why Their Story Still Matters and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2579",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:48:16.587Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2503",
+  "timestamp": "2025-07-11T02:04:19.083Z",
+  "success": false,
+  "processingTime": -1752199216248,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4783,
+    "totalAudioFiles": 12,
+    "totalDuration": 1986.8315389999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1986.8315389999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2503/optimized_text/2503.md",
+    "fileSize": 658,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2503.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2503/metadata/2503_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1986.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2503/metadata/2503_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2503/metadata/2503_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2503/2503_complete.wav",
+    "duration": 1986.831542,
+    "fileSize": 95367992,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2503/introduction.wav",
+          "duration": 85.452708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.452708,
+          "startTime": 0,
+          "endTime": 85.452708
+        },
+        {
+          "path": "Audio/output/2503/chapter_01.wav",
+          "duration": 182.488583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years Shaped by Loss and Longing",
+          "actualDuration": 182.488583,
+          "startTime": 86.952708,
+          "endTime": 269.441291
+        },
+        {
+          "path": "Audio/output/2503/chapter_02.wav",
+          "duration": 187.639083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Identity Through Music and Friendship",
+          "actualDuration": 187.639083,
+          "startTime": 270.941291,
+          "endTime": 458.580374
+        },
+        {
+          "path": "Audio/output/2503/chapter_03.wav",
+          "duration": 236.722292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Beatles’ Rise and the Weight of Fame",
+          "actualDuration": 236.722292,
+          "startTime": 460.080374,
+          "endTime": 696.802666
+        },
+        {
+          "path": "Audio/output/2503/chapter_04.wav",
+          "duration": 205.163208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Searching for Love, Meaning, and a New Voice",
+          "actualDuration": 205.163208,
+          "startTime": 698.302666,
+          "endTime": 903.465874
+        },
+        {
+          "path": "Audio/output/2503/chapter_05.wav",
+          "duration": 196.056083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle Between Public Persona and Private Self",
+          "actualDuration": 196.056083,
+          "startTime": 904.965874,
+          "endTime": 1101.021957
+        },
+        {
+          "path": "Audio/output/2503/chapter_06.wav",
+          "duration": 192.212833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Retreat, Reflection, and the Search for Peace",
+          "actualDuration": 192.212833,
+          "startTime": 1102.521957,
+          "endTime": 1294.73479
+        },
+        {
+          "path": "Audio/output/2503/chapter_07.wav",
+          "duration": 165.27675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Fatherhood, Domesticity, and the Challenge of Ordinary Life",
+          "actualDuration": 165.27675,
+          "startTime": 1296.23479,
+          "endTime": 1461.51154
+        },
+        {
+          "path": "Audio/output/2503/chapter_08.wav",
+          "duration": 153.33025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reemergence, Renewal, and the Power of Vulnerability",
+          "actualDuration": 153.33025,
+          "startTime": 1463.01154,
+          "endTime": 1616.34179
+        },
+        {
+          "path": "Audio/output/2503/chapter_09.wav",
+          "duration": 155.973958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy, Loss, and the Echoes of a Life",
+          "actualDuration": 155.973958,
+          "startTime": 1617.84179,
+          "endTime": 1773.815748
+        },
+        {
+          "path": "Audio/output/2503/chapter_10.wav",
+          "duration": 120.572583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons of John’s Journey",
+          "actualDuration": 120.572583,
+          "startTime": 1775.315748,
+          "endTime": 1895.8883309999999
+        },
+        {
+          "path": "Audio/output/2503/conclusion.wav",
+          "duration": 105.943208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.943208,
+          "startTime": 1897.3883309999999,
+          "endTime": 2003.3315389999998
+        }
+      ],
+      "totalDuration": 2003.3315389999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.45,
+          "actualStart": 0,
+          "actualEnd": 85.452708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years Shaped by Loss and Longing",
+          "expectedStart": 85.45,
+          "expectedEnd": 267.94,
+          "actualStart": 86.952708,
+          "actualEnd": 269.441291,
+          "timeDifference": 1.5027079999999984
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Identity Through Music and Friendship",
+          "expectedStart": 267.94,
+          "expectedEnd": 455.58,
+          "actualStart": 270.941291,
+          "actualEnd": 458.580374,
+          "timeDifference": 3.0012909999999806
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Beatles’ Rise and the Weight of Fame",
+          "expectedStart": 455.58,
+          "expectedEnd": 692.3,
+          "actualStart": 460.080374,
+          "actualEnd": 696.802666,
+          "timeDifference": 4.500374000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Searching for Love, Meaning, and a New Voice",
+          "expectedStart": 692.3,
+          "expectedEnd": 897.46,
+          "actualStart": 698.302666,
+          "actualEnd": 903.465874,
+          "timeDifference": 6.00266600000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle Between Public Persona and Private Self",
+          "expectedStart": 897.46,
+          "expectedEnd": 1093.52,
+          "actualStart": 904.965874,
+          "actualEnd": 1101.021957,
+          "timeDifference": 7.505873999999949
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Retreat, Reflection, and the Search for Peace",
+          "expectedStart": 1093.52,
+          "expectedEnd": 1285.73,
+          "actualStart": 1102.521957,
+          "actualEnd": 1294.73479,
+          "timeDifference": 9.001956999999948
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Fatherhood, Domesticity, and the Challenge of Ordinary Life",
+          "expectedStart": 1285.73,
+          "expectedEnd": 1451.01,
+          "actualStart": 1296.23479,
+          "actualEnd": 1461.51154,
+          "timeDifference": 10.504789999999957
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reemergence, Renewal, and the Power of Vulnerability",
+          "expectedStart": 1451.01,
+          "expectedEnd": 1604.34,
+          "actualStart": 1463.01154,
+          "actualEnd": 1616.34179,
+          "timeDifference": 12.001539999999977
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy, Loss, and the Echoes of a Life",
+          "expectedStart": 1604.34,
+          "expectedEnd": 1760.31,
+          "actualStart": 1617.84179,
+          "actualEnd": 1773.815748,
+          "timeDifference": 13.501790000000028
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons of John’s Journey",
+          "expectedStart": 1760.31,
+          "expectedEnd": 1880.88,
+          "actualStart": 1775.315748,
+          "actualEnd": 1895.8883309999999,
+          "timeDifference": 15.00574800000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1880.88,
+          "expectedEnd": 1986.82,
+          "actualStart": 1897.3883309999999,
+          "actualEnd": 2003.3315389999998,
+          "timeDifference": 16.50833099999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.452708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years Shaped by Loss and Longing"
+        },
+        {
+          "startTime": 269.441291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years Shaped by Loss and Longing and Chapter 2 Finding Identity Through Music and Friendship"
+        },
+        {
+          "startTime": 458.580374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Identity Through Music and Friendship and Chapter 3 The Beatles’ Rise and the Weight of Fame"
+        },
+        {
+          "startTime": 696.802666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Beatles’ Rise and the Weight of Fame and Chapter 4 Searching for Love, Meaning, and a New Voice"
+        },
+        {
+          "startTime": 903.465874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Searching for Love, Meaning, and a New Voice and Chapter 5 The Struggle Between Public Persona and Private Self"
+        },
+        {
+          "startTime": 1101.021957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle Between Public Persona and Private Self and Chapter 6 Retreat, Reflection, and the Search for Peace"
+        },
+        {
+          "startTime": 1294.73479,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Retreat, Reflection, and the Search for Peace and Chapter 7 Fatherhood, Domesticity, and the Challenge of Ordinary Life"
+        },
+        {
+          "startTime": 1461.51154,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Fatherhood, Domesticity, and the Challenge of Ordinary Life and Chapter 8 Reemergence, Renewal, and the Power of Vulnerability"
+        },
+        {
+          "startTime": 1616.34179,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reemergence, Renewal, and the Power of Vulnerability and Chapter 9 Legacy, Loss, and the Echoes of a Life"
+        },
+        {
+          "startTime": 1773.815748,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy, Loss, and the Echoes of a Life and Chapter 10 The Enduring Lessons of John’s Journey"
+        },
+        {
+          "startTime": 1895.8883309999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons of John’s Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2503",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T02:00:17.816Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

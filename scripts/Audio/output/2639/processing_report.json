@@ -1,0 +1,456 @@
+{
+  "bookId": "2639",
+  "timestamp": "2025-07-11T09:22:38.981Z",
+  "success": false,
+  "processingTime": -1752225478979,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3648,
+    "totalAudioFiles": 12,
+    "totalDuration": 1873.3111260000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1873.3111260000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2639/optimized_text/2639.md",
+    "fileSize": 831,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2639.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2639/metadata/2639_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1873.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2639/metadata/2639_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2639/metadata/2639_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2639/2639_complete.wav",
+    "duration": 1873.311125,
+    "fileSize": 89919012,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2639/introduction.wav",
+          "duration": 93.134583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.134583,
+          "startTime": 0,
+          "endTime": 93.134583
+        },
+        {
+          "path": "Audio/output/2639/chapter_01.wav",
+          "duration": 203.695833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building the Foundation: Why Honest Conversations Matter",
+          "actualDuration": 203.695833,
+          "startTime": 94.634583,
+          "endTime": 298.330416
+        },
+        {
+          "path": "Audio/output/2639/chapter_02.wav",
+          "duration": 192.758042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Vulnerability: Creating Safety for Authentic Connection",
+          "actualDuration": 192.758042,
+          "startTime": 299.830416,
+          "endTime": 492.588458
+        },
+        {
+          "path": "Audio/output/2639/chapter_03.wav",
+          "duration": 184.145042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Moving Beyond Avoidance: Facing Relationship Pain Points Directly",
+          "actualDuration": 184.145042,
+          "startTime": 494.088458,
+          "endTime": 678.2335
+        },
+        {
+          "path": "Audio/output/2639/chapter_04.wav",
+          "duration": 196.452917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Deepening Understanding: The Power of Empathy and Emotional Intelligence",
+          "actualDuration": 196.452917,
+          "startTime": 679.7335,
+          "endTime": 876.1864170000001
+        },
+        {
+          "path": "Audio/output/2639/chapter_05.wav",
+          "duration": 170.537083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Expressing Needs, Fears, and Desires: The Path to Mutual Understanding",
+          "actualDuration": 170.537083,
+          "startTime": 877.6864170000001,
+          "endTime": 1048.2235
+        },
+        {
+          "path": "Audio/output/2639/chapter_06.wav",
+          "duration": 165.007042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Conflict: Turning Disagreements into Growth",
+          "actualDuration": 165.007042,
+          "startTime": 1049.7235,
+          "endTime": 1214.730542
+        },
+        {
+          "path": "Audio/output/2639/chapter_07.wav",
+          "duration": 164.716,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Repairing After Hurt: The Art of Apology and Forgiveness",
+          "actualDuration": 164.716,
+          "startTime": 1216.230542,
+          "endTime": 1380.9465420000001
+        },
+        {
+          "path": "Audio/output/2639/chapter_08.wav",
+          "duration": 128.332667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Trust: Consistency, Transparency, and Reliability",
+          "actualDuration": 128.332667,
+          "startTime": 1382.4465420000001,
+          "endTime": 1510.779209
+        },
+        {
+          "path": "Audio/output/2639/chapter_09.wav",
+          "duration": 133.014417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Connection: Rituals, Play, and Shared Meaning",
+          "actualDuration": 133.014417,
+          "startTime": 1512.279209,
+          "endTime": 1645.2936260000001
+        },
+        {
+          "path": "Audio/output/2639/chapter_10.wav",
+          "duration": 133.688583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Growing Together: Embracing Change and Supporting Each Other’s Evolution",
+          "actualDuration": 133.688583,
+          "startTime": 1646.7936260000001,
+          "endTime": 1780.4822090000002
+        },
+        {
+          "path": "Audio/output/2639/conclusion.wav",
+          "duration": 107.828917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.828917,
+          "startTime": 1781.9822090000002,
+          "endTime": 1889.8111260000003
+        }
+      ],
+      "totalDuration": 1889.8111260000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.13,
+          "actualStart": 0,
+          "actualEnd": 93.134583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building the Foundation: Why Honest Conversations Matter",
+          "expectedStart": 93.13,
+          "expectedEnd": 296.83,
+          "actualStart": 94.634583,
+          "actualEnd": 298.330416,
+          "timeDifference": 1.5045830000000109
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Vulnerability: Creating Safety for Authentic Connection",
+          "expectedStart": 296.83,
+          "expectedEnd": 489.59,
+          "actualStart": 299.830416,
+          "actualEnd": 492.588458,
+          "timeDifference": 3.0004160000000297
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Moving Beyond Avoidance: Facing Relationship Pain Points Directly",
+          "expectedStart": 489.59,
+          "expectedEnd": 673.74,
+          "actualStart": 494.088458,
+          "actualEnd": 678.2335,
+          "timeDifference": 4.498458000000028
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Deepening Understanding: The Power of Empathy and Emotional Intelligence",
+          "expectedStart": 673.74,
+          "expectedEnd": 870.19,
+          "actualStart": 679.7335,
+          "actualEnd": 876.1864170000001,
+          "timeDifference": 5.99350000000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Expressing Needs, Fears, and Desires: The Path to Mutual Understanding",
+          "expectedStart": 870.19,
+          "expectedEnd": 1040.73,
+          "actualStart": 877.6864170000001,
+          "actualEnd": 1048.2235,
+          "timeDifference": 7.496417000000065
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Conflict: Turning Disagreements into Growth",
+          "expectedStart": 1040.73,
+          "expectedEnd": 1205.74,
+          "actualStart": 1049.7235,
+          "actualEnd": 1214.730542,
+          "timeDifference": 8.99350000000004
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Repairing After Hurt: The Art of Apology and Forgiveness",
+          "expectedStart": 1205.74,
+          "expectedEnd": 1370.46,
+          "actualStart": 1216.230542,
+          "actualEnd": 1380.9465420000001,
+          "timeDifference": 10.490542000000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Trust: Consistency, Transparency, and Reliability",
+          "expectedStart": 1370.46,
+          "expectedEnd": 1498.79,
+          "actualStart": 1382.4465420000001,
+          "actualEnd": 1510.779209,
+          "timeDifference": 11.9865420000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Connection: Rituals, Play, and Shared Meaning",
+          "expectedStart": 1498.79,
+          "expectedEnd": 1631.8,
+          "actualStart": 1512.279209,
+          "actualEnd": 1645.2936260000001,
+          "timeDifference": 13.489209000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Growing Together: Embracing Change and Supporting Each Other’s Evolution",
+          "expectedStart": 1631.8,
+          "expectedEnd": 1765.49,
+          "actualStart": 1646.7936260000001,
+          "actualEnd": 1780.4822090000002,
+          "timeDifference": 14.993626000000177
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1765.49,
+          "expectedEnd": 1873.32,
+          "actualStart": 1781.9822090000002,
+          "actualEnd": 1889.8111260000003,
+          "timeDifference": 16.49220900000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.134583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building the Foundation: Why Honest Conversations Matter"
+        },
+        {
+          "startTime": 298.330416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building the Foundation: Why Honest Conversations Matter and Chapter 2 The Role of Vulnerability: Creating Safety for Authentic Connection"
+        },
+        {
+          "startTime": 492.588458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Vulnerability: Creating Safety for Authentic Connection and Chapter 3 Moving Beyond Avoidance: Facing Relationship Pain Points Directly"
+        },
+        {
+          "startTime": 678.2335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Moving Beyond Avoidance: Facing Relationship Pain Points Directly and Chapter 4 Deepening Understanding: The Power of Empathy and Emotional Intelligence"
+        },
+        {
+          "startTime": 876.1864170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Deepening Understanding: The Power of Empathy and Emotional Intelligence and Chapter 5 Expressing Needs, Fears, and Desires: The Path to Mutual Understanding"
+        },
+        {
+          "startTime": 1048.2235,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Expressing Needs, Fears, and Desires: The Path to Mutual Understanding and Chapter 6 Navigating Conflict: Turning Disagreements into Growth"
+        },
+        {
+          "startTime": 1214.730542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Conflict: Turning Disagreements into Growth and Chapter 7 Repairing After Hurt: The Art of Apology and Forgiveness"
+        },
+        {
+          "startTime": 1380.9465420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Repairing After Hurt: The Art of Apology and Forgiveness and Chapter 8 Building Trust: Consistency, Transparency, and Reliability"
+        },
+        {
+          "startTime": 1510.779209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Trust: Consistency, Transparency, and Reliability and Chapter 9 Sustaining Connection: Rituals, Play, and Shared Meaning"
+        },
+        {
+          "startTime": 1645.2936260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Connection: Rituals, Play, and Shared Meaning and Chapter 10 Growing Together: Embracing Change and Supporting Each Other’s Evolution"
+        },
+        {
+          "startTime": 1780.4822090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Growing Together: Embracing Change and Supporting Each Other’s Evolution and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2639",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T09:17:59.496Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

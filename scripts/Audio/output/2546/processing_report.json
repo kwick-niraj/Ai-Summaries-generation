@@ -1,0 +1,456 @@
+{
+  "bookId": "2546",
+  "timestamp": "2025-07-11T04:17:59.929Z",
+  "success": false,
+  "processingTime": -1752207089906,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4597,
+    "totalAudioFiles": 12,
+    "totalDuration": 2098.130875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2098.130875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2546/optimized_text/2546.md",
+    "fileSize": 579,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2546.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2546/metadata/2546_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2098.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2546/metadata/2546_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2546/metadata/2546_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2546/2546_complete.wav",
+    "duration": 2098.130875,
+    "fileSize": 100710360,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2546/introduction.wav",
+          "duration": 84.691292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.691292,
+          "startTime": 0,
+          "endTime": 84.691292
+        },
+        {
+          "path": "Audio/output/2546/chapter_01.wav",
+          "duration": 221.769125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Search for Belonging",
+          "actualDuration": 221.769125,
+          "startTime": 86.191292,
+          "endTime": 307.960417
+        },
+        {
+          "path": "Audio/output/2546/chapter_02.wav",
+          "duration": 271.625667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a Magician",
+          "actualDuration": 271.625667,
+          "startTime": 309.460417,
+          "endTime": 581.086084
+        },
+        {
+          "path": "Audio/output/2546/chapter_03.wav",
+          "duration": 232.474958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Daring Escapes and the Birth of a Legend",
+          "actualDuration": 232.474958,
+          "startTime": 582.586084,
+          "endTime": 815.061042
+        },
+        {
+          "path": "Audio/output/2546/chapter_04.wav",
+          "duration": 221.295375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Innovation, Rivalry, and the Changing Face of Magic",
+          "actualDuration": 221.295375,
+          "startTime": 816.561042,
+          "endTime": 1037.856417
+        },
+        {
+          "path": "Audio/output/2546/chapter_05.wav",
+          "duration": 177.718708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Battle Against Deception and the Power of Skepticism",
+          "actualDuration": 177.718708,
+          "startTime": 1039.356417,
+          "endTime": 1217.0751249999998
+        },
+        {
+          "path": "Audio/output/2546/chapter_06.wav",
+          "duration": 185.941417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Love, Loss, and the Cost of Greatness",
+          "actualDuration": 185.941417,
+          "startTime": 1218.5751249999998,
+          "endTime": 1404.5165419999998
+        },
+        {
+          "path": "Audio/output/2546/chapter_07.wav",
+          "duration": 161.721,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Relentless Pursuit of Truth",
+          "actualDuration": 161.721,
+          "startTime": 1406.0165419999998,
+          "endTime": 1567.7375419999998
+        },
+        {
+          "path": "Audio/output/2546/chapter_08.wav",
+          "duration": 159.358083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Mortality and the Final Escape",
+          "actualDuration": 159.358083,
+          "startTime": 1569.2375419999998,
+          "endTime": 1728.595625
+        },
+        {
+          "path": "Audio/output/2546/chapter_09.wav",
+          "duration": 136.516,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy That Endures",
+          "actualDuration": 136.516,
+          "startTime": 1730.095625,
+          "endTime": 1866.611625
+        },
+        {
+          "path": "Audio/output/2546/chapter_10.wav",
+          "duration": 128.801667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Dreamers and Doubters",
+          "actualDuration": 128.801667,
+          "startTime": 1868.111625,
+          "endTime": 1996.913292
+        },
+        {
+          "path": "Audio/output/2546/conclusion.wav",
+          "duration": 116.217583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.217583,
+          "startTime": 1998.413292,
+          "endTime": 2114.630875
+        }
+      ],
+      "totalDuration": 2114.630875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.69,
+          "actualStart": 0,
+          "actualEnd": 84.691292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Search for Belonging",
+          "expectedStart": 84.69,
+          "expectedEnd": 306.46,
+          "actualStart": 86.191292,
+          "actualEnd": 307.960417,
+          "timeDifference": 1.5012920000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a Magician",
+          "expectedStart": 306.46,
+          "expectedEnd": 578.09,
+          "actualStart": 309.460417,
+          "actualEnd": 581.086084,
+          "timeDifference": 3.000417000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Daring Escapes and the Birth of a Legend",
+          "expectedStart": 578.09,
+          "expectedEnd": 810.56,
+          "actualStart": 582.586084,
+          "actualEnd": 815.061042,
+          "timeDifference": 4.496083999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Innovation, Rivalry, and the Changing Face of Magic",
+          "expectedStart": 810.56,
+          "expectedEnd": 1031.86,
+          "actualStart": 816.561042,
+          "actualEnd": 1037.856417,
+          "timeDifference": 6.001042000000098
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Battle Against Deception and the Power of Skepticism",
+          "expectedStart": 1031.86,
+          "expectedEnd": 1209.58,
+          "actualStart": 1039.356417,
+          "actualEnd": 1217.0751249999998,
+          "timeDifference": 7.496417000000065
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Love, Loss, and the Cost of Greatness",
+          "expectedStart": 1209.58,
+          "expectedEnd": 1395.52,
+          "actualStart": 1218.5751249999998,
+          "actualEnd": 1404.5165419999998,
+          "timeDifference": 8.995124999999916
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Relentless Pursuit of Truth",
+          "expectedStart": 1395.52,
+          "expectedEnd": 1557.24,
+          "actualStart": 1406.0165419999998,
+          "actualEnd": 1567.7375419999998,
+          "timeDifference": 10.496541999999863
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Mortality and the Final Escape",
+          "expectedStart": 1557.24,
+          "expectedEnd": 1716.6,
+          "actualStart": 1569.2375419999998,
+          "actualEnd": 1728.595625,
+          "timeDifference": 11.99754199999984
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy That Endures",
+          "expectedStart": 1716.6,
+          "expectedEnd": 1853.12,
+          "actualStart": 1730.095625,
+          "actualEnd": 1866.611625,
+          "timeDifference": 13.495625000000018
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Dreamers and Doubters",
+          "expectedStart": 1853.12,
+          "expectedEnd": 1981.92,
+          "actualStart": 1868.111625,
+          "actualEnd": 1996.913292,
+          "timeDifference": 14.991625000000113
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1981.92,
+          "expectedEnd": 2098.14,
+          "actualStart": 1998.413292,
+          "actualEnd": 2114.630875,
+          "timeDifference": 16.493291999999883
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.691292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Struggles and the Search for Belonging"
+        },
+        {
+          "startTime": 307.960417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Search for Belonging and Chapter 2 The Making of a Magician"
+        },
+        {
+          "startTime": 581.086084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a Magician and Chapter 3 Daring Escapes and the Birth of a Legend"
+        },
+        {
+          "startTime": 815.061042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Daring Escapes and the Birth of a Legend and Chapter 4 Innovation, Rivalry, and the Changing Face of Magic"
+        },
+        {
+          "startTime": 1037.856417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Innovation, Rivalry, and the Changing Face of Magic and Chapter 5 The Battle Against Deception and the Power of Skepticism"
+        },
+        {
+          "startTime": 1217.0751249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Battle Against Deception and the Power of Skepticism and Chapter 6 Love, Loss, and the Cost of Greatness"
+        },
+        {
+          "startTime": 1404.5165419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Love, Loss, and the Cost of Greatness and Chapter 7 The Relentless Pursuit of Truth"
+        },
+        {
+          "startTime": 1567.7375419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Relentless Pursuit of Truth and Chapter 8 Facing Mortality and the Final Escape"
+        },
+        {
+          "startTime": 1728.595625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Mortality and the Final Escape and Chapter 9 The Legacy That Endures"
+        },
+        {
+          "startTime": 1866.611625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy That Endures and Chapter 10 Lessons for Dreamers and Doubters"
+        },
+        {
+          "startTime": 1996.913292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Dreamers and Doubters and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2546",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:11:31.605Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

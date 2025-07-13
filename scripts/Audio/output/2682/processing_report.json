@@ -1,0 +1,456 @@
+{
+  "bookId": "2682",
+  "timestamp": "2025-07-12T10:44:44.181Z",
+  "success": false,
+  "processingTime": -1752316860873,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3982,
+    "totalAudioFiles": 12,
+    "totalDuration": 1793.1252920000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1793.1252920000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2682/optimized_text/2682.md",
+    "fileSize": 779,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2682.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2682/metadata/2682_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1793.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2682/metadata/2682_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2682/metadata/2682_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2682/2682_complete.wav",
+    "duration": 1793.125292,
+    "fileSize": 86070092,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2682/introduction.wav",
+          "duration": 91.342167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.342167,
+          "startTime": 0,
+          "endTime": 91.342167
+        },
+        {
+          "path": "Audio/output/2682/chapter_01.wav",
+          "duration": 169.312958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Nation at a Crossroads: The Setting and the Stakes",
+          "actualDuration": 169.312958,
+          "startTime": 92.842167,
+          "endTime": 262.155125
+        },
+        {
+          "path": "Audio/output/2682/chapter_02.wav",
+          "duration": 182.09075,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Remembering the Fallen: Honoring Sacrifice and Duty",
+          "actualDuration": 182.09075,
+          "startTime": 263.655125,
+          "endTime": 445.745875
+        },
+        {
+          "path": "Audio/output/2682/chapter_03.wav",
+          "duration": 155.923125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Promise of Equality: Revisiting the Nation’s Founding Ideals",
+          "actualDuration": 155.923125,
+          "startTime": 447.245875,
+          "endTime": 603.169
+        },
+        {
+          "path": "Audio/output/2682/chapter_04.wav",
+          "duration": 177.500167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Living’s Responsibility: Carrying Forward the Work of the Fallen",
+          "actualDuration": 177.500167,
+          "startTime": 604.669,
+          "endTime": 782.169167
+        },
+        {
+          "path": "Audio/output/2682/chapter_05.wav",
+          "duration": 173.485417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Democracy’s Challenge: Government by the People, For the People",
+          "actualDuration": 173.485417,
+          "startTime": 783.669167,
+          "endTime": 957.154584
+        },
+        {
+          "path": "Audio/output/2682/chapter_06.wav",
+          "duration": 131.247,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Words: Lincoln’s Brief but Lasting Message",
+          "actualDuration": 131.247,
+          "startTime": 958.654584,
+          "endTime": 1089.901584
+        },
+        {
+          "path": "Audio/output/2682/chapter_07.wav",
+          "duration": 145.017167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Memory and Meaning: How Gettysburg Shaped the National Story",
+          "actualDuration": 145.017167,
+          "startTime": 1091.401584,
+          "endTime": 1236.418751
+        },
+        {
+          "path": "Audio/output/2682/chapter_08.wav",
+          "duration": 146.095958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Struggle: Equality and Justice in Changing Times",
+          "actualDuration": 146.095958,
+          "startTime": 1237.918751,
+          "endTime": 1384.014709
+        },
+        {
+          "path": "Audio/output/2682/chapter_09.wav",
+          "duration": 161.90175,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Renewal and Hope: The Address in Times of Crisis",
+          "actualDuration": 161.90175,
+          "startTime": 1385.514709,
+          "endTime": 1547.416459
+        },
+        {
+          "path": "Audio/output/2682/chapter_10.wav",
+          "duration": 146.178458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Living Legacy: Carrying the Message Forward",
+          "actualDuration": 146.178458,
+          "startTime": 1548.916459,
+          "endTime": 1695.0949170000001
+        },
+        {
+          "path": "Audio/output/2682/conclusion.wav",
+          "duration": 113.030375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.030375,
+          "startTime": 1696.5949170000001,
+          "endTime": 1809.6252920000002
+        }
+      ],
+      "totalDuration": 1809.6252920000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.34,
+          "actualStart": 0,
+          "actualEnd": 91.342167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Nation at a Crossroads: The Setting and the Stakes",
+          "expectedStart": 91.34,
+          "expectedEnd": 260.65,
+          "actualStart": 92.842167,
+          "actualEnd": 262.155125,
+          "timeDifference": 1.502167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Remembering the Fallen: Honoring Sacrifice and Duty",
+          "expectedStart": 260.65,
+          "expectedEnd": 442.74,
+          "actualStart": 263.655125,
+          "actualEnd": 445.745875,
+          "timeDifference": 3.005125000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Promise of Equality: Revisiting the Nation’s Founding Ideals",
+          "expectedStart": 442.74,
+          "expectedEnd": 598.66,
+          "actualStart": 447.245875,
+          "actualEnd": 603.169,
+          "timeDifference": 4.505875000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Living’s Responsibility: Carrying Forward the Work of the Fallen",
+          "expectedStart": 598.66,
+          "expectedEnd": 776.16,
+          "actualStart": 604.669,
+          "actualEnd": 782.169167,
+          "timeDifference": 6.0090000000000146
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Democracy’s Challenge: Government by the People, For the People",
+          "expectedStart": 776.16,
+          "expectedEnd": 949.65,
+          "actualStart": 783.669167,
+          "actualEnd": 957.154584,
+          "timeDifference": 7.509167000000048
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Words: Lincoln’s Brief but Lasting Message",
+          "expectedStart": 949.65,
+          "expectedEnd": 1080.9,
+          "actualStart": 958.654584,
+          "actualEnd": 1089.901584,
+          "timeDifference": 9.004584000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Memory and Meaning: How Gettysburg Shaped the National Story",
+          "expectedStart": 1080.9,
+          "expectedEnd": 1225.92,
+          "actualStart": 1091.401584,
+          "actualEnd": 1236.418751,
+          "timeDifference": 10.501583999999866
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Struggle: Equality and Justice in Changing Times",
+          "expectedStart": 1225.92,
+          "expectedEnd": 1372.02,
+          "actualStart": 1237.918751,
+          "actualEnd": 1384.014709,
+          "timeDifference": 11.998750999999857
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Renewal and Hope: The Address in Times of Crisis",
+          "expectedStart": 1372.02,
+          "expectedEnd": 1533.92,
+          "actualStart": 1385.514709,
+          "actualEnd": 1547.416459,
+          "timeDifference": 13.494709000000057
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Living Legacy: Carrying the Message Forward",
+          "expectedStart": 1533.92,
+          "expectedEnd": 1680.1,
+          "actualStart": 1548.916459,
+          "actualEnd": 1695.0949170000001,
+          "timeDifference": 14.996458999999959
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1680.1,
+          "expectedEnd": 1793.13,
+          "actualStart": 1696.5949170000001,
+          "actualEnd": 1809.6252920000002,
+          "timeDifference": 16.494917000000214
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.342167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Nation at a Crossroads: The Setting and the Stakes"
+        },
+        {
+          "startTime": 262.155125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Nation at a Crossroads: The Setting and the Stakes and Chapter 2 Remembering the Fallen: Honoring Sacrifice and Duty"
+        },
+        {
+          "startTime": 445.745875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Remembering the Fallen: Honoring Sacrifice and Duty and Chapter 3 The Promise of Equality: Revisiting the Nation’s Founding Ideals"
+        },
+        {
+          "startTime": 603.169,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Promise of Equality: Revisiting the Nation’s Founding Ideals and Chapter 4 The Living’s Responsibility: Carrying Forward the Work of the Fallen"
+        },
+        {
+          "startTime": 782.169167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Living’s Responsibility: Carrying Forward the Work of the Fallen and Chapter 5 Democracy’s Challenge: Government by the People, For the People"
+        },
+        {
+          "startTime": 957.154584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Democracy’s Challenge: Government by the People, For the People and Chapter 6 The Power of Words: Lincoln’s Brief but Lasting Message"
+        },
+        {
+          "startTime": 1089.901584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Words: Lincoln’s Brief but Lasting Message and Chapter 7 Memory and Meaning: How Gettysburg Shaped the National Story"
+        },
+        {
+          "startTime": 1236.418751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Memory and Meaning: How Gettysburg Shaped the National Story and Chapter 8 The Ongoing Struggle: Equality and Justice in Changing Times"
+        },
+        {
+          "startTime": 1384.014709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Struggle: Equality and Justice in Changing Times and Chapter 9 Renewal and Hope: The Address in Times of Crisis"
+        },
+        {
+          "startTime": 1547.416459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Renewal and Hope: The Address in Times of Crisis and Chapter 10 The Living Legacy: Carrying the Message Forward"
+        },
+        {
+          "startTime": 1695.0949170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Living Legacy: Carrying the Message Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2682",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:41:02.093Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

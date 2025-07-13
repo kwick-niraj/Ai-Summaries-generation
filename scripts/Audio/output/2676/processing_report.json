@@ -1,0 +1,456 @@
+{
+  "bookId": "2676",
+  "timestamp": "2025-07-12T10:22:34.017Z",
+  "success": false,
+  "processingTime": -1752315356872,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5326,
+    "totalAudioFiles": 12,
+    "totalDuration": 2474.145251
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2474.145251
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2676/optimized_text/2676.md",
+    "fileSize": 643,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2676.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2676/metadata/2676_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2474.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2676/metadata/2676_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2676/metadata/2676_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2676/2676_complete.wav",
+    "duration": 2474.14525,
+    "fileSize": 118759050,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2676/introduction.wav",
+          "duration": 84.065292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.065292,
+          "startTime": 0,
+          "endTime": 84.065292
+        },
+        {
+          "path": "Audio/output/2676/chapter_01.wav",
+          "duration": 273.944667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Anger as a Part of Life",
+          "actualDuration": 273.944667,
+          "startTime": 85.565292,
+          "endTime": 359.509959
+        },
+        {
+          "path": "Audio/output/2676/chapter_02.wav",
+          "duration": 226.560792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mindfulness: The First Step to Calming Anger",
+          "actualDuration": 226.560792,
+          "startTime": 361.009959,
+          "endTime": 587.570751
+        },
+        {
+          "path": "Audio/output/2676/chapter_03.wav",
+          "duration": 238.258208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Understanding the Roots of Anger",
+          "actualDuration": 238.258208,
+          "startTime": 589.070751,
+          "endTime": 827.3289589999999
+        },
+        {
+          "path": "Audio/output/2676/chapter_04.wav",
+          "duration": 243.496167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Anger with Compassion",
+          "actualDuration": 243.496167,
+          "startTime": 828.8289589999999,
+          "endTime": 1072.325126
+        },
+        {
+          "path": "Audio/output/2676/chapter_05.wav",
+          "duration": 253.230208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Healing Relationships Through Mindful Communication",
+          "actualDuration": 253.230208,
+          "startTime": 1073.825126,
+          "endTime": 1327.055334
+        },
+        {
+          "path": "Audio/output/2676/chapter_06.wav",
+          "duration": 247.16775,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Transforming Anger with Loving Kindness",
+          "actualDuration": 247.16775,
+          "startTime": 1328.555334,
+          "endTime": 1575.723084
+        },
+        {
+          "path": "Audio/output/2676/chapter_07.wav",
+          "duration": 187.9715,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Pausing: Creating Space for Choice",
+          "actualDuration": 187.9715,
+          "startTime": 1577.223084,
+          "endTime": 1765.1945839999998
+        },
+        {
+          "path": "Audio/output/2676/chapter_08.wav",
+          "duration": 201.471875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rewriting the Story: Forgiveness and Letting Go",
+          "actualDuration": 201.471875,
+          "startTime": 1766.6945839999998,
+          "endTime": 1968.1664589999998
+        },
+        {
+          "path": "Audio/output/2676/chapter_09.wav",
+          "duration": 180.800792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Anger in the World: Responding to Injustice with Wisdom",
+          "actualDuration": 180.800792,
+          "startTime": 1969.6664589999998,
+          "endTime": 2150.467251
+        },
+        {
+          "path": "Audio/output/2676/chapter_10.wav",
+          "duration": 185.513083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Cultivating Lasting Peace: Daily Practices for a Calm Heart",
+          "actualDuration": 185.513083,
+          "startTime": 2151.967251,
+          "endTime": 2337.480334
+        },
+        {
+          "path": "Audio/output/2676/conclusion.wav",
+          "duration": 151.664917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 151.664917,
+          "startTime": 2338.980334,
+          "endTime": 2490.645251
+        }
+      ],
+      "totalDuration": 2490.645251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.07,
+          "actualStart": 0,
+          "actualEnd": 84.065292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Anger as a Part of Life",
+          "expectedStart": 84.07,
+          "expectedEnd": 358.01,
+          "actualStart": 85.565292,
+          "actualEnd": 359.509959,
+          "timeDifference": 1.4952920000000063
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mindfulness: The First Step to Calming Anger",
+          "expectedStart": 358.01,
+          "expectedEnd": 584.57,
+          "actualStart": 361.009959,
+          "actualEnd": 587.570751,
+          "timeDifference": 2.99995899999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Understanding the Roots of Anger",
+          "expectedStart": 584.57,
+          "expectedEnd": 822.83,
+          "actualStart": 589.070751,
+          "actualEnd": 827.3289589999999,
+          "timeDifference": 4.500750999999923
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Anger with Compassion",
+          "expectedStart": 822.83,
+          "expectedEnd": 1066.33,
+          "actualStart": 828.8289589999999,
+          "actualEnd": 1072.325126,
+          "timeDifference": 5.9989589999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Healing Relationships Through Mindful Communication",
+          "expectedStart": 1066.33,
+          "expectedEnd": 1319.56,
+          "actualStart": 1073.825126,
+          "actualEnd": 1327.055334,
+          "timeDifference": 7.4951260000000275
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Transforming Anger with Loving Kindness",
+          "expectedStart": 1319.56,
+          "expectedEnd": 1566.73,
+          "actualStart": 1328.555334,
+          "actualEnd": 1575.723084,
+          "timeDifference": 8.995333999999957
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Pausing: Creating Space for Choice",
+          "expectedStart": 1566.73,
+          "expectedEnd": 1754.7,
+          "actualStart": 1577.223084,
+          "actualEnd": 1765.1945839999998,
+          "timeDifference": 10.493083999999953
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rewriting the Story: Forgiveness and Letting Go",
+          "expectedStart": 1754.7,
+          "expectedEnd": 1956.17,
+          "actualStart": 1766.6945839999998,
+          "actualEnd": 1968.1664589999998,
+          "timeDifference": 11.994583999999804
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Anger in the World: Responding to Injustice with Wisdom",
+          "expectedStart": 1956.17,
+          "expectedEnd": 2136.97,
+          "actualStart": 1969.6664589999998,
+          "actualEnd": 2150.467251,
+          "timeDifference": 13.496458999999732
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Cultivating Lasting Peace: Daily Practices for a Calm Heart",
+          "expectedStart": 2136.97,
+          "expectedEnd": 2322.48,
+          "actualStart": 2151.967251,
+          "actualEnd": 2337.480334,
+          "timeDifference": 14.997251000000233
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2322.48,
+          "expectedEnd": 2474.14,
+          "actualStart": 2338.980334,
+          "actualEnd": 2490.645251,
+          "timeDifference": 16.50033399999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.065292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Anger as a Part of Life"
+        },
+        {
+          "startTime": 359.509959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Anger as a Part of Life and Chapter 2 Mindfulness: The First Step to Calming Anger"
+        },
+        {
+          "startTime": 587.570751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mindfulness: The First Step to Calming Anger and Chapter 3 Understanding the Roots of Anger"
+        },
+        {
+          "startTime": 827.3289589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Understanding the Roots of Anger and Chapter 4 Embracing Anger with Compassion"
+        },
+        {
+          "startTime": 1072.325126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Anger with Compassion and Chapter 5 Healing Relationships Through Mindful Communication"
+        },
+        {
+          "startTime": 1327.055334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Healing Relationships Through Mindful Communication and Chapter 6 Transforming Anger with Loving Kindness"
+        },
+        {
+          "startTime": 1575.723084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Transforming Anger with Loving Kindness and Chapter 7 The Power of Pausing: Creating Space for Choice"
+        },
+        {
+          "startTime": 1765.1945839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Pausing: Creating Space for Choice and Chapter 8 Rewriting the Story: Forgiveness and Letting Go"
+        },
+        {
+          "startTime": 1968.1664589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rewriting the Story: Forgiveness and Letting Go and Chapter 9 Anger in the World: Responding to Injustice with Wisdom"
+        },
+        {
+          "startTime": 2150.467251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Anger in the World: Responding to Injustice with Wisdom and Chapter 10 Cultivating Lasting Peace: Daily Practices for a Calm Heart"
+        },
+        {
+          "startTime": 2337.480334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Cultivating Lasting Peace: Daily Practices for a Calm Heart and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2676",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:15:58.409Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

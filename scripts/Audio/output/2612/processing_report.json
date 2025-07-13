@@ -1,0 +1,313 @@
+{
+  "bookId": "2612",
+  "timestamp": "2025-07-11T08:05:05.969Z",
+  "success": false,
+  "processingTime": -1752220798133,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4716,
+    "totalAudioFiles": 12,
+    "totalDuration": 1037.7715420000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 6,
+    "failed": 6,
+    "duration": 1037.7715420000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2612/optimized_text/2612.md",
+    "fileSize": 8058,
+    "wordCount": 1307,
+    "format": "markdown",
+    "filename": "2612.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2612/metadata/2612_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1037.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2612/metadata/2612_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2612/metadata/2612_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2612/2612_complete.wav",
+    "duration": 1037.771542,
+    "fileSize": 49813112,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2612/chapter_01.wav",
+          "duration": 220.150625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Country on the Edge: Everyday Life Before the Storm",
+          "actualDuration": 220.150625,
+          "startTime": 0,
+          "endTime": 220.150625
+        },
+        {
+          "path": "Audio/output/2612/chapter_05.wav",
+          "duration": 186.814125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bearing Witness: The Power and Limits of Storytelling",
+          "actualDuration": 186.814125,
+          "startTime": 221.650625,
+          "endTime": 408.46475
+        },
+        {
+          "path": "Audio/output/2612/chapter_07.wav",
+          "duration": 170.985667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Living with the Past: Memory, Denial, and the Struggle to Move On",
+          "actualDuration": 170.985667,
+          "startTime": 409.96475,
+          "endTime": 580.950417
+        },
+        {
+          "path": "Audio/output/2612/chapter_08.wav",
+          "duration": 191.804458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding Trust: Reconciliation, Forgiveness, and the Limits of Healing",
+          "actualDuration": 191.804458,
+          "startTime": 582.450417,
+          "endTime": 774.2548750000001
+        },
+        {
+          "path": "Audio/output/2612/chapter_10.wav",
+          "duration": 156.597792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Hope and Uncertainty: Rwanda Today and the Ongoing Journey",
+          "actualDuration": 156.597792,
+          "startTime": 775.7548750000001,
+          "endTime": 932.3526670000001
+        },
+        {
+          "path": "Audio/output/2612/conclusion.wav",
+          "duration": 111.418875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.418875,
+          "startTime": 933.8526670000001,
+          "endTime": 1045.2715420000002
+        }
+      ],
+      "totalDuration": 1045.2715420000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Country on the Edge: Everyday Life Before the Storm",
+          "expectedStart": 0,
+          "expectedEnd": 220.15,
+          "actualStart": 0,
+          "actualEnd": 220.150625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bearing Witness: The Power and Limits of Storytelling",
+          "expectedStart": 220.15,
+          "expectedEnd": 406.96,
+          "actualStart": 221.650625,
+          "actualEnd": 408.46475,
+          "timeDifference": 1.5006249999999852
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Living with the Past: Memory, Denial, and the Struggle to Move On",
+          "expectedStart": 406.96,
+          "expectedEnd": 577.95,
+          "actualStart": 409.96475,
+          "actualEnd": 580.950417,
+          "timeDifference": 3.0047500000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding Trust: Reconciliation, Forgiveness, and the Limits of Healing",
+          "expectedStart": 577.95,
+          "expectedEnd": 769.75,
+          "actualStart": 582.450417,
+          "actualEnd": 774.2548750000001,
+          "timeDifference": 4.50041699999997
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Hope and Uncertainty: Rwanda Today and the Ongoing Journey",
+          "expectedStart": 769.75,
+          "expectedEnd": 926.35,
+          "actualStart": 775.7548750000001,
+          "actualEnd": 932.3526670000001,
+          "timeDifference": 6.004875000000084
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 926.35,
+          "expectedEnd": 1037.77,
+          "actualStart": 933.8526670000001,
+          "actualEnd": 1045.2715420000002,
+          "timeDifference": 7.502667000000088
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 220.150625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Country on the Edge: Everyday Life Before the Storm and Chapter 5 Bearing Witness: The Power and Limits of Storytelling"
+        },
+        {
+          "startTime": 408.46475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bearing Witness: The Power and Limits of Storytelling and Chapter 7 Living with the Past: Memory, Denial, and the Struggle to Move On"
+        },
+        {
+          "startTime": 580.950417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Living with the Past: Memory, Denial, and the Struggle to Move On and Chapter 8 Rebuilding Trust: Reconciliation, Forgiveness, and the Limits of Healing"
+        },
+        {
+          "startTime": 774.2548750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding Trust: Reconciliation, Forgiveness, and the Limits of Healing and Chapter 10 Hope and Uncertainty: Rwanda Today and the Ongoing Journey"
+        },
+        {
+          "startTime": 932.3526670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Hope and Uncertainty: Rwanda Today and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 6
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2612",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:59:59.661Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "bookId": "2568",
+  "timestamp": "2025-07-11T06:28:03.943Z",
+  "success": false,
+  "processingTime": -1752215013944,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4709,
+    "totalAudioFiles": 14,
+    "totalDuration": 2000.9442520000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2000.9442520000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2568/optimized_text/2568.md",
+    "fileSize": 862,
+    "wordCount": 127,
+    "format": "markdown",
+    "filename": "2568.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2568/metadata/2568_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2000.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2568/metadata/2568_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2568/metadata/2568_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2568/2568_complete.wav",
+    "duration": 2000.94425,
+    "fileSize": 96045402,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2568/introduction.wav",
+          "duration": 101.537167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.537167,
+          "startTime": 0,
+          "endTime": 101.537167
+        },
+        {
+          "path": "Audio/output/2568/chapter_01.wav",
+          "duration": 183.129667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Struggle and the Promise of Change",
+          "actualDuration": 183.129667,
+          "startTime": 103.037167,
+          "endTime": 286.166834
+        },
+        {
+          "path": "Audio/output/2568/chapter_02.wav",
+          "duration": 179.229667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Reform and the Persistence of Inequality",
+          "actualDuration": 179.229667,
+          "startTime": 287.666834,
+          "endTime": 466.896501
+        },
+        {
+          "path": "Audio/output/2568/chapter_03.wav",
+          "duration": 186.636583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Temptation of Gradualism and the Trap of Revisionism",
+          "actualDuration": 186.636583,
+          "startTime": 468.396501,
+          "endTime": 655.033084
+        },
+        {
+          "path": "Audio/output/2568/chapter_04.wav",
+          "duration": 164.717125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Heart of Class Struggle and the Call for Revolution",
+          "actualDuration": 164.717125,
+          "startTime": 656.533084,
+          "endTime": 821.250209
+        },
+        {
+          "path": "Audio/output/2568/chapter_05.wav",
+          "duration": 129.918292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Meaning of Socialism and the Path Forward",
+          "actualDuration": 129.918292,
+          "startTime": 822.750209,
+          "endTime": 952.6685010000001
+        },
+        {
+          "path": "Audio/output/2568/chapter_06.wav",
+          "duration": 171.952708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Machinery of the State and the Illusion of Neutrality",
+          "actualDuration": 171.952708,
+          "startTime": 954.1685010000001,
+          "endTime": 1126.1212090000001
+        },
+        {
+          "path": "Audio/output/2568/chapter_07.wav",
+          "duration": 136.63475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Collective Action and the Seeds of Solidarity",
+          "actualDuration": 136.63475,
+          "startTime": 1127.6212090000001,
+          "endTime": 1264.255959
+        },
+        {
+          "path": "Audio/output/2568/chapter_08.wav",
+          "duration": 134.989,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Counterattack—How Power Pushes Back",
+          "actualDuration": 134.989,
+          "startTime": 1265.755959,
+          "endTime": 1400.744959
+        },
+        {
+          "path": "Audio/output/2568/chapter_09.wav",
+          "duration": 121.236542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Imagination and the Courage to Dream",
+          "actualDuration": 121.236542,
+          "startTime": 1402.244959,
+          "endTime": 1523.4815010000002
+        },
+        {
+          "path": "Audio/output/2568/chapter_10.wav",
+          "duration": 129.340792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building for the Long Haul—Lessons from History",
+          "actualDuration": 129.340792,
+          "startTime": 1524.9815010000002,
+          "endTime": 1654.3222930000002
+        },
+        {
+          "path": "Audio/output/2568/chapter_11.wav",
+          "duration": 127.162917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Personal Cost and the Meaning of Commitment",
+          "actualDuration": 127.162917,
+          "startTime": 1655.8222930000002,
+          "endTime": 1782.9852100000003
+        },
+        {
+          "path": "Audio/output/2568/chapter_12.wav",
+          "duration": 110.267917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Future Unwritten—Hope, Uncertainty, and the Ongoing Struggle",
+          "actualDuration": 110.267917,
+          "startTime": 1784.4852100000003,
+          "endTime": 1894.7531270000002
+        },
+        {
+          "path": "Audio/output/2568/conclusion.wav",
+          "duration": 124.191125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.191125,
+          "startTime": 1896.2531270000002,
+          "endTime": 2020.4442520000002
+        }
+      ],
+      "totalDuration": 2020.4442520000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.54,
+          "actualStart": 0,
+          "actualEnd": 101.537167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Struggle and the Promise of Change",
+          "expectedStart": 101.54,
+          "expectedEnd": 284.67,
+          "actualStart": 103.037167,
+          "actualEnd": 286.166834,
+          "timeDifference": 1.4971669999999904
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Reform and the Persistence of Inequality",
+          "expectedStart": 284.67,
+          "expectedEnd": 463.9,
+          "actualStart": 287.666834,
+          "actualEnd": 466.896501,
+          "timeDifference": 2.9968339999999785
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Temptation of Gradualism and the Trap of Revisionism",
+          "expectedStart": 463.9,
+          "expectedEnd": 650.54,
+          "actualStart": 468.396501,
+          "actualEnd": 655.033084,
+          "timeDifference": 4.496501000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Heart of Class Struggle and the Call for Revolution",
+          "expectedStart": 650.54,
+          "expectedEnd": 815.26,
+          "actualStart": 656.533084,
+          "actualEnd": 821.250209,
+          "timeDifference": 5.993084000000067
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Meaning of Socialism and the Path Forward",
+          "expectedStart": 815.26,
+          "expectedEnd": 945.18,
+          "actualStart": 822.750209,
+          "actualEnd": 952.6685010000001,
+          "timeDifference": 7.49020900000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Machinery of the State and the Illusion of Neutrality",
+          "expectedStart": 945.18,
+          "expectedEnd": 1117.13,
+          "actualStart": 954.1685010000001,
+          "actualEnd": 1126.1212090000001,
+          "timeDifference": 8.988501000000156
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Collective Action and the Seeds of Solidarity",
+          "expectedStart": 1117.13,
+          "expectedEnd": 1253.76,
+          "actualStart": 1127.6212090000001,
+          "actualEnd": 1264.255959,
+          "timeDifference": 10.491209000000026
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Counterattack—How Power Pushes Back",
+          "expectedStart": 1253.76,
+          "expectedEnd": 1388.75,
+          "actualStart": 1265.755959,
+          "actualEnd": 1400.744959,
+          "timeDifference": 11.995959000000084
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Imagination and the Courage to Dream",
+          "expectedStart": 1388.75,
+          "expectedEnd": 1509.99,
+          "actualStart": 1402.244959,
+          "actualEnd": 1523.4815010000002,
+          "timeDifference": 13.494959000000108
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building for the Long Haul—Lessons from History",
+          "expectedStart": 1509.99,
+          "expectedEnd": 1639.33,
+          "actualStart": 1524.9815010000002,
+          "actualEnd": 1654.3222930000002,
+          "timeDifference": 14.991501000000198
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Personal Cost and the Meaning of Commitment",
+          "expectedStart": 1639.33,
+          "expectedEnd": 1766.49,
+          "actualStart": 1655.8222930000002,
+          "actualEnd": 1782.9852100000003,
+          "timeDifference": 16.492293000000245
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Future Unwritten—Hope, Uncertainty, and the Ongoing Struggle",
+          "expectedStart": 1766.49,
+          "expectedEnd": 1876.76,
+          "actualStart": 1784.4852100000003,
+          "actualEnd": 1894.7531270000002,
+          "timeDifference": 17.99521000000027
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1876.76,
+          "expectedEnd": 2000.95,
+          "actualStart": 1896.2531270000002,
+          "actualEnd": 2020.4442520000002,
+          "timeDifference": 19.493127000000186
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.537167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Struggle and the Promise of Change"
+        },
+        {
+          "startTime": 286.166834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Struggle and the Promise of Change and Chapter 2 The Limits of Reform and the Persistence of Inequality"
+        },
+        {
+          "startTime": 466.896501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Reform and the Persistence of Inequality and Chapter 3 The Temptation of Gradualism and the Trap of Revisionism"
+        },
+        {
+          "startTime": 655.033084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Temptation of Gradualism and the Trap of Revisionism and Chapter 4 The Heart of Class Struggle and the Call for Revolution"
+        },
+        {
+          "startTime": 821.250209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Heart of Class Struggle and the Call for Revolution and Chapter 5 The Meaning of Socialism and the Path Forward"
+        },
+        {
+          "startTime": 952.6685010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Meaning of Socialism and the Path Forward and Chapter 6 The Machinery of the State and the Illusion of Neutrality"
+        },
+        {
+          "startTime": 1126.1212090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Machinery of the State and the Illusion of Neutrality and Chapter 7 The Power of Collective Action and the Seeds of Solidarity"
+        },
+        {
+          "startTime": 1264.255959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Collective Action and the Seeds of Solidarity and Chapter 8 The Counterattack—How Power Pushes Back"
+        },
+        {
+          "startTime": 1400.744959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Counterattack—How Power Pushes Back and Chapter 9 The Role of Imagination and the Courage to Dream"
+        },
+        {
+          "startTime": 1523.4815010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Imagination and the Courage to Dream and Chapter 10 Building for the Long Haul—Lessons from History"
+        },
+        {
+          "startTime": 1654.3222930000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building for the Long Haul—Lessons from History and Chapter 11 The Personal Cost and the Meaning of Commitment"
+        },
+        {
+          "startTime": 1782.9852100000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Personal Cost and the Meaning of Commitment and Chapter 12 The Future Unwritten—Hope, Uncertainty, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 1894.7531270000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Future Unwritten—Hope, Uncertainty, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2568",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:23:34.488Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

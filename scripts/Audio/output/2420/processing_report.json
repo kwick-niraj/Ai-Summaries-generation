@@ -1,0 +1,456 @@
+{
+  "bookId": "2420",
+  "timestamp": "2025-07-10T22:08:59.773Z",
+  "success": false,
+  "processingTime": -1752184999724,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4437,
+    "totalAudioFiles": 12,
+    "totalDuration": 2219.1060409999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2219.1060409999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2420/optimized_text/2420.md",
+    "fileSize": 757,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2420.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2420/metadata/2420_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2219.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2420/metadata/2420_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2420/metadata/2420_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2420/2420_complete.wav",
+    "duration": 2219.106042,
+    "fileSize": 106517168,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2420/introduction.wav",
+          "duration": 96.988,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.988,
+          "startTime": 0,
+          "endTime": 96.988
+        },
+        {
+          "path": "Audio/output/2420/chapter_01.wav",
+          "duration": 241.943042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Counting Shapes the Way People See the World",
+          "actualDuration": 241.943042,
+          "startTime": 98.488,
+          "endTime": 340.431042
+        },
+        {
+          "path": "Audio/output/2420/chapter_02.wav",
+          "duration": 229.53275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Strange World of Infinity and Its Paradoxes",
+          "actualDuration": 229.53275,
+          "startTime": 341.931042,
+          "endTime": 571.463792
+        },
+        {
+          "path": "Audio/output/2420/chapter_03.wav",
+          "duration": 225.759125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Atoms, Elements, and the Building Blocks of Matter",
+          "actualDuration": 225.759125,
+          "startTime": 572.963792,
+          "endTime": 798.722917
+        },
+        {
+          "path": "Audio/output/2420/chapter_04.wav",
+          "duration": 196.484708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Universe as a Web of Patterns and Probabilities",
+          "actualDuration": 196.484708,
+          "startTime": 800.222917,
+          "endTime": 996.707625
+        },
+        {
+          "path": "Audio/output/2420/chapter_05.wav",
+          "duration": 217.789625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Space, Time, and the Expanding Universe",
+          "actualDuration": 217.789625,
+          "startTime": 998.207625,
+          "endTime": 1215.99725
+        },
+        {
+          "path": "Audio/output/2420/chapter_06.wav",
+          "duration": 227.081583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance of Life—Order, Chaos, and the Origins of Complexity",
+          "actualDuration": 227.081583,
+          "startTime": 1217.49725,
+          "endTime": 1444.5788329999998
+        },
+        {
+          "path": "Audio/output/2420/chapter_07.wav",
+          "duration": 182.410958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Language of Science—Symbols, Models, and the Limits of Understanding",
+          "actualDuration": 182.410958,
+          "startTime": 1446.0788329999998,
+          "endTime": 1628.4897909999997
+        },
+        {
+          "path": "Audio/output/2420/chapter_08.wav",
+          "duration": 156.076083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Edge of Knowledge—Speculation, Imagination, and the Unknown",
+          "actualDuration": 156.076083,
+          "startTime": 1629.9897909999997,
+          "endTime": 1786.0658739999997
+        },
+        {
+          "path": "Audio/output/2420/chapter_09.wav",
+          "duration": 143.886,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Unity in Diversity—How Science Connects Everything",
+          "actualDuration": 143.886,
+          "startTime": 1787.5658739999997,
+          "endTime": 1931.4518739999996
+        },
+        {
+          "path": "Audio/output/2420/chapter_10.wav",
+          "duration": 146.932792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Element—Curiosity, Doubt, and the Spirit of Discovery",
+          "actualDuration": 146.932792,
+          "startTime": 1932.9518739999996,
+          "endTime": 2079.8846659999995
+        },
+        {
+          "path": "Audio/output/2420/conclusion.wav",
+          "duration": 154.221375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 154.221375,
+          "startTime": 2081.3846659999995,
+          "endTime": 2235.6060409999995
+        }
+      ],
+      "totalDuration": 2235.6060409999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.99,
+          "actualStart": 0,
+          "actualEnd": 96.988,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Counting Shapes the Way People See the World",
+          "expectedStart": 96.99,
+          "expectedEnd": 338.93,
+          "actualStart": 98.488,
+          "actualEnd": 340.431042,
+          "timeDifference": 1.4980000000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Strange World of Infinity and Its Paradoxes",
+          "expectedStart": 338.93,
+          "expectedEnd": 568.46,
+          "actualStart": 341.931042,
+          "actualEnd": 571.463792,
+          "timeDifference": 3.001041999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Atoms, Elements, and the Building Blocks of Matter",
+          "expectedStart": 568.46,
+          "expectedEnd": 794.22,
+          "actualStart": 572.963792,
+          "actualEnd": 798.722917,
+          "timeDifference": 4.503791999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Universe as a Web of Patterns and Probabilities",
+          "expectedStart": 794.22,
+          "expectedEnd": 990.7,
+          "actualStart": 800.222917,
+          "actualEnd": 996.707625,
+          "timeDifference": 6.002917000000025
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Space, Time, and the Expanding Universe",
+          "expectedStart": 990.7,
+          "expectedEnd": 1208.49,
+          "actualStart": 998.207625,
+          "actualEnd": 1215.99725,
+          "timeDifference": 7.507624999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance of Life—Order, Chaos, and the Origins of Complexity",
+          "expectedStart": 1208.49,
+          "expectedEnd": 1435.57,
+          "actualStart": 1217.49725,
+          "actualEnd": 1444.5788329999998,
+          "timeDifference": 9.007249999999885
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Language of Science—Symbols, Models, and the Limits of Understanding",
+          "expectedStart": 1435.57,
+          "expectedEnd": 1617.98,
+          "actualStart": 1446.0788329999998,
+          "actualEnd": 1628.4897909999997,
+          "timeDifference": 10.508832999999868
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Edge of Knowledge—Speculation, Imagination, and the Unknown",
+          "expectedStart": 1617.98,
+          "expectedEnd": 1774.06,
+          "actualStart": 1629.9897909999997,
+          "actualEnd": 1786.0658739999997,
+          "timeDifference": 12.009790999999723
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Unity in Diversity—How Science Connects Everything",
+          "expectedStart": 1774.06,
+          "expectedEnd": 1917.95,
+          "actualStart": 1787.5658739999997,
+          "actualEnd": 1931.4518739999996,
+          "timeDifference": 13.505873999999721
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Element—Curiosity, Doubt, and the Spirit of Discovery",
+          "expectedStart": 1917.95,
+          "expectedEnd": 2064.88,
+          "actualStart": 1932.9518739999996,
+          "actualEnd": 2079.8846659999995,
+          "timeDifference": 15.001873999999589
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2064.88,
+          "expectedEnd": 2219.1,
+          "actualStart": 2081.3846659999995,
+          "actualEnd": 2235.6060409999995,
+          "timeDifference": 16.50466599999936
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.988,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Counting Shapes the Way People See the World"
+        },
+        {
+          "startTime": 340.431042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Counting Shapes the Way People See the World and Chapter 2 The Strange World of Infinity and Its Paradoxes"
+        },
+        {
+          "startTime": 571.463792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Strange World of Infinity and Its Paradoxes and Chapter 3 Atoms, Elements, and the Building Blocks of Matter"
+        },
+        {
+          "startTime": 798.722917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Atoms, Elements, and the Building Blocks of Matter and Chapter 4 The Universe as a Web of Patterns and Probabilities"
+        },
+        {
+          "startTime": 996.707625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Universe as a Web of Patterns and Probabilities and Chapter 5 Space, Time, and the Expanding Universe"
+        },
+        {
+          "startTime": 1215.99725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Space, Time, and the Expanding Universe and Chapter 6 The Dance of Life—Order, Chaos, and the Origins of Complexity"
+        },
+        {
+          "startTime": 1444.5788329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance of Life—Order, Chaos, and the Origins of Complexity and Chapter 7 The Language of Science—Symbols, Models, and the Limits of Understanding"
+        },
+        {
+          "startTime": 1628.4897909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Language of Science—Symbols, Models, and the Limits of Understanding and Chapter 8 The Edge of Knowledge—Speculation, Imagination, and the Unknown"
+        },
+        {
+          "startTime": 1786.0658739999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Edge of Knowledge—Speculation, Imagination, and the Unknown and Chapter 9 Unity in Diversity—How Science Connects Everything"
+        },
+        {
+          "startTime": 1931.4518739999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Unity in Diversity—How Science Connects Everything and Chapter 10 The Human Element—Curiosity, Doubt, and the Spirit of Discovery"
+        },
+        {
+          "startTime": 2079.8846659999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Element—Curiosity, Doubt, and the Spirit of Discovery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2420",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T22:03:20.946Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2363",
+  "timestamp": "2025-07-10T18:23:35.782Z",
+  "success": false,
+  "processingTime": -1752171495373,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4643,
+    "totalAudioFiles": 12,
+    "totalDuration": 2619.979834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2619.979834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2363/optimized_text/2363.md",
+    "fileSize": 780,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2363.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2363/metadata/2363_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2619.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2363/metadata/2363_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2363/metadata/2363_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2363/2363_complete.wav",
+    "duration": 2619.979833,
+    "fileSize": 125759110,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2363/introduction.wav",
+          "duration": 110.132458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.132458,
+          "startTime": 0,
+          "endTime": 110.132458
+        },
+        {
+          "path": "Audio/output/2363/chapter_01.wav",
+          "duration": 175.95025,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Scarcity Feels Inevitable: The Human Mind and the World’s Problems",
+          "actualDuration": 175.95025,
+          "startTime": 111.632458,
+          "endTime": 287.582708
+        },
+        {
+          "path": "Audio/output/2363/chapter_02.wav",
+          "duration": 287.806542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Exponential Technologies: How Progress Accelerates",
+          "actualDuration": 287.806542,
+          "startTime": 289.082708,
+          "endTime": 576.88925
+        },
+        {
+          "path": "Audio/output/2363/chapter_03.wav",
+          "duration": 267.116083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Unlocking Human Potential: The Rise of Do-It-Yourself Innovators",
+          "actualDuration": 267.116083,
+          "startTime": 578.38925,
+          "endTime": 845.505333
+        },
+        {
+          "path": "Audio/output/2363/chapter_04.wav",
+          "duration": 268.113042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Abundance in Action: Transforming Water, Food, and Energy",
+          "actualDuration": 268.113042,
+          "startTime": 847.005333,
+          "endTime": 1115.118375
+        },
+        {
+          "path": "Audio/output/2363/chapter_05.wav",
+          "duration": 231.85375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Incentives, Prizes, and Open Collaboration",
+          "actualDuration": 231.85375,
+          "startTime": 1116.618375,
+          "endTime": 1348.472125
+        },
+        {
+          "path": "Audio/output/2363/chapter_06.wav",
+          "duration": 264.502042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Health for All: Revolutionizing Medicine and Longevity",
+          "actualDuration": 264.502042,
+          "startTime": 1349.972125,
+          "endTime": 1614.474167
+        },
+        {
+          "path": "Audio/output/2363/chapter_07.wav",
+          "duration": 208.756,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Learning Without Limits: The Future of Education",
+          "actualDuration": 208.756,
+          "startTime": 1615.974167,
+          "endTime": 1824.7301670000002
+        },
+        {
+          "path": "Audio/output/2363/chapter_08.wav",
+          "duration": 228.384375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Rising Billion: Inclusion and Empowerment at the Edge",
+          "actualDuration": 228.384375,
+          "startTime": 1826.2301670000002,
+          "endTime": 2054.6145420000003
+        },
+        {
+          "path": "Audio/output/2363/chapter_09.wav",
+          "duration": 214.127833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Environmental Stewardship: Abundance Without Waste",
+          "actualDuration": 214.127833,
+          "startTime": 2056.1145420000003,
+          "endTime": 2270.2423750000003
+        },
+        {
+          "path": "Audio/output/2363/chapter_10.wav",
+          "duration": 216.849667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Psychology of Abundance: Mindset, Resilience, and Hope",
+          "actualDuration": 216.849667,
+          "startTime": 2271.7423750000003,
+          "endTime": 2488.592042
+        },
+        {
+          "path": "Audio/output/2363/conclusion.wav",
+          "duration": 146.387792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 146.387792,
+          "startTime": 2490.092042,
+          "endTime": 2636.479834
+        }
+      ],
+      "totalDuration": 2636.479834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.13,
+          "actualStart": 0,
+          "actualEnd": 110.132458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Scarcity Feels Inevitable: The Human Mind and the World’s Problems",
+          "expectedStart": 110.13,
+          "expectedEnd": 286.08,
+          "actualStart": 111.632458,
+          "actualEnd": 287.582708,
+          "timeDifference": 1.5024580000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Exponential Technologies: How Progress Accelerates",
+          "expectedStart": 286.08,
+          "expectedEnd": 573.89,
+          "actualStart": 289.082708,
+          "actualEnd": 576.88925,
+          "timeDifference": 3.002708000000041
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Unlocking Human Potential: The Rise of Do-It-Yourself Innovators",
+          "expectedStart": 573.89,
+          "expectedEnd": 841.01,
+          "actualStart": 578.38925,
+          "actualEnd": 845.505333,
+          "timeDifference": 4.499249999999961
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Abundance in Action: Transforming Water, Food, and Energy",
+          "expectedStart": 841.01,
+          "expectedEnd": 1109.12,
+          "actualStart": 847.005333,
+          "actualEnd": 1115.118375,
+          "timeDifference": 5.99533299999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Incentives, Prizes, and Open Collaboration",
+          "expectedStart": 1109.12,
+          "expectedEnd": 1340.97,
+          "actualStart": 1116.618375,
+          "actualEnd": 1348.472125,
+          "timeDifference": 7.498375000000124
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Health for All: Revolutionizing Medicine and Longevity",
+          "expectedStart": 1340.97,
+          "expectedEnd": 1605.47,
+          "actualStart": 1349.972125,
+          "actualEnd": 1614.474167,
+          "timeDifference": 9.002124999999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Learning Without Limits: The Future of Education",
+          "expectedStart": 1605.47,
+          "expectedEnd": 1814.23,
+          "actualStart": 1615.974167,
+          "actualEnd": 1824.7301670000002,
+          "timeDifference": 10.504167000000052
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Rising Billion: Inclusion and Empowerment at the Edge",
+          "expectedStart": 1814.23,
+          "expectedEnd": 2042.61,
+          "actualStart": 1826.2301670000002,
+          "actualEnd": 2054.6145420000003,
+          "timeDifference": 12.000167000000147
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Environmental Stewardship: Abundance Without Waste",
+          "expectedStart": 2042.61,
+          "expectedEnd": 2256.74,
+          "actualStart": 2056.1145420000003,
+          "actualEnd": 2270.2423750000003,
+          "timeDifference": 13.504542000000356
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Psychology of Abundance: Mindset, Resilience, and Hope",
+          "expectedStart": 2256.74,
+          "expectedEnd": 2473.59,
+          "actualStart": 2271.7423750000003,
+          "actualEnd": 2488.592042,
+          "timeDifference": 15.002375000000484
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2473.59,
+          "expectedEnd": 2619.98,
+          "actualStart": 2490.092042,
+          "actualEnd": 2636.479834,
+          "timeDifference": 16.502042000000074
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.132458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Scarcity Feels Inevitable: The Human Mind and the World’s Problems"
+        },
+        {
+          "startTime": 287.582708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Scarcity Feels Inevitable: The Human Mind and the World’s Problems and Chapter 2 The Power of Exponential Technologies: How Progress Accelerates"
+        },
+        {
+          "startTime": 576.88925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Exponential Technologies: How Progress Accelerates and Chapter 3 Unlocking Human Potential: The Rise of Do-It-Yourself Innovators"
+        },
+        {
+          "startTime": 845.505333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Unlocking Human Potential: The Rise of Do-It-Yourself Innovators and Chapter 4 Abundance in Action: Transforming Water, Food, and Energy"
+        },
+        {
+          "startTime": 1115.118375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Abundance in Action: Transforming Water, Food, and Energy and Chapter 5 The Role of Incentives, Prizes, and Open Collaboration"
+        },
+        {
+          "startTime": 1348.472125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Incentives, Prizes, and Open Collaboration and Chapter 6 Health for All: Revolutionizing Medicine and Longevity"
+        },
+        {
+          "startTime": 1614.474167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Health for All: Revolutionizing Medicine and Longevity and Chapter 7 Learning Without Limits: The Future of Education"
+        },
+        {
+          "startTime": 1824.7301670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Learning Without Limits: The Future of Education and Chapter 8 The Rising Billion: Inclusion and Empowerment at the Edge"
+        },
+        {
+          "startTime": 2054.6145420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Rising Billion: Inclusion and Empowerment at the Edge and Chapter 9 Environmental Stewardship: Abundance Without Waste"
+        },
+        {
+          "startTime": 2270.2423750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Environmental Stewardship: Abundance Without Waste and Chapter 10 The Psychology of Abundance: Mindset, Resilience, and Hope"
+        },
+        {
+          "startTime": 2488.592042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Psychology of Abundance: Mindset, Resilience, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2363",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:18:15.844Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

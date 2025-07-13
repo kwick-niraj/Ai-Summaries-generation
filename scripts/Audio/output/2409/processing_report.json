@@ -1,0 +1,456 @@
+{
+  "bookId": "2409",
+  "timestamp": "2025-07-10T21:34:53.442Z",
+  "success": false,
+  "processingTime": -1752182914912,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3630,
+    "totalAudioFiles": 12,
+    "totalDuration": 2001.186749
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2001.186749
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2409/optimized_text/2409.md",
+    "fileSize": 833,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2409.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2409/metadata/2409_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2001.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2409/metadata/2409_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2409/metadata/2409_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2409/2409_complete.wav",
+    "duration": 2001.18675,
+    "fileSize": 96057042,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2409/introduction.wav",
+          "duration": 110.085583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.085583,
+          "startTime": 0,
+          "endTime": 110.085583
+        },
+        {
+          "path": "Audio/output/2409/chapter_01.wav",
+          "duration": 186.576583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Modern Workplace—Why Constant Busyness Isn’t the Answer",
+          "actualDuration": 186.576583,
+          "startTime": 111.585583,
+          "endTime": 298.162166
+        },
+        {
+          "path": "Audio/output/2409/chapter_02.wav",
+          "duration": 216.760583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Boundaries—Protecting Time, Focus, and Personal Life",
+          "actualDuration": 216.760583,
+          "startTime": 299.662166,
+          "endTime": 516.4227490000001
+        },
+        {
+          "path": "Audio/output/2409/chapter_03.wav",
+          "duration": 195.439333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Redefining Productivity—Doing Less, But Doing It Better",
+          "actualDuration": 195.439333,
+          "startTime": 517.9227490000001,
+          "endTime": 713.3620820000001
+        },
+        {
+          "path": "Audio/output/2409/chapter_04.wav",
+          "duration": 191.282292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Uninterrupted Work—Creating Space for Deep Focus",
+          "actualDuration": 191.282292,
+          "startTime": 714.8620820000001,
+          "endTime": 906.1443740000001
+        },
+        {
+          "path": "Audio/output/2409/chapter_05.wav",
+          "duration": 159.50375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Communication That Respects Time—Asynchronous Tools and Fewer Meetings",
+          "actualDuration": 159.50375,
+          "startTime": 907.6443740000001,
+          "endTime": 1067.148124
+        },
+        {
+          "path": "Audio/output/2409/chapter_06.wav",
+          "duration": 185.3445,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing Trust and Autonomy—Letting People Own Their Work",
+          "actualDuration": 185.3445,
+          "startTime": 1068.648124,
+          "endTime": 1253.992624
+        },
+        {
+          "path": "Audio/output/2409/chapter_07.wav",
+          "duration": 167.626667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustainable Pace—Avoiding Burnout and Building for the Long Term",
+          "actualDuration": 167.626667,
+          "startTime": 1255.492624,
+          "endTime": 1423.119291
+        },
+        {
+          "path": "Audio/output/2409/chapter_08.wav",
+          "duration": 173.99525,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Handling Emergencies—Staying Calm When Things Go Wrong",
+          "actualDuration": 173.99525,
+          "startTime": 1424.619291,
+          "endTime": 1598.614541
+        },
+        {
+          "path": "Audio/output/2409/chapter_09.wav",
+          "duration": 164.03925,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Hiring and Onboarding for Calm—Setting the Tone from Day One",
+          "actualDuration": 164.03925,
+          "startTime": 1600.114541,
+          "endTime": 1764.153791
+        },
+        {
+          "path": "Audio/output/2409/chapter_10.wav",
+          "duration": 127.317875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Measuring What Matters—Tracking Progress Without Stress",
+          "actualDuration": 127.317875,
+          "startTime": 1765.653791,
+          "endTime": 1892.971666
+        },
+        {
+          "path": "Audio/output/2409/conclusion.wav",
+          "duration": 123.215083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.215083,
+          "startTime": 1894.471666,
+          "endTime": 2017.686749
+        }
+      ],
+      "totalDuration": 2017.686749,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.09,
+          "actualStart": 0,
+          "actualEnd": 110.085583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Modern Workplace—Why Constant Busyness Isn’t the Answer",
+          "expectedStart": 110.09,
+          "expectedEnd": 296.67,
+          "actualStart": 111.585583,
+          "actualEnd": 298.162166,
+          "timeDifference": 1.4955829999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Boundaries—Protecting Time, Focus, and Personal Life",
+          "expectedStart": 296.67,
+          "expectedEnd": 513.43,
+          "actualStart": 299.662166,
+          "actualEnd": 516.4227490000001,
+          "timeDifference": 2.9921659999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Redefining Productivity—Doing Less, But Doing It Better",
+          "expectedStart": 513.43,
+          "expectedEnd": 708.87,
+          "actualStart": 517.9227490000001,
+          "actualEnd": 713.3620820000001,
+          "timeDifference": 4.492749000000117
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Uninterrupted Work—Creating Space for Deep Focus",
+          "expectedStart": 708.87,
+          "expectedEnd": 900.15,
+          "actualStart": 714.8620820000001,
+          "actualEnd": 906.1443740000001,
+          "timeDifference": 5.992082000000096
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Communication That Respects Time—Asynchronous Tools and Fewer Meetings",
+          "expectedStart": 900.15,
+          "expectedEnd": 1059.65,
+          "actualStart": 907.6443740000001,
+          "actualEnd": 1067.148124,
+          "timeDifference": 7.494374000000107
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing Trust and Autonomy—Letting People Own Their Work",
+          "expectedStart": 1059.65,
+          "expectedEnd": 1244.99,
+          "actualStart": 1068.648124,
+          "actualEnd": 1253.992624,
+          "timeDifference": 8.998123999999962
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustainable Pace—Avoiding Burnout and Building for the Long Term",
+          "expectedStart": 1244.99,
+          "expectedEnd": 1412.62,
+          "actualStart": 1255.492624,
+          "actualEnd": 1423.119291,
+          "timeDifference": 10.502623999999969
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Handling Emergencies—Staying Calm When Things Go Wrong",
+          "expectedStart": 1412.62,
+          "expectedEnd": 1586.62,
+          "actualStart": 1424.619291,
+          "actualEnd": 1598.614541,
+          "timeDifference": 11.999291000000085
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Hiring and Onboarding for Calm—Setting the Tone from Day One",
+          "expectedStart": 1586.62,
+          "expectedEnd": 1750.66,
+          "actualStart": 1600.114541,
+          "actualEnd": 1764.153791,
+          "timeDifference": 13.494541000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Measuring What Matters—Tracking Progress Without Stress",
+          "expectedStart": 1750.66,
+          "expectedEnd": 1877.98,
+          "actualStart": 1765.653791,
+          "actualEnd": 1892.971666,
+          "timeDifference": 14.993790999999874
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1877.98,
+          "expectedEnd": 2001.2,
+          "actualStart": 1894.471666,
+          "actualEnd": 2017.686749,
+          "timeDifference": 16.491665999999896
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.085583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Modern Workplace—Why Constant Busyness Isn’t the Answer"
+        },
+        {
+          "startTime": 298.162166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Modern Workplace—Why Constant Busyness Isn’t the Answer and Chapter 2 Building Boundaries—Protecting Time, Focus, and Personal Life"
+        },
+        {
+          "startTime": 516.4227490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Boundaries—Protecting Time, Focus, and Personal Life and Chapter 3 Redefining Productivity—Doing Less, But Doing It Better"
+        },
+        {
+          "startTime": 713.3620820000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Redefining Productivity—Doing Less, But Doing It Better and Chapter 4 The Power of Uninterrupted Work—Creating Space for Deep Focus"
+        },
+        {
+          "startTime": 906.1443740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Uninterrupted Work—Creating Space for Deep Focus and Chapter 5 Communication That Respects Time—Asynchronous Tools and Fewer Meetings"
+        },
+        {
+          "startTime": 1067.148124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Communication That Respects Time—Asynchronous Tools and Fewer Meetings and Chapter 6 Embracing Trust and Autonomy—Letting People Own Their Work"
+        },
+        {
+          "startTime": 1253.992624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing Trust and Autonomy—Letting People Own Their Work and Chapter 7 Sustainable Pace—Avoiding Burnout and Building for the Long Term"
+        },
+        {
+          "startTime": 1423.119291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustainable Pace—Avoiding Burnout and Building for the Long Term and Chapter 8 Handling Emergencies—Staying Calm When Things Go Wrong"
+        },
+        {
+          "startTime": 1598.614541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Handling Emergencies—Staying Calm When Things Go Wrong and Chapter 9 Hiring and Onboarding for Calm—Setting the Tone from Day One"
+        },
+        {
+          "startTime": 1764.153791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Hiring and Onboarding for Calm—Setting the Tone from Day One and Chapter 10 Measuring What Matters—Tracking Progress Without Stress"
+        },
+        {
+          "startTime": 1892.971666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Measuring What Matters—Tracking Progress Without Stress and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2409",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T21:28:36.124Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

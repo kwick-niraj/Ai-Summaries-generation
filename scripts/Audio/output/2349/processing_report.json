@@ -1,0 +1,456 @@
+{
+  "bookId": "2349",
+  "timestamp": "2025-07-10T17:20:12.242Z",
+  "success": false,
+  "processingTime": -1752167698631,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4708,
+    "totalAudioFiles": 12,
+    "totalDuration": 2203.6551249999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2203.6551249999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2349/optimized_text/2349.md",
+    "fileSize": 624,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2349.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2349/metadata/2349_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2203.64,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2349/metadata/2349_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2349/metadata/2349_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2349/2349_complete.wav",
+    "duration": 2203.655125,
+    "fileSize": 105775524,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2349/introduction.wav",
+          "duration": 105.212083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.212083,
+          "startTime": 0,
+          "endTime": 105.212083
+        },
+        {
+          "path": "Audio/output/2349/chapter_01.wav",
+          "duration": 237.42775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life and the Search for Meaning",
+          "actualDuration": 237.42775,
+          "startTime": 106.712083,
+          "endTime": 344.139833
+        },
+        {
+          "path": "Audio/output/2349/chapter_02.wav",
+          "duration": 234.242042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Kingdom That Defies Expectations",
+          "actualDuration": 234.242042,
+          "startTime": 345.639833,
+          "endTime": 579.881875
+        },
+        {
+          "path": "Audio/output/2349/chapter_03.wav",
+          "duration": 242.521,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Challenging Power, Wealth, and Status",
+          "actualDuration": 242.521,
+          "startTime": 581.381875,
+          "endTime": 823.902875
+        },
+        {
+          "path": "Audio/output/2349/chapter_04.wav",
+          "duration": 196.744708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living Out a New Way: Nonviolence, Justice, and Generosity",
+          "actualDuration": 196.744708,
+          "startTime": 825.402875,
+          "endTime": 1022.1475829999999
+        },
+        {
+          "path": "Audio/output/2349/chapter_05.wav",
+          "duration": 193.136417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Journey of Transformation",
+          "actualDuration": 193.136417,
+          "startTime": 1023.6475829999999,
+          "endTime": 1216.7839999999999
+        },
+        {
+          "path": "Audio/output/2349/chapter_06.wav",
+          "duration": 192.656125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Community: The Heartbeat of the Upside-Down Kingdom",
+          "actualDuration": 192.656125,
+          "startTime": 1218.2839999999999,
+          "endTime": 1410.9401249999999
+        },
+        {
+          "path": "Audio/output/2349/chapter_07.wav",
+          "duration": 192.174958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost and Courage of Discipleship",
+          "actualDuration": 192.174958,
+          "startTime": 1412.4401249999999,
+          "endTime": 1604.615083
+        },
+        {
+          "path": "Audio/output/2349/chapter_08.wav",
+          "duration": 171.464375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Upside-Down Kingdom in a World of Empire",
+          "actualDuration": 171.464375,
+          "startTime": 1606.115083,
+          "endTime": 1777.579458
+        },
+        {
+          "path": "Audio/output/2349/chapter_09.wav",
+          "duration": 165.363333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Hope, Resurrection, and the Promise of Renewal",
+          "actualDuration": 165.363333,
+          "startTime": 1779.079458,
+          "endTime": 1944.442791
+        },
+        {
+          "path": "Audio/output/2349/chapter_10.wav",
+          "duration": 161.597667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Upside-Down Kingdom Today",
+          "actualDuration": 161.597667,
+          "startTime": 1945.942791,
+          "endTime": 2107.540458
+        },
+        {
+          "path": "Audio/output/2349/conclusion.wav",
+          "duration": 111.114667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.114667,
+          "startTime": 2109.040458,
+          "endTime": 2220.1551249999998
+        }
+      ],
+      "totalDuration": 2220.1551249999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.21,
+          "actualStart": 0,
+          "actualEnd": 105.212083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life and the Search for Meaning",
+          "expectedStart": 105.21,
+          "expectedEnd": 342.64,
+          "actualStart": 106.712083,
+          "actualEnd": 344.139833,
+          "timeDifference": 1.5020830000000132
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Kingdom That Defies Expectations",
+          "expectedStart": 342.64,
+          "expectedEnd": 576.88,
+          "actualStart": 345.639833,
+          "actualEnd": 579.881875,
+          "timeDifference": 2.9998330000000237
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Challenging Power, Wealth, and Status",
+          "expectedStart": 576.88,
+          "expectedEnd": 819.4,
+          "actualStart": 581.381875,
+          "actualEnd": 823.902875,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living Out a New Way: Nonviolence, Justice, and Generosity",
+          "expectedStart": 819.4,
+          "expectedEnd": 1016.14,
+          "actualStart": 825.402875,
+          "actualEnd": 1022.1475829999999,
+          "timeDifference": 6.002875000000017
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Journey of Transformation",
+          "expectedStart": 1016.14,
+          "expectedEnd": 1209.28,
+          "actualStart": 1023.6475829999999,
+          "actualEnd": 1216.7839999999999,
+          "timeDifference": 7.507582999999954
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Community: The Heartbeat of the Upside-Down Kingdom",
+          "expectedStart": 1209.28,
+          "expectedEnd": 1401.94,
+          "actualStart": 1218.2839999999999,
+          "actualEnd": 1410.9401249999999,
+          "timeDifference": 9.003999999999905
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost and Courage of Discipleship",
+          "expectedStart": 1401.94,
+          "expectedEnd": 1594.11,
+          "actualStart": 1412.4401249999999,
+          "actualEnd": 1604.615083,
+          "timeDifference": 10.500124999999798
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Upside-Down Kingdom in a World of Empire",
+          "expectedStart": 1594.11,
+          "expectedEnd": 1765.57,
+          "actualStart": 1606.115083,
+          "actualEnd": 1777.579458,
+          "timeDifference": 12.005083000000013
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Hope, Resurrection, and the Promise of Renewal",
+          "expectedStart": 1765.57,
+          "expectedEnd": 1930.93,
+          "actualStart": 1779.079458,
+          "actualEnd": 1944.442791,
+          "timeDifference": 13.509457999999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Upside-Down Kingdom Today",
+          "expectedStart": 1930.93,
+          "expectedEnd": 2092.53,
+          "actualStart": 1945.942791,
+          "actualEnd": 2107.540458,
+          "timeDifference": 15.01279099999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2092.53,
+          "expectedEnd": 2203.64,
+          "actualStart": 2109.040458,
+          "actualEnd": 2220.1551249999998,
+          "timeDifference": 16.510457999999744
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.212083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life and the Search for Meaning"
+        },
+        {
+          "startTime": 344.139833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life and the Search for Meaning and Chapter 2 The Kingdom That Defies Expectations"
+        },
+        {
+          "startTime": 579.881875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Kingdom That Defies Expectations and Chapter 3 Challenging Power, Wealth, and Status"
+        },
+        {
+          "startTime": 823.902875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Challenging Power, Wealth, and Status and Chapter 4 Living Out a New Way: Nonviolence, Justice, and Generosity"
+        },
+        {
+          "startTime": 1022.1475829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living Out a New Way: Nonviolence, Justice, and Generosity and Chapter 5 The Ongoing Journey of Transformation"
+        },
+        {
+          "startTime": 1216.7839999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Journey of Transformation and Chapter 6 Community: The Heartbeat of the Upside-Down Kingdom"
+        },
+        {
+          "startTime": 1410.9401249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Community: The Heartbeat of the Upside-Down Kingdom and Chapter 7 The Cost and Courage of Discipleship"
+        },
+        {
+          "startTime": 1604.615083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost and Courage of Discipleship and Chapter 8 The Upside-Down Kingdom in a World of Empire"
+        },
+        {
+          "startTime": 1777.579458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Upside-Down Kingdom in a World of Empire and Chapter 9 Hope, Resurrection, and the Promise of Renewal"
+        },
+        {
+          "startTime": 1944.442791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Hope, Resurrection, and the Promise of Renewal and Chapter 10 Living the Upside-Down Kingdom Today"
+        },
+        {
+          "startTime": 2107.540458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Upside-Down Kingdom Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2349",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T17:14:59.852Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

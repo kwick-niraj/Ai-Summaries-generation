@@ -1,0 +1,456 @@
+{
+  "bookId": "2485",
+  "timestamp": "2025-07-11T00:48:15.348Z",
+  "success": false,
+  "processingTime": -1752194531078,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4656,
+    "totalAudioFiles": 12,
+    "totalDuration": 1894.157501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1894.157501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2485/optimized_text/2485.md",
+    "fileSize": 565,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2485.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2485/metadata/2485_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1894.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2485/metadata/2485_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2485/metadata/2485_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2485/2485_complete.wav",
+    "duration": 1894.1575,
+    "fileSize": 90919638,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2485/introduction.wav",
+          "duration": 75.74425,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.74425,
+          "startTime": 0,
+          "endTime": 75.74425
+        },
+        {
+          "path": "Audio/output/2485/chapter_01.wav",
+          "duration": 226.882708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Why Hearts Become Attached",
+          "actualDuration": 226.882708,
+          "startTime": 77.24425,
+          "endTime": 304.126958
+        },
+        {
+          "path": "Audio/output/2485/chapter_02.wav",
+          "duration": 216.396917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Search for Lasting Fulfillment",
+          "actualDuration": 216.396917,
+          "startTime": 305.626958,
+          "endTime": 522.023875
+        },
+        {
+          "path": "Audio/output/2485/chapter_03.wav",
+          "duration": 199.538208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Pain and Disappointment with Faith",
+          "actualDuration": 199.538208,
+          "startTime": 523.523875,
+          "endTime": 723.062083
+        },
+        {
+          "path": "Audio/output/2485/chapter_04.wav",
+          "duration": 169.76825,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Letting Go of What Holds the Heart Back",
+          "actualDuration": 169.76825,
+          "startTime": 724.562083,
+          "endTime": 894.330333
+        },
+        {
+          "path": "Audio/output/2485/chapter_05.wav",
+          "duration": 154.23975,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Strength in Surrender",
+          "actualDuration": 154.23975,
+          "startTime": 895.830333,
+          "endTime": 1050.070083
+        },
+        {
+          "path": "Audio/output/2485/chapter_06.wav",
+          "duration": 162.897917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Gratitude in Healing",
+          "actualDuration": 162.897917,
+          "startTime": 1051.570083,
+          "endTime": 1214.468
+        },
+        {
+          "path": "Audio/output/2485/chapter_07.wav",
+          "duration": 170.615,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Forgiveness: Freeing the Heart from the Past",
+          "actualDuration": 170.615,
+          "startTime": 1215.968,
+          "endTime": 1386.583
+        },
+        {
+          "path": "Audio/output/2485/chapter_08.wav",
+          "duration": 144.106625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Living with Intention and Purpose",
+          "actualDuration": 144.106625,
+          "startTime": 1388.083,
+          "endTime": 1532.189625
+        },
+        {
+          "path": "Audio/output/2485/chapter_09.wav",
+          "duration": 139.535792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Change and Uncertainty",
+          "actualDuration": 139.535792,
+          "startTime": 1533.689625,
+          "endTime": 1673.2254169999999
+        },
+        {
+          "path": "Audio/output/2485/chapter_10.wav",
+          "duration": 122.699667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Returning the Heart to Its True Home",
+          "actualDuration": 122.699667,
+          "startTime": 1674.7254169999999,
+          "endTime": 1797.425084
+        },
+        {
+          "path": "Audio/output/2485/conclusion.wav",
+          "duration": 111.732417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.732417,
+          "startTime": 1798.925084,
+          "endTime": 1910.657501
+        }
+      ],
+      "totalDuration": 1910.657501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.74,
+          "actualStart": 0,
+          "actualEnd": 75.74425,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Why Hearts Become Attached",
+          "expectedStart": 75.74,
+          "expectedEnd": 302.62,
+          "actualStart": 77.24425,
+          "actualEnd": 304.126958,
+          "timeDifference": 1.504249999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Search for Lasting Fulfillment",
+          "expectedStart": 302.62,
+          "expectedEnd": 519.02,
+          "actualStart": 305.626958,
+          "actualEnd": 522.023875,
+          "timeDifference": 3.0069579999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Pain and Disappointment with Faith",
+          "expectedStart": 519.02,
+          "expectedEnd": 718.56,
+          "actualStart": 523.523875,
+          "actualEnd": 723.062083,
+          "timeDifference": 4.503874999999994
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Letting Go of What Holds the Heart Back",
+          "expectedStart": 718.56,
+          "expectedEnd": 888.33,
+          "actualStart": 724.562083,
+          "actualEnd": 894.330333,
+          "timeDifference": 6.002083000000084
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Strength in Surrender",
+          "expectedStart": 888.33,
+          "expectedEnd": 1042.57,
+          "actualStart": 895.830333,
+          "actualEnd": 1050.070083,
+          "timeDifference": 7.500332999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Gratitude in Healing",
+          "expectedStart": 1042.57,
+          "expectedEnd": 1205.47,
+          "actualStart": 1051.570083,
+          "actualEnd": 1214.468,
+          "timeDifference": 9.000083000000132
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Forgiveness: Freeing the Heart from the Past",
+          "expectedStart": 1205.47,
+          "expectedEnd": 1376.09,
+          "actualStart": 1215.968,
+          "actualEnd": 1386.583,
+          "timeDifference": 10.498000000000047
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Living with Intention and Purpose",
+          "expectedStart": 1376.09,
+          "expectedEnd": 1520.2,
+          "actualStart": 1388.083,
+          "actualEnd": 1532.189625,
+          "timeDifference": 11.993000000000166
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Change and Uncertainty",
+          "expectedStart": 1520.2,
+          "expectedEnd": 1659.74,
+          "actualStart": 1533.689625,
+          "actualEnd": 1673.2254169999999,
+          "timeDifference": 13.489624999999933
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Returning the Heart to Its True Home",
+          "expectedStart": 1659.74,
+          "expectedEnd": 1782.44,
+          "actualStart": 1674.7254169999999,
+          "actualEnd": 1797.425084,
+          "timeDifference": 14.98541699999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1782.44,
+          "expectedEnd": 1894.17,
+          "actualStart": 1798.925084,
+          "actualEnd": 1910.657501,
+          "timeDifference": 16.485083999999915
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.74425,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Why Hearts Become Attached"
+        },
+        {
+          "startTime": 304.126958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Why Hearts Become Attached and Chapter 2 The Search for Lasting Fulfillment"
+        },
+        {
+          "startTime": 522.023875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Search for Lasting Fulfillment and Chapter 3 Facing Pain and Disappointment with Faith"
+        },
+        {
+          "startTime": 723.062083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Pain and Disappointment with Faith and Chapter 4 Letting Go of What Holds the Heart Back"
+        },
+        {
+          "startTime": 894.330333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Letting Go of What Holds the Heart Back and Chapter 5 Finding Strength in Surrender"
+        },
+        {
+          "startTime": 1050.070083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Strength in Surrender and Chapter 6 The Power of Gratitude in Healing"
+        },
+        {
+          "startTime": 1214.468,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Gratitude in Healing and Chapter 7 Forgiveness: Freeing the Heart from the Past"
+        },
+        {
+          "startTime": 1386.583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Forgiveness: Freeing the Heart from the Past and Chapter 8 Living with Intention and Purpose"
+        },
+        {
+          "startTime": 1532.189625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Living with Intention and Purpose and Chapter 9 Navigating Change and Uncertainty"
+        },
+        {
+          "startTime": 1673.2254169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Change and Uncertainty and Chapter 10 Returning the Heart to Its True Home"
+        },
+        {
+          "startTime": 1797.425084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Returning the Heart to Its True Home and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2485",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:42:12.561Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

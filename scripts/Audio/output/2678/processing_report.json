@@ -1,0 +1,456 @@
+{
+  "bookId": "2678",
+  "timestamp": "2025-07-12T10:27:20.250Z",
+  "success": false,
+  "processingTime": -1752315755022,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4208,
+    "totalAudioFiles": 12,
+    "totalDuration": 1992.7991249999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1992.7991249999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2678/optimized_text/2678.md",
+    "fileSize": 697,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2678.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2678/metadata/2678_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1992.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2678/metadata/2678_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2678/metadata/2678_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2678/2678_complete.wav",
+    "duration": 1992.799125,
+    "fileSize": 95654436,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2678/introduction.wav",
+          "duration": 83.667833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.667833,
+          "startTime": 0,
+          "endTime": 83.667833
+        },
+        {
+          "path": "Audio/output/2678/chapter_01.wav",
+          "duration": 181.689292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering Creativity as a Natural Birthright",
+          "actualDuration": 181.689292,
+          "startTime": 85.167833,
+          "endTime": 266.857125
+        },
+        {
+          "path": "Audio/output/2678/chapter_02.wav",
+          "duration": 208.83,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying and Challenging Internal Barriers",
+          "actualDuration": 208.83,
+          "startTime": 268.357125,
+          "endTime": 477.18712500000004
+        },
+        {
+          "path": "Audio/output/2678/chapter_03.wav",
+          "duration": 198.068417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Daily Habits for Creative Growth",
+          "actualDuration": 198.068417,
+          "startTime": 478.68712500000004,
+          "endTime": 676.7555420000001
+        },
+        {
+          "path": "Audio/output/2678/chapter_04.wav",
+          "duration": 225.355125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Imperfection and the Value of Process",
+          "actualDuration": 225.355125,
+          "startTime": 678.2555420000001,
+          "endTime": 903.6106670000001
+        },
+        {
+          "path": "Audio/output/2678/chapter_05.wav",
+          "duration": 178.568542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Community and Self-Commitment in Creative Recovery",
+          "actualDuration": 178.568542,
+          "startTime": 905.1106670000001,
+          "endTime": 1083.6792090000001
+        },
+        {
+          "path": "Audio/output/2678/chapter_06.wav",
+          "duration": 186.550583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reconnecting with a Sense of Play and Spiritual Guidance",
+          "actualDuration": 186.550583,
+          "startTime": 1085.1792090000001,
+          "endTime": 1271.729792
+        },
+        {
+          "path": "Audio/output/2678/chapter_07.wav",
+          "duration": 149.874375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing Old Wounds and Releasing Creative Blocks",
+          "actualDuration": 149.874375,
+          "startTime": 1273.229792,
+          "endTime": 1423.104167
+        },
+        {
+          "path": "Audio/output/2678/chapter_08.wav",
+          "duration": 135.590917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Abundance and Overcoming Scarcity Thinking",
+          "actualDuration": 135.590917,
+          "startTime": 1424.604167,
+          "endTime": 1560.195084
+        },
+        {
+          "path": "Audio/output/2678/chapter_09.wav",
+          "duration": 168.498875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Creativity into Everyday Life",
+          "actualDuration": 168.498875,
+          "startTime": 1561.695084,
+          "endTime": 1730.193959
+        },
+        {
+          "path": "Audio/output/2678/chapter_10.wav",
+          "duration": 146.150833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Creative Momentum and Navigating Setbacks",
+          "actualDuration": 146.150833,
+          "startTime": 1731.693959,
+          "endTime": 1877.8447919999999
+        },
+        {
+          "path": "Audio/output/2678/conclusion.wav",
+          "duration": 129.954333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.954333,
+          "startTime": 1879.3447919999999,
+          "endTime": 2009.2991249999998
+        }
+      ],
+      "totalDuration": 2009.2991249999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.67,
+          "actualStart": 0,
+          "actualEnd": 83.667833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering Creativity as a Natural Birthright",
+          "expectedStart": 83.67,
+          "expectedEnd": 265.36,
+          "actualStart": 85.167833,
+          "actualEnd": 266.857125,
+          "timeDifference": 1.497833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying and Challenging Internal Barriers",
+          "expectedStart": 265.36,
+          "expectedEnd": 474.19,
+          "actualStart": 268.357125,
+          "actualEnd": 477.18712500000004,
+          "timeDifference": 2.9971249999999827
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Daily Habits for Creative Growth",
+          "expectedStart": 474.19,
+          "expectedEnd": 672.26,
+          "actualStart": 478.68712500000004,
+          "actualEnd": 676.7555420000001,
+          "timeDifference": 4.49712500000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Imperfection and the Value of Process",
+          "expectedStart": 672.26,
+          "expectedEnd": 897.62,
+          "actualStart": 678.2555420000001,
+          "actualEnd": 903.6106670000001,
+          "timeDifference": 5.995542000000114
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Community and Self-Commitment in Creative Recovery",
+          "expectedStart": 897.62,
+          "expectedEnd": 1076.19,
+          "actualStart": 905.1106670000001,
+          "actualEnd": 1083.6792090000001,
+          "timeDifference": 7.490667000000144
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reconnecting with a Sense of Play and Spiritual Guidance",
+          "expectedStart": 1076.19,
+          "expectedEnd": 1262.74,
+          "actualStart": 1085.1792090000001,
+          "actualEnd": 1271.729792,
+          "timeDifference": 8.989209000000074
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing Old Wounds and Releasing Creative Blocks",
+          "expectedStart": 1262.74,
+          "expectedEnd": 1412.61,
+          "actualStart": 1273.229792,
+          "actualEnd": 1423.104167,
+          "timeDifference": 10.48979200000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Abundance and Overcoming Scarcity Thinking",
+          "expectedStart": 1412.61,
+          "expectedEnd": 1548.2,
+          "actualStart": 1424.604167,
+          "actualEnd": 1560.195084,
+          "timeDifference": 11.994167000000061
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Creativity into Everyday Life",
+          "expectedStart": 1548.2,
+          "expectedEnd": 1716.7,
+          "actualStart": 1561.695084,
+          "actualEnd": 1730.193959,
+          "timeDifference": 13.495083999999906
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Creative Momentum and Navigating Setbacks",
+          "expectedStart": 1716.7,
+          "expectedEnd": 1862.85,
+          "actualStart": 1731.693959,
+          "actualEnd": 1877.8447919999999,
+          "timeDifference": 14.993958999999904
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1862.85,
+          "expectedEnd": 1992.8,
+          "actualStart": 1879.3447919999999,
+          "actualEnd": 2009.2991249999998,
+          "timeDifference": 16.49479199999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.667833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering Creativity as a Natural Birthright"
+        },
+        {
+          "startTime": 266.857125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering Creativity as a Natural Birthright and Chapter 2 Identifying and Challenging Internal Barriers"
+        },
+        {
+          "startTime": 477.18712500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying and Challenging Internal Barriers and Chapter 3 Building Daily Habits for Creative Growth"
+        },
+        {
+          "startTime": 676.7555420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Daily Habits for Creative Growth and Chapter 4 Embracing Imperfection and the Value of Process"
+        },
+        {
+          "startTime": 903.6106670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Imperfection and the Value of Process and Chapter 5 The Role of Community and Self-Commitment in Creative Recovery"
+        },
+        {
+          "startTime": 1083.6792090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Community and Self-Commitment in Creative Recovery and Chapter 6 Reconnecting with a Sense of Play and Spiritual Guidance"
+        },
+        {
+          "startTime": 1271.729792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reconnecting with a Sense of Play and Spiritual Guidance and Chapter 7 Healing Old Wounds and Releasing Creative Blocks"
+        },
+        {
+          "startTime": 1423.104167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing Old Wounds and Releasing Creative Blocks and Chapter 8 Cultivating Abundance and Overcoming Scarcity Thinking"
+        },
+        {
+          "startTime": 1560.195084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Abundance and Overcoming Scarcity Thinking and Chapter 9 Integrating Creativity into Everyday Life"
+        },
+        {
+          "startTime": 1730.193959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Creativity into Everyday Life and Chapter 10 Sustaining Creative Momentum and Navigating Setbacks"
+        },
+        {
+          "startTime": 1877.8447919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Creative Momentum and Navigating Setbacks and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2678",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T10:22:36.217Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "2372",
+  "timestamp": "2025-07-10T19:07:22.475Z",
+  "success": false,
+  "processingTime": -1752174199496,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4106,
+    "totalAudioFiles": 11,
+    "totalDuration": 1796.1946659999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1796.1946659999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2372/optimized_text/2372.md",
+    "fileSize": 668,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2372.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2372/metadata/2372_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1796.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2372/metadata/2372_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2372/metadata/2372_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2372/2372_complete.wav",
+    "duration": 1796.194667,
+    "fileSize": 86217422,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2372/introduction.wav",
+          "duration": 77.622333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.622333,
+          "startTime": 0,
+          "endTime": 77.622333
+        },
+        {
+          "path": "Audio/output/2372/chapter_01.wav",
+          "duration": 242.633792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Little but Holding on to Dignity",
+          "actualDuration": 242.633792,
+          "startTime": 79.122333,
+          "endTime": 321.756125
+        },
+        {
+          "path": "Audio/output/2372/chapter_02.wav",
+          "duration": 232.389333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Family and the Power of a Mother’s Love",
+          "actualDuration": 232.389333,
+          "startTime": 323.256125,
+          "endTime": 555.645458
+        },
+        {
+          "path": "Audio/output/2372/chapter_03.wav",
+          "duration": 213.653167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding a Voice and the First Steps Beyond Home",
+          "actualDuration": 213.653167,
+          "startTime": 557.145458,
+          "endTime": 770.7986249999999
+        },
+        {
+          "path": "Audio/output/2372/chapter_04.wav",
+          "duration": 180.24975,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Ambition and the Pull of Responsibility",
+          "actualDuration": 180.24975,
+          "startTime": 772.2986249999999,
+          "endTime": 952.5483749999999
+        },
+        {
+          "path": "Audio/output/2372/chapter_05.wav",
+          "duration": 182.900458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Coming Home—The Unfinished Business of Belonging",
+          "actualDuration": 182.900458,
+          "startTime": 954.0483749999999,
+          "endTime": 1136.948833
+        },
+        {
+          "path": "Audio/output/2372/chapter_06.wav",
+          "duration": 153.464375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Stories We Carry—Memory, Shame, and the Power of Telling",
+          "actualDuration": 153.464375,
+          "startTime": 1138.448833,
+          "endTime": 1291.913208
+        },
+        {
+          "path": "Audio/output/2372/chapter_07.wav",
+          "duration": 126.569208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Reach of the Past—Cycles, Choices, and Forgiveness",
+          "actualDuration": 126.569208,
+          "startTime": 1293.413208,
+          "endTime": 1419.9824159999998
+        },
+        {
+          "path": "Audio/output/2372/chapter_08.wav",
+          "duration": 154.06175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building a Life—Love, Loss, and the Search for Meaning",
+          "actualDuration": 154.06175,
+          "startTime": 1421.4824159999998,
+          "endTime": 1575.544166
+        },
+        {
+          "path": "Audio/output/2372/chapter_09.wav",
+          "duration": 111.942542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Full Circle—Honoring the Past, Embracing the Future",
+          "actualDuration": 111.942542,
+          "startTime": 1577.044166,
+          "endTime": 1688.986708
+        },
+        {
+          "path": "Audio/output/2372/conclusion.wav",
+          "duration": 120.707958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.707958,
+          "startTime": 1690.486708,
+          "endTime": 1811.1946659999999
+        }
+      ],
+      "totalDuration": 1811.1946659999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.62,
+          "actualStart": 0,
+          "actualEnd": 77.622333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Little but Holding on to Dignity",
+          "expectedStart": 77.62,
+          "expectedEnd": 320.25,
+          "actualStart": 79.122333,
+          "actualEnd": 321.756125,
+          "timeDifference": 1.502332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Family and the Power of a Mother’s Love",
+          "expectedStart": 320.25,
+          "expectedEnd": 552.64,
+          "actualStart": 323.256125,
+          "actualEnd": 555.645458,
+          "timeDifference": 3.0061249999999973
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding a Voice and the First Steps Beyond Home",
+          "expectedStart": 552.64,
+          "expectedEnd": 766.29,
+          "actualStart": 557.145458,
+          "actualEnd": 770.7986249999999,
+          "timeDifference": 4.505457999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Ambition and the Pull of Responsibility",
+          "expectedStart": 766.29,
+          "expectedEnd": 946.54,
+          "actualStart": 772.2986249999999,
+          "actualEnd": 952.5483749999999,
+          "timeDifference": 6.008624999999938
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Coming Home—The Unfinished Business of Belonging",
+          "expectedStart": 946.54,
+          "expectedEnd": 1129.44,
+          "actualStart": 954.0483749999999,
+          "actualEnd": 1136.948833,
+          "timeDifference": 7.508374999999887
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Stories We Carry—Memory, Shame, and the Power of Telling",
+          "expectedStart": 1129.44,
+          "expectedEnd": 1282.9,
+          "actualStart": 1138.448833,
+          "actualEnd": 1291.913208,
+          "timeDifference": 9.008832999999868
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Reach of the Past—Cycles, Choices, and Forgiveness",
+          "expectedStart": 1282.9,
+          "expectedEnd": 1409.47,
+          "actualStart": 1293.413208,
+          "actualEnd": 1419.9824159999998,
+          "timeDifference": 10.51320799999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building a Life—Love, Loss, and the Search for Meaning",
+          "expectedStart": 1409.47,
+          "expectedEnd": 1563.53,
+          "actualStart": 1421.4824159999998,
+          "actualEnd": 1575.544166,
+          "timeDifference": 12.012415999999803
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Full Circle—Honoring the Past, Embracing the Future",
+          "expectedStart": 1563.53,
+          "expectedEnd": 1675.47,
+          "actualStart": 1577.044166,
+          "actualEnd": 1688.986708,
+          "timeDifference": 13.514165999999932
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1675.47,
+          "expectedEnd": 1796.18,
+          "actualStart": 1690.486708,
+          "actualEnd": 1811.1946659999999,
+          "timeDifference": 15.01670799999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.622333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Little but Holding on to Dignity"
+        },
+        {
+          "startTime": 321.756125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Little but Holding on to Dignity and Chapter 2 The Weight of Family and the Power of a Mother’s Love"
+        },
+        {
+          "startTime": 555.645458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Family and the Power of a Mother’s Love and Chapter 3 Finding a Voice and the First Steps Beyond Home"
+        },
+        {
+          "startTime": 770.7986249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding a Voice and the First Steps Beyond Home and Chapter 4 The Cost of Ambition and the Pull of Responsibility"
+        },
+        {
+          "startTime": 952.5483749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Ambition and the Pull of Responsibility and Chapter 5 Coming Home—The Unfinished Business of Belonging"
+        },
+        {
+          "startTime": 1136.948833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Coming Home—The Unfinished Business of Belonging and Chapter 6 The Stories We Carry—Memory, Shame, and the Power of Telling"
+        },
+        {
+          "startTime": 1291.913208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Stories We Carry—Memory, Shame, and the Power of Telling and Chapter 7 The Long Reach of the Past—Cycles, Choices, and Forgiveness"
+        },
+        {
+          "startTime": 1419.9824159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Reach of the Past—Cycles, Choices, and Forgiveness and Chapter 8 Building a Life—Love, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 1575.544166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building a Life—Love, Loss, and the Search for Meaning and Chapter 9 Full Circle—Honoring the Past, Embracing the Future"
+        },
+        {
+          "startTime": 1688.986708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Full Circle—Honoring the Past, Embracing the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2372",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T19:03:21.092Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

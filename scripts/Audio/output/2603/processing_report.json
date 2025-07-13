@@ -1,0 +1,456 @@
+{
+  "bookId": "2603",
+  "timestamp": "2025-07-11T07:40:10.337Z",
+  "success": false,
+  "processingTime": -1752219323379,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4154,
+    "totalAudioFiles": 12,
+    "totalDuration": 2049.896458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2049.896458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2603/optimized_text/2603.md",
+    "fileSize": 783,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2603.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2603/metadata/2603_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2049.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2603/metadata/2603_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2603/metadata/2603_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2603/2603_complete.wav",
+    "duration": 2049.896458,
+    "fileSize": 98395108,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2603/introduction.wav",
+          "duration": 93.793875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.793875,
+          "startTime": 0,
+          "endTime": 93.793875
+        },
+        {
+          "path": "Audio/output/2603/chapter_01.wav",
+          "duration": 222.688,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Habit Loop—How Habits Shape Everyday Life",
+          "actualDuration": 222.688,
+          "startTime": 95.293875,
+          "endTime": 317.981875
+        },
+        {
+          "path": "Audio/output/2603/chapter_02.wav",
+          "duration": 224.033792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science of Habit Formation—Why Habits Are So Hard to Change",
+          "actualDuration": 224.033792,
+          "startTime": 319.481875,
+          "endTime": 543.515667
+        },
+        {
+          "path": "Audio/output/2603/chapter_03.wav",
+          "duration": 195.8745,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Changing Habits—The Golden Rule of Habit Transformation",
+          "actualDuration": 195.8745,
+          "startTime": 545.015667,
+          "endTime": 740.890167
+        },
+        {
+          "path": "Audio/output/2603/chapter_04.wav",
+          "duration": 194.640708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Keystone Habits—Small Changes That Spark Big Transformations",
+          "actualDuration": 194.640708,
+          "startTime": 742.390167,
+          "endTime": 937.030875
+        },
+        {
+          "path": "Audio/output/2603/chapter_05.wav",
+          "duration": 186.651625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Habits in Organizations—How Group Routines Drive Success or Failure",
+          "actualDuration": 186.651625,
+          "startTime": 938.530875,
+          "endTime": 1125.1825000000001
+        },
+        {
+          "path": "Audio/output/2603/chapter_06.wav",
+          "duration": 176.904917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Belief—Why Faith Makes Change Possible",
+          "actualDuration": 176.904917,
+          "startTime": 1126.6825000000001,
+          "endTime": 1303.5874170000002
+        },
+        {
+          "path": "Audio/output/2603/chapter_07.wav",
+          "duration": 181.38225,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Social Habits—How Groups Shape Individual Behavior",
+          "actualDuration": 181.38225,
+          "startTime": 1305.0874170000002,
+          "endTime": 1486.4696670000003
+        },
+        {
+          "path": "Audio/output/2603/chapter_08.wav",
+          "duration": 150.875583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Neurology of Free Will—How Much Control Do We Really Have?",
+          "actualDuration": 150.875583,
+          "startTime": 1487.9696670000003,
+          "endTime": 1638.8452500000003
+        },
+        {
+          "path": "Audio/output/2603/chapter_09.wav",
+          "duration": 155.466208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Habits and Societal Change—How Movements Are Built",
+          "actualDuration": 155.466208,
+          "startTime": 1640.3452500000003,
+          "endTime": 1795.8114580000004
+        },
+        {
+          "path": "Audio/output/2603/chapter_10.wav",
+          "duration": 146.040583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Change—Building Habits That Last",
+          "actualDuration": 146.040583,
+          "startTime": 1797.3114580000004,
+          "endTime": 1943.3520410000003
+        },
+        {
+          "path": "Audio/output/2603/conclusion.wav",
+          "duration": 121.544417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.544417,
+          "startTime": 1944.8520410000003,
+          "endTime": 2066.396458
+        }
+      ],
+      "totalDuration": 2066.396458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.79,
+          "actualStart": 0,
+          "actualEnd": 93.793875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Habit Loop—How Habits Shape Everyday Life",
+          "expectedStart": 93.79,
+          "expectedEnd": 316.48,
+          "actualStart": 95.293875,
+          "actualEnd": 317.981875,
+          "timeDifference": 1.5038749999999936
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science of Habit Formation—Why Habits Are So Hard to Change",
+          "expectedStart": 316.48,
+          "expectedEnd": 540.51,
+          "actualStart": 319.481875,
+          "actualEnd": 543.515667,
+          "timeDifference": 3.001874999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Changing Habits—The Golden Rule of Habit Transformation",
+          "expectedStart": 540.51,
+          "expectedEnd": 736.38,
+          "actualStart": 545.015667,
+          "actualEnd": 740.890167,
+          "timeDifference": 4.505667000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Keystone Habits—Small Changes That Spark Big Transformations",
+          "expectedStart": 736.38,
+          "expectedEnd": 931.02,
+          "actualStart": 742.390167,
+          "actualEnd": 937.030875,
+          "timeDifference": 6.010167000000024
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Habits in Organizations—How Group Routines Drive Success or Failure",
+          "expectedStart": 931.02,
+          "expectedEnd": 1117.67,
+          "actualStart": 938.530875,
+          "actualEnd": 1125.1825000000001,
+          "timeDifference": 7.5108750000000555
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Belief—Why Faith Makes Change Possible",
+          "expectedStart": 1117.67,
+          "expectedEnd": 1294.57,
+          "actualStart": 1126.6825000000001,
+          "actualEnd": 1303.5874170000002,
+          "timeDifference": 9.012500000000045
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Social Habits—How Groups Shape Individual Behavior",
+          "expectedStart": 1294.57,
+          "expectedEnd": 1475.95,
+          "actualStart": 1305.0874170000002,
+          "actualEnd": 1486.4696670000003,
+          "timeDifference": 10.51741700000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Neurology of Free Will—How Much Control Do We Really Have?",
+          "expectedStart": 1475.95,
+          "expectedEnd": 1626.83,
+          "actualStart": 1487.9696670000003,
+          "actualEnd": 1638.8452500000003,
+          "timeDifference": 12.019667000000254
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Habits and Societal Change—How Movements Are Built",
+          "expectedStart": 1626.83,
+          "expectedEnd": 1782.3,
+          "actualStart": 1640.3452500000003,
+          "actualEnd": 1795.8114580000004,
+          "timeDifference": 13.515250000000378
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Change—Building Habits That Last",
+          "expectedStart": 1782.3,
+          "expectedEnd": 1928.34,
+          "actualStart": 1797.3114580000004,
+          "actualEnd": 1943.3520410000003,
+          "timeDifference": 15.011458000000403
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1928.34,
+          "expectedEnd": 2049.88,
+          "actualStart": 1944.8520410000003,
+          "actualEnd": 2066.396458,
+          "timeDifference": 16.51204100000041
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.793875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Habit Loop—How Habits Shape Everyday Life"
+        },
+        {
+          "startTime": 317.981875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Habit Loop—How Habits Shape Everyday Life and Chapter 2 The Science of Habit Formation—Why Habits Are So Hard to Change"
+        },
+        {
+          "startTime": 543.515667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science of Habit Formation—Why Habits Are So Hard to Change and Chapter 3 Changing Habits—The Golden Rule of Habit Transformation"
+        },
+        {
+          "startTime": 740.890167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Changing Habits—The Golden Rule of Habit Transformation and Chapter 4 Keystone Habits—Small Changes That Spark Big Transformations"
+        },
+        {
+          "startTime": 937.030875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Keystone Habits—Small Changes That Spark Big Transformations and Chapter 5 Habits in Organizations—How Group Routines Drive Success or Failure"
+        },
+        {
+          "startTime": 1125.1825000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Habits in Organizations—How Group Routines Drive Success or Failure and Chapter 6 The Power of Belief—Why Faith Makes Change Possible"
+        },
+        {
+          "startTime": 1303.5874170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Belief—Why Faith Makes Change Possible and Chapter 7 Social Habits—How Groups Shape Individual Behavior"
+        },
+        {
+          "startTime": 1486.4696670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Social Habits—How Groups Shape Individual Behavior and Chapter 8 The Neurology of Free Will—How Much Control Do We Really Have?"
+        },
+        {
+          "startTime": 1638.8452500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Neurology of Free Will—How Much Control Do We Really Have? and Chapter 9 Habits and Societal Change—How Movements Are Built"
+        },
+        {
+          "startTime": 1795.8114580000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Habits and Societal Change—How Movements Are Built and Chapter 10 Sustaining Change—Building Habits That Last"
+        },
+        {
+          "startTime": 1943.3520410000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Change—Building Habits That Last and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2603",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T07:35:24.591Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

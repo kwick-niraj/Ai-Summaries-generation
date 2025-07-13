@@ -1,0 +1,433 @@
+{
+  "bookId": "2397",
+  "timestamp": "2025-07-10T20:46:23.537Z",
+  "success": false,
+  "processingTime": -1752180007500,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4190,
+    "totalAudioFiles": 12,
+    "totalDuration": 2117.2810830000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2117.2810830000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2397/optimized_text/2397.md",
+    "fileSize": 709,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2397.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2397/metadata/2397_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2117.29,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2397/metadata/2397_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2397/metadata/2397_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2397/2397_complete.wav",
+    "duration": 2117.281083,
+    "fileSize": 101629570,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2397/introduction.wav",
+          "duration": 105.324667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.324667,
+          "startTime": 0,
+          "endTime": 105.324667
+        },
+        {
+          "path": "Audio/output/2397/chapter_01.wav",
+          "duration": 202.615917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Anxiety Through the Brain’s Two Pathways",
+          "actualDuration": 202.615917,
+          "startTime": 106.824667,
+          "endTime": 309.440584
+        },
+        {
+          "path": "Audio/output/2397/chapter_02.wav",
+          "duration": 236.805,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Amygdala’s Role: Automatic Fear and Physical Reactions",
+          "actualDuration": 236.805,
+          "startTime": 310.940584,
+          "endTime": 547.745584
+        },
+        {
+          "path": "Audio/output/2397/chapter_03.wav",
+          "duration": 243.515083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cortex’s Influence: Thought Patterns and Worry Loops",
+          "actualDuration": 243.515083,
+          "startTime": 549.245584,
+          "endTime": 792.760667
+        },
+        {
+          "path": "Audio/output/2397/chapter_04.wav",
+          "duration": 215.348792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building New Pathways: The Power of Neuroplasticity",
+          "actualDuration": 215.348792,
+          "startTime": 794.260667,
+          "endTime": 1009.609459
+        },
+        {
+          "path": "Audio/output/2397/chapter_05.wav",
+          "duration": 243.18,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Tools for Rewiring Anxiety Responses",
+          "actualDuration": 243.18,
+          "startTime": 1011.109459,
+          "endTime": 1254.289459
+        },
+        {
+          "path": "Audio/output/2397/chapter_06.wav",
+          "duration": 169.581958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Change: Advanced Exposure and Cognitive Flexibility",
+          "actualDuration": 169.581958,
+          "startTime": 1255.789459,
+          "endTime": 1425.371417
+        },
+        {
+          "path": "Audio/output/2397/chapter_07.wav",
+          "duration": 193.508708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Addressing Triggers and Root Causes",
+          "actualDuration": 193.508708,
+          "startTime": 1426.871417,
+          "endTime": 1620.3801250000001
+        },
+        {
+          "path": "Audio/output/2397/chapter_08.wav",
+          "duration": 173.282125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Mindfulness and Self-Compassion",
+          "actualDuration": 173.282125,
+          "startTime": 1621.8801250000001,
+          "endTime": 1795.16225
+        },
+        {
+          "path": "Audio/output/2397/chapter_09.wav",
+          "duration": 169.519958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Progress and Preventing Relapse",
+          "actualDuration": 169.519958,
+          "startTime": 1796.66225,
+          "endTime": 1966.1822080000002
+        },
+        {
+          "path": "Audio/output/2397/chapter_10.wav",
+          "duration": 164.598875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Beyond Anxiety: Growth, Meaning, and Connection",
+          "actualDuration": 164.598875,
+          "startTime": 1967.6822080000002,
+          "endTime": 2132.2810830000003
+        }
+      ],
+      "totalDuration": 2132.2810830000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.32,
+          "actualStart": 0,
+          "actualEnd": 105.324667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Anxiety Through the Brain’s Two Pathways",
+          "expectedStart": 105.32,
+          "expectedEnd": 307.94,
+          "actualStart": 106.824667,
+          "actualEnd": 309.440584,
+          "timeDifference": 1.504667000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Amygdala’s Role: Automatic Fear and Physical Reactions",
+          "expectedStart": 307.94,
+          "expectedEnd": 544.75,
+          "actualStart": 310.940584,
+          "actualEnd": 547.745584,
+          "timeDifference": 3.0005840000000035
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cortex’s Influence: Thought Patterns and Worry Loops",
+          "expectedStart": 544.75,
+          "expectedEnd": 788.27,
+          "actualStart": 549.245584,
+          "actualEnd": 792.760667,
+          "timeDifference": 4.495584000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building New Pathways: The Power of Neuroplasticity",
+          "expectedStart": 788.27,
+          "expectedEnd": 1003.62,
+          "actualStart": 794.260667,
+          "actualEnd": 1009.609459,
+          "timeDifference": 5.99066700000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Tools for Rewiring Anxiety Responses",
+          "expectedStart": 1003.62,
+          "expectedEnd": 1246.8,
+          "actualStart": 1011.109459,
+          "actualEnd": 1254.289459,
+          "timeDifference": 7.489459000000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Change: Advanced Exposure and Cognitive Flexibility",
+          "expectedStart": 1246.8,
+          "expectedEnd": 1416.38,
+          "actualStart": 1255.789459,
+          "actualEnd": 1425.371417,
+          "timeDifference": 8.989459000000124
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Addressing Triggers and Root Causes",
+          "expectedStart": 1416.38,
+          "expectedEnd": 1609.89,
+          "actualStart": 1426.871417,
+          "actualEnd": 1620.3801250000001,
+          "timeDifference": 10.491416999999956
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Mindfulness and Self-Compassion",
+          "expectedStart": 1609.89,
+          "expectedEnd": 1783.17,
+          "actualStart": 1621.8801250000001,
+          "actualEnd": 1795.16225,
+          "timeDifference": 11.990125000000035
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Progress and Preventing Relapse",
+          "expectedStart": 1783.17,
+          "expectedEnd": 1952.69,
+          "actualStart": 1796.66225,
+          "actualEnd": 1966.1822080000002,
+          "timeDifference": 13.492250000000013
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Beyond Anxiety: Growth, Meaning, and Connection",
+          "expectedStart": 1952.69,
+          "expectedEnd": 2117.29,
+          "actualStart": 1967.6822080000002,
+          "actualEnd": 2132.2810830000003,
+          "timeDifference": 14.992208000000119
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.324667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Anxiety Through the Brain’s Two Pathways"
+        },
+        {
+          "startTime": 309.440584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Anxiety Through the Brain’s Two Pathways and Chapter 2 The Amygdala’s Role: Automatic Fear and Physical Reactions"
+        },
+        {
+          "startTime": 547.745584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Amygdala’s Role: Automatic Fear and Physical Reactions and Chapter 3 The Cortex’s Influence: Thought Patterns and Worry Loops"
+        },
+        {
+          "startTime": 792.760667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cortex’s Influence: Thought Patterns and Worry Loops and Chapter 4 Building New Pathways: The Power of Neuroplasticity"
+        },
+        {
+          "startTime": 1009.609459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building New Pathways: The Power of Neuroplasticity and Chapter 5 Practical Tools for Rewiring Anxiety Responses"
+        },
+        {
+          "startTime": 1254.289459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Tools for Rewiring Anxiety Responses and Chapter 6 Deepening Change: Advanced Exposure and Cognitive Flexibility"
+        },
+        {
+          "startTime": 1425.371417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Change: Advanced Exposure and Cognitive Flexibility and Chapter 7 Addressing Triggers and Root Causes"
+        },
+        {
+          "startTime": 1620.3801250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Addressing Triggers and Root Causes and Chapter 8 Integrating Mindfulness and Self-Compassion"
+        },
+        {
+          "startTime": 1795.16225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Mindfulness and Self-Compassion and Chapter 9 Sustaining Progress and Preventing Relapse"
+        },
+        {
+          "startTime": 1966.1822080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Progress and Preventing Relapse and Chapter 10 Living Beyond Anxiety: Growth, Meaning, and Connection"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2397",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T20:40:09.191Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "bookId": "2558",
+  "timestamp": "2025-07-11T05:14:38.755Z",
+  "success": false,
+  "processingTime": -1752210404028,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5957,
+    "totalAudioFiles": 14,
+    "totalDuration": 2444.718083
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2444.718083
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2558/optimized_text/2558.md",
+    "fileSize": 751,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2558.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2558/metadata/2558_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2444.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2558/metadata/2558_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2558/metadata/2558_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2558/2558_complete.wav",
+    "duration": 2444.718083,
+    "fileSize": 117346546,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2558/introduction.wav",
+          "duration": 99.625458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.625458,
+          "startTime": 0,
+          "endTime": 99.625458
+        },
+        {
+          "path": "Audio/output/2558/chapter_01.wav",
+          "duration": 227.826417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Love and the World We Inherit",
+          "actualDuration": 227.826417,
+          "startTime": 101.125458,
+          "endTime": 328.951875
+        },
+        {
+          "path": "Audio/output/2558/chapter_02.wav",
+          "duration": 228.637042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Monogamy and the Power of Cultural Stories",
+          "actualDuration": 228.637042,
+          "startTime": 330.451875,
+          "endTime": 559.088917
+        },
+        {
+          "path": "Audio/output/2558/chapter_03.wav",
+          "duration": 196.173167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Gaia Theory and the Wisdom of Interconnectedness",
+          "actualDuration": 196.173167,
+          "startTime": 560.588917,
+          "endTime": 756.7620840000001
+        },
+        {
+          "path": "Audio/output/2558/chapter_04.wav",
+          "duration": 202.42075,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Polyamory as a Path to Inclusion and Sustainability",
+          "actualDuration": 202.42075,
+          "startTime": 758.2620840000001,
+          "endTime": 960.6828340000001
+        },
+        {
+          "path": "Audio/output/2558/chapter_05.wav",
+          "duration": 216.995583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Patriarchy and Embracing Fluidity in Love",
+          "actualDuration": 216.995583,
+          "startTime": 962.1828340000001,
+          "endTime": 1179.178417
+        },
+        {
+          "path": "Audio/output/2558/chapter_06.wav",
+          "duration": 188.293708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Healing from Scarcity: Love Beyond Competition",
+          "actualDuration": 188.293708,
+          "startTime": 1180.678417,
+          "endTime": 1368.972125
+        },
+        {
+          "path": "Audio/output/2558/chapter_07.wav",
+          "duration": 181.905708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Practice of Consent and Radical Honesty",
+          "actualDuration": 181.905708,
+          "startTime": 1370.472125,
+          "endTime": 1552.377833
+        },
+        {
+          "path": "Audio/output/2558/chapter_08.wav",
+          "duration": 185.351958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Chosen Family and the Power of Community",
+          "actualDuration": 185.351958,
+          "startTime": 1553.877833,
+          "endTime": 1739.229791
+        },
+        {
+          "path": "Audio/output/2558/chapter_09.wav",
+          "duration": 173.232292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love as Ecological Practice",
+          "actualDuration": 173.232292,
+          "startTime": 1740.729791,
+          "endTime": 1913.962083
+        },
+        {
+          "path": "Audio/output/2558/chapter_10.wav",
+          "duration": 170.766,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating Conflict and Embracing Repair",
+          "actualDuration": 170.766,
+          "startTime": 1915.462083,
+          "endTime": 2086.228083
+        },
+        {
+          "path": "Audio/output/2558/chapter_11.wav",
+          "duration": 136.251875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Love, Power, and Social Transformation",
+          "actualDuration": 136.251875,
+          "startTime": 2087.728083,
+          "endTime": 2223.979958
+        },
+        {
+          "path": "Audio/output/2558/chapter_12.wav",
+          "duration": 138.941917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living the New Politics of Love",
+          "actualDuration": 138.941917,
+          "startTime": 2225.479958,
+          "endTime": 2364.421875
+        },
+        {
+          "path": "Audio/output/2558/conclusion.wav",
+          "duration": 98.296208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.296208,
+          "startTime": 2365.921875,
+          "endTime": 2464.218083
+        }
+      ],
+      "totalDuration": 2464.218083,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.63,
+          "actualStart": 0,
+          "actualEnd": 99.625458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Love and the World We Inherit",
+          "expectedStart": 99.63,
+          "expectedEnd": 327.46,
+          "actualStart": 101.125458,
+          "actualEnd": 328.951875,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Monogamy and the Power of Cultural Stories",
+          "expectedStart": 327.46,
+          "expectedEnd": 556.1,
+          "actualStart": 330.451875,
+          "actualEnd": 559.088917,
+          "timeDifference": 2.991874999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Gaia Theory and the Wisdom of Interconnectedness",
+          "expectedStart": 556.1,
+          "expectedEnd": 752.27,
+          "actualStart": 560.588917,
+          "actualEnd": 756.7620840000001,
+          "timeDifference": 4.488917000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Polyamory as a Path to Inclusion and Sustainability",
+          "expectedStart": 752.27,
+          "expectedEnd": 954.69,
+          "actualStart": 758.2620840000001,
+          "actualEnd": 960.6828340000001,
+          "timeDifference": 5.992084000000091
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Patriarchy and Embracing Fluidity in Love",
+          "expectedStart": 954.69,
+          "expectedEnd": 1171.69,
+          "actualStart": 962.1828340000001,
+          "actualEnd": 1179.178417,
+          "timeDifference": 7.492834000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Healing from Scarcity: Love Beyond Competition",
+          "expectedStart": 1171.69,
+          "expectedEnd": 1359.98,
+          "actualStart": 1180.678417,
+          "actualEnd": 1368.972125,
+          "timeDifference": 8.988417000000027
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Practice of Consent and Radical Honesty",
+          "expectedStart": 1359.98,
+          "expectedEnd": 1541.89,
+          "actualStart": 1370.472125,
+          "actualEnd": 1552.377833,
+          "timeDifference": 10.492124999999987
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Chosen Family and the Power of Community",
+          "expectedStart": 1541.89,
+          "expectedEnd": 1727.24,
+          "actualStart": 1553.877833,
+          "actualEnd": 1739.229791,
+          "timeDifference": 11.98783299999991
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love as Ecological Practice",
+          "expectedStart": 1727.24,
+          "expectedEnd": 1900.47,
+          "actualStart": 1740.729791,
+          "actualEnd": 1913.962083,
+          "timeDifference": 13.489790999999968
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating Conflict and Embracing Repair",
+          "expectedStart": 1900.47,
+          "expectedEnd": 2071.24,
+          "actualStart": 1915.462083,
+          "actualEnd": 2086.228083,
+          "timeDifference": 14.992082999999866
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Love, Power, and Social Transformation",
+          "expectedStart": 2071.24,
+          "expectedEnd": 2207.49,
+          "actualStart": 2087.728083,
+          "actualEnd": 2223.979958,
+          "timeDifference": 16.488083000000188
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living the New Politics of Love",
+          "expectedStart": 2207.49,
+          "expectedEnd": 2346.43,
+          "actualStart": 2225.479958,
+          "actualEnd": 2364.421875,
+          "timeDifference": 17.989958000000115
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2346.43,
+          "expectedEnd": 2444.73,
+          "actualStart": 2365.921875,
+          "actualEnd": 2464.218083,
+          "timeDifference": 19.491875000000164
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.625458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Love and the World We Inherit"
+        },
+        {
+          "startTime": 328.951875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Love and the World We Inherit and Chapter 2 The Roots of Monogamy and the Power of Cultural Stories"
+        },
+        {
+          "startTime": 559.088917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Monogamy and the Power of Cultural Stories and Chapter 3 Gaia Theory and the Wisdom of Interconnectedness"
+        },
+        {
+          "startTime": 756.7620840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Gaia Theory and the Wisdom of Interconnectedness and Chapter 4 Polyamory as a Path to Inclusion and Sustainability"
+        },
+        {
+          "startTime": 960.6828340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Polyamory as a Path to Inclusion and Sustainability and Chapter 5 Challenging Patriarchy and Embracing Fluidity in Love"
+        },
+        {
+          "startTime": 1179.178417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Patriarchy and Embracing Fluidity in Love and Chapter 6 Healing from Scarcity: Love Beyond Competition"
+        },
+        {
+          "startTime": 1368.972125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Healing from Scarcity: Love Beyond Competition and Chapter 7 The Practice of Consent and Radical Honesty"
+        },
+        {
+          "startTime": 1552.377833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Practice of Consent and Radical Honesty and Chapter 8 Chosen Family and the Power of Community"
+        },
+        {
+          "startTime": 1739.229791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Chosen Family and the Power of Community and Chapter 9 Love as Ecological Practice"
+        },
+        {
+          "startTime": 1913.962083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love as Ecological Practice and Chapter 10 Navigating Conflict and Embracing Repair"
+        },
+        {
+          "startTime": 2086.228083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating Conflict and Embracing Repair and Chapter 11 Love, Power, and Social Transformation"
+        },
+        {
+          "startTime": 2223.979958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Love, Power, and Social Transformation and Chapter 12 Living the New Politics of Love"
+        },
+        {
+          "startTime": 2364.421875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living the New Politics of Love and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2558",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T05:06:45.670Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

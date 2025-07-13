@@ -1,0 +1,456 @@
+{
+  "bookId": "2532",
+  "timestamp": "2025-07-11T03:33:08.767Z",
+  "success": false,
+  "processingTime": -1752204438321,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4882,
+    "totalAudioFiles": 12,
+    "totalDuration": 2411.391542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2411.391542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2532/optimized_text/2532.md",
+    "fileSize": 705,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2532.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2532/metadata/2532_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2411.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2532/metadata/2532_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2532/metadata/2532_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2532/2532_complete.wav",
+    "duration": 2411.391542,
+    "fileSize": 115746872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2532/introduction.wav",
+          "duration": 112.448292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.448292,
+          "startTime": 0,
+          "endTime": 112.448292
+        },
+        {
+          "path": "Audio/output/2532/chapter_01.wav",
+          "duration": 236.607125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Stillness in a Restless World",
+          "actualDuration": 236.607125,
+          "startTime": 113.948292,
+          "endTime": 350.555417
+        },
+        {
+          "path": "Audio/output/2532/chapter_02.wav",
+          "duration": 179.875292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Cycles of Time and the Patterns of Experience",
+          "actualDuration": 179.875292,
+          "startTime": 352.055417,
+          "endTime": 531.930709
+        },
+        {
+          "path": "Audio/output/2532/chapter_03.wav",
+          "duration": 227.112583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Doubt and Embracing Faith",
+          "actualDuration": 227.112583,
+          "startTime": 533.430709,
+          "endTime": 760.543292
+        },
+        {
+          "path": "Audio/output/2532/chapter_04.wav",
+          "duration": 245.744917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Letting Go of Ego and Discovering True Wisdom",
+          "actualDuration": 245.744917,
+          "startTime": 762.043292,
+          "endTime": 1007.7882089999999
+        },
+        {
+          "path": "Audio/output/2532/chapter_05.wav",
+          "duration": 215.334708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Quiet Power of Surrender and Openness",
+          "actualDuration": 215.334708,
+          "startTime": 1009.2882089999999,
+          "endTime": 1224.622917
+        },
+        {
+          "path": "Audio/output/2532/chapter_06.wav",
+          "duration": 192.67125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Journey Inward: Silence, Solitude, and the Heart’s Awakening",
+          "actualDuration": 192.67125,
+          "startTime": 1226.122917,
+          "endTime": 1418.794167
+        },
+        {
+          "path": "Audio/output/2532/chapter_07.wav",
+          "duration": 239.796292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Art: Beauty, Mystery, and the Unspoken",
+          "actualDuration": 239.796292,
+          "startTime": 1420.294167,
+          "endTime": 1660.090459
+        },
+        {
+          "path": "Audio/output/2532/chapter_08.wav",
+          "duration": 223.998208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Tradition and Transformation: Honoring the Past, Shaping the Future",
+          "actualDuration": 223.998208,
+          "startTime": 1661.590459,
+          "endTime": 1885.588667
+        },
+        {
+          "path": "Audio/output/2532/chapter_09.wav",
+          "duration": 195.386458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Mystery of Suffering and the Hope of Renewal",
+          "actualDuration": 195.386458,
+          "startTime": 1887.088667,
+          "endTime": 2082.475125
+        },
+        {
+          "path": "Audio/output/2532/chapter_10.wav",
+          "duration": 187.098042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ultimate Hope: Love, Humility, and the Embrace of Mystery",
+          "actualDuration": 187.098042,
+          "startTime": 2083.975125,
+          "endTime": 2271.073167
+        },
+        {
+          "path": "Audio/output/2532/conclusion.wav",
+          "duration": 155.318375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.318375,
+          "startTime": 2272.573167,
+          "endTime": 2427.891542
+        }
+      ],
+      "totalDuration": 2427.891542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.45,
+          "actualStart": 0,
+          "actualEnd": 112.448292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Stillness in a Restless World",
+          "expectedStart": 112.45,
+          "expectedEnd": 349.06,
+          "actualStart": 113.948292,
+          "actualEnd": 350.555417,
+          "timeDifference": 1.4982919999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Cycles of Time and the Patterns of Experience",
+          "expectedStart": 349.06,
+          "expectedEnd": 528.94,
+          "actualStart": 352.055417,
+          "actualEnd": 531.930709,
+          "timeDifference": 2.995416999999975
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Doubt and Embracing Faith",
+          "expectedStart": 528.94,
+          "expectedEnd": 756.05,
+          "actualStart": 533.430709,
+          "actualEnd": 760.543292,
+          "timeDifference": 4.490708999999924
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Letting Go of Ego and Discovering True Wisdom",
+          "expectedStart": 756.05,
+          "expectedEnd": 1001.79,
+          "actualStart": 762.043292,
+          "actualEnd": 1007.7882089999999,
+          "timeDifference": 5.993291999999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Quiet Power of Surrender and Openness",
+          "expectedStart": 1001.79,
+          "expectedEnd": 1217.12,
+          "actualStart": 1009.2882089999999,
+          "actualEnd": 1224.622917,
+          "timeDifference": 7.498208999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Journey Inward: Silence, Solitude, and the Heart’s Awakening",
+          "expectedStart": 1217.12,
+          "expectedEnd": 1409.79,
+          "actualStart": 1226.122917,
+          "actualEnd": 1418.794167,
+          "timeDifference": 9.002917000000025
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Art: Beauty, Mystery, and the Unspoken",
+          "expectedStart": 1409.79,
+          "expectedEnd": 1649.59,
+          "actualStart": 1420.294167,
+          "actualEnd": 1660.090459,
+          "timeDifference": 10.504167000000052
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Tradition and Transformation: Honoring the Past, Shaping the Future",
+          "expectedStart": 1649.59,
+          "expectedEnd": 1873.59,
+          "actualStart": 1661.590459,
+          "actualEnd": 1885.588667,
+          "timeDifference": 12.000459000000092
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Mystery of Suffering and the Hope of Renewal",
+          "expectedStart": 1873.59,
+          "expectedEnd": 2068.98,
+          "actualStart": 1887.088667,
+          "actualEnd": 2082.475125,
+          "timeDifference": 13.498667000000069
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ultimate Hope: Love, Humility, and the Embrace of Mystery",
+          "expectedStart": 2068.98,
+          "expectedEnd": 2256.08,
+          "actualStart": 2083.975125,
+          "actualEnd": 2271.073167,
+          "timeDifference": 14.995124999999916
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2256.08,
+          "expectedEnd": 2411.4,
+          "actualStart": 2272.573167,
+          "actualEnd": 2427.891542,
+          "timeDifference": 16.493167000000085
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.448292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Stillness in a Restless World"
+        },
+        {
+          "startTime": 350.555417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Stillness in a Restless World and Chapter 2 The Cycles of Time and the Patterns of Experience"
+        },
+        {
+          "startTime": 531.930709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Cycles of Time and the Patterns of Experience and Chapter 3 Facing Doubt and Embracing Faith"
+        },
+        {
+          "startTime": 760.543292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Doubt and Embracing Faith and Chapter 4 Letting Go of Ego and Discovering True Wisdom"
+        },
+        {
+          "startTime": 1007.7882089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Letting Go of Ego and Discovering True Wisdom and Chapter 5 The Quiet Power of Surrender and Openness"
+        },
+        {
+          "startTime": 1224.622917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Quiet Power of Surrender and Openness and Chapter 6 The Journey Inward: Silence, Solitude, and the Heart’s Awakening"
+        },
+        {
+          "startTime": 1418.794167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Journey Inward: Silence, Solitude, and the Heart’s Awakening and Chapter 7 The Role of Art: Beauty, Mystery, and the Unspoken"
+        },
+        {
+          "startTime": 1660.090459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Art: Beauty, Mystery, and the Unspoken and Chapter 8 Tradition and Transformation: Honoring the Past, Shaping the Future"
+        },
+        {
+          "startTime": 1885.588667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Tradition and Transformation: Honoring the Past, Shaping the Future and Chapter 9 The Mystery of Suffering and the Hope of Renewal"
+        },
+        {
+          "startTime": 2082.475125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Mystery of Suffering and the Hope of Renewal and Chapter 10 The Ultimate Hope: Love, Humility, and the Embrace of Mystery"
+        },
+        {
+          "startTime": 2271.073167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ultimate Hope: Love, Humility, and the Embrace of Mystery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2532",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:27:19.877Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

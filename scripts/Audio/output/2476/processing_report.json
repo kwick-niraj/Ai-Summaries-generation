@@ -1,0 +1,456 @@
+{
+  "bookId": "2476",
+  "timestamp": "2025-07-11T00:25:31.965Z",
+  "success": false,
+  "processingTime": -1752193279345,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4370,
+    "totalAudioFiles": 12,
+    "totalDuration": 2239.895249
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2239.895249
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2476/optimized_text/2476.md",
+    "fileSize": 729,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2476.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2476/metadata/2476_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2239.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2476/metadata/2476_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2476/metadata/2476_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2476/2476_complete.wav",
+    "duration": 2239.89525,
+    "fileSize": 107515050,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2476/introduction.wav",
+          "duration": 110.529917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.529917,
+          "startTime": 0,
+          "endTime": 110.529917
+        },
+        {
+          "path": "Audio/output/2476/chapter_01.wav",
+          "duration": 289.917833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Normal Morning Interrupted by Unimaginable Events",
+          "actualDuration": 289.917833,
+          "startTime": 112.029917,
+          "endTime": 401.94775
+        },
+        {
+          "path": "Audio/output/2476/chapter_02.wav",
+          "duration": 349.563625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chaos, Courage, and Confusion in the Towers and Beyond",
+          "actualDuration": 349.563625,
+          "startTime": 403.44775,
+          "endTime": 753.011375
+        },
+        {
+          "path": "Audio/output/2476/chapter_03.wav",
+          "duration": 233.844208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Ripple Effect Across the Country and the World",
+          "actualDuration": 233.844208,
+          "startTime": 754.511375,
+          "endTime": 988.355583
+        },
+        {
+          "path": "Audio/output/2476/chapter_04.wav",
+          "duration": 210.19925,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Personal Loss, Survival, and the Search for Meaning",
+          "actualDuration": 210.19925,
+          "startTime": 989.855583,
+          "endTime": 1200.0548330000001
+        },
+        {
+          "path": "Audio/output/2476/chapter_05.wav",
+          "duration": 164.09025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Beginning of a Changed Nation",
+          "actualDuration": 164.09025,
+          "startTime": 1201.5548330000001,
+          "endTime": 1365.645083
+        },
+        {
+          "path": "Audio/output/2476/chapter_06.wav",
+          "duration": 180.489208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow—Grief, Trauma, and the Unseen Wounds",
+          "actualDuration": 180.489208,
+          "startTime": 1367.145083,
+          "endTime": 1547.634291
+        },
+        {
+          "path": "Audio/output/2476/chapter_07.wav",
+          "duration": 160.695625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Searching for Justice—The Hunt for Answers and Accountability",
+          "actualDuration": 160.695625,
+          "startTime": 1549.134291,
+          "endTime": 1709.8299160000001
+        },
+        {
+          "path": "Audio/output/2476/chapter_08.wav",
+          "duration": 161.512583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effects—War, Policy, and a Changed World",
+          "actualDuration": 161.512583,
+          "startTime": 1711.3299160000001,
+          "endTime": 1872.842499
+        },
+        {
+          "path": "Audio/output/2476/chapter_09.wav",
+          "duration": 146.526208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory and Memorial—Honoring the Lost, Shaping the Future",
+          "actualDuration": 146.526208,
+          "startTime": 1874.342499,
+          "endTime": 2020.868707
+        },
+        {
+          "path": "Audio/output/2476/chapter_10.wav",
+          "duration": 117.02075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Lessons—Resilience, Unity, and the Human Spirit",
+          "actualDuration": 117.02075,
+          "startTime": 2022.368707,
+          "endTime": 2139.389457
+        },
+        {
+          "path": "Audio/output/2476/conclusion.wav",
+          "duration": 115.505792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.505792,
+          "startTime": 2140.889457,
+          "endTime": 2256.395249
+        }
+      ],
+      "totalDuration": 2256.395249,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.53,
+          "actualStart": 0,
+          "actualEnd": 110.529917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Normal Morning Interrupted by Unimaginable Events",
+          "expectedStart": 110.53,
+          "expectedEnd": 400.45,
+          "actualStart": 112.029917,
+          "actualEnd": 401.94775,
+          "timeDifference": 1.4999169999999964
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chaos, Courage, and Confusion in the Towers and Beyond",
+          "expectedStart": 400.45,
+          "expectedEnd": 750.01,
+          "actualStart": 403.44775,
+          "actualEnd": 753.011375,
+          "timeDifference": 2.9977499999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Ripple Effect Across the Country and the World",
+          "expectedStart": 750.01,
+          "expectedEnd": 983.85,
+          "actualStart": 754.511375,
+          "actualEnd": 988.355583,
+          "timeDifference": 4.501375000000053
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Personal Loss, Survival, and the Search for Meaning",
+          "expectedStart": 983.85,
+          "expectedEnd": 1194.05,
+          "actualStart": 989.855583,
+          "actualEnd": 1200.0548330000001,
+          "timeDifference": 6.0055830000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Beginning of a Changed Nation",
+          "expectedStart": 1194.05,
+          "expectedEnd": 1358.14,
+          "actualStart": 1201.5548330000001,
+          "actualEnd": 1365.645083,
+          "timeDifference": 7.50483300000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow—Grief, Trauma, and the Unseen Wounds",
+          "expectedStart": 1358.14,
+          "expectedEnd": 1538.63,
+          "actualStart": 1367.145083,
+          "actualEnd": 1547.634291,
+          "timeDifference": 9.005083000000013
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Searching for Justice—The Hunt for Answers and Accountability",
+          "expectedStart": 1538.63,
+          "expectedEnd": 1699.33,
+          "actualStart": 1549.134291,
+          "actualEnd": 1709.8299160000001,
+          "timeDifference": 10.504290999999967
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effects—War, Policy, and a Changed World",
+          "expectedStart": 1699.33,
+          "expectedEnd": 1860.84,
+          "actualStart": 1711.3299160000001,
+          "actualEnd": 1872.842499,
+          "timeDifference": 11.999916000000212
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory and Memorial—Honoring the Lost, Shaping the Future",
+          "expectedStart": 1860.84,
+          "expectedEnd": 2007.37,
+          "actualStart": 1874.342499,
+          "actualEnd": 2020.868707,
+          "timeDifference": 13.50249900000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Lessons—Resilience, Unity, and the Human Spirit",
+          "expectedStart": 2007.37,
+          "expectedEnd": 2124.39,
+          "actualStart": 2022.368707,
+          "actualEnd": 2139.389457,
+          "timeDifference": 14.998707000000195
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2124.39,
+          "expectedEnd": 2239.9,
+          "actualStart": 2140.889457,
+          "actualEnd": 2256.395249,
+          "timeDifference": 16.499457000000348
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.529917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Normal Morning Interrupted by Unimaginable Events"
+        },
+        {
+          "startTime": 401.94775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Normal Morning Interrupted by Unimaginable Events and Chapter 2 Chaos, Courage, and Confusion in the Towers and Beyond"
+        },
+        {
+          "startTime": 753.011375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chaos, Courage, and Confusion in the Towers and Beyond and Chapter 3 The Ripple Effect Across the Country and the World"
+        },
+        {
+          "startTime": 988.355583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Ripple Effect Across the Country and the World and Chapter 4 Personal Loss, Survival, and the Search for Meaning"
+        },
+        {
+          "startTime": 1200.0548330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Personal Loss, Survival, and the Search for Meaning and Chapter 5 The Beginning of a Changed Nation"
+        },
+        {
+          "startTime": 1365.645083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Beginning of a Changed Nation and Chapter 6 The Long Shadow—Grief, Trauma, and the Unseen Wounds"
+        },
+        {
+          "startTime": 1547.634291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow—Grief, Trauma, and the Unseen Wounds and Chapter 7 Searching for Justice—The Hunt for Answers and Accountability"
+        },
+        {
+          "startTime": 1709.8299160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Searching for Justice—The Hunt for Answers and Accountability and Chapter 8 The Ripple Effects—War, Policy, and a Changed World"
+        },
+        {
+          "startTime": 1872.842499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effects—War, Policy, and a Changed World and Chapter 9 Memory and Memorial—Honoring the Lost, Shaping the Future"
+        },
+        {
+          "startTime": 2020.868707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory and Memorial—Honoring the Lost, Shaping the Future and Chapter 10 Enduring Lessons—Resilience, Unity, and the Human Spirit"
+        },
+        {
+          "startTime": 2139.389457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Lessons—Resilience, Unity, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2476",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T00:21:20.868Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

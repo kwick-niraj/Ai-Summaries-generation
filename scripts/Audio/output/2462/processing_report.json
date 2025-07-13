@@ -1,0 +1,456 @@
+{
+  "bookId": "2462",
+  "timestamp": "2025-07-10T23:40:55.872Z",
+  "success": false,
+  "processingTime": -1752190509773,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4149,
+    "totalAudioFiles": 12,
+    "totalDuration": 1891.3419159999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1891.3419159999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2462/optimized_text/2462.md",
+    "fileSize": 679,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2462.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2462/metadata/2462_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1891.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2462/metadata/2462_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2462/metadata/2462_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2462/2462_complete.wav",
+    "duration": 1891.341917,
+    "fileSize": 90784490,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2462/introduction.wav",
+          "duration": 92.488125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.488125,
+          "startTime": 0,
+          "endTime": 92.488125
+        },
+        {
+          "path": "Audio/output/2462/chapter_01.wav",
+          "duration": 194.192833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Hardship and the Power of Attitude",
+          "actualDuration": 194.192833,
+          "startTime": 93.988125,
+          "endTime": 288.18095800000003
+        },
+        {
+          "path": "Audio/output/2462/chapter_02.wav",
+          "duration": 201.195958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Resilience Through Faith and Persistence",
+          "actualDuration": 201.195958,
+          "startTime": 289.68095800000003,
+          "endTime": 490.87691600000005
+        },
+        {
+          "path": "Audio/output/2462/chapter_03.wav",
+          "duration": 167.950042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Problems Into Opportunities",
+          "actualDuration": 167.950042,
+          "startTime": 492.37691600000005,
+          "endTime": 660.3269580000001
+        },
+        {
+          "path": "Audio/output/2462/chapter_04.wav",
+          "duration": 183.905125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Positive Thinking in Survival and Growth",
+          "actualDuration": 183.905125,
+          "startTime": 661.8269580000001,
+          "endTime": 845.7320830000001
+        },
+        {
+          "path": "Audio/output/2462/chapter_05.wav",
+          "duration": 176.770417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Belief in Oneself and a Higher Purpose",
+          "actualDuration": 176.770417,
+          "startTime": 847.2320830000001,
+          "endTime": 1024.0025
+        },
+        {
+          "path": "Audio/output/2462/chapter_06.wav",
+          "duration": 161.9325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Action—Moving Forward, Even When Afraid",
+          "actualDuration": 161.9325,
+          "startTime": 1025.5025,
+          "endTime": 1187.435
+        },
+        {
+          "path": "Audio/output/2462/chapter_07.wav",
+          "duration": 134.925292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Community—Leaning on Others",
+          "actualDuration": 134.925292,
+          "startTime": 1188.935,
+          "endTime": 1323.8602919999998
+        },
+        {
+          "path": "Audio/output/2462/chapter_08.wav",
+          "duration": 151.884083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Learning from Setbacks—Transforming Failure into Growth",
+          "actualDuration": 151.884083,
+          "startTime": 1325.3602919999998,
+          "endTime": 1477.2443749999998
+        },
+        {
+          "path": "Audio/output/2462/chapter_09.wav",
+          "duration": 143.437958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Gift of Gratitude—Finding Light in the Darkness",
+          "actualDuration": 143.437958,
+          "startTime": 1478.7443749999998,
+          "endTime": 1622.1823329999997
+        },
+        {
+          "path": "Audio/output/2462/chapter_10.wav",
+          "duration": 149.825875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Vision for the Future—Hope as a Guide",
+          "actualDuration": 149.825875,
+          "startTime": 1623.6823329999997,
+          "endTime": 1773.5082079999997
+        },
+        {
+          "path": "Audio/output/2462/conclusion.wav",
+          "duration": 132.833708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.833708,
+          "startTime": 1775.0082079999997,
+          "endTime": 1907.8419159999999
+        }
+      ],
+      "totalDuration": 1907.8419159999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.49,
+          "actualStart": 0,
+          "actualEnd": 92.488125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Hardship and the Power of Attitude",
+          "expectedStart": 92.49,
+          "expectedEnd": 286.68,
+          "actualStart": 93.988125,
+          "actualEnd": 288.18095800000003,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Resilience Through Faith and Persistence",
+          "expectedStart": 286.68,
+          "expectedEnd": 487.88,
+          "actualStart": 289.68095800000003,
+          "actualEnd": 490.87691600000005,
+          "timeDifference": 3.0009580000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Problems Into Opportunities",
+          "expectedStart": 487.88,
+          "expectedEnd": 655.83,
+          "actualStart": 492.37691600000005,
+          "actualEnd": 660.3269580000001,
+          "timeDifference": 4.496916000000056
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Positive Thinking in Survival and Growth",
+          "expectedStart": 655.83,
+          "expectedEnd": 839.74,
+          "actualStart": 661.8269580000001,
+          "actualEnd": 845.7320830000001,
+          "timeDifference": 5.996958000000063
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Belief in Oneself and a Higher Purpose",
+          "expectedStart": 839.74,
+          "expectedEnd": 1016.51,
+          "actualStart": 847.2320830000001,
+          "actualEnd": 1024.0025,
+          "timeDifference": 7.492083000000093
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Action—Moving Forward, Even When Afraid",
+          "expectedStart": 1016.51,
+          "expectedEnd": 1178.44,
+          "actualStart": 1025.5025,
+          "actualEnd": 1187.435,
+          "timeDifference": 8.992500000000064
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Community—Leaning on Others",
+          "expectedStart": 1178.44,
+          "expectedEnd": 1313.37,
+          "actualStart": 1188.935,
+          "actualEnd": 1323.8602919999998,
+          "timeDifference": 10.49499999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Learning from Setbacks—Transforming Failure into Growth",
+          "expectedStart": 1313.37,
+          "expectedEnd": 1465.25,
+          "actualStart": 1325.3602919999998,
+          "actualEnd": 1477.2443749999998,
+          "timeDifference": 11.990291999999954
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Gift of Gratitude—Finding Light in the Darkness",
+          "expectedStart": 1465.25,
+          "expectedEnd": 1608.69,
+          "actualStart": 1478.7443749999998,
+          "actualEnd": 1622.1823329999997,
+          "timeDifference": 13.494374999999764
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Vision for the Future—Hope as a Guide",
+          "expectedStart": 1608.69,
+          "expectedEnd": 1758.52,
+          "actualStart": 1623.6823329999997,
+          "actualEnd": 1773.5082079999997,
+          "timeDifference": 14.99233299999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1758.52,
+          "expectedEnd": 1891.35,
+          "actualStart": 1775.0082079999997,
+          "actualEnd": 1907.8419159999999,
+          "timeDifference": 16.48820799999976
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.488125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Hardship and the Power of Attitude"
+        },
+        {
+          "startTime": 288.18095800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Hardship and the Power of Attitude and Chapter 2 Building Resilience Through Faith and Persistence"
+        },
+        {
+          "startTime": 490.87691600000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Resilience Through Faith and Persistence and Chapter 3 Turning Problems Into Opportunities"
+        },
+        {
+          "startTime": 660.3269580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Problems Into Opportunities and Chapter 4 The Role of Positive Thinking in Survival and Growth"
+        },
+        {
+          "startTime": 845.7320830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Positive Thinking in Survival and Growth and Chapter 5 Belief in Oneself and a Higher Purpose"
+        },
+        {
+          "startTime": 1024.0025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Belief in Oneself and a Higher Purpose and Chapter 6 The Power of Action—Moving Forward, Even When Afraid"
+        },
+        {
+          "startTime": 1187.435,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Action—Moving Forward, Even When Afraid and Chapter 7 The Importance of Community—Leaning on Others"
+        },
+        {
+          "startTime": 1323.8602919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Community—Leaning on Others and Chapter 8 Learning from Setbacks—Transforming Failure into Growth"
+        },
+        {
+          "startTime": 1477.2443749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Learning from Setbacks—Transforming Failure into Growth and Chapter 9 The Gift of Gratitude—Finding Light in the Darkness"
+        },
+        {
+          "startTime": 1622.1823329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Gift of Gratitude—Finding Light in the Darkness and Chapter 10 Creating a Vision for the Future—Hope as a Guide"
+        },
+        {
+          "startTime": 1773.5082079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Vision for the Future—Hope as a Guide and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2462",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T23:35:11.317Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

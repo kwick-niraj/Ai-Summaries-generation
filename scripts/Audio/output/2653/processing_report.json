@@ -1,0 +1,456 @@
+{
+  "bookId": "2653",
+  "timestamp": "2025-07-12T08:27:46.845Z",
+  "success": false,
+  "processingTime": -1752308600172,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4876,
+    "totalAudioFiles": 12,
+    "totalDuration": 2110.287834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2110.287834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2653/optimized_text/2653.md",
+    "fileSize": 564,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2653.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2653/metadata/2653_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2110.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2653/metadata/2653_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2653/metadata/2653_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2653/2653_complete.wav",
+    "duration": 2110.287833,
+    "fileSize": 101293894,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2653/introduction.wav",
+          "duration": 79.635792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.635792,
+          "startTime": 0,
+          "endTime": 79.635792
+        },
+        {
+          "path": "Audio/output/2653/chapter_01.wav",
+          "duration": 233.325083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Humans and the Search for Meaning",
+          "actualDuration": 233.325083,
+          "startTime": 81.135792,
+          "endTime": 314.460875
+        },
+        {
+          "path": "Audio/output/2653/chapter_02.wav",
+          "duration": 225.702625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 From Superstition to Shared Rituals",
+          "actualDuration": 225.702625,
+          "startTime": 315.960875,
+          "endTime": 541.6635
+        },
+        {
+          "path": "Audio/output/2653/chapter_03.wav",
+          "duration": 224.50825,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Birth of Gods and Sacred Stories",
+          "actualDuration": 224.50825,
+          "startTime": 543.1635,
+          "endTime": 767.67175
+        },
+        {
+          "path": "Audio/output/2653/chapter_04.wav",
+          "duration": 214.994792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Rise of Religious Institutions",
+          "actualDuration": 214.994792,
+          "startTime": 769.17175,
+          "endTime": 984.1665419999999
+        },
+        {
+          "path": "Audio/output/2653/chapter_05.wav",
+          "duration": 178.090167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Evolution of Belief and the Roots of Modern Religion",
+          "actualDuration": 178.090167,
+          "startTime": 985.6665419999999,
+          "endTime": 1163.756709
+        },
+        {
+          "path": "Audio/output/2653/chapter_06.wav",
+          "duration": 192.737792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Age of Doubt and Reform",
+          "actualDuration": 192.737792,
+          "startTime": 1165.256709,
+          "endTime": 1357.9945010000001
+        },
+        {
+          "path": "Audio/output/2653/chapter_07.wav",
+          "duration": 157.565208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Religion and the Human Mind",
+          "actualDuration": 157.565208,
+          "startTime": 1359.4945010000001,
+          "endTime": 1517.059709
+        },
+        {
+          "path": "Audio/output/2653/chapter_08.wav",
+          "duration": 148.345583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Social Power of Belief",
+          "actualDuration": 148.345583,
+          "startTime": 1518.559709,
+          "endTime": 1666.9052920000001
+        },
+        {
+          "path": "Audio/output/2653/chapter_09.wav",
+          "duration": 180.957167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Science, Secularism, and the New Search for Meaning",
+          "actualDuration": 180.957167,
+          "startTime": 1668.4052920000001,
+          "endTime": 1849.3624590000002
+        },
+        {
+          "path": "Audio/output/2653/chapter_10.wav",
+          "duration": 154.777167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Evolution of Faith",
+          "actualDuration": 154.777167,
+          "startTime": 1850.8624590000002,
+          "endTime": 2005.6396260000001
+        },
+        {
+          "path": "Audio/output/2653/conclusion.wav",
+          "duration": 119.648208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.648208,
+          "startTime": 2007.1396260000001,
+          "endTime": 2126.787834
+        }
+      ],
+      "totalDuration": 2126.787834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.64,
+          "actualStart": 0,
+          "actualEnd": 79.635792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Humans and the Search for Meaning",
+          "expectedStart": 79.64,
+          "expectedEnd": 312.97,
+          "actualStart": 81.135792,
+          "actualEnd": 314.460875,
+          "timeDifference": 1.4957919999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 From Superstition to Shared Rituals",
+          "expectedStart": 312.97,
+          "expectedEnd": 538.67,
+          "actualStart": 315.960875,
+          "actualEnd": 541.6635,
+          "timeDifference": 2.99087499999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Birth of Gods and Sacred Stories",
+          "expectedStart": 538.67,
+          "expectedEnd": 763.18,
+          "actualStart": 543.1635,
+          "actualEnd": 767.67175,
+          "timeDifference": 4.49350000000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Rise of Religious Institutions",
+          "expectedStart": 763.18,
+          "expectedEnd": 978.17,
+          "actualStart": 769.17175,
+          "actualEnd": 984.1665419999999,
+          "timeDifference": 5.991750000000025
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Evolution of Belief and the Roots of Modern Religion",
+          "expectedStart": 978.17,
+          "expectedEnd": 1156.26,
+          "actualStart": 985.6665419999999,
+          "actualEnd": 1163.756709,
+          "timeDifference": 7.496541999999977
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Age of Doubt and Reform",
+          "expectedStart": 1156.26,
+          "expectedEnd": 1349,
+          "actualStart": 1165.256709,
+          "actualEnd": 1357.9945010000001,
+          "timeDifference": 8.99670900000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Religion and the Human Mind",
+          "expectedStart": 1349,
+          "expectedEnd": 1506.57,
+          "actualStart": 1359.4945010000001,
+          "actualEnd": 1517.059709,
+          "timeDifference": 10.494501000000128
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Social Power of Belief",
+          "expectedStart": 1506.57,
+          "expectedEnd": 1654.92,
+          "actualStart": 1518.559709,
+          "actualEnd": 1666.9052920000001,
+          "timeDifference": 11.989709000000175
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Science, Secularism, and the New Search for Meaning",
+          "expectedStart": 1654.92,
+          "expectedEnd": 1835.88,
+          "actualStart": 1668.4052920000001,
+          "actualEnd": 1849.3624590000002,
+          "timeDifference": 13.485292000000072
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Evolution of Faith",
+          "expectedStart": 1835.88,
+          "expectedEnd": 1990.66,
+          "actualStart": 1850.8624590000002,
+          "actualEnd": 2005.6396260000001,
+          "timeDifference": 14.982459000000063
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1990.66,
+          "expectedEnd": 2110.31,
+          "actualStart": 2007.1396260000001,
+          "actualEnd": 2126.787834,
+          "timeDifference": 16.479626000000053
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.635792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Humans and the Search for Meaning"
+        },
+        {
+          "startTime": 314.460875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Humans and the Search for Meaning and Chapter 2 From Superstition to Shared Rituals"
+        },
+        {
+          "startTime": 541.6635,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 From Superstition to Shared Rituals and Chapter 3 The Birth of Gods and Sacred Stories"
+        },
+        {
+          "startTime": 767.67175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Birth of Gods and Sacred Stories and Chapter 4 The Rise of Religious Institutions"
+        },
+        {
+          "startTime": 984.1665419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Rise of Religious Institutions and Chapter 5 The Evolution of Belief and the Roots of Modern Religion"
+        },
+        {
+          "startTime": 1163.756709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Evolution of Belief and the Roots of Modern Religion and Chapter 6 The Age of Doubt and Reform"
+        },
+        {
+          "startTime": 1357.9945010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Age of Doubt and Reform and Chapter 7 Religion and the Human Mind"
+        },
+        {
+          "startTime": 1517.059709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Religion and the Human Mind and Chapter 8 The Social Power of Belief"
+        },
+        {
+          "startTime": 1666.9052920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Social Power of Belief and Chapter 9 Science, Secularism, and the New Search for Meaning"
+        },
+        {
+          "startTime": 1849.3624590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Science, Secularism, and the New Search for Meaning and Chapter 10 The Ongoing Evolution of Faith"
+        },
+        {
+          "startTime": 2005.6396260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Evolution of Faith and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2653",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-12T08:23:21.336Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2524",
+  "timestamp": "2025-07-11T03:11:55.506Z",
+  "success": false,
+  "processingTime": -1752203185602,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4269,
+    "totalAudioFiles": 12,
+    "totalDuration": 2014.0807060000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2014.0807060000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2524/optimized_text/2524.md",
+    "fileSize": 700,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "2524.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2524/metadata/2524_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2014.08,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2524/metadata/2524_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2524/metadata/2524_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2524/2524_complete.wav",
+    "duration": 2014.080708,
+    "fileSize": 96675952,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2524/introduction.wav",
+          "duration": 99.284958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.284958,
+          "startTime": 0,
+          "endTime": 99.284958
+        },
+        {
+          "path": "Audio/output/2524/chapter_01.wav",
+          "duration": 222.265042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World Shaped by History and Family",
+          "actualDuration": 222.265042,
+          "startTime": 100.784958,
+          "endTime": 323.05
+        },
+        {
+          "path": "Audio/output/2524/chapter_02.wav",
+          "duration": 239.929,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Traditional Schooling and the Search for Real Learning",
+          "actualDuration": 239.929,
+          "startTime": 324.55,
+          "endTime": 564.479
+        },
+        {
+          "path": "Audio/output/2524/chapter_03.wav",
+          "duration": 205.429333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing the Upheaval of War and the Collapse of Old Certainties",
+          "actualDuration": 205.429333,
+          "startTime": 565.979,
+          "endTime": 771.4083330000001
+        },
+        {
+          "path": "Audio/output/2524/chapter_04.wav",
+          "duration": 186.049583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle to Find Purpose in a Rapidly Changing Society",
+          "actualDuration": 186.049583,
+          "startTime": 772.9083330000001,
+          "endTime": 958.9579160000001
+        },
+        {
+          "path": "Audio/output/2524/chapter_05.wav",
+          "duration": 194.750583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Quest for Understanding in the Modern Age",
+          "actualDuration": 194.750583,
+          "startTime": 960.4579160000001,
+          "endTime": 1155.208499
+        },
+        {
+          "path": "Audio/output/2524/chapter_06.wav",
+          "duration": 178.687708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Pull of Europe and the Lessons of Distance",
+          "actualDuration": 178.687708,
+          "startTime": 1156.708499,
+          "endTime": 1335.396207
+        },
+        {
+          "path": "Audio/output/2524/chapter_07.wav",
+          "duration": 166.279833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Challenge of Modernity and the Search for Order",
+          "actualDuration": 166.279833,
+          "startTime": 1336.896207,
+          "endTime": 1503.17604
+        },
+        {
+          "path": "Audio/output/2524/chapter_08.wav",
+          "duration": 146.852542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power and Peril of Influence",
+          "actualDuration": 146.852542,
+          "startTime": 1504.67604,
+          "endTime": 1651.5285820000001
+        },
+        {
+          "path": "Audio/output/2524/chapter_09.wav",
+          "duration": 123.825708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Deepening of Self-Reflection",
+          "actualDuration": 123.825708,
+          "startTime": 1653.0285820000001,
+          "endTime": 1776.8542900000002
+        },
+        {
+          "path": "Audio/output/2524/chapter_10.wav",
+          "duration": 126.932583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reconciling the Past and Embracing the Future",
+          "actualDuration": 126.932583,
+          "startTime": 1778.3542900000002,
+          "endTime": 1905.2868730000002
+        },
+        {
+          "path": "Audio/output/2524/conclusion.wav",
+          "duration": 123.793833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.793833,
+          "startTime": 1906.7868730000002,
+          "endTime": 2030.5807060000002
+        }
+      ],
+      "totalDuration": 2030.5807060000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.28,
+          "actualStart": 0,
+          "actualEnd": 99.284958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World Shaped by History and Family",
+          "expectedStart": 99.28,
+          "expectedEnd": 321.55,
+          "actualStart": 100.784958,
+          "actualEnd": 323.05,
+          "timeDifference": 1.504958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Traditional Schooling and the Search for Real Learning",
+          "expectedStart": 321.55,
+          "expectedEnd": 561.48,
+          "actualStart": 324.55,
+          "actualEnd": 564.479,
+          "timeDifference": 3
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing the Upheaval of War and the Collapse of Old Certainties",
+          "expectedStart": 561.48,
+          "expectedEnd": 766.91,
+          "actualStart": 565.979,
+          "actualEnd": 771.4083330000001,
+          "timeDifference": 4.499000000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle to Find Purpose in a Rapidly Changing Society",
+          "expectedStart": 766.91,
+          "expectedEnd": 952.96,
+          "actualStart": 772.9083330000001,
+          "actualEnd": 958.9579160000001,
+          "timeDifference": 5.998333000000116
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Quest for Understanding in the Modern Age",
+          "expectedStart": 952.96,
+          "expectedEnd": 1147.71,
+          "actualStart": 960.4579160000001,
+          "actualEnd": 1155.208499,
+          "timeDifference": 7.497916000000032
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Pull of Europe and the Lessons of Distance",
+          "expectedStart": 1147.71,
+          "expectedEnd": 1326.4,
+          "actualStart": 1156.708499,
+          "actualEnd": 1335.396207,
+          "timeDifference": 8.998499000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Challenge of Modernity and the Search for Order",
+          "expectedStart": 1326.4,
+          "expectedEnd": 1492.68,
+          "actualStart": 1336.896207,
+          "actualEnd": 1503.17604,
+          "timeDifference": 10.496206999999913
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power and Peril of Influence",
+          "expectedStart": 1492.68,
+          "expectedEnd": 1639.53,
+          "actualStart": 1504.67604,
+          "actualEnd": 1651.5285820000001,
+          "timeDifference": 11.996039999999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Deepening of Self-Reflection",
+          "expectedStart": 1639.53,
+          "expectedEnd": 1763.36,
+          "actualStart": 1653.0285820000001,
+          "actualEnd": 1776.8542900000002,
+          "timeDifference": 13.49858200000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reconciling the Past and Embracing the Future",
+          "expectedStart": 1763.36,
+          "expectedEnd": 1890.29,
+          "actualStart": 1778.3542900000002,
+          "actualEnd": 1905.2868730000002,
+          "timeDifference": 14.99429000000032
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1890.29,
+          "expectedEnd": 2014.08,
+          "actualStart": 1906.7868730000002,
+          "actualEnd": 2030.5807060000002,
+          "timeDifference": 16.496873000000278
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.284958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World Shaped by History and Family"
+        },
+        {
+          "startTime": 323.05,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World Shaped by History and Family and Chapter 2 The Limits of Traditional Schooling and the Search for Real Learning"
+        },
+        {
+          "startTime": 564.479,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Traditional Schooling and the Search for Real Learning and Chapter 3 Facing the Upheaval of War and the Collapse of Old Certainties"
+        },
+        {
+          "startTime": 771.4083330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing the Upheaval of War and the Collapse of Old Certainties and Chapter 4 The Struggle to Find Purpose in a Rapidly Changing Society"
+        },
+        {
+          "startTime": 958.9579160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle to Find Purpose in a Rapidly Changing Society and Chapter 5 The Ongoing Quest for Understanding in the Modern Age"
+        },
+        {
+          "startTime": 1155.208499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Quest for Understanding in the Modern Age and Chapter 6 The Pull of Europe and the Lessons of Distance"
+        },
+        {
+          "startTime": 1335.396207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Pull of Europe and the Lessons of Distance and Chapter 7 The Challenge of Modernity and the Search for Order"
+        },
+        {
+          "startTime": 1503.17604,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Challenge of Modernity and the Search for Order and Chapter 8 The Power and Peril of Influence"
+        },
+        {
+          "startTime": 1651.5285820000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power and Peril of Influence and Chapter 9 The Deepening of Self-Reflection"
+        },
+        {
+          "startTime": 1776.8542900000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Deepening of Self-Reflection and Chapter 10 Reconciling the Past and Embracing the Future"
+        },
+        {
+          "startTime": 1905.2868730000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reconciling the Past and Embracing the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2524",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T03:06:27.161Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2547",
+  "timestamp": "2025-07-11T04:24:44.058Z",
+  "success": false,
+  "processingTime": -1752207480934,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4828,
+    "totalAudioFiles": 12,
+    "totalDuration": 2534.6655410000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2534.6655410000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2547/optimized_text/2547.md",
+    "fileSize": 810,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "2547.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2547/metadata/2547_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2534.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2547/metadata/2547_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2547/metadata/2547_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2547/2547_complete.wav",
+    "duration": 2534.665542,
+    "fileSize": 121664024,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2547/introduction.wav",
+          "duration": 107.32925,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.32925,
+          "startTime": 0,
+          "endTime": 107.32925
+        },
+        {
+          "path": "Audio/output/2547/chapter_01.wav",
+          "duration": 280.719083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Blueprint Within: How Our DNA Tells a Human Story",
+          "actualDuration": 280.719083,
+          "startTime": 108.82925,
+          "endTime": 389.548333
+        },
+        {
+          "path": "Audio/output/2547/chapter_02.wav",
+          "duration": 283.322708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Machinery of Life: Genes, Chromosomes, and the Dance of Inheritance",
+          "actualDuration": 283.322708,
+          "startTime": 391.048333,
+          "endTime": 674.371041
+        },
+        {
+          "path": "Audio/output/2547/chapter_03.wav",
+          "duration": 264.555917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Past in Our Genes: Evolution, Ancestry, and the Human Journey",
+          "actualDuration": 264.555917,
+          "startTime": 675.871041,
+          "endTime": 940.426958
+        },
+        {
+          "path": "Audio/output/2547/chapter_04.wav",
+          "duration": 256.208708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Genes and Health: The Promise and Peril of Genetic Knowledge",
+          "actualDuration": 256.208708,
+          "startTime": 941.926958,
+          "endTime": 1198.1356660000001
+        },
+        {
+          "path": "Audio/output/2547/chapter_05.wav",
+          "duration": 245.715292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Nature, Nurture, and the Dance of Identity",
+          "actualDuration": 245.715292,
+          "startTime": 1199.6356660000001,
+          "endTime": 1445.3509580000002
+        },
+        {
+          "path": "Audio/output/2547/chapter_06.wav",
+          "duration": 216.758333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ethics of Knowing: Power, Privacy, and the Human Genome",
+          "actualDuration": 216.758333,
+          "startTime": 1446.8509580000002,
+          "endTime": 1663.6092910000002
+        },
+        {
+          "path": "Audio/output/2547/chapter_07.wav",
+          "duration": 213.585,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Genome in Society: Hopes, Fears, and the Shape of Tomorrow",
+          "actualDuration": 213.585,
+          "startTime": 1665.1092910000002,
+          "endTime": 1878.6942910000002
+        },
+        {
+          "path": "Audio/output/2547/chapter_08.wav",
+          "duration": 208.136375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Genome and Medicine: Healing, Hope, and the Limits of Control",
+          "actualDuration": 208.136375,
+          "startTime": 1880.1942910000002,
+          "endTime": 2088.3306660000003
+        },
+        {
+          "path": "Audio/output/2547/chapter_09.wav",
+          "duration": 197.584417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Genome’s Future: Editing, Engineering, and the Human Imagination",
+          "actualDuration": 197.584417,
+          "startTime": 2089.8306660000003,
+          "endTime": 2287.4150830000003
+        },
+        {
+          "path": "Audio/output/2547/chapter_10.wav",
+          "duration": 135.075958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Genome: Wisdom, Wonder, and the Human Spirit",
+          "actualDuration": 135.075958,
+          "startTime": 2288.9150830000003,
+          "endTime": 2423.991041
+        },
+        {
+          "path": "Audio/output/2547/conclusion.wav",
+          "duration": 125.6745,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.6745,
+          "startTime": 2425.491041,
+          "endTime": 2551.1655410000003
+        }
+      ],
+      "totalDuration": 2551.1655410000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.33,
+          "actualStart": 0,
+          "actualEnd": 107.32925,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Blueprint Within: How Our DNA Tells a Human Story",
+          "expectedStart": 107.33,
+          "expectedEnd": 388.05,
+          "actualStart": 108.82925,
+          "actualEnd": 389.548333,
+          "timeDifference": 1.4992500000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Machinery of Life: Genes, Chromosomes, and the Dance of Inheritance",
+          "expectedStart": 388.05,
+          "expectedEnd": 671.37,
+          "actualStart": 391.048333,
+          "actualEnd": 674.371041,
+          "timeDifference": 2.9983330000000024
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Past in Our Genes: Evolution, Ancestry, and the Human Journey",
+          "expectedStart": 671.37,
+          "expectedEnd": 935.93,
+          "actualStart": 675.871041,
+          "actualEnd": 940.426958,
+          "timeDifference": 4.5010409999999865
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Genes and Health: The Promise and Peril of Genetic Knowledge",
+          "expectedStart": 935.93,
+          "expectedEnd": 1192.14,
+          "actualStart": 941.926958,
+          "actualEnd": 1198.1356660000001,
+          "timeDifference": 5.996958000000063
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Nature, Nurture, and the Dance of Identity",
+          "expectedStart": 1192.14,
+          "expectedEnd": 1437.86,
+          "actualStart": 1199.6356660000001,
+          "actualEnd": 1445.3509580000002,
+          "timeDifference": 7.495666000000028
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ethics of Knowing: Power, Privacy, and the Human Genome",
+          "expectedStart": 1437.86,
+          "expectedEnd": 1654.62,
+          "actualStart": 1446.8509580000002,
+          "actualEnd": 1663.6092910000002,
+          "timeDifference": 8.990958000000319
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Genome in Society: Hopes, Fears, and the Shape of Tomorrow",
+          "expectedStart": 1654.62,
+          "expectedEnd": 1868.21,
+          "actualStart": 1665.1092910000002,
+          "actualEnd": 1878.6942910000002,
+          "timeDifference": 10.489291000000321
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Genome and Medicine: Healing, Hope, and the Limits of Control",
+          "expectedStart": 1868.21,
+          "expectedEnd": 2076.35,
+          "actualStart": 1880.1942910000002,
+          "actualEnd": 2088.3306660000003,
+          "timeDifference": 11.984291000000212
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Genome’s Future: Editing, Engineering, and the Human Imagination",
+          "expectedStart": 2076.35,
+          "expectedEnd": 2273.93,
+          "actualStart": 2089.8306660000003,
+          "actualEnd": 2287.4150830000003,
+          "timeDifference": 13.480666000000383
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Genome: Wisdom, Wonder, and the Human Spirit",
+          "expectedStart": 2273.93,
+          "expectedEnd": 2409.01,
+          "actualStart": 2288.9150830000003,
+          "actualEnd": 2423.991041,
+          "timeDifference": 14.985083000000486
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2409.01,
+          "expectedEnd": 2534.68,
+          "actualStart": 2425.491041,
+          "actualEnd": 2551.1655410000003,
+          "timeDifference": 16.481041000000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.32925,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Blueprint Within: How Our DNA Tells a Human Story"
+        },
+        {
+          "startTime": 389.548333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Blueprint Within: How Our DNA Tells a Human Story and Chapter 2 The Machinery of Life: Genes, Chromosomes, and the Dance of Inheritance"
+        },
+        {
+          "startTime": 674.371041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Machinery of Life: Genes, Chromosomes, and the Dance of Inheritance and Chapter 3 The Past in Our Genes: Evolution, Ancestry, and the Human Journey"
+        },
+        {
+          "startTime": 940.426958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Past in Our Genes: Evolution, Ancestry, and the Human Journey and Chapter 4 Genes and Health: The Promise and Peril of Genetic Knowledge"
+        },
+        {
+          "startTime": 1198.1356660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Genes and Health: The Promise and Peril of Genetic Knowledge and Chapter 5 Nature, Nurture, and the Dance of Identity"
+        },
+        {
+          "startTime": 1445.3509580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Nature, Nurture, and the Dance of Identity and Chapter 6 The Ethics of Knowing: Power, Privacy, and the Human Genome"
+        },
+        {
+          "startTime": 1663.6092910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ethics of Knowing: Power, Privacy, and the Human Genome and Chapter 7 The Genome in Society: Hopes, Fears, and the Shape of Tomorrow"
+        },
+        {
+          "startTime": 1878.6942910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Genome in Society: Hopes, Fears, and the Shape of Tomorrow and Chapter 8 The Genome and Medicine: Healing, Hope, and the Limits of Control"
+        },
+        {
+          "startTime": 2088.3306660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Genome and Medicine: Healing, Hope, and the Limits of Control and Chapter 9 The Genome’s Future: Editing, Engineering, and the Human Imagination"
+        },
+        {
+          "startTime": 2287.4150830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Genome’s Future: Editing, Engineering, and the Human Imagination and Chapter 10 Living with the Genome: Wisdom, Wonder, and the Human Spirit"
+        },
+        {
+          "startTime": 2423.991041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Genome: Wisdom, Wonder, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2547",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T04:18:02.128Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

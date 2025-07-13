@@ -1,0 +1,431 @@
+{
+  "bookId": "2570",
+  "timestamp": "2025-07-11T06:37:48.305Z",
+  "success": false,
+  "processingTime": -1752215602562,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4319,
+    "totalAudioFiles": 11,
+    "totalDuration": 1987.900041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1987.900041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2570/optimized_text/2570.md",
+    "fileSize": 614,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2570.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2570/metadata/2570_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1987.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2570/metadata/2570_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2570/metadata/2570_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2570/2570_complete.wav",
+    "duration": 1987.900042,
+    "fileSize": 95419280,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2570/introduction.wav",
+          "duration": 83.700917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.700917,
+          "startTime": 0,
+          "endTime": 83.700917
+        },
+        {
+          "path": "Audio/output/2570/chapter_01.wav",
+          "duration": 220.353792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why People Struggle to Make Good Choices",
+          "actualDuration": 220.353792,
+          "startTime": 85.200917,
+          "endTime": 305.554709
+        },
+        {
+          "path": "Audio/output/2570/chapter_02.wav",
+          "duration": 259.774667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Choice Architecture",
+          "actualDuration": 259.774667,
+          "startTime": 307.054709,
+          "endTime": 566.829376
+        },
+        {
+          "path": "Audio/output/2570/chapter_03.wav",
+          "duration": 228.646458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Nudges: Gentle Guides for Better Decisions",
+          "actualDuration": 228.646458,
+          "startTime": 568.329376,
+          "endTime": 796.9758340000001
+        },
+        {
+          "path": "Audio/output/2570/chapter_04.wav",
+          "duration": 212.791458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Applying Nudges in Health, Finance, and Everyday Life",
+          "actualDuration": 212.791458,
+          "startTime": 798.4758340000001,
+          "endTime": 1011.2672920000001
+        },
+        {
+          "path": "Audio/output/2570/chapter_05.wav",
+          "duration": 195.066167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Freedom and Guidance: The Ethics of Nudging",
+          "actualDuration": 195.066167,
+          "startTime": 1012.7672920000001,
+          "endTime": 1207.8334590000002
+        },
+        {
+          "path": "Audio/output/2570/chapter_06.wav",
+          "duration": 184.725083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nudges in Public Policy: Shaping Societal Outcomes",
+          "actualDuration": 184.725083,
+          "startTime": 1209.3334590000002,
+          "endTime": 1394.0585420000002
+        },
+        {
+          "path": "Audio/output/2570/chapter_07.wav",
+          "duration": 161.592583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Recognizing the Limits: When Nudges Fall Short",
+          "actualDuration": 161.592583,
+          "startTime": 1395.5585420000002,
+          "endTime": 1557.1511250000003
+        },
+        {
+          "path": "Audio/output/2570/chapter_08.wav",
+          "duration": 162.48525,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Designing for Diversity: Tailoring Nudges to Real Lives",
+          "actualDuration": 162.48525,
+          "startTime": 1558.6511250000003,
+          "endTime": 1721.1363750000003
+        },
+        {
+          "path": "Audio/output/2570/chapter_09.wav",
+          "duration": 143.829208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Nudging: Technology, Data, and New Frontiers",
+          "actualDuration": 143.829208,
+          "startTime": 1722.6363750000003,
+          "endTime": 1866.4655830000002
+        },
+        {
+          "path": "Audio/output/2570/conclusion.wav",
+          "duration": 134.934458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.934458,
+          "startTime": 1867.9655830000002,
+          "endTime": 2002.900041
+        }
+      ],
+      "totalDuration": 2002.900041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.7,
+          "actualStart": 0,
+          "actualEnd": 83.700917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why People Struggle to Make Good Choices",
+          "expectedStart": 83.7,
+          "expectedEnd": 304.05,
+          "actualStart": 85.200917,
+          "actualEnd": 305.554709,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Choice Architecture",
+          "expectedStart": 304.05,
+          "expectedEnd": 563.82,
+          "actualStart": 307.054709,
+          "actualEnd": 566.829376,
+          "timeDifference": 3.004708999999991
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Nudges: Gentle Guides for Better Decisions",
+          "expectedStart": 563.82,
+          "expectedEnd": 792.47,
+          "actualStart": 568.329376,
+          "actualEnd": 796.9758340000001,
+          "timeDifference": 4.509375999999975
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Applying Nudges in Health, Finance, and Everyday Life",
+          "expectedStart": 792.47,
+          "expectedEnd": 1005.26,
+          "actualStart": 798.4758340000001,
+          "actualEnd": 1011.2672920000001,
+          "timeDifference": 6.00583400000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Freedom and Guidance: The Ethics of Nudging",
+          "expectedStart": 1005.26,
+          "expectedEnd": 1200.33,
+          "actualStart": 1012.7672920000001,
+          "actualEnd": 1207.8334590000002,
+          "timeDifference": 7.50729200000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nudges in Public Policy: Shaping Societal Outcomes",
+          "expectedStart": 1200.33,
+          "expectedEnd": 1385.06,
+          "actualStart": 1209.3334590000002,
+          "actualEnd": 1394.0585420000002,
+          "timeDifference": 9.003459000000248
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Recognizing the Limits: When Nudges Fall Short",
+          "expectedStart": 1385.06,
+          "expectedEnd": 1546.65,
+          "actualStart": 1395.5585420000002,
+          "actualEnd": 1557.1511250000003,
+          "timeDifference": 10.49854200000027
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Designing for Diversity: Tailoring Nudges to Real Lives",
+          "expectedStart": 1546.65,
+          "expectedEnd": 1709.14,
+          "actualStart": 1558.6511250000003,
+          "actualEnd": 1721.1363750000003,
+          "timeDifference": 12.00112500000023
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Nudging: Technology, Data, and New Frontiers",
+          "expectedStart": 1709.14,
+          "expectedEnd": 1852.97,
+          "actualStart": 1722.6363750000003,
+          "actualEnd": 1866.4655830000002,
+          "timeDifference": 13.496375000000171
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1852.97,
+          "expectedEnd": 1987.9,
+          "actualStart": 1867.9655830000002,
+          "actualEnd": 2002.900041,
+          "timeDifference": 14.995583000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.700917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why People Struggle to Make Good Choices"
+        },
+        {
+          "startTime": 305.554709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why People Struggle to Make Good Choices and Chapter 2 The Power of Choice Architecture"
+        },
+        {
+          "startTime": 566.829376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Choice Architecture and Chapter 3 Nudges: Gentle Guides for Better Decisions"
+        },
+        {
+          "startTime": 796.9758340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Nudges: Gentle Guides for Better Decisions and Chapter 4 Applying Nudges in Health, Finance, and Everyday Life"
+        },
+        {
+          "startTime": 1011.2672920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Applying Nudges in Health, Finance, and Everyday Life and Chapter 5 Balancing Freedom and Guidance: The Ethics of Nudging"
+        },
+        {
+          "startTime": 1207.8334590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Freedom and Guidance: The Ethics of Nudging and Chapter 6 Nudges in Public Policy: Shaping Societal Outcomes"
+        },
+        {
+          "startTime": 1394.0585420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nudges in Public Policy: Shaping Societal Outcomes and Chapter 7 Recognizing the Limits: When Nudges Fall Short"
+        },
+        {
+          "startTime": 1557.1511250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Recognizing the Limits: When Nudges Fall Short and Chapter 8 Designing for Diversity: Tailoring Nudges to Real Lives"
+        },
+        {
+          "startTime": 1721.1363750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Designing for Diversity: Tailoring Nudges to Real Lives and Chapter 9 The Future of Nudging: Technology, Data, and New Frontiers"
+        },
+        {
+          "startTime": 1866.4655830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Nudging: Technology, Data, and New Frontiers and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2570",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T06:33:24.059Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2498",
+  "timestamp": "2025-07-11T01:49:01.172Z",
+  "success": false,
+  "processingTime": -1752198276772,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4313,
+    "totalAudioFiles": 12,
+    "totalDuration": 1992.4164589999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1992.4164589999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2498/optimized_text/2498.md",
+    "fileSize": 636,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2498.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2498/metadata/2498_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1992.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2498/metadata/2498_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2498/metadata/2498_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2498/2498_complete.wav",
+    "duration": 1992.416458,
+    "fileSize": 95636068,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2498/introduction.wav",
+          "duration": 90.327542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.327542,
+          "startTime": 0,
+          "endTime": 90.327542
+        },
+        {
+          "path": "Audio/output/2498/chapter_01.wav",
+          "duration": 211.477917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Admitting Mistakes Feels So Hard",
+          "actualDuration": 211.477917,
+          "startTime": 91.827542,
+          "endTime": 303.305459
+        },
+        {
+          "path": "Audio/output/2498/chapter_02.wav",
+          "duration": 217.132208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How the Mind Protects Itself from Discomfort",
+          "actualDuration": 217.132208,
+          "startTime": 304.805459,
+          "endTime": 521.9376669999999
+        },
+        {
+          "path": "Audio/output/2498/chapter_03.wav",
+          "duration": 180.028333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Slippery Slope of Justifying Harmful Actions",
+          "actualDuration": 180.028333,
+          "startTime": 523.4376669999999,
+          "endTime": 703.4659999999999
+        },
+        {
+          "path": "Audio/output/2498/chapter_04.wav",
+          "duration": 234.026,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Beliefs Shape Reality and Evidence",
+          "actualDuration": 234.026,
+          "startTime": 704.9659999999999,
+          "endTime": 938.992
+        },
+        {
+          "path": "Audio/output/2498/chapter_05.wav",
+          "duration": 198.385292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cost of Denial in Relationships and Society",
+          "actualDuration": 198.385292,
+          "startTime": 940.492,
+          "endTime": 1138.877292
+        },
+        {
+          "path": "Audio/output/2498/chapter_06.wav",
+          "duration": 171.281083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Justice Goes Astray: Self-Justification in the Legal System",
+          "actualDuration": 171.281083,
+          "startTime": 1140.377292,
+          "endTime": 1311.658375
+        },
+        {
+          "path": "Audio/output/2498/chapter_07.wav",
+          "duration": 159.375042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Memory, Denial, and the Stories We Tell Ourselves",
+          "actualDuration": 159.375042,
+          "startTime": 1313.158375,
+          "endTime": 1472.533417
+        },
+        {
+          "path": "Audio/output/2498/chapter_08.wav",
+          "duration": 162.535125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power—and Peril—of Apology",
+          "actualDuration": 162.535125,
+          "startTime": 1474.033417,
+          "endTime": 1636.568542
+        },
+        {
+          "path": "Audio/output/2498/chapter_09.wav",
+          "duration": 134.940042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Learning to See Ourselves Clearly",
+          "actualDuration": 134.940042,
+          "startTime": 1638.068542,
+          "endTime": 1773.008584
+        },
+        {
+          "path": "Audio/output/2498/chapter_10.wav",
+          "duration": 132.508042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Culture of Honesty and Growth",
+          "actualDuration": 132.508042,
+          "startTime": 1774.508584,
+          "endTime": 1907.0166259999999
+        },
+        {
+          "path": "Audio/output/2498/conclusion.wav",
+          "duration": 100.399833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 100.399833,
+          "startTime": 1908.5166259999999,
+          "endTime": 2008.9164589999998
+        }
+      ],
+      "totalDuration": 2008.9164589999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.33,
+          "actualStart": 0,
+          "actualEnd": 90.327542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Admitting Mistakes Feels So Hard",
+          "expectedStart": 90.33,
+          "expectedEnd": 301.81,
+          "actualStart": 91.827542,
+          "actualEnd": 303.305459,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How the Mind Protects Itself from Discomfort",
+          "expectedStart": 301.81,
+          "expectedEnd": 518.94,
+          "actualStart": 304.805459,
+          "actualEnd": 521.9376669999999,
+          "timeDifference": 2.9954589999999826
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Slippery Slope of Justifying Harmful Actions",
+          "expectedStart": 518.94,
+          "expectedEnd": 698.97,
+          "actualStart": 523.4376669999999,
+          "actualEnd": 703.4659999999999,
+          "timeDifference": 4.497666999999865
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Beliefs Shape Reality and Evidence",
+          "expectedStart": 698.97,
+          "expectedEnd": 933,
+          "actualStart": 704.9659999999999,
+          "actualEnd": 938.992,
+          "timeDifference": 5.995999999999867
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cost of Denial in Relationships and Society",
+          "expectedStart": 933,
+          "expectedEnd": 1131.39,
+          "actualStart": 940.492,
+          "actualEnd": 1138.877292,
+          "timeDifference": 7.491999999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Justice Goes Astray: Self-Justification in the Legal System",
+          "expectedStart": 1131.39,
+          "expectedEnd": 1302.67,
+          "actualStart": 1140.377292,
+          "actualEnd": 1311.658375,
+          "timeDifference": 8.987291999999798
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Memory, Denial, and the Stories We Tell Ourselves",
+          "expectedStart": 1302.67,
+          "expectedEnd": 1462.05,
+          "actualStart": 1313.158375,
+          "actualEnd": 1472.533417,
+          "timeDifference": 10.488374999999905
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power—and Peril—of Apology",
+          "expectedStart": 1462.05,
+          "expectedEnd": 1624.59,
+          "actualStart": 1474.033417,
+          "actualEnd": 1636.568542,
+          "timeDifference": 11.983417000000145
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Learning to See Ourselves Clearly",
+          "expectedStart": 1624.59,
+          "expectedEnd": 1759.53,
+          "actualStart": 1638.068542,
+          "actualEnd": 1773.008584,
+          "timeDifference": 13.478542000000061
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Culture of Honesty and Growth",
+          "expectedStart": 1759.53,
+          "expectedEnd": 1892.04,
+          "actualStart": 1774.508584,
+          "actualEnd": 1907.0166259999999,
+          "timeDifference": 14.978583999999955
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1892.04,
+          "expectedEnd": 1992.44,
+          "actualStart": 1908.5166259999999,
+          "actualEnd": 2008.9164589999998,
+          "timeDifference": 16.476625999999897
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.327542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Admitting Mistakes Feels So Hard"
+        },
+        {
+          "startTime": 303.305459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Admitting Mistakes Feels So Hard and Chapter 2 How the Mind Protects Itself from Discomfort"
+        },
+        {
+          "startTime": 521.9376669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How the Mind Protects Itself from Discomfort and Chapter 3 The Slippery Slope of Justifying Harmful Actions"
+        },
+        {
+          "startTime": 703.4659999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Slippery Slope of Justifying Harmful Actions and Chapter 4 How Beliefs Shape Reality and Evidence"
+        },
+        {
+          "startTime": 938.992,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Beliefs Shape Reality and Evidence and Chapter 5 The Cost of Denial in Relationships and Society"
+        },
+        {
+          "startTime": 1138.877292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cost of Denial in Relationships and Society and Chapter 6 When Justice Goes Astray: Self-Justification in the Legal System"
+        },
+        {
+          "startTime": 1311.658375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Justice Goes Astray: Self-Justification in the Legal System and Chapter 7 Memory, Denial, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1472.533417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Memory, Denial, and the Stories We Tell Ourselves and Chapter 8 The Power—and Peril—of Apology"
+        },
+        {
+          "startTime": 1636.568542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power—and Peril—of Apology and Chapter 9 Learning to See Ourselves Clearly"
+        },
+        {
+          "startTime": 1773.008584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Learning to See Ourselves Clearly and Chapter 10 Building a Culture of Honesty and Growth"
+        },
+        {
+          "startTime": 1907.0166259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Culture of Honesty and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2498",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-11T01:44:38.086Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

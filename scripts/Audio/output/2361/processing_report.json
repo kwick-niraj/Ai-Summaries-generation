@@ -1,0 +1,456 @@
+{
+  "bookId": "2361",
+  "timestamp": "2025-07-10T18:13:15.191Z",
+  "success": false,
+  "processingTime": -1752170843330,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5571,
+    "totalAudioFiles": 12,
+    "totalDuration": 2892.6944160000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2892.6944160000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2361/optimized_text/2361.md",
+    "fileSize": 801,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2361.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2361/metadata/2361_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2892.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2361/metadata/2361_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2361/metadata/2361_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2361/2361_complete.wav",
+    "duration": 2892.694417,
+    "fileSize": 138849410,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2361/introduction.wav",
+          "duration": 100.506875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.506875,
+          "startTime": 0,
+          "endTime": 100.506875
+        },
+        {
+          "path": "Audio/output/2361/chapter_01.wav",
+          "duration": 357.356708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Business Education and the Power of Self-Directed Learning",
+          "actualDuration": 357.356708,
+          "startTime": 102.006875,
+          "endTime": 459.363583
+        },
+        {
+          "path": "Audio/output/2361/chapter_02.wav",
+          "duration": 329.106792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Value Creation—The Heart of Every Business",
+          "actualDuration": 329.106792,
+          "startTime": 460.863583,
+          "endTime": 789.970375
+        },
+        {
+          "path": "Audio/output/2361/chapter_03.wav",
+          "duration": 297.372333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Attracting Attention and Building Trust—The Essentials of Marketing",
+          "actualDuration": 297.372333,
+          "startTime": 791.470375,
+          "endTime": 1088.8427080000001
+        },
+        {
+          "path": "Audio/output/2361/chapter_04.wav",
+          "duration": 273.641458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Interest into Action—The Art and Science of Sales",
+          "actualDuration": 273.641458,
+          "startTime": 1090.3427080000001,
+          "endTime": 1363.9841660000002
+        },
+        {
+          "path": "Audio/output/2361/chapter_05.wav",
+          "duration": 261.21675,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Delivering on Promises—Ensuring Value Reaches the Customer",
+          "actualDuration": 261.21675,
+          "startTime": 1365.4841660000002,
+          "endTime": 1626.7009160000002
+        },
+        {
+          "path": "Audio/output/2361/chapter_06.wav",
+          "duration": 289.675167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mastering the Numbers—Understanding Business Finance",
+          "actualDuration": 289.675167,
+          "startTime": 1628.2009160000002,
+          "endTime": 1917.876083
+        },
+        {
+          "path": "Audio/output/2361/chapter_07.wav",
+          "duration": 202.957375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Systems Thinking—Designing for Consistency and Growth",
+          "actualDuration": 202.957375,
+          "startTime": 1919.376083,
+          "endTime": 2122.333458
+        },
+        {
+          "path": "Audio/output/2361/chapter_08.wav",
+          "duration": 211.378208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Side—Leadership, Motivation, and Teamwork",
+          "actualDuration": 211.378208,
+          "startTime": 2123.833458,
+          "endTime": 2335.211666
+        },
+        {
+          "path": "Audio/output/2361/chapter_09.wav",
+          "duration": 227.600208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Personal Effectiveness—Habits, Focus, and Self-Management",
+          "actualDuration": 227.600208,
+          "startTime": 2336.711666,
+          "endTime": 2564.311874
+        },
+        {
+          "path": "Audio/output/2361/chapter_10.wav",
+          "duration": 185.515667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Continuous Learning—Adapting and Growing in a Changing World",
+          "actualDuration": 185.515667,
+          "startTime": 2565.811874,
+          "endTime": 2751.327541
+        },
+        {
+          "path": "Audio/output/2361/conclusion.wav",
+          "duration": 156.366875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 156.366875,
+          "startTime": 2752.827541,
+          "endTime": 2909.1944160000003
+        }
+      ],
+      "totalDuration": 2909.1944160000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.51,
+          "actualStart": 0,
+          "actualEnd": 100.506875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Business Education and the Power of Self-Directed Learning",
+          "expectedStart": 100.51,
+          "expectedEnd": 457.87,
+          "actualStart": 102.006875,
+          "actualEnd": 459.363583,
+          "timeDifference": 1.4968749999999886
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Value Creation—The Heart of Every Business",
+          "expectedStart": 457.87,
+          "expectedEnd": 786.98,
+          "actualStart": 460.863583,
+          "actualEnd": 789.970375,
+          "timeDifference": 2.993583000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Attracting Attention and Building Trust—The Essentials of Marketing",
+          "expectedStart": 786.98,
+          "expectedEnd": 1084.35,
+          "actualStart": 791.470375,
+          "actualEnd": 1088.8427080000001,
+          "timeDifference": 4.490374999999972
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Interest into Action—The Art and Science of Sales",
+          "expectedStart": 1084.35,
+          "expectedEnd": 1357.99,
+          "actualStart": 1090.3427080000001,
+          "actualEnd": 1363.9841660000002,
+          "timeDifference": 5.992708000000221
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Delivering on Promises—Ensuring Value Reaches the Customer",
+          "expectedStart": 1357.99,
+          "expectedEnd": 1619.21,
+          "actualStart": 1365.4841660000002,
+          "actualEnd": 1626.7009160000002,
+          "timeDifference": 7.4941660000001775
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mastering the Numbers—Understanding Business Finance",
+          "expectedStart": 1619.21,
+          "expectedEnd": 1908.89,
+          "actualStart": 1628.2009160000002,
+          "actualEnd": 1917.876083,
+          "timeDifference": 8.990916000000198
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Systems Thinking—Designing for Consistency and Growth",
+          "expectedStart": 1908.89,
+          "expectedEnd": 2111.85,
+          "actualStart": 1919.376083,
+          "actualEnd": 2122.333458,
+          "timeDifference": 10.486083000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Side—Leadership, Motivation, and Teamwork",
+          "expectedStart": 2111.85,
+          "expectedEnd": 2323.23,
+          "actualStart": 2123.833458,
+          "actualEnd": 2335.211666,
+          "timeDifference": 11.983458000000155
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Personal Effectiveness—Habits, Focus, and Self-Management",
+          "expectedStart": 2323.23,
+          "expectedEnd": 2550.83,
+          "actualStart": 2336.711666,
+          "actualEnd": 2564.311874,
+          "timeDifference": 13.481666000000132
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Continuous Learning—Adapting and Growing in a Changing World",
+          "expectedStart": 2550.83,
+          "expectedEnd": 2736.35,
+          "actualStart": 2565.811874,
+          "actualEnd": 2751.327541,
+          "timeDifference": 14.981874000000062
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2736.35,
+          "expectedEnd": 2892.72,
+          "actualStart": 2752.827541,
+          "actualEnd": 2909.1944160000003,
+          "timeDifference": 16.4775410000002
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.506875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Business Education and the Power of Self-Directed Learning"
+        },
+        {
+          "startTime": 459.363583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Business Education and the Power of Self-Directed Learning and Chapter 2 Understanding Value Creation—The Heart of Every Business"
+        },
+        {
+          "startTime": 789.970375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Value Creation—The Heart of Every Business and Chapter 3 Attracting Attention and Building Trust—The Essentials of Marketing"
+        },
+        {
+          "startTime": 1088.8427080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Attracting Attention and Building Trust—The Essentials of Marketing and Chapter 4 Turning Interest into Action—The Art and Science of Sales"
+        },
+        {
+          "startTime": 1363.9841660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Interest into Action—The Art and Science of Sales and Chapter 5 Delivering on Promises—Ensuring Value Reaches the Customer"
+        },
+        {
+          "startTime": 1626.7009160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Delivering on Promises—Ensuring Value Reaches the Customer and Chapter 6 Mastering the Numbers—Understanding Business Finance"
+        },
+        {
+          "startTime": 1917.876083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mastering the Numbers—Understanding Business Finance and Chapter 7 Systems Thinking—Designing for Consistency and Growth"
+        },
+        {
+          "startTime": 2122.333458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Systems Thinking—Designing for Consistency and Growth and Chapter 8 The Human Side—Leadership, Motivation, and Teamwork"
+        },
+        {
+          "startTime": 2335.211666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Side—Leadership, Motivation, and Teamwork and Chapter 9 Personal Effectiveness—Habits, Focus, and Self-Management"
+        },
+        {
+          "startTime": 2564.311874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Personal Effectiveness—Habits, Focus, and Self-Management and Chapter 10 Continuous Learning—Adapting and Growing in a Changing World"
+        },
+        {
+          "startTime": 2751.327541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Continuous Learning—Adapting and Growing in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2361",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T18:07:23.840Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
