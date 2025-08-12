@@ -1,0 +1,932 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-12T09:12:45.031Z",
+    "lastUpdated": "2025-08-12T09:38:41.896Z",
+    "totalBooks": 22,
+    "statusCounts": {
+      "pending": 0,
+      "validated": 0,
+      "converted": 11,
+      "failed": 0,
+      "rejected": 11
+    }
+  },
+  "books": {
+    "101": {
+      "bookId": "101",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:21.728Z",
+      "lastUpdated": "2025-08-12T09:19:21.728Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:21.728Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:21.728Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1001": {
+      "bookId": "1001",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:15.702Z",
+      "lastUpdated": "2025-08-12T09:19:15.702Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, chapter_11.wav, chapter_12.wav, chapter_13.wav, chapter_14.wav, conclusion.wav, chapter_16.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "chapter_11.wav",
+        "chapter_12.wav",
+        "chapter_13.wav",
+        "chapter_14.wav",
+        "conclusion.wav",
+        "chapter_16.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:15.702Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:15.702Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, chapter_11.wav, chapter_12.wav, chapter_13.wav, chapter_14.wav, conclusion.wav, chapter_16.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "chapter_11.wav",
+              "chapter_12.wav",
+              "chapter_13.wav",
+              "chapter_14.wav",
+              "conclusion.wav",
+              "chapter_16.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1003": {
+      "bookId": "1003",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:16.707Z",
+      "lastUpdated": "2025-08-12T09:19:16.707Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:16.707Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:16.707Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1004": {
+      "bookId": "1004",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:17.711Z",
+      "lastUpdated": "2025-08-12T09:19:17.711Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:17.711Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:17.711Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1005": {
+      "bookId": "1005",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:18.715Z",
+      "lastUpdated": "2025-08-12T09:19:18.715Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:18.715Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:18.715Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1006": {
+      "bookId": "1006",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:19.720Z",
+      "lastUpdated": "2025-08-12T09:19:19.720Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, chapter_11.wav, chapter_12.wav, conclusion.wav, chapter_14.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "chapter_11.wav",
+        "chapter_12.wav",
+        "conclusion.wav",
+        "chapter_14.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:19.720Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:19.720Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, chapter_11.wav, chapter_12.wav, conclusion.wav, chapter_14.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "chapter_11.wav",
+              "chapter_12.wav",
+              "conclusion.wav",
+              "chapter_14.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1007": {
+      "bookId": "1007",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:20.725Z",
+      "lastUpdated": "2025-08-12T09:19:20.725Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:20.725Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:20.725Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1010": {
+      "bookId": "1010",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:22.731Z",
+      "lastUpdated": "2025-08-12T09:19:22.731Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_16.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_16.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:22.731Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:22.731Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_16.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_16.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1011": {
+      "bookId": "1011",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:23.735Z",
+      "lastUpdated": "2025-08-12T09:19:23.735Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:23.735Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:23.735Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1012": {
+      "bookId": "1012",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:24.740Z",
+      "lastUpdated": "2025-08-12T09:19:24.740Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:24.740Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:24.740Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "1014": {
+      "bookId": "1014",
+      "status": "rejected",
+      "timestamp": "2025-08-12T09:19:25.743Z",
+      "lastUpdated": "2025-08-12T09:19:25.743Z",
+      "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+      "reason": "incomplete_audio",
+      "missingFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav",
+        "chapter_10.wav",
+        "conclusion.wav",
+        "chapter_12.wav"
+      ],
+      "foundFiles": [],
+      "created": "2025-08-12T09:19:25.743Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:19:25.743Z",
+          "data": {
+            "error": "Audio validation failed: introduction.wav, chapter_01.wav, chapter_02.wav, chapter_03.wav, chapter_04.wav, chapter_05.wav, chapter_06.wav, chapter_07.wav, chapter_08.wav, chapter_09.wav, chapter_10.wav, conclusion.wav, chapter_12.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav",
+              "chapter_10.wav",
+              "conclusion.wav",
+              "chapter_12.wav"
+            ],
+            "foundFiles": []
+          }
+        }
+      ]
+    },
+    "2301": {
+      "bookId": "2301",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:29:37.315Z",
+      "lastUpdated": "2025-08-12T09:29:37.315Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2301/2301_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2301_complete.m4a",
+      "fileSize": 15596410,
+      "compressionRatio": 0.17117697429493425,
+      "chapterCount": 12,
+      "created": "2025-08-12T09:29:37.315Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:29:37.315Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2301/2301_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2301_complete.m4a",
+            "fileSize": 15596410,
+            "compressionRatio": 0.17117697429493425,
+            "chapterCount": 12
+          }
+        }
+      ]
+    },
+    "2302": {
+      "bookId": "2302",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:35:07.484Z",
+      "lastUpdated": "2025-08-12T09:35:07.484Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2302/2302_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2302/2302_complete.m4a",
+      "fileSize": 26937030,
+      "compressionRatio": 0.16887387126339784,
+      "chapterCount": 16,
+      "created": "2025-08-12T09:30:06.745Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:30:06.745Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2302/2302_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2302_complete.m4a",
+            "fileSize": 26937030,
+            "compressionRatio": 0.16887387126339784,
+            "chapterCount": 16
+          }
+        },
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:35:07.484Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2302/2302_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2302/2302_complete.m4a",
+            "fileSize": 26937030,
+            "compressionRatio": 0.16887387126339784,
+            "chapterCount": 16
+          }
+        }
+      ]
+    },
+    "2303": {
+      "bookId": "2303",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:30:28.915Z",
+      "lastUpdated": "2025-08-12T09:30:28.915Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2303/2303_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2303_complete.m4a",
+      "fileSize": 24308119,
+      "compressionRatio": 0.17130823159930758,
+      "chapterCount": 17,
+      "created": "2025-08-12T09:30:28.915Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:30:28.915Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2303/2303_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2303_complete.m4a",
+            "fileSize": 24308119,
+            "compressionRatio": 0.17130823159930758,
+            "chapterCount": 17
+          }
+        }
+      ]
+    },
+    "2304": {
+      "bookId": "2304",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:36:48.301Z",
+      "lastUpdated": "2025-08-12T09:36:48.301Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2304/2304_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2304/2304_complete.m4a",
+      "fileSize": 19172952,
+      "compressionRatio": 0.17149895759536554,
+      "chapterCount": 14,
+      "created": "2025-08-12T09:36:48.301Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:36:48.301Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2304/2304_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2304/2304_complete.m4a",
+            "fileSize": 19172952,
+            "compressionRatio": 0.17149895759536554,
+            "chapterCount": 14
+          }
+        }
+      ]
+    },
+    "2308": {
+      "bookId": "2308",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:37:04.883Z",
+      "lastUpdated": "2025-08-12T09:37:04.883Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2308/2308_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2308/2308_complete.m4a",
+      "fileSize": 14357195,
+      "compressionRatio": 0.17040143026539914,
+      "chapterCount": 12,
+      "created": "2025-08-12T09:37:04.883Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:37:04.883Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2308/2308_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2308/2308_complete.m4a",
+            "fileSize": 14357195,
+            "compressionRatio": 0.17040143026539914,
+            "chapterCount": 12
+          }
+        }
+      ]
+    },
+    "2310": {
+      "bookId": "2310",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:37:32.559Z",
+      "lastUpdated": "2025-08-12T09:37:32.559Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2310/2310_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2310/2310_complete.m4a",
+      "fileSize": 24515355,
+      "compressionRatio": 0.1703222060410171,
+      "chapterCount": 16,
+      "created": "2025-08-12T09:37:32.559Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:37:32.559Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2310/2310_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2310/2310_complete.m4a",
+            "fileSize": 24515355,
+            "compressionRatio": 0.1703222060410171,
+            "chapterCount": 16
+          }
+        }
+      ]
+    },
+    "2313": {
+      "bookId": "2313",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:37:46.355Z",
+      "lastUpdated": "2025-08-12T09:37:46.355Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2313/2313_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2313/2313_complete.m4a",
+      "fileSize": 14282513,
+      "compressionRatio": 0.17145010318567866,
+      "chapterCount": 12,
+      "created": "2025-08-12T09:37:46.355Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:37:46.355Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2313/2313_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2313/2313_complete.m4a",
+            "fileSize": 14282513,
+            "compressionRatio": 0.17145010318567866,
+            "chapterCount": 12
+          }
+        }
+      ]
+    },
+    "2314": {
+      "bookId": "2314",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:38:03.865Z",
+      "lastUpdated": "2025-08-12T09:38:03.865Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2314/2314_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2314/2314_complete.m4a",
+      "fileSize": 18979974,
+      "compressionRatio": 0.1701397666930602,
+      "chapterCount": 17,
+      "created": "2025-08-12T09:38:03.865Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:38:03.865Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2314/2314_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2314/2314_complete.m4a",
+            "fileSize": 18979974,
+            "compressionRatio": 0.1701397666930602,
+            "chapterCount": 17
+          }
+        }
+      ]
+    },
+    "2316": {
+      "bookId": "2316",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:38:16.659Z",
+      "lastUpdated": "2025-08-12T09:38:16.659Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2316/2316_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2316/2316_complete.m4a",
+      "fileSize": 15404310,
+      "compressionRatio": 0.17267531566809083,
+      "chapterCount": 12,
+      "created": "2025-08-12T09:38:16.659Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:38:16.659Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2316/2316_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2316/2316_complete.m4a",
+            "fileSize": 15404310,
+            "compressionRatio": 0.17267531566809083,
+            "chapterCount": 12
+          }
+        }
+      ]
+    },
+    "2317": {
+      "bookId": "2317",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:38:41.896Z",
+      "lastUpdated": "2025-08-12T09:38:41.896Z",
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2317/2317_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2317/2317_complete.m4a",
+      "fileSize": 23009598,
+      "compressionRatio": 0.17083329751042758,
+      "chapterCount": 12,
+      "created": "2025-08-12T09:38:41.896Z",
+      "statusHistory": [
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:38:41.896Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2317/2317_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2317/2317_complete.m4a",
+            "fileSize": 23009598,
+            "compressionRatio": 0.17083329751042758,
+            "chapterCount": 12
+          }
+        }
+      ]
+    },
+    "2644": {
+      "bookId": "2644",
+      "status": "converted",
+      "timestamp": "2025-08-12T09:26:35.599Z",
+      "lastUpdated": "2025-08-12T09:26:35.599Z",
+      "error": "Conversion failed: Command failed: ffmpeg -i \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2644/2644_complete.wav\" -i \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete_chapters.txt\" -c:a aac -b:a 64k -ar 44100 -ac 1 -profile:a aac_low -movflags +faststart -metadata:s:a:0 language=eng -map 0:a -map 1 -c:c copy -y \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete.m4a\"",
+      "reason": "conversion_failed",
+      "missingFiles": [
+        "chapter_10.wav",
+        "conclusion.wav"
+      ],
+      "foundFiles": [
+        "introduction.wav",
+        "chapter_01.wav",
+        "chapter_02.wav",
+        "chapter_03.wav",
+        "chapter_04.wav",
+        "chapter_05.wav",
+        "chapter_06.wav",
+        "chapter_07.wav",
+        "chapter_08.wav",
+        "chapter_09.wav"
+      ],
+      "created": "2025-08-12T09:12:45.544Z",
+      "statusHistory": [
+        {
+          "status": "rejected",
+          "timestamp": "2025-08-12T09:12:45.544Z",
+          "data": {
+            "error": "Audio validation failed: chapter_10.wav, conclusion.wav",
+            "reason": "incomplete_audio",
+            "missingFiles": [
+              "chapter_10.wav",
+              "conclusion.wav"
+            ],
+            "foundFiles": [
+              "introduction.wav",
+              "chapter_01.wav",
+              "chapter_02.wav",
+              "chapter_03.wav",
+              "chapter_04.wav",
+              "chapter_05.wav",
+              "chapter_06.wav",
+              "chapter_07.wav",
+              "chapter_08.wav",
+              "chapter_09.wav"
+            ]
+          }
+        },
+        {
+          "status": "failed",
+          "timestamp": "2025-08-12T09:24:52.991Z",
+          "data": {
+            "error": "Conversion failed: Command failed: ffmpeg -i \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2644/2644_complete.wav\" -i \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete_chapters.txt\" -c:a aac -b:a 64k -ar 44100 -ac 1 -profile:a aac_low -movflags +faststart -metadata:s:a:0 language=eng -map 0:a -map 1 -c:c copy -y \"/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete.m4a\"",
+            "reason": "conversion_failed"
+          }
+        },
+        {
+          "status": "converted",
+          "timestamp": "2025-08-12T09:26:35.599Z",
+          "data": {
+            "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2644/2644_complete.wav",
+            "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete.m4a",
+            "fileSize": 16192904,
+            "compressionRatio": 0.17319227393381037,
+            "chapterCount": 10
+          }
+        }
+      ],
+      "inputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/output/2644/2644_complete.wav",
+      "outputFile": "/Users/nirajsmacbook/Documents/Work/KwickIn/Algo/Projects/Summaries/scripts/Audio/m4a_audio/2644_complete.m4a",
+      "fileSize": 16192904,
+      "compressionRatio": 0.17319227393381037,
+      "chapterCount": 10
+    }
+  }
+}

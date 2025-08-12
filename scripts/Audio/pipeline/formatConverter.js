@@ -153,22 +153,30 @@ export class FormatConverter {
    * Convert book's complete audio file with chapter metadata
    * @param {string} inputPath - Path to complete audio file
    * @param {Object} chapterMetadata - Chapter metadata
-   * @param {string} outputDir - Output directory
+   * @param {string} baseOutputDir - Base output directory
    * @returns {Promise<Object>} Conversion result with embedded chapters
    */
-  async convertBookAudio(inputPath, chapterMetadata, outputDir) {
+  async convertBookAudio(inputPath, chapterMetadata, baseOutputDir) {
     try {
       console.log(`📚 Converting book audio with chapter metadata...`);
       
       const bookId = path.basename(inputPath, path.extname(inputPath)).replace('_complete', '');
-      const outputPath = path.join(outputDir, `${bookId}_complete.m4a`);
+      
+      // Create book-specific output directory
+      const bookOutputDir = path.join(baseOutputDir, bookId);
+      if (!fs.existsSync(bookOutputDir)) {
+        fs.mkdirSync(bookOutputDir, { recursive: true });
+        console.log(`📁 Created book directory: ${bookOutputDir}`);
+      }
+      
+      const outputPath = path.join(bookOutputDir, `${bookId}_complete.m4a`);
       
       // Convert with chapter embedding
       const result = await this.convertToM4A(inputPath, outputPath, chapterMetadata);
       
       if (result.success && chapterMetadata) {
-        // Create additional metadata files
-        await this.createMetadataFiles(chapterMetadata, outputDir, bookId);
+        // Create additional metadata files in the book directory
+        await this.createMetadataFiles(chapterMetadata, bookOutputDir, bookId);
       }
       
       return result;
@@ -258,7 +266,9 @@ export class FormatConverter {
     
     // Add mapping options if chapter file was included
     if (chapterFile) {
-      command += ` -map 0:a -map 1 -c:c copy`;
+      command += ` -map 0:a -map_metadata 1`;
+    } else {
+      command += ` -map 0:a`;
     }
     
     // Smart quality adjustment based on input
