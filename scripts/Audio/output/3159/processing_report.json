@@ -1,0 +1,456 @@
+{
+  "bookId": "3159",
+  "timestamp": "2025-07-14T23:07:29.485Z",
+  "success": false,
+  "processingTime": -1752534045267,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4151,
+    "totalAudioFiles": 12,
+    "totalDuration": 2058.073292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2058.073292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3159/optimized_text/3159.md",
+    "fileSize": 604,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "3159.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3159/metadata/3159_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2058.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3159/metadata/3159_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3159/metadata/3159_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3159/3159_complete.wav",
+    "duration": 2058.073292,
+    "fileSize": 98787596,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3159/introduction.wav",
+          "duration": 117.659417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 117.659417,
+          "startTime": 0,
+          "endTime": 117.659417
+        },
+        {
+          "path": "Audio/output/3159/chapter_01.wav",
+          "duration": 226.030333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in the Shadow of Fear",
+          "actualDuration": 226.030333,
+          "startTime": 119.159417,
+          "endTime": 345.18975
+        },
+        {
+          "path": "Audio/output/3159/chapter_02.wav",
+          "duration": 228.553917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Search for Truth and the Weight of Secrets",
+          "actualDuration": 228.553917,
+          "startTime": 346.68975,
+          "endTime": 575.243667
+        },
+        {
+          "path": "Audio/output/3159/chapter_03.wav",
+          "duration": 230.804542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Impact of Abuse on Self-Worth and Relationships",
+          "actualDuration": 230.804542,
+          "startTime": 576.743667,
+          "endTime": 807.5482089999999
+        },
+        {
+          "path": "Audio/output/3159/chapter_04.wav",
+          "duration": 204.048083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Public Persona Versus Private Struggle",
+          "actualDuration": 204.048083,
+          "startTime": 809.0482089999999,
+          "endTime": 1013.096292
+        },
+        {
+          "path": "Audio/output/3159/chapter_05.wav",
+          "duration": 177.646667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Confronting the Past and Finding a Path to Healing",
+          "actualDuration": 177.646667,
+          "startTime": 1014.596292,
+          "endTime": 1192.242959
+        },
+        {
+          "path": "Audio/output/3159/chapter_06.wav",
+          "duration": 178.83975,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling of Family Myths",
+          "actualDuration": 178.83975,
+          "startTime": 1193.742959,
+          "endTime": 1372.582709
+        },
+        {
+          "path": "Audio/output/3159/chapter_07.wav",
+          "duration": 140.795833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power and Limits of Forgiveness",
+          "actualDuration": 140.795833,
+          "startTime": 1374.082709,
+          "endTime": 1514.878542
+        },
+        {
+          "path": "Audio/output/3159/chapter_08.wav",
+          "duration": 153.102458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Identity and Self-Worth",
+          "actualDuration": 153.102458,
+          "startTime": 1516.378542,
+          "endTime": 1669.481
+        },
+        {
+          "path": "Audio/output/3159/chapter_09.wav",
+          "duration": 157.45175,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: How Healing Changes Everything",
+          "actualDuration": 157.45175,
+          "startTime": 1670.981,
+          "endTime": 1828.43275
+        },
+        {
+          "path": "Audio/output/3159/chapter_10.wav",
+          "duration": 134.208542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward: Embracing the Future",
+          "actualDuration": 134.208542,
+          "startTime": 1829.93275,
+          "endTime": 1964.141292
+        },
+        {
+          "path": "Audio/output/3159/conclusion.wav",
+          "duration": 108.932,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.932,
+          "startTime": 1965.641292,
+          "endTime": 2074.573292
+        }
+      ],
+      "totalDuration": 2074.573292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 117.66,
+          "actualStart": 0,
+          "actualEnd": 117.659417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in the Shadow of Fear",
+          "expectedStart": 117.66,
+          "expectedEnd": 343.69,
+          "actualStart": 119.159417,
+          "actualEnd": 345.18975,
+          "timeDifference": 1.4994170000000082
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Search for Truth and the Weight of Secrets",
+          "expectedStart": 343.69,
+          "expectedEnd": 572.24,
+          "actualStart": 346.68975,
+          "actualEnd": 575.243667,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Impact of Abuse on Self-Worth and Relationships",
+          "expectedStart": 572.24,
+          "expectedEnd": 803.04,
+          "actualStart": 576.743667,
+          "actualEnd": 807.5482089999999,
+          "timeDifference": 4.50366699999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Public Persona Versus Private Struggle",
+          "expectedStart": 803.04,
+          "expectedEnd": 1007.09,
+          "actualStart": 809.0482089999999,
+          "actualEnd": 1013.096292,
+          "timeDifference": 6.008208999999965
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Confronting the Past and Finding a Path to Healing",
+          "expectedStart": 1007.09,
+          "expectedEnd": 1184.74,
+          "actualStart": 1014.596292,
+          "actualEnd": 1192.242959,
+          "timeDifference": 7.506291999999917
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling of Family Myths",
+          "expectedStart": 1184.74,
+          "expectedEnd": 1363.58,
+          "actualStart": 1193.742959,
+          "actualEnd": 1372.582709,
+          "timeDifference": 9.002958999999919
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power and Limits of Forgiveness",
+          "expectedStart": 1363.58,
+          "expectedEnd": 1504.38,
+          "actualStart": 1374.082709,
+          "actualEnd": 1514.878542,
+          "timeDifference": 10.502709000000095
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Identity and Self-Worth",
+          "expectedStart": 1504.38,
+          "expectedEnd": 1657.48,
+          "actualStart": 1516.378542,
+          "actualEnd": 1669.481,
+          "timeDifference": 11.998541999999816
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: How Healing Changes Everything",
+          "expectedStart": 1657.48,
+          "expectedEnd": 1814.93,
+          "actualStart": 1670.981,
+          "actualEnd": 1828.43275,
+          "timeDifference": 13.500999999999976
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward: Embracing the Future",
+          "expectedStart": 1814.93,
+          "expectedEnd": 1949.14,
+          "actualStart": 1829.93275,
+          "actualEnd": 1964.141292,
+          "timeDifference": 15.002749999999878
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1949.14,
+          "expectedEnd": 2058.07,
+          "actualStart": 1965.641292,
+          "actualEnd": 2074.573292,
+          "timeDifference": 16.50129199999992
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 117.659417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in the Shadow of Fear"
+        },
+        {
+          "startTime": 345.18975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in the Shadow of Fear and Chapter 2 The Search for Truth and the Weight of Secrets"
+        },
+        {
+          "startTime": 575.243667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Search for Truth and the Weight of Secrets and Chapter 3 The Impact of Abuse on Self-Worth and Relationships"
+        },
+        {
+          "startTime": 807.5482089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Impact of Abuse on Self-Worth and Relationships and Chapter 4 Public Persona Versus Private Struggle"
+        },
+        {
+          "startTime": 1013.096292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Public Persona Versus Private Struggle and Chapter 5 Confronting the Past and Finding a Path to Healing"
+        },
+        {
+          "startTime": 1192.242959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Confronting the Past and Finding a Path to Healing and Chapter 6 The Unraveling of Family Myths"
+        },
+        {
+          "startTime": 1372.582709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling of Family Myths and Chapter 7 The Power and Limits of Forgiveness"
+        },
+        {
+          "startTime": 1514.878542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power and Limits of Forgiveness and Chapter 8 Reclaiming Identity and Self-Worth"
+        },
+        {
+          "startTime": 1669.481,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Identity and Self-Worth and Chapter 9 The Ripple Effect: How Healing Changes Everything"
+        },
+        {
+          "startTime": 1828.43275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: How Healing Changes Everything and Chapter 10 Living Forward: Embracing the Future"
+        },
+        {
+          "startTime": 1964.141292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward: Embracing the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3159",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:00:46.474Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

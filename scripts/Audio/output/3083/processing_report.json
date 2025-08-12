@@ -1,0 +1,455 @@
+{
+  "bookId": "3083",
+  "timestamp": "2025-07-14T17:12:01.683Z",
+  "success": false,
+  "processingTime": -1752512777017,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4502,
+    "totalAudioFiles": 12,
+    "totalDuration": 1848.3561240000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1848.3561240000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3083/optimized_text/3083.md",
+    "fileSize": 847,
+    "wordCount": 128,
+    "format": "markdown",
+    "filename": "3083.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3083/metadata/3083_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1848.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3083/metadata/3083_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3083/metadata/3083_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3083/3083_complete.wav",
+    "duration": 1848.356125,
+    "fileSize": 88721172,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3083/introduction.wav",
+          "duration": 87.423,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.423,
+          "startTime": 0,
+          "endTime": 87.423
+        },
+        {
+          "path": "Audio/output/3083/chapter_01.wav",
+          "duration": 208.482625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a New World: First Impressions and the Land’s Quiet Power",
+          "actualDuration": 208.482625,
+          "startTime": 88.923,
+          "endTime": 297.405625
+        },
+        {
+          "path": "Audio/output/3083/chapter_02.wav",
+          "duration": 181.626458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Everyday Life on the Farm: Work, Community, and Small Triumphs",
+          "actualDuration": 181.626458,
+          "startTime": 298.905625,
+          "endTime": 480.532083
+        },
+        {
+          "path": "Audio/output/3083/chapter_03.wav",
+          "duration": 214.12175,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Encounters Across Cultures: Friendship, Misunderstanding, and Mutual Respect",
+          "actualDuration": 214.12175,
+          "startTime": 482.032083,
+          "endTime": 696.153833
+        },
+        {
+          "path": "Audio/output/3083/chapter_04.wav",
+          "duration": 183.726917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Wildness of Nature: Beauty, Danger, and the Limits of Control",
+          "actualDuration": 183.726917,
+          "startTime": 697.653833,
+          "endTime": 881.3807499999999
+        },
+        {
+          "path": "Audio/output/3083/chapter_05.wav",
+          "duration": 132.40025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Longing, and the Passing of an Era",
+          "actualDuration": 132.40025,
+          "startTime": 882.8807499999999,
+          "endTime": 1015.281
+        },
+        {
+          "path": "Audio/output/3083/chapter_06.wav",
+          "duration": 162.120625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The People Who Stay, the People Who Go: Farewells and Enduring Ties",
+          "actualDuration": 162.120625,
+          "startTime": 1016.781,
+          "endTime": 1178.901625
+        },
+        {
+          "path": "Audio/output/3083/chapter_07.wav",
+          "duration": 172.712708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadow of Empire: Power, Injustice, and the Weight of History",
+          "actualDuration": 172.712708,
+          "startTime": 1180.401625,
+          "endTime": 1353.114333
+        },
+        {
+          "path": "Audio/output/3083/chapter_08.wav",
+          "duration": 145.908333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Heart of the Land: Ritual, Celebration, and the Meaning of Home",
+          "actualDuration": 145.908333,
+          "startTime": 1354.614333,
+          "endTime": 1500.522666
+        },
+        {
+          "path": "Audio/output/3083/chapter_09.wav",
+          "duration": 137.824625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Letting Go: Loss, Acceptance, and the Wisdom of Farewell",
+          "actualDuration": 137.824625,
+          "startTime": 1502.022666,
+          "endTime": 1639.847291
+        },
+        {
+          "path": "Audio/output/3083/chapter_10.wav",
+          "duration": 119.061375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of the Farm: Memory, Identity, and the Enduring Power of Place",
+          "actualDuration": 119.061375,
+          "startTime": 1641.347291,
+          "endTime": 1760.408666
+        },
+        {
+          "path": "Audio/output/3083/conclusion.wav",
+          "duration": 102.947458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.947458,
+          "startTime": 1761.908666,
+          "endTime": 1864.8561240000001
+        }
+      ],
+      "totalDuration": 1864.8561240000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.42,
+          "actualStart": 0,
+          "actualEnd": 87.423,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a New World: First Impressions and the Land’s Quiet Power",
+          "expectedStart": 87.42,
+          "expectedEnd": 295.9,
+          "actualStart": 88.923,
+          "actualEnd": 297.405625,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Everyday Life on the Farm: Work, Community, and Small Triumphs",
+          "expectedStart": 295.9,
+          "expectedEnd": 477.53,
+          "actualStart": 298.905625,
+          "actualEnd": 480.532083,
+          "timeDifference": 3.005625000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Encounters Across Cultures: Friendship, Misunderstanding, and Mutual Respect",
+          "expectedStart": 477.53,
+          "expectedEnd": 691.65,
+          "actualStart": 482.032083,
+          "actualEnd": 696.153833,
+          "timeDifference": 4.502083000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Wildness of Nature: Beauty, Danger, and the Limits of Control",
+          "expectedStart": 691.65,
+          "expectedEnd": 875.38,
+          "actualStart": 697.653833,
+          "actualEnd": 881.3807499999999,
+          "timeDifference": 6.003832999999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Longing, and the Passing of an Era",
+          "expectedStart": 875.38,
+          "expectedEnd": 1007.78,
+          "actualStart": 882.8807499999999,
+          "actualEnd": 1015.281,
+          "timeDifference": 7.500749999999925
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The People Who Stay, the People Who Go: Farewells and Enduring Ties",
+          "expectedStart": 1007.78,
+          "expectedEnd": 1169.9,
+          "actualStart": 1016.781,
+          "actualEnd": 1178.901625,
+          "timeDifference": 9.000999999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadow of Empire: Power, Injustice, and the Weight of History",
+          "expectedStart": 1169.9,
+          "expectedEnd": 1342.61,
+          "actualStart": 1180.401625,
+          "actualEnd": 1353.114333,
+          "timeDifference": 10.501624999999876
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Heart of the Land: Ritual, Celebration, and the Meaning of Home",
+          "expectedStart": 1342.61,
+          "expectedEnd": 1488.52,
+          "actualStart": 1354.614333,
+          "actualEnd": 1500.522666,
+          "timeDifference": 12.004333000000088
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Letting Go: Loss, Acceptance, and the Wisdom of Farewell",
+          "expectedStart": 1488.52,
+          "expectedEnd": 1626.34,
+          "actualStart": 1502.022666,
+          "actualEnd": 1639.847291,
+          "timeDifference": 13.50266600000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of the Farm: Memory, Identity, and the Enduring Power of Place",
+          "expectedStart": 1626.34,
+          "expectedEnd": 1745.4,
+          "actualStart": 1641.347291,
+          "actualEnd": 1760.408666,
+          "timeDifference": 15.007291000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1745.4,
+          "expectedEnd": 1848.35,
+          "actualStart": 1761.908666,
+          "actualEnd": 1864.8561240000001,
+          "timeDifference": 16.50866599999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.423,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a New World: First Impressions and the Land’s Quiet Power"
+        },
+        {
+          "startTime": 297.405625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a New World: First Impressions and the Land’s Quiet Power and Chapter 2 Everyday Life on the Farm: Work, Community, and Small Triumphs"
+        },
+        {
+          "startTime": 480.532083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Everyday Life on the Farm: Work, Community, and Small Triumphs and Chapter 3 Encounters Across Cultures: Friendship, Misunderstanding, and Mutual Respect"
+        },
+        {
+          "startTime": 696.153833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Encounters Across Cultures: Friendship, Misunderstanding, and Mutual Respect and Chapter 4 The Wildness of Nature: Beauty, Danger, and the Limits of Control"
+        },
+        {
+          "startTime": 881.3807499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Wildness of Nature: Beauty, Danger, and the Limits of Control and Chapter 5 Memory, Longing, and the Passing of an Era"
+        },
+        {
+          "startTime": 1015.281,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Longing, and the Passing of an Era and Chapter 6 The People Who Stay, the People Who Go: Farewells and Enduring Ties"
+        },
+        {
+          "startTime": 1178.901625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The People Who Stay, the People Who Go: Farewells and Enduring Ties and Chapter 7 The Shadow of Empire: Power, Injustice, and the Weight of History"
+        },
+        {
+          "startTime": 1353.114333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadow of Empire: Power, Injustice, and the Weight of History and Chapter 8 The Heart of the Land: Ritual, Celebration, and the Meaning of Home"
+        },
+        {
+          "startTime": 1500.522666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Heart of the Land: Ritual, Celebration, and the Meaning of Home and Chapter 9 Letting Go: Loss, Acceptance, and the Wisdom of Farewell"
+        },
+        {
+          "startTime": 1639.847291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Letting Go: Loss, Acceptance, and the Wisdom of Farewell and Chapter 10 The Legacy of the Farm: Memory, Identity, and the Enduring Power of Place"
+        },
+        {
+          "startTime": 1760.408666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of the Farm: Memory, Identity, and the Enduring Power of Place and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3083",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:06:18.200Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

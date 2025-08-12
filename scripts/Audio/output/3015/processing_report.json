@@ -1,0 +1,455 @@
+{
+  "bookId": "3015",
+  "timestamp": "2025-07-14T11:39:39.273Z",
+  "success": false,
+  "processingTime": -1752492788393,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4013,
+    "totalAudioFiles": 12,
+    "totalDuration": 1799.512625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1799.512625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3015/optimized_text/3015.md",
+    "fileSize": 598,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "3015.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3015/metadata/3015_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1799.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3015/metadata/3015_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3015/metadata/3015_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3015/3015_complete.wav",
+    "duration": 1799.512625,
+    "fileSize": 86376684,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3015/introduction.wav",
+          "duration": 78.835125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.835125,
+          "startTime": 0,
+          "endTime": 78.835125
+        },
+        {
+          "path": "Audio/output/3015/chapter_01.wav",
+          "duration": 195.2115,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Different in a World That Demanded Sameness",
+          "actualDuration": 195.2115,
+          "startTime": 80.335125,
+          "endTime": 275.546625
+        },
+        {
+          "path": "Audio/output/3015/chapter_02.wav",
+          "duration": 186.921375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for Family and the Meaning of Home",
+          "actualDuration": 186.921375,
+          "startTime": 277.046625,
+          "endTime": 463.968
+        },
+        {
+          "path": "Audio/output/3015/chapter_03.wav",
+          "duration": 182.544667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Prejudice and Finding Strength in Heritage",
+          "actualDuration": 182.544667,
+          "startTime": 465.468,
+          "endTime": 648.012667
+        },
+        {
+          "path": "Audio/output/3015/chapter_04.wav",
+          "duration": 148.184125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Mentors and the Gift of Education",
+          "actualDuration": 148.184125,
+          "startTime": 649.512667,
+          "endTime": 797.696792
+        },
+        {
+          "path": "Audio/output/3015/chapter_05.wav",
+          "duration": 145.391333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Identity and Honoring the Past",
+          "actualDuration": 145.391333,
+          "startTime": 799.196792,
+          "endTime": 944.588125
+        },
+        {
+          "path": "Audio/output/3015/chapter_06.wav",
+          "duration": 179.58075,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 New Lands, New Questions",
+          "actualDuration": 179.58075,
+          "startTime": 946.088125,
+          "endTime": 1125.668875
+        },
+        {
+          "path": "Audio/output/3015/chapter_07.wav",
+          "duration": 156.431375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost and Gift of Belonging",
+          "actualDuration": 156.431375,
+          "startTime": 1127.168875,
+          "endTime": 1283.60025
+        },
+        {
+          "path": "Audio/output/3015/chapter_08.wav",
+          "duration": 164.168333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Giving Back and Building Community",
+          "actualDuration": 164.168333,
+          "startTime": 1285.10025,
+          "endTime": 1449.268583
+        },
+        {
+          "path": "Audio/output/3015/chapter_09.wav",
+          "duration": 138.172583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming the Narrative",
+          "actualDuration": 138.172583,
+          "startTime": 1450.768583,
+          "endTime": 1588.941166
+        },
+        {
+          "path": "Audio/output/3015/chapter_10.wav",
+          "duration": 124.197917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Legacy, Hope, and the Future",
+          "actualDuration": 124.197917,
+          "startTime": 1590.441166,
+          "endTime": 1714.639083
+        },
+        {
+          "path": "Audio/output/3015/conclusion.wav",
+          "duration": 99.873542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.873542,
+          "startTime": 1716.139083,
+          "endTime": 1816.012625
+        }
+      ],
+      "totalDuration": 1816.012625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.84,
+          "actualStart": 0,
+          "actualEnd": 78.835125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Different in a World That Demanded Sameness",
+          "expectedStart": 78.84,
+          "expectedEnd": 274.05,
+          "actualStart": 80.335125,
+          "actualEnd": 275.546625,
+          "timeDifference": 1.4951250000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for Family and the Meaning of Home",
+          "expectedStart": 274.05,
+          "expectedEnd": 460.97,
+          "actualStart": 277.046625,
+          "actualEnd": 463.968,
+          "timeDifference": 2.9966249999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Prejudice and Finding Strength in Heritage",
+          "expectedStart": 460.97,
+          "expectedEnd": 643.51,
+          "actualStart": 465.468,
+          "actualEnd": 648.012667,
+          "timeDifference": 4.4979999999999905
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Mentors and the Gift of Education",
+          "expectedStart": 643.51,
+          "expectedEnd": 791.69,
+          "actualStart": 649.512667,
+          "actualEnd": 797.696792,
+          "timeDifference": 6.002666999999974
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Identity and Honoring the Past",
+          "expectedStart": 791.69,
+          "expectedEnd": 937.08,
+          "actualStart": 799.196792,
+          "actualEnd": 944.588125,
+          "timeDifference": 7.506791999999905
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 New Lands, New Questions",
+          "expectedStart": 937.08,
+          "expectedEnd": 1116.66,
+          "actualStart": 946.088125,
+          "actualEnd": 1125.668875,
+          "timeDifference": 9.00812499999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost and Gift of Belonging",
+          "expectedStart": 1116.66,
+          "expectedEnd": 1273.09,
+          "actualStart": 1127.168875,
+          "actualEnd": 1283.60025,
+          "timeDifference": 10.508874999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Giving Back and Building Community",
+          "expectedStart": 1273.09,
+          "expectedEnd": 1437.26,
+          "actualStart": 1285.10025,
+          "actualEnd": 1449.268583,
+          "timeDifference": 12.010250000000042
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming the Narrative",
+          "expectedStart": 1437.26,
+          "expectedEnd": 1575.43,
+          "actualStart": 1450.768583,
+          "actualEnd": 1588.941166,
+          "timeDifference": 13.508583000000044
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Legacy, Hope, and the Future",
+          "expectedStart": 1575.43,
+          "expectedEnd": 1699.63,
+          "actualStart": 1590.441166,
+          "actualEnd": 1714.639083,
+          "timeDifference": 15.011166000000003
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1699.63,
+          "expectedEnd": 1799.5,
+          "actualStart": 1716.139083,
+          "actualEnd": 1816.012625,
+          "timeDifference": 16.50908299999992
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.835125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Different in a World That Demanded Sameness"
+        },
+        {
+          "startTime": 275.546625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Different in a World That Demanded Sameness and Chapter 2 Searching for Family and the Meaning of Home"
+        },
+        {
+          "startTime": 463.968,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for Family and the Meaning of Home and Chapter 3 Facing Prejudice and Finding Strength in Heritage"
+        },
+        {
+          "startTime": 648.012667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Prejudice and Finding Strength in Heritage and Chapter 4 The Power of Mentors and the Gift of Education"
+        },
+        {
+          "startTime": 797.696792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Mentors and the Gift of Education and Chapter 5 Embracing Identity and Honoring the Past"
+        },
+        {
+          "startTime": 944.588125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Identity and Honoring the Past and Chapter 6 New Lands, New Questions"
+        },
+        {
+          "startTime": 1125.668875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 New Lands, New Questions and Chapter 7 The Cost and Gift of Belonging"
+        },
+        {
+          "startTime": 1283.60025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost and Gift of Belonging and Chapter 8 Giving Back and Building Community"
+        },
+        {
+          "startTime": 1449.268583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Giving Back and Building Community and Chapter 9 Reclaiming the Narrative"
+        },
+        {
+          "startTime": 1588.941166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming the Narrative and Chapter 10 The Ongoing Journey—Legacy, Hope, and the Future"
+        },
+        {
+          "startTime": 1714.639083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Legacy, Hope, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3015",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:33:09.918Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

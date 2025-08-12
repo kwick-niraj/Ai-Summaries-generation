@@ -1,0 +1,432 @@
+{
+  "bookId": "2969",
+  "timestamp": "2025-07-14T08:20:53.510Z",
+  "success": false,
+  "processingTime": -1752480796858,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4786,
+    "totalAudioFiles": 12,
+    "totalDuration": 1946.660668
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1946.660668
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2969/optimized_text/2969.md",
+    "fileSize": 706,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2969.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2969/metadata/2969_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1946.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2969/metadata/2969_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2969/metadata/2969_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2969/2969_complete.wav",
+    "duration": 1946.660667,
+    "fileSize": 93439790,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2969/introduction.wav",
+          "duration": 99.536417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.536417,
+          "startTime": 0,
+          "endTime": 99.536417
+        },
+        {
+          "path": "Audio/output/2969/chapter_01.wav",
+          "duration": 260.51775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Rural Jamaica and the Roots of Identity",
+          "actualDuration": 260.51775,
+          "startTime": 101.036417,
+          "endTime": 361.554167
+        },
+        {
+          "path": "Audio/output/2969/chapter_03.wav",
+          "duration": 228.120917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Rastafarianism and the Power of Belief",
+          "actualDuration": 228.120917,
+          "startTime": 363.054167,
+          "endTime": 591.175084
+        },
+        {
+          "path": "Audio/output/2969/chapter_04.wav",
+          "duration": 229.51275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rising to Fame and the Struggle for Justice",
+          "actualDuration": 229.51275,
+          "startTime": 592.675084,
+          "endTime": 822.187834
+        },
+        {
+          "path": "Audio/output/2969/chapter_05.wav",
+          "duration": 201.757125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Family, Relationships, and the Cost of Devotion",
+          "actualDuration": 201.757125,
+          "startTime": 823.687834,
+          "endTime": 1025.444959
+        },
+        {
+          "path": "Audio/output/2969/chapter_06.wav",
+          "duration": 200.6965,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Making of a Global Icon",
+          "actualDuration": 200.6965,
+          "startTime": 1026.944959,
+          "endTime": 1227.641459
+        },
+        {
+          "path": "Audio/output/2969/chapter_07.wav",
+          "duration": 173.341292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Final Years—Illness, Reflection, and Unfinished Work",
+          "actualDuration": 173.341292,
+          "startTime": 1229.141459,
+          "endTime": 1402.482751
+        },
+        {
+          "path": "Audio/output/2969/chapter_08.wav",
+          "duration": 179.2655,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Legacy—Music, Memory, and the Seeds of Change",
+          "actualDuration": 179.2655,
+          "startTime": 1403.982751,
+          "endTime": 1583.248251
+        },
+        {
+          "path": "Audio/output/2969/chapter_09.wav",
+          "duration": 148.134292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The World Remembers—Tributes, Influence, and the Ongoing Conversation",
+          "actualDuration": 148.134292,
+          "startTime": 1584.748251,
+          "endTime": 1732.882543
+        },
+        {
+          "path": "Audio/output/2969/chapter_10.wav",
+          "duration": 113.584167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from a Life—Hope, Struggle, and the Power of Song",
+          "actualDuration": 113.584167,
+          "startTime": 1734.382543,
+          "endTime": 1847.96671
+        },
+        {
+          "path": "Audio/output/2969/conclusion.wav",
+          "duration": 112.193958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.193958,
+          "startTime": 1849.46671,
+          "endTime": 1961.660668
+        }
+      ],
+      "totalDuration": 1961.660668,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.54,
+          "actualStart": 0,
+          "actualEnd": 99.536417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Rural Jamaica and the Roots of Identity",
+          "expectedStart": 99.54,
+          "expectedEnd": 360.06,
+          "actualStart": 101.036417,
+          "actualEnd": 361.554167,
+          "timeDifference": 1.496416999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Rastafarianism and the Power of Belief",
+          "expectedStart": 360.06,
+          "expectedEnd": 588.18,
+          "actualStart": 363.054167,
+          "actualEnd": 591.175084,
+          "timeDifference": 2.9941670000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rising to Fame and the Struggle for Justice",
+          "expectedStart": 588.18,
+          "expectedEnd": 817.69,
+          "actualStart": 592.675084,
+          "actualEnd": 822.187834,
+          "timeDifference": 4.49508400000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Family, Relationships, and the Cost of Devotion",
+          "expectedStart": 817.69,
+          "expectedEnd": 1019.45,
+          "actualStart": 823.687834,
+          "actualEnd": 1025.444959,
+          "timeDifference": 5.997833999999898
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Making of a Global Icon",
+          "expectedStart": 1019.45,
+          "expectedEnd": 1220.15,
+          "actualStart": 1026.944959,
+          "actualEnd": 1227.641459,
+          "timeDifference": 7.494958999999881
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Final Years—Illness, Reflection, and Unfinished Work",
+          "expectedStart": 1220.15,
+          "expectedEnd": 1393.49,
+          "actualStart": 1229.141459,
+          "actualEnd": 1402.482751,
+          "timeDifference": 8.99145899999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Legacy—Music, Memory, and the Seeds of Change",
+          "expectedStart": 1393.49,
+          "expectedEnd": 1572.76,
+          "actualStart": 1403.982751,
+          "actualEnd": 1583.248251,
+          "timeDifference": 10.492750999999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The World Remembers—Tributes, Influence, and the Ongoing Conversation",
+          "expectedStart": 1572.76,
+          "expectedEnd": 1720.89,
+          "actualStart": 1584.748251,
+          "actualEnd": 1732.882543,
+          "timeDifference": 11.988250999999991
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from a Life—Hope, Struggle, and the Power of Song",
+          "expectedStart": 1720.89,
+          "expectedEnd": 1834.47,
+          "actualStart": 1734.382543,
+          "actualEnd": 1847.96671,
+          "timeDifference": 13.492542999999841
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1834.47,
+          "expectedEnd": 1946.66,
+          "actualStart": 1849.46671,
+          "actualEnd": 1961.660668,
+          "timeDifference": 14.996709999999894
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.536417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Rural Jamaica and the Roots of Identity"
+        },
+        {
+          "startTime": 361.554167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Rural Jamaica and the Roots of Identity and Chapter 3 Embracing Rastafarianism and the Power of Belief"
+        },
+        {
+          "startTime": 591.175084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Rastafarianism and the Power of Belief and Chapter 4 Rising to Fame and the Struggle for Justice"
+        },
+        {
+          "startTime": 822.187834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rising to Fame and the Struggle for Justice and Chapter 5 Family, Relationships, and the Cost of Devotion"
+        },
+        {
+          "startTime": 1025.444959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Family, Relationships, and the Cost of Devotion and Chapter 6 The Making of a Global Icon"
+        },
+        {
+          "startTime": 1227.641459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Making of a Global Icon and Chapter 7 The Final Years—Illness, Reflection, and Unfinished Work"
+        },
+        {
+          "startTime": 1402.482751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Final Years—Illness, Reflection, and Unfinished Work and Chapter 8 The Legacy—Music, Memory, and the Seeds of Change"
+        },
+        {
+          "startTime": 1583.248251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Legacy—Music, Memory, and the Seeds of Change and Chapter 9 The World Remembers—Tributes, Influence, and the Ongoing Conversation"
+        },
+        {
+          "startTime": 1732.882543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The World Remembers—Tributes, Influence, and the Ongoing Conversation and Chapter 10 Lessons from a Life—Hope, Struggle, and the Power of Song"
+        },
+        {
+          "startTime": 1847.96671,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from a Life—Hope, Struggle, and the Power of Song and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2969",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T08:13:18.040Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

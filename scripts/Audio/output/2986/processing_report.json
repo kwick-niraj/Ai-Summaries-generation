@@ -1,0 +1,431 @@
+{
+  "bookId": "2986",
+  "timestamp": "2025-07-14T09:25:59.649Z",
+  "success": false,
+  "processingTime": -1752484848787,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4930,
+    "totalAudioFiles": 11,
+    "totalDuration": 1862.159918
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1862.159918
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2986/optimized_text/2986.md",
+    "fileSize": 659,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2986.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2986/metadata/2986_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1862.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2986/metadata/2986_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2986/metadata/2986_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2986/2986_complete.wav",
+    "duration": 1862.159917,
+    "fileSize": 89383754,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2986/introduction.wav",
+          "duration": 82.047125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.047125,
+          "startTime": 0,
+          "endTime": 82.047125
+        },
+        {
+          "path": "Audio/output/2986/chapter_01.wav",
+          "duration": 203.184292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in the Shadow of Hiroshima",
+          "actualDuration": 203.184292,
+          "startTime": 83.547125,
+          "endTime": 286.73141699999996
+        },
+        {
+          "path": "Audio/output/2986/chapter_02.wav",
+          "duration": 237.077792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First Signs of Illness and the Weight of Uncertainty",
+          "actualDuration": 237.077792,
+          "startTime": 288.23141699999996,
+          "endTime": 525.309209
+        },
+        {
+          "path": "Audio/output/2986/chapter_03.wav",
+          "duration": 199.054625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Legend of the Paper Cranes and the Birth of Hope",
+          "actualDuration": 199.054625,
+          "startTime": 526.809209,
+          "endTime": 725.863834
+        },
+        {
+          "path": "Audio/output/2986/chapter_04.wav",
+          "duration": 198.072292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Friendship, and the Power of Community",
+          "actualDuration": 198.072292,
+          "startTime": 727.363834,
+          "endTime": 925.4361260000001
+        },
+        {
+          "path": "Audio/output/2986/chapter_05.wav",
+          "duration": 124.412625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing the Future with Courage and the Lasting Symbol of Peace",
+          "actualDuration": 124.412625,
+          "startTime": 926.9361260000001,
+          "endTime": 1051.348751
+        },
+        {
+          "path": "Audio/output/2986/chapter_06.wav",
+          "duration": 190.329875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect: Sadako’s Story Spreads Beyond Hiroshima",
+          "actualDuration": 190.329875,
+          "startTime": 1052.848751,
+          "endTime": 1243.178626
+        },
+        {
+          "path": "Audio/output/2986/chapter_07.wav",
+          "duration": 198.64975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Monument: Honoring Sadako and the Children of War",
+          "actualDuration": 198.64975,
+          "startTime": 1244.678626,
+          "endTime": 1443.328376
+        },
+        {
+          "path": "Audio/output/2986/chapter_08.wav",
+          "duration": 142.425958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Global Movement: Cranes for Peace",
+          "actualDuration": 142.425958,
+          "startTime": 1444.828376,
+          "endTime": 1587.254334
+        },
+        {
+          "path": "Audio/output/2986/chapter_09.wav",
+          "duration": 167.758792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for Today: Hope, Resilience, and the Power of Small Acts",
+          "actualDuration": 167.758792,
+          "startTime": 1588.754334,
+          "endTime": 1756.513126
+        },
+        {
+          "path": "Audio/output/2986/conclusion.wav",
+          "duration": 119.146792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.146792,
+          "startTime": 1758.013126,
+          "endTime": 1877.159918
+        }
+      ],
+      "totalDuration": 1877.159918,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.05,
+          "actualStart": 0,
+          "actualEnd": 82.047125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in the Shadow of Hiroshima",
+          "expectedStart": 82.05,
+          "expectedEnd": 285.23,
+          "actualStart": 83.547125,
+          "actualEnd": 286.73141699999996,
+          "timeDifference": 1.497124999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First Signs of Illness and the Weight of Uncertainty",
+          "expectedStart": 285.23,
+          "expectedEnd": 522.31,
+          "actualStart": 288.23141699999996,
+          "actualEnd": 525.309209,
+          "timeDifference": 3.0014169999999467
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Legend of the Paper Cranes and the Birth of Hope",
+          "expectedStart": 522.31,
+          "expectedEnd": 721.36,
+          "actualStart": 526.809209,
+          "actualEnd": 725.863834,
+          "timeDifference": 4.499209000000064
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Friendship, and the Power of Community",
+          "expectedStart": 721.36,
+          "expectedEnd": 919.43,
+          "actualStart": 727.363834,
+          "actualEnd": 925.4361260000001,
+          "timeDifference": 6.0038339999999835
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing the Future with Courage and the Lasting Symbol of Peace",
+          "expectedStart": 919.43,
+          "expectedEnd": 1043.84,
+          "actualStart": 926.9361260000001,
+          "actualEnd": 1051.348751,
+          "timeDifference": 7.506126000000108
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect: Sadako’s Story Spreads Beyond Hiroshima",
+          "expectedStart": 1043.84,
+          "expectedEnd": 1234.17,
+          "actualStart": 1052.848751,
+          "actualEnd": 1243.178626,
+          "timeDifference": 9.008751000000075
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Monument: Honoring Sadako and the Children of War",
+          "expectedStart": 1234.17,
+          "expectedEnd": 1432.82,
+          "actualStart": 1244.678626,
+          "actualEnd": 1443.328376,
+          "timeDifference": 10.508625999999822
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Global Movement: Cranes for Peace",
+          "expectedStart": 1432.82,
+          "expectedEnd": 1575.25,
+          "actualStart": 1444.828376,
+          "actualEnd": 1587.254334,
+          "timeDifference": 12.008375999999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for Today: Hope, Resilience, and the Power of Small Acts",
+          "expectedStart": 1575.25,
+          "expectedEnd": 1743.01,
+          "actualStart": 1588.754334,
+          "actualEnd": 1756.513126,
+          "timeDifference": 13.504333999999972
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1743.01,
+          "expectedEnd": 1862.16,
+          "actualStart": 1758.013126,
+          "actualEnd": 1877.159918,
+          "timeDifference": 15.003126000000066
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.047125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in the Shadow of Hiroshima"
+        },
+        {
+          "startTime": 286.73141699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in the Shadow of Hiroshima and Chapter 2 The First Signs of Illness and the Weight of Uncertainty"
+        },
+        {
+          "startTime": 525.309209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First Signs of Illness and the Weight of Uncertainty and Chapter 3 The Legend of the Paper Cranes and the Birth of Hope"
+        },
+        {
+          "startTime": 725.863834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Legend of the Paper Cranes and the Birth of Hope and Chapter 4 Family, Friendship, and the Power of Community"
+        },
+        {
+          "startTime": 925.4361260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Friendship, and the Power of Community and Chapter 5 Facing the Future with Courage and the Lasting Symbol of Peace"
+        },
+        {
+          "startTime": 1051.348751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing the Future with Courage and the Lasting Symbol of Peace and Chapter 6 The Ripple Effect: Sadako’s Story Spreads Beyond Hiroshima"
+        },
+        {
+          "startTime": 1243.178626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect: Sadako’s Story Spreads Beyond Hiroshima and Chapter 7 Building a Monument: Honoring Sadako and the Children of War"
+        },
+        {
+          "startTime": 1443.328376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Monument: Honoring Sadako and the Children of War and Chapter 8 The Global Movement: Cranes for Peace"
+        },
+        {
+          "startTime": 1587.254334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Global Movement: Cranes for Peace and Chapter 9 Lessons for Today: Hope, Resilience, and the Power of Small Acts"
+        },
+        {
+          "startTime": 1756.513126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for Today: Hope, Resilience, and the Power of Small Acts and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2986",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:20:50.035Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

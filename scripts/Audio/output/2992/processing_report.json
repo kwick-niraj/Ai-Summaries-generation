@@ -1,0 +1,503 @@
+{
+  "bookId": "2992",
+  "timestamp": "2025-07-14T09:54:43.559Z",
+  "success": false,
+  "processingTime": -1752486457575,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4941,
+    "totalAudioFiles": 14,
+    "totalDuration": 2233.42821
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2233.42821
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2992/optimized_text/2992.md",
+    "fileSize": 958,
+    "wordCount": 136,
+    "format": "markdown",
+    "filename": "2992.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2992/metadata/2992_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2233.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2992/metadata/2992_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2992/metadata/2992_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2992/2992_complete.wav",
+    "duration": 2233.428208,
+    "fileSize": 107204632,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2992/introduction.wav",
+          "duration": 89.253583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.253583,
+          "startTime": 0,
+          "endTime": 89.253583
+        },
+        {
+          "path": "Audio/output/2992/chapter_01.wav",
+          "duration": 192.669792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Realities of Race Conversations in Everyday Life",
+          "actualDuration": 192.669792,
+          "startTime": 90.753583,
+          "endTime": 283.423375
+        },
+        {
+          "path": "Audio/output/2992/chapter_02.wav",
+          "duration": 227.257958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Systemic Racism and Why It’s Not Just About Intentions",
+          "actualDuration": 227.257958,
+          "startTime": 284.923375,
+          "endTime": 512.181333
+        },
+        {
+          "path": "Audio/output/2992/chapter_03.wav",
+          "duration": 203.921375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Privilege, Intersectionality, and the Layers of Identity",
+          "actualDuration": 203.921375,
+          "startTime": 513.681333,
+          "endTime": 717.602708
+        },
+        {
+          "path": "Audio/output/2992/chapter_04.wav",
+          "duration": 189.603667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Microaggressions, Emotional Labor, and the Cost of Everyday Racism",
+          "actualDuration": 189.603667,
+          "startTime": 719.102708,
+          "endTime": 908.706375
+        },
+        {
+          "path": "Audio/output/2992/chapter_05.wav",
+          "duration": 170.284083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Language of Race: Why Words Matter and How to Use Them Well",
+          "actualDuration": 170.284083,
+          "startTime": 910.206375,
+          "endTime": 1080.490458
+        },
+        {
+          "path": "Audio/output/2992/chapter_06.wav",
+          "duration": 179.929625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Role of Allies: Showing Up, Listening, and Taking Action",
+          "actualDuration": 179.929625,
+          "startTime": 1081.990458,
+          "endTime": 1261.920083
+        },
+        {
+          "path": "Audio/output/2992/chapter_07.wav",
+          "duration": 168.448,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Mistakes and the Fear of Getting It Wrong",
+          "actualDuration": 168.448,
+          "startTime": 1263.420083,
+          "endTime": 1431.868083
+        },
+        {
+          "path": "Audio/output/2992/chapter_08.wav",
+          "duration": 164.065792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Burden of Representation and the Myth of the “Model Minority”",
+          "actualDuration": 164.065792,
+          "startTime": 1433.368083,
+          "endTime": 1597.4338750000002
+        },
+        {
+          "path": "Audio/output/2992/chapter_09.wav",
+          "duration": 157.008292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Policing, Justice, and the Unequal Weight of the Law",
+          "actualDuration": 157.008292,
+          "startTime": 1598.9338750000002,
+          "endTime": 1755.9421670000002
+        },
+        {
+          "path": "Audio/output/2992/chapter_10.wav",
+          "duration": 151.266917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Education, Opportunity, and the Long Shadow of Inequality",
+          "actualDuration": 151.266917,
+          "startTime": 1757.4421670000002,
+          "endTime": 1908.709084
+        },
+        {
+          "path": "Audio/output/2992/chapter_11.wav",
+          "duration": 111.533917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Self-Care, Resilience, and the Importance of Community",
+          "actualDuration": 111.533917,
+          "startTime": 1910.209084,
+          "endTime": 2021.743001
+        },
+        {
+          "path": "Audio/output/2992/chapter_12.wav",
+          "duration": 111.724042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Sustaining the Conversation: Hope, Change, and Moving Forward",
+          "actualDuration": 111.724042,
+          "startTime": 2023.243001,
+          "endTime": 2134.967043
+        },
+        {
+          "path": "Audio/output/2992/conclusion.wav",
+          "duration": 116.461167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.461167,
+          "startTime": 2136.467043,
+          "endTime": 2252.92821
+        }
+      ],
+      "totalDuration": 2252.92821,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.25,
+          "actualStart": 0,
+          "actualEnd": 89.253583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Realities of Race Conversations in Everyday Life",
+          "expectedStart": 89.25,
+          "expectedEnd": 281.92,
+          "actualStart": 90.753583,
+          "actualEnd": 283.423375,
+          "timeDifference": 1.503583000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Systemic Racism and Why It’s Not Just About Intentions",
+          "expectedStart": 281.92,
+          "expectedEnd": 509.18,
+          "actualStart": 284.923375,
+          "actualEnd": 512.181333,
+          "timeDifference": 3.0033750000000055
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Privilege, Intersectionality, and the Layers of Identity",
+          "expectedStart": 509.18,
+          "expectedEnd": 713.1,
+          "actualStart": 513.681333,
+          "actualEnd": 717.602708,
+          "timeDifference": 4.501332999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Microaggressions, Emotional Labor, and the Cost of Everyday Racism",
+          "expectedStart": 713.1,
+          "expectedEnd": 902.7,
+          "actualStart": 719.102708,
+          "actualEnd": 908.706375,
+          "timeDifference": 6.002707999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Language of Race: Why Words Matter and How to Use Them Well",
+          "expectedStart": 902.7,
+          "expectedEnd": 1072.98,
+          "actualStart": 910.206375,
+          "actualEnd": 1080.490458,
+          "timeDifference": 7.5063749999999345
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Role of Allies: Showing Up, Listening, and Taking Action",
+          "expectedStart": 1072.98,
+          "expectedEnd": 1252.91,
+          "actualStart": 1081.990458,
+          "actualEnd": 1261.920083,
+          "timeDifference": 9.010457999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Mistakes and the Fear of Getting It Wrong",
+          "expectedStart": 1252.91,
+          "expectedEnd": 1421.36,
+          "actualStart": 1263.420083,
+          "actualEnd": 1431.868083,
+          "timeDifference": 10.510082999999895
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Burden of Representation and the Myth of the “Model Minority”",
+          "expectedStart": 1421.36,
+          "expectedEnd": 1585.43,
+          "actualStart": 1433.368083,
+          "actualEnd": 1597.4338750000002,
+          "timeDifference": 12.00808300000017
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Policing, Justice, and the Unequal Weight of the Law",
+          "expectedStart": 1585.43,
+          "expectedEnd": 1742.44,
+          "actualStart": 1598.9338750000002,
+          "actualEnd": 1755.9421670000002,
+          "timeDifference": 13.503875000000107
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Education, Opportunity, and the Long Shadow of Inequality",
+          "expectedStart": 1742.44,
+          "expectedEnd": 1893.71,
+          "actualStart": 1757.4421670000002,
+          "actualEnd": 1908.709084,
+          "timeDifference": 15.0021670000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Self-Care, Resilience, and the Importance of Community",
+          "expectedStart": 1893.71,
+          "expectedEnd": 2005.24,
+          "actualStart": 1910.209084,
+          "actualEnd": 2021.743001,
+          "timeDifference": 16.49908400000004
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Sustaining the Conversation: Hope, Change, and Moving Forward",
+          "expectedStart": 2005.24,
+          "expectedEnd": 2116.96,
+          "actualStart": 2023.243001,
+          "actualEnd": 2134.967043,
+          "timeDifference": 18.00300100000004
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2116.96,
+          "expectedEnd": 2233.42,
+          "actualStart": 2136.467043,
+          "actualEnd": 2252.92821,
+          "timeDifference": 19.507043000000067
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.253583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Realities of Race Conversations in Everyday Life"
+        },
+        {
+          "startTime": 283.423375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Realities of Race Conversations in Everyday Life and Chapter 2 Understanding Systemic Racism and Why It’s Not Just About Intentions"
+        },
+        {
+          "startTime": 512.181333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Systemic Racism and Why It’s Not Just About Intentions and Chapter 3 Privilege, Intersectionality, and the Layers of Identity"
+        },
+        {
+          "startTime": 717.602708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Privilege, Intersectionality, and the Layers of Identity and Chapter 4 Microaggressions, Emotional Labor, and the Cost of Everyday Racism"
+        },
+        {
+          "startTime": 908.706375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Microaggressions, Emotional Labor, and the Cost of Everyday Racism and Chapter 5 The Language of Race: Why Words Matter and How to Use Them Well"
+        },
+        {
+          "startTime": 1080.490458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Language of Race: Why Words Matter and How to Use Them Well and Chapter 6 The Role of Allies: Showing Up, Listening, and Taking Action"
+        },
+        {
+          "startTime": 1261.920083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Role of Allies: Showing Up, Listening, and Taking Action and Chapter 7 Navigating Mistakes and the Fear of Getting It Wrong"
+        },
+        {
+          "startTime": 1431.868083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Mistakes and the Fear of Getting It Wrong and Chapter 8 The Burden of Representation and the Myth of the “Model Minority”"
+        },
+        {
+          "startTime": 1597.4338750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Burden of Representation and the Myth of the “Model Minority” and Chapter 9 Policing, Justice, and the Unequal Weight of the Law"
+        },
+        {
+          "startTime": 1755.9421670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Policing, Justice, and the Unequal Weight of the Law and Chapter 10 Education, Opportunity, and the Long Shadow of Inequality"
+        },
+        {
+          "startTime": 1908.709084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Education, Opportunity, and the Long Shadow of Inequality and Chapter 11 Self-Care, Resilience, and the Importance of Community"
+        },
+        {
+          "startTime": 2021.743001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Self-Care, Resilience, and the Importance of Community and Chapter 12 Sustaining the Conversation: Hope, Change, and Moving Forward"
+        },
+        {
+          "startTime": 2134.967043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Sustaining the Conversation: Hope, Change, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2992",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:47:38.104Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

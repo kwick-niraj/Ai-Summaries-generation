@@ -1,0 +1,456 @@
+{
+  "bookId": "2940",
+  "timestamp": "2025-07-14T05:53:04.650Z",
+  "success": false,
+  "processingTime": -1752472090261,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4218,
+    "totalAudioFiles": 12,
+    "totalDuration": 2199.6657520000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2199.6657520000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2940/optimized_text/2940.md",
+    "fileSize": 789,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2940.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2940/metadata/2940_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2199.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2940/metadata/2940_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2940/metadata/2940_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2940/2940_complete.wav",
+    "duration": 2199.66575,
+    "fileSize": 105584034,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2940/introduction.wav",
+          "duration": 101.720875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.720875,
+          "startTime": 0,
+          "endTime": 101.720875
+        },
+        {
+          "path": "Audio/output/2940/chapter_01.wav",
+          "duration": 230.044417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Illusion of Purpose in Nature and the Watchmaker Analogy",
+          "actualDuration": 230.044417,
+          "startTime": 103.220875,
+          "endTime": 333.26529200000004
+        },
+        {
+          "path": "Audio/output/2940/chapter_02.wav",
+          "duration": 269.73725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Natural Selection Builds Complexity Without Foresight",
+          "actualDuration": 269.73725,
+          "startTime": 334.76529200000004,
+          "endTime": 604.5025420000001
+        },
+        {
+          "path": "Audio/output/2940/chapter_03.wav",
+          "duration": 232.332792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Misconceptions About Chance, Probability, and the Nature of Evolution",
+          "actualDuration": 232.332792,
+          "startTime": 606.0025420000001,
+          "endTime": 838.3353340000001
+        },
+        {
+          "path": "Audio/output/2940/chapter_04.wav",
+          "duration": 241.320542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Evidence for Evolution and the Power of Incremental Change",
+          "actualDuration": 241.320542,
+          "startTime": 839.8353340000001,
+          "endTime": 1081.155876
+        },
+        {
+          "path": "Audio/output/2940/chapter_05.wav",
+          "duration": 211.50125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Computer Simulations and the Limits of Human Intuition",
+          "actualDuration": 211.50125,
+          "startTime": 1082.655876,
+          "endTime": 1294.157126
+        },
+        {
+          "path": "Audio/output/2940/chapter_06.wav",
+          "duration": 163.431417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cumulative Selection and the “Mount Improbable” Metaphor",
+          "actualDuration": 163.431417,
+          "startTime": 1295.657126,
+          "endTime": 1459.088543
+        },
+        {
+          "path": "Audio/output/2940/chapter_07.wav",
+          "duration": 172.335,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Complex Organs and Irreducible Complexity",
+          "actualDuration": 172.335,
+          "startTime": 1460.588543,
+          "endTime": 1632.923543
+        },
+        {
+          "path": "Audio/output/2940/chapter_08.wav",
+          "duration": 137.701167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Constraints, Trade-offs, and Imperfection in Evolution",
+          "actualDuration": 137.701167,
+          "startTime": 1634.423543,
+          "endTime": 1772.12471
+        },
+        {
+          "path": "Audio/output/2940/chapter_09.wav",
+          "duration": 165.5835,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Broader Implications of Evolutionary Thinking",
+          "actualDuration": 165.5835,
+          "startTime": 1773.62471,
+          "endTime": 1939.20821
+        },
+        {
+          "path": "Audio/output/2940/chapter_10.wav",
+          "duration": 137.450625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Evolution, Meaning, and Our Place in Nature",
+          "actualDuration": 137.450625,
+          "startTime": 1940.70821,
+          "endTime": 2078.158835
+        },
+        {
+          "path": "Audio/output/2940/conclusion.wav",
+          "duration": 136.506917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.506917,
+          "startTime": 2079.658835,
+          "endTime": 2216.1657520000003
+        }
+      ],
+      "totalDuration": 2216.1657520000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.72,
+          "actualStart": 0,
+          "actualEnd": 101.720875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Illusion of Purpose in Nature and the Watchmaker Analogy",
+          "expectedStart": 101.72,
+          "expectedEnd": 331.76,
+          "actualStart": 103.220875,
+          "actualEnd": 333.26529200000004,
+          "timeDifference": 1.5008750000000077
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Natural Selection Builds Complexity Without Foresight",
+          "expectedStart": 331.76,
+          "expectedEnd": 601.5,
+          "actualStart": 334.76529200000004,
+          "actualEnd": 604.5025420000001,
+          "timeDifference": 3.005292000000054
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Misconceptions About Chance, Probability, and the Nature of Evolution",
+          "expectedStart": 601.5,
+          "expectedEnd": 833.83,
+          "actualStart": 606.0025420000001,
+          "actualEnd": 838.3353340000001,
+          "timeDifference": 4.502542000000062
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Evidence for Evolution and the Power of Incremental Change",
+          "expectedStart": 833.83,
+          "expectedEnd": 1075.15,
+          "actualStart": 839.8353340000001,
+          "actualEnd": 1081.155876,
+          "timeDifference": 6.005334000000062
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Computer Simulations and the Limits of Human Intuition",
+          "expectedStart": 1075.15,
+          "expectedEnd": 1286.65,
+          "actualStart": 1082.655876,
+          "actualEnd": 1294.157126,
+          "timeDifference": 7.505875999999944
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cumulative Selection and the “Mount Improbable” Metaphor",
+          "expectedStart": 1286.65,
+          "expectedEnd": 1450.08,
+          "actualStart": 1295.657126,
+          "actualEnd": 1459.088543,
+          "timeDifference": 9.007125999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Complex Organs and Irreducible Complexity",
+          "expectedStart": 1450.08,
+          "expectedEnd": 1622.42,
+          "actualStart": 1460.588543,
+          "actualEnd": 1632.923543,
+          "timeDifference": 10.508543000000145
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Constraints, Trade-offs, and Imperfection in Evolution",
+          "expectedStart": 1622.42,
+          "expectedEnd": 1760.12,
+          "actualStart": 1634.423543,
+          "actualEnd": 1772.12471,
+          "timeDifference": 12.003543000000036
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Broader Implications of Evolutionary Thinking",
+          "expectedStart": 1760.12,
+          "expectedEnd": 1925.7,
+          "actualStart": 1773.62471,
+          "actualEnd": 1939.20821,
+          "timeDifference": 13.50471000000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Evolution, Meaning, and Our Place in Nature",
+          "expectedStart": 1925.7,
+          "expectedEnd": 2063.15,
+          "actualStart": 1940.70821,
+          "actualEnd": 2078.158835,
+          "timeDifference": 15.008209999999963
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2063.15,
+          "expectedEnd": 2199.66,
+          "actualStart": 2079.658835,
+          "actualEnd": 2216.1657520000003,
+          "timeDifference": 16.50883500000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.720875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Illusion of Purpose in Nature and the Watchmaker Analogy"
+        },
+        {
+          "startTime": 333.26529200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Illusion of Purpose in Nature and the Watchmaker Analogy and Chapter 2 How Natural Selection Builds Complexity Without Foresight"
+        },
+        {
+          "startTime": 604.5025420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Natural Selection Builds Complexity Without Foresight and Chapter 3 Misconceptions About Chance, Probability, and the Nature of Evolution"
+        },
+        {
+          "startTime": 838.3353340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Misconceptions About Chance, Probability, and the Nature of Evolution and Chapter 4 Evidence for Evolution and the Power of Incremental Change"
+        },
+        {
+          "startTime": 1081.155876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Evidence for Evolution and the Power of Incremental Change and Chapter 5 The Role of Computer Simulations and the Limits of Human Intuition"
+        },
+        {
+          "startTime": 1294.157126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Computer Simulations and the Limits of Human Intuition and Chapter 6 Cumulative Selection and the “Mount Improbable” Metaphor"
+        },
+        {
+          "startTime": 1459.088543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cumulative Selection and the “Mount Improbable” Metaphor and Chapter 7 The Evolution of Complex Organs and Irreducible Complexity"
+        },
+        {
+          "startTime": 1632.923543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Complex Organs and Irreducible Complexity and Chapter 8 The Role of Constraints, Trade-offs, and Imperfection in Evolution"
+        },
+        {
+          "startTime": 1772.12471,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Constraints, Trade-offs, and Imperfection in Evolution and Chapter 9 The Broader Implications of Evolutionary Thinking"
+        },
+        {
+          "startTime": 1939.20821,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Broader Implications of Evolutionary Thinking and Chapter 10 Evolution, Meaning, and Our Place in Nature"
+        },
+        {
+          "startTime": 2078.158835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Evolution, Meaning, and Our Place in Nature and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2940",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:48:10.787Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

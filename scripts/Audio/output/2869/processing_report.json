@@ -1,0 +1,456 @@
+{
+  "bookId": "2869",
+  "timestamp": "2025-07-14T01:18:14.398Z",
+  "success": false,
+  "processingTime": -1752455442595,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5317,
+    "totalAudioFiles": 12,
+    "totalDuration": 2364.098875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2364.098875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2869/optimized_text/2869.md",
+    "fileSize": 780,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2869.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2869/metadata/2869_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2364.11,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2869/metadata/2869_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2869/metadata/2869_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2869/2869_complete.wav",
+    "duration": 2364.098875,
+    "fileSize": 113476824,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2869/introduction.wav",
+          "duration": 91.447792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.447792,
+          "startTime": 0,
+          "endTime": 91.447792
+        },
+        {
+          "path": "Audio/output/2869/chapter_01.wav",
+          "duration": 283.596208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 First Impressions: A Land Both Familiar and Unfathomable",
+          "actualDuration": 283.596208,
+          "startTime": 92.947792,
+          "endTime": 376.544
+        },
+        {
+          "path": "Audio/output/2869/chapter_02.wav",
+          "duration": 248.917875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Wild Heart: Nature’s Beauty and Peril",
+          "actualDuration": 248.917875,
+          "startTime": 378.044,
+          "endTime": 626.961875
+        },
+        {
+          "path": "Audio/output/2869/chapter_03.wav",
+          "duration": 240.186958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 People and Places: Eccentricities, Warmth, and Everyday Life",
+          "actualDuration": 240.186958,
+          "startTime": 628.461875,
+          "endTime": 868.648833
+        },
+        {
+          "path": "Audio/output/2869/chapter_04.wav",
+          "duration": 250.715167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Shadows of the Past: History, Legacy, and Identity",
+          "actualDuration": 250.715167,
+          "startTime": 870.148833,
+          "endTime": 1120.864
+        },
+        {
+          "path": "Audio/output/2869/chapter_05.wav",
+          "duration": 218.545792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Joys and Hazards of Exploration: Curiosity, Humility, and Discovery",
+          "actualDuration": 218.545792,
+          "startTime": 1122.364,
+          "endTime": 1340.909792
+        },
+        {
+          "path": "Audio/output/2869/chapter_06.wav",
+          "duration": 184.773792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Outback’s Spell: Isolation, Resilience, and the Lure of the Unknown",
+          "actualDuration": 184.773792,
+          "startTime": 1342.409792,
+          "endTime": 1527.1835839999999
+        },
+        {
+          "path": "Audio/output/2869/chapter_07.wav",
+          "duration": 195.339042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Quirks and Wonders: The Unexpected Side of Australia",
+          "actualDuration": 195.339042,
+          "startTime": 1528.6835839999999,
+          "endTime": 1724.022626
+        },
+        {
+          "path": "Audio/output/2869/chapter_08.wav",
+          "duration": 202.096583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Edge of the Map: Remote Frontiers and the Spirit of Adventure",
+          "actualDuration": 202.096583,
+          "startTime": 1725.522626,
+          "endTime": 1927.619209
+        },
+        {
+          "path": "Audio/output/2869/chapter_09.wav",
+          "duration": 191.424125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Sea and the Cities: Contrasts and Connections",
+          "actualDuration": 191.424125,
+          "startTime": 1929.119209,
+          "endTime": 2120.543334
+        },
+        {
+          "path": "Audio/output/2869/chapter_10.wav",
+          "duration": 147.653208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Story: Change, Hope, and the Australian Spirit",
+          "actualDuration": 147.653208,
+          "startTime": 2122.043334,
+          "endTime": 2269.696542
+        },
+        {
+          "path": "Audio/output/2869/conclusion.wav",
+          "duration": 109.402333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.402333,
+          "startTime": 2271.196542,
+          "endTime": 2380.598875
+        }
+      ],
+      "totalDuration": 2380.598875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.45,
+          "actualStart": 0,
+          "actualEnd": 91.447792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 First Impressions: A Land Both Familiar and Unfathomable",
+          "expectedStart": 91.45,
+          "expectedEnd": 375.05,
+          "actualStart": 92.947792,
+          "actualEnd": 376.544,
+          "timeDifference": 1.497792000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Wild Heart: Nature’s Beauty and Peril",
+          "expectedStart": 375.05,
+          "expectedEnd": 623.97,
+          "actualStart": 378.044,
+          "actualEnd": 626.961875,
+          "timeDifference": 2.9939999999999714
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 People and Places: Eccentricities, Warmth, and Everyday Life",
+          "expectedStart": 623.97,
+          "expectedEnd": 864.16,
+          "actualStart": 628.461875,
+          "actualEnd": 868.648833,
+          "timeDifference": 4.491874999999936
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Shadows of the Past: History, Legacy, and Identity",
+          "expectedStart": 864.16,
+          "expectedEnd": 1114.88,
+          "actualStart": 870.148833,
+          "actualEnd": 1120.864,
+          "timeDifference": 5.988833
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Joys and Hazards of Exploration: Curiosity, Humility, and Discovery",
+          "expectedStart": 1114.88,
+          "expectedEnd": 1333.43,
+          "actualStart": 1122.364,
+          "actualEnd": 1340.909792,
+          "timeDifference": 7.483999999999924
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Outback’s Spell: Isolation, Resilience, and the Lure of the Unknown",
+          "expectedStart": 1333.43,
+          "expectedEnd": 1518.2,
+          "actualStart": 1342.409792,
+          "actualEnd": 1527.1835839999999,
+          "timeDifference": 8.979791999999861
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Quirks and Wonders: The Unexpected Side of Australia",
+          "expectedStart": 1518.2,
+          "expectedEnd": 1713.54,
+          "actualStart": 1528.6835839999999,
+          "actualEnd": 1724.022626,
+          "timeDifference": 10.483583999999837
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Edge of the Map: Remote Frontiers and the Spirit of Adventure",
+          "expectedStart": 1713.54,
+          "expectedEnd": 1915.64,
+          "actualStart": 1725.522626,
+          "actualEnd": 1927.619209,
+          "timeDifference": 11.982625999999982
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Sea and the Cities: Contrasts and Connections",
+          "expectedStart": 1915.64,
+          "expectedEnd": 2107.06,
+          "actualStart": 1929.119209,
+          "actualEnd": 2120.543334,
+          "timeDifference": 13.479208999999855
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Story: Change, Hope, and the Australian Spirit",
+          "expectedStart": 2107.06,
+          "expectedEnd": 2254.71,
+          "actualStart": 2122.043334,
+          "actualEnd": 2269.696542,
+          "timeDifference": 14.983334000000013
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2254.71,
+          "expectedEnd": 2364.11,
+          "actualStart": 2271.196542,
+          "actualEnd": 2380.598875,
+          "timeDifference": 16.4865420000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.447792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 First Impressions: A Land Both Familiar and Unfathomable"
+        },
+        {
+          "startTime": 376.544,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 First Impressions: A Land Both Familiar and Unfathomable and Chapter 2 The Wild Heart: Nature’s Beauty and Peril"
+        },
+        {
+          "startTime": 626.961875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Wild Heart: Nature’s Beauty and Peril and Chapter 3 People and Places: Eccentricities, Warmth, and Everyday Life"
+        },
+        {
+          "startTime": 868.648833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 People and Places: Eccentricities, Warmth, and Everyday Life and Chapter 4 Shadows of the Past: History, Legacy, and Identity"
+        },
+        {
+          "startTime": 1120.864,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Shadows of the Past: History, Legacy, and Identity and Chapter 5 The Joys and Hazards of Exploration: Curiosity, Humility, and Discovery"
+        },
+        {
+          "startTime": 1340.909792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Joys and Hazards of Exploration: Curiosity, Humility, and Discovery and Chapter 6 The Outback’s Spell: Isolation, Resilience, and the Lure of the Unknown"
+        },
+        {
+          "startTime": 1527.1835839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Outback’s Spell: Isolation, Resilience, and the Lure of the Unknown and Chapter 7 Quirks and Wonders: The Unexpected Side of Australia"
+        },
+        {
+          "startTime": 1724.022626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Quirks and Wonders: The Unexpected Side of Australia and Chapter 8 The Edge of the Map: Remote Frontiers and the Spirit of Adventure"
+        },
+        {
+          "startTime": 1927.619209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Edge of the Map: Remote Frontiers and the Spirit of Adventure and Chapter 9 The Sea and the Cities: Contrasts and Connections"
+        },
+        {
+          "startTime": 2120.543334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Sea and the Cities: Contrasts and Connections and Chapter 10 The Ongoing Story: Change, Hope, and the Australian Spirit"
+        },
+        {
+          "startTime": 2269.696542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Story: Change, Hope, and the Australian Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2869",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:10:42.621Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

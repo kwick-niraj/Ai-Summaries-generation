@@ -1,0 +1,455 @@
+{
+  "bookId": "3060",
+  "timestamp": "2025-07-14T15:26:15.990Z",
+  "success": false,
+  "processingTime": -1752506509931,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4206,
+    "totalAudioFiles": 12,
+    "totalDuration": 1740.190209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1740.190209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3060/optimized_text/3060.md",
+    "fileSize": 752,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "3060.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3060/metadata/3060_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1740.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3060/metadata/3060_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3060/metadata/3060_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3060/3060_complete.wav",
+    "duration": 1740.190208,
+    "fileSize": 83529208,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3060/introduction.wav",
+          "duration": 69.592458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 69.592458,
+          "startTime": 0,
+          "endTime": 69.592458
+        },
+        {
+          "path": "Audio/output/3060/chapter_01.wav",
+          "duration": 202.473792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Remote Village: Early Lessons in Resilience",
+          "actualDuration": 202.473792,
+          "startTime": 71.092458,
+          "endTime": 273.56624999999997
+        },
+        {
+          "path": "Audio/output/3060/chapter_02.wav",
+          "duration": 185.030958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Education as a Pathway: Breaking Barriers and Finding Purpose",
+          "actualDuration": 185.030958,
+          "startTime": 275.06624999999997,
+          "endTime": 460.09720799999997
+        },
+        {
+          "path": "Audio/output/3060/chapter_03.wav",
+          "duration": 198.709708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Entering Public Service: Navigating Challenges and Building Trust",
+          "actualDuration": 198.709708,
+          "startTime": 461.59720799999997,
+          "endTime": 660.306916
+        },
+        {
+          "path": "Audio/output/3060/chapter_04.wav",
+          "duration": 163.969667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Personal Loss and Inner Strength: Transforming Grief into Purpose",
+          "actualDuration": 163.969667,
+          "startTime": 661.806916,
+          "endTime": 825.776583
+        },
+        {
+          "path": "Audio/output/3060/chapter_05.wav",
+          "duration": 186.051542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rising to Leadership: Representing the Marginalized and Shaping Policy",
+          "actualDuration": 186.051542,
+          "startTime": 827.276583,
+          "endTime": 1013.328125
+        },
+        {
+          "path": "Audio/output/3060/chapter_06.wav",
+          "duration": 142.480125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Stepping onto the National Stage: The Weight of Representation",
+          "actualDuration": 142.480125,
+          "startTime": 1014.828125,
+          "endTime": 1157.30825
+        },
+        {
+          "path": "Audio/output/3060/chapter_07.wav",
+          "duration": 142.153667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Presidency: A New Chapter of Service",
+          "actualDuration": 142.153667,
+          "startTime": 1158.80825,
+          "endTime": 1300.961917
+        },
+        {
+          "path": "Audio/output/3060/chapter_08.wav",
+          "duration": 142.594542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Criticism and Navigating Political Storms",
+          "actualDuration": 142.594542,
+          "startTime": 1302.461917,
+          "endTime": 1445.0564590000001
+        },
+        {
+          "path": "Audio/output/3060/chapter_09.wav",
+          "duration": 105.084333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and Impact: Inspiring a New Generation",
+          "actualDuration": 105.084333,
+          "startTime": 1446.5564590000001,
+          "endTime": 1551.6407920000001
+        },
+        {
+          "path": "Audio/output/3060/chapter_10.wav",
+          "duration": 97.215792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections: The Journey Continues",
+          "actualDuration": 97.215792,
+          "startTime": 1553.1407920000001,
+          "endTime": 1650.356584
+        },
+        {
+          "path": "Audio/output/3060/conclusion.wav",
+          "duration": 104.833625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.833625,
+          "startTime": 1651.856584,
+          "endTime": 1756.690209
+        }
+      ],
+      "totalDuration": 1756.690209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 69.59,
+          "actualStart": 0,
+          "actualEnd": 69.592458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Remote Village: Early Lessons in Resilience",
+          "expectedStart": 69.59,
+          "expectedEnd": 272.06,
+          "actualStart": 71.092458,
+          "actualEnd": 273.56624999999997,
+          "timeDifference": 1.50245799999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Education as a Pathway: Breaking Barriers and Finding Purpose",
+          "expectedStart": 272.06,
+          "expectedEnd": 457.09,
+          "actualStart": 275.06624999999997,
+          "actualEnd": 460.09720799999997,
+          "timeDifference": 3.006249999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Entering Public Service: Navigating Challenges and Building Trust",
+          "expectedStart": 457.09,
+          "expectedEnd": 655.8,
+          "actualStart": 461.59720799999997,
+          "actualEnd": 660.306916,
+          "timeDifference": 4.507207999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Personal Loss and Inner Strength: Transforming Grief into Purpose",
+          "expectedStart": 655.8,
+          "expectedEnd": 819.77,
+          "actualStart": 661.806916,
+          "actualEnd": 825.776583,
+          "timeDifference": 6.0069160000000466
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rising to Leadership: Representing the Marginalized and Shaping Policy",
+          "expectedStart": 819.77,
+          "expectedEnd": 1005.82,
+          "actualStart": 827.276583,
+          "actualEnd": 1013.328125,
+          "timeDifference": 7.506582999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Stepping onto the National Stage: The Weight of Representation",
+          "expectedStart": 1005.82,
+          "expectedEnd": 1148.3,
+          "actualStart": 1014.828125,
+          "actualEnd": 1157.30825,
+          "timeDifference": 9.00812499999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Presidency: A New Chapter of Service",
+          "expectedStart": 1148.3,
+          "expectedEnd": 1290.45,
+          "actualStart": 1158.80825,
+          "actualEnd": 1300.961917,
+          "timeDifference": 10.50825000000009
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Criticism and Navigating Political Storms",
+          "expectedStart": 1290.45,
+          "expectedEnd": 1433.04,
+          "actualStart": 1302.461917,
+          "actualEnd": 1445.0564590000001,
+          "timeDifference": 12.01191700000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and Impact: Inspiring a New Generation",
+          "expectedStart": 1433.04,
+          "expectedEnd": 1538.12,
+          "actualStart": 1446.5564590000001,
+          "actualEnd": 1551.6407920000001,
+          "timeDifference": 13.516459000000168
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections: The Journey Continues",
+          "expectedStart": 1538.12,
+          "expectedEnd": 1635.34,
+          "actualStart": 1553.1407920000001,
+          "actualEnd": 1650.356584,
+          "timeDifference": 15.020792000000256
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1635.34,
+          "expectedEnd": 1740.17,
+          "actualStart": 1651.856584,
+          "actualEnd": 1756.690209,
+          "timeDifference": 16.516584000000194
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 69.592458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Remote Village: Early Lessons in Resilience"
+        },
+        {
+          "startTime": 273.56624999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Remote Village: Early Lessons in Resilience and Chapter 2 Education as a Pathway: Breaking Barriers and Finding Purpose"
+        },
+        {
+          "startTime": 460.09720799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Education as a Pathway: Breaking Barriers and Finding Purpose and Chapter 3 Entering Public Service: Navigating Challenges and Building Trust"
+        },
+        {
+          "startTime": 660.306916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Entering Public Service: Navigating Challenges and Building Trust and Chapter 4 Personal Loss and Inner Strength: Transforming Grief into Purpose"
+        },
+        {
+          "startTime": 825.776583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Personal Loss and Inner Strength: Transforming Grief into Purpose and Chapter 5 Rising to Leadership: Representing the Marginalized and Shaping Policy"
+        },
+        {
+          "startTime": 1013.328125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rising to Leadership: Representing the Marginalized and Shaping Policy and Chapter 6 Stepping onto the National Stage: The Weight of Representation"
+        },
+        {
+          "startTime": 1157.30825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Stepping onto the National Stage: The Weight of Representation and Chapter 7 The Presidency: A New Chapter of Service"
+        },
+        {
+          "startTime": 1300.961917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Presidency: A New Chapter of Service and Chapter 8 Facing Criticism and Navigating Political Storms"
+        },
+        {
+          "startTime": 1445.0564590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Criticism and Navigating Political Storms and Chapter 9 Legacy and Impact: Inspiring a New Generation"
+        },
+        {
+          "startTime": 1551.6407920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and Impact: Inspiring a New Generation and Chapter 10 Reflections: The Journey Continues"
+        },
+        {
+          "startTime": 1650.356584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections: The Journey Continues and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3060",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:21:51.120Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

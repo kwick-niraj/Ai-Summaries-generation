@@ -1,0 +1,456 @@
+{
+  "bookId": "2962",
+  "timestamp": "2025-07-14T07:48:03.355Z",
+  "success": false,
+  "processingTime": -1752478769839,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5777,
+    "totalAudioFiles": 12,
+    "totalDuration": 2494.7376240000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2494.7376240000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2962/optimized_text/2962.md",
+    "fileSize": 700,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2962.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2962/metadata/2962_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2494.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2962/metadata/2962_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2962/metadata/2962_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2962/2962_complete.wav",
+    "duration": 2494.737625,
+    "fileSize": 119747484,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2962/introduction.wav",
+          "duration": 85.64,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.64,
+          "startTime": 0,
+          "endTime": 85.64
+        },
+        {
+          "path": "Audio/output/2962/chapter_01.wav",
+          "duration": 245.845208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Trusting the Shepherd’s Care in Everyday Life",
+          "actualDuration": 245.845208,
+          "startTime": 87.14,
+          "endTime": 332.985208
+        },
+        {
+          "path": "Audio/output/2962/chapter_02.wav",
+          "duration": 247.597875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Rest and Renewal in a Demanding World",
+          "actualDuration": 247.597875,
+          "startTime": 334.485208,
+          "endTime": 582.083083
+        },
+        {
+          "path": "Audio/output/2962/chapter_03.wav",
+          "duration": 240.384083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Guidance and Restoration When the Path Grows Unclear",
+          "actualDuration": 240.384083,
+          "startTime": 583.583083,
+          "endTime": 823.967166
+        },
+        {
+          "path": "Audio/output/2962/chapter_04.wav",
+          "duration": 229.724,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Comfort and Protection in Times of Fear",
+          "actualDuration": 229.724,
+          "startTime": 825.467166,
+          "endTime": 1055.191166
+        },
+        {
+          "path": "Audio/output/2962/chapter_05.wav",
+          "duration": 242.758708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living with Abundance and Gratitude Despite Hardship",
+          "actualDuration": 242.758708,
+          "startTime": 1056.691166,
+          "endTime": 1299.4498740000001
+        },
+        {
+          "path": "Audio/output/2962/chapter_06.wav",
+          "duration": 247.524583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Table Prepared: Security and Dignity in the Face of Adversity",
+          "actualDuration": 247.524583,
+          "startTime": 1300.9498740000001,
+          "endTime": 1548.4744570000003
+        },
+        {
+          "path": "Audio/output/2962/chapter_07.wav",
+          "duration": 247.982625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Anointing: Healing, Belonging, and Joy",
+          "actualDuration": 247.982625,
+          "startTime": 1549.9744570000003,
+          "endTime": 1797.9570820000004
+        },
+        {
+          "path": "Audio/output/2962/chapter_08.wav",
+          "duration": 205.610542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Overflowing Cup: Contentment and Celebration",
+          "actualDuration": 205.610542,
+          "startTime": 1799.4570820000004,
+          "endTime": 2005.0676240000003
+        },
+        {
+          "path": "Audio/output/2962/chapter_09.wav",
+          "duration": 187.028167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Goodness and Mercy: The Companions of the Journey",
+          "actualDuration": 187.028167,
+          "startTime": 2006.5676240000003,
+          "endTime": 2193.595791
+        },
+        {
+          "path": "Audio/output/2962/chapter_10.wav",
+          "duration": 173.0765,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Dwelling in the House of the Shepherd: A Life of Belonging",
+          "actualDuration": 173.0765,
+          "startTime": 2195.095791,
+          "endTime": 2368.1722910000003
+        },
+        {
+          "path": "Audio/output/2962/conclusion.wav",
+          "duration": 141.565333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.565333,
+          "startTime": 2369.6722910000003,
+          "endTime": 2511.2376240000003
+        }
+      ],
+      "totalDuration": 2511.2376240000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.64,
+          "actualStart": 0,
+          "actualEnd": 85.64,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Trusting the Shepherd’s Care in Everyday Life",
+          "expectedStart": 85.64,
+          "expectedEnd": 331.49,
+          "actualStart": 87.14,
+          "actualEnd": 332.985208,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Rest and Renewal in a Demanding World",
+          "expectedStart": 331.49,
+          "expectedEnd": 579.09,
+          "actualStart": 334.485208,
+          "actualEnd": 582.083083,
+          "timeDifference": 2.995207999999991
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Guidance and Restoration When the Path Grows Unclear",
+          "expectedStart": 579.09,
+          "expectedEnd": 819.47,
+          "actualStart": 583.583083,
+          "actualEnd": 823.967166,
+          "timeDifference": 4.493082999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Comfort and Protection in Times of Fear",
+          "expectedStart": 819.47,
+          "expectedEnd": 1049.19,
+          "actualStart": 825.467166,
+          "actualEnd": 1055.191166,
+          "timeDifference": 5.997165999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living with Abundance and Gratitude Despite Hardship",
+          "expectedStart": 1049.19,
+          "expectedEnd": 1291.95,
+          "actualStart": 1056.691166,
+          "actualEnd": 1299.4498740000001,
+          "timeDifference": 7.501166000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Table Prepared: Security and Dignity in the Face of Adversity",
+          "expectedStart": 1291.95,
+          "expectedEnd": 1539.47,
+          "actualStart": 1300.9498740000001,
+          "actualEnd": 1548.4744570000003,
+          "timeDifference": 8.99987400000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Anointing: Healing, Belonging, and Joy",
+          "expectedStart": 1539.47,
+          "expectedEnd": 1787.45,
+          "actualStart": 1549.9744570000003,
+          "actualEnd": 1797.9570820000004,
+          "timeDifference": 10.50445700000023
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Overflowing Cup: Contentment and Celebration",
+          "expectedStart": 1787.45,
+          "expectedEnd": 1993.06,
+          "actualStart": 1799.4570820000004,
+          "actualEnd": 2005.0676240000003,
+          "timeDifference": 12.00708200000031
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Goodness and Mercy: The Companions of the Journey",
+          "expectedStart": 1993.06,
+          "expectedEnd": 2180.09,
+          "actualStart": 2006.5676240000003,
+          "actualEnd": 2193.595791,
+          "timeDifference": 13.507624000000305
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Dwelling in the House of the Shepherd: A Life of Belonging",
+          "expectedStart": 2180.09,
+          "expectedEnd": 2353.17,
+          "actualStart": 2195.095791,
+          "actualEnd": 2368.1722910000003,
+          "timeDifference": 15.005791000000045
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2353.17,
+          "expectedEnd": 2494.74,
+          "actualStart": 2369.6722910000003,
+          "actualEnd": 2511.2376240000003,
+          "timeDifference": 16.50229100000024
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.64,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Trusting the Shepherd’s Care in Everyday Life"
+        },
+        {
+          "startTime": 332.985208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Trusting the Shepherd’s Care in Everyday Life and Chapter 2 Finding Rest and Renewal in a Demanding World"
+        },
+        {
+          "startTime": 582.083083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Rest and Renewal in a Demanding World and Chapter 3 Guidance and Restoration When the Path Grows Unclear"
+        },
+        {
+          "startTime": 823.967166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Guidance and Restoration When the Path Grows Unclear and Chapter 4 Comfort and Protection in Times of Fear"
+        },
+        {
+          "startTime": 1055.191166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Comfort and Protection in Times of Fear and Chapter 5 Living with Abundance and Gratitude Despite Hardship"
+        },
+        {
+          "startTime": 1299.4498740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living with Abundance and Gratitude Despite Hardship and Chapter 6 The Table Prepared: Security and Dignity in the Face of Adversity"
+        },
+        {
+          "startTime": 1548.4744570000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Table Prepared: Security and Dignity in the Face of Adversity and Chapter 7 The Anointing: Healing, Belonging, and Joy"
+        },
+        {
+          "startTime": 1797.9570820000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Anointing: Healing, Belonging, and Joy and Chapter 8 The Overflowing Cup: Contentment and Celebration"
+        },
+        {
+          "startTime": 2005.0676240000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Overflowing Cup: Contentment and Celebration and Chapter 9 Goodness and Mercy: The Companions of the Journey"
+        },
+        {
+          "startTime": 2193.595791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Goodness and Mercy: The Companions of the Journey and Chapter 10 Dwelling in the House of the Shepherd: A Life of Belonging"
+        },
+        {
+          "startTime": 2368.1722910000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Dwelling in the House of the Shepherd: A Life of Belonging and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2962",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:39:31.021Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

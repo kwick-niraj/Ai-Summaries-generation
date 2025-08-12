@@ -1,0 +1,456 @@
+{
+  "bookId": "3022",
+  "timestamp": "2025-07-14T12:17:19.753Z",
+  "success": false,
+  "processingTime": -1752495073476,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4647,
+    "totalAudioFiles": 12,
+    "totalDuration": 2189.7843350000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2189.7843350000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3022/optimized_text/3022.md",
+    "fileSize": 811,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "3022.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3022/metadata/3022_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2189.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3022/metadata/3022_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3022/metadata/3022_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3022/3022_complete.wav",
+    "duration": 2189.784333,
+    "fileSize": 105109726,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3022/introduction.wav",
+          "duration": 121.527375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 121.527375,
+          "startTime": 0,
+          "endTime": 121.527375
+        },
+        {
+          "path": "Audio/output/3022/chapter_01.wav",
+          "duration": 208.106833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Beginnings in Uncertainty: Childhood, Loss, and the Seeds of Ambition",
+          "actualDuration": 208.106833,
+          "startTime": 123.027375,
+          "endTime": 331.134208
+        },
+        {
+          "path": "Audio/output/3022/chapter_02.wav",
+          "duration": 221.511167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 War and Opportunity: Hamilton’s Rise in Revolutionary America",
+          "actualDuration": 221.511167,
+          "startTime": 332.634208,
+          "endTime": 554.1453750000001
+        },
+        {
+          "path": "Audio/output/3022/chapter_03.wav",
+          "duration": 218.447042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Nation: The Constitution and the Power of Ideas",
+          "actualDuration": 218.447042,
+          "startTime": 555.6453750000001,
+          "endTime": 774.0924170000001
+        },
+        {
+          "path": "Audio/output/3022/chapter_04.wav",
+          "duration": 241.418667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating the American Economy: Vision, Conflict, and the Birth of Finance",
+          "actualDuration": 241.418667,
+          "startTime": 775.5924170000001,
+          "endTime": 1017.0110840000001
+        },
+        {
+          "path": "Audio/output/3022/chapter_05.wav",
+          "duration": 192.137417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rivalries, Reputation, and the High Cost of Ambition",
+          "actualDuration": 192.137417,
+          "startTime": 1018.5110840000001,
+          "endTime": 1210.6485010000001
+        },
+        {
+          "path": "Audio/output/3022/chapter_06.wav",
+          "duration": 207.006625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Storms of Politics: Power, Principle, and the Limits of Control",
+          "actualDuration": 207.006625,
+          "startTime": 1212.1485010000001,
+          "endTime": 1419.155126
+        },
+        {
+          "path": "Audio/output/3022/chapter_07.wav",
+          "duration": 175.110292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Family, Scandal, and the Weight of Private Life",
+          "actualDuration": 175.110292,
+          "startTime": 1420.655126,
+          "endTime": 1595.7654180000002
+        },
+        {
+          "path": "Audio/output/3022/chapter_08.wav",
+          "duration": 187.8925,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Duel: Honor, Tragedy, and the End of a Life",
+          "actualDuration": 187.8925,
+          "startTime": 1597.2654180000002,
+          "endTime": 1785.157918
+        },
+        {
+          "path": "Audio/output/3022/chapter_09.wav",
+          "duration": 174.857417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Aftermath and Legacy: Memory, Myth, and the Making of a Founder",
+          "actualDuration": 174.857417,
+          "startTime": 1786.657918,
+          "endTime": 1961.515335
+        },
+        {
+          "path": "Audio/output/3022/chapter_10.wav",
+          "duration": 133.50075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Questions: Ambition, Democracy, and the American Promise",
+          "actualDuration": 133.50075,
+          "startTime": 1963.015335,
+          "endTime": 2096.516085
+        },
+        {
+          "path": "Audio/output/3022/conclusion.wav",
+          "duration": 108.26825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.26825,
+          "startTime": 2098.016085,
+          "endTime": 2206.2843350000003
+        }
+      ],
+      "totalDuration": 2206.2843350000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 121.53,
+          "actualStart": 0,
+          "actualEnd": 121.527375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Beginnings in Uncertainty: Childhood, Loss, and the Seeds of Ambition",
+          "expectedStart": 121.53,
+          "expectedEnd": 329.64,
+          "actualStart": 123.027375,
+          "actualEnd": 331.134208,
+          "timeDifference": 1.4973750000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 War and Opportunity: Hamilton’s Rise in Revolutionary America",
+          "expectedStart": 329.64,
+          "expectedEnd": 551.15,
+          "actualStart": 332.634208,
+          "actualEnd": 554.1453750000001,
+          "timeDifference": 2.9942080000000146
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Nation: The Constitution and the Power of Ideas",
+          "expectedStart": 551.15,
+          "expectedEnd": 769.6,
+          "actualStart": 555.6453750000001,
+          "actualEnd": 774.0924170000001,
+          "timeDifference": 4.495375000000081
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating the American Economy: Vision, Conflict, and the Birth of Finance",
+          "expectedStart": 769.6,
+          "expectedEnd": 1011.02,
+          "actualStart": 775.5924170000001,
+          "actualEnd": 1017.0110840000001,
+          "timeDifference": 5.992417000000046
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rivalries, Reputation, and the High Cost of Ambition",
+          "expectedStart": 1011.02,
+          "expectedEnd": 1203.16,
+          "actualStart": 1018.5110840000001,
+          "actualEnd": 1210.6485010000001,
+          "timeDifference": 7.491084000000114
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Storms of Politics: Power, Principle, and the Limits of Control",
+          "expectedStart": 1203.16,
+          "expectedEnd": 1410.17,
+          "actualStart": 1212.1485010000001,
+          "actualEnd": 1419.155126,
+          "timeDifference": 8.988501000000042
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Family, Scandal, and the Weight of Private Life",
+          "expectedStart": 1410.17,
+          "expectedEnd": 1585.28,
+          "actualStart": 1420.655126,
+          "actualEnd": 1595.7654180000002,
+          "timeDifference": 10.485126000000037
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Duel: Honor, Tragedy, and the End of a Life",
+          "expectedStart": 1585.28,
+          "expectedEnd": 1773.17,
+          "actualStart": 1597.2654180000002,
+          "actualEnd": 1785.157918,
+          "timeDifference": 11.985418000000209
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Aftermath and Legacy: Memory, Myth, and the Making of a Founder",
+          "expectedStart": 1773.17,
+          "expectedEnd": 1948.03,
+          "actualStart": 1786.657918,
+          "actualEnd": 1961.515335,
+          "timeDifference": 13.487918000000036
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Questions: Ambition, Democracy, and the American Promise",
+          "expectedStart": 1948.03,
+          "expectedEnd": 2081.53,
+          "actualStart": 1963.015335,
+          "actualEnd": 2096.516085,
+          "timeDifference": 14.985335000000077
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2081.53,
+          "expectedEnd": 2189.8,
+          "actualStart": 2098.016085,
+          "actualEnd": 2206.2843350000003,
+          "timeDifference": 16.486085000000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 121.527375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Beginnings in Uncertainty: Childhood, Loss, and the Seeds of Ambition"
+        },
+        {
+          "startTime": 331.134208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Beginnings in Uncertainty: Childhood, Loss, and the Seeds of Ambition and Chapter 2 War and Opportunity: Hamilton’s Rise in Revolutionary America"
+        },
+        {
+          "startTime": 554.1453750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 War and Opportunity: Hamilton’s Rise in Revolutionary America and Chapter 3 Building a Nation: The Constitution and the Power of Ideas"
+        },
+        {
+          "startTime": 774.0924170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Nation: The Constitution and the Power of Ideas and Chapter 4 Creating the American Economy: Vision, Conflict, and the Birth of Finance"
+        },
+        {
+          "startTime": 1017.0110840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating the American Economy: Vision, Conflict, and the Birth of Finance and Chapter 5 Rivalries, Reputation, and the High Cost of Ambition"
+        },
+        {
+          "startTime": 1210.6485010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rivalries, Reputation, and the High Cost of Ambition and Chapter 6 The Storms of Politics: Power, Principle, and the Limits of Control"
+        },
+        {
+          "startTime": 1419.155126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Storms of Politics: Power, Principle, and the Limits of Control and Chapter 7 Family, Scandal, and the Weight of Private Life"
+        },
+        {
+          "startTime": 1595.7654180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Family, Scandal, and the Weight of Private Life and Chapter 8 The Duel: Honor, Tragedy, and the End of a Life"
+        },
+        {
+          "startTime": 1785.157918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Duel: Honor, Tragedy, and the End of a Life and Chapter 9 Aftermath and Legacy: Memory, Myth, and the Making of a Founder"
+        },
+        {
+          "startTime": 1961.515335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Aftermath and Legacy: Memory, Myth, and the Making of a Founder and Chapter 10 The Enduring Questions: Ambition, Democracy, and the American Promise"
+        },
+        {
+          "startTime": 2096.516085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Questions: Ambition, Democracy, and the American Promise and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3022",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:11:14.001Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

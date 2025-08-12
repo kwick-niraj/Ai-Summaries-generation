@@ -1,0 +1,456 @@
+{
+  "bookId": "2943",
+  "timestamp": "2025-07-14T06:15:32.637Z",
+  "success": false,
+  "processingTime": -1752473310312,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5565,
+    "totalAudioFiles": 12,
+    "totalDuration": 2692.4635829999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2692.4635829999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2943/optimized_text/2943.md",
+    "fileSize": 650,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2943.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2943/metadata/2943_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2692.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2943/metadata/2943_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2943/metadata/2943_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2943/2943_complete.wav",
+    "duration": 2692.463583,
+    "fileSize": 129238330,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2943/introduction.wav",
+          "duration": 99.208292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.208292,
+          "startTime": 0,
+          "endTime": 99.208292
+        },
+        {
+          "path": "Audio/output/2943/chapter_01.wav",
+          "duration": 273.287208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Struggle of Making Choices",
+          "actualDuration": 273.287208,
+          "startTime": 100.708292,
+          "endTime": 373.9955
+        },
+        {
+          "path": "Audio/output/2943/chapter_02.wav",
+          "duration": 284.779083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Brain’s Two Paths: Intuition and Analysis",
+          "actualDuration": 284.779083,
+          "startTime": 375.4955,
+          "endTime": 660.274583
+        },
+        {
+          "path": "Audio/output/2943/chapter_03.wav",
+          "duration": 308.591833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power and Peril of Emotional Decisions",
+          "actualDuration": 308.591833,
+          "startTime": 661.774583,
+          "endTime": 970.3664160000001
+        },
+        {
+          "path": "Audio/output/2943/chapter_04.wav",
+          "duration": 288.879833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Traps of Bias and Mental Shortcuts",
+          "actualDuration": 288.879833,
+          "startTime": 971.8664160000001,
+          "endTime": 1260.746249
+        },
+        {
+          "path": "Audio/output/2943/chapter_05.wav",
+          "duration": 243.616417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Learning from Mistakes and Improving Decisions",
+          "actualDuration": 243.616417,
+          "startTime": 1262.246249,
+          "endTime": 1505.862666
+        },
+        {
+          "path": "Audio/output/2943/chapter_06.wav",
+          "duration": 253.312375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Influence of Context: How Surroundings Shape Choices",
+          "actualDuration": 253.312375,
+          "startTime": 1507.362666,
+          "endTime": 1760.675041
+        },
+        {
+          "path": "Audio/output/2943/chapter_07.wav",
+          "duration": 204.314083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Deliberation: When to Slow Down",
+          "actualDuration": 204.314083,
+          "startTime": 1762.175041,
+          "endTime": 1966.489124
+        },
+        {
+          "path": "Audio/output/2943/chapter_08.wav",
+          "duration": 211.142833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Values: Choosing What Matters Most",
+          "actualDuration": 211.142833,
+          "startTime": 1967.989124,
+          "endTime": 2179.131957
+        },
+        {
+          "path": "Audio/output/2943/chapter_09.wav",
+          "duration": 192.856417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Strategies for Wiser Choices",
+          "actualDuration": 192.856417,
+          "startTime": 2180.631957,
+          "endTime": 2373.488374
+        },
+        {
+          "path": "Audio/output/2943/chapter_10.wav",
+          "duration": 192.123417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Embracing Uncertainty",
+          "actualDuration": 192.123417,
+          "startTime": 2374.988374,
+          "endTime": 2567.111791
+        },
+        {
+          "path": "Audio/output/2943/conclusion.wav",
+          "duration": 140.351792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.351792,
+          "startTime": 2568.611791,
+          "endTime": 2708.9635829999997
+        }
+      ],
+      "totalDuration": 2708.9635829999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.21,
+          "actualStart": 0,
+          "actualEnd": 99.208292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Struggle of Making Choices",
+          "expectedStart": 99.21,
+          "expectedEnd": 372.5,
+          "actualStart": 100.708292,
+          "actualEnd": 373.9955,
+          "timeDifference": 1.4982920000000064
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Brain’s Two Paths: Intuition and Analysis",
+          "expectedStart": 372.5,
+          "expectedEnd": 657.28,
+          "actualStart": 375.4955,
+          "actualEnd": 660.274583,
+          "timeDifference": 2.9954999999999927
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power and Peril of Emotional Decisions",
+          "expectedStart": 657.28,
+          "expectedEnd": 965.87,
+          "actualStart": 661.774583,
+          "actualEnd": 970.3664160000001,
+          "timeDifference": 4.494583000000034
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Traps of Bias and Mental Shortcuts",
+          "expectedStart": 965.87,
+          "expectedEnd": 1254.75,
+          "actualStart": 971.8664160000001,
+          "actualEnd": 1260.746249,
+          "timeDifference": 5.9964160000000675
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Learning from Mistakes and Improving Decisions",
+          "expectedStart": 1254.75,
+          "expectedEnd": 1498.37,
+          "actualStart": 1262.246249,
+          "actualEnd": 1505.862666,
+          "timeDifference": 7.496249000000034
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Influence of Context: How Surroundings Shape Choices",
+          "expectedStart": 1498.37,
+          "expectedEnd": 1751.68,
+          "actualStart": 1507.362666,
+          "actualEnd": 1760.675041,
+          "timeDifference": 8.9926660000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Deliberation: When to Slow Down",
+          "expectedStart": 1751.68,
+          "expectedEnd": 1955.99,
+          "actualStart": 1762.175041,
+          "actualEnd": 1966.489124,
+          "timeDifference": 10.495040999999901
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Values: Choosing What Matters Most",
+          "expectedStart": 1955.99,
+          "expectedEnd": 2167.13,
+          "actualStart": 1967.989124,
+          "actualEnd": 2179.131957,
+          "timeDifference": 11.999123999999938
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Strategies for Wiser Choices",
+          "expectedStart": 2167.13,
+          "expectedEnd": 2359.99,
+          "actualStart": 2180.631957,
+          "actualEnd": 2373.488374,
+          "timeDifference": 13.501956999999948
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Embracing Uncertainty",
+          "expectedStart": 2359.99,
+          "expectedEnd": 2552.11,
+          "actualStart": 2374.988374,
+          "actualEnd": 2567.111791,
+          "timeDifference": 14.99837400000024
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2552.11,
+          "expectedEnd": 2692.46,
+          "actualStart": 2568.611791,
+          "actualEnd": 2708.9635829999997,
+          "timeDifference": 16.501790999999685
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.208292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Struggle of Making Choices"
+        },
+        {
+          "startTime": 373.9955,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Struggle of Making Choices and Chapter 2 The Brain’s Two Paths: Intuition and Analysis"
+        },
+        {
+          "startTime": 660.274583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Brain’s Two Paths: Intuition and Analysis and Chapter 3 The Power and Peril of Emotional Decisions"
+        },
+        {
+          "startTime": 970.3664160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power and Peril of Emotional Decisions and Chapter 4 The Hidden Traps of Bias and Mental Shortcuts"
+        },
+        {
+          "startTime": 1260.746249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Traps of Bias and Mental Shortcuts and Chapter 5 Learning from Mistakes and Improving Decisions"
+        },
+        {
+          "startTime": 1505.862666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Learning from Mistakes and Improving Decisions and Chapter 6 The Influence of Context: How Surroundings Shape Choices"
+        },
+        {
+          "startTime": 1760.675041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Influence of Context: How Surroundings Shape Choices and Chapter 7 The Science of Deliberation: When to Slow Down"
+        },
+        {
+          "startTime": 1966.489124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Deliberation: When to Slow Down and Chapter 8 The Role of Values: Choosing What Matters Most"
+        },
+        {
+          "startTime": 2179.131957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Values: Choosing What Matters Most and Chapter 9 Practical Strategies for Wiser Choices"
+        },
+        {
+          "startTime": 2373.488374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Strategies for Wiser Choices and Chapter 10 The Ongoing Journey: Embracing Uncertainty"
+        },
+        {
+          "startTime": 2567.111791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Embracing Uncertainty and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2943",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:08:31.523Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

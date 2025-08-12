@@ -1,0 +1,503 @@
+{
+  "bookId": "2808",
+  "timestamp": "2025-07-13T21:13:08.324Z",
+  "success": false,
+  "processingTime": -1752440791362,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4550,
+    "totalAudioFiles": 14,
+    "totalDuration": 2004.6220820000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2004.6220820000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2808/optimized_text/2808.md",
+    "fileSize": 862,
+    "wordCount": 127,
+    "format": "markdown",
+    "filename": "2808.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2808/metadata/2808_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2004.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2808/metadata/2808_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2808/metadata/2808_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2808/2808_complete.wav",
+    "duration": 2004.622083,
+    "fileSize": 96221938,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2808/introduction.wav",
+          "duration": 93.017208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.017208,
+          "startTime": 0,
+          "endTime": 93.017208
+        },
+        {
+          "path": "Audio/output/2808/chapter_01.wav",
+          "duration": 204.916333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Quiet Discontent Behind Perfect Lives",
+          "actualDuration": 204.916333,
+          "startTime": 94.517208,
+          "endTime": 299.433541
+        },
+        {
+          "path": "Audio/output/2808/chapter_02.wav",
+          "duration": 197.654333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How the Ideal of Womanhood Was Reinvented",
+          "actualDuration": 197.654333,
+          "startTime": 300.933541,
+          "endTime": 498.587874
+        },
+        {
+          "path": "Audio/output/2808/chapter_03.wav",
+          "duration": 177.700667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Media and Education in Shaping Women’s Lives",
+          "actualDuration": 177.700667,
+          "startTime": 500.087874,
+          "endTime": 677.788541
+        },
+        {
+          "path": "Audio/output/2808/chapter_04.wav",
+          "duration": 183.384625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Search for Identity and the Cost of Conformity",
+          "actualDuration": 183.384625,
+          "startTime": 679.288541,
+          "endTime": 862.673166
+        },
+        {
+          "path": "Audio/output/2808/chapter_05.wav",
+          "duration": 146.06975,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Barriers to Change and the First Steps Toward Freedom",
+          "actualDuration": 146.06975,
+          "startTime": 864.173166,
+          "endTime": 1010.242916
+        },
+        {
+          "path": "Audio/output/2808/chapter_06.wav",
+          "duration": 162.030542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rediscovering Ambition: The Awakening of Dormant Dreams",
+          "actualDuration": 162.030542,
+          "startTime": 1011.742916,
+          "endTime": 1173.7734580000001
+        },
+        {
+          "path": "Audio/output/2808/chapter_07.wav",
+          "duration": 133.081625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle for Equality in Marriage",
+          "actualDuration": 133.081625,
+          "startTime": 1175.2734580000001,
+          "endTime": 1308.3550830000001
+        },
+        {
+          "path": "Audio/output/2808/chapter_08.wav",
+          "duration": 128.713083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Work: Beyond the Paycheck",
+          "actualDuration": 128.713083,
+          "startTime": 1309.8550830000001,
+          "endTime": 1438.5681660000002
+        },
+        {
+          "path": "Audio/output/2808/chapter_09.wav",
+          "duration": 114.151417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Next Generation: Raising Daughters (and Sons) for a New World",
+          "actualDuration": 114.151417,
+          "startTime": 1440.0681660000002,
+          "endTime": 1554.2195830000003
+        },
+        {
+          "path": "Audio/output/2808/chapter_10.wav",
+          "duration": 120.51575,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Battle: Resistance, Backlash, and the Power of Community",
+          "actualDuration": 120.51575,
+          "startTime": 1555.7195830000003,
+          "endTime": 1676.2353330000003
+        },
+        {
+          "path": "Audio/output/2808/chapter_11.wav",
+          "duration": 118.410458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Reclaiming the Self: Healing, Growth, and the Long Road Ahead",
+          "actualDuration": 118.410458,
+          "startTime": 1677.7353330000003,
+          "endTime": 1796.1457910000004
+        },
+        {
+          "path": "Audio/output/2808/chapter_12.wav",
+          "duration": 117.605208,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Legacy of the Feminine Mystique: Looking Forward",
+          "actualDuration": 117.605208,
+          "startTime": 1797.6457910000004,
+          "endTime": 1915.2509990000003
+        },
+        {
+          "path": "Audio/output/2808/conclusion.wav",
+          "duration": 107.371083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.371083,
+          "startTime": 1916.7509990000003,
+          "endTime": 2024.1220820000003
+        }
+      ],
+      "totalDuration": 2024.1220820000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.02,
+          "actualStart": 0,
+          "actualEnd": 93.017208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Quiet Discontent Behind Perfect Lives",
+          "expectedStart": 93.02,
+          "expectedEnd": 297.94,
+          "actualStart": 94.517208,
+          "actualEnd": 299.433541,
+          "timeDifference": 1.4972080000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How the Ideal of Womanhood Was Reinvented",
+          "expectedStart": 297.94,
+          "expectedEnd": 495.59,
+          "actualStart": 300.933541,
+          "actualEnd": 498.587874,
+          "timeDifference": 2.9935409999999933
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Media and Education in Shaping Women’s Lives",
+          "expectedStart": 495.59,
+          "expectedEnd": 673.29,
+          "actualStart": 500.087874,
+          "actualEnd": 677.788541,
+          "timeDifference": 4.497874000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Search for Identity and the Cost of Conformity",
+          "expectedStart": 673.29,
+          "expectedEnd": 856.67,
+          "actualStart": 679.288541,
+          "actualEnd": 862.673166,
+          "timeDifference": 5.998541000000046
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Barriers to Change and the First Steps Toward Freedom",
+          "expectedStart": 856.67,
+          "expectedEnd": 1002.74,
+          "actualStart": 864.173166,
+          "actualEnd": 1010.242916,
+          "timeDifference": 7.503166000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rediscovering Ambition: The Awakening of Dormant Dreams",
+          "expectedStart": 1002.74,
+          "expectedEnd": 1164.77,
+          "actualStart": 1011.742916,
+          "actualEnd": 1173.7734580000001,
+          "timeDifference": 9.002916000000027
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle for Equality in Marriage",
+          "expectedStart": 1164.77,
+          "expectedEnd": 1297.85,
+          "actualStart": 1175.2734580000001,
+          "actualEnd": 1308.3550830000001,
+          "timeDifference": 10.503458000000137
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Work: Beyond the Paycheck",
+          "expectedStart": 1297.85,
+          "expectedEnd": 1426.56,
+          "actualStart": 1309.8550830000001,
+          "actualEnd": 1438.5681660000002,
+          "timeDifference": 12.00508300000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Next Generation: Raising Daughters (and Sons) for a New World",
+          "expectedStart": 1426.56,
+          "expectedEnd": 1540.71,
+          "actualStart": 1440.0681660000002,
+          "actualEnd": 1554.2195830000003,
+          "timeDifference": 13.508166000000301
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Battle: Resistance, Backlash, and the Power of Community",
+          "expectedStart": 1540.71,
+          "expectedEnd": 1661.23,
+          "actualStart": 1555.7195830000003,
+          "actualEnd": 1676.2353330000003,
+          "timeDifference": 15.009583000000248
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Reclaiming the Self: Healing, Growth, and the Long Road Ahead",
+          "expectedStart": 1661.23,
+          "expectedEnd": 1779.64,
+          "actualStart": 1677.7353330000003,
+          "actualEnd": 1796.1457910000004,
+          "timeDifference": 16.50533300000029
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Legacy of the Feminine Mystique: Looking Forward",
+          "expectedStart": 1779.64,
+          "expectedEnd": 1897.25,
+          "actualStart": 1797.6457910000004,
+          "actualEnd": 1915.2509990000003,
+          "timeDifference": 18.005791000000272
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1897.25,
+          "expectedEnd": 2004.62,
+          "actualStart": 1916.7509990000003,
+          "actualEnd": 2024.1220820000003,
+          "timeDifference": 19.50099900000032
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.017208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Quiet Discontent Behind Perfect Lives"
+        },
+        {
+          "startTime": 299.433541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Quiet Discontent Behind Perfect Lives and Chapter 2 How the Ideal of Womanhood Was Reinvented"
+        },
+        {
+          "startTime": 498.587874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How the Ideal of Womanhood Was Reinvented and Chapter 3 The Power of Media and Education in Shaping Women’s Lives"
+        },
+        {
+          "startTime": 677.788541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Media and Education in Shaping Women’s Lives and Chapter 4 The Search for Identity and the Cost of Conformity"
+        },
+        {
+          "startTime": 862.673166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Search for Identity and the Cost of Conformity and Chapter 5 The Barriers to Change and the First Steps Toward Freedom"
+        },
+        {
+          "startTime": 1010.242916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Barriers to Change and the First Steps Toward Freedom and Chapter 6 Rediscovering Ambition: The Awakening of Dormant Dreams"
+        },
+        {
+          "startTime": 1173.7734580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rediscovering Ambition: The Awakening of Dormant Dreams and Chapter 7 The Struggle for Equality in Marriage"
+        },
+        {
+          "startTime": 1308.3550830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle for Equality in Marriage and Chapter 8 The Role of Work: Beyond the Paycheck"
+        },
+        {
+          "startTime": 1438.5681660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Work: Beyond the Paycheck and Chapter 9 The Next Generation: Raising Daughters (and Sons) for a New World"
+        },
+        {
+          "startTime": 1554.2195830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Next Generation: Raising Daughters (and Sons) for a New World and Chapter 10 The Ongoing Battle: Resistance, Backlash, and the Power of Community"
+        },
+        {
+          "startTime": 1676.2353330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Battle: Resistance, Backlash, and the Power of Community and Chapter 11 Reclaiming the Self: Healing, Growth, and the Long Road Ahead"
+        },
+        {
+          "startTime": 1796.1457910000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Reclaiming the Self: Healing, Growth, and the Long Road Ahead and Chapter 12 The Legacy of the Feminine Mystique: Looking Forward"
+        },
+        {
+          "startTime": 1915.2509990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Legacy of the Feminine Mystique: Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2808",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:06:31.916Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

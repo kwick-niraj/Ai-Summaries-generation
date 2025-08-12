@@ -1,0 +1,455 @@
+{
+  "bookId": "2852",
+  "timestamp": "2025-07-14T00:24:30.253Z",
+  "success": false,
+  "processingTime": -1752452440512,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4366,
+    "totalAudioFiles": 12,
+    "totalDuration": 1838.6158340000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1838.6158340000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2852/optimized_text/2852.md",
+    "fileSize": 616,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2852.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2852/metadata/2852_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1838.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2852/metadata/2852_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2852/metadata/2852_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2852/2852_complete.wav",
+    "duration": 1838.615833,
+    "fileSize": 88253638,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2852/introduction.wav",
+          "duration": 76.043625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.043625,
+          "startTime": 0,
+          "endTime": 76.043625
+        },
+        {
+          "path": "Audio/output/2852/chapter_01.wav",
+          "duration": 223.938708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Cold Morning and an Unexpected Arrival",
+          "actualDuration": 223.938708,
+          "startTime": 77.543625,
+          "endTime": 301.482333
+        },
+        {
+          "path": "Audio/output/2852/chapter_02.wav",
+          "duration": 190.759667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Place in the Heart of the Library",
+          "actualDuration": 190.759667,
+          "startTime": 302.982333,
+          "endTime": 493.74199999999996
+        },
+        {
+          "path": "Audio/output/2852/chapter_03.wav",
+          "duration": 188.905958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Library as a Community Anchor",
+          "actualDuration": 188.905958,
+          "startTime": 495.24199999999996,
+          "endTime": 684.147958
+        },
+        {
+          "path": "Audio/output/2852/chapter_04.wav",
+          "duration": 152.991708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Healing, Hope, and the Power of Connection",
+          "actualDuration": 152.991708,
+          "startTime": 685.647958,
+          "endTime": 838.639666
+        },
+        {
+          "path": "Audio/output/2852/chapter_05.wav",
+          "duration": 203.325583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Dewey’s Growing Influence and the Lessons of Small Acts",
+          "actualDuration": 203.325583,
+          "startTime": 840.139666,
+          "endTime": 1043.465249
+        },
+        {
+          "path": "Audio/output/2852/chapter_06.wav",
+          "duration": 161.193792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Dewey’s Later Years: Aging, Change, and Unwavering Spirit",
+          "actualDuration": 161.193792,
+          "startTime": 1044.965249,
+          "endTime": 1206.1590410000001
+        },
+        {
+          "path": "Audio/output/2852/chapter_07.wav",
+          "duration": 156.037792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Farewell and Grieving Together",
+          "actualDuration": 156.037792,
+          "startTime": 1207.6590410000001,
+          "endTime": 1363.6968330000002
+        },
+        {
+          "path": "Audio/output/2852/chapter_08.wav",
+          "duration": 138.700125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: Dewey’s Story Spreads",
+          "actualDuration": 138.700125,
+          "startTime": 1365.1968330000002,
+          "endTime": 1503.8969580000003
+        },
+        {
+          "path": "Audio/output/2852/chapter_09.wav",
+          "duration": 119.888917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for a World Beyond Spencer",
+          "actualDuration": 119.888917,
+          "startTime": 1505.3969580000003,
+          "endTime": 1625.2858750000003
+        },
+        {
+          "path": "Audio/output/2852/chapter_10.wav",
+          "duration": 117.040167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying Dewey’s Spirit Forward",
+          "actualDuration": 117.040167,
+          "startTime": 1626.7858750000003,
+          "endTime": 1743.8260420000001
+        },
+        {
+          "path": "Audio/output/2852/conclusion.wav",
+          "duration": 109.789792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.789792,
+          "startTime": 1745.3260420000001,
+          "endTime": 1855.1158340000002
+        }
+      ],
+      "totalDuration": 1855.1158340000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.04,
+          "actualStart": 0,
+          "actualEnd": 76.043625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Cold Morning and an Unexpected Arrival",
+          "expectedStart": 76.04,
+          "expectedEnd": 299.98,
+          "actualStart": 77.543625,
+          "actualEnd": 301.482333,
+          "timeDifference": 1.5036249999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Place in the Heart of the Library",
+          "expectedStart": 299.98,
+          "expectedEnd": 490.74,
+          "actualStart": 302.982333,
+          "actualEnd": 493.74199999999996,
+          "timeDifference": 3.0023329999999646
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Library as a Community Anchor",
+          "expectedStart": 490.74,
+          "expectedEnd": 679.65,
+          "actualStart": 495.24199999999996,
+          "actualEnd": 684.147958,
+          "timeDifference": 4.501999999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Healing, Hope, and the Power of Connection",
+          "expectedStart": 679.65,
+          "expectedEnd": 832.64,
+          "actualStart": 685.647958,
+          "actualEnd": 838.639666,
+          "timeDifference": 5.99795800000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Dewey’s Growing Influence and the Lessons of Small Acts",
+          "expectedStart": 832.64,
+          "expectedEnd": 1035.97,
+          "actualStart": 840.139666,
+          "actualEnd": 1043.465249,
+          "timeDifference": 7.4996660000000475
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Dewey’s Later Years: Aging, Change, and Unwavering Spirit",
+          "expectedStart": 1035.97,
+          "expectedEnd": 1197.16,
+          "actualStart": 1044.965249,
+          "actualEnd": 1206.1590410000001,
+          "timeDifference": 8.995249000000058
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Farewell and Grieving Together",
+          "expectedStart": 1197.16,
+          "expectedEnd": 1353.2,
+          "actualStart": 1207.6590410000001,
+          "actualEnd": 1363.6968330000002,
+          "timeDifference": 10.499041000000034
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: Dewey’s Story Spreads",
+          "expectedStart": 1353.2,
+          "expectedEnd": 1491.9,
+          "actualStart": 1365.1968330000002,
+          "actualEnd": 1503.8969580000003,
+          "timeDifference": 11.996833000000152
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for a World Beyond Spencer",
+          "expectedStart": 1491.9,
+          "expectedEnd": 1611.79,
+          "actualStart": 1505.3969580000003,
+          "actualEnd": 1625.2858750000003,
+          "timeDifference": 13.496958000000177
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying Dewey’s Spirit Forward",
+          "expectedStart": 1611.79,
+          "expectedEnd": 1728.83,
+          "actualStart": 1626.7858750000003,
+          "actualEnd": 1743.8260420000001,
+          "timeDifference": 14.995875000000296
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1728.83,
+          "expectedEnd": 1838.62,
+          "actualStart": 1745.3260420000001,
+          "actualEnd": 1855.1158340000002,
+          "timeDifference": 16.496042000000216
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.043625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Cold Morning and an Unexpected Arrival"
+        },
+        {
+          "startTime": 301.482333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Cold Morning and an Unexpected Arrival and Chapter 2 Finding a Place in the Heart of the Library"
+        },
+        {
+          "startTime": 493.74199999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Place in the Heart of the Library and Chapter 3 The Library as a Community Anchor"
+        },
+        {
+          "startTime": 684.147958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Library as a Community Anchor and Chapter 4 Healing, Hope, and the Power of Connection"
+        },
+        {
+          "startTime": 838.639666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Healing, Hope, and the Power of Connection and Chapter 5 Dewey’s Growing Influence and the Lessons of Small Acts"
+        },
+        {
+          "startTime": 1043.465249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Dewey’s Growing Influence and the Lessons of Small Acts and Chapter 6 Dewey’s Later Years: Aging, Change, and Unwavering Spirit"
+        },
+        {
+          "startTime": 1206.1590410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Dewey’s Later Years: Aging, Change, and Unwavering Spirit and Chapter 7 Farewell and Grieving Together"
+        },
+        {
+          "startTime": 1363.6968330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Farewell and Grieving Together and Chapter 8 The Ripple Effect: Dewey’s Story Spreads"
+        },
+        {
+          "startTime": 1503.8969580000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: Dewey’s Story Spreads and Chapter 9 Lessons for a World Beyond Spencer"
+        },
+        {
+          "startTime": 1625.2858750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for a World Beyond Spencer and Chapter 10 Carrying Dewey’s Spirit Forward"
+        },
+        {
+          "startTime": 1743.8260420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying Dewey’s Spirit Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2852",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:20:41.021Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

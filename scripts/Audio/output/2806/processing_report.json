@@ -1,0 +1,456 @@
+{
+  "bookId": "2806",
+  "timestamp": "2025-07-13T21:01:31.029Z",
+  "success": false,
+  "processingTime": -1752440095935,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4405,
+    "totalAudioFiles": 12,
+    "totalDuration": 1968.4404170000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1968.4404170000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2806/optimized_text/2806.md",
+    "fileSize": 747,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2806.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2806/metadata/2806_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1968.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2806/metadata/2806_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2806/metadata/2806_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2806/2806_complete.wav",
+    "duration": 1968.440417,
+    "fileSize": 94485218,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2806/introduction.wav",
+          "duration": 113.333583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.333583,
+          "startTime": 0,
+          "endTime": 113.333583
+        },
+        {
+          "path": "Audio/output/2806/chapter_01.wav",
+          "duration": 230.391292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Steps Into Combat and the Weight of Unpreparedness",
+          "actualDuration": 230.391292,
+          "startTime": 114.833583,
+          "endTime": 345.224875
+        },
+        {
+          "path": "Audio/output/2806/chapter_02.wav",
+          "duration": 181.999667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of Killing and the Search for Meaning",
+          "actualDuration": 181.999667,
+          "startTime": 346.724875,
+          "endTime": 528.7245419999999
+        },
+        {
+          "path": "Audio/output/2806/chapter_03.wav",
+          "duration": 206.718375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Ritual, Myth, and Preparation in Facing War",
+          "actualDuration": 206.718375,
+          "startTime": 530.2245419999999,
+          "endTime": 736.942917
+        },
+        {
+          "path": "Audio/output/2806/chapter_04.wav",
+          "duration": 190.643375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Divide Between Civilian and Veteran Worlds",
+          "actualDuration": 190.643375,
+          "startTime": 738.442917,
+          "endTime": 929.086292
+        },
+        {
+          "path": "Audio/output/2806/chapter_05.wav",
+          "duration": 180.788208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle to Heal and the Path Toward Integration",
+          "actualDuration": 180.788208,
+          "startTime": 930.586292,
+          "endTime": 1111.3745
+        },
+        {
+          "path": "Audio/output/2806/chapter_06.wav",
+          "duration": 166.461125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Lingering Shadows: Trauma, Memory, and the Unseen Wounds",
+          "actualDuration": 166.461125,
+          "startTime": 1112.8745,
+          "endTime": 1279.335625
+        },
+        {
+          "path": "Audio/output/2806/chapter_07.wav",
+          "duration": 149.588042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Search for Forgiveness and the Weight of Guilt",
+          "actualDuration": 149.588042,
+          "startTime": 1280.835625,
+          "endTime": 1430.423667
+        },
+        {
+          "path": "Audio/output/2806/chapter_08.wav",
+          "duration": 162.172833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Community and the Power of Connection",
+          "actualDuration": 162.172833,
+          "startTime": 1431.923667,
+          "endTime": 1594.0965
+        },
+        {
+          "path": "Audio/output/2806/chapter_09.wav",
+          "duration": 140.847917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Process of Reconciliation and Making Peace",
+          "actualDuration": 140.847917,
+          "startTime": 1595.5965,
+          "endTime": 1736.4444170000002
+        },
+        {
+          "path": "Audio/output/2806/chapter_10.wav",
+          "duration": 123.663833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Call to Remember: Honoring the Experience and Moving Forward",
+          "actualDuration": 123.663833,
+          "startTime": 1737.9444170000002,
+          "endTime": 1861.6082500000002
+        },
+        {
+          "path": "Audio/output/2806/conclusion.wav",
+          "duration": 121.832167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.832167,
+          "startTime": 1863.1082500000002,
+          "endTime": 1984.9404170000003
+        }
+      ],
+      "totalDuration": 1984.9404170000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.33,
+          "actualStart": 0,
+          "actualEnd": 113.333583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Steps Into Combat and the Weight of Unpreparedness",
+          "expectedStart": 113.33,
+          "expectedEnd": 343.72,
+          "actualStart": 114.833583,
+          "actualEnd": 345.224875,
+          "timeDifference": 1.503583000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of Killing and the Search for Meaning",
+          "expectedStart": 343.72,
+          "expectedEnd": 525.72,
+          "actualStart": 346.724875,
+          "actualEnd": 528.7245419999999,
+          "timeDifference": 3.00487499999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Ritual, Myth, and Preparation in Facing War",
+          "expectedStart": 525.72,
+          "expectedEnd": 732.44,
+          "actualStart": 530.2245419999999,
+          "actualEnd": 736.942917,
+          "timeDifference": 4.504541999999901
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Divide Between Civilian and Veteran Worlds",
+          "expectedStart": 732.44,
+          "expectedEnd": 923.08,
+          "actualStart": 738.442917,
+          "actualEnd": 929.086292,
+          "timeDifference": 6.002916999999911
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle to Heal and the Path Toward Integration",
+          "expectedStart": 923.08,
+          "expectedEnd": 1103.87,
+          "actualStart": 930.586292,
+          "actualEnd": 1111.3745,
+          "timeDifference": 7.506291999999917
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Lingering Shadows: Trauma, Memory, and the Unseen Wounds",
+          "expectedStart": 1103.87,
+          "expectedEnd": 1270.33,
+          "actualStart": 1112.8745,
+          "actualEnd": 1279.335625,
+          "timeDifference": 9.004500000000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Search for Forgiveness and the Weight of Guilt",
+          "expectedStart": 1270.33,
+          "expectedEnd": 1419.92,
+          "actualStart": 1280.835625,
+          "actualEnd": 1430.423667,
+          "timeDifference": 10.505625000000009
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Community and the Power of Connection",
+          "expectedStart": 1419.92,
+          "expectedEnd": 1582.09,
+          "actualStart": 1431.923667,
+          "actualEnd": 1594.0965,
+          "timeDifference": 12.00366699999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Process of Reconciliation and Making Peace",
+          "expectedStart": 1582.09,
+          "expectedEnd": 1722.94,
+          "actualStart": 1595.5965,
+          "actualEnd": 1736.4444170000002,
+          "timeDifference": 13.506500000000187
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Call to Remember: Honoring the Experience and Moving Forward",
+          "expectedStart": 1722.94,
+          "expectedEnd": 1846.6,
+          "actualStart": 1737.9444170000002,
+          "actualEnd": 1861.6082500000002,
+          "timeDifference": 15.004417000000103
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1846.6,
+          "expectedEnd": 1968.43,
+          "actualStart": 1863.1082500000002,
+          "actualEnd": 1984.9404170000003,
+          "timeDifference": 16.508250000000317
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.333583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Steps Into Combat and the Weight of Unpreparedness"
+        },
+        {
+          "startTime": 345.224875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Steps Into Combat and the Weight of Unpreparedness and Chapter 2 The Hidden Costs of Killing and the Search for Meaning"
+        },
+        {
+          "startTime": 528.7245419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of Killing and the Search for Meaning and Chapter 3 The Role of Ritual, Myth, and Preparation in Facing War"
+        },
+        {
+          "startTime": 736.942917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Ritual, Myth, and Preparation in Facing War and Chapter 4 The Divide Between Civilian and Veteran Worlds"
+        },
+        {
+          "startTime": 929.086292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Divide Between Civilian and Veteran Worlds and Chapter 5 The Struggle to Heal and the Path Toward Integration"
+        },
+        {
+          "startTime": 1111.3745,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle to Heal and the Path Toward Integration and Chapter 6 The Lingering Shadows: Trauma, Memory, and the Unseen Wounds"
+        },
+        {
+          "startTime": 1279.335625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Lingering Shadows: Trauma, Memory, and the Unseen Wounds and Chapter 7 The Search for Forgiveness and the Weight of Guilt"
+        },
+        {
+          "startTime": 1430.423667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Search for Forgiveness and the Weight of Guilt and Chapter 8 The Role of Community and the Power of Connection"
+        },
+        {
+          "startTime": 1594.0965,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Community and the Power of Connection and Chapter 9 The Ongoing Process of Reconciliation and Making Peace"
+        },
+        {
+          "startTime": 1736.4444170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Process of Reconciliation and Making Peace and Chapter 10 The Call to Remember: Honoring the Experience and Moving Forward"
+        },
+        {
+          "startTime": 1861.6082500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Call to Remember: Honoring the Experience and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2806",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:54:57.539Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

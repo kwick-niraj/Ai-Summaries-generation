@@ -1,0 +1,456 @@
+{
+  "bookId": "2919",
+  "timestamp": "2025-07-14T04:35:38.233Z",
+  "success": false,
+  "processingTime": -1752467404495,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4101,
+    "totalAudioFiles": 12,
+    "totalDuration": 1813.108124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1813.108124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2919/optimized_text/2919.md",
+    "fileSize": 860,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2919.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2919/metadata/2919_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1813.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2919/metadata/2919_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2919/metadata/2919_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2919/2919_complete.wav",
+    "duration": 1813.108125,
+    "fileSize": 87029268,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2919/introduction.wav",
+          "duration": 84.748875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.748875,
+          "startTime": 0,
+          "endTime": 84.748875
+        },
+        {
+          "path": "Audio/output/2919/chapter_01.wav",
+          "duration": 169.014333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Why Tidying Matters and the Power of a Fresh Start",
+          "actualDuration": 169.014333,
+          "startTime": 86.248875,
+          "endTime": 255.263208
+        },
+        {
+          "path": "Audio/output/2919/chapter_02.wav",
+          "duration": 181.163625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Joy Principle—Choosing What to Keep and Letting Go with Respect",
+          "actualDuration": 181.163625,
+          "startTime": 256.76320799999996,
+          "endTime": 437.926833
+        },
+        {
+          "path": "Audio/output/2919/chapter_03.wav",
+          "duration": 190.735,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Tidy by Category, Not by Location—A Systematic Approach to Decluttering",
+          "actualDuration": 190.735,
+          "startTime": 439.426833,
+          "endTime": 630.161833
+        },
+        {
+          "path": "Audio/output/2919/chapter_04.wav",
+          "duration": 181.256708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Art of Storage—Creating Order and Visibility for Lasting Tidiness",
+          "actualDuration": 181.256708,
+          "startTime": 631.661833,
+          "endTime": 812.918541
+        },
+        {
+          "path": "Audio/output/2919/chapter_05.wav",
+          "duration": 163.21075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Emotional Shifts and the Deeper Benefits of a Tidy Home",
+          "actualDuration": 163.21075,
+          "startTime": 814.418541,
+          "endTime": 977.629291
+        },
+        {
+          "path": "Audio/output/2919/chapter_06.wav",
+          "duration": 159.613708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Tidying—Navigating Komono and Sentimental Items with Care",
+          "actualDuration": 159.613708,
+          "startTime": 979.129291,
+          "endTime": 1138.742999
+        },
+        {
+          "path": "Audio/output/2919/chapter_07.wav",
+          "duration": 146.252292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Maintenance—Building Habits for a Lasting Tidy Life",
+          "actualDuration": 146.252292,
+          "startTime": 1140.242999,
+          "endTime": 1286.4952910000002
+        },
+        {
+          "path": "Audio/output/2919/chapter_08.wav",
+          "duration": 110.718958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindful Consumption—Preventing Clutter Before It Starts",
+          "actualDuration": 110.718958,
+          "startTime": 1287.9952910000002,
+          "endTime": 1398.714249
+        },
+        {
+          "path": "Audio/output/2919/chapter_09.wav",
+          "duration": 162.504125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Tidying as a Family or Household—Fostering Shared Responsibility and Harmony",
+          "actualDuration": 162.504125,
+          "startTime": 1400.214249,
+          "endTime": 1562.718374
+        },
+        {
+          "path": "Audio/output/2919/chapter_10.wav",
+          "duration": 147.326125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Joy—Reflections on Living an Intentional, Organized Life",
+          "actualDuration": 147.326125,
+          "startTime": 1564.218374,
+          "endTime": 1711.544499
+        },
+        {
+          "path": "Audio/output/2919/conclusion.wav",
+          "duration": 116.563625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.563625,
+          "startTime": 1713.044499,
+          "endTime": 1829.608124
+        }
+      ],
+      "totalDuration": 1829.608124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.75,
+          "actualStart": 0,
+          "actualEnd": 84.748875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Why Tidying Matters and the Power of a Fresh Start",
+          "expectedStart": 84.75,
+          "expectedEnd": 253.76,
+          "actualStart": 86.248875,
+          "actualEnd": 255.263208,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Joy Principle—Choosing What to Keep and Letting Go with Respect",
+          "expectedStart": 253.76,
+          "expectedEnd": 434.92,
+          "actualStart": 256.76320799999996,
+          "actualEnd": 437.926833,
+          "timeDifference": 3.0032079999999723
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Tidy by Category, Not by Location—A Systematic Approach to Decluttering",
+          "expectedStart": 434.92,
+          "expectedEnd": 625.66,
+          "actualStart": 439.426833,
+          "actualEnd": 630.161833,
+          "timeDifference": 4.506832999999972
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Art of Storage—Creating Order and Visibility for Lasting Tidiness",
+          "expectedStart": 625.66,
+          "expectedEnd": 806.92,
+          "actualStart": 631.661833,
+          "actualEnd": 812.918541,
+          "timeDifference": 6.001833000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Emotional Shifts and the Deeper Benefits of a Tidy Home",
+          "expectedStart": 806.92,
+          "expectedEnd": 970.13,
+          "actualStart": 814.418541,
+          "actualEnd": 977.629291,
+          "timeDifference": 7.498541000000046
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Tidying—Navigating Komono and Sentimental Items with Care",
+          "expectedStart": 970.13,
+          "expectedEnd": 1129.74,
+          "actualStart": 979.129291,
+          "actualEnd": 1138.742999,
+          "timeDifference": 8.999290999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Maintenance—Building Habits for a Lasting Tidy Life",
+          "expectedStart": 1129.74,
+          "expectedEnd": 1275.99,
+          "actualStart": 1140.242999,
+          "actualEnd": 1286.4952910000002,
+          "timeDifference": 10.502999000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindful Consumption—Preventing Clutter Before It Starts",
+          "expectedStart": 1275.99,
+          "expectedEnd": 1386.71,
+          "actualStart": 1287.9952910000002,
+          "actualEnd": 1398.714249,
+          "timeDifference": 12.00529100000017
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Tidying as a Family or Household—Fostering Shared Responsibility and Harmony",
+          "expectedStart": 1386.71,
+          "expectedEnd": 1549.21,
+          "actualStart": 1400.214249,
+          "actualEnd": 1562.718374,
+          "timeDifference": 13.504249000000073
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Joy—Reflections on Living an Intentional, Organized Life",
+          "expectedStart": 1549.21,
+          "expectedEnd": 1696.54,
+          "actualStart": 1564.218374,
+          "actualEnd": 1711.544499,
+          "timeDifference": 15.008374000000003
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1696.54,
+          "expectedEnd": 1813.1,
+          "actualStart": 1713.044499,
+          "actualEnd": 1829.608124,
+          "timeDifference": 16.504499000000123
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.748875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Why Tidying Matters and the Power of a Fresh Start"
+        },
+        {
+          "startTime": 255.263208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Why Tidying Matters and the Power of a Fresh Start and Chapter 2 The Joy Principle—Choosing What to Keep and Letting Go with Respect"
+        },
+        {
+          "startTime": 437.926833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Joy Principle—Choosing What to Keep and Letting Go with Respect and Chapter 3 Tidy by Category, Not by Location—A Systematic Approach to Decluttering"
+        },
+        {
+          "startTime": 630.161833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Tidy by Category, Not by Location—A Systematic Approach to Decluttering and Chapter 4 The Art of Storage—Creating Order and Visibility for Lasting Tidiness"
+        },
+        {
+          "startTime": 812.918541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Art of Storage—Creating Order and Visibility for Lasting Tidiness and Chapter 5 Emotional Shifts and the Deeper Benefits of a Tidy Home"
+        },
+        {
+          "startTime": 977.629291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Emotional Shifts and the Deeper Benefits of a Tidy Home and Chapter 6 Advanced Tidying—Navigating Komono and Sentimental Items with Care"
+        },
+        {
+          "startTime": 1138.742999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Tidying—Navigating Komono and Sentimental Items with Care and Chapter 7 Maintenance—Building Habits for a Lasting Tidy Life"
+        },
+        {
+          "startTime": 1286.4952910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Maintenance—Building Habits for a Lasting Tidy Life and Chapter 8 Mindful Consumption—Preventing Clutter Before It Starts"
+        },
+        {
+          "startTime": 1398.714249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindful Consumption—Preventing Clutter Before It Starts and Chapter 9 Tidying as a Family or Household—Fostering Shared Responsibility and Harmony"
+        },
+        {
+          "startTime": 1562.718374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Tidying as a Family or Household—Fostering Shared Responsibility and Harmony and Chapter 10 Sustaining Joy—Reflections on Living an Intentional, Organized Life"
+        },
+        {
+          "startTime": 1711.544499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Joy—Reflections on Living an Intentional, Organized Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2919",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:30:05.789Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2955",
+  "timestamp": "2025-07-14T07:06:56.331Z",
+  "success": false,
+  "processingTime": -1752476441408,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4702,
+    "totalAudioFiles": 12,
+    "totalDuration": 2000.7683340000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2000.7683340000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2955/optimized_text/2955.md",
+    "fileSize": 790,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2955.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2955/metadata/2955_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2000.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2955/metadata/2955_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2955/metadata/2955_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2955/2955_complete.wav",
+    "duration": 2000.768333,
+    "fileSize": 96036958,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2955/introduction.wav",
+          "duration": 87.121958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.121958,
+          "startTime": 0,
+          "endTime": 87.121958
+        },
+        {
+          "path": "Audio/output/2955/chapter_01.wav",
+          "duration": 232.3185,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life at Sea: The Everyday Risks and Realities of Fishing",
+          "actualDuration": 232.3185,
+          "startTime": 88.621958,
+          "endTime": 320.94045800000004
+        },
+        {
+          "path": "Audio/output/2955/chapter_02.wav",
+          "duration": 235.982125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a Monster Storm: Weather, Science, and Unpredictability",
+          "actualDuration": 235.982125,
+          "startTime": 322.44045800000004,
+          "endTime": 558.422583
+        },
+        {
+          "path": "Audio/output/2955/chapter_03.wav",
+          "duration": 199.090417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Crew’s Final Voyage: Choices, Bonds, and the Weight of Uncertainty",
+          "actualDuration": 199.090417,
+          "startTime": 559.922583,
+          "endTime": 759.013
+        },
+        {
+          "path": "Audio/output/2955/chapter_04.wav",
+          "duration": 193.011167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rescue Efforts and the Limits of Human Technology",
+          "actualDuration": 193.011167,
+          "startTime": 760.513,
+          "endTime": 953.524167
+        },
+        {
+          "path": "Audio/output/2955/chapter_05.wav",
+          "duration": 156.408875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Cost: Grief, Memory, and the Meaning of Risk",
+          "actualDuration": 156.408875,
+          "startTime": 955.024167,
+          "endTime": 1111.4330420000001
+        },
+        {
+          "path": "Audio/output/2955/chapter_06.wav",
+          "duration": 190.178625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces and Searching for Answers",
+          "actualDuration": 190.178625,
+          "startTime": 1112.9330420000001,
+          "endTime": 1303.1116670000001
+        },
+        {
+          "path": "Audio/output/2955/chapter_07.wav",
+          "duration": 165.216167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons from the Deep: How the Storm Changed Maritime Safety",
+          "actualDuration": 165.216167,
+          "startTime": 1304.6116670000001,
+          "endTime": 1469.8278340000002
+        },
+        {
+          "path": "Audio/output/2955/chapter_08.wav",
+          "duration": 158.326208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: How the Storm Touched Lives Far Beyond the Sea",
+          "actualDuration": 158.326208,
+          "startTime": 1471.3278340000002,
+          "endTime": 1629.6540420000001
+        },
+        {
+          "path": "Audio/output/2955/chapter_09.wav",
+          "duration": 128.0615,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory and Meaning: The Storm’s Place in Local Lore",
+          "actualDuration": 128.0615,
+          "startTime": 1631.1540420000001,
+          "endTime": 1759.2155420000001
+        },
+        {
+          "path": "Audio/output/2955/chapter_10.wav",
+          "duration": 148.291042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Connection: Why People Still Go to Sea",
+          "actualDuration": 148.291042,
+          "startTime": 1760.7155420000001,
+          "endTime": 1909.0065840000002
+        },
+        {
+          "path": "Audio/output/2955/conclusion.wav",
+          "duration": 106.76175,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.76175,
+          "startTime": 1910.5065840000002,
+          "endTime": 2017.2683340000003
+        }
+      ],
+      "totalDuration": 2017.2683340000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.12,
+          "actualStart": 0,
+          "actualEnd": 87.121958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life at Sea: The Everyday Risks and Realities of Fishing",
+          "expectedStart": 87.12,
+          "expectedEnd": 319.44,
+          "actualStart": 88.621958,
+          "actualEnd": 320.94045800000004,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a Monster Storm: Weather, Science, and Unpredictability",
+          "expectedStart": 319.44,
+          "expectedEnd": 555.42,
+          "actualStart": 322.44045800000004,
+          "actualEnd": 558.422583,
+          "timeDifference": 3.0004580000000374
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Crew’s Final Voyage: Choices, Bonds, and the Weight of Uncertainty",
+          "expectedStart": 555.42,
+          "expectedEnd": 754.51,
+          "actualStart": 559.922583,
+          "actualEnd": 759.013,
+          "timeDifference": 4.502583000000072
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rescue Efforts and the Limits of Human Technology",
+          "expectedStart": 754.51,
+          "expectedEnd": 947.52,
+          "actualStart": 760.513,
+          "actualEnd": 953.524167,
+          "timeDifference": 6.003000000000043
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Cost: Grief, Memory, and the Meaning of Risk",
+          "expectedStart": 947.52,
+          "expectedEnd": 1103.93,
+          "actualStart": 955.024167,
+          "actualEnd": 1111.4330420000001,
+          "timeDifference": 7.504167000000052
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces and Searching for Answers",
+          "expectedStart": 1103.93,
+          "expectedEnd": 1294.11,
+          "actualStart": 1112.9330420000001,
+          "actualEnd": 1303.1116670000001,
+          "timeDifference": 9.00304200000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons from the Deep: How the Storm Changed Maritime Safety",
+          "expectedStart": 1294.11,
+          "expectedEnd": 1459.33,
+          "actualStart": 1304.6116670000001,
+          "actualEnd": 1469.8278340000002,
+          "timeDifference": 10.501667000000225
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: How the Storm Touched Lives Far Beyond the Sea",
+          "expectedStart": 1459.33,
+          "expectedEnd": 1617.66,
+          "actualStart": 1471.3278340000002,
+          "actualEnd": 1629.6540420000001,
+          "timeDifference": 11.997834000000239
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory and Meaning: The Storm’s Place in Local Lore",
+          "expectedStart": 1617.66,
+          "expectedEnd": 1745.72,
+          "actualStart": 1631.1540420000001,
+          "actualEnd": 1759.2155420000001,
+          "timeDifference": 13.494042000000036
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Connection: Why People Still Go to Sea",
+          "expectedStart": 1745.72,
+          "expectedEnd": 1894.01,
+          "actualStart": 1760.7155420000001,
+          "actualEnd": 1909.0065840000002,
+          "timeDifference": 14.995542000000114
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1894.01,
+          "expectedEnd": 2000.77,
+          "actualStart": 1910.5065840000002,
+          "actualEnd": 2017.2683340000003,
+          "timeDifference": 16.49658400000021
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.121958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life at Sea: The Everyday Risks and Realities of Fishing"
+        },
+        {
+          "startTime": 320.94045800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life at Sea: The Everyday Risks and Realities of Fishing and Chapter 2 The Making of a Monster Storm: Weather, Science, and Unpredictability"
+        },
+        {
+          "startTime": 558.422583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a Monster Storm: Weather, Science, and Unpredictability and Chapter 3 The Crew’s Final Voyage: Choices, Bonds, and the Weight of Uncertainty"
+        },
+        {
+          "startTime": 759.013,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Crew’s Final Voyage: Choices, Bonds, and the Weight of Uncertainty and Chapter 4 Rescue Efforts and the Limits of Human Technology"
+        },
+        {
+          "startTime": 953.524167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rescue Efforts and the Limits of Human Technology and Chapter 5 The Human Cost: Grief, Memory, and the Meaning of Risk"
+        },
+        {
+          "startTime": 1111.4330420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Cost: Grief, Memory, and the Meaning of Risk and Chapter 6 Aftermath: Picking Up the Pieces and Searching for Answers"
+        },
+        {
+          "startTime": 1303.1116670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces and Searching for Answers and Chapter 7 Lessons from the Deep: How the Storm Changed Maritime Safety"
+        },
+        {
+          "startTime": 1469.8278340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons from the Deep: How the Storm Changed Maritime Safety and Chapter 8 The Ripple Effect: How the Storm Touched Lives Far Beyond the Sea"
+        },
+        {
+          "startTime": 1629.6540420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: How the Storm Touched Lives Far Beyond the Sea and Chapter 9 Memory and Meaning: The Storm’s Place in Local Lore"
+        },
+        {
+          "startTime": 1759.2155420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory and Meaning: The Storm’s Place in Local Lore and Chapter 10 The Enduring Connection: Why People Still Go to Sea"
+        },
+        {
+          "startTime": 1909.0065840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Connection: Why People Still Go to Sea and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2955",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:00:41.895Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

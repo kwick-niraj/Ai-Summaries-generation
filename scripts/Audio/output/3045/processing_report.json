@@ -1,0 +1,456 @@
+{
+  "bookId": "3045",
+  "timestamp": "2025-07-14T13:58:59.820Z",
+  "success": false,
+  "processingTime": -1752501170378,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4219,
+    "totalAudioFiles": 12,
+    "totalDuration": 1928.522374
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1928.522374
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3045/optimized_text/3045.md",
+    "fileSize": 666,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3045.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3045/metadata/3045_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1928.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3045/metadata/3045_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3045/metadata/3045_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3045/3045_complete.wav",
+    "duration": 1928.522375,
+    "fileSize": 92569152,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3045/introduction.wav",
+          "duration": 109.799208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.799208,
+          "startTime": 0,
+          "endTime": 109.799208
+        },
+        {
+          "path": "Audio/output/3045/chapter_01.wav",
+          "duration": 226.758125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Long Shadow of Foreign Rule",
+          "actualDuration": 226.758125,
+          "startTime": 111.299208,
+          "endTime": 338.05733299999997
+        },
+        {
+          "path": "Audio/output/3045/chapter_02.wav",
+          "duration": 218.377125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Nationalism and the Birth of Revolution",
+          "actualDuration": 218.377125,
+          "startTime": 339.55733299999997,
+          "endTime": 557.934458
+        },
+        {
+          "path": "Audio/output/3045/chapter_03.wav",
+          "duration": 213.817708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 War for Independence and the Divided Nation",
+          "actualDuration": 213.817708,
+          "startTime": 559.434458,
+          "endTime": 773.252166
+        },
+        {
+          "path": "Audio/output/3045/chapter_04.wav",
+          "duration": 199.472875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 America’s Deepening Involvement and the Road to War",
+          "actualDuration": 199.472875,
+          "startTime": 774.752166,
+          "endTime": 974.2250409999999
+        },
+        {
+          "path": "Audio/output/3045/chapter_05.wav",
+          "duration": 171.052833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Escalation, Stalemate, and the Toll on Society",
+          "actualDuration": 171.052833,
+          "startTime": 975.7250409999999,
+          "endTime": 1146.7778739999999
+        },
+        {
+          "path": "Audio/output/3045/chapter_06.wav",
+          "duration": 175.13725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Turning Tide: Disillusionment and the Search for Peace",
+          "actualDuration": 175.13725,
+          "startTime": 1148.2778739999999,
+          "endTime": 1323.4151239999999
+        },
+        {
+          "path": "Audio/output/3045/chapter_07.wav",
+          "duration": 136.823833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fall of Saigon and the End of an Era",
+          "actualDuration": 136.823833,
+          "startTime": 1324.9151239999999,
+          "endTime": 1461.7389569999998
+        },
+        {
+          "path": "Audio/output/3045/chapter_08.wav",
+          "duration": 139.084792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reunification and the Struggle to Heal",
+          "actualDuration": 139.084792,
+          "startTime": 1463.2389569999998,
+          "endTime": 1602.3237489999997
+        },
+        {
+          "path": "Audio/output/3045/chapter_09.wav",
+          "duration": 129.153792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The War’s Echoes: Memory, Loss, and the Search for Meaning",
+          "actualDuration": 129.153792,
+          "startTime": 1603.8237489999997,
+          "endTime": 1732.9775409999997
+        },
+        {
+          "path": "Audio/output/3045/chapter_10.wav",
+          "duration": 115.999958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons and Legacies: Vietnam and the World",
+          "actualDuration": 115.999958,
+          "startTime": 1734.4775409999997,
+          "endTime": 1850.4774989999999
+        },
+        {
+          "path": "Audio/output/3045/conclusion.wav",
+          "duration": 93.044875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.044875,
+          "startTime": 1851.9774989999999,
+          "endTime": 1945.022374
+        }
+      ],
+      "totalDuration": 1945.022374,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.8,
+          "actualStart": 0,
+          "actualEnd": 109.799208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Long Shadow of Foreign Rule",
+          "expectedStart": 109.8,
+          "expectedEnd": 336.56,
+          "actualStart": 111.299208,
+          "actualEnd": 338.05733299999997,
+          "timeDifference": 1.4992079999999959
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Nationalism and the Birth of Revolution",
+          "expectedStart": 336.56,
+          "expectedEnd": 554.94,
+          "actualStart": 339.55733299999997,
+          "actualEnd": 557.934458,
+          "timeDifference": 2.997332999999969
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 War for Independence and the Divided Nation",
+          "expectedStart": 554.94,
+          "expectedEnd": 768.76,
+          "actualStart": 559.434458,
+          "actualEnd": 773.252166,
+          "timeDifference": 4.494457999999895
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 America’s Deepening Involvement and the Road to War",
+          "expectedStart": 768.76,
+          "expectedEnd": 968.23,
+          "actualStart": 774.752166,
+          "actualEnd": 974.2250409999999,
+          "timeDifference": 5.992165999999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Escalation, Stalemate, and the Toll on Society",
+          "expectedStart": 968.23,
+          "expectedEnd": 1139.28,
+          "actualStart": 975.7250409999999,
+          "actualEnd": 1146.7778739999999,
+          "timeDifference": 7.495040999999901
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Turning Tide: Disillusionment and the Search for Peace",
+          "expectedStart": 1139.28,
+          "expectedEnd": 1314.42,
+          "actualStart": 1148.2778739999999,
+          "actualEnd": 1323.4151239999999,
+          "timeDifference": 8.99787399999991
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fall of Saigon and the End of an Era",
+          "expectedStart": 1314.42,
+          "expectedEnd": 1451.24,
+          "actualStart": 1324.9151239999999,
+          "actualEnd": 1461.7389569999998,
+          "timeDifference": 10.495123999999805
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reunification and the Struggle to Heal",
+          "expectedStart": 1451.24,
+          "expectedEnd": 1590.32,
+          "actualStart": 1463.2389569999998,
+          "actualEnd": 1602.3237489999997,
+          "timeDifference": 11.998956999999791
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The War’s Echoes: Memory, Loss, and the Search for Meaning",
+          "expectedStart": 1590.32,
+          "expectedEnd": 1719.47,
+          "actualStart": 1603.8237489999997,
+          "actualEnd": 1732.9775409999997,
+          "timeDifference": 13.503748999999743
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons and Legacies: Vietnam and the World",
+          "expectedStart": 1719.47,
+          "expectedEnd": 1835.47,
+          "actualStart": 1734.4775409999997,
+          "actualEnd": 1850.4774989999999,
+          "timeDifference": 15.00754099999972
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1835.47,
+          "expectedEnd": 1928.51,
+          "actualStart": 1851.9774989999999,
+          "actualEnd": 1945.022374,
+          "timeDifference": 16.507498999999825
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.799208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Long Shadow of Foreign Rule"
+        },
+        {
+          "startTime": 338.05733299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Long Shadow of Foreign Rule and Chapter 2 The Rise of Nationalism and the Birth of Revolution"
+        },
+        {
+          "startTime": 557.934458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Nationalism and the Birth of Revolution and Chapter 3 War for Independence and the Divided Nation"
+        },
+        {
+          "startTime": 773.252166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 War for Independence and the Divided Nation and Chapter 4 America’s Deepening Involvement and the Road to War"
+        },
+        {
+          "startTime": 974.2250409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 America’s Deepening Involvement and the Road to War and Chapter 5 Escalation, Stalemate, and the Toll on Society"
+        },
+        {
+          "startTime": 1146.7778739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Escalation, Stalemate, and the Toll on Society and Chapter 6 The Turning Tide: Disillusionment and the Search for Peace"
+        },
+        {
+          "startTime": 1323.4151239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Turning Tide: Disillusionment and the Search for Peace and Chapter 7 The Fall of Saigon and the End of an Era"
+        },
+        {
+          "startTime": 1461.7389569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fall of Saigon and the End of an Era and Chapter 8 Reunification and the Struggle to Heal"
+        },
+        {
+          "startTime": 1602.3237489999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reunification and the Struggle to Heal and Chapter 9 The War’s Echoes: Memory, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 1732.9775409999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The War’s Echoes: Memory, Loss, and the Search for Meaning and Chapter 10 Lessons and Legacies: Vietnam and the World"
+        },
+        {
+          "startTime": 1850.4774989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons and Legacies: Vietnam and the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3045",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:52:51.624Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

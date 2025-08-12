@@ -1,0 +1,503 @@
+{
+  "bookId": "2942",
+  "timestamp": "2025-07-14T06:08:29.306Z",
+  "success": false,
+  "processingTime": -1752472768510,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 6047,
+    "totalAudioFiles": 14,
+    "totalDuration": 2682.8720839999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2682.8720839999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2942/optimized_text/2942.md",
+    "fileSize": 923,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "2942.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2942/metadata/2942_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2682.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2942/metadata/2942_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2942/metadata/2942_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2942/2942_complete.wav",
+    "duration": 2682.872083,
+    "fileSize": 128777938,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2942/introduction.wav",
+          "duration": 90.145458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.145458,
+          "startTime": 0,
+          "endTime": 90.145458
+        },
+        {
+          "path": "Audio/output/2942/chapter_01.wav",
+          "duration": 252.333542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Feminism as a Movement for Everyone",
+          "actualDuration": 252.333542,
+          "startTime": 91.645458,
+          "endTime": 343.979
+        },
+        {
+          "path": "Audio/output/2942/chapter_02.wav",
+          "duration": 246.805417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Down Myths and Misunderstandings About Feminism",
+          "actualDuration": 246.805417,
+          "startTime": 345.479,
+          "endTime": 592.284417
+        },
+        {
+          "path": "Audio/output/2942/chapter_03.wav",
+          "duration": 226.621,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Roots of Sexism and the Impact of Patriarchy",
+          "actualDuration": 226.621,
+          "startTime": 593.784417,
+          "endTime": 820.4054169999999
+        },
+        {
+          "path": "Audio/output/2942/chapter_04.wav",
+          "duration": 241.550667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Intersectionality: Addressing Race, Class, and Sexuality in Feminist Politics",
+          "actualDuration": 241.550667,
+          "startTime": 821.9054169999999,
+          "endTime": 1063.456084
+        },
+        {
+          "path": "Audio/output/2942/chapter_05.wav",
+          "duration": 186.531792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Community and Practicing Feminism in Daily Life",
+          "actualDuration": 186.531792,
+          "startTime": 1064.956084,
+          "endTime": 1251.487876
+        },
+        {
+          "path": "Audio/output/2942/chapter_06.wav",
+          "duration": 205.4835,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Feminism and Other Movements: Finding Common Ground",
+          "actualDuration": 205.4835,
+          "startTime": 1252.987876,
+          "endTime": 1458.471376
+        },
+        {
+          "path": "Audio/output/2942/chapter_07.wav",
+          "duration": 183.471583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love as a Political Force: Healing and Transformation",
+          "actualDuration": 183.471583,
+          "startTime": 1459.971376,
+          "endTime": 1643.442959
+        },
+        {
+          "path": "Audio/output/2942/chapter_08.wav",
+          "duration": 189.737417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Men, Masculinity, and the Promise of Feminism",
+          "actualDuration": 189.737417,
+          "startTime": 1644.942959,
+          "endTime": 1834.680376
+        },
+        {
+          "path": "Audio/output/2942/chapter_09.wav",
+          "duration": 197.284583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Feminist Parenting and Education: Raising the Next Generation",
+          "actualDuration": 197.284583,
+          "startTime": 1836.180376,
+          "endTime": 2033.464959
+        },
+        {
+          "path": "Audio/output/2942/chapter_10.wav",
+          "duration": 189.600083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Feminism and Sexuality: Embracing Pleasure, Consent, and Freedom",
+          "actualDuration": 189.600083,
+          "startTime": 2034.964959,
+          "endTime": 2224.5650419999997
+        },
+        {
+          "path": "Audio/output/2942/chapter_11.wav",
+          "duration": 190.666667,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Feminism and Work: Challenging Inequality in the Workplace",
+          "actualDuration": 190.666667,
+          "startTime": 2226.0650419999997,
+          "endTime": 2416.7317089999997
+        },
+        {
+          "path": "Audio/output/2942/chapter_12.wav",
+          "duration": 162.13625,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Sustaining Feminist Activism: Self-Care, Resilience, and Community",
+          "actualDuration": 162.13625,
+          "startTime": 2418.2317089999997,
+          "endTime": 2580.3679589999997
+        },
+        {
+          "path": "Audio/output/2942/conclusion.wav",
+          "duration": 120.504125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.504125,
+          "startTime": 2581.8679589999997,
+          "endTime": 2702.3720839999996
+        }
+      ],
+      "totalDuration": 2702.3720839999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.15,
+          "actualStart": 0,
+          "actualEnd": 90.145458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Feminism as a Movement for Everyone",
+          "expectedStart": 90.15,
+          "expectedEnd": 342.48,
+          "actualStart": 91.645458,
+          "actualEnd": 343.979,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Down Myths and Misunderstandings About Feminism",
+          "expectedStart": 342.48,
+          "expectedEnd": 589.29,
+          "actualStart": 345.479,
+          "actualEnd": 592.284417,
+          "timeDifference": 2.998999999999967
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Roots of Sexism and the Impact of Patriarchy",
+          "expectedStart": 589.29,
+          "expectedEnd": 815.91,
+          "actualStart": 593.784417,
+          "actualEnd": 820.4054169999999,
+          "timeDifference": 4.4944169999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Intersectionality: Addressing Race, Class, and Sexuality in Feminist Politics",
+          "expectedStart": 815.91,
+          "expectedEnd": 1057.46,
+          "actualStart": 821.9054169999999,
+          "actualEnd": 1063.456084,
+          "timeDifference": 5.995416999999975
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Community and Practicing Feminism in Daily Life",
+          "expectedStart": 1057.46,
+          "expectedEnd": 1243.99,
+          "actualStart": 1064.956084,
+          "actualEnd": 1251.487876,
+          "timeDifference": 7.4960839999998825
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Feminism and Other Movements: Finding Common Ground",
+          "expectedStart": 1243.99,
+          "expectedEnd": 1449.47,
+          "actualStart": 1252.987876,
+          "actualEnd": 1458.471376,
+          "timeDifference": 8.997875999999906
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love as a Political Force: Healing and Transformation",
+          "expectedStart": 1449.47,
+          "expectedEnd": 1632.94,
+          "actualStart": 1459.971376,
+          "actualEnd": 1643.442959,
+          "timeDifference": 10.501375999999937
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Men, Masculinity, and the Promise of Feminism",
+          "expectedStart": 1632.94,
+          "expectedEnd": 1822.68,
+          "actualStart": 1644.942959,
+          "actualEnd": 1834.680376,
+          "timeDifference": 12.002958999999919
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Feminist Parenting and Education: Raising the Next Generation",
+          "expectedStart": 1822.68,
+          "expectedEnd": 2019.96,
+          "actualStart": 1836.180376,
+          "actualEnd": 2033.464959,
+          "timeDifference": 13.50037599999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Feminism and Sexuality: Embracing Pleasure, Consent, and Freedom",
+          "expectedStart": 2019.96,
+          "expectedEnd": 2209.56,
+          "actualStart": 2034.964959,
+          "actualEnd": 2224.5650419999997,
+          "timeDifference": 15.004958999999872
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Feminism and Work: Challenging Inequality in the Workplace",
+          "expectedStart": 2209.56,
+          "expectedEnd": 2400.23,
+          "actualStart": 2226.0650419999997,
+          "actualEnd": 2416.7317089999997,
+          "timeDifference": 16.505041999999776
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Sustaining Feminist Activism: Self-Care, Resilience, and Community",
+          "expectedStart": 2400.23,
+          "expectedEnd": 2562.37,
+          "actualStart": 2418.2317089999997,
+          "actualEnd": 2580.3679589999997,
+          "timeDifference": 18.001708999999664
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2562.37,
+          "expectedEnd": 2682.87,
+          "actualStart": 2581.8679589999997,
+          "actualEnd": 2702.3720839999996,
+          "timeDifference": 19.49795899999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.145458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Feminism as a Movement for Everyone"
+        },
+        {
+          "startTime": 343.979,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Feminism as a Movement for Everyone and Chapter 2 Breaking Down Myths and Misunderstandings About Feminism"
+        },
+        {
+          "startTime": 592.284417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Down Myths and Misunderstandings About Feminism and Chapter 3 The Roots of Sexism and the Impact of Patriarchy"
+        },
+        {
+          "startTime": 820.4054169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Roots of Sexism and the Impact of Patriarchy and Chapter 4 Intersectionality: Addressing Race, Class, and Sexuality in Feminist Politics"
+        },
+        {
+          "startTime": 1063.456084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Intersectionality: Addressing Race, Class, and Sexuality in Feminist Politics and Chapter 5 Building Community and Practicing Feminism in Daily Life"
+        },
+        {
+          "startTime": 1251.487876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Community and Practicing Feminism in Daily Life and Chapter 6 Feminism and Other Movements: Finding Common Ground"
+        },
+        {
+          "startTime": 1458.471376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Feminism and Other Movements: Finding Common Ground and Chapter 7 Love as a Political Force: Healing and Transformation"
+        },
+        {
+          "startTime": 1643.442959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love as a Political Force: Healing and Transformation and Chapter 8 Men, Masculinity, and the Promise of Feminism"
+        },
+        {
+          "startTime": 1834.680376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Men, Masculinity, and the Promise of Feminism and Chapter 9 Feminist Parenting and Education: Raising the Next Generation"
+        },
+        {
+          "startTime": 2033.464959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Feminist Parenting and Education: Raising the Next Generation and Chapter 10 Feminism and Sexuality: Embracing Pleasure, Consent, and Freedom"
+        },
+        {
+          "startTime": 2224.5650419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Feminism and Sexuality: Embracing Pleasure, Consent, and Freedom and Chapter 11 Feminism and Work: Challenging Inequality in the Workplace"
+        },
+        {
+          "startTime": 2416.7317089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Feminism and Work: Challenging Inequality in the Workplace and Chapter 12 Sustaining Feminist Activism: Self-Care, Resilience, and Community"
+        },
+        {
+          "startTime": 2580.3679589999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Sustaining Feminist Activism: Self-Care, Resilience, and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2942",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:59:29.703Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

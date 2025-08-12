@@ -1,0 +1,456 @@
+{
+  "bookId": "2934",
+  "timestamp": "2025-07-14T05:27:15.014Z",
+  "success": false,
+  "processingTime": -1752470458800,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4428,
+    "totalAudioFiles": 12,
+    "totalDuration": 1888.7186249999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1888.7186249999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2934/optimized_text/2934.md",
+    "fileSize": 566,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "2934.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2934/metadata/2934_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1888.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2934/metadata/2934_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2934/metadata/2934_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2934/2934_complete.wav",
+    "duration": 1888.718625,
+    "fileSize": 90658572,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2934/introduction.wav",
+          "duration": 103.389833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.389833,
+          "startTime": 0,
+          "endTime": 103.389833
+        },
+        {
+          "path": "Audio/output/2934/chapter_01.wav",
+          "duration": 201.323542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Two Worlds Meet in a Hospital Room",
+          "actualDuration": 201.323542,
+          "startTime": 104.889833,
+          "endTime": 306.213375
+        },
+        {
+          "path": "Audio/output/2934/chapter_02.wav",
+          "duration": 223.306208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hmong Journey and the Weight of History",
+          "actualDuration": 223.306208,
+          "startTime": 307.713375,
+          "endTime": 531.019583
+        },
+        {
+          "path": "Audio/output/2934/chapter_03.wav",
+          "duration": 183.4015,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 When Beliefs About Illness Collide",
+          "actualDuration": 183.4015,
+          "startTime": 532.519583,
+          "endTime": 715.921083
+        },
+        {
+          "path": "Audio/output/2934/chapter_04.wav",
+          "duration": 187.533667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Language and the Cost of Misunderstanding",
+          "actualDuration": 187.533667,
+          "startTime": 717.421083,
+          "endTime": 904.95475
+        },
+        {
+          "path": "Audio/output/2934/chapter_05.wav",
+          "duration": 195.678042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle for Control and the Search for Compassion",
+          "actualDuration": 195.678042,
+          "startTime": 906.45475,
+          "endTime": 1102.1327919999999
+        },
+        {
+          "path": "Audio/output/2934/chapter_06.wav",
+          "duration": 140.715833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath and the Weight of Decisions",
+          "actualDuration": 140.715833,
+          "startTime": 1103.6327919999999,
+          "endTime": 1244.3486249999999
+        },
+        {
+          "path": "Audio/output/2934/chapter_07.wav",
+          "duration": 145.134875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons in Listening",
+          "actualDuration": 145.134875,
+          "startTime": 1245.8486249999999,
+          "endTime": 1390.9834999999998
+        },
+        {
+          "path": "Audio/output/2934/chapter_08.wav",
+          "duration": 145.687083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—Changing the System",
+          "actualDuration": 145.687083,
+          "startTime": 1392.4834999999998,
+          "endTime": 1538.1705829999999
+        },
+        {
+          "path": "Audio/output/2934/chapter_09.wav",
+          "duration": 136.572792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Meaning of Healing",
+          "actualDuration": 136.572792,
+          "startTime": 1539.6705829999999,
+          "endTime": 1676.2433749999998
+        },
+        {
+          "path": "Audio/output/2934/chapter_10.wav",
+          "duration": 86.341208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a New Kind of Care",
+          "actualDuration": 86.341208,
+          "startTime": 1677.7433749999998,
+          "endTime": 1764.0845829999998
+        },
+        {
+          "path": "Audio/output/2934/conclusion.wav",
+          "duration": 139.634042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.634042,
+          "startTime": 1765.5845829999998,
+          "endTime": 1905.2186249999997
+        }
+      ],
+      "totalDuration": 1905.2186249999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.39,
+          "actualStart": 0,
+          "actualEnd": 103.389833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Two Worlds Meet in a Hospital Room",
+          "expectedStart": 103.39,
+          "expectedEnd": 304.71,
+          "actualStart": 104.889833,
+          "actualEnd": 306.213375,
+          "timeDifference": 1.4998329999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hmong Journey and the Weight of History",
+          "expectedStart": 304.71,
+          "expectedEnd": 528.02,
+          "actualStart": 307.713375,
+          "actualEnd": 531.019583,
+          "timeDifference": 3.0033750000000055
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 When Beliefs About Illness Collide",
+          "expectedStart": 528.02,
+          "expectedEnd": 711.42,
+          "actualStart": 532.519583,
+          "actualEnd": 715.921083,
+          "timeDifference": 4.49958300000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Language and the Cost of Misunderstanding",
+          "expectedStart": 711.42,
+          "expectedEnd": 898.95,
+          "actualStart": 717.421083,
+          "actualEnd": 904.95475,
+          "timeDifference": 6.001082999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle for Control and the Search for Compassion",
+          "expectedStart": 898.95,
+          "expectedEnd": 1094.63,
+          "actualStart": 906.45475,
+          "actualEnd": 1102.1327919999999,
+          "timeDifference": 7.5047499999999445
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath and the Weight of Decisions",
+          "expectedStart": 1094.63,
+          "expectedEnd": 1235.35,
+          "actualStart": 1103.6327919999999,
+          "actualEnd": 1244.3486249999999,
+          "timeDifference": 9.002791999999772
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons in Listening",
+          "expectedStart": 1235.35,
+          "expectedEnd": 1380.48,
+          "actualStart": 1245.8486249999999,
+          "actualEnd": 1390.9834999999998,
+          "timeDifference": 10.498624999999947
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—Changing the System",
+          "expectedStart": 1380.48,
+          "expectedEnd": 1526.17,
+          "actualStart": 1392.4834999999998,
+          "actualEnd": 1538.1705829999999,
+          "timeDifference": 12.003499999999804
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Meaning of Healing",
+          "expectedStart": 1526.17,
+          "expectedEnd": 1662.74,
+          "actualStart": 1539.6705829999999,
+          "actualEnd": 1676.2433749999998,
+          "timeDifference": 13.500582999999779
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a New Kind of Care",
+          "expectedStart": 1662.74,
+          "expectedEnd": 1749.08,
+          "actualStart": 1677.7433749999998,
+          "actualEnd": 1764.0845829999998,
+          "timeDifference": 15.003374999999778
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1749.08,
+          "expectedEnd": 1888.71,
+          "actualStart": 1765.5845829999998,
+          "actualEnd": 1905.2186249999997,
+          "timeDifference": 16.50458299999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.389833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Two Worlds Meet in a Hospital Room"
+        },
+        {
+          "startTime": 306.213375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Two Worlds Meet in a Hospital Room and Chapter 2 The Hmong Journey and the Weight of History"
+        },
+        {
+          "startTime": 531.019583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hmong Journey and the Weight of History and Chapter 3 When Beliefs About Illness Collide"
+        },
+        {
+          "startTime": 715.921083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 When Beliefs About Illness Collide and Chapter 4 The Limits of Language and the Cost of Misunderstanding"
+        },
+        {
+          "startTime": 904.95475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Language and the Cost of Misunderstanding and Chapter 5 The Struggle for Control and the Search for Compassion"
+        },
+        {
+          "startTime": 1102.1327919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle for Control and the Search for Compassion and Chapter 6 Aftermath and the Weight of Decisions"
+        },
+        {
+          "startTime": 1244.3486249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath and the Weight of Decisions and Chapter 7 Lessons in Listening"
+        },
+        {
+          "startTime": 1390.9834999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons in Listening and Chapter 8 The Ripple Effect—Changing the System"
+        },
+        {
+          "startTime": 1538.1705829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—Changing the System and Chapter 9 The Meaning of Healing"
+        },
+        {
+          "startTime": 1676.2433749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Meaning of Healing and Chapter 10 Toward a New Kind of Care"
+        },
+        {
+          "startTime": 1764.0845829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a New Kind of Care and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2934",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:21:00.079Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

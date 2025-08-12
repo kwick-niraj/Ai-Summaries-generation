@@ -1,0 +1,456 @@
+{
+  "bookId": "2830",
+  "timestamp": "2025-07-13T22:53:19.158Z",
+  "success": false,
+  "processingTime": -1752446922369,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4561,
+    "totalAudioFiles": 12,
+    "totalDuration": 2158.0481240000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2158.0481240000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2830/optimized_text/2830.md",
+    "fileSize": 723,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2830.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2830/metadata/2830_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2158.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2830/metadata/2830_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2830/metadata/2830_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2830/2830_complete.wav",
+    "duration": 2158.048125,
+    "fileSize": 103586388,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2830/introduction.wav",
+          "duration": 120.336708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 120.336708,
+          "startTime": 0,
+          "endTime": 120.336708
+        },
+        {
+          "path": "Audio/output/2830/chapter_01.wav",
+          "duration": 206.525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Patterns in Art, Music, and Mathematics",
+          "actualDuration": 206.525,
+          "startTime": 121.836708,
+          "endTime": 328.361708
+        },
+        {
+          "path": "Audio/output/2830/chapter_02.wav",
+          "duration": 224.06575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Paradox of Self-Reference",
+          "actualDuration": 224.06575,
+          "startTime": 329.861708,
+          "endTime": 553.927458
+        },
+        {
+          "path": "Audio/output/2830/chapter_03.wav",
+          "duration": 240.728375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Strange Loops and the Emergence of Meaning",
+          "actualDuration": 240.728375,
+          "startTime": 555.427458,
+          "endTime": 796.155833
+        },
+        {
+          "path": "Audio/output/2830/chapter_04.wav",
+          "duration": 219.728958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Formal Systems and the Birth of Incompleteness",
+          "actualDuration": 219.728958,
+          "startTime": 797.655833,
+          "endTime": 1017.3847910000001
+        },
+        {
+          "path": "Audio/output/2830/chapter_05.wav",
+          "duration": 202.717625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Parallels Between Minds, Machines, and Meaning",
+          "actualDuration": 202.717625,
+          "startTime": 1018.8847910000001,
+          "endTime": 1221.6024160000002
+        },
+        {
+          "path": "Audio/output/2830/chapter_06.wav",
+          "duration": 197.314375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Emergence of Intelligence from Simple Rules",
+          "actualDuration": 197.314375,
+          "startTime": 1223.1024160000002,
+          "endTime": 1420.416791
+        },
+        {
+          "path": "Audio/output/2830/chapter_07.wav",
+          "duration": 175.011167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Nature of Consciousness—A Strange Loop Within",
+          "actualDuration": 175.011167,
+          "startTime": 1421.916791,
+          "endTime": 1596.9279580000002
+        },
+        {
+          "path": "Audio/output/2830/chapter_08.wav",
+          "duration": 150.611875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Can Machines Have Minds? The Challenge of Artificial Consciousness",
+          "actualDuration": 150.611875,
+          "startTime": 1598.4279580000002,
+          "endTime": 1749.0398330000003
+        },
+        {
+          "path": "Audio/output/2830/chapter_09.wav",
+          "duration": 156.013333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dance of Meaning—How Systems Create Themselves",
+          "actualDuration": 156.013333,
+          "startTime": 1750.5398330000003,
+          "endTime": 1906.5531660000001
+        },
+        {
+          "path": "Audio/output/2830/chapter_10.wav",
+          "duration": 135.150458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Unified Vision—Gödel, Escher, Bach, and the Mystery of Mind",
+          "actualDuration": 135.150458,
+          "startTime": 1908.0531660000001,
+          "endTime": 2043.2036240000002
+        },
+        {
+          "path": "Audio/output/2830/conclusion.wav",
+          "duration": 129.8445,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.8445,
+          "startTime": 2044.7036240000002,
+          "endTime": 2174.5481240000004
+        }
+      ],
+      "totalDuration": 2174.5481240000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 120.34,
+          "actualStart": 0,
+          "actualEnd": 120.336708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Patterns in Art, Music, and Mathematics",
+          "expectedStart": 120.34,
+          "expectedEnd": 326.87,
+          "actualStart": 121.836708,
+          "actualEnd": 328.361708,
+          "timeDifference": 1.4967079999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Paradox of Self-Reference",
+          "expectedStart": 326.87,
+          "expectedEnd": 550.94,
+          "actualStart": 329.861708,
+          "actualEnd": 553.927458,
+          "timeDifference": 2.991708000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Strange Loops and the Emergence of Meaning",
+          "expectedStart": 550.94,
+          "expectedEnd": 791.67,
+          "actualStart": 555.427458,
+          "actualEnd": 796.155833,
+          "timeDifference": 4.487457999999947
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Formal Systems and the Birth of Incompleteness",
+          "expectedStart": 791.67,
+          "expectedEnd": 1011.4,
+          "actualStart": 797.655833,
+          "actualEnd": 1017.3847910000001,
+          "timeDifference": 5.985833000000071
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Parallels Between Minds, Machines, and Meaning",
+          "expectedStart": 1011.4,
+          "expectedEnd": 1214.12,
+          "actualStart": 1018.8847910000001,
+          "actualEnd": 1221.6024160000002,
+          "timeDifference": 7.484791000000087
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Emergence of Intelligence from Simple Rules",
+          "expectedStart": 1214.12,
+          "expectedEnd": 1411.43,
+          "actualStart": 1223.1024160000002,
+          "actualEnd": 1420.416791,
+          "timeDifference": 8.982416000000285
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Nature of Consciousness—A Strange Loop Within",
+          "expectedStart": 1411.43,
+          "expectedEnd": 1586.44,
+          "actualStart": 1421.916791,
+          "actualEnd": 1596.9279580000002,
+          "timeDifference": 10.48679100000004
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Can Machines Have Minds? The Challenge of Artificial Consciousness",
+          "expectedStart": 1586.44,
+          "expectedEnd": 1737.05,
+          "actualStart": 1598.4279580000002,
+          "actualEnd": 1749.0398330000003,
+          "timeDifference": 11.987958000000162
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dance of Meaning—How Systems Create Themselves",
+          "expectedStart": 1737.05,
+          "expectedEnd": 1893.06,
+          "actualStart": 1750.5398330000003,
+          "actualEnd": 1906.5531660000001,
+          "timeDifference": 13.489833000000317
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Unified Vision—Gödel, Escher, Bach, and the Mystery of Mind",
+          "expectedStart": 1893.06,
+          "expectedEnd": 2028.21,
+          "actualStart": 1908.0531660000001,
+          "actualEnd": 2043.2036240000002,
+          "timeDifference": 14.993166000000201
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2028.21,
+          "expectedEnd": 2158.05,
+          "actualStart": 2044.7036240000002,
+          "actualEnd": 2174.5481240000004,
+          "timeDifference": 16.49362400000018
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 120.336708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Patterns in Art, Music, and Mathematics"
+        },
+        {
+          "startTime": 328.361708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Patterns in Art, Music, and Mathematics and Chapter 2 The Power and Paradox of Self-Reference"
+        },
+        {
+          "startTime": 553.927458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Paradox of Self-Reference and Chapter 3 Strange Loops and the Emergence of Meaning"
+        },
+        {
+          "startTime": 796.155833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Strange Loops and the Emergence of Meaning and Chapter 4 The Limits of Formal Systems and the Birth of Incompleteness"
+        },
+        {
+          "startTime": 1017.3847910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Formal Systems and the Birth of Incompleteness and Chapter 5 Parallels Between Minds, Machines, and Meaning"
+        },
+        {
+          "startTime": 1221.6024160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Parallels Between Minds, Machines, and Meaning and Chapter 6 The Emergence of Intelligence from Simple Rules"
+        },
+        {
+          "startTime": 1420.416791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Emergence of Intelligence from Simple Rules and Chapter 7 The Nature of Consciousness—A Strange Loop Within"
+        },
+        {
+          "startTime": 1596.9279580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Nature of Consciousness—A Strange Loop Within and Chapter 8 Can Machines Have Minds? The Challenge of Artificial Consciousness"
+        },
+        {
+          "startTime": 1749.0398330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Can Machines Have Minds? The Challenge of Artificial Consciousness and Chapter 9 The Dance of Meaning—How Systems Create Themselves"
+        },
+        {
+          "startTime": 1906.5531660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dance of Meaning—How Systems Create Themselves and Chapter 10 The Unified Vision—Gödel, Escher, Bach, and the Mystery of Mind"
+        },
+        {
+          "startTime": 2043.2036240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Unified Vision—Gödel, Escher, Bach, and the Mystery of Mind and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2830",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:48:42.849Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

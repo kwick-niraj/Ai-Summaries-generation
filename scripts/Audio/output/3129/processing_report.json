@@ -1,0 +1,455 @@
+{
+  "bookId": "3129",
+  "timestamp": "2025-07-14T20:35:54.727Z",
+  "success": false,
+  "processingTime": -1752524891099,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4520,
+    "totalAudioFiles": 12,
+    "totalDuration": 1954.0588340000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1954.0588340000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3129/optimized_text/3129.md",
+    "fileSize": 875,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "3129.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3129/metadata/3129_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1954.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3129/metadata/3129_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3129/metadata/3129_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3129/3129_complete.wav",
+    "duration": 1954.058833,
+    "fileSize": 93794902,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3129/introduction.wav",
+          "duration": 83.201958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.201958,
+          "startTime": 0,
+          "endTime": 83.201958
+        },
+        {
+          "path": "Audio/output/3129/chapter_01.wav",
+          "duration": 200.633042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up With Contradictions: Early Lessons in Identity and Belonging",
+          "actualDuration": 200.633042,
+          "startTime": 84.701958,
+          "endTime": 285.335
+        },
+        {
+          "path": "Audio/output/3129/chapter_02.wav",
+          "duration": 227.807625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Faces of Feminism: Embracing Imperfection and Complexity",
+          "actualDuration": 227.807625,
+          "startTime": 286.835,
+          "endTime": 514.642625
+        },
+        {
+          "path": "Audio/output/3129/chapter_03.wav",
+          "duration": 228.1155,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Pop Culture, Pleasure, and the Problem of Representation",
+          "actualDuration": 228.1155,
+          "startTime": 516.142625,
+          "endTime": 744.258125
+        },
+        {
+          "path": "Audio/output/3129/chapter_04.wav",
+          "duration": 188.477167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Intersectionality and the Realities of Privilege and Marginalization",
+          "actualDuration": 188.477167,
+          "startTime": 745.758125,
+          "endTime": 934.235292
+        },
+        {
+          "path": "Audio/output/3129/chapter_05.wav",
+          "duration": 164.393167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Vulnerability, Perfectionism, and the Courage to Be Authentic",
+          "actualDuration": 164.393167,
+          "startTime": 935.735292,
+          "endTime": 1100.128459
+        },
+        {
+          "path": "Audio/output/3129/chapter_06.wav",
+          "duration": 175.421208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Personal Costs of Speaking Up: Fatigue, Backlash, and the Weight of Activism",
+          "actualDuration": 175.421208,
+          "startTime": 1101.628459,
+          "endTime": 1277.049667
+        },
+        {
+          "path": "Audio/output/3129/chapter_07.wav",
+          "duration": 176.421292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Negotiating With Pop Culture: Joy, Critique, and the Search for Better Stories",
+          "actualDuration": 176.421292,
+          "startTime": 1278.549667,
+          "endTime": 1454.970959
+        },
+        {
+          "path": "Audio/output/3129/chapter_08.wav",
+          "duration": 146.480042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community, Solidarity, and the Power of Imperfect Progress",
+          "actualDuration": 146.480042,
+          "startTime": 1456.470959,
+          "endTime": 1602.951001
+        },
+        {
+          "path": "Audio/output/3129/chapter_09.wav",
+          "duration": 114.5605,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Hope, Humor, and the Everyday Acts of Resistance",
+          "actualDuration": 114.5605,
+          "startTime": 1604.451001,
+          "endTime": 1719.011501
+        },
+        {
+          "path": "Audio/output/3129/chapter_10.wav",
+          "duration": 124.639458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Embracing Contradiction, Growth, and the “Bad Feminist” Within",
+          "actualDuration": 124.639458,
+          "startTime": 1720.511501,
+          "endTime": 1845.150959
+        },
+        {
+          "path": "Audio/output/3129/conclusion.wav",
+          "duration": 123.907875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.907875,
+          "startTime": 1846.650959,
+          "endTime": 1970.5588340000002
+        }
+      ],
+      "totalDuration": 1970.5588340000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.2,
+          "actualStart": 0,
+          "actualEnd": 83.201958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up With Contradictions: Early Lessons in Identity and Belonging",
+          "expectedStart": 83.2,
+          "expectedEnd": 283.83,
+          "actualStart": 84.701958,
+          "actualEnd": 285.335,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Faces of Feminism: Embracing Imperfection and Complexity",
+          "expectedStart": 283.83,
+          "expectedEnd": 511.64,
+          "actualStart": 286.835,
+          "actualEnd": 514.642625,
+          "timeDifference": 3.0049999999999955
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Pop Culture, Pleasure, and the Problem of Representation",
+          "expectedStart": 511.64,
+          "expectedEnd": 739.76,
+          "actualStart": 516.142625,
+          "actualEnd": 744.258125,
+          "timeDifference": 4.502624999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Intersectionality and the Realities of Privilege and Marginalization",
+          "expectedStart": 739.76,
+          "expectedEnd": 928.24,
+          "actualStart": 745.758125,
+          "actualEnd": 934.235292,
+          "timeDifference": 5.998124999999959
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Vulnerability, Perfectionism, and the Courage to Be Authentic",
+          "expectedStart": 928.24,
+          "expectedEnd": 1092.63,
+          "actualStart": 935.735292,
+          "actualEnd": 1100.128459,
+          "timeDifference": 7.495291999999949
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Personal Costs of Speaking Up: Fatigue, Backlash, and the Weight of Activism",
+          "expectedStart": 1092.63,
+          "expectedEnd": 1268.05,
+          "actualStart": 1101.628459,
+          "actualEnd": 1277.049667,
+          "timeDifference": 8.998458999999912
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Negotiating With Pop Culture: Joy, Critique, and the Search for Better Stories",
+          "expectedStart": 1268.05,
+          "expectedEnd": 1444.47,
+          "actualStart": 1278.549667,
+          "actualEnd": 1454.970959,
+          "timeDifference": 10.499667000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community, Solidarity, and the Power of Imperfect Progress",
+          "expectedStart": 1444.47,
+          "expectedEnd": 1590.95,
+          "actualStart": 1456.470959,
+          "actualEnd": 1602.951001,
+          "timeDifference": 12.000958999999966
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Hope, Humor, and the Everyday Acts of Resistance",
+          "expectedStart": 1590.95,
+          "expectedEnd": 1705.51,
+          "actualStart": 1604.451001,
+          "actualEnd": 1719.011501,
+          "timeDifference": 13.50100099999986
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Embracing Contradiction, Growth, and the “Bad Feminist” Within",
+          "expectedStart": 1705.51,
+          "expectedEnd": 1830.15,
+          "actualStart": 1720.511501,
+          "actualEnd": 1845.150959,
+          "timeDifference": 15.001500999999962
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1830.15,
+          "expectedEnd": 1954.06,
+          "actualStart": 1846.650959,
+          "actualEnd": 1970.5588340000002,
+          "timeDifference": 16.500958999999966
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.201958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up With Contradictions: Early Lessons in Identity and Belonging"
+        },
+        {
+          "startTime": 285.335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up With Contradictions: Early Lessons in Identity and Belonging and Chapter 2 The Many Faces of Feminism: Embracing Imperfection and Complexity"
+        },
+        {
+          "startTime": 514.642625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Faces of Feminism: Embracing Imperfection and Complexity and Chapter 3 Pop Culture, Pleasure, and the Problem of Representation"
+        },
+        {
+          "startTime": 744.258125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Pop Culture, Pleasure, and the Problem of Representation and Chapter 4 Intersectionality and the Realities of Privilege and Marginalization"
+        },
+        {
+          "startTime": 934.235292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Intersectionality and the Realities of Privilege and Marginalization and Chapter 5 Vulnerability, Perfectionism, and the Courage to Be Authentic"
+        },
+        {
+          "startTime": 1100.128459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Vulnerability, Perfectionism, and the Courage to Be Authentic and Chapter 6 The Personal Costs of Speaking Up: Fatigue, Backlash, and the Weight of Activism"
+        },
+        {
+          "startTime": 1277.049667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Personal Costs of Speaking Up: Fatigue, Backlash, and the Weight of Activism and Chapter 7 Negotiating With Pop Culture: Joy, Critique, and the Search for Better Stories"
+        },
+        {
+          "startTime": 1454.970959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Negotiating With Pop Culture: Joy, Critique, and the Search for Better Stories and Chapter 8 Community, Solidarity, and the Power of Imperfect Progress"
+        },
+        {
+          "startTime": 1602.951001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community, Solidarity, and the Power of Imperfect Progress and Chapter 9 Hope, Humor, and the Everyday Acts of Resistance"
+        },
+        {
+          "startTime": 1719.011501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Hope, Humor, and the Everyday Acts of Resistance and Chapter 10 The Ongoing Journey: Embracing Contradiction, Growth, and the “Bad Feminist” Within"
+        },
+        {
+          "startTime": 1845.150959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Embracing Contradiction, Growth, and the “Bad Feminist” Within and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3129",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:28:11.122Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

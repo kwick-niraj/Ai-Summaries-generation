@@ -1,0 +1,528 @@
+{
+  "bookId": "2818",
+  "timestamp": "2025-07-13T22:01:41.968Z",
+  "success": false,
+  "processingTime": -1752443634497,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 3826,
+    "totalAudioFiles": 15,
+    "totalDuration": 2141.499875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2141.499875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2818/optimized_text/2818.md",
+    "fileSize": 1012,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2818.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2818/metadata/2818_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2141.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2818/metadata/2818_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2818/metadata/2818_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2818/2818_complete.wav",
+    "duration": 2141.499875,
+    "fileSize": 102792072,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2818/introduction.wav",
+          "duration": 89.724667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.724667,
+          "startTime": 0,
+          "endTime": 89.724667
+        },
+        {
+          "path": "Audio/output/2818/chapter_01.wav",
+          "duration": 184.353458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Groundwork—Why Connection Comes Before Content",
+          "actualDuration": 184.353458,
+          "startTime": 91.224667,
+          "endTime": 275.578125
+        },
+        {
+          "path": "Audio/output/2818/chapter_02.wav",
+          "duration": 187.819292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Clarity—Making Messages Simple and Memorable",
+          "actualDuration": 187.819292,
+          "startTime": 277.078125,
+          "endTime": 464.897417
+        },
+        {
+          "path": "Audio/output/2818/chapter_03.wav",
+          "duration": 170.341458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Trust—Authenticity, Vulnerability, and Credibility",
+          "actualDuration": 170.341458,
+          "startTime": 466.397417,
+          "endTime": 636.738875
+        },
+        {
+          "path": "Audio/output/2818/chapter_04.wav",
+          "duration": 170.480125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Art of Engagement—Storytelling, Passion, and Audience Involvement",
+          "actualDuration": 170.480125,
+          "startTime": 638.238875,
+          "endTime": 808.719
+        },
+        {
+          "path": "Audio/output/2818/chapter_05.wav",
+          "duration": 173.902167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Preparation, Feedback, and Continuous Improvement",
+          "actualDuration": 173.902167,
+          "startTime": 810.219,
+          "endTime": 984.121167
+        },
+        {
+          "path": "Audio/output/2818/chapter_06.wav",
+          "duration": 68.506625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Transition to the Next Half",
+          "actualDuration": 68.506625,
+          "startTime": 985.621167,
+          "endTime": 1054.127792
+        },
+        {
+          "path": "Audio/output/2818/chapter_07.wav",
+          "duration": 145.606042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 6 Adapting to the Audience—Flexibility and Context Awareness",
+          "actualDuration": 145.606042,
+          "startTime": 1055.627792,
+          "endTime": 1201.2338340000001
+        },
+        {
+          "path": "Audio/output/2818/chapter_08.wav",
+          "duration": 156.7905,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 7 The Silent Language—Nonverbal Communication and Presence",
+          "actualDuration": 156.7905,
+          "startTime": 1202.7338340000001,
+          "endTime": 1359.5243340000002
+        },
+        {
+          "path": "Audio/output/2818/chapter_09.wav",
+          "duration": 120.917708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 8 Empowering Others—Encouragement, Listening, and Shared Ownership",
+          "actualDuration": 120.917708,
+          "startTime": 1361.0243340000002,
+          "endTime": 1481.9420420000001
+        },
+        {
+          "path": "Audio/output/2818/chapter_10.wav",
+          "duration": 134.359792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 9 Making Messages Stick—Repetition, Anchoring, and Call to Action",
+          "actualDuration": 134.359792,
+          "startTime": 1483.4420420000001,
+          "endTime": 1617.801834
+        },
+        {
+          "path": "Audio/output/2818/chapter_11.wav",
+          "duration": 130.84225,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 10 Handling Difficult Conversations—Courage, Empathy, and Resolution",
+          "actualDuration": 130.84225,
+          "startTime": 1619.301834,
+          "endTime": 1750.144084
+        },
+        {
+          "path": "Audio/output/2818/chapter_12.wav",
+          "duration": 130.011,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 11 Communicating Vision—Inspiration, Alignment, and Momentum",
+          "actualDuration": 130.011,
+          "startTime": 1751.644084,
+          "endTime": 1881.655084
+        },
+        {
+          "path": "Audio/output/2818/chapter_13.wav",
+          "duration": 123.781083,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 12 Leaving a Lasting Mark—Legacy, Influence, and the Ripple Effect",
+          "actualDuration": 123.781083,
+          "startTime": 1883.155084,
+          "endTime": 2006.936167
+        },
+        {
+          "path": "Audio/output/2818/conclusion.wav",
+          "duration": 154.063708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 154.063708,
+          "startTime": 2008.436167,
+          "endTime": 2162.499875
+        }
+      ],
+      "totalDuration": 2162.499875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.72,
+          "actualStart": 0,
+          "actualEnd": 89.724667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Groundwork—Why Connection Comes Before Content",
+          "expectedStart": 89.72,
+          "expectedEnd": 274.07,
+          "actualStart": 91.224667,
+          "actualEnd": 275.578125,
+          "timeDifference": 1.5046669999999978
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Clarity—Making Messages Simple and Memorable",
+          "expectedStart": 274.07,
+          "expectedEnd": 461.89,
+          "actualStart": 277.078125,
+          "actualEnd": 464.897417,
+          "timeDifference": 3.008125000000007
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Trust—Authenticity, Vulnerability, and Credibility",
+          "expectedStart": 461.89,
+          "expectedEnd": 632.23,
+          "actualStart": 466.397417,
+          "actualEnd": 636.738875,
+          "timeDifference": 4.507417000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Art of Engagement—Storytelling, Passion, and Audience Involvement",
+          "expectedStart": 632.23,
+          "expectedEnd": 802.71,
+          "actualStart": 638.238875,
+          "actualEnd": 808.719,
+          "timeDifference": 6.008874999999989
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Preparation, Feedback, and Continuous Improvement",
+          "expectedStart": 802.71,
+          "expectedEnd": 976.61,
+          "actualStart": 810.219,
+          "actualEnd": 984.121167,
+          "timeDifference": 7.5090000000000146
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Transition to the Next Half",
+          "expectedStart": 976.61,
+          "expectedEnd": 1045.12,
+          "actualStart": 985.621167,
+          "actualEnd": 1054.127792,
+          "timeDifference": 9.011167
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 6 Adapting to the Audience—Flexibility and Context Awareness",
+          "expectedStart": 1045.12,
+          "expectedEnd": 1190.73,
+          "actualStart": 1055.627792,
+          "actualEnd": 1201.2338340000001,
+          "timeDifference": 10.507792000000109
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 7 The Silent Language—Nonverbal Communication and Presence",
+          "expectedStart": 1190.73,
+          "expectedEnd": 1347.52,
+          "actualStart": 1202.7338340000001,
+          "actualEnd": 1359.5243340000002,
+          "timeDifference": 12.003834000000097
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 8 Empowering Others—Encouragement, Listening, and Shared Ownership",
+          "expectedStart": 1347.52,
+          "expectedEnd": 1468.44,
+          "actualStart": 1361.0243340000002,
+          "actualEnd": 1481.9420420000001,
+          "timeDifference": 13.504334000000199
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 9 Making Messages Stick—Repetition, Anchoring, and Call to Action",
+          "expectedStart": 1468.44,
+          "expectedEnd": 1602.8,
+          "actualStart": 1483.4420420000001,
+          "actualEnd": 1617.801834,
+          "timeDifference": 15.002042000000074
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 10 Handling Difficult Conversations—Courage, Empathy, and Resolution",
+          "expectedStart": 1602.8,
+          "expectedEnd": 1733.64,
+          "actualStart": 1619.301834,
+          "actualEnd": 1750.144084,
+          "timeDifference": 16.501834000000144
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 11 Communicating Vision—Inspiration, Alignment, and Momentum",
+          "expectedStart": 1733.64,
+          "expectedEnd": 1863.65,
+          "actualStart": 1751.644084,
+          "actualEnd": 1881.655084,
+          "timeDifference": 18.00408399999992
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 12 Leaving a Lasting Mark—Legacy, Influence, and the Ripple Effect",
+          "expectedStart": 1863.65,
+          "expectedEnd": 1987.43,
+          "actualStart": 1883.155084,
+          "actualEnd": 2006.936167,
+          "timeDifference": 19.505083999999897
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1987.43,
+          "expectedEnd": 2141.49,
+          "actualStart": 2008.436167,
+          "actualEnd": 2162.499875,
+          "timeDifference": 21.006167000000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.724667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Groundwork—Why Connection Comes Before Content"
+        },
+        {
+          "startTime": 275.578125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Groundwork—Why Connection Comes Before Content and Chapter 2 The Power of Clarity—Making Messages Simple and Memorable"
+        },
+        {
+          "startTime": 464.897417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Clarity—Making Messages Simple and Memorable and Chapter 3 Building Trust—Authenticity, Vulnerability, and Credibility"
+        },
+        {
+          "startTime": 636.738875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Trust—Authenticity, Vulnerability, and Credibility and Chapter 4 The Art of Engagement—Storytelling, Passion, and Audience Involvement"
+        },
+        {
+          "startTime": 808.719,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Art of Engagement—Storytelling, Passion, and Audience Involvement and Chapter 5 Preparation, Feedback, and Continuous Improvement"
+        },
+        {
+          "startTime": 984.121167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Preparation, Feedback, and Continuous Improvement and Transition to the Next Half"
+        },
+        {
+          "startTime": 1054.127792,
+          "duration": 1.5,
+          "reason": "Gap between Transition to the Next Half and Chapter 6 Adapting to the Audience—Flexibility and Context Awareness"
+        },
+        {
+          "startTime": 1201.2338340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Adapting to the Audience—Flexibility and Context Awareness and Chapter 7 The Silent Language—Nonverbal Communication and Presence"
+        },
+        {
+          "startTime": 1359.5243340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Silent Language—Nonverbal Communication and Presence and Chapter 8 Empowering Others—Encouragement, Listening, and Shared Ownership"
+        },
+        {
+          "startTime": 1481.9420420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Empowering Others—Encouragement, Listening, and Shared Ownership and Chapter 9 Making Messages Stick—Repetition, Anchoring, and Call to Action"
+        },
+        {
+          "startTime": 1617.801834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Making Messages Stick—Repetition, Anchoring, and Call to Action and Chapter 10 Handling Difficult Conversations—Courage, Empathy, and Resolution"
+        },
+        {
+          "startTime": 1750.144084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Handling Difficult Conversations—Courage, Empathy, and Resolution and Chapter 11 Communicating Vision—Inspiration, Alignment, and Momentum"
+        },
+        {
+          "startTime": 1881.655084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Communicating Vision—Inspiration, Alignment, and Momentum and Chapter 12 Leaving a Lasting Mark—Legacy, Influence, and the Ripple Effect"
+        },
+        {
+          "startTime": 2006.936167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Leaving a Lasting Mark—Legacy, Influence, and the Ripple Effect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2818",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:53:56.157Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "bookId": "3162",
+  "timestamp": "2025-07-14T23:17:50.101Z",
+  "success": false,
+  "processingTime": -1752534850983,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5233,
+    "totalAudioFiles": 12,
+    "totalDuration": 1822.7567510000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1822.7567510000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3162/optimized_text/3162.md",
+    "fileSize": 704,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "3162.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3162/metadata/3162_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1822.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3162/metadata/3162_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3162/metadata/3162_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3162/3162_complete.wav",
+    "duration": 1822.75675,
+    "fileSize": 87492402,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3162/introduction.wav",
+          "duration": 83.239875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.239875,
+          "startTime": 0,
+          "endTime": 83.239875
+        },
+        {
+          "path": "Audio/output/3162/chapter_01.wav",
+          "duration": 227.709125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Shadows: Growing Up with Unseen Pain",
+          "actualDuration": 227.709125,
+          "startTime": 84.739875,
+          "endTime": 312.449
+        },
+        {
+          "path": "Audio/output/3162/chapter_02.wav",
+          "duration": 257.196542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Adolescence: Searching for Belonging and Relief",
+          "actualDuration": 257.196542,
+          "startTime": 313.949,
+          "endTime": 571.145542
+        },
+        {
+          "path": "Audio/output/3162/chapter_04.wav",
+          "duration": 250.387458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Medication, Therapy, and the Ambivalence of Recovery",
+          "actualDuration": 250.387458,
+          "startTime": 572.645542,
+          "endTime": 823.033
+        },
+        {
+          "path": "Audio/output/3162/chapter_05.wav",
+          "duration": 192.254917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Culture of Stigma and the Power of Sharing",
+          "actualDuration": 192.254917,
+          "startTime": 824.533,
+          "endTime": 1016.787917
+        },
+        {
+          "path": "Audio/output/3162/chapter_06.wav",
+          "duration": 173.41975,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Public Face and the Private Battle",
+          "actualDuration": 173.41975,
+          "startTime": 1018.287917,
+          "endTime": 1191.707667
+        },
+        {
+          "path": "Audio/output/3162/chapter_07.wav",
+          "duration": 191.441375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Intimacy, and the Challenge of Connection",
+          "actualDuration": 191.441375,
+          "startTime": 1193.207667,
+          "endTime": 1384.649042
+        },
+        {
+          "path": "Audio/output/3162/chapter_09.wav",
+          "duration": 160.655542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Identity, Ambition, and the Search for Meaning",
+          "actualDuration": 160.655542,
+          "startTime": 1386.149042,
+          "endTime": 1546.804584
+        },
+        {
+          "path": "Audio/output/3162/chapter_10.wav",
+          "duration": 164.990792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Evolving Landscape: Mental Health in a Changing World",
+          "actualDuration": 164.990792,
+          "startTime": 1548.304584,
+          "endTime": 1713.295376
+        },
+        {
+          "path": "Audio/output/3162/conclusion.wav",
+          "duration": 121.461375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.461375,
+          "startTime": 1714.795376,
+          "endTime": 1836.2567510000001
+        }
+      ],
+      "totalDuration": 1836.2567510000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.24,
+          "actualStart": 0,
+          "actualEnd": 83.239875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Shadows: Growing Up with Unseen Pain",
+          "expectedStart": 83.24,
+          "expectedEnd": 310.95,
+          "actualStart": 84.739875,
+          "actualEnd": 312.449,
+          "timeDifference": 1.499875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Adolescence: Searching for Belonging and Relief",
+          "expectedStart": 310.95,
+          "expectedEnd": 568.15,
+          "actualStart": 313.949,
+          "actualEnd": 571.145542,
+          "timeDifference": 2.9990000000000236
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Medication, Therapy, and the Ambivalence of Recovery",
+          "expectedStart": 568.15,
+          "expectedEnd": 818.54,
+          "actualStart": 572.645542,
+          "actualEnd": 823.033,
+          "timeDifference": 4.495542
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Culture of Stigma and the Power of Sharing",
+          "expectedStart": 818.54,
+          "expectedEnd": 1010.79,
+          "actualStart": 824.533,
+          "actualEnd": 1016.787917,
+          "timeDifference": 5.993000000000052
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Public Face and the Private Battle",
+          "expectedStart": 1010.79,
+          "expectedEnd": 1184.21,
+          "actualStart": 1018.287917,
+          "actualEnd": 1191.707667,
+          "timeDifference": 7.4979170000000295
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Intimacy, and the Challenge of Connection",
+          "expectedStart": 1184.21,
+          "expectedEnd": 1375.65,
+          "actualStart": 1193.207667,
+          "actualEnd": 1384.649042,
+          "timeDifference": 8.997666999999865
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Identity, Ambition, and the Search for Meaning",
+          "expectedStart": 1375.65,
+          "expectedEnd": 1536.31,
+          "actualStart": 1386.149042,
+          "actualEnd": 1546.804584,
+          "timeDifference": 10.499041999999918
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Evolving Landscape: Mental Health in a Changing World",
+          "expectedStart": 1536.31,
+          "expectedEnd": 1701.3,
+          "actualStart": 1548.304584,
+          "actualEnd": 1713.295376,
+          "timeDifference": 11.994584000000032
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1701.3,
+          "expectedEnd": 1822.76,
+          "actualStart": 1714.795376,
+          "actualEnd": 1836.2567510000001,
+          "timeDifference": 13.495376000000078
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.239875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Shadows: Growing Up with Unseen Pain"
+        },
+        {
+          "startTime": 312.449,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Shadows: Growing Up with Unseen Pain and Chapter 2 The Weight of Adolescence: Searching for Belonging and Relief"
+        },
+        {
+          "startTime": 571.145542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Adolescence: Searching for Belonging and Relief and Chapter 4 Medication, Therapy, and the Ambivalence of Recovery"
+        },
+        {
+          "startTime": 823.033,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Medication, Therapy, and the Ambivalence of Recovery and Chapter 5 The Culture of Stigma and the Power of Sharing"
+        },
+        {
+          "startTime": 1016.787917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Culture of Stigma and the Power of Sharing and Chapter 6 The Public Face and the Private Battle"
+        },
+        {
+          "startTime": 1191.707667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Public Face and the Private Battle and Chapter 7 Love, Intimacy, and the Challenge of Connection"
+        },
+        {
+          "startTime": 1384.649042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Intimacy, and the Challenge of Connection and Chapter 9 Identity, Ambition, and the Search for Meaning"
+        },
+        {
+          "startTime": 1546.804584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Identity, Ambition, and the Search for Meaning and Chapter 10 The Evolving Landscape: Mental Health in a Changing World"
+        },
+        {
+          "startTime": 1713.295376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Evolving Landscape: Mental Health in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3162",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:14:12.595Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

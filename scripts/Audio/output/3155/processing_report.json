@@ -1,0 +1,456 @@
+{
+  "bookId": "3155",
+  "timestamp": "2025-07-14T22:42:14.965Z",
+  "success": false,
+  "processingTime": -1752532417904,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4516,
+    "totalAudioFiles": 12,
+    "totalDuration": 2294.62521
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2294.62521
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3155/optimized_text/3155.md",
+    "fileSize": 699,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "3155.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3155/metadata/3155_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2294.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3155/metadata/3155_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3155/metadata/3155_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3155/3155_complete.wav",
+    "duration": 2294.625208,
+    "fileSize": 110142088,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3155/introduction.wav",
+          "duration": 103.484708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.484708,
+          "startTime": 0,
+          "endTime": 103.484708
+        },
+        {
+          "path": "Audio/output/3155/chapter_01.wav",
+          "duration": 188.035792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Computer Science Illuminates Everyday Choices",
+          "actualDuration": 188.035792,
+          "startTime": 104.984708,
+          "endTime": 293.02049999999997
+        },
+        {
+          "path": "Audio/output/3155/chapter_02.wav",
+          "duration": 204.915417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The 37% Rule and the Art of Knowing When to Stop",
+          "actualDuration": 204.915417,
+          "startTime": 294.52049999999997,
+          "endTime": 499.43591699999996
+        },
+        {
+          "path": "Audio/output/3155/chapter_03.wav",
+          "duration": 248.9085,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Balancing Exploration and Exploitation in Uncertain Worlds",
+          "actualDuration": 248.9085,
+          "startTime": 500.93591699999996,
+          "endTime": 749.844417
+        },
+        {
+          "path": "Audio/output/3155/chapter_04.wav",
+          "duration": 269.648417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Organizing Life with Sorting, Filtering, and Prioritization",
+          "actualDuration": 269.648417,
+          "startTime": 751.344417,
+          "endTime": 1020.992834
+        },
+        {
+          "path": "Audio/output/3155/chapter_05.wav",
+          "duration": 168.642917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Forgetting, and the Art of Letting Go",
+          "actualDuration": 168.642917,
+          "startTime": 1022.492834,
+          "endTime": 1191.135751
+        },
+        {
+          "path": "Audio/output/3155/chapter_06.wav",
+          "duration": 221.382667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Scheduling, Queues, and the Hidden Logic of Waiting",
+          "actualDuration": 221.382667,
+          "startTime": 1192.635751,
+          "endTime": 1414.018418
+        },
+        {
+          "path": "Audio/output/3155/chapter_07.wav",
+          "duration": 201.452333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power and Pitfalls of Randomness",
+          "actualDuration": 201.452333,
+          "startTime": 1415.518418,
+          "endTime": 1616.970751
+        },
+        {
+          "path": "Audio/output/3155/chapter_08.wav",
+          "duration": 204.480375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overfitting, Generalization, and the Wisdom of Simplicity",
+          "actualDuration": 204.480375,
+          "startTime": 1618.470751,
+          "endTime": 1822.9511260000002
+        },
+        {
+          "path": "Audio/output/3155/chapter_09.wav",
+          "duration": 191.587042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Game Theory and the Social Side of Algorithms",
+          "actualDuration": 191.587042,
+          "startTime": 1824.4511260000002,
+          "endTime": 2016.038168
+        },
+        {
+          "path": "Audio/output/3155/chapter_10.wav",
+          "duration": 141.74725,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Broader Implications of Algorithmic Thinking",
+          "actualDuration": 141.74725,
+          "startTime": 2017.538168,
+          "endTime": 2159.285418
+        },
+        {
+          "path": "Audio/output/3155/conclusion.wav",
+          "duration": 150.339792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.339792,
+          "startTime": 2160.785418,
+          "endTime": 2311.12521
+        }
+      ],
+      "totalDuration": 2311.12521,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.48,
+          "actualStart": 0,
+          "actualEnd": 103.484708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Computer Science Illuminates Everyday Choices",
+          "expectedStart": 103.48,
+          "expectedEnd": 291.52,
+          "actualStart": 104.984708,
+          "actualEnd": 293.02049999999997,
+          "timeDifference": 1.5047079999999937
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The 37% Rule and the Art of Knowing When to Stop",
+          "expectedStart": 291.52,
+          "expectedEnd": 496.44,
+          "actualStart": 294.52049999999997,
+          "actualEnd": 499.43591699999996,
+          "timeDifference": 3.000499999999988
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Balancing Exploration and Exploitation in Uncertain Worlds",
+          "expectedStart": 496.44,
+          "expectedEnd": 745.35,
+          "actualStart": 500.93591699999996,
+          "actualEnd": 749.844417,
+          "timeDifference": 4.495916999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Organizing Life with Sorting, Filtering, and Prioritization",
+          "expectedStart": 745.35,
+          "expectedEnd": 1015,
+          "actualStart": 751.344417,
+          "actualEnd": 1020.992834,
+          "timeDifference": 5.9944169999999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Forgetting, and the Art of Letting Go",
+          "expectedStart": 1015,
+          "expectedEnd": 1183.64,
+          "actualStart": 1022.492834,
+          "actualEnd": 1191.135751,
+          "timeDifference": 7.492834000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Scheduling, Queues, and the Hidden Logic of Waiting",
+          "expectedStart": 1183.64,
+          "expectedEnd": 1405.02,
+          "actualStart": 1192.635751,
+          "actualEnd": 1414.018418,
+          "timeDifference": 8.995750999999927
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power and Pitfalls of Randomness",
+          "expectedStart": 1405.02,
+          "expectedEnd": 1606.47,
+          "actualStart": 1415.518418,
+          "actualEnd": 1616.970751,
+          "timeDifference": 10.498418000000129
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overfitting, Generalization, and the Wisdom of Simplicity",
+          "expectedStart": 1606.47,
+          "expectedEnd": 1810.95,
+          "actualStart": 1618.470751,
+          "actualEnd": 1822.9511260000002,
+          "timeDifference": 12.000751000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Game Theory and the Social Side of Algorithms",
+          "expectedStart": 1810.95,
+          "expectedEnd": 2002.54,
+          "actualStart": 1824.4511260000002,
+          "actualEnd": 2016.038168,
+          "timeDifference": 13.501126000000113
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Broader Implications of Algorithmic Thinking",
+          "expectedStart": 2002.54,
+          "expectedEnd": 2144.29,
+          "actualStart": 2017.538168,
+          "actualEnd": 2159.285418,
+          "timeDifference": 14.998168000000078
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2144.29,
+          "expectedEnd": 2294.63,
+          "actualStart": 2160.785418,
+          "actualEnd": 2311.12521,
+          "timeDifference": 16.495417999999972
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.484708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Computer Science Illuminates Everyday Choices"
+        },
+        {
+          "startTime": 293.02049999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Computer Science Illuminates Everyday Choices and Chapter 2 The 37% Rule and the Art of Knowing When to Stop"
+        },
+        {
+          "startTime": 499.43591699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The 37% Rule and the Art of Knowing When to Stop and Chapter 3 Balancing Exploration and Exploitation in Uncertain Worlds"
+        },
+        {
+          "startTime": 749.844417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Balancing Exploration and Exploitation in Uncertain Worlds and Chapter 4 Organizing Life with Sorting, Filtering, and Prioritization"
+        },
+        {
+          "startTime": 1020.992834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Organizing Life with Sorting, Filtering, and Prioritization and Chapter 5 Memory, Forgetting, and the Art of Letting Go"
+        },
+        {
+          "startTime": 1191.135751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Forgetting, and the Art of Letting Go and Chapter 6 Scheduling, Queues, and the Hidden Logic of Waiting"
+        },
+        {
+          "startTime": 1414.018418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Scheduling, Queues, and the Hidden Logic of Waiting and Chapter 7 The Power and Pitfalls of Randomness"
+        },
+        {
+          "startTime": 1616.970751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power and Pitfalls of Randomness and Chapter 8 Overfitting, Generalization, and the Wisdom of Simplicity"
+        },
+        {
+          "startTime": 1822.9511260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overfitting, Generalization, and the Wisdom of Simplicity and Chapter 9 Game Theory and the Social Side of Algorithms"
+        },
+        {
+          "startTime": 2016.038168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Game Theory and the Social Side of Algorithms and Chapter 10 The Broader Implications of Algorithmic Thinking"
+        },
+        {
+          "startTime": 2159.285418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Broader Implications of Algorithmic Thinking and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3155",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T22:33:39.101Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

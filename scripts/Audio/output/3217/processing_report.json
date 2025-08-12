@@ -1,0 +1,504 @@
+{
+  "bookId": "3217",
+  "timestamp": "2025-07-15T03:39:20.472Z",
+  "success": false,
+  "processingTime": -1752550461162,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5287,
+    "totalAudioFiles": 14,
+    "totalDuration": 2390.3750399999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2390.3750399999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3217/optimized_text/3217.md",
+    "fileSize": 897,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "3217.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3217/metadata/3217_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2390.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3217/metadata/3217_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3217/metadata/3217_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3217/3217_complete.wav",
+    "duration": 2390.375042,
+    "fileSize": 114738080,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3217/introduction.wav",
+          "duration": 90.812042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.812042,
+          "startTime": 0,
+          "endTime": 90.812042
+        },
+        {
+          "path": "Audio/output/3217/chapter_01.wav",
+          "duration": 192.420042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Grit and Small-Town Values",
+          "actualDuration": 192.420042,
+          "startTime": 92.312042,
+          "endTime": 284.732084
+        },
+        {
+          "path": "Audio/output/3217/chapter_02.wav",
+          "duration": 193.87,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 First Steps in Business and the Power of Persistence",
+          "actualDuration": 193.87,
+          "startTime": 286.232084,
+          "endTime": 480.102084
+        },
+        {
+          "path": "Audio/output/3217/chapter_03.wav",
+          "duration": 194.39625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Store Around the Customer",
+          "actualDuration": 194.39625,
+          "startTime": 481.602084,
+          "endTime": 675.998334
+        },
+        {
+          "path": "Audio/output/3217/chapter_04.wav",
+          "duration": 202.276583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Frugality, Innovation, and the Relentless Pursuit of Better",
+          "actualDuration": 202.276583,
+          "startTime": 677.498334,
+          "endTime": 879.774917
+        },
+        {
+          "path": "Audio/output/3217/chapter_05.wav",
+          "duration": 201.9485,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Empowering People and Building a Lasting Culture",
+          "actualDuration": 201.9485,
+          "startTime": 881.274917,
+          "endTime": 1083.223417
+        },
+        {
+          "path": "Audio/output/3217/chapter_06.wav",
+          "duration": 196.862708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Leap to Scale—Dreaming Bigger, Moving Faster",
+          "actualDuration": 196.862708,
+          "startTime": 1084.723417,
+          "endTime": 1281.5861249999998
+        },
+        {
+          "path": "Audio/output/3217/chapter_07.wav",
+          "duration": 186.924583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Down the Giants—Competition, Copycats, and Staying True",
+          "actualDuration": 186.924583,
+          "startTime": 1283.0861249999998,
+          "endTime": 1470.0107079999998
+        },
+        {
+          "path": "Audio/output/3217/chapter_08.wav",
+          "duration": 176.362958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Heartbeat of the Business—Listening, Learning, and Never Settling",
+          "actualDuration": 176.362958,
+          "startTime": 1471.5107079999998,
+          "endTime": 1647.8736659999997
+        },
+        {
+          "path": "Audio/output/3217/chapter_09.wav",
+          "duration": 162.41675,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sharing the Wealth—Ownership, Incentives, and the Power of Belief",
+          "actualDuration": 162.41675,
+          "startTime": 1649.3736659999997,
+          "endTime": 1811.7904159999998
+        },
+        {
+          "path": "Audio/output/3217/chapter_10.wav",
+          "duration": 150.34075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Weathering Storms—Setbacks, Sacrifice, and the Long View",
+          "actualDuration": 150.34075,
+          "startTime": 1813.2904159999998,
+          "endTime": 1963.631166
+        },
+        {
+          "path": "Audio/output/3217/chapter_11.wav",
+          "duration": 165.181583,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Giving Back—Community, Responsibility, and the Ripple Effect",
+          "actualDuration": 165.181583,
+          "startTime": 1965.131166,
+          "endTime": 2130.3127489999997
+        },
+        {
+          "path": "Audio/output/3217/chapter_12.wav",
+          "duration": 134.484583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Legacy—Lessons, Regrets, and the Road Ahead",
+          "actualDuration": 134.484583,
+          "startTime": 2131.8127489999997,
+          "endTime": 2266.2973319999996
+        },
+        {
+          "path": "Audio/output/3217/conclusion.wav",
+          "duration": 142.077708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.077708,
+          "startTime": 2267.7973319999996,
+          "endTime": 2409.8750399999994
+        }
+      ],
+      "totalDuration": 2409.8750399999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.81,
+          "actualStart": 0,
+          "actualEnd": 90.812042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Grit and Small-Town Values",
+          "expectedStart": 90.81,
+          "expectedEnd": 283.23,
+          "actualStart": 92.312042,
+          "actualEnd": 284.732084,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 First Steps in Business and the Power of Persistence",
+          "expectedStart": 283.23,
+          "expectedEnd": 477.1,
+          "actualStart": 286.232084,
+          "actualEnd": 480.102084,
+          "timeDifference": 3.002083999999968
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Store Around the Customer",
+          "expectedStart": 477.1,
+          "expectedEnd": 671.5,
+          "actualStart": 481.602084,
+          "actualEnd": 675.998334,
+          "timeDifference": 4.502083999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Frugality, Innovation, and the Relentless Pursuit of Better",
+          "expectedStart": 671.5,
+          "expectedEnd": 873.78,
+          "actualStart": 677.498334,
+          "actualEnd": 879.774917,
+          "timeDifference": 5.998334
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Empowering People and Building a Lasting Culture",
+          "expectedStart": 873.78,
+          "expectedEnd": 1075.73,
+          "actualStart": 881.274917,
+          "actualEnd": 1083.223417,
+          "timeDifference": 7.494916999999987
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Leap to Scale—Dreaming Bigger, Moving Faster",
+          "expectedStart": 1075.73,
+          "expectedEnd": 1272.59,
+          "actualStart": 1084.723417,
+          "actualEnd": 1281.5861249999998,
+          "timeDifference": 8.993416999999909
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Down the Giants—Competition, Copycats, and Staying True",
+          "expectedStart": 1272.59,
+          "expectedEnd": 1459.51,
+          "actualStart": 1283.0861249999998,
+          "actualEnd": 1470.0107079999998,
+          "timeDifference": 10.496124999999893
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Heartbeat of the Business—Listening, Learning, and Never Settling",
+          "expectedStart": 1459.51,
+          "expectedEnd": 1635.87,
+          "actualStart": 1471.5107079999998,
+          "actualEnd": 1647.8736659999997,
+          "timeDifference": 12.000707999999804
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sharing the Wealth—Ownership, Incentives, and the Power of Belief",
+          "expectedStart": 1635.87,
+          "expectedEnd": 1798.29,
+          "actualStart": 1649.3736659999997,
+          "actualEnd": 1811.7904159999998,
+          "timeDifference": 13.50366599999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Weathering Storms—Setbacks, Sacrifice, and the Long View",
+          "expectedStart": 1798.29,
+          "expectedEnd": 1948.63,
+          "actualStart": 1813.2904159999998,
+          "actualEnd": 1963.631166,
+          "timeDifference": 15.00041599999986
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Giving Back—Community, Responsibility, and the Ripple Effect",
+          "expectedStart": 1948.63,
+          "expectedEnd": 2113.81,
+          "actualStart": 1965.131166,
+          "actualEnd": 2130.3127489999997,
+          "timeDifference": 16.501165999999785
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Legacy—Lessons, Regrets, and the Road Ahead",
+          "expectedStart": 2113.81,
+          "expectedEnd": 2248.29,
+          "actualStart": 2131.8127489999997,
+          "actualEnd": 2266.2973319999996,
+          "timeDifference": 18.002748999999767
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2248.29,
+          "expectedEnd": 2390.37,
+          "actualStart": 2267.7973319999996,
+          "actualEnd": 2409.8750399999994,
+          "timeDifference": 19.50733199999968
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.812042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Grit and Small-Town Values"
+        },
+        {
+          "startTime": 284.732084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Grit and Small-Town Values and Chapter 2 First Steps in Business and the Power of Persistence"
+        },
+        {
+          "startTime": 480.102084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 First Steps in Business and the Power of Persistence and Chapter 3 Building a Store Around the Customer"
+        },
+        {
+          "startTime": 675.998334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Store Around the Customer and Chapter 4 Frugality, Innovation, and the Relentless Pursuit of Better"
+        },
+        {
+          "startTime": 879.774917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Frugality, Innovation, and the Relentless Pursuit of Better and Chapter 5 Empowering People and Building a Lasting Culture"
+        },
+        {
+          "startTime": 1083.223417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Empowering People and Building a Lasting Culture and Chapter 6 The Leap to Scale—Dreaming Bigger, Moving Faster"
+        },
+        {
+          "startTime": 1281.5861249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Leap to Scale—Dreaming Bigger, Moving Faster and Chapter 7 Facing Down the Giants—Competition, Copycats, and Staying True"
+        },
+        {
+          "startTime": 1470.0107079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Down the Giants—Competition, Copycats, and Staying True and Chapter 8 The Heartbeat of the Business—Listening, Learning, and Never Settling"
+        },
+        {
+          "startTime": 1647.8736659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Heartbeat of the Business—Listening, Learning, and Never Settling and Chapter 9 Sharing the Wealth—Ownership, Incentives, and the Power of Belief"
+        },
+        {
+          "startTime": 1811.7904159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sharing the Wealth—Ownership, Incentives, and the Power of Belief and Chapter 10 Weathering Storms—Setbacks, Sacrifice, and the Long View"
+        },
+        {
+          "startTime": 1963.631166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Weathering Storms—Setbacks, Sacrifice, and the Long View and Chapter 11 Giving Back—Community, Responsibility, and the Ripple Effect"
+        },
+        {
+          "startTime": 2130.3127489999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Giving Back—Community, Responsibility, and the Ripple Effect and Chapter 12 The Legacy—Lessons, Regrets, and the Road Ahead"
+        },
+        {
+          "startTime": 2266.2973319999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Legacy—Lessons, Regrets, and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3217",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:34:21.697Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

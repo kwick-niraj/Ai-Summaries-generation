@@ -1,0 +1,336 @@
+{
+  "bookId": "2845",
+  "timestamp": "2025-07-14T00:01:01.074Z",
+  "success": false,
+  "processingTime": -1752450960826,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4439,
+    "totalAudioFiles": 12,
+    "totalDuration": 951.563874
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 7,
+    "failed": 5,
+    "duration": 951.563874
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2845/optimized_text/2845.md",
+    "fileSize": 4117,
+    "wordCount": 677,
+    "format": "markdown",
+    "filename": "2845.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2845/metadata/2845_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 951.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2845/metadata/2845_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2845/metadata/2845_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2845/2845_complete.wav",
+    "duration": 951.563875,
+    "fileSize": 45675144,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2845/introduction.wav",
+          "duration": 89.446,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.446,
+          "startTime": 0,
+          "endTime": 89.446
+        },
+        {
+          "path": "Audio/output/2845/chapter_03.wav",
+          "duration": 180.256708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Justice: Law, Memory, and Moral Complexity",
+          "actualDuration": 180.256708,
+          "startTime": 90.946,
+          "endTime": 271.20270800000003
+        },
+        {
+          "path": "Audio/output/2845/chapter_04.wav",
+          "duration": 152.820708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Banality of Evil: Rethinking Responsibility and Judgment",
+          "actualDuration": 152.820708,
+          "startTime": 272.70270800000003,
+          "endTime": 425.523416
+        },
+        {
+          "path": "Audio/output/2845/chapter_08.wav",
+          "duration": 148.048458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Denial, and the Struggle to Remember",
+          "actualDuration": 148.048458,
+          "startTime": 427.023416,
+          "endTime": 575.071874
+        },
+        {
+          "path": "Audio/output/2845/chapter_09.wav",
+          "duration": 142.40425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Banality of Evil Revisited: Lessons for Today",
+          "actualDuration": 142.40425,
+          "startTime": 576.571874,
+          "endTime": 718.976124
+        },
+        {
+          "path": "Audio/output/2845/chapter_10.wav",
+          "duration": 111.985667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Conscience, Courage, and the Possibility of Resistance",
+          "actualDuration": 111.985667,
+          "startTime": 720.476124,
+          "endTime": 832.4617910000001
+        },
+        {
+          "path": "Audio/output/2845/conclusion.wav",
+          "duration": 126.602083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.602083,
+          "startTime": 833.9617910000001,
+          "endTime": 960.563874
+        }
+      ],
+      "totalDuration": 960.563874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.45,
+          "actualStart": 0,
+          "actualEnd": 89.446,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Justice: Law, Memory, and Moral Complexity",
+          "expectedStart": 89.45,
+          "expectedEnd": 269.71,
+          "actualStart": 90.946,
+          "actualEnd": 271.20270800000003,
+          "timeDifference": 1.4959999999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Banality of Evil: Rethinking Responsibility and Judgment",
+          "expectedStart": 269.71,
+          "expectedEnd": 422.53,
+          "actualStart": 272.70270800000003,
+          "actualEnd": 425.523416,
+          "timeDifference": 2.99270800000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Denial, and the Struggle to Remember",
+          "expectedStart": 422.53,
+          "expectedEnd": 570.58,
+          "actualStart": 427.023416,
+          "actualEnd": 575.071874,
+          "timeDifference": 4.493416000000025
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Banality of Evil Revisited: Lessons for Today",
+          "expectedStart": 570.58,
+          "expectedEnd": 712.98,
+          "actualStart": 576.571874,
+          "actualEnd": 718.976124,
+          "timeDifference": 5.991873999999939
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Conscience, Courage, and the Possibility of Resistance",
+          "expectedStart": 712.98,
+          "expectedEnd": 824.97,
+          "actualStart": 720.476124,
+          "actualEnd": 832.4617910000001,
+          "timeDifference": 7.496124000000009
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 824.97,
+          "expectedEnd": 951.57,
+          "actualStart": 833.9617910000001,
+          "actualEnd": 960.563874,
+          "timeDifference": 8.991791000000035
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.446,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 3 The Struggle for Justice: Law, Memory, and Moral Complexity"
+        },
+        {
+          "startTime": 271.20270800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Justice: Law, Memory, and Moral Complexity and Chapter 4 The Banality of Evil: Rethinking Responsibility and Judgment"
+        },
+        {
+          "startTime": 425.523416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Banality of Evil: Rethinking Responsibility and Judgment and Chapter 8 Memory, Denial, and the Struggle to Remember"
+        },
+        {
+          "startTime": 575.071874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Denial, and the Struggle to Remember and Chapter 9 The Banality of Evil Revisited: Lessons for Today"
+        },
+        {
+          "startTime": 718.976124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Banality of Evil Revisited: Lessons for Today and Chapter 10 Conscience, Courage, and the Possibility of Resistance"
+        },
+        {
+          "startTime": 832.4617910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Conscience, Courage, and the Possibility of Resistance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 7
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2845",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:56:01.983Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

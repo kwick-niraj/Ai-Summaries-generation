@@ -1,0 +1,456 @@
+{
+  "bookId": "3089",
+  "timestamp": "2025-07-14T17:35:18.374Z",
+  "success": false,
+  "processingTime": -1752514134896,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4550,
+    "totalAudioFiles": 12,
+    "totalDuration": 2092.910583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2092.910583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3089/optimized_text/3089.md",
+    "fileSize": 653,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3089.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3089/metadata/3089_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2092.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3089/metadata/3089_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3089/metadata/3089_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3089/3089_complete.wav",
+    "duration": 2092.910583,
+    "fileSize": 100459786,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3089/introduction.wav",
+          "duration": 85.856458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.856458,
+          "startTime": 0,
+          "endTime": 85.856458
+        },
+        {
+          "path": "Audio/output/3089/chapter_01.wav",
+          "duration": 199.926917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with a Sense of Duty and Adventure",
+          "actualDuration": 199.926917,
+          "startTime": 87.356458,
+          "endTime": 287.283375
+        },
+        {
+          "path": "Audio/output/3089/chapter_02.wav",
+          "duration": 214.60725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Demands and Brotherhood of SEAL Training",
+          "actualDuration": 214.60725,
+          "startTime": 288.783375,
+          "endTime": 503.390625
+        },
+        {
+          "path": "Audio/output/3089/chapter_03.wav",
+          "duration": 219.912792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 First Deployments and the Reality of Modern Combat",
+          "actualDuration": 219.912792,
+          "startTime": 504.890625,
+          "endTime": 724.803417
+        },
+        {
+          "path": "Audio/output/3089/chapter_04.wav",
+          "duration": 186.078,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Toll of War on Mind, Body, and Family",
+          "actualDuration": 186.078,
+          "startTime": 726.303417,
+          "endTime": 912.3814169999999
+        },
+        {
+          "path": "Audio/output/3089/chapter_05.wav",
+          "duration": 183.161375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Complexity of Patriotism and Moral Choices in Combat",
+          "actualDuration": 183.161375,
+          "startTime": 913.8814169999999,
+          "endTime": 1097.042792
+        },
+        {
+          "path": "Audio/output/3089/chapter_06.wav",
+          "duration": 227.314958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Surge and the Height of the Iraq War",
+          "actualDuration": 227.314958,
+          "startTime": 1098.542792,
+          "endTime": 1325.85775
+        },
+        {
+          "path": "Audio/output/3089/chapter_07.wav",
+          "duration": 148.414208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Burden of Fame and the Myth of the “Legend”",
+          "actualDuration": 148.414208,
+          "startTime": 1327.35775,
+          "endTime": 1475.7719579999998
+        },
+        {
+          "path": "Audio/output/3089/chapter_08.wav",
+          "duration": 199.227417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Coming Home—The Struggle to Reconnect",
+          "actualDuration": 199.227417,
+          "startTime": 1477.2719579999998,
+          "endTime": 1676.4993749999999
+        },
+        {
+          "path": "Audio/output/3089/chapter_09.wav",
+          "duration": 160.283083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Purpose Beyond the Battlefield",
+          "actualDuration": 160.283083,
+          "startTime": 1677.9993749999999,
+          "endTime": 1838.282458
+        },
+        {
+          "path": "Audio/output/3089/chapter_10.wav",
+          "duration": 141.708083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Loss, and the Ongoing Search for Peace",
+          "actualDuration": 141.708083,
+          "startTime": 1839.782458,
+          "endTime": 1981.490541
+        },
+        {
+          "path": "Audio/output/3089/conclusion.wav",
+          "duration": 126.420042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.420042,
+          "startTime": 1982.990541,
+          "endTime": 2109.410583
+        }
+      ],
+      "totalDuration": 2109.410583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.86,
+          "actualStart": 0,
+          "actualEnd": 85.856458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with a Sense of Duty and Adventure",
+          "expectedStart": 85.86,
+          "expectedEnd": 285.79,
+          "actualStart": 87.356458,
+          "actualEnd": 287.283375,
+          "timeDifference": 1.496458000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Demands and Brotherhood of SEAL Training",
+          "expectedStart": 285.79,
+          "expectedEnd": 500.4,
+          "actualStart": 288.783375,
+          "actualEnd": 503.390625,
+          "timeDifference": 2.9933749999999577
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 First Deployments and the Reality of Modern Combat",
+          "expectedStart": 500.4,
+          "expectedEnd": 720.31,
+          "actualStart": 504.890625,
+          "actualEnd": 724.803417,
+          "timeDifference": 4.490625000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Toll of War on Mind, Body, and Family",
+          "expectedStart": 720.31,
+          "expectedEnd": 906.39,
+          "actualStart": 726.303417,
+          "actualEnd": 912.3814169999999,
+          "timeDifference": 5.993417000000022
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Complexity of Patriotism and Moral Choices in Combat",
+          "expectedStart": 906.39,
+          "expectedEnd": 1089.55,
+          "actualStart": 913.8814169999999,
+          "actualEnd": 1097.042792,
+          "timeDifference": 7.491416999999956
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Surge and the Height of the Iraq War",
+          "expectedStart": 1089.55,
+          "expectedEnd": 1316.86,
+          "actualStart": 1098.542792,
+          "actualEnd": 1325.85775,
+          "timeDifference": 8.992792000000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Burden of Fame and the Myth of the “Legend”",
+          "expectedStart": 1316.86,
+          "expectedEnd": 1465.27,
+          "actualStart": 1327.35775,
+          "actualEnd": 1475.7719579999998,
+          "timeDifference": 10.497749999999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Coming Home—The Struggle to Reconnect",
+          "expectedStart": 1465.27,
+          "expectedEnd": 1664.5,
+          "actualStart": 1477.2719579999998,
+          "actualEnd": 1676.4993749999999,
+          "timeDifference": 12.001957999999831
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Purpose Beyond the Battlefield",
+          "expectedStart": 1664.5,
+          "expectedEnd": 1824.78,
+          "actualStart": 1677.9993749999999,
+          "actualEnd": 1838.282458,
+          "timeDifference": 13.499374999999873
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Loss, and the Ongoing Search for Peace",
+          "expectedStart": 1824.78,
+          "expectedEnd": 1966.49,
+          "actualStart": 1839.782458,
+          "actualEnd": 1981.490541,
+          "timeDifference": 15.002457999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1966.49,
+          "expectedEnd": 2092.91,
+          "actualStart": 1982.990541,
+          "actualEnd": 2109.410583,
+          "timeDifference": 16.500540999999885
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.856458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with a Sense of Duty and Adventure"
+        },
+        {
+          "startTime": 287.283375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with a Sense of Duty and Adventure and Chapter 2 The Demands and Brotherhood of SEAL Training"
+        },
+        {
+          "startTime": 503.390625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Demands and Brotherhood of SEAL Training and Chapter 3 First Deployments and the Reality of Modern Combat"
+        },
+        {
+          "startTime": 724.803417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 First Deployments and the Reality of Modern Combat and Chapter 4 The Toll of War on Mind, Body, and Family"
+        },
+        {
+          "startTime": 912.3814169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Toll of War on Mind, Body, and Family and Chapter 5 The Complexity of Patriotism and Moral Choices in Combat"
+        },
+        {
+          "startTime": 1097.042792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Complexity of Patriotism and Moral Choices in Combat and Chapter 6 The Surge and the Height of the Iraq War"
+        },
+        {
+          "startTime": 1325.85775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Surge and the Height of the Iraq War and Chapter 7 The Burden of Fame and the Myth of the “Legend”"
+        },
+        {
+          "startTime": 1475.7719579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Burden of Fame and the Myth of the “Legend” and Chapter 8 Coming Home—The Struggle to Reconnect"
+        },
+        {
+          "startTime": 1676.4993749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Coming Home—The Struggle to Reconnect and Chapter 9 Finding Purpose Beyond the Battlefield"
+        },
+        {
+          "startTime": 1838.282458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Purpose Beyond the Battlefield and Chapter 10 Legacy, Loss, and the Ongoing Search for Peace"
+        },
+        {
+          "startTime": 1981.490541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Loss, and the Ongoing Search for Peace and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3089",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:28:55.409Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

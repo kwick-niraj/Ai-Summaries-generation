@@ -1,0 +1,456 @@
+{
+  "bookId": "3209",
+  "timestamp": "2025-07-15T03:19:03.561Z",
+  "success": false,
+  "processingTime": -1752549165211,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4597,
+    "totalAudioFiles": 12,
+    "totalDuration": 1974.3687069999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1974.3687069999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3209/optimized_text/3209.md",
+    "fileSize": 605,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "3209.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3209/metadata/3209_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1974.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3209/metadata/3209_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3209/metadata/3209_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3209/3209_complete.wav",
+    "duration": 1974.368708,
+    "fileSize": 94769776,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3209/introduction.wav",
+          "duration": 89.418667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.418667,
+          "startTime": 0,
+          "endTime": 89.418667
+        },
+        {
+          "path": "Audio/output/3209/chapter_01.wav",
+          "duration": 259.741458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Family Ties and the Weight of Shared History",
+          "actualDuration": 259.741458,
+          "startTime": 90.918667,
+          "endTime": 350.660125
+        },
+        {
+          "path": "Audio/output/3209/chapter_02.wav",
+          "duration": 198.24225,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unpredictable Journey of Aging",
+          "actualDuration": 198.24225,
+          "startTime": 352.160125,
+          "endTime": 550.402375
+        },
+        {
+          "path": "Audio/output/3209/chapter_03.wav",
+          "duration": 203.630875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Grief, Absence, and the Search for Meaning",
+          "actualDuration": 203.630875,
+          "startTime": 551.902375,
+          "endTime": 755.53325
+        },
+        {
+          "path": "Audio/output/3209/chapter_04.wav",
+          "duration": 189.525875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Everyday Absurdities and the Power of Humor",
+          "actualDuration": 189.525875,
+          "startTime": 757.03325,
+          "endTime": 946.559125
+        },
+        {
+          "path": "Audio/output/3209/chapter_05.wav",
+          "duration": 178.787458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Personal Quirks, Habits, and the Echoes of Childhood",
+          "actualDuration": 178.787458,
+          "startTime": 948.059125,
+          "endTime": 1126.846583
+        },
+        {
+          "path": "Audio/output/3209/chapter_06.wav",
+          "duration": 168.352958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unspoken Language of Siblings",
+          "actualDuration": 168.352958,
+          "startTime": 1128.346583,
+          "endTime": 1296.699541
+        },
+        {
+          "path": "Audio/output/3209/chapter_07.wav",
+          "duration": 160.142958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadows of Regret and the Light of Forgiveness",
+          "actualDuration": 160.142958,
+          "startTime": 1298.199541,
+          "endTime": 1458.3424989999999
+        },
+        {
+          "path": "Audio/output/3209/chapter_08.wav",
+          "duration": 145.645917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Fragile Dance of Vulnerability",
+          "actualDuration": 145.645917,
+          "startTime": 1459.8424989999999,
+          "endTime": 1605.488416
+        },
+        {
+          "path": "Audio/output/3209/chapter_09.wav",
+          "duration": 136.76625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Rituals That Hold Us Together",
+          "actualDuration": 136.76625,
+          "startTime": 1606.988416,
+          "endTime": 1743.7546659999998
+        },
+        {
+          "path": "Audio/output/3209/chapter_10.wav",
+          "duration": 123.534208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Facing the Future, Together and Apart",
+          "actualDuration": 123.534208,
+          "startTime": 1745.2546659999998,
+          "endTime": 1868.7888739999999
+        },
+        {
+          "path": "Audio/output/3209/conclusion.wav",
+          "duration": 120.579833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.579833,
+          "startTime": 1870.2888739999999,
+          "endTime": 1990.8687069999999
+        }
+      ],
+      "totalDuration": 1990.8687069999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.42,
+          "actualStart": 0,
+          "actualEnd": 89.418667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Family Ties and the Weight of Shared History",
+          "expectedStart": 89.42,
+          "expectedEnd": 349.16,
+          "actualStart": 90.918667,
+          "actualEnd": 350.660125,
+          "timeDifference": 1.4986669999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unpredictable Journey of Aging",
+          "expectedStart": 349.16,
+          "expectedEnd": 547.4,
+          "actualStart": 352.160125,
+          "actualEnd": 550.402375,
+          "timeDifference": 3.0001249999999686
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Grief, Absence, and the Search for Meaning",
+          "expectedStart": 547.4,
+          "expectedEnd": 751.03,
+          "actualStart": 551.902375,
+          "actualEnd": 755.53325,
+          "timeDifference": 4.502375000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Everyday Absurdities and the Power of Humor",
+          "expectedStart": 751.03,
+          "expectedEnd": 940.56,
+          "actualStart": 757.03325,
+          "actualEnd": 946.559125,
+          "timeDifference": 6.00324999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Personal Quirks, Habits, and the Echoes of Childhood",
+          "expectedStart": 940.56,
+          "expectedEnd": 1119.35,
+          "actualStart": 948.059125,
+          "actualEnd": 1126.846583,
+          "timeDifference": 7.499125000000049
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unspoken Language of Siblings",
+          "expectedStart": 1119.35,
+          "expectedEnd": 1287.7,
+          "actualStart": 1128.346583,
+          "actualEnd": 1296.699541,
+          "timeDifference": 8.9965830000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadows of Regret and the Light of Forgiveness",
+          "expectedStart": 1287.7,
+          "expectedEnd": 1447.84,
+          "actualStart": 1298.199541,
+          "actualEnd": 1458.3424989999999,
+          "timeDifference": 10.499540999999908
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Fragile Dance of Vulnerability",
+          "expectedStart": 1447.84,
+          "expectedEnd": 1593.49,
+          "actualStart": 1459.8424989999999,
+          "actualEnd": 1605.488416,
+          "timeDifference": 12.002498999999943
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Rituals That Hold Us Together",
+          "expectedStart": 1593.49,
+          "expectedEnd": 1730.26,
+          "actualStart": 1606.988416,
+          "actualEnd": 1743.7546659999998,
+          "timeDifference": 13.498415999999906
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Facing the Future, Together and Apart",
+          "expectedStart": 1730.26,
+          "expectedEnd": 1853.79,
+          "actualStart": 1745.2546659999998,
+          "actualEnd": 1868.7888739999999,
+          "timeDifference": 14.994665999999825
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1853.79,
+          "expectedEnd": 1974.37,
+          "actualStart": 1870.2888739999999,
+          "actualEnd": 1990.8687069999999,
+          "timeDifference": 16.498873999999887
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.418667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Family Ties and the Weight of Shared History"
+        },
+        {
+          "startTime": 350.660125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Family Ties and the Weight of Shared History and Chapter 2 The Unpredictable Journey of Aging"
+        },
+        {
+          "startTime": 550.402375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unpredictable Journey of Aging and Chapter 3 Grief, Absence, and the Search for Meaning"
+        },
+        {
+          "startTime": 755.53325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Grief, Absence, and the Search for Meaning and Chapter 4 Everyday Absurdities and the Power of Humor"
+        },
+        {
+          "startTime": 946.559125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Everyday Absurdities and the Power of Humor and Chapter 5 Personal Quirks, Habits, and the Echoes of Childhood"
+        },
+        {
+          "startTime": 1126.846583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Personal Quirks, Habits, and the Echoes of Childhood and Chapter 6 The Unspoken Language of Siblings"
+        },
+        {
+          "startTime": 1296.699541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unspoken Language of Siblings and Chapter 7 The Shadows of Regret and the Light of Forgiveness"
+        },
+        {
+          "startTime": 1458.3424989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadows of Regret and the Light of Forgiveness and Chapter 8 The Fragile Dance of Vulnerability"
+        },
+        {
+          "startTime": 1605.488416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Fragile Dance of Vulnerability and Chapter 9 The Rituals That Hold Us Together"
+        },
+        {
+          "startTime": 1743.7546659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Rituals That Hold Us Together and Chapter 10 Facing the Future, Together and Apart"
+        },
+        {
+          "startTime": 1868.7888739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Facing the Future, Together and Apart and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3209",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:12:46.412Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

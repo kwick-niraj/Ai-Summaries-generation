@@ -1,0 +1,455 @@
+{
+  "bookId": "2820",
+  "timestamp": "2025-07-13T22:12:28.419Z",
+  "success": false,
+  "processingTime": -1752444444043,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4896,
+    "totalAudioFiles": 12,
+    "totalDuration": 2095.121874
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2095.121874
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2820/optimized_text/2820.md",
+    "fileSize": 741,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2820.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2820/metadata/2820_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2095.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2820/metadata/2820_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2820/metadata/2820_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2820/2820_complete.wav",
+    "duration": 2095.121875,
+    "fileSize": 100565928,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2820/introduction.wav",
+          "duration": 82.6315,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.6315,
+          "startTime": 0,
+          "endTime": 82.6315
+        },
+        {
+          "path": "Audio/output/2820/chapter_01.wav",
+          "duration": 213.281083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Politics and Family Expectations",
+          "actualDuration": 213.281083,
+          "startTime": 84.1315,
+          "endTime": 297.412583
+        },
+        {
+          "path": "Audio/output/2820/chapter_02.wav",
+          "duration": 224.139458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Voice and Building a Life Beyond the Shadows",
+          "actualDuration": 224.139458,
+          "startTime": 298.912583,
+          "endTime": 523.0520409999999
+        },
+        {
+          "path": "Audio/output/2820/chapter_03.wav",
+          "duration": 228.574417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating the Halls of Power and Learning the Art of Influence",
+          "actualDuration": 228.574417,
+          "startTime": 524.5520409999999,
+          "endTime": 753.126458
+        },
+        {
+          "path": "Audio/output/2820/chapter_04.wav",
+          "duration": 236.913833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rising to Leadership and Facing the Realities of Partisan Conflict",
+          "actualDuration": 236.913833,
+          "startTime": 754.626458,
+          "endTime": 991.540291
+        },
+        {
+          "path": "Audio/output/2820/chapter_05.wav",
+          "duration": 194.617875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Barriers and Redefining What Leadership Looks Like",
+          "actualDuration": 194.617875,
+          "startTime": 993.040291,
+          "endTime": 1187.658166
+        },
+        {
+          "path": "Audio/output/2820/chapter_06.wav",
+          "duration": 186.924458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering Storms—Crisis, Criticism, and the Cost of Responsibility",
+          "actualDuration": 186.924458,
+          "startTime": 1189.158166,
+          "endTime": 1376.082624
+        },
+        {
+          "path": "Audio/output/2820/chapter_07.wav",
+          "duration": 186.474458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Persistence—Fighting for Big Change",
+          "actualDuration": 186.474458,
+          "startTime": 1377.582624,
+          "endTime": 1564.0570819999998
+        },
+        {
+          "path": "Audio/output/2820/chapter_08.wav",
+          "duration": 154.293917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mentorship, Legacy, and the Next Generation",
+          "actualDuration": 154.293917,
+          "startTime": 1565.5570819999998,
+          "endTime": 1719.8509989999998
+        },
+        {
+          "path": "Audio/output/2820/chapter_09.wav",
+          "duration": 156.112875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the Future—Adapting to a Changing World",
+          "actualDuration": 156.112875,
+          "startTime": 1721.3509989999998,
+          "endTime": 1877.4638739999998
+        },
+        {
+          "path": "Audio/output/2820/chapter_10.wav",
+          "duration": 117.125958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons of Power",
+          "actualDuration": 117.125958,
+          "startTime": 1878.9638739999998,
+          "endTime": 1996.089832
+        },
+        {
+          "path": "Audio/output/2820/conclusion.wav",
+          "duration": 114.032042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.032042,
+          "startTime": 1997.589832,
+          "endTime": 2111.621874
+        }
+      ],
+      "totalDuration": 2111.621874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.63,
+          "actualStart": 0,
+          "actualEnd": 82.6315,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Politics and Family Expectations",
+          "expectedStart": 82.63,
+          "expectedEnd": 295.91,
+          "actualStart": 84.1315,
+          "actualEnd": 297.412583,
+          "timeDifference": 1.5015000000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Voice and Building a Life Beyond the Shadows",
+          "expectedStart": 295.91,
+          "expectedEnd": 520.05,
+          "actualStart": 298.912583,
+          "actualEnd": 523.0520409999999,
+          "timeDifference": 3.0025829999999587
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating the Halls of Power and Learning the Art of Influence",
+          "expectedStart": 520.05,
+          "expectedEnd": 748.62,
+          "actualStart": 524.5520409999999,
+          "actualEnd": 753.126458,
+          "timeDifference": 4.502040999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rising to Leadership and Facing the Realities of Partisan Conflict",
+          "expectedStart": 748.62,
+          "expectedEnd": 985.53,
+          "actualStart": 754.626458,
+          "actualEnd": 991.540291,
+          "timeDifference": 6.006457999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Barriers and Redefining What Leadership Looks Like",
+          "expectedStart": 985.53,
+          "expectedEnd": 1180.15,
+          "actualStart": 993.040291,
+          "actualEnd": 1187.658166,
+          "timeDifference": 7.510291000000052
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering Storms—Crisis, Criticism, and the Cost of Responsibility",
+          "expectedStart": 1180.15,
+          "expectedEnd": 1367.07,
+          "actualStart": 1189.158166,
+          "actualEnd": 1376.082624,
+          "timeDifference": 9.008165999999846
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Persistence—Fighting for Big Change",
+          "expectedStart": 1367.07,
+          "expectedEnd": 1553.54,
+          "actualStart": 1377.582624,
+          "actualEnd": 1564.0570819999998,
+          "timeDifference": 10.51262399999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mentorship, Legacy, and the Next Generation",
+          "expectedStart": 1553.54,
+          "expectedEnd": 1707.83,
+          "actualStart": 1565.5570819999998,
+          "actualEnd": 1719.8509989999998,
+          "timeDifference": 12.017081999999846
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the Future—Adapting to a Changing World",
+          "expectedStart": 1707.83,
+          "expectedEnd": 1863.94,
+          "actualStart": 1721.3509989999998,
+          "actualEnd": 1877.4638739999998,
+          "timeDifference": 13.520998999999847
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons of Power",
+          "expectedStart": 1863.94,
+          "expectedEnd": 1981.07,
+          "actualStart": 1878.9638739999998,
+          "actualEnd": 1996.089832,
+          "timeDifference": 15.02387399999975
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1981.07,
+          "expectedEnd": 2095.1,
+          "actualStart": 1997.589832,
+          "actualEnd": 2111.621874,
+          "timeDifference": 16.51983199999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.6315,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Politics and Family Expectations"
+        },
+        {
+          "startTime": 297.412583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Politics and Family Expectations and Chapter 2 Finding a Voice and Building a Life Beyond the Shadows"
+        },
+        {
+          "startTime": 523.0520409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Voice and Building a Life Beyond the Shadows and Chapter 3 Navigating the Halls of Power and Learning the Art of Influence"
+        },
+        {
+          "startTime": 753.126458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating the Halls of Power and Learning the Art of Influence and Chapter 4 Rising to Leadership and Facing the Realities of Partisan Conflict"
+        },
+        {
+          "startTime": 991.540291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rising to Leadership and Facing the Realities of Partisan Conflict and Chapter 5 Breaking Barriers and Redefining What Leadership Looks Like"
+        },
+        {
+          "startTime": 1187.658166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Barriers and Redefining What Leadership Looks Like and Chapter 6 Weathering Storms—Crisis, Criticism, and the Cost of Responsibility"
+        },
+        {
+          "startTime": 1376.082624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering Storms—Crisis, Criticism, and the Cost of Responsibility and Chapter 7 The Power of Persistence—Fighting for Big Change"
+        },
+        {
+          "startTime": 1564.0570819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Persistence—Fighting for Big Change and Chapter 8 Mentorship, Legacy, and the Next Generation"
+        },
+        {
+          "startTime": 1719.8509989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mentorship, Legacy, and the Next Generation and Chapter 9 Facing the Future—Adapting to a Changing World"
+        },
+        {
+          "startTime": 1877.4638739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the Future—Adapting to a Changing World and Chapter 10 The Enduring Lessons of Power"
+        },
+        {
+          "startTime": 1996.089832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons of Power and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2820",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:07:25.370Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

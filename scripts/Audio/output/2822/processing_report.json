@@ -1,0 +1,456 @@
+{
+  "bookId": "2822",
+  "timestamp": "2025-07-13T22:23:22.216Z",
+  "success": false,
+  "processingTime": -1752445013747,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 6044,
+    "totalAudioFiles": 12,
+    "totalDuration": 2667.639001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2667.639001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2822/optimized_text/2822.md",
+    "fileSize": 699,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2822.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2822/metadata/2822_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2667.64,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2822/metadata/2822_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2822/metadata/2822_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2822/2822_complete.wav",
+    "duration": 2667.639,
+    "fileSize": 128046750,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2822/introduction.wav",
+          "duration": 78.974667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.974667,
+          "startTime": 0,
+          "endTime": 78.974667
+        },
+        {
+          "path": "Audio/output/2822/chapter_01.wav",
+          "duration": 299.503167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Meaning in the Mystery of Christ",
+          "actualDuration": 299.503167,
+          "startTime": 80.474667,
+          "endTime": 379.97783400000003
+        },
+        {
+          "path": "Audio/output/2822/chapter_02.wav",
+          "duration": 277.098958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Paradox: Strength in Weakness and Life in Death",
+          "actualDuration": 277.098958,
+          "startTime": 381.47783400000003,
+          "endTime": 658.5767920000001
+        },
+        {
+          "path": "Audio/output/2822/chapter_03.wav",
+          "duration": 264.731792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Universal Heart of Christ’s Teachings",
+          "actualDuration": 264.731792,
+          "startTime": 660.0767920000001,
+          "endTime": 924.8085840000001
+        },
+        {
+          "path": "Audio/output/2822/chapter_04.wav",
+          "duration": 277.933083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Openness to Mystery: Living with Unknowing",
+          "actualDuration": 277.933083,
+          "startTime": 926.3085840000001,
+          "endTime": 1204.2416670000002
+        },
+        {
+          "path": "Audio/output/2822/chapter_05.wav",
+          "duration": 223.402042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Dialogue Between East and West: Learning from Each Other",
+          "actualDuration": 223.402042,
+          "startTime": 1205.7416670000002,
+          "endTime": 1429.1437090000002
+        },
+        {
+          "path": "Audio/output/2822/chapter_06.wav",
+          "duration": 271.095792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Practice of Presence: Finding Christ in the Everyday",
+          "actualDuration": 271.095792,
+          "startTime": 1430.6437090000002,
+          "endTime": 1701.7395010000002
+        },
+        {
+          "path": "Audio/output/2822/chapter_07.wav",
+          "duration": 244.037417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Compassion as a Way of Life: The Transforming Power of Love",
+          "actualDuration": 244.037417,
+          "startTime": 1703.2395010000002,
+          "endTime": 1947.2769180000003
+        },
+        {
+          "path": "Audio/output/2822/chapter_08.wav",
+          "duration": 224.326375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Suffering and Transformation: The Alchemy of Pain",
+          "actualDuration": 224.326375,
+          "startTime": 1948.7769180000003,
+          "endTime": 2173.103293
+        },
+        {
+          "path": "Audio/output/2822/chapter_09.wav",
+          "duration": 215.302,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Journey of Faith: Trusting the Unseen Path",
+          "actualDuration": 215.302,
+          "startTime": 2174.603293,
+          "endTime": 2389.9052930000003
+        },
+        {
+          "path": "Audio/output/2822/chapter_10.wav",
+          "duration": 158.598458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Invitation: Living the Mystery",
+          "actualDuration": 158.598458,
+          "startTime": 2391.4052930000003,
+          "endTime": 2550.003751
+        },
+        {
+          "path": "Audio/output/2822/conclusion.wav",
+          "duration": 132.63525,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.63525,
+          "startTime": 2551.503751,
+          "endTime": 2684.139001
+        }
+      ],
+      "totalDuration": 2684.139001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.97,
+          "actualStart": 0,
+          "actualEnd": 78.974667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Meaning in the Mystery of Christ",
+          "expectedStart": 78.97,
+          "expectedEnd": 378.47,
+          "actualStart": 80.474667,
+          "actualEnd": 379.97783400000003,
+          "timeDifference": 1.5046669999999978
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Paradox: Strength in Weakness and Life in Death",
+          "expectedStart": 378.47,
+          "expectedEnd": 655.57,
+          "actualStart": 381.47783400000003,
+          "actualEnd": 658.5767920000001,
+          "timeDifference": 3.0078340000000026
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Universal Heart of Christ’s Teachings",
+          "expectedStart": 655.57,
+          "expectedEnd": 920.3,
+          "actualStart": 660.0767920000001,
+          "actualEnd": 924.8085840000001,
+          "timeDifference": 4.506792000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Openness to Mystery: Living with Unknowing",
+          "expectedStart": 920.3,
+          "expectedEnd": 1198.23,
+          "actualStart": 926.3085840000001,
+          "actualEnd": 1204.2416670000002,
+          "timeDifference": 6.008584000000155
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Dialogue Between East and West: Learning from Each Other",
+          "expectedStart": 1198.23,
+          "expectedEnd": 1421.63,
+          "actualStart": 1205.7416670000002,
+          "actualEnd": 1429.1437090000002,
+          "timeDifference": 7.511667000000216
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Practice of Presence: Finding Christ in the Everyday",
+          "expectedStart": 1421.63,
+          "expectedEnd": 1692.73,
+          "actualStart": 1430.6437090000002,
+          "actualEnd": 1701.7395010000002,
+          "timeDifference": 9.013709000000063
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Compassion as a Way of Life: The Transforming Power of Love",
+          "expectedStart": 1692.73,
+          "expectedEnd": 1936.77,
+          "actualStart": 1703.2395010000002,
+          "actualEnd": 1947.2769180000003,
+          "timeDifference": 10.509501000000228
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Suffering and Transformation: The Alchemy of Pain",
+          "expectedStart": 1936.77,
+          "expectedEnd": 2161.1,
+          "actualStart": 1948.7769180000003,
+          "actualEnd": 2173.103293,
+          "timeDifference": 12.006918000000269
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Journey of Faith: Trusting the Unseen Path",
+          "expectedStart": 2161.1,
+          "expectedEnd": 2376.4,
+          "actualStart": 2174.603293,
+          "actualEnd": 2389.9052930000003,
+          "timeDifference": 13.503293000000212
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Invitation: Living the Mystery",
+          "expectedStart": 2376.4,
+          "expectedEnd": 2535,
+          "actualStart": 2391.4052930000003,
+          "actualEnd": 2550.003751,
+          "timeDifference": 15.005293000000165
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2535,
+          "expectedEnd": 2667.64,
+          "actualStart": 2551.503751,
+          "actualEnd": 2684.139001,
+          "timeDifference": 16.503751000000193
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.974667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Meaning in the Mystery of Christ"
+        },
+        {
+          "startTime": 379.97783400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Meaning in the Mystery of Christ and Chapter 2 Embracing Paradox: Strength in Weakness and Life in Death"
+        },
+        {
+          "startTime": 658.5767920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Paradox: Strength in Weakness and Life in Death and Chapter 3 The Universal Heart of Christ’s Teachings"
+        },
+        {
+          "startTime": 924.8085840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Universal Heart of Christ’s Teachings and Chapter 4 Openness to Mystery: Living with Unknowing"
+        },
+        {
+          "startTime": 1204.2416670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Openness to Mystery: Living with Unknowing and Chapter 5 Dialogue Between East and West: Learning from Each Other"
+        },
+        {
+          "startTime": 1429.1437090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Dialogue Between East and West: Learning from Each Other and Chapter 6 The Practice of Presence: Finding Christ in the Everyday"
+        },
+        {
+          "startTime": 1701.7395010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Practice of Presence: Finding Christ in the Everyday and Chapter 7 Compassion as a Way of Life: The Transforming Power of Love"
+        },
+        {
+          "startTime": 1947.2769180000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Compassion as a Way of Life: The Transforming Power of Love and Chapter 8 Suffering and Transformation: The Alchemy of Pain"
+        },
+        {
+          "startTime": 2173.103293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Suffering and Transformation: The Alchemy of Pain and Chapter 9 The Journey of Faith: Trusting the Unseen Path"
+        },
+        {
+          "startTime": 2389.9052930000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Journey of Faith: Trusting the Unseen Path and Chapter 10 The Ongoing Invitation: Living the Mystery"
+        },
+        {
+          "startTime": 2550.003751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Invitation: Living the Mystery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2822",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:16:54.440Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

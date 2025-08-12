@@ -1,0 +1,528 @@
+{
+  "bookId": "3048",
+  "timestamp": "2025-07-14T14:14:56.255Z",
+  "success": false,
+  "processingTime": -1752502141852,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 4980,
+    "totalAudioFiles": 15,
+    "totalDuration": 2351.169086
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2351.169086
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3048/optimized_text/3048.md",
+    "fileSize": 868,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "3048.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3048/metadata/3048_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2351.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3048/metadata/3048_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3048/metadata/3048_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3048/3048_complete.wav",
+    "duration": 2351.169083,
+    "fileSize": 112856194,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3048/introduction.wav",
+          "duration": 92.973917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.973917,
+          "startTime": 0,
+          "endTime": 92.973917
+        },
+        {
+          "path": "Audio/output/3048/chapter_01.wav",
+          "duration": 204.182542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Roots, Restlessness, and the Search for Belonging",
+          "actualDuration": 204.182542,
+          "startTime": 94.473917,
+          "endTime": 298.65645900000004
+        },
+        {
+          "path": "Audio/output/3048/chapter_02.wav",
+          "duration": 209.39425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 College Years and the Awakening of Purpose",
+          "actualDuration": 209.39425,
+          "startTime": 300.15645900000004,
+          "endTime": 509.55070900000004
+        },
+        {
+          "path": "Audio/output/3048/chapter_03.wav",
+          "duration": 189.331167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Chicago, Community, and the First Steps into Politics",
+          "actualDuration": 189.331167,
+          "startTime": 511.05070900000004,
+          "endTime": 700.381876
+        },
+        {
+          "path": "Audio/output/3048/chapter_04.wav",
+          "duration": 190.113917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Law, Love, and the Balancing Act of Ambition",
+          "actualDuration": 190.113917,
+          "startTime": 701.881876,
+          "endTime": 891.995793
+        },
+        {
+          "path": "Audio/output/3048/chapter_05.wav",
+          "duration": 176.85725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The State Senate and the Realities of Political Life",
+          "actualDuration": 176.85725,
+          "startTime": 893.495793,
+          "endTime": 1070.353043
+        },
+        {
+          "path": "Audio/output/3048/chapter_06.wav",
+          "duration": 181.054417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Leap to National Stage—A Calculated Risk",
+          "actualDuration": 181.054417,
+          "startTime": 1071.853043,
+          "endTime": 1252.9074600000001
+        },
+        {
+          "path": "Audio/output/3048/chapter_07.wav",
+          "duration": 159.44375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The 2004 Convention—A Voice That Resonated",
+          "actualDuration": 159.44375,
+          "startTime": 1254.4074600000001,
+          "endTime": 1413.85121
+        },
+        {
+          "path": "Audio/output/3048/chapter_08.wav",
+          "duration": 151.624167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Washington—Learning the Art of the Possible",
+          "actualDuration": 151.624167,
+          "startTime": 1415.35121,
+          "endTime": 1566.975377
+        },
+        {
+          "path": "Audio/output/3048/chapter_09.wav",
+          "duration": 141.673917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Decision—To Run or Not to Run",
+          "actualDuration": 141.673917,
+          "startTime": 1568.475377,
+          "endTime": 1710.149294
+        },
+        {
+          "path": "Audio/output/3048/chapter_10.wav",
+          "duration": 185.944667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Campaign—Battles, Breakthroughs, and the Weight of History",
+          "actualDuration": 185.944667,
+          "startTime": 1711.649294,
+          "endTime": 1897.593961
+        },
+        {
+          "path": "Audio/output/3048/chapter_11.wav",
+          "duration": 114.295333,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Transition—From Candidate to President",
+          "actualDuration": 114.295333,
+          "startTime": 1899.093961,
+          "endTime": 2013.389294
+        },
+        {
+          "path": "Audio/output/3048/chapter_12.wav",
+          "duration": 128.55725,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The First Year—Governing in the Eye of the Storm",
+          "actualDuration": 128.55725,
+          "startTime": 2014.889294,
+          "endTime": 2143.446544
+        },
+        {
+          "path": "Audio/output/3048/chapter_13.wav",
+          "duration": 119.389875,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Legacy, Reflection, and the Ongoing Journey",
+          "actualDuration": 119.389875,
+          "startTime": 2144.946544,
+          "endTime": 2264.3364189999998
+        },
+        {
+          "path": "Audio/output/3048/conclusion.wav",
+          "duration": 106.332667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.332667,
+          "startTime": 2265.8364189999998,
+          "endTime": 2372.169086
+        }
+      ],
+      "totalDuration": 2372.169086,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.97,
+          "actualStart": 0,
+          "actualEnd": 92.973917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Roots, Restlessness, and the Search for Belonging",
+          "expectedStart": 92.97,
+          "expectedEnd": 297.15,
+          "actualStart": 94.473917,
+          "actualEnd": 298.65645900000004,
+          "timeDifference": 1.5039170000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 College Years and the Awakening of Purpose",
+          "expectedStart": 297.15,
+          "expectedEnd": 506.54,
+          "actualStart": 300.15645900000004,
+          "actualEnd": 509.55070900000004,
+          "timeDifference": 3.0064590000000635
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Chicago, Community, and the First Steps into Politics",
+          "expectedStart": 506.54,
+          "expectedEnd": 695.87,
+          "actualStart": 511.05070900000004,
+          "actualEnd": 700.381876,
+          "timeDifference": 4.51070900000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Law, Love, and the Balancing Act of Ambition",
+          "expectedStart": 695.87,
+          "expectedEnd": 885.98,
+          "actualStart": 701.881876,
+          "actualEnd": 891.995793,
+          "timeDifference": 6.011876000000029
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The State Senate and the Realities of Political Life",
+          "expectedStart": 885.98,
+          "expectedEnd": 1062.84,
+          "actualStart": 893.495793,
+          "actualEnd": 1070.353043,
+          "timeDifference": 7.515793000000031
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Leap to National Stage—A Calculated Risk",
+          "expectedStart": 1062.84,
+          "expectedEnd": 1243.89,
+          "actualStart": 1071.853043,
+          "actualEnd": 1252.9074600000001,
+          "timeDifference": 9.013043000000152
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The 2004 Convention—A Voice That Resonated",
+          "expectedStart": 1243.89,
+          "expectedEnd": 1403.33,
+          "actualStart": 1254.4074600000001,
+          "actualEnd": 1413.85121,
+          "timeDifference": 10.517460000000028
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Washington—Learning the Art of the Possible",
+          "expectedStart": 1403.33,
+          "expectedEnd": 1554.95,
+          "actualStart": 1415.35121,
+          "actualEnd": 1566.975377,
+          "timeDifference": 12.02121000000011
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Decision—To Run or Not to Run",
+          "expectedStart": 1554.95,
+          "expectedEnd": 1696.62,
+          "actualStart": 1568.475377,
+          "actualEnd": 1710.149294,
+          "timeDifference": 13.525376999999935
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Campaign—Battles, Breakthroughs, and the Weight of History",
+          "expectedStart": 1696.62,
+          "expectedEnd": 1882.56,
+          "actualStart": 1711.649294,
+          "actualEnd": 1897.593961,
+          "timeDifference": 15.029294000000164
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Transition—From Candidate to President",
+          "expectedStart": 1882.56,
+          "expectedEnd": 1996.86,
+          "actualStart": 1899.093961,
+          "actualEnd": 2013.389294,
+          "timeDifference": 16.53396100000009
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The First Year—Governing in the Eye of the Storm",
+          "expectedStart": 1996.86,
+          "expectedEnd": 2125.42,
+          "actualStart": 2014.889294,
+          "actualEnd": 2143.446544,
+          "timeDifference": 18.029294000000164
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Legacy, Reflection, and the Ongoing Journey",
+          "expectedStart": 2125.42,
+          "expectedEnd": 2244.81,
+          "actualStart": 2144.946544,
+          "actualEnd": 2264.3364189999998,
+          "timeDifference": 19.52654399999983
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2244.81,
+          "expectedEnd": 2351.14,
+          "actualStart": 2265.8364189999998,
+          "actualEnd": 2372.169086,
+          "timeDifference": 21.026418999999805
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.973917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Roots, Restlessness, and the Search for Belonging"
+        },
+        {
+          "startTime": 298.65645900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Roots, Restlessness, and the Search for Belonging and Chapter 2 College Years and the Awakening of Purpose"
+        },
+        {
+          "startTime": 509.55070900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 College Years and the Awakening of Purpose and Chapter 3 Chicago, Community, and the First Steps into Politics"
+        },
+        {
+          "startTime": 700.381876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Chicago, Community, and the First Steps into Politics and Chapter 4 Law, Love, and the Balancing Act of Ambition"
+        },
+        {
+          "startTime": 891.995793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Law, Love, and the Balancing Act of Ambition and Chapter 5 The State Senate and the Realities of Political Life"
+        },
+        {
+          "startTime": 1070.353043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The State Senate and the Realities of Political Life and Chapter 6 The Leap to National Stage—A Calculated Risk"
+        },
+        {
+          "startTime": 1252.9074600000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Leap to National Stage—A Calculated Risk and Chapter 7 The 2004 Convention—A Voice That Resonated"
+        },
+        {
+          "startTime": 1413.85121,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The 2004 Convention—A Voice That Resonated and Chapter 8 Washington—Learning the Art of the Possible"
+        },
+        {
+          "startTime": 1566.975377,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Washington—Learning the Art of the Possible and Chapter 9 The Decision—To Run or Not to Run"
+        },
+        {
+          "startTime": 1710.149294,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Decision—To Run or Not to Run and Chapter 10 The Campaign—Battles, Breakthroughs, and the Weight of History"
+        },
+        {
+          "startTime": 1897.593961,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Campaign—Battles, Breakthroughs, and the Weight of History and Chapter 11 The Transition—From Candidate to President"
+        },
+        {
+          "startTime": 2013.389294,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Transition—From Candidate to President and Chapter 12 The First Year—Governing in the Eye of the Storm"
+        },
+        {
+          "startTime": 2143.446544,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The First Year—Governing in the Eye of the Storm and Chapter 13 Legacy, Reflection, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2264.3364189999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Legacy, Reflection, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3048",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T14:09:02.349Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

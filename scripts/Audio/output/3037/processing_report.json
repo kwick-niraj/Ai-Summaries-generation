@@ -1,0 +1,456 @@
+{
+  "bookId": "3037",
+  "timestamp": "2025-07-14T13:28:36.658Z",
+  "success": false,
+  "processingTime": -1752499328940,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4365,
+    "totalAudioFiles": 12,
+    "totalDuration": 2170.580876
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2170.580876
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3037/optimized_text/3037.md",
+    "fileSize": 691,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "3037.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3037/metadata/3037_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2170.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3037/metadata/3037_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3037/metadata/3037_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3037/3037_complete.wav",
+    "duration": 2170.580875,
+    "fileSize": 104187960,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3037/introduction.wav",
+          "duration": 93.621208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.621208,
+          "startTime": 0,
+          "endTime": 93.621208
+        },
+        {
+          "path": "Audio/output/3037/chapter_01.wav",
+          "duration": 227.038375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Questioning Religious Authority and the Roots of Belief",
+          "actualDuration": 227.038375,
+          "startTime": 95.121208,
+          "endTime": 322.159583
+        },
+        {
+          "path": "Audio/output/3037/chapter_02.wav",
+          "duration": 263.944042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Sacred Texts and the Case for Critical Examination",
+          "actualDuration": 263.944042,
+          "startTime": 323.659583,
+          "endTime": 587.603625
+        },
+        {
+          "path": "Audio/output/3037/chapter_03.wav",
+          "duration": 220.035,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Deism and the Rational Understanding of the Divine",
+          "actualDuration": 220.035,
+          "startTime": 589.103625,
+          "endTime": 809.1386249999999
+        },
+        {
+          "path": "Audio/output/3037/chapter_04.wav",
+          "duration": 224.755292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Reason and the Freedom of Conscience",
+          "actualDuration": 224.755292,
+          "startTime": 810.6386249999999,
+          "endTime": 1035.3939169999999
+        },
+        {
+          "path": "Audio/output/3037/chapter_05.wav",
+          "duration": 205.894208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Importance of Separating Religion from Government",
+          "actualDuration": 205.894208,
+          "startTime": 1036.8939169999999,
+          "endTime": 1242.7881249999998
+        },
+        {
+          "path": "Audio/output/3037/chapter_06.wav",
+          "duration": 195.677292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Personal Virtue Through Reason and Experience",
+          "actualDuration": 195.677292,
+          "startTime": 1244.2881249999998,
+          "endTime": 1439.965417
+        },
+        {
+          "path": "Audio/output/3037/chapter_07.wav",
+          "duration": 154.716417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Community and Shared Humanity",
+          "actualDuration": 154.716417,
+          "startTime": 1441.465417,
+          "endTime": 1596.181834
+        },
+        {
+          "path": "Audio/output/3037/chapter_08.wav",
+          "duration": 164.541375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Education as the Engine of Progress",
+          "actualDuration": 164.541375,
+          "startTime": 1597.681834,
+          "endTime": 1762.223209
+        },
+        {
+          "path": "Audio/output/3037/chapter_09.wav",
+          "duration": 158.097417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing Uncertainty and Embracing Mystery",
+          "actualDuration": 158.097417,
+          "startTime": 1763.723209,
+          "endTime": 1921.820626
+        },
+        {
+          "path": "Audio/output/3037/chapter_10.wav",
+          "duration": 123.765,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Meaning Beyond Dogma",
+          "actualDuration": 123.765,
+          "startTime": 1923.320626,
+          "endTime": 2047.085626
+        },
+        {
+          "path": "Audio/output/3037/conclusion.wav",
+          "duration": 138.49525,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.49525,
+          "startTime": 2048.585626,
+          "endTime": 2187.080876
+        }
+      ],
+      "totalDuration": 2187.080876,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.62,
+          "actualStart": 0,
+          "actualEnd": 93.621208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Questioning Religious Authority and the Roots of Belief",
+          "expectedStart": 93.62,
+          "expectedEnd": 320.66,
+          "actualStart": 95.121208,
+          "actualEnd": 322.159583,
+          "timeDifference": 1.5012079999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Sacred Texts and the Case for Critical Examination",
+          "expectedStart": 320.66,
+          "expectedEnd": 584.6,
+          "actualStart": 323.659583,
+          "actualEnd": 587.603625,
+          "timeDifference": 2.999582999999973
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Deism and the Rational Understanding of the Divine",
+          "expectedStart": 584.6,
+          "expectedEnd": 804.64,
+          "actualStart": 589.103625,
+          "actualEnd": 809.1386249999999,
+          "timeDifference": 4.503624999999943
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Reason and the Freedom of Conscience",
+          "expectedStart": 804.64,
+          "expectedEnd": 1029.4,
+          "actualStart": 810.6386249999999,
+          "actualEnd": 1035.3939169999999,
+          "timeDifference": 5.998624999999947
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Importance of Separating Religion from Government",
+          "expectedStart": 1029.4,
+          "expectedEnd": 1235.29,
+          "actualStart": 1036.8939169999999,
+          "actualEnd": 1242.7881249999998,
+          "timeDifference": 7.493916999999783
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Personal Virtue Through Reason and Experience",
+          "expectedStart": 1235.29,
+          "expectedEnd": 1430.97,
+          "actualStart": 1244.2881249999998,
+          "actualEnd": 1439.965417,
+          "timeDifference": 8.998124999999845
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Community and Shared Humanity",
+          "expectedStart": 1430.97,
+          "expectedEnd": 1585.69,
+          "actualStart": 1441.465417,
+          "actualEnd": 1596.181834,
+          "timeDifference": 10.495416999999861
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Education as the Engine of Progress",
+          "expectedStart": 1585.69,
+          "expectedEnd": 1750.23,
+          "actualStart": 1597.681834,
+          "actualEnd": 1762.223209,
+          "timeDifference": 11.991833999999926
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing Uncertainty and Embracing Mystery",
+          "expectedStart": 1750.23,
+          "expectedEnd": 1908.33,
+          "actualStart": 1763.723209,
+          "actualEnd": 1921.820626,
+          "timeDifference": 13.493208999999979
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Meaning Beyond Dogma",
+          "expectedStart": 1908.33,
+          "expectedEnd": 2032.1,
+          "actualStart": 1923.320626,
+          "actualEnd": 2047.085626,
+          "timeDifference": 14.99062600000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2032.1,
+          "expectedEnd": 2170.6,
+          "actualStart": 2048.585626,
+          "actualEnd": 2187.080876,
+          "timeDifference": 16.48562600000014
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.621208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Questioning Religious Authority and the Roots of Belief"
+        },
+        {
+          "startTime": 322.159583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Questioning Religious Authority and the Roots of Belief and Chapter 2 The Limits of Sacred Texts and the Case for Critical Examination"
+        },
+        {
+          "startTime": 587.603625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Sacred Texts and the Case for Critical Examination and Chapter 3 Deism and the Rational Understanding of the Divine"
+        },
+        {
+          "startTime": 809.1386249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Deism and the Rational Understanding of the Divine and Chapter 4 The Power of Reason and the Freedom of Conscience"
+        },
+        {
+          "startTime": 1035.3939169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Reason and the Freedom of Conscience and Chapter 5 The Importance of Separating Religion from Government"
+        },
+        {
+          "startTime": 1242.7881249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Importance of Separating Religion from Government and Chapter 6 Cultivating Personal Virtue Through Reason and Experience"
+        },
+        {
+          "startTime": 1439.965417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Personal Virtue Through Reason and Experience and Chapter 7 The Role of Community and Shared Humanity"
+        },
+        {
+          "startTime": 1596.181834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Community and Shared Humanity and Chapter 8 Education as the Engine of Progress"
+        },
+        {
+          "startTime": 1762.223209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Education as the Engine of Progress and Chapter 9 Facing Uncertainty and Embracing Mystery"
+        },
+        {
+          "startTime": 1921.820626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing Uncertainty and Embracing Mystery and Chapter 10 Living with Purpose and Meaning Beyond Dogma"
+        },
+        {
+          "startTime": 2047.085626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Meaning Beyond Dogma and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3037",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:22:08.959Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

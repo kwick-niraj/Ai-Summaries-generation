@@ -1,0 +1,456 @@
+{
+  "bookId": "2797",
+  "timestamp": "2025-07-13T20:29:13.398Z",
+  "success": false,
+  "processingTime": -1752438288982,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5827,
+    "totalAudioFiles": 12,
+    "totalDuration": 2611.5493739999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2611.5493739999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2797/optimized_text/2797.md",
+    "fileSize": 804,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "2797.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2797/metadata/2797_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2611.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2797/metadata/2797_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2797/metadata/2797_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2797/2797_complete.wav",
+    "duration": 2611.549375,
+    "fileSize": 125354448,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2797/introduction.wav",
+          "duration": 120.986333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 120.986333,
+          "startTime": 0,
+          "endTime": 120.986333
+        },
+        {
+          "path": "Audio/output/2797/chapter_01.wav",
+          "duration": 264.348667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life Before the Storm: Family, Work, and Quiet Hopes",
+          "actualDuration": 264.348667,
+          "startTime": 122.486333,
+          "endTime": 386.835
+        },
+        {
+          "path": "Audio/output/2797/chapter_02.wav",
+          "duration": 339.921875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Arrival of Katrina: Choices, Separation, and the First Signs of Crisis",
+          "actualDuration": 339.921875,
+          "startTime": 388.335,
+          "endTime": 728.256875
+        },
+        {
+          "path": "Audio/output/2797/chapter_03.wav",
+          "duration": 257.340792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Surviving in a Broken City: Community, Faith, and the Limits of Help",
+          "actualDuration": 257.340792,
+          "startTime": 729.756875,
+          "endTime": 987.097667
+        },
+        {
+          "path": "Audio/output/2797/chapter_04.wav",
+          "duration": 231.737792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Unjust Detainment: Suspicion, Profiling, and the Erosion of Rights",
+          "actualDuration": 231.737792,
+          "startTime": 988.597667,
+          "endTime": 1220.335459
+        },
+        {
+          "path": "Audio/output/2797/chapter_05.wav",
+          "duration": 171.037083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Family Bonds and the Struggle for Justice",
+          "actualDuration": 171.037083,
+          "startTime": 1221.835459,
+          "endTime": 1392.8725419999998
+        },
+        {
+          "path": "Audio/output/2797/chapter_06.wav",
+          "duration": 271.053458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Wait: Hope, Despair, and the Power of Small Acts",
+          "actualDuration": 271.053458,
+          "startTime": 1394.3725419999998,
+          "endTime": 1665.426
+        },
+        {
+          "path": "Audio/output/2797/chapter_07.wav",
+          "duration": 253.925125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reunion and the Fragile Return to Normal",
+          "actualDuration": 253.925125,
+          "startTime": 1666.926,
+          "endTime": 1920.851125
+        },
+        {
+          "path": "Audio/output/2797/chapter_08.wav",
+          "duration": 211.202208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Searching for Justice: Speaking Out and the Struggle for Accountability",
+          "actualDuration": 211.202208,
+          "startTime": 1922.351125,
+          "endTime": 2133.553333
+        },
+        {
+          "path": "Audio/output/2797/chapter_09.wav",
+          "duration": 210.702958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing and Moving Forward: Rebuilding Trust and Community",
+          "actualDuration": 210.702958,
+          "startTime": 2135.053333,
+          "endTime": 2345.7562909999997
+        },
+        {
+          "path": "Audio/output/2797/chapter_10.wav",
+          "duration": 146.662583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Storm: Memory, Identity, and the Meaning of Home",
+          "actualDuration": 146.662583,
+          "startTime": 2347.2562909999997,
+          "endTime": 2493.9188739999995
+        },
+        {
+          "path": "Audio/output/2797/conclusion.wav",
+          "duration": 132.6305,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.6305,
+          "startTime": 2495.4188739999995,
+          "endTime": 2628.0493739999997
+        }
+      ],
+      "totalDuration": 2628.0493739999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 120.99,
+          "actualStart": 0,
+          "actualEnd": 120.986333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life Before the Storm: Family, Work, and Quiet Hopes",
+          "expectedStart": 120.99,
+          "expectedEnd": 385.34,
+          "actualStart": 122.486333,
+          "actualEnd": 386.835,
+          "timeDifference": 1.496333000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Arrival of Katrina: Choices, Separation, and the First Signs of Crisis",
+          "expectedStart": 385.34,
+          "expectedEnd": 725.26,
+          "actualStart": 388.335,
+          "actualEnd": 728.256875,
+          "timeDifference": 2.9950000000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Surviving in a Broken City: Community, Faith, and the Limits of Help",
+          "expectedStart": 725.26,
+          "expectedEnd": 982.6,
+          "actualStart": 729.756875,
+          "actualEnd": 987.097667,
+          "timeDifference": 4.4968750000000455
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Unjust Detainment: Suspicion, Profiling, and the Erosion of Rights",
+          "expectedStart": 982.6,
+          "expectedEnd": 1214.34,
+          "actualStart": 988.597667,
+          "actualEnd": 1220.335459,
+          "timeDifference": 5.9976669999999785
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Family Bonds and the Struggle for Justice",
+          "expectedStart": 1214.34,
+          "expectedEnd": 1385.38,
+          "actualStart": 1221.835459,
+          "actualEnd": 1392.8725419999998,
+          "timeDifference": 7.4954589999999826
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Wait: Hope, Despair, and the Power of Small Acts",
+          "expectedStart": 1385.38,
+          "expectedEnd": 1656.43,
+          "actualStart": 1394.3725419999998,
+          "actualEnd": 1665.426,
+          "timeDifference": 8.99254199999973
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reunion and the Fragile Return to Normal",
+          "expectedStart": 1656.43,
+          "expectedEnd": 1910.36,
+          "actualStart": 1666.926,
+          "actualEnd": 1920.851125,
+          "timeDifference": 10.495999999999867
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Searching for Justice: Speaking Out and the Struggle for Accountability",
+          "expectedStart": 1910.36,
+          "expectedEnd": 2121.56,
+          "actualStart": 1922.351125,
+          "actualEnd": 2133.553333,
+          "timeDifference": 11.991125000000011
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing and Moving Forward: Rebuilding Trust and Community",
+          "expectedStart": 2121.56,
+          "expectedEnd": 2332.26,
+          "actualStart": 2135.053333,
+          "actualEnd": 2345.7562909999997,
+          "timeDifference": 13.493332999999893
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Storm: Memory, Identity, and the Meaning of Home",
+          "expectedStart": 2332.26,
+          "expectedEnd": 2478.92,
+          "actualStart": 2347.2562909999997,
+          "actualEnd": 2493.9188739999995,
+          "timeDifference": 14.996290999999474
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2478.92,
+          "expectedEnd": 2611.55,
+          "actualStart": 2495.4188739999995,
+          "actualEnd": 2628.0493739999997,
+          "timeDifference": 16.498873999999432
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 120.986333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life Before the Storm: Family, Work, and Quiet Hopes"
+        },
+        {
+          "startTime": 386.835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life Before the Storm: Family, Work, and Quiet Hopes and Chapter 2 The Arrival of Katrina: Choices, Separation, and the First Signs of Crisis"
+        },
+        {
+          "startTime": 728.256875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Arrival of Katrina: Choices, Separation, and the First Signs of Crisis and Chapter 3 Surviving in a Broken City: Community, Faith, and the Limits of Help"
+        },
+        {
+          "startTime": 987.097667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Surviving in a Broken City: Community, Faith, and the Limits of Help and Chapter 4 Unjust Detainment: Suspicion, Profiling, and the Erosion of Rights"
+        },
+        {
+          "startTime": 1220.335459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Unjust Detainment: Suspicion, Profiling, and the Erosion of Rights and Chapter 5 Family Bonds and the Struggle for Justice"
+        },
+        {
+          "startTime": 1392.8725419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Family Bonds and the Struggle for Justice and Chapter 6 The Long Wait: Hope, Despair, and the Power of Small Acts"
+        },
+        {
+          "startTime": 1665.426,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Wait: Hope, Despair, and the Power of Small Acts and Chapter 7 Reunion and the Fragile Return to Normal"
+        },
+        {
+          "startTime": 1920.851125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reunion and the Fragile Return to Normal and Chapter 8 Searching for Justice: Speaking Out and the Struggle for Accountability"
+        },
+        {
+          "startTime": 2133.553333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Searching for Justice: Speaking Out and the Struggle for Accountability and Chapter 9 Healing and Moving Forward: Rebuilding Trust and Community"
+        },
+        {
+          "startTime": 2345.7562909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing and Moving Forward: Rebuilding Trust and Community and Chapter 10 Lessons from the Storm: Memory, Identity, and the Meaning of Home"
+        },
+        {
+          "startTime": 2493.9188739999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Storm: Memory, Identity, and the Meaning of Home and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2797",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:24:50.207Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

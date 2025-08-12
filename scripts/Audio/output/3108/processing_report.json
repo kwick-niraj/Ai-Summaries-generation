@@ -1,0 +1,456 @@
+{
+  "bookId": "3108",
+  "timestamp": "2025-07-14T18:59:52.608Z",
+  "success": false,
+  "processingTime": -1752519168097,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5365,
+    "totalAudioFiles": 12,
+    "totalDuration": 2313.6182909999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2313.6182909999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3108/optimized_text/3108.md",
+    "fileSize": 825,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "3108.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3108/metadata/3108_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2313.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3108/metadata/3108_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3108/metadata/3108_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3108/3108_complete.wav",
+    "duration": 2313.618292,
+    "fileSize": 111053756,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3108/introduction.wav",
+          "duration": 87.974292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.974292,
+          "startTime": 0,
+          "endTime": 87.974292
+        },
+        {
+          "path": "Audio/output/3108/chapter_01.wav",
+          "duration": 222.899208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Battles Behind the Front Lines",
+          "actualDuration": 222.899208,
+          "startTime": 89.474292,
+          "endTime": 312.3735
+        },
+        {
+          "path": "Audio/output/3108/chapter_02.wav",
+          "duration": 216.996708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Body’s Struggle Against Heat, Noise, and Exhaustion",
+          "actualDuration": 216.996708,
+          "startTime": 313.8735,
+          "endTime": 530.870208
+        },
+        {
+          "path": "Audio/output/3108/chapter_03.wav",
+          "duration": 230.621417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unseen Hazards of Military Technology",
+          "actualDuration": 230.621417,
+          "startTime": 532.370208,
+          "endTime": 762.9916250000001
+        },
+        {
+          "path": "Audio/output/3108/chapter_04.wav",
+          "duration": 223.057458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Battle Against Infection, Disease, and Decay",
+          "actualDuration": 223.057458,
+          "startTime": 764.4916250000001,
+          "endTime": 987.5490830000001
+        },
+        {
+          "path": "Audio/output/3108/chapter_05.wav",
+          "duration": 206.523375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Mind’s War: Fear, Trauma, and the Science of Resilience",
+          "actualDuration": 206.523375,
+          "startTime": 989.0490830000001,
+          "endTime": 1195.572458
+        },
+        {
+          "path": "Audio/output/3108/chapter_06.wav",
+          "duration": 235.753958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Science of Staying Fed: Food, Water, and the Relentless Search for Energy",
+          "actualDuration": 235.753958,
+          "startTime": 1197.072458,
+          "endTime": 1432.826416
+        },
+        {
+          "path": "Audio/output/3108/chapter_07.wav",
+          "duration": 194.785417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art and Agony of Military Medicine: Saving Lives in the Golden Hour",
+          "actualDuration": 194.785417,
+          "startTime": 1434.326416,
+          "endTime": 1629.1118330000002
+        },
+        {
+          "path": "Audio/output/3108/chapter_08.wav",
+          "duration": 160.881917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Battle for Silence: Stealth, Secrecy, and the Science of Staying Hidden",
+          "actualDuration": 160.881917,
+          "startTime": 1630.6118330000002,
+          "endTime": 1791.49375
+        },
+        {
+          "path": "Audio/output/3108/chapter_09.wav",
+          "duration": 198.932833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unexpected Allies: Animals, Nature, and the Unlikely Science of Survival",
+          "actualDuration": 198.932833,
+          "startTime": 1792.99375,
+          "endTime": 1991.9265830000002
+        },
+        {
+          "path": "Audio/output/3108/chapter_10.wav",
+          "duration": 192.459875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Road Home: Recovery, Reintegration, and the Science of Coming Back",
+          "actualDuration": 192.459875,
+          "startTime": 1993.4265830000002,
+          "endTime": 2185.886458
+        },
+        {
+          "path": "Audio/output/3108/conclusion.wav",
+          "duration": 142.731833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.731833,
+          "startTime": 2187.386458,
+          "endTime": 2330.1182909999998
+        }
+      ],
+      "totalDuration": 2330.1182909999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.97,
+          "actualStart": 0,
+          "actualEnd": 87.974292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Battles Behind the Front Lines",
+          "expectedStart": 87.97,
+          "expectedEnd": 310.87,
+          "actualStart": 89.474292,
+          "actualEnd": 312.3735,
+          "timeDifference": 1.5042920000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Body’s Struggle Against Heat, Noise, and Exhaustion",
+          "expectedStart": 310.87,
+          "expectedEnd": 527.87,
+          "actualStart": 313.8735,
+          "actualEnd": 530.870208,
+          "timeDifference": 3.003499999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unseen Hazards of Military Technology",
+          "expectedStart": 527.87,
+          "expectedEnd": 758.49,
+          "actualStart": 532.370208,
+          "actualEnd": 762.9916250000001,
+          "timeDifference": 4.500208000000043
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Battle Against Infection, Disease, and Decay",
+          "expectedStart": 758.49,
+          "expectedEnd": 981.55,
+          "actualStart": 764.4916250000001,
+          "actualEnd": 987.5490830000001,
+          "timeDifference": 6.001625000000104
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Mind’s War: Fear, Trauma, and the Science of Resilience",
+          "expectedStart": 981.55,
+          "expectedEnd": 1188.07,
+          "actualStart": 989.0490830000001,
+          "actualEnd": 1195.572458,
+          "timeDifference": 7.499083000000155
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Science of Staying Fed: Food, Water, and the Relentless Search for Energy",
+          "expectedStart": 1188.07,
+          "expectedEnd": 1423.82,
+          "actualStart": 1197.072458,
+          "actualEnd": 1432.826416,
+          "timeDifference": 9.00245800000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art and Agony of Military Medicine: Saving Lives in the Golden Hour",
+          "expectedStart": 1423.82,
+          "expectedEnd": 1618.61,
+          "actualStart": 1434.326416,
+          "actualEnd": 1629.1118330000002,
+          "timeDifference": 10.506416000000172
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Battle for Silence: Stealth, Secrecy, and the Science of Staying Hidden",
+          "expectedStart": 1618.61,
+          "expectedEnd": 1779.49,
+          "actualStart": 1630.6118330000002,
+          "actualEnd": 1791.49375,
+          "timeDifference": 12.00183300000026
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unexpected Allies: Animals, Nature, and the Unlikely Science of Survival",
+          "expectedStart": 1779.49,
+          "expectedEnd": 1978.42,
+          "actualStart": 1792.99375,
+          "actualEnd": 1991.9265830000002,
+          "timeDifference": 13.503750000000082
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Road Home: Recovery, Reintegration, and the Science of Coming Back",
+          "expectedStart": 1978.42,
+          "expectedEnd": 2170.88,
+          "actualStart": 1993.4265830000002,
+          "actualEnd": 2185.886458,
+          "timeDifference": 15.006583000000091
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2170.88,
+          "expectedEnd": 2313.61,
+          "actualStart": 2187.386458,
+          "actualEnd": 2330.1182909999998,
+          "timeDifference": 16.50645799999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.974292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Battles Behind the Front Lines"
+        },
+        {
+          "startTime": 312.3735,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Battles Behind the Front Lines and Chapter 2 The Body’s Struggle Against Heat, Noise, and Exhaustion"
+        },
+        {
+          "startTime": 530.870208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Body’s Struggle Against Heat, Noise, and Exhaustion and Chapter 3 The Unseen Hazards of Military Technology"
+        },
+        {
+          "startTime": 762.9916250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unseen Hazards of Military Technology and Chapter 4 The Battle Against Infection, Disease, and Decay"
+        },
+        {
+          "startTime": 987.5490830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Battle Against Infection, Disease, and Decay and Chapter 5 The Mind’s War: Fear, Trauma, and the Science of Resilience"
+        },
+        {
+          "startTime": 1195.572458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Mind’s War: Fear, Trauma, and the Science of Resilience and Chapter 6 The Science of Staying Fed: Food, Water, and the Relentless Search for Energy"
+        },
+        {
+          "startTime": 1432.826416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Science of Staying Fed: Food, Water, and the Relentless Search for Energy and Chapter 7 The Art and Agony of Military Medicine: Saving Lives in the Golden Hour"
+        },
+        {
+          "startTime": 1629.1118330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art and Agony of Military Medicine: Saving Lives in the Golden Hour and Chapter 8 The Battle for Silence: Stealth, Secrecy, and the Science of Staying Hidden"
+        },
+        {
+          "startTime": 1791.49375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Battle for Silence: Stealth, Secrecy, and the Science of Staying Hidden and Chapter 9 The Unexpected Allies: Animals, Nature, and the Unlikely Science of Survival"
+        },
+        {
+          "startTime": 1991.9265830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unexpected Allies: Animals, Nature, and the Unlikely Science of Survival and Chapter 10 The Long Road Home: Recovery, Reintegration, and the Science of Coming Back"
+        },
+        {
+          "startTime": 2185.886458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Road Home: Recovery, Reintegration, and the Science of Coming Back and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3108",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:52:49.277Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

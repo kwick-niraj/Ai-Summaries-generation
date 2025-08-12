@@ -1,0 +1,456 @@
+{
+  "bookId": "3145",
+  "timestamp": "2025-07-14T21:49:40.896Z",
+  "success": false,
+  "processingTime": -1752529391940,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4906,
+    "totalAudioFiles": 12,
+    "totalDuration": 2168.381585
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2168.381585
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3145/optimized_text/3145.md",
+    "fileSize": 694,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "3145.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3145/metadata/3145_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2168.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3145/metadata/3145_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3145/metadata/3145_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3145/3145_complete.wav",
+    "duration": 2168.381583,
+    "fileSize": 104082394,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3145/introduction.wav",
+          "duration": 114.753208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 114.753208,
+          "startTime": 0,
+          "endTime": 114.753208
+        },
+        {
+          "path": "Audio/output/3145/chapter_01.wav",
+          "duration": 262.631417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Allure of Ganesha in Everyday Life",
+          "actualDuration": 262.631417,
+          "startTime": 116.253208,
+          "endTime": 378.884625
+        },
+        {
+          "path": "Audio/output/3145/chapter_02.wav",
+          "duration": 234.538792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Faces and Forms of Ganesha",
+          "actualDuration": 234.538792,
+          "startTime": 380.384625,
+          "endTime": 614.923417
+        },
+        {
+          "path": "Audio/output/3145/chapter_03.wav",
+          "duration": 216.04425,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Collecting as a Spiritual and Cultural Journey",
+          "actualDuration": 216.04425,
+          "startTime": 616.423417,
+          "endTime": 832.467667
+        },
+        {
+          "path": "Audio/output/3145/chapter_04.wav",
+          "duration": 236.022958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Ganesha’s Role in Community and Festival Life",
+          "actualDuration": 236.022958,
+          "startTime": 833.967667,
+          "endTime": 1069.990625
+        },
+        {
+          "path": "Audio/output/3145/chapter_05.wav",
+          "duration": 241.105292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Ganesha Beyond Borders—Global Adaptation and Meaning",
+          "actualDuration": 241.105292,
+          "startTime": 1071.490625,
+          "endTime": 1312.5959169999999
+        },
+        {
+          "path": "Audio/output/3145/chapter_06.wav",
+          "duration": 177.817125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search for Meaning—Personal Encounters with Ganesha",
+          "actualDuration": 177.817125,
+          "startTime": 1314.0959169999999,
+          "endTime": 1491.913042
+        },
+        {
+          "path": "Audio/output/3145/chapter_07.wav",
+          "duration": 161.944042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Letting Go—Immersion and Renewal",
+          "actualDuration": 161.944042,
+          "startTime": 1493.413042,
+          "endTime": 1655.357084
+        },
+        {
+          "path": "Audio/output/3145/chapter_08.wav",
+          "duration": 145.014292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Collector’s Dilemma—Sacredness, Ownership, and Responsibility",
+          "actualDuration": 145.014292,
+          "startTime": 1656.857084,
+          "endTime": 1801.871376
+        },
+        {
+          "path": "Audio/output/3145/chapter_09.wav",
+          "duration": 132.409625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Transformation Through Devotion—Stories of Change",
+          "actualDuration": 132.409625,
+          "startTime": 1803.371376,
+          "endTime": 1935.781001
+        },
+        {
+          "path": "Audio/output/3145/chapter_10.wav",
+          "duration": 118.027417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Ganesha in a Changing World",
+          "actualDuration": 118.027417,
+          "startTime": 1937.281001,
+          "endTime": 2055.308418
+        },
+        {
+          "path": "Audio/output/3145/conclusion.wav",
+          "duration": 128.073167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.073167,
+          "startTime": 2056.808418,
+          "endTime": 2184.881585
+        }
+      ],
+      "totalDuration": 2184.881585,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 114.75,
+          "actualStart": 0,
+          "actualEnd": 114.753208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Allure of Ganesha in Everyday Life",
+          "expectedStart": 114.75,
+          "expectedEnd": 377.38,
+          "actualStart": 116.253208,
+          "actualEnd": 378.884625,
+          "timeDifference": 1.5032080000000008
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Faces and Forms of Ganesha",
+          "expectedStart": 377.38,
+          "expectedEnd": 611.92,
+          "actualStart": 380.384625,
+          "actualEnd": 614.923417,
+          "timeDifference": 3.0046250000000327
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Collecting as a Spiritual and Cultural Journey",
+          "expectedStart": 611.92,
+          "expectedEnd": 827.96,
+          "actualStart": 616.423417,
+          "actualEnd": 832.467667,
+          "timeDifference": 4.503417000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Ganesha’s Role in Community and Festival Life",
+          "expectedStart": 827.96,
+          "expectedEnd": 1063.98,
+          "actualStart": 833.967667,
+          "actualEnd": 1069.990625,
+          "timeDifference": 6.0076669999999694
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Ganesha Beyond Borders—Global Adaptation and Meaning",
+          "expectedStart": 1063.98,
+          "expectedEnd": 1305.09,
+          "actualStart": 1071.490625,
+          "actualEnd": 1312.5959169999999,
+          "timeDifference": 7.510624999999891
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search for Meaning—Personal Encounters with Ganesha",
+          "expectedStart": 1305.09,
+          "expectedEnd": 1482.91,
+          "actualStart": 1314.0959169999999,
+          "actualEnd": 1491.913042,
+          "timeDifference": 9.005916999999954
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Letting Go—Immersion and Renewal",
+          "expectedStart": 1482.91,
+          "expectedEnd": 1644.85,
+          "actualStart": 1493.413042,
+          "actualEnd": 1655.357084,
+          "timeDifference": 10.503041999999823
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Collector’s Dilemma—Sacredness, Ownership, and Responsibility",
+          "expectedStart": 1644.85,
+          "expectedEnd": 1789.86,
+          "actualStart": 1656.857084,
+          "actualEnd": 1801.871376,
+          "timeDifference": 12.007084000000077
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Transformation Through Devotion—Stories of Change",
+          "expectedStart": 1789.86,
+          "expectedEnd": 1922.27,
+          "actualStart": 1803.371376,
+          "actualEnd": 1935.781001,
+          "timeDifference": 13.511376000000155
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Ganesha in a Changing World",
+          "expectedStart": 1922.27,
+          "expectedEnd": 2040.3,
+          "actualStart": 1937.281001,
+          "actualEnd": 2055.308418,
+          "timeDifference": 15.011001000000078
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2040.3,
+          "expectedEnd": 2168.37,
+          "actualStart": 2056.808418,
+          "actualEnd": 2184.881585,
+          "timeDifference": 16.50841800000012
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 114.753208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Allure of Ganesha in Everyday Life"
+        },
+        {
+          "startTime": 378.884625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Allure of Ganesha in Everyday Life and Chapter 2 The Many Faces and Forms of Ganesha"
+        },
+        {
+          "startTime": 614.923417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Faces and Forms of Ganesha and Chapter 3 Collecting as a Spiritual and Cultural Journey"
+        },
+        {
+          "startTime": 832.467667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Collecting as a Spiritual and Cultural Journey and Chapter 4 Ganesha’s Role in Community and Festival Life"
+        },
+        {
+          "startTime": 1069.990625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Ganesha’s Role in Community and Festival Life and Chapter 5 Ganesha Beyond Borders—Global Adaptation and Meaning"
+        },
+        {
+          "startTime": 1312.5959169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Ganesha Beyond Borders—Global Adaptation and Meaning and Chapter 6 The Search for Meaning—Personal Encounters with Ganesha"
+        },
+        {
+          "startTime": 1491.913042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search for Meaning—Personal Encounters with Ganesha and Chapter 7 The Art of Letting Go—Immersion and Renewal"
+        },
+        {
+          "startTime": 1655.357084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Letting Go—Immersion and Renewal and Chapter 8 The Collector’s Dilemma—Sacredness, Ownership, and Responsibility"
+        },
+        {
+          "startTime": 1801.871376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Collector’s Dilemma—Sacredness, Ownership, and Responsibility and Chapter 9 Transformation Through Devotion—Stories of Change"
+        },
+        {
+          "startTime": 1935.781001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Transformation Through Devotion—Stories of Change and Chapter 10 The Ongoing Journey—Ganesha in a Changing World"
+        },
+        {
+          "startTime": 2055.308418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Ganesha in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3145",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:43:13.576Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

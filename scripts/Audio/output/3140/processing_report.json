@@ -1,0 +1,456 @@
+{
+  "bookId": "3140",
+  "timestamp": "2025-07-14T21:28:46.472Z",
+  "success": false,
+  "processingTime": -1752528256469,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4744,
+    "totalAudioFiles": 12,
+    "totalDuration": 2171.8847920000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2171.8847920000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3140/optimized_text/3140.md",
+    "fileSize": 564,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "3140.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3140/metadata/3140_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2171.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3140/metadata/3140_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3140/metadata/3140_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3140/3140_complete.wav",
+    "duration": 2171.884792,
+    "fileSize": 104250548,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3140/introduction.wav",
+          "duration": 111.1585,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.1585,
+          "startTime": 0,
+          "endTime": 111.1585
+        },
+        {
+          "path": "Audio/output/3140/chapter_01.wav",
+          "duration": 279.382625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life on Nantucket and the Allure of the Sea",
+          "actualDuration": 279.382625,
+          "startTime": 112.6585,
+          "endTime": 392.041125
+        },
+        {
+          "path": "Audio/output/3140/chapter_02.wav",
+          "duration": 238.025792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Essex Sets Sail and Faces Early Hardships",
+          "actualDuration": 238.025792,
+          "startTime": 393.541125,
+          "endTime": 631.566917
+        },
+        {
+          "path": "Audio/output/3140/chapter_03.wav",
+          "duration": 270.499042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Whale Attack and the Sinking of the Essex",
+          "actualDuration": 270.499042,
+          "startTime": 633.066917,
+          "endTime": 903.565959
+        },
+        {
+          "path": "Audio/output/3140/chapter_04.wav",
+          "duration": 255.477042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Survival at Sea and the Limits of Endurance",
+          "actualDuration": 255.477042,
+          "startTime": 905.065959,
+          "endTime": 1160.543001
+        },
+        {
+          "path": "Audio/output/3140/chapter_05.wav",
+          "duration": 191.698,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath and the Legacy of the Essex",
+          "actualDuration": 191.698,
+          "startTime": 1162.043001,
+          "endTime": 1353.741001
+        },
+        {
+          "path": "Audio/output/3140/chapter_06.wav",
+          "duration": 181.23225,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Homecoming and the Weight of Survival",
+          "actualDuration": 181.23225,
+          "startTime": 1355.241001,
+          "endTime": 1536.4732510000001
+        },
+        {
+          "path": "Audio/output/3140/chapter_07.wav",
+          "duration": 167.754375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect on Nantucket",
+          "actualDuration": 167.754375,
+          "startTime": 1537.9732510000001,
+          "endTime": 1705.727626
+        },
+        {
+          "path": "Audio/output/3140/chapter_08.wav",
+          "duration": 129.5585,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Takes Notice",
+          "actualDuration": 129.5585,
+          "startTime": 1707.227626,
+          "endTime": 1836.7861260000002
+        },
+        {
+          "path": "Audio/output/3140/chapter_09.wav",
+          "duration": 120.344375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Essex in Literature and Memory",
+          "actualDuration": 120.344375,
+          "startTime": 1838.2861260000002,
+          "endTime": 1958.630501
+        },
+        {
+          "path": "Audio/output/3140/chapter_10.wav",
+          "duration": 101.672958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Deep",
+          "actualDuration": 101.672958,
+          "startTime": 1960.130501,
+          "endTime": 2061.803459
+        },
+        {
+          "path": "Audio/output/3140/conclusion.wav",
+          "duration": 125.081333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.081333,
+          "startTime": 2063.303459,
+          "endTime": 2188.3847920000003
+        }
+      ],
+      "totalDuration": 2188.3847920000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.16,
+          "actualStart": 0,
+          "actualEnd": 111.1585,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life on Nantucket and the Allure of the Sea",
+          "expectedStart": 111.16,
+          "expectedEnd": 390.54,
+          "actualStart": 112.6585,
+          "actualEnd": 392.041125,
+          "timeDifference": 1.498500000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Essex Sets Sail and Faces Early Hardships",
+          "expectedStart": 390.54,
+          "expectedEnd": 628.57,
+          "actualStart": 393.541125,
+          "actualEnd": 631.566917,
+          "timeDifference": 3.001125000000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Whale Attack and the Sinking of the Essex",
+          "expectedStart": 628.57,
+          "expectedEnd": 899.07,
+          "actualStart": 633.066917,
+          "actualEnd": 903.565959,
+          "timeDifference": 4.496916999999939
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Survival at Sea and the Limits of Endurance",
+          "expectedStart": 899.07,
+          "expectedEnd": 1154.55,
+          "actualStart": 905.065959,
+          "actualEnd": 1160.543001,
+          "timeDifference": 5.995958999999971
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath and the Legacy of the Essex",
+          "expectedStart": 1154.55,
+          "expectedEnd": 1346.25,
+          "actualStart": 1162.043001,
+          "actualEnd": 1353.741001,
+          "timeDifference": 7.493001000000049
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Homecoming and the Weight of Survival",
+          "expectedStart": 1346.25,
+          "expectedEnd": 1527.48,
+          "actualStart": 1355.241001,
+          "actualEnd": 1536.4732510000001,
+          "timeDifference": 8.991001000000097
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect on Nantucket",
+          "expectedStart": 1527.48,
+          "expectedEnd": 1695.23,
+          "actualStart": 1537.9732510000001,
+          "actualEnd": 1705.727626,
+          "timeDifference": 10.4932510000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Takes Notice",
+          "expectedStart": 1695.23,
+          "expectedEnd": 1824.79,
+          "actualStart": 1707.227626,
+          "actualEnd": 1836.7861260000002,
+          "timeDifference": 11.997626000000082
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Essex in Literature and Memory",
+          "expectedStart": 1824.79,
+          "expectedEnd": 1945.13,
+          "actualStart": 1838.2861260000002,
+          "actualEnd": 1958.630501,
+          "timeDifference": 13.496126000000231
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Deep",
+          "expectedStart": 1945.13,
+          "expectedEnd": 2046.8,
+          "actualStart": 1960.130501,
+          "actualEnd": 2061.803459,
+          "timeDifference": 15.000500999999986
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2046.8,
+          "expectedEnd": 2171.88,
+          "actualStart": 2063.303459,
+          "actualEnd": 2188.3847920000003,
+          "timeDifference": 16.503459000000248
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.1585,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life on Nantucket and the Allure of the Sea"
+        },
+        {
+          "startTime": 392.041125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life on Nantucket and the Allure of the Sea and Chapter 2 The Essex Sets Sail and Faces Early Hardships"
+        },
+        {
+          "startTime": 631.566917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Essex Sets Sail and Faces Early Hardships and Chapter 3 The Whale Attack and the Sinking of the Essex"
+        },
+        {
+          "startTime": 903.565959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Whale Attack and the Sinking of the Essex and Chapter 4 Survival at Sea and the Limits of Endurance"
+        },
+        {
+          "startTime": 1160.543001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Survival at Sea and the Limits of Endurance and Chapter 5 The Aftermath and the Legacy of the Essex"
+        },
+        {
+          "startTime": 1353.741001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath and the Legacy of the Essex and Chapter 6 Homecoming and the Weight of Survival"
+        },
+        {
+          "startTime": 1536.4732510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Homecoming and the Weight of Survival and Chapter 7 The Ripple Effect on Nantucket"
+        },
+        {
+          "startTime": 1705.727626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect on Nantucket and Chapter 8 The World Takes Notice"
+        },
+        {
+          "startTime": 1836.7861260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Takes Notice and Chapter 9 The Essex in Literature and Memory"
+        },
+        {
+          "startTime": 1958.630501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Essex in Literature and Memory and Chapter 10 Lessons from the Deep"
+        },
+        {
+          "startTime": 2061.803459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Deep and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3140",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:24:16.985Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3136",
+  "timestamp": "2025-07-14T21:13:42.125Z",
+  "success": false,
+  "processingTime": -1752527183781,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3311,
+    "totalAudioFiles": 12,
+    "totalDuration": 1853.5365409999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1853.5365409999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3136/optimized_text/3136.md",
+    "fileSize": 726,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "3136.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3136/metadata/3136_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1853.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3136/metadata/3136_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3136/metadata/3136_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3136/3136_complete.wav",
+    "duration": 1853.536542,
+    "fileSize": 88969832,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3136/introduction.wav",
+          "duration": 99.335458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.335458,
+          "startTime": 0,
+          "endTime": 99.335458
+        },
+        {
+          "path": "Audio/output/3136/chapter_01.wav",
+          "duration": 190.389083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Our View of the World Is Often Distorted",
+          "actualDuration": 190.389083,
+          "startTime": 100.835458,
+          "endTime": 291.224541
+        },
+        {
+          "path": "Audio/output/3136/chapter_02.wav",
+          "duration": 161.698833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Pull of Negative News and the Reality of Progress",
+          "actualDuration": 161.698833,
+          "startTime": 292.724541,
+          "endTime": 454.42337399999997
+        },
+        {
+          "path": "Audio/output/3136/chapter_03.wav",
+          "duration": 157.53375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Trap of Straight-Line Thinking and the Complexity of Change",
+          "actualDuration": 157.53375,
+          "startTime": 455.92337399999997,
+          "endTime": 613.457124
+        },
+        {
+          "path": "Audio/output/3136/chapter_04.wav",
+          "duration": 172.887583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Fear and Size Skew Perception",
+          "actualDuration": 172.887583,
+          "startTime": 614.957124,
+          "endTime": 787.844707
+        },
+        {
+          "path": "Audio/output/3136/chapter_05.wav",
+          "duration": 194.031167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dangers of Generalization and the Importance of Nuance",
+          "actualDuration": 194.031167,
+          "startTime": 789.344707,
+          "endTime": 983.375874
+        },
+        {
+          "path": "Audio/output/3136/chapter_06.wav",
+          "duration": 156.840417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Destiny Instinct and the Power of Gradual Change",
+          "actualDuration": 156.840417,
+          "startTime": 984.875874,
+          "endTime": 1141.716291
+        },
+        {
+          "path": "Audio/output/3136/chapter_07.wav",
+          "duration": 147.505792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Single Perspective Instinct and the Value of Multiple Viewpoints",
+          "actualDuration": 147.505792,
+          "startTime": 1143.216291,
+          "endTime": 1290.7220829999999
+        },
+        {
+          "path": "Audio/output/3136/chapter_08.wav",
+          "duration": 156.931375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Blame Instinct and the Search for Systemic Causes",
+          "actualDuration": 156.931375,
+          "startTime": 1292.2220829999999,
+          "endTime": 1449.1534579999998
+        },
+        {
+          "path": "Audio/output/3136/chapter_09.wav",
+          "duration": 164.302,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Urgency Instinct and the Importance of Calm Deliberation",
+          "actualDuration": 164.302,
+          "startTime": 1450.6534579999998,
+          "endTime": 1614.9554579999997
+        },
+        {
+          "path": "Audio/output/3136/chapter_10.wav",
+          "duration": 134.588625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Practicing Factfulness in Everyday Life",
+          "actualDuration": 134.588625,
+          "startTime": 1616.4554579999997,
+          "endTime": 1751.0440829999998
+        },
+        {
+          "path": "Audio/output/3136/conclusion.wav",
+          "duration": 117.492458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.492458,
+          "startTime": 1752.5440829999998,
+          "endTime": 1870.0365409999997
+        }
+      ],
+      "totalDuration": 1870.0365409999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.34,
+          "actualStart": 0,
+          "actualEnd": 99.335458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Our View of the World Is Often Distorted",
+          "expectedStart": 99.34,
+          "expectedEnd": 289.73,
+          "actualStart": 100.835458,
+          "actualEnd": 291.224541,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Pull of Negative News and the Reality of Progress",
+          "expectedStart": 289.73,
+          "expectedEnd": 451.43,
+          "actualStart": 292.724541,
+          "actualEnd": 454.42337399999997,
+          "timeDifference": 2.9945409999999697
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Trap of Straight-Line Thinking and the Complexity of Change",
+          "expectedStart": 451.43,
+          "expectedEnd": 608.96,
+          "actualStart": 455.92337399999997,
+          "actualEnd": 613.457124,
+          "timeDifference": 4.49337399999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Fear and Size Skew Perception",
+          "expectedStart": 608.96,
+          "expectedEnd": 781.85,
+          "actualStart": 614.957124,
+          "actualEnd": 787.844707,
+          "timeDifference": 5.997123999999985
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dangers of Generalization and the Importance of Nuance",
+          "expectedStart": 781.85,
+          "expectedEnd": 975.88,
+          "actualStart": 789.344707,
+          "actualEnd": 983.375874,
+          "timeDifference": 7.4947069999999485
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Destiny Instinct and the Power of Gradual Change",
+          "expectedStart": 975.88,
+          "expectedEnd": 1132.72,
+          "actualStart": 984.875874,
+          "actualEnd": 1141.716291,
+          "timeDifference": 8.995873999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Single Perspective Instinct and the Value of Multiple Viewpoints",
+          "expectedStart": 1132.72,
+          "expectedEnd": 1280.23,
+          "actualStart": 1143.216291,
+          "actualEnd": 1290.7220829999999,
+          "timeDifference": 10.496290999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Blame Instinct and the Search for Systemic Causes",
+          "expectedStart": 1280.23,
+          "expectedEnd": 1437.16,
+          "actualStart": 1292.2220829999999,
+          "actualEnd": 1449.1534579999998,
+          "timeDifference": 11.992082999999866
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Urgency Instinct and the Importance of Calm Deliberation",
+          "expectedStart": 1437.16,
+          "expectedEnd": 1601.46,
+          "actualStart": 1450.6534579999998,
+          "actualEnd": 1614.9554579999997,
+          "timeDifference": 13.493457999999691
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Practicing Factfulness in Everyday Life",
+          "expectedStart": 1601.46,
+          "expectedEnd": 1736.05,
+          "actualStart": 1616.4554579999997,
+          "actualEnd": 1751.0440829999998,
+          "timeDifference": 14.995457999999644
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1736.05,
+          "expectedEnd": 1853.54,
+          "actualStart": 1752.5440829999998,
+          "actualEnd": 1870.0365409999997,
+          "timeDifference": 16.49408299999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.335458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Our View of the World Is Often Distorted"
+        },
+        {
+          "startTime": 291.224541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Our View of the World Is Often Distorted and Chapter 2 The Pull of Negative News and the Reality of Progress"
+        },
+        {
+          "startTime": 454.42337399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Pull of Negative News and the Reality of Progress and Chapter 3 The Trap of Straight-Line Thinking and the Complexity of Change"
+        },
+        {
+          "startTime": 613.457124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Trap of Straight-Line Thinking and the Complexity of Change and Chapter 4 How Fear and Size Skew Perception"
+        },
+        {
+          "startTime": 787.844707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Fear and Size Skew Perception and Chapter 5 The Dangers of Generalization and the Importance of Nuance"
+        },
+        {
+          "startTime": 983.375874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dangers of Generalization and the Importance of Nuance and Chapter 6 The Destiny Instinct and the Power of Gradual Change"
+        },
+        {
+          "startTime": 1141.716291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Destiny Instinct and the Power of Gradual Change and Chapter 7 The Single Perspective Instinct and the Value of Multiple Viewpoints"
+        },
+        {
+          "startTime": 1290.7220829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Single Perspective Instinct and the Value of Multiple Viewpoints and Chapter 8 The Blame Instinct and the Search for Systemic Causes"
+        },
+        {
+          "startTime": 1449.1534579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Blame Instinct and the Search for Systemic Causes and Chapter 9 The Urgency Instinct and the Importance of Calm Deliberation"
+        },
+        {
+          "startTime": 1614.9554579999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Urgency Instinct and the Importance of Calm Deliberation and Chapter 10 Practicing Factfulness in Everyday Life"
+        },
+        {
+          "startTime": 1751.0440829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Practicing Factfulness in Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3136",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:06:25.534Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

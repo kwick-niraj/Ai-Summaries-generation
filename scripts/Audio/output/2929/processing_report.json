@@ -1,0 +1,456 @@
+{
+  "bookId": "2929",
+  "timestamp": "2025-07-14T05:00:40.715Z",
+  "success": false,
+  "processingTime": -1752468826410,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4024,
+    "totalAudioFiles": 12,
+    "totalDuration": 2095.6256670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2095.6256670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2929/optimized_text/2929.md",
+    "fileSize": 707,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2929.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2929/metadata/2929_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2095.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2929/metadata/2929_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2929/metadata/2929_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2929/2929_complete.wav",
+    "duration": 2095.625667,
+    "fileSize": 100590110,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2929/introduction.wav",
+          "duration": 96.739375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.739375,
+          "startTime": 0,
+          "endTime": 96.739375
+        },
+        {
+          "path": "Audio/output/2929/chapter_01.wav",
+          "duration": 201.606917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Defining Comics and Their Unique Language",
+          "actualDuration": 201.606917,
+          "startTime": 98.239375,
+          "endTime": 299.846292
+        },
+        {
+          "path": "Audio/output/2929/chapter_02.wav",
+          "duration": 211.814917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The History and Evolution of Comics as an Art Form",
+          "actualDuration": 211.814917,
+          "startTime": 301.346292,
+          "endTime": 513.161209
+        },
+        {
+          "path": "Audio/output/2929/chapter_03.wav",
+          "duration": 199.960458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Reader’s Role—Closure and the Creation of Meaning",
+          "actualDuration": 199.960458,
+          "startTime": 514.661209,
+          "endTime": 714.621667
+        },
+        {
+          "path": "Audio/output/2929/chapter_04.wav",
+          "duration": 211.432792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Visual Style, Abstraction, and Emotional Engagement",
+          "actualDuration": 211.432792,
+          "startTime": 716.121667,
+          "endTime": 927.554459
+        },
+        {
+          "path": "Audio/output/2929/chapter_05.wav",
+          "duration": 207.750375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dance of Words and Pictures in Storytelling",
+          "actualDuration": 207.750375,
+          "startTime": 929.054459,
+          "endTime": 1136.804834
+        },
+        {
+          "path": "Audio/output/2929/chapter_06.wav",
+          "duration": 183.206042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Time, Motion, and the Rhythm of Panels",
+          "actualDuration": 183.206042,
+          "startTime": 1138.304834,
+          "endTime": 1321.510876
+        },
+        {
+          "path": "Audio/output/2929/chapter_07.wav",
+          "duration": 188.938583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Invisible Art—Design, Framing, and Artistic Intent",
+          "actualDuration": 188.938583,
+          "startTime": 1323.010876,
+          "endTime": 1511.949459
+        },
+        {
+          "path": "Audio/output/2929/chapter_08.wav",
+          "duration": 170.78025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Creator’s Voice—Style, Genre, and Personal Expression",
+          "actualDuration": 170.78025,
+          "startTime": 1513.449459,
+          "endTime": 1684.229709
+        },
+        {
+          "path": "Audio/output/2929/chapter_09.wav",
+          "duration": 143.412375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Relationship Between Medium, Message, and Audience",
+          "actualDuration": 143.412375,
+          "startTime": 1685.729709,
+          "endTime": 1829.142084
+        },
+        {
+          "path": "Audio/output/2929/chapter_10.wav",
+          "duration": 140.8555,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Synthesis—Comics as a Living, Evolving Art Form",
+          "actualDuration": 140.8555,
+          "startTime": 1830.642084,
+          "endTime": 1971.4975840000002
+        },
+        {
+          "path": "Audio/output/2929/conclusion.wav",
+          "duration": 139.128083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.128083,
+          "startTime": 1972.9975840000002,
+          "endTime": 2112.1256670000002
+        }
+      ],
+      "totalDuration": 2112.1256670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.74,
+          "actualStart": 0,
+          "actualEnd": 96.739375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Defining Comics and Their Unique Language",
+          "expectedStart": 96.74,
+          "expectedEnd": 298.35,
+          "actualStart": 98.239375,
+          "actualEnd": 299.846292,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The History and Evolution of Comics as an Art Form",
+          "expectedStart": 298.35,
+          "expectedEnd": 510.16,
+          "actualStart": 301.346292,
+          "actualEnd": 513.161209,
+          "timeDifference": 2.9962919999999826
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Reader’s Role—Closure and the Creation of Meaning",
+          "expectedStart": 510.16,
+          "expectedEnd": 710.12,
+          "actualStart": 514.661209,
+          "actualEnd": 714.621667,
+          "timeDifference": 4.50120899999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Visual Style, Abstraction, and Emotional Engagement",
+          "expectedStart": 710.12,
+          "expectedEnd": 921.55,
+          "actualStart": 716.121667,
+          "actualEnd": 927.554459,
+          "timeDifference": 6.001666999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dance of Words and Pictures in Storytelling",
+          "expectedStart": 921.55,
+          "expectedEnd": 1129.3,
+          "actualStart": 929.054459,
+          "actualEnd": 1136.804834,
+          "timeDifference": 7.504458999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Time, Motion, and the Rhythm of Panels",
+          "expectedStart": 1129.3,
+          "expectedEnd": 1312.51,
+          "actualStart": 1138.304834,
+          "actualEnd": 1321.510876,
+          "timeDifference": 9.004834000000074
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Invisible Art—Design, Framing, and Artistic Intent",
+          "expectedStart": 1312.51,
+          "expectedEnd": 1501.45,
+          "actualStart": 1323.010876,
+          "actualEnd": 1511.949459,
+          "timeDifference": 10.500876000000062
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Creator’s Voice—Style, Genre, and Personal Expression",
+          "expectedStart": 1501.45,
+          "expectedEnd": 1672.23,
+          "actualStart": 1513.449459,
+          "actualEnd": 1684.229709,
+          "timeDifference": 11.999458999999888
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Relationship Between Medium, Message, and Audience",
+          "expectedStart": 1672.23,
+          "expectedEnd": 1815.64,
+          "actualStart": 1685.729709,
+          "actualEnd": 1829.142084,
+          "timeDifference": 13.499708999999939
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Synthesis—Comics as a Living, Evolving Art Form",
+          "expectedStart": 1815.64,
+          "expectedEnd": 1956.5,
+          "actualStart": 1830.642084,
+          "actualEnd": 1971.4975840000002,
+          "timeDifference": 15.002083999999968
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1956.5,
+          "expectedEnd": 2095.63,
+          "actualStart": 1972.9975840000002,
+          "actualEnd": 2112.1256670000002,
+          "timeDifference": 16.497584000000188
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.739375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Defining Comics and Their Unique Language"
+        },
+        {
+          "startTime": 299.846292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Defining Comics and Their Unique Language and Chapter 2 The History and Evolution of Comics as an Art Form"
+        },
+        {
+          "startTime": 513.161209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The History and Evolution of Comics as an Art Form and Chapter 3 The Reader’s Role—Closure and the Creation of Meaning"
+        },
+        {
+          "startTime": 714.621667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Reader’s Role—Closure and the Creation of Meaning and Chapter 4 Visual Style, Abstraction, and Emotional Engagement"
+        },
+        {
+          "startTime": 927.554459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Visual Style, Abstraction, and Emotional Engagement and Chapter 5 The Dance of Words and Pictures in Storytelling"
+        },
+        {
+          "startTime": 1136.804834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dance of Words and Pictures in Storytelling and Chapter 6 Time, Motion, and the Rhythm of Panels"
+        },
+        {
+          "startTime": 1321.510876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Time, Motion, and the Rhythm of Panels and Chapter 7 The Invisible Art—Design, Framing, and Artistic Intent"
+        },
+        {
+          "startTime": 1511.949459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Invisible Art—Design, Framing, and Artistic Intent and Chapter 8 The Creator’s Voice—Style, Genre, and Personal Expression"
+        },
+        {
+          "startTime": 1684.229709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Creator’s Voice—Style, Genre, and Personal Expression and Chapter 9 The Relationship Between Medium, Message, and Audience"
+        },
+        {
+          "startTime": 1829.142084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Relationship Between Medium, Message, and Audience and Chapter 10 Synthesis—Comics as a Living, Evolving Art Form"
+        },
+        {
+          "startTime": 1971.4975840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Synthesis—Comics as a Living, Evolving Art Form and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2929",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:53:46.900Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

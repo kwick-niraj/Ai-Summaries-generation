@@ -1,0 +1,456 @@
+{
+  "bookId": "3079",
+  "timestamp": "2025-07-14T16:54:16.471Z",
+  "success": false,
+  "processingTime": -1752511714479,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5376,
+    "totalAudioFiles": 12,
+    "totalDuration": 2290.146209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2290.146209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3079/optimized_text/3079.md",
+    "fileSize": 815,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "3079.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3079/metadata/3079_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2290.15,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3079/metadata/3079_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3079/metadata/3079_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3079/3079_complete.wav",
+    "duration": 2290.146208,
+    "fileSize": 109927096,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3079/introduction.wav",
+          "duration": 77.931917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.931917,
+          "startTime": 0,
+          "endTime": 77.931917
+        },
+        {
+          "path": "Audio/output/3079/chapter_01.wav",
+          "duration": 261.905958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Moment a Joke Lands—And Why It Can’t Happen Twice",
+          "actualDuration": 261.905958,
+          "startTime": 79.431917,
+          "endTime": 341.337875
+        },
+        {
+          "path": "Audio/output/3079/chapter_02.wav",
+          "duration": 221.075792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Surprise, Memory, and the Brain’s Role in Humor",
+          "actualDuration": 221.075792,
+          "startTime": 342.837875,
+          "endTime": 563.913667
+        },
+        {
+          "path": "Audio/output/3079/chapter_03.wav",
+          "duration": 233.303458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Social Life of Jokes—Connection, Status, and Belonging",
+          "actualDuration": 233.303458,
+          "startTime": 565.413667,
+          "endTime": 798.717125
+        },
+        {
+          "path": "Audio/output/3079/chapter_04.wav",
+          "duration": 261.915708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Jokes, Stories, and Sayings—Why Only One Fades with Repetition",
+          "actualDuration": 261.915708,
+          "startTime": 800.217125,
+          "endTime": 1062.1328330000001
+        },
+        {
+          "path": "Audio/output/3079/chapter_05.wav",
+          "duration": 219.478,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Tension Between Novelty and Predictability in Everyday Humor",
+          "actualDuration": 219.478,
+          "startTime": 1063.6328330000001,
+          "endTime": 1283.1108330000002
+        },
+        {
+          "path": "Audio/output/3079/chapter_06.wav",
+          "duration": 186.643625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Anatomy of a Joke—Setup, Expectation, and the Art of Misdirection",
+          "actualDuration": 186.643625,
+          "startTime": 1284.6108330000002,
+          "endTime": 1471.254458
+        },
+        {
+          "path": "Audio/output/3079/chapter_07.wav",
+          "duration": 187.119833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 When Jokes Go Wrong—Misfires, Offense, and the Fragility of Humor",
+          "actualDuration": 187.119833,
+          "startTime": 1472.754458,
+          "endTime": 1659.874291
+        },
+        {
+          "path": "Audio/output/3079/chapter_08.wav",
+          "duration": 180.206292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Evolution of Jokes—From Ancient Banter to Internet Memes",
+          "actualDuration": 180.206292,
+          "startTime": 1661.374291,
+          "endTime": 1841.5805830000002
+        },
+        {
+          "path": "Audio/output/3079/chapter_09.wav",
+          "duration": 160.706917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Humor in Coping and Resilience",
+          "actualDuration": 160.706917,
+          "startTime": 1843.0805830000002,
+          "endTime": 2003.7875000000001
+        },
+        {
+          "path": "Audio/output/3079/chapter_10.wav",
+          "duration": 172.073917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Search for the Perfect Joke—Creativity, Risk, and the Joy of Discovery",
+          "actualDuration": 172.073917,
+          "startTime": 2005.2875000000001,
+          "endTime": 2177.361417
+        },
+        {
+          "path": "Audio/output/3079/conclusion.wav",
+          "duration": 127.784792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.784792,
+          "startTime": 2178.861417,
+          "endTime": 2306.646209
+        }
+      ],
+      "totalDuration": 2306.646209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.93,
+          "actualStart": 0,
+          "actualEnd": 77.931917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Moment a Joke Lands—And Why It Can’t Happen Twice",
+          "expectedStart": 77.93,
+          "expectedEnd": 339.84,
+          "actualStart": 79.431917,
+          "actualEnd": 341.337875,
+          "timeDifference": 1.5019169999999917
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Surprise, Memory, and the Brain’s Role in Humor",
+          "expectedStart": 339.84,
+          "expectedEnd": 560.92,
+          "actualStart": 342.837875,
+          "actualEnd": 563.913667,
+          "timeDifference": 2.997875000000022
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Social Life of Jokes—Connection, Status, and Belonging",
+          "expectedStart": 560.92,
+          "expectedEnd": 794.22,
+          "actualStart": 565.413667,
+          "actualEnd": 798.717125,
+          "timeDifference": 4.493667000000073
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Jokes, Stories, and Sayings—Why Only One Fades with Repetition",
+          "expectedStart": 794.22,
+          "expectedEnd": 1056.14,
+          "actualStart": 800.217125,
+          "actualEnd": 1062.1328330000001,
+          "timeDifference": 5.997124999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Tension Between Novelty and Predictability in Everyday Humor",
+          "expectedStart": 1056.14,
+          "expectedEnd": 1275.62,
+          "actualStart": 1063.6328330000001,
+          "actualEnd": 1283.1108330000002,
+          "timeDifference": 7.492833000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Anatomy of a Joke—Setup, Expectation, and the Art of Misdirection",
+          "expectedStart": 1275.62,
+          "expectedEnd": 1462.26,
+          "actualStart": 1284.6108330000002,
+          "actualEnd": 1471.254458,
+          "timeDifference": 8.990833000000293
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 When Jokes Go Wrong—Misfires, Offense, and the Fragility of Humor",
+          "expectedStart": 1462.26,
+          "expectedEnd": 1649.38,
+          "actualStart": 1472.754458,
+          "actualEnd": 1659.874291,
+          "timeDifference": 10.494458000000122
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Evolution of Jokes—From Ancient Banter to Internet Memes",
+          "expectedStart": 1649.38,
+          "expectedEnd": 1829.59,
+          "actualStart": 1661.374291,
+          "actualEnd": 1841.5805830000002,
+          "timeDifference": 11.994290999999976
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Humor in Coping and Resilience",
+          "expectedStart": 1829.59,
+          "expectedEnd": 1990.3,
+          "actualStart": 1843.0805830000002,
+          "actualEnd": 2003.7875000000001,
+          "timeDifference": 13.490583000000242
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Search for the Perfect Joke—Creativity, Risk, and the Joy of Discovery",
+          "expectedStart": 1990.3,
+          "expectedEnd": 2162.37,
+          "actualStart": 2005.2875000000001,
+          "actualEnd": 2177.361417,
+          "timeDifference": 14.987500000000182
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2162.37,
+          "expectedEnd": 2290.15,
+          "actualStart": 2178.861417,
+          "actualEnd": 2306.646209,
+          "timeDifference": 16.491417000000183
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.931917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Moment a Joke Lands—And Why It Can’t Happen Twice"
+        },
+        {
+          "startTime": 341.337875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Moment a Joke Lands—And Why It Can’t Happen Twice and Chapter 2 Surprise, Memory, and the Brain’s Role in Humor"
+        },
+        {
+          "startTime": 563.913667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Surprise, Memory, and the Brain’s Role in Humor and Chapter 3 The Social Life of Jokes—Connection, Status, and Belonging"
+        },
+        {
+          "startTime": 798.717125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Social Life of Jokes—Connection, Status, and Belonging and Chapter 4 Jokes, Stories, and Sayings—Why Only One Fades with Repetition"
+        },
+        {
+          "startTime": 1062.1328330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Jokes, Stories, and Sayings—Why Only One Fades with Repetition and Chapter 5 The Tension Between Novelty and Predictability in Everyday Humor"
+        },
+        {
+          "startTime": 1283.1108330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Tension Between Novelty and Predictability in Everyday Humor and Chapter 6 The Anatomy of a Joke—Setup, Expectation, and the Art of Misdirection"
+        },
+        {
+          "startTime": 1471.254458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Anatomy of a Joke—Setup, Expectation, and the Art of Misdirection and Chapter 7 When Jokes Go Wrong—Misfires, Offense, and the Fragility of Humor"
+        },
+        {
+          "startTime": 1659.874291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 When Jokes Go Wrong—Misfires, Offense, and the Fragility of Humor and Chapter 8 The Evolution of Jokes—From Ancient Banter to Internet Memes"
+        },
+        {
+          "startTime": 1841.5805830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Evolution of Jokes—From Ancient Banter to Internet Memes and Chapter 9 The Role of Humor in Coping and Resilience"
+        },
+        {
+          "startTime": 2003.7875000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Humor in Coping and Resilience and Chapter 10 The Search for the Perfect Joke—Creativity, Risk, and the Joy of Discovery"
+        },
+        {
+          "startTime": 2177.361417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Search for the Perfect Joke—Creativity, Risk, and the Joy of Discovery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3079",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:48:36.163Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

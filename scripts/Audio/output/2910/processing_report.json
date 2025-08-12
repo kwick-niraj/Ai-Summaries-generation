@@ -1,0 +1,456 @@
+{
+  "bookId": "2910",
+  "timestamp": "2025-07-14T03:51:37.438Z",
+  "success": false,
+  "processingTime": -1752464777055,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4469,
+    "totalAudioFiles": 12,
+    "totalDuration": 1908.0455419999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1908.0455419999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2910/optimized_text/2910.md",
+    "fileSize": 820,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2910.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2910/metadata/2910_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1908.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2910/metadata/2910_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2910/metadata/2910_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2910/2910_complete.wav",
+    "duration": 1908.045542,
+    "fileSize": 91586264,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2910/introduction.wav",
+          "duration": 94.983417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.983417,
+          "startTime": 0,
+          "endTime": 94.983417
+        },
+        {
+          "path": "Audio/output/2910/chapter_01.wav",
+          "duration": 188.282458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for a Lost Companion in the Shadows of History",
+          "actualDuration": 188.282458,
+          "startTime": 96.483417,
+          "endTime": 284.765875
+        },
+        {
+          "path": "Audio/output/2910/chapter_02.wav",
+          "duration": 237.19175,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a Naturalist and the Unseen Hands Behind Discovery",
+          "actualDuration": 237.19175,
+          "startTime": 286.265875,
+          "endTime": 523.457625
+        },
+        {
+          "path": "Audio/output/2910/chapter_03.wav",
+          "duration": 226.770792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Malay Archipelago—A Landscape of Wonder, Danger, and Collaboration",
+          "actualDuration": 226.770792,
+          "startTime": 524.957625,
+          "endTime": 751.728417
+        },
+        {
+          "path": "Audio/output/2910/chapter_04.wav",
+          "duration": 183.876125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Erasure of Local Knowledge and the Construction of Scientific Legacy",
+          "actualDuration": 183.876125,
+          "startTime": 753.228417,
+          "endTime": 937.104542
+        },
+        {
+          "path": "Audio/output/2910/chapter_05.wav",
+          "duration": 168.542042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Imagination, and the Ongoing Search for Justice",
+          "actualDuration": 168.542042,
+          "startTime": 938.604542,
+          "endTime": 1107.146584
+        },
+        {
+          "path": "Audio/output/2910/chapter_06.wav",
+          "duration": 175.841583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes in the Archives—Piecing Together a Life from the Margins",
+          "actualDuration": 175.841583,
+          "startTime": 1108.646584,
+          "endTime": 1284.488167
+        },
+        {
+          "path": "Audio/output/2910/chapter_07.wav",
+          "duration": 143.367375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Recognition—What It Means to Be Seen",
+          "actualDuration": 143.367375,
+          "startTime": 1285.988167,
+          "endTime": 1429.355542
+        },
+        {
+          "path": "Audio/output/2910/chapter_08.wav",
+          "duration": 143.203167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—How Forgotten Stories Shape the Present",
+          "actualDuration": 143.203167,
+          "startTime": 1430.855542,
+          "endTime": 1574.058709
+        },
+        {
+          "path": "Audio/output/2910/chapter_09.wav",
+          "duration": 139.759292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reimagining Collaboration—Lessons for Science and Society",
+          "actualDuration": 139.759292,
+          "startTime": 1575.558709,
+          "endTime": 1715.3180009999999
+        },
+        {
+          "path": "Audio/output/2910/chapter_10.wav",
+          "duration": 105.089833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Power of Story—Changing the Narrative, Changing the World",
+          "actualDuration": 105.089833,
+          "startTime": 1716.8180009999999,
+          "endTime": 1821.9078339999999
+        },
+        {
+          "path": "Audio/output/2910/conclusion.wav",
+          "duration": 101.137708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.137708,
+          "startTime": 1823.4078339999999,
+          "endTime": 1924.5455419999998
+        }
+      ],
+      "totalDuration": 1924.5455419999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.98,
+          "actualStart": 0,
+          "actualEnd": 94.983417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for a Lost Companion in the Shadows of History",
+          "expectedStart": 94.98,
+          "expectedEnd": 283.26,
+          "actualStart": 96.483417,
+          "actualEnd": 284.765875,
+          "timeDifference": 1.503416999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a Naturalist and the Unseen Hands Behind Discovery",
+          "expectedStart": 283.26,
+          "expectedEnd": 520.45,
+          "actualStart": 286.265875,
+          "actualEnd": 523.457625,
+          "timeDifference": 3.005875000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Malay Archipelago—A Landscape of Wonder, Danger, and Collaboration",
+          "expectedStart": 520.45,
+          "expectedEnd": 747.22,
+          "actualStart": 524.957625,
+          "actualEnd": 751.728417,
+          "timeDifference": 4.507624999999962
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Erasure of Local Knowledge and the Construction of Scientific Legacy",
+          "expectedStart": 747.22,
+          "expectedEnd": 931.1,
+          "actualStart": 753.228417,
+          "actualEnd": 937.104542,
+          "timeDifference": 6.008417000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Imagination, and the Ongoing Search for Justice",
+          "expectedStart": 931.1,
+          "expectedEnd": 1099.64,
+          "actualStart": 938.604542,
+          "actualEnd": 1107.146584,
+          "timeDifference": 7.504542000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes in the Archives—Piecing Together a Life from the Margins",
+          "expectedStart": 1099.64,
+          "expectedEnd": 1275.48,
+          "actualStart": 1108.646584,
+          "actualEnd": 1284.488167,
+          "timeDifference": 9.006583999999975
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Recognition—What It Means to Be Seen",
+          "expectedStart": 1275.48,
+          "expectedEnd": 1418.85,
+          "actualStart": 1285.988167,
+          "actualEnd": 1429.355542,
+          "timeDifference": 10.508166999999958
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—How Forgotten Stories Shape the Present",
+          "expectedStart": 1418.85,
+          "expectedEnd": 1562.05,
+          "actualStart": 1430.855542,
+          "actualEnd": 1574.058709,
+          "timeDifference": 12.005542000000105
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reimagining Collaboration—Lessons for Science and Society",
+          "expectedStart": 1562.05,
+          "expectedEnd": 1701.81,
+          "actualStart": 1575.558709,
+          "actualEnd": 1715.3180009999999,
+          "timeDifference": 13.508708999999953
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Power of Story—Changing the Narrative, Changing the World",
+          "expectedStart": 1701.81,
+          "expectedEnd": 1806.9,
+          "actualStart": 1716.8180009999999,
+          "actualEnd": 1821.9078339999999,
+          "timeDifference": 15.008000999999922
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1806.9,
+          "expectedEnd": 1908.04,
+          "actualStart": 1823.4078339999999,
+          "actualEnd": 1924.5455419999998,
+          "timeDifference": 16.507833999999775
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.983417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for a Lost Companion in the Shadows of History"
+        },
+        {
+          "startTime": 284.765875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for a Lost Companion in the Shadows of History and Chapter 2 The Making of a Naturalist and the Unseen Hands Behind Discovery"
+        },
+        {
+          "startTime": 523.457625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a Naturalist and the Unseen Hands Behind Discovery and Chapter 3 The Malay Archipelago—A Landscape of Wonder, Danger, and Collaboration"
+        },
+        {
+          "startTime": 751.728417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Malay Archipelago—A Landscape of Wonder, Danger, and Collaboration and Chapter 4 The Erasure of Local Knowledge and the Construction of Scientific Legacy"
+        },
+        {
+          "startTime": 937.104542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Erasure of Local Knowledge and the Construction of Scientific Legacy and Chapter 5 Memory, Imagination, and the Ongoing Search for Justice"
+        },
+        {
+          "startTime": 1107.146584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Imagination, and the Ongoing Search for Justice and Chapter 6 Echoes in the Archives—Piecing Together a Life from the Margins"
+        },
+        {
+          "startTime": 1284.488167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes in the Archives—Piecing Together a Life from the Margins and Chapter 7 The Weight of Recognition—What It Means to Be Seen"
+        },
+        {
+          "startTime": 1429.355542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Recognition—What It Means to Be Seen and Chapter 8 The Ripple Effect—How Forgotten Stories Shape the Present"
+        },
+        {
+          "startTime": 1574.058709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—How Forgotten Stories Shape the Present and Chapter 9 Reimagining Collaboration—Lessons for Science and Society"
+        },
+        {
+          "startTime": 1715.3180009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reimagining Collaboration—Lessons for Science and Society and Chapter 10 The Power of Story—Changing the Narrative, Changing the World"
+        },
+        {
+          "startTime": 1821.9078339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Power of Story—Changing the Narrative, Changing the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2910",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:46:18.329Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

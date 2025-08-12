@@ -1,0 +1,456 @@
+{
+  "bookId": "3134",
+  "timestamp": "2025-07-14T21:06:22.777Z",
+  "success": false,
+  "processingTime": -1752526764068,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4641,
+    "totalAudioFiles": 12,
+    "totalDuration": 2076.310915
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2076.310915
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3134/optimized_text/3134.md",
+    "fileSize": 651,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "3134.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3134/metadata/3134_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2076.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3134/metadata/3134_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3134/metadata/3134_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3134/3134_complete.wav",
+    "duration": 2076.310917,
+    "fileSize": 99663002,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3134/introduction.wav",
+          "duration": 89.341542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.341542,
+          "startTime": 0,
+          "endTime": 89.341542
+        },
+        {
+          "path": "Audio/output/3134/chapter_01.wav",
+          "duration": 176.472958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Comfort of Familiar Stories About Gender",
+          "actualDuration": 176.472958,
+          "startTime": 90.841542,
+          "endTime": 267.3145
+        },
+        {
+          "path": "Audio/output/3134/chapter_02.wav",
+          "duration": 259.205875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science Behind Gender: More Uncertainty Than Certainty",
+          "actualDuration": 259.205875,
+          "startTime": 268.8145,
+          "endTime": 528.0203750000001
+        },
+        {
+          "path": "Audio/output/3134/chapter_03.wav",
+          "duration": 263.035458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Power of Stereotypes and Expectations",
+          "actualDuration": 263.035458,
+          "startTime": 529.5203750000001,
+          "endTime": 792.5558330000001
+        },
+        {
+          "path": "Audio/output/3134/chapter_04.wav",
+          "duration": 234.765958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Society Shapes Gender From the Start",
+          "actualDuration": 234.765958,
+          "startTime": 794.0558330000001,
+          "endTime": 1028.821791
+        },
+        {
+          "path": "Audio/output/3134/chapter_05.wav",
+          "duration": 217.827,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Problem With “Neurosexism” in Science and Society",
+          "actualDuration": 217.827,
+          "startTime": 1030.321791,
+          "endTime": 1248.148791
+        },
+        {
+          "path": "Audio/output/3134/chapter_06.wav",
+          "duration": 178.426333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Stereotypes Are Challenged: Stories of Change",
+          "actualDuration": 178.426333,
+          "startTime": 1249.648791,
+          "endTime": 1428.075124
+        },
+        {
+          "path": "Audio/output/3134/chapter_07.wav",
+          "duration": 146.205875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Limiting Beliefs",
+          "actualDuration": 146.205875,
+          "startTime": 1429.575124,
+          "endTime": 1575.780999
+        },
+        {
+          "path": "Audio/output/3134/chapter_08.wav",
+          "duration": 148.302417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rethinking Gender: The Science of Possibility",
+          "actualDuration": 148.302417,
+          "startTime": 1577.280999,
+          "endTime": 1725.583416
+        },
+        {
+          "path": "Audio/output/3134/chapter_09.wav",
+          "duration": 123.523958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Parenting, Education, and the Power of Small Changes",
+          "actualDuration": 123.523958,
+          "startTime": 1727.083416,
+          "endTime": 1850.607374
+        },
+        {
+          "path": "Audio/output/3134/chapter_10.wav",
+          "duration": 108.323583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a More Equal Future",
+          "actualDuration": 108.323583,
+          "startTime": 1852.107374,
+          "endTime": 1960.430957
+        },
+        {
+          "path": "Audio/output/3134/conclusion.wav",
+          "duration": 130.879958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.879958,
+          "startTime": 1961.930957,
+          "endTime": 2092.810915
+        }
+      ],
+      "totalDuration": 2092.810915,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.34,
+          "actualStart": 0,
+          "actualEnd": 89.341542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Comfort of Familiar Stories About Gender",
+          "expectedStart": 89.34,
+          "expectedEnd": 265.81,
+          "actualStart": 90.841542,
+          "actualEnd": 267.3145,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science Behind Gender: More Uncertainty Than Certainty",
+          "expectedStart": 265.81,
+          "expectedEnd": 525.02,
+          "actualStart": 268.8145,
+          "actualEnd": 528.0203750000001,
+          "timeDifference": 3.0045000000000073
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Power of Stereotypes and Expectations",
+          "expectedStart": 525.02,
+          "expectedEnd": 788.06,
+          "actualStart": 529.5203750000001,
+          "actualEnd": 792.5558330000001,
+          "timeDifference": 4.500375000000076
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Society Shapes Gender From the Start",
+          "expectedStart": 788.06,
+          "expectedEnd": 1022.83,
+          "actualStart": 794.0558330000001,
+          "actualEnd": 1028.821791,
+          "timeDifference": 5.995833000000175
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Problem With “Neurosexism” in Science and Society",
+          "expectedStart": 1022.83,
+          "expectedEnd": 1240.66,
+          "actualStart": 1030.321791,
+          "actualEnd": 1248.148791,
+          "timeDifference": 7.491791000000035
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Stereotypes Are Challenged: Stories of Change",
+          "expectedStart": 1240.66,
+          "expectedEnd": 1419.09,
+          "actualStart": 1249.648791,
+          "actualEnd": 1428.075124,
+          "timeDifference": 8.988790999999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Limiting Beliefs",
+          "expectedStart": 1419.09,
+          "expectedEnd": 1565.3,
+          "actualStart": 1429.575124,
+          "actualEnd": 1575.780999,
+          "timeDifference": 10.485124000000042
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rethinking Gender: The Science of Possibility",
+          "expectedStart": 1565.3,
+          "expectedEnd": 1713.6,
+          "actualStart": 1577.280999,
+          "actualEnd": 1725.583416,
+          "timeDifference": 11.98099900000011
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Parenting, Education, and the Power of Small Changes",
+          "expectedStart": 1713.6,
+          "expectedEnd": 1837.12,
+          "actualStart": 1727.083416,
+          "actualEnd": 1850.607374,
+          "timeDifference": 13.483416000000034
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a More Equal Future",
+          "expectedStart": 1837.12,
+          "expectedEnd": 1945.44,
+          "actualStart": 1852.107374,
+          "actualEnd": 1960.430957,
+          "timeDifference": 14.987374000000045
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1945.44,
+          "expectedEnd": 2076.32,
+          "actualStart": 1961.930957,
+          "actualEnd": 2092.810915,
+          "timeDifference": 16.49095699999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.341542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Comfort of Familiar Stories About Gender"
+        },
+        {
+          "startTime": 267.3145,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Comfort of Familiar Stories About Gender and Chapter 2 The Science Behind Gender: More Uncertainty Than Certainty"
+        },
+        {
+          "startTime": 528.0203750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science Behind Gender: More Uncertainty Than Certainty and Chapter 3 The Hidden Power of Stereotypes and Expectations"
+        },
+        {
+          "startTime": 792.5558330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Power of Stereotypes and Expectations and Chapter 4 How Society Shapes Gender From the Start"
+        },
+        {
+          "startTime": 1028.821791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Society Shapes Gender From the Start and Chapter 5 The Problem With “Neurosexism” in Science and Society"
+        },
+        {
+          "startTime": 1248.148791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Problem With “Neurosexism” in Science and Society and Chapter 6 When Stereotypes Are Challenged: Stories of Change"
+        },
+        {
+          "startTime": 1428.075124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Stereotypes Are Challenged: Stories of Change and Chapter 7 The Cost of Limiting Beliefs"
+        },
+        {
+          "startTime": 1575.780999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Limiting Beliefs and Chapter 8 Rethinking Gender: The Science of Possibility"
+        },
+        {
+          "startTime": 1725.583416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rethinking Gender: The Science of Possibility and Chapter 9 Parenting, Education, and the Power of Small Changes"
+        },
+        {
+          "startTime": 1850.607374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Parenting, Education, and the Power of Small Changes and Chapter 10 Toward a More Equal Future"
+        },
+        {
+          "startTime": 1960.430957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a More Equal Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3134",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:59:25.628Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

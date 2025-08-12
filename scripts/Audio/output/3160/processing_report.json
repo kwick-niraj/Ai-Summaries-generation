@@ -1,0 +1,456 @@
+{
+  "bookId": "3160",
+  "timestamp": "2025-07-14T23:14:09.977Z",
+  "success": false,
+  "processingTime": -1752534450490,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5459,
+    "totalAudioFiles": 12,
+    "totalDuration": 2385.610706
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2385.610706
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3160/optimized_text/3160.md",
+    "fileSize": 661,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "3160.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3160/metadata/3160_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2385.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3160/metadata/3160_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3160/metadata/3160_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3160/3160_complete.wav",
+    "duration": 2385.610708,
+    "fileSize": 114509392,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3160/introduction.wav",
+          "duration": 100.044333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.044333,
+          "startTime": 0,
+          "endTime": 100.044333
+        },
+        {
+          "path": "Audio/output/3160/chapter_01.wav",
+          "duration": 253.534375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Energy That Connects Everything",
+          "actualDuration": 253.534375,
+          "startTime": 101.544333,
+          "endTime": 355.078708
+        },
+        {
+          "path": "Audio/output/3160/chapter_02.wav",
+          "duration": 237.844583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Playfulness and Childlike Wonder",
+          "actualDuration": 237.844583,
+          "startTime": 356.578708,
+          "endTime": 594.4232910000001
+        },
+        {
+          "path": "Audio/output/3160/chapter_03.wav",
+          "duration": 216.953958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Letting Go of Fear and Limiting Beliefs",
+          "actualDuration": 216.953958,
+          "startTime": 595.9232910000001,
+          "endTime": 812.8772490000001
+        },
+        {
+          "path": "Audio/output/3160/chapter_04.wav",
+          "duration": 213.409083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Everyday Routines into Meaningful Moments",
+          "actualDuration": 213.409083,
+          "startTime": 814.3772490000001,
+          "endTime": 1027.7863320000001
+        },
+        {
+          "path": "Audio/output/3160/chapter_05.wav",
+          "duration": 221.840125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultivating Passion and Presence Through Practice",
+          "actualDuration": 221.840125,
+          "startTime": 1029.2863320000001,
+          "endTime": 1251.126457
+        },
+        {
+          "path": "Audio/output/3160/chapter_06.wav",
+          "duration": 224.451208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Connection with the Field in Relationships",
+          "actualDuration": 224.451208,
+          "startTime": 1252.626457,
+          "endTime": 1477.077665
+        },
+        {
+          "path": "Audio/output/3160/chapter_07.wav",
+          "duration": 196.534625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Mindful Play into Work and Creativity",
+          "actualDuration": 196.534625,
+          "startTime": 1478.577665,
+          "endTime": 1675.11229
+        },
+        {
+          "path": "Audio/output/3160/chapter_08.wav",
+          "duration": 205.444458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Life’s Challenges with Joy and Resilience",
+          "actualDuration": 205.444458,
+          "startTime": 1676.61229,
+          "endTime": 1882.056748
+        },
+        {
+          "path": "Audio/output/3160/chapter_09.wav",
+          "duration": 201.3385,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Joy and Playfulness Over Time",
+          "actualDuration": 201.3385,
+          "startTime": 1883.556748,
+          "endTime": 2084.895248
+        },
+        {
+          "path": "Audio/output/3160/chapter_10.wav",
+          "duration": 167.620375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living in Harmony with the Field",
+          "actualDuration": 167.620375,
+          "startTime": 2086.395248,
+          "endTime": 2254.015623
+        },
+        {
+          "path": "Audio/output/3160/conclusion.wav",
+          "duration": 146.595083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 146.595083,
+          "startTime": 2255.515623,
+          "endTime": 2402.110706
+        }
+      ],
+      "totalDuration": 2402.110706,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.04,
+          "actualStart": 0,
+          "actualEnd": 100.044333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Energy That Connects Everything",
+          "expectedStart": 100.04,
+          "expectedEnd": 353.57,
+          "actualStart": 101.544333,
+          "actualEnd": 355.078708,
+          "timeDifference": 1.5043329999999884
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Playfulness and Childlike Wonder",
+          "expectedStart": 353.57,
+          "expectedEnd": 591.41,
+          "actualStart": 356.578708,
+          "actualEnd": 594.4232910000001,
+          "timeDifference": 3.008708000000013
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Letting Go of Fear and Limiting Beliefs",
+          "expectedStart": 591.41,
+          "expectedEnd": 808.36,
+          "actualStart": 595.9232910000001,
+          "actualEnd": 812.8772490000001,
+          "timeDifference": 4.513291000000095
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Everyday Routines into Meaningful Moments",
+          "expectedStart": 808.36,
+          "expectedEnd": 1021.77,
+          "actualStart": 814.3772490000001,
+          "actualEnd": 1027.7863320000001,
+          "timeDifference": 6.017249000000106
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultivating Passion and Presence Through Practice",
+          "expectedStart": 1021.77,
+          "expectedEnd": 1243.61,
+          "actualStart": 1029.2863320000001,
+          "actualEnd": 1251.126457,
+          "timeDifference": 7.516332000000148
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Connection with the Field in Relationships",
+          "expectedStart": 1243.61,
+          "expectedEnd": 1468.06,
+          "actualStart": 1252.626457,
+          "actualEnd": 1477.077665,
+          "timeDifference": 9.016457000000173
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Mindful Play into Work and Creativity",
+          "expectedStart": 1468.06,
+          "expectedEnd": 1664.59,
+          "actualStart": 1478.577665,
+          "actualEnd": 1675.11229,
+          "timeDifference": 10.517665000000079
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Life’s Challenges with Joy and Resilience",
+          "expectedStart": 1664.59,
+          "expectedEnd": 1870.03,
+          "actualStart": 1676.61229,
+          "actualEnd": 1882.056748,
+          "timeDifference": 12.022290000000112
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Joy and Playfulness Over Time",
+          "expectedStart": 1870.03,
+          "expectedEnd": 2071.37,
+          "actualStart": 1883.556748,
+          "actualEnd": 2084.895248,
+          "timeDifference": 13.526747999999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living in Harmony with the Field",
+          "expectedStart": 2071.37,
+          "expectedEnd": 2238.99,
+          "actualStart": 2086.395248,
+          "actualEnd": 2254.015623,
+          "timeDifference": 15.02524799999992
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2238.99,
+          "expectedEnd": 2385.59,
+          "actualStart": 2255.515623,
+          "actualEnd": 2402.110706,
+          "timeDifference": 16.525622999999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.044333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Energy That Connects Everything"
+        },
+        {
+          "startTime": 355.078708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Energy That Connects Everything and Chapter 2 The Power of Playfulness and Childlike Wonder"
+        },
+        {
+          "startTime": 594.4232910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Playfulness and Childlike Wonder and Chapter 3 Letting Go of Fear and Limiting Beliefs"
+        },
+        {
+          "startTime": 812.8772490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Letting Go of Fear and Limiting Beliefs and Chapter 4 Turning Everyday Routines into Meaningful Moments"
+        },
+        {
+          "startTime": 1027.7863320000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Everyday Routines into Meaningful Moments and Chapter 5 Cultivating Passion and Presence Through Practice"
+        },
+        {
+          "startTime": 1251.126457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultivating Passion and Presence Through Practice and Chapter 6 Deepening Connection with the Field in Relationships"
+        },
+        {
+          "startTime": 1477.077665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Connection with the Field in Relationships and Chapter 7 Integrating Mindful Play into Work and Creativity"
+        },
+        {
+          "startTime": 1675.11229,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Mindful Play into Work and Creativity and Chapter 8 Navigating Life’s Challenges with Joy and Resilience"
+        },
+        {
+          "startTime": 1882.056748,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Life’s Challenges with Joy and Resilience and Chapter 9 Sustaining Joy and Playfulness Over Time"
+        },
+        {
+          "startTime": 2084.895248,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Joy and Playfulness Over Time and Chapter 10 Living in Harmony with the Field"
+        },
+        {
+          "startTime": 2254.015623,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living in Harmony with the Field and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3160",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:07:31.778Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

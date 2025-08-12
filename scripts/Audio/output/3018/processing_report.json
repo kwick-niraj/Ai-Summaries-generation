@@ -1,0 +1,455 @@
+{
+  "bookId": "3018",
+  "timestamp": "2025-07-14T12:01:00.148Z",
+  "success": false,
+  "processingTime": -1752494112132,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4598,
+    "totalAudioFiles": 12,
+    "totalDuration": 2027.9312920000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2027.9312920000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3018/optimized_text/3018.md",
+    "fileSize": 710,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "3018.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3018/metadata/3018_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2027.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3018/metadata/3018_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3018/metadata/3018_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3018/3018_complete.wav",
+    "duration": 2027.931292,
+    "fileSize": 97340780,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3018/introduction.wav",
+          "duration": 87.005,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.005,
+          "startTime": 0,
+          "endTime": 87.005
+        },
+        {
+          "path": "Audio/output/3018/chapter_01.wav",
+          "duration": 227.857042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Female: Early Lessons and Everyday Battles",
+          "actualDuration": 227.857042,
+          "startTime": 88.505,
+          "endTime": 316.362042
+        },
+        {
+          "path": "Audio/output/3018/chapter_02.wav",
+          "duration": 188.125625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Bodies, Beauty, and the Struggle for Self-Acceptance",
+          "actualDuration": 188.125625,
+          "startTime": 317.862042,
+          "endTime": 505.987667
+        },
+        {
+          "path": "Audio/output/3018/chapter_03.wav",
+          "duration": 183.666333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Sex, Shame, and the Power of Speaking Honestly",
+          "actualDuration": 183.666333,
+          "startTime": 507.487667,
+          "endTime": 691.154
+        },
+        {
+          "path": "Audio/output/3018/chapter_04.wav",
+          "duration": 214.694792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Motherhood, and the Choice to Define One’s Own Life",
+          "actualDuration": 214.694792,
+          "startTime": 692.654,
+          "endTime": 907.348792
+        },
+        {
+          "path": "Audio/output/3018/chapter_05.wav",
+          "duration": 202.918875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Work, Ambition, and the Fight for Equality",
+          "actualDuration": 202.918875,
+          "startTime": 908.848792,
+          "endTime": 1111.767667
+        },
+        {
+          "path": "Audio/output/3018/chapter_06.wav",
+          "duration": 194.895583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Love, Relationships, and the Myth of Happily Ever After",
+          "actualDuration": 194.895583,
+          "startTime": 1113.267667,
+          "endTime": 1308.16325
+        },
+        {
+          "path": "Audio/output/3018/chapter_07.wav",
+          "duration": 167.015333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Friendship, Sisterhood, and the Power of Solidarity",
+          "actualDuration": 167.015333,
+          "startTime": 1309.66325,
+          "endTime": 1476.6785830000001
+        },
+        {
+          "path": "Audio/output/3018/chapter_08.wav",
+          "duration": 164.719708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Aging, Change, and the Freedom of Letting Go",
+          "actualDuration": 164.719708,
+          "startTime": 1478.1785830000001,
+          "endTime": 1642.8982910000002
+        },
+        {
+          "path": "Audio/output/3018/chapter_09.wav",
+          "duration": 143.256292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Feminism, Activism, and the Ongoing Fight for Change",
+          "actualDuration": 143.256292,
+          "startTime": 1644.3982910000002,
+          "endTime": 1787.6545830000002
+        },
+        {
+          "path": "Audio/output/3018/chapter_10.wav",
+          "duration": 127.008792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Writing, Voice, and the Power of Telling Your Story",
+          "actualDuration": 127.008792,
+          "startTime": 1789.1545830000002,
+          "endTime": 1916.1633750000003
+        },
+        {
+          "path": "Audio/output/3018/conclusion.wav",
+          "duration": 126.767917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.767917,
+          "startTime": 1917.6633750000003,
+          "endTime": 2044.4312920000002
+        }
+      ],
+      "totalDuration": 2044.4312920000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.01,
+          "actualStart": 0,
+          "actualEnd": 87.005,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Female: Early Lessons and Everyday Battles",
+          "expectedStart": 87.01,
+          "expectedEnd": 314.87,
+          "actualStart": 88.505,
+          "actualEnd": 316.362042,
+          "timeDifference": 1.4949999999999903
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Bodies, Beauty, and the Struggle for Self-Acceptance",
+          "expectedStart": 314.87,
+          "expectedEnd": 503,
+          "actualStart": 317.862042,
+          "actualEnd": 505.987667,
+          "timeDifference": 2.9920419999999694
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Sex, Shame, and the Power of Speaking Honestly",
+          "expectedStart": 503,
+          "expectedEnd": 686.67,
+          "actualStart": 507.487667,
+          "actualEnd": 691.154,
+          "timeDifference": 4.487666999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Motherhood, and the Choice to Define One’s Own Life",
+          "expectedStart": 686.67,
+          "expectedEnd": 901.36,
+          "actualStart": 692.654,
+          "actualEnd": 907.348792,
+          "timeDifference": 5.984000000000037
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Work, Ambition, and the Fight for Equality",
+          "expectedStart": 901.36,
+          "expectedEnd": 1104.28,
+          "actualStart": 908.848792,
+          "actualEnd": 1111.767667,
+          "timeDifference": 7.4887919999999895
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Love, Relationships, and the Myth of Happily Ever After",
+          "expectedStart": 1104.28,
+          "expectedEnd": 1299.18,
+          "actualStart": 1113.267667,
+          "actualEnd": 1308.16325,
+          "timeDifference": 8.987667000000101
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Friendship, Sisterhood, and the Power of Solidarity",
+          "expectedStart": 1299.18,
+          "expectedEnd": 1466.2,
+          "actualStart": 1309.66325,
+          "actualEnd": 1476.6785830000001,
+          "timeDifference": 10.483249999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Aging, Change, and the Freedom of Letting Go",
+          "expectedStart": 1466.2,
+          "expectedEnd": 1630.92,
+          "actualStart": 1478.1785830000001,
+          "actualEnd": 1642.8982910000002,
+          "timeDifference": 11.978583000000071
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Feminism, Activism, and the Ongoing Fight for Change",
+          "expectedStart": 1630.92,
+          "expectedEnd": 1774.18,
+          "actualStart": 1644.3982910000002,
+          "actualEnd": 1787.6545830000002,
+          "timeDifference": 13.478291000000127
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Writing, Voice, and the Power of Telling Your Story",
+          "expectedStart": 1774.18,
+          "expectedEnd": 1901.19,
+          "actualStart": 1789.1545830000002,
+          "actualEnd": 1916.1633750000003,
+          "timeDifference": 14.974583000000166
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1901.19,
+          "expectedEnd": 2027.96,
+          "actualStart": 1917.6633750000003,
+          "actualEnd": 2044.4312920000002,
+          "timeDifference": 16.47337500000026
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.005,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Female: Early Lessons and Everyday Battles"
+        },
+        {
+          "startTime": 316.362042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Female: Early Lessons and Everyday Battles and Chapter 2 Bodies, Beauty, and the Struggle for Self-Acceptance"
+        },
+        {
+          "startTime": 505.987667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Bodies, Beauty, and the Struggle for Self-Acceptance and Chapter 3 Sex, Shame, and the Power of Speaking Honestly"
+        },
+        {
+          "startTime": 691.154,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Sex, Shame, and the Power of Speaking Honestly and Chapter 4 Family, Motherhood, and the Choice to Define One’s Own Life"
+        },
+        {
+          "startTime": 907.348792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Motherhood, and the Choice to Define One’s Own Life and Chapter 5 Work, Ambition, and the Fight for Equality"
+        },
+        {
+          "startTime": 1111.767667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Work, Ambition, and the Fight for Equality and Chapter 6 Love, Relationships, and the Myth of Happily Ever After"
+        },
+        {
+          "startTime": 1308.16325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Love, Relationships, and the Myth of Happily Ever After and Chapter 7 Friendship, Sisterhood, and the Power of Solidarity"
+        },
+        {
+          "startTime": 1476.6785830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Friendship, Sisterhood, and the Power of Solidarity and Chapter 8 Aging, Change, and the Freedom of Letting Go"
+        },
+        {
+          "startTime": 1642.8982910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Aging, Change, and the Freedom of Letting Go and Chapter 9 Feminism, Activism, and the Ongoing Fight for Change"
+        },
+        {
+          "startTime": 1787.6545830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Feminism, Activism, and the Ongoing Fight for Change and Chapter 10 Writing, Voice, and the Power of Telling Your Story"
+        },
+        {
+          "startTime": 1916.1633750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Writing, Voice, and the Power of Telling Your Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3018",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:55:13.749Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

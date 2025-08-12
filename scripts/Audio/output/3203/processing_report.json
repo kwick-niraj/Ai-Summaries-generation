@@ -1,0 +1,480 @@
+{
+  "bookId": "3203",
+  "timestamp": "2025-07-15T02:58:24.145Z",
+  "success": false,
+  "processingTime": -1752547884635,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4757,
+    "totalAudioFiles": 13,
+    "totalDuration": 2020.1976650000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2020.1976650000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3203/optimized_text/3203.md",
+    "fileSize": 923,
+    "wordCount": 126,
+    "format": "markdown",
+    "filename": "3203.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3203/metadata/3203_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2020.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3203/metadata/3203_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3203/metadata/3203_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3203/3203_complete.wav",
+    "duration": 2020.197667,
+    "fileSize": 96969566,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3203/introduction.wav",
+          "duration": 92.352458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.352458,
+          "startTime": 0,
+          "endTime": 92.352458
+        },
+        {
+          "path": "Audio/output/3203/chapter_01.wav",
+          "duration": 209.349,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Moment of Choice: Feeling Pulled Between Obligation and Desire",
+          "actualDuration": 209.349,
+          "startTime": 93.852458,
+          "endTime": 303.201458
+        },
+        {
+          "path": "Audio/output/3203/chapter_02.wav",
+          "duration": 190.9,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding “Should”: The Power of Expectations and the Cost of Conformity",
+          "actualDuration": 190.9,
+          "startTime": 304.701458,
+          "endTime": 495.601458
+        },
+        {
+          "path": "Audio/output/3203/chapter_03.wav",
+          "duration": 209.32625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Discovering “Must”: Listening to the Inner Voice and Honoring Passion",
+          "actualDuration": 209.32625,
+          "startTime": 497.101458,
+          "endTime": 706.4277079999999
+        },
+        {
+          "path": "Audio/output/3203/chapter_04.wav",
+          "duration": 184.397333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Fear and Resistance: Navigating Doubt on the Path to Authenticity",
+          "actualDuration": 184.397333,
+          "startTime": 707.9277079999999,
+          "endTime": 892.3250409999999
+        },
+        {
+          "path": "Audio/output/3203/chapter_05.wav",
+          "duration": 190.315583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Uncertainty: Building a Life Around What Matters Most",
+          "actualDuration": 190.315583,
+          "startTime": 893.8250409999999,
+          "endTime": 1084.140624
+        },
+        {
+          "path": "Audio/output/3203/chapter_06.wav",
+          "duration": 175.744417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Making Space for “Must”: Creating Room for What Matters",
+          "actualDuration": 175.744417,
+          "startTime": 1085.640624,
+          "endTime": 1261.385041
+        },
+        {
+          "path": "Audio/output/3203/chapter_07.wav",
+          "duration": 140.824833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Saying No: Boundaries as Acts of Self-Respect",
+          "actualDuration": 140.824833,
+          "startTime": 1262.885041,
+          "endTime": 1403.7098740000001
+        },
+        {
+          "path": "Audio/output/3203/chapter_08.wav",
+          "duration": 145.338583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Passion: Weathering the Highs and Lows",
+          "actualDuration": 145.338583,
+          "startTime": 1405.2098740000001,
+          "endTime": 1550.548457
+        },
+        {
+          "path": "Audio/output/3203/chapter_09.wav",
+          "duration": 137.3615,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Community and Connection: Finding Support on the Journey",
+          "actualDuration": 137.3615,
+          "startTime": 1552.048457,
+          "endTime": 1689.409957
+        },
+        {
+          "path": "Audio/output/3203/chapter_10.wav",
+          "duration": 112.15425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating “Should” and “Must”: Living Authentically in a Complex World",
+          "actualDuration": 112.15425,
+          "startTime": 1690.909957,
+          "endTime": 1803.0642070000001
+        },
+        {
+          "path": "Audio/output/3203/chapter_11.wav",
+          "duration": 124.168708,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ongoing Journey: Returning to the Crossroads",
+          "actualDuration": 124.168708,
+          "startTime": 1804.5642070000001,
+          "endTime": 1928.732915
+        },
+        {
+          "path": "Audio/output/3203/conclusion.wav",
+          "duration": 107.96475,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.96475,
+          "startTime": 1930.232915,
+          "endTime": 2038.1976650000001
+        }
+      ],
+      "totalDuration": 2038.1976650000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.35,
+          "actualStart": 0,
+          "actualEnd": 92.352458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Moment of Choice: Feeling Pulled Between Obligation and Desire",
+          "expectedStart": 92.35,
+          "expectedEnd": 301.7,
+          "actualStart": 93.852458,
+          "actualEnd": 303.201458,
+          "timeDifference": 1.5024580000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding “Should”: The Power of Expectations and the Cost of Conformity",
+          "expectedStart": 301.7,
+          "expectedEnd": 492.6,
+          "actualStart": 304.701458,
+          "actualEnd": 495.601458,
+          "timeDifference": 3.0014580000000137
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Discovering “Must”: Listening to the Inner Voice and Honoring Passion",
+          "expectedStart": 492.6,
+          "expectedEnd": 701.93,
+          "actualStart": 497.101458,
+          "actualEnd": 706.4277079999999,
+          "timeDifference": 4.501457999999957
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Fear and Resistance: Navigating Doubt on the Path to Authenticity",
+          "expectedStart": 701.93,
+          "expectedEnd": 886.33,
+          "actualStart": 707.9277079999999,
+          "actualEnd": 892.3250409999999,
+          "timeDifference": 5.997707999999989
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Uncertainty: Building a Life Around What Matters Most",
+          "expectedStart": 886.33,
+          "expectedEnd": 1076.65,
+          "actualStart": 893.8250409999999,
+          "actualEnd": 1084.140624,
+          "timeDifference": 7.495040999999901
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Making Space for “Must”: Creating Room for What Matters",
+          "expectedStart": 1076.65,
+          "expectedEnd": 1252.39,
+          "actualStart": 1085.640624,
+          "actualEnd": 1261.385041,
+          "timeDifference": 8.990623999999798
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Saying No: Boundaries as Acts of Self-Respect",
+          "expectedStart": 1252.39,
+          "expectedEnd": 1393.21,
+          "actualStart": 1262.885041,
+          "actualEnd": 1403.7098740000001,
+          "timeDifference": 10.495040999999901
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Passion: Weathering the Highs and Lows",
+          "expectedStart": 1393.21,
+          "expectedEnd": 1538.55,
+          "actualStart": 1405.2098740000001,
+          "actualEnd": 1550.548457,
+          "timeDifference": 11.99987400000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Community and Connection: Finding Support on the Journey",
+          "expectedStart": 1538.55,
+          "expectedEnd": 1675.91,
+          "actualStart": 1552.048457,
+          "actualEnd": 1689.409957,
+          "timeDifference": 13.498457000000144
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating “Should” and “Must”: Living Authentically in a Complex World",
+          "expectedStart": 1675.91,
+          "expectedEnd": 1788.06,
+          "actualStart": 1690.909957,
+          "actualEnd": 1803.0642070000001,
+          "timeDifference": 14.999956999999995
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ongoing Journey: Returning to the Crossroads",
+          "expectedStart": 1788.06,
+          "expectedEnd": 1912.23,
+          "actualStart": 1804.5642070000001,
+          "actualEnd": 1928.732915,
+          "timeDifference": 16.50420700000018
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1912.23,
+          "expectedEnd": 2020.19,
+          "actualStart": 1930.232915,
+          "actualEnd": 2038.1976650000001,
+          "timeDifference": 18.00291500000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.352458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Moment of Choice: Feeling Pulled Between Obligation and Desire"
+        },
+        {
+          "startTime": 303.201458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Moment of Choice: Feeling Pulled Between Obligation and Desire and Chapter 2 Understanding “Should”: The Power of Expectations and the Cost of Conformity"
+        },
+        {
+          "startTime": 495.601458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding “Should”: The Power of Expectations and the Cost of Conformity and Chapter 3 Discovering “Must”: Listening to the Inner Voice and Honoring Passion"
+        },
+        {
+          "startTime": 706.4277079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Discovering “Must”: Listening to the Inner Voice and Honoring Passion and Chapter 4 Facing Fear and Resistance: Navigating Doubt on the Path to Authenticity"
+        },
+        {
+          "startTime": 892.3250409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Fear and Resistance: Navigating Doubt on the Path to Authenticity and Chapter 5 Embracing Uncertainty: Building a Life Around What Matters Most"
+        },
+        {
+          "startTime": 1084.140624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Uncertainty: Building a Life Around What Matters Most and Chapter 6 Making Space for “Must”: Creating Room for What Matters"
+        },
+        {
+          "startTime": 1261.385041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Making Space for “Must”: Creating Room for What Matters and Chapter 7 The Art of Saying No: Boundaries as Acts of Self-Respect"
+        },
+        {
+          "startTime": 1403.7098740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Saying No: Boundaries as Acts of Self-Respect and Chapter 8 Sustaining Passion: Weathering the Highs and Lows"
+        },
+        {
+          "startTime": 1550.548457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Passion: Weathering the Highs and Lows and Chapter 9 Community and Connection: Finding Support on the Journey"
+        },
+        {
+          "startTime": 1689.409957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Community and Connection: Finding Support on the Journey and Chapter 10 Integrating “Should” and “Must”: Living Authentically in a Complex World"
+        },
+        {
+          "startTime": 1803.0642070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating “Should” and “Must”: Living Authentically in a Complex World and Chapter 11 The Ongoing Journey: Returning to the Crossroads"
+        },
+        {
+          "startTime": 1928.732915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ongoing Journey: Returning to the Crossroads and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3203",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:51:25.834Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

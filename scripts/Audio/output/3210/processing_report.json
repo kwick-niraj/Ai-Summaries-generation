@@ -1,0 +1,455 @@
+{
+  "bookId": "3210",
+  "timestamp": "2025-07-15T03:24:44.821Z",
+  "success": false,
+  "processingTime": -1752549544568,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4673,
+    "totalAudioFiles": 12,
+    "totalDuration": 1875.4280419999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1875.4280419999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3210/optimized_text/3210.md",
+    "fileSize": 768,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "3210.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3210/metadata/3210_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1875.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3210/metadata/3210_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3210/metadata/3210_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3210/3210_complete.wav",
+    "duration": 1875.428042,
+    "fileSize": 90020624,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3210/introduction.wav",
+          "duration": 95.459458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.459458,
+          "startTime": 0,
+          "endTime": 95.459458
+        },
+        {
+          "path": "Audio/output/3210/chapter_01.wav",
+          "duration": 182.674375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking a Word That Shapes How Women See Themselves",
+          "actualDuration": 182.674375,
+          "startTime": 96.959458,
+          "endTime": 279.633833
+        },
+        {
+          "path": "Audio/output/3210/chapter_02.wav",
+          "duration": 209.124833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Language and Culture Shape Women’s Bodies and Lives",
+          "actualDuration": 209.124833,
+          "startTime": 281.133833,
+          "endTime": 490.25866599999995
+        },
+        {
+          "path": "Audio/output/3210/chapter_03.wav",
+          "duration": 192.340125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Menstruation, Self-Knowledge, and the Power of Embracing the Cycle",
+          "actualDuration": 192.340125,
+          "startTime": 491.75866599999995,
+          "endTime": 684.0987909999999
+        },
+        {
+          "path": "Audio/output/3210/chapter_04.wav",
+          "duration": 199.653125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sexuality, Self-Love, and the Challenge to Patriarchal Control",
+          "actualDuration": 199.653125,
+          "startTime": 685.5987909999999,
+          "endTime": 885.2519159999999
+        },
+        {
+          "path": "Audio/output/3210/chapter_05.wav",
+          "duration": 181.312542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Community, Conversation, and the Power of Personal Stories",
+          "actualDuration": 181.312542,
+          "startTime": 886.7519159999999,
+          "endTime": 1068.0644579999998
+        },
+        {
+          "path": "Audio/output/3210/chapter_06.wav",
+          "duration": 156.862542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Autonomy, Activism, and the Everyday Acts of Rebellion",
+          "actualDuration": 156.862542,
+          "startTime": 1069.5644579999998,
+          "endTime": 1226.427
+        },
+        {
+          "path": "Audio/output/3210/chapter_07.wav",
+          "duration": 146.465667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing, Forgiveness, and the Work of Reclaiming the Self",
+          "actualDuration": 146.465667,
+          "startTime": 1227.927,
+          "endTime": 1374.3926669999998
+        },
+        {
+          "path": "Audio/output/3210/chapter_08.wav",
+          "duration": 150.815042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Redefining Beauty, Aging, and the Body’s Changing Story",
+          "actualDuration": 150.815042,
+          "startTime": 1375.8926669999998,
+          "endTime": 1526.7077089999998
+        },
+        {
+          "path": "Audio/output/3210/chapter_09.wav",
+          "duration": 135.910958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Motherhood, Choice, and the Many Ways to Be a Woman",
+          "actualDuration": 135.910958,
+          "startTime": 1528.2077089999998,
+          "endTime": 1664.1186669999997
+        },
+        {
+          "path": "Audio/output/3210/chapter_10.wav",
+          "duration": 123.39475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Work of Reclaiming Language and Power",
+          "actualDuration": 123.39475,
+          "startTime": 1665.6186669999997,
+          "endTime": 1789.0134169999997
+        },
+        {
+          "path": "Audio/output/3210/conclusion.wav",
+          "duration": 101.414625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.414625,
+          "startTime": 1790.5134169999997,
+          "endTime": 1891.9280419999996
+        }
+      ],
+      "totalDuration": 1891.9280419999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.46,
+          "actualStart": 0,
+          "actualEnd": 95.459458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking a Word That Shapes How Women See Themselves",
+          "expectedStart": 95.46,
+          "expectedEnd": 278.13,
+          "actualStart": 96.959458,
+          "actualEnd": 279.633833,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Language and Culture Shape Women’s Bodies and Lives",
+          "expectedStart": 278.13,
+          "expectedEnd": 487.25,
+          "actualStart": 281.133833,
+          "actualEnd": 490.25866599999995,
+          "timeDifference": 3.003832999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Menstruation, Self-Knowledge, and the Power of Embracing the Cycle",
+          "expectedStart": 487.25,
+          "expectedEnd": 679.59,
+          "actualStart": 491.75866599999995,
+          "actualEnd": 684.0987909999999,
+          "timeDifference": 4.508665999999948
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sexuality, Self-Love, and the Challenge to Patriarchal Control",
+          "expectedStart": 679.59,
+          "expectedEnd": 879.24,
+          "actualStart": 685.5987909999999,
+          "actualEnd": 885.2519159999999,
+          "timeDifference": 6.00879099999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Community, Conversation, and the Power of Personal Stories",
+          "expectedStart": 879.24,
+          "expectedEnd": 1060.55,
+          "actualStart": 886.7519159999999,
+          "actualEnd": 1068.0644579999998,
+          "timeDifference": 7.511915999999928
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Autonomy, Activism, and the Everyday Acts of Rebellion",
+          "expectedStart": 1060.55,
+          "expectedEnd": 1217.41,
+          "actualStart": 1069.5644579999998,
+          "actualEnd": 1226.427,
+          "timeDifference": 9.014457999999877
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing, Forgiveness, and the Work of Reclaiming the Self",
+          "expectedStart": 1217.41,
+          "expectedEnd": 1363.88,
+          "actualStart": 1227.927,
+          "actualEnd": 1374.3926669999998,
+          "timeDifference": 10.516999999999825
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Redefining Beauty, Aging, and the Body’s Changing Story",
+          "expectedStart": 1363.88,
+          "expectedEnd": 1514.7,
+          "actualStart": 1375.8926669999998,
+          "actualEnd": 1526.7077089999998,
+          "timeDifference": 12.012666999999738
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Motherhood, Choice, and the Many Ways to Be a Woman",
+          "expectedStart": 1514.7,
+          "expectedEnd": 1650.61,
+          "actualStart": 1528.2077089999998,
+          "actualEnd": 1664.1186669999997,
+          "timeDifference": 13.50770899999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Work of Reclaiming Language and Power",
+          "expectedStart": 1650.61,
+          "expectedEnd": 1774,
+          "actualStart": 1665.6186669999997,
+          "actualEnd": 1789.0134169999997,
+          "timeDifference": 15.008666999999832
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1774,
+          "expectedEnd": 1875.41,
+          "actualStart": 1790.5134169999997,
+          "actualEnd": 1891.9280419999996,
+          "timeDifference": 16.513416999999663
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.459458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking a Word That Shapes How Women See Themselves"
+        },
+        {
+          "startTime": 279.633833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking a Word That Shapes How Women See Themselves and Chapter 2 How Language and Culture Shape Women’s Bodies and Lives"
+        },
+        {
+          "startTime": 490.25866599999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Language and Culture Shape Women’s Bodies and Lives and Chapter 3 Menstruation, Self-Knowledge, and the Power of Embracing the Cycle"
+        },
+        {
+          "startTime": 684.0987909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Menstruation, Self-Knowledge, and the Power of Embracing the Cycle and Chapter 4 Sexuality, Self-Love, and the Challenge to Patriarchal Control"
+        },
+        {
+          "startTime": 885.2519159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sexuality, Self-Love, and the Challenge to Patriarchal Control and Chapter 5 Community, Conversation, and the Power of Personal Stories"
+        },
+        {
+          "startTime": 1068.0644579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Community, Conversation, and the Power of Personal Stories and Chapter 6 Autonomy, Activism, and the Everyday Acts of Rebellion"
+        },
+        {
+          "startTime": 1226.427,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Autonomy, Activism, and the Everyday Acts of Rebellion and Chapter 7 Healing, Forgiveness, and the Work of Reclaiming the Self"
+        },
+        {
+          "startTime": 1374.3926669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing, Forgiveness, and the Work of Reclaiming the Self and Chapter 8 Redefining Beauty, Aging, and the Body’s Changing Story"
+        },
+        {
+          "startTime": 1526.7077089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Redefining Beauty, Aging, and the Body’s Changing Story and Chapter 9 Motherhood, Choice, and the Many Ways to Be a Woman"
+        },
+        {
+          "startTime": 1664.1186669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Motherhood, Choice, and the Many Ways to Be a Woman and Chapter 10 The Ongoing Work of Reclaiming Language and Power"
+        },
+        {
+          "startTime": 1789.0134169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Work of Reclaiming Language and Power and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3210",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:19:05.769Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

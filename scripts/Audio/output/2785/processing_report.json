@@ -1,0 +1,455 @@
+{
+  "bookId": "2785",
+  "timestamp": "2025-07-13T19:26:06.912Z",
+  "success": false,
+  "processingTime": -1752434508478,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4991,
+    "totalAudioFiles": 12,
+    "totalDuration": 2014.8653330000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2014.8653330000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2785/optimized_text/2785.md",
+    "fileSize": 802,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2785.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2785/metadata/2785_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2014.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2785/metadata/2785_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2785/metadata/2785_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2785/2785_complete.wav",
+    "duration": 2014.865333,
+    "fileSize": 96713614,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2785/introduction.wav",
+          "duration": 82.32075,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.32075,
+          "startTime": 0,
+          "endTime": 82.32075
+        },
+        {
+          "path": "Audio/output/2785/chapter_01.wav",
+          "duration": 207.364125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Politics and Family Expectations",
+          "actualDuration": 207.364125,
+          "startTime": 83.82075,
+          "endTime": 291.18487500000003
+        },
+        {
+          "path": "Audio/output/2785/chapter_02.wav",
+          "duration": 202.614458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Voice: From Reluctant Volunteer to Political Organizer",
+          "actualDuration": 202.614458,
+          "startTime": 292.68487500000003,
+          "endTime": 495.29933300000005
+        },
+        {
+          "path": "Audio/output/2785/chapter_03.wav",
+          "duration": 213.278792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Entering Congress: Breaking Barriers and Building Alliances",
+          "actualDuration": 213.278792,
+          "startTime": 496.79933300000005,
+          "endTime": 710.078125
+        },
+        {
+          "path": "Audio/output/2785/chapter_04.wav",
+          "duration": 176.258375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rising to Leadership: Strategy, Sacrifice, and the Art of Negotiation",
+          "actualDuration": 176.258375,
+          "startTime": 711.578125,
+          "endTime": 887.8365
+        },
+        {
+          "path": "Audio/output/2785/chapter_05.wav",
+          "duration": 171.742125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Becoming Speaker: Navigating Crises and Shaping History",
+          "actualDuration": 171.742125,
+          "startTime": 889.3365,
+          "endTime": 1061.078625
+        },
+        {
+          "path": "Audio/output/2785/chapter_06.wav",
+          "duration": 177.966875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering Storms: Leadership in the Age of Division",
+          "actualDuration": 177.966875,
+          "startTime": 1062.578625,
+          "endTime": 1240.5455000000002
+        },
+        {
+          "path": "Audio/output/2785/chapter_07.wav",
+          "duration": 197.658,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing the Trump Era: Resistance, Impeachment, and the Power of Principle",
+          "actualDuration": 197.658,
+          "startTime": 1242.0455000000002,
+          "endTime": 1439.7035
+        },
+        {
+          "path": "Audio/output/2785/chapter_08.wav",
+          "duration": 176.476083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Pandemic and the Challenge of Governing in Crisis",
+          "actualDuration": 176.476083,
+          "startTime": 1441.2035,
+          "endTime": 1617.679583
+        },
+        {
+          "path": "Audio/output/2785/chapter_09.wav",
+          "duration": 157.414125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and Lessons: Mentoring the Next Generation",
+          "actualDuration": 157.414125,
+          "startTime": 1619.179583,
+          "endTime": 1776.593708
+        },
+        {
+          "path": "Audio/output/2785/chapter_10.wav",
+          "duration": 130.327375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Persistence: Reflections on Service and Change",
+          "actualDuration": 130.327375,
+          "startTime": 1778.093708,
+          "endTime": 1908.4210830000002
+        },
+        {
+          "path": "Audio/output/2785/conclusion.wav",
+          "duration": 121.44425,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.44425,
+          "startTime": 1909.9210830000002,
+          "endTime": 2031.3653330000002
+        }
+      ],
+      "totalDuration": 2031.3653330000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.32,
+          "actualStart": 0,
+          "actualEnd": 82.32075,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Politics and Family Expectations",
+          "expectedStart": 82.32,
+          "expectedEnd": 289.68,
+          "actualStart": 83.82075,
+          "actualEnd": 291.18487500000003,
+          "timeDifference": 1.5007500000000107
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Voice: From Reluctant Volunteer to Political Organizer",
+          "expectedStart": 289.68,
+          "expectedEnd": 492.29,
+          "actualStart": 292.68487500000003,
+          "actualEnd": 495.29933300000005,
+          "timeDifference": 3.004875000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Entering Congress: Breaking Barriers and Building Alliances",
+          "expectedStart": 492.29,
+          "expectedEnd": 705.57,
+          "actualStart": 496.79933300000005,
+          "actualEnd": 710.078125,
+          "timeDifference": 4.5093330000000265
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rising to Leadership: Strategy, Sacrifice, and the Art of Negotiation",
+          "expectedStart": 705.57,
+          "expectedEnd": 881.83,
+          "actualStart": 711.578125,
+          "actualEnd": 887.8365,
+          "timeDifference": 6.00812499999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Becoming Speaker: Navigating Crises and Shaping History",
+          "expectedStart": 881.83,
+          "expectedEnd": 1053.57,
+          "actualStart": 889.3365,
+          "actualEnd": 1061.078625,
+          "timeDifference": 7.50649999999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering Storms: Leadership in the Age of Division",
+          "expectedStart": 1053.57,
+          "expectedEnd": 1231.54,
+          "actualStart": 1062.578625,
+          "actualEnd": 1240.5455000000002,
+          "timeDifference": 9.008625000000166
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing the Trump Era: Resistance, Impeachment, and the Power of Principle",
+          "expectedStart": 1231.54,
+          "expectedEnd": 1429.2,
+          "actualStart": 1242.0455000000002,
+          "actualEnd": 1439.7035,
+          "timeDifference": 10.505500000000211
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Pandemic and the Challenge of Governing in Crisis",
+          "expectedStart": 1429.2,
+          "expectedEnd": 1605.68,
+          "actualStart": 1441.2035,
+          "actualEnd": 1617.679583,
+          "timeDifference": 12.003500000000031
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and Lessons: Mentoring the Next Generation",
+          "expectedStart": 1605.68,
+          "expectedEnd": 1763.09,
+          "actualStart": 1619.179583,
+          "actualEnd": 1776.593708,
+          "timeDifference": 13.49958300000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Persistence: Reflections on Service and Change",
+          "expectedStart": 1763.09,
+          "expectedEnd": 1893.42,
+          "actualStart": 1778.093708,
+          "actualEnd": 1908.4210830000002,
+          "timeDifference": 15.003708000000188
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1893.42,
+          "expectedEnd": 2014.86,
+          "actualStart": 1909.9210830000002,
+          "actualEnd": 2031.3653330000002,
+          "timeDifference": 16.501083000000108
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.32075,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Politics and Family Expectations"
+        },
+        {
+          "startTime": 291.18487500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Politics and Family Expectations and Chapter 2 Finding a Voice: From Reluctant Volunteer to Political Organizer"
+        },
+        {
+          "startTime": 495.29933300000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Voice: From Reluctant Volunteer to Political Organizer and Chapter 3 Entering Congress: Breaking Barriers and Building Alliances"
+        },
+        {
+          "startTime": 710.078125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Entering Congress: Breaking Barriers and Building Alliances and Chapter 4 Rising to Leadership: Strategy, Sacrifice, and the Art of Negotiation"
+        },
+        {
+          "startTime": 887.8365,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rising to Leadership: Strategy, Sacrifice, and the Art of Negotiation and Chapter 5 Becoming Speaker: Navigating Crises and Shaping History"
+        },
+        {
+          "startTime": 1061.078625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Becoming Speaker: Navigating Crises and Shaping History and Chapter 6 Weathering Storms: Leadership in the Age of Division"
+        },
+        {
+          "startTime": 1240.5455000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering Storms: Leadership in the Age of Division and Chapter 7 Facing the Trump Era: Resistance, Impeachment, and the Power of Principle"
+        },
+        {
+          "startTime": 1439.7035,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing the Trump Era: Resistance, Impeachment, and the Power of Principle and Chapter 8 The Pandemic and the Challenge of Governing in Crisis"
+        },
+        {
+          "startTime": 1617.679583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Pandemic and the Challenge of Governing in Crisis and Chapter 9 Legacy and Lessons: Mentoring the Next Generation"
+        },
+        {
+          "startTime": 1776.593708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and Lessons: Mentoring the Next Generation and Chapter 10 The Enduring Power of Persistence: Reflections on Service and Change"
+        },
+        {
+          "startTime": 1908.4210830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Persistence: Reflections on Service and Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2785",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:21:49.145Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

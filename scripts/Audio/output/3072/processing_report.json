@@ -1,0 +1,456 @@
+{
+  "bookId": "3072",
+  "timestamp": "2025-07-14T16:25:21.884Z",
+  "success": false,
+  "processingTime": -1752509941433,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3982,
+    "totalAudioFiles": 12,
+    "totalDuration": 1974.5441249999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1974.5441249999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3072/optimized_text/3072.md",
+    "fileSize": 735,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "3072.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3072/metadata/3072_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1974.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3072/metadata/3072_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3072/metadata/3072_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3072/3072_complete.wav",
+    "duration": 1974.544125,
+    "fileSize": 94778196,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3072/introduction.wav",
+          "duration": 95.010833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.010833,
+          "startTime": 0,
+          "endTime": 95.010833
+        },
+        {
+          "path": "Audio/output/3072/chapter_01.wav",
+          "duration": 238.290667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A College Town’s Hidden Reality",
+          "actualDuration": 238.290667,
+          "startTime": 96.510833,
+          "endTime": 334.80150000000003
+        },
+        {
+          "path": "Audio/output/3072/chapter_02.wav",
+          "duration": 193.173042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Doubt and the Burden of Proof",
+          "actualDuration": 193.173042,
+          "startTime": 336.30150000000003,
+          "endTime": 529.474542
+        },
+        {
+          "path": "Audio/output/3072/chapter_03.wav",
+          "duration": 189.181333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Power, Privilege, and the Shield of Athletics",
+          "actualDuration": 189.181333,
+          "startTime": 530.974542,
+          "endTime": 720.155875
+        },
+        {
+          "path": "Audio/output/3072/chapter_04.wav",
+          "duration": 194.698875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Long Shadow of Trauma and the Struggle for Healing",
+          "actualDuration": 194.698875,
+          "startTime": 721.655875,
+          "endTime": 916.35475
+        },
+        {
+          "path": "Audio/output/3072/chapter_05.wav",
+          "duration": 166.817917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Justice and the Need for Change",
+          "actualDuration": 166.817917,
+          "startTime": 917.85475,
+          "endTime": 1084.672667
+        },
+        {
+          "path": "Audio/output/3072/chapter_06.wav",
+          "duration": 168.09,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect: Families, Friends, and the Wider Community",
+          "actualDuration": 168.09,
+          "startTime": 1086.172667,
+          "endTime": 1254.262667
+        },
+        {
+          "path": "Audio/output/3072/chapter_07.wav",
+          "duration": 150.568042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Response: From Silence to Advocacy",
+          "actualDuration": 150.568042,
+          "startTime": 1255.762667,
+          "endTime": 1406.3307089999998
+        },
+        {
+          "path": "Audio/output/3072/chapter_08.wav",
+          "duration": 176.237083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Justice: Trials, Tribulations, and the Limits of the Law",
+          "actualDuration": 176.237083,
+          "startTime": 1407.8307089999998,
+          "endTime": 1584.0677919999998
+        },
+        {
+          "path": "Audio/output/3072/chapter_09.wav",
+          "duration": 158.738958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reimagining Prevention: Education, Empathy, and Cultural Change",
+          "actualDuration": 158.738958,
+          "startTime": 1585.5677919999998,
+          "endTime": 1744.3067499999997
+        },
+        {
+          "path": "Audio/output/3072/chapter_10.wav",
+          "duration": 142.691458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward Healing: Resilience, Connection, and the Power of Community",
+          "actualDuration": 142.691458,
+          "startTime": 1745.8067499999997,
+          "endTime": 1888.4982079999997
+        },
+        {
+          "path": "Audio/output/3072/conclusion.wav",
+          "duration": 101.045917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.045917,
+          "startTime": 1889.9982079999997,
+          "endTime": 1991.0441249999997
+        }
+      ],
+      "totalDuration": 1991.0441249999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.01,
+          "actualStart": 0,
+          "actualEnd": 95.010833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A College Town’s Hidden Reality",
+          "expectedStart": 95.01,
+          "expectedEnd": 333.3,
+          "actualStart": 96.510833,
+          "actualEnd": 334.80150000000003,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Doubt and the Burden of Proof",
+          "expectedStart": 333.3,
+          "expectedEnd": 526.47,
+          "actualStart": 336.30150000000003,
+          "actualEnd": 529.474542,
+          "timeDifference": 3.0015000000000214
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Power, Privilege, and the Shield of Athletics",
+          "expectedStart": 526.47,
+          "expectedEnd": 715.65,
+          "actualStart": 530.974542,
+          "actualEnd": 720.155875,
+          "timeDifference": 4.504542000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Long Shadow of Trauma and the Struggle for Healing",
+          "expectedStart": 715.65,
+          "expectedEnd": 910.35,
+          "actualStart": 721.655875,
+          "actualEnd": 916.35475,
+          "timeDifference": 6.00587500000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Justice and the Need for Change",
+          "expectedStart": 910.35,
+          "expectedEnd": 1077.17,
+          "actualStart": 917.85475,
+          "actualEnd": 1084.672667,
+          "timeDifference": 7.5047499999999445
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect: Families, Friends, and the Wider Community",
+          "expectedStart": 1077.17,
+          "expectedEnd": 1245.26,
+          "actualStart": 1086.172667,
+          "actualEnd": 1254.262667,
+          "timeDifference": 9.002666999999974
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Response: From Silence to Advocacy",
+          "expectedStart": 1245.26,
+          "expectedEnd": 1395.83,
+          "actualStart": 1255.762667,
+          "actualEnd": 1406.3307089999998,
+          "timeDifference": 10.502666999999974
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Justice: Trials, Tribulations, and the Limits of the Law",
+          "expectedStart": 1395.83,
+          "expectedEnd": 1572.07,
+          "actualStart": 1407.8307089999998,
+          "actualEnd": 1584.0677919999998,
+          "timeDifference": 12.000708999999915
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reimagining Prevention: Education, Empathy, and Cultural Change",
+          "expectedStart": 1572.07,
+          "expectedEnd": 1730.81,
+          "actualStart": 1585.5677919999998,
+          "actualEnd": 1744.3067499999997,
+          "timeDifference": 13.49779199999989
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward Healing: Resilience, Connection, and the Power of Community",
+          "expectedStart": 1730.81,
+          "expectedEnd": 1873.5,
+          "actualStart": 1745.8067499999997,
+          "actualEnd": 1888.4982079999997,
+          "timeDifference": 14.996749999999793
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1873.5,
+          "expectedEnd": 1974.55,
+          "actualStart": 1889.9982079999997,
+          "actualEnd": 1991.0441249999997,
+          "timeDifference": 16.49820799999975
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.010833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A College Town’s Hidden Reality"
+        },
+        {
+          "startTime": 334.80150000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A College Town’s Hidden Reality and Chapter 2 The Weight of Doubt and the Burden of Proof"
+        },
+        {
+          "startTime": 529.474542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Doubt and the Burden of Proof and Chapter 3 Power, Privilege, and the Shield of Athletics"
+        },
+        {
+          "startTime": 720.155875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Power, Privilege, and the Shield of Athletics and Chapter 4 The Long Shadow of Trauma and the Struggle for Healing"
+        },
+        {
+          "startTime": 916.35475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Long Shadow of Trauma and the Struggle for Healing and Chapter 5 The Limits of Justice and the Need for Change"
+        },
+        {
+          "startTime": 1084.672667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Justice and the Need for Change and Chapter 6 The Ripple Effect: Families, Friends, and the Wider Community"
+        },
+        {
+          "startTime": 1254.262667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect: Families, Friends, and the Wider Community and Chapter 7 The Evolution of Response: From Silence to Advocacy"
+        },
+        {
+          "startTime": 1406.3307089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Response: From Silence to Advocacy and Chapter 8 The Search for Justice: Trials, Tribulations, and the Limits of the Law"
+        },
+        {
+          "startTime": 1584.0677919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Justice: Trials, Tribulations, and the Limits of the Law and Chapter 9 Reimagining Prevention: Education, Empathy, and Cultural Change"
+        },
+        {
+          "startTime": 1744.3067499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reimagining Prevention: Education, Empathy, and Cultural Change and Chapter 10 Toward Healing: Resilience, Connection, and the Power of Community"
+        },
+        {
+          "startTime": 1888.4982079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward Healing: Resilience, Connection, and the Power of Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3072",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:19:02.633Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

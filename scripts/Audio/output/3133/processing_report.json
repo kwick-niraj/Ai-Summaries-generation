@@ -1,0 +1,456 @@
+{
+  "bookId": "3133",
+  "timestamp": "2025-07-14T20:59:23.064Z",
+  "success": false,
+  "processingTime": -1752526397203,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3991,
+    "totalAudioFiles": 12,
+    "totalDuration": 2194.284668
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2194.284668
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3133/optimized_text/3133.md",
+    "fileSize": 637,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "3133.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3133/metadata/3133_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2194.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3133/metadata/3133_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3133/metadata/3133_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3133/3133_complete.wav",
+    "duration": 2194.284667,
+    "fileSize": 105325742,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3133/introduction.wav",
+          "duration": 90.118875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.118875,
+          "startTime": 0,
+          "endTime": 90.118875
+        },
+        {
+          "path": "Audio/output/3133/chapter_01.wav",
+          "duration": 190.3475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation: Attitude Shapes Every Outcome",
+          "actualDuration": 190.3475,
+          "startTime": 91.618875,
+          "endTime": 281.96637499999997
+        },
+        {
+          "path": "Audio/output/3133/chapter_02.wav",
+          "duration": 215.212667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Belief and Definite Purpose",
+          "actualDuration": 215.212667,
+          "startTime": 283.46637499999997,
+          "endTime": 498.679042
+        },
+        {
+          "path": "Audio/output/3133/chapter_03.wav",
+          "duration": 192.014167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Adversity into Opportunity",
+          "actualDuration": 192.014167,
+          "startTime": 500.179042,
+          "endTime": 692.193209
+        },
+        {
+          "path": "Audio/output/3133/chapter_04.wav",
+          "duration": 221.032417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Subconscious Mind: Programming for Success",
+          "actualDuration": 221.032417,
+          "startTime": 693.693209,
+          "endTime": 914.725626
+        },
+        {
+          "path": "Audio/output/3133/chapter_05.wav",
+          "duration": 203.132292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Taking Responsibility and Building Self-Discipline",
+          "actualDuration": 203.132292,
+          "startTime": 916.225626,
+          "endTime": 1119.3579180000002
+        },
+        {
+          "path": "Audio/output/3133/chapter_06.wav",
+          "duration": 199.6875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Habits and Daily Practice",
+          "actualDuration": 199.6875,
+          "startTime": 1120.8579180000002,
+          "endTime": 1320.5454180000002
+        },
+        {
+          "path": "Audio/output/3133/chapter_07.wav",
+          "duration": 198.359042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Influence of Environment and Relationships",
+          "actualDuration": 198.359042,
+          "startTime": 1322.0454180000002,
+          "endTime": 1520.4044600000002
+        },
+        {
+          "path": "Audio/output/3133/chapter_08.wav",
+          "duration": 199.672042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Value of Service and Contribution",
+          "actualDuration": 199.672042,
+          "startTime": 1521.9044600000002,
+          "endTime": 1721.5765020000001
+        },
+        {
+          "path": "Audio/output/3133/chapter_09.wav",
+          "duration": 167.736708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Persistence, Resilience, and the Will to Succeed",
+          "actualDuration": 167.736708,
+          "startTime": 1723.0765020000001,
+          "endTime": 1890.81321
+        },
+        {
+          "path": "Audio/output/3133/chapter_10.wav",
+          "duration": 180.55,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Positive Mental Attitude Framework",
+          "actualDuration": 180.55,
+          "startTime": 1892.31321,
+          "endTime": 2072.86321
+        },
+        {
+          "path": "Audio/output/3133/conclusion.wav",
+          "duration": 136.421458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.421458,
+          "startTime": 2074.36321,
+          "endTime": 2210.784668
+        }
+      ],
+      "totalDuration": 2210.784668,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.12,
+          "actualStart": 0,
+          "actualEnd": 90.118875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation: Attitude Shapes Every Outcome",
+          "expectedStart": 90.12,
+          "expectedEnd": 280.47,
+          "actualStart": 91.618875,
+          "actualEnd": 281.96637499999997,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Belief and Definite Purpose",
+          "expectedStart": 280.47,
+          "expectedEnd": 495.68,
+          "actualStart": 283.46637499999997,
+          "actualEnd": 498.679042,
+          "timeDifference": 2.9963749999999436
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Adversity into Opportunity",
+          "expectedStart": 495.68,
+          "expectedEnd": 687.69,
+          "actualStart": 500.179042,
+          "actualEnd": 692.193209,
+          "timeDifference": 4.4990419999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Subconscious Mind: Programming for Success",
+          "expectedStart": 687.69,
+          "expectedEnd": 908.72,
+          "actualStart": 693.693209,
+          "actualEnd": 914.725626,
+          "timeDifference": 6.00320899999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Taking Responsibility and Building Self-Discipline",
+          "expectedStart": 908.72,
+          "expectedEnd": 1111.85,
+          "actualStart": 916.225626,
+          "actualEnd": 1119.3579180000002,
+          "timeDifference": 7.505626000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Habits and Daily Practice",
+          "expectedStart": 1111.85,
+          "expectedEnd": 1311.54,
+          "actualStart": 1120.8579180000002,
+          "actualEnd": 1320.5454180000002,
+          "timeDifference": 9.007918000000245
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Influence of Environment and Relationships",
+          "expectedStart": 1311.54,
+          "expectedEnd": 1509.9,
+          "actualStart": 1322.0454180000002,
+          "actualEnd": 1520.4044600000002,
+          "timeDifference": 10.50541800000019
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Value of Service and Contribution",
+          "expectedStart": 1509.9,
+          "expectedEnd": 1709.57,
+          "actualStart": 1521.9044600000002,
+          "actualEnd": 1721.5765020000001,
+          "timeDifference": 12.004460000000108
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Persistence, Resilience, and the Will to Succeed",
+          "expectedStart": 1709.57,
+          "expectedEnd": 1877.31,
+          "actualStart": 1723.0765020000001,
+          "actualEnd": 1890.81321,
+          "timeDifference": 13.506502000000182
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Positive Mental Attitude Framework",
+          "expectedStart": 1877.31,
+          "expectedEnd": 2057.86,
+          "actualStart": 1892.31321,
+          "actualEnd": 2072.86321,
+          "timeDifference": 15.003210000000081
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2057.86,
+          "expectedEnd": 2194.28,
+          "actualStart": 2074.36321,
+          "actualEnd": 2210.784668,
+          "timeDifference": 16.503209999999854
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.118875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation: Attitude Shapes Every Outcome"
+        },
+        {
+          "startTime": 281.96637499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation: Attitude Shapes Every Outcome and Chapter 2 The Power of Belief and Definite Purpose"
+        },
+        {
+          "startTime": 498.679042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Belief and Definite Purpose and Chapter 3 Turning Adversity into Opportunity"
+        },
+        {
+          "startTime": 692.193209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Adversity into Opportunity and Chapter 4 The Subconscious Mind: Programming for Success"
+        },
+        {
+          "startTime": 914.725626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Subconscious Mind: Programming for Success and Chapter 5 Taking Responsibility and Building Self-Discipline"
+        },
+        {
+          "startTime": 1119.3579180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Taking Responsibility and Building Self-Discipline and Chapter 6 The Power of Habits and Daily Practice"
+        },
+        {
+          "startTime": 1320.5454180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Habits and Daily Practice and Chapter 7 The Influence of Environment and Relationships"
+        },
+        {
+          "startTime": 1520.4044600000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Influence of Environment and Relationships and Chapter 8 The Value of Service and Contribution"
+        },
+        {
+          "startTime": 1721.5765020000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Value of Service and Contribution and Chapter 9 Persistence, Resilience, and the Will to Succeed"
+        },
+        {
+          "startTime": 1890.81321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Persistence, Resilience, and the Will to Succeed and Chapter 10 Integrating the Positive Mental Attitude Framework"
+        },
+        {
+          "startTime": 2072.86321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Positive Mental Attitude Framework and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3133",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:53:17.735Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

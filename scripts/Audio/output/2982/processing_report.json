@@ -1,0 +1,455 @@
+{
+  "bookId": "2982",
+  "timestamp": "2025-07-14T09:09:35.255Z",
+  "success": false,
+  "processingTime": -1752483942095,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3772,
+    "totalAudioFiles": 12,
+    "totalDuration": 1720.5290830000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1720.5290830000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2982/optimized_text/2982.md",
+    "fileSize": 684,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2982.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2982/metadata/2982_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1720.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2982/metadata/2982_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2982/metadata/2982_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2982/2982_complete.wav",
+    "duration": 1720.529083,
+    "fileSize": 82585474,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2982/introduction.wav",
+          "duration": 92.8065,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.8065,
+          "startTime": 0,
+          "endTime": 92.8065
+        },
+        {
+          "path": "Audio/output/2982/chapter_01.wav",
+          "duration": 191.530625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Odd: Childhood in the Middle of Nowhere",
+          "actualDuration": 191.530625,
+          "startTime": 94.3065,
+          "endTime": 285.837125
+        },
+        {
+          "path": "Audio/output/2982/chapter_02.wav",
+          "duration": 178.750625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family, Chaos, and the Art of Surviving Embarrassment",
+          "actualDuration": 178.750625,
+          "startTime": 287.337125,
+          "endTime": 466.08775
+        },
+        {
+          "path": "Audio/output/2982/chapter_03.wav",
+          "duration": 200.729625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Social Anxiety and the Struggle to Fit In",
+          "actualDuration": 200.729625,
+          "startTime": 467.58775,
+          "endTime": 668.3173750000001
+        },
+        {
+          "path": "Audio/output/2982/chapter_04.wav",
+          "duration": 146.886208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Humor in Pain: Mental Health, Vulnerability, and Resilience",
+          "actualDuration": 146.886208,
+          "startTime": 669.8173750000001,
+          "endTime": 816.7035830000001
+        },
+        {
+          "path": "Audio/output/2982/chapter_05.wav",
+          "duration": 162.690333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Love, Relationships, and the Comfort of Shared Weirdness",
+          "actualDuration": 162.690333,
+          "startTime": 818.2035830000001,
+          "endTime": 980.8939160000001
+        },
+        {
+          "path": "Audio/output/2982/chapter_06.wav",
+          "duration": 158.112542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Adulthood: The Myth of Having It All Together",
+          "actualDuration": 158.112542,
+          "startTime": 982.3939160000001,
+          "endTime": 1140.506458
+        },
+        {
+          "path": "Audio/output/2982/chapter_07.wav",
+          "duration": 146.26875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Parenthood: Passing Down the Weirdness",
+          "actualDuration": 146.26875,
+          "startTime": 1142.006458,
+          "endTime": 1288.275208
+        },
+        {
+          "path": "Audio/output/2982/chapter_08.wav",
+          "duration": 123.850167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Community: Finding Your People",
+          "actualDuration": 123.850167,
+          "startTime": 1289.775208,
+          "endTime": 1413.625375
+        },
+        {
+          "path": "Audio/output/2982/chapter_09.wav",
+          "duration": 123.1585,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Imperfection: The Ongoing Journey",
+          "actualDuration": 123.1585,
+          "startTime": 1415.125375,
+          "endTime": 1538.283875
+        },
+        {
+          "path": "Audio/output/2982/chapter_10.wav",
+          "duration": 93.38325,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Joy in the Absurd: Living Out Loud",
+          "actualDuration": 93.38325,
+          "startTime": 1539.783875,
+          "endTime": 1633.1671250000002
+        },
+        {
+          "path": "Audio/output/2982/conclusion.wav",
+          "duration": 102.361958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.361958,
+          "startTime": 1634.6671250000002,
+          "endTime": 1737.0290830000001
+        }
+      ],
+      "totalDuration": 1737.0290830000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.81,
+          "actualStart": 0,
+          "actualEnd": 92.8065,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Odd: Childhood in the Middle of Nowhere",
+          "expectedStart": 92.81,
+          "expectedEnd": 284.34,
+          "actualStart": 94.3065,
+          "actualEnd": 285.837125,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family, Chaos, and the Art of Surviving Embarrassment",
+          "expectedStart": 284.34,
+          "expectedEnd": 463.09,
+          "actualStart": 287.337125,
+          "actualEnd": 466.08775,
+          "timeDifference": 2.9971250000000396
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Social Anxiety and the Struggle to Fit In",
+          "expectedStart": 463.09,
+          "expectedEnd": 663.82,
+          "actualStart": 467.58775,
+          "actualEnd": 668.3173750000001,
+          "timeDifference": 4.497750000000053
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Humor in Pain: Mental Health, Vulnerability, and Resilience",
+          "expectedStart": 663.82,
+          "expectedEnd": 810.71,
+          "actualStart": 669.8173750000001,
+          "actualEnd": 816.7035830000001,
+          "timeDifference": 5.997375000000034
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Love, Relationships, and the Comfort of Shared Weirdness",
+          "expectedStart": 810.71,
+          "expectedEnd": 973.4,
+          "actualStart": 818.2035830000001,
+          "actualEnd": 980.8939160000001,
+          "timeDifference": 7.493583000000058
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Adulthood: The Myth of Having It All Together",
+          "expectedStart": 973.4,
+          "expectedEnd": 1131.51,
+          "actualStart": 982.3939160000001,
+          "actualEnd": 1140.506458,
+          "timeDifference": 8.993916000000127
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Parenthood: Passing Down the Weirdness",
+          "expectedStart": 1131.51,
+          "expectedEnd": 1277.78,
+          "actualStart": 1142.006458,
+          "actualEnd": 1288.275208,
+          "timeDifference": 10.496458000000075
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Community: Finding Your People",
+          "expectedStart": 1277.78,
+          "expectedEnd": 1401.63,
+          "actualStart": 1289.775208,
+          "actualEnd": 1413.625375,
+          "timeDifference": 11.995208000000048
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Imperfection: The Ongoing Journey",
+          "expectedStart": 1401.63,
+          "expectedEnd": 1524.79,
+          "actualStart": 1415.125375,
+          "actualEnd": 1538.283875,
+          "timeDifference": 13.495374999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Joy in the Absurd: Living Out Loud",
+          "expectedStart": 1524.79,
+          "expectedEnd": 1618.17,
+          "actualStart": 1539.783875,
+          "actualEnd": 1633.1671250000002,
+          "timeDifference": 14.993875000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1618.17,
+          "expectedEnd": 1720.53,
+          "actualStart": 1634.6671250000002,
+          "actualEnd": 1737.0290830000001,
+          "timeDifference": 16.497125000000096
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.8065,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Odd: Childhood in the Middle of Nowhere"
+        },
+        {
+          "startTime": 285.837125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Odd: Childhood in the Middle of Nowhere and Chapter 2 Family, Chaos, and the Art of Surviving Embarrassment"
+        },
+        {
+          "startTime": 466.08775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family, Chaos, and the Art of Surviving Embarrassment and Chapter 3 Navigating Social Anxiety and the Struggle to Fit In"
+        },
+        {
+          "startTime": 668.3173750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Social Anxiety and the Struggle to Fit In and Chapter 4 Finding Humor in Pain: Mental Health, Vulnerability, and Resilience"
+        },
+        {
+          "startTime": 816.7035830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Humor in Pain: Mental Health, Vulnerability, and Resilience and Chapter 5 Love, Relationships, and the Comfort of Shared Weirdness"
+        },
+        {
+          "startTime": 980.8939160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Love, Relationships, and the Comfort of Shared Weirdness and Chapter 6 Adulthood: The Myth of Having It All Together"
+        },
+        {
+          "startTime": 1140.506458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Adulthood: The Myth of Having It All Together and Chapter 7 Parenthood: Passing Down the Weirdness"
+        },
+        {
+          "startTime": 1288.275208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Parenthood: Passing Down the Weirdness and Chapter 8 The Power of Community: Finding Your People"
+        },
+        {
+          "startTime": 1413.625375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Community: Finding Your People and Chapter 9 Embracing Imperfection: The Ongoing Journey"
+        },
+        {
+          "startTime": 1538.283875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Imperfection: The Ongoing Journey and Chapter 10 Joy in the Absurd: Living Out Loud"
+        },
+        {
+          "startTime": 1633.1671250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Joy in the Absurd: Living Out Loud and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2982",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:05:43.276Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

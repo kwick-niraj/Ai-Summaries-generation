@@ -1,0 +1,456 @@
+{
+  "bookId": "3023",
+  "timestamp": "2025-07-14T12:24:37.354Z",
+  "success": false,
+  "processingTime": -1752495440758,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3446,
+    "totalAudioFiles": 12,
+    "totalDuration": 1824.5827069999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1824.5827069999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3023/optimized_text/3023.md",
+    "fileSize": 590,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "3023.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3023/metadata/3023_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1824.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3023/metadata/3023_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3023/metadata/3023_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3023/3023_complete.wav",
+    "duration": 1824.582708,
+    "fileSize": 87580048,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3023/introduction.wav",
+          "duration": 85.941458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.941458,
+          "startTime": 0,
+          "endTime": 85.941458
+        },
+        {
+          "path": "Audio/output/3023/chapter_01.wav",
+          "duration": 217.226333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Early Signs of Authoritarianism",
+          "actualDuration": 217.226333,
+          "startTime": 87.441458,
+          "endTime": 304.667791
+        },
+        {
+          "path": "Audio/output/3023/chapter_02.wav",
+          "duration": 188.978708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Responsibility of Individuals",
+          "actualDuration": 188.978708,
+          "startTime": 306.167791,
+          "endTime": 495.14649900000006
+        },
+        {
+          "path": "Audio/output/3023/chapter_03.wav",
+          "duration": 159.223208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Importance of Truth and Language",
+          "actualDuration": 159.223208,
+          "startTime": 496.64649900000006,
+          "endTime": 655.8697070000001
+        },
+        {
+          "path": "Audio/output/3023/chapter_04.wav",
+          "duration": 167.617458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building and Protecting Democratic Institutions",
+          "actualDuration": 167.617458,
+          "startTime": 657.3697070000001,
+          "endTime": 824.987165
+        },
+        {
+          "path": "Audio/output/3023/chapter_05.wav",
+          "duration": 142.432625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Acting Together and Learning from Others",
+          "actualDuration": 142.432625,
+          "startTime": 826.487165,
+          "endTime": 968.91979
+        },
+        {
+          "path": "Audio/output/3023/chapter_06.wav",
+          "duration": 167.517417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Courage in the Face of Conformity",
+          "actualDuration": 167.517417,
+          "startTime": 970.41979,
+          "endTime": 1137.937207
+        },
+        {
+          "path": "Audio/output/3023/chapter_07.wav",
+          "duration": 152.675875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Safeguarding Professional and Personal Ethics",
+          "actualDuration": 152.675875,
+          "startTime": 1139.437207,
+          "endTime": 1292.1130819999998
+        },
+        {
+          "path": "Audio/output/3023/chapter_08.wav",
+          "duration": 129.239292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Defending the Private Sphere",
+          "actualDuration": 129.239292,
+          "startTime": 1293.6130819999998,
+          "endTime": 1422.8523739999998
+        },
+        {
+          "path": "Audio/output/3023/chapter_09.wav",
+          "duration": 139.65425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Symbols and Rituals",
+          "actualDuration": 139.65425,
+          "startTime": 1424.3523739999998,
+          "endTime": 1564.0066239999999
+        },
+        {
+          "path": "Audio/output/3023/chapter_10.wav",
+          "duration": 133.210083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Hope and Action Over Time",
+          "actualDuration": 133.210083,
+          "startTime": 1565.5066239999999,
+          "endTime": 1698.7167069999998
+        },
+        {
+          "path": "Audio/output/3023/conclusion.wav",
+          "duration": 140.866,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.866,
+          "startTime": 1700.2167069999998,
+          "endTime": 1841.0827069999998
+        }
+      ],
+      "totalDuration": 1841.0827069999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.94,
+          "actualStart": 0,
+          "actualEnd": 85.941458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Early Signs of Authoritarianism",
+          "expectedStart": 85.94,
+          "expectedEnd": 303.17,
+          "actualStart": 87.441458,
+          "actualEnd": 304.667791,
+          "timeDifference": 1.5014579999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Responsibility of Individuals",
+          "expectedStart": 303.17,
+          "expectedEnd": 492.15,
+          "actualStart": 306.167791,
+          "actualEnd": 495.14649900000006,
+          "timeDifference": 2.9977910000000065
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Importance of Truth and Language",
+          "expectedStart": 492.15,
+          "expectedEnd": 651.37,
+          "actualStart": 496.64649900000006,
+          "actualEnd": 655.8697070000001,
+          "timeDifference": 4.496499000000085
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building and Protecting Democratic Institutions",
+          "expectedStart": 651.37,
+          "expectedEnd": 818.99,
+          "actualStart": 657.3697070000001,
+          "actualEnd": 824.987165,
+          "timeDifference": 5.999707000000058
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Acting Together and Learning from Others",
+          "expectedStart": 818.99,
+          "expectedEnd": 961.42,
+          "actualStart": 826.487165,
+          "actualEnd": 968.91979,
+          "timeDifference": 7.497164999999995
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Courage in the Face of Conformity",
+          "expectedStart": 961.42,
+          "expectedEnd": 1128.94,
+          "actualStart": 970.41979,
+          "actualEnd": 1137.937207,
+          "timeDifference": 8.999790000000075
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Safeguarding Professional and Personal Ethics",
+          "expectedStart": 1128.94,
+          "expectedEnd": 1281.62,
+          "actualStart": 1139.437207,
+          "actualEnd": 1292.1130819999998,
+          "timeDifference": 10.49720699999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Defending the Private Sphere",
+          "expectedStart": 1281.62,
+          "expectedEnd": 1410.86,
+          "actualStart": 1293.6130819999998,
+          "actualEnd": 1422.8523739999998,
+          "timeDifference": 11.993081999999958
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Symbols and Rituals",
+          "expectedStart": 1410.86,
+          "expectedEnd": 1550.51,
+          "actualStart": 1424.3523739999998,
+          "actualEnd": 1564.0066239999999,
+          "timeDifference": 13.492373999999927
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Hope and Action Over Time",
+          "expectedStart": 1550.51,
+          "expectedEnd": 1683.72,
+          "actualStart": 1565.5066239999999,
+          "actualEnd": 1698.7167069999998,
+          "timeDifference": 14.996623999999883
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1683.72,
+          "expectedEnd": 1824.59,
+          "actualStart": 1700.2167069999998,
+          "actualEnd": 1841.0827069999998,
+          "timeDifference": 16.496706999999788
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.941458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Early Signs of Authoritarianism"
+        },
+        {
+          "startTime": 304.667791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Early Signs of Authoritarianism and Chapter 2 The Power and Responsibility of Individuals"
+        },
+        {
+          "startTime": 495.14649900000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Responsibility of Individuals and Chapter 3 The Importance of Truth and Language"
+        },
+        {
+          "startTime": 655.8697070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Importance of Truth and Language and Chapter 4 Building and Protecting Democratic Institutions"
+        },
+        {
+          "startTime": 824.987165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building and Protecting Democratic Institutions and Chapter 5 Acting Together and Learning from Others"
+        },
+        {
+          "startTime": 968.91979,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Acting Together and Learning from Others and Chapter 6 Courage in the Face of Conformity"
+        },
+        {
+          "startTime": 1137.937207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Courage in the Face of Conformity and Chapter 7 Safeguarding Professional and Personal Ethics"
+        },
+        {
+          "startTime": 1292.1130819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Safeguarding Professional and Personal Ethics and Chapter 8 Defending the Private Sphere"
+        },
+        {
+          "startTime": 1422.8523739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Defending the Private Sphere and Chapter 9 The Power of Symbols and Rituals"
+        },
+        {
+          "startTime": 1564.0066239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Symbols and Rituals and Chapter 10 Sustaining Hope and Action Over Time"
+        },
+        {
+          "startTime": 1698.7167069999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Hope and Action Over Time and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3023",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:17:22.286Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3012",
+  "timestamp": "2025-07-14T11:19:18.991Z",
+  "success": false,
+  "processingTime": -1752491656897,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4397,
+    "totalAudioFiles": 12,
+    "totalDuration": 2121.366625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2121.366625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3012/optimized_text/3012.md",
+    "fileSize": 749,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "3012.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3012/metadata/3012_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2121.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3012/metadata/3012_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3012/metadata/3012_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 73,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3012/3012_complete.wav",
+    "duration": 2121.366625,
+    "fileSize": 101825676,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3012/introduction.wav",
+          "duration": 101.496917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.496917,
+          "startTime": 0,
+          "endTime": 101.496917
+        },
+        {
+          "path": "Audio/output/3012/chapter_01.wav",
+          "duration": 265.888,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Question That Wouldn’t Let Go: The Seed of an Unlikely Journey",
+          "actualDuration": 265.888,
+          "startTime": 102.996917,
+          "endTime": 368.884917
+        },
+        {
+          "path": "Audio/output/3012/chapter_02.wav",
+          "duration": 228.509208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Setting Out: The First Days on the Open Sea",
+          "actualDuration": 228.509208,
+          "startTime": 370.384917,
+          "endTime": 598.894125
+        },
+        {
+          "path": "Audio/output/3012/chapter_03.wav",
+          "duration": 222.273333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living with the Sea: Adaptation, Danger, and Discovery",
+          "actualDuration": 222.273333,
+          "startTime": 600.394125,
+          "endTime": 822.667458
+        },
+        {
+          "path": "Audio/output/3012/chapter_04.wav",
+          "duration": 206.5085,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Teamwork and the Challenge of Doubt",
+          "actualDuration": 206.5085,
+          "startTime": 824.167458,
+          "endTime": 1030.675958
+        },
+        {
+          "path": "Audio/output/3012/chapter_05.wav",
+          "duration": 172.474833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Testing the Limits: Nature, Navigation, and the Human Spirit",
+          "actualDuration": 172.474833,
+          "startTime": 1032.175958,
+          "endTime": 1204.650791
+        },
+        {
+          "path": "Audio/output/3012/chapter_06.wav",
+          "duration": 207.051417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Landfall: The First Steps on a New Shore",
+          "actualDuration": 207.051417,
+          "startTime": 1206.150791,
+          "endTime": 1413.202208
+        },
+        {
+          "path": "Audio/output/3012/chapter_07.wav",
+          "duration": 180.253625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Ripples Across the World: The Scientific and Cultural Impact",
+          "actualDuration": 180.253625,
+          "startTime": 1414.702208,
+          "endTime": 1594.955833
+        },
+        {
+          "path": "Audio/output/3012/chapter_08.wav",
+          "duration": 163.27175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Return Home: Fame, Reflection, and the Weight of Experience",
+          "actualDuration": 163.27175,
+          "startTime": 1596.455833,
+          "endTime": 1759.7275829999999
+        },
+        {
+          "path": "Audio/output/3012/chapter_09.wav",
+          "duration": 143.038708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons That Endure: Curiosity, Courage, and the Human Connection",
+          "actualDuration": 143.038708,
+          "startTime": 1761.2275829999999,
+          "endTime": 1904.266291
+        },
+        {
+          "path": "Audio/output/3012/chapter_10.wav",
+          "duration": 127.802042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Raft’s Legacy: New Voyages, New Questions",
+          "actualDuration": 127.802042,
+          "startTime": 1905.766291,
+          "endTime": 2033.568333
+        },
+        {
+          "path": "Audio/output/3012/conclusion.wav",
+          "duration": 102.798292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.798292,
+          "startTime": 2035.068333,
+          "endTime": 2137.866625
+        }
+      ],
+      "totalDuration": 2137.866625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.5,
+          "actualStart": 0,
+          "actualEnd": 101.496917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Question That Wouldn’t Let Go: The Seed of an Unlikely Journey",
+          "expectedStart": 101.5,
+          "expectedEnd": 367.39,
+          "actualStart": 102.996917,
+          "actualEnd": 368.884917,
+          "timeDifference": 1.4969169999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Setting Out: The First Days on the Open Sea",
+          "expectedStart": 367.39,
+          "expectedEnd": 595.9,
+          "actualStart": 370.384917,
+          "actualEnd": 598.894125,
+          "timeDifference": 2.9949169999999867
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living with the Sea: Adaptation, Danger, and Discovery",
+          "expectedStart": 595.9,
+          "expectedEnd": 818.17,
+          "actualStart": 600.394125,
+          "actualEnd": 822.667458,
+          "timeDifference": 4.494125000000054
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Teamwork and the Challenge of Doubt",
+          "expectedStart": 818.17,
+          "expectedEnd": 1024.68,
+          "actualStart": 824.167458,
+          "actualEnd": 1030.675958,
+          "timeDifference": 5.9974580000000515
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Testing the Limits: Nature, Navigation, and the Human Spirit",
+          "expectedStart": 1024.68,
+          "expectedEnd": 1197.15,
+          "actualStart": 1032.175958,
+          "actualEnd": 1204.650791,
+          "timeDifference": 7.495957999999973
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Landfall: The First Steps on a New Shore",
+          "expectedStart": 1197.15,
+          "expectedEnd": 1404.2,
+          "actualStart": 1206.150791,
+          "actualEnd": 1413.202208,
+          "timeDifference": 9.000790999999936
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Ripples Across the World: The Scientific and Cultural Impact",
+          "expectedStart": 1404.2,
+          "expectedEnd": 1584.45,
+          "actualStart": 1414.702208,
+          "actualEnd": 1594.955833,
+          "timeDifference": 10.502207999999882
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Return Home: Fame, Reflection, and the Weight of Experience",
+          "expectedStart": 1584.45,
+          "expectedEnd": 1747.72,
+          "actualStart": 1596.455833,
+          "actualEnd": 1759.7275829999999,
+          "timeDifference": 12.005832999999939
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons That Endure: Curiosity, Courage, and the Human Connection",
+          "expectedStart": 1747.72,
+          "expectedEnd": 1890.76,
+          "actualStart": 1761.2275829999999,
+          "actualEnd": 1904.266291,
+          "timeDifference": 13.50758299999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Raft’s Legacy: New Voyages, New Questions",
+          "expectedStart": 1890.76,
+          "expectedEnd": 2018.56,
+          "actualStart": 1905.766291,
+          "actualEnd": 2033.568333,
+          "timeDifference": 15.00629099999992
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2018.56,
+          "expectedEnd": 2121.36,
+          "actualStart": 2035.068333,
+          "actualEnd": 2137.866625,
+          "timeDifference": 16.508332999999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.496917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Question That Wouldn’t Let Go: The Seed of an Unlikely Journey"
+        },
+        {
+          "startTime": 368.884917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Question That Wouldn’t Let Go: The Seed of an Unlikely Journey and Chapter 2 Setting Out: The First Days on the Open Sea"
+        },
+        {
+          "startTime": 598.894125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Setting Out: The First Days on the Open Sea and Chapter 3 Living with the Sea: Adaptation, Danger, and Discovery"
+        },
+        {
+          "startTime": 822.667458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living with the Sea: Adaptation, Danger, and Discovery and Chapter 4 The Power of Teamwork and the Challenge of Doubt"
+        },
+        {
+          "startTime": 1030.675958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Teamwork and the Challenge of Doubt and Chapter 5 Testing the Limits: Nature, Navigation, and the Human Spirit"
+        },
+        {
+          "startTime": 1204.650791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Testing the Limits: Nature, Navigation, and the Human Spirit and Chapter 6 Landfall: The First Steps on a New Shore"
+        },
+        {
+          "startTime": 1413.202208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Landfall: The First Steps on a New Shore and Chapter 7 Ripples Across the World: The Scientific and Cultural Impact"
+        },
+        {
+          "startTime": 1594.955833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Ripples Across the World: The Scientific and Cultural Impact and Chapter 8 The Return Home: Fame, Reflection, and the Weight of Experience"
+        },
+        {
+          "startTime": 1759.7275829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Return Home: Fame, Reflection, and the Weight of Experience and Chapter 9 Lessons That Endure: Curiosity, Courage, and the Human Connection"
+        },
+        {
+          "startTime": 1904.266291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons That Endure: Curiosity, Courage, and the Human Connection and Chapter 10 The Raft’s Legacy: New Voyages, New Questions"
+        },
+        {
+          "startTime": 2033.568333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Raft’s Legacy: New Voyages, New Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3012",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 73,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:14:18.133Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

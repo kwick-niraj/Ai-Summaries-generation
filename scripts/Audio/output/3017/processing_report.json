@@ -1,0 +1,576 @@
+{
+  "bookId": "3017",
+  "timestamp": "2025-07-14T11:55:11.127Z",
+  "success": false,
+  "processingTime": -1752493581123,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 6349,
+    "totalAudioFiles": 17,
+    "totalDuration": 3187.338208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 3187.338208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3017/optimized_text/3017.md",
+    "fileSize": 830,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "3017.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3017/metadata/3017_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 3187.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3017/metadata/3017_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3017/metadata/3017_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3017/3017_complete.wav",
+    "duration": 3187.338208,
+    "fileSize": 152992312,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3017/introduction.wav",
+          "duration": 105.10325,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.10325,
+          "startTime": 0,
+          "endTime": 105.10325
+        },
+        {
+          "path": "Audio/output/3017/chapter_01.wav",
+          "duration": 273.817792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeing the World Through Unfamiliar Eyes",
+          "actualDuration": 273.817792,
+          "startTime": 106.60325,
+          "endTime": 380.421042
+        },
+        {
+          "path": "Audio/output/3017/chapter_02.wav",
+          "duration": 237.307375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Patterns Behind Everyday Choices",
+          "actualDuration": 237.307375,
+          "startTime": 381.921042,
+          "endTime": 619.228417
+        },
+        {
+          "path": "Audio/output/3017/chapter_03.wav",
+          "duration": 239.81675,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unpredictable Nature of Talent and Genius",
+          "actualDuration": 239.81675,
+          "startTime": 620.728417,
+          "endTime": 860.545167
+        },
+        {
+          "path": "Audio/output/3017/chapter_04.wav",
+          "duration": 236.358583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mistakes, Overconfidence, and the Limits of Prediction",
+          "actualDuration": 236.358583,
+          "startTime": 862.045167,
+          "endTime": 1098.40375
+        },
+        {
+          "path": "Audio/output/3017/chapter_05.wav",
+          "duration": 271.543625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Complexity of Ordinary People and Everyday Life",
+          "actualDuration": 271.543625,
+          "startTime": 1099.90375,
+          "endTime": 1371.447375
+        },
+        {
+          "path": "Audio/output/3017/chapter_06.wav",
+          "duration": 199.170542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power and Pitfalls of Intuition",
+          "actualDuration": 199.170542,
+          "startTime": 1372.947375,
+          "endTime": 1572.117917
+        },
+        {
+          "path": "Audio/output/3017/chapter_07.wav",
+          "duration": 212.986,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Stories We Tell Ourselves",
+          "actualDuration": 212.986,
+          "startTime": 1573.617917,
+          "endTime": 1786.603917
+        },
+        {
+          "path": "Audio/output/3017/chapter_08.wav",
+          "duration": 154.717125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Framing and Reframing",
+          "actualDuration": 154.717125,
+          "startTime": 1788.103917,
+          "endTime": 1942.821042
+        },
+        {
+          "path": "Audio/output/3017/chapter_09.wav",
+          "duration": 147.777125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unseen Forces of Influence",
+          "actualDuration": 147.777125,
+          "startTime": 1944.321042,
+          "endTime": 2092.098167
+        },
+        {
+          "path": "Audio/output/3017/chapter_10.wav",
+          "duration": 170.882375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Paradoxes of Innovation",
+          "actualDuration": 170.882375,
+          "startTime": 2093.598167,
+          "endTime": 2264.4805420000002
+        },
+        {
+          "path": "Audio/output/3017/chapter_11.wav",
+          "duration": 169.196417,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Quiet Power of Listening",
+          "actualDuration": 169.196417,
+          "startTime": 2265.9805420000002,
+          "endTime": 2435.1769590000004
+        },
+        {
+          "path": "Audio/output/3017/chapter_12.wav",
+          "duration": 174.747208,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Limits of Expertise",
+          "actualDuration": 174.747208,
+          "startTime": 2436.6769590000004,
+          "endTime": 2611.424167
+        },
+        {
+          "path": "Audio/output/3017/chapter_13.wav",
+          "duration": 155.379208,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Unexpected Consequences of Good Intentions",
+          "actualDuration": 155.379208,
+          "startTime": 2612.924167,
+          "endTime": 2768.303375
+        },
+        {
+          "path": "Audio/output/3017/chapter_14.wav",
+          "duration": 158.260167,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Beauty of Complexity",
+          "actualDuration": 158.260167,
+          "startTime": 2769.803375,
+          "endTime": 2928.063542
+        },
+        {
+          "path": "Audio/output/3017/chapter_15.wav",
+          "duration": 154.578958,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Courage to See Differently",
+          "actualDuration": 154.578958,
+          "startTime": 2929.563542,
+          "endTime": 3084.1425
+        },
+        {
+          "path": "Audio/output/3017/conclusion.wav",
+          "duration": 125.695708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.695708,
+          "startTime": 3085.6425,
+          "endTime": 3211.338208
+        }
+      ],
+      "totalDuration": 3211.338208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.1,
+          "actualStart": 0,
+          "actualEnd": 105.10325,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeing the World Through Unfamiliar Eyes",
+          "expectedStart": 105.1,
+          "expectedEnd": 378.92,
+          "actualStart": 106.60325,
+          "actualEnd": 380.421042,
+          "timeDifference": 1.5032500000000084
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Patterns Behind Everyday Choices",
+          "expectedStart": 378.92,
+          "expectedEnd": 616.23,
+          "actualStart": 381.921042,
+          "actualEnd": 619.228417,
+          "timeDifference": 3.001041999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unpredictable Nature of Talent and Genius",
+          "expectedStart": 616.23,
+          "expectedEnd": 856.05,
+          "actualStart": 620.728417,
+          "actualEnd": 860.545167,
+          "timeDifference": 4.498417000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mistakes, Overconfidence, and the Limits of Prediction",
+          "expectedStart": 856.05,
+          "expectedEnd": 1092.41,
+          "actualStart": 862.045167,
+          "actualEnd": 1098.40375,
+          "timeDifference": 5.995167000000038
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Complexity of Ordinary People and Everyday Life",
+          "expectedStart": 1092.41,
+          "expectedEnd": 1363.95,
+          "actualStart": 1099.90375,
+          "actualEnd": 1371.447375,
+          "timeDifference": 7.493749999999864
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power and Pitfalls of Intuition",
+          "expectedStart": 1363.95,
+          "expectedEnd": 1563.12,
+          "actualStart": 1372.947375,
+          "actualEnd": 1572.117917,
+          "timeDifference": 8.99737499999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Stories We Tell Ourselves",
+          "expectedStart": 1563.12,
+          "expectedEnd": 1776.11,
+          "actualStart": 1573.617917,
+          "actualEnd": 1786.603917,
+          "timeDifference": 10.497917000000143
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Framing and Reframing",
+          "expectedStart": 1776.11,
+          "expectedEnd": 1930.83,
+          "actualStart": 1788.103917,
+          "actualEnd": 1942.821042,
+          "timeDifference": 11.99391700000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unseen Forces of Influence",
+          "expectedStart": 1930.83,
+          "expectedEnd": 2078.61,
+          "actualStart": 1944.321042,
+          "actualEnd": 2092.098167,
+          "timeDifference": 13.491042000000107
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Paradoxes of Innovation",
+          "expectedStart": 2078.61,
+          "expectedEnd": 2249.49,
+          "actualStart": 2093.598167,
+          "actualEnd": 2264.4805420000002,
+          "timeDifference": 14.988166999999976
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Quiet Power of Listening",
+          "expectedStart": 2249.49,
+          "expectedEnd": 2418.69,
+          "actualStart": 2265.9805420000002,
+          "actualEnd": 2435.1769590000004,
+          "timeDifference": 16.49054200000046
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Limits of Expertise",
+          "expectedStart": 2418.69,
+          "expectedEnd": 2593.44,
+          "actualStart": 2436.6769590000004,
+          "actualEnd": 2611.424167,
+          "timeDifference": 17.986959000000297
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Unexpected Consequences of Good Intentions",
+          "expectedStart": 2593.44,
+          "expectedEnd": 2748.82,
+          "actualStart": 2612.924167,
+          "actualEnd": 2768.303375,
+          "timeDifference": 19.48416700000007
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Beauty of Complexity",
+          "expectedStart": 2748.82,
+          "expectedEnd": 2907.08,
+          "actualStart": 2769.803375,
+          "actualEnd": 2928.063542,
+          "timeDifference": 20.983374999999796
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Courage to See Differently",
+          "expectedStart": 2907.08,
+          "expectedEnd": 3061.66,
+          "actualStart": 2929.563542,
+          "actualEnd": 3084.1425,
+          "timeDifference": 22.483541999999943
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 3061.66,
+          "expectedEnd": 3187.36,
+          "actualStart": 3085.6425,
+          "actualEnd": 3211.338208,
+          "timeDifference": 23.982500000000073
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.10325,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeing the World Through Unfamiliar Eyes"
+        },
+        {
+          "startTime": 380.421042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeing the World Through Unfamiliar Eyes and Chapter 2 The Hidden Patterns Behind Everyday Choices"
+        },
+        {
+          "startTime": 619.228417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Patterns Behind Everyday Choices and Chapter 3 The Unpredictable Nature of Talent and Genius"
+        },
+        {
+          "startTime": 860.545167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unpredictable Nature of Talent and Genius and Chapter 4 Mistakes, Overconfidence, and the Limits of Prediction"
+        },
+        {
+          "startTime": 1098.40375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mistakes, Overconfidence, and the Limits of Prediction and Chapter 5 The Complexity of Ordinary People and Everyday Life"
+        },
+        {
+          "startTime": 1371.447375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Complexity of Ordinary People and Everyday Life and Chapter 6 The Power and Pitfalls of Intuition"
+        },
+        {
+          "startTime": 1572.117917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power and Pitfalls of Intuition and Chapter 7 The Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1786.603917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Stories We Tell Ourselves and Chapter 8 The Art of Framing and Reframing"
+        },
+        {
+          "startTime": 1942.821042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Framing and Reframing and Chapter 9 The Unseen Forces of Influence"
+        },
+        {
+          "startTime": 2092.098167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unseen Forces of Influence and Chapter 10 The Paradoxes of Innovation"
+        },
+        {
+          "startTime": 2264.4805420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Paradoxes of Innovation and Chapter 11 The Quiet Power of Listening"
+        },
+        {
+          "startTime": 2435.1769590000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Quiet Power of Listening and Chapter 12 The Limits of Expertise"
+        },
+        {
+          "startTime": 2611.424167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Limits of Expertise and Chapter 13 The Unexpected Consequences of Good Intentions"
+        },
+        {
+          "startTime": 2768.303375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Unexpected Consequences of Good Intentions and Chapter 14 The Beauty of Complexity"
+        },
+        {
+          "startTime": 2928.063542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Beauty of Complexity and Chapter 15 The Courage to See Differently"
+        },
+        {
+          "startTime": 3084.1425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Courage to See Differently and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3017",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:46:21.148Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

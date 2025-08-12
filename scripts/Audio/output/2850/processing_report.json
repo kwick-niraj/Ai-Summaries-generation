@@ -1,0 +1,456 @@
+{
+  "bookId": "2850",
+  "timestamp": "2025-07-14T00:20:39.508Z",
+  "success": false,
+  "processingTime": -1752452198109,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4359,
+    "totalAudioFiles": 12,
+    "totalDuration": 2033.968459
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2033.968459
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2850/optimized_text/2850.md",
+    "fileSize": 675,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2850.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2850/metadata/2850_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2033.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2850/metadata/2850_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2850/metadata/2850_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2850/2850_complete.wav",
+    "duration": 2033.968458,
+    "fileSize": 97630564,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2850/introduction.wav",
+          "duration": 84.798458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.798458,
+          "startTime": 0,
+          "endTime": 84.798458
+        },
+        {
+          "path": "Audio/output/2850/chapter_01.wav",
+          "duration": 222.3425,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Power of Lifting Others",
+          "actualDuration": 222.3425,
+          "startTime": 86.298458,
+          "endTime": 308.640958
+        },
+        {
+          "path": "Audio/output/2850/chapter_02.wav",
+          "duration": 208.16725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Planning and the Right to Choose",
+          "actualDuration": 208.16725,
+          "startTime": 310.140958,
+          "endTime": 518.308208
+        },
+        {
+          "path": "Audio/output/2850/chapter_03.wav",
+          "duration": 186.298,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Barriers in Education",
+          "actualDuration": 186.298,
+          "startTime": 519.808208,
+          "endTime": 706.106208
+        },
+        {
+          "path": "Audio/output/2850/chapter_04.wav",
+          "duration": 199.769042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Unpaid Work and the Struggle for Equality at Home",
+          "actualDuration": 199.769042,
+          "startTime": 707.606208,
+          "endTime": 907.37525
+        },
+        {
+          "path": "Audio/output/2850/chapter_05.wav",
+          "duration": 175.13175,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Listening Deeply and the Importance of Community Voices",
+          "actualDuration": 175.13175,
+          "startTime": 908.87525,
+          "endTime": 1084.007
+        },
+        {
+          "path": "Audio/output/2850/chapter_06.wav",
+          "duration": 190.841792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Challenging Cultural Barriers and Rewriting Old Stories",
+          "actualDuration": 190.841792,
+          "startTime": 1085.507,
+          "endTime": 1276.348792
+        },
+        {
+          "path": "Audio/output/2850/chapter_07.wav",
+          "duration": 164.954,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Men as Allies: The Power of Partnership",
+          "actualDuration": 164.954,
+          "startTime": 1277.848792,
+          "endTime": 1442.802792
+        },
+        {
+          "path": "Audio/output/2850/chapter_08.wav",
+          "duration": 165.15825,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Collaborative Solutions: Building Bridges Across Divides",
+          "actualDuration": 165.15825,
+          "startTime": 1444.302792,
+          "endTime": 1609.461042
+        },
+        {
+          "path": "Audio/output/2850/chapter_09.wav",
+          "duration": 178.84275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Personal Transformation of Advocacy and Empathy",
+          "actualDuration": 178.84275,
+          "startTime": 1610.961042,
+          "endTime": 1789.803792
+        },
+        {
+          "path": "Audio/output/2850/chapter_10.wav",
+          "duration": 131.800792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: How Empowerment Multiplies",
+          "actualDuration": 131.800792,
+          "startTime": 1791.303792,
+          "endTime": 1923.104584
+        },
+        {
+          "path": "Audio/output/2850/conclusion.wav",
+          "duration": 125.863875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.863875,
+          "startTime": 1924.604584,
+          "endTime": 2050.4684589999997
+        }
+      ],
+      "totalDuration": 2050.4684589999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.8,
+          "actualStart": 0,
+          "actualEnd": 84.798458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Power of Lifting Others",
+          "expectedStart": 84.8,
+          "expectedEnd": 307.14,
+          "actualStart": 86.298458,
+          "actualEnd": 308.640958,
+          "timeDifference": 1.4984579999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Planning and the Right to Choose",
+          "expectedStart": 307.14,
+          "expectedEnd": 515.31,
+          "actualStart": 310.140958,
+          "actualEnd": 518.308208,
+          "timeDifference": 3.0009580000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Barriers in Education",
+          "expectedStart": 515.31,
+          "expectedEnd": 701.61,
+          "actualStart": 519.808208,
+          "actualEnd": 706.106208,
+          "timeDifference": 4.498208000000091
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Unpaid Work and the Struggle for Equality at Home",
+          "expectedStart": 701.61,
+          "expectedEnd": 901.38,
+          "actualStart": 707.606208,
+          "actualEnd": 907.37525,
+          "timeDifference": 5.996208000000024
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Listening Deeply and the Importance of Community Voices",
+          "expectedStart": 901.38,
+          "expectedEnd": 1076.51,
+          "actualStart": 908.87525,
+          "actualEnd": 1084.007,
+          "timeDifference": 7.4952500000000555
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Challenging Cultural Barriers and Rewriting Old Stories",
+          "expectedStart": 1076.51,
+          "expectedEnd": 1267.35,
+          "actualStart": 1085.507,
+          "actualEnd": 1276.348792,
+          "timeDifference": 8.997000000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Men as Allies: The Power of Partnership",
+          "expectedStart": 1267.35,
+          "expectedEnd": 1432.3,
+          "actualStart": 1277.848792,
+          "actualEnd": 1442.802792,
+          "timeDifference": 10.498792000000094
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Collaborative Solutions: Building Bridges Across Divides",
+          "expectedStart": 1432.3,
+          "expectedEnd": 1597.46,
+          "actualStart": 1444.302792,
+          "actualEnd": 1609.461042,
+          "timeDifference": 12.002792
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Personal Transformation of Advocacy and Empathy",
+          "expectedStart": 1597.46,
+          "expectedEnd": 1776.3,
+          "actualStart": 1610.961042,
+          "actualEnd": 1789.803792,
+          "timeDifference": 13.50104199999987
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: How Empowerment Multiplies",
+          "expectedStart": 1776.3,
+          "expectedEnd": 1908.1,
+          "actualStart": 1791.303792,
+          "actualEnd": 1923.104584,
+          "timeDifference": 15.003791999999976
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1908.1,
+          "expectedEnd": 2033.96,
+          "actualStart": 1924.604584,
+          "actualEnd": 2050.4684589999997,
+          "timeDifference": 16.504584000000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.798458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Power of Lifting Others"
+        },
+        {
+          "startTime": 308.640958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Power of Lifting Others and Chapter 2 Family Planning and the Right to Choose"
+        },
+        {
+          "startTime": 518.308208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Planning and the Right to Choose and Chapter 3 Breaking Barriers in Education"
+        },
+        {
+          "startTime": 706.106208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Barriers in Education and Chapter 4 The Weight of Unpaid Work and the Struggle for Equality at Home"
+        },
+        {
+          "startTime": 907.37525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Unpaid Work and the Struggle for Equality at Home and Chapter 5 Listening Deeply and the Importance of Community Voices"
+        },
+        {
+          "startTime": 1084.007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Listening Deeply and the Importance of Community Voices and Chapter 6 Challenging Cultural Barriers and Rewriting Old Stories"
+        },
+        {
+          "startTime": 1276.348792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Challenging Cultural Barriers and Rewriting Old Stories and Chapter 7 Men as Allies: The Power of Partnership"
+        },
+        {
+          "startTime": 1442.802792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Men as Allies: The Power of Partnership and Chapter 8 Collaborative Solutions: Building Bridges Across Divides"
+        },
+        {
+          "startTime": 1609.461042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Collaborative Solutions: Building Bridges Across Divides and Chapter 9 The Personal Transformation of Advocacy and Empathy"
+        },
+        {
+          "startTime": 1789.803792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Personal Transformation of Advocacy and Empathy and Chapter 10 The Ripple Effect: How Empowerment Multiplies"
+        },
+        {
+          "startTime": 1923.104584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: How Empowerment Multiplies and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2850",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:16:39.290Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

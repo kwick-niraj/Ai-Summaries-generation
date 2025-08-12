@@ -1,0 +1,456 @@
+{
+  "bookId": "3036",
+  "timestamp": "2025-07-14T13:22:07.935Z",
+  "success": false,
+  "processingTime": -1752499088211,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3658,
+    "totalAudioFiles": 12,
+    "totalDuration": 1690.9960409999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1690.9960409999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3036/optimized_text/3036.md",
+    "fileSize": 492,
+    "wordCount": 70,
+    "format": "markdown",
+    "filename": "3036.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3036/metadata/3036_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1691.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3036/metadata/3036_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3036/metadata/3036_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3036/3036_complete.wav",
+    "duration": 1690.996042,
+    "fileSize": 81167888,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3036/introduction.wav",
+          "duration": 78.37725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.37725,
+          "startTime": 0,
+          "endTime": 78.37725
+        },
+        {
+          "path": "Audio/output/3036/chapter_01.wav",
+          "duration": 141.693333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Quiet Base Shaken by Violence",
+          "actualDuration": 141.693333,
+          "startTime": 79.87725,
+          "endTime": 221.570583
+        },
+        {
+          "path": "Audio/output/3036/chapter_02.wav",
+          "duration": 159.210375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle for Answers Begins",
+          "actualDuration": 159.210375,
+          "startTime": 223.070583,
+          "endTime": 382.280958
+        },
+        {
+          "path": "Audio/output/3036/chapter_03.wav",
+          "duration": 162.899417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Military’s Closed Doors",
+          "actualDuration": 162.899417,
+          "startTime": 383.780958,
+          "endTime": 546.680375
+        },
+        {
+          "path": "Audio/output/3036/chapter_04.wav",
+          "duration": 156.435458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Long Shadow of Unanswered Questions",
+          "actualDuration": 156.435458,
+          "startTime": 548.180375,
+          "endTime": 704.6158330000001
+        },
+        {
+          "path": "Audio/output/3036/chapter_05.wav",
+          "duration": 157.14725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Persistence and the Power of Community",
+          "actualDuration": 157.14725,
+          "startTime": 706.1158330000001,
+          "endTime": 863.263083
+        },
+        {
+          "path": "Audio/output/3036/chapter_06.wav",
+          "duration": 151.987,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 New Eyes on Old Evidence",
+          "actualDuration": 151.987,
+          "startTime": 864.763083,
+          "endTime": 1016.750083
+        },
+        {
+          "path": "Audio/output/3036/chapter_07.wav",
+          "duration": 143.92325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Secrets",
+          "actualDuration": 143.92325,
+          "startTime": 1018.250083,
+          "endTime": 1162.173333
+        },
+        {
+          "path": "Audio/output/3036/chapter_08.wav",
+          "duration": 146.025208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of the Advocate",
+          "actualDuration": 146.025208,
+          "startTime": 1163.673333,
+          "endTime": 1309.698541
+        },
+        {
+          "path": "Audio/output/3036/chapter_09.wav",
+          "duration": 155.459042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Institutional Change and Resistance",
+          "actualDuration": 155.459042,
+          "startTime": 1311.198541,
+          "endTime": 1466.657583
+        },
+        {
+          "path": "Audio/output/3036/chapter_10.wav",
+          "duration": 123.466958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect",
+          "actualDuration": 123.466958,
+          "startTime": 1468.157583,
+          "endTime": 1591.624541
+        },
+        {
+          "path": "Audio/output/3036/conclusion.wav",
+          "duration": 114.3715,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.3715,
+          "startTime": 1593.124541,
+          "endTime": 1707.4960409999999
+        }
+      ],
+      "totalDuration": 1707.4960409999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.38,
+          "actualStart": 0,
+          "actualEnd": 78.37725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Quiet Base Shaken by Violence",
+          "expectedStart": 78.38,
+          "expectedEnd": 220.07,
+          "actualStart": 79.87725,
+          "actualEnd": 221.570583,
+          "timeDifference": 1.4972500000000082
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle for Answers Begins",
+          "expectedStart": 220.07,
+          "expectedEnd": 379.28,
+          "actualStart": 223.070583,
+          "actualEnd": 382.280958,
+          "timeDifference": 3.000583000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Military’s Closed Doors",
+          "expectedStart": 379.28,
+          "expectedEnd": 542.18,
+          "actualStart": 383.780958,
+          "actualEnd": 546.680375,
+          "timeDifference": 4.5009580000000255
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Long Shadow of Unanswered Questions",
+          "expectedStart": 542.18,
+          "expectedEnd": 698.62,
+          "actualStart": 548.180375,
+          "actualEnd": 704.6158330000001,
+          "timeDifference": 6.000375000000076
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Persistence and the Power of Community",
+          "expectedStart": 698.62,
+          "expectedEnd": 855.77,
+          "actualStart": 706.1158330000001,
+          "actualEnd": 863.263083,
+          "timeDifference": 7.4958330000000615
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 New Eyes on Old Evidence",
+          "expectedStart": 855.77,
+          "expectedEnd": 1007.76,
+          "actualStart": 864.763083,
+          "actualEnd": 1016.750083,
+          "timeDifference": 8.99308300000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Secrets",
+          "expectedStart": 1007.76,
+          "expectedEnd": 1151.68,
+          "actualStart": 1018.250083,
+          "actualEnd": 1162.173333,
+          "timeDifference": 10.490083000000027
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of the Advocate",
+          "expectedStart": 1151.68,
+          "expectedEnd": 1297.71,
+          "actualStart": 1163.673333,
+          "actualEnd": 1309.698541,
+          "timeDifference": 11.993332999999893
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Institutional Change and Resistance",
+          "expectedStart": 1297.71,
+          "expectedEnd": 1453.17,
+          "actualStart": 1311.198541,
+          "actualEnd": 1466.657583,
+          "timeDifference": 13.488540999999941
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect",
+          "expectedStart": 1453.17,
+          "expectedEnd": 1576.64,
+          "actualStart": 1468.157583,
+          "actualEnd": 1591.624541,
+          "timeDifference": 14.987582999999859
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1576.64,
+          "expectedEnd": 1691.01,
+          "actualStart": 1593.124541,
+          "actualEnd": 1707.4960409999999,
+          "timeDifference": 16.48454099999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.37725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Quiet Base Shaken by Violence"
+        },
+        {
+          "startTime": 221.570583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Quiet Base Shaken by Violence and Chapter 2 The Struggle for Answers Begins"
+        },
+        {
+          "startTime": 382.280958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle for Answers Begins and Chapter 3 The Military’s Closed Doors"
+        },
+        {
+          "startTime": 546.680375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Military’s Closed Doors and Chapter 4 The Long Shadow of Unanswered Questions"
+        },
+        {
+          "startTime": 704.6158330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Long Shadow of Unanswered Questions and Chapter 5 Persistence and the Power of Community"
+        },
+        {
+          "startTime": 863.263083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Persistence and the Power of Community and Chapter 6 New Eyes on Old Evidence"
+        },
+        {
+          "startTime": 1016.750083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 New Eyes on Old Evidence and Chapter 7 The Weight of Secrets"
+        },
+        {
+          "startTime": 1162.173333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Secrets and Chapter 8 The Role of the Advocate"
+        },
+        {
+          "startTime": 1309.698541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of the Advocate and Chapter 9 Institutional Change and Resistance"
+        },
+        {
+          "startTime": 1466.657583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Institutional Change and Resistance and Chapter 10 The Ripple Effect"
+        },
+        {
+          "startTime": 1591.624541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3036",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:18:09.751Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

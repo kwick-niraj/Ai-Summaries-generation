@@ -1,0 +1,456 @@
+{
+  "bookId": "2880",
+  "timestamp": "2025-07-14T01:54:21.507Z",
+  "success": false,
+  "processingTime": -1752457758529,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4890,
+    "totalAudioFiles": 12,
+    "totalDuration": 2076.1958339999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2076.1958339999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2880/optimized_text/2880.md",
+    "fileSize": 728,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "2880.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2880/metadata/2880_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2076.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2880/metadata/2880_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2880/metadata/2880_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2880/2880_complete.wav",
+    "duration": 2076.195833,
+    "fileSize": 99657478,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2880/introduction.wav",
+          "duration": 104.696625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.696625,
+          "startTime": 0,
+          "endTime": 104.696625
+        },
+        {
+          "path": "Audio/output/2880/chapter_01.wav",
+          "duration": 262.249667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Young Men, Shared Dreams, and the Shadow of War",
+          "actualDuration": 262.249667,
+          "startTime": 106.196625,
+          "endTime": 368.44629199999997
+        },
+        {
+          "path": "Audio/output/2880/chapter_02.wav",
+          "duration": 285.049917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 From Gridiron to Battlefield: The Making of a Team",
+          "actualDuration": 285.049917,
+          "startTime": 369.94629199999997,
+          "endTime": 654.9962089999999
+        },
+        {
+          "path": "Audio/output/2880/chapter_03.wav",
+          "duration": 188.752958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Game That Meant Everything",
+          "actualDuration": 188.752958,
+          "startTime": 656.4962089999999,
+          "endTime": 845.2491669999999
+        },
+        {
+          "path": "Audio/output/2880/chapter_04.wav",
+          "duration": 206.392875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing the Battle of Okinawa: Brotherhood and Loss",
+          "actualDuration": 206.392875,
+          "startTime": 846.7491669999999,
+          "endTime": 1053.142042
+        },
+        {
+          "path": "Audio/output/2880/chapter_05.wav",
+          "duration": 165.946,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Remembering the Fallen and the Legacy of the Game",
+          "actualDuration": 165.946,
+          "startTime": 1054.642042,
+          "endTime": 1220.5880419999999
+        },
+        {
+          "path": "Audio/output/2880/chapter_06.wav",
+          "duration": 178.87,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Coming Home: The Weight of Memory",
+          "actualDuration": 178.87,
+          "startTime": 1222.0880419999999,
+          "endTime": 1400.9580419999998
+        },
+        {
+          "path": "Audio/output/2880/chapter_07.wav",
+          "duration": 149.325917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripples of War: Families, Communities, and the Next Generation",
+          "actualDuration": 149.325917,
+          "startTime": 1402.4580419999998,
+          "endTime": 1551.7839589999999
+        },
+        {
+          "path": "Audio/output/2880/chapter_08.wav",
+          "duration": 145.159333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Searching for Meaning: Survivors and the Long Road to Healing",
+          "actualDuration": 145.159333,
+          "startTime": 1553.2839589999999,
+          "endTime": 1698.443292
+        },
+        {
+          "path": "Audio/output/2880/chapter_09.wav",
+          "duration": 136.054917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Mosquito Bowl Remembered: Reunions, Stories, and the Power of Memory",
+          "actualDuration": 136.054917,
+          "startTime": 1699.943292,
+          "endTime": 1835.9982089999999
+        },
+        {
+          "path": "Audio/output/2880/chapter_10.wav",
+          "duration": 142.378792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Today: Brotherhood, Resilience, and the Enduring Spirit",
+          "actualDuration": 142.378792,
+          "startTime": 1837.4982089999999,
+          "endTime": 1979.8770009999998
+        },
+        {
+          "path": "Audio/output/2880/conclusion.wav",
+          "duration": 111.318833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.318833,
+          "startTime": 1981.3770009999998,
+          "endTime": 2092.6958339999996
+        }
+      ],
+      "totalDuration": 2092.6958339999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.7,
+          "actualStart": 0,
+          "actualEnd": 104.696625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Young Men, Shared Dreams, and the Shadow of War",
+          "expectedStart": 104.7,
+          "expectedEnd": 366.95,
+          "actualStart": 106.196625,
+          "actualEnd": 368.44629199999997,
+          "timeDifference": 1.4966249999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 From Gridiron to Battlefield: The Making of a Team",
+          "expectedStart": 366.95,
+          "expectedEnd": 652,
+          "actualStart": 369.94629199999997,
+          "actualEnd": 654.9962089999999,
+          "timeDifference": 2.9962919999999826
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Game That Meant Everything",
+          "expectedStart": 652,
+          "expectedEnd": 840.75,
+          "actualStart": 656.4962089999999,
+          "actualEnd": 845.2491669999999,
+          "timeDifference": 4.496208999999908
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing the Battle of Okinawa: Brotherhood and Loss",
+          "expectedStart": 840.75,
+          "expectedEnd": 1047.14,
+          "actualStart": 846.7491669999999,
+          "actualEnd": 1053.142042,
+          "timeDifference": 5.999166999999943
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Remembering the Fallen and the Legacy of the Game",
+          "expectedStart": 1047.14,
+          "expectedEnd": 1213.09,
+          "actualStart": 1054.642042,
+          "actualEnd": 1220.5880419999999,
+          "timeDifference": 7.502041999999847
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Coming Home: The Weight of Memory",
+          "expectedStart": 1213.09,
+          "expectedEnd": 1391.96,
+          "actualStart": 1222.0880419999999,
+          "actualEnd": 1400.9580419999998,
+          "timeDifference": 8.998041999999941
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripples of War: Families, Communities, and the Next Generation",
+          "expectedStart": 1391.96,
+          "expectedEnd": 1541.29,
+          "actualStart": 1402.4580419999998,
+          "actualEnd": 1551.7839589999999,
+          "timeDifference": 10.498041999999714
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Searching for Meaning: Survivors and the Long Road to Healing",
+          "expectedStart": 1541.29,
+          "expectedEnd": 1686.45,
+          "actualStart": 1553.2839589999999,
+          "actualEnd": 1698.443292,
+          "timeDifference": 11.993958999999904
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Mosquito Bowl Remembered: Reunions, Stories, and the Power of Memory",
+          "expectedStart": 1686.45,
+          "expectedEnd": 1822.5,
+          "actualStart": 1699.943292,
+          "actualEnd": 1835.9982089999999,
+          "timeDifference": 13.493291999999883
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Today: Brotherhood, Resilience, and the Enduring Spirit",
+          "expectedStart": 1822.5,
+          "expectedEnd": 1964.88,
+          "actualStart": 1837.4982089999999,
+          "actualEnd": 1979.8770009999998,
+          "timeDifference": 14.99820899999986
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1964.88,
+          "expectedEnd": 2076.2,
+          "actualStart": 1981.3770009999998,
+          "actualEnd": 2092.6958339999996,
+          "timeDifference": 16.497000999999727
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.696625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Young Men, Shared Dreams, and the Shadow of War"
+        },
+        {
+          "startTime": 368.44629199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Young Men, Shared Dreams, and the Shadow of War and Chapter 2 From Gridiron to Battlefield: The Making of a Team"
+        },
+        {
+          "startTime": 654.9962089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 From Gridiron to Battlefield: The Making of a Team and Chapter 3 The Game That Meant Everything"
+        },
+        {
+          "startTime": 845.2491669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Game That Meant Everything and Chapter 4 Facing the Battle of Okinawa: Brotherhood and Loss"
+        },
+        {
+          "startTime": 1053.142042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing the Battle of Okinawa: Brotherhood and Loss and Chapter 5 Remembering the Fallen and the Legacy of the Game"
+        },
+        {
+          "startTime": 1220.5880419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Remembering the Fallen and the Legacy of the Game and Chapter 6 Coming Home: The Weight of Memory"
+        },
+        {
+          "startTime": 1400.9580419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Coming Home: The Weight of Memory and Chapter 7 The Ripples of War: Families, Communities, and the Next Generation"
+        },
+        {
+          "startTime": 1551.7839589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripples of War: Families, Communities, and the Next Generation and Chapter 8 Searching for Meaning: Survivors and the Long Road to Healing"
+        },
+        {
+          "startTime": 1698.443292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Searching for Meaning: Survivors and the Long Road to Healing and Chapter 9 The Mosquito Bowl Remembered: Reunions, Stories, and the Power of Memory"
+        },
+        {
+          "startTime": 1835.9982089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Mosquito Bowl Remembered: Reunions, Stories, and the Power of Memory and Chapter 10 Lessons for Today: Brotherhood, Resilience, and the Enduring Spirit"
+        },
+        {
+          "startTime": 1979.8770009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Today: Brotherhood, Resilience, and the Enduring Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2880",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:49:19.718Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

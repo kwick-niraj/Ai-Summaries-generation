@@ -1,0 +1,576 @@
+{
+  "bookId": "2842",
+  "timestamp": "2025-07-13T23:49:49.862Z",
+  "success": false,
+  "processingTime": -1752450208852,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4582,
+    "totalAudioFiles": 17,
+    "totalDuration": 2524.271624
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2524.271624
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2842/optimized_text/2842.md",
+    "fileSize": 1134,
+    "wordCount": 150,
+    "format": "markdown",
+    "filename": "2842.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2842/metadata/2842_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2524.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2842/metadata/2842_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2842/metadata/2842_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2842/2842_complete.wav",
+    "duration": 2524.271625,
+    "fileSize": 121165116,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2842/introduction.wav",
+          "duration": 95.365417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.365417,
+          "startTime": 0,
+          "endTime": 95.365417
+        },
+        {
+          "path": "Audio/output/2842/chapter_01.wav",
+          "duration": 213.529375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Some Things Break and Others Get Stronger",
+          "actualDuration": 213.529375,
+          "startTime": 96.865417,
+          "endTime": 310.394792
+        },
+        {
+          "path": "Audio/output/2842/chapter_02.wav",
+          "duration": 245.887083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Power of Uncertainty and Volatility",
+          "actualDuration": 245.887083,
+          "startTime": 311.894792,
+          "endTime": 557.781875
+        },
+        {
+          "path": "Audio/output/2842/chapter_03.wav",
+          "duration": 222.968458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning from Mistakes and the Value of Trial and Error",
+          "actualDuration": 222.968458,
+          "startTime": 559.281875,
+          "endTime": 782.250333
+        },
+        {
+          "path": "Audio/output/2842/chapter_04.wav",
+          "duration": 183.382333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Dangers of Over-Intervention and the Wisdom of Doing Less",
+          "actualDuration": 183.382333,
+          "startTime": 783.750333,
+          "endTime": 967.132666
+        },
+        {
+          "path": "Audio/output/2842/chapter_05.wav",
+          "duration": 183.18525,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Importance of Skin in the Game and Real-World Consequences",
+          "actualDuration": 183.18525,
+          "startTime": 968.632666,
+          "endTime": 1151.817916
+        },
+        {
+          "path": "Audio/output/2842/chapter_06.wav",
+          "duration": 138.729458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Barbell Strategy—Balancing Safety and Risk",
+          "actualDuration": 138.729458,
+          "startTime": 1153.317916,
+          "endTime": 1292.047374
+        },
+        {
+          "path": "Audio/output/2842/chapter_07.wav",
+          "duration": 124.940625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Optionality—Why Having Choices Makes You Stronger",
+          "actualDuration": 124.940625,
+          "startTime": 1293.547374,
+          "endTime": 1418.487999
+        },
+        {
+          "path": "Audio/output/2842/chapter_08.wav",
+          "duration": 129.630917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Antifragility in Nature—Lessons from the Living World",
+          "actualDuration": 129.630917,
+          "startTime": 1419.987999,
+          "endTime": 1549.618916
+        },
+        {
+          "path": "Audio/output/2842/chapter_09.wav",
+          "duration": 141.336042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Antifragility in Organizations—Building Teams That Thrive on Change",
+          "actualDuration": 141.336042,
+          "startTime": 1551.118916,
+          "endTime": 1692.4549579999998
+        },
+        {
+          "path": "Audio/output/2842/chapter_10.wav",
+          "duration": 127.56825,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Antifragility in Society—How Communities Can Grow from Disorder",
+          "actualDuration": 127.56825,
+          "startTime": 1693.9549579999998,
+          "endTime": 1821.5232079999998
+        },
+        {
+          "path": "Audio/output/2842/chapter_11.wav",
+          "duration": 134.984083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Perils of Prediction—Why Forecasting Often Fails",
+          "actualDuration": 134.984083,
+          "startTime": 1823.0232079999998,
+          "endTime": 1958.007291
+        },
+        {
+          "path": "Audio/output/2842/chapter_12.wav",
+          "duration": 105.314042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Wisdom of Simplicity—Why Less Is Often More",
+          "actualDuration": 105.314042,
+          "startTime": 1959.507291,
+          "endTime": 2064.821333
+        },
+        {
+          "path": "Audio/output/2842/chapter_13.wav",
+          "duration": 112.212833,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Embracing Discomfort—How Stress and Challenge Build Strength",
+          "actualDuration": 112.212833,
+          "startTime": 2066.321333,
+          "endTime": 2178.534166
+        },
+        {
+          "path": "Audio/output/2842/chapter_14.wav",
+          "duration": 119.051042,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Role of Redundancy—Why Having Extra Matters",
+          "actualDuration": 119.051042,
+          "startTime": 2180.034166,
+          "endTime": 2299.085208
+        },
+        {
+          "path": "Audio/output/2842/chapter_15.wav",
+          "duration": 123.835083,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Ethics of Antifragility—Responsibility and Fairness",
+          "actualDuration": 123.835083,
+          "startTime": 2300.585208,
+          "endTime": 2424.420291
+        },
+        {
+          "path": "Audio/output/2842/conclusion.wav",
+          "duration": 122.351333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.351333,
+          "startTime": 2425.920291,
+          "endTime": 2548.271624
+        }
+      ],
+      "totalDuration": 2548.271624,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.37,
+          "actualStart": 0,
+          "actualEnd": 95.365417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Some Things Break and Others Get Stronger",
+          "expectedStart": 95.37,
+          "expectedEnd": 308.9,
+          "actualStart": 96.865417,
+          "actualEnd": 310.394792,
+          "timeDifference": 1.4954169999999891
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Power of Uncertainty and Volatility",
+          "expectedStart": 308.9,
+          "expectedEnd": 554.79,
+          "actualStart": 311.894792,
+          "actualEnd": 557.781875,
+          "timeDifference": 2.994792000000018
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning from Mistakes and the Value of Trial and Error",
+          "expectedStart": 554.79,
+          "expectedEnd": 777.76,
+          "actualStart": 559.281875,
+          "actualEnd": 782.250333,
+          "timeDifference": 4.49187500000005
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Dangers of Over-Intervention and the Wisdom of Doing Less",
+          "expectedStart": 777.76,
+          "expectedEnd": 961.14,
+          "actualStart": 783.750333,
+          "actualEnd": 967.132666,
+          "timeDifference": 5.990332999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Importance of Skin in the Game and Real-World Consequences",
+          "expectedStart": 961.14,
+          "expectedEnd": 1144.33,
+          "actualStart": 968.632666,
+          "actualEnd": 1151.817916,
+          "timeDifference": 7.492665999999986
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Barbell Strategy—Balancing Safety and Risk",
+          "expectedStart": 1144.33,
+          "expectedEnd": 1283.06,
+          "actualStart": 1153.317916,
+          "actualEnd": 1292.047374,
+          "timeDifference": 8.987916000000041
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Optionality—Why Having Choices Makes You Stronger",
+          "expectedStart": 1283.06,
+          "expectedEnd": 1408,
+          "actualStart": 1293.547374,
+          "actualEnd": 1418.487999,
+          "timeDifference": 10.487374000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Antifragility in Nature—Lessons from the Living World",
+          "expectedStart": 1408,
+          "expectedEnd": 1537.63,
+          "actualStart": 1419.987999,
+          "actualEnd": 1549.618916,
+          "timeDifference": 11.987998999999945
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Antifragility in Organizations—Building Teams That Thrive on Change",
+          "expectedStart": 1537.63,
+          "expectedEnd": 1678.97,
+          "actualStart": 1551.118916,
+          "actualEnd": 1692.4549579999998,
+          "timeDifference": 13.48891599999979
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Antifragility in Society—How Communities Can Grow from Disorder",
+          "expectedStart": 1678.97,
+          "expectedEnd": 1806.54,
+          "actualStart": 1693.9549579999998,
+          "actualEnd": 1821.5232079999998,
+          "timeDifference": 14.984957999999779
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Perils of Prediction—Why Forecasting Often Fails",
+          "expectedStart": 1806.54,
+          "expectedEnd": 1941.52,
+          "actualStart": 1823.0232079999998,
+          "actualEnd": 1958.007291,
+          "timeDifference": 16.483207999999877
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Wisdom of Simplicity—Why Less Is Often More",
+          "expectedStart": 1941.52,
+          "expectedEnd": 2046.83,
+          "actualStart": 1959.507291,
+          "actualEnd": 2064.821333,
+          "timeDifference": 17.987290999999914
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Embracing Discomfort—How Stress and Challenge Build Strength",
+          "expectedStart": 2046.83,
+          "expectedEnd": 2159.04,
+          "actualStart": 2066.321333,
+          "actualEnd": 2178.534166,
+          "timeDifference": 19.49133299999994
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Role of Redundancy—Why Having Extra Matters",
+          "expectedStart": 2159.04,
+          "expectedEnd": 2278.09,
+          "actualStart": 2180.034166,
+          "actualEnd": 2299.085208,
+          "timeDifference": 20.99416599999995
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Ethics of Antifragility—Responsibility and Fairness",
+          "expectedStart": 2278.09,
+          "expectedEnd": 2401.93,
+          "actualStart": 2300.585208,
+          "actualEnd": 2424.420291,
+          "timeDifference": 22.49520799999982
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2401.93,
+          "expectedEnd": 2524.28,
+          "actualStart": 2425.920291,
+          "actualEnd": 2548.271624,
+          "timeDifference": 23.99029100000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.365417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Some Things Break and Others Get Stronger"
+        },
+        {
+          "startTime": 310.394792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Some Things Break and Others Get Stronger and Chapter 2 The Hidden Power of Uncertainty and Volatility"
+        },
+        {
+          "startTime": 557.781875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Power of Uncertainty and Volatility and Chapter 3 Learning from Mistakes and the Value of Trial and Error"
+        },
+        {
+          "startTime": 782.250333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning from Mistakes and the Value of Trial and Error and Chapter 4 The Dangers of Over-Intervention and the Wisdom of Doing Less"
+        },
+        {
+          "startTime": 967.132666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Dangers of Over-Intervention and the Wisdom of Doing Less and Chapter 5 The Importance of Skin in the Game and Real-World Consequences"
+        },
+        {
+          "startTime": 1151.817916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Importance of Skin in the Game and Real-World Consequences and Chapter 6 The Barbell Strategy—Balancing Safety and Risk"
+        },
+        {
+          "startTime": 1292.047374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Barbell Strategy—Balancing Safety and Risk and Chapter 7 The Power of Optionality—Why Having Choices Makes You Stronger"
+        },
+        {
+          "startTime": 1418.487999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Optionality—Why Having Choices Makes You Stronger and Chapter 8 Antifragility in Nature—Lessons from the Living World"
+        },
+        {
+          "startTime": 1549.618916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Antifragility in Nature—Lessons from the Living World and Chapter 9 Antifragility in Organizations—Building Teams That Thrive on Change"
+        },
+        {
+          "startTime": 1692.4549579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Antifragility in Organizations—Building Teams That Thrive on Change and Chapter 10 Antifragility in Society—How Communities Can Grow from Disorder"
+        },
+        {
+          "startTime": 1821.5232079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Antifragility in Society—How Communities Can Grow from Disorder and Chapter 11 The Perils of Prediction—Why Forecasting Often Fails"
+        },
+        {
+          "startTime": 1958.007291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Perils of Prediction—Why Forecasting Often Fails and Chapter 12 The Wisdom of Simplicity—Why Less Is Often More"
+        },
+        {
+          "startTime": 2064.821333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Wisdom of Simplicity—Why Less Is Often More and Chapter 13 Embracing Discomfort—How Stress and Challenge Build Strength"
+        },
+        {
+          "startTime": 2178.534166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Embracing Discomfort—How Stress and Challenge Build Strength and Chapter 14 The Role of Redundancy—Why Having Extra Matters"
+        },
+        {
+          "startTime": 2299.085208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Role of Redundancy—Why Having Extra Matters and Chapter 15 The Ethics of Antifragility—Responsibility and Fairness"
+        },
+        {
+          "startTime": 2424.420291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Ethics of Antifragility—Responsibility and Fairness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2842",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:43:30.034Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

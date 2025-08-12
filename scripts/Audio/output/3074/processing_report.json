@@ -1,0 +1,456 @@
+{
+  "bookId": "3074",
+  "timestamp": "2025-07-14T16:32:31.705Z",
+  "success": false,
+  "processingTime": -1752510322889,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4881,
+    "totalAudioFiles": 12,
+    "totalDuration": 2330.412333
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2330.412333
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3074/optimized_text/3074.md",
+    "fileSize": 625,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "3074.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3074/metadata/3074_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2330.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3074/metadata/3074_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3074/metadata/3074_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3074/3074_complete.wav",
+    "duration": 2330.412333,
+    "fileSize": 111859870,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3074/introduction.wav",
+          "duration": 92.915,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.915,
+          "startTime": 0,
+          "endTime": 92.915
+        },
+        {
+          "path": "Audio/output/3074/chapter_01.wav",
+          "duration": 214.893292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out to Rediscover a Familiar Land",
+          "actualDuration": 214.893292,
+          "startTime": 94.415,
+          "endTime": 309.308292
+        },
+        {
+          "path": "Audio/output/3074/chapter_02.wav",
+          "duration": 275.175833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Charm and Oddities of British Towns",
+          "actualDuration": 275.175833,
+          "startTime": 310.808292,
+          "endTime": 585.984125
+        },
+        {
+          "path": "Audio/output/3074/chapter_03.wav",
+          "duration": 243.314208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Landscapes, Weather, and the British Way of Seeing",
+          "actualDuration": 243.314208,
+          "startTime": 587.484125,
+          "endTime": 830.798333
+        },
+        {
+          "path": "Audio/output/3074/chapter_04.wav",
+          "duration": 250.966083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Peculiarities of British Life and Humor",
+          "actualDuration": 250.966083,
+          "startTime": 832.298333,
+          "endTime": 1083.264416
+        },
+        {
+          "path": "Audio/output/3074/chapter_05.wav",
+          "duration": 203.122125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reflections on Identity and the Meaning of Travel",
+          "actualDuration": 203.122125,
+          "startTime": 1084.764416,
+          "endTime": 1287.886541
+        },
+        {
+          "path": "Audio/output/3074/chapter_06.wav",
+          "duration": 219.029958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Northward Bound—Contrasts and Continuities",
+          "actualDuration": 219.029958,
+          "startTime": 1289.386541,
+          "endTime": 1508.4164990000002
+        },
+        {
+          "path": "Audio/output/3074/chapter_07.wav",
+          "duration": 209.747167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Coastlines—Edges of Memory and Imagination",
+          "actualDuration": 209.747167,
+          "startTime": 1509.9164990000002,
+          "endTime": 1719.6636660000001
+        },
+        {
+          "path": "Audio/output/3074/chapter_08.wav",
+          "duration": 211.848042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cities of Memory—London and Beyond",
+          "actualDuration": 211.848042,
+          "startTime": 1721.1636660000001,
+          "endTime": 1933.0117080000002
+        },
+        {
+          "path": "Audio/output/3074/chapter_09.wav",
+          "duration": 156.179792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Farewells and the Weight of Leaving",
+          "actualDuration": 156.179792,
+          "startTime": 1934.5117080000002,
+          "endTime": 2090.6915000000004
+        },
+        {
+          "path": "Audio/output/3074/chapter_10.wav",
+          "duration": 152.817458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 What Remains—A Life Shaped by Place",
+          "actualDuration": 152.817458,
+          "startTime": 2092.1915000000004,
+          "endTime": 2245.0089580000003
+        },
+        {
+          "path": "Audio/output/3074/conclusion.wav",
+          "duration": 100.403375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 100.403375,
+          "startTime": 2246.5089580000003,
+          "endTime": 2346.912333
+        }
+      ],
+      "totalDuration": 2346.912333,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.92,
+          "actualStart": 0,
+          "actualEnd": 92.915,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out to Rediscover a Familiar Land",
+          "expectedStart": 92.92,
+          "expectedEnd": 307.81,
+          "actualStart": 94.415,
+          "actualEnd": 309.308292,
+          "timeDifference": 1.4950000000000045
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Charm and Oddities of British Towns",
+          "expectedStart": 307.81,
+          "expectedEnd": 582.99,
+          "actualStart": 310.808292,
+          "actualEnd": 585.984125,
+          "timeDifference": 2.998291999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Landscapes, Weather, and the British Way of Seeing",
+          "expectedStart": 582.99,
+          "expectedEnd": 826.3,
+          "actualStart": 587.484125,
+          "actualEnd": 830.798333,
+          "timeDifference": 4.49412499999994
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Peculiarities of British Life and Humor",
+          "expectedStart": 826.3,
+          "expectedEnd": 1077.27,
+          "actualStart": 832.298333,
+          "actualEnd": 1083.264416,
+          "timeDifference": 5.998333000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reflections on Identity and the Meaning of Travel",
+          "expectedStart": 1077.27,
+          "expectedEnd": 1280.39,
+          "actualStart": 1084.764416,
+          "actualEnd": 1287.886541,
+          "timeDifference": 7.494416000000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Northward Bound—Contrasts and Continuities",
+          "expectedStart": 1280.39,
+          "expectedEnd": 1499.42,
+          "actualStart": 1289.386541,
+          "actualEnd": 1508.4164990000002,
+          "timeDifference": 8.99654099999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Coastlines—Edges of Memory and Imagination",
+          "expectedStart": 1499.42,
+          "expectedEnd": 1709.17,
+          "actualStart": 1509.9164990000002,
+          "actualEnd": 1719.6636660000001,
+          "timeDifference": 10.496499000000085
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cities of Memory—London and Beyond",
+          "expectedStart": 1709.17,
+          "expectedEnd": 1921.02,
+          "actualStart": 1721.1636660000001,
+          "actualEnd": 1933.0117080000002,
+          "timeDifference": 11.993666000000076
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Farewells and the Weight of Leaving",
+          "expectedStart": 1921.02,
+          "expectedEnd": 2077.2,
+          "actualStart": 1934.5117080000002,
+          "actualEnd": 2090.6915000000004,
+          "timeDifference": 13.491708000000244
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 What Remains—A Life Shaped by Place",
+          "expectedStart": 2077.2,
+          "expectedEnd": 2230.02,
+          "actualStart": 2092.1915000000004,
+          "actualEnd": 2245.0089580000003,
+          "timeDifference": 14.991500000000542
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2230.02,
+          "expectedEnd": 2330.42,
+          "actualStart": 2246.5089580000003,
+          "actualEnd": 2346.912333,
+          "timeDifference": 16.488958000000366
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.915,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out to Rediscover a Familiar Land"
+        },
+        {
+          "startTime": 309.308292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out to Rediscover a Familiar Land and Chapter 2 The Charm and Oddities of British Towns"
+        },
+        {
+          "startTime": 585.984125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Charm and Oddities of British Towns and Chapter 3 Landscapes, Weather, and the British Way of Seeing"
+        },
+        {
+          "startTime": 830.798333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Landscapes, Weather, and the British Way of Seeing and Chapter 4 The Peculiarities of British Life and Humor"
+        },
+        {
+          "startTime": 1083.264416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Peculiarities of British Life and Humor and Chapter 5 Reflections on Identity and the Meaning of Travel"
+        },
+        {
+          "startTime": 1287.886541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reflections on Identity and the Meaning of Travel and Chapter 6 Northward Bound—Contrasts and Continuities"
+        },
+        {
+          "startTime": 1508.4164990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Northward Bound—Contrasts and Continuities and Chapter 7 The Coastlines—Edges of Memory and Imagination"
+        },
+        {
+          "startTime": 1719.6636660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Coastlines—Edges of Memory and Imagination and Chapter 8 Cities of Memory—London and Beyond"
+        },
+        {
+          "startTime": 1933.0117080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cities of Memory—London and Beyond and Chapter 9 Farewells and the Weight of Leaving"
+        },
+        {
+          "startTime": 2090.6915000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Farewells and the Weight of Leaving and Chapter 10 What Remains—A Life Shaped by Place"
+        },
+        {
+          "startTime": 2245.0089580000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 What Remains—A Life Shaped by Place and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3074",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:25:22.913Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

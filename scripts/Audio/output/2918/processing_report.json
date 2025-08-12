@@ -1,0 +1,408 @@
+{
+  "bookId": "2918",
+  "timestamp": "2025-07-14T04:30:03.491Z",
+  "success": false,
+  "processingTime": -1752467094027,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4403,
+    "totalAudioFiles": 11,
+    "totalDuration": 1677.2108329999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1677.2108329999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2918/optimized_text/2918.md",
+    "fileSize": 657,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2918.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2918/metadata/2918_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1677.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2918/metadata/2918_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2918/metadata/2918_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2918/2918_complete.wav",
+    "duration": 1677.210833,
+    "fileSize": 80506198,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2918/introduction.wav",
+          "duration": 94.595458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.595458,
+          "startTime": 0,
+          "endTime": 94.595458
+        },
+        {
+          "path": "Audio/output/2918/chapter_02.wav",
+          "duration": 238.897,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Entering the Amish World: New Rules, Old Fears",
+          "actualDuration": 238.897,
+          "startTime": 96.095458,
+          "endTime": 334.992458
+        },
+        {
+          "path": "Audio/output/2918/chapter_03.wav",
+          "duration": 209.386417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Silenced by Shame: Abuse, Secrecy, and the Struggle to Be Heard",
+          "actualDuration": 209.386417,
+          "startTime": 336.492458,
+          "endTime": 545.878875
+        },
+        {
+          "path": "Audio/output/2918/chapter_04.wav",
+          "duration": 233.637625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Cycle: Courage, Escape, and the Cost of Freedom",
+          "actualDuration": 233.637625,
+          "startTime": 547.378875,
+          "endTime": 781.0165
+        },
+        {
+          "path": "Audio/output/2918/chapter_05.wav",
+          "duration": 209.431583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Long Road to Healing: Rebuilding a Life After Trauma",
+          "actualDuration": 209.431583,
+          "startTime": 782.5165,
+          "endTime": 991.948083
+        },
+        {
+          "path": "Audio/output/2918/chapter_06.wav",
+          "duration": 156.151708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Fight for Justice: Facing the System",
+          "actualDuration": 156.151708,
+          "startTime": 993.448083,
+          "endTime": 1149.599791
+        },
+        {
+          "path": "Audio/output/2918/chapter_07.wav",
+          "duration": 144.42925,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Becoming an Advocate: Giving Voice to the Silenced",
+          "actualDuration": 144.42925,
+          "startTime": 1151.099791,
+          "endTime": 1295.529041
+        },
+        {
+          "path": "Audio/output/2918/chapter_08.wav",
+          "duration": 150.063375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Struggle: Changing Closed Communities",
+          "actualDuration": 150.063375,
+          "startTime": 1297.029041,
+          "endTime": 1447.092416
+        },
+        {
+          "path": "Audio/output/2918/chapter_09.wav",
+          "duration": 129.385292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Joy: Building a New Identity",
+          "actualDuration": 129.385292,
+          "startTime": 1448.592416,
+          "endTime": 1577.977708
+        },
+        {
+          "path": "Audio/output/2918/conclusion.wav",
+          "duration": 111.233125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.233125,
+          "startTime": 1579.477708,
+          "endTime": 1690.7108329999999
+        }
+      ],
+      "totalDuration": 1690.7108329999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.6,
+          "actualStart": 0,
+          "actualEnd": 94.595458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Entering the Amish World: New Rules, Old Fears",
+          "expectedStart": 94.6,
+          "expectedEnd": 333.5,
+          "actualStart": 96.095458,
+          "actualEnd": 334.992458,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Silenced by Shame: Abuse, Secrecy, and the Struggle to Be Heard",
+          "expectedStart": 333.5,
+          "expectedEnd": 542.89,
+          "actualStart": 336.492458,
+          "actualEnd": 545.878875,
+          "timeDifference": 2.992457999999999
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Cycle: Courage, Escape, and the Cost of Freedom",
+          "expectedStart": 542.89,
+          "expectedEnd": 776.53,
+          "actualStart": 547.378875,
+          "actualEnd": 781.0165,
+          "timeDifference": 4.488875000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Long Road to Healing: Rebuilding a Life After Trauma",
+          "expectedStart": 776.53,
+          "expectedEnd": 985.96,
+          "actualStart": 782.5165,
+          "actualEnd": 991.948083,
+          "timeDifference": 5.986499999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Fight for Justice: Facing the System",
+          "expectedStart": 985.96,
+          "expectedEnd": 1142.11,
+          "actualStart": 993.448083,
+          "actualEnd": 1149.599791,
+          "timeDifference": 7.4880829999999605
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Becoming an Advocate: Giving Voice to the Silenced",
+          "expectedStart": 1142.11,
+          "expectedEnd": 1286.54,
+          "actualStart": 1151.099791,
+          "actualEnd": 1295.529041,
+          "timeDifference": 8.989791000000196
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Struggle: Changing Closed Communities",
+          "expectedStart": 1286.54,
+          "expectedEnd": 1436.6,
+          "actualStart": 1297.029041,
+          "actualEnd": 1447.092416,
+          "timeDifference": 10.489041000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Joy: Building a New Identity",
+          "expectedStart": 1436.6,
+          "expectedEnd": 1565.99,
+          "actualStart": 1448.592416,
+          "actualEnd": 1577.977708,
+          "timeDifference": 11.992416000000048
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1565.99,
+          "expectedEnd": 1677.22,
+          "actualStart": 1579.477708,
+          "actualEnd": 1690.7108329999999,
+          "timeDifference": 13.487707999999884
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.595458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 Entering the Amish World: New Rules, Old Fears"
+        },
+        {
+          "startTime": 334.992458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Entering the Amish World: New Rules, Old Fears and Chapter 3 Silenced by Shame: Abuse, Secrecy, and the Struggle to Be Heard"
+        },
+        {
+          "startTime": 545.878875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Silenced by Shame: Abuse, Secrecy, and the Struggle to Be Heard and Chapter 4 Breaking the Cycle: Courage, Escape, and the Cost of Freedom"
+        },
+        {
+          "startTime": 781.0165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Cycle: Courage, Escape, and the Cost of Freedom and Chapter 5 The Long Road to Healing: Rebuilding a Life After Trauma"
+        },
+        {
+          "startTime": 991.948083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Long Road to Healing: Rebuilding a Life After Trauma and Chapter 6 The Fight for Justice: Facing the System"
+        },
+        {
+          "startTime": 1149.599791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Fight for Justice: Facing the System and Chapter 7 Becoming an Advocate: Giving Voice to the Silenced"
+        },
+        {
+          "startTime": 1295.529041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Becoming an Advocate: Giving Voice to the Silenced and Chapter 8 The Ongoing Struggle: Changing Closed Communities"
+        },
+        {
+          "startTime": 1447.092416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Struggle: Changing Closed Communities and Chapter 9 Reclaiming Joy: Building a New Identity"
+        },
+        {
+          "startTime": 1577.977708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Joy: Building a New Identity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2918",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:24:55.314Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

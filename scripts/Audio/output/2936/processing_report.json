@@ -1,0 +1,456 @@
+{
+  "bookId": "2936",
+  "timestamp": "2025-07-14T05:32:44.754Z",
+  "success": false,
+  "processingTime": -1752470836019,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4692,
+    "totalAudioFiles": 12,
+    "totalDuration": 2165.9713749999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2165.9713749999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2936/optimized_text/2936.md",
+    "fileSize": 720,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2936.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2936/metadata/2936_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2165.97,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2936/metadata/2936_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2936/metadata/2936_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2936/2936_complete.wav",
+    "duration": 2165.971375,
+    "fileSize": 103966704,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2936/introduction.wav",
+          "duration": 86.197167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.197167,
+          "startTime": 0,
+          "endTime": 86.197167
+        },
+        {
+          "path": "Audio/output/2936/chapter_01.wav",
+          "duration": 251.61025,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving Alone in the Desert and Meeting the Land",
+          "actualDuration": 251.61025,
+          "startTime": 87.697167,
+          "endTime": 339.307417
+        },
+        {
+          "path": "Audio/output/2936/chapter_02.wav",
+          "duration": 234.182417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Fragility of Wild Places",
+          "actualDuration": 234.182417,
+          "startTime": 340.807417,
+          "endTime": 574.989834
+        },
+        {
+          "path": "Audio/output/2936/chapter_03.wav",
+          "duration": 229.591833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Solitude, Self-Discovery, and the Meaning of Wilderness",
+          "actualDuration": 229.591833,
+          "startTime": 576.489834,
+          "endTime": 806.0816669999999
+        },
+        {
+          "path": "Audio/output/2936/chapter_04.wav",
+          "duration": 219.177583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Progress and the Fight for Preservation",
+          "actualDuration": 219.177583,
+          "startTime": 807.5816669999999,
+          "endTime": 1026.7592499999998
+        },
+        {
+          "path": "Audio/output/2936/chapter_05.wav",
+          "duration": 196.292417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Value of Wildness and the Limits of Control",
+          "actualDuration": 196.292417,
+          "startTime": 1028.2592499999998,
+          "endTime": 1224.5516669999997
+        },
+        {
+          "path": "Audio/output/2936/chapter_06.wav",
+          "duration": 203.178542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Encounters with the Wild—Animals, Death, and the Unseen",
+          "actualDuration": 203.178542,
+          "startTime": 1226.0516669999997,
+          "endTime": 1429.2302089999998
+        },
+        {
+          "path": "Audio/output/2936/chapter_07.wav",
+          "duration": 157.733,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Water—Scarcity, Survival, and Sacredness",
+          "actualDuration": 157.733,
+          "startTime": 1430.7302089999998,
+          "endTime": 1588.4632089999998
+        },
+        {
+          "path": "Audio/output/2936/chapter_08.wav",
+          "duration": 150.438625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Imprint—Ruins, Roads, and Memory",
+          "actualDuration": 150.438625,
+          "startTime": 1589.9632089999998,
+          "endTime": 1740.4018339999998
+        },
+        {
+          "path": "Audio/output/2936/chapter_09.wav",
+          "duration": 178.977083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Encounters with Visitors—Connection, Conflict, and Conversation",
+          "actualDuration": 178.977083,
+          "startTime": 1741.9018339999998,
+          "endTime": 1920.8789169999998
+        },
+        {
+          "path": "Audio/output/2936/chapter_10.wav",
+          "duration": 138.952875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Philosophy of Wilderness—Freedom, Responsibility, and Belonging",
+          "actualDuration": 138.952875,
+          "startTime": 1922.3789169999998,
+          "endTime": 2061.331792
+        },
+        {
+          "path": "Audio/output/2936/conclusion.wav",
+          "duration": 119.639583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.639583,
+          "startTime": 2062.831792,
+          "endTime": 2182.471375
+        }
+      ],
+      "totalDuration": 2182.471375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.2,
+          "actualStart": 0,
+          "actualEnd": 86.197167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving Alone in the Desert and Meeting the Land",
+          "expectedStart": 86.2,
+          "expectedEnd": 337.81,
+          "actualStart": 87.697167,
+          "actualEnd": 339.307417,
+          "timeDifference": 1.4971669999999904
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Fragility of Wild Places",
+          "expectedStart": 337.81,
+          "expectedEnd": 571.99,
+          "actualStart": 340.807417,
+          "actualEnd": 574.989834,
+          "timeDifference": 2.9974169999999845
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Solitude, Self-Discovery, and the Meaning of Wilderness",
+          "expectedStart": 571.99,
+          "expectedEnd": 801.58,
+          "actualStart": 576.489834,
+          "actualEnd": 806.0816669999999,
+          "timeDifference": 4.499833999999964
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Progress and the Fight for Preservation",
+          "expectedStart": 801.58,
+          "expectedEnd": 1020.76,
+          "actualStart": 807.5816669999999,
+          "actualEnd": 1026.7592499999998,
+          "timeDifference": 6.001666999999884
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Value of Wildness and the Limits of Control",
+          "expectedStart": 1020.76,
+          "expectedEnd": 1217.05,
+          "actualStart": 1028.2592499999998,
+          "actualEnd": 1224.5516669999997,
+          "timeDifference": 7.499249999999847
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Encounters with the Wild—Animals, Death, and the Unseen",
+          "expectedStart": 1217.05,
+          "expectedEnd": 1420.23,
+          "actualStart": 1226.0516669999997,
+          "actualEnd": 1429.2302089999998,
+          "timeDifference": 9.00166699999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Water—Scarcity, Survival, and Sacredness",
+          "expectedStart": 1420.23,
+          "expectedEnd": 1577.96,
+          "actualStart": 1430.7302089999998,
+          "actualEnd": 1588.4632089999998,
+          "timeDifference": 10.500208999999813
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Imprint—Ruins, Roads, and Memory",
+          "expectedStart": 1577.96,
+          "expectedEnd": 1728.4,
+          "actualStart": 1589.9632089999998,
+          "actualEnd": 1740.4018339999998,
+          "timeDifference": 12.003208999999742
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Encounters with Visitors—Connection, Conflict, and Conversation",
+          "expectedStart": 1728.4,
+          "expectedEnd": 1907.38,
+          "actualStart": 1741.9018339999998,
+          "actualEnd": 1920.8789169999998,
+          "timeDifference": 13.50183399999969
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Philosophy of Wilderness—Freedom, Responsibility, and Belonging",
+          "expectedStart": 1907.38,
+          "expectedEnd": 2046.33,
+          "actualStart": 1922.3789169999998,
+          "actualEnd": 2061.331792,
+          "timeDifference": 14.998916999999665
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2046.33,
+          "expectedEnd": 2165.97,
+          "actualStart": 2062.831792,
+          "actualEnd": 2182.471375,
+          "timeDifference": 16.501792000000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.197167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving Alone in the Desert and Meeting the Land"
+        },
+        {
+          "startTime": 339.307417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving Alone in the Desert and Meeting the Land and Chapter 2 The Power and Fragility of Wild Places"
+        },
+        {
+          "startTime": 574.989834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Fragility of Wild Places and Chapter 3 Solitude, Self-Discovery, and the Meaning of Wilderness"
+        },
+        {
+          "startTime": 806.0816669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Solitude, Self-Discovery, and the Meaning of Wilderness and Chapter 4 The Cost of Progress and the Fight for Preservation"
+        },
+        {
+          "startTime": 1026.7592499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Progress and the Fight for Preservation and Chapter 5 The Value of Wildness and the Limits of Control"
+        },
+        {
+          "startTime": 1224.5516669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Value of Wildness and the Limits of Control and Chapter 6 Encounters with the Wild—Animals, Death, and the Unseen"
+        },
+        {
+          "startTime": 1429.2302089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Encounters with the Wild—Animals, Death, and the Unseen and Chapter 7 Water—Scarcity, Survival, and Sacredness"
+        },
+        {
+          "startTime": 1588.4632089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Water—Scarcity, Survival, and Sacredness and Chapter 8 The Human Imprint—Ruins, Roads, and Memory"
+        },
+        {
+          "startTime": 1740.4018339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Imprint—Ruins, Roads, and Memory and Chapter 9 Encounters with Visitors—Connection, Conflict, and Conversation"
+        },
+        {
+          "startTime": 1920.8789169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Encounters with Visitors—Connection, Conflict, and Conversation and Chapter 10 The Philosophy of Wilderness—Freedom, Responsibility, and Belonging"
+        },
+        {
+          "startTime": 2061.331792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Philosophy of Wilderness—Freedom, Responsibility, and Belonging and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2936",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:27:17.214Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

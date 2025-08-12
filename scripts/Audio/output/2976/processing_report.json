@@ -1,0 +1,456 @@
+{
+  "bookId": "2976",
+  "timestamp": "2025-07-14T08:52:32.124Z",
+  "success": false,
+  "processingTime": -1752482720085,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3972,
+    "totalAudioFiles": 12,
+    "totalDuration": 2029.9554170000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2029.9554170000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2976/optimized_text/2976.md",
+    "fileSize": 695,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2976.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2976/metadata/2976_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2029.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2976/metadata/2976_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2976/metadata/2976_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2976/2976_complete.wav",
+    "duration": 2029.955417,
+    "fileSize": 97437938,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2976/introduction.wav",
+          "duration": 92.547625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.547625,
+          "startTime": 0,
+          "endTime": 92.547625
+        },
+        {
+          "path": "Audio/output/2976/chapter_01.wav",
+          "duration": 198.646583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Way Problems Are Framed",
+          "actualDuration": 198.646583,
+          "startTime": 94.047625,
+          "endTime": 292.694208
+        },
+        {
+          "path": "Audio/output/2976/chapter_02.wav",
+          "duration": 208.484167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Uncertainty and the Power of ‘I Don’t Know’",
+          "actualDuration": 208.484167,
+          "startTime": 294.194208,
+          "endTime": 502.678375
+        },
+        {
+          "path": "Audio/output/2976/chapter_03.wav",
+          "duration": 181.89075,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Understanding Incentives and Human Behavior",
+          "actualDuration": 181.89075,
+          "startTime": 504.178375,
+          "endTime": 686.069125
+        },
+        {
+          "path": "Audio/output/2976/chapter_04.wav",
+          "duration": 204.527125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Value of Small Experiments and Data-Driven Thinking",
+          "actualDuration": 204.527125,
+          "startTime": 687.569125,
+          "endTime": 892.09625
+        },
+        {
+          "path": "Audio/output/2976/chapter_05.wav",
+          "duration": 198.15075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Thinking Like a Child to Unlock Creative Solutions",
+          "actualDuration": 198.15075,
+          "startTime": 893.59625,
+          "endTime": 1091.747
+        },
+        {
+          "path": "Audio/output/2976/chapter_06.wav",
+          "duration": 191.395708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Group Dynamics and the Power of Dissent",
+          "actualDuration": 191.395708,
+          "startTime": 1093.247,
+          "endTime": 1284.642708
+        },
+        {
+          "path": "Audio/output/2976/chapter_07.wav",
+          "duration": 175.831167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Cognitive Biases and Mental Shortcuts",
+          "actualDuration": 175.831167,
+          "startTime": 1286.142708,
+          "endTime": 1461.9738750000001
+        },
+        {
+          "path": "Audio/output/2976/chapter_08.wav",
+          "duration": 164.971833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Habits of Reflection and Continuous Learning",
+          "actualDuration": 164.971833,
+          "startTime": 1463.4738750000001,
+          "endTime": 1628.4457080000002
+        },
+        {
+          "path": "Audio/output/2976/chapter_09.wav",
+          "duration": 154.029542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Scaling Solutions and Spreading Change",
+          "actualDuration": 154.029542,
+          "startTime": 1629.9457080000002,
+          "endTime": 1783.9752500000002
+        },
+        {
+          "path": "Audio/output/2976/chapter_10.wav",
+          "duration": 119.874792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Unconventional Thinking in a Conventional World",
+          "actualDuration": 119.874792,
+          "startTime": 1785.4752500000002,
+          "endTime": 1905.3500420000003
+        },
+        {
+          "path": "Audio/output/2976/conclusion.wav",
+          "duration": 139.605375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.605375,
+          "startTime": 1906.8500420000003,
+          "endTime": 2046.4554170000004
+        }
+      ],
+      "totalDuration": 2046.4554170000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.55,
+          "actualStart": 0,
+          "actualEnd": 92.547625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Way Problems Are Framed",
+          "expectedStart": 92.55,
+          "expectedEnd": 291.2,
+          "actualStart": 94.047625,
+          "actualEnd": 292.694208,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Uncertainty and the Power of ‘I Don’t Know’",
+          "expectedStart": 291.2,
+          "expectedEnd": 499.68,
+          "actualStart": 294.194208,
+          "actualEnd": 502.678375,
+          "timeDifference": 2.9942080000000146
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Understanding Incentives and Human Behavior",
+          "expectedStart": 499.68,
+          "expectedEnd": 681.57,
+          "actualStart": 504.178375,
+          "actualEnd": 686.069125,
+          "timeDifference": 4.49837500000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Value of Small Experiments and Data-Driven Thinking",
+          "expectedStart": 681.57,
+          "expectedEnd": 886.1,
+          "actualStart": 687.569125,
+          "actualEnd": 892.09625,
+          "timeDifference": 5.999124999999935
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Thinking Like a Child to Unlock Creative Solutions",
+          "expectedStart": 886.1,
+          "expectedEnd": 1084.25,
+          "actualStart": 893.59625,
+          "actualEnd": 1091.747,
+          "timeDifference": 7.496250000000032
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Group Dynamics and the Power of Dissent",
+          "expectedStart": 1084.25,
+          "expectedEnd": 1275.65,
+          "actualStart": 1093.247,
+          "actualEnd": 1284.642708,
+          "timeDifference": 8.997000000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Cognitive Biases and Mental Shortcuts",
+          "expectedStart": 1275.65,
+          "expectedEnd": 1451.48,
+          "actualStart": 1286.142708,
+          "actualEnd": 1461.9738750000001,
+          "timeDifference": 10.492707999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Habits of Reflection and Continuous Learning",
+          "expectedStart": 1451.48,
+          "expectedEnd": 1616.45,
+          "actualStart": 1463.4738750000001,
+          "actualEnd": 1628.4457080000002,
+          "timeDifference": 11.993875000000116
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Scaling Solutions and Spreading Change",
+          "expectedStart": 1616.45,
+          "expectedEnd": 1770.48,
+          "actualStart": 1629.9457080000002,
+          "actualEnd": 1783.9752500000002,
+          "timeDifference": 13.49570800000015
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Unconventional Thinking in a Conventional World",
+          "expectedStart": 1770.48,
+          "expectedEnd": 1890.35,
+          "actualStart": 1785.4752500000002,
+          "actualEnd": 1905.3500420000003,
+          "timeDifference": 14.99525000000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1890.35,
+          "expectedEnd": 2029.96,
+          "actualStart": 1906.8500420000003,
+          "actualEnd": 2046.4554170000004,
+          "timeDifference": 16.50004200000035
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.547625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Way Problems Are Framed"
+        },
+        {
+          "startTime": 292.694208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Way Problems Are Framed and Chapter 2 Embracing Uncertainty and the Power of ‘I Don’t Know’"
+        },
+        {
+          "startTime": 502.678375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Uncertainty and the Power of ‘I Don’t Know’ and Chapter 3 Understanding Incentives and Human Behavior"
+        },
+        {
+          "startTime": 686.069125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Understanding Incentives and Human Behavior and Chapter 4 The Value of Small Experiments and Data-Driven Thinking"
+        },
+        {
+          "startTime": 892.09625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Value of Small Experiments and Data-Driven Thinking and Chapter 5 Thinking Like a Child to Unlock Creative Solutions"
+        },
+        {
+          "startTime": 1091.747,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Thinking Like a Child to Unlock Creative Solutions and Chapter 6 Navigating Group Dynamics and the Power of Dissent"
+        },
+        {
+          "startTime": 1284.642708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Group Dynamics and the Power of Dissent and Chapter 7 Overcoming Cognitive Biases and Mental Shortcuts"
+        },
+        {
+          "startTime": 1461.9738750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Cognitive Biases and Mental Shortcuts and Chapter 8 Building Habits of Reflection and Continuous Learning"
+        },
+        {
+          "startTime": 1628.4457080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Habits of Reflection and Continuous Learning and Chapter 9 Scaling Solutions and Spreading Change"
+        },
+        {
+          "startTime": 1783.9752500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Scaling Solutions and Spreading Change and Chapter 10 Sustaining Unconventional Thinking in a Conventional World"
+        },
+        {
+          "startTime": 1905.3500420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Unconventional Thinking in a Conventional World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2976",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T08:45:21.384Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

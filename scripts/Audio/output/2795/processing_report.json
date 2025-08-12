@@ -1,0 +1,456 @@
+{
+  "bookId": "2795",
+  "timestamp": "2025-07-13T20:15:49.456Z",
+  "success": false,
+  "processingTime": -1752437396357,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5300,
+    "totalAudioFiles": 12,
+    "totalDuration": 2272.927666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2272.927666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2795/optimized_text/2795.md",
+    "fileSize": 724,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2795.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2795/metadata/2795_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2272.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2795/metadata/2795_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2795/metadata/2795_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2795/2795_complete.wav",
+    "duration": 2272.927667,
+    "fileSize": 109100606,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2795/introduction.wav",
+          "duration": 100.770917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.770917,
+          "startTime": 0,
+          "endTime": 100.770917
+        },
+        {
+          "path": "Audio/output/2795/chapter_01.wav",
+          "duration": 302.950167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out to Find What’s Disappearing",
+          "actualDuration": 302.950167,
+          "startTime": 102.270917,
+          "endTime": 405.221084
+        },
+        {
+          "path": "Audio/output/2795/chapter_02.wav",
+          "duration": 242.297333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for the Northern White Rhino: Hope and Frustration in Africa",
+          "actualDuration": 242.297333,
+          "startTime": 406.721084,
+          "endTime": 649.018417
+        },
+        {
+          "path": "Audio/output/2795/chapter_03.wav",
+          "duration": 247.817125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Meeting the Kakapo: Humor and Heartbreak in New Zealand",
+          "actualDuration": 247.817125,
+          "startTime": 650.518417,
+          "endTime": 898.335542
+        },
+        {
+          "path": "Audio/output/2795/chapter_04.wav",
+          "duration": 226.228125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Baiji and the Yangtze: Witnessing Loss in China",
+          "actualDuration": 226.228125,
+          "startTime": 899.835542,
+          "endTime": 1126.0636670000001
+        },
+        {
+          "path": "Audio/output/2795/chapter_05.wav",
+          "duration": 172.127333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons from Madagascar: The Struggle to Save Lemurs",
+          "actualDuration": 172.127333,
+          "startTime": 1127.5636670000001,
+          "endTime": 1299.691
+        },
+        {
+          "path": "Audio/output/2795/chapter_06.wav",
+          "duration": 188.026208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aye-Aye and the Power of Superstition",
+          "actualDuration": 188.026208,
+          "startTime": 1301.191,
+          "endTime": 1489.217208
+        },
+        {
+          "path": "Audio/output/2795/chapter_07.wav",
+          "duration": 161.047708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Komodo Dragon: Facing Giants in Indonesia",
+          "actualDuration": 161.047708,
+          "startTime": 1490.717208,
+          "endTime": 1651.764916
+        },
+        {
+          "path": "Audio/output/2795/chapter_08.wav",
+          "duration": 170.547167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Rodrigues Fruit Bat: Small Victories in the Indian Ocean",
+          "actualDuration": 170.547167,
+          "startTime": 1653.264916,
+          "endTime": 1823.812083
+        },
+        {
+          "path": "Audio/output/2795/chapter_09.wav",
+          "duration": 188.217625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Blind River Dolphin: Listening to Silence in Pakistan",
+          "actualDuration": 188.217625,
+          "startTime": 1825.312083,
+          "endTime": 2013.529708
+        },
+        {
+          "path": "Audio/output/2795/chapter_10.wav",
+          "duration": 162.72875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Mountain Gorilla: Hope in the Heart of Africa",
+          "actualDuration": 162.72875,
+          "startTime": 2015.029708,
+          "endTime": 2177.7584580000002
+        },
+        {
+          "path": "Audio/output/2795/conclusion.wav",
+          "duration": 110.169208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.169208,
+          "startTime": 2179.2584580000002,
+          "endTime": 2289.427666
+        }
+      ],
+      "totalDuration": 2289.427666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.77,
+          "actualStart": 0,
+          "actualEnd": 100.770917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out to Find What’s Disappearing",
+          "expectedStart": 100.77,
+          "expectedEnd": 403.72,
+          "actualStart": 102.270917,
+          "actualEnd": 405.221084,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for the Northern White Rhino: Hope and Frustration in Africa",
+          "expectedStart": 403.72,
+          "expectedEnd": 646.02,
+          "actualStart": 406.721084,
+          "actualEnd": 649.018417,
+          "timeDifference": 3.0010839999999916
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Meeting the Kakapo: Humor and Heartbreak in New Zealand",
+          "expectedStart": 646.02,
+          "expectedEnd": 893.84,
+          "actualStart": 650.518417,
+          "actualEnd": 898.335542,
+          "timeDifference": 4.498417000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Baiji and the Yangtze: Witnessing Loss in China",
+          "expectedStart": 893.84,
+          "expectedEnd": 1120.07,
+          "actualStart": 899.835542,
+          "actualEnd": 1126.0636670000001,
+          "timeDifference": 5.995542
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons from Madagascar: The Struggle to Save Lemurs",
+          "expectedStart": 1120.07,
+          "expectedEnd": 1292.2,
+          "actualStart": 1127.5636670000001,
+          "actualEnd": 1299.691,
+          "timeDifference": 7.493667000000187
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aye-Aye and the Power of Superstition",
+          "expectedStart": 1292.2,
+          "expectedEnd": 1480.23,
+          "actualStart": 1301.191,
+          "actualEnd": 1489.217208,
+          "timeDifference": 8.990999999999985
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Komodo Dragon: Facing Giants in Indonesia",
+          "expectedStart": 1480.23,
+          "expectedEnd": 1641.28,
+          "actualStart": 1490.717208,
+          "actualEnd": 1651.764916,
+          "timeDifference": 10.48720800000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Rodrigues Fruit Bat: Small Victories in the Indian Ocean",
+          "expectedStart": 1641.28,
+          "expectedEnd": 1811.83,
+          "actualStart": 1653.264916,
+          "actualEnd": 1823.812083,
+          "timeDifference": 11.984916000000112
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Blind River Dolphin: Listening to Silence in Pakistan",
+          "expectedStart": 1811.83,
+          "expectedEnd": 2000.05,
+          "actualStart": 1825.312083,
+          "actualEnd": 2013.529708,
+          "timeDifference": 13.482083000000102
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Mountain Gorilla: Hope in the Heart of Africa",
+          "expectedStart": 2000.05,
+          "expectedEnd": 2162.78,
+          "actualStart": 2015.029708,
+          "actualEnd": 2177.7584580000002,
+          "timeDifference": 14.979708000000073
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2162.78,
+          "expectedEnd": 2272.95,
+          "actualStart": 2179.2584580000002,
+          "actualEnd": 2289.427666,
+          "timeDifference": 16.478458000000046
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.770917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out to Find What’s Disappearing"
+        },
+        {
+          "startTime": 405.221084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out to Find What’s Disappearing and Chapter 2 Searching for the Northern White Rhino: Hope and Frustration in Africa"
+        },
+        {
+          "startTime": 649.018417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for the Northern White Rhino: Hope and Frustration in Africa and Chapter 3 Meeting the Kakapo: Humor and Heartbreak in New Zealand"
+        },
+        {
+          "startTime": 898.335542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Meeting the Kakapo: Humor and Heartbreak in New Zealand and Chapter 4 The Baiji and the Yangtze: Witnessing Loss in China"
+        },
+        {
+          "startTime": 1126.0636670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Baiji and the Yangtze: Witnessing Loss in China and Chapter 5 Lessons from Madagascar: The Struggle to Save Lemurs"
+        },
+        {
+          "startTime": 1299.691,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons from Madagascar: The Struggle to Save Lemurs and Chapter 6 The Aye-Aye and the Power of Superstition"
+        },
+        {
+          "startTime": 1489.217208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aye-Aye and the Power of Superstition and Chapter 7 The Komodo Dragon: Facing Giants in Indonesia"
+        },
+        {
+          "startTime": 1651.764916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Komodo Dragon: Facing Giants in Indonesia and Chapter 8 The Rodrigues Fruit Bat: Small Victories in the Indian Ocean"
+        },
+        {
+          "startTime": 1823.812083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Rodrigues Fruit Bat: Small Victories in the Indian Ocean and Chapter 9 The Blind River Dolphin: Listening to Silence in Pakistan"
+        },
+        {
+          "startTime": 2013.529708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Blind River Dolphin: Listening to Silence in Pakistan and Chapter 10 The Mountain Gorilla: Hope in the Heart of Africa"
+        },
+        {
+          "startTime": 2177.7584580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Mountain Gorilla: Hope in the Heart of Africa and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2795",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:09:58.825Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

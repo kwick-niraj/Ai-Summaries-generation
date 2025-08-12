@@ -1,0 +1,455 @@
+{
+  "bookId": "2905",
+  "timestamp": "2025-07-14T03:23:39.734Z",
+  "success": false,
+  "processingTime": -1752463078595,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5188,
+    "totalAudioFiles": 12,
+    "totalDuration": 2095.783291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2095.783291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2905/optimized_text/2905.md",
+    "fileSize": 587,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "2905.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2905/metadata/2905_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2095.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2905/metadata/2905_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2905/metadata/2905_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2905/2905_complete.wav",
+    "duration": 2095.783292,
+    "fileSize": 100597676,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2905/introduction.wav",
+          "duration": 89.898542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.898542,
+          "startTime": 0,
+          "endTime": 89.898542
+        },
+        {
+          "path": "Audio/output/2905/chapter_01.wav",
+          "duration": 269.524583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life in a Town Where Everyone Knows Your Name",
+          "actualDuration": 269.524583,
+          "startTime": 91.398542,
+          "endTime": 360.923125
+        },
+        {
+          "path": "Audio/output/2905/chapter_02.wav",
+          "duration": 238.477875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Ties and Everyday Eccentricities",
+          "actualDuration": 238.477875,
+          "startTime": 362.423125,
+          "endTime": 600.9010000000001
+        },
+        {
+          "path": "Audio/output/2905/chapter_03.wav",
+          "duration": 228.064958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Childhood Curiosity and the Magic of the Ordinary",
+          "actualDuration": 228.064958,
+          "startTime": 602.4010000000001,
+          "endTime": 830.465958
+        },
+        {
+          "path": "Audio/output/2905/chapter_04.wav",
+          "duration": 250.352083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Bonds and Oddities of Small-Town Community",
+          "actualDuration": 250.352083,
+          "startTime": 831.965958,
+          "endTime": 1082.318041
+        },
+        {
+          "path": "Audio/output/2905/chapter_05.wav",
+          "duration": 155.366958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons in Individuality and the Power of Memory",
+          "actualDuration": 155.366958,
+          "startTime": 1083.818041,
+          "endTime": 1239.184999
+        },
+        {
+          "path": "Audio/output/2905/chapter_06.wav",
+          "duration": 182.678917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unspoken Rules of Childhood",
+          "actualDuration": 182.678917,
+          "startTime": 1240.684999,
+          "endTime": 1423.363916
+        },
+        {
+          "path": "Audio/output/2905/chapter_07.wav",
+          "duration": 143.025167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Quiet Heartaches and Hidden Strengths",
+          "actualDuration": 143.025167,
+          "startTime": 1424.863916,
+          "endTime": 1567.889083
+        },
+        {
+          "path": "Audio/output/2905/chapter_08.wav",
+          "duration": 167.559125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Seasons of Change",
+          "actualDuration": 167.559125,
+          "startTime": 1569.389083,
+          "endTime": 1736.948208
+        },
+        {
+          "path": "Audio/output/2905/chapter_09.wav",
+          "duration": 160.513083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Bittersweet Pull of Nostalgia",
+          "actualDuration": 160.513083,
+          "startTime": 1738.448208,
+          "endTime": 1898.961291
+        },
+        {
+          "path": "Audio/output/2905/chapter_10.wav",
+          "duration": 110.593167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Meaning in the Ordinary",
+          "actualDuration": 110.593167,
+          "startTime": 1900.461291,
+          "endTime": 2011.054458
+        },
+        {
+          "path": "Audio/output/2905/conclusion.wav",
+          "duration": 99.728833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.728833,
+          "startTime": 2012.554458,
+          "endTime": 2112.283291
+        }
+      ],
+      "totalDuration": 2112.283291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.9,
+          "actualStart": 0,
+          "actualEnd": 89.898542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life in a Town Where Everyone Knows Your Name",
+          "expectedStart": 89.9,
+          "expectedEnd": 359.42,
+          "actualStart": 91.398542,
+          "actualEnd": 360.923125,
+          "timeDifference": 1.4985420000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Ties and Everyday Eccentricities",
+          "expectedStart": 359.42,
+          "expectedEnd": 597.9,
+          "actualStart": 362.423125,
+          "actualEnd": 600.9010000000001,
+          "timeDifference": 3.0031250000000114
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Childhood Curiosity and the Magic of the Ordinary",
+          "expectedStart": 597.9,
+          "expectedEnd": 825.96,
+          "actualStart": 602.4010000000001,
+          "actualEnd": 830.465958,
+          "timeDifference": 4.50100000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Bonds and Oddities of Small-Town Community",
+          "expectedStart": 825.96,
+          "expectedEnd": 1076.31,
+          "actualStart": 831.965958,
+          "actualEnd": 1082.318041,
+          "timeDifference": 6.005957999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons in Individuality and the Power of Memory",
+          "expectedStart": 1076.31,
+          "expectedEnd": 1231.68,
+          "actualStart": 1083.818041,
+          "actualEnd": 1239.184999,
+          "timeDifference": 7.508041000000048
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unspoken Rules of Childhood",
+          "expectedStart": 1231.68,
+          "expectedEnd": 1414.36,
+          "actualStart": 1240.684999,
+          "actualEnd": 1423.363916,
+          "timeDifference": 9.004998999999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Quiet Heartaches and Hidden Strengths",
+          "expectedStart": 1414.36,
+          "expectedEnd": 1557.39,
+          "actualStart": 1424.863916,
+          "actualEnd": 1567.889083,
+          "timeDifference": 10.503916000000117
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Seasons of Change",
+          "expectedStart": 1557.39,
+          "expectedEnd": 1724.95,
+          "actualStart": 1569.389083,
+          "actualEnd": 1736.948208,
+          "timeDifference": 11.999082999999928
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Bittersweet Pull of Nostalgia",
+          "expectedStart": 1724.95,
+          "expectedEnd": 1885.46,
+          "actualStart": 1738.448208,
+          "actualEnd": 1898.961291,
+          "timeDifference": 13.498207999999977
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Meaning in the Ordinary",
+          "expectedStart": 1885.46,
+          "expectedEnd": 1996.05,
+          "actualStart": 1900.461291,
+          "actualEnd": 2011.054458,
+          "timeDifference": 15.001291000000037
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1996.05,
+          "expectedEnd": 2095.78,
+          "actualStart": 2012.554458,
+          "actualEnd": 2112.283291,
+          "timeDifference": 16.504458000000113
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.898542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life in a Town Where Everyone Knows Your Name"
+        },
+        {
+          "startTime": 360.923125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life in a Town Where Everyone Knows Your Name and Chapter 2 Family Ties and Everyday Eccentricities"
+        },
+        {
+          "startTime": 600.9010000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Ties and Everyday Eccentricities and Chapter 3 Childhood Curiosity and the Magic of the Ordinary"
+        },
+        {
+          "startTime": 830.465958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Childhood Curiosity and the Magic of the Ordinary and Chapter 4 The Bonds and Oddities of Small-Town Community"
+        },
+        {
+          "startTime": 1082.318041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Bonds and Oddities of Small-Town Community and Chapter 5 Lessons in Individuality and the Power of Memory"
+        },
+        {
+          "startTime": 1239.184999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons in Individuality and the Power of Memory and Chapter 6 The Unspoken Rules of Childhood"
+        },
+        {
+          "startTime": 1423.363916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unspoken Rules of Childhood and Chapter 7 The Quiet Heartaches and Hidden Strengths"
+        },
+        {
+          "startTime": 1567.889083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Quiet Heartaches and Hidden Strengths and Chapter 8 The Seasons of Change"
+        },
+        {
+          "startTime": 1736.948208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Seasons of Change and Chapter 9 The Bittersweet Pull of Nostalgia"
+        },
+        {
+          "startTime": 1898.961291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Bittersweet Pull of Nostalgia and Chapter 10 Finding Meaning in the Ordinary"
+        },
+        {
+          "startTime": 2011.054458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Meaning in the Ordinary and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2905",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:17:59.104Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

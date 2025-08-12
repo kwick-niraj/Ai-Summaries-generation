@@ -1,0 +1,455 @@
+{
+  "bookId": "2821",
+  "timestamp": "2025-07-13T22:16:52.743Z",
+  "success": false,
+  "processingTime": -1752444749423,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4199,
+    "totalAudioFiles": 12,
+    "totalDuration": 1800.691377
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1800.691377
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2821/optimized_text/2821.md",
+    "fileSize": 692,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2821.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2821/metadata/2821_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1800.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2821/metadata/2821_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2821/metadata/2821_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2821/2821_complete.wav",
+    "duration": 1800.691375,
+    "fileSize": 86433264,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2821/introduction.wav",
+          "duration": 84.754542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.754542,
+          "startTime": 0,
+          "endTime": 84.754542
+        },
+        {
+          "path": "Audio/output/2821/chapter_01.wav",
+          "duration": 208.067792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Dreams and the Reality of Being Different",
+          "actualDuration": 208.067792,
+          "startTime": 86.254542,
+          "endTime": 294.322334
+        },
+        {
+          "path": "Audio/output/2821/chapter_02.wav",
+          "duration": 226.611417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chasing Ambition and Facing Insecurity",
+          "actualDuration": 226.611417,
+          "startTime": 295.822334,
+          "endTime": 522.433751
+        },
+        {
+          "path": "Audio/output/2821/chapter_03.wav",
+          "duration": 206.008417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unseen Side of Hollywood and the Myth of Glamour",
+          "actualDuration": 206.008417,
+          "startTime": 523.933751,
+          "endTime": 729.942168
+        },
+        {
+          "path": "Audio/output/2821/chapter_04.wav",
+          "duration": 163.294042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Awkwardness, Humor, and Finding a Place in the World",
+          "actualDuration": 163.294042,
+          "startTime": 731.442168,
+          "endTime": 894.73621
+        },
+        {
+          "path": "Audio/output/2821/chapter_05.wav",
+          "duration": 160.625125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Ambition, Insecurity, and Authenticity",
+          "actualDuration": 160.625125,
+          "startTime": 896.23621,
+          "endTime": 1056.861335
+        },
+        {
+          "path": "Audio/output/2821/chapter_06.wav",
+          "duration": 144.948375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Success and the Weight of Expectations",
+          "actualDuration": 144.948375,
+          "startTime": 1058.361335,
+          "endTime": 1203.30971
+        },
+        {
+          "path": "Audio/output/2821/chapter_07.wav",
+          "duration": 158.783542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Relationships, Love, and the Messiness of Connection",
+          "actualDuration": 158.783542,
+          "startTime": 1204.80971,
+          "endTime": 1363.5932520000001
+        },
+        {
+          "path": "Audio/output/2821/chapter_08.wav",
+          "duration": 124.090875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Saying No and Redefining Boundaries",
+          "actualDuration": 124.090875,
+          "startTime": 1365.0932520000001,
+          "endTime": 1489.1841270000002
+        },
+        {
+          "path": "Audio/output/2821/chapter_09.wav",
+          "duration": 132.184958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Imperfection and the Ongoing Journey of Growth",
+          "actualDuration": 132.184958,
+          "startTime": 1490.6841270000002,
+          "endTime": 1622.8690850000003
+        },
+        {
+          "path": "Audio/output/2821/chapter_10.wav",
+          "duration": 98.144167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Giving Back, Finding Purpose, and Looking Ahead",
+          "actualDuration": 98.144167,
+          "startTime": 1624.3690850000003,
+          "endTime": 1722.5132520000002
+        },
+        {
+          "path": "Audio/output/2821/conclusion.wav",
+          "duration": 93.178125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.178125,
+          "startTime": 1724.0132520000002,
+          "endTime": 1817.191377
+        }
+      ],
+      "totalDuration": 1817.191377,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.75,
+          "actualStart": 0,
+          "actualEnd": 84.754542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Dreams and the Reality of Being Different",
+          "expectedStart": 84.75,
+          "expectedEnd": 292.82,
+          "actualStart": 86.254542,
+          "actualEnd": 294.322334,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chasing Ambition and Facing Insecurity",
+          "expectedStart": 292.82,
+          "expectedEnd": 519.43,
+          "actualStart": 295.822334,
+          "actualEnd": 522.433751,
+          "timeDifference": 3.002334000000019
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unseen Side of Hollywood and the Myth of Glamour",
+          "expectedStart": 519.43,
+          "expectedEnd": 725.44,
+          "actualStart": 523.933751,
+          "actualEnd": 729.942168,
+          "timeDifference": 4.503751000000079
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Awkwardness, Humor, and Finding a Place in the World",
+          "expectedStart": 725.44,
+          "expectedEnd": 888.73,
+          "actualStart": 731.442168,
+          "actualEnd": 894.73621,
+          "timeDifference": 6.002167999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Ambition, Insecurity, and Authenticity",
+          "expectedStart": 888.73,
+          "expectedEnd": 1049.36,
+          "actualStart": 896.23621,
+          "actualEnd": 1056.861335,
+          "timeDifference": 7.50621000000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Success and the Weight of Expectations",
+          "expectedStart": 1049.36,
+          "expectedEnd": 1194.31,
+          "actualStart": 1058.361335,
+          "actualEnd": 1203.30971,
+          "timeDifference": 9.001335000000154
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Relationships, Love, and the Messiness of Connection",
+          "expectedStart": 1194.31,
+          "expectedEnd": 1353.09,
+          "actualStart": 1204.80971,
+          "actualEnd": 1363.5932520000001,
+          "timeDifference": 10.49971000000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Saying No and Redefining Boundaries",
+          "expectedStart": 1353.09,
+          "expectedEnd": 1477.18,
+          "actualStart": 1365.0932520000001,
+          "actualEnd": 1489.1841270000002,
+          "timeDifference": 12.003252000000202
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Imperfection and the Ongoing Journey of Growth",
+          "expectedStart": 1477.18,
+          "expectedEnd": 1609.36,
+          "actualStart": 1490.6841270000002,
+          "actualEnd": 1622.8690850000003,
+          "timeDifference": 13.504127000000153
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Giving Back, Finding Purpose, and Looking Ahead",
+          "expectedStart": 1609.36,
+          "expectedEnd": 1707.5,
+          "actualStart": 1624.3690850000003,
+          "actualEnd": 1722.5132520000002,
+          "timeDifference": 15.009085000000368
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1707.5,
+          "expectedEnd": 1800.68,
+          "actualStart": 1724.0132520000002,
+          "actualEnd": 1817.191377,
+          "timeDifference": 16.513252000000193
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.754542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Dreams and the Reality of Being Different"
+        },
+        {
+          "startTime": 294.322334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Dreams and the Reality of Being Different and Chapter 2 Chasing Ambition and Facing Insecurity"
+        },
+        {
+          "startTime": 522.433751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chasing Ambition and Facing Insecurity and Chapter 3 The Unseen Side of Hollywood and the Myth of Glamour"
+        },
+        {
+          "startTime": 729.942168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unseen Side of Hollywood and the Myth of Glamour and Chapter 4 Awkwardness, Humor, and Finding a Place in the World"
+        },
+        {
+          "startTime": 894.73621,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Awkwardness, Humor, and Finding a Place in the World and Chapter 5 Balancing Ambition, Insecurity, and Authenticity"
+        },
+        {
+          "startTime": 1056.861335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Ambition, Insecurity, and Authenticity and Chapter 6 Navigating Success and the Weight of Expectations"
+        },
+        {
+          "startTime": 1203.30971,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Success and the Weight of Expectations and Chapter 7 Relationships, Love, and the Messiness of Connection"
+        },
+        {
+          "startTime": 1363.5932520000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Relationships, Love, and the Messiness of Connection and Chapter 8 The Power of Saying No and Redefining Boundaries"
+        },
+        {
+          "startTime": 1489.1841270000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Saying No and Redefining Boundaries and Chapter 9 Embracing Imperfection and the Ongoing Journey of Growth"
+        },
+        {
+          "startTime": 1622.8690850000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Imperfection and the Ongoing Journey of Growth and Chapter 10 Giving Back, Finding Purpose, and Looking Ahead"
+        },
+        {
+          "startTime": 1722.5132520000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Giving Back, Finding Purpose, and Looking Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2821",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:12:31.050Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

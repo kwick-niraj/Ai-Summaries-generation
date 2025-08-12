@@ -1,0 +1,456 @@
+{
+  "bookId": "3194",
+  "timestamp": "2025-07-15T02:08:33.976Z",
+  "success": false,
+  "processingTime": -1752545001851,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3980,
+    "totalAudioFiles": 12,
+    "totalDuration": 2022.544501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2022.544501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3194/optimized_text/3194.md",
+    "fileSize": 748,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "3194.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3194/metadata/3194_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2022.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3194/metadata/3194_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3194/metadata/3194_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3194/3194_complete.wav",
+    "duration": 2022.5445,
+    "fileSize": 97082214,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3194/introduction.wav",
+          "duration": 97.180042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.180042,
+          "startTime": 0,
+          "endTime": 97.180042
+        },
+        {
+          "path": "Audio/output/3194/chapter_01.wav",
+          "duration": 222.21875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering a New Path: From Nightlife to the Open Road",
+          "actualDuration": 222.21875,
+          "startTime": 98.680042,
+          "endTime": 320.898792
+        },
+        {
+          "path": "Audio/output/3194/chapter_02.wav",
+          "duration": 209.669667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Discipline: The Daily Practice of Running and Writing",
+          "actualDuration": 209.669667,
+          "startTime": 322.398792,
+          "endTime": 532.0684590000001
+        },
+        {
+          "path": "Audio/output/3194/chapter_03.wav",
+          "duration": 223.123583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Endurance and the Long Haul: Lessons from Marathons",
+          "actualDuration": 223.123583,
+          "startTime": 533.5684590000001,
+          "endTime": 756.6920420000001
+        },
+        {
+          "path": "Audio/output/3194/chapter_04.wav",
+          "duration": 170.792208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Creative Mind: How Running Fuels Imagination",
+          "actualDuration": 170.792208,
+          "startTime": 758.1920420000001,
+          "endTime": 928.9842500000001
+        },
+        {
+          "path": "Audio/output/3194/chapter_05.wav",
+          "duration": 165.552667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Change: Aging, Acceptance, and the Evolving Self",
+          "actualDuration": 165.552667,
+          "startTime": 930.4842500000001,
+          "endTime": 1096.0369170000001
+        },
+        {
+          "path": "Audio/output/3194/chapter_06.wav",
+          "duration": 168.486292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Solitude on the Road: Embracing the Quiet Within",
+          "actualDuration": 168.486292,
+          "startTime": 1097.5369170000001,
+          "endTime": 1266.0232090000002
+        },
+        {
+          "path": "Audio/output/3194/chapter_07.wav",
+          "duration": 157.0045,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Body’s Wisdom: Listening, Adapting, and Letting Go",
+          "actualDuration": 157.0045,
+          "startTime": 1267.5232090000002,
+          "endTime": 1424.5277090000002
+        },
+        {
+          "path": "Audio/output/3194/chapter_08.wav",
+          "duration": 176.086667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community and Connection: Running with Others",
+          "actualDuration": 176.086667,
+          "startTime": 1426.0277090000002,
+          "endTime": 1602.1143760000002
+        },
+        {
+          "path": "Audio/output/3194/chapter_09.wav",
+          "duration": 161.33925,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Mind’s Limits: Doubt, Fear, and the Power of Persistence",
+          "actualDuration": 161.33925,
+          "startTime": 1603.6143760000002,
+          "endTime": 1764.9536260000002
+        },
+        {
+          "path": "Audio/output/3194/chapter_10.wav",
+          "duration": 161.019083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Search for Meaning: Running, Writing, and the Art of Living",
+          "actualDuration": 161.019083,
+          "startTime": 1766.4536260000002,
+          "endTime": 1927.4727090000001
+        },
+        {
+          "path": "Audio/output/3194/conclusion.wav",
+          "duration": 110.071792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.071792,
+          "startTime": 1928.9727090000001,
+          "endTime": 2039.044501
+        }
+      ],
+      "totalDuration": 2039.044501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.18,
+          "actualStart": 0,
+          "actualEnd": 97.180042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering a New Path: From Nightlife to the Open Road",
+          "expectedStart": 97.18,
+          "expectedEnd": 319.4,
+          "actualStart": 98.680042,
+          "actualEnd": 320.898792,
+          "timeDifference": 1.5000419999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Discipline: The Daily Practice of Running and Writing",
+          "expectedStart": 319.4,
+          "expectedEnd": 529.07,
+          "actualStart": 322.398792,
+          "actualEnd": 532.0684590000001,
+          "timeDifference": 2.998792000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Endurance and the Long Haul: Lessons from Marathons",
+          "expectedStart": 529.07,
+          "expectedEnd": 752.19,
+          "actualStart": 533.5684590000001,
+          "actualEnd": 756.6920420000001,
+          "timeDifference": 4.498459000000025
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Creative Mind: How Running Fuels Imagination",
+          "expectedStart": 752.19,
+          "expectedEnd": 922.98,
+          "actualStart": 758.1920420000001,
+          "actualEnd": 928.9842500000001,
+          "timeDifference": 6.002042000000074
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Change: Aging, Acceptance, and the Evolving Self",
+          "expectedStart": 922.98,
+          "expectedEnd": 1088.53,
+          "actualStart": 930.4842500000001,
+          "actualEnd": 1096.0369170000001,
+          "timeDifference": 7.50425000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Solitude on the Road: Embracing the Quiet Within",
+          "expectedStart": 1088.53,
+          "expectedEnd": 1257.02,
+          "actualStart": 1097.5369170000001,
+          "actualEnd": 1266.0232090000002,
+          "timeDifference": 9.006917000000158
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Body’s Wisdom: Listening, Adapting, and Letting Go",
+          "expectedStart": 1257.02,
+          "expectedEnd": 1414.02,
+          "actualStart": 1267.5232090000002,
+          "actualEnd": 1424.5277090000002,
+          "timeDifference": 10.503209000000197
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community and Connection: Running with Others",
+          "expectedStart": 1414.02,
+          "expectedEnd": 1590.11,
+          "actualStart": 1426.0277090000002,
+          "actualEnd": 1602.1143760000002,
+          "timeDifference": 12.007709000000204
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Mind’s Limits: Doubt, Fear, and the Power of Persistence",
+          "expectedStart": 1590.11,
+          "expectedEnd": 1751.45,
+          "actualStart": 1603.6143760000002,
+          "actualEnd": 1764.9536260000002,
+          "timeDifference": 13.50437600000032
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Search for Meaning: Running, Writing, and the Art of Living",
+          "expectedStart": 1751.45,
+          "expectedEnd": 1912.47,
+          "actualStart": 1766.4536260000002,
+          "actualEnd": 1927.4727090000001,
+          "timeDifference": 15.003626000000168
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1912.47,
+          "expectedEnd": 2022.54,
+          "actualStart": 1928.9727090000001,
+          "actualEnd": 2039.044501,
+          "timeDifference": 16.502709000000095
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.180042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering a New Path: From Nightlife to the Open Road"
+        },
+        {
+          "startTime": 320.898792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering a New Path: From Nightlife to the Open Road and Chapter 2 Building Discipline: The Daily Practice of Running and Writing"
+        },
+        {
+          "startTime": 532.0684590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Discipline: The Daily Practice of Running and Writing and Chapter 3 Endurance and the Long Haul: Lessons from Marathons"
+        },
+        {
+          "startTime": 756.6920420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Endurance and the Long Haul: Lessons from Marathons and Chapter 4 The Creative Mind: How Running Fuels Imagination"
+        },
+        {
+          "startTime": 928.9842500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Creative Mind: How Running Fuels Imagination and Chapter 5 Facing Change: Aging, Acceptance, and the Evolving Self"
+        },
+        {
+          "startTime": 1096.0369170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Change: Aging, Acceptance, and the Evolving Self and Chapter 6 Solitude on the Road: Embracing the Quiet Within"
+        },
+        {
+          "startTime": 1266.0232090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Solitude on the Road: Embracing the Quiet Within and Chapter 7 The Body’s Wisdom: Listening, Adapting, and Letting Go"
+        },
+        {
+          "startTime": 1424.5277090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Body’s Wisdom: Listening, Adapting, and Letting Go and Chapter 8 Community and Connection: Running with Others"
+        },
+        {
+          "startTime": 1602.1143760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community and Connection: Running with Others and Chapter 9 The Mind’s Limits: Doubt, Fear, and the Power of Persistence"
+        },
+        {
+          "startTime": 1764.9536260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Mind’s Limits: Doubt, Fear, and the Power of Persistence and Chapter 10 The Search for Meaning: Running, Writing, and the Art of Living"
+        },
+        {
+          "startTime": 1927.4727090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Search for Meaning: Running, Writing, and the Art of Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3194",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:03:23.042Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

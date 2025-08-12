@@ -1,0 +1,456 @@
+{
+  "bookId": "2834",
+  "timestamp": "2025-07-13T23:06:34.000Z",
+  "success": false,
+  "processingTime": -1752447559606,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4815,
+    "totalAudioFiles": 12,
+    "totalDuration": 2135.490625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2135.490625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2834/optimized_text/2834.md",
+    "fileSize": 728,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2834.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2834/metadata/2834_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2135.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2834/metadata/2834_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2834/metadata/2834_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2834/2834_complete.wav",
+    "duration": 2135.490625,
+    "fileSize": 102503628,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2834/introduction.wav",
+          "duration": 91.61175,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.61175,
+          "startTime": 0,
+          "endTime": 91.61175
+        },
+        {
+          "path": "Audio/output/2834/chapter_01.wav",
+          "duration": 226.682167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Land of Contradictions and Hope",
+          "actualDuration": 226.682167,
+          "startTime": 93.11175,
+          "endTime": 319.79391699999996
+        },
+        {
+          "path": "Audio/output/2834/chapter_02.wav",
+          "duration": 231.733042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle to Change a Broken System",
+          "actualDuration": 231.733042,
+          "startTime": 321.29391699999996,
+          "endTime": 553.026959
+        },
+        {
+          "path": "Audio/output/2834/chapter_03.wav",
+          "duration": 240.683333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing the Realities of War on the Ground",
+          "actualDuration": 240.683333,
+          "startTime": 554.526959,
+          "endTime": 795.210292
+        },
+        {
+          "path": "Audio/output/2834/chapter_04.wav",
+          "duration": 177.91125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Burden of Leadership and the Weight of Doubt",
+          "actualDuration": 177.91125,
+          "startTime": 796.710292,
+          "endTime": 974.621542
+        },
+        {
+          "path": "Audio/output/2834/chapter_05.wav",
+          "duration": 212.268917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Ambition and the Tragedy of War",
+          "actualDuration": 212.268917,
+          "startTime": 976.121542,
+          "endTime": 1188.390459
+        },
+        {
+          "path": "Audio/output/2834/chapter_06.wav",
+          "duration": 219.242708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Turning Tide: Hope, Disillusionment, and the Tet Offensive",
+          "actualDuration": 219.242708,
+          "startTime": 1189.890459,
+          "endTime": 1409.133167
+        },
+        {
+          "path": "Audio/output/2834/chapter_07.wav",
+          "duration": 184.131083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a New Approach: Pacification and the Search for Meaning",
+          "actualDuration": 184.131083,
+          "startTime": 1410.633167,
+          "endTime": 1594.76425
+        },
+        {
+          "path": "Audio/output/2834/chapter_08.wav",
+          "duration": 183.975958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Years: Legacy, Loss, and the Shadow of Withdrawal",
+          "actualDuration": 183.975958,
+          "startTime": 1596.26425,
+          "endTime": 1780.240208
+        },
+        {
+          "path": "Audio/output/2834/chapter_09.wav",
+          "duration": 116.114958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Last Mission: Sacrifice and the Price of Conviction",
+          "actualDuration": 116.114958,
+          "startTime": 1781.740208,
+          "endTime": 1897.8551659999998
+        },
+        {
+          "path": "Audio/output/2834/chapter_10.wav",
+          "duration": 121.183917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons Remembered: The Enduring Meaning of John Paul Vann’s Story",
+          "actualDuration": 121.183917,
+          "startTime": 1899.3551659999998,
+          "endTime": 2020.539083
+        },
+        {
+          "path": "Audio/output/2834/conclusion.wav",
+          "duration": 129.951542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.951542,
+          "startTime": 2022.039083,
+          "endTime": 2151.990625
+        }
+      ],
+      "totalDuration": 2151.990625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.61,
+          "actualStart": 0,
+          "actualEnd": 91.61175,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Land of Contradictions and Hope",
+          "expectedStart": 91.61,
+          "expectedEnd": 318.29,
+          "actualStart": 93.11175,
+          "actualEnd": 319.79391699999996,
+          "timeDifference": 1.5017500000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle to Change a Broken System",
+          "expectedStart": 318.29,
+          "expectedEnd": 550.02,
+          "actualStart": 321.29391699999996,
+          "actualEnd": 553.026959,
+          "timeDifference": 3.0039169999999444
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing the Realities of War on the Ground",
+          "expectedStart": 550.02,
+          "expectedEnd": 790.7,
+          "actualStart": 554.526959,
+          "actualEnd": 795.210292,
+          "timeDifference": 4.506959000000052
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Burden of Leadership and the Weight of Doubt",
+          "expectedStart": 790.7,
+          "expectedEnd": 968.61,
+          "actualStart": 796.710292,
+          "actualEnd": 974.621542,
+          "timeDifference": 6.010291999999936
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Ambition and the Tragedy of War",
+          "expectedStart": 968.61,
+          "expectedEnd": 1180.88,
+          "actualStart": 976.121542,
+          "actualEnd": 1188.390459,
+          "timeDifference": 7.511541999999963
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Turning Tide: Hope, Disillusionment, and the Tet Offensive",
+          "expectedStart": 1180.88,
+          "expectedEnd": 1400.12,
+          "actualStart": 1189.890459,
+          "actualEnd": 1409.133167,
+          "timeDifference": 9.010458999999855
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a New Approach: Pacification and the Search for Meaning",
+          "expectedStart": 1400.12,
+          "expectedEnd": 1584.25,
+          "actualStart": 1410.633167,
+          "actualEnd": 1594.76425,
+          "timeDifference": 10.513167000000067
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Years: Legacy, Loss, and the Shadow of Withdrawal",
+          "expectedStart": 1584.25,
+          "expectedEnd": 1768.23,
+          "actualStart": 1596.26425,
+          "actualEnd": 1780.240208,
+          "timeDifference": 12.014249999999947
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Last Mission: Sacrifice and the Price of Conviction",
+          "expectedStart": 1768.23,
+          "expectedEnd": 1884.34,
+          "actualStart": 1781.740208,
+          "actualEnd": 1897.8551659999998,
+          "timeDifference": 13.51020799999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons Remembered: The Enduring Meaning of John Paul Vann’s Story",
+          "expectedStart": 1884.34,
+          "expectedEnd": 2005.52,
+          "actualStart": 1899.3551659999998,
+          "actualEnd": 2020.539083,
+          "timeDifference": 15.015165999999908
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2005.52,
+          "expectedEnd": 2135.47,
+          "actualStart": 2022.039083,
+          "actualEnd": 2151.990625,
+          "timeDifference": 16.51908299999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.61175,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Land of Contradictions and Hope"
+        },
+        {
+          "startTime": 319.79391699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Land of Contradictions and Hope and Chapter 2 The Struggle to Change a Broken System"
+        },
+        {
+          "startTime": 553.026959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle to Change a Broken System and Chapter 3 Facing the Realities of War on the Ground"
+        },
+        {
+          "startTime": 795.210292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing the Realities of War on the Ground and Chapter 4 The Burden of Leadership and the Weight of Doubt"
+        },
+        {
+          "startTime": 974.621542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Burden of Leadership and the Weight of Doubt and Chapter 5 The Limits of Ambition and the Tragedy of War"
+        },
+        {
+          "startTime": 1188.390459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Ambition and the Tragedy of War and Chapter 6 The Turning Tide: Hope, Disillusionment, and the Tet Offensive"
+        },
+        {
+          "startTime": 1409.133167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Turning Tide: Hope, Disillusionment, and the Tet Offensive and Chapter 7 Building a New Approach: Pacification and the Search for Meaning"
+        },
+        {
+          "startTime": 1594.76425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a New Approach: Pacification and the Search for Meaning and Chapter 8 The Final Years: Legacy, Loss, and the Shadow of Withdrawal"
+        },
+        {
+          "startTime": 1780.240208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Years: Legacy, Loss, and the Shadow of Withdrawal and Chapter 9 The Last Mission: Sacrifice and the Price of Conviction"
+        },
+        {
+          "startTime": 1897.8551659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Last Mission: Sacrifice and the Price of Conviction and Chapter 10 Lessons Remembered: The Enduring Meaning of John Paul Vann’s Story"
+        },
+        {
+          "startTime": 2020.539083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons Remembered: The Enduring Meaning of John Paul Vann’s Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2834",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:59:20.800Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

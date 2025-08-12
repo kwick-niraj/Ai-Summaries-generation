@@ -1,0 +1,456 @@
+{
+  "bookId": "2931",
+  "timestamp": "2025-07-14T05:15:44.744Z",
+  "success": false,
+  "processingTime": -1752469774931,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4093,
+    "totalAudioFiles": 12,
+    "totalDuration": 1954.5205
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1954.5205
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2931/optimized_text/2931.md",
+    "fileSize": 699,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2931.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2931/metadata/2931_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1954.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2931/metadata/2931_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2931/metadata/2931_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2931/2931_complete.wav",
+    "duration": 1954.5205,
+    "fileSize": 93817062,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2931/introduction.wav",
+          "duration": 89.56875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.56875,
+          "startTime": 0,
+          "endTime": 89.56875
+        },
+        {
+          "path": "Audio/output/2931/chapter_01.wav",
+          "duration": 170.449333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Unthinkable and Choosing How to Live",
+          "actualDuration": 170.449333,
+          "startTime": 91.06875,
+          "endTime": 261.518083
+        },
+        {
+          "path": "Audio/output/2931/chapter_02.wav",
+          "duration": 204.447833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Remembering Childhood Dreams and Why They Matter",
+          "actualDuration": 204.447833,
+          "startTime": 263.018083,
+          "endTime": 467.465916
+        },
+        {
+          "path": "Audio/output/2931/chapter_03.wav",
+          "duration": 198.39825,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Overcoming Obstacles and Learning from Failure",
+          "actualDuration": 198.39825,
+          "startTime": 468.965916,
+          "endTime": 667.364166
+        },
+        {
+          "path": "Audio/output/2931/chapter_04.wav",
+          "duration": 214.248375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Time and How to Use It Well",
+          "actualDuration": 214.248375,
+          "startTime": 668.864166,
+          "endTime": 883.112541
+        },
+        {
+          "path": "Audio/output/2931/chapter_05.wav",
+          "duration": 180.813042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Helping Others and Building a Lasting Legacy",
+          "actualDuration": 180.813042,
+          "startTime": 884.612541,
+          "endTime": 1065.425583
+        },
+        {
+          "path": "Audio/output/2931/chapter_06.wav",
+          "duration": 163.248125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practicing Gratitude and Finding Joy in Small Moments",
+          "actualDuration": 163.248125,
+          "startTime": 1066.925583,
+          "endTime": 1230.173708
+        },
+        {
+          "path": "Audio/output/2931/chapter_07.wav",
+          "duration": 169.559167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Authenticity and Being True to Yourself",
+          "actualDuration": 169.559167,
+          "startTime": 1231.673708,
+          "endTime": 1401.2328750000001
+        },
+        {
+          "path": "Audio/output/2931/chapter_08.wav",
+          "duration": 167.087125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Life’s Challenges and Finding Meaning in Adversity",
+          "actualDuration": 167.087125,
+          "startTime": 1402.7328750000001,
+          "endTime": 1569.8200000000002
+        },
+        {
+          "path": "Audio/output/2931/chapter_09.wav",
+          "duration": 174.398667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Messages for Loved Ones: What Matters Most",
+          "actualDuration": 174.398667,
+          "startTime": 1571.3200000000002,
+          "endTime": 1745.718667
+        },
+        {
+          "path": "Audio/output/2931/chapter_10.wav",
+          "duration": 125.732625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Final Reflections: Living with Purpose and Leaving a Mark",
+          "actualDuration": 125.732625,
+          "startTime": 1747.218667,
+          "endTime": 1872.9512920000002
+        },
+        {
+          "path": "Audio/output/2931/conclusion.wav",
+          "duration": 96.569208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.569208,
+          "startTime": 1874.4512920000002,
+          "endTime": 1971.0205
+        }
+      ],
+      "totalDuration": 1971.0205,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.57,
+          "actualStart": 0,
+          "actualEnd": 89.56875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Unthinkable and Choosing How to Live",
+          "expectedStart": 89.57,
+          "expectedEnd": 260.02,
+          "actualStart": 91.06875,
+          "actualEnd": 261.518083,
+          "timeDifference": 1.4987500000000011
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Remembering Childhood Dreams and Why They Matter",
+          "expectedStart": 260.02,
+          "expectedEnd": 464.47,
+          "actualStart": 263.018083,
+          "actualEnd": 467.465916,
+          "timeDifference": 2.9980830000000083
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Overcoming Obstacles and Learning from Failure",
+          "expectedStart": 464.47,
+          "expectedEnd": 662.87,
+          "actualStart": 468.965916,
+          "actualEnd": 667.364166,
+          "timeDifference": 4.495915999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Time and How to Use It Well",
+          "expectedStart": 662.87,
+          "expectedEnd": 877.12,
+          "actualStart": 668.864166,
+          "actualEnd": 883.112541,
+          "timeDifference": 5.99416599999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Helping Others and Building a Lasting Legacy",
+          "expectedStart": 877.12,
+          "expectedEnd": 1057.93,
+          "actualStart": 884.612541,
+          "actualEnd": 1065.425583,
+          "timeDifference": 7.49254099999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practicing Gratitude and Finding Joy in Small Moments",
+          "expectedStart": 1057.93,
+          "expectedEnd": 1221.18,
+          "actualStart": 1066.925583,
+          "actualEnd": 1230.173708,
+          "timeDifference": 8.995582999999897
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Authenticity and Being True to Yourself",
+          "expectedStart": 1221.18,
+          "expectedEnd": 1390.74,
+          "actualStart": 1231.673708,
+          "actualEnd": 1401.2328750000001,
+          "timeDifference": 10.49370799999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Life’s Challenges and Finding Meaning in Adversity",
+          "expectedStart": 1390.74,
+          "expectedEnd": 1557.83,
+          "actualStart": 1402.7328750000001,
+          "actualEnd": 1569.8200000000002,
+          "timeDifference": 11.99287500000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Messages for Loved Ones: What Matters Most",
+          "expectedStart": 1557.83,
+          "expectedEnd": 1732.23,
+          "actualStart": 1571.3200000000002,
+          "actualEnd": 1745.718667,
+          "timeDifference": 13.490000000000236
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Final Reflections: Living with Purpose and Leaving a Mark",
+          "expectedStart": 1732.23,
+          "expectedEnd": 1857.96,
+          "actualStart": 1747.218667,
+          "actualEnd": 1872.9512920000002,
+          "timeDifference": 14.988667000000078
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1857.96,
+          "expectedEnd": 1954.53,
+          "actualStart": 1874.4512920000002,
+          "actualEnd": 1971.0205,
+          "timeDifference": 16.491292000000158
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.56875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Unthinkable and Choosing How to Live"
+        },
+        {
+          "startTime": 261.518083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Unthinkable and Choosing How to Live and Chapter 2 Remembering Childhood Dreams and Why They Matter"
+        },
+        {
+          "startTime": 467.465916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Remembering Childhood Dreams and Why They Matter and Chapter 3 Overcoming Obstacles and Learning from Failure"
+        },
+        {
+          "startTime": 667.364166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Overcoming Obstacles and Learning from Failure and Chapter 4 The Power of Time and How to Use It Well"
+        },
+        {
+          "startTime": 883.112541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Time and How to Use It Well and Chapter 5 Helping Others and Building a Lasting Legacy"
+        },
+        {
+          "startTime": 1065.425583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Helping Others and Building a Lasting Legacy and Chapter 6 Practicing Gratitude and Finding Joy in Small Moments"
+        },
+        {
+          "startTime": 1230.173708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practicing Gratitude and Finding Joy in Small Moments and Chapter 7 The Importance of Authenticity and Being True to Yourself"
+        },
+        {
+          "startTime": 1401.2328750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Authenticity and Being True to Yourself and Chapter 8 Embracing Life’s Challenges and Finding Meaning in Adversity"
+        },
+        {
+          "startTime": 1569.8200000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Life’s Challenges and Finding Meaning in Adversity and Chapter 9 Messages for Loved Ones: What Matters Most"
+        },
+        {
+          "startTime": 1745.718667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Messages for Loved Ones: What Matters Most and Chapter 10 Final Reflections: Living with Purpose and Leaving a Mark"
+        },
+        {
+          "startTime": 1872.9512920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Final Reflections: Living with Purpose and Leaving a Mark and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2931",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:09:36.107Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

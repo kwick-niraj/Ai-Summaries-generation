@@ -1,0 +1,456 @@
+{
+  "bookId": "3179",
+  "timestamp": "2025-07-15T01:25:26.869Z",
+  "success": false,
+  "processingTime": -1752542406595,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4639,
+    "totalAudioFiles": 12,
+    "totalDuration": 2242.226042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2242.226042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3179/optimized_text/3179.md",
+    "fileSize": 772,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "3179.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3179/metadata/3179_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2242.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3179/metadata/3179_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3179/metadata/3179_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3179/3179_complete.wav",
+    "duration": 2242.226042,
+    "fileSize": 107626928,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3179/introduction.wav",
+          "duration": 88.199375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.199375,
+          "startTime": 0,
+          "endTime": 88.199375
+        },
+        {
+          "path": "Audio/output/3179/chapter_01.wav",
+          "duration": 242.909708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Media’s Role in Shaping Public Understanding",
+          "actualDuration": 242.909708,
+          "startTime": 89.699375,
+          "endTime": 332.609083
+        },
+        {
+          "path": "Audio/output/3179/chapter_02.wav",
+          "duration": 266.329292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Five Filters That Shape News and Information",
+          "actualDuration": 266.329292,
+          "startTime": 334.109083,
+          "endTime": 600.438375
+        },
+        {
+          "path": "Audio/output/3179/chapter_03.wav",
+          "duration": 222.620125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Ownership and Advertising Shape What Becomes News",
+          "actualDuration": 222.620125,
+          "startTime": 601.938375,
+          "endTime": 824.5585
+        },
+        {
+          "path": "Audio/output/3179/chapter_04.wav",
+          "duration": 261.99525,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Official Sources and the Limits of Independent Reporting",
+          "actualDuration": 261.99525,
+          "startTime": 826.0585,
+          "endTime": 1088.05375
+        },
+        {
+          "path": "Audio/output/3179/chapter_05.wav",
+          "duration": 225.848792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Flak, Ideology, and the Marginalization of Dissent",
+          "actualDuration": 225.848792,
+          "startTime": 1089.55375,
+          "endTime": 1315.402542
+        },
+        {
+          "path": "Audio/output/3179/chapter_06.wav",
+          "duration": 191.783042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Case Studies—Tracing the Filters in Real-World Reporting",
+          "actualDuration": 191.783042,
+          "startTime": 1316.902542,
+          "endTime": 1508.685584
+        },
+        {
+          "path": "Audio/output/3179/chapter_07.wav",
+          "duration": 151.097875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Impact on Democracy and Public Discourse",
+          "actualDuration": 151.097875,
+          "startTime": 1510.185584,
+          "endTime": 1661.283459
+        },
+        {
+          "path": "Audio/output/3179/chapter_08.wav",
+          "duration": 146.906042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Strategies for Critical Engagement—Becoming a More Informed News Consumer",
+          "actualDuration": 146.906042,
+          "startTime": 1662.783459,
+          "endTime": 1809.689501
+        },
+        {
+          "path": "Audio/output/3179/chapter_09.wav",
+          "duration": 140.903708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Alternative Media and Grassroots Journalism",
+          "actualDuration": 140.903708,
+          "startTime": 1811.189501,
+          "endTime": 1952.0932090000001
+        },
+        {
+          "path": "Audio/output/3179/chapter_10.wav",
+          "duration": 162.648625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a More Democratic Media System—Paths for Reform and Action",
+          "actualDuration": 162.648625,
+          "startTime": 1953.5932090000001,
+          "endTime": 2116.241834
+        },
+        {
+          "path": "Audio/output/3179/conclusion.wav",
+          "duration": 140.984208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.984208,
+          "startTime": 2117.741834,
+          "endTime": 2258.726042
+        }
+      ],
+      "totalDuration": 2258.726042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.2,
+          "actualStart": 0,
+          "actualEnd": 88.199375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Media’s Role in Shaping Public Understanding",
+          "expectedStart": 88.2,
+          "expectedEnd": 331.11,
+          "actualStart": 89.699375,
+          "actualEnd": 332.609083,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Five Filters That Shape News and Information",
+          "expectedStart": 331.11,
+          "expectedEnd": 597.44,
+          "actualStart": 334.109083,
+          "actualEnd": 600.438375,
+          "timeDifference": 2.9990829999999846
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Ownership and Advertising Shape What Becomes News",
+          "expectedStart": 597.44,
+          "expectedEnd": 820.06,
+          "actualStart": 601.938375,
+          "actualEnd": 824.5585,
+          "timeDifference": 4.498374999999896
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Official Sources and the Limits of Independent Reporting",
+          "expectedStart": 820.06,
+          "expectedEnd": 1082.06,
+          "actualStart": 826.0585,
+          "actualEnd": 1088.05375,
+          "timeDifference": 5.9985000000000355
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Flak, Ideology, and the Marginalization of Dissent",
+          "expectedStart": 1082.06,
+          "expectedEnd": 1307.91,
+          "actualStart": 1089.55375,
+          "actualEnd": 1315.402542,
+          "timeDifference": 7.493750000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Case Studies—Tracing the Filters in Real-World Reporting",
+          "expectedStart": 1307.91,
+          "expectedEnd": 1499.69,
+          "actualStart": 1316.902542,
+          "actualEnd": 1508.685584,
+          "timeDifference": 8.992541999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Impact on Democracy and Public Discourse",
+          "expectedStart": 1499.69,
+          "expectedEnd": 1650.79,
+          "actualStart": 1510.185584,
+          "actualEnd": 1661.283459,
+          "timeDifference": 10.495584000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Strategies for Critical Engagement—Becoming a More Informed News Consumer",
+          "expectedStart": 1650.79,
+          "expectedEnd": 1797.7,
+          "actualStart": 1662.783459,
+          "actualEnd": 1809.689501,
+          "timeDifference": 11.99345900000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Alternative Media and Grassroots Journalism",
+          "expectedStart": 1797.7,
+          "expectedEnd": 1938.6,
+          "actualStart": 1811.189501,
+          "actualEnd": 1952.0932090000001,
+          "timeDifference": 13.489501000000018
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a More Democratic Media System—Paths for Reform and Action",
+          "expectedStart": 1938.6,
+          "expectedEnd": 2101.25,
+          "actualStart": 1953.5932090000001,
+          "actualEnd": 2116.241834,
+          "timeDifference": 14.993209000000206
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2101.25,
+          "expectedEnd": 2242.23,
+          "actualStart": 2117.741834,
+          "actualEnd": 2258.726042,
+          "timeDifference": 16.491833999999926
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.199375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Media’s Role in Shaping Public Understanding"
+        },
+        {
+          "startTime": 332.609083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Media’s Role in Shaping Public Understanding and Chapter 2 The Five Filters That Shape News and Information"
+        },
+        {
+          "startTime": 600.438375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Five Filters That Shape News and Information and Chapter 3 How Ownership and Advertising Shape What Becomes News"
+        },
+        {
+          "startTime": 824.5585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Ownership and Advertising Shape What Becomes News and Chapter 4 The Power of Official Sources and the Limits of Independent Reporting"
+        },
+        {
+          "startTime": 1088.05375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Official Sources and the Limits of Independent Reporting and Chapter 5 Flak, Ideology, and the Marginalization of Dissent"
+        },
+        {
+          "startTime": 1315.402542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Flak, Ideology, and the Marginalization of Dissent and Chapter 6 Case Studies—Tracing the Filters in Real-World Reporting"
+        },
+        {
+          "startTime": 1508.685584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Case Studies—Tracing the Filters in Real-World Reporting and Chapter 7 The Impact on Democracy and Public Discourse"
+        },
+        {
+          "startTime": 1661.283459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Impact on Democracy and Public Discourse and Chapter 8 Strategies for Critical Engagement—Becoming a More Informed News Consumer"
+        },
+        {
+          "startTime": 1809.689501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Strategies for Critical Engagement—Becoming a More Informed News Consumer and Chapter 9 The Role of Alternative Media and Grassroots Journalism"
+        },
+        {
+          "startTime": 1952.0932090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Alternative Media and Grassroots Journalism and Chapter 10 Toward a More Democratic Media System—Paths for Reform and Action"
+        },
+        {
+          "startTime": 2116.241834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a More Democratic Media System—Paths for Reform and Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3179",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:20:07.801Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

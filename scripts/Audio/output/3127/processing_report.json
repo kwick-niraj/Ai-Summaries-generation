@@ -1,0 +1,456 @@
+{
+  "bookId": "3127",
+  "timestamp": "2025-07-14T20:28:10.094Z",
+  "success": false,
+  "processingTime": -1752524023895,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4564,
+    "totalAudioFiles": 12,
+    "totalDuration": 2297.192791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2297.192791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3127/optimized_text/3127.md",
+    "fileSize": 730,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "3127.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3127/metadata/3127_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2297.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3127/metadata/3127_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3127/metadata/3127_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3127/3127_complete.wav",
+    "duration": 2297.192792,
+    "fileSize": 110265332,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3127/introduction.wav",
+          "duration": 91.050625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.050625,
+          "startTime": 0,
+          "endTime": 91.050625
+        },
+        {
+          "path": "Audio/output/3127/chapter_01.wav",
+          "duration": 235.497958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Mind’s Tug-of-War: Understanding Our Divided Selves",
+          "actualDuration": 235.497958,
+          "startTime": 92.550625,
+          "endTime": 328.048583
+        },
+        {
+          "path": "Audio/output/3127/chapter_02.wav",
+          "duration": 257.724958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ancient Wisdom Meets Modern Science: Searching for Truths About Happiness",
+          "actualDuration": 257.724958,
+          "startTime": 329.548583,
+          "endTime": 587.273541
+        },
+        {
+          "path": "Audio/output/3127/chapter_03.wav",
+          "duration": 232.979542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Roots of Joy: What Really Makes People Happy",
+          "actualDuration": 232.979542,
+          "startTime": 588.773541,
+          "endTime": 821.7530830000001
+        },
+        {
+          "path": "Audio/output/3127/chapter_04.wav",
+          "duration": 221.680958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Gifts of Adversity: How Struggle Shapes Growth",
+          "actualDuration": 221.680958,
+          "startTime": 823.2530830000001,
+          "endTime": 1044.934041
+        },
+        {
+          "path": "Audio/output/3127/chapter_05.wav",
+          "duration": 221.455208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Virtue, Character, and the Search for Meaning",
+          "actualDuration": 221.455208,
+          "startTime": 1046.434041,
+          "endTime": 1267.889249
+        },
+        {
+          "path": "Audio/output/3127/chapter_06.wav",
+          "duration": 206.235833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power and Paradox of Love",
+          "actualDuration": 206.235833,
+          "startTime": 1269.389249,
+          "endTime": 1475.625082
+        },
+        {
+          "path": "Audio/output/3127/chapter_07.wav",
+          "duration": 191.750042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Pursuit of Balance: Navigating Life’s Contradictions",
+          "actualDuration": 191.750042,
+          "startTime": 1477.125082,
+          "endTime": 1668.8751240000001
+        },
+        {
+          "path": "Audio/output/3127/chapter_08.wav",
+          "duration": 189.33625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Perspective: Changing the Story We Tell Ourselves",
+          "actualDuration": 189.33625,
+          "startTime": 1670.3751240000001,
+          "endTime": 1859.7113740000002
+        },
+        {
+          "path": "Audio/output/3127/chapter_09.wav",
+          "duration": 176.72575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Integration of Ancient and Modern Wisdom",
+          "actualDuration": 176.72575,
+          "startTime": 1861.2113740000002,
+          "endTime": 2037.9371240000003
+        },
+        {
+          "path": "Audio/output/3127/chapter_10.wav",
+          "duration": 153.746125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Good Life: Everyday Practices for Lasting Happiness",
+          "actualDuration": 153.746125,
+          "startTime": 2039.4371240000003,
+          "endTime": 2193.183249
+        },
+        {
+          "path": "Audio/output/3127/conclusion.wav",
+          "duration": 119.009542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.009542,
+          "startTime": 2194.683249,
+          "endTime": 2313.692791
+        }
+      ],
+      "totalDuration": 2313.692791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.05,
+          "actualStart": 0,
+          "actualEnd": 91.050625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Mind’s Tug-of-War: Understanding Our Divided Selves",
+          "expectedStart": 91.05,
+          "expectedEnd": 326.55,
+          "actualStart": 92.550625,
+          "actualEnd": 328.048583,
+          "timeDifference": 1.5006249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ancient Wisdom Meets Modern Science: Searching for Truths About Happiness",
+          "expectedStart": 326.55,
+          "expectedEnd": 584.27,
+          "actualStart": 329.548583,
+          "actualEnd": 587.273541,
+          "timeDifference": 2.9985829999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Roots of Joy: What Really Makes People Happy",
+          "expectedStart": 584.27,
+          "expectedEnd": 817.25,
+          "actualStart": 588.773541,
+          "actualEnd": 821.7530830000001,
+          "timeDifference": 4.503541000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Gifts of Adversity: How Struggle Shapes Growth",
+          "expectedStart": 817.25,
+          "expectedEnd": 1038.93,
+          "actualStart": 823.2530830000001,
+          "actualEnd": 1044.934041,
+          "timeDifference": 6.003083000000061
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Virtue, Character, and the Search for Meaning",
+          "expectedStart": 1038.93,
+          "expectedEnd": 1260.39,
+          "actualStart": 1046.434041,
+          "actualEnd": 1267.889249,
+          "timeDifference": 7.504040999999916
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power and Paradox of Love",
+          "expectedStart": 1260.39,
+          "expectedEnd": 1466.63,
+          "actualStart": 1269.389249,
+          "actualEnd": 1475.625082,
+          "timeDifference": 8.999248999999963
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Pursuit of Balance: Navigating Life’s Contradictions",
+          "expectedStart": 1466.63,
+          "expectedEnd": 1658.38,
+          "actualStart": 1477.125082,
+          "actualEnd": 1668.8751240000001,
+          "timeDifference": 10.495081999999911
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Perspective: Changing the Story We Tell Ourselves",
+          "expectedStart": 1658.38,
+          "expectedEnd": 1847.72,
+          "actualStart": 1670.3751240000001,
+          "actualEnd": 1859.7113740000002,
+          "timeDifference": 11.995124000000033
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Integration of Ancient and Modern Wisdom",
+          "expectedStart": 1847.72,
+          "expectedEnd": 2024.45,
+          "actualStart": 1861.2113740000002,
+          "actualEnd": 2037.9371240000003,
+          "timeDifference": 13.491374000000178
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Good Life: Everyday Practices for Lasting Happiness",
+          "expectedStart": 2024.45,
+          "expectedEnd": 2178.2,
+          "actualStart": 2039.4371240000003,
+          "actualEnd": 2193.183249,
+          "timeDifference": 14.987124000000222
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2178.2,
+          "expectedEnd": 2297.21,
+          "actualStart": 2194.683249,
+          "actualEnd": 2313.692791,
+          "timeDifference": 16.48324900000034
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.050625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Mind’s Tug-of-War: Understanding Our Divided Selves"
+        },
+        {
+          "startTime": 328.048583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Mind’s Tug-of-War: Understanding Our Divided Selves and Chapter 2 Ancient Wisdom Meets Modern Science: Searching for Truths About Happiness"
+        },
+        {
+          "startTime": 587.273541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ancient Wisdom Meets Modern Science: Searching for Truths About Happiness and Chapter 3 The Roots of Joy: What Really Makes People Happy"
+        },
+        {
+          "startTime": 821.7530830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Roots of Joy: What Really Makes People Happy and Chapter 4 The Gifts of Adversity: How Struggle Shapes Growth"
+        },
+        {
+          "startTime": 1044.934041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Gifts of Adversity: How Struggle Shapes Growth and Chapter 5 Virtue, Character, and the Search for Meaning"
+        },
+        {
+          "startTime": 1267.889249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Virtue, Character, and the Search for Meaning and Chapter 6 The Power and Paradox of Love"
+        },
+        {
+          "startTime": 1475.625082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power and Paradox of Love and Chapter 7 The Pursuit of Balance: Navigating Life’s Contradictions"
+        },
+        {
+          "startTime": 1668.8751240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Pursuit of Balance: Navigating Life’s Contradictions and Chapter 8 The Role of Perspective: Changing the Story We Tell Ourselves"
+        },
+        {
+          "startTime": 1859.7113740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Perspective: Changing the Story We Tell Ourselves and Chapter 9 The Integration of Ancient and Modern Wisdom"
+        },
+        {
+          "startTime": 2037.9371240000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Integration of Ancient and Modern Wisdom and Chapter 10 Living the Good Life: Everyday Practices for Lasting Happiness"
+        },
+        {
+          "startTime": 2193.183249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Good Life: Everyday Practices for Lasting Happiness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3127",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:13:43.921Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

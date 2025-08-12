@@ -1,0 +1,456 @@
+{
+  "bookId": "3141",
+  "timestamp": "2025-07-14T21:32:53.823Z",
+  "success": false,
+  "processingTime": -1752528527477,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4021,
+    "totalAudioFiles": 12,
+    "totalDuration": 1808.1684160000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1808.1684160000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3141/optimized_text/3141.md",
+    "fileSize": 650,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3141.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3141/metadata/3141_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1808.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3141/metadata/3141_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3141/metadata/3141_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3141/3141_complete.wav",
+    "duration": 1808.168417,
+    "fileSize": 86792162,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3141/introduction.wav",
+          "duration": 104.129958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.129958,
+          "startTime": 0,
+          "endTime": 104.129958
+        },
+        {
+          "path": "Audio/output/3141/chapter_01.wav",
+          "duration": 215.855333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A City on the Edge and the Hidden World of Poison",
+          "actualDuration": 215.855333,
+          "startTime": 105.629958,
+          "endTime": 321.485291
+        },
+        {
+          "path": "Audio/output/3141/chapter_02.wav",
+          "duration": 192.48875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Birth of Forensic Science and the Fight for Justice",
+          "actualDuration": 192.48875,
+          "startTime": 322.985291,
+          "endTime": 515.474041
+        },
+        {
+          "path": "Audio/output/3141/chapter_03.wav",
+          "duration": 183.597,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Prohibition, Bootleg Liquor, and the Deadly Cost of Policy",
+          "actualDuration": 183.597,
+          "startTime": 516.974041,
+          "endTime": 700.571041
+        },
+        {
+          "path": "Audio/output/3141/chapter_04.wav",
+          "duration": 166.784833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Science of Detection and the Art of Persuasion",
+          "actualDuration": 166.784833,
+          "startTime": 702.071041,
+          "endTime": 868.8558740000001
+        },
+        {
+          "path": "Audio/output/3141/chapter_05.wav",
+          "duration": 161.6355,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Everyday Dangers and the Push for Public Health",
+          "actualDuration": 161.6355,
+          "startTime": 870.3558740000001,
+          "endTime": 1031.9913740000002
+        },
+        {
+          "path": "Audio/output/3141/chapter_06.wav",
+          "duration": 181.960417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Relentless March of Innovation",
+          "actualDuration": 181.960417,
+          "startTime": 1033.4913740000002,
+          "endTime": 1215.4517910000002
+        },
+        {
+          "path": "Audio/output/3141/chapter_07.wav",
+          "duration": 123.995833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Personal Sacrifices and the Toll of the Work",
+          "actualDuration": 123.995833,
+          "startTime": 1216.9517910000002,
+          "endTime": 1340.9476240000001
+        },
+        {
+          "path": "Audio/output/3141/chapter_08.wav",
+          "duration": 144.292375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Changing Face of Crime",
+          "actualDuration": 144.292375,
+          "startTime": 1342.4476240000001,
+          "endTime": 1486.7399990000001
+        },
+        {
+          "path": "Audio/output/3141/chapter_09.wav",
+          "duration": 102.024042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and the Birth of Modern Forensics",
+          "actualDuration": 102.024042,
+          "startTime": 1488.2399990000001,
+          "endTime": 1590.2640410000001
+        },
+        {
+          "path": "Audio/output/3141/chapter_10.wav",
+          "duration": 93.597958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Science and Compassion",
+          "actualDuration": 93.597958,
+          "startTime": 1591.7640410000001,
+          "endTime": 1685.3619990000002
+        },
+        {
+          "path": "Audio/output/3141/conclusion.wav",
+          "duration": 137.806417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.806417,
+          "startTime": 1686.8619990000002,
+          "endTime": 1824.6684160000002
+        }
+      ],
+      "totalDuration": 1824.6684160000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.13,
+          "actualStart": 0,
+          "actualEnd": 104.129958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A City on the Edge and the Hidden World of Poison",
+          "expectedStart": 104.13,
+          "expectedEnd": 319.99,
+          "actualStart": 105.629958,
+          "actualEnd": 321.485291,
+          "timeDifference": 1.4999580000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Birth of Forensic Science and the Fight for Justice",
+          "expectedStart": 319.99,
+          "expectedEnd": 512.48,
+          "actualStart": 322.985291,
+          "actualEnd": 515.474041,
+          "timeDifference": 2.995291000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Prohibition, Bootleg Liquor, and the Deadly Cost of Policy",
+          "expectedStart": 512.48,
+          "expectedEnd": 696.08,
+          "actualStart": 516.974041,
+          "actualEnd": 700.571041,
+          "timeDifference": 4.494041000000038
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Science of Detection and the Art of Persuasion",
+          "expectedStart": 696.08,
+          "expectedEnd": 862.86,
+          "actualStart": 702.071041,
+          "actualEnd": 868.8558740000001,
+          "timeDifference": 5.991040999999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Everyday Dangers and the Push for Public Health",
+          "expectedStart": 862.86,
+          "expectedEnd": 1024.5,
+          "actualStart": 870.3558740000001,
+          "actualEnd": 1031.9913740000002,
+          "timeDifference": 7.495874000000072
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Relentless March of Innovation",
+          "expectedStart": 1024.5,
+          "expectedEnd": 1206.46,
+          "actualStart": 1033.4913740000002,
+          "actualEnd": 1215.4517910000002,
+          "timeDifference": 8.991374000000178
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Personal Sacrifices and the Toll of the Work",
+          "expectedStart": 1206.46,
+          "expectedEnd": 1330.46,
+          "actualStart": 1216.9517910000002,
+          "actualEnd": 1340.9476240000001,
+          "timeDifference": 10.491791000000148
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Changing Face of Crime",
+          "expectedStart": 1330.46,
+          "expectedEnd": 1474.75,
+          "actualStart": 1342.4476240000001,
+          "actualEnd": 1486.7399990000001,
+          "timeDifference": 11.987624000000096
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and the Birth of Modern Forensics",
+          "expectedStart": 1474.75,
+          "expectedEnd": 1576.77,
+          "actualStart": 1488.2399990000001,
+          "actualEnd": 1590.2640410000001,
+          "timeDifference": 13.489999000000125
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Science and Compassion",
+          "expectedStart": 1576.77,
+          "expectedEnd": 1670.37,
+          "actualStart": 1591.7640410000001,
+          "actualEnd": 1685.3619990000002,
+          "timeDifference": 14.994041000000152
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1670.37,
+          "expectedEnd": 1808.18,
+          "actualStart": 1686.8619990000002,
+          "actualEnd": 1824.6684160000002,
+          "timeDifference": 16.491999000000305
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.129958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A City on the Edge and the Hidden World of Poison"
+        },
+        {
+          "startTime": 321.485291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A City on the Edge and the Hidden World of Poison and Chapter 2 The Birth of Forensic Science and the Fight for Justice"
+        },
+        {
+          "startTime": 515.474041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Birth of Forensic Science and the Fight for Justice and Chapter 3 Prohibition, Bootleg Liquor, and the Deadly Cost of Policy"
+        },
+        {
+          "startTime": 700.571041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Prohibition, Bootleg Liquor, and the Deadly Cost of Policy and Chapter 4 The Science of Detection and the Art of Persuasion"
+        },
+        {
+          "startTime": 868.8558740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Science of Detection and the Art of Persuasion and Chapter 5 Everyday Dangers and the Push for Public Health"
+        },
+        {
+          "startTime": 1031.9913740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Everyday Dangers and the Push for Public Health and Chapter 6 The Relentless March of Innovation"
+        },
+        {
+          "startTime": 1215.4517910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Relentless March of Innovation and Chapter 7 Personal Sacrifices and the Toll of the Work"
+        },
+        {
+          "startTime": 1340.9476240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Personal Sacrifices and the Toll of the Work and Chapter 8 The Changing Face of Crime"
+        },
+        {
+          "startTime": 1486.7399990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Changing Face of Crime and Chapter 9 Legacy and the Birth of Modern Forensics"
+        },
+        {
+          "startTime": 1590.2640410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and the Birth of Modern Forensics and Chapter 10 The Enduring Power of Science and Compassion"
+        },
+        {
+          "startTime": 1685.3619990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Science and Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3141",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:28:47.952Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

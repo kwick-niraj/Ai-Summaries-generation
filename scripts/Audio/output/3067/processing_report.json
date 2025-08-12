@@ -1,0 +1,456 @@
+{
+  "bookId": "3067",
+  "timestamp": "2025-07-14T16:10:04.483Z",
+  "success": false,
+  "processingTime": -1752509009599,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4512,
+    "totalAudioFiles": 12,
+    "totalDuration": 2047.7778749999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2047.7778749999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3067/optimized_text/3067.md",
+    "fileSize": 739,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "3067.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3067/metadata/3067_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2047.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3067/metadata/3067_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3067/metadata/3067_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3067/3067_complete.wav",
+    "duration": 2047.777875,
+    "fileSize": 98293416,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3067/introduction.wav",
+          "duration": 72.860208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.860208,
+          "startTime": 0,
+          "endTime": 72.860208
+        },
+        {
+          "path": "Audio/output/3067/chapter_01.wav",
+          "duration": 203.258083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for the Good Life: What People Really Want",
+          "actualDuration": 203.258083,
+          "startTime": 74.360208,
+          "endTime": 277.618291
+        },
+        {
+          "path": "Audio/output/3067/chapter_02.wav",
+          "duration": 178.119333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Heart of Happiness: Living with Purpose and Virtue",
+          "actualDuration": 178.119333,
+          "startTime": 279.118291,
+          "endTime": 457.237624
+        },
+        {
+          "path": "Audio/output/3067/chapter_03.wav",
+          "duration": 213.610708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Character: How Habits Shape Who We Become",
+          "actualDuration": 213.610708,
+          "startTime": 458.737624,
+          "endTime": 672.348332
+        },
+        {
+          "path": "Audio/output/3067/chapter_04.wav",
+          "duration": 219.333667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Wisdom to Choose Well: Practical Judgment in Everyday Life",
+          "actualDuration": 219.333667,
+          "startTime": 673.848332,
+          "endTime": 893.181999
+        },
+        {
+          "path": "Audio/output/3067/chapter_05.wav",
+          "duration": 186.488292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Many Faces of Friendship: Why Relationships Matter",
+          "actualDuration": 186.488292,
+          "startTime": 894.681999,
+          "endTime": 1081.170291
+        },
+        {
+          "path": "Audio/output/3067/chapter_06.wav",
+          "duration": 154.171583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Justice in the Real World: Living Fairly with Others",
+          "actualDuration": 154.171583,
+          "startTime": 1082.670291,
+          "endTime": 1236.841874
+        },
+        {
+          "path": "Audio/output/3067/chapter_07.wav",
+          "duration": 188.223542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mastering Desire: The Quiet Strength of Self-Control",
+          "actualDuration": 188.223542,
+          "startTime": 1238.341874,
+          "endTime": 1426.565416
+        },
+        {
+          "path": "Audio/output/3067/chapter_08.wav",
+          "duration": 173.333292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Place of Pleasure: Enjoying Life Without Losing Your Way",
+          "actualDuration": 173.333292,
+          "startTime": 1428.065416,
+          "endTime": 1601.398708
+        },
+        {
+          "path": "Audio/output/3067/chapter_09.wav",
+          "duration": 184.031542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Highest Good: Contemplation and the Life of the Mind",
+          "actualDuration": 184.031542,
+          "startTime": 1602.898708,
+          "endTime": 1786.93025
+        },
+        {
+          "path": "Audio/output/3067/chapter_10.wav",
+          "duration": 130.031,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Flourishing Together: The Art of Living Well",
+          "actualDuration": 130.031,
+          "startTime": 1788.43025,
+          "endTime": 1918.4612499999998
+        },
+        {
+          "path": "Audio/output/3067/conclusion.wav",
+          "duration": 144.316625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.316625,
+          "startTime": 1919.9612499999998,
+          "endTime": 2064.2778749999998
+        }
+      ],
+      "totalDuration": 2064.2778749999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.86,
+          "actualStart": 0,
+          "actualEnd": 72.860208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for the Good Life: What People Really Want",
+          "expectedStart": 72.86,
+          "expectedEnd": 276.12,
+          "actualStart": 74.360208,
+          "actualEnd": 277.618291,
+          "timeDifference": 1.5002080000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Heart of Happiness: Living with Purpose and Virtue",
+          "expectedStart": 276.12,
+          "expectedEnd": 454.24,
+          "actualStart": 279.118291,
+          "actualEnd": 457.237624,
+          "timeDifference": 2.9982909999999947
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Character: How Habits Shape Who We Become",
+          "expectedStart": 454.24,
+          "expectedEnd": 667.85,
+          "actualStart": 458.737624,
+          "actualEnd": 672.348332,
+          "timeDifference": 4.497623999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Wisdom to Choose Well: Practical Judgment in Everyday Life",
+          "expectedStart": 667.85,
+          "expectedEnd": 887.18,
+          "actualStart": 673.848332,
+          "actualEnd": 893.181999,
+          "timeDifference": 5.998332000000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Many Faces of Friendship: Why Relationships Matter",
+          "expectedStart": 887.18,
+          "expectedEnd": 1073.67,
+          "actualStart": 894.681999,
+          "actualEnd": 1081.170291,
+          "timeDifference": 7.501999000000069
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Justice in the Real World: Living Fairly with Others",
+          "expectedStart": 1073.67,
+          "expectedEnd": 1227.84,
+          "actualStart": 1082.670291,
+          "actualEnd": 1236.841874,
+          "timeDifference": 9.000290999999834
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mastering Desire: The Quiet Strength of Self-Control",
+          "expectedStart": 1227.84,
+          "expectedEnd": 1416.06,
+          "actualStart": 1238.341874,
+          "actualEnd": 1426.565416,
+          "timeDifference": 10.501874000000043
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Place of Pleasure: Enjoying Life Without Losing Your Way",
+          "expectedStart": 1416.06,
+          "expectedEnd": 1589.39,
+          "actualStart": 1428.065416,
+          "actualEnd": 1601.398708,
+          "timeDifference": 12.005415999999968
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Highest Good: Contemplation and the Life of the Mind",
+          "expectedStart": 1589.39,
+          "expectedEnd": 1773.42,
+          "actualStart": 1602.898708,
+          "actualEnd": 1786.93025,
+          "timeDifference": 13.508707999999842
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Flourishing Together: The Art of Living Well",
+          "expectedStart": 1773.42,
+          "expectedEnd": 1903.45,
+          "actualStart": 1788.43025,
+          "actualEnd": 1918.4612499999998,
+          "timeDifference": 15.010249999999814
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1903.45,
+          "expectedEnd": 2047.77,
+          "actualStart": 1919.9612499999998,
+          "actualEnd": 2064.2778749999998,
+          "timeDifference": 16.51124999999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.860208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for the Good Life: What People Really Want"
+        },
+        {
+          "startTime": 277.618291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for the Good Life: What People Really Want and Chapter 2 The Heart of Happiness: Living with Purpose and Virtue"
+        },
+        {
+          "startTime": 457.237624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Heart of Happiness: Living with Purpose and Virtue and Chapter 3 Building Character: How Habits Shape Who We Become"
+        },
+        {
+          "startTime": 672.348332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Character: How Habits Shape Who We Become and Chapter 4 The Wisdom to Choose Well: Practical Judgment in Everyday Life"
+        },
+        {
+          "startTime": 893.181999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Wisdom to Choose Well: Practical Judgment in Everyday Life and Chapter 5 The Many Faces of Friendship: Why Relationships Matter"
+        },
+        {
+          "startTime": 1081.170291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Many Faces of Friendship: Why Relationships Matter and Chapter 6 Justice in the Real World: Living Fairly with Others"
+        },
+        {
+          "startTime": 1236.841874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Justice in the Real World: Living Fairly with Others and Chapter 7 Mastering Desire: The Quiet Strength of Self-Control"
+        },
+        {
+          "startTime": 1426.565416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mastering Desire: The Quiet Strength of Self-Control and Chapter 8 The Place of Pleasure: Enjoying Life Without Losing Your Way"
+        },
+        {
+          "startTime": 1601.398708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Place of Pleasure: Enjoying Life Without Losing Your Way and Chapter 9 The Highest Good: Contemplation and the Life of the Mind"
+        },
+        {
+          "startTime": 1786.93025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Highest Good: Contemplation and the Life of the Mind and Chapter 10 Flourishing Together: The Art of Living Well"
+        },
+        {
+          "startTime": 1918.4612499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Flourishing Together: The Art of Living Well and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3067",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:03:29.625Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

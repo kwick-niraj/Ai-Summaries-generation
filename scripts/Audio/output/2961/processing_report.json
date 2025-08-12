@@ -1,0 +1,456 @@
+{
+  "bookId": "2961",
+  "timestamp": "2025-07-14T07:39:28.835Z",
+  "success": false,
+  "processingTime": -1752478295655,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4107,
+    "totalAudioFiles": 12,
+    "totalDuration": 1767.374252
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1767.374252
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2961/optimized_text/2961.md",
+    "fileSize": 618,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2961.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2961/metadata/2961_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1767.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2961/metadata/2961_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2961/metadata/2961_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2961/2961_complete.wav",
+    "duration": 1767.37425,
+    "fileSize": 84834042,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2961/introduction.wav",
+          "duration": 85.883542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.883542,
+          "startTime": 0,
+          "endTime": 85.883542
+        },
+        {
+          "path": "Audio/output/2961/chapter_01.wav",
+          "duration": 188.691917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Familiar Paths Disappear and Life Demands Change",
+          "actualDuration": 188.691917,
+          "startTime": 87.383542,
+          "endTime": 276.075459
+        },
+        {
+          "path": "Audio/output/2961/chapter_02.wav",
+          "duration": 193.674417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Curiosity When the Old Answers Fail",
+          "actualDuration": 193.674417,
+          "startTime": 277.575459,
+          "endTime": 471.24987600000003
+        },
+        {
+          "path": "Audio/output/2961/chapter_03.wav",
+          "duration": 178.436167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Letting Go of Old Habits and Expectations",
+          "actualDuration": 178.436167,
+          "startTime": 472.74987600000003,
+          "endTime": 651.186043
+        },
+        {
+          "path": "Audio/output/2961/chapter_04.wav",
+          "duration": 170.551,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Self-Compassion and the Courage to Be Vulnerable",
+          "actualDuration": 170.551,
+          "startTime": 652.686043,
+          "endTime": 823.2370430000001
+        },
+        {
+          "path": "Audio/output/2961/chapter_05.wav",
+          "duration": 180.5105,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Faith That Grows and Changes in Uncertain Times",
+          "actualDuration": 180.5105,
+          "startTime": 824.7370430000001,
+          "endTime": 1005.2475430000001
+        },
+        {
+          "path": "Audio/output/2961/chapter_06.wav",
+          "duration": 146.904875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Learning to Live in the In-Between",
+          "actualDuration": 146.904875,
+          "startTime": 1006.7475430000001,
+          "endTime": 1153.6524180000001
+        },
+        {
+          "path": "Audio/output/2961/chapter_07.wav",
+          "duration": 128.706917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Gentle Art of Beginning Again",
+          "actualDuration": 128.706917,
+          "startTime": 1155.1524180000001,
+          "endTime": 1283.859335
+        },
+        {
+          "path": "Audio/output/2961/chapter_08.wav",
+          "duration": 138.533708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Finding Joy in Small Things",
+          "actualDuration": 138.533708,
+          "startTime": 1285.359335,
+          "endTime": 1423.893043
+        },
+        {
+          "path": "Audio/output/2961/chapter_09.wav",
+          "duration": 130.790792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Strength of Community and Asking for Help",
+          "actualDuration": 130.790792,
+          "startTime": 1425.393043,
+          "endTime": 1556.183835
+        },
+        {
+          "path": "Audio/output/2961/chapter_10.wav",
+          "duration": 121.519875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Change as a Lifelong Practice",
+          "actualDuration": 121.519875,
+          "startTime": 1557.683835,
+          "endTime": 1679.20371
+        },
+        {
+          "path": "Audio/output/2961/conclusion.wav",
+          "duration": 103.170542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 103.170542,
+          "startTime": 1680.70371,
+          "endTime": 1783.874252
+        }
+      ],
+      "totalDuration": 1783.874252,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.88,
+          "actualStart": 0,
+          "actualEnd": 85.883542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Familiar Paths Disappear and Life Demands Change",
+          "expectedStart": 85.88,
+          "expectedEnd": 274.57,
+          "actualStart": 87.383542,
+          "actualEnd": 276.075459,
+          "timeDifference": 1.5035420000000101
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Curiosity When the Old Answers Fail",
+          "expectedStart": 274.57,
+          "expectedEnd": 468.24,
+          "actualStart": 277.575459,
+          "actualEnd": 471.24987600000003,
+          "timeDifference": 3.0054590000000303
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Letting Go of Old Habits and Expectations",
+          "expectedStart": 468.24,
+          "expectedEnd": 646.68,
+          "actualStart": 472.74987600000003,
+          "actualEnd": 651.186043,
+          "timeDifference": 4.50987600000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Self-Compassion and the Courage to Be Vulnerable",
+          "expectedStart": 646.68,
+          "expectedEnd": 817.23,
+          "actualStart": 652.686043,
+          "actualEnd": 823.2370430000001,
+          "timeDifference": 6.006043000000091
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Faith That Grows and Changes in Uncertain Times",
+          "expectedStart": 817.23,
+          "expectedEnd": 997.74,
+          "actualStart": 824.7370430000001,
+          "actualEnd": 1005.2475430000001,
+          "timeDifference": 7.507043000000067
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Learning to Live in the In-Between",
+          "expectedStart": 997.74,
+          "expectedEnd": 1144.64,
+          "actualStart": 1006.7475430000001,
+          "actualEnd": 1153.6524180000001,
+          "timeDifference": 9.007543000000055
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Gentle Art of Beginning Again",
+          "expectedStart": 1144.64,
+          "expectedEnd": 1273.35,
+          "actualStart": 1155.1524180000001,
+          "actualEnd": 1283.859335,
+          "timeDifference": 10.512418000000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Finding Joy in Small Things",
+          "expectedStart": 1273.35,
+          "expectedEnd": 1411.88,
+          "actualStart": 1285.359335,
+          "actualEnd": 1423.893043,
+          "timeDifference": 12.009335000000192
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Strength of Community and Asking for Help",
+          "expectedStart": 1411.88,
+          "expectedEnd": 1542.67,
+          "actualStart": 1425.393043,
+          "actualEnd": 1556.183835,
+          "timeDifference": 13.513042999999925
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Change as a Lifelong Practice",
+          "expectedStart": 1542.67,
+          "expectedEnd": 1664.19,
+          "actualStart": 1557.683835,
+          "actualEnd": 1679.20371,
+          "timeDifference": 15.013834999999972
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1664.19,
+          "expectedEnd": 1767.36,
+          "actualStart": 1680.70371,
+          "actualEnd": 1783.874252,
+          "timeDifference": 16.513709999999946
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.883542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Familiar Paths Disappear and Life Demands Change"
+        },
+        {
+          "startTime": 276.075459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Familiar Paths Disappear and Life Demands Change and Chapter 2 The Power of Curiosity When the Old Answers Fail"
+        },
+        {
+          "startTime": 471.24987600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Curiosity When the Old Answers Fail and Chapter 3 Letting Go of Old Habits and Expectations"
+        },
+        {
+          "startTime": 651.186043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Letting Go of Old Habits and Expectations and Chapter 4 Self-Compassion and the Courage to Be Vulnerable"
+        },
+        {
+          "startTime": 823.2370430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Self-Compassion and the Courage to Be Vulnerable and Chapter 5 Faith That Grows and Changes in Uncertain Times"
+        },
+        {
+          "startTime": 1005.2475430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Faith That Grows and Changes in Uncertain Times and Chapter 6 Learning to Live in the In-Between"
+        },
+        {
+          "startTime": 1153.6524180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Learning to Live in the In-Between and Chapter 7 The Gentle Art of Beginning Again"
+        },
+        {
+          "startTime": 1283.859335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Gentle Art of Beginning Again and Chapter 8 Finding Joy in Small Things"
+        },
+        {
+          "startTime": 1423.893043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Finding Joy in Small Things and Chapter 9 The Strength of Community and Asking for Help"
+        },
+        {
+          "startTime": 1556.183835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Strength of Community and Asking for Help and Chapter 10 Embracing Change as a Lifelong Practice"
+        },
+        {
+          "startTime": 1679.20371,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Change as a Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2961",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:31:36.940Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

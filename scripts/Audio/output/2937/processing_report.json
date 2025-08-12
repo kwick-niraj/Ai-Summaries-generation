@@ -1,0 +1,504 @@
+{
+  "bookId": "2937",
+  "timestamp": "2025-07-14T05:39:19.453Z",
+  "success": false,
+  "processingTime": -1752471165779,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 6075,
+    "totalAudioFiles": 14,
+    "totalDuration": 2969.7269579999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2969.7269579999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2937/optimized_text/2937.md",
+    "fileSize": 896,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "2937.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2937/metadata/2937_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2969.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2937/metadata/2937_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2937/metadata/2937_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2937/2937_complete.wav",
+    "duration": 2969.726958,
+    "fileSize": 142546972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2937/introduction.wav",
+          "duration": 89.936875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.936875,
+          "startTime": 0,
+          "endTime": 89.936875
+        },
+        {
+          "path": "Audio/output/2937/chapter_01.wav",
+          "duration": 296.30325,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Intelligence: Moving Beyond the Human Ladder",
+          "actualDuration": 296.30325,
+          "startTime": 91.436875,
+          "endTime": 387.740125
+        },
+        {
+          "path": "Audio/output/2937/chapter_02.wav",
+          "duration": 302.0605,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Seeing Through Animal Eyes: The Problem of Human Bias",
+          "actualDuration": 302.0605,
+          "startTime": 389.240125,
+          "endTime": 691.300625
+        },
+        {
+          "path": "Audio/output/2937/chapter_03.wav",
+          "duration": 306.722083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Animal Minds at Work: Problem-Solving, Empathy, and Culture",
+          "actualDuration": 306.722083,
+          "startTime": 692.800625,
+          "endTime": 999.522708
+        },
+        {
+          "path": "Audio/output/2937/chapter_04.wav",
+          "duration": 286.364333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Testing: Why Human Experiments Often Miss the Mark",
+          "actualDuration": 286.364333,
+          "startTime": 1001.022708,
+          "endTime": 1287.387041
+        },
+        {
+          "path": "Audio/output/2937/chapter_05.wav",
+          "duration": 268.650208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Understanding Minds: Theory of Mind and Animal Awareness",
+          "actualDuration": 268.650208,
+          "startTime": 1288.887041,
+          "endTime": 1557.537249
+        },
+        {
+          "path": "Audio/output/2937/chapter_06.wav",
+          "duration": 225.995,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Social Lives and Animal Societies: Intelligence in Community",
+          "actualDuration": 225.995,
+          "startTime": 1559.037249,
+          "endTime": 1785.0322489999999
+        },
+        {
+          "path": "Audio/output/2937/chapter_07.wav",
+          "duration": 239.47575,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Communication: Language, Signals, and the Limits of Translation",
+          "actualDuration": 239.47575,
+          "startTime": 1786.5322489999999,
+          "endTime": 2026.007999
+        },
+        {
+          "path": "Audio/output/2937/chapter_08.wav",
+          "duration": 193.017542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Planning, and the Shape of Animal Futures",
+          "actualDuration": 193.017542,
+          "startTime": 2027.507999,
+          "endTime": 2220.525541
+        },
+        {
+          "path": "Audio/output/2937/chapter_09.wav",
+          "duration": 212.304875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Tools, Technology, and the Roots of Innovation",
+          "actualDuration": 212.304875,
+          "startTime": 2222.025541,
+          "endTime": 2434.330416
+        },
+        {
+          "path": "Audio/output/2937/chapter_10.wav",
+          "duration": 176.174,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Emotion, Suffering, and the Inner Lives of Animals",
+          "actualDuration": 176.174,
+          "startTime": 2435.830416,
+          "endTime": 2612.0044159999998
+        },
+        {
+          "path": "Audio/output/2937/chapter_11.wav",
+          "duration": 154.381167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ethics of Knowing: Responsibility and Respect",
+          "actualDuration": 154.381167,
+          "startTime": 2613.5044159999998,
+          "endTime": 2767.8855829999998
+        },
+        {
+          "path": "Audio/output/2937/chapter_12.wav",
+          "duration": 85.938917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Rethinking the Human Place: Lessons from Animal Minds",
+          "actualDuration": 85.938917,
+          "startTime": 2769.3855829999998,
+          "endTime": 2855.3244999999997
+        },
+        {
+          "path": "Audio/output/2937/conclusion.wav",
+          "duration": 132.402458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.402458,
+          "startTime": 2856.8244999999997,
+          "endTime": 2989.2269579999997
+        }
+      ],
+      "totalDuration": 2989.2269579999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.94,
+          "actualStart": 0,
+          "actualEnd": 89.936875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Intelligence: Moving Beyond the Human Ladder",
+          "expectedStart": 89.94,
+          "expectedEnd": 386.24,
+          "actualStart": 91.436875,
+          "actualEnd": 387.740125,
+          "timeDifference": 1.4968750000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Seeing Through Animal Eyes: The Problem of Human Bias",
+          "expectedStart": 386.24,
+          "expectedEnd": 688.3,
+          "actualStart": 389.240125,
+          "actualEnd": 691.300625,
+          "timeDifference": 3.0001249999999686
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Animal Minds at Work: Problem-Solving, Empathy, and Culture",
+          "expectedStart": 688.3,
+          "expectedEnd": 995.02,
+          "actualStart": 692.800625,
+          "actualEnd": 999.522708,
+          "timeDifference": 4.500625000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Testing: Why Human Experiments Often Miss the Mark",
+          "expectedStart": 995.02,
+          "expectedEnd": 1281.38,
+          "actualStart": 1001.022708,
+          "actualEnd": 1287.387041,
+          "timeDifference": 6.002707999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Understanding Minds: Theory of Mind and Animal Awareness",
+          "expectedStart": 1281.38,
+          "expectedEnd": 1550.03,
+          "actualStart": 1288.887041,
+          "actualEnd": 1557.537249,
+          "timeDifference": 7.507040999999845
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Social Lives and Animal Societies: Intelligence in Community",
+          "expectedStart": 1550.03,
+          "expectedEnd": 1776.03,
+          "actualStart": 1559.037249,
+          "actualEnd": 1785.0322489999999,
+          "timeDifference": 9.007249000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Communication: Language, Signals, and the Limits of Translation",
+          "expectedStart": 1776.03,
+          "expectedEnd": 2015.51,
+          "actualStart": 1786.5322489999999,
+          "actualEnd": 2026.007999,
+          "timeDifference": 10.502248999999892
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Planning, and the Shape of Animal Futures",
+          "expectedStart": 2015.51,
+          "expectedEnd": 2208.53,
+          "actualStart": 2027.507999,
+          "actualEnd": 2220.525541,
+          "timeDifference": 11.997998999999936
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Tools, Technology, and the Roots of Innovation",
+          "expectedStart": 2208.53,
+          "expectedEnd": 2420.83,
+          "actualStart": 2222.025541,
+          "actualEnd": 2434.330416,
+          "timeDifference": 13.495540999999776
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Emotion, Suffering, and the Inner Lives of Animals",
+          "expectedStart": 2420.83,
+          "expectedEnd": 2597,
+          "actualStart": 2435.830416,
+          "actualEnd": 2612.0044159999998,
+          "timeDifference": 15.00041599999986
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ethics of Knowing: Responsibility and Respect",
+          "expectedStart": 2597,
+          "expectedEnd": 2751.38,
+          "actualStart": 2613.5044159999998,
+          "actualEnd": 2767.8855829999998,
+          "timeDifference": 16.504415999999765
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Rethinking the Human Place: Lessons from Animal Minds",
+          "expectedStart": 2751.38,
+          "expectedEnd": 2837.32,
+          "actualStart": 2769.3855829999998,
+          "actualEnd": 2855.3244999999997,
+          "timeDifference": 18.00558299999966
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2837.32,
+          "expectedEnd": 2969.72,
+          "actualStart": 2856.8244999999997,
+          "actualEnd": 2989.2269579999997,
+          "timeDifference": 19.504499999999553
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.936875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Intelligence: Moving Beyond the Human Ladder"
+        },
+        {
+          "startTime": 387.740125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Intelligence: Moving Beyond the Human Ladder and Chapter 2 Seeing Through Animal Eyes: The Problem of Human Bias"
+        },
+        {
+          "startTime": 691.300625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Seeing Through Animal Eyes: The Problem of Human Bias and Chapter 3 Animal Minds at Work: Problem-Solving, Empathy, and Culture"
+        },
+        {
+          "startTime": 999.522708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Animal Minds at Work: Problem-Solving, Empathy, and Culture and Chapter 4 The Limits of Testing: Why Human Experiments Often Miss the Mark"
+        },
+        {
+          "startTime": 1287.387041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Testing: Why Human Experiments Often Miss the Mark and Chapter 5 Understanding Minds: Theory of Mind and Animal Awareness"
+        },
+        {
+          "startTime": 1557.537249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Understanding Minds: Theory of Mind and Animal Awareness and Chapter 6 Social Lives and Animal Societies: Intelligence in Community"
+        },
+        {
+          "startTime": 1785.0322489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Social Lives and Animal Societies: Intelligence in Community and Chapter 7 Communication: Language, Signals, and the Limits of Translation"
+        },
+        {
+          "startTime": 2026.007999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Communication: Language, Signals, and the Limits of Translation and Chapter 8 Memory, Planning, and the Shape of Animal Futures"
+        },
+        {
+          "startTime": 2220.525541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Planning, and the Shape of Animal Futures and Chapter 9 Tools, Technology, and the Roots of Innovation"
+        },
+        {
+          "startTime": 2434.330416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Tools, Technology, and the Roots of Innovation and Chapter 10 Emotion, Suffering, and the Inner Lives of Animals"
+        },
+        {
+          "startTime": 2612.0044159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Emotion, Suffering, and the Inner Lives of Animals and Chapter 11 The Ethics of Knowing: Responsibility and Respect"
+        },
+        {
+          "startTime": 2767.8855829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ethics of Knowing: Responsibility and Respect and Chapter 12 Rethinking the Human Place: Lessons from Animal Minds"
+        },
+        {
+          "startTime": 2855.3244999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Rethinking the Human Place: Lessons from Animal Minds and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2937",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:32:46.951Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

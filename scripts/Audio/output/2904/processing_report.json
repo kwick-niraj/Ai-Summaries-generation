@@ -1,0 +1,455 @@
+{
+  "bookId": "2904",
+  "timestamp": "2025-07-14T03:17:57.589Z",
+  "success": false,
+  "processingTime": -1752462808570,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4903,
+    "totalAudioFiles": 12,
+    "totalDuration": 2006.7028329999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2006.7028329999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2904/optimized_text/2904.md",
+    "fileSize": 643,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2904.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2904/metadata/2904_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2006.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2904/metadata/2904_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2904/metadata/2904_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2904/2904_complete.wav",
+    "duration": 2006.702833,
+    "fileSize": 96321814,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2904/introduction.wav",
+          "duration": 87.787542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.787542,
+          "startTime": 0,
+          "endTime": 87.787542
+        },
+        {
+          "path": "Audio/output/2904/chapter_01.wav",
+          "duration": 195.434125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Letter Across the Ocean Sparks an Unexpected Connection",
+          "actualDuration": 195.434125,
+          "startTime": 89.287542,
+          "endTime": 284.721667
+        },
+        {
+          "path": "Audio/output/2904/chapter_02.wav",
+          "duration": 221.984417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Books as Bridges Between Worlds",
+          "actualDuration": 221.984417,
+          "startTime": 286.221667,
+          "endTime": 508.20608400000003
+        },
+        {
+          "path": "Audio/output/2904/chapter_03.wav",
+          "duration": 188.059625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Kindness in Small Gestures During Hard Times",
+          "actualDuration": 188.059625,
+          "startTime": 509.70608400000003,
+          "endTime": 697.765709
+        },
+        {
+          "path": "Audio/output/2904/chapter_04.wav",
+          "duration": 207.653208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Discovering Each Other’s Worlds Through Words",
+          "actualDuration": 207.653208,
+          "startTime": 699.265709,
+          "endTime": 906.918917
+        },
+        {
+          "path": "Audio/output/2904/chapter_05.wav",
+          "duration": 187.538625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Enduring Power of Literary Friendship",
+          "actualDuration": 187.538625,
+          "startTime": 908.418917,
+          "endTime": 1095.9575419999999
+        },
+        {
+          "path": "Audio/output/2904/chapter_06.wav",
+          "duration": 167.334958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Letters That Outlast Distance and Time",
+          "actualDuration": 167.334958,
+          "startTime": 1097.4575419999999,
+          "endTime": 1264.7924999999998
+        },
+        {
+          "path": "Audio/output/2904/chapter_07.wav",
+          "duration": 176.578208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect—How Friendship Changes a Community",
+          "actualDuration": 176.578208,
+          "startTime": 1266.2924999999998,
+          "endTime": 1442.8707079999997
+        },
+        {
+          "path": "Audio/output/2904/chapter_08.wav",
+          "duration": 153.254958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Longing to Meet—Dreams Deferred and Hopes Renewed",
+          "actualDuration": 153.254958,
+          "startTime": 1444.3707079999997,
+          "endTime": 1597.6256659999997
+        },
+        {
+          "path": "Audio/output/2904/chapter_09.wav",
+          "duration": 163.110292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Loss, Memory, and the Unseen Goodbyes",
+          "actualDuration": 163.110292,
+          "startTime": 1599.1256659999997,
+          "endTime": 1762.2359579999998
+        },
+        {
+          "path": "Audio/output/2904/chapter_10.wav",
+          "duration": 159.625375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of 84, Charing Cross Road",
+          "actualDuration": 159.625375,
+          "startTime": 1763.7359579999998,
+          "endTime": 1923.3613329999998
+        },
+        {
+          "path": "Audio/output/2904/conclusion.wav",
+          "duration": 98.3415,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.3415,
+          "startTime": 1924.8613329999998,
+          "endTime": 2023.2028329999998
+        }
+      ],
+      "totalDuration": 2023.2028329999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.79,
+          "actualStart": 0,
+          "actualEnd": 87.787542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Letter Across the Ocean Sparks an Unexpected Connection",
+          "expectedStart": 87.79,
+          "expectedEnd": 283.22,
+          "actualStart": 89.287542,
+          "actualEnd": 284.721667,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Books as Bridges Between Worlds",
+          "expectedStart": 283.22,
+          "expectedEnd": 505.2,
+          "actualStart": 286.221667,
+          "actualEnd": 508.20608400000003,
+          "timeDifference": 3.0016669999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Kindness in Small Gestures During Hard Times",
+          "expectedStart": 505.2,
+          "expectedEnd": 693.26,
+          "actualStart": 509.70608400000003,
+          "actualEnd": 697.765709,
+          "timeDifference": 4.506084000000044
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Discovering Each Other’s Worlds Through Words",
+          "expectedStart": 693.26,
+          "expectedEnd": 900.91,
+          "actualStart": 699.265709,
+          "actualEnd": 906.918917,
+          "timeDifference": 6.005709000000024
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Enduring Power of Literary Friendship",
+          "expectedStart": 900.91,
+          "expectedEnd": 1088.45,
+          "actualStart": 908.418917,
+          "actualEnd": 1095.9575419999999,
+          "timeDifference": 7.508916999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Letters That Outlast Distance and Time",
+          "expectedStart": 1088.45,
+          "expectedEnd": 1255.78,
+          "actualStart": 1097.4575419999999,
+          "actualEnd": 1264.7924999999998,
+          "timeDifference": 9.00754199999983
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect—How Friendship Changes a Community",
+          "expectedStart": 1255.78,
+          "expectedEnd": 1432.36,
+          "actualStart": 1266.2924999999998,
+          "actualEnd": 1442.8707079999997,
+          "timeDifference": 10.512499999999818
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Longing to Meet—Dreams Deferred and Hopes Renewed",
+          "expectedStart": 1432.36,
+          "expectedEnd": 1585.61,
+          "actualStart": 1444.3707079999997,
+          "actualEnd": 1597.6256659999997,
+          "timeDifference": 12.010707999999795
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Loss, Memory, and the Unseen Goodbyes",
+          "expectedStart": 1585.61,
+          "expectedEnd": 1748.72,
+          "actualStart": 1599.1256659999997,
+          "actualEnd": 1762.2359579999998,
+          "timeDifference": 13.515665999999783
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of 84, Charing Cross Road",
+          "expectedStart": 1748.72,
+          "expectedEnd": 1908.35,
+          "actualStart": 1763.7359579999998,
+          "actualEnd": 1923.3613329999998,
+          "timeDifference": 15.015957999999728
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1908.35,
+          "expectedEnd": 2006.69,
+          "actualStart": 1924.8613329999998,
+          "actualEnd": 2023.2028329999998,
+          "timeDifference": 16.511332999999922
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.787542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Letter Across the Ocean Sparks an Unexpected Connection"
+        },
+        {
+          "startTime": 284.721667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Letter Across the Ocean Sparks an Unexpected Connection and Chapter 2 Books as Bridges Between Worlds"
+        },
+        {
+          "startTime": 508.20608400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Books as Bridges Between Worlds and Chapter 3 Kindness in Small Gestures During Hard Times"
+        },
+        {
+          "startTime": 697.765709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Kindness in Small Gestures During Hard Times and Chapter 4 Discovering Each Other’s Worlds Through Words"
+        },
+        {
+          "startTime": 906.918917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Discovering Each Other’s Worlds Through Words and Chapter 5 The Enduring Power of Literary Friendship"
+        },
+        {
+          "startTime": 1095.9575419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Enduring Power of Literary Friendship and Chapter 6 Letters That Outlast Distance and Time"
+        },
+        {
+          "startTime": 1264.7924999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Letters That Outlast Distance and Time and Chapter 7 The Ripple Effect—How Friendship Changes a Community"
+        },
+        {
+          "startTime": 1442.8707079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect—How Friendship Changes a Community and Chapter 8 The Longing to Meet—Dreams Deferred and Hopes Renewed"
+        },
+        {
+          "startTime": 1597.6256659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Longing to Meet—Dreams Deferred and Hopes Renewed and Chapter 9 Loss, Memory, and the Unseen Goodbyes"
+        },
+        {
+          "startTime": 1762.2359579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Loss, Memory, and the Unseen Goodbyes and Chapter 10 The Legacy of 84, Charing Cross Road"
+        },
+        {
+          "startTime": 1923.3613329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of 84, Charing Cross Road and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2904",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:13:29.072Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

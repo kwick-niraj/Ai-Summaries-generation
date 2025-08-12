@@ -1,0 +1,456 @@
+{
+  "bookId": "3063",
+  "timestamp": "2025-07-14T15:45:25.452Z",
+  "success": false,
+  "processingTime": -1752507439769,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4428,
+    "totalAudioFiles": 12,
+    "totalDuration": 2456.7370419999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2456.7370419999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3063/optimized_text/3063.md",
+    "fileSize": 767,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "3063.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3063/metadata/3063_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2456.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3063/metadata/3063_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3063/metadata/3063_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3063/3063_complete.wav",
+    "duration": 2456.737042,
+    "fileSize": 117923456,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3063/introduction.wav",
+          "duration": 98.198667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.198667,
+          "startTime": 0,
+          "endTime": 98.198667
+        },
+        {
+          "path": "Audio/output/3063/chapter_01.wav",
+          "duration": 213.028292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Digital Shift—A Personal Wake-Up Call",
+          "actualDuration": 213.028292,
+          "startTime": 99.698667,
+          "endTime": 312.72695899999997
+        },
+        {
+          "path": "Audio/output/3063/chapter_02.wav",
+          "duration": 235.072625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning to Learn Again—Overcoming Digital Discomfort",
+          "actualDuration": 235.072625,
+          "startTime": 314.22695899999997,
+          "endTime": 549.299584
+        },
+        {
+          "path": "Audio/output/3063/chapter_03.wav",
+          "duration": 265.576833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Digital Skills—From Hesitation to Confidence",
+          "actualDuration": 265.576833,
+          "startTime": 550.799584,
+          "endTime": 816.376417
+        },
+        {
+          "path": "Audio/output/3063/chapter_04.wav",
+          "duration": 248.299042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting to Change—Staying Relevant in a Fast-Moving World",
+          "actualDuration": 248.299042,
+          "startTime": 817.876417,
+          "endTime": 1066.175459
+        },
+        {
+          "path": "Audio/output/3063/chapter_05.wav",
+          "duration": 238.582708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Becoming a Digital Citizen—Responsibility and Opportunity",
+          "actualDuration": 238.582708,
+          "startTime": 1067.675459,
+          "endTime": 1306.258167
+        },
+        {
+          "path": "Audio/output/3063/chapter_06.wav",
+          "duration": 219.068542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mastering Advanced Digital Skills—Beyond the Basics",
+          "actualDuration": 219.068542,
+          "startTime": 1307.758167,
+          "endTime": 1526.826709
+        },
+        {
+          "path": "Audio/output/3063/chapter_07.wav",
+          "duration": 209.330417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lifelong Learning—Keeping Curiosity Alive",
+          "actualDuration": 209.330417,
+          "startTime": 1528.326709,
+          "endTime": 1737.657126
+        },
+        {
+          "path": "Audio/output/3063/chapter_08.wav",
+          "duration": 205.731583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Digital Transformation and Society—Shaping the World Together",
+          "actualDuration": 205.731583,
+          "startTime": 1739.157126,
+          "endTime": 1944.888709
+        },
+        {
+          "path": "Audio/output/3063/chapter_09.wav",
+          "duration": 193.905125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Digital Overload—Finding Balance in a Connected World",
+          "actualDuration": 193.905125,
+          "startTime": 1946.388709,
+          "endTime": 2140.293834
+        },
+        {
+          "path": "Audio/output/3063/chapter_10.wav",
+          "duration": 176.361,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Side of Digital—Empathy, Connection, and Meaning",
+          "actualDuration": 176.361,
+          "startTime": 2141.793834,
+          "endTime": 2318.154834
+        },
+        {
+          "path": "Audio/output/3063/conclusion.wav",
+          "duration": 153.582208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 153.582208,
+          "startTime": 2319.654834,
+          "endTime": 2473.2370419999997
+        }
+      ],
+      "totalDuration": 2473.2370419999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.2,
+          "actualStart": 0,
+          "actualEnd": 98.198667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Digital Shift—A Personal Wake-Up Call",
+          "expectedStart": 98.2,
+          "expectedEnd": 311.23,
+          "actualStart": 99.698667,
+          "actualEnd": 312.72695899999997,
+          "timeDifference": 1.4986669999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning to Learn Again—Overcoming Digital Discomfort",
+          "expectedStart": 311.23,
+          "expectedEnd": 546.3,
+          "actualStart": 314.22695899999997,
+          "actualEnd": 549.299584,
+          "timeDifference": 2.996958999999947
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Digital Skills—From Hesitation to Confidence",
+          "expectedStart": 546.3,
+          "expectedEnd": 811.88,
+          "actualStart": 550.799584,
+          "actualEnd": 816.376417,
+          "timeDifference": 4.499584000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting to Change—Staying Relevant in a Fast-Moving World",
+          "expectedStart": 811.88,
+          "expectedEnd": 1060.18,
+          "actualStart": 817.876417,
+          "actualEnd": 1066.175459,
+          "timeDifference": 5.996416999999951
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Becoming a Digital Citizen—Responsibility and Opportunity",
+          "expectedStart": 1060.18,
+          "expectedEnd": 1298.76,
+          "actualStart": 1067.675459,
+          "actualEnd": 1306.258167,
+          "timeDifference": 7.4954589999999826
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mastering Advanced Digital Skills—Beyond the Basics",
+          "expectedStart": 1298.76,
+          "expectedEnd": 1517.83,
+          "actualStart": 1307.758167,
+          "actualEnd": 1526.826709,
+          "timeDifference": 8.998166999999967
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lifelong Learning—Keeping Curiosity Alive",
+          "expectedStart": 1517.83,
+          "expectedEnd": 1727.16,
+          "actualStart": 1528.326709,
+          "actualEnd": 1737.657126,
+          "timeDifference": 10.49670900000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Digital Transformation and Society—Shaping the World Together",
+          "expectedStart": 1727.16,
+          "expectedEnd": 1932.89,
+          "actualStart": 1739.157126,
+          "actualEnd": 1944.888709,
+          "timeDifference": 11.99712599999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Digital Overload—Finding Balance in a Connected World",
+          "expectedStart": 1932.89,
+          "expectedEnd": 2126.8,
+          "actualStart": 1946.388709,
+          "actualEnd": 2140.293834,
+          "timeDifference": 13.498708999999963
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Side of Digital—Empathy, Connection, and Meaning",
+          "expectedStart": 2126.8,
+          "expectedEnd": 2303.16,
+          "actualStart": 2141.793834,
+          "actualEnd": 2318.154834,
+          "timeDifference": 14.993833999999879
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2303.16,
+          "expectedEnd": 2456.74,
+          "actualStart": 2319.654834,
+          "actualEnd": 2473.2370419999997,
+          "timeDifference": 16.494834000000083
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.198667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Digital Shift—A Personal Wake-Up Call"
+        },
+        {
+          "startTime": 312.72695899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Digital Shift—A Personal Wake-Up Call and Chapter 2 Learning to Learn Again—Overcoming Digital Discomfort"
+        },
+        {
+          "startTime": 549.299584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning to Learn Again—Overcoming Digital Discomfort and Chapter 3 Building Digital Skills—From Hesitation to Confidence"
+        },
+        {
+          "startTime": 816.376417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Digital Skills—From Hesitation to Confidence and Chapter 4 Adapting to Change—Staying Relevant in a Fast-Moving World"
+        },
+        {
+          "startTime": 1066.175459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting to Change—Staying Relevant in a Fast-Moving World and Chapter 5 Becoming a Digital Citizen—Responsibility and Opportunity"
+        },
+        {
+          "startTime": 1306.258167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Becoming a Digital Citizen—Responsibility and Opportunity and Chapter 6 Mastering Advanced Digital Skills—Beyond the Basics"
+        },
+        {
+          "startTime": 1526.826709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mastering Advanced Digital Skills—Beyond the Basics and Chapter 7 Lifelong Learning—Keeping Curiosity Alive"
+        },
+        {
+          "startTime": 1737.657126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lifelong Learning—Keeping Curiosity Alive and Chapter 8 Digital Transformation and Society—Shaping the World Together"
+        },
+        {
+          "startTime": 1944.888709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Digital Transformation and Society—Shaping the World Together and Chapter 9 Navigating Digital Overload—Finding Balance in a Connected World"
+        },
+        {
+          "startTime": 2140.293834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Digital Overload—Finding Balance in a Connected World and Chapter 10 The Human Side of Digital—Empathy, Connection, and Meaning"
+        },
+        {
+          "startTime": 2318.154834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Side of Digital—Empathy, Connection, and Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3063",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:37:21.056Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

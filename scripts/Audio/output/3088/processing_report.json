@@ -1,0 +1,456 @@
+{
+  "bookId": "3088",
+  "timestamp": "2025-07-14T17:28:53.892Z",
+  "success": false,
+  "processingTime": -1752513858386,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3396,
+    "totalAudioFiles": 12,
+    "totalDuration": 1811.542041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1811.542041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3088/optimized_text/3088.md",
+    "fileSize": 640,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "3088.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3088/metadata/3088_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1811.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3088/metadata/3088_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3088/metadata/3088_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3088/3088_complete.wav",
+    "duration": 1811.542042,
+    "fileSize": 86954096,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3088/introduction.wav",
+          "duration": 103.41325,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.41325,
+          "startTime": 0,
+          "endTime": 103.41325
+        },
+        {
+          "path": "Audio/output/3088/chapter_01.wav",
+          "duration": 199.026333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Wild Ride of Becoming a Parent",
+          "actualDuration": 199.026333,
+          "startTime": 104.91325,
+          "endTime": 303.93958299999997
+        },
+        {
+          "path": "Audio/output/3088/chapter_02.wav",
+          "duration": 190.427708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life in a Small Apartment with a Big Family",
+          "actualDuration": 190.427708,
+          "startTime": 305.43958299999997,
+          "endTime": 495.86729099999997
+        },
+        {
+          "path": "Audio/output/3088/chapter_03.wav",
+          "duration": 195.34875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Absurdities and Surprises of Everyday Parenting",
+          "actualDuration": 195.34875,
+          "startTime": 497.36729099999997,
+          "endTime": 692.7160409999999
+        },
+        {
+          "path": "Audio/output/3088/chapter_04.wav",
+          "duration": 159.541292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Balancing Work, Comedy, and Family Life",
+          "actualDuration": 159.541292,
+          "startTime": 694.2160409999999,
+          "endTime": 853.7573329999999
+        },
+        {
+          "path": "Audio/output/3088/chapter_05.wav",
+          "duration": 149.617875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Fatherhood in a Modern World",
+          "actualDuration": 149.617875,
+          "startTime": 855.2573329999999,
+          "endTime": 1004.8752079999999
+        },
+        {
+          "path": "Audio/output/3088/chapter_06.wav",
+          "duration": 136.302333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Comedy of Errors: Parenting Fails and Everyday Triumphs",
+          "actualDuration": 136.302333,
+          "startTime": 1006.3752079999999,
+          "endTime": 1142.677541
+        },
+        {
+          "path": "Audio/output/3088/chapter_07.wav",
+          "duration": 169.397583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sibling Dynamics: Rivalry, Friendship, and Everything In Between",
+          "actualDuration": 169.397583,
+          "startTime": 1144.177541,
+          "endTime": 1313.575124
+        },
+        {
+          "path": "Audio/output/3088/chapter_08.wav",
+          "duration": 125.865792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Letting Go: Growing Up and Moving Forward",
+          "actualDuration": 125.865792,
+          "startTime": 1315.075124,
+          "endTime": 1440.940916
+        },
+        {
+          "path": "Audio/output/3088/chapter_09.wav",
+          "duration": 121.14075,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Joy in the Ordinary",
+          "actualDuration": 121.14075,
+          "startTime": 1442.440916,
+          "endTime": 1563.581666
+        },
+        {
+          "path": "Audio/output/3088/chapter_10.wav",
+          "duration": 137.810708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lasting Lessons of Family",
+          "actualDuration": 137.810708,
+          "startTime": 1565.081666,
+          "endTime": 1702.892374
+        },
+        {
+          "path": "Audio/output/3088/conclusion.wav",
+          "duration": 123.649667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.649667,
+          "startTime": 1704.392374,
+          "endTime": 1828.042041
+        }
+      ],
+      "totalDuration": 1828.042041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.41,
+          "actualStart": 0,
+          "actualEnd": 103.41325,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Wild Ride of Becoming a Parent",
+          "expectedStart": 103.41,
+          "expectedEnd": 302.44,
+          "actualStart": 104.91325,
+          "actualEnd": 303.93958299999997,
+          "timeDifference": 1.5032500000000084
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life in a Small Apartment with a Big Family",
+          "expectedStart": 302.44,
+          "expectedEnd": 492.87,
+          "actualStart": 305.43958299999997,
+          "actualEnd": 495.86729099999997,
+          "timeDifference": 2.999582999999973
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Absurdities and Surprises of Everyday Parenting",
+          "expectedStart": 492.87,
+          "expectedEnd": 688.22,
+          "actualStart": 497.36729099999997,
+          "actualEnd": 692.7160409999999,
+          "timeDifference": 4.4972909999999615
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Balancing Work, Comedy, and Family Life",
+          "expectedStart": 688.22,
+          "expectedEnd": 847.76,
+          "actualStart": 694.2160409999999,
+          "actualEnd": 853.7573329999999,
+          "timeDifference": 5.996040999999877
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Fatherhood in a Modern World",
+          "expectedStart": 847.76,
+          "expectedEnd": 997.38,
+          "actualStart": 855.2573329999999,
+          "actualEnd": 1004.8752079999999,
+          "timeDifference": 7.497332999999912
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Comedy of Errors: Parenting Fails and Everyday Triumphs",
+          "expectedStart": 997.38,
+          "expectedEnd": 1133.68,
+          "actualStart": 1006.3752079999999,
+          "actualEnd": 1142.677541,
+          "timeDifference": 8.995207999999934
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sibling Dynamics: Rivalry, Friendship, and Everything In Between",
+          "expectedStart": 1133.68,
+          "expectedEnd": 1303.08,
+          "actualStart": 1144.177541,
+          "actualEnd": 1313.575124,
+          "timeDifference": 10.497540999999956
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Letting Go: Growing Up and Moving Forward",
+          "expectedStart": 1303.08,
+          "expectedEnd": 1428.95,
+          "actualStart": 1315.075124,
+          "actualEnd": 1440.940916,
+          "timeDifference": 11.995124000000033
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Joy in the Ordinary",
+          "expectedStart": 1428.95,
+          "expectedEnd": 1550.09,
+          "actualStart": 1442.440916,
+          "actualEnd": 1563.581666,
+          "timeDifference": 13.49091599999997
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lasting Lessons of Family",
+          "expectedStart": 1550.09,
+          "expectedEnd": 1687.9,
+          "actualStart": 1565.081666,
+          "actualEnd": 1702.892374,
+          "timeDifference": 14.991666000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1687.9,
+          "expectedEnd": 1811.55,
+          "actualStart": 1704.392374,
+          "actualEnd": 1828.042041,
+          "timeDifference": 16.492373999999927
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.41325,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Wild Ride of Becoming a Parent"
+        },
+        {
+          "startTime": 303.93958299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Wild Ride of Becoming a Parent and Chapter 2 Life in a Small Apartment with a Big Family"
+        },
+        {
+          "startTime": 495.86729099999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life in a Small Apartment with a Big Family and Chapter 3 The Absurdities and Surprises of Everyday Parenting"
+        },
+        {
+          "startTime": 692.7160409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Absurdities and Surprises of Everyday Parenting and Chapter 4 Balancing Work, Comedy, and Family Life"
+        },
+        {
+          "startTime": 853.7573329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Balancing Work, Comedy, and Family Life and Chapter 5 Redefining Fatherhood in a Modern World"
+        },
+        {
+          "startTime": 1004.8752079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Fatherhood in a Modern World and Chapter 6 The Comedy of Errors: Parenting Fails and Everyday Triumphs"
+        },
+        {
+          "startTime": 1142.677541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Comedy of Errors: Parenting Fails and Everyday Triumphs and Chapter 7 Sibling Dynamics: Rivalry, Friendship, and Everything In Between"
+        },
+        {
+          "startTime": 1313.575124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sibling Dynamics: Rivalry, Friendship, and Everything In Between and Chapter 8 The Art of Letting Go: Growing Up and Moving Forward"
+        },
+        {
+          "startTime": 1440.940916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Letting Go: Growing Up and Moving Forward and Chapter 9 Finding Joy in the Ordinary"
+        },
+        {
+          "startTime": 1563.581666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Joy in the Ordinary and Chapter 10 The Lasting Lessons of Family"
+        },
+        {
+          "startTime": 1702.892374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lasting Lessons of Family and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3088",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:24:18.932Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

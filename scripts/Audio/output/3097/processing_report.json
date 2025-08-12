@@ -1,0 +1,479 @@
+{
+  "bookId": "3097",
+  "timestamp": "2025-07-14T18:15:43.150Z",
+  "success": false,
+  "processingTime": -1752516528850,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4660,
+    "totalAudioFiles": 13,
+    "totalDuration": 2000.6469159999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2000.6469159999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3097/optimized_text/3097.md",
+    "fileSize": 607,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "3097.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3097/metadata/3097_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2000.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3097/metadata/3097_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3097/metadata/3097_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3097/3097_complete.wav",
+    "duration": 2000.646917,
+    "fileSize": 96031130,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3097/introduction.wav",
+          "duration": 83.100292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.100292,
+          "startTime": 0,
+          "endTime": 83.100292
+        },
+        {
+          "path": "Audio/output/3097/chapter_01.wav",
+          "duration": 181.024167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking What’s “Natural” About Human Relationships",
+          "actualDuration": 181.024167,
+          "startTime": 84.600292,
+          "endTime": 265.624459
+        },
+        {
+          "path": "Audio/output/3097/chapter_02.wav",
+          "duration": 211.383208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Early Humans Lived and Loved",
+          "actualDuration": 211.383208,
+          "startTime": 267.124459,
+          "endTime": 478.50766699999997
+        },
+        {
+          "path": "Audio/output/3097/chapter_03.wav",
+          "duration": 226.754833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Lessons from Our Primate Relatives",
+          "actualDuration": 226.754833,
+          "startTime": 480.00766699999997,
+          "endTime": 706.7624999999999
+        },
+        {
+          "path": "Audio/output/3097/chapter_04.wav",
+          "duration": 189.376542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Shift to Agriculture and the Birth of Monogamy",
+          "actualDuration": 189.376542,
+          "startTime": 708.2624999999999,
+          "endTime": 897.6390419999999
+        },
+        {
+          "path": "Audio/output/3097/chapter_05.wav",
+          "duration": 183.212583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Modern Struggle with Monogamy",
+          "actualDuration": 183.212583,
+          "startTime": 899.1390419999999,
+          "endTime": 1082.3516249999998
+        },
+        {
+          "path": "Audio/output/3097/chapter_06.wav",
+          "duration": 160.329958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Cultural Stories",
+          "actualDuration": 160.329958,
+          "startTime": 1083.8516249999998,
+          "endTime": 1244.1815829999998
+        },
+        {
+          "path": "Audio/output/3097/chapter_07.wav",
+          "duration": 160.712625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Desire",
+          "actualDuration": 160.712625,
+          "startTime": 1245.6815829999998,
+          "endTime": 1406.3942079999997
+        },
+        {
+          "path": "Audio/output/3097/chapter_08.wav",
+          "duration": 155.49275,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Jealousy, Trust, and the Human Heart",
+          "actualDuration": 155.49275,
+          "startTime": 1407.8942079999997,
+          "endTime": 1563.3869579999996
+        },
+        {
+          "path": "Audio/output/3097/chapter_09.wav",
+          "duration": 133.198083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 New Models of Love and Connection",
+          "actualDuration": 133.198083,
+          "startTime": 1564.8869579999996,
+          "endTime": 1698.0850409999996
+        },
+        {
+          "path": "Audio/output/3097/chapter_10.wav",
+          "duration": 113.338625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Healing Shame and Embracing Honesty",
+          "actualDuration": 113.338625,
+          "startTime": 1699.5850409999996,
+          "endTime": 1812.9236659999997
+        },
+        {
+          "path": "Audio/output/3097/chapter_11.wav",
+          "duration": 82.250458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ongoing Conversation",
+          "actualDuration": 82.250458,
+          "startTime": 1814.4236659999997,
+          "endTime": 1896.6741239999997
+        },
+        {
+          "path": "Audio/output/3097/conclusion.wav",
+          "duration": 120.472792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.472792,
+          "startTime": 1898.1741239999997,
+          "endTime": 2018.6469159999997
+        }
+      ],
+      "totalDuration": 2018.6469159999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.1,
+          "actualStart": 0,
+          "actualEnd": 83.100292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking What’s “Natural” About Human Relationships",
+          "expectedStart": 83.1,
+          "expectedEnd": 264.12,
+          "actualStart": 84.600292,
+          "actualEnd": 265.624459,
+          "timeDifference": 1.5002920000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Early Humans Lived and Loved",
+          "expectedStart": 264.12,
+          "expectedEnd": 475.5,
+          "actualStart": 267.124459,
+          "actualEnd": 478.50766699999997,
+          "timeDifference": 3.004458999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Lessons from Our Primate Relatives",
+          "expectedStart": 475.5,
+          "expectedEnd": 702.25,
+          "actualStart": 480.00766699999997,
+          "actualEnd": 706.7624999999999,
+          "timeDifference": 4.5076669999999694
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Shift to Agriculture and the Birth of Monogamy",
+          "expectedStart": 702.25,
+          "expectedEnd": 891.63,
+          "actualStart": 708.2624999999999,
+          "actualEnd": 897.6390419999999,
+          "timeDifference": 6.012499999999932
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Modern Struggle with Monogamy",
+          "expectedStart": 891.63,
+          "expectedEnd": 1074.84,
+          "actualStart": 899.1390419999999,
+          "actualEnd": 1082.3516249999998,
+          "timeDifference": 7.5090419999999085
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Cultural Stories",
+          "expectedStart": 1074.84,
+          "expectedEnd": 1235.17,
+          "actualStart": 1083.8516249999998,
+          "actualEnd": 1244.1815829999998,
+          "timeDifference": 9.011624999999867
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Desire",
+          "expectedStart": 1235.17,
+          "expectedEnd": 1395.88,
+          "actualStart": 1245.6815829999998,
+          "actualEnd": 1406.3942079999997,
+          "timeDifference": 10.511582999999746
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Jealousy, Trust, and the Human Heart",
+          "expectedStart": 1395.88,
+          "expectedEnd": 1551.37,
+          "actualStart": 1407.8942079999997,
+          "actualEnd": 1563.3869579999996,
+          "timeDifference": 12.014207999999599
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 New Models of Love and Connection",
+          "expectedStart": 1551.37,
+          "expectedEnd": 1684.57,
+          "actualStart": 1564.8869579999996,
+          "actualEnd": 1698.0850409999996,
+          "timeDifference": 13.516957999999704
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Healing Shame and Embracing Honesty",
+          "expectedStart": 1684.57,
+          "expectedEnd": 1797.91,
+          "actualStart": 1699.5850409999996,
+          "actualEnd": 1812.9236659999997,
+          "timeDifference": 15.015040999999655
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ongoing Conversation",
+          "expectedStart": 1797.91,
+          "expectedEnd": 1880.16,
+          "actualStart": 1814.4236659999997,
+          "actualEnd": 1896.6741239999997,
+          "timeDifference": 16.513665999999603
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1880.16,
+          "expectedEnd": 2000.63,
+          "actualStart": 1898.1741239999997,
+          "actualEnd": 2018.6469159999997,
+          "timeDifference": 18.014123999999583
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.100292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking What’s “Natural” About Human Relationships"
+        },
+        {
+          "startTime": 265.624459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking What’s “Natural” About Human Relationships and Chapter 2 How Early Humans Lived and Loved"
+        },
+        {
+          "startTime": 478.50766699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Early Humans Lived and Loved and Chapter 3 Lessons from Our Primate Relatives"
+        },
+        {
+          "startTime": 706.7624999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Lessons from Our Primate Relatives and Chapter 4 The Shift to Agriculture and the Birth of Monogamy"
+        },
+        {
+          "startTime": 897.6390419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Shift to Agriculture and the Birth of Monogamy and Chapter 5 The Modern Struggle with Monogamy"
+        },
+        {
+          "startTime": 1082.3516249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Modern Struggle with Monogamy and Chapter 6 The Power of Cultural Stories"
+        },
+        {
+          "startTime": 1244.1815829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Cultural Stories and Chapter 7 The Science of Desire"
+        },
+        {
+          "startTime": 1406.3942079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Desire and Chapter 8 Jealousy, Trust, and the Human Heart"
+        },
+        {
+          "startTime": 1563.3869579999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Jealousy, Trust, and the Human Heart and Chapter 9 New Models of Love and Connection"
+        },
+        {
+          "startTime": 1698.0850409999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 New Models of Love and Connection and Chapter 10 Healing Shame and Embracing Honesty"
+        },
+        {
+          "startTime": 1812.9236659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Healing Shame and Embracing Honesty and Chapter 11 The Ongoing Conversation"
+        },
+        {
+          "startTime": 1896.6741239999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ongoing Conversation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3097",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:08:50.083Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

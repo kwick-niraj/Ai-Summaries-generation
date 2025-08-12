@@ -1,0 +1,456 @@
+{
+  "bookId": "2974",
+  "timestamp": "2025-07-14T08:45:19.080Z",
+  "success": false,
+  "processingTime": -1752482392881,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3474,
+    "totalAudioFiles": 12,
+    "totalDuration": 1920.011082
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1920.011082
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2974/optimized_text/2974.md",
+    "fileSize": 788,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2974.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2974/metadata/2974_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1919.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2974/metadata/2974_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2974/metadata/2974_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2974/2974_complete.wav",
+    "duration": 1920.011083,
+    "fileSize": 92160610,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2974/introduction.wav",
+          "duration": 91.642083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.642083,
+          "startTime": 0,
+          "endTime": 91.642083
+        },
+        {
+          "path": "Audio/output/2974/chapter_01.wav",
+          "duration": 239.080417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Motivation—Why Rewards and Punishments Fall Short",
+          "actualDuration": 239.080417,
+          "startTime": 93.142083,
+          "endTime": 332.2225
+        },
+        {
+          "path": "Audio/output/2974/chapter_02.wav",
+          "duration": 196.78275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science of Intrinsic Motivation—What Really Drives Us",
+          "actualDuration": 196.78275,
+          "startTime": 333.7225,
+          "endTime": 530.50525
+        },
+        {
+          "path": "Audio/output/2974/chapter_03.wav",
+          "duration": 212.724625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Autonomy—The Power of Self-Direction in Work and Learning",
+          "actualDuration": 212.724625,
+          "startTime": 532.00525,
+          "endTime": 744.729875
+        },
+        {
+          "path": "Audio/output/2974/chapter_04.wav",
+          "duration": 192.184958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mastery—The Drive to Get Better at What Matters",
+          "actualDuration": 192.184958,
+          "startTime": 746.229875,
+          "endTime": 938.414833
+        },
+        {
+          "path": "Audio/output/2974/chapter_05.wav",
+          "duration": 157.982833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Purpose—Connecting Effort to Something Larger",
+          "actualDuration": 157.982833,
+          "startTime": 939.914833,
+          "endTime": 1097.897666
+        },
+        {
+          "path": "Audio/output/2974/chapter_06.wav",
+          "duration": 148.666792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Autonomy, Mastery, and Purpose into Everyday Practice",
+          "actualDuration": 148.666792,
+          "startTime": 1099.397666,
+          "endTime": 1248.064458
+        },
+        {
+          "path": "Audio/output/2974/chapter_07.wav",
+          "duration": 161.756208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Obstacles—Addressing Barriers to Intrinsic Motivation",
+          "actualDuration": 161.756208,
+          "startTime": 1249.564458,
+          "endTime": 1411.320666
+        },
+        {
+          "path": "Audio/output/2974/chapter_08.wav",
+          "duration": 136.544833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Leadership—Creating Motivating Environments",
+          "actualDuration": 136.544833,
+          "startTime": 1412.820666,
+          "endTime": 1549.365499
+        },
+        {
+          "path": "Audio/output/2974/chapter_09.wav",
+          "duration": 132.114042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Applying the Framework—Motivation in Schools, Workplaces, and Personal Life",
+          "actualDuration": 132.114042,
+          "startTime": 1550.865499,
+          "endTime": 1682.979541
+        },
+        {
+          "path": "Audio/output/2974/chapter_10.wav",
+          "duration": 110.261708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Motivation—Habits for the Long Run",
+          "actualDuration": 110.261708,
+          "startTime": 1684.479541,
+          "endTime": 1794.741249
+        },
+        {
+          "path": "Audio/output/2974/conclusion.wav",
+          "duration": 140.269833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.269833,
+          "startTime": 1796.241249,
+          "endTime": 1936.511082
+        }
+      ],
+      "totalDuration": 1936.511082,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.64,
+          "actualStart": 0,
+          "actualEnd": 91.642083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Motivation—Why Rewards and Punishments Fall Short",
+          "expectedStart": 91.64,
+          "expectedEnd": 330.72,
+          "actualStart": 93.142083,
+          "actualEnd": 332.2225,
+          "timeDifference": 1.502082999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science of Intrinsic Motivation—What Really Drives Us",
+          "expectedStart": 330.72,
+          "expectedEnd": 527.5,
+          "actualStart": 333.7225,
+          "actualEnd": 530.50525,
+          "timeDifference": 3.0024999999999977
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Autonomy—The Power of Self-Direction in Work and Learning",
+          "expectedStart": 527.5,
+          "expectedEnd": 740.22,
+          "actualStart": 532.00525,
+          "actualEnd": 744.729875,
+          "timeDifference": 4.505250000000046
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mastery—The Drive to Get Better at What Matters",
+          "expectedStart": 740.22,
+          "expectedEnd": 932.4,
+          "actualStart": 746.229875,
+          "actualEnd": 938.414833,
+          "timeDifference": 6.009874999999965
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Purpose—Connecting Effort to Something Larger",
+          "expectedStart": 932.4,
+          "expectedEnd": 1090.38,
+          "actualStart": 939.914833,
+          "actualEnd": 1097.897666,
+          "timeDifference": 7.514833000000067
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Autonomy, Mastery, and Purpose into Everyday Practice",
+          "expectedStart": 1090.38,
+          "expectedEnd": 1239.05,
+          "actualStart": 1099.397666,
+          "actualEnd": 1248.064458,
+          "timeDifference": 9.017665999999963
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Obstacles—Addressing Barriers to Intrinsic Motivation",
+          "expectedStart": 1239.05,
+          "expectedEnd": 1400.81,
+          "actualStart": 1249.564458,
+          "actualEnd": 1411.320666,
+          "timeDifference": 10.514458000000104
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Leadership—Creating Motivating Environments",
+          "expectedStart": 1400.81,
+          "expectedEnd": 1537.35,
+          "actualStart": 1412.820666,
+          "actualEnd": 1549.365499,
+          "timeDifference": 12.010666000000128
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Applying the Framework—Motivation in Schools, Workplaces, and Personal Life",
+          "expectedStart": 1537.35,
+          "expectedEnd": 1669.46,
+          "actualStart": 1550.865499,
+          "actualEnd": 1682.979541,
+          "timeDifference": 13.51549900000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Motivation—Habits for the Long Run",
+          "expectedStart": 1669.46,
+          "expectedEnd": 1779.72,
+          "actualStart": 1684.479541,
+          "actualEnd": 1794.741249,
+          "timeDifference": 15.01954099999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1779.72,
+          "expectedEnd": 1919.99,
+          "actualStart": 1796.241249,
+          "actualEnd": 1936.511082,
+          "timeDifference": 16.521248999999898
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.642083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Motivation—Why Rewards and Punishments Fall Short"
+        },
+        {
+          "startTime": 332.2225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Motivation—Why Rewards and Punishments Fall Short and Chapter 2 The Science of Intrinsic Motivation—What Really Drives Us"
+        },
+        {
+          "startTime": 530.50525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science of Intrinsic Motivation—What Really Drives Us and Chapter 3 Autonomy—The Power of Self-Direction in Work and Learning"
+        },
+        {
+          "startTime": 744.729875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Autonomy—The Power of Self-Direction in Work and Learning and Chapter 4 Mastery—The Drive to Get Better at What Matters"
+        },
+        {
+          "startTime": 938.414833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mastery—The Drive to Get Better at What Matters and Chapter 5 Purpose—Connecting Effort to Something Larger"
+        },
+        {
+          "startTime": 1097.897666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Purpose—Connecting Effort to Something Larger and Chapter 6 Building Autonomy, Mastery, and Purpose into Everyday Practice"
+        },
+        {
+          "startTime": 1248.064458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Autonomy, Mastery, and Purpose into Everyday Practice and Chapter 7 Overcoming Obstacles—Addressing Barriers to Intrinsic Motivation"
+        },
+        {
+          "startTime": 1411.320666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Obstacles—Addressing Barriers to Intrinsic Motivation and Chapter 8 The Role of Leadership—Creating Motivating Environments"
+        },
+        {
+          "startTime": 1549.365499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Leadership—Creating Motivating Environments and Chapter 9 Applying the Framework—Motivation in Schools, Workplaces, and Personal Life"
+        },
+        {
+          "startTime": 1682.979541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Applying the Framework—Motivation in Schools, Workplaces, and Personal Life and Chapter 10 Sustaining Motivation—Habits for the Long Run"
+        },
+        {
+          "startTime": 1794.741249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Motivation—Habits for the Long Run and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2974",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T08:39:52.899Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

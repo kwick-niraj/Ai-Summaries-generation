@@ -1,0 +1,456 @@
+{
+  "bookId": "2860",
+  "timestamp": "2025-07-14T01:01:50.881Z",
+  "success": false,
+  "processingTime": -1752454609245,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4269,
+    "totalAudioFiles": 12,
+    "totalDuration": 2275.7876229999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2275.7876229999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2860/optimized_text/2860.md",
+    "fileSize": 636,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2860.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2860/metadata/2860_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2275.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2860/metadata/2860_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2860/metadata/2860_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2860/2860_complete.wav",
+    "duration": 2275.787625,
+    "fileSize": 109237884,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2860/introduction.wav",
+          "duration": 92.277,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.277,
+          "startTime": 0,
+          "endTime": 92.277
+        },
+        {
+          "path": "Audio/output/2860/chapter_01.wav",
+          "duration": 250.763208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Everyday Objects Confuse and Frustrate",
+          "actualDuration": 250.763208,
+          "startTime": 93.777,
+          "endTime": 344.540208
+        },
+        {
+          "path": "Audio/output/2860/chapter_02.wav",
+          "duration": 232.207083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How People Understand and Interact with Objects",
+          "actualDuration": 232.207083,
+          "startTime": 346.040208,
+          "endTime": 578.247291
+        },
+        {
+          "path": "Audio/output/2860/chapter_03.wav",
+          "duration": 228.265542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Human Error and the Blame Game",
+          "actualDuration": 228.265542,
+          "startTime": 579.747291,
+          "endTime": 808.012833
+        },
+        {
+          "path": "Audio/output/2860/chapter_04.wav",
+          "duration": 272.936708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Principles for Designing with People in Mind",
+          "actualDuration": 272.936708,
+          "startTime": 809.512833,
+          "endTime": 1082.449541
+        },
+        {
+          "path": "Audio/output/2860/chapter_05.wav",
+          "duration": 216.404542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Importance of Iteration and Real-World Testing",
+          "actualDuration": 216.404542,
+          "startTime": 1083.949541,
+          "endTime": 1300.354083
+        },
+        {
+          "path": "Audio/output/2860/chapter_06.wav",
+          "duration": 180.552583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Constraints and Forcing Functions",
+          "actualDuration": 180.552583,
+          "startTime": 1301.854083,
+          "endTime": 1482.4066659999999
+        },
+        {
+          "path": "Audio/output/2860/chapter_07.wav",
+          "duration": 165.742583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Challenge of Complex Systems",
+          "actualDuration": 165.742583,
+          "startTime": 1483.9066659999999,
+          "endTime": 1649.6492489999998
+        },
+        {
+          "path": "Audio/output/2860/chapter_08.wav",
+          "duration": 172.855208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Human-Centered Design in the Age of Technology",
+          "actualDuration": 172.855208,
+          "startTime": 1651.1492489999998,
+          "endTime": 1824.0044569999998
+        },
+        {
+          "path": "Audio/output/2860/chapter_09.wav",
+          "duration": 174.823958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Designing for Error and Recovery",
+          "actualDuration": 174.823958,
+          "startTime": 1825.5044569999998,
+          "endTime": 2000.3284149999997
+        },
+        {
+          "path": "Audio/output/2860/chapter_10.wav",
+          "duration": 173.052583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Human-Centered Design into Organizations",
+          "actualDuration": 173.052583,
+          "startTime": 2001.8284149999997,
+          "endTime": 2174.8809979999996
+        },
+        {
+          "path": "Audio/output/2860/conclusion.wav",
+          "duration": 115.906625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.906625,
+          "startTime": 2176.3809979999996,
+          "endTime": 2292.2876229999997
+        }
+      ],
+      "totalDuration": 2292.2876229999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.28,
+          "actualStart": 0,
+          "actualEnd": 92.277,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Everyday Objects Confuse and Frustrate",
+          "expectedStart": 92.28,
+          "expectedEnd": 343.04,
+          "actualStart": 93.777,
+          "actualEnd": 344.540208,
+          "timeDifference": 1.4969999999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How People Understand and Interact with Objects",
+          "expectedStart": 343.04,
+          "expectedEnd": 575.25,
+          "actualStart": 346.040208,
+          "actualEnd": 578.247291,
+          "timeDifference": 3.0002079999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Human Error and the Blame Game",
+          "expectedStart": 575.25,
+          "expectedEnd": 803.52,
+          "actualStart": 579.747291,
+          "actualEnd": 808.012833,
+          "timeDifference": 4.497291000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Principles for Designing with People in Mind",
+          "expectedStart": 803.52,
+          "expectedEnd": 1076.46,
+          "actualStart": 809.512833,
+          "actualEnd": 1082.449541,
+          "timeDifference": 5.992833000000019
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Importance of Iteration and Real-World Testing",
+          "expectedStart": 1076.46,
+          "expectedEnd": 1292.86,
+          "actualStart": 1083.949541,
+          "actualEnd": 1300.354083,
+          "timeDifference": 7.489540999999917
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Constraints and Forcing Functions",
+          "expectedStart": 1292.86,
+          "expectedEnd": 1473.41,
+          "actualStart": 1301.854083,
+          "actualEnd": 1482.4066659999999,
+          "timeDifference": 8.994083000000046
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Challenge of Complex Systems",
+          "expectedStart": 1473.41,
+          "expectedEnd": 1639.15,
+          "actualStart": 1483.9066659999999,
+          "actualEnd": 1649.6492489999998,
+          "timeDifference": 10.496665999999777
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Human-Centered Design in the Age of Technology",
+          "expectedStart": 1639.15,
+          "expectedEnd": 1812.01,
+          "actualStart": 1651.1492489999998,
+          "actualEnd": 1824.0044569999998,
+          "timeDifference": 11.999248999999736
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Designing for Error and Recovery",
+          "expectedStart": 1812.01,
+          "expectedEnd": 1986.83,
+          "actualStart": 1825.5044569999998,
+          "actualEnd": 2000.3284149999997,
+          "timeDifference": 13.494456999999784
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Human-Centered Design into Organizations",
+          "expectedStart": 1986.83,
+          "expectedEnd": 2159.88,
+          "actualStart": 2001.8284149999997,
+          "actualEnd": 2174.8809979999996,
+          "timeDifference": 14.998414999999795
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2159.88,
+          "expectedEnd": 2275.79,
+          "actualStart": 2176.3809979999996,
+          "actualEnd": 2292.2876229999997,
+          "timeDifference": 16.500997999999527
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.277,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Everyday Objects Confuse and Frustrate"
+        },
+        {
+          "startTime": 344.540208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Everyday Objects Confuse and Frustrate and Chapter 2 How People Understand and Interact with Objects"
+        },
+        {
+          "startTime": 578.247291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How People Understand and Interact with Objects and Chapter 3 The Role of Human Error and the Blame Game"
+        },
+        {
+          "startTime": 808.012833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Human Error and the Blame Game and Chapter 4 Principles for Designing with People in Mind"
+        },
+        {
+          "startTime": 1082.449541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Principles for Designing with People in Mind and Chapter 5 The Importance of Iteration and Real-World Testing"
+        },
+        {
+          "startTime": 1300.354083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Importance of Iteration and Real-World Testing and Chapter 6 The Power of Constraints and Forcing Functions"
+        },
+        {
+          "startTime": 1482.4066659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Constraints and Forcing Functions and Chapter 7 The Challenge of Complex Systems"
+        },
+        {
+          "startTime": 1649.6492489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Challenge of Complex Systems and Chapter 8 Human-Centered Design in the Age of Technology"
+        },
+        {
+          "startTime": 1824.0044569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Human-Centered Design in the Age of Technology and Chapter 9 Designing for Error and Recovery"
+        },
+        {
+          "startTime": 2000.3284149999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Designing for Error and Recovery and Chapter 10 Integrating Human-Centered Design into Organizations"
+        },
+        {
+          "startTime": 2174.8809979999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Human-Centered Design into Organizations and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2860",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:56:50.508Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

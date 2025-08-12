@@ -1,0 +1,456 @@
+{
+  "bookId": "3010",
+  "timestamp": "2025-07-14T11:05:54.308Z",
+  "success": false,
+  "processingTime": -1752490885026,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3417,
+    "totalAudioFiles": 12,
+    "totalDuration": 1850.194251
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1850.194251
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3010/optimized_text/3010.md",
+    "fileSize": 774,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "3010.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3010/metadata/3010_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1850.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3010/metadata/3010_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3010/metadata/3010_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3010/3010_complete.wav",
+    "duration": 1850.19425,
+    "fileSize": 88809402,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3010/introduction.wav",
+          "duration": 81.138375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.138375,
+          "startTime": 0,
+          "endTime": 81.138375
+        },
+        {
+          "path": "Audio/output/3010/chapter_01.wav",
+          "duration": 159.274875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Change Feels So Difficult: The Two Sides of Human Behavior",
+          "actualDuration": 159.274875,
+          "startTime": 82.638375,
+          "endTime": 241.91325
+        },
+        {
+          "path": "Audio/output/3010/chapter_02.wav",
+          "duration": 176.102292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Giving Clear Direction: Guiding the Rational Mind",
+          "actualDuration": 176.102292,
+          "startTime": 243.41325,
+          "endTime": 419.515542
+        },
+        {
+          "path": "Audio/output/3010/chapter_03.wav",
+          "duration": 182.386125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Motivating the Emotional Side: Engaging Feelings for Lasting Change",
+          "actualDuration": 182.386125,
+          "startTime": 421.015542,
+          "endTime": 603.401667
+        },
+        {
+          "path": "Audio/output/3010/chapter_04.wav",
+          "duration": 160.677167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Shaping the Environment: Making Change Easier by Tweaking the Path",
+          "actualDuration": 160.677167,
+          "startTime": 604.901667,
+          "endTime": 765.5788339999999
+        },
+        {
+          "path": "Audio/output/3010/chapter_05.wav",
+          "duration": 184.32275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Momentum: The Power of Small Wins and New Habits",
+          "actualDuration": 184.32275,
+          "startTime": 767.0788339999999,
+          "endTime": 951.401584
+        },
+        {
+          "path": "Audio/output/3010/chapter_06.wav",
+          "duration": 172.406292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Overcoming Setbacks: Navigating Obstacles and Relapses",
+          "actualDuration": 172.406292,
+          "startTime": 952.901584,
+          "endTime": 1125.3078759999999
+        },
+        {
+          "path": "Audio/output/3010/chapter_07.wav",
+          "duration": 154.542125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Creating Social Support: Harnessing the Power of Community",
+          "actualDuration": 154.542125,
+          "startTime": 1126.8078759999999,
+          "endTime": 1281.3500009999998
+        },
+        {
+          "path": "Audio/output/3010/chapter_08.wav",
+          "duration": 148.750417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embedding Change in Identity: Making New Behaviors Who You Are",
+          "actualDuration": 148.750417,
+          "startTime": 1282.8500009999998,
+          "endTime": 1431.6004179999998
+        },
+        {
+          "path": "Audio/output/3010/chapter_09.wav",
+          "duration": 178.615125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Change: Keeping the Momentum Alive",
+          "actualDuration": 178.615125,
+          "startTime": 1433.1004179999998,
+          "endTime": 1611.7155429999998
+        },
+        {
+          "path": "Audio/output/3010/chapter_10.wav",
+          "duration": 146.090208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Spreading Change: Scaling Up and Influencing Others",
+          "actualDuration": 146.090208,
+          "startTime": 1613.2155429999998,
+          "endTime": 1759.3057509999999
+        },
+        {
+          "path": "Audio/output/3010/conclusion.wav",
+          "duration": 105.8885,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.8885,
+          "startTime": 1760.8057509999999,
+          "endTime": 1866.694251
+        }
+      ],
+      "totalDuration": 1866.694251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.14,
+          "actualStart": 0,
+          "actualEnd": 81.138375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Change Feels So Difficult: The Two Sides of Human Behavior",
+          "expectedStart": 81.14,
+          "expectedEnd": 240.41,
+          "actualStart": 82.638375,
+          "actualEnd": 241.91325,
+          "timeDifference": 1.4983749999999958
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Giving Clear Direction: Guiding the Rational Mind",
+          "expectedStart": 240.41,
+          "expectedEnd": 416.51,
+          "actualStart": 243.41325,
+          "actualEnd": 419.515542,
+          "timeDifference": 3.0032500000000084
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Motivating the Emotional Side: Engaging Feelings for Lasting Change",
+          "expectedStart": 416.51,
+          "expectedEnd": 598.9,
+          "actualStart": 421.015542,
+          "actualEnd": 603.401667,
+          "timeDifference": 4.505541999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Shaping the Environment: Making Change Easier by Tweaking the Path",
+          "expectedStart": 598.9,
+          "expectedEnd": 759.58,
+          "actualStart": 604.901667,
+          "actualEnd": 765.5788339999999,
+          "timeDifference": 6.001666999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Momentum: The Power of Small Wins and New Habits",
+          "expectedStart": 759.58,
+          "expectedEnd": 943.9,
+          "actualStart": 767.0788339999999,
+          "actualEnd": 951.401584,
+          "timeDifference": 7.498833999999874
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Overcoming Setbacks: Navigating Obstacles and Relapses",
+          "expectedStart": 943.9,
+          "expectedEnd": 1116.31,
+          "actualStart": 952.901584,
+          "actualEnd": 1125.3078759999999,
+          "timeDifference": 9.00158399999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Creating Social Support: Harnessing the Power of Community",
+          "expectedStart": 1116.31,
+          "expectedEnd": 1270.85,
+          "actualStart": 1126.8078759999999,
+          "actualEnd": 1281.3500009999998,
+          "timeDifference": 10.497875999999906
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embedding Change in Identity: Making New Behaviors Who You Are",
+          "expectedStart": 1270.85,
+          "expectedEnd": 1419.6,
+          "actualStart": 1282.8500009999998,
+          "actualEnd": 1431.6004179999998,
+          "timeDifference": 12.000000999999884
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Change: Keeping the Momentum Alive",
+          "expectedStart": 1419.6,
+          "expectedEnd": 1598.22,
+          "actualStart": 1433.1004179999998,
+          "actualEnd": 1611.7155429999998,
+          "timeDifference": 13.500417999999854
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Spreading Change: Scaling Up and Influencing Others",
+          "expectedStart": 1598.22,
+          "expectedEnd": 1744.31,
+          "actualStart": 1613.2155429999998,
+          "actualEnd": 1759.3057509999999,
+          "timeDifference": 14.99554299999977
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1744.31,
+          "expectedEnd": 1850.2,
+          "actualStart": 1760.8057509999999,
+          "actualEnd": 1866.694251,
+          "timeDifference": 16.495750999999927
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.138375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Change Feels So Difficult: The Two Sides of Human Behavior"
+        },
+        {
+          "startTime": 241.91325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Change Feels So Difficult: The Two Sides of Human Behavior and Chapter 2 Giving Clear Direction: Guiding the Rational Mind"
+        },
+        {
+          "startTime": 419.515542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Giving Clear Direction: Guiding the Rational Mind and Chapter 3 Motivating the Emotional Side: Engaging Feelings for Lasting Change"
+        },
+        {
+          "startTime": 603.401667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Motivating the Emotional Side: Engaging Feelings for Lasting Change and Chapter 4 Shaping the Environment: Making Change Easier by Tweaking the Path"
+        },
+        {
+          "startTime": 765.5788339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Shaping the Environment: Making Change Easier by Tweaking the Path and Chapter 5 Building Momentum: The Power of Small Wins and New Habits"
+        },
+        {
+          "startTime": 951.401584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Momentum: The Power of Small Wins and New Habits and Chapter 6 Overcoming Setbacks: Navigating Obstacles and Relapses"
+        },
+        {
+          "startTime": 1125.3078759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Overcoming Setbacks: Navigating Obstacles and Relapses and Chapter 7 Creating Social Support: Harnessing the Power of Community"
+        },
+        {
+          "startTime": 1281.3500009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Creating Social Support: Harnessing the Power of Community and Chapter 8 Embedding Change in Identity: Making New Behaviors Who You Are"
+        },
+        {
+          "startTime": 1431.6004179999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embedding Change in Identity: Making New Behaviors Who You Are and Chapter 9 Sustaining Change: Keeping the Momentum Alive"
+        },
+        {
+          "startTime": 1611.7155429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Change: Keeping the Momentum Alive and Chapter 10 Spreading Change: Scaling Up and Influencing Others"
+        },
+        {
+          "startTime": 1759.3057509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Spreading Change: Scaling Up and Influencing Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3010",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:01:26.588Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

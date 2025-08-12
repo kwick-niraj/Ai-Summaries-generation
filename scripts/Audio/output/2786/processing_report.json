@@ -1,0 +1,552 @@
+{
+  "bookId": "2786",
+  "timestamp": "2025-07-13T19:31:52.336Z",
+  "success": false,
+  "processingTime": -1752434767918,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5672,
+    "totalAudioFiles": 16,
+    "totalDuration": 2919.0269599999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2919.0269599999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2786/optimized_text/2786.md",
+    "fileSize": 1054,
+    "wordCount": 150,
+    "format": "markdown",
+    "filename": "2786.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2786/metadata/2786_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2919.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2786/metadata/2786_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2786/metadata/2786_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2786/2786_complete.wav",
+    "duration": 2919.026958,
+    "fileSize": 140113372,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2786/introduction.wav",
+          "duration": 101.199667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.199667,
+          "startTime": 0,
+          "endTime": 101.199667
+        },
+        {
+          "path": "Audio/output/2786/chapter_01.wav",
+          "duration": 295.23875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Shelter and the Weight of Uncertainty",
+          "actualDuration": 295.23875,
+          "startTime": 102.699667,
+          "endTime": 397.93841699999996
+        },
+        {
+          "path": "Audio/output/2786/chapter_02.wav",
+          "duration": 248.104917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Business of Renting and the Calculus of Profit",
+          "actualDuration": 248.104917,
+          "startTime": 399.43841699999996,
+          "endTime": 647.543334
+        },
+        {
+          "path": "Audio/output/2786/chapter_03.wav",
+          "duration": 222.676958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost of Losing Home",
+          "actualDuration": 222.676958,
+          "startTime": 649.043334,
+          "endTime": 871.720292
+        },
+        {
+          "path": "Audio/output/2786/chapter_04.wav",
+          "duration": 228.658542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Race, Discrimination, and the Uneven Burden of Eviction",
+          "actualDuration": 228.658542,
+          "startTime": 873.220292,
+          "endTime": 1101.878834
+        },
+        {
+          "path": "Audio/output/2786/chapter_05.wav",
+          "duration": 220.083792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Public Policy and the Need for Empathy",
+          "actualDuration": 220.083792,
+          "startTime": 1103.378834,
+          "endTime": 1323.462626
+        },
+        {
+          "path": "Audio/output/2786/chapter_06.wav",
+          "duration": 191.1385,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Machinery of Eviction—Courts, Sheriffs, and the Unseen Hand",
+          "actualDuration": 191.1385,
+          "startTime": 1324.962626,
+          "endTime": 1516.101126
+        },
+        {
+          "path": "Audio/output/2786/chapter_07.wav",
+          "duration": 176.385958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Landlord’s Dilemma—Profit, Risk, and the Weight of Responsibility",
+          "actualDuration": 176.385958,
+          "startTime": 1517.601126,
+          "endTime": 1693.987084
+        },
+        {
+          "path": "Audio/output/2786/chapter_08.wav",
+          "duration": 188.402625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effects—Health, Work, and the Fragility of Stability",
+          "actualDuration": 188.402625,
+          "startTime": 1695.487084,
+          "endTime": 1883.889709
+        },
+        {
+          "path": "Audio/output/2786/chapter_09.wav",
+          "duration": 156.844125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Hidden Costs—Debt, Credit, and the Long Road Back",
+          "actualDuration": 156.844125,
+          "startTime": 1885.389709,
+          "endTime": 2042.2338340000001
+        },
+        {
+          "path": "Audio/output/2786/chapter_10.wav",
+          "duration": 142.706917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Children—Growing Up in the Shadow of Instability",
+          "actualDuration": 142.706917,
+          "startTime": 2043.7338340000001,
+          "endTime": 2186.440751
+        },
+        {
+          "path": "Audio/output/2786/chapter_11.wav",
+          "duration": 155.057167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Cycle of Poverty—Why Escaping Is So Hard",
+          "actualDuration": 155.057167,
+          "startTime": 2187.940751,
+          "endTime": 2342.997918
+        },
+        {
+          "path": "Audio/output/2786/chapter_12.wav",
+          "duration": 162.692542,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Possibility of Change—Ideas, Experiments, and Glimpses of Hope",
+          "actualDuration": 162.692542,
+          "startTime": 2344.497918,
+          "endTime": 2507.19046
+        },
+        {
+          "path": "Audio/output/2786/chapter_13.wav",
+          "duration": 138.220042,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Moral Imperative—Rethinking What We Owe Each Other",
+          "actualDuration": 138.220042,
+          "startTime": 2508.69046,
+          "endTime": 2646.9105019999997
+        },
+        {
+          "path": "Audio/output/2786/chapter_14.wav",
+          "duration": 155.02925,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Building a Better Future—What Real Change Could Look Like",
+          "actualDuration": 155.02925,
+          "startTime": 2648.4105019999997,
+          "endTime": 2803.4397519999998
+        },
+        {
+          "path": "Audio/output/2786/conclusion.wav",
+          "duration": 136.587208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.587208,
+          "startTime": 2804.9397519999998,
+          "endTime": 2941.5269599999997
+        }
+      ],
+      "totalDuration": 2941.5269599999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.2,
+          "actualStart": 0,
+          "actualEnd": 101.199667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Shelter and the Weight of Uncertainty",
+          "expectedStart": 101.2,
+          "expectedEnd": 396.44,
+          "actualStart": 102.699667,
+          "actualEnd": 397.93841699999996,
+          "timeDifference": 1.4996670000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Business of Renting and the Calculus of Profit",
+          "expectedStart": 396.44,
+          "expectedEnd": 644.54,
+          "actualStart": 399.43841699999996,
+          "actualEnd": 647.543334,
+          "timeDifference": 2.998416999999961
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost of Losing Home",
+          "expectedStart": 644.54,
+          "expectedEnd": 867.22,
+          "actualStart": 649.043334,
+          "actualEnd": 871.720292,
+          "timeDifference": 4.503333999999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Race, Discrimination, and the Uneven Burden of Eviction",
+          "expectedStart": 867.22,
+          "expectedEnd": 1095.88,
+          "actualStart": 873.220292,
+          "actualEnd": 1101.878834,
+          "timeDifference": 6.000291999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Public Policy and the Need for Empathy",
+          "expectedStart": 1095.88,
+          "expectedEnd": 1315.96,
+          "actualStart": 1103.378834,
+          "actualEnd": 1323.462626,
+          "timeDifference": 7.498833999999988
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Machinery of Eviction—Courts, Sheriffs, and the Unseen Hand",
+          "expectedStart": 1315.96,
+          "expectedEnd": 1507.1,
+          "actualStart": 1324.962626,
+          "actualEnd": 1516.101126,
+          "timeDifference": 9.002625999999964
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Landlord’s Dilemma—Profit, Risk, and the Weight of Responsibility",
+          "expectedStart": 1507.1,
+          "expectedEnd": 1683.49,
+          "actualStart": 1517.601126,
+          "actualEnd": 1693.987084,
+          "timeDifference": 10.501126000000113
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effects—Health, Work, and the Fragility of Stability",
+          "expectedStart": 1683.49,
+          "expectedEnd": 1871.89,
+          "actualStart": 1695.487084,
+          "actualEnd": 1883.889709,
+          "timeDifference": 11.997084000000086
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Hidden Costs—Debt, Credit, and the Long Road Back",
+          "expectedStart": 1871.89,
+          "expectedEnd": 2028.73,
+          "actualStart": 1885.389709,
+          "actualEnd": 2042.2338340000001,
+          "timeDifference": 13.499708999999939
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Children—Growing Up in the Shadow of Instability",
+          "expectedStart": 2028.73,
+          "expectedEnd": 2171.44,
+          "actualStart": 2043.7338340000001,
+          "actualEnd": 2186.440751,
+          "timeDifference": 15.003834000000097
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Cycle of Poverty—Why Escaping Is So Hard",
+          "expectedStart": 2171.44,
+          "expectedEnd": 2326.5,
+          "actualStart": 2187.940751,
+          "actualEnd": 2342.997918,
+          "timeDifference": 16.500751000000037
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Possibility of Change—Ideas, Experiments, and Glimpses of Hope",
+          "expectedStart": 2326.5,
+          "expectedEnd": 2489.19,
+          "actualStart": 2344.497918,
+          "actualEnd": 2507.19046,
+          "timeDifference": 17.997918000000027
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Moral Imperative—Rethinking What We Owe Each Other",
+          "expectedStart": 2489.19,
+          "expectedEnd": 2627.41,
+          "actualStart": 2508.69046,
+          "actualEnd": 2646.9105019999997,
+          "timeDifference": 19.500459999999748
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Building a Better Future—What Real Change Could Look Like",
+          "expectedStart": 2627.41,
+          "expectedEnd": 2782.44,
+          "actualStart": 2648.4105019999997,
+          "actualEnd": 2803.4397519999998,
+          "timeDifference": 21.00050199999987
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2782.44,
+          "expectedEnd": 2919.03,
+          "actualStart": 2804.9397519999998,
+          "actualEnd": 2941.5269599999997,
+          "timeDifference": 22.499751999999717
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.199667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Shelter and the Weight of Uncertainty"
+        },
+        {
+          "startTime": 397.93841699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Shelter and the Weight of Uncertainty and Chapter 2 The Business of Renting and the Calculus of Profit"
+        },
+        {
+          "startTime": 647.543334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Business of Renting and the Calculus of Profit and Chapter 3 The Human Cost of Losing Home"
+        },
+        {
+          "startTime": 871.720292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost of Losing Home and Chapter 4 Race, Discrimination, and the Uneven Burden of Eviction"
+        },
+        {
+          "startTime": 1101.878834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Race, Discrimination, and the Uneven Burden of Eviction and Chapter 5 The Limits of Public Policy and the Need for Empathy"
+        },
+        {
+          "startTime": 1323.462626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Public Policy and the Need for Empathy and Chapter 6 The Machinery of Eviction—Courts, Sheriffs, and the Unseen Hand"
+        },
+        {
+          "startTime": 1516.101126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Machinery of Eviction—Courts, Sheriffs, and the Unseen Hand and Chapter 7 The Landlord’s Dilemma—Profit, Risk, and the Weight of Responsibility"
+        },
+        {
+          "startTime": 1693.987084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Landlord’s Dilemma—Profit, Risk, and the Weight of Responsibility and Chapter 8 The Ripple Effects—Health, Work, and the Fragility of Stability"
+        },
+        {
+          "startTime": 1883.889709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effects—Health, Work, and the Fragility of Stability and Chapter 9 The Hidden Costs—Debt, Credit, and the Long Road Back"
+        },
+        {
+          "startTime": 2042.2338340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Hidden Costs—Debt, Credit, and the Long Road Back and Chapter 10 The Children—Growing Up in the Shadow of Instability"
+        },
+        {
+          "startTime": 2186.440751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Children—Growing Up in the Shadow of Instability and Chapter 11 The Cycle of Poverty—Why Escaping Is So Hard"
+        },
+        {
+          "startTime": 2342.997918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Cycle of Poverty—Why Escaping Is So Hard and Chapter 12 The Possibility of Change—Ideas, Experiments, and Glimpses of Hope"
+        },
+        {
+          "startTime": 2507.19046,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Possibility of Change—Ideas, Experiments, and Glimpses of Hope and Chapter 13 The Moral Imperative—Rethinking What We Owe Each Other"
+        },
+        {
+          "startTime": 2646.9105019999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Moral Imperative—Rethinking What We Owe Each Other and Chapter 14 Building a Better Future—What Real Change Could Look Like"
+        },
+        {
+          "startTime": 2803.4397519999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Building a Better Future—What Real Change Could Look Like and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2786",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:26:08.733Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

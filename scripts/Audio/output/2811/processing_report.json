@@ -1,0 +1,456 @@
+{
+  "bookId": "2811",
+  "timestamp": "2025-07-13T21:23:20.511Z",
+  "success": false,
+  "processingTime": -1752441486782,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4199,
+    "totalAudioFiles": 12,
+    "totalDuration": 2307.8864989999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2307.8864989999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2811/optimized_text/2811.md",
+    "fileSize": 800,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2811.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2811/metadata/2811_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2307.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2811/metadata/2811_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2811/metadata/2811_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2811/2811_complete.wav",
+    "duration": 2307.8865,
+    "fileSize": 110778630,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2811/introduction.wav",
+          "duration": 91.842208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.842208,
+          "startTime": 0,
+          "endTime": 91.842208
+        },
+        {
+          "path": "Audio/output/2811/chapter_01.wav",
+          "duration": 224.246125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why People Seem So Different: The Roots of Miscommunication",
+          "actualDuration": 224.246125,
+          "startTime": 93.342208,
+          "endTime": 317.58833300000003
+        },
+        {
+          "path": "Audio/output/2811/chapter_02.wav",
+          "duration": 306.786208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Four Color Types: Understanding the Core Behaviors",
+          "actualDuration": 306.786208,
+          "startTime": 319.08833300000003,
+          "endTime": 625.874541
+        },
+        {
+          "path": "Audio/output/2811/chapter_03.wav",
+          "duration": 248.134667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Recognizing the Colors in Everyday Life",
+          "actualDuration": 248.134667,
+          "startTime": 627.374541,
+          "endTime": 875.5092080000001
+        },
+        {
+          "path": "Audio/output/2811/chapter_04.wav",
+          "duration": 240.987333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting Communication: Speaking Each Color’s Language",
+          "actualDuration": 240.987333,
+          "startTime": 877.0092080000001,
+          "endTime": 1117.996541
+        },
+        {
+          "path": "Audio/output/2811/chapter_05.wav",
+          "duration": 247.273583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Impact of Color Differences on Teams and Relationships",
+          "actualDuration": 247.273583,
+          "startTime": 1119.496541,
+          "endTime": 1366.770124
+        },
+        {
+          "path": "Audio/output/2811/chapter_06.wav",
+          "duration": 212.05775,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Handling Difficult Situations: Navigating Conflict and Misunderstandings",
+          "actualDuration": 212.05775,
+          "startTime": 1368.270124,
+          "endTime": 1580.3278739999998
+        },
+        {
+          "path": "Audio/output/2811/chapter_07.wav",
+          "duration": 169.887208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Adapting the Model to Leadership and Influence",
+          "actualDuration": 169.887208,
+          "startTime": 1581.8278739999998,
+          "endTime": 1751.7150819999997
+        },
+        {
+          "path": "Audio/output/2811/chapter_08.wav",
+          "duration": 131.30075,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying the Color Model Beyond Work: Family, Friends, and Everyday Encounters",
+          "actualDuration": 131.30075,
+          "startTime": 1753.2150819999997,
+          "endTime": 1884.5158319999996
+        },
+        {
+          "path": "Audio/output/2811/chapter_09.wav",
+          "duration": 162.229125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Growing Beyond the Model: Flexibility, Self-Development, and Lasting Change",
+          "actualDuration": 162.229125,
+          "startTime": 1886.0158319999996,
+          "endTime": 2048.2449569999994
+        },
+        {
+          "path": "Audio/output/2811/chapter_10.wav",
+          "duration": 162.338375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Color Model: Creating a Personal Action Plan",
+          "actualDuration": 162.338375,
+          "startTime": 2049.7449569999994,
+          "endTime": 2212.0833319999992
+        },
+        {
+          "path": "Audio/output/2811/conclusion.wav",
+          "duration": 110.803167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.803167,
+          "startTime": 2213.5833319999992,
+          "endTime": 2324.3864989999993
+        }
+      ],
+      "totalDuration": 2324.3864989999993,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.84,
+          "actualStart": 0,
+          "actualEnd": 91.842208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why People Seem So Different: The Roots of Miscommunication",
+          "expectedStart": 91.84,
+          "expectedEnd": 316.09,
+          "actualStart": 93.342208,
+          "actualEnd": 317.58833300000003,
+          "timeDifference": 1.502207999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Four Color Types: Understanding the Core Behaviors",
+          "expectedStart": 316.09,
+          "expectedEnd": 622.88,
+          "actualStart": 319.08833300000003,
+          "actualEnd": 625.874541,
+          "timeDifference": 2.998333000000059
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Recognizing the Colors in Everyday Life",
+          "expectedStart": 622.88,
+          "expectedEnd": 871.01,
+          "actualStart": 627.374541,
+          "actualEnd": 875.5092080000001,
+          "timeDifference": 4.4945410000000265
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting Communication: Speaking Each Color’s Language",
+          "expectedStart": 871.01,
+          "expectedEnd": 1112,
+          "actualStart": 877.0092080000001,
+          "actualEnd": 1117.996541,
+          "timeDifference": 5.999208000000067
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Impact of Color Differences on Teams and Relationships",
+          "expectedStart": 1112,
+          "expectedEnd": 1359.27,
+          "actualStart": 1119.496541,
+          "actualEnd": 1366.770124,
+          "timeDifference": 7.496540999999979
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Handling Difficult Situations: Navigating Conflict and Misunderstandings",
+          "expectedStart": 1359.27,
+          "expectedEnd": 1571.33,
+          "actualStart": 1368.270124,
+          "actualEnd": 1580.3278739999998,
+          "timeDifference": 9.000123999999914
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Adapting the Model to Leadership and Influence",
+          "expectedStart": 1571.33,
+          "expectedEnd": 1741.22,
+          "actualStart": 1581.8278739999998,
+          "actualEnd": 1751.7150819999997,
+          "timeDifference": 10.49787399999991
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying the Color Model Beyond Work: Family, Friends, and Everyday Encounters",
+          "expectedStart": 1741.22,
+          "expectedEnd": 1872.52,
+          "actualStart": 1753.2150819999997,
+          "actualEnd": 1884.5158319999996,
+          "timeDifference": 11.995081999999684
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Growing Beyond the Model: Flexibility, Self-Development, and Lasting Change",
+          "expectedStart": 1872.52,
+          "expectedEnd": 2034.75,
+          "actualStart": 1886.0158319999996,
+          "actualEnd": 2048.2449569999994,
+          "timeDifference": 13.49583199999961
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Color Model: Creating a Personal Action Plan",
+          "expectedStart": 2034.75,
+          "expectedEnd": 2197.09,
+          "actualStart": 2049.7449569999994,
+          "actualEnd": 2212.0833319999992,
+          "timeDifference": 14.994956999999431
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2197.09,
+          "expectedEnd": 2307.89,
+          "actualStart": 2213.5833319999992,
+          "actualEnd": 2324.3864989999993,
+          "timeDifference": 16.4933319999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.842208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why People Seem So Different: The Roots of Miscommunication"
+        },
+        {
+          "startTime": 317.58833300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why People Seem So Different: The Roots of Miscommunication and Chapter 2 The Four Color Types: Understanding the Core Behaviors"
+        },
+        {
+          "startTime": 625.874541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Four Color Types: Understanding the Core Behaviors and Chapter 3 Recognizing the Colors in Everyday Life"
+        },
+        {
+          "startTime": 875.5092080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Recognizing the Colors in Everyday Life and Chapter 4 Adapting Communication: Speaking Each Color’s Language"
+        },
+        {
+          "startTime": 1117.996541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting Communication: Speaking Each Color’s Language and Chapter 5 The Impact of Color Differences on Teams and Relationships"
+        },
+        {
+          "startTime": 1366.770124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Impact of Color Differences on Teams and Relationships and Chapter 6 Handling Difficult Situations: Navigating Conflict and Misunderstandings"
+        },
+        {
+          "startTime": 1580.3278739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Handling Difficult Situations: Navigating Conflict and Misunderstandings and Chapter 7 Adapting the Model to Leadership and Influence"
+        },
+        {
+          "startTime": 1751.7150819999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Adapting the Model to Leadership and Influence and Chapter 8 Applying the Color Model Beyond Work: Family, Friends, and Everyday Encounters"
+        },
+        {
+          "startTime": 1884.5158319999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying the Color Model Beyond Work: Family, Friends, and Everyday Encounters and Chapter 9 Growing Beyond the Model: Flexibility, Self-Development, and Lasting Change"
+        },
+        {
+          "startTime": 2048.2449569999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Growing Beyond the Model: Flexibility, Self-Development, and Lasting Change and Chapter 10 Integrating the Color Model: Creating a Personal Action Plan"
+        },
+        {
+          "startTime": 2212.0833319999992,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Color Model: Creating a Personal Action Plan and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2811",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:18:07.308Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

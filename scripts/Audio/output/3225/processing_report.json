@@ -1,0 +1,504 @@
+{
+  "bookId": "3225",
+  "timestamp": "2025-07-15T04:06:34.044Z",
+  "success": false,
+  "processingTime": -1752551874437,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5953,
+    "totalAudioFiles": 14,
+    "totalDuration": 2779.404041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2779.404041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3225/optimized_text/3225.md",
+    "fileSize": 836,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "3225.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3225/metadata/3225_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2779.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3225/metadata/3225_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3225/metadata/3225_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3225/3225_complete.wav",
+    "duration": 2779.404042,
+    "fileSize": 133411472,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3225/introduction.wav",
+          "duration": 77.349458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.349458,
+          "startTime": 0,
+          "endTime": 77.349458
+        },
+        {
+          "path": "Audio/output/3225/chapter_01.wav",
+          "duration": 272.256375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Rewards and Punishments Feel So Natural—And Why They Backfire",
+          "actualDuration": 272.256375,
+          "startTime": 78.849458,
+          "endTime": 351.10583299999996
+        },
+        {
+          "path": "Audio/output/3225/chapter_02.wav",
+          "duration": 252.956542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of Chasing Gold Stars and Bonuses",
+          "actualDuration": 252.956542,
+          "startTime": 352.60583299999996,
+          "endTime": 605.562375
+        },
+        {
+          "path": "Audio/output/3225/chapter_03.wav",
+          "duration": 292.823208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Rewards and Punishments Undermine Real Motivation",
+          "actualDuration": 292.823208,
+          "startTime": 607.062375,
+          "endTime": 899.885583
+        },
+        {
+          "path": "Audio/output/3225/chapter_04.wav",
+          "duration": 209.962292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Trap of Manipulative Praise and the Need for Authentic Encouragement",
+          "actualDuration": 209.962292,
+          "startTime": 901.385583,
+          "endTime": 1111.347875
+        },
+        {
+          "path": "Audio/output/3225/chapter_05.wav",
+          "duration": 223.946333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Moving Beyond Control: Fostering Autonomy and Real Engagement",
+          "actualDuration": 223.946333,
+          "startTime": 1112.847875,
+          "endTime": 1336.794208
+        },
+        {
+          "path": "Audio/output/3225/chapter_06.wav",
+          "duration": 197.782833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rethinking Schools: From Compliance to Curiosity",
+          "actualDuration": 197.782833,
+          "startTime": 1338.294208,
+          "endTime": 1536.077041
+        },
+        {
+          "path": "Audio/output/3225/chapter_07.wav",
+          "duration": 204.241083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Parenting Without Bribes or Threats",
+          "actualDuration": 204.241083,
+          "startTime": 1537.577041,
+          "endTime": 1741.818124
+        },
+        {
+          "path": "Audio/output/3225/chapter_08.wav",
+          "duration": 198.334333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Workplaces That Inspire, Not Manipulate",
+          "actualDuration": 198.334333,
+          "startTime": 1743.318124,
+          "endTime": 1941.652457
+        },
+        {
+          "path": "Audio/output/3225/chapter_09.wav",
+          "duration": 199.450083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Questions and Conversations",
+          "actualDuration": 199.450083,
+          "startTime": 1943.152457,
+          "endTime": 2142.60254
+        },
+        {
+          "path": "Audio/output/3225/chapter_10.wav",
+          "duration": 160.376417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building Environments That Nurture Real Motivation",
+          "actualDuration": 160.376417,
+          "startTime": 2144.10254,
+          "endTime": 2304.478957
+        },
+        {
+          "path": "Audio/output/3225/chapter_11.wav",
+          "duration": 183.741,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Facing Resistance and Navigating Change",
+          "actualDuration": 183.741,
+          "startTime": 2305.978957,
+          "endTime": 2489.719957
+        },
+        {
+          "path": "Audio/output/3225/chapter_12.wav",
+          "duration": 156.565042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Long View: Growing Motivation Over Time",
+          "actualDuration": 156.565042,
+          "startTime": 2491.219957,
+          "endTime": 2647.784999
+        },
+        {
+          "path": "Audio/output/3225/conclusion.wav",
+          "duration": 149.619042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.619042,
+          "startTime": 2649.284999,
+          "endTime": 2798.904041
+        }
+      ],
+      "totalDuration": 2798.904041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.35,
+          "actualStart": 0,
+          "actualEnd": 77.349458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Rewards and Punishments Feel So Natural—And Why They Backfire",
+          "expectedStart": 77.35,
+          "expectedEnd": 349.61,
+          "actualStart": 78.849458,
+          "actualEnd": 351.10583299999996,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of Chasing Gold Stars and Bonuses",
+          "expectedStart": 349.61,
+          "expectedEnd": 602.57,
+          "actualStart": 352.60583299999996,
+          "actualEnd": 605.562375,
+          "timeDifference": 2.995832999999948
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Rewards and Punishments Undermine Real Motivation",
+          "expectedStart": 602.57,
+          "expectedEnd": 895.39,
+          "actualStart": 607.062375,
+          "actualEnd": 899.885583,
+          "timeDifference": 4.4923749999999245
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Trap of Manipulative Praise and the Need for Authentic Encouragement",
+          "expectedStart": 895.39,
+          "expectedEnd": 1105.35,
+          "actualStart": 901.385583,
+          "actualEnd": 1111.347875,
+          "timeDifference": 5.9955830000000105
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Moving Beyond Control: Fostering Autonomy and Real Engagement",
+          "expectedStart": 1105.35,
+          "expectedEnd": 1329.3,
+          "actualStart": 1112.847875,
+          "actualEnd": 1336.794208,
+          "timeDifference": 7.497875000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rethinking Schools: From Compliance to Curiosity",
+          "expectedStart": 1329.3,
+          "expectedEnd": 1527.08,
+          "actualStart": 1338.294208,
+          "actualEnd": 1536.077041,
+          "timeDifference": 8.994208000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Parenting Without Bribes or Threats",
+          "expectedStart": 1527.08,
+          "expectedEnd": 1731.32,
+          "actualStart": 1537.577041,
+          "actualEnd": 1741.818124,
+          "timeDifference": 10.497041000000081
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Workplaces That Inspire, Not Manipulate",
+          "expectedStart": 1731.32,
+          "expectedEnd": 1929.65,
+          "actualStart": 1743.318124,
+          "actualEnd": 1941.652457,
+          "timeDifference": 11.998123999999962
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Questions and Conversations",
+          "expectedStart": 1929.65,
+          "expectedEnd": 2129.1,
+          "actualStart": 1943.152457,
+          "actualEnd": 2142.60254,
+          "timeDifference": 13.502456999999822
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building Environments That Nurture Real Motivation",
+          "expectedStart": 2129.1,
+          "expectedEnd": 2289.48,
+          "actualStart": 2144.10254,
+          "actualEnd": 2304.478957,
+          "timeDifference": 15.002539999999954
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Facing Resistance and Navigating Change",
+          "expectedStart": 2289.48,
+          "expectedEnd": 2473.22,
+          "actualStart": 2305.978957,
+          "actualEnd": 2489.719957,
+          "timeDifference": 16.49895699999979
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Long View: Growing Motivation Over Time",
+          "expectedStart": 2473.22,
+          "expectedEnd": 2629.79,
+          "actualStart": 2491.219957,
+          "actualEnd": 2647.784999,
+          "timeDifference": 17.999956999999995
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2629.79,
+          "expectedEnd": 2779.41,
+          "actualStart": 2649.284999,
+          "actualEnd": 2798.904041,
+          "timeDifference": 19.494999000000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.349458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Rewards and Punishments Feel So Natural—And Why They Backfire"
+        },
+        {
+          "startTime": 351.10583299999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Rewards and Punishments Feel So Natural—And Why They Backfire and Chapter 2 The Hidden Costs of Chasing Gold Stars and Bonuses"
+        },
+        {
+          "startTime": 605.562375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of Chasing Gold Stars and Bonuses and Chapter 3 How Rewards and Punishments Undermine Real Motivation"
+        },
+        {
+          "startTime": 899.885583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Rewards and Punishments Undermine Real Motivation and Chapter 4 The Trap of Manipulative Praise and the Need for Authentic Encouragement"
+        },
+        {
+          "startTime": 1111.347875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Trap of Manipulative Praise and the Need for Authentic Encouragement and Chapter 5 Moving Beyond Control: Fostering Autonomy and Real Engagement"
+        },
+        {
+          "startTime": 1336.794208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Moving Beyond Control: Fostering Autonomy and Real Engagement and Chapter 6 Rethinking Schools: From Compliance to Curiosity"
+        },
+        {
+          "startTime": 1536.077041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rethinking Schools: From Compliance to Curiosity and Chapter 7 Parenting Without Bribes or Threats"
+        },
+        {
+          "startTime": 1741.818124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Parenting Without Bribes or Threats and Chapter 8 Workplaces That Inspire, Not Manipulate"
+        },
+        {
+          "startTime": 1941.652457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Workplaces That Inspire, Not Manipulate and Chapter 9 The Power of Questions and Conversations"
+        },
+        {
+          "startTime": 2142.60254,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Questions and Conversations and Chapter 10 Building Environments That Nurture Real Motivation"
+        },
+        {
+          "startTime": 2304.478957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building Environments That Nurture Real Motivation and Chapter 11 Facing Resistance and Navigating Change"
+        },
+        {
+          "startTime": 2489.719957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Facing Resistance and Navigating Change and Chapter 12 The Long View: Growing Motivation Over Time"
+        },
+        {
+          "startTime": 2647.784999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Long View: Growing Motivation Over Time and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3225",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:57:54.959Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

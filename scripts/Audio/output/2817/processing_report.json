@@ -1,0 +1,456 @@
+{
+  "bookId": "2817",
+  "timestamp": "2025-07-13T21:53:53.493Z",
+  "success": false,
+  "processingTime": -1752443258915,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5157,
+    "totalAudioFiles": 12,
+    "totalDuration": 2430.2469180000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2430.2469180000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2817/optimized_text/2817.md",
+    "fileSize": 591,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2817.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2817/metadata/2817_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2430.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2817/metadata/2817_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2817/metadata/2817_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2817/2817_complete.wav",
+    "duration": 2430.246917,
+    "fileSize": 116651930,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2817/introduction.wav",
+          "duration": 97.049375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.049375,
+          "startTime": 0,
+          "endTime": 97.049375
+        },
+        {
+          "path": "Audio/output/2817/chapter_01.wav",
+          "duration": 241.905375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Science Behind Cravings",
+          "actualDuration": 241.905375,
+          "startTime": 98.549375,
+          "endTime": 340.45475
+        },
+        {
+          "path": "Audio/output/2817/chapter_02.wav",
+          "duration": 274.360042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Processed Foods and the Pursuit of Profit",
+          "actualDuration": 274.360042,
+          "startTime": 341.95475,
+          "endTime": 616.314792
+        },
+        {
+          "path": "Audio/output/2817/chapter_03.wav",
+          "duration": 241.273458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Engineering Addiction and the Power of Habit",
+          "actualDuration": 241.273458,
+          "startTime": 617.814792,
+          "endTime": 859.08825
+        },
+        {
+          "path": "Audio/output/2817/chapter_04.wav",
+          "duration": 250.373083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Health Crisis No One Saw Coming",
+          "actualDuration": 250.373083,
+          "startTime": 860.58825,
+          "endTime": 1110.961333
+        },
+        {
+          "path": "Audio/output/2817/chapter_05.wav",
+          "duration": 201.940667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Battle Over Responsibility and Change",
+          "actualDuration": 201.940667,
+          "startTime": 1112.461333,
+          "endTime": 1314.402
+        },
+        {
+          "path": "Audio/output/2817/chapter_06.wav",
+          "duration": 221.331042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Relentless Push for Growth",
+          "actualDuration": 221.331042,
+          "startTime": 1315.902,
+          "endTime": 1537.233042
+        },
+        {
+          "path": "Audio/output/2817/chapter_07.wav",
+          "duration": 208.479875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Global Spread of Processed Food",
+          "actualDuration": 208.479875,
+          "startTime": 1538.733042,
+          "endTime": 1747.212917
+        },
+        {
+          "path": "Audio/output/2817/chapter_08.wav",
+          "duration": 201.559167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Consumer Resistance and the Seeds of Change",
+          "actualDuration": 201.559167,
+          "startTime": 1748.712917,
+          "endTime": 1950.2720840000002
+        },
+        {
+          "path": "Audio/output/2817/chapter_09.wav",
+          "duration": 177.457375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Search for Solutions",
+          "actualDuration": 177.457375,
+          "startTime": 1951.7720840000002,
+          "endTime": 2129.229459
+        },
+        {
+          "path": "Audio/output/2817/chapter_10.wav",
+          "duration": 186.115417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reclaiming Control—A New Relationship with Food",
+          "actualDuration": 186.115417,
+          "startTime": 2130.729459,
+          "endTime": 2316.844876
+        },
+        {
+          "path": "Audio/output/2817/conclusion.wav",
+          "duration": 128.402042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.402042,
+          "startTime": 2318.344876,
+          "endTime": 2446.7469180000003
+        }
+      ],
+      "totalDuration": 2446.7469180000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.05,
+          "actualStart": 0,
+          "actualEnd": 97.049375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Science Behind Cravings",
+          "expectedStart": 97.05,
+          "expectedEnd": 338.96,
+          "actualStart": 98.549375,
+          "actualEnd": 340.45475,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Processed Foods and the Pursuit of Profit",
+          "expectedStart": 338.96,
+          "expectedEnd": 613.32,
+          "actualStart": 341.95475,
+          "actualEnd": 616.314792,
+          "timeDifference": 2.9947500000000105
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Engineering Addiction and the Power of Habit",
+          "expectedStart": 613.32,
+          "expectedEnd": 854.59,
+          "actualStart": 617.814792,
+          "actualEnd": 859.08825,
+          "timeDifference": 4.494791999999961
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Health Crisis No One Saw Coming",
+          "expectedStart": 854.59,
+          "expectedEnd": 1104.96,
+          "actualStart": 860.58825,
+          "actualEnd": 1110.961333,
+          "timeDifference": 5.9982499999999845
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Battle Over Responsibility and Change",
+          "expectedStart": 1104.96,
+          "expectedEnd": 1306.9,
+          "actualStart": 1112.461333,
+          "actualEnd": 1314.402,
+          "timeDifference": 7.501332999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Relentless Push for Growth",
+          "expectedStart": 1306.9,
+          "expectedEnd": 1528.23,
+          "actualStart": 1315.902,
+          "actualEnd": 1537.233042,
+          "timeDifference": 9.001999999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Global Spread of Processed Food",
+          "expectedStart": 1528.23,
+          "expectedEnd": 1736.71,
+          "actualStart": 1538.733042,
+          "actualEnd": 1747.212917,
+          "timeDifference": 10.50304200000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Consumer Resistance and the Seeds of Change",
+          "expectedStart": 1736.71,
+          "expectedEnd": 1938.27,
+          "actualStart": 1748.712917,
+          "actualEnd": 1950.2720840000002,
+          "timeDifference": 12.002917000000025
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Search for Solutions",
+          "expectedStart": 1938.27,
+          "expectedEnd": 2115.73,
+          "actualStart": 1951.7720840000002,
+          "actualEnd": 2129.229459,
+          "timeDifference": 13.502084000000195
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reclaiming Control—A New Relationship with Food",
+          "expectedStart": 2115.73,
+          "expectedEnd": 2301.85,
+          "actualStart": 2130.729459,
+          "actualEnd": 2316.844876,
+          "timeDifference": 14.999459000000115
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2301.85,
+          "expectedEnd": 2430.25,
+          "actualStart": 2318.344876,
+          "actualEnd": 2446.7469180000003,
+          "timeDifference": 16.494876000000204
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.049375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Science Behind Cravings"
+        },
+        {
+          "startTime": 340.45475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Science Behind Cravings and Chapter 2 The Rise of Processed Foods and the Pursuit of Profit"
+        },
+        {
+          "startTime": 616.314792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Processed Foods and the Pursuit of Profit and Chapter 3 Engineering Addiction and the Power of Habit"
+        },
+        {
+          "startTime": 859.08825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Engineering Addiction and the Power of Habit and Chapter 4 The Health Crisis No One Saw Coming"
+        },
+        {
+          "startTime": 1110.961333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Health Crisis No One Saw Coming and Chapter 5 The Battle Over Responsibility and Change"
+        },
+        {
+          "startTime": 1314.402,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Battle Over Responsibility and Change and Chapter 6 The Relentless Push for Growth"
+        },
+        {
+          "startTime": 1537.233042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Relentless Push for Growth and Chapter 7 The Global Spread of Processed Food"
+        },
+        {
+          "startTime": 1747.212917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Global Spread of Processed Food and Chapter 8 Consumer Resistance and the Seeds of Change"
+        },
+        {
+          "startTime": 1950.2720840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Consumer Resistance and the Seeds of Change and Chapter 9 The Search for Solutions"
+        },
+        {
+          "startTime": 2129.229459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Search for Solutions and Chapter 10 Reclaiming Control—A New Relationship with Food"
+        },
+        {
+          "startTime": 2316.844876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reclaiming Control—A New Relationship with Food and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2817",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:47:40.538Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

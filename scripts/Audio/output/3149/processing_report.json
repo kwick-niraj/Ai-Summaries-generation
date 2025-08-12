@@ -1,0 +1,456 @@
+{
+  "bookId": "3149",
+  "timestamp": "2025-07-14T22:06:24.798Z",
+  "success": false,
+  "processingTime": -1752530390789,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4287,
+    "totalAudioFiles": 12,
+    "totalDuration": 2039.5577079999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2039.5577079999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3149/optimized_text/3149.md",
+    "fileSize": 640,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "3149.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3149/metadata/3149_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2039.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3149/metadata/3149_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3149/metadata/3149_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3149/3149_complete.wav",
+    "duration": 2039.557708,
+    "fileSize": 97898848,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3149/introduction.wav",
+          "duration": 99.004917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.004917,
+          "startTime": 0,
+          "endTime": 99.004917
+        },
+        {
+          "path": "Audio/output/3149/chapter_01.wav",
+          "duration": 214.641667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Roots and the Search for Meaning",
+          "actualDuration": 214.641667,
+          "startTime": 100.504917,
+          "endTime": 315.146584
+        },
+        {
+          "path": "Audio/output/3149/chapter_02.wav",
+          "duration": 238.704333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Encounters with the Wider World",
+          "actualDuration": 238.704333,
+          "startTime": 316.646584,
+          "endTime": 555.350917
+        },
+        {
+          "path": "Audio/output/3149/chapter_03.wav",
+          "duration": 199.424375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Injustice and Discovering Nonviolence",
+          "actualDuration": 199.424375,
+          "startTime": 556.850917,
+          "endTime": 756.275292
+        },
+        {
+          "path": "Audio/output/3149/chapter_04.wav",
+          "duration": 198.736375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Community and the Practice of Self-Discipline",
+          "actualDuration": 198.736375,
+          "startTime": 757.775292,
+          "endTime": 956.511667
+        },
+        {
+          "path": "Audio/output/3149/chapter_05.wav",
+          "duration": 171.480083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Returning Home and the Call to Serve",
+          "actualDuration": 171.480083,
+          "startTime": 958.011667,
+          "endTime": 1129.49175
+        },
+        {
+          "path": "Audio/output/3149/chapter_06.wav",
+          "duration": 196.134917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Fire of Satyagraha",
+          "actualDuration": 196.134917,
+          "startTime": 1130.99175,
+          "endTime": 1327.126667
+        },
+        {
+          "path": "Audio/output/3149/chapter_07.wav",
+          "duration": 158.156208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Trials, Sacrifice, and the Weight of Leadership",
+          "actualDuration": 158.156208,
+          "startTime": 1328.626667,
+          "endTime": 1486.7828749999999
+        },
+        {
+          "path": "Audio/output/3149/chapter_08.wav",
+          "duration": 162.352625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Salt March and the Power of Symbolic Action",
+          "actualDuration": 162.352625,
+          "startTime": 1488.2828749999999,
+          "endTime": 1650.6354999999999
+        },
+        {
+          "path": "Audio/output/3149/chapter_09.wav",
+          "duration": 150.7245,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Struggle Within—Faith, Doubt, and the Search for Unity",
+          "actualDuration": 150.7245,
+          "startTime": 1652.1354999999999,
+          "endTime": 1802.86
+        },
+        {
+          "path": "Audio/output/3149/chapter_10.wav",
+          "duration": 134.63475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Final Experiments—Letting Go and the Legacy of Truth",
+          "actualDuration": 134.63475,
+          "startTime": 1804.36,
+          "endTime": 1938.9947499999998
+        },
+        {
+          "path": "Audio/output/3149/conclusion.wav",
+          "duration": 115.562958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.562958,
+          "startTime": 1940.4947499999998,
+          "endTime": 2056.057708
+        }
+      ],
+      "totalDuration": 2056.057708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99,
+          "actualStart": 0,
+          "actualEnd": 99.004917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Roots and the Search for Meaning",
+          "expectedStart": 99,
+          "expectedEnd": 313.64,
+          "actualStart": 100.504917,
+          "actualEnd": 315.146584,
+          "timeDifference": 1.504917000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Encounters with the Wider World",
+          "expectedStart": 313.64,
+          "expectedEnd": 552.34,
+          "actualStart": 316.646584,
+          "actualEnd": 555.350917,
+          "timeDifference": 3.006584000000032
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Injustice and Discovering Nonviolence",
+          "expectedStart": 552.34,
+          "expectedEnd": 751.76,
+          "actualStart": 556.850917,
+          "actualEnd": 756.275292,
+          "timeDifference": 4.510916999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Community and the Practice of Self-Discipline",
+          "expectedStart": 751.76,
+          "expectedEnd": 950.5,
+          "actualStart": 757.775292,
+          "actualEnd": 956.511667,
+          "timeDifference": 6.015292000000045
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Returning Home and the Call to Serve",
+          "expectedStart": 950.5,
+          "expectedEnd": 1121.98,
+          "actualStart": 958.011667,
+          "actualEnd": 1129.49175,
+          "timeDifference": 7.5116669999999885
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Fire of Satyagraha",
+          "expectedStart": 1121.98,
+          "expectedEnd": 1318.11,
+          "actualStart": 1130.99175,
+          "actualEnd": 1327.126667,
+          "timeDifference": 9.011749999999893
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Trials, Sacrifice, and the Weight of Leadership",
+          "expectedStart": 1318.11,
+          "expectedEnd": 1476.27,
+          "actualStart": 1328.626667,
+          "actualEnd": 1486.7828749999999,
+          "timeDifference": 10.516667000000098
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Salt March and the Power of Symbolic Action",
+          "expectedStart": 1476.27,
+          "expectedEnd": 1638.62,
+          "actualStart": 1488.2828749999999,
+          "actualEnd": 1650.6354999999999,
+          "timeDifference": 12.012874999999894
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Struggle Within—Faith, Doubt, and the Search for Unity",
+          "expectedStart": 1638.62,
+          "expectedEnd": 1789.34,
+          "actualStart": 1652.1354999999999,
+          "actualEnd": 1802.86,
+          "timeDifference": 13.515499999999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Final Experiments—Letting Go and the Legacy of Truth",
+          "expectedStart": 1789.34,
+          "expectedEnd": 1923.97,
+          "actualStart": 1804.36,
+          "actualEnd": 1938.9947499999998,
+          "timeDifference": 15.019999999999982
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1923.97,
+          "expectedEnd": 2039.53,
+          "actualStart": 1940.4947499999998,
+          "actualEnd": 2056.057708,
+          "timeDifference": 16.524749999999813
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.004917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Roots and the Search for Meaning"
+        },
+        {
+          "startTime": 315.146584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Roots and the Search for Meaning and Chapter 2 Encounters with the Wider World"
+        },
+        {
+          "startTime": 555.350917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Encounters with the Wider World and Chapter 3 Facing Injustice and Discovering Nonviolence"
+        },
+        {
+          "startTime": 756.275292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Injustice and Discovering Nonviolence and Chapter 4 Building Community and the Practice of Self-Discipline"
+        },
+        {
+          "startTime": 956.511667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Community and the Practice of Self-Discipline and Chapter 5 Returning Home and the Call to Serve"
+        },
+        {
+          "startTime": 1129.49175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Returning Home and the Call to Serve and Chapter 6 The Fire of Satyagraha"
+        },
+        {
+          "startTime": 1327.126667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Fire of Satyagraha and Chapter 7 Trials, Sacrifice, and the Weight of Leadership"
+        },
+        {
+          "startTime": 1486.7828749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Trials, Sacrifice, and the Weight of Leadership and Chapter 8 The Salt March and the Power of Symbolic Action"
+        },
+        {
+          "startTime": 1650.6354999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Salt March and the Power of Symbolic Action and Chapter 9 The Struggle Within—Faith, Doubt, and the Search for Unity"
+        },
+        {
+          "startTime": 1802.86,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Struggle Within—Faith, Doubt, and the Search for Unity and Chapter 10 The Final Experiments—Letting Go and the Legacy of Truth"
+        },
+        {
+          "startTime": 1938.9947499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Final Experiments—Letting Go and the Legacy of Truth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3149",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:59:52.584Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

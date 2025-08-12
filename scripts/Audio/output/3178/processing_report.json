@@ -1,0 +1,456 @@
+{
+  "bookId": "3178",
+  "timestamp": "2025-07-15T01:20:05.590Z",
+  "success": false,
+  "processingTime": -1752541980951,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4834,
+    "totalAudioFiles": 12,
+    "totalDuration": 2242.6351239999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2242.6351239999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3178/optimized_text/3178.md",
+    "fileSize": 702,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "3178.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3178/metadata/3178_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2242.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3178/metadata/3178_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3178/metadata/3178_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3178/3178_complete.wav",
+    "duration": 2242.635125,
+    "fileSize": 107646564,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3178/introduction.wav",
+          "duration": 89.34825,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.34825,
+          "startTime": 0,
+          "endTime": 89.34825
+        },
+        {
+          "path": "Audio/output/3178/chapter_01.wav",
+          "duration": 251.447667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Breaking the Rules Matters More Than Ever",
+          "actualDuration": 251.447667,
+          "startTime": 90.84825,
+          "endTime": 342.295917
+        },
+        {
+          "path": "Audio/output/3178/chapter_02.wav",
+          "duration": 238.484583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from the Real Pirates—Not the Myths",
+          "actualDuration": 238.484583,
+          "startTime": 343.795917,
+          "endTime": 582.2805
+        },
+        {
+          "path": "Audio/output/3178/chapter_03.wav",
+          "duration": 209.773583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Pirate Mindset—Rediscovering Purpose and Courage",
+          "actualDuration": 209.773583,
+          "startTime": 583.7805,
+          "endTime": 793.554083
+        },
+        {
+          "path": "Audio/output/3178/chapter_04.wav",
+          "duration": 223.4965,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rewriting the Rules—Turning Rebellion into Progress",
+          "actualDuration": 223.4965,
+          "startTime": 795.054083,
+          "endTime": 1018.550583
+        },
+        {
+          "path": "Audio/output/3178/chapter_05.wav",
+          "duration": 214.05,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Movements—The Power of Collective Action",
+          "actualDuration": 214.05,
+          "startTime": 1020.050583,
+          "endTime": 1234.100583
+        },
+        {
+          "path": "Audio/output/3178/chapter_06.wav",
+          "duration": 198.722583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining the Rebellion—Keeping the Flame Alive",
+          "actualDuration": 198.722583,
+          "startTime": 1235.600583,
+          "endTime": 1434.323166
+        },
+        {
+          "path": "Audio/output/3178/chapter_07.wav",
+          "duration": 157.287167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Codifying Values—Turning Ideals into Action",
+          "actualDuration": 157.287167,
+          "startTime": 1435.823166,
+          "endTime": 1593.1103329999999
+        },
+        {
+          "path": "Audio/output/3178/chapter_08.wav",
+          "duration": 182.581,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Conflict—Dealing with Doubt, Dissent, and Sabotage",
+          "actualDuration": 182.581,
+          "startTime": 1594.6103329999999,
+          "endTime": 1777.1913329999998
+        },
+        {
+          "path": "Audio/output/3178/chapter_09.wav",
+          "duration": 182.823833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Spreading the Pirate Spirit—Inspiring Others to Rebel",
+          "actualDuration": 182.823833,
+          "startTime": 1778.6913329999998,
+          "endTime": 1961.5151659999997
+        },
+        {
+          "path": "Audio/output/3178/chapter_10.wav",
+          "duration": 164.169333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leaving a Legacy—Making Change Last",
+          "actualDuration": 164.169333,
+          "startTime": 1963.0151659999997,
+          "endTime": 2127.1844989999995
+        },
+        {
+          "path": "Audio/output/3178/conclusion.wav",
+          "duration": 130.450625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.450625,
+          "startTime": 2128.6844989999995,
+          "endTime": 2259.1351239999995
+        }
+      ],
+      "totalDuration": 2259.1351239999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.35,
+          "actualStart": 0,
+          "actualEnd": 89.34825,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Breaking the Rules Matters More Than Ever",
+          "expectedStart": 89.35,
+          "expectedEnd": 340.8,
+          "actualStart": 90.84825,
+          "actualEnd": 342.295917,
+          "timeDifference": 1.4982499999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from the Real Pirates—Not the Myths",
+          "expectedStart": 340.8,
+          "expectedEnd": 579.28,
+          "actualStart": 343.795917,
+          "actualEnd": 582.2805,
+          "timeDifference": 2.995916999999963
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Pirate Mindset—Rediscovering Purpose and Courage",
+          "expectedStart": 579.28,
+          "expectedEnd": 789.05,
+          "actualStart": 583.7805,
+          "actualEnd": 793.554083,
+          "timeDifference": 4.500499999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rewriting the Rules—Turning Rebellion into Progress",
+          "expectedStart": 789.05,
+          "expectedEnd": 1012.55,
+          "actualStart": 795.054083,
+          "actualEnd": 1018.550583,
+          "timeDifference": 6.004083000000037
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Movements—The Power of Collective Action",
+          "expectedStart": 1012.55,
+          "expectedEnd": 1226.6,
+          "actualStart": 1020.050583,
+          "actualEnd": 1234.100583,
+          "timeDifference": 7.500583000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining the Rebellion—Keeping the Flame Alive",
+          "expectedStart": 1226.6,
+          "expectedEnd": 1425.32,
+          "actualStart": 1235.600583,
+          "actualEnd": 1434.323166,
+          "timeDifference": 9.000583000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Codifying Values—Turning Ideals into Action",
+          "expectedStart": 1425.32,
+          "expectedEnd": 1582.61,
+          "actualStart": 1435.823166,
+          "actualEnd": 1593.1103329999999,
+          "timeDifference": 10.503165999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Conflict—Dealing with Doubt, Dissent, and Sabotage",
+          "expectedStart": 1582.61,
+          "expectedEnd": 1765.19,
+          "actualStart": 1594.6103329999999,
+          "actualEnd": 1777.1913329999998,
+          "timeDifference": 12.000332999999955
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Spreading the Pirate Spirit—Inspiring Others to Rebel",
+          "expectedStart": 1765.19,
+          "expectedEnd": 1948.01,
+          "actualStart": 1778.6913329999998,
+          "actualEnd": 1961.5151659999997,
+          "timeDifference": 13.501332999999704
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leaving a Legacy—Making Change Last",
+          "expectedStart": 1948.01,
+          "expectedEnd": 2112.18,
+          "actualStart": 1963.0151659999997,
+          "actualEnd": 2127.1844989999995,
+          "timeDifference": 15.00516599999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2112.18,
+          "expectedEnd": 2242.63,
+          "actualStart": 2128.6844989999995,
+          "actualEnd": 2259.1351239999995,
+          "timeDifference": 16.50449899999967
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.34825,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Breaking the Rules Matters More Than Ever"
+        },
+        {
+          "startTime": 342.295917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Breaking the Rules Matters More Than Ever and Chapter 2 Learning from the Real Pirates—Not the Myths"
+        },
+        {
+          "startTime": 582.2805,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from the Real Pirates—Not the Myths and Chapter 3 The Pirate Mindset—Rediscovering Purpose and Courage"
+        },
+        {
+          "startTime": 793.554083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Pirate Mindset—Rediscovering Purpose and Courage and Chapter 4 Rewriting the Rules—Turning Rebellion into Progress"
+        },
+        {
+          "startTime": 1018.550583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rewriting the Rules—Turning Rebellion into Progress and Chapter 5 Building Movements—The Power of Collective Action"
+        },
+        {
+          "startTime": 1234.100583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Movements—The Power of Collective Action and Chapter 6 Sustaining the Rebellion—Keeping the Flame Alive"
+        },
+        {
+          "startTime": 1434.323166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining the Rebellion—Keeping the Flame Alive and Chapter 7 Codifying Values—Turning Ideals into Action"
+        },
+        {
+          "startTime": 1593.1103329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Codifying Values—Turning Ideals into Action and Chapter 8 Navigating Conflict—Dealing with Doubt, Dissent, and Sabotage"
+        },
+        {
+          "startTime": 1777.1913329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Conflict—Dealing with Doubt, Dissent, and Sabotage and Chapter 9 Spreading the Pirate Spirit—Inspiring Others to Rebel"
+        },
+        {
+          "startTime": 1961.5151659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Spreading the Pirate Spirit—Inspiring Others to Rebel and Chapter 10 Leaving a Legacy—Making Change Last"
+        },
+        {
+          "startTime": 2127.1844989999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leaving a Legacy—Making Change Last and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3178",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:13:02.155Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3029",
+  "timestamp": "2025-07-14T12:56:49.455Z",
+  "success": false,
+  "processingTime": -1752497444960,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3999,
+    "totalAudioFiles": 12,
+    "totalDuration": 1698.426376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1698.426376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3029/optimized_text/3029.md",
+    "fileSize": 615,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "3029.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3029/metadata/3029_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1698.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3029/metadata/3029_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3029/metadata/3029_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3029/3029_complete.wav",
+    "duration": 1698.426375,
+    "fileSize": 81524544,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3029/introduction.wav",
+          "duration": 67.475917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 67.475917,
+          "startTime": 0,
+          "endTime": 67.475917
+        },
+        {
+          "path": "Audio/output/3029/chapter_01.wav",
+          "duration": 182.005625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Unknown: The Moment Before Everything Changes",
+          "actualDuration": 182.005625,
+          "startTime": 68.975917,
+          "endTime": 250.981542
+        },
+        {
+          "path": "Audio/output/3029/chapter_02.wav",
+          "duration": 180.600792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unexpected Gifts of Failure",
+          "actualDuration": 180.600792,
+          "startTime": 252.481542,
+          "endTime": 433.082334
+        },
+        {
+          "path": "Audio/output/3029/chapter_03.wav",
+          "duration": 187.956667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Imagination as a Force for Empathy and Change",
+          "actualDuration": 187.956667,
+          "startTime": 434.582334,
+          "endTime": 622.539001
+        },
+        {
+          "path": "Audio/output/3029/chapter_04.wav",
+          "duration": 180.254708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Privilege, Responsibility, and the Power to Make a Difference",
+          "actualDuration": 180.254708,
+          "startTime": 624.039001,
+          "endTime": 804.293709
+        },
+        {
+          "path": "Audio/output/3029/chapter_05.wav",
+          "duration": 162.354042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Choices in the Face of Adversity",
+          "actualDuration": 162.354042,
+          "startTime": 805.793709,
+          "endTime": 968.147751
+        },
+        {
+          "path": "Audio/output/3029/chapter_06.wav",
+          "duration": 133.425917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Redefining Success: Beyond the Obvious Markers",
+          "actualDuration": 133.425917,
+          "startTime": 969.647751,
+          "endTime": 1103.073668
+        },
+        {
+          "path": "Audio/output/3029/chapter_07.wav",
+          "duration": 116.347333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Enduring Value of Imagination",
+          "actualDuration": 116.347333,
+          "startTime": 1104.573668,
+          "endTime": 1220.921001
+        },
+        {
+          "path": "Audio/output/3029/chapter_08.wav",
+          "duration": 127.921417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Courage in the Face of Uncertainty",
+          "actualDuration": 127.921417,
+          "startTime": 1222.421001,
+          "endTime": 1350.342418
+        },
+        {
+          "path": "Audio/output/3029/chapter_09.wav",
+          "duration": 135.92075,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Compassion as a Daily Practice",
+          "actualDuration": 135.92075,
+          "startTime": 1351.842418,
+          "endTime": 1487.763168
+        },
+        {
+          "path": "Audio/output/3029/chapter_10.wav",
+          "duration": 129.077833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living a Very Good Life: The Ongoing Journey",
+          "actualDuration": 129.077833,
+          "startTime": 1489.263168,
+          "endTime": 1618.341001
+        },
+        {
+          "path": "Audio/output/3029/conclusion.wav",
+          "duration": 95.085375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.085375,
+          "startTime": 1619.841001,
+          "endTime": 1714.926376
+        }
+      ],
+      "totalDuration": 1714.926376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 67.48,
+          "actualStart": 0,
+          "actualEnd": 67.475917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Unknown: The Moment Before Everything Changes",
+          "expectedStart": 67.48,
+          "expectedEnd": 249.49,
+          "actualStart": 68.975917,
+          "actualEnd": 250.981542,
+          "timeDifference": 1.4959169999999915
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unexpected Gifts of Failure",
+          "expectedStart": 249.49,
+          "expectedEnd": 430.09,
+          "actualStart": 252.481542,
+          "actualEnd": 433.082334,
+          "timeDifference": 2.9915419999999813
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Imagination as a Force for Empathy and Change",
+          "expectedStart": 430.09,
+          "expectedEnd": 618.05,
+          "actualStart": 434.582334,
+          "actualEnd": 622.539001,
+          "timeDifference": 4.492334000000028
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Privilege, Responsibility, and the Power to Make a Difference",
+          "expectedStart": 618.05,
+          "expectedEnd": 798.3,
+          "actualStart": 624.039001,
+          "actualEnd": 804.293709,
+          "timeDifference": 5.98900100000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Choices in the Face of Adversity",
+          "expectedStart": 798.3,
+          "expectedEnd": 960.65,
+          "actualStart": 805.793709,
+          "actualEnd": 968.147751,
+          "timeDifference": 7.493709000000081
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Redefining Success: Beyond the Obvious Markers",
+          "expectedStart": 960.65,
+          "expectedEnd": 1094.08,
+          "actualStart": 969.647751,
+          "actualEnd": 1103.073668,
+          "timeDifference": 8.997750999999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Enduring Value of Imagination",
+          "expectedStart": 1094.08,
+          "expectedEnd": 1210.43,
+          "actualStart": 1104.573668,
+          "actualEnd": 1220.921001,
+          "timeDifference": 10.49366800000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Courage in the Face of Uncertainty",
+          "expectedStart": 1210.43,
+          "expectedEnd": 1338.35,
+          "actualStart": 1222.421001,
+          "actualEnd": 1350.342418,
+          "timeDifference": 11.99100099999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Compassion as a Daily Practice",
+          "expectedStart": 1338.35,
+          "expectedEnd": 1474.27,
+          "actualStart": 1351.842418,
+          "actualEnd": 1487.763168,
+          "timeDifference": 13.492418000000043
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living a Very Good Life: The Ongoing Journey",
+          "expectedStart": 1474.27,
+          "expectedEnd": 1603.35,
+          "actualStart": 1489.263168,
+          "actualEnd": 1618.341001,
+          "timeDifference": 14.993167999999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1603.35,
+          "expectedEnd": 1698.44,
+          "actualStart": 1619.841001,
+          "actualEnd": 1714.926376,
+          "timeDifference": 16.491001000000097
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 67.475917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Unknown: The Moment Before Everything Changes"
+        },
+        {
+          "startTime": 250.981542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Unknown: The Moment Before Everything Changes and Chapter 2 The Unexpected Gifts of Failure"
+        },
+        {
+          "startTime": 433.082334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unexpected Gifts of Failure and Chapter 3 Imagination as a Force for Empathy and Change"
+        },
+        {
+          "startTime": 622.539001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Imagination as a Force for Empathy and Change and Chapter 4 Privilege, Responsibility, and the Power to Make a Difference"
+        },
+        {
+          "startTime": 804.293709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Privilege, Responsibility, and the Power to Make a Difference and Chapter 5 Choices in the Face of Adversity"
+        },
+        {
+          "startTime": 968.147751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Choices in the Face of Adversity and Chapter 6 Redefining Success: Beyond the Obvious Markers"
+        },
+        {
+          "startTime": 1103.073668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Redefining Success: Beyond the Obvious Markers and Chapter 7 The Enduring Value of Imagination"
+        },
+        {
+          "startTime": 1220.921001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Enduring Value of Imagination and Chapter 8 Courage in the Face of Uncertainty"
+        },
+        {
+          "startTime": 1350.342418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Courage in the Face of Uncertainty and Chapter 9 Compassion as a Daily Practice"
+        },
+        {
+          "startTime": 1487.763168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Compassion as a Daily Practice and Chapter 10 Living a Very Good Life: The Ongoing Journey"
+        },
+        {
+          "startTime": 1618.341001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living a Very Good Life: The Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3029",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:50:46.509Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

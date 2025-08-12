@@ -1,0 +1,456 @@
+{
+  "bookId": "2987",
+  "timestamp": "2025-07-14T09:31:53.655Z",
+  "success": false,
+  "processingTime": -1752485160653,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4197,
+    "totalAudioFiles": 12,
+    "totalDuration": 2174.7299570000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2174.7299570000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2987/optimized_text/2987.md",
+    "fileSize": 786,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2987.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2987/metadata/2987_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2174.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2987/metadata/2987_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2987/metadata/2987_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2987/2987_complete.wav",
+    "duration": 2174.729958,
+    "fileSize": 104387116,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2987/introduction.wav",
+          "duration": 92.388208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.388208,
+          "startTime": 0,
+          "endTime": 92.388208
+        },
+        {
+          "path": "Audio/output/2987/chapter_01.wav",
+          "duration": 175.22675,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Habits Matter and How They Shape Everyday Life",
+          "actualDuration": 175.22675,
+          "startTime": 93.888208,
+          "endTime": 269.114958
+        },
+        {
+          "path": "Audio/output/2987/chapter_02.wav",
+          "duration": 265.584917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Four Tendencies: Understanding How People Respond to Expectations",
+          "actualDuration": 265.584917,
+          "startTime": 270.614958,
+          "endTime": 536.199875
+        },
+        {
+          "path": "Audio/output/2987/chapter_03.wav",
+          "duration": 225.110208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Habits: The Role of Cues, Context, and Small Steps",
+          "actualDuration": 225.110208,
+          "startTime": 537.699875,
+          "endTime": 762.8100830000001
+        },
+        {
+          "path": "Audio/output/2987/chapter_04.wav",
+          "duration": 214.096583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Tailoring Strategies: Accountability, Rewards, and Social Support",
+          "actualDuration": 214.096583,
+          "startTime": 764.3100830000001,
+          "endTime": 978.4066660000001
+        },
+        {
+          "path": "Audio/output/2987/chapter_05.wav",
+          "duration": 222.497333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Bad Habits and Navigating Temptation",
+          "actualDuration": 222.497333,
+          "startTime": 979.9066660000001,
+          "endTime": 1202.403999
+        },
+        {
+          "path": "Audio/output/2987/chapter_06.wav",
+          "duration": 163.63875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Strategies: Safeguards, Pairing, and the Power of Identity",
+          "actualDuration": 163.63875,
+          "startTime": 1203.903999,
+          "endTime": 1367.5427490000002
+        },
+        {
+          "path": "Audio/output/2987/chapter_07.wav",
+          "duration": 181.701958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Customizing Habits: Chronotypes, Convenience, and Personalization",
+          "actualDuration": 181.701958,
+          "startTime": 1369.0427490000002,
+          "endTime": 1550.7447070000003
+        },
+        {
+          "path": "Audio/output/2987/chapter_08.wav",
+          "duration": 167.481083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Habits in Relationships, Work, and Health",
+          "actualDuration": 167.481083,
+          "startTime": 1552.2447070000003,
+          "endTime": 1719.7257900000004
+        },
+        {
+          "path": "Audio/output/2987/chapter_09.wav",
+          "duration": 188.769667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks: Resilience, Self-Compassion, and the Long View",
+          "actualDuration": 188.769667,
+          "startTime": 1721.2257900000004,
+          "endTime": 1909.9954570000004
+        },
+        {
+          "path": "Audio/output/2987/chapter_10.wav",
+          "duration": 178.517208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Change: Reflection, Celebration, and Renewal",
+          "actualDuration": 178.517208,
+          "startTime": 1911.4954570000004,
+          "endTime": 2090.0126650000007
+        },
+        {
+          "path": "Audio/output/2987/conclusion.wav",
+          "duration": 99.717292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.717292,
+          "startTime": 2091.5126650000007,
+          "endTime": 2191.2299570000005
+        }
+      ],
+      "totalDuration": 2191.2299570000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.39,
+          "actualStart": 0,
+          "actualEnd": 92.388208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Habits Matter and How They Shape Everyday Life",
+          "expectedStart": 92.39,
+          "expectedEnd": 267.62,
+          "actualStart": 93.888208,
+          "actualEnd": 269.114958,
+          "timeDifference": 1.4982080000000053
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Four Tendencies: Understanding How People Respond to Expectations",
+          "expectedStart": 267.62,
+          "expectedEnd": 533.2,
+          "actualStart": 270.614958,
+          "actualEnd": 536.199875,
+          "timeDifference": 2.994957999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Habits: The Role of Cues, Context, and Small Steps",
+          "expectedStart": 533.2,
+          "expectedEnd": 758.31,
+          "actualStart": 537.699875,
+          "actualEnd": 762.8100830000001,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Tailoring Strategies: Accountability, Rewards, and Social Support",
+          "expectedStart": 758.31,
+          "expectedEnd": 972.41,
+          "actualStart": 764.3100830000001,
+          "actualEnd": 978.4066660000001,
+          "timeDifference": 6.0000830000001315
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Bad Habits and Navigating Temptation",
+          "expectedStart": 972.41,
+          "expectedEnd": 1194.91,
+          "actualStart": 979.9066660000001,
+          "actualEnd": 1202.403999,
+          "timeDifference": 7.496666000000118
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Strategies: Safeguards, Pairing, and the Power of Identity",
+          "expectedStart": 1194.91,
+          "expectedEnd": 1358.55,
+          "actualStart": 1203.903999,
+          "actualEnd": 1367.5427490000002,
+          "timeDifference": 8.99399900000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Customizing Habits: Chronotypes, Convenience, and Personalization",
+          "expectedStart": 1358.55,
+          "expectedEnd": 1540.25,
+          "actualStart": 1369.0427490000002,
+          "actualEnd": 1550.7447070000003,
+          "timeDifference": 10.49274900000023
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Habits in Relationships, Work, and Health",
+          "expectedStart": 1540.25,
+          "expectedEnd": 1707.73,
+          "actualStart": 1552.2447070000003,
+          "actualEnd": 1719.7257900000004,
+          "timeDifference": 11.99470700000029
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks: Resilience, Self-Compassion, and the Long View",
+          "expectedStart": 1707.73,
+          "expectedEnd": 1896.5,
+          "actualStart": 1721.2257900000004,
+          "actualEnd": 1909.9954570000004,
+          "timeDifference": 13.495790000000397
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Change: Reflection, Celebration, and Renewal",
+          "expectedStart": 1896.5,
+          "expectedEnd": 2075.02,
+          "actualStart": 1911.4954570000004,
+          "actualEnd": 2090.0126650000007,
+          "timeDifference": 14.995457000000442
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2075.02,
+          "expectedEnd": 2174.74,
+          "actualStart": 2091.5126650000007,
+          "actualEnd": 2191.2299570000005,
+          "timeDifference": 16.49266500000067
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.388208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Habits Matter and How They Shape Everyday Life"
+        },
+        {
+          "startTime": 269.114958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Habits Matter and How They Shape Everyday Life and Chapter 2 The Four Tendencies: Understanding How People Respond to Expectations"
+        },
+        {
+          "startTime": 536.199875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Four Tendencies: Understanding How People Respond to Expectations and Chapter 3 Building Habits: The Role of Cues, Context, and Small Steps"
+        },
+        {
+          "startTime": 762.8100830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Habits: The Role of Cues, Context, and Small Steps and Chapter 4 Tailoring Strategies: Accountability, Rewards, and Social Support"
+        },
+        {
+          "startTime": 978.4066660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Tailoring Strategies: Accountability, Rewards, and Social Support and Chapter 5 Breaking Bad Habits and Navigating Temptation"
+        },
+        {
+          "startTime": 1202.403999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Bad Habits and Navigating Temptation and Chapter 6 Advanced Strategies: Safeguards, Pairing, and the Power of Identity"
+        },
+        {
+          "startTime": 1367.5427490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Strategies: Safeguards, Pairing, and the Power of Identity and Chapter 7 Customizing Habits: Chronotypes, Convenience, and Personalization"
+        },
+        {
+          "startTime": 1550.7447070000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Customizing Habits: Chronotypes, Convenience, and Personalization and Chapter 8 Habits in Relationships, Work, and Health"
+        },
+        {
+          "startTime": 1719.7257900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Habits in Relationships, Work, and Health and Chapter 9 Navigating Setbacks: Resilience, Self-Compassion, and the Long View"
+        },
+        {
+          "startTime": 1909.9954570000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks: Resilience, Self-Compassion, and the Long View and Chapter 10 Sustaining Change: Reflection, Celebration, and Renewal"
+        },
+        {
+          "startTime": 2090.0126650000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Change: Reflection, Celebration, and Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2987",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:26:01.831Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

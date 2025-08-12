@@ -1,0 +1,456 @@
+{
+  "bookId": "2799",
+  "timestamp": "2025-07-13T20:39:56.119Z",
+  "success": false,
+  "processingTime": -1752438872921,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4691,
+    "totalAudioFiles": 12,
+    "totalDuration": 2264.254542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2264.254542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2799/optimized_text/2799.md",
+    "fileSize": 696,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2799.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2799/metadata/2799_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2264.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2799/metadata/2799_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2799/metadata/2799_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2799/2799_complete.wav",
+    "duration": 2264.254542,
+    "fileSize": 108684296,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2799/introduction.wav",
+          "duration": 117.016958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 117.016958,
+          "startTime": 0,
+          "endTime": 117.016958
+        },
+        {
+          "path": "Audio/output/2799/chapter_01.wav",
+          "duration": 279.449417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Letting Go of Appearances and Finding What Matters",
+          "actualDuration": 279.449417,
+          "startTime": 118.516958,
+          "endTime": 397.96637499999997
+        },
+        {
+          "path": "Audio/output/2799/chapter_02.wav",
+          "duration": 233.182125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Quiet Power of Humility and Self-Discipline",
+          "actualDuration": 233.182125,
+          "startTime": 399.46637499999997,
+          "endTime": 632.6485
+        },
+        {
+          "path": "Audio/output/2799/chapter_03.wav",
+          "duration": 208.610167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Inward—The Practice of Private Devotion",
+          "actualDuration": 208.610167,
+          "startTime": 634.1485,
+          "endTime": 842.7586670000001
+        },
+        {
+          "path": "Audio/output/2799/chapter_04.wav",
+          "duration": 239.929167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Detachment from Worldly Distractions and the Search for Inner Peace",
+          "actualDuration": 239.929167,
+          "startTime": 844.2586670000001,
+          "endTime": 1084.187834
+        },
+        {
+          "path": "Audio/output/2799/chapter_05.wav",
+          "duration": 188.937667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Suffering as a Path to Spiritual Growth",
+          "actualDuration": 188.937667,
+          "startTime": 1085.687834,
+          "endTime": 1274.625501
+        },
+        {
+          "path": "Audio/output/2799/chapter_06.wav",
+          "duration": 175.743125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gentle Art of Patience and Endurance",
+          "actualDuration": 175.743125,
+          "startTime": 1276.125501,
+          "endTime": 1451.868626
+        },
+        {
+          "path": "Audio/output/2799/chapter_07.wav",
+          "duration": 192.434083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Grace—Receiving What Cannot Be Earned",
+          "actualDuration": 192.434083,
+          "startTime": 1453.368626,
+          "endTime": 1645.802709
+        },
+        {
+          "path": "Audio/output/2799/chapter_08.wav",
+          "duration": 167.743458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Call to Inward Transformation",
+          "actualDuration": 167.743458,
+          "startTime": 1647.302709,
+          "endTime": 1815.046167
+        },
+        {
+          "path": "Audio/output/2799/chapter_09.wav",
+          "duration": 162.373375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living in Community—The Practice of Mutual Support",
+          "actualDuration": 162.373375,
+          "startTime": 1816.546167,
+          "endTime": 1978.919542
+        },
+        {
+          "path": "Audio/output/2799/chapter_10.wav",
+          "duration": 132.848167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Simplicity of Love—The Heart of Imitation",
+          "actualDuration": 132.848167,
+          "startTime": 1980.419542,
+          "endTime": 2113.267709
+        },
+        {
+          "path": "Audio/output/2799/conclusion.wav",
+          "duration": 165.986833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 165.986833,
+          "startTime": 2114.767709,
+          "endTime": 2280.754542
+        }
+      ],
+      "totalDuration": 2280.754542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 117.02,
+          "actualStart": 0,
+          "actualEnd": 117.016958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Letting Go of Appearances and Finding What Matters",
+          "expectedStart": 117.02,
+          "expectedEnd": 396.47,
+          "actualStart": 118.516958,
+          "actualEnd": 397.96637499999997,
+          "timeDifference": 1.4969580000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Quiet Power of Humility and Self-Discipline",
+          "expectedStart": 396.47,
+          "expectedEnd": 629.65,
+          "actualStart": 399.46637499999997,
+          "actualEnd": 632.6485,
+          "timeDifference": 2.9963749999999436
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Inward—The Practice of Private Devotion",
+          "expectedStart": 629.65,
+          "expectedEnd": 838.26,
+          "actualStart": 634.1485,
+          "actualEnd": 842.7586670000001,
+          "timeDifference": 4.4985000000000355
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Detachment from Worldly Distractions and the Search for Inner Peace",
+          "expectedStart": 838.26,
+          "expectedEnd": 1078.19,
+          "actualStart": 844.2586670000001,
+          "actualEnd": 1084.187834,
+          "timeDifference": 5.998667000000069
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Suffering as a Path to Spiritual Growth",
+          "expectedStart": 1078.19,
+          "expectedEnd": 1267.13,
+          "actualStart": 1085.687834,
+          "actualEnd": 1274.625501,
+          "timeDifference": 7.497834000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gentle Art of Patience and Endurance",
+          "expectedStart": 1267.13,
+          "expectedEnd": 1442.87,
+          "actualStart": 1276.125501,
+          "actualEnd": 1451.868626,
+          "timeDifference": 8.995500999999877
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Grace—Receiving What Cannot Be Earned",
+          "expectedStart": 1442.87,
+          "expectedEnd": 1635.3,
+          "actualStart": 1453.368626,
+          "actualEnd": 1645.802709,
+          "timeDifference": 10.498626000000058
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Call to Inward Transformation",
+          "expectedStart": 1635.3,
+          "expectedEnd": 1803.04,
+          "actualStart": 1647.302709,
+          "actualEnd": 1815.046167,
+          "timeDifference": 12.002709000000095
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living in Community—The Practice of Mutual Support",
+          "expectedStart": 1803.04,
+          "expectedEnd": 1965.41,
+          "actualStart": 1816.546167,
+          "actualEnd": 1978.919542,
+          "timeDifference": 13.506167000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Simplicity of Love—The Heart of Imitation",
+          "expectedStart": 1965.41,
+          "expectedEnd": 2098.26,
+          "actualStart": 1980.419542,
+          "actualEnd": 2113.267709,
+          "timeDifference": 15.00954200000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2098.26,
+          "expectedEnd": 2264.25,
+          "actualStart": 2114.767709,
+          "actualEnd": 2280.754542,
+          "timeDifference": 16.507708999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 117.016958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Letting Go of Appearances and Finding What Matters"
+        },
+        {
+          "startTime": 397.96637499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Letting Go of Appearances and Finding What Matters and Chapter 2 The Quiet Power of Humility and Self-Discipline"
+        },
+        {
+          "startTime": 632.6485,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Quiet Power of Humility and Self-Discipline and Chapter 3 Turning Inward—The Practice of Private Devotion"
+        },
+        {
+          "startTime": 842.7586670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Inward—The Practice of Private Devotion and Chapter 4 Detachment from Worldly Distractions and the Search for Inner Peace"
+        },
+        {
+          "startTime": 1084.187834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Detachment from Worldly Distractions and the Search for Inner Peace and Chapter 5 Embracing Suffering as a Path to Spiritual Growth"
+        },
+        {
+          "startTime": 1274.625501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Suffering as a Path to Spiritual Growth and Chapter 6 The Gentle Art of Patience and Endurance"
+        },
+        {
+          "startTime": 1451.868626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gentle Art of Patience and Endurance and Chapter 7 The Role of Grace—Receiving What Cannot Be Earned"
+        },
+        {
+          "startTime": 1645.802709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Grace—Receiving What Cannot Be Earned and Chapter 8 The Ongoing Call to Inward Transformation"
+        },
+        {
+          "startTime": 1815.046167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Call to Inward Transformation and Chapter 9 Living in Community—The Practice of Mutual Support"
+        },
+        {
+          "startTime": 1978.919542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living in Community—The Practice of Mutual Support and Chapter 10 The Simplicity of Love—The Heart of Imitation"
+        },
+        {
+          "startTime": 2113.267709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Simplicity of Love—The Heart of Imitation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2799",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:34:34.613Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

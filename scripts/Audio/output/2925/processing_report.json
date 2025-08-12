@@ -1,0 +1,456 @@
+{
+  "bookId": "2925",
+  "timestamp": "2025-07-14T04:53:45.406Z",
+  "success": false,
+  "processingTime": -1752468568315,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4634,
+    "totalAudioFiles": 12,
+    "totalDuration": 2341.135917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2341.135917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2925/optimized_text/2925.md",
+    "fileSize": 822,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "2925.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2925/metadata/2925_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2341.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2925/metadata/2925_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2925/metadata/2925_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2925/2925_complete.wav",
+    "duration": 2341.135917,
+    "fileSize": 112374602,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2925/introduction.wav",
+          "duration": 119.849958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 119.849958,
+          "startTime": 0,
+          "endTime": 119.849958
+        },
+        {
+          "path": "Audio/output/2925/chapter_01.wav",
+          "duration": 237.920375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Roots of Moral Intuition: How We Judge Before We Think",
+          "actualDuration": 237.920375,
+          "startTime": 121.349958,
+          "endTime": 359.270333
+        },
+        {
+          "path": "Audio/output/2925/chapter_02.wav",
+          "duration": 217.16,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Social Nature of Morality: How Groups Shape What We Value",
+          "actualDuration": 217.16,
+          "startTime": 360.770333,
+          "endTime": 577.930333
+        },
+        {
+          "path": "Audio/output/2925/chapter_03.wav",
+          "duration": 267.333375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Many Foundations of Morality: Why People Disagree About Right and Wrong",
+          "actualDuration": 267.333375,
+          "startTime": 579.430333,
+          "endTime": 846.763708
+        },
+        {
+          "path": "Audio/output/2925/chapter_04.wav",
+          "duration": 196.0475,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power and Limits of Reason: Why Arguments Rarely Change Minds",
+          "actualDuration": 196.0475,
+          "startTime": 848.263708,
+          "endTime": 1044.311208
+        },
+        {
+          "path": "Audio/output/2925/chapter_05.wav",
+          "duration": 233.647083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Origins of Moral Diversity: How Evolution and Culture Shape Our Values",
+          "actualDuration": 233.647083,
+          "startTime": 1045.811208,
+          "endTime": 1279.4582910000001
+        },
+        {
+          "path": "Audio/output/2925/chapter_06.wav",
+          "duration": 225.905292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Hive Switch: How We Become “Groupish” and Transcend Ourselves",
+          "actualDuration": 225.905292,
+          "startTime": 1280.9582910000001,
+          "endTime": 1506.863583
+        },
+        {
+          "path": "Audio/output/2925/chapter_07.wav",
+          "duration": 225.507458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Religion, Ritual, and the Moral Community",
+          "actualDuration": 225.507458,
+          "startTime": 1508.363583,
+          "endTime": 1733.871041
+        },
+        {
+          "path": "Audio/output/2925/chapter_08.wav",
+          "duration": 186.701792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Challenge of Moral Pluralism: Living with Deep Differences",
+          "actualDuration": 186.701792,
+          "startTime": 1735.371041,
+          "endTime": 1922.0728330000002
+        },
+        {
+          "path": "Audio/output/2925/chapter_09.wav",
+          "duration": 184.081667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bridging the Divide: How to Have Better Moral Conversations",
+          "actualDuration": 184.081667,
+          "startTime": 1923.5728330000002,
+          "endTime": 2107.6545
+        },
+        {
+          "path": "Audio/output/2925/chapter_10.wav",
+          "duration": 133.133375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Path Forward: Cultivating Wisdom in a Divided World",
+          "actualDuration": 133.133375,
+          "startTime": 2109.1545,
+          "endTime": 2242.287875
+        },
+        {
+          "path": "Audio/output/2925/conclusion.wav",
+          "duration": 113.848042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.848042,
+          "startTime": 2243.787875,
+          "endTime": 2357.635917
+        }
+      ],
+      "totalDuration": 2357.635917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 119.85,
+          "actualStart": 0,
+          "actualEnd": 119.849958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Roots of Moral Intuition: How We Judge Before We Think",
+          "expectedStart": 119.85,
+          "expectedEnd": 357.77,
+          "actualStart": 121.349958,
+          "actualEnd": 359.270333,
+          "timeDifference": 1.4999580000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Social Nature of Morality: How Groups Shape What We Value",
+          "expectedStart": 357.77,
+          "expectedEnd": 574.93,
+          "actualStart": 360.770333,
+          "actualEnd": 577.930333,
+          "timeDifference": 3.000333000000012
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Many Foundations of Morality: Why People Disagree About Right and Wrong",
+          "expectedStart": 574.93,
+          "expectedEnd": 842.26,
+          "actualStart": 579.430333,
+          "actualEnd": 846.763708,
+          "timeDifference": 4.500333000000069
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power and Limits of Reason: Why Arguments Rarely Change Minds",
+          "expectedStart": 842.26,
+          "expectedEnd": 1038.31,
+          "actualStart": 848.263708,
+          "actualEnd": 1044.311208,
+          "timeDifference": 6.0037079999999605
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Origins of Moral Diversity: How Evolution and Culture Shape Our Values",
+          "expectedStart": 1038.31,
+          "expectedEnd": 1271.96,
+          "actualStart": 1045.811208,
+          "actualEnd": 1279.4582910000001,
+          "timeDifference": 7.501208000000133
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Hive Switch: How We Become “Groupish” and Transcend Ourselves",
+          "expectedStart": 1271.96,
+          "expectedEnd": 1497.87,
+          "actualStart": 1280.9582910000001,
+          "actualEnd": 1506.863583,
+          "timeDifference": 8.998291000000108
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Religion, Ritual, and the Moral Community",
+          "expectedStart": 1497.87,
+          "expectedEnd": 1723.38,
+          "actualStart": 1508.363583,
+          "actualEnd": 1733.871041,
+          "timeDifference": 10.493583000000172
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Challenge of Moral Pluralism: Living with Deep Differences",
+          "expectedStart": 1723.38,
+          "expectedEnd": 1910.08,
+          "actualStart": 1735.371041,
+          "actualEnd": 1922.0728330000002,
+          "timeDifference": 11.991040999999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bridging the Divide: How to Have Better Moral Conversations",
+          "expectedStart": 1910.08,
+          "expectedEnd": 2094.16,
+          "actualStart": 1923.5728330000002,
+          "actualEnd": 2107.6545,
+          "timeDifference": 13.492833000000246
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Path Forward: Cultivating Wisdom in a Divided World",
+          "expectedStart": 2094.16,
+          "expectedEnd": 2227.29,
+          "actualStart": 2109.1545,
+          "actualEnd": 2242.287875,
+          "timeDifference": 14.994500000000244
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2227.29,
+          "expectedEnd": 2341.14,
+          "actualStart": 2243.787875,
+          "actualEnd": 2357.635917,
+          "timeDifference": 16.497875000000022
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 119.849958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Roots of Moral Intuition: How We Judge Before We Think"
+        },
+        {
+          "startTime": 359.270333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Roots of Moral Intuition: How We Judge Before We Think and Chapter 2 The Social Nature of Morality: How Groups Shape What We Value"
+        },
+        {
+          "startTime": 577.930333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Social Nature of Morality: How Groups Shape What We Value and Chapter 3 The Many Foundations of Morality: Why People Disagree About Right and Wrong"
+        },
+        {
+          "startTime": 846.763708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Many Foundations of Morality: Why People Disagree About Right and Wrong and Chapter 4 The Power and Limits of Reason: Why Arguments Rarely Change Minds"
+        },
+        {
+          "startTime": 1044.311208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power and Limits of Reason: Why Arguments Rarely Change Minds and Chapter 5 The Origins of Moral Diversity: How Evolution and Culture Shape Our Values"
+        },
+        {
+          "startTime": 1279.4582910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Origins of Moral Diversity: How Evolution and Culture Shape Our Values and Chapter 6 The Hive Switch: How We Become “Groupish” and Transcend Ourselves"
+        },
+        {
+          "startTime": 1506.863583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Hive Switch: How We Become “Groupish” and Transcend Ourselves and Chapter 7 Religion, Ritual, and the Moral Community"
+        },
+        {
+          "startTime": 1733.871041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Religion, Ritual, and the Moral Community and Chapter 8 The Challenge of Moral Pluralism: Living with Deep Differences"
+        },
+        {
+          "startTime": 1922.0728330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Challenge of Moral Pluralism: Living with Deep Differences and Chapter 9 Bridging the Divide: How to Have Better Moral Conversations"
+        },
+        {
+          "startTime": 2107.6545,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bridging the Divide: How to Have Better Moral Conversations and Chapter 10 The Path Forward: Cultivating Wisdom in a Divided World"
+        },
+        {
+          "startTime": 2242.287875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Path Forward: Cultivating Wisdom in a Divided World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2925",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:49:29.488Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

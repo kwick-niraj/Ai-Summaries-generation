@@ -1,0 +1,456 @@
+{
+  "bookId": "3186",
+  "timestamp": "2025-07-15T01:53:19.701Z",
+  "success": false,
+  "processingTime": -1752543984172,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5292,
+    "totalAudioFiles": 12,
+    "totalDuration": 2382.3730410000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2382.3730410000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3186/optimized_text/3186.md",
+    "fileSize": 844,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "3186.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3186/metadata/3186_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2382.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3186/metadata/3186_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3186/metadata/3186_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3186/3186_complete.wav",
+    "duration": 2382.373042,
+    "fileSize": 114353984,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3186/introduction.wav",
+          "duration": 87.388708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.388708,
+          "startTime": 0,
+          "endTime": 87.388708
+        },
+        {
+          "path": "Audio/output/3186/chapter_01.wav",
+          "duration": 275.029333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Start of a New Journey: Men Facing Pregnancy",
+          "actualDuration": 275.029333,
+          "startTime": 88.888708,
+          "endTime": 363.918041
+        },
+        {
+          "path": "Audio/output/3186/chapter_02.wav",
+          "duration": 249.980292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Changing Roles and Identities: Redefining What It Means to Be a Man",
+          "actualDuration": 249.980292,
+          "startTime": 365.418041,
+          "endTime": 615.398333
+        },
+        {
+          "path": "Audio/output/3186/chapter_03.wav",
+          "duration": 251.270208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Communication and Connection: Navigating the Emotional Landscape Together",
+          "actualDuration": 251.270208,
+          "startTime": 616.898333,
+          "endTime": 868.168541
+        },
+        {
+          "path": "Audio/output/3186/chapter_04.wav",
+          "duration": 209.714667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Social Expectations and the Weight of Masculinity",
+          "actualDuration": 209.714667,
+          "startTime": 869.668541,
+          "endTime": 1079.383208
+        },
+        {
+          "path": "Audio/output/3186/chapter_05.wav",
+          "duration": 210.519917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Fears, Anxieties, and Hopes: The Emotional Rollercoaster of Expectant Fathers",
+          "actualDuration": 210.519917,
+          "startTime": 1080.883208,
+          "endTime": 1291.403125
+        },
+        {
+          "path": "Audio/output/3186/chapter_06.wav",
+          "duration": 236.521708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shifting Landscape of Relationships: Intimacy, Distance, and New Bonds",
+          "actualDuration": 236.521708,
+          "startTime": 1292.903125,
+          "endTime": 1529.424833
+        },
+        {
+          "path": "Audio/output/3186/chapter_07.wav",
+          "duration": 184.611042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Birth Experience: Presence, Powerlessness, and the First Glimpse of Fatherhood",
+          "actualDuration": 184.611042,
+          "startTime": 1530.924833,
+          "endTime": 1715.535875
+        },
+        {
+          "path": "Audio/output/3186/chapter_08.wav",
+          "duration": 191.2185,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Early Days: Learning, Fumbling, and Finding a New Rhythm",
+          "actualDuration": 191.2185,
+          "startTime": 1717.035875,
+          "endTime": 1908.254375
+        },
+        {
+          "path": "Audio/output/3186/chapter_09.wav",
+          "duration": 167.605,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Redefining Fatherhood: Growth, Support, and the Long View",
+          "actualDuration": 167.605,
+          "startTime": 1909.754375,
+          "endTime": 2077.359375
+        },
+        {
+          "path": "Audio/output/3186/chapter_10.wav",
+          "duration": 151.438708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Legacy, Hope, and the Ongoing Journey",
+          "actualDuration": 151.438708,
+          "startTime": 2078.859375,
+          "endTime": 2230.298083
+        },
+        {
+          "path": "Audio/output/3186/conclusion.wav",
+          "duration": 167.074958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 167.074958,
+          "startTime": 2231.798083,
+          "endTime": 2398.8730410000003
+        }
+      ],
+      "totalDuration": 2398.8730410000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.39,
+          "actualStart": 0,
+          "actualEnd": 87.388708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Start of a New Journey: Men Facing Pregnancy",
+          "expectedStart": 87.39,
+          "expectedEnd": 362.42,
+          "actualStart": 88.888708,
+          "actualEnd": 363.918041,
+          "timeDifference": 1.4987079999999935
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Changing Roles and Identities: Redefining What It Means to Be a Man",
+          "expectedStart": 362.42,
+          "expectedEnd": 612.4,
+          "actualStart": 365.418041,
+          "actualEnd": 615.398333,
+          "timeDifference": 2.9980410000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Communication and Connection: Navigating the Emotional Landscape Together",
+          "expectedStart": 612.4,
+          "expectedEnd": 863.67,
+          "actualStart": 616.898333,
+          "actualEnd": 868.168541,
+          "timeDifference": 4.498333000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Social Expectations and the Weight of Masculinity",
+          "expectedStart": 863.67,
+          "expectedEnd": 1073.38,
+          "actualStart": 869.668541,
+          "actualEnd": 1079.383208,
+          "timeDifference": 5.998541000000046
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Fears, Anxieties, and Hopes: The Emotional Rollercoaster of Expectant Fathers",
+          "expectedStart": 1073.38,
+          "expectedEnd": 1283.9,
+          "actualStart": 1080.883208,
+          "actualEnd": 1291.403125,
+          "timeDifference": 7.503207999999859
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shifting Landscape of Relationships: Intimacy, Distance, and New Bonds",
+          "expectedStart": 1283.9,
+          "expectedEnd": 1520.42,
+          "actualStart": 1292.903125,
+          "actualEnd": 1529.424833,
+          "timeDifference": 9.003124999999955
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Birth Experience: Presence, Powerlessness, and the First Glimpse of Fatherhood",
+          "expectedStart": 1520.42,
+          "expectedEnd": 1705.03,
+          "actualStart": 1530.924833,
+          "actualEnd": 1715.535875,
+          "timeDifference": 10.504832999999962
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Early Days: Learning, Fumbling, and Finding a New Rhythm",
+          "expectedStart": 1705.03,
+          "expectedEnd": 1896.25,
+          "actualStart": 1717.035875,
+          "actualEnd": 1908.254375,
+          "timeDifference": 12.00587500000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Redefining Fatherhood: Growth, Support, and the Long View",
+          "expectedStart": 1896.25,
+          "expectedEnd": 2063.86,
+          "actualStart": 1909.754375,
+          "actualEnd": 2077.359375,
+          "timeDifference": 13.504374999999982
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Legacy, Hope, and the Ongoing Journey",
+          "expectedStart": 2063.86,
+          "expectedEnd": 2215.3,
+          "actualStart": 2078.859375,
+          "actualEnd": 2230.298083,
+          "timeDifference": 14.999374999999873
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2215.3,
+          "expectedEnd": 2382.37,
+          "actualStart": 2231.798083,
+          "actualEnd": 2398.8730410000003,
+          "timeDifference": 16.49808299999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.388708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Start of a New Journey: Men Facing Pregnancy"
+        },
+        {
+          "startTime": 363.918041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Start of a New Journey: Men Facing Pregnancy and Chapter 2 Changing Roles and Identities: Redefining What It Means to Be a Man"
+        },
+        {
+          "startTime": 615.398333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Changing Roles and Identities: Redefining What It Means to Be a Man and Chapter 3 Communication and Connection: Navigating the Emotional Landscape Together"
+        },
+        {
+          "startTime": 868.168541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Communication and Connection: Navigating the Emotional Landscape Together and Chapter 4 Social Expectations and the Weight of Masculinity"
+        },
+        {
+          "startTime": 1079.383208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Social Expectations and the Weight of Masculinity and Chapter 5 Fears, Anxieties, and Hopes: The Emotional Rollercoaster of Expectant Fathers"
+        },
+        {
+          "startTime": 1291.403125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Fears, Anxieties, and Hopes: The Emotional Rollercoaster of Expectant Fathers and Chapter 6 The Shifting Landscape of Relationships: Intimacy, Distance, and New Bonds"
+        },
+        {
+          "startTime": 1529.424833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shifting Landscape of Relationships: Intimacy, Distance, and New Bonds and Chapter 7 The Birth Experience: Presence, Powerlessness, and the First Glimpse of Fatherhood"
+        },
+        {
+          "startTime": 1715.535875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Birth Experience: Presence, Powerlessness, and the First Glimpse of Fatherhood and Chapter 8 The Early Days: Learning, Fumbling, and Finding a New Rhythm"
+        },
+        {
+          "startTime": 1908.254375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Early Days: Learning, Fumbling, and Finding a New Rhythm and Chapter 9 Redefining Fatherhood: Growth, Support, and the Long View"
+        },
+        {
+          "startTime": 2077.359375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Redefining Fatherhood: Growth, Support, and the Long View and Chapter 10 Looking Forward: Legacy, Hope, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2230.298083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Legacy, Hope, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3186",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:46:25.669Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

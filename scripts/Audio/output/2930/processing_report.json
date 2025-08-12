@@ -1,0 +1,504 @@
+{
+  "bookId": "2930",
+  "timestamp": "2025-07-14T05:09:33.927Z",
+  "success": false,
+  "processingTime": -1752469241719,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 6179,
+    "totalAudioFiles": 14,
+    "totalDuration": 2747.652166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2747.652166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2930/optimized_text/2930.md",
+    "fileSize": 736,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2930.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2930/metadata/2930_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2747.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2930/metadata/2930_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2930/metadata/2930_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2930/2930_complete.wav",
+    "duration": 2747.652167,
+    "fileSize": 131887382,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2930/introduction.wav",
+          "duration": 78.673833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.673833,
+          "startTime": 0,
+          "endTime": 78.673833
+        },
+        {
+          "path": "Audio/output/2930/chapter_01.wav",
+          "duration": 245.672083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Restless Search for True Masculinity",
+          "actualDuration": 245.672083,
+          "startTime": 80.173833,
+          "endTime": 325.845916
+        },
+        {
+          "path": "Audio/output/2930/chapter_02.wav",
+          "duration": 262.437667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Deepest Desires of a Man’s Heart",
+          "actualDuration": 262.437667,
+          "startTime": 327.345916,
+          "endTime": 589.7835829999999
+        },
+        {
+          "path": "Audio/output/2930/chapter_03.wav",
+          "duration": 269.016375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Wounds That Shape a Man’s Life",
+          "actualDuration": 269.016375,
+          "startTime": 591.2835829999999,
+          "endTime": 860.2999579999998
+        },
+        {
+          "path": "Audio/output/2930/chapter_04.wav",
+          "duration": 246.67125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rediscovering the Wildness Within",
+          "actualDuration": 246.67125,
+          "startTime": 861.7999579999998,
+          "endTime": 1108.471208
+        },
+        {
+          "path": "Audio/output/2930/chapter_05.wav",
+          "duration": 207.917875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Faith in Restoring Masculinity",
+          "actualDuration": 207.917875,
+          "startTime": 1109.971208,
+          "endTime": 1317.889083
+        },
+        {
+          "path": "Audio/output/2930/chapter_06.wav",
+          "duration": 224.756583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Path to Healing: Facing the Shadows",
+          "actualDuration": 224.756583,
+          "startTime": 1319.389083,
+          "endTime": 1544.1456660000001
+        },
+        {
+          "path": "Audio/output/2930/chapter_07.wav",
+          "duration": 184.419583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Brotherhood",
+          "actualDuration": 184.419583,
+          "startTime": 1545.6456660000001,
+          "endTime": 1730.0652490000002
+        },
+        {
+          "path": "Audio/output/2930/chapter_08.wav",
+          "duration": 193.259167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Women: Beauty, Partnership, and Challenge",
+          "actualDuration": 193.259167,
+          "startTime": 1731.5652490000002,
+          "endTime": 1924.8244160000002
+        },
+        {
+          "path": "Audio/output/2930/chapter_09.wav",
+          "duration": 179.719583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Adventure: Living from the Heart",
+          "actualDuration": 179.719583,
+          "startTime": 1926.3244160000002,
+          "endTime": 2106.043999
+        },
+        {
+          "path": "Audio/output/2930/chapter_10.wav",
+          "duration": 175.47425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Becoming a Warrior: The Call to Battle",
+          "actualDuration": 175.47425,
+          "startTime": 2107.543999,
+          "endTime": 2283.018249
+        },
+        {
+          "path": "Audio/output/2930/chapter_11.wav",
+          "duration": 171.657167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Father’s Blessing: Receiving and Giving Identity",
+          "actualDuration": 171.657167,
+          "startTime": 2284.518249,
+          "endTime": 2456.175416
+        },
+        {
+          "path": "Audio/output/2930/chapter_12.wav",
+          "duration": 175.698292,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Restoration of All Things: Hope for the Journey",
+          "actualDuration": 175.698292,
+          "startTime": 2457.675416,
+          "endTime": 2633.373708
+        },
+        {
+          "path": "Audio/output/2930/conclusion.wav",
+          "duration": 132.278458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.278458,
+          "startTime": 2634.873708,
+          "endTime": 2767.152166
+        }
+      ],
+      "totalDuration": 2767.152166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.67,
+          "actualStart": 0,
+          "actualEnd": 78.673833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Restless Search for True Masculinity",
+          "expectedStart": 78.67,
+          "expectedEnd": 324.34,
+          "actualStart": 80.173833,
+          "actualEnd": 325.845916,
+          "timeDifference": 1.5038330000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Deepest Desires of a Man’s Heart",
+          "expectedStart": 324.34,
+          "expectedEnd": 586.78,
+          "actualStart": 327.345916,
+          "actualEnd": 589.7835829999999,
+          "timeDifference": 3.0059160000000134
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Wounds That Shape a Man’s Life",
+          "expectedStart": 586.78,
+          "expectedEnd": 855.8,
+          "actualStart": 591.2835829999999,
+          "actualEnd": 860.2999579999998,
+          "timeDifference": 4.503582999999935
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rediscovering the Wildness Within",
+          "expectedStart": 855.8,
+          "expectedEnd": 1102.47,
+          "actualStart": 861.7999579999998,
+          "actualEnd": 1108.471208,
+          "timeDifference": 5.999957999999879
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Faith in Restoring Masculinity",
+          "expectedStart": 1102.47,
+          "expectedEnd": 1310.39,
+          "actualStart": 1109.971208,
+          "actualEnd": 1317.889083,
+          "timeDifference": 7.501207999999906
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Path to Healing: Facing the Shadows",
+          "expectedStart": 1310.39,
+          "expectedEnd": 1535.15,
+          "actualStart": 1319.389083,
+          "actualEnd": 1544.1456660000001,
+          "timeDifference": 8.999082999999928
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Brotherhood",
+          "expectedStart": 1535.15,
+          "expectedEnd": 1719.57,
+          "actualStart": 1545.6456660000001,
+          "actualEnd": 1730.0652490000002,
+          "timeDifference": 10.495666000000028
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Women: Beauty, Partnership, and Challenge",
+          "expectedStart": 1719.57,
+          "expectedEnd": 1912.83,
+          "actualStart": 1731.5652490000002,
+          "actualEnd": 1924.8244160000002,
+          "timeDifference": 11.995249000000285
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Adventure: Living from the Heart",
+          "expectedStart": 1912.83,
+          "expectedEnd": 2092.55,
+          "actualStart": 1926.3244160000002,
+          "actualEnd": 2106.043999,
+          "timeDifference": 13.494416000000228
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Becoming a Warrior: The Call to Battle",
+          "expectedStart": 2092.55,
+          "expectedEnd": 2268.02,
+          "actualStart": 2107.543999,
+          "actualEnd": 2283.018249,
+          "timeDifference": 14.993998999999803
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Father’s Blessing: Receiving and Giving Identity",
+          "expectedStart": 2268.02,
+          "expectedEnd": 2439.68,
+          "actualStart": 2284.518249,
+          "actualEnd": 2456.175416,
+          "timeDifference": 16.498249000000214
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Restoration of All Things: Hope for the Journey",
+          "expectedStart": 2439.68,
+          "expectedEnd": 2615.38,
+          "actualStart": 2457.675416,
+          "actualEnd": 2633.373708,
+          "timeDifference": 17.995416000000205
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2615.38,
+          "expectedEnd": 2747.66,
+          "actualStart": 2634.873708,
+          "actualEnd": 2767.152166,
+          "timeDifference": 19.49370799999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.673833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Restless Search for True Masculinity"
+        },
+        {
+          "startTime": 325.845916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Restless Search for True Masculinity and Chapter 2 The Deepest Desires of a Man’s Heart"
+        },
+        {
+          "startTime": 589.7835829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Deepest Desires of a Man’s Heart and Chapter 3 The Wounds That Shape a Man’s Life"
+        },
+        {
+          "startTime": 860.2999579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Wounds That Shape a Man’s Life and Chapter 4 Rediscovering the Wildness Within"
+        },
+        {
+          "startTime": 1108.471208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rediscovering the Wildness Within and Chapter 5 The Role of Faith in Restoring Masculinity"
+        },
+        {
+          "startTime": 1317.889083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Faith in Restoring Masculinity and Chapter 6 The Path to Healing: Facing the Shadows"
+        },
+        {
+          "startTime": 1544.1456660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Path to Healing: Facing the Shadows and Chapter 7 The Importance of Brotherhood"
+        },
+        {
+          "startTime": 1730.0652490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Brotherhood and Chapter 8 The Role of Women: Beauty, Partnership, and Challenge"
+        },
+        {
+          "startTime": 1924.8244160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Women: Beauty, Partnership, and Challenge and Chapter 9 The Ongoing Adventure: Living from the Heart"
+        },
+        {
+          "startTime": 2106.043999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Adventure: Living from the Heart and Chapter 10 Becoming a Warrior: The Call to Battle"
+        },
+        {
+          "startTime": 2283.018249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Becoming a Warrior: The Call to Battle and Chapter 11 The Father’s Blessing: Receiving and Giving Identity"
+        },
+        {
+          "startTime": 2456.175416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Father’s Blessing: Receiving and Giving Identity and Chapter 12 The Restoration of All Things: Hope for the Journey"
+        },
+        {
+          "startTime": 2633.373708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Restoration of All Things: Hope for the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2930",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:00:42.916Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

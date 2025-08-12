@@ -1,0 +1,552 @@
+{
+  "bookId": "2796",
+  "timestamp": "2025-07-13T20:24:47.978Z",
+  "success": false,
+  "processingTime": -1752437750460,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5721,
+    "totalAudioFiles": 16,
+    "totalDuration": 2783.451917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2783.451917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2796/optimized_text/2796.md",
+    "fileSize": 785,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2796.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2796/metadata/2796_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2783.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2796/metadata/2796_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2796/metadata/2796_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2796/2796_complete.wav",
+    "duration": 2783.451917,
+    "fileSize": 133605770,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2796/introduction.wav",
+          "duration": 76.018417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.018417,
+          "startTime": 0,
+          "endTime": 76.018417
+        },
+        {
+          "path": "Audio/output/2796/chapter_01.wav",
+          "duration": 228.466875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Apologies Matter in Everyday Life",
+          "actualDuration": 228.466875,
+          "startTime": 77.518417,
+          "endTime": 305.98529199999996
+        },
+        {
+          "path": "Audio/output/2796/chapter_02.wav",
+          "duration": 261.024792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What Makes an Apology Genuine",
+          "actualDuration": 261.024792,
+          "startTime": 307.48529199999996,
+          "endTime": 568.510084
+        },
+        {
+          "path": "Audio/output/2796/chapter_03.wav",
+          "duration": 267.863583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Barriers That Make Apologizing Difficult",
+          "actualDuration": 267.863583,
+          "startTime": 570.010084,
+          "endTime": 837.8736670000001
+        },
+        {
+          "path": "Audio/output/2796/chapter_04.wav",
+          "duration": 228.60875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Apologies Heal and Restore Trust",
+          "actualDuration": 228.60875,
+          "startTime": 839.3736670000001,
+          "endTime": 1067.9824170000002
+        },
+        {
+          "path": "Audio/output/2796/chapter_05.wav",
+          "duration": 208.860458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Apologies in Public and Institutional Life",
+          "actualDuration": 208.860458,
+          "startTime": 1069.4824170000002,
+          "endTime": 1278.3428750000003
+        },
+        {
+          "path": "Audio/output/2796/chapter_06.wav",
+          "duration": 198.434625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance Between Apology and Forgiveness",
+          "actualDuration": 198.434625,
+          "startTime": 1279.8428750000003,
+          "endTime": 1478.2775000000004
+        },
+        {
+          "path": "Audio/output/2796/chapter_07.wav",
+          "duration": 186.97175,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Apology as a Tool for Reconciliation",
+          "actualDuration": 186.97175,
+          "startTime": 1479.7775000000004,
+          "endTime": 1666.7492500000003
+        },
+        {
+          "path": "Audio/output/2796/chapter_08.wav",
+          "duration": 164.072292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Anatomy of a Good Apology—Practical Guidance",
+          "actualDuration": 164.072292,
+          "startTime": 1668.2492500000003,
+          "endTime": 1832.3215420000004
+        },
+        {
+          "path": "Audio/output/2796/chapter_09.wav",
+          "duration": 152.98725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 When Apologies Go Wrong",
+          "actualDuration": 152.98725,
+          "startTime": 1833.8215420000004,
+          "endTime": 1986.8087920000003
+        },
+        {
+          "path": "Audio/output/2796/chapter_10.wav",
+          "duration": 140.49275,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Apology Across Cultures and Generations",
+          "actualDuration": 140.49275,
+          "startTime": 1988.3087920000003,
+          "endTime": 2128.801542
+        },
+        {
+          "path": "Audio/output/2796/chapter_11.wav",
+          "duration": 161.459667,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Apology in the Digital Age",
+          "actualDuration": 161.459667,
+          "startTime": 2130.301542,
+          "endTime": 2291.7612090000002
+        },
+        {
+          "path": "Audio/output/2796/chapter_12.wav",
+          "duration": 146.27375,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Teaching and Learning the Art of Apology",
+          "actualDuration": 146.27375,
+          "startTime": 2293.2612090000002,
+          "endTime": 2439.534959
+        },
+        {
+          "path": "Audio/output/2796/chapter_13.wav",
+          "duration": 118.112875,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Living with Unapologized Wrongs",
+          "actualDuration": 118.112875,
+          "startTime": 2441.034959,
+          "endTime": 2559.147834
+        },
+        {
+          "path": "Audio/output/2796/chapter_14.wav",
+          "duration": 119.545208,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Apology as a Path to Personal Growth",
+          "actualDuration": 119.545208,
+          "startTime": 2560.647834,
+          "endTime": 2680.193042
+        },
+        {
+          "path": "Audio/output/2796/conclusion.wav",
+          "duration": 124.258875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.258875,
+          "startTime": 2681.693042,
+          "endTime": 2805.951917
+        }
+      ],
+      "totalDuration": 2805.951917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.02,
+          "actualStart": 0,
+          "actualEnd": 76.018417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Apologies Matter in Everyday Life",
+          "expectedStart": 76.02,
+          "expectedEnd": 304.49,
+          "actualStart": 77.518417,
+          "actualEnd": 305.98529199999996,
+          "timeDifference": 1.4984170000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What Makes an Apology Genuine",
+          "expectedStart": 304.49,
+          "expectedEnd": 565.51,
+          "actualStart": 307.48529199999996,
+          "actualEnd": 568.510084,
+          "timeDifference": 2.9952919999999494
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Barriers That Make Apologizing Difficult",
+          "expectedStart": 565.51,
+          "expectedEnd": 833.37,
+          "actualStart": 570.010084,
+          "actualEnd": 837.8736670000001,
+          "timeDifference": 4.500084000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Apologies Heal and Restore Trust",
+          "expectedStart": 833.37,
+          "expectedEnd": 1061.98,
+          "actualStart": 839.3736670000001,
+          "actualEnd": 1067.9824170000002,
+          "timeDifference": 6.003667000000064
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Apologies in Public and Institutional Life",
+          "expectedStart": 1061.98,
+          "expectedEnd": 1270.84,
+          "actualStart": 1069.4824170000002,
+          "actualEnd": 1278.3428750000003,
+          "timeDifference": 7.50241700000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance Between Apology and Forgiveness",
+          "expectedStart": 1270.84,
+          "expectedEnd": 1469.27,
+          "actualStart": 1279.8428750000003,
+          "actualEnd": 1478.2775000000004,
+          "timeDifference": 9.002875000000358
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Apology as a Tool for Reconciliation",
+          "expectedStart": 1469.27,
+          "expectedEnd": 1656.24,
+          "actualStart": 1479.7775000000004,
+          "actualEnd": 1666.7492500000003,
+          "timeDifference": 10.507500000000391
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Anatomy of a Good Apology—Practical Guidance",
+          "expectedStart": 1656.24,
+          "expectedEnd": 1820.31,
+          "actualStart": 1668.2492500000003,
+          "actualEnd": 1832.3215420000004,
+          "timeDifference": 12.009250000000293
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 When Apologies Go Wrong",
+          "expectedStart": 1820.31,
+          "expectedEnd": 1973.3,
+          "actualStart": 1833.8215420000004,
+          "actualEnd": 1986.8087920000003,
+          "timeDifference": 13.511542000000418
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Apology Across Cultures and Generations",
+          "expectedStart": 1973.3,
+          "expectedEnd": 2113.79,
+          "actualStart": 1988.3087920000003,
+          "actualEnd": 2128.801542,
+          "timeDifference": 15.008792000000312
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Apology in the Digital Age",
+          "expectedStart": 2113.79,
+          "expectedEnd": 2275.25,
+          "actualStart": 2130.301542,
+          "actualEnd": 2291.7612090000002,
+          "timeDifference": 16.51154200000019
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Teaching and Learning the Art of Apology",
+          "expectedStart": 2275.25,
+          "expectedEnd": 2421.52,
+          "actualStart": 2293.2612090000002,
+          "actualEnd": 2439.534959,
+          "timeDifference": 18.011209000000235
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Living with Unapologized Wrongs",
+          "expectedStart": 2421.52,
+          "expectedEnd": 2539.63,
+          "actualStart": 2441.034959,
+          "actualEnd": 2559.147834,
+          "timeDifference": 19.51495900000009
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Apology as a Path to Personal Growth",
+          "expectedStart": 2539.63,
+          "expectedEnd": 2659.18,
+          "actualStart": 2560.647834,
+          "actualEnd": 2680.193042,
+          "timeDifference": 21.017833999999766
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2659.18,
+          "expectedEnd": 2783.44,
+          "actualStart": 2681.693042,
+          "actualEnd": 2805.951917,
+          "timeDifference": 22.51304200000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.018417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Apologies Matter in Everyday Life"
+        },
+        {
+          "startTime": 305.98529199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Apologies Matter in Everyday Life and Chapter 2 What Makes an Apology Genuine"
+        },
+        {
+          "startTime": 568.510084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What Makes an Apology Genuine and Chapter 3 The Barriers That Make Apologizing Difficult"
+        },
+        {
+          "startTime": 837.8736670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Barriers That Make Apologizing Difficult and Chapter 4 How Apologies Heal and Restore Trust"
+        },
+        {
+          "startTime": 1067.9824170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Apologies Heal and Restore Trust and Chapter 5 Apologies in Public and Institutional Life"
+        },
+        {
+          "startTime": 1278.3428750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Apologies in Public and Institutional Life and Chapter 6 The Dance Between Apology and Forgiveness"
+        },
+        {
+          "startTime": 1478.2775000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance Between Apology and Forgiveness and Chapter 7 Apology as a Tool for Reconciliation"
+        },
+        {
+          "startTime": 1666.7492500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Apology as a Tool for Reconciliation and Chapter 8 The Anatomy of a Good Apology—Practical Guidance"
+        },
+        {
+          "startTime": 1832.3215420000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Anatomy of a Good Apology—Practical Guidance and Chapter 9 When Apologies Go Wrong"
+        },
+        {
+          "startTime": 1986.8087920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 When Apologies Go Wrong and Chapter 10 Apology Across Cultures and Generations"
+        },
+        {
+          "startTime": 2128.801542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Apology Across Cultures and Generations and Chapter 11 Apology in the Digital Age"
+        },
+        {
+          "startTime": 2291.7612090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Apology in the Digital Age and Chapter 12 Teaching and Learning the Art of Apology"
+        },
+        {
+          "startTime": 2439.534959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Teaching and Learning the Art of Apology and Chapter 13 Living with Unapologized Wrongs"
+        },
+        {
+          "startTime": 2559.147834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Living with Unapologized Wrongs and Chapter 14 Apology as a Path to Personal Growth"
+        },
+        {
+          "startTime": 2680.193042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Apology as a Path to Personal Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2796",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:15:51.644Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

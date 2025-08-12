@@ -1,0 +1,456 @@
+{
+  "bookId": "2803",
+  "timestamp": "2025-07-13T20:54:54.931Z",
+  "success": false,
+  "processingTime": -1752439793602,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3636,
+    "totalAudioFiles": 12,
+    "totalDuration": 1894.971
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1894.971
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2803/optimized_text/2803.md",
+    "fileSize": 669,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "2803.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2803/metadata/2803_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1894.97,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2803/metadata/2803_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2803/metadata/2803_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2803/2803_complete.wav",
+    "duration": 1894.971,
+    "fileSize": 90958686,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2803/introduction.wav",
+          "duration": 108.325208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.325208,
+          "startTime": 0,
+          "endTime": 108.325208
+        },
+        {
+          "path": "Audio/output/2803/chapter_01.wav",
+          "duration": 175.86325,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Trauma as a Bodily Experience",
+          "actualDuration": 175.86325,
+          "startTime": 109.825208,
+          "endTime": 285.68845799999997
+        },
+        {
+          "path": "Audio/output/2803/chapter_02.wav",
+          "duration": 188.39,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Body’s Instincts and the Roots of Trauma",
+          "actualDuration": 188.39,
+          "startTime": 287.18845799999997,
+          "endTime": 475.57845799999996
+        },
+        {
+          "path": "Audio/output/2803/chapter_03.wav",
+          "duration": 189.391083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Somatic Experiencing—A Pathway to Healing",
+          "actualDuration": 189.391083,
+          "startTime": 477.07845799999996,
+          "endTime": 666.4695409999999
+        },
+        {
+          "path": "Audio/output/2803/chapter_04.wav",
+          "duration": 188.25325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Importance of Mindful Awareness and Gentle Engagement",
+          "actualDuration": 188.25325,
+          "startTime": 667.9695409999999,
+          "endTime": 856.2227909999999
+        },
+        {
+          "path": "Audio/output/2803/chapter_05.wav",
+          "duration": 212.857792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Restoring the Body’s Natural Self-Regulation",
+          "actualDuration": 212.857792,
+          "startTime": 857.7227909999999,
+          "endTime": 1070.580583
+        },
+        {
+          "path": "Audio/output/2803/chapter_06.wav",
+          "duration": 185.73225,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating the “Trauma Vortex” and the “Healing Vortex”",
+          "actualDuration": 185.73225,
+          "startTime": 1072.080583,
+          "endTime": 1257.812833
+        },
+        {
+          "path": "Audio/output/2803/chapter_07.wav",
+          "duration": 135.551958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Completing the Unfinished Survival Responses",
+          "actualDuration": 135.551958,
+          "startTime": 1259.312833,
+          "endTime": 1394.864791
+        },
+        {
+          "path": "Audio/output/2803/chapter_08.wav",
+          "duration": 135.270917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Healing into Daily Life",
+          "actualDuration": 135.270917,
+          "startTime": 1396.364791,
+          "endTime": 1531.635708
+        },
+        {
+          "path": "Audio/output/2803/chapter_09.wav",
+          "duration": 157.945667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Healing in Relationships and Communities",
+          "actualDuration": 157.945667,
+          "startTime": 1533.135708,
+          "endTime": 1691.081375
+        },
+        {
+          "path": "Audio/output/2803/chapter_10.wav",
+          "duration": 117.726125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Ongoing Journey",
+          "actualDuration": 117.726125,
+          "startTime": 1692.581375,
+          "endTime": 1810.3075
+        },
+        {
+          "path": "Audio/output/2803/conclusion.wav",
+          "duration": 99.6635,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.6635,
+          "startTime": 1811.8075,
+          "endTime": 1911.471
+        }
+      ],
+      "totalDuration": 1911.471,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.33,
+          "actualStart": 0,
+          "actualEnd": 108.325208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Trauma as a Bodily Experience",
+          "expectedStart": 108.33,
+          "expectedEnd": 284.19,
+          "actualStart": 109.825208,
+          "actualEnd": 285.68845799999997,
+          "timeDifference": 1.4952080000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Body’s Instincts and the Roots of Trauma",
+          "expectedStart": 284.19,
+          "expectedEnd": 472.58,
+          "actualStart": 287.18845799999997,
+          "actualEnd": 475.57845799999996,
+          "timeDifference": 2.998457999999971
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Somatic Experiencing—A Pathway to Healing",
+          "expectedStart": 472.58,
+          "expectedEnd": 661.97,
+          "actualStart": 477.07845799999996,
+          "actualEnd": 666.4695409999999,
+          "timeDifference": 4.498457999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Importance of Mindful Awareness and Gentle Engagement",
+          "expectedStart": 661.97,
+          "expectedEnd": 850.22,
+          "actualStart": 667.9695409999999,
+          "actualEnd": 856.2227909999999,
+          "timeDifference": 5.999540999999908
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Restoring the Body’s Natural Self-Regulation",
+          "expectedStart": 850.22,
+          "expectedEnd": 1063.08,
+          "actualStart": 857.7227909999999,
+          "actualEnd": 1070.580583,
+          "timeDifference": 7.502790999999888
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating the “Trauma Vortex” and the “Healing Vortex”",
+          "expectedStart": 1063.08,
+          "expectedEnd": 1248.81,
+          "actualStart": 1072.080583,
+          "actualEnd": 1257.812833,
+          "timeDifference": 9.000583000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Completing the Unfinished Survival Responses",
+          "expectedStart": 1248.81,
+          "expectedEnd": 1384.36,
+          "actualStart": 1259.312833,
+          "actualEnd": 1394.864791,
+          "timeDifference": 10.50283300000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Healing into Daily Life",
+          "expectedStart": 1384.36,
+          "expectedEnd": 1519.63,
+          "actualStart": 1396.364791,
+          "actualEnd": 1531.635708,
+          "timeDifference": 12.004791000000068
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Healing in Relationships and Communities",
+          "expectedStart": 1519.63,
+          "expectedEnd": 1677.58,
+          "actualStart": 1533.135708,
+          "actualEnd": 1691.081375,
+          "timeDifference": 13.505707999999913
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Ongoing Journey",
+          "expectedStart": 1677.58,
+          "expectedEnd": 1795.31,
+          "actualStart": 1692.581375,
+          "actualEnd": 1810.3075,
+          "timeDifference": 15.001375000000053
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1795.31,
+          "expectedEnd": 1894.97,
+          "actualStart": 1811.8075,
+          "actualEnd": 1911.471,
+          "timeDifference": 16.497499999999945
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.325208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Trauma as a Bodily Experience"
+        },
+        {
+          "startTime": 285.68845799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Trauma as a Bodily Experience and Chapter 2 The Body’s Instincts and the Roots of Trauma"
+        },
+        {
+          "startTime": 475.57845799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Body’s Instincts and the Roots of Trauma and Chapter 3 Somatic Experiencing—A Pathway to Healing"
+        },
+        {
+          "startTime": 666.4695409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Somatic Experiencing—A Pathway to Healing and Chapter 4 The Importance of Mindful Awareness and Gentle Engagement"
+        },
+        {
+          "startTime": 856.2227909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Importance of Mindful Awareness and Gentle Engagement and Chapter 5 Restoring the Body’s Natural Self-Regulation"
+        },
+        {
+          "startTime": 1070.580583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Restoring the Body’s Natural Self-Regulation and Chapter 6 Navigating the “Trauma Vortex” and the “Healing Vortex”"
+        },
+        {
+          "startTime": 1257.812833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating the “Trauma Vortex” and the “Healing Vortex” and Chapter 7 Completing the Unfinished Survival Responses"
+        },
+        {
+          "startTime": 1394.864791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Completing the Unfinished Survival Responses and Chapter 8 Integrating Healing into Daily Life"
+        },
+        {
+          "startTime": 1531.635708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Healing into Daily Life and Chapter 9 The Ripple Effect—Healing in Relationships and Communities"
+        },
+        {
+          "startTime": 1691.081375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Healing in Relationships and Communities and Chapter 10 Embracing the Ongoing Journey"
+        },
+        {
+          "startTime": 1810.3075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2803",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:49:55.185Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

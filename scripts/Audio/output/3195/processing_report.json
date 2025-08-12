@@ -1,0 +1,456 @@
+{
+  "bookId": "3195",
+  "timestamp": "2025-07-15T02:13:35.974Z",
+  "success": false,
+  "processingTime": -1752545314981,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3828,
+    "totalAudioFiles": 12,
+    "totalDuration": 2056.433375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2056.433375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3195/optimized_text/3195.md",
+    "fileSize": 814,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "3195.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3195/metadata/3195_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2056.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3195/metadata/3195_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3195/metadata/3195_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3195/3195_complete.wav",
+    "duration": 2056.433375,
+    "fileSize": 98708880,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3195/introduction.wav",
+          "duration": 79.276208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.276208,
+          "startTime": 0,
+          "endTime": 79.276208
+        },
+        {
+          "path": "Audio/output/3195/chapter_01.wav",
+          "duration": 189.402792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Failure: Moving Beyond Fear and Stigma",
+          "actualDuration": 189.402792,
+          "startTime": 80.776208,
+          "endTime": 270.179
+        },
+        {
+          "path": "Audio/output/3195/chapter_02.wav",
+          "duration": 177.080125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Difference Between Stopping and Starting Again",
+          "actualDuration": 177.080125,
+          "startTime": 271.679,
+          "endTime": 448.759125
+        },
+        {
+          "path": "Audio/output/3195/chapter_03.wav",
+          "duration": 190.573583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning from Mistakes: Turning Setbacks into Lessons",
+          "actualDuration": 190.573583,
+          "startTime": 450.259125,
+          "endTime": 640.832708
+        },
+        {
+          "path": "Audio/output/3195/chapter_04.wav",
+          "duration": 202.289375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming the Fear of Failure: Building Courage and Confidence",
+          "actualDuration": 202.289375,
+          "startTime": 642.332708,
+          "endTime": 844.622083
+        },
+        {
+          "path": "Audio/output/3195/chapter_05.wav",
+          "duration": 221.902958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Accountability and Acceptance: Taking Ownership of Outcomes",
+          "actualDuration": 221.902958,
+          "startTime": 846.122083,
+          "endTime": 1068.0250409999999
+        },
+        {
+          "path": "Audio/output/3195/chapter_06.wav",
+          "duration": 191.019667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Perseverance in Practice: Building the Habit of Not Giving Up",
+          "actualDuration": 191.019667,
+          "startTime": 1069.5250409999999,
+          "endTime": 1260.544708
+        },
+        {
+          "path": "Audio/output/3195/chapter_07.wav",
+          "duration": 203.2385,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating a Growth Mindset: Embracing Change and Possibility",
+          "actualDuration": 203.2385,
+          "startTime": 1262.044708,
+          "endTime": 1465.2832079999998
+        },
+        {
+          "path": "Audio/output/3195/chapter_08.wav",
+          "duration": 171.490958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying the Principles: Real-World Strategies for Turning Failure into Success",
+          "actualDuration": 171.490958,
+          "startTime": 1466.7832079999998,
+          "endTime": 1638.274166
+        },
+        {
+          "path": "Audio/output/3195/chapter_09.wav",
+          "duration": 141.418417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Supporting Others: Creating Environments Where Failure Leads to Growth",
+          "actualDuration": 141.418417,
+          "startTime": 1639.774166,
+          "endTime": 1781.192583
+        },
+        {
+          "path": "Audio/output/3195/chapter_10.wav",
+          "duration": 150.425917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Failing Forward: Sustaining Growth Over the Long Term",
+          "actualDuration": 150.425917,
+          "startTime": 1782.692583,
+          "endTime": 1933.1185
+        },
+        {
+          "path": "Audio/output/3195/conclusion.wav",
+          "duration": 138.314875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.314875,
+          "startTime": 1934.6185,
+          "endTime": 2072.933375
+        }
+      ],
+      "totalDuration": 2072.933375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.28,
+          "actualStart": 0,
+          "actualEnd": 79.276208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Failure: Moving Beyond Fear and Stigma",
+          "expectedStart": 79.28,
+          "expectedEnd": 268.68,
+          "actualStart": 80.776208,
+          "actualEnd": 270.179,
+          "timeDifference": 1.4962079999999958
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Difference Between Stopping and Starting Again",
+          "expectedStart": 268.68,
+          "expectedEnd": 445.76,
+          "actualStart": 271.679,
+          "actualEnd": 448.759125,
+          "timeDifference": 2.998999999999967
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning from Mistakes: Turning Setbacks into Lessons",
+          "expectedStart": 445.76,
+          "expectedEnd": 636.33,
+          "actualStart": 450.259125,
+          "actualEnd": 640.832708,
+          "timeDifference": 4.499124999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming the Fear of Failure: Building Courage and Confidence",
+          "expectedStart": 636.33,
+          "expectedEnd": 838.62,
+          "actualStart": 642.332708,
+          "actualEnd": 844.622083,
+          "timeDifference": 6.002707999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Accountability and Acceptance: Taking Ownership of Outcomes",
+          "expectedStart": 838.62,
+          "expectedEnd": 1060.52,
+          "actualStart": 846.122083,
+          "actualEnd": 1068.0250409999999,
+          "timeDifference": 7.5020829999999705
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Perseverance in Practice: Building the Habit of Not Giving Up",
+          "expectedStart": 1060.52,
+          "expectedEnd": 1251.54,
+          "actualStart": 1069.5250409999999,
+          "actualEnd": 1260.544708,
+          "timeDifference": 9.005040999999892
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating a Growth Mindset: Embracing Change and Possibility",
+          "expectedStart": 1251.54,
+          "expectedEnd": 1454.78,
+          "actualStart": 1262.044708,
+          "actualEnd": 1465.2832079999998,
+          "timeDifference": 10.504707999999937
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying the Principles: Real-World Strategies for Turning Failure into Success",
+          "expectedStart": 1454.78,
+          "expectedEnd": 1626.27,
+          "actualStart": 1466.7832079999998,
+          "actualEnd": 1638.274166,
+          "timeDifference": 12.003207999999859
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Supporting Others: Creating Environments Where Failure Leads to Growth",
+          "expectedStart": 1626.27,
+          "expectedEnd": 1767.69,
+          "actualStart": 1639.774166,
+          "actualEnd": 1781.192583,
+          "timeDifference": 13.504165999999941
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Failing Forward: Sustaining Growth Over the Long Term",
+          "expectedStart": 1767.69,
+          "expectedEnd": 1918.12,
+          "actualStart": 1782.692583,
+          "actualEnd": 1933.1185,
+          "timeDifference": 15.002582999999959
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1918.12,
+          "expectedEnd": 2056.43,
+          "actualStart": 1934.6185,
+          "actualEnd": 2072.933375,
+          "timeDifference": 16.49850000000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.276208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Failure: Moving Beyond Fear and Stigma"
+        },
+        {
+          "startTime": 270.179,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Failure: Moving Beyond Fear and Stigma and Chapter 2 The Difference Between Stopping and Starting Again"
+        },
+        {
+          "startTime": 448.759125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Difference Between Stopping and Starting Again and Chapter 3 Learning from Mistakes: Turning Setbacks into Lessons"
+        },
+        {
+          "startTime": 640.832708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning from Mistakes: Turning Setbacks into Lessons and Chapter 4 Overcoming the Fear of Failure: Building Courage and Confidence"
+        },
+        {
+          "startTime": 844.622083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming the Fear of Failure: Building Courage and Confidence and Chapter 5 Accountability and Acceptance: Taking Ownership of Outcomes"
+        },
+        {
+          "startTime": 1068.0250409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Accountability and Acceptance: Taking Ownership of Outcomes and Chapter 6 Perseverance in Practice: Building the Habit of Not Giving Up"
+        },
+        {
+          "startTime": 1260.544708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Perseverance in Practice: Building the Habit of Not Giving Up and Chapter 7 Cultivating a Growth Mindset: Embracing Change and Possibility"
+        },
+        {
+          "startTime": 1465.2832079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating a Growth Mindset: Embracing Change and Possibility and Chapter 8 Applying the Principles: Real-World Strategies for Turning Failure into Success"
+        },
+        {
+          "startTime": 1638.274166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying the Principles: Real-World Strategies for Turning Failure into Success and Chapter 9 Supporting Others: Creating Environments Where Failure Leads to Growth"
+        },
+        {
+          "startTime": 1781.192583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Supporting Others: Creating Environments Where Failure Leads to Growth and Chapter 10 Integrating Failing Forward: Sustaining Growth Over the Long Term"
+        },
+        {
+          "startTime": 1933.1185,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Failing Forward: Sustaining Growth Over the Long Term and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3195",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:08:35.004Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

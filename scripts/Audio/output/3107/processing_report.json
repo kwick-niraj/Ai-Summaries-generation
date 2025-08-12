@@ -1,0 +1,456 @@
+{
+  "bookId": "3107",
+  "timestamp": "2025-07-14T18:52:47.093Z",
+  "success": false,
+  "processingTime": -1752518864488,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3934,
+    "totalAudioFiles": 12,
+    "totalDuration": 2044.770583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2044.770583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3107/optimized_text/3107.md",
+    "fileSize": 771,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "3107.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3107/metadata/3107_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2044.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3107/metadata/3107_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3107/metadata/3107_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3107/3107_complete.wav",
+    "duration": 2044.770583,
+    "fileSize": 98149066,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3107/introduction.wav",
+          "duration": 93.780542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.780542,
+          "startTime": 0,
+          "endTime": 93.780542
+        },
+        {
+          "path": "Audio/output/3107/chapter_01.wav",
+          "duration": 201.477625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation of Mindset—How Thoughts Shape Reality",
+          "actualDuration": 201.477625,
+          "startTime": 95.280542,
+          "endTime": 296.75816699999996
+        },
+        {
+          "path": "Audio/output/3107/chapter_02.wav",
+          "duration": 219.353417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Gratitude and Affirmations in Daily Life",
+          "actualDuration": 219.353417,
+          "startTime": 298.25816699999996,
+          "endTime": 517.611584
+        },
+        {
+          "path": "Audio/output/3107/chapter_03.wav",
+          "duration": 232.240083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Adversity into Growth and Resilience",
+          "actualDuration": 232.240083,
+          "startTime": 519.111584,
+          "endTime": 751.351667
+        },
+        {
+          "path": "Audio/output/3107/chapter_04.wav",
+          "duration": 192.954875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Influence of Environment and Relationships on Success",
+          "actualDuration": 192.954875,
+          "startTime": 752.851667,
+          "endTime": 945.806542
+        },
+        {
+          "path": "Audio/output/3107/chapter_05.wav",
+          "duration": 194.258583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Responsibility and the Power of Daily Practice",
+          "actualDuration": 194.258583,
+          "startTime": 947.306542,
+          "endTime": 1141.565125
+        },
+        {
+          "path": "Audio/output/3107/chapter_06.wav",
+          "duration": 151.60425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Persistence—Sustaining Effort Through Setbacks",
+          "actualDuration": 151.60425,
+          "startTime": 1143.065125,
+          "endTime": 1294.6693750000002
+        },
+        {
+          "path": "Audio/output/3107/chapter_07.wav",
+          "duration": 145.728,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect—How Small Positive Actions Multiply",
+          "actualDuration": 145.728,
+          "startTime": 1296.1693750000002,
+          "endTime": 1441.8973750000002
+        },
+        {
+          "path": "Audio/output/3107/chapter_08.wav",
+          "duration": 175.256667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Practicing Kindness and Compassion—Toward Self and Others",
+          "actualDuration": 175.256667,
+          "startTime": 1443.3973750000002,
+          "endTime": 1618.6540420000001
+        },
+        {
+          "path": "Audio/output/3107/chapter_09.wav",
+          "duration": 173.450833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Framework—Building a Life of Meaningful Progress",
+          "actualDuration": 173.450833,
+          "startTime": 1620.1540420000001,
+          "endTime": 1793.604875
+        },
+        {
+          "path": "Audio/output/3107/chapter_10.wav",
+          "duration": 130.296625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth—Creating a Personal Blueprint for the Future",
+          "actualDuration": 130.296625,
+          "startTime": 1795.104875,
+          "endTime": 1925.4015
+        },
+        {
+          "path": "Audio/output/3107/conclusion.wav",
+          "duration": 134.369083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.369083,
+          "startTime": 1926.9015,
+          "endTime": 2061.270583
+        }
+      ],
+      "totalDuration": 2061.270583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.78,
+          "actualStart": 0,
+          "actualEnd": 93.780542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation of Mindset—How Thoughts Shape Reality",
+          "expectedStart": 93.78,
+          "expectedEnd": 295.26,
+          "actualStart": 95.280542,
+          "actualEnd": 296.75816699999996,
+          "timeDifference": 1.5005419999999958
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Gratitude and Affirmations in Daily Life",
+          "expectedStart": 295.26,
+          "expectedEnd": 514.61,
+          "actualStart": 298.25816699999996,
+          "actualEnd": 517.611584,
+          "timeDifference": 2.9981669999999667
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Adversity into Growth and Resilience",
+          "expectedStart": 514.61,
+          "expectedEnd": 746.85,
+          "actualStart": 519.111584,
+          "actualEnd": 751.351667,
+          "timeDifference": 4.50158399999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Influence of Environment and Relationships on Success",
+          "expectedStart": 746.85,
+          "expectedEnd": 939.8,
+          "actualStart": 752.851667,
+          "actualEnd": 945.806542,
+          "timeDifference": 6.001666999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Responsibility and the Power of Daily Practice",
+          "expectedStart": 939.8,
+          "expectedEnd": 1134.06,
+          "actualStart": 947.306542,
+          "actualEnd": 1141.565125,
+          "timeDifference": 7.506542000000081
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Persistence—Sustaining Effort Through Setbacks",
+          "expectedStart": 1134.06,
+          "expectedEnd": 1285.66,
+          "actualStart": 1143.065125,
+          "actualEnd": 1294.6693750000002,
+          "timeDifference": 9.005125000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect—How Small Positive Actions Multiply",
+          "expectedStart": 1285.66,
+          "expectedEnd": 1431.39,
+          "actualStart": 1296.1693750000002,
+          "actualEnd": 1441.8973750000002,
+          "timeDifference": 10.509375000000091
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Practicing Kindness and Compassion—Toward Self and Others",
+          "expectedStart": 1431.39,
+          "expectedEnd": 1606.65,
+          "actualStart": 1443.3973750000002,
+          "actualEnd": 1618.6540420000001,
+          "timeDifference": 12.007375000000138
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Framework—Building a Life of Meaningful Progress",
+          "expectedStart": 1606.65,
+          "expectedEnd": 1780.1,
+          "actualStart": 1620.1540420000001,
+          "actualEnd": 1793.604875,
+          "timeDifference": 13.504042000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth—Creating a Personal Blueprint for the Future",
+          "expectedStart": 1780.1,
+          "expectedEnd": 1910.4,
+          "actualStart": 1795.104875,
+          "actualEnd": 1925.4015,
+          "timeDifference": 15.004875000000084
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1910.4,
+          "expectedEnd": 2044.77,
+          "actualStart": 1926.9015,
+          "actualEnd": 2061.270583,
+          "timeDifference": 16.50149999999985
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.780542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation of Mindset—How Thoughts Shape Reality"
+        },
+        {
+          "startTime": 296.75816699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation of Mindset—How Thoughts Shape Reality and Chapter 2 The Role of Gratitude and Affirmations in Daily Life"
+        },
+        {
+          "startTime": 517.611584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Gratitude and Affirmations in Daily Life and Chapter 3 Turning Adversity into Growth and Resilience"
+        },
+        {
+          "startTime": 751.351667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Adversity into Growth and Resilience and Chapter 4 The Influence of Environment and Relationships on Success"
+        },
+        {
+          "startTime": 945.806542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Influence of Environment and Relationships on Success and Chapter 5 Embracing Responsibility and the Power of Daily Practice"
+        },
+        {
+          "startTime": 1141.565125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Responsibility and the Power of Daily Practice and Chapter 6 The Power of Persistence—Sustaining Effort Through Setbacks"
+        },
+        {
+          "startTime": 1294.6693750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Persistence—Sustaining Effort Through Setbacks and Chapter 7 The Ripple Effect—How Small Positive Actions Multiply"
+        },
+        {
+          "startTime": 1441.8973750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect—How Small Positive Actions Multiply and Chapter 8 Practicing Kindness and Compassion—Toward Self and Others"
+        },
+        {
+          "startTime": 1618.6540420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Practicing Kindness and Compassion—Toward Self and Others and Chapter 9 Integrating the Framework—Building a Life of Meaningful Progress"
+        },
+        {
+          "startTime": 1793.604875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Framework—Building a Life of Meaningful Progress and Chapter 10 Sustaining Growth—Creating a Personal Blueprint for the Future"
+        },
+        {
+          "startTime": 1925.4015,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth—Creating a Personal Blueprint for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3107",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:47:45.699Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

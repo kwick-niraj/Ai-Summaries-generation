@@ -1,0 +1,432 @@
+{
+  "bookId": "2793",
+  "timestamp": "2025-07-13T20:04:17.467Z",
+  "success": false,
+  "processingTime": -1752436684159,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5174,
+    "totalAudioFiles": 12,
+    "totalDuration": 2093.985582
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2093.985582
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2793/optimized_text/2793.md",
+    "fileSize": 789,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2793.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2793/metadata/2793_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2093.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2793/metadata/2793_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2793/metadata/2793_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2793/2793_complete.wav",
+    "duration": 2093.985583,
+    "fileSize": 100511386,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2793/introduction.wav",
+          "duration": 101.362125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.362125,
+          "startTime": 0,
+          "endTime": 101.362125
+        },
+        {
+          "path": "Audio/output/2793/chapter_01.wav",
+          "duration": 272.508208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Oldest Enemy: Tracing Cancer’s Roots Through Time",
+          "actualDuration": 272.508208,
+          "startTime": 102.862125,
+          "endTime": 375.370333
+        },
+        {
+          "path": "Audio/output/2793/chapter_03.wav",
+          "duration": 236.938208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Birth of Chemotherapy: Poison as a Path to Healing",
+          "actualDuration": 236.938208,
+          "startTime": 376.870333,
+          "endTime": 613.808541
+        },
+        {
+          "path": "Audio/output/2793/chapter_04.wav",
+          "duration": 242.996333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Rise of Big Science: Collaboration, Competition, and the War on Cancer",
+          "actualDuration": 242.996333,
+          "startTime": 615.308541,
+          "endTime": 858.3048739999999
+        },
+        {
+          "path": "Audio/output/2793/chapter_05.wav",
+          "duration": 248.761667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Genetic Revolution: Understanding Cancer at Its Core",
+          "actualDuration": 248.761667,
+          "startTime": 859.8048739999999,
+          "endTime": 1108.566541
+        },
+        {
+          "path": "Audio/output/2793/chapter_06.wav",
+          "duration": 236.04425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Targeted Therapies: A New Kind of Precision",
+          "actualDuration": 236.04425,
+          "startTime": 1110.066541,
+          "endTime": 1346.1107909999998
+        },
+        {
+          "path": "Audio/output/2793/chapter_07.wav",
+          "duration": 201.139333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Immune System Unleashed: Harnessing the Body’s Defenses",
+          "actualDuration": 201.139333,
+          "startTime": 1347.6107909999998,
+          "endTime": 1548.750124
+        },
+        {
+          "path": "Audio/output/2793/chapter_08.wav",
+          "duration": 169.880333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Living With Cancer: Survivorship, Stigma, and the New Normal",
+          "actualDuration": 169.880333,
+          "startTime": 1550.250124,
+          "endTime": 1720.130457
+        },
+        {
+          "path": "Audio/output/2793/chapter_09.wav",
+          "duration": 158.184042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Struggle: Disparities, Access, and the Global Burden",
+          "actualDuration": 158.184042,
+          "startTime": 1721.630457,
+          "endTime": 1879.814499
+        },
+        {
+          "path": "Audio/output/2793/chapter_10.wav",
+          "duration": 106.144625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Cancer: Hope, Uncertainty, and the Human Spirit",
+          "actualDuration": 106.144625,
+          "startTime": 1881.314499,
+          "endTime": 1987.459124
+        },
+        {
+          "path": "Audio/output/2793/conclusion.wav",
+          "duration": 120.026458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.026458,
+          "startTime": 1988.959124,
+          "endTime": 2108.985582
+        }
+      ],
+      "totalDuration": 2108.985582,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.36,
+          "actualStart": 0,
+          "actualEnd": 101.362125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Oldest Enemy: Tracing Cancer’s Roots Through Time",
+          "expectedStart": 101.36,
+          "expectedEnd": 373.87,
+          "actualStart": 102.862125,
+          "actualEnd": 375.370333,
+          "timeDifference": 1.5021250000000066
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Birth of Chemotherapy: Poison as a Path to Healing",
+          "expectedStart": 373.87,
+          "expectedEnd": 610.81,
+          "actualStart": 376.870333,
+          "actualEnd": 613.808541,
+          "timeDifference": 3.000333000000012
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Rise of Big Science: Collaboration, Competition, and the War on Cancer",
+          "expectedStart": 610.81,
+          "expectedEnd": 853.81,
+          "actualStart": 615.308541,
+          "actualEnd": 858.3048739999999,
+          "timeDifference": 4.498541000000046
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Genetic Revolution: Understanding Cancer at Its Core",
+          "expectedStart": 853.81,
+          "expectedEnd": 1102.57,
+          "actualStart": 859.8048739999999,
+          "actualEnd": 1108.566541,
+          "timeDifference": 5.994873999999982
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Targeted Therapies: A New Kind of Precision",
+          "expectedStart": 1102.57,
+          "expectedEnd": 1338.61,
+          "actualStart": 1110.066541,
+          "actualEnd": 1346.1107909999998,
+          "timeDifference": 7.496540999999979
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Immune System Unleashed: Harnessing the Body’s Defenses",
+          "expectedStart": 1338.61,
+          "expectedEnd": 1539.75,
+          "actualStart": 1347.6107909999998,
+          "actualEnd": 1548.750124,
+          "timeDifference": 9.000790999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Living With Cancer: Survivorship, Stigma, and the New Normal",
+          "expectedStart": 1539.75,
+          "expectedEnd": 1709.63,
+          "actualStart": 1550.250124,
+          "actualEnd": 1720.130457,
+          "timeDifference": 10.500123999999914
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Struggle: Disparities, Access, and the Global Burden",
+          "expectedStart": 1709.63,
+          "expectedEnd": 1867.81,
+          "actualStart": 1721.630457,
+          "actualEnd": 1879.814499,
+          "timeDifference": 12.00045699999987
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Cancer: Hope, Uncertainty, and the Human Spirit",
+          "expectedStart": 1867.81,
+          "expectedEnd": 1973.95,
+          "actualStart": 1881.314499,
+          "actualEnd": 1987.459124,
+          "timeDifference": 13.504499000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1973.95,
+          "expectedEnd": 2093.98,
+          "actualStart": 1988.959124,
+          "actualEnd": 2108.985582,
+          "timeDifference": 15.009123999999929
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.362125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Oldest Enemy: Tracing Cancer’s Roots Through Time"
+        },
+        {
+          "startTime": 375.370333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Oldest Enemy: Tracing Cancer’s Roots Through Time and Chapter 3 The Birth of Chemotherapy: Poison as a Path to Healing"
+        },
+        {
+          "startTime": 613.808541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Birth of Chemotherapy: Poison as a Path to Healing and Chapter 4 The Rise of Big Science: Collaboration, Competition, and the War on Cancer"
+        },
+        {
+          "startTime": 858.3048739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Rise of Big Science: Collaboration, Competition, and the War on Cancer and Chapter 5 The Genetic Revolution: Understanding Cancer at Its Core"
+        },
+        {
+          "startTime": 1108.566541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Genetic Revolution: Understanding Cancer at Its Core and Chapter 6 Targeted Therapies: A New Kind of Precision"
+        },
+        {
+          "startTime": 1346.1107909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Targeted Therapies: A New Kind of Precision and Chapter 7 The Immune System Unleashed: Harnessing the Body’s Defenses"
+        },
+        {
+          "startTime": 1548.750124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Immune System Unleashed: Harnessing the Body’s Defenses and Chapter 8 Living With Cancer: Survivorship, Stigma, and the New Normal"
+        },
+        {
+          "startTime": 1720.130457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Living With Cancer: Survivorship, Stigma, and the New Normal and Chapter 9 The Ongoing Struggle: Disparities, Access, and the Global Burden"
+        },
+        {
+          "startTime": 1879.814499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Struggle: Disparities, Access, and the Global Burden and Chapter 10 The Future of Cancer: Hope, Uncertainty, and the Human Spirit"
+        },
+        {
+          "startTime": 1987.459124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Cancer: Hope, Uncertainty, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2793",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:58:05.000Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

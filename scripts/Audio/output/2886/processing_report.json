@@ -1,0 +1,456 @@
+{
+  "bookId": "2886",
+  "timestamp": "2025-07-14T02:10:19.115Z",
+  "success": false,
+  "processingTime": -1752458713750,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3873,
+    "totalAudioFiles": 12,
+    "totalDuration": 1940.2804189999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1940.2804189999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2886/optimized_text/2886.md",
+    "fileSize": 947,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "2886.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2886/metadata/2886_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1940.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2886/metadata/2886_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2886/metadata/2886_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2886/2886_complete.wav",
+    "duration": 1940.280417,
+    "fileSize": 93133538,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2886/introduction.wav",
+          "duration": 83.678708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.678708,
+          "startTime": 0,
+          "endTime": 83.678708
+        },
+        {
+          "path": "Audio/output/2886/chapter_01.wav",
+          "duration": 179.927875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Challenge of Information Overload and the Promise of a Second Brain",
+          "actualDuration": 179.927875,
+          "startTime": 85.178708,
+          "endTime": 265.106583
+        },
+        {
+          "path": "Audio/output/2886/chapter_02.wav",
+          "duration": 239.125958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The PARA Method: Structuring Digital Information for Action and Clarity",
+          "actualDuration": 239.125958,
+          "startTime": 266.606583,
+          "endTime": 505.73254099999997
+        },
+        {
+          "path": "Audio/output/2886/chapter_03.wav",
+          "duration": 169.277542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Capturing Ideas and Information: Building the Habit of Consistent Collection",
+          "actualDuration": 169.277542,
+          "startTime": 507.23254099999997,
+          "endTime": 676.510083
+        },
+        {
+          "path": "Audio/output/2886/chapter_04.wav",
+          "duration": 202.570292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Progressive Summarization: Distilling Notes for Easy Retrieval and Creative Use",
+          "actualDuration": 202.570292,
+          "startTime": 678.010083,
+          "endTime": 880.580375
+        },
+        {
+          "path": "Audio/output/2886/chapter_05.wav",
+          "duration": 175.864667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Turning Information into Action: Using the Second Brain for Creative Output",
+          "actualDuration": 175.864667,
+          "startTime": 882.080375,
+          "endTime": 1057.945042
+        },
+        {
+          "path": "Audio/output/2886/chapter_06.wav",
+          "duration": 156.574917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Maintenance and Review: Keeping the Second Brain Alive and Useful",
+          "actualDuration": 156.574917,
+          "startTime": 1059.445042,
+          "endTime": 1216.019959
+        },
+        {
+          "path": "Audio/output/2886/chapter_07.wav",
+          "duration": 151.712667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Personalizing the System: Adapting the Second Brain to Your Unique Mind",
+          "actualDuration": 151.712667,
+          "startTime": 1217.519959,
+          "endTime": 1369.232626
+        },
+        {
+          "path": "Audio/output/2886/chapter_08.wav",
+          "duration": 149.452167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Second Brain into Daily Life: Seamless Flow Between Mind and System",
+          "actualDuration": 149.452167,
+          "startTime": 1370.732626,
+          "endTime": 1520.184793
+        },
+        {
+          "path": "Audio/output/2886/chapter_09.wav",
+          "duration": 150.187667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Evolving the System: Growing with New Goals, Tools, and Insights",
+          "actualDuration": 150.187667,
+          "startTime": 1521.684793,
+          "endTime": 1671.8724599999998
+        },
+        {
+          "path": "Audio/output/2886/chapter_10.wav",
+          "duration": 143.437542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Second Brain as a Lifelong Companion: Sustaining Creativity, Learning, and Well-Being",
+          "actualDuration": 143.437542,
+          "startTime": 1673.3724599999998,
+          "endTime": 1816.8100019999997
+        },
+        {
+          "path": "Audio/output/2886/conclusion.wav",
+          "duration": 138.470417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.470417,
+          "startTime": 1818.3100019999997,
+          "endTime": 1956.7804189999997
+        }
+      ],
+      "totalDuration": 1956.7804189999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.68,
+          "actualStart": 0,
+          "actualEnd": 83.678708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Challenge of Information Overload and the Promise of a Second Brain",
+          "expectedStart": 83.68,
+          "expectedEnd": 263.61,
+          "actualStart": 85.178708,
+          "actualEnd": 265.106583,
+          "timeDifference": 1.4987079999999935
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The PARA Method: Structuring Digital Information for Action and Clarity",
+          "expectedStart": 263.61,
+          "expectedEnd": 502.74,
+          "actualStart": 266.606583,
+          "actualEnd": 505.73254099999997,
+          "timeDifference": 2.996582999999987
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Capturing Ideas and Information: Building the Habit of Consistent Collection",
+          "expectedStart": 502.74,
+          "expectedEnd": 672.02,
+          "actualStart": 507.23254099999997,
+          "actualEnd": 676.510083,
+          "timeDifference": 4.49254099999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Progressive Summarization: Distilling Notes for Easy Retrieval and Creative Use",
+          "expectedStart": 672.02,
+          "expectedEnd": 874.59,
+          "actualStart": 678.010083,
+          "actualEnd": 880.580375,
+          "timeDifference": 5.990083000000027
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Turning Information into Action: Using the Second Brain for Creative Output",
+          "expectedStart": 874.59,
+          "expectedEnd": 1050.45,
+          "actualStart": 882.080375,
+          "actualEnd": 1057.945042,
+          "timeDifference": 7.490374999999972
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Maintenance and Review: Keeping the Second Brain Alive and Useful",
+          "expectedStart": 1050.45,
+          "expectedEnd": 1207.02,
+          "actualStart": 1059.445042,
+          "actualEnd": 1216.019959,
+          "timeDifference": 8.995042000000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Personalizing the System: Adapting the Second Brain to Your Unique Mind",
+          "expectedStart": 1207.02,
+          "expectedEnd": 1358.73,
+          "actualStart": 1217.519959,
+          "actualEnd": 1369.232626,
+          "timeDifference": 10.49995899999999
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Second Brain into Daily Life: Seamless Flow Between Mind and System",
+          "expectedStart": 1358.73,
+          "expectedEnd": 1508.18,
+          "actualStart": 1370.732626,
+          "actualEnd": 1520.184793,
+          "timeDifference": 12.002625999999964
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Evolving the System: Growing with New Goals, Tools, and Insights",
+          "expectedStart": 1508.18,
+          "expectedEnd": 1658.37,
+          "actualStart": 1521.684793,
+          "actualEnd": 1671.8724599999998,
+          "timeDifference": 13.504792999999836
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Second Brain as a Lifelong Companion: Sustaining Creativity, Learning, and Well-Being",
+          "expectedStart": 1658.37,
+          "expectedEnd": 1801.81,
+          "actualStart": 1673.3724599999998,
+          "actualEnd": 1816.8100019999997,
+          "timeDifference": 15.002459999999928
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1801.81,
+          "expectedEnd": 1940.28,
+          "actualStart": 1818.3100019999997,
+          "actualEnd": 1956.7804189999997,
+          "timeDifference": 16.500001999999768
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.678708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Challenge of Information Overload and the Promise of a Second Brain"
+        },
+        {
+          "startTime": 265.106583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Challenge of Information Overload and the Promise of a Second Brain and Chapter 2 The PARA Method: Structuring Digital Information for Action and Clarity"
+        },
+        {
+          "startTime": 505.73254099999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The PARA Method: Structuring Digital Information for Action and Clarity and Chapter 3 Capturing Ideas and Information: Building the Habit of Consistent Collection"
+        },
+        {
+          "startTime": 676.510083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Capturing Ideas and Information: Building the Habit of Consistent Collection and Chapter 4 Progressive Summarization: Distilling Notes for Easy Retrieval and Creative Use"
+        },
+        {
+          "startTime": 880.580375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Progressive Summarization: Distilling Notes for Easy Retrieval and Creative Use and Chapter 5 Turning Information into Action: Using the Second Brain for Creative Output"
+        },
+        {
+          "startTime": 1057.945042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Turning Information into Action: Using the Second Brain for Creative Output and Chapter 6 Maintenance and Review: Keeping the Second Brain Alive and Useful"
+        },
+        {
+          "startTime": 1216.019959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Maintenance and Review: Keeping the Second Brain Alive and Useful and Chapter 7 Personalizing the System: Adapting the Second Brain to Your Unique Mind"
+        },
+        {
+          "startTime": 1369.232626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Personalizing the System: Adapting the Second Brain to Your Unique Mind and Chapter 8 Integrating the Second Brain into Daily Life: Seamless Flow Between Mind and System"
+        },
+        {
+          "startTime": 1520.184793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Second Brain into Daily Life: Seamless Flow Between Mind and System and Chapter 9 Evolving the System: Growing with New Goals, Tools, and Insights"
+        },
+        {
+          "startTime": 1671.8724599999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Evolving the System: Growing with New Goals, Tools, and Insights and Chapter 10 The Second Brain as a Lifelong Companion: Sustaining Creativity, Learning, and Well-Being"
+        },
+        {
+          "startTime": 1816.8100019999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Second Brain as a Lifelong Companion: Sustaining Creativity, Learning, and Well-Being and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2886",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:05:14.264Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

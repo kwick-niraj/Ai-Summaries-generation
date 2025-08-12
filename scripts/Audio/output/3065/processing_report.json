@@ -1,0 +1,456 @@
+{
+  "bookId": "3065",
+  "timestamp": "2025-07-14T15:58:30.857Z",
+  "success": false,
+  "processingTime": -1752508263037,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4684,
+    "totalAudioFiles": 12,
+    "totalDuration": 2084.538458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2084.538458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3065/optimized_text/3065.md",
+    "fileSize": 544,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "3065.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3065/metadata/3065_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2084.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3065/metadata/3065_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3065/metadata/3065_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3065/3065_complete.wav",
+    "duration": 2084.538458,
+    "fileSize": 100057924,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3065/introduction.wav",
+          "duration": 84.588083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.588083,
+          "startTime": 0,
+          "endTime": 84.588083
+        },
+        {
+          "path": "Audio/output/3065/chapter_01.wav",
+          "duration": 183.669,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons in Right and Wrong",
+          "actualDuration": 183.669,
+          "startTime": 86.088083,
+          "endTime": 269.757083
+        },
+        {
+          "path": "Audio/output/3065/chapter_02.wav",
+          "duration": 215.414875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Purpose in Public Service",
+          "actualDuration": 215.414875,
+          "startTime": 271.257083,
+          "endTime": 486.671958
+        },
+        {
+          "path": "Audio/output/3065/chapter_03.wav",
+          "duration": 211.02275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Power and Principle in High-Stakes Cases",
+          "actualDuration": 211.02275,
+          "startTime": 488.171958,
+          "endTime": 699.194708
+        },
+        {
+          "path": "Audio/output/3065/chapter_04.wav",
+          "duration": 216.537625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Challenge of Leading Through Crisis",
+          "actualDuration": 216.537625,
+          "startTime": 700.694708,
+          "endTime": 917.2323329999999
+        },
+        {
+          "path": "Audio/output/3065/chapter_05.wav",
+          "duration": 179.708375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Burden and Privilege of Independence",
+          "actualDuration": 179.708375,
+          "startTime": 918.7323329999999,
+          "endTime": 1098.4407079999999
+        },
+        {
+          "path": "Audio/output/3065/chapter_06.wav",
+          "duration": 180.783042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of the Public Eye",
+          "actualDuration": 180.783042,
+          "startTime": 1099.9407079999999,
+          "endTime": 1280.7237499999999
+        },
+        {
+          "path": "Audio/output/3065/chapter_07.wav",
+          "duration": 178.992833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Truth-Telling in a World of Spin",
+          "actualDuration": 178.992833,
+          "startTime": 1282.2237499999999,
+          "endTime": 1461.216583
+        },
+        {
+          "path": "Audio/output/3065/chapter_08.wav",
+          "duration": 183.930208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cost of Courage",
+          "actualDuration": 183.930208,
+          "startTime": 1462.716583,
+          "endTime": 1646.646791
+        },
+        {
+          "path": "Audio/output/3065/chapter_09.wav",
+          "duration": 160.45275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from the Oval Office",
+          "actualDuration": 160.45275,
+          "startTime": 1648.146791,
+          "endTime": 1808.5995409999998
+        },
+        {
+          "path": "Audio/output/3065/chapter_10.wav",
+          "duration": 177.077792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Principles in a Changing World",
+          "actualDuration": 177.077792,
+          "startTime": 1810.0995409999998,
+          "endTime": 1987.1773329999999
+        },
+        {
+          "path": "Audio/output/3065/conclusion.wav",
+          "duration": 112.361125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.361125,
+          "startTime": 1988.6773329999999,
+          "endTime": 2101.038458
+        }
+      ],
+      "totalDuration": 2101.038458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.59,
+          "actualStart": 0,
+          "actualEnd": 84.588083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons in Right and Wrong",
+          "expectedStart": 84.59,
+          "expectedEnd": 268.26,
+          "actualStart": 86.088083,
+          "actualEnd": 269.757083,
+          "timeDifference": 1.498082999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Purpose in Public Service",
+          "expectedStart": 268.26,
+          "expectedEnd": 483.67,
+          "actualStart": 271.257083,
+          "actualEnd": 486.671958,
+          "timeDifference": 2.997083000000032
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Power and Principle in High-Stakes Cases",
+          "expectedStart": 483.67,
+          "expectedEnd": 694.69,
+          "actualStart": 488.171958,
+          "actualEnd": 699.194708,
+          "timeDifference": 4.501958000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Challenge of Leading Through Crisis",
+          "expectedStart": 694.69,
+          "expectedEnd": 911.23,
+          "actualStart": 700.694708,
+          "actualEnd": 917.2323329999999,
+          "timeDifference": 6.004707999999937
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Burden and Privilege of Independence",
+          "expectedStart": 911.23,
+          "expectedEnd": 1090.94,
+          "actualStart": 918.7323329999999,
+          "actualEnd": 1098.4407079999999,
+          "timeDifference": 7.502332999999908
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of the Public Eye",
+          "expectedStart": 1090.94,
+          "expectedEnd": 1271.72,
+          "actualStart": 1099.9407079999999,
+          "actualEnd": 1280.7237499999999,
+          "timeDifference": 9.000707999999804
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Truth-Telling in a World of Spin",
+          "expectedStart": 1271.72,
+          "expectedEnd": 1450.71,
+          "actualStart": 1282.2237499999999,
+          "actualEnd": 1461.216583,
+          "timeDifference": 10.503749999999854
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cost of Courage",
+          "expectedStart": 1450.71,
+          "expectedEnd": 1634.64,
+          "actualStart": 1462.716583,
+          "actualEnd": 1646.646791,
+          "timeDifference": 12.006582999999864
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from the Oval Office",
+          "expectedStart": 1634.64,
+          "expectedEnd": 1795.09,
+          "actualStart": 1648.146791,
+          "actualEnd": 1808.5995409999998,
+          "timeDifference": 13.506790999999794
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Principles in a Changing World",
+          "expectedStart": 1795.09,
+          "expectedEnd": 1972.17,
+          "actualStart": 1810.0995409999998,
+          "actualEnd": 1987.1773329999999,
+          "timeDifference": 15.0095409999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1972.17,
+          "expectedEnd": 2084.53,
+          "actualStart": 1988.6773329999999,
+          "actualEnd": 2101.038458,
+          "timeDifference": 16.50733299999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.588083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons in Right and Wrong"
+        },
+        {
+          "startTime": 269.757083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons in Right and Wrong and Chapter 2 Finding Purpose in Public Service"
+        },
+        {
+          "startTime": 486.671958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Purpose in Public Service and Chapter 3 Navigating Power and Principle in High-Stakes Cases"
+        },
+        {
+          "startTime": 699.194708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Power and Principle in High-Stakes Cases and Chapter 4 The Challenge of Leading Through Crisis"
+        },
+        {
+          "startTime": 917.2323329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Challenge of Leading Through Crisis and Chapter 5 The Burden and Privilege of Independence"
+        },
+        {
+          "startTime": 1098.4407079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Burden and Privilege of Independence and Chapter 6 The Weight of the Public Eye"
+        },
+        {
+          "startTime": 1280.7237499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of the Public Eye and Chapter 7 Truth-Telling in a World of Spin"
+        },
+        {
+          "startTime": 1461.216583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Truth-Telling in a World of Spin and Chapter 8 The Cost of Courage"
+        },
+        {
+          "startTime": 1646.646791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cost of Courage and Chapter 9 Lessons from the Oval Office"
+        },
+        {
+          "startTime": 1808.5995409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from the Oval Office and Chapter 10 Enduring Principles in a Changing World"
+        },
+        {
+          "startTime": 1987.1773329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Principles in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3065",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:51:04.235Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

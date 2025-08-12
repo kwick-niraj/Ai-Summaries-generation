@@ -1,0 +1,456 @@
+{
+  "bookId": "2810",
+  "timestamp": "2025-07-13T21:18:05.779Z",
+  "success": false,
+  "processingTime": -1752441189328,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5214,
+    "totalAudioFiles": 12,
+    "totalDuration": 2288.344959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2288.344959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2810/optimized_text/2810.md",
+    "fileSize": 769,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2810.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2810/metadata/2810_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2288.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2810/metadata/2810_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2810/metadata/2810_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2810/2810_complete.wav",
+    "duration": 2288.344958,
+    "fileSize": 109840636,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2810/introduction.wav",
+          "duration": 75.835792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.835792,
+          "startTime": 0,
+          "endTime": 75.835792
+        },
+        {
+          "path": "Audio/output/2810/chapter_01.wav",
+          "duration": 231.568917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The City Before the Storm: Life in Huế on the Eve of War",
+          "actualDuration": 231.568917,
+          "startTime": 77.335792,
+          "endTime": 308.904709
+        },
+        {
+          "path": "Audio/output/2810/chapter_02.wav",
+          "duration": 239.523167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Surprise Attack: The Tet Offensive Reaches Huế",
+          "actualDuration": 239.523167,
+          "startTime": 310.404709,
+          "endTime": 549.927876
+        },
+        {
+          "path": "Audio/output/2810/chapter_03.wav",
+          "duration": 242.395333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Urban Warfare and the Human Cost: Fighting for Every Street",
+          "actualDuration": 242.395333,
+          "startTime": 551.427876,
+          "endTime": 793.8232089999999
+        },
+        {
+          "path": "Audio/output/2810/chapter_04.wav",
+          "duration": 216.179667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leadership, Miscalculation, and the Fog of War",
+          "actualDuration": 216.179667,
+          "startTime": 795.3232089999999,
+          "endTime": 1011.5028759999999
+        },
+        {
+          "path": "Audio/output/2810/chapter_05.wav",
+          "duration": 203.11625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Turning Point: Public Opinion and the War’s New Reality",
+          "actualDuration": 203.11625,
+          "startTime": 1013.0028759999999,
+          "endTime": 1216.1191259999998
+        },
+        {
+          "path": "Audio/output/2810/chapter_06.wav",
+          "duration": 247.138792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: The Aftermath in Huế",
+          "actualDuration": 247.138792,
+          "startTime": 1217.6191259999998,
+          "endTime": 1464.7579179999998
+        },
+        {
+          "path": "Audio/output/2810/chapter_07.wav",
+          "duration": 200.472208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Searching for Meaning: Memory, Mourning, and the Weight of History",
+          "actualDuration": 200.472208,
+          "startTime": 1466.2579179999998,
+          "endTime": 1666.7301259999997
+        },
+        {
+          "path": "Audio/output/2810/chapter_08.wav",
+          "duration": 204.977458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow: Political Repercussions and the War’s Changing Course",
+          "actualDuration": 204.977458,
+          "startTime": 1668.2301259999997,
+          "endTime": 1873.2075839999998
+        },
+        {
+          "path": "Audio/output/2810/chapter_09.wav",
+          "duration": 179.572167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bearing Witness: Journalists, Truth, and the Power of Story",
+          "actualDuration": 179.572167,
+          "startTime": 1874.7075839999998,
+          "endTime": 2054.2797509999996
+        },
+        {
+          "path": "Audio/output/2810/chapter_10.wav",
+          "duration": 136.008,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons and Legacies: Huế’s Place in History",
+          "actualDuration": 136.008,
+          "startTime": 2055.7797509999996,
+          "endTime": 2191.7877509999994
+        },
+        {
+          "path": "Audio/output/2810/conclusion.wav",
+          "duration": 111.557208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.557208,
+          "startTime": 2193.2877509999994,
+          "endTime": 2304.8449589999996
+        }
+      ],
+      "totalDuration": 2304.8449589999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.84,
+          "actualStart": 0,
+          "actualEnd": 75.835792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The City Before the Storm: Life in Huế on the Eve of War",
+          "expectedStart": 75.84,
+          "expectedEnd": 307.41,
+          "actualStart": 77.335792,
+          "actualEnd": 308.904709,
+          "timeDifference": 1.4957919999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Surprise Attack: The Tet Offensive Reaches Huế",
+          "expectedStart": 307.41,
+          "expectedEnd": 546.93,
+          "actualStart": 310.404709,
+          "actualEnd": 549.927876,
+          "timeDifference": 2.9947090000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Urban Warfare and the Human Cost: Fighting for Every Street",
+          "expectedStart": 546.93,
+          "expectedEnd": 789.33,
+          "actualStart": 551.427876,
+          "actualEnd": 793.8232089999999,
+          "timeDifference": 4.497876000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leadership, Miscalculation, and the Fog of War",
+          "expectedStart": 789.33,
+          "expectedEnd": 1005.51,
+          "actualStart": 795.3232089999999,
+          "actualEnd": 1011.5028759999999,
+          "timeDifference": 5.993208999999865
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Turning Point: Public Opinion and the War’s New Reality",
+          "expectedStart": 1005.51,
+          "expectedEnd": 1208.63,
+          "actualStart": 1013.0028759999999,
+          "actualEnd": 1216.1191259999998,
+          "timeDifference": 7.49287599999991
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: The Aftermath in Huế",
+          "expectedStart": 1208.63,
+          "expectedEnd": 1455.77,
+          "actualStart": 1217.6191259999998,
+          "actualEnd": 1464.7579179999998,
+          "timeDifference": 8.989125999999715
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Searching for Meaning: Memory, Mourning, and the Weight of History",
+          "expectedStart": 1455.77,
+          "expectedEnd": 1656.24,
+          "actualStart": 1466.2579179999998,
+          "actualEnd": 1666.7301259999997,
+          "timeDifference": 10.487917999999809
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow: Political Repercussions and the War’s Changing Course",
+          "expectedStart": 1656.24,
+          "expectedEnd": 1861.22,
+          "actualStart": 1668.2301259999997,
+          "actualEnd": 1873.2075839999998,
+          "timeDifference": 11.990125999999691
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bearing Witness: Journalists, Truth, and the Power of Story",
+          "expectedStart": 1861.22,
+          "expectedEnd": 2040.79,
+          "actualStart": 1874.7075839999998,
+          "actualEnd": 2054.2797509999996,
+          "timeDifference": 13.487583999999742
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons and Legacies: Huế’s Place in History",
+          "expectedStart": 2040.79,
+          "expectedEnd": 2176.8,
+          "actualStart": 2055.7797509999996,
+          "actualEnd": 2191.7877509999994,
+          "timeDifference": 14.989750999999615
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2176.8,
+          "expectedEnd": 2288.36,
+          "actualStart": 2193.2877509999994,
+          "actualEnd": 2304.8449589999996,
+          "timeDifference": 16.487750999999207
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.835792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The City Before the Storm: Life in Huế on the Eve of War"
+        },
+        {
+          "startTime": 308.904709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The City Before the Storm: Life in Huế on the Eve of War and Chapter 2 The Surprise Attack: The Tet Offensive Reaches Huế"
+        },
+        {
+          "startTime": 549.927876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Surprise Attack: The Tet Offensive Reaches Huế and Chapter 3 Urban Warfare and the Human Cost: Fighting for Every Street"
+        },
+        {
+          "startTime": 793.8232089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Urban Warfare and the Human Cost: Fighting for Every Street and Chapter 4 Leadership, Miscalculation, and the Fog of War"
+        },
+        {
+          "startTime": 1011.5028759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leadership, Miscalculation, and the Fog of War and Chapter 5 The Turning Point: Public Opinion and the War’s New Reality"
+        },
+        {
+          "startTime": 1216.1191259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Turning Point: Public Opinion and the War’s New Reality and Chapter 6 Picking Up the Pieces: The Aftermath in Huế"
+        },
+        {
+          "startTime": 1464.7579179999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: The Aftermath in Huế and Chapter 7 Searching for Meaning: Memory, Mourning, and the Weight of History"
+        },
+        {
+          "startTime": 1666.7301259999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Searching for Meaning: Memory, Mourning, and the Weight of History and Chapter 8 The Long Shadow: Political Repercussions and the War’s Changing Course"
+        },
+        {
+          "startTime": 1873.2075839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow: Political Repercussions and the War’s Changing Course and Chapter 9 Bearing Witness: Journalists, Truth, and the Power of Story"
+        },
+        {
+          "startTime": 2054.2797509999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bearing Witness: Journalists, Truth, and the Power of Story and Chapter 10 Lessons and Legacies: Huế’s Place in History"
+        },
+        {
+          "startTime": 2191.7877509999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons and Legacies: Huế’s Place in History and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2810",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:13:10.541Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

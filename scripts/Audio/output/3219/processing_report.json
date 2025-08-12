@@ -1,0 +1,528 @@
+{
+  "bookId": "3219",
+  "timestamp": "2025-07-15T03:53:15.749Z",
+  "success": false,
+  "processingTime": -1752551050011,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 6441,
+    "totalAudioFiles": 15,
+    "totalDuration": 2799.704794
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2799.704794
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3219/optimized_text/3219.md",
+    "fileSize": 795,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "3219.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3219/metadata/3219_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2799.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3219/metadata/3219_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3219/metadata/3219_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3219/3219_complete.wav",
+    "duration": 2799.704792,
+    "fileSize": 134385908,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3219/introduction.wav",
+          "duration": 106.83675,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.83675,
+          "startTime": 0,
+          "endTime": 106.83675
+        },
+        {
+          "path": "Audio/output/3219/chapter_01.wav",
+          "duration": 232.817417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Difference Between Outward Success and Inner Depth",
+          "actualDuration": 232.817417,
+          "startTime": 108.33675,
+          "endTime": 341.15416700000003
+        },
+        {
+          "path": "Audio/output/3219/chapter_02.wav",
+          "duration": 241.684792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Struggle and Embracing Humility",
+          "actualDuration": 241.684792,
+          "startTime": 342.65416700000003,
+          "endTime": 584.338959
+        },
+        {
+          "path": "Audio/output/3219/chapter_03.wav",
+          "duration": 245.568167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Influence of Culture on Personal Values",
+          "actualDuration": 245.568167,
+          "startTime": 585.838959,
+          "endTime": 831.4071260000001
+        },
+        {
+          "path": "Audio/output/3219/chapter_04.wav",
+          "duration": 225.137167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Role Models and the Lessons of History",
+          "actualDuration": 225.137167,
+          "startTime": 832.9071260000001,
+          "endTime": 1058.0442930000002
+        },
+        {
+          "path": "Audio/output/3219/chapter_05.wav",
+          "duration": 185.504125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Journey of Self-Examination and Growth",
+          "actualDuration": 185.504125,
+          "startTime": 1059.5442930000002,
+          "endTime": 1245.048418
+        },
+        {
+          "path": "Audio/output/3219/chapter_06.wav",
+          "duration": 202.614917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Strength of Self-Discipline",
+          "actualDuration": 202.614917,
+          "startTime": 1246.548418,
+          "endTime": 1449.1633350000002
+        },
+        {
+          "path": "Audio/output/3219/chapter_07.wav",
+          "duration": 202.311417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Love and Service in Shaping Character",
+          "actualDuration": 202.311417,
+          "startTime": 1450.6633350000002,
+          "endTime": 1652.974752
+        },
+        {
+          "path": "Audio/output/3219/chapter_08.wav",
+          "duration": 169.714917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Temptation and the Value of Moral Struggle",
+          "actualDuration": 169.714917,
+          "startTime": 1654.474752,
+          "endTime": 1824.189669
+        },
+        {
+          "path": "Audio/output/3219/chapter_09.wav",
+          "duration": 187.695875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Gift of Adversity",
+          "actualDuration": 187.695875,
+          "startTime": 1825.689669,
+          "endTime": 2013.3855440000002
+        },
+        {
+          "path": "Audio/output/3219/chapter_10.wav",
+          "duration": 163.855417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Practice of Gratitude and Contentment",
+          "actualDuration": 163.855417,
+          "startTime": 2014.8855440000002,
+          "endTime": 2178.7409610000004
+        },
+        {
+          "path": "Audio/output/3219/chapter_11.wav",
+          "duration": 180.302333,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Importance of Forgiveness and Letting Go",
+          "actualDuration": 180.302333,
+          "startTime": 2180.2409610000004,
+          "endTime": 2360.5432940000005
+        },
+        {
+          "path": "Audio/output/3219/chapter_12.wav",
+          "duration": 190.421333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living with Purpose and Meaning",
+          "actualDuration": 190.421333,
+          "startTime": 2362.0432940000005,
+          "endTime": 2552.4646270000003
+        },
+        {
+          "path": "Audio/output/3219/chapter_13.wav",
+          "duration": 134.2655,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Legacy of Character",
+          "actualDuration": 134.2655,
+          "startTime": 2553.9646270000003,
+          "endTime": 2688.2301270000003
+        },
+        {
+          "path": "Audio/output/3219/conclusion.wav",
+          "duration": 130.974667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.974667,
+          "startTime": 2689.7301270000003,
+          "endTime": 2820.704794
+        }
+      ],
+      "totalDuration": 2820.704794,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.84,
+          "actualStart": 0,
+          "actualEnd": 106.83675,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Difference Between Outward Success and Inner Depth",
+          "expectedStart": 106.84,
+          "expectedEnd": 339.66,
+          "actualStart": 108.33675,
+          "actualEnd": 341.15416700000003,
+          "timeDifference": 1.4967499999999916
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Struggle and Embracing Humility",
+          "expectedStart": 339.66,
+          "expectedEnd": 581.34,
+          "actualStart": 342.65416700000003,
+          "actualEnd": 584.338959,
+          "timeDifference": 2.9941670000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Influence of Culture on Personal Values",
+          "expectedStart": 581.34,
+          "expectedEnd": 826.91,
+          "actualStart": 585.838959,
+          "actualEnd": 831.4071260000001,
+          "timeDifference": 4.4989590000000135
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Role Models and the Lessons of History",
+          "expectedStart": 826.91,
+          "expectedEnd": 1052.05,
+          "actualStart": 832.9071260000001,
+          "actualEnd": 1058.0442930000002,
+          "timeDifference": 5.997126000000094
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Journey of Self-Examination and Growth",
+          "expectedStart": 1052.05,
+          "expectedEnd": 1237.55,
+          "actualStart": 1059.5442930000002,
+          "actualEnd": 1245.048418,
+          "timeDifference": 7.494293000000198
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Strength of Self-Discipline",
+          "expectedStart": 1237.55,
+          "expectedEnd": 1440.16,
+          "actualStart": 1246.548418,
+          "actualEnd": 1449.1633350000002,
+          "timeDifference": 8.998418000000129
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Love and Service in Shaping Character",
+          "expectedStart": 1440.16,
+          "expectedEnd": 1642.47,
+          "actualStart": 1450.6633350000002,
+          "actualEnd": 1652.974752,
+          "timeDifference": 10.503335000000106
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Temptation and the Value of Moral Struggle",
+          "expectedStart": 1642.47,
+          "expectedEnd": 1812.18,
+          "actualStart": 1654.474752,
+          "actualEnd": 1824.189669,
+          "timeDifference": 12.004752000000053
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Gift of Adversity",
+          "expectedStart": 1812.18,
+          "expectedEnd": 1999.88,
+          "actualStart": 1825.689669,
+          "actualEnd": 2013.3855440000002,
+          "timeDifference": 13.50966900000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Practice of Gratitude and Contentment",
+          "expectedStart": 1999.88,
+          "expectedEnd": 2163.74,
+          "actualStart": 2014.8855440000002,
+          "actualEnd": 2178.7409610000004,
+          "timeDifference": 15.0055440000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Importance of Forgiveness and Letting Go",
+          "expectedStart": 2163.74,
+          "expectedEnd": 2344.04,
+          "actualStart": 2180.2409610000004,
+          "actualEnd": 2360.5432940000005,
+          "timeDifference": 16.500961000000643
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living with Purpose and Meaning",
+          "expectedStart": 2344.04,
+          "expectedEnd": 2534.46,
+          "actualStart": 2362.0432940000005,
+          "actualEnd": 2552.4646270000003,
+          "timeDifference": 18.00329400000055
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Legacy of Character",
+          "expectedStart": 2534.46,
+          "expectedEnd": 2668.73,
+          "actualStart": 2553.9646270000003,
+          "actualEnd": 2688.2301270000003,
+          "timeDifference": 19.504627000000255
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2668.73,
+          "expectedEnd": 2799.7,
+          "actualStart": 2689.7301270000003,
+          "actualEnd": 2820.704794,
+          "timeDifference": 21.000127000000248
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.83675,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Difference Between Outward Success and Inner Depth"
+        },
+        {
+          "startTime": 341.15416700000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Difference Between Outward Success and Inner Depth and Chapter 2 Learning from Struggle and Embracing Humility"
+        },
+        {
+          "startTime": 584.338959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Struggle and Embracing Humility and Chapter 3 The Influence of Culture on Personal Values"
+        },
+        {
+          "startTime": 831.4071260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Influence of Culture on Personal Values and Chapter 4 The Power of Role Models and the Lessons of History"
+        },
+        {
+          "startTime": 1058.0442930000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Role Models and the Lessons of History and Chapter 5 The Ongoing Journey of Self-Examination and Growth"
+        },
+        {
+          "startTime": 1245.048418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Journey of Self-Examination and Growth and Chapter 6 The Quiet Strength of Self-Discipline"
+        },
+        {
+          "startTime": 1449.1633350000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Strength of Self-Discipline and Chapter 7 The Role of Love and Service in Shaping Character"
+        },
+        {
+          "startTime": 1652.974752,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Love and Service in Shaping Character and Chapter 8 Facing Temptation and the Value of Moral Struggle"
+        },
+        {
+          "startTime": 1824.189669,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Temptation and the Value of Moral Struggle and Chapter 9 The Gift of Adversity"
+        },
+        {
+          "startTime": 2013.3855440000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Gift of Adversity and Chapter 10 The Practice of Gratitude and Contentment"
+        },
+        {
+          "startTime": 2178.7409610000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Practice of Gratitude and Contentment and Chapter 11 The Importance of Forgiveness and Letting Go"
+        },
+        {
+          "startTime": 2360.5432940000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Importance of Forgiveness and Letting Go and Chapter 12 Living with Purpose and Meaning"
+        },
+        {
+          "startTime": 2552.4646270000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living with Purpose and Meaning and Chapter 13 The Legacy of Character"
+        },
+        {
+          "startTime": 2688.2301270000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Legacy of Character and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3219",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:44:10.545Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

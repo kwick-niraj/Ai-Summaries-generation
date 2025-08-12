@@ -1,0 +1,456 @@
+{
+  "bookId": "2828",
+  "timestamp": "2025-07-13T22:43:41.580Z",
+  "success": false,
+  "processingTime": -1752446365981,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4341,
+    "totalAudioFiles": 12,
+    "totalDuration": 2229.969124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2229.969124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2828/optimized_text/2828.md",
+    "fileSize": 778,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2828.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2828/metadata/2828_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2229.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2828/metadata/2828_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2828/metadata/2828_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 74,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2828/2828_complete.wav",
+    "duration": 2229.969125,
+    "fileSize": 107038596,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2828/introduction.wav",
+          "duration": 101.47225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.47225,
+          "startTime": 0,
+          "endTime": 101.47225
+        },
+        {
+          "path": "Audio/output/2828/chapter_01.wav",
+          "duration": 226.199958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Hygge: The Heart of Danish Contentment",
+          "actualDuration": 226.199958,
+          "startTime": 102.97225,
+          "endTime": 329.172208
+        },
+        {
+          "path": "Audio/output/2828/chapter_02.wav",
+          "duration": 245.467417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Environment: Creating Spaces That Nurture Well-Being",
+          "actualDuration": 245.467417,
+          "startTime": 330.672208,
+          "endTime": 576.139625
+        },
+        {
+          "path": "Audio/output/2828/chapter_03.wav",
+          "duration": 188.488333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Simple Pleasures: Food, Rituals, and Everyday Joy",
+          "actualDuration": 188.488333,
+          "startTime": 577.639625,
+          "endTime": 766.127958
+        },
+        {
+          "path": "Audio/output/2828/chapter_04.wav",
+          "duration": 197.758667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Togetherness and Belonging: The Social Side of Hygge",
+          "actualDuration": 197.758667,
+          "startTime": 767.627958,
+          "endTime": 965.3866250000001
+        },
+        {
+          "path": "Audio/output/2828/chapter_05.wav",
+          "duration": 233.109,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindful Living: Presence, Gratitude, and the Art of Slowing Down",
+          "actualDuration": 233.109,
+          "startTime": 966.8866250000001,
+          "endTime": 1199.995625
+        },
+        {
+          "path": "Audio/output/2828/chapter_06.wav",
+          "duration": 193.970583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Seasonal Adaptations: Embracing Hygge All Year Round",
+          "actualDuration": 193.970583,
+          "startTime": 1201.495625,
+          "endTime": 1395.466208
+        },
+        {
+          "path": "Audio/output/2828/chapter_07.wav",
+          "duration": 180.947625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Hygge at Work: Bringing Comfort and Connection to Professional Life",
+          "actualDuration": 180.947625,
+          "startTime": 1396.966208,
+          "endTime": 1577.913833
+        },
+        {
+          "path": "Audio/output/2828/chapter_08.wav",
+          "duration": 184.076083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community and Generosity: Extending Hygge Beyond the Home",
+          "actualDuration": 184.076083,
+          "startTime": 1579.413833,
+          "endTime": 1763.489916
+        },
+        {
+          "path": "Audio/output/2828/chapter_09.wav",
+          "duration": 175.473083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Barriers: Navigating Challenges to Hygge",
+          "actualDuration": 175.473083,
+          "startTime": 1764.989916,
+          "endTime": 1940.462999
+        },
+        {
+          "path": "Audio/output/2828/chapter_10.wav",
+          "duration": 175.398958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Hygge: Making Comfort and Connection a Lifelong Practice",
+          "actualDuration": 175.398958,
+          "startTime": 1941.962999,
+          "endTime": 2117.361957
+        },
+        {
+          "path": "Audio/output/2828/conclusion.wav",
+          "duration": 127.607167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.607167,
+          "startTime": 2118.861957,
+          "endTime": 2246.469124
+        }
+      ],
+      "totalDuration": 2246.469124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.47,
+          "actualStart": 0,
+          "actualEnd": 101.47225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Hygge: The Heart of Danish Contentment",
+          "expectedStart": 101.47,
+          "expectedEnd": 327.67,
+          "actualStart": 102.97225,
+          "actualEnd": 329.172208,
+          "timeDifference": 1.5022500000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Environment: Creating Spaces That Nurture Well-Being",
+          "expectedStart": 327.67,
+          "expectedEnd": 573.14,
+          "actualStart": 330.672208,
+          "actualEnd": 576.139625,
+          "timeDifference": 3.002207999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Simple Pleasures: Food, Rituals, and Everyday Joy",
+          "expectedStart": 573.14,
+          "expectedEnd": 761.63,
+          "actualStart": 577.639625,
+          "actualEnd": 766.127958,
+          "timeDifference": 4.499625000000037
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Togetherness and Belonging: The Social Side of Hygge",
+          "expectedStart": 761.63,
+          "expectedEnd": 959.39,
+          "actualStart": 767.627958,
+          "actualEnd": 965.3866250000001,
+          "timeDifference": 5.99795800000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindful Living: Presence, Gratitude, and the Art of Slowing Down",
+          "expectedStart": 959.39,
+          "expectedEnd": 1192.5,
+          "actualStart": 966.8866250000001,
+          "actualEnd": 1199.995625,
+          "timeDifference": 7.496625000000108
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Seasonal Adaptations: Embracing Hygge All Year Round",
+          "expectedStart": 1192.5,
+          "expectedEnd": 1386.47,
+          "actualStart": 1201.495625,
+          "actualEnd": 1395.466208,
+          "timeDifference": 8.995625000000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Hygge at Work: Bringing Comfort and Connection to Professional Life",
+          "expectedStart": 1386.47,
+          "expectedEnd": 1567.42,
+          "actualStart": 1396.966208,
+          "actualEnd": 1577.913833,
+          "timeDifference": 10.496208000000024
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community and Generosity: Extending Hygge Beyond the Home",
+          "expectedStart": 1567.42,
+          "expectedEnd": 1751.5,
+          "actualStart": 1579.413833,
+          "actualEnd": 1763.489916,
+          "timeDifference": 11.993832999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Barriers: Navigating Challenges to Hygge",
+          "expectedStart": 1751.5,
+          "expectedEnd": 1926.97,
+          "actualStart": 1764.989916,
+          "actualEnd": 1940.462999,
+          "timeDifference": 13.489915999999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Hygge: Making Comfort and Connection a Lifelong Practice",
+          "expectedStart": 1926.97,
+          "expectedEnd": 2102.37,
+          "actualStart": 1941.962999,
+          "actualEnd": 2117.361957,
+          "timeDifference": 14.992999000000054
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2102.37,
+          "expectedEnd": 2229.98,
+          "actualStart": 2118.861957,
+          "actualEnd": 2246.469124,
+          "timeDifference": 16.491957000000184
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.47225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Hygge: The Heart of Danish Contentment"
+        },
+        {
+          "startTime": 329.172208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Hygge: The Heart of Danish Contentment and Chapter 2 The Role of Environment: Creating Spaces That Nurture Well-Being"
+        },
+        {
+          "startTime": 576.139625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Environment: Creating Spaces That Nurture Well-Being and Chapter 3 Simple Pleasures: Food, Rituals, and Everyday Joy"
+        },
+        {
+          "startTime": 766.127958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Simple Pleasures: Food, Rituals, and Everyday Joy and Chapter 4 Togetherness and Belonging: The Social Side of Hygge"
+        },
+        {
+          "startTime": 965.3866250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Togetherness and Belonging: The Social Side of Hygge and Chapter 5 Mindful Living: Presence, Gratitude, and the Art of Slowing Down"
+        },
+        {
+          "startTime": 1199.995625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindful Living: Presence, Gratitude, and the Art of Slowing Down and Chapter 6 Seasonal Adaptations: Embracing Hygge All Year Round"
+        },
+        {
+          "startTime": 1395.466208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Seasonal Adaptations: Embracing Hygge All Year Round and Chapter 7 Hygge at Work: Bringing Comfort and Connection to Professional Life"
+        },
+        {
+          "startTime": 1577.913833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Hygge at Work: Bringing Comfort and Connection to Professional Life and Chapter 8 Community and Generosity: Extending Hygge Beyond the Home"
+        },
+        {
+          "startTime": 1763.489916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community and Generosity: Extending Hygge Beyond the Home and Chapter 9 Overcoming Barriers: Navigating Challenges to Hygge"
+        },
+        {
+          "startTime": 1940.462999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Barriers: Navigating Challenges to Hygge and Chapter 10 Sustaining Hygge: Making Comfort and Connection a Lifelong Practice"
+        },
+        {
+          "startTime": 2117.361957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Hygge: Making Comfort and Connection a Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2828",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 74,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:39:26.488Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

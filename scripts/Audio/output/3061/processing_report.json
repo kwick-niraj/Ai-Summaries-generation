@@ -1,0 +1,456 @@
+{
+  "bookId": "3061",
+  "timestamp": "2025-07-14T15:31:41.012Z",
+  "success": false,
+  "processingTime": -1752506776995,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4755,
+    "totalAudioFiles": 12,
+    "totalDuration": 2233.6094580000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2233.6094580000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3061/optimized_text/3061.md",
+    "fileSize": 523,
+    "wordCount": 74,
+    "format": "markdown",
+    "filename": "3061.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3061/metadata/3061_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2233.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3061/metadata/3061_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3061/metadata/3061_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3061/3061_complete.wav",
+    "duration": 2233.609458,
+    "fileSize": 107213332,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3061/introduction.wav",
+          "duration": 112.945708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.945708,
+          "startTime": 0,
+          "endTime": 112.945708
+        },
+        {
+          "path": "Audio/output/3061/chapter_01.wav",
+          "duration": 263.870333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Struggle to Hold Onto What Matters Most",
+          "actualDuration": 263.870333,
+          "startTime": 114.445708,
+          "endTime": 378.31604100000004
+        },
+        {
+          "path": "Audio/output/3061/chapter_02.wav",
+          "duration": 198.559167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 When Leaders Lose Their Way",
+          "actualDuration": 198.559167,
+          "startTime": 379.81604100000004,
+          "endTime": 578.375208
+        },
+        {
+          "path": "Audio/output/3061/chapter_03.wav",
+          "duration": 209.757333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cost of Compromise",
+          "actualDuration": 209.757333,
+          "startTime": 579.875208,
+          "endTime": 789.6325410000001
+        },
+        {
+          "path": "Audio/output/3061/chapter_04.wav",
+          "duration": 205.306917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Repentance and Forgiveness",
+          "actualDuration": 205.306917,
+          "startTime": 791.1325410000001,
+          "endTime": 996.4394580000001
+        },
+        {
+          "path": "Audio/output/3061/chapter_05.wav",
+          "duration": 211.632583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living the Faith in a Changing World",
+          "actualDuration": 211.632583,
+          "startTime": 997.9394580000001,
+          "endTime": 1209.5720410000001
+        },
+        {
+          "path": "Audio/output/3061/chapter_06.wav",
+          "duration": 192.265167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rediscovering the Church’s Mission",
+          "actualDuration": 192.265167,
+          "startTime": 1211.0720410000001,
+          "endTime": 1403.3372080000001
+        },
+        {
+          "path": "Audio/output/3061/chapter_07.wav",
+          "duration": 184.909875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Doctrinal Clarity",
+          "actualDuration": 184.909875,
+          "startTime": 1404.8372080000001,
+          "endTime": 1589.7470830000002
+        },
+        {
+          "path": "Audio/output/3061/chapter_08.wav",
+          "duration": 185.237542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Call to Courageous Witness",
+          "actualDuration": 185.237542,
+          "startTime": 1591.2470830000002,
+          "endTime": 1776.4846250000003
+        },
+        {
+          "path": "Audio/output/3061/chapter_09.wav",
+          "duration": 183.1205,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing Divisions, Building Unity",
+          "actualDuration": 183.1205,
+          "startTime": 1777.9846250000003,
+          "endTime": 1961.1051250000003
+        },
+        {
+          "path": "Audio/output/3061/chapter_10.wav",
+          "duration": 139.781208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Hope for the Future",
+          "actualDuration": 139.781208,
+          "startTime": 1962.6051250000003,
+          "endTime": 2102.3863330000004
+        },
+        {
+          "path": "Audio/output/3061/conclusion.wav",
+          "duration": 146.223125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 146.223125,
+          "startTime": 2103.8863330000004,
+          "endTime": 2250.1094580000004
+        }
+      ],
+      "totalDuration": 2250.1094580000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.95,
+          "actualStart": 0,
+          "actualEnd": 112.945708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Struggle to Hold Onto What Matters Most",
+          "expectedStart": 112.95,
+          "expectedEnd": 376.82,
+          "actualStart": 114.445708,
+          "actualEnd": 378.31604100000004,
+          "timeDifference": 1.4957079999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 When Leaders Lose Their Way",
+          "expectedStart": 376.82,
+          "expectedEnd": 575.38,
+          "actualStart": 379.81604100000004,
+          "actualEnd": 578.375208,
+          "timeDifference": 2.996041000000048
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cost of Compromise",
+          "expectedStart": 575.38,
+          "expectedEnd": 785.14,
+          "actualStart": 579.875208,
+          "actualEnd": 789.6325410000001,
+          "timeDifference": 4.495208000000048
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Repentance and Forgiveness",
+          "expectedStart": 785.14,
+          "expectedEnd": 990.45,
+          "actualStart": 791.1325410000001,
+          "actualEnd": 996.4394580000001,
+          "timeDifference": 5.992541000000074
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living the Faith in a Changing World",
+          "expectedStart": 990.45,
+          "expectedEnd": 1202.08,
+          "actualStart": 997.9394580000001,
+          "actualEnd": 1209.5720410000001,
+          "timeDifference": 7.489458000000013
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rediscovering the Church’s Mission",
+          "expectedStart": 1202.08,
+          "expectedEnd": 1394.35,
+          "actualStart": 1211.0720410000001,
+          "actualEnd": 1403.3372080000001,
+          "timeDifference": 8.9920410000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Doctrinal Clarity",
+          "expectedStart": 1394.35,
+          "expectedEnd": 1579.26,
+          "actualStart": 1404.8372080000001,
+          "actualEnd": 1589.7470830000002,
+          "timeDifference": 10.487208000000237
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Call to Courageous Witness",
+          "expectedStart": 1579.26,
+          "expectedEnd": 1764.5,
+          "actualStart": 1591.2470830000002,
+          "actualEnd": 1776.4846250000003,
+          "timeDifference": 11.987083000000212
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing Divisions, Building Unity",
+          "expectedStart": 1764.5,
+          "expectedEnd": 1947.62,
+          "actualStart": 1777.9846250000003,
+          "actualEnd": 1961.1051250000003,
+          "timeDifference": 13.484625000000278
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Hope for the Future",
+          "expectedStart": 1947.62,
+          "expectedEnd": 2087.4,
+          "actualStart": 1962.6051250000003,
+          "actualEnd": 2102.3863330000004,
+          "timeDifference": 14.98512500000038
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2087.4,
+          "expectedEnd": 2233.62,
+          "actualStart": 2103.8863330000004,
+          "actualEnd": 2250.1094580000004,
+          "timeDifference": 16.486333000000286
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.945708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Struggle to Hold Onto What Matters Most"
+        },
+        {
+          "startTime": 378.31604100000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Struggle to Hold Onto What Matters Most and Chapter 2 When Leaders Lose Their Way"
+        },
+        {
+          "startTime": 578.375208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 When Leaders Lose Their Way and Chapter 3 The Cost of Compromise"
+        },
+        {
+          "startTime": 789.6325410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cost of Compromise and Chapter 4 The Power of Repentance and Forgiveness"
+        },
+        {
+          "startTime": 996.4394580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Repentance and Forgiveness and Chapter 5 Living the Faith in a Changing World"
+        },
+        {
+          "startTime": 1209.5720410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living the Faith in a Changing World and Chapter 6 Rediscovering the Church’s Mission"
+        },
+        {
+          "startTime": 1403.3372080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rediscovering the Church’s Mission and Chapter 7 The Importance of Doctrinal Clarity"
+        },
+        {
+          "startTime": 1589.7470830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Doctrinal Clarity and Chapter 8 The Call to Courageous Witness"
+        },
+        {
+          "startTime": 1776.4846250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Call to Courageous Witness and Chapter 9 Healing Divisions, Building Unity"
+        },
+        {
+          "startTime": 1961.1051250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing Divisions, Building Unity and Chapter 10 Hope for the Future"
+        },
+        {
+          "startTime": 2102.3863330000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Hope for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3061",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:26:17.507Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

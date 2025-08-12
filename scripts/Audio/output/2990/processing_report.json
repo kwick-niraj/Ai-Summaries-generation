@@ -1,0 +1,456 @@
+{
+  "bookId": "2990",
+  "timestamp": "2025-07-14T09:47:36.570Z",
+  "success": false,
+  "processingTime": -1752486164882,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4634,
+    "totalAudioFiles": 12,
+    "totalDuration": 2032.771126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2032.771126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2990/optimized_text/2990.md",
+    "fileSize": 714,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2990.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2990/metadata/2990_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2032.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2990/metadata/2990_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2990/metadata/2990_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2990/2990_complete.wav",
+    "duration": 2032.771125,
+    "fileSize": 97573092,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2990/introduction.wav",
+          "duration": 88.606792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.606792,
+          "startTime": 0,
+          "endTime": 88.606792
+        },
+        {
+          "path": "Audio/output/2990/chapter_01.wav",
+          "duration": 198.512875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Voice Within During Life’s Uncertainties",
+          "actualDuration": 198.512875,
+          "startTime": 90.106792,
+          "endTime": 288.619667
+        },
+        {
+          "path": "Audio/output/2990/chapter_02.wav",
+          "duration": 202.952625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Self-Compassion and Letting Go of Harsh Judgments",
+          "actualDuration": 202.952625,
+          "startTime": 290.119667,
+          "endTime": 493.072292
+        },
+        {
+          "path": "Audio/output/2990/chapter_03.wav",
+          "duration": 184.637375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Transforming Pain and Difficult Emotions Into Growth",
+          "actualDuration": 184.637375,
+          "startTime": 494.572292,
+          "endTime": 679.209667
+        },
+        {
+          "path": "Audio/output/2990/chapter_04.wav",
+          "duration": 198.570375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Accepting Change and Welcoming Personal Transformation",
+          "actualDuration": 198.570375,
+          "startTime": 680.709667,
+          "endTime": 879.280042
+        },
+        {
+          "path": "Audio/output/2990/chapter_05.wav",
+          "duration": 194.038542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Hope and Encouragement in Everyday Life",
+          "actualDuration": 194.038542,
+          "startTime": 880.780042,
+          "endTime": 1074.818584
+        },
+        {
+          "path": "Audio/output/2990/chapter_06.wav",
+          "duration": 176.191542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Patience and Trusting the Unfolding Journey",
+          "actualDuration": 176.191542,
+          "startTime": 1076.318584,
+          "endTime": 1252.5101260000001
+        },
+        {
+          "path": "Audio/output/2990/chapter_07.wav",
+          "duration": 193.312667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Self-Acceptance and Embracing Authenticity",
+          "actualDuration": 193.312667,
+          "startTime": 1254.0101260000001,
+          "endTime": 1447.322793
+        },
+        {
+          "path": "Audio/output/2990/chapter_08.wav",
+          "duration": 173.430417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Relationships with Openness and Boundaries",
+          "actualDuration": 173.430417,
+          "startTime": 1448.822793,
+          "endTime": 1622.25321
+        },
+        {
+          "path": "Audio/output/2990/chapter_09.wav",
+          "duration": 159.801208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Listening to Intuition and Honoring Inner Guidance",
+          "actualDuration": 159.801208,
+          "startTime": 1623.75321,
+          "endTime": 1783.5544180000002
+        },
+        {
+          "path": "Audio/output/2990/chapter_10.wav",
+          "duration": 148.6125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Meaning",
+          "actualDuration": 148.6125,
+          "startTime": 1785.0544180000002,
+          "endTime": 1933.6669180000001
+        },
+        {
+          "path": "Audio/output/2990/conclusion.wav",
+          "duration": 114.104208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.104208,
+          "startTime": 1935.1669180000001,
+          "endTime": 2049.271126
+        }
+      ],
+      "totalDuration": 2049.271126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.61,
+          "actualStart": 0,
+          "actualEnd": 88.606792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Voice Within During Life’s Uncertainties",
+          "expectedStart": 88.61,
+          "expectedEnd": 287.12,
+          "actualStart": 90.106792,
+          "actualEnd": 288.619667,
+          "timeDifference": 1.4967919999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Self-Compassion and Letting Go of Harsh Judgments",
+          "expectedStart": 287.12,
+          "expectedEnd": 490.07,
+          "actualStart": 290.119667,
+          "actualEnd": 493.072292,
+          "timeDifference": 2.999666999999988
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Transforming Pain and Difficult Emotions Into Growth",
+          "expectedStart": 490.07,
+          "expectedEnd": 674.71,
+          "actualStart": 494.572292,
+          "actualEnd": 679.209667,
+          "timeDifference": 4.502292000000011
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Accepting Change and Welcoming Personal Transformation",
+          "expectedStart": 674.71,
+          "expectedEnd": 873.28,
+          "actualStart": 680.709667,
+          "actualEnd": 879.280042,
+          "timeDifference": 5.999666999999931
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Hope and Encouragement in Everyday Life",
+          "expectedStart": 873.28,
+          "expectedEnd": 1067.32,
+          "actualStart": 880.780042,
+          "actualEnd": 1074.818584,
+          "timeDifference": 7.500042000000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Patience and Trusting the Unfolding Journey",
+          "expectedStart": 1067.32,
+          "expectedEnd": 1243.51,
+          "actualStart": 1076.318584,
+          "actualEnd": 1252.5101260000001,
+          "timeDifference": 8.998584000000164
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Self-Acceptance and Embracing Authenticity",
+          "expectedStart": 1243.51,
+          "expectedEnd": 1436.82,
+          "actualStart": 1254.0101260000001,
+          "actualEnd": 1447.322793,
+          "timeDifference": 10.500126000000137
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Relationships with Openness and Boundaries",
+          "expectedStart": 1436.82,
+          "expectedEnd": 1610.25,
+          "actualStart": 1448.822793,
+          "actualEnd": 1622.25321,
+          "timeDifference": 12.00279300000011
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Listening to Intuition and Honoring Inner Guidance",
+          "expectedStart": 1610.25,
+          "expectedEnd": 1770.05,
+          "actualStart": 1623.75321,
+          "actualEnd": 1783.5544180000002,
+          "timeDifference": 13.503210000000081
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Meaning",
+          "expectedStart": 1770.05,
+          "expectedEnd": 1918.66,
+          "actualStart": 1785.0544180000002,
+          "actualEnd": 1933.6669180000001,
+          "timeDifference": 15.004418000000214
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1918.66,
+          "expectedEnd": 2032.76,
+          "actualStart": 1935.1669180000001,
+          "actualEnd": 2049.271126,
+          "timeDifference": 16.50691800000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.606792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Voice Within During Life’s Uncertainties"
+        },
+        {
+          "startTime": 288.619667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Voice Within During Life’s Uncertainties and Chapter 2 Embracing Self-Compassion and Letting Go of Harsh Judgments"
+        },
+        {
+          "startTime": 493.072292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Self-Compassion and Letting Go of Harsh Judgments and Chapter 3 Transforming Pain and Difficult Emotions Into Growth"
+        },
+        {
+          "startTime": 679.209667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Transforming Pain and Difficult Emotions Into Growth and Chapter 4 Accepting Change and Welcoming Personal Transformation"
+        },
+        {
+          "startTime": 879.280042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Accepting Change and Welcoming Personal Transformation and Chapter 5 Finding Hope and Encouragement in Everyday Life"
+        },
+        {
+          "startTime": 1074.818584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Hope and Encouragement in Everyday Life and Chapter 6 Cultivating Patience and Trusting the Unfolding Journey"
+        },
+        {
+          "startTime": 1252.5101260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Patience and Trusting the Unfolding Journey and Chapter 7 Deepening Self-Acceptance and Embracing Authenticity"
+        },
+        {
+          "startTime": 1447.322793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Self-Acceptance and Embracing Authenticity and Chapter 8 Navigating Relationships with Openness and Boundaries"
+        },
+        {
+          "startTime": 1622.25321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Relationships with Openness and Boundaries and Chapter 9 Listening to Intuition and Honoring Inner Guidance"
+        },
+        {
+          "startTime": 1783.5544180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Listening to Intuition and Honoring Inner Guidance and Chapter 10 Living with Purpose and Meaning"
+        },
+        {
+          "startTime": 1933.6669180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2990",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:42:45.421Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

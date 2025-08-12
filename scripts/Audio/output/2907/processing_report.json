@@ -1,0 +1,456 @@
+{
+  "bookId": "2907",
+  "timestamp": "2025-07-14T03:35:01.098Z",
+  "success": false,
+  "processingTime": -1752463779448,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4761,
+    "totalAudioFiles": 12,
+    "totalDuration": 2218.2678769999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2218.2678769999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2907/optimized_text/2907.md",
+    "fileSize": 740,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2907.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2907/metadata/2907_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2218.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2907/metadata/2907_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2907/metadata/2907_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2907/2907_complete.wav",
+    "duration": 2218.267875,
+    "fileSize": 106476936,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2907/introduction.wav",
+          "duration": 103.883958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.883958,
+          "startTime": 0,
+          "endTime": 103.883958
+        },
+        {
+          "path": "Audio/output/2907/chapter_01.wav",
+          "duration": 278.960625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Chasing a New Kind of War: The Birth of the Bomber Dream",
+          "actualDuration": 278.960625,
+          "startTime": 105.383958,
+          "endTime": 384.344583
+        },
+        {
+          "path": "Audio/output/2907/chapter_02.wav",
+          "duration": 231.177667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Promise and Peril of Precision: Technology Meets Reality",
+          "actualDuration": 231.177667,
+          "startTime": 385.844583,
+          "endTime": 617.02225
+        },
+        {
+          "path": "Audio/output/2907/chapter_03.wav",
+          "duration": 210.861,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Clash of Visions: Debates Over Morality and Effectiveness",
+          "actualDuration": 210.861,
+          "startTime": 618.52225,
+          "endTime": 829.38325
+        },
+        {
+          "path": "Audio/output/2907/chapter_04.wav",
+          "duration": 208.362042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Turning Point: Firebombing and the Limits of Idealism",
+          "actualDuration": 208.362042,
+          "startTime": 830.88325,
+          "endTime": 1039.245292
+        },
+        {
+          "path": "Audio/output/2907/chapter_05.wav",
+          "duration": 134.066042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath and Reflection: The Legacy of the Bomber Mafia",
+          "actualDuration": 134.066042,
+          "startTime": 1040.745292,
+          "endTime": 1174.811334
+        },
+        {
+          "path": "Audio/output/2907/chapter_06.wav",
+          "duration": 204.712417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War’s Echo: Rebuilding and Rethinking",
+          "actualDuration": 204.712417,
+          "startTime": 1176.311334,
+          "endTime": 1381.023751
+        },
+        {
+          "path": "Audio/output/2907/chapter_07.wav",
+          "duration": 213.38425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cold War and the Shadow of the Bomb",
+          "actualDuration": 213.38425,
+          "startTime": 1382.523751,
+          "endTime": 1595.908001
+        },
+        {
+          "path": "Audio/output/2907/chapter_08.wav",
+          "duration": 186.755792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost: Memory, Guilt, and the Search for Meaning",
+          "actualDuration": 186.755792,
+          "startTime": 1597.408001,
+          "endTime": 1784.163793
+        },
+        {
+          "path": "Audio/output/2907/chapter_09.wav",
+          "duration": 190.759417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Evolution of Air Power: From Bombers to Drones",
+          "actualDuration": 190.759417,
+          "startTime": 1785.663793,
+          "endTime": 1976.42321
+        },
+        {
+          "path": "Audio/output/2907/chapter_10.wav",
+          "duration": 120.936667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Questions: Technology, Ethics, and the Future",
+          "actualDuration": 120.936667,
+          "startTime": 1977.92321,
+          "endTime": 2098.859877
+        },
+        {
+          "path": "Audio/output/2907/conclusion.wav",
+          "duration": 134.408,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.408,
+          "startTime": 2100.359877,
+          "endTime": 2234.7678769999998
+        }
+      ],
+      "totalDuration": 2234.7678769999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.88,
+          "actualStart": 0,
+          "actualEnd": 103.883958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Chasing a New Kind of War: The Birth of the Bomber Dream",
+          "expectedStart": 103.88,
+          "expectedEnd": 382.84,
+          "actualStart": 105.383958,
+          "actualEnd": 384.344583,
+          "timeDifference": 1.5039580000000115
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Promise and Peril of Precision: Technology Meets Reality",
+          "expectedStart": 382.84,
+          "expectedEnd": 614.02,
+          "actualStart": 385.844583,
+          "actualEnd": 617.02225,
+          "timeDifference": 3.004583000000025
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Clash of Visions: Debates Over Morality and Effectiveness",
+          "expectedStart": 614.02,
+          "expectedEnd": 824.88,
+          "actualStart": 618.52225,
+          "actualEnd": 829.38325,
+          "timeDifference": 4.502250000000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Turning Point: Firebombing and the Limits of Idealism",
+          "expectedStart": 824.88,
+          "expectedEnd": 1033.24,
+          "actualStart": 830.88325,
+          "actualEnd": 1039.245292,
+          "timeDifference": 6.00324999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath and Reflection: The Legacy of the Bomber Mafia",
+          "expectedStart": 1033.24,
+          "expectedEnd": 1167.31,
+          "actualStart": 1040.745292,
+          "actualEnd": 1174.811334,
+          "timeDifference": 7.505292000000054
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War’s Echo: Rebuilding and Rethinking",
+          "expectedStart": 1167.31,
+          "expectedEnd": 1372.02,
+          "actualStart": 1176.311334,
+          "actualEnd": 1381.023751,
+          "timeDifference": 9.001334000000043
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cold War and the Shadow of the Bomb",
+          "expectedStart": 1372.02,
+          "expectedEnd": 1585.4,
+          "actualStart": 1382.523751,
+          "actualEnd": 1595.908001,
+          "timeDifference": 10.503750999999966
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost: Memory, Guilt, and the Search for Meaning",
+          "expectedStart": 1585.4,
+          "expectedEnd": 1772.16,
+          "actualStart": 1597.408001,
+          "actualEnd": 1784.163793,
+          "timeDifference": 12.008000999999922
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Evolution of Air Power: From Bombers to Drones",
+          "expectedStart": 1772.16,
+          "expectedEnd": 1962.92,
+          "actualStart": 1785.663793,
+          "actualEnd": 1976.42321,
+          "timeDifference": 13.50379299999986
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Questions: Technology, Ethics, and the Future",
+          "expectedStart": 1962.92,
+          "expectedEnd": 2083.86,
+          "actualStart": 1977.92321,
+          "actualEnd": 2098.859877,
+          "timeDifference": 15.003209999999854
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2083.86,
+          "expectedEnd": 2218.27,
+          "actualStart": 2100.359877,
+          "actualEnd": 2234.7678769999998,
+          "timeDifference": 16.499876999999742
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.883958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Chasing a New Kind of War: The Birth of the Bomber Dream"
+        },
+        {
+          "startTime": 384.344583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Chasing a New Kind of War: The Birth of the Bomber Dream and Chapter 2 The Promise and Peril of Precision: Technology Meets Reality"
+        },
+        {
+          "startTime": 617.02225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Promise and Peril of Precision: Technology Meets Reality and Chapter 3 The Clash of Visions: Debates Over Morality and Effectiveness"
+        },
+        {
+          "startTime": 829.38325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Clash of Visions: Debates Over Morality and Effectiveness and Chapter 4 The Turning Point: Firebombing and the Limits of Idealism"
+        },
+        {
+          "startTime": 1039.245292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Turning Point: Firebombing and the Limits of Idealism and Chapter 5 Aftermath and Reflection: The Legacy of the Bomber Mafia"
+        },
+        {
+          "startTime": 1174.811334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath and Reflection: The Legacy of the Bomber Mafia and Chapter 6 The War’s Echo: Rebuilding and Rethinking"
+        },
+        {
+          "startTime": 1381.023751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War’s Echo: Rebuilding and Rethinking and Chapter 7 The Cold War and the Shadow of the Bomb"
+        },
+        {
+          "startTime": 1595.908001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cold War and the Shadow of the Bomb and Chapter 8 The Human Cost: Memory, Guilt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1784.163793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost: Memory, Guilt, and the Search for Meaning and Chapter 9 The Evolution of Air Power: From Bombers to Drones"
+        },
+        {
+          "startTime": 1976.42321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Evolution of Air Power: From Bombers to Drones and Chapter 10 The Enduring Questions: Technology, Ethics, and the Future"
+        },
+        {
+          "startTime": 2098.859877,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Questions: Technology, Ethics, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2907",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:29:39.471Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3164",
+  "timestamp": "2025-07-14T23:27:40.607Z",
+  "success": false,
+  "processingTime": -1752535365442,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4685,
+    "totalAudioFiles": 12,
+    "totalDuration": 2536.70829
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2536.70829
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3164/optimized_text/3164.md",
+    "fileSize": 725,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "3164.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3164/metadata/3164_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2536.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3164/metadata/3164_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3164/metadata/3164_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3164/3164_complete.wav",
+    "duration": 2536.708292,
+    "fileSize": 121762076,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3164/introduction.wav",
+          "duration": 107.638958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.638958,
+          "startTime": 0,
+          "endTime": 107.638958
+        },
+        {
+          "path": "Audio/output/3164/chapter_01.wav",
+          "duration": 232.472083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Spiritual Authority and the Foundation of Prayer",
+          "actualDuration": 232.472083,
+          "startTime": 109.138958,
+          "endTime": 341.611041
+        },
+        {
+          "path": "Audio/output/3164/chapter_02.wav",
+          "duration": 257.499125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Purpose of Prayer in the Believer’s Life",
+          "actualDuration": 257.499125,
+          "startTime": 343.111041,
+          "endTime": 600.6101659999999
+        },
+        {
+          "path": "Audio/output/3164/chapter_03.wav",
+          "duration": 269.986,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of the Holy Spirit in Empowering Prayer",
+          "actualDuration": 269.986,
+          "startTime": 602.1101659999999,
+          "endTime": 872.0961659999999
+        },
+        {
+          "path": "Audio/output/3164/chapter_04.wav",
+          "duration": 280.566458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Persistent, Faith-Filled Prayer and Spiritual Warfare",
+          "actualDuration": 280.566458,
+          "startTime": 873.5961659999999,
+          "endTime": 1154.162624
+        },
+        {
+          "path": "Audio/output/3164/chapter_05.wav",
+          "duration": 258.607083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Obedience, Intimacy, and the Heart of Effective Prayer",
+          "actualDuration": 258.607083,
+          "startTime": 1155.662624,
+          "endTime": 1414.269707
+        },
+        {
+          "path": "Audio/output/3164/chapter_06.wav",
+          "duration": 214.766,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practical Strategies for Intercessory Prayer",
+          "actualDuration": 214.766,
+          "startTime": 1415.769707,
+          "endTime": 1630.535707
+        },
+        {
+          "path": "Audio/output/3164/chapter_07.wav",
+          "duration": 214.803083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Barriers to Effective Prayer",
+          "actualDuration": 214.803083,
+          "startTime": 1632.035707,
+          "endTime": 1846.83879
+        },
+        {
+          "path": "Audio/output/3164/chapter_08.wav",
+          "duration": 189.320083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Transformative Impact of Prayer on the Individual",
+          "actualDuration": 189.320083,
+          "startTime": 1848.33879,
+          "endTime": 2037.658873
+        },
+        {
+          "path": "Audio/output/3164/chapter_09.wav",
+          "duration": 192.183833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Prayer’s Influence on Community and Culture",
+          "actualDuration": 192.183833,
+          "startTime": 2039.158873,
+          "endTime": 2231.342706
+        },
+        {
+          "path": "Audio/output/3164/chapter_10.wav",
+          "duration": 179.843667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining a Lifelong, Spirit-Led Prayer Journey",
+          "actualDuration": 179.843667,
+          "startTime": 2232.842706,
+          "endTime": 2412.686373
+        },
+        {
+          "path": "Audio/output/3164/conclusion.wav",
+          "duration": 139.021917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.021917,
+          "startTime": 2414.186373,
+          "endTime": 2553.20829
+        }
+      ],
+      "totalDuration": 2553.20829,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.64,
+          "actualStart": 0,
+          "actualEnd": 107.638958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Spiritual Authority and the Foundation of Prayer",
+          "expectedStart": 107.64,
+          "expectedEnd": 340.11,
+          "actualStart": 109.138958,
+          "actualEnd": 341.611041,
+          "timeDifference": 1.4989580000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Purpose of Prayer in the Believer’s Life",
+          "expectedStart": 340.11,
+          "expectedEnd": 597.61,
+          "actualStart": 343.111041,
+          "actualEnd": 600.6101659999999,
+          "timeDifference": 3.0010409999999865
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of the Holy Spirit in Empowering Prayer",
+          "expectedStart": 597.61,
+          "expectedEnd": 867.6,
+          "actualStart": 602.1101659999999,
+          "actualEnd": 872.0961659999999,
+          "timeDifference": 4.500165999999922
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Persistent, Faith-Filled Prayer and Spiritual Warfare",
+          "expectedStart": 867.6,
+          "expectedEnd": 1148.17,
+          "actualStart": 873.5961659999999,
+          "actualEnd": 1154.162624,
+          "timeDifference": 5.996165999999903
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Obedience, Intimacy, and the Heart of Effective Prayer",
+          "expectedStart": 1148.17,
+          "expectedEnd": 1406.78,
+          "actualStart": 1155.662624,
+          "actualEnd": 1414.269707,
+          "timeDifference": 7.492623999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practical Strategies for Intercessory Prayer",
+          "expectedStart": 1406.78,
+          "expectedEnd": 1621.55,
+          "actualStart": 1415.769707,
+          "actualEnd": 1630.535707,
+          "timeDifference": 8.989706999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Barriers to Effective Prayer",
+          "expectedStart": 1621.55,
+          "expectedEnd": 1836.35,
+          "actualStart": 1632.035707,
+          "actualEnd": 1846.83879,
+          "timeDifference": 10.485707000000048
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Transformative Impact of Prayer on the Individual",
+          "expectedStart": 1836.35,
+          "expectedEnd": 2025.67,
+          "actualStart": 1848.33879,
+          "actualEnd": 2037.658873,
+          "timeDifference": 11.988790000000108
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Prayer’s Influence on Community and Culture",
+          "expectedStart": 2025.67,
+          "expectedEnd": 2217.85,
+          "actualStart": 2039.158873,
+          "actualEnd": 2231.342706,
+          "timeDifference": 13.488873000000012
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining a Lifelong, Spirit-Led Prayer Journey",
+          "expectedStart": 2217.85,
+          "expectedEnd": 2397.69,
+          "actualStart": 2232.842706,
+          "actualEnd": 2412.686373,
+          "timeDifference": 14.992705999999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2397.69,
+          "expectedEnd": 2536.71,
+          "actualStart": 2414.186373,
+          "actualEnd": 2553.20829,
+          "timeDifference": 16.49637299999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.638958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Spiritual Authority and the Foundation of Prayer"
+        },
+        {
+          "startTime": 341.611041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Spiritual Authority and the Foundation of Prayer and Chapter 2 The Power and Purpose of Prayer in the Believer’s Life"
+        },
+        {
+          "startTime": 600.6101659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Purpose of Prayer in the Believer’s Life and Chapter 3 The Role of the Holy Spirit in Empowering Prayer"
+        },
+        {
+          "startTime": 872.0961659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of the Holy Spirit in Empowering Prayer and Chapter 4 Persistent, Faith-Filled Prayer and Spiritual Warfare"
+        },
+        {
+          "startTime": 1154.162624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Persistent, Faith-Filled Prayer and Spiritual Warfare and Chapter 5 Obedience, Intimacy, and the Heart of Effective Prayer"
+        },
+        {
+          "startTime": 1414.269707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Obedience, Intimacy, and the Heart of Effective Prayer and Chapter 6 Practical Strategies for Intercessory Prayer"
+        },
+        {
+          "startTime": 1630.535707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practical Strategies for Intercessory Prayer and Chapter 7 Overcoming Barriers to Effective Prayer"
+        },
+        {
+          "startTime": 1846.83879,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Barriers to Effective Prayer and Chapter 8 The Transformative Impact of Prayer on the Individual"
+        },
+        {
+          "startTime": 2037.658873,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Transformative Impact of Prayer on the Individual and Chapter 9 The Ripple Effect—Prayer’s Influence on Community and Culture"
+        },
+        {
+          "startTime": 2231.342706,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Prayer’s Influence on Community and Culture and Chapter 10 Sustaining a Lifelong, Spirit-Led Prayer Journey"
+        },
+        {
+          "startTime": 2412.686373,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining a Lifelong, Spirit-Led Prayer Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3164",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:22:45.975Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2952",
+  "timestamp": "2025-07-14T06:49:24.588Z",
+  "success": false,
+  "processingTime": -1752475416870,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3865,
+    "totalAudioFiles": 12,
+    "totalDuration": 1830.702502
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1830.702502
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2952/optimized_text/2952.md",
+    "fileSize": 684,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2952.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2952/metadata/2952_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1830.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2952/metadata/2952_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2952/metadata/2952_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 74,
+    "reasoning": "Hybrid: Genre match: storytelling, self-help, personal-development (+24) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2952/2952_complete.wav",
+    "duration": 1830.7025,
+    "fileSize": 87873798,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2952/introduction.wav",
+          "duration": 85.092875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.092875,
+          "startTime": 0,
+          "endTime": 85.092875
+        },
+        {
+          "path": "Audio/output/2952/chapter_01.wav",
+          "duration": 195.202667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Happiness Beyond Familiar Borders",
+          "actualDuration": 195.202667,
+          "startTime": 86.592875,
+          "endTime": 281.795542
+        },
+        {
+          "path": "Audio/output/2952/chapter_02.wav",
+          "duration": 173.169167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science and Myths of Well-Being",
+          "actualDuration": 173.169167,
+          "startTime": 283.295542,
+          "endTime": 456.46470899999997
+        },
+        {
+          "path": "Audio/output/2952/chapter_03.wav",
+          "duration": 201.077917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Switzerland’s Pursuit of Order and Contentment",
+          "actualDuration": 201.077917,
+          "startTime": 457.96470899999997,
+          "endTime": 659.0426259999999
+        },
+        {
+          "path": "Audio/output/2952/chapter_04.wav",
+          "duration": 187.541458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Bhutan’s Embrace of Gross National Happiness",
+          "actualDuration": 187.541458,
+          "startTime": 660.5426259999999,
+          "endTime": 848.084084
+        },
+        {
+          "path": "Audio/output/2952/chapter_05.wav",
+          "duration": 175.338958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Contrasts and Contradictions of Happiness in Qatar",
+          "actualDuration": 175.338958,
+          "startTime": 849.584084,
+          "endTime": 1024.923042
+        },
+        {
+          "path": "Audio/output/2952/chapter_06.wav",
+          "duration": 156.687292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Iceland’s Resilience and the Power of Community",
+          "actualDuration": 156.687292,
+          "startTime": 1026.423042,
+          "endTime": 1183.110334
+        },
+        {
+          "path": "Audio/output/2952/chapter_07.wav",
+          "duration": 133.939917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Moldova’s Struggle and the Search for Meaning",
+          "actualDuration": 133.939917,
+          "startTime": 1184.610334,
+          "endTime": 1318.550251
+        },
+        {
+          "path": "Audio/output/2952/chapter_08.wav",
+          "duration": 116.244917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Thailand’s Culture of Sanuk and Letting Go",
+          "actualDuration": 116.244917,
+          "startTime": 1320.050251,
+          "endTime": 1436.2951679999999
+        },
+        {
+          "path": "Audio/output/2952/chapter_09.wav",
+          "duration": 137.773417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Great Britain’s Stoicism and the Pursuit of Contentment",
+          "actualDuration": 137.773417,
+          "startTime": 1437.7951679999999,
+          "endTime": 1575.568585
+        },
+        {
+          "path": "Audio/output/2952/chapter_10.wav",
+          "duration": 161.750042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 America’s Restless Pursuit and the Paradox of Choice",
+          "actualDuration": 161.750042,
+          "startTime": 1577.068585,
+          "endTime": 1738.818627
+        },
+        {
+          "path": "Audio/output/2952/conclusion.wav",
+          "duration": 106.883875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.883875,
+          "startTime": 1740.318627,
+          "endTime": 1847.202502
+        }
+      ],
+      "totalDuration": 1847.202502,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.09,
+          "actualStart": 0,
+          "actualEnd": 85.092875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Happiness Beyond Familiar Borders",
+          "expectedStart": 85.09,
+          "expectedEnd": 280.29,
+          "actualStart": 86.592875,
+          "actualEnd": 281.795542,
+          "timeDifference": 1.502875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science and Myths of Well-Being",
+          "expectedStart": 280.29,
+          "expectedEnd": 453.46,
+          "actualStart": 283.295542,
+          "actualEnd": 456.46470899999997,
+          "timeDifference": 3.0055419999999913
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Switzerland’s Pursuit of Order and Contentment",
+          "expectedStart": 453.46,
+          "expectedEnd": 654.54,
+          "actualStart": 457.96470899999997,
+          "actualEnd": 659.0426259999999,
+          "timeDifference": 4.504708999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Bhutan’s Embrace of Gross National Happiness",
+          "expectedStart": 654.54,
+          "expectedEnd": 842.08,
+          "actualStart": 660.5426259999999,
+          "actualEnd": 848.084084,
+          "timeDifference": 6.002625999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Contrasts and Contradictions of Happiness in Qatar",
+          "expectedStart": 842.08,
+          "expectedEnd": 1017.42,
+          "actualStart": 849.584084,
+          "actualEnd": 1024.923042,
+          "timeDifference": 7.504083999999921
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Iceland’s Resilience and the Power of Community",
+          "expectedStart": 1017.42,
+          "expectedEnd": 1174.11,
+          "actualStart": 1026.423042,
+          "actualEnd": 1183.110334,
+          "timeDifference": 9.003041999999937
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Moldova’s Struggle and the Search for Meaning",
+          "expectedStart": 1174.11,
+          "expectedEnd": 1308.05,
+          "actualStart": 1184.610334,
+          "actualEnd": 1318.550251,
+          "timeDifference": 10.500334000000066
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Thailand’s Culture of Sanuk and Letting Go",
+          "expectedStart": 1308.05,
+          "expectedEnd": 1424.29,
+          "actualStart": 1320.050251,
+          "actualEnd": 1436.2951679999999,
+          "timeDifference": 12.000250999999935
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Great Britain’s Stoicism and the Pursuit of Contentment",
+          "expectedStart": 1424.29,
+          "expectedEnd": 1562.06,
+          "actualStart": 1437.7951679999999,
+          "actualEnd": 1575.568585,
+          "timeDifference": 13.505167999999912
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 America’s Restless Pursuit and the Paradox of Choice",
+          "expectedStart": 1562.06,
+          "expectedEnd": 1723.81,
+          "actualStart": 1577.068585,
+          "actualEnd": 1738.818627,
+          "timeDifference": 15.00858500000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1723.81,
+          "expectedEnd": 1830.69,
+          "actualStart": 1740.318627,
+          "actualEnd": 1847.202502,
+          "timeDifference": 16.50862700000016
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.092875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Happiness Beyond Familiar Borders"
+        },
+        {
+          "startTime": 281.795542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Happiness Beyond Familiar Borders and Chapter 2 The Science and Myths of Well-Being"
+        },
+        {
+          "startTime": 456.46470899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science and Myths of Well-Being and Chapter 3 Switzerland’s Pursuit of Order and Contentment"
+        },
+        {
+          "startTime": 659.0426259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Switzerland’s Pursuit of Order and Contentment and Chapter 4 Bhutan’s Embrace of Gross National Happiness"
+        },
+        {
+          "startTime": 848.084084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Bhutan’s Embrace of Gross National Happiness and Chapter 5 The Contrasts and Contradictions of Happiness in Qatar"
+        },
+        {
+          "startTime": 1024.923042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Contrasts and Contradictions of Happiness in Qatar and Chapter 6 Iceland’s Resilience and the Power of Community"
+        },
+        {
+          "startTime": 1183.110334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Iceland’s Resilience and the Power of Community and Chapter 7 Moldova’s Struggle and the Search for Meaning"
+        },
+        {
+          "startTime": 1318.550251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Moldova’s Struggle and the Search for Meaning and Chapter 8 Thailand’s Culture of Sanuk and Letting Go"
+        },
+        {
+          "startTime": 1436.2951679999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Thailand’s Culture of Sanuk and Letting Go and Chapter 9 Great Britain’s Stoicism and the Pursuit of Contentment"
+        },
+        {
+          "startTime": 1575.568585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Great Britain’s Stoicism and the Pursuit of Contentment and Chapter 10 America’s Restless Pursuit and the Paradox of Choice"
+        },
+        {
+          "startTime": 1738.818627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 America’s Restless Pursuit and the Paradox of Choice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2952",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 74,
+      "reasoning": "Hybrid: Genre match: storytelling, self-help, personal-development (+24) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:43:38.049Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

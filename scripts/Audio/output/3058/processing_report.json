@@ -1,0 +1,456 @@
+{
+  "bookId": "3058",
+  "timestamp": "2025-07-14T15:21:48.926Z",
+  "success": false,
+  "processingTime": -1752506186083,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4953,
+    "totalAudioFiles": 12,
+    "totalDuration": 2207.458208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2207.458208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3058/optimized_text/3058.md",
+    "fileSize": 658,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "3058.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3058/metadata/3058_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2207.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3058/metadata/3058_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3058/metadata/3058_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3058/3058_complete.wav",
+    "duration": 2207.458208,
+    "fileSize": 105958072,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3058/introduction.wav",
+          "duration": 104.7635,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.7635,
+          "startTime": 0,
+          "endTime": 104.7635
+        },
+        {
+          "path": "Audio/output/3058/chapter_01.wav",
+          "duration": 214.458917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Family Fractures: The Seeds of Disappearance",
+          "actualDuration": 214.458917,
+          "startTime": 106.2635,
+          "endTime": 320.722417
+        },
+        {
+          "path": "Audio/output/3058/chapter_02.wav",
+          "duration": 203.5485,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Day Everything Changed: When the Girls Vanished",
+          "actualDuration": 203.5485,
+          "startTime": 322.222417,
+          "endTime": 525.770917
+        },
+        {
+          "path": "Audio/output/3058/chapter_03.wav",
+          "duration": 228.922,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Web of Deceit: Adults Who Chose Sides",
+          "actualDuration": 228.922,
+          "startTime": 527.270917,
+          "endTime": 756.1929170000001
+        },
+        {
+          "path": "Audio/output/3058/chapter_04.wav",
+          "duration": 223.466125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Legal Maze: How the System Failed to Protect",
+          "actualDuration": 223.466125,
+          "startTime": 757.6929170000001,
+          "endTime": 981.1590420000001
+        },
+        {
+          "path": "Audio/output/3058/chapter_05.wav",
+          "duration": 188.403958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Persistence: A Parent’s Relentless Search",
+          "actualDuration": 188.403958,
+          "startTime": 982.6590420000001,
+          "endTime": 1171.063
+        },
+        {
+          "path": "Audio/output/3058/chapter_06.wav",
+          "duration": 209.128875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Unraveling the Mystery: The Investigation Deepens",
+          "actualDuration": 209.128875,
+          "startTime": 1172.563,
+          "endTime": 1381.691875
+        },
+        {
+          "path": "Audio/output/3058/chapter_07.wav",
+          "duration": 207.330417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Turning Point: Cracks in the Wall",
+          "actualDuration": 207.330417,
+          "startTime": 1383.191875,
+          "endTime": 1590.522292
+        },
+        {
+          "path": "Audio/output/3058/chapter_08.wav",
+          "duration": 174.999208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reunion and Reckoning: The Aftermath of Discovery",
+          "actualDuration": 174.999208,
+          "startTime": 1592.022292,
+          "endTime": 1767.0215
+        },
+        {
+          "path": "Audio/output/3058/chapter_09.wav",
+          "duration": 186.262833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons Learned: The Cost of Conflict",
+          "actualDuration": 186.262833,
+          "startTime": 1768.5215,
+          "endTime": 1954.784333
+        },
+        {
+          "path": "Audio/output/3058/chapter_10.wav",
+          "duration": 153.846125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Hope, Healing, and Change",
+          "actualDuration": 153.846125,
+          "startTime": 1956.284333,
+          "endTime": 2110.130458
+        },
+        {
+          "path": "Audio/output/3058/conclusion.wav",
+          "duration": 112.32775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.32775,
+          "startTime": 2111.630458,
+          "endTime": 2223.958208
+        }
+      ],
+      "totalDuration": 2223.958208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.76,
+          "actualStart": 0,
+          "actualEnd": 104.7635,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Family Fractures: The Seeds of Disappearance",
+          "expectedStart": 104.76,
+          "expectedEnd": 319.22,
+          "actualStart": 106.2635,
+          "actualEnd": 320.722417,
+          "timeDifference": 1.5034999999999883
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Day Everything Changed: When the Girls Vanished",
+          "expectedStart": 319.22,
+          "expectedEnd": 522.77,
+          "actualStart": 322.222417,
+          "actualEnd": 525.770917,
+          "timeDifference": 3.00241699999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Web of Deceit: Adults Who Chose Sides",
+          "expectedStart": 522.77,
+          "expectedEnd": 751.69,
+          "actualStart": 527.270917,
+          "actualEnd": 756.1929170000001,
+          "timeDifference": 4.500917000000072
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Legal Maze: How the System Failed to Protect",
+          "expectedStart": 751.69,
+          "expectedEnd": 975.16,
+          "actualStart": 757.6929170000001,
+          "actualEnd": 981.1590420000001,
+          "timeDifference": 6.002917000000025
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Persistence: A Parent’s Relentless Search",
+          "expectedStart": 975.16,
+          "expectedEnd": 1163.56,
+          "actualStart": 982.6590420000001,
+          "actualEnd": 1171.063,
+          "timeDifference": 7.499042000000145
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Unraveling the Mystery: The Investigation Deepens",
+          "expectedStart": 1163.56,
+          "expectedEnd": 1372.69,
+          "actualStart": 1172.563,
+          "actualEnd": 1381.691875,
+          "timeDifference": 9.003000000000156
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Turning Point: Cracks in the Wall",
+          "expectedStart": 1372.69,
+          "expectedEnd": 1580.02,
+          "actualStart": 1383.191875,
+          "actualEnd": 1590.522292,
+          "timeDifference": 10.501874999999927
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reunion and Reckoning: The Aftermath of Discovery",
+          "expectedStart": 1580.02,
+          "expectedEnd": 1755.02,
+          "actualStart": 1592.022292,
+          "actualEnd": 1767.0215,
+          "timeDifference": 12.002292000000125
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons Learned: The Cost of Conflict",
+          "expectedStart": 1755.02,
+          "expectedEnd": 1941.28,
+          "actualStart": 1768.5215,
+          "actualEnd": 1954.784333,
+          "timeDifference": 13.501500000000078
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Hope, Healing, and Change",
+          "expectedStart": 1941.28,
+          "expectedEnd": 2095.13,
+          "actualStart": 1956.284333,
+          "actualEnd": 2110.130458,
+          "timeDifference": 15.004333000000088
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2095.13,
+          "expectedEnd": 2207.46,
+          "actualStart": 2111.630458,
+          "actualEnd": 2223.958208,
+          "timeDifference": 16.50045799999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.7635,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Family Fractures: The Seeds of Disappearance"
+        },
+        {
+          "startTime": 320.722417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Family Fractures: The Seeds of Disappearance and Chapter 2 The Day Everything Changed: When the Girls Vanished"
+        },
+        {
+          "startTime": 525.770917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Day Everything Changed: When the Girls Vanished and Chapter 3 The Web of Deceit: Adults Who Chose Sides"
+        },
+        {
+          "startTime": 756.1929170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Web of Deceit: Adults Who Chose Sides and Chapter 4 The Legal Maze: How the System Failed to Protect"
+        },
+        {
+          "startTime": 981.1590420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Legal Maze: How the System Failed to Protect and Chapter 5 The Power of Persistence: A Parent’s Relentless Search"
+        },
+        {
+          "startTime": 1171.063,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Persistence: A Parent’s Relentless Search and Chapter 6 Unraveling the Mystery: The Investigation Deepens"
+        },
+        {
+          "startTime": 1381.691875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Unraveling the Mystery: The Investigation Deepens and Chapter 7 The Turning Point: Cracks in the Wall"
+        },
+        {
+          "startTime": 1590.522292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Turning Point: Cracks in the Wall and Chapter 8 Reunion and Reckoning: The Aftermath of Discovery"
+        },
+        {
+          "startTime": 1767.0215,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reunion and Reckoning: The Aftermath of Discovery and Chapter 9 Lessons Learned: The Cost of Conflict"
+        },
+        {
+          "startTime": 1954.784333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons Learned: The Cost of Conflict and Chapter 10 Moving Forward: Hope, Healing, and Change"
+        },
+        {
+          "startTime": 2110.130458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Hope, Healing, and Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3058",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:16:27.406Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

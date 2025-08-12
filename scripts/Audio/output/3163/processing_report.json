@@ -1,0 +1,455 @@
+{
+  "bookId": "3163",
+  "timestamp": "2025-07-14T23:22:44.437Z",
+  "success": false,
+  "processingTime": -1752535071106,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5629,
+    "totalAudioFiles": 12,
+    "totalDuration": 2306.047041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2306.047041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3163/optimized_text/3163.md",
+    "fileSize": 569,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "3163.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3163/metadata/3163_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2306.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3163/metadata/3163_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3163/metadata/3163_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3163/3163_complete.wav",
+    "duration": 2306.047042,
+    "fileSize": 110690336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3163/introduction.wav",
+          "duration": 87.565875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.565875,
+          "startTime": 0,
+          "endTime": 87.565875
+        },
+        {
+          "path": "Audio/output/3163/chapter_01.wav",
+          "duration": 248.615917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life Shaped by Rape Culture",
+          "actualDuration": 248.615917,
+          "startTime": 89.065875,
+          "endTime": 337.681792
+        },
+        {
+          "path": "Audio/output/3163/chapter_02.wav",
+          "duration": 217.174833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Comparison and Minimization",
+          "actualDuration": 217.174833,
+          "startTime": 339.181792,
+          "endTime": 556.356625
+        },
+        {
+          "path": "Audio/output/3163/chapter_03.wav",
+          "duration": 240.149875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Many Faces of Sexual Violence",
+          "actualDuration": 240.149875,
+          "startTime": 557.856625,
+          "endTime": 798.0065
+        },
+        {
+          "path": "Audio/output/3163/chapter_04.wav",
+          "duration": 246.24525,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Complexities of Consent and Outrage",
+          "actualDuration": 246.24525,
+          "startTime": 799.5065,
+          "endTime": 1045.75175
+        },
+        {
+          "path": "Audio/output/3163/chapter_05.wav",
+          "duration": 215.964583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power and Politics of Survivor Narratives",
+          "actualDuration": 215.964583,
+          "startTime": 1047.25175,
+          "endTime": 1263.2163329999998
+        },
+        {
+          "path": "Audio/output/3163/chapter_06.wav",
+          "duration": 202.240125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Winding Road to Healing",
+          "actualDuration": 202.240125,
+          "startTime": 1264.7163329999998,
+          "endTime": 1466.9564579999999
+        },
+        {
+          "path": "Audio/output/3163/chapter_07.wav",
+          "duration": 214.069667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Accountability, Justice, and the Limits of the System",
+          "actualDuration": 214.069667,
+          "startTime": 1468.4564579999999,
+          "endTime": 1682.5261249999999
+        },
+        {
+          "path": "Audio/output/3163/chapter_08.wav",
+          "duration": 165.715375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Bystanders and Allies",
+          "actualDuration": 165.715375,
+          "startTime": 1684.0261249999999,
+          "endTime": 1849.7414999999999
+        },
+        {
+          "path": "Audio/output/3163/chapter_09.wav",
+          "duration": 178.564208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reimagining Masculinity and Power",
+          "actualDuration": 178.564208,
+          "startTime": 1851.2414999999999,
+          "endTime": 2029.8057079999999
+        },
+        {
+          "path": "Audio/output/3163/chapter_10.wav",
+          "duration": 167.136208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Work of Change",
+          "actualDuration": 167.136208,
+          "startTime": 2031.3057079999999,
+          "endTime": 2198.4419159999998
+        },
+        {
+          "path": "Audio/output/3163/conclusion.wav",
+          "duration": 122.605125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.605125,
+          "startTime": 2199.9419159999998,
+          "endTime": 2322.547041
+        }
+      ],
+      "totalDuration": 2322.547041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.57,
+          "actualStart": 0,
+          "actualEnd": 87.565875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life Shaped by Rape Culture",
+          "expectedStart": 87.57,
+          "expectedEnd": 336.19,
+          "actualStart": 89.065875,
+          "actualEnd": 337.681792,
+          "timeDifference": 1.4958750000000123
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Comparison and Minimization",
+          "expectedStart": 336.19,
+          "expectedEnd": 553.36,
+          "actualStart": 339.181792,
+          "actualEnd": 556.356625,
+          "timeDifference": 2.9917919999999754
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Many Faces of Sexual Violence",
+          "expectedStart": 553.36,
+          "expectedEnd": 793.51,
+          "actualStart": 557.856625,
+          "actualEnd": 798.0065,
+          "timeDifference": 4.4966249999999945
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Complexities of Consent and Outrage",
+          "expectedStart": 793.51,
+          "expectedEnd": 1039.76,
+          "actualStart": 799.5065,
+          "actualEnd": 1045.75175,
+          "timeDifference": 5.996499999999969
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power and Politics of Survivor Narratives",
+          "expectedStart": 1039.76,
+          "expectedEnd": 1255.72,
+          "actualStart": 1047.25175,
+          "actualEnd": 1263.2163329999998,
+          "timeDifference": 7.491749999999911
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Winding Road to Healing",
+          "expectedStart": 1255.72,
+          "expectedEnd": 1457.96,
+          "actualStart": 1264.7163329999998,
+          "actualEnd": 1466.9564579999999,
+          "timeDifference": 8.996332999999822
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Accountability, Justice, and the Limits of the System",
+          "expectedStart": 1457.96,
+          "expectedEnd": 1672.03,
+          "actualStart": 1468.4564579999999,
+          "actualEnd": 1682.5261249999999,
+          "timeDifference": 10.496457999999848
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Bystanders and Allies",
+          "expectedStart": 1672.03,
+          "expectedEnd": 1837.75,
+          "actualStart": 1684.0261249999999,
+          "actualEnd": 1849.7414999999999,
+          "timeDifference": 11.996124999999893
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reimagining Masculinity and Power",
+          "expectedStart": 1837.75,
+          "expectedEnd": 2016.31,
+          "actualStart": 1851.2414999999999,
+          "actualEnd": 2029.8057079999999,
+          "timeDifference": 13.49149999999986
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Work of Change",
+          "expectedStart": 2016.31,
+          "expectedEnd": 2183.45,
+          "actualStart": 2031.3057079999999,
+          "actualEnd": 2198.4419159999998,
+          "timeDifference": 14.995707999999922
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2183.45,
+          "expectedEnd": 2306.06,
+          "actualStart": 2199.9419159999998,
+          "actualEnd": 2322.547041,
+          "timeDifference": 16.491915999999947
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.565875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life Shaped by Rape Culture"
+        },
+        {
+          "startTime": 337.681792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life Shaped by Rape Culture and Chapter 2 The Weight of Comparison and Minimization"
+        },
+        {
+          "startTime": 556.356625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Comparison and Minimization and Chapter 3 The Many Faces of Sexual Violence"
+        },
+        {
+          "startTime": 798.0065,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Many Faces of Sexual Violence and Chapter 4 The Complexities of Consent and Outrage"
+        },
+        {
+          "startTime": 1045.75175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Complexities of Consent and Outrage and Chapter 5 The Power and Politics of Survivor Narratives"
+        },
+        {
+          "startTime": 1263.2163329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power and Politics of Survivor Narratives and Chapter 6 The Winding Road to Healing"
+        },
+        {
+          "startTime": 1466.9564579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Winding Road to Healing and Chapter 7 Accountability, Justice, and the Limits of the System"
+        },
+        {
+          "startTime": 1682.5261249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Accountability, Justice, and the Limits of the System and Chapter 8 The Role of Bystanders and Allies"
+        },
+        {
+          "startTime": 1849.7414999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Bystanders and Allies and Chapter 9 Reimagining Masculinity and Power"
+        },
+        {
+          "startTime": 2029.8057079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reimagining Masculinity and Power and Chapter 10 The Ongoing Work of Change"
+        },
+        {
+          "startTime": 2198.4419159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Work of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3163",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:17:51.637Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

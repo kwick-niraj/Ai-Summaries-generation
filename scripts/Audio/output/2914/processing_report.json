@@ -1,0 +1,456 @@
+{
+  "bookId": "2914",
+  "timestamp": "2025-07-14T04:06:56.928Z",
+  "success": false,
+  "processingTime": -1752465680530,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5399,
+    "totalAudioFiles": 12,
+    "totalDuration": 2465.5955
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2465.5955
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2914/optimized_text/2914.md",
+    "fileSize": 673,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2914.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2914/metadata/2914_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2465.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2914/metadata/2914_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2914/metadata/2914_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2914/2914_complete.wav",
+    "duration": 2465.5955,
+    "fileSize": 118348662,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2914/introduction.wav",
+          "duration": 102.729708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.729708,
+          "startTime": 0,
+          "endTime": 102.729708
+        },
+        {
+          "path": "Audio/output/2914/chapter_01.wav",
+          "duration": 255.176083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 An Ordinary Morning Turns Unthinkable",
+          "actualDuration": 255.176083,
+          "startTime": 104.229708,
+          "endTime": 359.405791
+        },
+        {
+          "path": "Audio/output/2914/chapter_02.wav",
+          "duration": 278.553375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Decisions in the Dark: Navigating the Unknown",
+          "actualDuration": 278.553375,
+          "startTime": 360.905791,
+          "endTime": 639.4591660000001
+        },
+        {
+          "path": "Audio/output/2914/chapter_03.wav",
+          "duration": 314.547917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Limits of Preparedness: Systems Under Strain",
+          "actualDuration": 314.547917,
+          "startTime": 640.9591660000001,
+          "endTime": 955.5070830000001
+        },
+        {
+          "path": "Audio/output/2914/chapter_04.wav",
+          "duration": 253.032917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Acts of Courage and the Power of Community",
+          "actualDuration": 253.032917,
+          "startTime": 957.0070830000001,
+          "endTime": 1210.04
+        },
+        {
+          "path": "Audio/output/2914/chapter_05.wav",
+          "duration": 218.742167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Collapse: Final Moments and Lasting Impact",
+          "actualDuration": 218.742167,
+          "startTime": 1211.54,
+          "endTime": 1430.2821669999998
+        },
+        {
+          "path": "Audio/output/2914/chapter_06.wav",
+          "duration": 234.796583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Searching for Survivors, Searching for Meaning",
+          "actualDuration": 234.796583,
+          "startTime": 1431.7821669999998,
+          "endTime": 1666.57875
+        },
+        {
+          "path": "Audio/output/2914/chapter_07.wav",
+          "duration": 219.018875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons in Leadership: What Went Right, What Went Wrong",
+          "actualDuration": 219.018875,
+          "startTime": 1668.07875,
+          "endTime": 1887.0976249999999
+        },
+        {
+          "path": "Audio/output/2914/chapter_08.wav",
+          "duration": 175.547333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: Trauma, Memory, and Healing",
+          "actualDuration": 175.547333,
+          "startTime": 1888.5976249999999,
+          "endTime": 2064.144958
+        },
+        {
+          "path": "Audio/output/2914/chapter_09.wav",
+          "duration": 149.321292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Changing the World: Policy, Security, and the Human Cost",
+          "actualDuration": 149.321292,
+          "startTime": 2065.644958,
+          "endTime": 2214.96625
+        },
+        {
+          "path": "Audio/output/2914/chapter_10.wav",
+          "duration": 153.266458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Legacy: Stories That Shape Us",
+          "actualDuration": 153.266458,
+          "startTime": 2216.46625,
+          "endTime": 2369.732708
+        },
+        {
+          "path": "Audio/output/2914/conclusion.wav",
+          "duration": 110.862792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.862792,
+          "startTime": 2371.232708,
+          "endTime": 2482.0955
+        }
+      ],
+      "totalDuration": 2482.0955,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.73,
+          "actualStart": 0,
+          "actualEnd": 102.729708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 An Ordinary Morning Turns Unthinkable",
+          "expectedStart": 102.73,
+          "expectedEnd": 357.91,
+          "actualStart": 104.229708,
+          "actualEnd": 359.405791,
+          "timeDifference": 1.4997079999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Decisions in the Dark: Navigating the Unknown",
+          "expectedStart": 357.91,
+          "expectedEnd": 636.46,
+          "actualStart": 360.905791,
+          "actualEnd": 639.4591660000001,
+          "timeDifference": 2.995790999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Limits of Preparedness: Systems Under Strain",
+          "expectedStart": 636.46,
+          "expectedEnd": 951.01,
+          "actualStart": 640.9591660000001,
+          "actualEnd": 955.5070830000001,
+          "timeDifference": 4.499166000000059
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Acts of Courage and the Power of Community",
+          "expectedStart": 951.01,
+          "expectedEnd": 1204.04,
+          "actualStart": 957.0070830000001,
+          "actualEnd": 1210.04,
+          "timeDifference": 5.997083000000089
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Collapse: Final Moments and Lasting Impact",
+          "expectedStart": 1204.04,
+          "expectedEnd": 1422.78,
+          "actualStart": 1211.54,
+          "actualEnd": 1430.2821669999998,
+          "timeDifference": 7.5
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Searching for Survivors, Searching for Meaning",
+          "expectedStart": 1422.78,
+          "expectedEnd": 1657.58,
+          "actualStart": 1431.7821669999998,
+          "actualEnd": 1666.57875,
+          "timeDifference": 9.002166999999872
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons in Leadership: What Went Right, What Went Wrong",
+          "expectedStart": 1657.58,
+          "expectedEnd": 1876.6,
+          "actualStart": 1668.07875,
+          "actualEnd": 1887.0976249999999,
+          "timeDifference": 10.498749999999973
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: Trauma, Memory, and Healing",
+          "expectedStart": 1876.6,
+          "expectedEnd": 2052.15,
+          "actualStart": 1888.5976249999999,
+          "actualEnd": 2064.144958,
+          "timeDifference": 11.997624999999971
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Changing the World: Policy, Security, and the Human Cost",
+          "expectedStart": 2052.15,
+          "expectedEnd": 2201.47,
+          "actualStart": 2065.644958,
+          "actualEnd": 2214.96625,
+          "timeDifference": 13.49495799999977
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Legacy: Stories That Shape Us",
+          "expectedStart": 2201.47,
+          "expectedEnd": 2354.74,
+          "actualStart": 2216.46625,
+          "actualEnd": 2369.732708,
+          "timeDifference": 14.996250000000146
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2354.74,
+          "expectedEnd": 2465.6,
+          "actualStart": 2371.232708,
+          "actualEnd": 2482.0955,
+          "timeDifference": 16.49270800000022
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.729708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 An Ordinary Morning Turns Unthinkable"
+        },
+        {
+          "startTime": 359.405791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 An Ordinary Morning Turns Unthinkable and Chapter 2 Decisions in the Dark: Navigating the Unknown"
+        },
+        {
+          "startTime": 639.4591660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Decisions in the Dark: Navigating the Unknown and Chapter 3 The Limits of Preparedness: Systems Under Strain"
+        },
+        {
+          "startTime": 955.5070830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Limits of Preparedness: Systems Under Strain and Chapter 4 Acts of Courage and the Power of Community"
+        },
+        {
+          "startTime": 1210.04,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Acts of Courage and the Power of Community and Chapter 5 The Collapse: Final Moments and Lasting Impact"
+        },
+        {
+          "startTime": 1430.2821669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Collapse: Final Moments and Lasting Impact and Chapter 6 Aftermath: Searching for Survivors, Searching for Meaning"
+        },
+        {
+          "startTime": 1666.57875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Searching for Survivors, Searching for Meaning and Chapter 7 Lessons in Leadership: What Went Right, What Went Wrong"
+        },
+        {
+          "startTime": 1887.0976249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons in Leadership: What Went Right, What Went Wrong and Chapter 8 The Ripple Effect: Trauma, Memory, and Healing"
+        },
+        {
+          "startTime": 2064.144958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: Trauma, Memory, and Healing and Chapter 9 Changing the World: Policy, Security, and the Human Cost"
+        },
+        {
+          "startTime": 2214.96625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Changing the World: Policy, Security, and the Human Cost and Chapter 10 Enduring Legacy: Stories That Shape Us"
+        },
+        {
+          "startTime": 2369.732708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Legacy: Stories That Shape Us and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2914",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:01:21.825Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

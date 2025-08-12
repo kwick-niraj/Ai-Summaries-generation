@@ -1,0 +1,456 @@
+{
+  "bookId": "3118",
+  "timestamp": "2025-07-14T19:49:42.722Z",
+  "success": false,
+  "processingTime": -1752522114484,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5156,
+    "totalAudioFiles": 12,
+    "totalDuration": 2119.9574169999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2119.9574169999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3118/optimized_text/3118.md",
+    "fileSize": 725,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "3118.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3118/metadata/3118_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2119.97,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3118/metadata/3118_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3118/metadata/3118_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3118/3118_complete.wav",
+    "duration": 2119.957417,
+    "fileSize": 101758034,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3118/introduction.wav",
+          "duration": 85.157833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.157833,
+          "startTime": 0,
+          "endTime": 85.157833
+        },
+        {
+          "path": "Audio/output/3118/chapter_01.wav",
+          "duration": 220.527583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a Changing Yemen: Innocence and Everyday Struggles",
+          "actualDuration": 220.527583,
+          "startTime": 86.657833,
+          "endTime": 307.185416
+        },
+        {
+          "path": "Audio/output/3118/chapter_02.wav",
+          "duration": 206.205083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Sudden End of Childhood: Forced Marriage and Its Consequences",
+          "actualDuration": 206.205083,
+          "startTime": 308.685416,
+          "endTime": 514.890499
+        },
+        {
+          "path": "Audio/output/3118/chapter_03.wav",
+          "duration": 222.284042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Seeking Help: The Courage to Break the Silence",
+          "actualDuration": 222.284042,
+          "startTime": 516.390499,
+          "endTime": 738.674541
+        },
+        {
+          "path": "Audio/output/3118/chapter_04.wav",
+          "duration": 228.976958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Fight for Justice: Legal Battles and Public Attention",
+          "actualDuration": 228.976958,
+          "startTime": 740.174541,
+          "endTime": 969.151499
+        },
+        {
+          "path": "Audio/output/3118/chapter_05.wav",
+          "duration": 202.861792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 A New Beginning: Freedom, Advocacy, and the Power of Telling One’s Story",
+          "actualDuration": 202.861792,
+          "startTime": 970.651499,
+          "endTime": 1173.513291
+        },
+        {
+          "path": "Audio/output/3118/chapter_06.wav",
+          "duration": 166.545042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Life After Divorce: Navigating a Changed World",
+          "actualDuration": 166.545042,
+          "startTime": 1175.013291,
+          "endTime": 1341.558333
+        },
+        {
+          "path": "Audio/output/3118/chapter_07.wav",
+          "duration": 192.870792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Ripples of Change: The Story Spreads",
+          "actualDuration": 192.870792,
+          "startTime": 1343.058333,
+          "endTime": 1535.9291249999999
+        },
+        {
+          "path": "Audio/output/3118/chapter_08.wav",
+          "duration": 186.357167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cost of Courage: Backlash and Resilience",
+          "actualDuration": 186.357167,
+          "startTime": 1537.4291249999999,
+          "endTime": 1723.7862919999998
+        },
+        {
+          "path": "Audio/output/3118/chapter_09.wav",
+          "duration": 166.283333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Advocacy and the Power of Community",
+          "actualDuration": 166.283333,
+          "startTime": 1725.2862919999998,
+          "endTime": 1891.5696249999999
+        },
+        {
+          "path": "Audio/output/3118/chapter_10.wav",
+          "duration": 127.461417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Hope, Healing, and the Ongoing Struggle",
+          "actualDuration": 127.461417,
+          "startTime": 1893.0696249999999,
+          "endTime": 2020.5310419999998
+        },
+        {
+          "path": "Audio/output/3118/conclusion.wav",
+          "duration": 114.426375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.426375,
+          "startTime": 2022.0310419999998,
+          "endTime": 2136.4574169999996
+        }
+      ],
+      "totalDuration": 2136.4574169999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.16,
+          "actualStart": 0,
+          "actualEnd": 85.157833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a Changing Yemen: Innocence and Everyday Struggles",
+          "expectedStart": 85.16,
+          "expectedEnd": 305.69,
+          "actualStart": 86.657833,
+          "actualEnd": 307.185416,
+          "timeDifference": 1.497833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Sudden End of Childhood: Forced Marriage and Its Consequences",
+          "expectedStart": 305.69,
+          "expectedEnd": 511.9,
+          "actualStart": 308.685416,
+          "actualEnd": 514.890499,
+          "timeDifference": 2.9954159999999774
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Seeking Help: The Courage to Break the Silence",
+          "expectedStart": 511.9,
+          "expectedEnd": 734.18,
+          "actualStart": 516.390499,
+          "actualEnd": 738.674541,
+          "timeDifference": 4.490499
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Fight for Justice: Legal Battles and Public Attention",
+          "expectedStart": 734.18,
+          "expectedEnd": 963.16,
+          "actualStart": 740.174541,
+          "actualEnd": 969.151499,
+          "timeDifference": 5.9945410000000265
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 A New Beginning: Freedom, Advocacy, and the Power of Telling One’s Story",
+          "expectedStart": 963.16,
+          "expectedEnd": 1166.02,
+          "actualStart": 970.651499,
+          "actualEnd": 1173.513291,
+          "timeDifference": 7.491498999999976
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Life After Divorce: Navigating a Changed World",
+          "expectedStart": 1166.02,
+          "expectedEnd": 1332.57,
+          "actualStart": 1175.013291,
+          "actualEnd": 1341.558333,
+          "timeDifference": 8.993291
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Ripples of Change: The Story Spreads",
+          "expectedStart": 1332.57,
+          "expectedEnd": 1525.44,
+          "actualStart": 1343.058333,
+          "actualEnd": 1535.9291249999999,
+          "timeDifference": 10.488333000000011
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cost of Courage: Backlash and Resilience",
+          "expectedStart": 1525.44,
+          "expectedEnd": 1711.8,
+          "actualStart": 1537.4291249999999,
+          "actualEnd": 1723.7862919999998,
+          "timeDifference": 11.98912499999983
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Advocacy and the Power of Community",
+          "expectedStart": 1711.8,
+          "expectedEnd": 1878.08,
+          "actualStart": 1725.2862919999998,
+          "actualEnd": 1891.5696249999999,
+          "timeDifference": 13.486291999999821
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Hope, Healing, and the Ongoing Struggle",
+          "expectedStart": 1878.08,
+          "expectedEnd": 2005.54,
+          "actualStart": 1893.0696249999999,
+          "actualEnd": 2020.5310419999998,
+          "timeDifference": 14.989624999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2005.54,
+          "expectedEnd": 2119.97,
+          "actualStart": 2022.0310419999998,
+          "actualEnd": 2136.4574169999996,
+          "timeDifference": 16.49104199999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.157833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a Changing Yemen: Innocence and Everyday Struggles"
+        },
+        {
+          "startTime": 307.185416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a Changing Yemen: Innocence and Everyday Struggles and Chapter 2 The Sudden End of Childhood: Forced Marriage and Its Consequences"
+        },
+        {
+          "startTime": 514.890499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Sudden End of Childhood: Forced Marriage and Its Consequences and Chapter 3 Seeking Help: The Courage to Break the Silence"
+        },
+        {
+          "startTime": 738.674541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Seeking Help: The Courage to Break the Silence and Chapter 4 The Fight for Justice: Legal Battles and Public Attention"
+        },
+        {
+          "startTime": 969.151499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Fight for Justice: Legal Battles and Public Attention and Chapter 5 A New Beginning: Freedom, Advocacy, and the Power of Telling One’s Story"
+        },
+        {
+          "startTime": 1173.513291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 A New Beginning: Freedom, Advocacy, and the Power of Telling One’s Story and Chapter 6 Life After Divorce: Navigating a Changed World"
+        },
+        {
+          "startTime": 1341.558333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Life After Divorce: Navigating a Changed World and Chapter 7 Ripples of Change: The Story Spreads"
+        },
+        {
+          "startTime": 1535.9291249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Ripples of Change: The Story Spreads and Chapter 8 The Cost of Courage: Backlash and Resilience"
+        },
+        {
+          "startTime": 1723.7862919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cost of Courage: Backlash and Resilience and Chapter 9 Advocacy and the Power of Community"
+        },
+        {
+          "startTime": 1891.5696249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Advocacy and the Power of Community and Chapter 10 Looking Forward: Hope, Healing, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 2020.5310419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Hope, Healing, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3118",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T19:41:56.048Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

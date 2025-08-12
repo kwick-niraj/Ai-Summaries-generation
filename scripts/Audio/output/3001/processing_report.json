@@ -1,0 +1,456 @@
+{
+  "bookId": "3001",
+  "timestamp": "2025-07-14T10:35:37.330Z",
+  "success": false,
+  "processingTime": -1752488927779,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4800,
+    "totalAudioFiles": 12,
+    "totalDuration": 2097.523374
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2097.523374
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3001/optimized_text/3001.md",
+    "fileSize": 709,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "3001.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3001/metadata/3001_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2097.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3001/metadata/3001_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3001/metadata/3001_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3001/3001_complete.wav",
+    "duration": 2097.523375,
+    "fileSize": 100681200,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3001/introduction.wav",
+          "duration": 92.394,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.394,
+          "startTime": 0,
+          "endTime": 92.394
+        },
+        {
+          "path": "Audio/output/3001/chapter_01.wav",
+          "duration": 276.03475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The War’s End and a Nation on Edge",
+          "actualDuration": 276.03475,
+          "startTime": 93.894,
+          "endTime": 369.92875
+        },
+        {
+          "path": "Audio/output/3001/chapter_02.wav",
+          "duration": 218.29775,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The President’s Final Days and the Weight of Leadership",
+          "actualDuration": 218.29775,
+          "startTime": 371.42875,
+          "endTime": 589.7265
+        },
+        {
+          "path": "Audio/output/3001/chapter_03.wav",
+          "duration": 204.689958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mind of the Assassin and the Web of Conspiracy",
+          "actualDuration": 204.689958,
+          "startTime": 591.2265,
+          "endTime": 795.9164579999999
+        },
+        {
+          "path": "Audio/output/3001/chapter_04.wav",
+          "duration": 255.076417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Night at Ford’s Theatre and the Shattering of a Nation",
+          "actualDuration": 255.076417,
+          "startTime": 797.4164579999999,
+          "endTime": 1052.492875
+        },
+        {
+          "path": "Audio/output/3001/chapter_05.wav",
+          "duration": 200.566833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath, the Hunt, and the Struggle for Justice",
+          "actualDuration": 200.566833,
+          "startTime": 1053.992875,
+          "endTime": 1254.559708
+        },
+        {
+          "path": "Audio/output/3001/chapter_06.wav",
+          "duration": 193.795708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 A Nation in Mourning and the Long Road to Healing",
+          "actualDuration": 193.795708,
+          "startTime": 1256.059708,
+          "endTime": 1449.8554159999999
+        },
+        {
+          "path": "Audio/output/3001/chapter_07.wav",
+          "duration": 163.179833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fate of the Conspirators and the Search for Meaning",
+          "actualDuration": 163.179833,
+          "startTime": 1451.3554159999999,
+          "endTime": 1614.5352489999998
+        },
+        {
+          "path": "Audio/output/3001/chapter_08.wav",
+          "duration": 153.86125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Struggle for Reconstruction and the President’s Shadow",
+          "actualDuration": 153.86125,
+          "startTime": 1616.0352489999998,
+          "endTime": 1769.8964989999997
+        },
+        {
+          "path": "Audio/output/3001/chapter_09.wav",
+          "duration": 127.137042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Lingering Impact and the Lessons of Tragedy",
+          "actualDuration": 127.137042,
+          "startTime": 1771.3964989999997,
+          "endTime": 1898.5335409999998
+        },
+        {
+          "path": "Audio/output/3001/chapter_10.wav",
+          "duration": 100.681,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Memory, Legacy, and the Unfinished Work",
+          "actualDuration": 100.681,
+          "startTime": 1900.0335409999998,
+          "endTime": 2000.7145409999998
+        },
+        {
+          "path": "Audio/output/3001/conclusion.wav",
+          "duration": 111.808833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.808833,
+          "startTime": 2002.2145409999998,
+          "endTime": 2114.023374
+        }
+      ],
+      "totalDuration": 2114.023374,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.39,
+          "actualStart": 0,
+          "actualEnd": 92.394,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The War’s End and a Nation on Edge",
+          "expectedStart": 92.39,
+          "expectedEnd": 368.42,
+          "actualStart": 93.894,
+          "actualEnd": 369.92875,
+          "timeDifference": 1.5040000000000049
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The President’s Final Days and the Weight of Leadership",
+          "expectedStart": 368.42,
+          "expectedEnd": 586.72,
+          "actualStart": 371.42875,
+          "actualEnd": 589.7265,
+          "timeDifference": 3.0087499999999636
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mind of the Assassin and the Web of Conspiracy",
+          "expectedStart": 586.72,
+          "expectedEnd": 791.41,
+          "actualStart": 591.2265,
+          "actualEnd": 795.9164579999999,
+          "timeDifference": 4.50649999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Night at Ford’s Theatre and the Shattering of a Nation",
+          "expectedStart": 791.41,
+          "expectedEnd": 1046.49,
+          "actualStart": 797.4164579999999,
+          "actualEnd": 1052.492875,
+          "timeDifference": 6.006457999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath, the Hunt, and the Struggle for Justice",
+          "expectedStart": 1046.49,
+          "expectedEnd": 1247.06,
+          "actualStart": 1053.992875,
+          "actualEnd": 1254.559708,
+          "timeDifference": 7.502874999999904
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 A Nation in Mourning and the Long Road to Healing",
+          "expectedStart": 1247.06,
+          "expectedEnd": 1440.86,
+          "actualStart": 1256.059708,
+          "actualEnd": 1449.8554159999999,
+          "timeDifference": 8.999708000000055
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fate of the Conspirators and the Search for Meaning",
+          "expectedStart": 1440.86,
+          "expectedEnd": 1604.04,
+          "actualStart": 1451.3554159999999,
+          "actualEnd": 1614.5352489999998,
+          "timeDifference": 10.495415999999977
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Struggle for Reconstruction and the President’s Shadow",
+          "expectedStart": 1604.04,
+          "expectedEnd": 1757.9,
+          "actualStart": 1616.0352489999998,
+          "actualEnd": 1769.8964989999997,
+          "timeDifference": 11.99524899999983
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Lingering Impact and the Lessons of Tragedy",
+          "expectedStart": 1757.9,
+          "expectedEnd": 1885.04,
+          "actualStart": 1771.3964989999997,
+          "actualEnd": 1898.5335409999998,
+          "timeDifference": 13.49649899999963
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Memory, Legacy, and the Unfinished Work",
+          "expectedStart": 1885.04,
+          "expectedEnd": 1985.72,
+          "actualStart": 1900.0335409999998,
+          "actualEnd": 2000.7145409999998,
+          "timeDifference": 14.993540999999823
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1985.72,
+          "expectedEnd": 2097.53,
+          "actualStart": 2002.2145409999998,
+          "actualEnd": 2114.023374,
+          "timeDifference": 16.4945409999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.394,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The War’s End and a Nation on Edge"
+        },
+        {
+          "startTime": 369.92875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The War’s End and a Nation on Edge and Chapter 2 The President’s Final Days and the Weight of Leadership"
+        },
+        {
+          "startTime": 589.7265,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The President’s Final Days and the Weight of Leadership and Chapter 3 The Mind of the Assassin and the Web of Conspiracy"
+        },
+        {
+          "startTime": 795.9164579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mind of the Assassin and the Web of Conspiracy and Chapter 4 The Night at Ford’s Theatre and the Shattering of a Nation"
+        },
+        {
+          "startTime": 1052.492875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Night at Ford’s Theatre and the Shattering of a Nation and Chapter 5 The Aftermath, the Hunt, and the Struggle for Justice"
+        },
+        {
+          "startTime": 1254.559708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath, the Hunt, and the Struggle for Justice and Chapter 6 A Nation in Mourning and the Long Road to Healing"
+        },
+        {
+          "startTime": 1449.8554159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 A Nation in Mourning and the Long Road to Healing and Chapter 7 The Fate of the Conspirators and the Search for Meaning"
+        },
+        {
+          "startTime": 1614.5352489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fate of the Conspirators and the Search for Meaning and Chapter 8 The Struggle for Reconstruction and the President’s Shadow"
+        },
+        {
+          "startTime": 1769.8964989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Struggle for Reconstruction and the President’s Shadow and Chapter 9 The Lingering Impact and the Lessons of Tragedy"
+        },
+        {
+          "startTime": 1898.5335409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Lingering Impact and the Lessons of Tragedy and Chapter 10 Memory, Legacy, and the Unfinished Work"
+        },
+        {
+          "startTime": 2000.7145409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Memory, Legacy, and the Unfinished Work and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3001",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T10:28:49.357Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

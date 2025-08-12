@@ -1,0 +1,456 @@
+{
+  "bookId": "2871",
+  "timestamp": "2025-07-14T01:24:54.205Z",
+  "success": false,
+  "processingTime": -1752455895403,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4837,
+    "totalAudioFiles": 12,
+    "totalDuration": 2312.6010829999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2312.6010829999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2871/optimized_text/2871.md",
+    "fileSize": 729,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2871.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2871/metadata/2871_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2312.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2871/metadata/2871_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2871/metadata/2871_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2871/2871_complete.wav",
+    "duration": 2312.601083,
+    "fileSize": 111004930,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2871/introduction.wav",
+          "duration": 89.443083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.443083,
+          "startTime": 0,
+          "endTime": 89.443083
+        },
+        {
+          "path": "Audio/output/2871/chapter_01.wav",
+          "duration": 266.878583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Influences and the Seeds of a Creative Life",
+          "actualDuration": 266.878583,
+          "startTime": 90.943083,
+          "endTime": 357.821666
+        },
+        {
+          "path": "Audio/output/2871/chapter_02.wav",
+          "duration": 236.566542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Entering the World of Cinema and Facing Early Struggles",
+          "actualDuration": 236.566542,
+          "startTime": 359.321666,
+          "endTime": 595.888208
+        },
+        {
+          "path": "Audio/output/2871/chapter_03.wav",
+          "duration": 249.894708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding a Voice and Navigating Creative Integrity",
+          "actualDuration": 249.894708,
+          "startTime": 597.388208,
+          "endTime": 847.282916
+        },
+        {
+          "path": "Audio/output/2871/chapter_04.wav",
+          "duration": 200.36275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Perseverance, Adaptability, and the Cost of Dreams",
+          "actualDuration": 200.36275,
+          "startTime": 848.782916,
+          "endTime": 1049.145666
+        },
+        {
+          "path": "Audio/output/2871/chapter_05.wav",
+          "duration": 227.620375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Evolving Role of the Artist and Social Responsibility",
+          "actualDuration": 227.620375,
+          "startTime": 1050.645666,
+          "endTime": 1278.2660409999999
+        },
+        {
+          "path": "Audio/output/2871/chapter_06.wav",
+          "duration": 223.048042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mentorship, Collaboration, and the Power of Community",
+          "actualDuration": 223.048042,
+          "startTime": 1279.7660409999999,
+          "endTime": 1502.8140829999998
+        },
+        {
+          "path": "Audio/output/2871/chapter_07.wav",
+          "duration": 219.358292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Change—Technology, Culture, and the Shifting Landscape",
+          "actualDuration": 219.358292,
+          "startTime": 1504.3140829999998,
+          "endTime": 1723.6723749999996
+        },
+        {
+          "path": "Audio/output/2871/chapter_08.wav",
+          "duration": 170.744375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy, Reflection, and the Meaning of Success",
+          "actualDuration": 170.744375,
+          "startTime": 1725.1723749999996,
+          "endTime": 1895.9167499999996
+        },
+        {
+          "path": "Audio/output/2871/chapter_09.wav",
+          "duration": 147.116833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Enduring Lessons—Resilience, Humility, and the Art of Letting Go",
+          "actualDuration": 147.116833,
+          "startTime": 1897.4167499999996,
+          "endTime": 2044.5335829999997
+        },
+        {
+          "path": "Audio/output/2871/chapter_10.wav",
+          "duration": 152.107958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Storytelling",
+          "actualDuration": 152.107958,
+          "startTime": 2046.0335829999997,
+          "endTime": 2198.1415409999995
+        },
+        {
+          "path": "Audio/output/2871/conclusion.wav",
+          "duration": 129.459542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.459542,
+          "startTime": 2199.6415409999995,
+          "endTime": 2329.1010829999996
+        }
+      ],
+      "totalDuration": 2329.1010829999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.44,
+          "actualStart": 0,
+          "actualEnd": 89.443083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Influences and the Seeds of a Creative Life",
+          "expectedStart": 89.44,
+          "expectedEnd": 356.32,
+          "actualStart": 90.943083,
+          "actualEnd": 357.821666,
+          "timeDifference": 1.5030830000000037
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Entering the World of Cinema and Facing Early Struggles",
+          "expectedStart": 356.32,
+          "expectedEnd": 592.89,
+          "actualStart": 359.321666,
+          "actualEnd": 595.888208,
+          "timeDifference": 3.001666
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding a Voice and Navigating Creative Integrity",
+          "expectedStart": 592.89,
+          "expectedEnd": 842.78,
+          "actualStart": 597.388208,
+          "actualEnd": 847.282916,
+          "timeDifference": 4.498207999999977
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Perseverance, Adaptability, and the Cost of Dreams",
+          "expectedStart": 842.78,
+          "expectedEnd": 1043.14,
+          "actualStart": 848.782916,
+          "actualEnd": 1049.145666,
+          "timeDifference": 6.0029160000000275
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Evolving Role of the Artist and Social Responsibility",
+          "expectedStart": 1043.14,
+          "expectedEnd": 1270.76,
+          "actualStart": 1050.645666,
+          "actualEnd": 1278.2660409999999,
+          "timeDifference": 7.505665999999792
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mentorship, Collaboration, and the Power of Community",
+          "expectedStart": 1270.76,
+          "expectedEnd": 1493.81,
+          "actualStart": 1279.7660409999999,
+          "actualEnd": 1502.8140829999998,
+          "timeDifference": 9.006040999999868
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Change—Technology, Culture, and the Shifting Landscape",
+          "expectedStart": 1493.81,
+          "expectedEnd": 1713.17,
+          "actualStart": 1504.3140829999998,
+          "actualEnd": 1723.6723749999996,
+          "timeDifference": 10.50408299999981
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy, Reflection, and the Meaning of Success",
+          "expectedStart": 1713.17,
+          "expectedEnd": 1883.91,
+          "actualStart": 1725.1723749999996,
+          "actualEnd": 1895.9167499999996,
+          "timeDifference": 12.002374999999574
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Enduring Lessons—Resilience, Humility, and the Art of Letting Go",
+          "expectedStart": 1883.91,
+          "expectedEnd": 2031.03,
+          "actualStart": 1897.4167499999996,
+          "actualEnd": 2044.5335829999997,
+          "timeDifference": 13.506749999999556
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Storytelling",
+          "expectedStart": 2031.03,
+          "expectedEnd": 2183.14,
+          "actualStart": 2046.0335829999997,
+          "actualEnd": 2198.1415409999995,
+          "timeDifference": 15.003582999999708
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2183.14,
+          "expectedEnd": 2312.6,
+          "actualStart": 2199.6415409999995,
+          "actualEnd": 2329.1010829999996,
+          "timeDifference": 16.501540999999634
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.443083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Influences and the Seeds of a Creative Life"
+        },
+        {
+          "startTime": 357.821666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Influences and the Seeds of a Creative Life and Chapter 2 Entering the World of Cinema and Facing Early Struggles"
+        },
+        {
+          "startTime": 595.888208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Entering the World of Cinema and Facing Early Struggles and Chapter 3 Finding a Voice and Navigating Creative Integrity"
+        },
+        {
+          "startTime": 847.282916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding a Voice and Navigating Creative Integrity and Chapter 4 Perseverance, Adaptability, and the Cost of Dreams"
+        },
+        {
+          "startTime": 1049.145666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Perseverance, Adaptability, and the Cost of Dreams and Chapter 5 The Evolving Role of the Artist and Social Responsibility"
+        },
+        {
+          "startTime": 1278.2660409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Evolving Role of the Artist and Social Responsibility and Chapter 6 Mentorship, Collaboration, and the Power of Community"
+        },
+        {
+          "startTime": 1502.8140829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mentorship, Collaboration, and the Power of Community and Chapter 7 Navigating Change—Technology, Culture, and the Shifting Landscape"
+        },
+        {
+          "startTime": 1723.6723749999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Change—Technology, Culture, and the Shifting Landscape and Chapter 8 Legacy, Reflection, and the Meaning of Success"
+        },
+        {
+          "startTime": 1895.9167499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy, Reflection, and the Meaning of Success and Chapter 9 Enduring Lessons—Resilience, Humility, and the Art of Letting Go"
+        },
+        {
+          "startTime": 2044.5335829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Enduring Lessons—Resilience, Humility, and the Art of Letting Go and Chapter 10 The Enduring Power of Storytelling"
+        },
+        {
+          "startTime": 2198.1415409999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Storytelling and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2871",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:18:16.601Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

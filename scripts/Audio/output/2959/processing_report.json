@@ -1,0 +1,480 @@
+{
+  "bookId": "2959",
+  "timestamp": "2025-07-14T07:31:34.651Z",
+  "success": false,
+  "processingTime": -1752477784813,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5174,
+    "totalAudioFiles": 13,
+    "totalDuration": 2239.7744159999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2239.7744159999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2959/optimized_text/2959.md",
+    "fileSize": 687,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2959.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2959/metadata/2959_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2239.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2959/metadata/2959_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2959/metadata/2959_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2959/2959_complete.wav",
+    "duration": 2239.774417,
+    "fileSize": 107509250,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2959/introduction.wav",
+          "duration": 82.790583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.790583,
+          "startTime": 0,
+          "endTime": 82.790583
+        },
+        {
+          "path": "Audio/output/2959/chapter_01.wav",
+          "duration": 237.817625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Patterns That Hold Us Back",
+          "actualDuration": 237.817625,
+          "startTime": 84.290583,
+          "endTime": 322.108208
+        },
+        {
+          "path": "Audio/output/2959/chapter_02.wav",
+          "duration": 247.797667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Roots of Self-Sabotage",
+          "actualDuration": 247.797667,
+          "startTime": 323.608208,
+          "endTime": 571.4058749999999
+        },
+        {
+          "path": "Audio/output/2959/chapter_03.wav",
+          "duration": 213.173083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Emotional Awareness and Resilience",
+          "actualDuration": 213.173083,
+          "startTime": 572.9058749999999,
+          "endTime": 786.078958
+        },
+        {
+          "path": "Audio/output/2959/chapter_04.wav",
+          "duration": 192.841667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rewriting Old Stories and Choosing New Beliefs",
+          "actualDuration": 192.841667,
+          "startTime": 787.578958,
+          "endTime": 980.420625
+        },
+        {
+          "path": "Audio/output/2959/chapter_05.wav",
+          "duration": 173.911083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Lasting Change Through Daily Practice",
+          "actualDuration": 173.911083,
+          "startTime": 981.920625,
+          "endTime": 1155.831708
+        },
+        {
+          "path": "Audio/output/2959/chapter_06.wav",
+          "duration": 186.792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating the Terrain of Fear and Uncertainty",
+          "actualDuration": 186.792,
+          "startTime": 1157.331708,
+          "endTime": 1344.1237079999999
+        },
+        {
+          "path": "Audio/output/2959/chapter_07.wav",
+          "duration": 187.854042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing the Wounds That Fuel Self-Sabotage",
+          "actualDuration": 187.854042,
+          "startTime": 1345.6237079999999,
+          "endTime": 1533.4777499999998
+        },
+        {
+          "path": "Audio/output/2959/chapter_08.wav",
+          "duration": 158.466083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Responsibility and Reclaiming Power",
+          "actualDuration": 158.466083,
+          "startTime": 1534.9777499999998,
+          "endTime": 1693.4438329999998
+        },
+        {
+          "path": "Audio/output/2959/chapter_09.wav",
+          "duration": 178.35075,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Cultivating Self-Trust and Inner Guidance",
+          "actualDuration": 178.35075,
+          "startTime": 1694.9438329999998,
+          "endTime": 1873.2945829999999
+        },
+        {
+          "path": "Audio/output/2959/chapter_10.wav",
+          "duration": 126.787333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Meaning",
+          "actualDuration": 126.787333,
+          "startTime": 1874.7945829999999,
+          "endTime": 2001.5819159999999
+        },
+        {
+          "path": "Audio/output/2959/chapter_11.wav",
+          "duration": 141.111333,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Integrating Growth and Embracing the Journey",
+          "actualDuration": 141.111333,
+          "startTime": 2003.0819159999999,
+          "endTime": 2144.193249
+        },
+        {
+          "path": "Audio/output/2959/conclusion.wav",
+          "duration": 112.081167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.081167,
+          "startTime": 2145.693249,
+          "endTime": 2257.7744159999997
+        }
+      ],
+      "totalDuration": 2257.7744159999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.79,
+          "actualStart": 0,
+          "actualEnd": 82.790583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Patterns That Hold Us Back",
+          "expectedStart": 82.79,
+          "expectedEnd": 320.61,
+          "actualStart": 84.290583,
+          "actualEnd": 322.108208,
+          "timeDifference": 1.5005829999999918
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Roots of Self-Sabotage",
+          "expectedStart": 320.61,
+          "expectedEnd": 568.41,
+          "actualStart": 323.608208,
+          "actualEnd": 571.4058749999999,
+          "timeDifference": 2.998207999999977
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Emotional Awareness and Resilience",
+          "expectedStart": 568.41,
+          "expectedEnd": 781.58,
+          "actualStart": 572.9058749999999,
+          "actualEnd": 786.078958,
+          "timeDifference": 4.495874999999955
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rewriting Old Stories and Choosing New Beliefs",
+          "expectedStart": 781.58,
+          "expectedEnd": 974.42,
+          "actualStart": 787.578958,
+          "actualEnd": 980.420625,
+          "timeDifference": 5.998957999999902
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Lasting Change Through Daily Practice",
+          "expectedStart": 974.42,
+          "expectedEnd": 1148.33,
+          "actualStart": 981.920625,
+          "actualEnd": 1155.831708,
+          "timeDifference": 7.500625000000014
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating the Terrain of Fear and Uncertainty",
+          "expectedStart": 1148.33,
+          "expectedEnd": 1335.12,
+          "actualStart": 1157.331708,
+          "actualEnd": 1344.1237079999999,
+          "timeDifference": 9.001708000000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing the Wounds That Fuel Self-Sabotage",
+          "expectedStart": 1335.12,
+          "expectedEnd": 1522.97,
+          "actualStart": 1345.6237079999999,
+          "actualEnd": 1533.4777499999998,
+          "timeDifference": 10.50370799999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Responsibility and Reclaiming Power",
+          "expectedStart": 1522.97,
+          "expectedEnd": 1681.44,
+          "actualStart": 1534.9777499999998,
+          "actualEnd": 1693.4438329999998,
+          "timeDifference": 12.00774999999976
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Cultivating Self-Trust and Inner Guidance",
+          "expectedStart": 1681.44,
+          "expectedEnd": 1859.79,
+          "actualStart": 1694.9438329999998,
+          "actualEnd": 1873.2945829999999,
+          "timeDifference": 13.503832999999759
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Meaning",
+          "expectedStart": 1859.79,
+          "expectedEnd": 1986.58,
+          "actualStart": 1874.7945829999999,
+          "actualEnd": 2001.5819159999999,
+          "timeDifference": 15.004582999999911
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Integrating Growth and Embracing the Journey",
+          "expectedStart": 1986.58,
+          "expectedEnd": 2127.69,
+          "actualStart": 2003.0819159999999,
+          "actualEnd": 2144.193249,
+          "timeDifference": 16.501915999999937
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2127.69,
+          "expectedEnd": 2239.77,
+          "actualStart": 2145.693249,
+          "actualEnd": 2257.7744159999997,
+          "timeDifference": 18.00324899999987
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.790583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Patterns That Hold Us Back"
+        },
+        {
+          "startTime": 322.108208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Patterns That Hold Us Back and Chapter 2 Understanding the Roots of Self-Sabotage"
+        },
+        {
+          "startTime": 571.4058749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Roots of Self-Sabotage and Chapter 3 Building Emotional Awareness and Resilience"
+        },
+        {
+          "startTime": 786.078958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Emotional Awareness and Resilience and Chapter 4 Rewriting Old Stories and Choosing New Beliefs"
+        },
+        {
+          "startTime": 980.420625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rewriting Old Stories and Choosing New Beliefs and Chapter 5 Creating Lasting Change Through Daily Practice"
+        },
+        {
+          "startTime": 1155.831708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Lasting Change Through Daily Practice and Chapter 6 Navigating the Terrain of Fear and Uncertainty"
+        },
+        {
+          "startTime": 1344.1237079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating the Terrain of Fear and Uncertainty and Chapter 7 Healing the Wounds That Fuel Self-Sabotage"
+        },
+        {
+          "startTime": 1533.4777499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing the Wounds That Fuel Self-Sabotage and Chapter 8 Embracing Responsibility and Reclaiming Power"
+        },
+        {
+          "startTime": 1693.4438329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Responsibility and Reclaiming Power and Chapter 9 Cultivating Self-Trust and Inner Guidance"
+        },
+        {
+          "startTime": 1873.2945829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Cultivating Self-Trust and Inner Guidance and Chapter 10 Living with Purpose and Meaning"
+        },
+        {
+          "startTime": 2001.5819159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Meaning and Chapter 11 Integrating Growth and Embracing the Journey"
+        },
+        {
+          "startTime": 2144.193249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Integrating Growth and Embracing the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2959",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:23:06.006Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2941",
+  "timestamp": "2025-07-14T05:59:27.506Z",
+  "success": false,
+  "processingTime": -1752472385654,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5384,
+    "totalAudioFiles": 12,
+    "totalDuration": 2209.3972089999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2209.3972089999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2941/optimized_text/2941.md",
+    "fileSize": 760,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2941.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2941/metadata/2941_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2209.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2941/metadata/2941_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2941/metadata/2941_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2941/2941_complete.wav",
+    "duration": 2209.397208,
+    "fileSize": 106051144,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2941/introduction.wav",
+          "duration": 80.770917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.770917,
+          "startTime": 0,
+          "endTime": 80.770917
+        },
+        {
+          "path": "Audio/output/2941/chapter_01.wav",
+          "duration": 231.287417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Loss Changes Everything: The First Steps Through Grief",
+          "actualDuration": 231.287417,
+          "startTime": 82.270917,
+          "endTime": 313.558334
+        },
+        {
+          "path": "Audio/output/2941/chapter_02.wav",
+          "duration": 247.08875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing the Storm: Mental Health Struggles in the Wake of Trauma",
+          "actualDuration": 247.08875,
+          "startTime": 315.058334,
+          "endTime": 562.147084
+        },
+        {
+          "path": "Audio/output/2941/chapter_03.wav",
+          "duration": 225.053375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Vulnerability: Finding Strength in Honest Expression",
+          "actualDuration": 225.053375,
+          "startTime": 563.647084,
+          "endTime": 788.7004589999999
+        },
+        {
+          "path": "Audio/output/2941/chapter_04.wav",
+          "duration": 225.137,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Silence: Seeking Help and Challenging Stigma",
+          "actualDuration": 225.137,
+          "startTime": 790.2004589999999,
+          "endTime": 1015.3374589999999
+        },
+        {
+          "path": "Audio/output/2941/chapter_05.wav",
+          "duration": 213.4375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Victories: Rebuilding Life and Rediscovering Hope",
+          "actualDuration": 213.4375,
+          "startTime": 1016.8374589999999,
+          "endTime": 1230.2749589999999
+        },
+        {
+          "path": "Audio/output/2941/chapter_06.wav",
+          "duration": 185.1325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Turning Point: Embracing Change and Letting Go",
+          "actualDuration": 185.1325,
+          "startTime": 1231.7749589999999,
+          "endTime": 1416.9074589999998
+        },
+        {
+          "path": "Audio/output/2941/chapter_07.wav",
+          "duration": 172.652042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: How Sharing Stories Heals Others",
+          "actualDuration": 172.652042,
+          "startTime": 1418.4074589999998,
+          "endTime": 1591.0595009999997
+        },
+        {
+          "path": "Audio/output/2941/chapter_08.wav",
+          "duration": 191.757417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reimagining Identity: Who Am I After Loss?",
+          "actualDuration": 191.757417,
+          "startTime": 1592.5595009999997,
+          "endTime": 1784.3169179999998
+        },
+        {
+          "path": "Audio/output/2941/chapter_09.wav",
+          "duration": 175.795458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Resilience: Tools for the Ongoing Journey",
+          "actualDuration": 175.795458,
+          "startTime": 1785.8169179999998,
+          "endTime": 1961.6123759999998
+        },
+        {
+          "path": "Audio/output/2941/chapter_10.wav",
+          "duration": 143.245208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward: Meaning, Purpose, and the Ongoing Work of Healing",
+          "actualDuration": 143.245208,
+          "startTime": 1963.1123759999998,
+          "endTime": 2106.357584
+        },
+        {
+          "path": "Audio/output/2941/conclusion.wav",
+          "duration": 118.039625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.039625,
+          "startTime": 2107.857584,
+          "endTime": 2225.8972089999997
+        }
+      ],
+      "totalDuration": 2225.8972089999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.77,
+          "actualStart": 0,
+          "actualEnd": 80.770917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Loss Changes Everything: The First Steps Through Grief",
+          "expectedStart": 80.77,
+          "expectedEnd": 312.06,
+          "actualStart": 82.270917,
+          "actualEnd": 313.558334,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing the Storm: Mental Health Struggles in the Wake of Trauma",
+          "expectedStart": 312.06,
+          "expectedEnd": 559.15,
+          "actualStart": 315.058334,
+          "actualEnd": 562.147084,
+          "timeDifference": 2.998334
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Vulnerability: Finding Strength in Honest Expression",
+          "expectedStart": 559.15,
+          "expectedEnd": 784.2,
+          "actualStart": 563.647084,
+          "actualEnd": 788.7004589999999,
+          "timeDifference": 4.4970839999999725
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Silence: Seeking Help and Challenging Stigma",
+          "expectedStart": 784.2,
+          "expectedEnd": 1009.34,
+          "actualStart": 790.2004589999999,
+          "actualEnd": 1015.3374589999999,
+          "timeDifference": 6.000458999999864
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Victories: Rebuilding Life and Rediscovering Hope",
+          "expectedStart": 1009.34,
+          "expectedEnd": 1222.78,
+          "actualStart": 1016.8374589999999,
+          "actualEnd": 1230.2749589999999,
+          "timeDifference": 7.497458999999822
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Turning Point: Embracing Change and Letting Go",
+          "expectedStart": 1222.78,
+          "expectedEnd": 1407.91,
+          "actualStart": 1231.7749589999999,
+          "actualEnd": 1416.9074589999998,
+          "timeDifference": 8.99495899999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: How Sharing Stories Heals Others",
+          "expectedStart": 1407.91,
+          "expectedEnd": 1580.56,
+          "actualStart": 1418.4074589999998,
+          "actualEnd": 1591.0595009999997,
+          "timeDifference": 10.497458999999708
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reimagining Identity: Who Am I After Loss?",
+          "expectedStart": 1580.56,
+          "expectedEnd": 1772.32,
+          "actualStart": 1592.5595009999997,
+          "actualEnd": 1784.3169179999998,
+          "timeDifference": 11.999500999999782
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Resilience: Tools for the Ongoing Journey",
+          "expectedStart": 1772.32,
+          "expectedEnd": 1948.12,
+          "actualStart": 1785.8169179999998,
+          "actualEnd": 1961.6123759999998,
+          "timeDifference": 13.496917999999823
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward: Meaning, Purpose, and the Ongoing Work of Healing",
+          "expectedStart": 1948.12,
+          "expectedEnd": 2091.37,
+          "actualStart": 1963.1123759999998,
+          "actualEnd": 2106.357584,
+          "timeDifference": 14.992375999999922
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2091.37,
+          "expectedEnd": 2209.41,
+          "actualStart": 2107.857584,
+          "actualEnd": 2225.8972089999997,
+          "timeDifference": 16.48758399999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.770917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Loss Changes Everything: The First Steps Through Grief"
+        },
+        {
+          "startTime": 313.558334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Loss Changes Everything: The First Steps Through Grief and Chapter 2 Facing the Storm: Mental Health Struggles in the Wake of Trauma"
+        },
+        {
+          "startTime": 562.147084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing the Storm: Mental Health Struggles in the Wake of Trauma and Chapter 3 The Power of Vulnerability: Finding Strength in Honest Expression"
+        },
+        {
+          "startTime": 788.7004589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Vulnerability: Finding Strength in Honest Expression and Chapter 4 Breaking the Silence: Seeking Help and Challenging Stigma"
+        },
+        {
+          "startTime": 1015.3374589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Silence: Seeking Help and Challenging Stigma and Chapter 5 Small Victories: Rebuilding Life and Rediscovering Hope"
+        },
+        {
+          "startTime": 1230.2749589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Victories: Rebuilding Life and Rediscovering Hope and Chapter 6 The Turning Point: Embracing Change and Letting Go"
+        },
+        {
+          "startTime": 1416.9074589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Turning Point: Embracing Change and Letting Go and Chapter 7 The Ripple Effect: How Sharing Stories Heals Others"
+        },
+        {
+          "startTime": 1591.0595009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: How Sharing Stories Heals Others and Chapter 8 Reimagining Identity: Who Am I After Loss?"
+        },
+        {
+          "startTime": 1784.3169179999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reimagining Identity: Who Am I After Loss? and Chapter 9 Building Resilience: Tools for the Ongoing Journey"
+        },
+        {
+          "startTime": 1961.6123759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Resilience: Tools for the Ongoing Journey and Chapter 10 Living Forward: Meaning, Purpose, and the Ongoing Work of Healing"
+        },
+        {
+          "startTime": 2106.357584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward: Meaning, Purpose, and the Ongoing Work of Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2941",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:53:06.137Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

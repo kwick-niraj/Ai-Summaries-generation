@@ -1,0 +1,456 @@
+{
+  "bookId": "3152",
+  "timestamp": "2025-07-14T22:18:09.763Z",
+  "success": false,
+  "processingTime": -1752531172413,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4227,
+    "totalAudioFiles": 12,
+    "totalDuration": 2259.402042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2259.402042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3152/optimized_text/3152.md",
+    "fileSize": 879,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "3152.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3152/metadata/3152_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2259.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3152/metadata/3152_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3152/metadata/3152_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3152/3152_complete.wav",
+    "duration": 2259.402042,
+    "fileSize": 108451376,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3152/introduction.wav",
+          "duration": 97.32725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.32725,
+          "startTime": 0,
+          "endTime": 97.32725
+        },
+        {
+          "path": "Audio/output/3152/chapter_01.wav",
+          "duration": 216.248458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Military Thinking Matters in Business Challenges",
+          "actualDuration": 216.248458,
+          "startTime": 98.82725,
+          "endTime": 315.075708
+        },
+        {
+          "path": "Audio/output/3152/chapter_02.wav",
+          "duration": 235.652542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Strategic Foundation—Situational Awareness and Clear Objectives",
+          "actualDuration": 235.652542,
+          "startTime": 316.575708,
+          "endTime": 552.22825
+        },
+        {
+          "path": "Audio/output/3152/chapter_03.wav",
+          "duration": 216.063083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Decisive Action—The OODA Loop and Adaptive Problem-Solving",
+          "actualDuration": 216.063083,
+          "startTime": 553.72825,
+          "endTime": 769.791333
+        },
+        {
+          "path": "Audio/output/3152/chapter_04.wav",
+          "duration": 241.043083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leading Teams Through Uncertainty—Communication, Cohesion, and Ethical Discipline",
+          "actualDuration": 241.043083,
+          "startTime": 771.291333,
+          "endTime": 1012.334416
+        },
+        {
+          "path": "Audio/output/3152/chapter_05.wav",
+          "duration": 219.375167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Preparation, Contingency Planning, and Learning from Experience",
+          "actualDuration": 219.375167,
+          "startTime": 1013.834416,
+          "endTime": 1233.209583
+        },
+        {
+          "path": "Audio/output/3152/chapter_06.wav",
+          "duration": 192.873833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Decision-Making—Balancing Initiative and Discipline",
+          "actualDuration": 192.873833,
+          "startTime": 1234.709583,
+          "endTime": 1427.583416
+        },
+        {
+          "path": "Audio/output/3152/chapter_07.wav",
+          "duration": 197.423292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Innovation Under Pressure—Turning Constraints into Creative Solutions",
+          "actualDuration": 197.423292,
+          "startTime": 1429.083416,
+          "endTime": 1626.506708
+        },
+        {
+          "path": "Audio/output/3152/chapter_08.wav",
+          "duration": 175.234625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Strategic Leadership Mindsets—Cultivating Resilience and Foresight",
+          "actualDuration": 175.234625,
+          "startTime": 1628.006708,
+          "endTime": 1803.241333
+        },
+        {
+          "path": "Audio/output/3152/chapter_09.wav",
+          "duration": 170.689417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Framework—From Principles to Daily Practice",
+          "actualDuration": 170.689417,
+          "startTime": 1804.741333,
+          "endTime": 1975.43075
+        },
+        {
+          "path": "Audio/output/3152/chapter_10.wav",
+          "duration": 179.777625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Strategic Agility—Continuous Improvement and Cultural Reinforcement",
+          "actualDuration": 179.777625,
+          "startTime": 1976.93075,
+          "endTime": 2156.708375
+        },
+        {
+          "path": "Audio/output/3152/conclusion.wav",
+          "duration": 117.693667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.693667,
+          "startTime": 2158.208375,
+          "endTime": 2275.902042
+        }
+      ],
+      "totalDuration": 2275.902042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.33,
+          "actualStart": 0,
+          "actualEnd": 97.32725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Military Thinking Matters in Business Challenges",
+          "expectedStart": 97.33,
+          "expectedEnd": 313.58,
+          "actualStart": 98.82725,
+          "actualEnd": 315.075708,
+          "timeDifference": 1.4972500000000082
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Strategic Foundation—Situational Awareness and Clear Objectives",
+          "expectedStart": 313.58,
+          "expectedEnd": 549.23,
+          "actualStart": 316.575708,
+          "actualEnd": 552.22825,
+          "timeDifference": 2.995708000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Decisive Action—The OODA Loop and Adaptive Problem-Solving",
+          "expectedStart": 549.23,
+          "expectedEnd": 765.29,
+          "actualStart": 553.72825,
+          "actualEnd": 769.791333,
+          "timeDifference": 4.4982499999999845
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leading Teams Through Uncertainty—Communication, Cohesion, and Ethical Discipline",
+          "expectedStart": 765.29,
+          "expectedEnd": 1006.33,
+          "actualStart": 771.291333,
+          "actualEnd": 1012.334416,
+          "timeDifference": 6.001333000000045
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Preparation, Contingency Planning, and Learning from Experience",
+          "expectedStart": 1006.33,
+          "expectedEnd": 1225.71,
+          "actualStart": 1013.834416,
+          "actualEnd": 1233.209583,
+          "timeDifference": 7.504415999999992
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Decision-Making—Balancing Initiative and Discipline",
+          "expectedStart": 1225.71,
+          "expectedEnd": 1418.58,
+          "actualStart": 1234.709583,
+          "actualEnd": 1427.583416,
+          "timeDifference": 8.99958300000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Innovation Under Pressure—Turning Constraints into Creative Solutions",
+          "expectedStart": 1418.58,
+          "expectedEnd": 1616,
+          "actualStart": 1429.083416,
+          "actualEnd": 1626.506708,
+          "timeDifference": 10.503416000000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Strategic Leadership Mindsets—Cultivating Resilience and Foresight",
+          "expectedStart": 1616,
+          "expectedEnd": 1791.23,
+          "actualStart": 1628.006708,
+          "actualEnd": 1803.241333,
+          "timeDifference": 12.00670799999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Framework—From Principles to Daily Practice",
+          "expectedStart": 1791.23,
+          "expectedEnd": 1961.92,
+          "actualStart": 1804.741333,
+          "actualEnd": 1975.43075,
+          "timeDifference": 13.511332999999922
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Strategic Agility—Continuous Improvement and Cultural Reinforcement",
+          "expectedStart": 1961.92,
+          "expectedEnd": 2141.7,
+          "actualStart": 1976.93075,
+          "actualEnd": 2156.708375,
+          "timeDifference": 15.010749999999916
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2141.7,
+          "expectedEnd": 2259.39,
+          "actualStart": 2158.208375,
+          "actualEnd": 2275.902042,
+          "timeDifference": 16.508375000000342
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.32725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Military Thinking Matters in Business Challenges"
+        },
+        {
+          "startTime": 315.075708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Military Thinking Matters in Business Challenges and Chapter 2 Building a Strategic Foundation—Situational Awareness and Clear Objectives"
+        },
+        {
+          "startTime": 552.22825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Strategic Foundation—Situational Awareness and Clear Objectives and Chapter 3 Decisive Action—The OODA Loop and Adaptive Problem-Solving"
+        },
+        {
+          "startTime": 769.791333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Decisive Action—The OODA Loop and Adaptive Problem-Solving and Chapter 4 Leading Teams Through Uncertainty—Communication, Cohesion, and Ethical Discipline"
+        },
+        {
+          "startTime": 1012.334416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leading Teams Through Uncertainty—Communication, Cohesion, and Ethical Discipline and Chapter 5 Preparation, Contingency Planning, and Learning from Experience"
+        },
+        {
+          "startTime": 1233.209583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Preparation, Contingency Planning, and Learning from Experience and Chapter 6 Advanced Decision-Making—Balancing Initiative and Discipline"
+        },
+        {
+          "startTime": 1427.583416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Decision-Making—Balancing Initiative and Discipline and Chapter 7 Innovation Under Pressure—Turning Constraints into Creative Solutions"
+        },
+        {
+          "startTime": 1626.506708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Innovation Under Pressure—Turning Constraints into Creative Solutions and Chapter 8 Strategic Leadership Mindsets—Cultivating Resilience and Foresight"
+        },
+        {
+          "startTime": 1803.241333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Strategic Leadership Mindsets—Cultivating Resilience and Foresight and Chapter 9 Integrating the Framework—From Principles to Daily Practice"
+        },
+        {
+          "startTime": 1975.43075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Framework—From Principles to Daily Practice and Chapter 10 Sustaining Strategic Agility—Continuous Improvement and Cultural Reinforcement"
+        },
+        {
+          "startTime": 2156.708375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Strategic Agility—Continuous Improvement and Cultural Reinforcement and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3152",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T22:12:54.067Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

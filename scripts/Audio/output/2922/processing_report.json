@@ -1,0 +1,456 @@
+{
+  "bookId": "2922",
+  "timestamp": "2025-07-14T04:49:27.298Z",
+  "success": false,
+  "processingTime": -1752468113214,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4446,
+    "totalAudioFiles": 12,
+    "totalDuration": 2230.083209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2230.083209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2922/optimized_text/2922.md",
+    "fileSize": 806,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2922.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2922/metadata/2922_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2230.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2922/metadata/2922_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2922/metadata/2922_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2922/2922_complete.wav",
+    "duration": 2230.083208,
+    "fileSize": 107044072,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2922/introduction.wav",
+          "duration": 96.5595,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.5595,
+          "startTime": 0,
+          "endTime": 96.5595
+        },
+        {
+          "path": "Audio/output/2922/chapter_01.wav",
+          "duration": 225.269167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Body’s Natural Healing Power",
+          "actualDuration": 225.269167,
+          "startTime": 98.0595,
+          "endTime": 323.328667
+        },
+        {
+          "path": "Audio/output/2922/chapter_02.wav",
+          "duration": 298.325333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Six Types of Imbalances That Affect Health",
+          "actualDuration": 298.325333,
+          "startTime": 324.828667,
+          "endTime": 623.154
+        },
+        {
+          "path": "Audio/output/2922/chapter_03.wav",
+          "duration": 256.111833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Trapped Emotions and Energies Influence Well-Being",
+          "actualDuration": 256.111833,
+          "startTime": 624.654,
+          "endTime": 880.7658329999999
+        },
+        {
+          "path": "Audio/output/2922/chapter_04.wav",
+          "duration": 211.1525,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Using Muscle Testing to Communicate with the Subconscious",
+          "actualDuration": 211.1525,
+          "startTime": 882.2658329999999,
+          "endTime": 1093.4183329999998
+        },
+        {
+          "path": "Audio/output/2922/chapter_05.wav",
+          "duration": 184.82575,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Body Code Map: A Step-by-Step Guide to Identifying Imbalances",
+          "actualDuration": 184.82575,
+          "startTime": 1094.9183329999998,
+          "endTime": 1279.7440829999998
+        },
+        {
+          "path": "Audio/output/2922/chapter_06.wav",
+          "duration": 192.680417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practical Application: Integrating the Body Code into Daily Life",
+          "actualDuration": 192.680417,
+          "startTime": 1281.2440829999998,
+          "endTime": 1473.9244999999999
+        },
+        {
+          "path": "Audio/output/2922/chapter_07.wav",
+          "duration": 181.363542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Addressing Deeper Patterns: Emotional Inheritance and Generational Healing",
+          "actualDuration": 181.363542,
+          "startTime": 1475.4244999999999,
+          "endTime": 1656.788042
+        },
+        {
+          "path": "Audio/output/2922/chapter_08.wav",
+          "duration": 154.310792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Complex Health Challenges: Layered and Chronic Issues",
+          "actualDuration": 154.310792,
+          "startTime": 1658.288042,
+          "endTime": 1812.598834
+        },
+        {
+          "path": "Audio/output/2922/chapter_09.wav",
+          "duration": 161.16825,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Supporting Others: Using the Body Code with Family and Friends",
+          "actualDuration": 161.16825,
+          "startTime": 1814.098834,
+          "endTime": 1975.2670839999998
+        },
+        {
+          "path": "Audio/output/2922/chapter_10.wav",
+          "duration": 145.098167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: Building a Lifelong Relationship with Self-Healing",
+          "actualDuration": 145.098167,
+          "startTime": 1976.7670839999998,
+          "endTime": 2121.8652509999997
+        },
+        {
+          "path": "Audio/output/2922/conclusion.wav",
+          "duration": 123.217958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.217958,
+          "startTime": 2123.3652509999997,
+          "endTime": 2246.583209
+        }
+      ],
+      "totalDuration": 2246.583209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.56,
+          "actualStart": 0,
+          "actualEnd": 96.5595,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Body’s Natural Healing Power",
+          "expectedStart": 96.56,
+          "expectedEnd": 321.83,
+          "actualStart": 98.0595,
+          "actualEnd": 323.328667,
+          "timeDifference": 1.4994999999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Six Types of Imbalances That Affect Health",
+          "expectedStart": 321.83,
+          "expectedEnd": 620.16,
+          "actualStart": 324.828667,
+          "actualEnd": 623.154,
+          "timeDifference": 2.9986670000000117
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Trapped Emotions and Energies Influence Well-Being",
+          "expectedStart": 620.16,
+          "expectedEnd": 876.27,
+          "actualStart": 624.654,
+          "actualEnd": 880.7658329999999,
+          "timeDifference": 4.494000000000028
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Using Muscle Testing to Communicate with the Subconscious",
+          "expectedStart": 876.27,
+          "expectedEnd": 1087.42,
+          "actualStart": 882.2658329999999,
+          "actualEnd": 1093.4183329999998,
+          "timeDifference": 5.995832999999948
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Body Code Map: A Step-by-Step Guide to Identifying Imbalances",
+          "expectedStart": 1087.42,
+          "expectedEnd": 1272.25,
+          "actualStart": 1094.9183329999998,
+          "actualEnd": 1279.7440829999998,
+          "timeDifference": 7.498332999999775
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practical Application: Integrating the Body Code into Daily Life",
+          "expectedStart": 1272.25,
+          "expectedEnd": 1464.93,
+          "actualStart": 1281.2440829999998,
+          "actualEnd": 1473.9244999999999,
+          "timeDifference": 8.994082999999819
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Addressing Deeper Patterns: Emotional Inheritance and Generational Healing",
+          "expectedStart": 1464.93,
+          "expectedEnd": 1646.29,
+          "actualStart": 1475.4244999999999,
+          "actualEnd": 1656.788042,
+          "timeDifference": 10.494499999999789
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Complex Health Challenges: Layered and Chronic Issues",
+          "expectedStart": 1646.29,
+          "expectedEnd": 1800.6,
+          "actualStart": 1658.288042,
+          "actualEnd": 1812.598834,
+          "timeDifference": 11.998041999999941
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Supporting Others: Using the Body Code with Family and Friends",
+          "expectedStart": 1800.6,
+          "expectedEnd": 1961.77,
+          "actualStart": 1814.098834,
+          "actualEnd": 1975.2670839999998,
+          "timeDifference": 13.498833999999988
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: Building a Lifelong Relationship with Self-Healing",
+          "expectedStart": 1961.77,
+          "expectedEnd": 2106.87,
+          "actualStart": 1976.7670839999998,
+          "actualEnd": 2121.8652509999997,
+          "timeDifference": 14.997083999999859
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2106.87,
+          "expectedEnd": 2230.09,
+          "actualStart": 2123.3652509999997,
+          "actualEnd": 2246.583209,
+          "timeDifference": 16.495250999999826
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.5595,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Body’s Natural Healing Power"
+        },
+        {
+          "startTime": 323.328667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Body’s Natural Healing Power and Chapter 2 The Six Types of Imbalances That Affect Health"
+        },
+        {
+          "startTime": 623.154,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Six Types of Imbalances That Affect Health and Chapter 3 How Trapped Emotions and Energies Influence Well-Being"
+        },
+        {
+          "startTime": 880.7658329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Trapped Emotions and Energies Influence Well-Being and Chapter 4 Using Muscle Testing to Communicate with the Subconscious"
+        },
+        {
+          "startTime": 1093.4183329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Using Muscle Testing to Communicate with the Subconscious and Chapter 5 The Body Code Map: A Step-by-Step Guide to Identifying Imbalances"
+        },
+        {
+          "startTime": 1279.7440829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Body Code Map: A Step-by-Step Guide to Identifying Imbalances and Chapter 6 Practical Application: Integrating the Body Code into Daily Life"
+        },
+        {
+          "startTime": 1473.9244999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practical Application: Integrating the Body Code into Daily Life and Chapter 7 Addressing Deeper Patterns: Emotional Inheritance and Generational Healing"
+        },
+        {
+          "startTime": 1656.788042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Addressing Deeper Patterns: Emotional Inheritance and Generational Healing and Chapter 8 Navigating Complex Health Challenges: Layered and Chronic Issues"
+        },
+        {
+          "startTime": 1812.598834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Complex Health Challenges: Layered and Chronic Issues and Chapter 9 Supporting Others: Using the Body Code with Family and Friends"
+        },
+        {
+          "startTime": 1975.2670839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Supporting Others: Using the Body Code with Family and Friends and Chapter 10 Sustaining Growth: Building a Lifelong Relationship with Self-Healing"
+        },
+        {
+          "startTime": 2121.8652509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: Building a Lifelong Relationship with Self-Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2922",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:41:54.396Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

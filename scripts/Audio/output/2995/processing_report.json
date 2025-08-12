@@ -1,0 +1,504 @@
+{
+  "bookId": "2995",
+  "timestamp": "2025-07-14T10:11:05.342Z",
+  "success": false,
+  "processingTime": -1752487526842,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5354,
+    "totalAudioFiles": 14,
+    "totalDuration": 2483.2170820000006
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2483.2170820000006
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2995/optimized_text/2995.md",
+    "fileSize": 917,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "2995.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2995/metadata/2995_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2483.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2995/metadata/2995_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2995/metadata/2995_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2995/2995_complete.wav",
+    "duration": 2483.217083,
+    "fileSize": 119194498,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2995/introduction.wav",
+          "duration": 72.751167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.751167,
+          "startTime": 0,
+          "endTime": 72.751167
+        },
+        {
+          "path": "Audio/output/2995/chapter_01.wav",
+          "duration": 227.068583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Power Shapes Everyday Life and Public Belief",
+          "actualDuration": 227.068583,
+          "startTime": 74.251167,
+          "endTime": 301.31975
+        },
+        {
+          "path": "Audio/output/2995/chapter_02.wav",
+          "duration": 269.331958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Media’s Role in Defining Reality and Limiting Debate",
+          "actualDuration": 269.331958,
+          "startTime": 302.81975,
+          "endTime": 572.151708
+        },
+        {
+          "path": "Audio/output/2995/chapter_03.wav",
+          "duration": 225.899833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Real Motives Behind Foreign Policy and Global Power",
+          "actualDuration": 225.899833,
+          "startTime": 573.651708,
+          "endTime": 799.551541
+        },
+        {
+          "path": "Audio/output/2995/chapter_04.wav",
+          "duration": 209.735708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Democracy and the Struggle for Real Participation",
+          "actualDuration": 209.735708,
+          "startTime": 801.051541,
+          "endTime": 1010.787249
+        },
+        {
+          "path": "Audio/output/2995/chapter_05.wav",
+          "duration": 200.213583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Grassroots Organizing and the Power of Collective Action",
+          "actualDuration": 200.213583,
+          "startTime": 1012.287249,
+          "endTime": 1212.500832
+        },
+        {
+          "path": "Audio/output/2995/chapter_06.wav",
+          "duration": 164.168167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rewriting History—Who Gets to Tell the Story?",
+          "actualDuration": 164.168167,
+          "startTime": 1214.000832,
+          "endTime": 1378.168999
+        },
+        {
+          "path": "Audio/output/2995/chapter_07.wav",
+          "duration": 177.95225,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Manufacturing Consent—How Public Opinion Is Shaped",
+          "actualDuration": 177.95225,
+          "startTime": 1379.668999,
+          "endTime": 1557.621249
+        },
+        {
+          "path": "Audio/output/2995/chapter_08.wav",
+          "duration": 166.742708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Education System—Sorting, Shaping, and Silencing",
+          "actualDuration": 166.742708,
+          "startTime": 1559.121249,
+          "endTime": 1725.863957
+        },
+        {
+          "path": "Audio/output/2995/chapter_09.wav",
+          "duration": 163.714,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Economics of Inequality—Who Wins, Who Loses",
+          "actualDuration": 163.714,
+          "startTime": 1727.363957,
+          "endTime": 1891.077957
+        },
+        {
+          "path": "Audio/output/2995/chapter_10.wav",
+          "duration": 175.96275,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Culture Industry—Entertainment, Distraction, and Control",
+          "actualDuration": 175.96275,
+          "startTime": 1892.577957,
+          "endTime": 2068.540707
+        },
+        {
+          "path": "Audio/output/2995/chapter_11.wav",
+          "duration": 148.038542,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Security State—Fear, Surveillance, and the Erosion of Rights",
+          "actualDuration": 148.038542,
+          "startTime": 2070.040707,
+          "endTime": 2218.0792490000003
+        },
+        {
+          "path": "Audio/output/2995/chapter_12.wav",
+          "duration": 159.889458,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Hope and Possibility—Building a Future Beyond Power’s Boundaries",
+          "actualDuration": 159.889458,
+          "startTime": 2219.5792490000003,
+          "endTime": 2379.4687070000004
+        },
+        {
+          "path": "Audio/output/2995/conclusion.wav",
+          "duration": 121.748375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.748375,
+          "startTime": 2380.9687070000004,
+          "endTime": 2502.7170820000006
+        }
+      ],
+      "totalDuration": 2502.7170820000006,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.75,
+          "actualStart": 0,
+          "actualEnd": 72.751167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Power Shapes Everyday Life and Public Belief",
+          "expectedStart": 72.75,
+          "expectedEnd": 299.82,
+          "actualStart": 74.251167,
+          "actualEnd": 301.31975,
+          "timeDifference": 1.5011669999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Media’s Role in Defining Reality and Limiting Debate",
+          "expectedStart": 299.82,
+          "expectedEnd": 569.15,
+          "actualStart": 302.81975,
+          "actualEnd": 572.151708,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Real Motives Behind Foreign Policy and Global Power",
+          "expectedStart": 569.15,
+          "expectedEnd": 795.05,
+          "actualStart": 573.651708,
+          "actualEnd": 799.551541,
+          "timeDifference": 4.501708000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Democracy and the Struggle for Real Participation",
+          "expectedStart": 795.05,
+          "expectedEnd": 1004.79,
+          "actualStart": 801.051541,
+          "actualEnd": 1010.787249,
+          "timeDifference": 6.001541000000088
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Grassroots Organizing and the Power of Collective Action",
+          "expectedStart": 1004.79,
+          "expectedEnd": 1205,
+          "actualStart": 1012.287249,
+          "actualEnd": 1212.500832,
+          "timeDifference": 7.497249000000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rewriting History—Who Gets to Tell the Story?",
+          "expectedStart": 1205,
+          "expectedEnd": 1369.17,
+          "actualStart": 1214.000832,
+          "actualEnd": 1378.168999,
+          "timeDifference": 9.000831999999946
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Manufacturing Consent—How Public Opinion Is Shaped",
+          "expectedStart": 1369.17,
+          "expectedEnd": 1547.12,
+          "actualStart": 1379.668999,
+          "actualEnd": 1557.621249,
+          "timeDifference": 10.498998999999912
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Education System—Sorting, Shaping, and Silencing",
+          "expectedStart": 1547.12,
+          "expectedEnd": 1713.86,
+          "actualStart": 1559.121249,
+          "actualEnd": 1725.863957,
+          "timeDifference": 12.001249000000143
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Economics of Inequality—Who Wins, Who Loses",
+          "expectedStart": 1713.86,
+          "expectedEnd": 1877.57,
+          "actualStart": 1727.363957,
+          "actualEnd": 1891.077957,
+          "timeDifference": 13.503957000000128
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Culture Industry—Entertainment, Distraction, and Control",
+          "expectedStart": 1877.57,
+          "expectedEnd": 2053.53,
+          "actualStart": 1892.577957,
+          "actualEnd": 2068.540707,
+          "timeDifference": 15.007957000000033
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Security State—Fear, Surveillance, and the Erosion of Rights",
+          "expectedStart": 2053.53,
+          "expectedEnd": 2201.57,
+          "actualStart": 2070.040707,
+          "actualEnd": 2218.0792490000003,
+          "timeDifference": 16.51070699999991
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Hope and Possibility—Building a Future Beyond Power’s Boundaries",
+          "expectedStart": 2201.57,
+          "expectedEnd": 2361.46,
+          "actualStart": 2219.5792490000003,
+          "actualEnd": 2379.4687070000004,
+          "timeDifference": 18.00924900000018
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2361.46,
+          "expectedEnd": 2483.21,
+          "actualStart": 2380.9687070000004,
+          "actualEnd": 2502.7170820000006,
+          "timeDifference": 19.508707000000413
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.751167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Power Shapes Everyday Life and Public Belief"
+        },
+        {
+          "startTime": 301.31975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Power Shapes Everyday Life and Public Belief and Chapter 2 The Media’s Role in Defining Reality and Limiting Debate"
+        },
+        {
+          "startTime": 572.151708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Media’s Role in Defining Reality and Limiting Debate and Chapter 3 The Real Motives Behind Foreign Policy and Global Power"
+        },
+        {
+          "startTime": 799.551541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Real Motives Behind Foreign Policy and Global Power and Chapter 4 The Limits of Democracy and the Struggle for Real Participation"
+        },
+        {
+          "startTime": 1010.787249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Democracy and the Struggle for Real Participation and Chapter 5 Grassroots Organizing and the Power of Collective Action"
+        },
+        {
+          "startTime": 1212.500832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Grassroots Organizing and the Power of Collective Action and Chapter 6 Rewriting History—Who Gets to Tell the Story?"
+        },
+        {
+          "startTime": 1378.168999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rewriting History—Who Gets to Tell the Story? and Chapter 7 Manufacturing Consent—How Public Opinion Is Shaped"
+        },
+        {
+          "startTime": 1557.621249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Manufacturing Consent—How Public Opinion Is Shaped and Chapter 8 The Education System—Sorting, Shaping, and Silencing"
+        },
+        {
+          "startTime": 1725.863957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Education System—Sorting, Shaping, and Silencing and Chapter 9 The Economics of Inequality—Who Wins, Who Loses"
+        },
+        {
+          "startTime": 1891.077957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Economics of Inequality—Who Wins, Who Loses and Chapter 10 The Culture Industry—Entertainment, Distraction, and Control"
+        },
+        {
+          "startTime": 2068.540707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Culture Industry—Entertainment, Distraction, and Control and Chapter 11 The Security State—Fear, Surveillance, and the Erosion of Rights"
+        },
+        {
+          "startTime": 2218.0792490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Security State—Fear, Surveillance, and the Erosion of Rights and Chapter 12 Hope and Possibility—Building a Future Beyond Power’s Boundaries"
+        },
+        {
+          "startTime": 2379.4687070000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Hope and Possibility—Building a Future Beyond Power’s Boundaries and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2995",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T10:05:28.484Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

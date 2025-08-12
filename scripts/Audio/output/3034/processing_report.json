@@ -1,0 +1,528 @@
+{
+  "bookId": "3034",
+  "timestamp": "2025-07-14T13:10:27.592Z",
+  "success": false,
+  "processingTime": -1752498308489,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 4811,
+    "totalAudioFiles": 15,
+    "totalDuration": 2224.729582
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2224.729582
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3034/optimized_text/3034.md",
+    "fileSize": 800,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "3034.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3034/metadata/3034_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2224.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3034/metadata/3034_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3034/metadata/3034_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3034/3034_complete.wav",
+    "duration": 2224.729583,
+    "fileSize": 106787098,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3034/introduction.wav",
+          "duration": 104.718333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.718333,
+          "startTime": 0,
+          "endTime": 104.718333
+        },
+        {
+          "path": "Audio/output/3034/chapter_01.wav",
+          "duration": 216.9305,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Pattern of Life’s Disappearances",
+          "actualDuration": 216.9305,
+          "startTime": 106.218333,
+          "endTime": 323.14883299999997
+        },
+        {
+          "path": "Audio/output/3034/chapter_02.wav",
+          "duration": 225.977208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Human Footprint and the Acceleration of Loss",
+          "actualDuration": 225.977208,
+          "startTime": 324.64883299999997,
+          "endTime": 550.626041
+        },
+        {
+          "path": "Audio/output/3034/chapter_03.wav",
+          "duration": 201.393625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Legacy of Past Catastrophes",
+          "actualDuration": 201.393625,
+          "startTime": 552.126041,
+          "endTime": 753.5196659999999
+        },
+        {
+          "path": "Audio/output/3034/chapter_04.wav",
+          "duration": 224.199667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ripple Effects of Human Actions",
+          "actualDuration": 224.199667,
+          "startTime": 755.0196659999999,
+          "endTime": 979.2193329999999
+        },
+        {
+          "path": "Audio/output/3034/chapter_05.wav",
+          "duration": 159.932833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing the Future of Life on Earth",
+          "actualDuration": 159.932833,
+          "startTime": 980.7193329999999,
+          "endTime": 1140.6521659999999
+        },
+        {
+          "path": "Audio/output/3034/chapter_06.wav",
+          "duration": 178.833375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ocean’s Silent Crisis",
+          "actualDuration": 178.833375,
+          "startTime": 1142.1521659999999,
+          "endTime": 1320.9855409999998
+        },
+        {
+          "path": "Audio/output/3034/chapter_07.wav",
+          "duration": 142.771917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unseen World—Microbes and the Web of Life",
+          "actualDuration": 142.771917,
+          "startTime": 1322.4855409999998,
+          "endTime": 1465.2574579999998
+        },
+        {
+          "path": "Audio/output/3034/chapter_08.wav",
+          "duration": 126.838375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Islands—Laboratories of Evolution and Loss",
+          "actualDuration": 126.838375,
+          "startTime": 1466.7574579999998,
+          "endTime": 1593.5958329999999
+        },
+        {
+          "path": "Audio/output/3034/chapter_09.wav",
+          "duration": 130.480333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Paradox—Creation and Destruction",
+          "actualDuration": 130.480333,
+          "startTime": 1595.0958329999999,
+          "endTime": 1725.5761659999998
+        },
+        {
+          "path": "Audio/output/3034/chapter_10.wav",
+          "duration": 128.369708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Emotional Toll—Grief, Hope, and Responsibility",
+          "actualDuration": 128.369708,
+          "startTime": 1727.0761659999998,
+          "endTime": 1855.4458739999998
+        },
+        {
+          "path": "Audio/output/3034/chapter_11.wav",
+          "duration": 98.57325,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of Story—Changing the Narrative",
+          "actualDuration": 98.57325,
+          "startTime": 1856.9458739999998,
+          "endTime": 1955.5191239999997
+        },
+        {
+          "path": "Audio/output/3034/chapter_12.wav",
+          "duration": 103.866333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living with Uncertainty—Adapting to a Changing World",
+          "actualDuration": 103.866333,
+          "startTime": 1957.0191239999997,
+          "endTime": 2060.885457
+        },
+        {
+          "path": "Audio/output/3034/chapter_13.wav",
+          "duration": 88.544375,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Road Ahead—Choosing a Legacy",
+          "actualDuration": 88.544375,
+          "startTime": 2062.385457,
+          "endTime": 2150.929832
+        },
+        {
+          "path": "Audio/output/3034/conclusion.wav",
+          "duration": 93.29975,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.29975,
+          "startTime": 2152.429832,
+          "endTime": 2245.729582
+        }
+      ],
+      "totalDuration": 2245.729582,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.72,
+          "actualStart": 0,
+          "actualEnd": 104.718333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Pattern of Life’s Disappearances",
+          "expectedStart": 104.72,
+          "expectedEnd": 321.65,
+          "actualStart": 106.218333,
+          "actualEnd": 323.14883299999997,
+          "timeDifference": 1.4983330000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Human Footprint and the Acceleration of Loss",
+          "expectedStart": 321.65,
+          "expectedEnd": 547.63,
+          "actualStart": 324.64883299999997,
+          "actualEnd": 550.626041,
+          "timeDifference": 2.9988329999999905
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Legacy of Past Catastrophes",
+          "expectedStart": 547.63,
+          "expectedEnd": 749.02,
+          "actualStart": 552.126041,
+          "actualEnd": 753.5196659999999,
+          "timeDifference": 4.496040999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ripple Effects of Human Actions",
+          "expectedStart": 749.02,
+          "expectedEnd": 973.22,
+          "actualStart": 755.0196659999999,
+          "actualEnd": 979.2193329999999,
+          "timeDifference": 5.999665999999934
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing the Future of Life on Earth",
+          "expectedStart": 973.22,
+          "expectedEnd": 1133.15,
+          "actualStart": 980.7193329999999,
+          "actualEnd": 1140.6521659999999,
+          "timeDifference": 7.499332999999865
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ocean’s Silent Crisis",
+          "expectedStart": 1133.15,
+          "expectedEnd": 1311.98,
+          "actualStart": 1142.1521659999999,
+          "actualEnd": 1320.9855409999998,
+          "timeDifference": 9.002165999999761
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unseen World—Microbes and the Web of Life",
+          "expectedStart": 1311.98,
+          "expectedEnd": 1454.75,
+          "actualStart": 1322.4855409999998,
+          "actualEnd": 1465.2574579999998,
+          "timeDifference": 10.505540999999766
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Islands—Laboratories of Evolution and Loss",
+          "expectedStart": 1454.75,
+          "expectedEnd": 1581.59,
+          "actualStart": 1466.7574579999998,
+          "actualEnd": 1593.5958329999999,
+          "timeDifference": 12.007457999999815
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Paradox—Creation and Destruction",
+          "expectedStart": 1581.59,
+          "expectedEnd": 1712.07,
+          "actualStart": 1595.0958329999999,
+          "actualEnd": 1725.5761659999998,
+          "timeDifference": 13.505832999999939
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Emotional Toll—Grief, Hope, and Responsibility",
+          "expectedStart": 1712.07,
+          "expectedEnd": 1840.44,
+          "actualStart": 1727.0761659999998,
+          "actualEnd": 1855.4458739999998,
+          "timeDifference": 15.006165999999894
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of Story—Changing the Narrative",
+          "expectedStart": 1840.44,
+          "expectedEnd": 1939.01,
+          "actualStart": 1856.9458739999998,
+          "actualEnd": 1955.5191239999997,
+          "timeDifference": 16.50587399999972
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living with Uncertainty—Adapting to a Changing World",
+          "expectedStart": 1939.01,
+          "expectedEnd": 2042.88,
+          "actualStart": 1957.0191239999997,
+          "actualEnd": 2060.885457,
+          "timeDifference": 18.0091239999997
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Road Ahead—Choosing a Legacy",
+          "expectedStart": 2042.88,
+          "expectedEnd": 2131.42,
+          "actualStart": 2062.385457,
+          "actualEnd": 2150.929832,
+          "timeDifference": 19.50545699999975
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2131.42,
+          "expectedEnd": 2224.72,
+          "actualStart": 2152.429832,
+          "actualEnd": 2245.729582,
+          "timeDifference": 21.009831999999733
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.718333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Pattern of Life’s Disappearances"
+        },
+        {
+          "startTime": 323.14883299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Pattern of Life’s Disappearances and Chapter 2 The Human Footprint and the Acceleration of Loss"
+        },
+        {
+          "startTime": 550.626041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Human Footprint and the Acceleration of Loss and Chapter 3 The Legacy of Past Catastrophes"
+        },
+        {
+          "startTime": 753.5196659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Legacy of Past Catastrophes and Chapter 4 The Ripple Effects of Human Actions"
+        },
+        {
+          "startTime": 979.2193329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ripple Effects of Human Actions and Chapter 5 Facing the Future of Life on Earth"
+        },
+        {
+          "startTime": 1140.6521659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing the Future of Life on Earth and Chapter 6 The Ocean’s Silent Crisis"
+        },
+        {
+          "startTime": 1320.9855409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ocean’s Silent Crisis and Chapter 7 The Unseen World—Microbes and the Web of Life"
+        },
+        {
+          "startTime": 1465.2574579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unseen World—Microbes and the Web of Life and Chapter 8 Islands—Laboratories of Evolution and Loss"
+        },
+        {
+          "startTime": 1593.5958329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Islands—Laboratories of Evolution and Loss and Chapter 9 The Human Paradox—Creation and Destruction"
+        },
+        {
+          "startTime": 1725.5761659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Paradox—Creation and Destruction and Chapter 10 The Emotional Toll—Grief, Hope, and Responsibility"
+        },
+        {
+          "startTime": 1855.4458739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Emotional Toll—Grief, Hope, and Responsibility and Chapter 11 The Power of Story—Changing the Narrative"
+        },
+        {
+          "startTime": 1955.5191239999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of Story—Changing the Narrative and Chapter 12 Living with Uncertainty—Adapting to a Changing World"
+        },
+        {
+          "startTime": 2060.885457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living with Uncertainty—Adapting to a Changing World and Chapter 13 The Road Ahead—Choosing a Legacy"
+        },
+        {
+          "startTime": 2150.929832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Road Ahead—Choosing a Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3034",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:05:10.046Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

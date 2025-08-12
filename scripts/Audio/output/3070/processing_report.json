@@ -1,0 +1,456 @@
+{
+  "bookId": "3070",
+  "timestamp": "2025-07-14T16:14:26.738Z",
+  "success": false,
+  "processingTime": -1752509405488,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4039,
+    "totalAudioFiles": 12,
+    "totalDuration": 1871.8631670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1871.8631670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3070/optimized_text/3070.md",
+    "fileSize": 788,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "3070.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3070/metadata/3070_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1871.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3070/metadata/3070_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3070/metadata/3070_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3070/3070_complete.wav",
+    "duration": 1871.863167,
+    "fileSize": 89849510,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3070/introduction.wav",
+          "duration": 94.005833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.005833,
+          "startTime": 0,
+          "endTime": 94.005833
+        },
+        {
+          "path": "Audio/output/3070/chapter_01.wav",
+          "duration": 189.952417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A City’s Heartbeat: The Day the Library Burned",
+          "actualDuration": 189.952417,
+          "startTime": 95.505833,
+          "endTime": 285.45825
+        },
+        {
+          "path": "Audio/output/3070/chapter_02.wav",
+          "duration": 187.614958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Library’s Past: Growth, Change, and the People Who Shaped It",
+          "actualDuration": 187.614958,
+          "startTime": 286.95825,
+          "endTime": 474.573208
+        },
+        {
+          "path": "Audio/output/3070/chapter_03.wav",
+          "duration": 154.073042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Investigation: Searching for Answers and Uncovering Mysteries",
+          "actualDuration": 154.073042,
+          "startTime": 476.073208,
+          "endTime": 630.14625
+        },
+        {
+          "path": "Audio/output/3070/chapter_04.wav",
+          "duration": 165.403458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Library’s Role: Community, Memory, and the Power of Books",
+          "actualDuration": 165.403458,
+          "startTime": 631.64625,
+          "endTime": 797.049708
+        },
+        {
+          "path": "Audio/output/3070/chapter_05.wav",
+          "duration": 171.719667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Changing Face of Libraries: Adapting to a New Era",
+          "actualDuration": 171.719667,
+          "startTime": 798.549708,
+          "endTime": 970.269375
+        },
+        {
+          "path": "Audio/output/3070/chapter_06.wav",
+          "duration": 204.1515,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rebuilding: The Long Road Back",
+          "actualDuration": 204.1515,
+          "startTime": 971.769375,
+          "endTime": 1175.920875
+        },
+        {
+          "path": "Audio/output/3070/chapter_07.wav",
+          "duration": 172.150333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Librarian’s Calling: Guardians, Guides, and Quiet Revolutionaries",
+          "actualDuration": 172.150333,
+          "startTime": 1177.420875,
+          "endTime": 1349.571208
+        },
+        {
+          "path": "Audio/output/3070/chapter_08.wav",
+          "duration": 146.923417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Library as Sanctuary: Stories of Refuge and Renewal",
+          "actualDuration": 146.923417,
+          "startTime": 1351.071208,
+          "endTime": 1497.994625
+        },
+        {
+          "path": "Audio/output/3070/chapter_09.wav",
+          "duration": 152.991667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Library’s Future: Innovation, Inclusion, and the Next Chapter",
+          "actualDuration": 152.991667,
+          "startTime": 1499.494625,
+          "endTime": 1652.486292
+        },
+        {
+          "path": "Audio/output/3070/chapter_10.wav",
+          "duration": 121.786792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Significance: Memory, Hope, and the Power of Community",
+          "actualDuration": 121.786792,
+          "startTime": 1653.986292,
+          "endTime": 1775.7730840000002
+        },
+        {
+          "path": "Audio/output/3070/conclusion.wav",
+          "duration": 111.090083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.090083,
+          "startTime": 1777.2730840000002,
+          "endTime": 1888.3631670000002
+        }
+      ],
+      "totalDuration": 1888.3631670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.01,
+          "actualStart": 0,
+          "actualEnd": 94.005833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A City’s Heartbeat: The Day the Library Burned",
+          "expectedStart": 94.01,
+          "expectedEnd": 283.96,
+          "actualStart": 95.505833,
+          "actualEnd": 285.45825,
+          "timeDifference": 1.4958329999999904
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Library’s Past: Growth, Change, and the People Who Shaped It",
+          "expectedStart": 283.96,
+          "expectedEnd": 471.57,
+          "actualStart": 286.95825,
+          "actualEnd": 474.573208,
+          "timeDifference": 2.9982500000000414
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Investigation: Searching for Answers and Uncovering Mysteries",
+          "expectedStart": 471.57,
+          "expectedEnd": 625.64,
+          "actualStart": 476.073208,
+          "actualEnd": 630.14625,
+          "timeDifference": 4.503208000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Library’s Role: Community, Memory, and the Power of Books",
+          "expectedStart": 625.64,
+          "expectedEnd": 791.04,
+          "actualStart": 631.64625,
+          "actualEnd": 797.049708,
+          "timeDifference": 6.006250000000023
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Changing Face of Libraries: Adapting to a New Era",
+          "expectedStart": 791.04,
+          "expectedEnd": 962.76,
+          "actualStart": 798.549708,
+          "actualEnd": 970.269375,
+          "timeDifference": 7.509708000000046
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rebuilding: The Long Road Back",
+          "expectedStart": 962.76,
+          "expectedEnd": 1166.91,
+          "actualStart": 971.769375,
+          "actualEnd": 1175.920875,
+          "timeDifference": 9.009374999999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Librarian’s Calling: Guardians, Guides, and Quiet Revolutionaries",
+          "expectedStart": 1166.91,
+          "expectedEnd": 1339.06,
+          "actualStart": 1177.420875,
+          "actualEnd": 1349.571208,
+          "timeDifference": 10.510874999999942
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Library as Sanctuary: Stories of Refuge and Renewal",
+          "expectedStart": 1339.06,
+          "expectedEnd": 1485.98,
+          "actualStart": 1351.071208,
+          "actualEnd": 1497.994625,
+          "timeDifference": 12.011208000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Library’s Future: Innovation, Inclusion, and the Next Chapter",
+          "expectedStart": 1485.98,
+          "expectedEnd": 1638.97,
+          "actualStart": 1499.494625,
+          "actualEnd": 1652.486292,
+          "timeDifference": 13.514625000000024
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Significance: Memory, Hope, and the Power of Community",
+          "expectedStart": 1638.97,
+          "expectedEnd": 1760.76,
+          "actualStart": 1653.986292,
+          "actualEnd": 1775.7730840000002,
+          "timeDifference": 15.016292000000021
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1760.76,
+          "expectedEnd": 1871.85,
+          "actualStart": 1777.2730840000002,
+          "actualEnd": 1888.3631670000002,
+          "timeDifference": 16.513084000000163
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.005833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A City’s Heartbeat: The Day the Library Burned"
+        },
+        {
+          "startTime": 285.45825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A City’s Heartbeat: The Day the Library Burned and Chapter 2 The Library’s Past: Growth, Change, and the People Who Shaped It"
+        },
+        {
+          "startTime": 474.573208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Library’s Past: Growth, Change, and the People Who Shaped It and Chapter 3 The Investigation: Searching for Answers and Uncovering Mysteries"
+        },
+        {
+          "startTime": 630.14625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Investigation: Searching for Answers and Uncovering Mysteries and Chapter 4 The Library’s Role: Community, Memory, and the Power of Books"
+        },
+        {
+          "startTime": 797.049708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Library’s Role: Community, Memory, and the Power of Books and Chapter 5 The Changing Face of Libraries: Adapting to a New Era"
+        },
+        {
+          "startTime": 970.269375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Changing Face of Libraries: Adapting to a New Era and Chapter 6 Rebuilding: The Long Road Back"
+        },
+        {
+          "startTime": 1175.920875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rebuilding: The Long Road Back and Chapter 7 The Librarian’s Calling: Guardians, Guides, and Quiet Revolutionaries"
+        },
+        {
+          "startTime": 1349.571208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Librarian’s Calling: Guardians, Guides, and Quiet Revolutionaries and Chapter 8 The Library as Sanctuary: Stories of Refuge and Renewal"
+        },
+        {
+          "startTime": 1497.994625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Library as Sanctuary: Stories of Refuge and Renewal and Chapter 9 The Library’s Future: Innovation, Inclusion, and the Next Chapter"
+        },
+        {
+          "startTime": 1652.486292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Library’s Future: Innovation, Inclusion, and the Next Chapter and Chapter 10 The Enduring Significance: Memory, Hope, and the Power of Community"
+        },
+        {
+          "startTime": 1775.7730840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Significance: Memory, Hope, and the Power of Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3070",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:10:06.690Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3192",
+  "timestamp": "2025-07-15T02:03:20.846Z",
+  "success": false,
+  "processingTime": -1752544677261,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4419,
+    "totalAudioFiles": 12,
+    "totalDuration": 2020.427084
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2020.427084
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3192/optimized_text/3192.md",
+    "fileSize": 520,
+    "wordCount": 73,
+    "format": "markdown",
+    "filename": "3192.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3192/metadata/3192_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2020.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3192/metadata/3192_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3192/metadata/3192_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3192/3192_complete.wav",
+    "duration": 2020.427083,
+    "fileSize": 96980578,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3192/introduction.wav",
+          "duration": 102.003667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.003667,
+          "startTime": 0,
+          "endTime": 102.003667
+        },
+        {
+          "path": "Audio/output/3192/chapter_01.wav",
+          "duration": 212.28925,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Relentless Search for Hidden Truths",
+          "actualDuration": 212.28925,
+          "startTime": 103.503667,
+          "endTime": 315.792917
+        },
+        {
+          "path": "Audio/output/3192/chapter_02.wav",
+          "duration": 236.207958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Machinery of Silence and Control",
+          "actualDuration": 236.207958,
+          "startTime": 317.292917,
+          "endTime": 553.500875
+        },
+        {
+          "path": "Audio/output/3192/chapter_03.wav",
+          "duration": 208.076667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The High Cost of Speaking Out",
+          "actualDuration": 208.076667,
+          "startTime": 555.000875,
+          "endTime": 763.077542
+        },
+        {
+          "path": "Audio/output/3192/chapter_04.wav",
+          "duration": 221.71675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Web of Surveillance and Intimidation",
+          "actualDuration": 221.71675,
+          "startTime": 764.577542,
+          "endTime": 986.294292
+        },
+        {
+          "path": "Audio/output/3192/chapter_05.wav",
+          "duration": 162.365042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Battle Within the Newsroom",
+          "actualDuration": 162.365042,
+          "startTime": 987.794292,
+          "endTime": 1150.159334
+        },
+        {
+          "path": "Audio/output/3192/chapter_06.wav",
+          "duration": 176.699125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Moment of Reckoning",
+          "actualDuration": 176.699125,
+          "startTime": 1151.659334,
+          "endTime": 1328.358459
+        },
+        {
+          "path": "Audio/output/3192/chapter_07.wav",
+          "duration": 163.557042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect",
+          "actualDuration": 163.557042,
+          "startTime": 1329.858459,
+          "endTime": 1493.415501
+        },
+        {
+          "path": "Audio/output/3192/chapter_08.wav",
+          "duration": 176.780583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Aftermath: Consequences and Change",
+          "actualDuration": 176.780583,
+          "startTime": 1494.915501,
+          "endTime": 1671.696084
+        },
+        {
+          "path": "Audio/output/3192/chapter_09.wav",
+          "duration": 143.744833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Truth-Telling",
+          "actualDuration": 143.744833,
+          "startTime": 1673.196084,
+          "endTime": 1816.940917
+        },
+        {
+          "path": "Audio/output/3192/chapter_10.wav",
+          "duration": 121.2585,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Lessons for the Future",
+          "actualDuration": 121.2585,
+          "startTime": 1818.440917,
+          "endTime": 1939.6994169999998
+        },
+        {
+          "path": "Audio/output/3192/conclusion.wav",
+          "duration": 95.727667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.727667,
+          "startTime": 1941.1994169999998,
+          "endTime": 2036.927084
+        }
+      ],
+      "totalDuration": 2036.927084,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102,
+          "actualStart": 0,
+          "actualEnd": 102.003667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Relentless Search for Hidden Truths",
+          "expectedStart": 102,
+          "expectedEnd": 314.29,
+          "actualStart": 103.503667,
+          "actualEnd": 315.792917,
+          "timeDifference": 1.503666999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Machinery of Silence and Control",
+          "expectedStart": 314.29,
+          "expectedEnd": 550.5,
+          "actualStart": 317.292917,
+          "actualEnd": 553.500875,
+          "timeDifference": 3.002916999999968
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The High Cost of Speaking Out",
+          "expectedStart": 550.5,
+          "expectedEnd": 758.58,
+          "actualStart": 555.000875,
+          "actualEnd": 763.077542,
+          "timeDifference": 4.500874999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Web of Surveillance and Intimidation",
+          "expectedStart": 758.58,
+          "expectedEnd": 980.3,
+          "actualStart": 764.577542,
+          "actualEnd": 986.294292,
+          "timeDifference": 5.997541999999953
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Battle Within the Newsroom",
+          "expectedStart": 980.3,
+          "expectedEnd": 1142.67,
+          "actualStart": 987.794292,
+          "actualEnd": 1150.159334,
+          "timeDifference": 7.494292000000087
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Moment of Reckoning",
+          "expectedStart": 1142.67,
+          "expectedEnd": 1319.37,
+          "actualStart": 1151.659334,
+          "actualEnd": 1328.358459,
+          "timeDifference": 8.989333999999872
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect",
+          "expectedStart": 1319.37,
+          "expectedEnd": 1482.93,
+          "actualStart": 1329.858459,
+          "actualEnd": 1493.415501,
+          "timeDifference": 10.488459000000148
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Aftermath: Consequences and Change",
+          "expectedStart": 1482.93,
+          "expectedEnd": 1659.71,
+          "actualStart": 1494.915501,
+          "actualEnd": 1671.696084,
+          "timeDifference": 11.985500999999886
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Truth-Telling",
+          "expectedStart": 1659.71,
+          "expectedEnd": 1803.45,
+          "actualStart": 1673.196084,
+          "actualEnd": 1816.940917,
+          "timeDifference": 13.486083999999892
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Lessons for the Future",
+          "expectedStart": 1803.45,
+          "expectedEnd": 1924.71,
+          "actualStart": 1818.440917,
+          "actualEnd": 1939.6994169999998,
+          "timeDifference": 14.990916999999854
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1924.71,
+          "expectedEnd": 2020.44,
+          "actualStart": 1941.1994169999998,
+          "actualEnd": 2036.927084,
+          "timeDifference": 16.489416999999776
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.003667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Relentless Search for Hidden Truths"
+        },
+        {
+          "startTime": 315.792917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Relentless Search for Hidden Truths and Chapter 2 The Machinery of Silence and Control"
+        },
+        {
+          "startTime": 553.500875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Machinery of Silence and Control and Chapter 3 The High Cost of Speaking Out"
+        },
+        {
+          "startTime": 763.077542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The High Cost of Speaking Out and Chapter 4 The Web of Surveillance and Intimidation"
+        },
+        {
+          "startTime": 986.294292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Web of Surveillance and Intimidation and Chapter 5 The Battle Within the Newsroom"
+        },
+        {
+          "startTime": 1150.159334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Battle Within the Newsroom and Chapter 6 The Moment of Reckoning"
+        },
+        {
+          "startTime": 1328.358459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Moment of Reckoning and Chapter 7 The Ripple Effect"
+        },
+        {
+          "startTime": 1493.415501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect and Chapter 8 The Aftermath: Consequences and Change"
+        },
+        {
+          "startTime": 1671.696084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Aftermath: Consequences and Change and Chapter 9 The Legacy of Truth-Telling"
+        },
+        {
+          "startTime": 1816.940917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Truth-Telling and Chapter 10 Moving Forward: Lessons for the Future"
+        },
+        {
+          "startTime": 1939.6994169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Lessons for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3192",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:57:57.797Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

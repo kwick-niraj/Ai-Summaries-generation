@@ -1,0 +1,456 @@
+{
+  "bookId": "3180",
+  "timestamp": "2025-07-15T01:32:14.110Z",
+  "success": false,
+  "processingTime": -1752542727873,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3878,
+    "totalAudioFiles": 12,
+    "totalDuration": 2022.3349979999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2022.3349979999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3180/optimized_text/3180.md",
+    "fileSize": 734,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "3180.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3180/metadata/3180_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2022.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3180/metadata/3180_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3180/metadata/3180_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 74,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3180/3180_complete.wav",
+    "duration": 2022.335,
+    "fileSize": 97072158,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3180/introduction.wav",
+          "duration": 95.040792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.040792,
+          "startTime": 0,
+          "endTime": 95.040792
+        },
+        {
+          "path": "Audio/output/3180/chapter_01.wav",
+          "duration": 222.638958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Compassionate Communication",
+          "actualDuration": 222.638958,
+          "startTime": 96.540792,
+          "endTime": 319.17975
+        },
+        {
+          "path": "Audio/output/3180/chapter_02.wav",
+          "duration": 217.867125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Observing Without Judgment: The First Step Toward Clarity",
+          "actualDuration": 217.867125,
+          "startTime": 320.67975,
+          "endTime": 538.546875
+        },
+        {
+          "path": "Audio/output/3180/chapter_03.wav",
+          "duration": 202.956833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Expressing Feelings Honestly and Listening with Empathy",
+          "actualDuration": 202.956833,
+          "startTime": 540.046875,
+          "endTime": 743.003708
+        },
+        {
+          "path": "Audio/output/3180/chapter_04.wav",
+          "duration": 207.938458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Recognizing and Expressing Needs to Build Understanding",
+          "actualDuration": 207.938458,
+          "startTime": 744.503708,
+          "endTime": 952.4421659999999
+        },
+        {
+          "path": "Audio/output/3180/chapter_05.wav",
+          "duration": 202.284208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Making Clear Requests and Fostering Collaboration",
+          "actualDuration": 202.284208,
+          "startTime": 953.9421659999999,
+          "endTime": 1156.2263739999999
+        },
+        {
+          "path": "Audio/output/3180/chapter_06.wav",
+          "duration": 189.985583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Applying Nonviolent Communication in Challenging Situations",
+          "actualDuration": 189.985583,
+          "startTime": 1157.7263739999999,
+          "endTime": 1347.7119569999998
+        },
+        {
+          "path": "Audio/output/3180/chapter_07.wav",
+          "duration": 161.576958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Transforming Inner Dialogue: Practicing Self-Compassion",
+          "actualDuration": 161.576958,
+          "startTime": 1349.2119569999998,
+          "endTime": 1510.7889149999996
+        },
+        {
+          "path": "Audio/output/3180/chapter_08.wav",
+          "duration": 143.983083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Power Dynamics and Social Systems",
+          "actualDuration": 143.983083,
+          "startTime": 1512.2889149999996,
+          "endTime": 1656.2719979999997
+        },
+        {
+          "path": "Audio/output/3180/chapter_09.wav",
+          "duration": 135.593375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Nonviolent Communication into Daily Life",
+          "actualDuration": 135.593375,
+          "startTime": 1657.7719979999997,
+          "endTime": 1793.3653729999996
+        },
+        {
+          "path": "Audio/output/3180/chapter_10.wav",
+          "duration": 131.424833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: Building a Culture of Compassion",
+          "actualDuration": 131.424833,
+          "startTime": 1794.8653729999996,
+          "endTime": 1926.2902059999997
+        },
+        {
+          "path": "Audio/output/3180/conclusion.wav",
+          "duration": 111.044792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.044792,
+          "startTime": 1927.7902059999997,
+          "endTime": 2038.8349979999996
+        }
+      ],
+      "totalDuration": 2038.8349979999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.04,
+          "actualStart": 0,
+          "actualEnd": 95.040792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Compassionate Communication",
+          "expectedStart": 95.04,
+          "expectedEnd": 317.68,
+          "actualStart": 96.540792,
+          "actualEnd": 319.17975,
+          "timeDifference": 1.50079199999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Observing Without Judgment: The First Step Toward Clarity",
+          "expectedStart": 317.68,
+          "expectedEnd": 535.55,
+          "actualStart": 320.67975,
+          "actualEnd": 538.546875,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Expressing Feelings Honestly and Listening with Empathy",
+          "expectedStart": 535.55,
+          "expectedEnd": 738.51,
+          "actualStart": 540.046875,
+          "actualEnd": 743.003708,
+          "timeDifference": 4.4968750000000455
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Recognizing and Expressing Needs to Build Understanding",
+          "expectedStart": 738.51,
+          "expectedEnd": 946.45,
+          "actualStart": 744.503708,
+          "actualEnd": 952.4421659999999,
+          "timeDifference": 5.99370799999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Making Clear Requests and Fostering Collaboration",
+          "expectedStart": 946.45,
+          "expectedEnd": 1148.73,
+          "actualStart": 953.9421659999999,
+          "actualEnd": 1156.2263739999999,
+          "timeDifference": 7.492165999999884
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Applying Nonviolent Communication in Challenging Situations",
+          "expectedStart": 1148.73,
+          "expectedEnd": 1338.72,
+          "actualStart": 1157.7263739999999,
+          "actualEnd": 1347.7119569999998,
+          "timeDifference": 8.996373999999832
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Transforming Inner Dialogue: Practicing Self-Compassion",
+          "expectedStart": 1338.72,
+          "expectedEnd": 1500.3,
+          "actualStart": 1349.2119569999998,
+          "actualEnd": 1510.7889149999996,
+          "timeDifference": 10.49195699999973
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Power Dynamics and Social Systems",
+          "expectedStart": 1500.3,
+          "expectedEnd": 1644.28,
+          "actualStart": 1512.2889149999996,
+          "actualEnd": 1656.2719979999997,
+          "timeDifference": 11.988914999999679
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Nonviolent Communication into Daily Life",
+          "expectedStart": 1644.28,
+          "expectedEnd": 1779.87,
+          "actualStart": 1657.7719979999997,
+          "actualEnd": 1793.3653729999996,
+          "timeDifference": 13.49199799999974
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: Building a Culture of Compassion",
+          "expectedStart": 1779.87,
+          "expectedEnd": 1911.29,
+          "actualStart": 1794.8653729999996,
+          "actualEnd": 1926.2902059999997,
+          "timeDifference": 14.995372999999745
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1911.29,
+          "expectedEnd": 2022.33,
+          "actualStart": 1927.7902059999997,
+          "actualEnd": 2038.8349979999996,
+          "timeDifference": 16.500205999999707
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.040792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Compassionate Communication"
+        },
+        {
+          "startTime": 319.17975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Compassionate Communication and Chapter 2 Observing Without Judgment: The First Step Toward Clarity"
+        },
+        {
+          "startTime": 538.546875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Observing Without Judgment: The First Step Toward Clarity and Chapter 3 Expressing Feelings Honestly and Listening with Empathy"
+        },
+        {
+          "startTime": 743.003708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Expressing Feelings Honestly and Listening with Empathy and Chapter 4 Recognizing and Expressing Needs to Build Understanding"
+        },
+        {
+          "startTime": 952.4421659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Recognizing and Expressing Needs to Build Understanding and Chapter 5 Making Clear Requests and Fostering Collaboration"
+        },
+        {
+          "startTime": 1156.2263739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Making Clear Requests and Fostering Collaboration and Chapter 6 Applying Nonviolent Communication in Challenging Situations"
+        },
+        {
+          "startTime": 1347.7119569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Applying Nonviolent Communication in Challenging Situations and Chapter 7 Transforming Inner Dialogue: Practicing Self-Compassion"
+        },
+        {
+          "startTime": 1510.7889149999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Transforming Inner Dialogue: Practicing Self-Compassion and Chapter 8 Navigating Power Dynamics and Social Systems"
+        },
+        {
+          "startTime": 1656.2719979999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Power Dynamics and Social Systems and Chapter 9 Integrating Nonviolent Communication into Daily Life"
+        },
+        {
+          "startTime": 1793.3653729999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Nonviolent Communication into Daily Life and Chapter 10 Sustaining Growth: Building a Culture of Compassion"
+        },
+        {
+          "startTime": 1926.2902059999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: Building a Culture of Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3180",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 74,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:25:29.034Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

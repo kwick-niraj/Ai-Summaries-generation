@@ -1,0 +1,576 @@
+{
+  "bookId": "3055",
+  "timestamp": "2025-07-14T15:03:27.661Z",
+  "success": false,
+  "processingTime": -1752505008844,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4558,
+    "totalAudioFiles": 17,
+    "totalDuration": 2658.4073770000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2658.4073770000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3055/optimized_text/3055.md",
+    "fileSize": 1116,
+    "wordCount": 142,
+    "format": "markdown",
+    "filename": "3055.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3055/metadata/3055_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2658.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3055/metadata/3055_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3055/metadata/3055_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3055/3055_complete.wav",
+    "duration": 2658.407375,
+    "fileSize": 127603632,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3055/introduction.wav",
+          "duration": 75.945292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.945292,
+          "startTime": 0,
+          "endTime": 75.945292
+        },
+        {
+          "path": "Audio/output/3055/chapter_01.wav",
+          "duration": 174.140292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Difference Between Investing and Speculating",
+          "actualDuration": 174.140292,
+          "startTime": 77.445292,
+          "endTime": 251.58558399999998
+        },
+        {
+          "path": "Audio/output/3055/chapter_02.wav",
+          "duration": 198.312792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Investor Psychology and Market Behavior",
+          "actualDuration": 198.312792,
+          "startTime": 253.08558399999998,
+          "endTime": 451.398376
+        },
+        {
+          "path": "Audio/output/3055/chapter_03.wav",
+          "duration": 161.435917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Margin of Safety: Protecting Against Uncertainty",
+          "actualDuration": 161.435917,
+          "startTime": 452.898376,
+          "endTime": 614.334293
+        },
+        {
+          "path": "Audio/output/3055/chapter_04.wav",
+          "duration": 191.678208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Two Types of Investors: Defensive and Enterprising Approaches",
+          "actualDuration": 191.678208,
+          "startTime": 615.834293,
+          "endTime": 807.512501
+        },
+        {
+          "path": "Audio/output/3055/chapter_05.wav",
+          "duration": 168.315542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intrinsic Value and the Importance of Fundamental Analysis",
+          "actualDuration": 168.315542,
+          "startTime": 809.012501,
+          "endTime": 977.328043
+        },
+        {
+          "path": "Audio/output/3055/chapter_06.wav",
+          "duration": 166.222333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Diversification and Risk Management for Long-Term Success",
+          "actualDuration": 166.222333,
+          "startTime": 978.828043,
+          "endTime": 1145.050376
+        },
+        {
+          "path": "Audio/output/3055/chapter_07.wav",
+          "duration": 150.921292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Discipline of Long-Term, Patient Investing",
+          "actualDuration": 150.921292,
+          "startTime": 1146.550376,
+          "endTime": 1297.471668
+        },
+        {
+          "path": "Audio/output/3055/chapter_08.wav",
+          "duration": 190.5715,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building a Sound Investment Portfolio: Asset Allocation and Rebalancing",
+          "actualDuration": 190.5715,
+          "startTime": 1298.971668,
+          "endTime": 1489.543168
+        },
+        {
+          "path": "Audio/output/3055/chapter_09.wav",
+          "duration": 154.209333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Evaluating Individual Stocks: Criteria for Selection",
+          "actualDuration": 154.209333,
+          "startTime": 1491.043168,
+          "endTime": 1645.252501
+        },
+        {
+          "path": "Audio/output/3055/chapter_10.wav",
+          "duration": 149.775292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bonds and Fixed-Income Investments: Safety and Income",
+          "actualDuration": 149.775292,
+          "startTime": 1646.752501,
+          "endTime": 1796.527793
+        },
+        {
+          "path": "Audio/output/3055/chapter_11.wav",
+          "duration": 146.920167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Common Pitfalls and How to Avoid Them",
+          "actualDuration": 146.920167,
+          "startTime": 1798.027793,
+          "endTime": 1944.94796
+        },
+        {
+          "path": "Audio/output/3055/chapter_12.wav",
+          "duration": 162.977292,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Role of Professional Advice and Investment Funds",
+          "actualDuration": 162.977292,
+          "startTime": 1946.44796,
+          "endTime": 2109.425252
+        },
+        {
+          "path": "Audio/output/3055/chapter_13.wav",
+          "duration": 146.285167,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Adapting to Changing Markets: Flexibility and Resilience",
+          "actualDuration": 146.285167,
+          "startTime": 2110.925252,
+          "endTime": 2257.210419
+        },
+        {
+          "path": "Audio/output/3055/chapter_14.wav",
+          "duration": 138.1435,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Special Situations and Advanced Strategies",
+          "actualDuration": 138.1435,
+          "startTime": 2258.710419,
+          "endTime": 2396.853919
+        },
+        {
+          "path": "Audio/output/3055/chapter_15.wav",
+          "duration": 127.374458,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Psychology of the Intelligent Investor: Cultivating the Right Mindset",
+          "actualDuration": 127.374458,
+          "startTime": 2398.353919,
+          "endTime": 2525.7283770000004
+        },
+        {
+          "path": "Audio/output/3055/conclusion.wav",
+          "duration": 155.179,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.179,
+          "startTime": 2527.2283770000004,
+          "endTime": 2682.4073770000005
+        }
+      ],
+      "totalDuration": 2682.4073770000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.95,
+          "actualStart": 0,
+          "actualEnd": 75.945292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Difference Between Investing and Speculating",
+          "expectedStart": 75.95,
+          "expectedEnd": 250.09,
+          "actualStart": 77.445292,
+          "actualEnd": 251.58558399999998,
+          "timeDifference": 1.495291999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Investor Psychology and Market Behavior",
+          "expectedStart": 250.09,
+          "expectedEnd": 448.4,
+          "actualStart": 253.08558399999998,
+          "actualEnd": 451.398376,
+          "timeDifference": 2.9955839999999796
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Margin of Safety: Protecting Against Uncertainty",
+          "expectedStart": 448.4,
+          "expectedEnd": 609.84,
+          "actualStart": 452.898376,
+          "actualEnd": 614.334293,
+          "timeDifference": 4.4983760000000075
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Two Types of Investors: Defensive and Enterprising Approaches",
+          "expectedStart": 609.84,
+          "expectedEnd": 801.52,
+          "actualStart": 615.834293,
+          "actualEnd": 807.512501,
+          "timeDifference": 5.994292999999971
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intrinsic Value and the Importance of Fundamental Analysis",
+          "expectedStart": 801.52,
+          "expectedEnd": 969.84,
+          "actualStart": 809.012501,
+          "actualEnd": 977.328043,
+          "timeDifference": 7.492501000000061
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Diversification and Risk Management for Long-Term Success",
+          "expectedStart": 969.84,
+          "expectedEnd": 1136.06,
+          "actualStart": 978.828043,
+          "actualEnd": 1145.050376,
+          "timeDifference": 8.988042999999948
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Discipline of Long-Term, Patient Investing",
+          "expectedStart": 1136.06,
+          "expectedEnd": 1286.98,
+          "actualStart": 1146.550376,
+          "actualEnd": 1297.471668,
+          "timeDifference": 10.49037599999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building a Sound Investment Portfolio: Asset Allocation and Rebalancing",
+          "expectedStart": 1286.98,
+          "expectedEnd": 1477.55,
+          "actualStart": 1298.971668,
+          "actualEnd": 1489.543168,
+          "timeDifference": 11.99166799999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Evaluating Individual Stocks: Criteria for Selection",
+          "expectedStart": 1477.55,
+          "expectedEnd": 1631.76,
+          "actualStart": 1491.043168,
+          "actualEnd": 1645.252501,
+          "timeDifference": 13.493167999999969
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bonds and Fixed-Income Investments: Safety and Income",
+          "expectedStart": 1631.76,
+          "expectedEnd": 1781.54,
+          "actualStart": 1646.752501,
+          "actualEnd": 1796.527793,
+          "timeDifference": 14.992500999999947
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Common Pitfalls and How to Avoid Them",
+          "expectedStart": 1781.54,
+          "expectedEnd": 1928.46,
+          "actualStart": 1798.027793,
+          "actualEnd": 1944.94796,
+          "timeDifference": 16.48779300000001
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Role of Professional Advice and Investment Funds",
+          "expectedStart": 1928.46,
+          "expectedEnd": 2091.44,
+          "actualStart": 1946.44796,
+          "actualEnd": 2109.425252,
+          "timeDifference": 17.98795999999993
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Adapting to Changing Markets: Flexibility and Resilience",
+          "expectedStart": 2091.44,
+          "expectedEnd": 2237.73,
+          "actualStart": 2110.925252,
+          "actualEnd": 2257.210419,
+          "timeDifference": 19.485251999999946
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Special Situations and Advanced Strategies",
+          "expectedStart": 2237.73,
+          "expectedEnd": 2375.87,
+          "actualStart": 2258.710419,
+          "actualEnd": 2396.853919,
+          "timeDifference": 20.980418999999983
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Psychology of the Intelligent Investor: Cultivating the Right Mindset",
+          "expectedStart": 2375.87,
+          "expectedEnd": 2503.24,
+          "actualStart": 2398.353919,
+          "actualEnd": 2525.7283770000004,
+          "timeDifference": 22.483919000000242
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2503.24,
+          "expectedEnd": 2658.42,
+          "actualStart": 2527.2283770000004,
+          "actualEnd": 2682.4073770000005,
+          "timeDifference": 23.988377000000582
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.945292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Difference Between Investing and Speculating"
+        },
+        {
+          "startTime": 251.58558399999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Difference Between Investing and Speculating and Chapter 2 The Role of Investor Psychology and Market Behavior"
+        },
+        {
+          "startTime": 451.398376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Investor Psychology and Market Behavior and Chapter 3 The Margin of Safety: Protecting Against Uncertainty"
+        },
+        {
+          "startTime": 614.334293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Margin of Safety: Protecting Against Uncertainty and Chapter 4 Two Types of Investors: Defensive and Enterprising Approaches"
+        },
+        {
+          "startTime": 807.512501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Two Types of Investors: Defensive and Enterprising Approaches and Chapter 5 Intrinsic Value and the Importance of Fundamental Analysis"
+        },
+        {
+          "startTime": 977.328043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intrinsic Value and the Importance of Fundamental Analysis and Chapter 6 Diversification and Risk Management for Long-Term Success"
+        },
+        {
+          "startTime": 1145.050376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Diversification and Risk Management for Long-Term Success and Chapter 7 The Discipline of Long-Term, Patient Investing"
+        },
+        {
+          "startTime": 1297.471668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Discipline of Long-Term, Patient Investing and Chapter 8 Building a Sound Investment Portfolio: Asset Allocation and Rebalancing"
+        },
+        {
+          "startTime": 1489.543168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building a Sound Investment Portfolio: Asset Allocation and Rebalancing and Chapter 9 Evaluating Individual Stocks: Criteria for Selection"
+        },
+        {
+          "startTime": 1645.252501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Evaluating Individual Stocks: Criteria for Selection and Chapter 10 Bonds and Fixed-Income Investments: Safety and Income"
+        },
+        {
+          "startTime": 1796.527793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bonds and Fixed-Income Investments: Safety and Income and Chapter 11 Common Pitfalls and How to Avoid Them"
+        },
+        {
+          "startTime": 1944.94796,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Common Pitfalls and How to Avoid Them and Chapter 12 The Role of Professional Advice and Investment Funds"
+        },
+        {
+          "startTime": 2109.425252,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Role of Professional Advice and Investment Funds and Chapter 13 Adapting to Changing Markets: Flexibility and Resilience"
+        },
+        {
+          "startTime": 2257.210419,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Adapting to Changing Markets: Flexibility and Resilience and Chapter 14 Special Situations and Advanced Strategies"
+        },
+        {
+          "startTime": 2396.853919,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Special Situations and Advanced Strategies and Chapter 15 The Psychology of the Intelligent Investor: Cultivating the Right Mindset"
+        },
+        {
+          "startTime": 2525.7283770000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Psychology of the Intelligent Investor: Cultivating the Right Mindset and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3055",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T14:56:50.049Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

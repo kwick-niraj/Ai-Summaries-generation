@@ -1,0 +1,432 @@
+{
+  "bookId": "3026",
+  "timestamp": "2025-07-14T12:43:47.245Z",
+  "success": false,
+  "processingTime": -1752496729799,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4114,
+    "totalAudioFiles": 12,
+    "totalDuration": 1715.232959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1715.232959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3026/optimized_text/3026.md",
+    "fileSize": 679,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "3026.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3026/metadata/3026_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1715.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3026/metadata/3026_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3026/metadata/3026_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3026/3026_complete.wav",
+    "duration": 1715.232958,
+    "fileSize": 82331260,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3026/chapter_01.wav",
+          "duration": 219.900208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Oldest Story: How Women’s Voices Were Silenced",
+          "actualDuration": 219.900208,
+          "startTime": 0,
+          "endTime": 219.900208
+        },
+        {
+          "path": "Audio/output/3026/chapter_02.wav",
+          "duration": 210.117292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Power and Its Shape: Why Authority Looks Male",
+          "actualDuration": 210.117292,
+          "startTime": 221.400208,
+          "endTime": 431.5175
+        },
+        {
+          "path": "Audio/output/3026/chapter_03.wav",
+          "duration": 185.225708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Public Shame and the Policing of Women’s Authority",
+          "actualDuration": 185.225708,
+          "startTime": 433.0175,
+          "endTime": 618.243208
+        },
+        {
+          "path": "Audio/output/3026/chapter_04.wav",
+          "duration": 169.9095,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Challenging the Stories That Justify Exclusion",
+          "actualDuration": 169.9095,
+          "startTime": 619.743208,
+          "endTime": 789.652708
+        },
+        {
+          "path": "Audio/output/3026/chapter_05.wav",
+          "duration": 163.473375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Power: Building a New Model for Everyone",
+          "actualDuration": 163.473375,
+          "startTime": 791.152708,
+          "endTime": 954.626083
+        },
+        {
+          "path": "Audio/output/3026/chapter_06.wav",
+          "duration": 165.608042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Backlash: When Change Meets Resistance",
+          "actualDuration": 165.608042,
+          "startTime": 956.126083,
+          "endTime": 1121.734125
+        },
+        {
+          "path": "Audio/output/3026/chapter_07.wav",
+          "duration": 132.693417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Double Standard: Judging Women’s Power",
+          "actualDuration": 132.693417,
+          "startTime": 1123.234125,
+          "endTime": 1255.927542
+        },
+        {
+          "path": "Audio/output/3026/chapter_08.wav",
+          "duration": 130.026792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Solidarity: Building Networks of Support",
+          "actualDuration": 130.026792,
+          "startTime": 1257.427542,
+          "endTime": 1387.454334
+        },
+        {
+          "path": "Audio/output/3026/chapter_09.wav",
+          "duration": 124.140625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Rewriting the Script: New Stories, New Possibilities",
+          "actualDuration": 124.140625,
+          "startTime": 1388.954334,
+          "endTime": 1513.094959
+        },
+        {
+          "path": "Audio/output/3026/chapter_10.wav",
+          "duration": 104.316333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Work Ahead: Creating Lasting Change",
+          "actualDuration": 104.316333,
+          "startTime": 1514.594959,
+          "endTime": 1618.911292
+        },
+        {
+          "path": "Audio/output/3026/conclusion.wav",
+          "duration": 109.821667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.821667,
+          "startTime": 1620.411292,
+          "endTime": 1730.232959
+        }
+      ],
+      "totalDuration": 1730.232959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Oldest Story: How Women’s Voices Were Silenced",
+          "expectedStart": 0,
+          "expectedEnd": 219.9,
+          "actualStart": 0,
+          "actualEnd": 219.900208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Power and Its Shape: Why Authority Looks Male",
+          "expectedStart": 219.9,
+          "expectedEnd": 430.02,
+          "actualStart": 221.400208,
+          "actualEnd": 431.5175,
+          "timeDifference": 1.5002079999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Public Shame and the Policing of Women’s Authority",
+          "expectedStart": 430.02,
+          "expectedEnd": 615.25,
+          "actualStart": 433.0175,
+          "actualEnd": 618.243208,
+          "timeDifference": 2.9975000000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Challenging the Stories That Justify Exclusion",
+          "expectedStart": 615.25,
+          "expectedEnd": 785.16,
+          "actualStart": 619.743208,
+          "actualEnd": 789.652708,
+          "timeDifference": 4.493207999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Power: Building a New Model for Everyone",
+          "expectedStart": 785.16,
+          "expectedEnd": 948.63,
+          "actualStart": 791.152708,
+          "actualEnd": 954.626083,
+          "timeDifference": 5.992707999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Backlash: When Change Meets Resistance",
+          "expectedStart": 948.63,
+          "expectedEnd": 1114.24,
+          "actualStart": 956.126083,
+          "actualEnd": 1121.734125,
+          "timeDifference": 7.496082999999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Double Standard: Judging Women’s Power",
+          "expectedStart": 1114.24,
+          "expectedEnd": 1246.93,
+          "actualStart": 1123.234125,
+          "actualEnd": 1255.927542,
+          "timeDifference": 8.99412499999994
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Solidarity: Building Networks of Support",
+          "expectedStart": 1246.93,
+          "expectedEnd": 1376.96,
+          "actualStart": 1257.427542,
+          "actualEnd": 1387.454334,
+          "timeDifference": 10.49754199999984
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Rewriting the Script: New Stories, New Possibilities",
+          "expectedStart": 1376.96,
+          "expectedEnd": 1501.1,
+          "actualStart": 1388.954334,
+          "actualEnd": 1513.094959,
+          "timeDifference": 11.99433399999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Work Ahead: Creating Lasting Change",
+          "expectedStart": 1501.1,
+          "expectedEnd": 1605.42,
+          "actualStart": 1514.594959,
+          "actualEnd": 1618.911292,
+          "timeDifference": 13.494959000000108
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1605.42,
+          "expectedEnd": 1715.24,
+          "actualStart": 1620.411292,
+          "actualEnd": 1730.232959,
+          "timeDifference": 14.99129199999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 219.900208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Oldest Story: How Women’s Voices Were Silenced and Chapter 2 Power and Its Shape: Why Authority Looks Male"
+        },
+        {
+          "startTime": 431.5175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Power and Its Shape: Why Authority Looks Male and Chapter 3 Public Shame and the Policing of Women’s Authority"
+        },
+        {
+          "startTime": 618.243208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Public Shame and the Policing of Women’s Authority and Chapter 4 Challenging the Stories That Justify Exclusion"
+        },
+        {
+          "startTime": 789.652708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Challenging the Stories That Justify Exclusion and Chapter 5 Rethinking Power: Building a New Model for Everyone"
+        },
+        {
+          "startTime": 954.626083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Power: Building a New Model for Everyone and Chapter 6 The Backlash: When Change Meets Resistance"
+        },
+        {
+          "startTime": 1121.734125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Backlash: When Change Meets Resistance and Chapter 7 The Double Standard: Judging Women’s Power"
+        },
+        {
+          "startTime": 1255.927542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Double Standard: Judging Women’s Power and Chapter 8 The Power of Solidarity: Building Networks of Support"
+        },
+        {
+          "startTime": 1387.454334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Solidarity: Building Networks of Support and Chapter 9 Rewriting the Script: New Stories, New Possibilities"
+        },
+        {
+          "startTime": 1513.094959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Rewriting the Script: New Stories, New Possibilities and Chapter 10 The Work Ahead: Creating Lasting Change"
+        },
+        {
+          "startTime": 1618.911292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Work Ahead: Creating Lasting Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3026",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:38:50.344Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

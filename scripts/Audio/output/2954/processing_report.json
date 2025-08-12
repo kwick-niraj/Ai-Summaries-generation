@@ -1,0 +1,456 @@
+{
+  "bookId": "2954",
+  "timestamp": "2025-07-14T07:00:40.404Z",
+  "success": false,
+  "processingTime": -1752476150931,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4693,
+    "totalAudioFiles": 12,
+    "totalDuration": 2078.113707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2078.113707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2954/optimized_text/2954.md",
+    "fileSize": 657,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2954.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2954/metadata/2954_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2078.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2954/metadata/2954_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2954/metadata/2954_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2954/2954_complete.wav",
+    "duration": 2078.113708,
+    "fileSize": 99749536,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2954/introduction.wav",
+          "duration": 86.078625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.078625,
+          "startTime": 0,
+          "endTime": 86.078625
+        },
+        {
+          "path": "Audio/output/2954/chapter_01.wav",
+          "duration": 280.490458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Families Uprooted by Fear and Suspicion",
+          "actualDuration": 280.490458,
+          "startTime": 87.578625,
+          "endTime": 368.069083
+        },
+        {
+          "path": "Audio/output/2954/chapter_02.wav",
+          "duration": 258.731667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle for Identity and Belonging",
+          "actualDuration": 258.731667,
+          "startTime": 369.569083,
+          "endTime": 628.30075
+        },
+        {
+          "path": "Audio/output/2954/chapter_03.wav",
+          "duration": 251.741333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Courage on the Battlefield and the Fight for Recognition",
+          "actualDuration": 251.741333,
+          "startTime": 629.80075,
+          "endTime": 881.542083
+        },
+        {
+          "path": "Audio/output/2954/chapter_04.wav",
+          "duration": 197.614833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Injustice and the Long Road Home",
+          "actualDuration": 197.614833,
+          "startTime": 883.042083,
+          "endTime": 1080.6569160000001
+        },
+        {
+          "path": "Audio/output/2954/chapter_05.wav",
+          "duration": 194.651458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Patriotism and the Ongoing Fight for Justice",
+          "actualDuration": 194.651458,
+          "startTime": 1082.1569160000001,
+          "endTime": 1276.8083740000002
+        },
+        {
+          "path": "Audio/output/2954/chapter_06.wav",
+          "duration": 178.587417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Silence and the Stories Left Unspoken",
+          "actualDuration": 178.587417,
+          "startTime": 1278.3083740000002,
+          "endTime": 1456.8957910000001
+        },
+        {
+          "path": "Audio/output/2954/chapter_07.wav",
+          "duration": 155.219625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Generations in the Shadow of Incarceration",
+          "actualDuration": 155.219625,
+          "startTime": 1458.3957910000001,
+          "endTime": 1613.615416
+        },
+        {
+          "path": "Audio/output/2954/chapter_08.wav",
+          "duration": 133.004625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Memorials, and the Power of Remembrance",
+          "actualDuration": 133.004625,
+          "startTime": 1615.115416,
+          "endTime": 1748.1200410000001
+        },
+        {
+          "path": "Audio/output/2954/chapter_09.wav",
+          "duration": 129.391458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for a Changing America",
+          "actualDuration": 129.391458,
+          "startTime": 1749.6200410000001,
+          "endTime": 1879.0114990000002
+        },
+        {
+          "path": "Audio/output/2954/chapter_10.wav",
+          "duration": 102.027875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit—Carrying the Mountain Forward",
+          "actualDuration": 102.027875,
+          "startTime": 1880.5114990000002,
+          "endTime": 1982.5393740000002
+        },
+        {
+          "path": "Audio/output/2954/conclusion.wav",
+          "duration": 110.574333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.574333,
+          "startTime": 1984.0393740000002,
+          "endTime": 2094.613707
+        }
+      ],
+      "totalDuration": 2094.613707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.08,
+          "actualStart": 0,
+          "actualEnd": 86.078625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Families Uprooted by Fear and Suspicion",
+          "expectedStart": 86.08,
+          "expectedEnd": 366.57,
+          "actualStart": 87.578625,
+          "actualEnd": 368.069083,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle for Identity and Belonging",
+          "expectedStart": 366.57,
+          "expectedEnd": 625.3,
+          "actualStart": 369.569083,
+          "actualEnd": 628.30075,
+          "timeDifference": 2.9990829999999846
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Courage on the Battlefield and the Fight for Recognition",
+          "expectedStart": 625.3,
+          "expectedEnd": 877.04,
+          "actualStart": 629.80075,
+          "actualEnd": 881.542083,
+          "timeDifference": 4.500750000000039
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Injustice and the Long Road Home",
+          "expectedStart": 877.04,
+          "expectedEnd": 1074.65,
+          "actualStart": 883.042083,
+          "actualEnd": 1080.6569160000001,
+          "timeDifference": 6.002083000000084
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Patriotism and the Ongoing Fight for Justice",
+          "expectedStart": 1074.65,
+          "expectedEnd": 1269.3,
+          "actualStart": 1082.1569160000001,
+          "actualEnd": 1276.8083740000002,
+          "timeDifference": 7.5069160000000466
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Silence and the Stories Left Unspoken",
+          "expectedStart": 1269.3,
+          "expectedEnd": 1447.89,
+          "actualStart": 1278.3083740000002,
+          "actualEnd": 1456.8957910000001,
+          "timeDifference": 9.00837400000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Generations in the Shadow of Incarceration",
+          "expectedStart": 1447.89,
+          "expectedEnd": 1603.11,
+          "actualStart": 1458.3957910000001,
+          "actualEnd": 1613.615416,
+          "timeDifference": 10.505791000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Memorials, and the Power of Remembrance",
+          "expectedStart": 1603.11,
+          "expectedEnd": 1736.11,
+          "actualStart": 1615.115416,
+          "actualEnd": 1748.1200410000001,
+          "timeDifference": 12.005416000000196
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for a Changing America",
+          "expectedStart": 1736.11,
+          "expectedEnd": 1865.5,
+          "actualStart": 1749.6200410000001,
+          "actualEnd": 1879.0114990000002,
+          "timeDifference": 13.510041000000228
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit—Carrying the Mountain Forward",
+          "expectedStart": 1865.5,
+          "expectedEnd": 1967.53,
+          "actualStart": 1880.5114990000002,
+          "actualEnd": 1982.5393740000002,
+          "timeDifference": 15.011499000000185
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1967.53,
+          "expectedEnd": 2078.1,
+          "actualStart": 1984.0393740000002,
+          "actualEnd": 2094.613707,
+          "timeDifference": 16.509374000000207
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.078625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Families Uprooted by Fear and Suspicion"
+        },
+        {
+          "startTime": 368.069083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Families Uprooted by Fear and Suspicion and Chapter 2 The Struggle for Identity and Belonging"
+        },
+        {
+          "startTime": 628.30075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle for Identity and Belonging and Chapter 3 Courage on the Battlefield and the Fight for Recognition"
+        },
+        {
+          "startTime": 881.542083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Courage on the Battlefield and the Fight for Recognition and Chapter 4 The Cost of Injustice and the Long Road Home"
+        },
+        {
+          "startTime": 1080.6569160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Injustice and the Long Road Home and Chapter 5 Redefining Patriotism and the Ongoing Fight for Justice"
+        },
+        {
+          "startTime": 1276.8083740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Patriotism and the Ongoing Fight for Justice and Chapter 6 The Weight of Silence and the Stories Left Unspoken"
+        },
+        {
+          "startTime": 1456.8957910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Silence and the Stories Left Unspoken and Chapter 7 Generations in the Shadow of Incarceration"
+        },
+        {
+          "startTime": 1613.615416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Generations in the Shadow of Incarceration and Chapter 8 Memory, Memorials, and the Power of Remembrance"
+        },
+        {
+          "startTime": 1748.1200410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Memorials, and the Power of Remembrance and Chapter 9 Lessons for a Changing America"
+        },
+        {
+          "startTime": 1879.0114990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for a Changing America and Chapter 10 The Enduring Spirit—Carrying the Mountain Forward"
+        },
+        {
+          "startTime": 1982.5393740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit—Carrying the Mountain Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2954",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:55:52.243Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3091",
+  "timestamp": "2025-07-14T17:41:49.286Z",
+  "success": false,
+  "processingTime": -1752514519379,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4686,
+    "totalAudioFiles": 12,
+    "totalDuration": 2210.949833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2210.949833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3091/optimized_text/3091.md",
+    "fileSize": 848,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "3091.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3091/metadata/3091_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2210.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3091/metadata/3091_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3091/metadata/3091_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3091/3091_complete.wav",
+    "duration": 2210.949833,
+    "fileSize": 106125670,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3091/introduction.wav",
+          "duration": 84.143,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.143,
+          "startTime": 0,
+          "endTime": 84.143
+        },
+        {
+          "path": "Audio/output/3091/chapter_01.wav",
+          "duration": 215.090833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Meaning and the Birth of a New Faith",
+          "actualDuration": 215.090833,
+          "startTime": 85.643,
+          "endTime": 300.733833
+        },
+        {
+          "path": "Audio/output/3091/chapter_02.wav",
+          "duration": 231.296042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building an Empire: Power, Control, and the Making of a Movement",
+          "actualDuration": 231.296042,
+          "startTime": 302.233833,
+          "endTime": 533.529875
+        },
+        {
+          "path": "Audio/output/3091/chapter_03.wav",
+          "duration": 224.847333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Hollywood’s Embrace: Celebrity, Image, and the Allure of Influence",
+          "actualDuration": 224.847333,
+          "startTime": 535.029875,
+          "endTime": 759.8772079999999
+        },
+        {
+          "path": "Audio/output/3091/chapter_04.wav",
+          "duration": 222.633792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The High Price of Loyalty: Dissent, Defection, and the Struggle for Freedom",
+          "actualDuration": 222.633792,
+          "startTime": 761.3772079999999,
+          "endTime": 984.0109999999999
+        },
+        {
+          "path": "Audio/output/3091/chapter_05.wav",
+          "duration": 203.634958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Secrets, Surveillance, and the Battle for the Truth",
+          "actualDuration": 203.634958,
+          "startTime": 985.5109999999999,
+          "endTime": 1189.1459579999998
+        },
+        {
+          "path": "Audio/output/3091/chapter_06.wav",
+          "duration": 201.954417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Inner Sanctum: Life at the Core of the Organization",
+          "actualDuration": 201.954417,
+          "startTime": 1190.6459579999998,
+          "endTime": 1392.6003749999998
+        },
+        {
+          "path": "Audio/output/3091/chapter_07.wav",
+          "duration": 190.321333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Leader’s Shadow: Succession, Transformation, and the Tightening Grip",
+          "actualDuration": 190.321333,
+          "startTime": 1394.1003749999998,
+          "endTime": 1584.4217079999999
+        },
+        {
+          "path": "Audio/output/3091/chapter_08.wav",
+          "duration": 187.543,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cost of Belief: Families, Children, and the Toll of Devotion",
+          "actualDuration": 187.543,
+          "startTime": 1585.9217079999999,
+          "endTime": 1773.464708
+        },
+        {
+          "path": "Audio/output/3091/chapter_09.wav",
+          "duration": 196.057458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Breaking the Spell: Whistleblowers, Investigations, and the Power of Story",
+          "actualDuration": 196.057458,
+          "startTime": 1774.964708,
+          "endTime": 1971.022166
+        },
+        {
+          "path": "Audio/output/3091/chapter_10.wav",
+          "duration": 132.258292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Legacy: Reflection, Reckoning, and the Search for Healing",
+          "actualDuration": 132.258292,
+          "startTime": 1972.522166,
+          "endTime": 2104.780458
+        },
+        {
+          "path": "Audio/output/3091/conclusion.wav",
+          "duration": 121.169375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.169375,
+          "startTime": 2106.280458,
+          "endTime": 2227.449833
+        }
+      ],
+      "totalDuration": 2227.449833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.14,
+          "actualStart": 0,
+          "actualEnd": 84.143,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Meaning and the Birth of a New Faith",
+          "expectedStart": 84.14,
+          "expectedEnd": 299.23,
+          "actualStart": 85.643,
+          "actualEnd": 300.733833,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building an Empire: Power, Control, and the Making of a Movement",
+          "expectedStart": 299.23,
+          "expectedEnd": 530.53,
+          "actualStart": 302.233833,
+          "actualEnd": 533.529875,
+          "timeDifference": 3.003832999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Hollywood’s Embrace: Celebrity, Image, and the Allure of Influence",
+          "expectedStart": 530.53,
+          "expectedEnd": 755.38,
+          "actualStart": 535.029875,
+          "actualEnd": 759.8772079999999,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The High Price of Loyalty: Dissent, Defection, and the Struggle for Freedom",
+          "expectedStart": 755.38,
+          "expectedEnd": 978.01,
+          "actualStart": 761.3772079999999,
+          "actualEnd": 984.0109999999999,
+          "timeDifference": 5.997207999999887
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Secrets, Surveillance, and the Battle for the Truth",
+          "expectedStart": 978.01,
+          "expectedEnd": 1181.64,
+          "actualStart": 985.5109999999999,
+          "actualEnd": 1189.1459579999998,
+          "timeDifference": 7.500999999999863
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Inner Sanctum: Life at the Core of the Organization",
+          "expectedStart": 1181.64,
+          "expectedEnd": 1383.59,
+          "actualStart": 1190.6459579999998,
+          "actualEnd": 1392.6003749999998,
+          "timeDifference": 9.005957999999737
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Leader’s Shadow: Succession, Transformation, and the Tightening Grip",
+          "expectedStart": 1383.59,
+          "expectedEnd": 1573.91,
+          "actualStart": 1394.1003749999998,
+          "actualEnd": 1584.4217079999999,
+          "timeDifference": 10.51037499999984
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cost of Belief: Families, Children, and the Toll of Devotion",
+          "expectedStart": 1573.91,
+          "expectedEnd": 1761.45,
+          "actualStart": 1585.9217079999999,
+          "actualEnd": 1773.464708,
+          "timeDifference": 12.011707999999771
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Breaking the Spell: Whistleblowers, Investigations, and the Power of Story",
+          "expectedStart": 1761.45,
+          "expectedEnd": 1957.51,
+          "actualStart": 1774.964708,
+          "actualEnd": 1971.022166,
+          "timeDifference": 13.514707999999928
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Legacy: Reflection, Reckoning, and the Search for Healing",
+          "expectedStart": 1957.51,
+          "expectedEnd": 2089.77,
+          "actualStart": 1972.522166,
+          "actualEnd": 2104.780458,
+          "timeDifference": 15.01216599999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2089.77,
+          "expectedEnd": 2210.94,
+          "actualStart": 2106.280458,
+          "actualEnd": 2227.449833,
+          "timeDifference": 16.5104580000002
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.143,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Meaning and the Birth of a New Faith"
+        },
+        {
+          "startTime": 300.733833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Meaning and the Birth of a New Faith and Chapter 2 Building an Empire: Power, Control, and the Making of a Movement"
+        },
+        {
+          "startTime": 533.529875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building an Empire: Power, Control, and the Making of a Movement and Chapter 3 Hollywood’s Embrace: Celebrity, Image, and the Allure of Influence"
+        },
+        {
+          "startTime": 759.8772079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Hollywood’s Embrace: Celebrity, Image, and the Allure of Influence and Chapter 4 The High Price of Loyalty: Dissent, Defection, and the Struggle for Freedom"
+        },
+        {
+          "startTime": 984.0109999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The High Price of Loyalty: Dissent, Defection, and the Struggle for Freedom and Chapter 5 Secrets, Surveillance, and the Battle for the Truth"
+        },
+        {
+          "startTime": 1189.1459579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Secrets, Surveillance, and the Battle for the Truth and Chapter 6 The Inner Sanctum: Life at the Core of the Organization"
+        },
+        {
+          "startTime": 1392.6003749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Inner Sanctum: Life at the Core of the Organization and Chapter 7 The Leader’s Shadow: Succession, Transformation, and the Tightening Grip"
+        },
+        {
+          "startTime": 1584.4217079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Leader’s Shadow: Succession, Transformation, and the Tightening Grip and Chapter 8 The Cost of Belief: Families, Children, and the Toll of Devotion"
+        },
+        {
+          "startTime": 1773.464708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cost of Belief: Families, Children, and the Toll of Devotion and Chapter 9 Breaking the Spell: Whistleblowers, Investigations, and the Power of Story"
+        },
+        {
+          "startTime": 1971.022166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Breaking the Spell: Whistleblowers, Investigations, and the Power of Story and Chapter 10 The Ongoing Legacy: Reflection, Reckoning, and the Search for Healing"
+        },
+        {
+          "startTime": 2104.780458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Legacy: Reflection, Reckoning, and the Search for Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3091",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:35:19.405Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

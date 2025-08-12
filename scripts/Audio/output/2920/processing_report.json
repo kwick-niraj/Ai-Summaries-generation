@@ -1,0 +1,456 @@
+{
+  "bookId": "2920",
+  "timestamp": "2025-07-14T04:41:52.209Z",
+  "success": false,
+  "processingTime": -1752467739239,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4223,
+    "totalAudioFiles": 12,
+    "totalDuration": 2308.9461669999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2308.9461669999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2920/optimized_text/2920.md",
+    "fileSize": 667,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "2920.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2920/metadata/2920_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2308.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2920/metadata/2920_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2920/metadata/2920_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2920/2920_complete.wav",
+    "duration": 2308.946167,
+    "fileSize": 110829494,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2920/introduction.wav",
+          "duration": 98.082292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.082292,
+          "startTime": 0,
+          "endTime": 98.082292
+        },
+        {
+          "path": "Audio/output/2920/chapter_01.wav",
+          "duration": 211.317292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Critical Importance of Leadership Transitions",
+          "actualDuration": 211.317292,
+          "startTime": 99.582292,
+          "endTime": 310.899584
+        },
+        {
+          "path": "Audio/output/2920/chapter_02.wav",
+          "duration": 259.877042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Diagnosing the Situation and Understanding the Context",
+          "actualDuration": 259.877042,
+          "startTime": 312.399584,
+          "endTime": 572.2766260000001
+        },
+        {
+          "path": "Audio/output/2920/chapter_03.wav",
+          "duration": 217.670583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Accelerating Learning and Building Foundational Knowledge",
+          "actualDuration": 217.670583,
+          "startTime": 573.7766260000001,
+          "endTime": 791.447209
+        },
+        {
+          "path": "Audio/output/2920/chapter_04.wav",
+          "duration": 229.831417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Securing Early Wins and Establishing Credibility",
+          "actualDuration": 229.831417,
+          "startTime": 792.947209,
+          "endTime": 1022.778626
+        },
+        {
+          "path": "Audio/output/2920/chapter_05.wav",
+          "duration": 229.676292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Relationships and Creating Alliances",
+          "actualDuration": 229.676292,
+          "startTime": 1024.278626,
+          "endTime": 1253.954918
+        },
+        {
+          "path": "Audio/output/2920/chapter_06.wav",
+          "duration": 219.966833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aligning Strategy, Structure, and Team",
+          "actualDuration": 219.966833,
+          "startTime": 1255.454918,
+          "endTime": 1475.4217509999999
+        },
+        {
+          "path": "Audio/output/2920/chapter_07.wav",
+          "duration": 159.81325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Adapting Leadership Style to the Situation",
+          "actualDuration": 159.81325,
+          "startTime": 1476.9217509999999,
+          "endTime": 1636.7350009999998
+        },
+        {
+          "path": "Audio/output/2920/chapter_08.wav",
+          "duration": 184.722125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Avoiding Common Traps and Pitfalls",
+          "actualDuration": 184.722125,
+          "startTime": 1638.2350009999998,
+          "endTime": 1822.9571259999998
+        },
+        {
+          "path": "Audio/output/2920/chapter_09.wav",
+          "duration": 198.73325,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creating Systems for Ongoing Growth and Feedback",
+          "actualDuration": 198.73325,
+          "startTime": 1824.4571259999998,
+          "endTime": 2023.1903759999998
+        },
+        {
+          "path": "Audio/output/2920/chapter_10.wav",
+          "duration": 170.478708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum and Leading for the Long Term",
+          "actualDuration": 170.478708,
+          "startTime": 2024.6903759999998,
+          "endTime": 2195.1690839999997
+        },
+        {
+          "path": "Audio/output/2920/conclusion.wav",
+          "duration": 128.777083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.777083,
+          "startTime": 2196.6690839999997,
+          "endTime": 2325.4461669999996
+        }
+      ],
+      "totalDuration": 2325.4461669999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.08,
+          "actualStart": 0,
+          "actualEnd": 98.082292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Critical Importance of Leadership Transitions",
+          "expectedStart": 98.08,
+          "expectedEnd": 309.4,
+          "actualStart": 99.582292,
+          "actualEnd": 310.899584,
+          "timeDifference": 1.502291999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Diagnosing the Situation and Understanding the Context",
+          "expectedStart": 309.4,
+          "expectedEnd": 569.28,
+          "actualStart": 312.399584,
+          "actualEnd": 572.2766260000001,
+          "timeDifference": 2.999584000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Accelerating Learning and Building Foundational Knowledge",
+          "expectedStart": 569.28,
+          "expectedEnd": 786.95,
+          "actualStart": 573.7766260000001,
+          "actualEnd": 791.447209,
+          "timeDifference": 4.496626000000106
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Securing Early Wins and Establishing Credibility",
+          "expectedStart": 786.95,
+          "expectedEnd": 1016.78,
+          "actualStart": 792.947209,
+          "actualEnd": 1022.778626,
+          "timeDifference": 5.997208999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Relationships and Creating Alliances",
+          "expectedStart": 1016.78,
+          "expectedEnd": 1246.46,
+          "actualStart": 1024.278626,
+          "actualEnd": 1253.954918,
+          "timeDifference": 7.498626000000058
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aligning Strategy, Structure, and Team",
+          "expectedStart": 1246.46,
+          "expectedEnd": 1466.43,
+          "actualStart": 1255.454918,
+          "actualEnd": 1475.4217509999999,
+          "timeDifference": 8.99491799999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Adapting Leadership Style to the Situation",
+          "expectedStart": 1466.43,
+          "expectedEnd": 1626.24,
+          "actualStart": 1476.9217509999999,
+          "actualEnd": 1636.7350009999998,
+          "timeDifference": 10.491750999999795
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Avoiding Common Traps and Pitfalls",
+          "expectedStart": 1626.24,
+          "expectedEnd": 1810.96,
+          "actualStart": 1638.2350009999998,
+          "actualEnd": 1822.9571259999998,
+          "timeDifference": 11.995000999999775
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creating Systems for Ongoing Growth and Feedback",
+          "expectedStart": 1810.96,
+          "expectedEnd": 2009.69,
+          "actualStart": 1824.4571259999998,
+          "actualEnd": 2023.1903759999998,
+          "timeDifference": 13.497125999999753
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum and Leading for the Long Term",
+          "expectedStart": 2009.69,
+          "expectedEnd": 2180.17,
+          "actualStart": 2024.6903759999998,
+          "actualEnd": 2195.1690839999997,
+          "timeDifference": 15.000375999999733
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2180.17,
+          "expectedEnd": 2308.95,
+          "actualStart": 2196.6690839999997,
+          "actualEnd": 2325.4461669999996,
+          "timeDifference": 16.499083999999584
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.082292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Critical Importance of Leadership Transitions"
+        },
+        {
+          "startTime": 310.899584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Critical Importance of Leadership Transitions and Chapter 2 Diagnosing the Situation and Understanding the Context"
+        },
+        {
+          "startTime": 572.2766260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Diagnosing the Situation and Understanding the Context and Chapter 3 Accelerating Learning and Building Foundational Knowledge"
+        },
+        {
+          "startTime": 791.447209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Accelerating Learning and Building Foundational Knowledge and Chapter 4 Securing Early Wins and Establishing Credibility"
+        },
+        {
+          "startTime": 1022.778626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Securing Early Wins and Establishing Credibility and Chapter 5 Building Relationships and Creating Alliances"
+        },
+        {
+          "startTime": 1253.954918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Relationships and Creating Alliances and Chapter 6 Aligning Strategy, Structure, and Team"
+        },
+        {
+          "startTime": 1475.4217509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aligning Strategy, Structure, and Team and Chapter 7 Adapting Leadership Style to the Situation"
+        },
+        {
+          "startTime": 1636.7350009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Adapting Leadership Style to the Situation and Chapter 8 Avoiding Common Traps and Pitfalls"
+        },
+        {
+          "startTime": 1822.9571259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Avoiding Common Traps and Pitfalls and Chapter 9 Creating Systems for Ongoing Growth and Feedback"
+        },
+        {
+          "startTime": 2023.1903759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creating Systems for Ongoing Growth and Feedback and Chapter 10 Sustaining Momentum and Leading for the Long Term"
+        },
+        {
+          "startTime": 2195.1690839999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum and Leading for the Long Term and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2920",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T04:35:40.426Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

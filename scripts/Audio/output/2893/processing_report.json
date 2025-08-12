@@ -1,0 +1,456 @@
+{
+  "bookId": "2893",
+  "timestamp": "2025-07-14T02:43:34.290Z",
+  "success": false,
+  "processingTime": -1752460661129,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4485,
+    "totalAudioFiles": 12,
+    "totalDuration": 1950.8629159999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1950.8629159999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2893/optimized_text/2893.md",
+    "fileSize": 681,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2893.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2893/metadata/2893_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1950.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2893/metadata/2893_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2893/metadata/2893_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2893/2893_complete.wav",
+    "duration": 1950.862917,
+    "fileSize": 93641498,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2893/introduction.wav",
+          "duration": 89.912875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.912875,
+          "startTime": 0,
+          "endTime": 89.912875
+        },
+        {
+          "path": "Audio/output/2893/chapter_01.wav",
+          "duration": 189.499708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Lasting Wealth Begins",
+          "actualDuration": 189.499708,
+          "startTime": 91.412875,
+          "endTime": 280.912583
+        },
+        {
+          "path": "Audio/output/2893/chapter_02.wav",
+          "duration": 185.40225,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Habit of Saving and Living Below One’s Means",
+          "actualDuration": 185.40225,
+          "startTime": 282.412583,
+          "endTime": 467.814833
+        },
+        {
+          "path": "Audio/output/2893/chapter_03.wav",
+          "duration": 185.28575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning to Control Spending and Make Thoughtful Choices",
+          "actualDuration": 185.28575,
+          "startTime": 469.314833,
+          "endTime": 654.600583
+        },
+        {
+          "path": "Audio/output/2893/chapter_04.wav",
+          "duration": 190.20325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Making Money Work and Growing Wealth Through Wise Investments",
+          "actualDuration": 190.20325,
+          "startTime": 656.100583,
+          "endTime": 846.303833
+        },
+        {
+          "path": "Audio/output/2893/chapter_05.wav",
+          "duration": 179.72425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Protecting Wealth and Avoiding Costly Mistakes",
+          "actualDuration": 179.72425,
+          "startTime": 847.803833,
+          "endTime": 1027.5280830000002
+        },
+        {
+          "path": "Audio/output/2893/chapter_06.wav",
+          "duration": 160.456292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dream of Home and the Power of Belonging",
+          "actualDuration": 160.456292,
+          "startTime": 1029.0280830000002,
+          "endTime": 1189.4843750000002
+        },
+        {
+          "path": "Audio/output/2893/chapter_07.wav",
+          "duration": 177.816208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Preparing for the Future and the Unseen Storms",
+          "actualDuration": 177.816208,
+          "startTime": 1190.9843750000002,
+          "endTime": 1368.8005830000002
+        },
+        {
+          "path": "Audio/output/2893/chapter_08.wav",
+          "duration": 162.548583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Value of Lifelong Learning and Seeking Counsel",
+          "actualDuration": 162.548583,
+          "startTime": 1370.3005830000002,
+          "endTime": 1532.8491660000002
+        },
+        {
+          "path": "Audio/output/2893/chapter_09.wav",
+          "duration": 142.330333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Generosity and Giving Back",
+          "actualDuration": 142.330333,
+          "startTime": 1534.3491660000002,
+          "endTime": 1676.6794990000003
+        },
+        {
+          "path": "Audio/output/2893/chapter_10.wav",
+          "duration": 159.82775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Growth, Resilience, and Hope",
+          "actualDuration": 159.82775,
+          "startTime": 1678.1794990000003,
+          "endTime": 1838.0072490000002
+        },
+        {
+          "path": "Audio/output/2893/conclusion.wav",
+          "duration": 127.855667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.855667,
+          "startTime": 1839.5072490000002,
+          "endTime": 1967.3629160000003
+        }
+      ],
+      "totalDuration": 1967.3629160000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.91,
+          "actualStart": 0,
+          "actualEnd": 89.912875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Lasting Wealth Begins",
+          "expectedStart": 89.91,
+          "expectedEnd": 279.41,
+          "actualStart": 91.412875,
+          "actualEnd": 280.912583,
+          "timeDifference": 1.502875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Habit of Saving and Living Below One’s Means",
+          "expectedStart": 279.41,
+          "expectedEnd": 464.81,
+          "actualStart": 282.412583,
+          "actualEnd": 467.814833,
+          "timeDifference": 3.0025829999999587
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning to Control Spending and Make Thoughtful Choices",
+          "expectedStart": 464.81,
+          "expectedEnd": 650.1,
+          "actualStart": 469.314833,
+          "actualEnd": 654.600583,
+          "timeDifference": 4.504833000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Making Money Work and Growing Wealth Through Wise Investments",
+          "expectedStart": 650.1,
+          "expectedEnd": 840.3,
+          "actualStart": 656.100583,
+          "actualEnd": 846.303833,
+          "timeDifference": 6.000583000000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Protecting Wealth and Avoiding Costly Mistakes",
+          "expectedStart": 840.3,
+          "expectedEnd": 1020.02,
+          "actualStart": 847.803833,
+          "actualEnd": 1027.5280830000002,
+          "timeDifference": 7.5038330000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dream of Home and the Power of Belonging",
+          "expectedStart": 1020.02,
+          "expectedEnd": 1180.48,
+          "actualStart": 1029.0280830000002,
+          "actualEnd": 1189.4843750000002,
+          "timeDifference": 9.00808300000017
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Preparing for the Future and the Unseen Storms",
+          "expectedStart": 1180.48,
+          "expectedEnd": 1358.3,
+          "actualStart": 1190.9843750000002,
+          "actualEnd": 1368.8005830000002,
+          "timeDifference": 10.50437500000021
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Value of Lifelong Learning and Seeking Counsel",
+          "expectedStart": 1358.3,
+          "expectedEnd": 1520.85,
+          "actualStart": 1370.3005830000002,
+          "actualEnd": 1532.8491660000002,
+          "timeDifference": 12.000583000000233
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Generosity and Giving Back",
+          "expectedStart": 1520.85,
+          "expectedEnd": 1663.18,
+          "actualStart": 1534.3491660000002,
+          "actualEnd": 1676.6794990000003,
+          "timeDifference": 13.499166000000287
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Growth, Resilience, and Hope",
+          "expectedStart": 1663.18,
+          "expectedEnd": 1823.01,
+          "actualStart": 1678.1794990000003,
+          "actualEnd": 1838.0072490000002,
+          "timeDifference": 14.999499000000242
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823.01,
+          "expectedEnd": 1950.87,
+          "actualStart": 1839.5072490000002,
+          "actualEnd": 1967.3629160000003,
+          "timeDifference": 16.497249000000238
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.912875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Lasting Wealth Begins"
+        },
+        {
+          "startTime": 280.912583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Lasting Wealth Begins and Chapter 2 The Habit of Saving and Living Below One’s Means"
+        },
+        {
+          "startTime": 467.814833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Habit of Saving and Living Below One’s Means and Chapter 3 Learning to Control Spending and Make Thoughtful Choices"
+        },
+        {
+          "startTime": 654.600583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning to Control Spending and Make Thoughtful Choices and Chapter 4 Making Money Work and Growing Wealth Through Wise Investments"
+        },
+        {
+          "startTime": 846.303833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Making Money Work and Growing Wealth Through Wise Investments and Chapter 5 Protecting Wealth and Avoiding Costly Mistakes"
+        },
+        {
+          "startTime": 1027.5280830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Protecting Wealth and Avoiding Costly Mistakes and Chapter 6 The Dream of Home and the Power of Belonging"
+        },
+        {
+          "startTime": 1189.4843750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dream of Home and the Power of Belonging and Chapter 7 Preparing for the Future and the Unseen Storms"
+        },
+        {
+          "startTime": 1368.8005830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Preparing for the Future and the Unseen Storms and Chapter 8 The Value of Lifelong Learning and Seeking Counsel"
+        },
+        {
+          "startTime": 1532.8491660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Value of Lifelong Learning and Seeking Counsel and Chapter 9 The Power of Generosity and Giving Back"
+        },
+        {
+          "startTime": 1676.6794990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Generosity and Giving Back and Chapter 10 The Ongoing Journey—Growth, Resilience, and Hope"
+        },
+        {
+          "startTime": 1838.0072490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Growth, Resilience, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2893",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:37:42.314Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2908",
+  "timestamp": "2025-07-14T03:40:39.858Z",
+  "success": false,
+  "processingTime": -1752464102100,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4809,
+    "totalAudioFiles": 12,
+    "totalDuration": 2158.846542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2158.846542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2908/optimized_text/2908.md",
+    "fileSize": 673,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2908.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2908/metadata/2908_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2158.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2908/metadata/2908_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2908/metadata/2908_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2908/2908_complete.wav",
+    "duration": 2158.846542,
+    "fileSize": 103624712,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2908/introduction.wav",
+          "duration": 98.438125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.438125,
+          "startTime": 0,
+          "endTime": 98.438125
+        },
+        {
+          "path": "Audio/output/2908/chapter_01.wav",
+          "duration": 205.199875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Spark of an Ambition That Outran Reality",
+          "actualDuration": 205.199875,
+          "startTime": 99.938125,
+          "endTime": 305.138
+        },
+        {
+          "path": "Audio/output/2908/chapter_02.wav",
+          "duration": 200.781583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Culture of Secrecy and Fear",
+          "actualDuration": 200.781583,
+          "startTime": 306.638,
+          "endTime": 507.419583
+        },
+        {
+          "path": "Audio/output/2908/chapter_03.wav",
+          "duration": 231.523708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Illusion of Progress and the Power of Storytelling",
+          "actualDuration": 231.523708,
+          "startTime": 508.919583,
+          "endTime": 740.443291
+        },
+        {
+          "path": "Audio/output/2908/chapter_04.wav",
+          "duration": 200.487917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Whistleblowers and the High Cost of Telling the Truth",
+          "actualDuration": 200.487917,
+          "startTime": 741.943291,
+          "endTime": 942.4312080000001
+        },
+        {
+          "path": "Audio/output/2908/chapter_05.wav",
+          "duration": 210.097542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Systemic Failures That Enabled the Deception",
+          "actualDuration": 210.097542,
+          "startTime": 943.9312080000001,
+          "endTime": 1154.0287500000002
+        },
+        {
+          "path": "Audio/output/2908/chapter_06.wav",
+          "duration": 187.753625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling: When the Truth Can’t Stay Hidden",
+          "actualDuration": 187.753625,
+          "startTime": 1155.5287500000002,
+          "endTime": 1343.2823750000002
+        },
+        {
+          "path": "Audio/output/2908/chapter_07.wav",
+          "duration": 213.131333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Reckoning: Facing the Consequences",
+          "actualDuration": 213.131333,
+          "startTime": 1344.7823750000002,
+          "endTime": 1557.9137080000003
+        },
+        {
+          "path": "Audio/output/2908/chapter_08.wav",
+          "duration": 181.732167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Picking Up the Pieces: The Human Cost",
+          "actualDuration": 181.732167,
+          "startTime": 1559.4137080000003,
+          "endTime": 1741.1458750000002
+        },
+        {
+          "path": "Audio/output/2908/chapter_09.wav",
+          "duration": 165.896625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for the Future: Rethinking Innovation and Trust",
+          "actualDuration": 165.896625,
+          "startTime": 1742.6458750000002,
+          "endTime": 1908.5425000000002
+        },
+        {
+          "path": "Audio/output/2908/chapter_10.wav",
+          "duration": 133.52875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Hope, Healing, and the Path to Better",
+          "actualDuration": 133.52875,
+          "startTime": 1910.0425000000002,
+          "endTime": 2043.5712500000002
+        },
+        {
+          "path": "Audio/output/2908/conclusion.wav",
+          "duration": 130.275292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.275292,
+          "startTime": 2045.0712500000002,
+          "endTime": 2175.346542
+        }
+      ],
+      "totalDuration": 2175.346542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.44,
+          "actualStart": 0,
+          "actualEnd": 98.438125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Spark of an Ambition That Outran Reality",
+          "expectedStart": 98.44,
+          "expectedEnd": 303.64,
+          "actualStart": 99.938125,
+          "actualEnd": 305.138,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Culture of Secrecy and Fear",
+          "expectedStart": 303.64,
+          "expectedEnd": 504.42,
+          "actualStart": 306.638,
+          "actualEnd": 507.419583,
+          "timeDifference": 2.9979999999999905
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Illusion of Progress and the Power of Storytelling",
+          "expectedStart": 504.42,
+          "expectedEnd": 735.94,
+          "actualStart": 508.919583,
+          "actualEnd": 740.443291,
+          "timeDifference": 4.499582999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Whistleblowers and the High Cost of Telling the Truth",
+          "expectedStart": 735.94,
+          "expectedEnd": 936.43,
+          "actualStart": 741.943291,
+          "actualEnd": 942.4312080000001,
+          "timeDifference": 6.00329099999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Systemic Failures That Enabled the Deception",
+          "expectedStart": 936.43,
+          "expectedEnd": 1146.53,
+          "actualStart": 943.9312080000001,
+          "actualEnd": 1154.0287500000002,
+          "timeDifference": 7.501208000000133
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling: When the Truth Can’t Stay Hidden",
+          "expectedStart": 1146.53,
+          "expectedEnd": 1334.28,
+          "actualStart": 1155.5287500000002,
+          "actualEnd": 1343.2823750000002,
+          "timeDifference": 8.9987500000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Reckoning: Facing the Consequences",
+          "expectedStart": 1334.28,
+          "expectedEnd": 1547.41,
+          "actualStart": 1344.7823750000002,
+          "actualEnd": 1557.9137080000003,
+          "timeDifference": 10.502375000000256
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Picking Up the Pieces: The Human Cost",
+          "expectedStart": 1547.41,
+          "expectedEnd": 1729.14,
+          "actualStart": 1559.4137080000003,
+          "actualEnd": 1741.1458750000002,
+          "timeDifference": 12.003708000000188
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for the Future: Rethinking Innovation and Trust",
+          "expectedStart": 1729.14,
+          "expectedEnd": 1895.04,
+          "actualStart": 1742.6458750000002,
+          "actualEnd": 1908.5425000000002,
+          "timeDifference": 13.50587500000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Hope, Healing, and the Path to Better",
+          "expectedStart": 1895.04,
+          "expectedEnd": 2028.57,
+          "actualStart": 1910.0425000000002,
+          "actualEnd": 2043.5712500000002,
+          "timeDifference": 15.002500000000282
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2028.57,
+          "expectedEnd": 2158.85,
+          "actualStart": 2045.0712500000002,
+          "actualEnd": 2175.346542,
+          "timeDifference": 16.501250000000255
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.438125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Spark of an Ambition That Outran Reality"
+        },
+        {
+          "startTime": 305.138,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Spark of an Ambition That Outran Reality and Chapter 2 Building a Culture of Secrecy and Fear"
+        },
+        {
+          "startTime": 507.419583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Culture of Secrecy and Fear and Chapter 3 The Illusion of Progress and the Power of Storytelling"
+        },
+        {
+          "startTime": 740.443291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Illusion of Progress and the Power of Storytelling and Chapter 4 Whistleblowers and the High Cost of Telling the Truth"
+        },
+        {
+          "startTime": 942.4312080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Whistleblowers and the High Cost of Telling the Truth and Chapter 5 The Systemic Failures That Enabled the Deception"
+        },
+        {
+          "startTime": 1154.0287500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Systemic Failures That Enabled the Deception and Chapter 6 The Unraveling: When the Truth Can’t Stay Hidden"
+        },
+        {
+          "startTime": 1343.2823750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling: When the Truth Can’t Stay Hidden and Chapter 7 The Reckoning: Facing the Consequences"
+        },
+        {
+          "startTime": 1557.9137080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Reckoning: Facing the Consequences and Chapter 8 Picking Up the Pieces: The Human Cost"
+        },
+        {
+          "startTime": 1741.1458750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Picking Up the Pieces: The Human Cost and Chapter 9 Lessons for the Future: Rethinking Innovation and Trust"
+        },
+        {
+          "startTime": 1908.5425000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for the Future: Rethinking Innovation and Trust and Chapter 10 Moving Forward: Hope, Healing, and the Path to Better"
+        },
+        {
+          "startTime": 2043.5712500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Hope, Healing, and the Path to Better and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2908",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:35:03.291Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

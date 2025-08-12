@@ -1,0 +1,456 @@
+{
+  "bookId": "2953",
+  "timestamp": "2025-07-14T06:55:49.926Z",
+  "success": false,
+  "processingTime": -1752475765592,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4636,
+    "totalAudioFiles": 12,
+    "totalDuration": 2195.771917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2195.771917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2953/optimized_text/2953.md",
+    "fileSize": 666,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2953.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2953/metadata/2953_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2195.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2953/metadata/2953_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2953/metadata/2953_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2953/2953_complete.wav",
+    "duration": 2195.771917,
+    "fileSize": 105397130,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2953/introduction.wav",
+          "duration": 93.256583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.256583,
+          "startTime": 0,
+          "endTime": 93.256583
+        },
+        {
+          "path": "Audio/output/2953/chapter_01.wav",
+          "duration": 227.54675,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Madness Becomes a Mystery to Solve",
+          "actualDuration": 227.54675,
+          "startTime": 94.756583,
+          "endTime": 322.303333
+        },
+        {
+          "path": "Audio/output/2953/chapter_02.wav",
+          "duration": 234.120667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Peril of Psychiatric Labels",
+          "actualDuration": 234.120667,
+          "startTime": 323.803333,
+          "endTime": 557.924
+        },
+        {
+          "path": "Audio/output/2953/chapter_03.wav",
+          "duration": 203.448042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Blurry Line Between Normal and Abnormal",
+          "actualDuration": 203.448042,
+          "startTime": 559.424,
+          "endTime": 762.872042
+        },
+        {
+          "path": "Audio/output/2953/chapter_04.wav",
+          "duration": 215.081125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Allure and Danger of Diagnosing Others",
+          "actualDuration": 215.081125,
+          "startTime": 764.372042,
+          "endTime": 979.4531669999999
+        },
+        {
+          "path": "Audio/output/2953/chapter_05.wav",
+          "duration": 211.142583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Media’s Role in Shaping Perceptions of Madness",
+          "actualDuration": 211.142583,
+          "startTime": 980.9531669999999,
+          "endTime": 1192.09575
+        },
+        {
+          "path": "Audio/output/2953/chapter_06.wav",
+          "duration": 184.566583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Behind Closed Doors: The Ethics of Diagnosis",
+          "actualDuration": 184.566583,
+          "startTime": 1193.59575,
+          "endTime": 1378.162333
+        },
+        {
+          "path": "Audio/output/2953/chapter_07.wav",
+          "duration": 194.588,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Industry of Madness: Profit, Power, and Influence",
+          "actualDuration": 194.588,
+          "startTime": 1379.662333,
+          "endTime": 1574.250333
+        },
+        {
+          "path": "Audio/output/2953/chapter_08.wav",
+          "duration": 172.117958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Lived Experience: Voices from the Margins",
+          "actualDuration": 172.117958,
+          "startTime": 1575.750333,
+          "endTime": 1747.868291
+        },
+        {
+          "path": "Audio/output/2953/chapter_09.wav",
+          "duration": 146.819417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Search for Meaning: Beyond Labels and Checklists",
+          "actualDuration": 146.819417,
+          "startTime": 1749.368291,
+          "endTime": 1896.187708
+        },
+        {
+          "path": "Audio/output/2953/chapter_10.wav",
+          "duration": 161.947417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Evolving Landscape: Hope, Change, and the Future",
+          "actualDuration": 161.947417,
+          "startTime": 1897.687708,
+          "endTime": 2059.635125
+        },
+        {
+          "path": "Audio/output/2953/conclusion.wav",
+          "duration": 151.136792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 151.136792,
+          "startTime": 2061.135125,
+          "endTime": 2212.271917
+        }
+      ],
+      "totalDuration": 2212.271917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.26,
+          "actualStart": 0,
+          "actualEnd": 93.256583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Madness Becomes a Mystery to Solve",
+          "expectedStart": 93.26,
+          "expectedEnd": 320.81,
+          "actualStart": 94.756583,
+          "actualEnd": 322.303333,
+          "timeDifference": 1.496583000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Peril of Psychiatric Labels",
+          "expectedStart": 320.81,
+          "expectedEnd": 554.93,
+          "actualStart": 323.803333,
+          "actualEnd": 557.924,
+          "timeDifference": 2.993333000000007
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Blurry Line Between Normal and Abnormal",
+          "expectedStart": 554.93,
+          "expectedEnd": 758.38,
+          "actualStart": 559.424,
+          "actualEnd": 762.872042,
+          "timeDifference": 4.494000000000028
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Allure and Danger of Diagnosing Others",
+          "expectedStart": 758.38,
+          "expectedEnd": 973.46,
+          "actualStart": 764.372042,
+          "actualEnd": 979.4531669999999,
+          "timeDifference": 5.9920419999999694
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Media’s Role in Shaping Perceptions of Madness",
+          "expectedStart": 973.46,
+          "expectedEnd": 1184.6,
+          "actualStart": 980.9531669999999,
+          "actualEnd": 1192.09575,
+          "timeDifference": 7.493166999999858
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Behind Closed Doors: The Ethics of Diagnosis",
+          "expectedStart": 1184.6,
+          "expectedEnd": 1369.17,
+          "actualStart": 1193.59575,
+          "actualEnd": 1378.162333,
+          "timeDifference": 8.995750000000044
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Industry of Madness: Profit, Power, and Influence",
+          "expectedStart": 1369.17,
+          "expectedEnd": 1563.76,
+          "actualStart": 1379.662333,
+          "actualEnd": 1574.250333,
+          "timeDifference": 10.492332999999917
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Lived Experience: Voices from the Margins",
+          "expectedStart": 1563.76,
+          "expectedEnd": 1735.88,
+          "actualStart": 1575.750333,
+          "actualEnd": 1747.868291,
+          "timeDifference": 11.990332999999964
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Search for Meaning: Beyond Labels and Checklists",
+          "expectedStart": 1735.88,
+          "expectedEnd": 1882.7,
+          "actualStart": 1749.368291,
+          "actualEnd": 1896.187708,
+          "timeDifference": 13.48829099999989
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Evolving Landscape: Hope, Change, and the Future",
+          "expectedStart": 1882.7,
+          "expectedEnd": 2044.65,
+          "actualStart": 1897.687708,
+          "actualEnd": 2059.635125,
+          "timeDifference": 14.987707999999884
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2044.65,
+          "expectedEnd": 2195.79,
+          "actualStart": 2061.135125,
+          "actualEnd": 2212.271917,
+          "timeDifference": 16.485124999999698
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.256583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Madness Becomes a Mystery to Solve"
+        },
+        {
+          "startTime": 322.303333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Madness Becomes a Mystery to Solve and Chapter 2 The Power and Peril of Psychiatric Labels"
+        },
+        {
+          "startTime": 557.924,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Peril of Psychiatric Labels and Chapter 3 The Blurry Line Between Normal and Abnormal"
+        },
+        {
+          "startTime": 762.872042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Blurry Line Between Normal and Abnormal and Chapter 4 The Allure and Danger of Diagnosing Others"
+        },
+        {
+          "startTime": 979.4531669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Allure and Danger of Diagnosing Others and Chapter 5 The Media’s Role in Shaping Perceptions of Madness"
+        },
+        {
+          "startTime": 1192.09575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Media’s Role in Shaping Perceptions of Madness and Chapter 6 Behind Closed Doors: The Ethics of Diagnosis"
+        },
+        {
+          "startTime": 1378.162333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Behind Closed Doors: The Ethics of Diagnosis and Chapter 7 The Industry of Madness: Profit, Power, and Influence"
+        },
+        {
+          "startTime": 1574.250333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Industry of Madness: Profit, Power, and Influence and Chapter 8 The Lived Experience: Voices from the Margins"
+        },
+        {
+          "startTime": 1747.868291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Lived Experience: Voices from the Margins and Chapter 9 The Search for Meaning: Beyond Labels and Checklists"
+        },
+        {
+          "startTime": 1896.187708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Search for Meaning: Beyond Labels and Checklists and Chapter 10 The Evolving Landscape: Hope, Change, and the Future"
+        },
+        {
+          "startTime": 2059.635125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Evolving Landscape: Hope, Change, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2953",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:49:26.776Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

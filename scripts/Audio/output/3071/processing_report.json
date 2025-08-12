@@ -1,0 +1,456 @@
+{
+  "bookId": "3071",
+  "timestamp": "2025-07-14T16:19:00.429Z",
+  "success": false,
+  "processingTime": -1752509667741,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5000,
+    "totalAudioFiles": 12,
+    "totalDuration": 2078.50946
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2078.50946
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3071/optimized_text/3071.md",
+    "fileSize": 604,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "3071.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3071/metadata/3071_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2078.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3071/metadata/3071_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3071/metadata/3071_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3071/3071_complete.wav",
+    "duration": 2078.509458,
+    "fileSize": 99768532,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3071/introduction.wav",
+          "duration": 100.047042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.047042,
+          "startTime": 0,
+          "endTime": 100.047042
+        },
+        {
+          "path": "Audio/output/3071/chapter_01.wav",
+          "duration": 316.03725,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Hard Times and the Search for Belonging",
+          "actualDuration": 316.03725,
+          "startTime": 101.547042,
+          "endTime": 417.584292
+        },
+        {
+          "path": "Audio/output/3071/chapter_02.wav",
+          "duration": 228.565042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Team and Learning to Trust",
+          "actualDuration": 228.565042,
+          "startTime": 419.084292,
+          "endTime": 647.649334
+        },
+        {
+          "path": "Audio/output/3071/chapter_03.wav",
+          "duration": 240.643417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Adversity and Finding Strength",
+          "actualDuration": 240.643417,
+          "startTime": 649.149334,
+          "endTime": 889.792751
+        },
+        {
+          "path": "Audio/output/3071/chapter_04.wav",
+          "duration": 222.539542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Road to the Olympics and the Weight of History",
+          "actualDuration": 222.539542,
+          "startTime": 891.292751,
+          "endTime": 1113.832293
+        },
+        {
+          "path": "Audio/output/3071/chapter_05.wav",
+          "duration": 213.986792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Arriving in Berlin and the Final Test of Unity",
+          "actualDuration": 213.986792,
+          "startTime": 1115.332293,
+          "endTime": 1329.3190849999999
+        },
+        {
+          "path": "Audio/output/3071/chapter_06.wav",
+          "duration": 153.418458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Coming Home—The Echoes of Triumph",
+          "actualDuration": 153.418458,
+          "startTime": 1330.8190849999999,
+          "endTime": 1484.2375429999997
+        },
+        {
+          "path": "Audio/output/3071/chapter_07.wav",
+          "duration": 142.563542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Shadow of War",
+          "actualDuration": 142.563542,
+          "startTime": 1485.7375429999997,
+          "endTime": 1628.3010849999998
+        },
+        {
+          "path": "Audio/output/3071/chapter_08.wav",
+          "duration": 141.010042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Life After Glory—Finding Meaning Beyond the Medal",
+          "actualDuration": 141.010042,
+          "startTime": 1629.8010849999998,
+          "endTime": 1770.811127
+        },
+        {
+          "path": "Audio/output/3071/chapter_09.wav",
+          "duration": 125.981542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of the Boat—Lessons Passed Down",
+          "actualDuration": 125.981542,
+          "startTime": 1772.311127,
+          "endTime": 1898.292669
+        },
+        {
+          "path": "Audio/output/3071/chapter_10.wav",
+          "duration": 101.986458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections—What Endures",
+          "actualDuration": 101.986458,
+          "startTime": 1899.792669,
+          "endTime": 2001.779127
+        },
+        {
+          "path": "Audio/output/3071/conclusion.wav",
+          "duration": 91.730333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 91.730333,
+          "startTime": 2003.279127,
+          "endTime": 2095.00946
+        }
+      ],
+      "totalDuration": 2095.00946,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.05,
+          "actualStart": 0,
+          "actualEnd": 100.047042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Hard Times and the Search for Belonging",
+          "expectedStart": 100.05,
+          "expectedEnd": 416.09,
+          "actualStart": 101.547042,
+          "actualEnd": 417.584292,
+          "timeDifference": 1.4970420000000075
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Team and Learning to Trust",
+          "expectedStart": 416.09,
+          "expectedEnd": 644.66,
+          "actualStart": 419.084292,
+          "actualEnd": 647.649334,
+          "timeDifference": 2.99429200000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Adversity and Finding Strength",
+          "expectedStart": 644.66,
+          "expectedEnd": 885.3,
+          "actualStart": 649.149334,
+          "actualEnd": 889.792751,
+          "timeDifference": 4.489333999999985
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Road to the Olympics and the Weight of History",
+          "expectedStart": 885.3,
+          "expectedEnd": 1107.84,
+          "actualStart": 891.292751,
+          "actualEnd": 1113.832293,
+          "timeDifference": 5.992750999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Arriving in Berlin and the Final Test of Unity",
+          "expectedStart": 1107.84,
+          "expectedEnd": 1321.83,
+          "actualStart": 1115.332293,
+          "actualEnd": 1329.3190849999999,
+          "timeDifference": 7.492293000000018
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Coming Home—The Echoes of Triumph",
+          "expectedStart": 1321.83,
+          "expectedEnd": 1475.25,
+          "actualStart": 1330.8190849999999,
+          "actualEnd": 1484.2375429999997,
+          "timeDifference": 8.989084999999932
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Shadow of War",
+          "expectedStart": 1475.25,
+          "expectedEnd": 1617.81,
+          "actualStart": 1485.7375429999997,
+          "actualEnd": 1628.3010849999998,
+          "timeDifference": 10.487542999999732
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Life After Glory—Finding Meaning Beyond the Medal",
+          "expectedStart": 1617.81,
+          "expectedEnd": 1758.82,
+          "actualStart": 1629.8010849999998,
+          "actualEnd": 1770.811127,
+          "timeDifference": 11.991084999999885
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of the Boat—Lessons Passed Down",
+          "expectedStart": 1758.82,
+          "expectedEnd": 1884.8,
+          "actualStart": 1772.311127,
+          "actualEnd": 1898.292669,
+          "timeDifference": 13.491127000000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections—What Endures",
+          "expectedStart": 1884.8,
+          "expectedEnd": 1986.79,
+          "actualStart": 1899.792669,
+          "actualEnd": 2001.779127,
+          "timeDifference": 14.992668999999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1986.79,
+          "expectedEnd": 2078.52,
+          "actualStart": 2003.279127,
+          "actualEnd": 2095.00946,
+          "timeDifference": 16.489127000000053
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.047042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Hard Times and the Search for Belonging"
+        },
+        {
+          "startTime": 417.584292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Hard Times and the Search for Belonging and Chapter 2 Building a Team and Learning to Trust"
+        },
+        {
+          "startTime": 647.649334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Team and Learning to Trust and Chapter 3 Facing Adversity and Finding Strength"
+        },
+        {
+          "startTime": 889.792751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Adversity and Finding Strength and Chapter 4 The Road to the Olympics and the Weight of History"
+        },
+        {
+          "startTime": 1113.832293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Road to the Olympics and the Weight of History and Chapter 5 Arriving in Berlin and the Final Test of Unity"
+        },
+        {
+          "startTime": 1329.3190849999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Arriving in Berlin and the Final Test of Unity and Chapter 6 Coming Home—The Echoes of Triumph"
+        },
+        {
+          "startTime": 1484.2375429999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Coming Home—The Echoes of Triumph and Chapter 7 The Long Shadow of War"
+        },
+        {
+          "startTime": 1628.3010849999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Shadow of War and Chapter 8 Life After Glory—Finding Meaning Beyond the Medal"
+        },
+        {
+          "startTime": 1770.811127,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Life After Glory—Finding Meaning Beyond the Medal and Chapter 9 The Legacy of the Boat—Lessons Passed Down"
+        },
+        {
+          "startTime": 1898.292669,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of the Boat—Lessons Passed Down and Chapter 10 Reflections—What Endures"
+        },
+        {
+          "startTime": 2001.779127,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections—What Endures and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3071",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:14:27.753Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

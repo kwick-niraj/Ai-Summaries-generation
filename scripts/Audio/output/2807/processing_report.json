@@ -1,0 +1,456 @@
+{
+  "bookId": "2807",
+  "timestamp": "2025-07-13T21:06:30.359Z",
+  "success": false,
+  "processingTime": -1752440492033,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4289,
+    "totalAudioFiles": 12,
+    "totalDuration": 1860.406125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1860.406125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2807/optimized_text/2807.md",
+    "fileSize": 662,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2807.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2807/metadata/2807_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1860.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2807/metadata/2807_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2807/metadata/2807_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2807/2807_complete.wav",
+    "duration": 1860.406125,
+    "fileSize": 89299572,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2807/introduction.wav",
+          "duration": 86.587542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.587542,
+          "startTime": 0,
+          "endTime": 86.587542
+        },
+        {
+          "path": "Audio/output/2807/chapter_01.wav",
+          "duration": 195.49875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Malta’s Struggle and the Stakes of Survival",
+          "actualDuration": 195.49875,
+          "startTime": 88.087542,
+          "endTime": 283.586292
+        },
+        {
+          "path": "Audio/output/2807/chapter_02.wav",
+          "duration": 202.53275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Planning the Convoy and the Weight of Responsibility",
+          "actualDuration": 202.53275,
+          "startTime": 285.086292,
+          "endTime": 487.61904200000004
+        },
+        {
+          "path": "Audio/output/2807/chapter_03.wav",
+          "duration": 226.596792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Gauntlet: Facing Attack from Air and Sea",
+          "actualDuration": 226.596792,
+          "startTime": 489.11904200000004,
+          "endTime": 715.7158340000001
+        },
+        {
+          "path": "Audio/output/2807/chapter_04.wav",
+          "duration": 181.459375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sacrifice, Survival, and the Human Cost",
+          "actualDuration": 181.459375,
+          "startTime": 717.2158340000001,
+          "endTime": 898.6752090000001
+        },
+        {
+          "path": "Audio/output/2807/chapter_05.wav",
+          "duration": 127.29275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath and the Meaning of Endurance",
+          "actualDuration": 127.29275,
+          "startTime": 900.1752090000001,
+          "endTime": 1027.467959
+        },
+        {
+          "path": "Audio/output/2807/chapter_06.wav",
+          "duration": 171.279083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect: Malta’s Survival and the Shifting Tide",
+          "actualDuration": 171.279083,
+          "startTime": 1028.967959,
+          "endTime": 1200.247042
+        },
+        {
+          "path": "Audio/output/2807/chapter_07.wav",
+          "duration": 144.657583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons in Leadership: Decisions Under Fire",
+          "actualDuration": 144.657583,
+          "startTime": 1201.747042,
+          "endTime": 1346.404625
+        },
+        {
+          "path": "Audio/output/2807/chapter_08.wav",
+          "duration": 140.192,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Axis Response: Retaliation and Reassessment",
+          "actualDuration": 140.192,
+          "startTime": 1347.904625,
+          "endTime": 1488.096625
+        },
+        {
+          "path": "Audio/output/2807/chapter_09.wav",
+          "duration": 128.005292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Broader War: Malta’s Role in the Mediterranean",
+          "actualDuration": 128.005292,
+          "startTime": 1489.596625,
+          "endTime": 1617.601917
+        },
+        {
+          "path": "Audio/output/2807/chapter_10.wav",
+          "duration": 140.473875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Memory, Legacy, and the Quiet Heroes",
+          "actualDuration": 140.473875,
+          "startTime": 1619.101917,
+          "endTime": 1759.5757919999999
+        },
+        {
+          "path": "Audio/output/2807/conclusion.wav",
+          "duration": 115.830333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.830333,
+          "startTime": 1761.0757919999999,
+          "endTime": 1876.906125
+        }
+      ],
+      "totalDuration": 1876.906125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.59,
+          "actualStart": 0,
+          "actualEnd": 86.587542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Malta’s Struggle and the Stakes of Survival",
+          "expectedStart": 86.59,
+          "expectedEnd": 282.09,
+          "actualStart": 88.087542,
+          "actualEnd": 283.586292,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Planning the Convoy and the Weight of Responsibility",
+          "expectedStart": 282.09,
+          "expectedEnd": 484.62,
+          "actualStart": 285.086292,
+          "actualEnd": 487.61904200000004,
+          "timeDifference": 2.9962920000000395
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Gauntlet: Facing Attack from Air and Sea",
+          "expectedStart": 484.62,
+          "expectedEnd": 711.22,
+          "actualStart": 489.11904200000004,
+          "actualEnd": 715.7158340000001,
+          "timeDifference": 4.499042000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sacrifice, Survival, and the Human Cost",
+          "expectedStart": 711.22,
+          "expectedEnd": 892.68,
+          "actualStart": 717.2158340000001,
+          "actualEnd": 898.6752090000001,
+          "timeDifference": 5.995834000000059
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath and the Meaning of Endurance",
+          "expectedStart": 892.68,
+          "expectedEnd": 1019.97,
+          "actualStart": 900.1752090000001,
+          "actualEnd": 1027.467959,
+          "timeDifference": 7.495209000000159
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect: Malta’s Survival and the Shifting Tide",
+          "expectedStart": 1019.97,
+          "expectedEnd": 1191.25,
+          "actualStart": 1028.967959,
+          "actualEnd": 1200.247042,
+          "timeDifference": 8.997959000000037
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons in Leadership: Decisions Under Fire",
+          "expectedStart": 1191.25,
+          "expectedEnd": 1335.91,
+          "actualStart": 1201.747042,
+          "actualEnd": 1346.404625,
+          "timeDifference": 10.497041999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Axis Response: Retaliation and Reassessment",
+          "expectedStart": 1335.91,
+          "expectedEnd": 1476.1,
+          "actualStart": 1347.904625,
+          "actualEnd": 1488.096625,
+          "timeDifference": 11.994624999999814
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Broader War: Malta’s Role in the Mediterranean",
+          "expectedStart": 1476.1,
+          "expectedEnd": 1604.11,
+          "actualStart": 1489.596625,
+          "actualEnd": 1617.601917,
+          "timeDifference": 13.496624999999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Memory, Legacy, and the Quiet Heroes",
+          "expectedStart": 1604.11,
+          "expectedEnd": 1744.58,
+          "actualStart": 1619.101917,
+          "actualEnd": 1759.5757919999999,
+          "timeDifference": 14.991917000000058
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1744.58,
+          "expectedEnd": 1860.41,
+          "actualStart": 1761.0757919999999,
+          "actualEnd": 1876.906125,
+          "timeDifference": 16.495791999999938
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.587542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Malta’s Struggle and the Stakes of Survival"
+        },
+        {
+          "startTime": 283.586292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Malta’s Struggle and the Stakes of Survival and Chapter 2 Planning the Convoy and the Weight of Responsibility"
+        },
+        {
+          "startTime": 487.61904200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Planning the Convoy and the Weight of Responsibility and Chapter 3 The Gauntlet: Facing Attack from Air and Sea"
+        },
+        {
+          "startTime": 715.7158340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Gauntlet: Facing Attack from Air and Sea and Chapter 4 Sacrifice, Survival, and the Human Cost"
+        },
+        {
+          "startTime": 898.6752090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sacrifice, Survival, and the Human Cost and Chapter 5 The Aftermath and the Meaning of Endurance"
+        },
+        {
+          "startTime": 1027.467959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath and the Meaning of Endurance and Chapter 6 The Ripple Effect: Malta’s Survival and the Shifting Tide"
+        },
+        {
+          "startTime": 1200.247042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect: Malta’s Survival and the Shifting Tide and Chapter 7 Lessons in Leadership: Decisions Under Fire"
+        },
+        {
+          "startTime": 1346.404625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons in Leadership: Decisions Under Fire and Chapter 8 The Axis Response: Retaliation and Reassessment"
+        },
+        {
+          "startTime": 1488.096625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Axis Response: Retaliation and Reassessment and Chapter 9 The Broader War: Malta’s Role in the Mediterranean"
+        },
+        {
+          "startTime": 1617.601917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Broader War: Malta’s Role in the Mediterranean and Chapter 10 Memory, Legacy, and the Quiet Heroes"
+        },
+        {
+          "startTime": 1759.5757919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Memory, Legacy, and the Quiet Heroes and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2807",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:01:33.583Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

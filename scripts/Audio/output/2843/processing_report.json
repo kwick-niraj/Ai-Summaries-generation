@@ -1,0 +1,456 @@
+{
+  "bookId": "2843",
+  "timestamp": "2025-07-13T23:55:59.821Z",
+  "success": false,
+  "processingTime": -1752450590867,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4464,
+    "totalAudioFiles": 12,
+    "totalDuration": 1897.5933340000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1897.5933340000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2843/optimized_text/2843.md",
+    "fileSize": 680,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2843.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2843/metadata/2843_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1897.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2843/metadata/2843_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2843/metadata/2843_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2843/2843_complete.wav",
+    "duration": 1897.593333,
+    "fileSize": 91084558,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2843/introduction.wav",
+          "duration": 84.250167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.250167,
+          "startTime": 0,
+          "endTime": 84.250167
+        },
+        {
+          "path": "Audio/output/2843/chapter_01.wav",
+          "duration": 245.615625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out to Find Meaning in Death and Music",
+          "actualDuration": 245.615625,
+          "startTime": 85.750167,
+          "endTime": 331.365792
+        },
+        {
+          "path": "Audio/output/2843/chapter_02.wav",
+          "duration": 226.470417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mythology of Rock Star Deaths and the Stories We Tell",
+          "actualDuration": 226.470417,
+          "startTime": 332.865792,
+          "endTime": 559.336209
+        },
+        {
+          "path": "Audio/output/2843/chapter_03.wav",
+          "duration": 194.180208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Love, Loss, and the Soundtrack of Memory",
+          "actualDuration": 194.180208,
+          "startTime": 560.836209,
+          "endTime": 755.016417
+        },
+        {
+          "path": "Audio/output/2843/chapter_04.wav",
+          "duration": 193.37125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Searching for Answers in the Places Where Legends Fell",
+          "actualDuration": 193.37125,
+          "startTime": 756.516417,
+          "endTime": 949.8876670000001
+        },
+        {
+          "path": "Audio/output/2843/chapter_05.wav",
+          "duration": 137.894,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Pop Culture as a Mirror for Identity and Belonging",
+          "actualDuration": 137.894,
+          "startTime": 951.3876670000001,
+          "endTime": 1089.2816670000002
+        },
+        {
+          "path": "Audio/output/2843/chapter_06.wav",
+          "duration": 153.874167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ghosts in the Rearview: Facing the Past on the Open Road",
+          "actualDuration": 153.874167,
+          "startTime": 1090.7816670000002,
+          "endTime": 1244.6558340000001
+        },
+        {
+          "path": "Audio/output/2843/chapter_07.wav",
+          "duration": 159.10125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Memory and the Pull of Nostalgia",
+          "actualDuration": 159.10125,
+          "startTime": 1246.1558340000001,
+          "endTime": 1405.257084
+        },
+        {
+          "path": "Audio/output/2843/chapter_08.wav",
+          "duration": 151.27175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Illusion of Closure and the Reality of Grief",
+          "actualDuration": 151.27175,
+          "startTime": 1406.757084,
+          "endTime": 1558.0288340000002
+        },
+        {
+          "path": "Audio/output/2843/chapter_09.wav",
+          "duration": 116.817417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Road as a Place of Transformation",
+          "actualDuration": 116.817417,
+          "startTime": 1559.5288340000002,
+          "endTime": 1676.3462510000002
+        },
+        {
+          "path": "Audio/output/2843/chapter_10.wav",
+          "duration": 129.2905,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Coming Home: What Remains After the Journey",
+          "actualDuration": 129.2905,
+          "startTime": 1677.8462510000002,
+          "endTime": 1807.1367510000002
+        },
+        {
+          "path": "Audio/output/2843/conclusion.wav",
+          "duration": 105.456583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.456583,
+          "startTime": 1808.6367510000002,
+          "endTime": 1914.0933340000001
+        }
+      ],
+      "totalDuration": 1914.0933340000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.25,
+          "actualStart": 0,
+          "actualEnd": 84.250167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out to Find Meaning in Death and Music",
+          "expectedStart": 84.25,
+          "expectedEnd": 329.87,
+          "actualStart": 85.750167,
+          "actualEnd": 331.365792,
+          "timeDifference": 1.5001670000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mythology of Rock Star Deaths and the Stories We Tell",
+          "expectedStart": 329.87,
+          "expectedEnd": 556.34,
+          "actualStart": 332.865792,
+          "actualEnd": 559.336209,
+          "timeDifference": 2.9957919999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Love, Loss, and the Soundtrack of Memory",
+          "expectedStart": 556.34,
+          "expectedEnd": 750.52,
+          "actualStart": 560.836209,
+          "actualEnd": 755.016417,
+          "timeDifference": 4.496209000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Searching for Answers in the Places Where Legends Fell",
+          "expectedStart": 750.52,
+          "expectedEnd": 943.89,
+          "actualStart": 756.516417,
+          "actualEnd": 949.8876670000001,
+          "timeDifference": 5.996417000000065
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Pop Culture as a Mirror for Identity and Belonging",
+          "expectedStart": 943.89,
+          "expectedEnd": 1081.78,
+          "actualStart": 951.3876670000001,
+          "actualEnd": 1089.2816670000002,
+          "timeDifference": 7.497667000000092
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ghosts in the Rearview: Facing the Past on the Open Road",
+          "expectedStart": 1081.78,
+          "expectedEnd": 1235.65,
+          "actualStart": 1090.7816670000002,
+          "actualEnd": 1244.6558340000001,
+          "timeDifference": 9.001667000000225
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Memory and the Pull of Nostalgia",
+          "expectedStart": 1235.65,
+          "expectedEnd": 1394.75,
+          "actualStart": 1246.1558340000001,
+          "actualEnd": 1405.257084,
+          "timeDifference": 10.50583400000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Illusion of Closure and the Reality of Grief",
+          "expectedStart": 1394.75,
+          "expectedEnd": 1546.02,
+          "actualStart": 1406.757084,
+          "actualEnd": 1558.0288340000002,
+          "timeDifference": 12.007084000000077
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Road as a Place of Transformation",
+          "expectedStart": 1546.02,
+          "expectedEnd": 1662.84,
+          "actualStart": 1559.5288340000002,
+          "actualEnd": 1676.3462510000002,
+          "timeDifference": 13.508834000000206
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Coming Home: What Remains After the Journey",
+          "expectedStart": 1662.84,
+          "expectedEnd": 1792.13,
+          "actualStart": 1677.8462510000002,
+          "actualEnd": 1807.1367510000002,
+          "timeDifference": 15.006251000000248
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1792.13,
+          "expectedEnd": 1897.59,
+          "actualStart": 1808.6367510000002,
+          "actualEnd": 1914.0933340000001,
+          "timeDifference": 16.506751000000122
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.250167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out to Find Meaning in Death and Music"
+        },
+        {
+          "startTime": 331.365792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out to Find Meaning in Death and Music and Chapter 2 The Mythology of Rock Star Deaths and the Stories We Tell"
+        },
+        {
+          "startTime": 559.336209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mythology of Rock Star Deaths and the Stories We Tell and Chapter 3 Love, Loss, and the Soundtrack of Memory"
+        },
+        {
+          "startTime": 755.016417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Love, Loss, and the Soundtrack of Memory and Chapter 4 Searching for Answers in the Places Where Legends Fell"
+        },
+        {
+          "startTime": 949.8876670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Searching for Answers in the Places Where Legends Fell and Chapter 5 Pop Culture as a Mirror for Identity and Belonging"
+        },
+        {
+          "startTime": 1089.2816670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Pop Culture as a Mirror for Identity and Belonging and Chapter 6 Ghosts in the Rearview: Facing the Past on the Open Road"
+        },
+        {
+          "startTime": 1244.6558340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ghosts in the Rearview: Facing the Past on the Open Road and Chapter 7 The Weight of Memory and the Pull of Nostalgia"
+        },
+        {
+          "startTime": 1405.257084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Memory and the Pull of Nostalgia and Chapter 8 The Illusion of Closure and the Reality of Grief"
+        },
+        {
+          "startTime": 1558.0288340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Illusion of Closure and the Reality of Grief and Chapter 9 The Road as a Place of Transformation"
+        },
+        {
+          "startTime": 1676.3462510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Road as a Place of Transformation and Chapter 10 Coming Home: What Remains After the Journey"
+        },
+        {
+          "startTime": 1807.1367510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Coming Home: What Remains After the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2843",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:49:52.043Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "3042",
+  "timestamp": "2025-07-14T13:45:50.720Z",
+  "success": false,
+  "processingTime": -1752500383005,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4107,
+    "totalAudioFiles": 12,
+    "totalDuration": 1735.796666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1735.796666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3042/optimized_text/3042.md",
+    "fileSize": 821,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "3042.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3042/metadata/3042_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1735.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3042/metadata/3042_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3042/metadata/3042_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3042/3042_complete.wav",
+    "duration": 1735.796667,
+    "fileSize": 83318318,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3042/introduction.wav",
+          "duration": 86.334542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.334542,
+          "startTime": 0,
+          "endTime": 86.334542
+        },
+        {
+          "path": "Audio/output/3042/chapter_01.wav",
+          "duration": 216.815583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Between Worlds: Family Roots and Early Lessons",
+          "actualDuration": 216.815583,
+          "startTime": 87.834542,
+          "endTime": 304.650125
+        },
+        {
+          "path": "Audio/output/3042/chapter_02.wav",
+          "duration": 201.446125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Demands of Excellence: Discipline, Sacrifice, and the Pursuit of Mastery",
+          "actualDuration": 201.446125,
+          "startTime": 306.150125,
+          "endTime": 507.59625
+        },
+        {
+          "path": "Audio/output/3042/chapter_03.wav",
+          "duration": 192.614833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Clashing Values: East Meets West in Parenting and Identity",
+          "actualDuration": 192.614833,
+          "startTime": 509.09625,
+          "endTime": 701.711083
+        },
+        {
+          "path": "Audio/output/3042/chapter_04.wav",
+          "duration": 146.721708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Points and New Understandings: When Children Push Back",
+          "actualDuration": 146.721708,
+          "startTime": 703.211083,
+          "endTime": 849.9327910000001
+        },
+        {
+          "path": "Audio/output/3042/chapter_05.wav",
+          "duration": 137.175667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Success: Growth, Empathy, and the Limits of Control",
+          "actualDuration": 137.175667,
+          "startTime": 851.4327910000001,
+          "endTime": 988.608458
+        },
+        {
+          "path": "Audio/output/3042/chapter_06.wav",
+          "duration": 144.953208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Compromise: Small Steps, Big Shifts",
+          "actualDuration": 144.953208,
+          "startTime": 990.108458,
+          "endTime": 1135.061666
+        },
+        {
+          "path": "Audio/output/3042/chapter_07.wav",
+          "duration": 156.522583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Perfection: Vulnerability, Regret, and Healing",
+          "actualDuration": 156.522583,
+          "startTime": 1136.561666,
+          "endTime": 1293.084249
+        },
+        {
+          "path": "Audio/output/3042/chapter_08.wav",
+          "duration": 127.506375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bridging the Divide: Finding Common Ground Across Generations",
+          "actualDuration": 127.506375,
+          "startTime": 1294.584249,
+          "endTime": 1422.090624
+        },
+        {
+          "path": "Audio/output/3042/chapter_09.wav",
+          "duration": 127.775167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Redefining Ambition: Success, Identity, and the Freedom to Choose",
+          "actualDuration": 127.775167,
+          "startTime": 1423.590624,
+          "endTime": 1551.365791
+        },
+        {
+          "path": "Audio/output/3042/chapter_10.wav",
+          "duration": 77.9605,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Love, Acceptance, and the Power of Letting Go",
+          "actualDuration": 77.9605,
+          "startTime": 1552.865791,
+          "endTime": 1630.8262909999999
+        },
+        {
+          "path": "Audio/output/3042/conclusion.wav",
+          "duration": 119.970375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.970375,
+          "startTime": 1632.3262909999999,
+          "endTime": 1752.296666
+        }
+      ],
+      "totalDuration": 1752.296666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.33,
+          "actualStart": 0,
+          "actualEnd": 86.334542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Between Worlds: Family Roots and Early Lessons",
+          "expectedStart": 86.33,
+          "expectedEnd": 303.15,
+          "actualStart": 87.834542,
+          "actualEnd": 304.650125,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Demands of Excellence: Discipline, Sacrifice, and the Pursuit of Mastery",
+          "expectedStart": 303.15,
+          "expectedEnd": 504.6,
+          "actualStart": 306.150125,
+          "actualEnd": 507.59625,
+          "timeDifference": 3.0001250000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Clashing Values: East Meets West in Parenting and Identity",
+          "expectedStart": 504.6,
+          "expectedEnd": 697.21,
+          "actualStart": 509.09625,
+          "actualEnd": 701.711083,
+          "timeDifference": 4.496249999999975
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Points and New Understandings: When Children Push Back",
+          "expectedStart": 697.21,
+          "expectedEnd": 843.93,
+          "actualStart": 703.211083,
+          "actualEnd": 849.9327910000001,
+          "timeDifference": 6.001082999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Success: Growth, Empathy, and the Limits of Control",
+          "expectedStart": 843.93,
+          "expectedEnd": 981.11,
+          "actualStart": 851.4327910000001,
+          "actualEnd": 988.608458,
+          "timeDifference": 7.502791000000116
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Compromise: Small Steps, Big Shifts",
+          "expectedStart": 981.11,
+          "expectedEnd": 1126.06,
+          "actualStart": 990.108458,
+          "actualEnd": 1135.061666,
+          "timeDifference": 8.998458000000028
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Perfection: Vulnerability, Regret, and Healing",
+          "expectedStart": 1126.06,
+          "expectedEnd": 1282.58,
+          "actualStart": 1136.561666,
+          "actualEnd": 1293.084249,
+          "timeDifference": 10.501666000000114
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bridging the Divide: Finding Common Ground Across Generations",
+          "expectedStart": 1282.58,
+          "expectedEnd": 1410.09,
+          "actualStart": 1294.584249,
+          "actualEnd": 1422.090624,
+          "timeDifference": 12.004249000000073
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Redefining Ambition: Success, Identity, and the Freedom to Choose",
+          "expectedStart": 1410.09,
+          "expectedEnd": 1537.87,
+          "actualStart": 1423.590624,
+          "actualEnd": 1551.365791,
+          "timeDifference": 13.500624000000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Love, Acceptance, and the Power of Letting Go",
+          "expectedStart": 1537.87,
+          "expectedEnd": 1615.83,
+          "actualStart": 1552.865791,
+          "actualEnd": 1630.8262909999999,
+          "timeDifference": 14.995791000000054
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1615.83,
+          "expectedEnd": 1735.8,
+          "actualStart": 1632.3262909999999,
+          "actualEnd": 1752.296666,
+          "timeDifference": 16.49629099999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.334542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Between Worlds: Family Roots and Early Lessons"
+        },
+        {
+          "startTime": 304.650125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Between Worlds: Family Roots and Early Lessons and Chapter 2 The Demands of Excellence: Discipline, Sacrifice, and the Pursuit of Mastery"
+        },
+        {
+          "startTime": 507.59625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Demands of Excellence: Discipline, Sacrifice, and the Pursuit of Mastery and Chapter 3 Clashing Values: East Meets West in Parenting and Identity"
+        },
+        {
+          "startTime": 701.711083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Clashing Values: East Meets West in Parenting and Identity and Chapter 4 Breaking Points and New Understandings: When Children Push Back"
+        },
+        {
+          "startTime": 849.9327910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Points and New Understandings: When Children Push Back and Chapter 5 Rethinking Success: Growth, Empathy, and the Limits of Control"
+        },
+        {
+          "startTime": 988.608458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Success: Growth, Empathy, and the Limits of Control and Chapter 6 The Long Road to Compromise: Small Steps, Big Shifts"
+        },
+        {
+          "startTime": 1135.061666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Compromise: Small Steps, Big Shifts and Chapter 7 The Cost of Perfection: Vulnerability, Regret, and Healing"
+        },
+        {
+          "startTime": 1293.084249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Perfection: Vulnerability, Regret, and Healing and Chapter 8 Bridging the Divide: Finding Common Ground Across Generations"
+        },
+        {
+          "startTime": 1422.090624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bridging the Divide: Finding Common Ground Across Generations and Chapter 9 Redefining Ambition: Success, Identity, and the Freedom to Choose"
+        },
+        {
+          "startTime": 1551.365791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Redefining Ambition: Success, Identity, and the Freedom to Choose and Chapter 10 The Ongoing Journey: Love, Acceptance, and the Power of Letting Go"
+        },
+        {
+          "startTime": 1630.8262909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Love, Acceptance, and the Power of Letting Go and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3042",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:39:43.532Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

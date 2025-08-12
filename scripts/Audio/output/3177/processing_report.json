@@ -1,0 +1,505 @@
+{
+  "bookId": "3177",
+  "timestamp": "2025-07-15T01:12:59.947Z",
+  "success": false,
+  "processingTime": -1752541432997,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5758,
+    "totalAudioFiles": 14,
+    "totalDuration": 2509.5375839999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2509.5375839999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3177/optimized_text/3177.md",
+    "fileSize": 786,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "3177.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3177/metadata/3177_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2509.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3177/metadata/3177_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3177/metadata/3177_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3177/3177_complete.wav",
+    "duration": 2509.537583,
+    "fileSize": 120457882,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3177/introduction.wav",
+          "duration": 68.679042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 68.679042,
+          "startTime": 0,
+          "endTime": 68.679042
+        },
+        {
+          "path": "Audio/output/3177/chapter_01.wav",
+          "duration": 225.611667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Patterns That Hold People Back",
+          "actualDuration": 225.611667,
+          "startTime": 70.179042,
+          "endTime": 295.790709
+        },
+        {
+          "path": "Audio/output/3177/chapter_02.wav",
+          "duration": 228.511375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Self-Love and Accepting Who You Are",
+          "actualDuration": 228.511375,
+          "startTime": 297.290709,
+          "endTime": 525.8020839999999
+        },
+        {
+          "path": "Audio/output/3177/chapter_03.wav",
+          "duration": 228.015125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Changing Your Mindset to Create a New Reality",
+          "actualDuration": 228.015125,
+          "startTime": 527.3020839999999,
+          "endTime": 755.3172089999999
+        },
+        {
+          "path": "Audio/output/3177/chapter_04.wav",
+          "duration": 216.932125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Taking Bold Action and Embracing Discomfort",
+          "actualDuration": 216.932125,
+          "startTime": 756.8172089999999,
+          "endTime": 973.749334
+        },
+        {
+          "path": "Audio/output/3177/chapter_05.wav",
+          "duration": 223.426208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Trusting in a Bigger Purpose and Letting Go of Control",
+          "actualDuration": 223.426208,
+          "startTime": 975.249334,
+          "endTime": 1198.675542
+        },
+        {
+          "path": "Audio/output/3177/chapter_06.wav",
+          "duration": 213.513417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Welcoming Abundance and Rewriting the Money Story",
+          "actualDuration": 213.513417,
+          "startTime": 1200.175542,
+          "endTime": 1413.688959
+        },
+        {
+          "path": "Audio/output/3177/chapter_07.wav",
+          "duration": 175.902458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Surrounding Yourself with Support and Inspiration",
+          "actualDuration": 175.902458,
+          "startTime": 1415.188959,
+          "endTime": 1591.091417
+        },
+        {
+          "path": "Audio/output/3177/chapter_08.wav",
+          "duration": 156.510542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mastering the Art of Persistence",
+          "actualDuration": 156.510542,
+          "startTime": 1592.591417,
+          "endTime": 1749.101959
+        },
+        {
+          "path": "Audio/output/3177/chapter_09.wav",
+          "duration": 157.206833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Tuning Into Intuition and Inner Wisdom",
+          "actualDuration": 157.206833,
+          "startTime": 1750.601959,
+          "endTime": 1907.808792
+        },
+        {
+          "path": "Audio/output/3177/chapter_10.wav",
+          "duration": 142.219667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Authentically and Owning Your Power",
+          "actualDuration": 142.219667,
+          "startTime": 1909.308792,
+          "endTime": 2051.528459
+        },
+        {
+          "path": "Audio/output/3177/chapter_11.wav",
+          "duration": 134.969292,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Creating Daily Habits for Lasting Change",
+          "actualDuration": 134.969292,
+          "startTime": 2053.028459,
+          "endTime": 2187.997751
+        },
+        {
+          "path": "Audio/output/3177/chapter_12.wav",
+          "duration": 119.290375,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Embracing Joy and Playfulness",
+          "actualDuration": 119.290375,
+          "startTime": 2189.497751,
+          "endTime": 2308.788126
+        },
+        {
+          "path": "Audio/output/3177/chapter_13.wav",
+          "duration": 218.749458,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Giving Back and Making a Difference",
+          "actualDuration": 218.749458,
+          "startTime": 2310.288126,
+          "endTime": 2529.0375839999997
+        }
+      ],
+      "totalDuration": 2529.0375839999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 68.68,
+          "actualStart": 0,
+          "actualEnd": 68.679042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Patterns That Hold People Back",
+          "expectedStart": 68.68,
+          "expectedEnd": 294.29,
+          "actualStart": 70.179042,
+          "actualEnd": 295.790709,
+          "timeDifference": 1.4990419999999887
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Self-Love and Accepting Who You Are",
+          "expectedStart": 294.29,
+          "expectedEnd": 522.8,
+          "actualStart": 297.290709,
+          "actualEnd": 525.8020839999999,
+          "timeDifference": 3.000708999999972
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Changing Your Mindset to Create a New Reality",
+          "expectedStart": 522.8,
+          "expectedEnd": 750.82,
+          "actualStart": 527.3020839999999,
+          "actualEnd": 755.3172089999999,
+          "timeDifference": 4.502083999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Taking Bold Action and Embracing Discomfort",
+          "expectedStart": 750.82,
+          "expectedEnd": 967.75,
+          "actualStart": 756.8172089999999,
+          "actualEnd": 973.749334,
+          "timeDifference": 5.997208999999884
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Trusting in a Bigger Purpose and Letting Go of Control",
+          "expectedStart": 967.75,
+          "expectedEnd": 1191.18,
+          "actualStart": 975.249334,
+          "actualEnd": 1198.675542,
+          "timeDifference": 7.499333999999976
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Welcoming Abundance and Rewriting the Money Story",
+          "expectedStart": 1191.18,
+          "expectedEnd": 1404.69,
+          "actualStart": 1200.175542,
+          "actualEnd": 1413.688959,
+          "timeDifference": 8.995541999999887
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Surrounding Yourself with Support and Inspiration",
+          "expectedStart": 1404.69,
+          "expectedEnd": 1580.59,
+          "actualStart": 1415.188959,
+          "actualEnd": 1591.091417,
+          "timeDifference": 10.498959000000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mastering the Art of Persistence",
+          "expectedStart": 1580.59,
+          "expectedEnd": 1737.1,
+          "actualStart": 1592.591417,
+          "actualEnd": 1749.101959,
+          "timeDifference": 12.001417000000174
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Tuning Into Intuition and Inner Wisdom",
+          "expectedStart": 1737.1,
+          "expectedEnd": 1894.31,
+          "actualStart": 1750.601959,
+          "actualEnd": 1907.808792,
+          "timeDifference": 13.50195900000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Authentically and Owning Your Power",
+          "expectedStart": 1894.31,
+          "expectedEnd": 2036.53,
+          "actualStart": 1909.308792,
+          "actualEnd": 2051.528459,
+          "timeDifference": 14.998792000000094
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Creating Daily Habits for Lasting Change",
+          "expectedStart": 2036.53,
+          "expectedEnd": 2171.5,
+          "actualStart": 2053.028459,
+          "actualEnd": 2187.997751,
+          "timeDifference": 16.49845900000014
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Embracing Joy and Playfulness",
+          "expectedStart": 2171.5,
+          "expectedEnd": 2290.79,
+          "actualStart": 2189.497751,
+          "actualEnd": 2308.788126,
+          "timeDifference": 17.99775099999988
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Giving Back and Making a Difference",
+          "expectedStart": 2290.79,
+          "expectedEnd": 2509.54,
+          "actualStart": 2310.288126,
+          "actualEnd": 2529.0375839999997,
+          "timeDifference": 19.498125999999957
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 68.679042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Patterns That Hold People Back"
+        },
+        {
+          "startTime": 295.790709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Patterns That Hold People Back and Chapter 2 Building Self-Love and Accepting Who You Are"
+        },
+        {
+          "startTime": 525.8020839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Self-Love and Accepting Who You Are and Chapter 3 Changing Your Mindset to Create a New Reality"
+        },
+        {
+          "startTime": 755.3172089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Changing Your Mindset to Create a New Reality and Chapter 4 Taking Bold Action and Embracing Discomfort"
+        },
+        {
+          "startTime": 973.749334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Taking Bold Action and Embracing Discomfort and Chapter 5 Trusting in a Bigger Purpose and Letting Go of Control"
+        },
+        {
+          "startTime": 1198.675542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Trusting in a Bigger Purpose and Letting Go of Control and Chapter 6 Welcoming Abundance and Rewriting the Money Story"
+        },
+        {
+          "startTime": 1413.688959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Welcoming Abundance and Rewriting the Money Story and Chapter 7 Surrounding Yourself with Support and Inspiration"
+        },
+        {
+          "startTime": 1591.091417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Surrounding Yourself with Support and Inspiration and Chapter 8 Mastering the Art of Persistence"
+        },
+        {
+          "startTime": 1749.101959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mastering the Art of Persistence and Chapter 9 Tuning Into Intuition and Inner Wisdom"
+        },
+        {
+          "startTime": 1907.808792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Tuning Into Intuition and Inner Wisdom and Chapter 10 Living Authentically and Owning Your Power"
+        },
+        {
+          "startTime": 2051.528459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Authentically and Owning Your Power and Chapter 11 Creating Daily Habits for Lasting Change"
+        },
+        {
+          "startTime": 2187.997751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Creating Daily Habits for Lasting Change and Chapter 12 Embracing Joy and Playfulness"
+        },
+        {
+          "startTime": 2308.788126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Embracing Joy and Playfulness and Chapter 13 Giving Back and Making a Difference"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3177",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T01:03:54.290Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

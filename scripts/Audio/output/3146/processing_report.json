@@ -1,0 +1,503 @@
+{
+  "bookId": "3146",
+  "timestamp": "2025-07-14T21:59:49.785Z",
+  "success": false,
+  "processingTime": -1752529781908,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4619,
+    "totalAudioFiles": 14,
+    "totalDuration": 1987.5390819999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 1987.5390819999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3146/optimized_text/3146.md",
+    "fileSize": 760,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "3146.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3146/metadata/3146_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 1987.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3146/metadata/3146_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3146/metadata/3146_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3146/3146_complete.wav",
+    "duration": 1987.539083,
+    "fileSize": 95401954,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3146/introduction.wav",
+          "duration": 78.366458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.366458,
+          "startTime": 0,
+          "endTime": 78.366458
+        },
+        {
+          "path": "Audio/output/3146/chapter_01.wav",
+          "duration": 195.067375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Shadows: Life with an Unpredictable Mind",
+          "actualDuration": 195.067375,
+          "startTime": 79.866458,
+          "endTime": 274.933833
+        },
+        {
+          "path": "Audio/output/3146/chapter_02.wav",
+          "duration": 176.58725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Choosing Joy on Purpose: The “Furiously Happy” Philosophy",
+          "actualDuration": 176.58725,
+          "startTime": 276.433833,
+          "endTime": 453.021083
+        },
+        {
+          "path": "Audio/output/3146/chapter_03.wav",
+          "duration": 174.42725,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Quirks and Flaws: The Power of Authenticity",
+          "actualDuration": 174.42725,
+          "startTime": 454.521083,
+          "endTime": 628.9483329999999
+        },
+        {
+          "path": "Audio/output/3146/chapter_04.wav",
+          "duration": 164.58875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Connection Through Shared Struggles",
+          "actualDuration": 164.58875,
+          "startTime": 630.4483329999999,
+          "endTime": 795.0370829999999
+        },
+        {
+          "path": "Audio/output/3146/chapter_05.wav",
+          "duration": 146.027042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Humor as a Lifeline: Laughing in the Darkest Moments",
+          "actualDuration": 146.027042,
+          "startTime": 796.5370829999999,
+          "endTime": 942.5641249999999
+        },
+        {
+          "path": "Audio/output/3146/chapter_06.wav",
+          "duration": 149.392958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unexpected Gifts of Struggle",
+          "actualDuration": 149.392958,
+          "startTime": 944.0641249999999,
+          "endTime": 1093.4570829999998
+        },
+        {
+          "path": "Audio/output/3146/chapter_07.wav",
+          "duration": 149.208458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Relationships: Love, Frustration, and Understanding",
+          "actualDuration": 149.208458,
+          "startTime": 1094.9570829999998,
+          "endTime": 1244.1655409999998
+        },
+        {
+          "path": "Audio/output/3146/chapter_08.wav",
+          "duration": 132.419917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Rollercoaster of Self-Care",
+          "actualDuration": 132.419917,
+          "startTime": 1245.6655409999998,
+          "endTime": 1378.0854579999998
+        },
+        {
+          "path": "Audio/output/3146/chapter_09.wav",
+          "duration": 132.522333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Battle with Stigma",
+          "actualDuration": 132.522333,
+          "startTime": 1379.5854579999998,
+          "endTime": 1512.107791
+        },
+        {
+          "path": "Audio/output/3146/chapter_10.wav",
+          "duration": 133.151958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Messy Beauty of Recovery",
+          "actualDuration": 133.151958,
+          "startTime": 1513.607791,
+          "endTime": 1646.7597489999998
+        },
+        {
+          "path": "Audio/output/3146/chapter_11.wav",
+          "duration": 118.260417,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Finding Purpose in the Chaos",
+          "actualDuration": 118.260417,
+          "startTime": 1648.2597489999998,
+          "endTime": 1766.5201659999998
+        },
+        {
+          "path": "Audio/output/3146/chapter_12.wav",
+          "duration": 116.816833,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Adventure: Living “Furiously Happy”",
+          "actualDuration": 116.816833,
+          "startTime": 1768.0201659999998,
+          "endTime": 1884.8369989999999
+        },
+        {
+          "path": "Audio/output/3146/conclusion.wav",
+          "duration": 120.702083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.702083,
+          "startTime": 1886.3369989999999,
+          "endTime": 2007.0390819999998
+        }
+      ],
+      "totalDuration": 2007.0390819999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.37,
+          "actualStart": 0,
+          "actualEnd": 78.366458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Shadows: Life with an Unpredictable Mind",
+          "expectedStart": 78.37,
+          "expectedEnd": 273.44,
+          "actualStart": 79.866458,
+          "actualEnd": 274.933833,
+          "timeDifference": 1.4964579999999899
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Choosing Joy on Purpose: The “Furiously Happy” Philosophy",
+          "expectedStart": 273.44,
+          "expectedEnd": 450.03,
+          "actualStart": 276.433833,
+          "actualEnd": 453.021083,
+          "timeDifference": 2.993832999999995
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Quirks and Flaws: The Power of Authenticity",
+          "expectedStart": 450.03,
+          "expectedEnd": 624.46,
+          "actualStart": 454.521083,
+          "actualEnd": 628.9483329999999,
+          "timeDifference": 4.491083000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Connection Through Shared Struggles",
+          "expectedStart": 624.46,
+          "expectedEnd": 789.05,
+          "actualStart": 630.4483329999999,
+          "actualEnd": 795.0370829999999,
+          "timeDifference": 5.988332999999898
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Humor as a Lifeline: Laughing in the Darkest Moments",
+          "expectedStart": 789.05,
+          "expectedEnd": 935.08,
+          "actualStart": 796.5370829999999,
+          "actualEnd": 942.5641249999999,
+          "timeDifference": 7.487082999999984
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unexpected Gifts of Struggle",
+          "expectedStart": 935.08,
+          "expectedEnd": 1084.47,
+          "actualStart": 944.0641249999999,
+          "actualEnd": 1093.4570829999998,
+          "timeDifference": 8.984124999999835
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Relationships: Love, Frustration, and Understanding",
+          "expectedStart": 1084.47,
+          "expectedEnd": 1233.68,
+          "actualStart": 1094.9570829999998,
+          "actualEnd": 1244.1655409999998,
+          "timeDifference": 10.487082999999757
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Rollercoaster of Self-Care",
+          "expectedStart": 1233.68,
+          "expectedEnd": 1366.1,
+          "actualStart": 1245.6655409999998,
+          "actualEnd": 1378.0854579999998,
+          "timeDifference": 11.985540999999785
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Battle with Stigma",
+          "expectedStart": 1366.1,
+          "expectedEnd": 1498.62,
+          "actualStart": 1379.5854579999998,
+          "actualEnd": 1512.107791,
+          "timeDifference": 13.48545799999988
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Messy Beauty of Recovery",
+          "expectedStart": 1498.62,
+          "expectedEnd": 1631.77,
+          "actualStart": 1513.607791,
+          "actualEnd": 1646.7597489999998,
+          "timeDifference": 14.987791000000016
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Finding Purpose in the Chaos",
+          "expectedStart": 1631.77,
+          "expectedEnd": 1750.03,
+          "actualStart": 1648.2597489999998,
+          "actualEnd": 1766.5201659999998,
+          "timeDifference": 16.489748999999847
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Adventure: Living “Furiously Happy”",
+          "expectedStart": 1750.03,
+          "expectedEnd": 1866.85,
+          "actualStart": 1768.0201659999998,
+          "actualEnd": 1884.8369989999999,
+          "timeDifference": 17.990165999999817
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1866.85,
+          "expectedEnd": 1987.55,
+          "actualStart": 1886.3369989999999,
+          "actualEnd": 2007.0390819999998,
+          "timeDifference": 19.48699899999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.366458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Shadows: Life with an Unpredictable Mind"
+        },
+        {
+          "startTime": 274.933833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Shadows: Life with an Unpredictable Mind and Chapter 2 Choosing Joy on Purpose: The “Furiously Happy” Philosophy"
+        },
+        {
+          "startTime": 453.021083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Choosing Joy on Purpose: The “Furiously Happy” Philosophy and Chapter 3 Embracing Quirks and Flaws: The Power of Authenticity"
+        },
+        {
+          "startTime": 628.9483329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Quirks and Flaws: The Power of Authenticity and Chapter 4 Finding Connection Through Shared Struggles"
+        },
+        {
+          "startTime": 795.0370829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Connection Through Shared Struggles and Chapter 5 Humor as a Lifeline: Laughing in the Darkest Moments"
+        },
+        {
+          "startTime": 942.5641249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Humor as a Lifeline: Laughing in the Darkest Moments and Chapter 6 The Unexpected Gifts of Struggle"
+        },
+        {
+          "startTime": 1093.4570829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unexpected Gifts of Struggle and Chapter 7 Navigating Relationships: Love, Frustration, and Understanding"
+        },
+        {
+          "startTime": 1244.1655409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Relationships: Love, Frustration, and Understanding and Chapter 8 The Rollercoaster of Self-Care"
+        },
+        {
+          "startTime": 1378.0854579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Rollercoaster of Self-Care and Chapter 9 The Ongoing Battle with Stigma"
+        },
+        {
+          "startTime": 1512.107791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Battle with Stigma and Chapter 10 The Messy Beauty of Recovery"
+        },
+        {
+          "startTime": 1646.7597489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Messy Beauty of Recovery and Chapter 11 Finding Purpose in the Chaos"
+        },
+        {
+          "startTime": 1766.5201659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Finding Purpose in the Chaos and Chapter 12 The Ongoing Adventure: Living “Furiously Happy”"
+        },
+        {
+          "startTime": 1884.8369989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Adventure: Living “Furiously Happy” and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3146",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:49:41.939Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3052",
+  "timestamp": "2025-07-14T14:45:12.205Z",
+  "success": false,
+  "processingTime": -1752503934641,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5081,
+    "totalAudioFiles": 12,
+    "totalDuration": 2303.786083
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2303.786083
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3052/optimized_text/3052.md",
+    "fileSize": 841,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "3052.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3052/metadata/3052_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2303.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3052/metadata/3052_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3052/metadata/3052_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3052/3052_complete.wav",
+    "duration": 2303.786083,
+    "fileSize": 110581810,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3052/introduction.wav",
+          "duration": 89.583708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.583708,
+          "startTime": 0,
+          "endTime": 89.583708
+        },
+        {
+          "path": "Audio/output/3052/chapter_01.wav",
+          "duration": 255.710125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Childhood Pain Lingers: Discovering the Hidden Roots of Suffering",
+          "actualDuration": 255.710125,
+          "startTime": 91.083708,
+          "endTime": 346.793833
+        },
+        {
+          "path": "Audio/output/3052/chapter_02.wav",
+          "duration": 258.3905,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science of Stress: How Early Adversity Shapes the Body and Brain",
+          "actualDuration": 258.3905,
+          "startTime": 348.293833,
+          "endTime": 606.6843329999999
+        },
+        {
+          "path": "Audio/output/3052/chapter_03.wav",
+          "duration": 239.550833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Recognition: Screening for Adverse Childhood Experiences",
+          "actualDuration": 239.550833,
+          "startTime": 608.1843329999999,
+          "endTime": 847.7351659999999
+        },
+        {
+          "path": "Audio/output/3052/chapter_04.wav",
+          "duration": 247.114333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Cycle: Trauma-Informed Care and the Path to Healing",
+          "actualDuration": 247.114333,
+          "startTime": 849.2351659999999,
+          "endTime": 1096.349499
+        },
+        {
+          "path": "Audio/output/3052/chapter_05.wav",
+          "duration": 213.037167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Resilience: Hope and Recovery in Families and Communities",
+          "actualDuration": 213.037167,
+          "startTime": 1097.849499,
+          "endTime": 1310.8866659999999
+        },
+        {
+          "path": "Audio/output/3052/chapter_06.wav",
+          "duration": 190.890292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 From Clinic to Community: Expanding the Circle of Healing",
+          "actualDuration": 190.890292,
+          "startTime": 1312.3866659999999,
+          "endTime": 1503.276958
+        },
+        {
+          "path": "Audio/output/3052/chapter_07.wav",
+          "duration": 200.670875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Policy and Prevention: Changing the Systems That Shape Childhood",
+          "actualDuration": 200.670875,
+          "startTime": 1504.776958,
+          "endTime": 1705.447833
+        },
+        {
+          "path": "Audio/output/3052/chapter_08.wav",
+          "duration": 177.410292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Movement for Trauma-Informed Society: Shifting Culture and Mindset",
+          "actualDuration": 177.410292,
+          "startTime": 1706.947833,
+          "endTime": 1884.358125
+        },
+        {
+          "path": "Audio/output/3052/chapter_09.wav",
+          "duration": 153.910667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing Across Generations: Breaking Patterns, Building Futures",
+          "actualDuration": 153.910667,
+          "startTime": 1885.858125,
+          "endTime": 2039.7687919999998
+        },
+        {
+          "path": "Audio/output/3052/chapter_10.wav",
+          "duration": 148.687708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Deepest Well: Embracing Hope, Taking Action",
+          "actualDuration": 148.687708,
+          "startTime": 2041.2687919999998,
+          "endTime": 2189.9565
+        },
+        {
+          "path": "Audio/output/3052/conclusion.wav",
+          "duration": 128.829583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.829583,
+          "startTime": 2191.4565,
+          "endTime": 2320.286083
+        }
+      ],
+      "totalDuration": 2320.286083,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.58,
+          "actualStart": 0,
+          "actualEnd": 89.583708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Childhood Pain Lingers: Discovering the Hidden Roots of Suffering",
+          "expectedStart": 89.58,
+          "expectedEnd": 345.29,
+          "actualStart": 91.083708,
+          "actualEnd": 346.793833,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science of Stress: How Early Adversity Shapes the Body and Brain",
+          "expectedStart": 345.29,
+          "expectedEnd": 603.68,
+          "actualStart": 348.293833,
+          "actualEnd": 606.6843329999999,
+          "timeDifference": 3.003832999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Recognition: Screening for Adverse Childhood Experiences",
+          "expectedStart": 603.68,
+          "expectedEnd": 843.23,
+          "actualStart": 608.1843329999999,
+          "actualEnd": 847.7351659999999,
+          "timeDifference": 4.504332999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Cycle: Trauma-Informed Care and the Path to Healing",
+          "expectedStart": 843.23,
+          "expectedEnd": 1090.34,
+          "actualStart": 849.2351659999999,
+          "actualEnd": 1096.349499,
+          "timeDifference": 6.005165999999917
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Resilience: Hope and Recovery in Families and Communities",
+          "expectedStart": 1090.34,
+          "expectedEnd": 1303.38,
+          "actualStart": 1097.849499,
+          "actualEnd": 1310.8866659999999,
+          "timeDifference": 7.509499000000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 From Clinic to Community: Expanding the Circle of Healing",
+          "expectedStart": 1303.38,
+          "expectedEnd": 1494.27,
+          "actualStart": 1312.3866659999999,
+          "actualEnd": 1503.276958,
+          "timeDifference": 9.006665999999768
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Policy and Prevention: Changing the Systems That Shape Childhood",
+          "expectedStart": 1494.27,
+          "expectedEnd": 1694.94,
+          "actualStart": 1504.776958,
+          "actualEnd": 1705.447833,
+          "timeDifference": 10.50695799999994
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Movement for Trauma-Informed Society: Shifting Culture and Mindset",
+          "expectedStart": 1694.94,
+          "expectedEnd": 1872.35,
+          "actualStart": 1706.947833,
+          "actualEnd": 1884.358125,
+          "timeDifference": 12.007832999999891
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing Across Generations: Breaking Patterns, Building Futures",
+          "expectedStart": 1872.35,
+          "expectedEnd": 2026.26,
+          "actualStart": 1885.858125,
+          "actualEnd": 2039.7687919999998,
+          "timeDifference": 13.508125000000064
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Deepest Well: Embracing Hope, Taking Action",
+          "expectedStart": 2026.26,
+          "expectedEnd": 2174.95,
+          "actualStart": 2041.2687919999998,
+          "actualEnd": 2189.9565,
+          "timeDifference": 15.008791999999858
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2174.95,
+          "expectedEnd": 2303.78,
+          "actualStart": 2191.4565,
+          "actualEnd": 2320.286083,
+          "timeDifference": 16.50649999999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.583708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Childhood Pain Lingers: Discovering the Hidden Roots of Suffering"
+        },
+        {
+          "startTime": 346.793833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Childhood Pain Lingers: Discovering the Hidden Roots of Suffering and Chapter 2 The Science of Stress: How Early Adversity Shapes the Body and Brain"
+        },
+        {
+          "startTime": 606.6843329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science of Stress: How Early Adversity Shapes the Body and Brain and Chapter 3 The Power of Recognition: Screening for Adverse Childhood Experiences"
+        },
+        {
+          "startTime": 847.7351659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Recognition: Screening for Adverse Childhood Experiences and Chapter 4 Breaking the Cycle: Trauma-Informed Care and the Path to Healing"
+        },
+        {
+          "startTime": 1096.349499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Cycle: Trauma-Informed Care and the Path to Healing and Chapter 5 Building Resilience: Hope and Recovery in Families and Communities"
+        },
+        {
+          "startTime": 1310.8866659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Resilience: Hope and Recovery in Families and Communities and Chapter 6 From Clinic to Community: Expanding the Circle of Healing"
+        },
+        {
+          "startTime": 1503.276958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 From Clinic to Community: Expanding the Circle of Healing and Chapter 7 Policy and Prevention: Changing the Systems That Shape Childhood"
+        },
+        {
+          "startTime": 1705.447833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Policy and Prevention: Changing the Systems That Shape Childhood and Chapter 8 The Movement for Trauma-Informed Society: Shifting Culture and Mindset"
+        },
+        {
+          "startTime": 1884.358125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Movement for Trauma-Informed Society: Shifting Culture and Mindset and Chapter 9 Healing Across Generations: Breaking Patterns, Building Futures"
+        },
+        {
+          "startTime": 2039.7687919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing Across Generations: Breaking Patterns, Building Futures and Chapter 10 The Deepest Well: Embracing Hope, Taking Action"
+        },
+        {
+          "startTime": 2189.9565,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Deepest Well: Embracing Hope, Taking Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3052",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T14:38:55.959Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

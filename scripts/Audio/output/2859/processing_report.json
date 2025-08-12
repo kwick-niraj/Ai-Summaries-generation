@@ -1,0 +1,576 @@
+{
+  "bookId": "2859",
+  "timestamp": "2025-07-14T00:56:48.240Z",
+  "success": false,
+  "processingTime": -1752454239900,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4844,
+    "totalAudioFiles": 17,
+    "totalDuration": 2654.0134160000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2654.0134160000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2859/optimized_text/2859.md",
+    "fileSize": 1272,
+    "wordCount": 162,
+    "format": "markdown",
+    "filename": "2859.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2859/metadata/2859_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2654.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2859/metadata/2859_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2859/metadata/2859_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2859/2859_complete.wav",
+    "duration": 2654.013417,
+    "fileSize": 127392722,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2859/introduction.wav",
+          "duration": 100.851083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.851083,
+          "startTime": 0,
+          "endTime": 100.851083
+        },
+        {
+          "path": "Audio/output/2859/chapter_01.wav",
+          "duration": 210.414333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Negotiation: Moving Beyond Compromise and Logic",
+          "actualDuration": 210.414333,
+          "startTime": 102.351083,
+          "endTime": 312.765416
+        },
+        {
+          "path": "Audio/output/2859/chapter_02.wav",
+          "duration": 207.094458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Tactical Empathy: Understanding and Validating Emotions",
+          "actualDuration": 207.094458,
+          "startTime": 314.265416,
+          "endTime": 521.359874
+        },
+        {
+          "path": "Audio/output/2859/chapter_03.wav",
+          "duration": 193.287792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Listening as Influence: The Power of Mirroring, Labeling, and Silence",
+          "actualDuration": 193.287792,
+          "startTime": 522.859874,
+          "endTime": 716.147666
+        },
+        {
+          "path": "Audio/output/2859/chapter_04.wav",
+          "duration": 218.504667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Productive Power of “No”: Redefining Rejection in Negotiation",
+          "actualDuration": 218.504667,
+          "startTime": 717.647666,
+          "endTime": 936.152333
+        },
+        {
+          "path": "Audio/output/2859/chapter_05.wav",
+          "duration": 186.578167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Guiding the Conversation: Calibrated Questions and the Art of Discovery",
+          "actualDuration": 186.578167,
+          "startTime": 937.652333,
+          "endTime": 1124.2305000000001
+        },
+        {
+          "path": "Audio/output/2859/chapter_06.wav",
+          "duration": 192.87075,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ackerman Model: A Systematic Approach to Making Offers",
+          "actualDuration": 192.87075,
+          "startTime": 1125.7305000000001,
+          "endTime": 1318.6012500000002
+        },
+        {
+          "path": "Audio/output/2859/chapter_07.wav",
+          "duration": 158.726708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Emotional Intelligence in Action: Turning Obstacles into Opportunities",
+          "actualDuration": 158.726708,
+          "startTime": 1320.1012500000002,
+          "endTime": 1478.827958
+        },
+        {
+          "path": "Audio/output/2859/chapter_08.wav",
+          "duration": 169.388458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creating Leverage: The Power of Perceived Alternatives",
+          "actualDuration": 169.388458,
+          "startTime": 1480.327958,
+          "endTime": 1649.7164160000002
+        },
+        {
+          "path": "Audio/output/2859/chapter_09.wav",
+          "duration": 141.839542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Illusion of Fairness: Managing Expectations and Anchoring",
+          "actualDuration": 141.839542,
+          "startTime": 1651.2164160000002,
+          "endTime": 1793.0559580000001
+        },
+        {
+          "path": "Audio/output/2859/chapter_10.wav",
+          "duration": 122.536667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 “That’s Right”: The Turning Point of True Understanding",
+          "actualDuration": 122.536667,
+          "startTime": 1794.5559580000001,
+          "endTime": 1917.0926250000002
+        },
+        {
+          "path": "Audio/output/2859/chapter_11.wav",
+          "duration": 116.886042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of “How Am I Supposed to Do That?”: Deflecting Demands with Calibrated Pushback",
+          "actualDuration": 116.886042,
+          "startTime": 1918.5926250000002,
+          "endTime": 2035.4786670000003
+        },
+        {
+          "path": "Audio/output/2859/chapter_12.wav",
+          "duration": 134.261375,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Bargaining with Difficult People: Staying Grounded Amidst Aggression",
+          "actualDuration": 134.261375,
+          "startTime": 2036.9786670000003,
+          "endTime": 2171.2400420000004
+        },
+        {
+          "path": "Audio/output/2859/chapter_13.wav",
+          "duration": 134.597333,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Black Swan Principle: Uncovering Hidden Game-Changers",
+          "actualDuration": 134.597333,
+          "startTime": 2172.7400420000004,
+          "endTime": 2307.3373750000005
+        },
+        {
+          "path": "Audio/output/2859/chapter_14.wav",
+          "duration": 122.443125,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Negotiation in Everyday Life: Applying the Framework Beyond the Boardroom",
+          "actualDuration": 122.443125,
+          "startTime": 2308.8373750000005,
+          "endTime": 2431.2805000000003
+        },
+        {
+          "path": "Audio/output/2859/chapter_15.wav",
+          "duration": 111.559958,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Building a Negotiation Mindset: Lifelong Growth and Adaptation",
+          "actualDuration": 111.559958,
+          "startTime": 2432.7805000000003,
+          "endTime": 2544.340458
+        },
+        {
+          "path": "Audio/output/2859/conclusion.wav",
+          "duration": 132.172958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.172958,
+          "startTime": 2545.840458,
+          "endTime": 2678.0134160000002
+        }
+      ],
+      "totalDuration": 2678.0134160000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.85,
+          "actualStart": 0,
+          "actualEnd": 100.851083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Negotiation: Moving Beyond Compromise and Logic",
+          "expectedStart": 100.85,
+          "expectedEnd": 311.26,
+          "actualStart": 102.351083,
+          "actualEnd": 312.765416,
+          "timeDifference": 1.5010830000000084
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Tactical Empathy: Understanding and Validating Emotions",
+          "expectedStart": 311.26,
+          "expectedEnd": 518.35,
+          "actualStart": 314.265416,
+          "actualEnd": 521.359874,
+          "timeDifference": 3.005416000000025
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Listening as Influence: The Power of Mirroring, Labeling, and Silence",
+          "expectedStart": 518.35,
+          "expectedEnd": 711.64,
+          "actualStart": 522.859874,
+          "actualEnd": 716.147666,
+          "timeDifference": 4.509873999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Productive Power of “No”: Redefining Rejection in Negotiation",
+          "expectedStart": 711.64,
+          "expectedEnd": 930.14,
+          "actualStart": 717.647666,
+          "actualEnd": 936.152333,
+          "timeDifference": 6.007665999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Guiding the Conversation: Calibrated Questions and the Art of Discovery",
+          "expectedStart": 930.14,
+          "expectedEnd": 1116.72,
+          "actualStart": 937.652333,
+          "actualEnd": 1124.2305000000001,
+          "timeDifference": 7.512333000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ackerman Model: A Systematic Approach to Making Offers",
+          "expectedStart": 1116.72,
+          "expectedEnd": 1309.59,
+          "actualStart": 1125.7305000000001,
+          "actualEnd": 1318.6012500000002,
+          "timeDifference": 9.010500000000093
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Emotional Intelligence in Action: Turning Obstacles into Opportunities",
+          "expectedStart": 1309.59,
+          "expectedEnd": 1468.32,
+          "actualStart": 1320.1012500000002,
+          "actualEnd": 1478.827958,
+          "timeDifference": 10.511250000000246
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creating Leverage: The Power of Perceived Alternatives",
+          "expectedStart": 1468.32,
+          "expectedEnd": 1637.71,
+          "actualStart": 1480.327958,
+          "actualEnd": 1649.7164160000002,
+          "timeDifference": 12.007958000000144
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Illusion of Fairness: Managing Expectations and Anchoring",
+          "expectedStart": 1637.71,
+          "expectedEnd": 1779.55,
+          "actualStart": 1651.2164160000002,
+          "actualEnd": 1793.0559580000001,
+          "timeDifference": 13.506416000000172
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 “That’s Right”: The Turning Point of True Understanding",
+          "expectedStart": 1779.55,
+          "expectedEnd": 1902.09,
+          "actualStart": 1794.5559580000001,
+          "actualEnd": 1917.0926250000002,
+          "timeDifference": 15.005958000000192
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of “How Am I Supposed to Do That?”: Deflecting Demands with Calibrated Pushback",
+          "expectedStart": 1902.09,
+          "expectedEnd": 2018.98,
+          "actualStart": 1918.5926250000002,
+          "actualEnd": 2035.4786670000003,
+          "timeDifference": 16.502625000000307
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Bargaining with Difficult People: Staying Grounded Amidst Aggression",
+          "expectedStart": 2018.98,
+          "expectedEnd": 2153.24,
+          "actualStart": 2036.9786670000003,
+          "actualEnd": 2171.2400420000004,
+          "timeDifference": 17.998667000000296
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Black Swan Principle: Uncovering Hidden Game-Changers",
+          "expectedStart": 2153.24,
+          "expectedEnd": 2287.84,
+          "actualStart": 2172.7400420000004,
+          "actualEnd": 2307.3373750000005,
+          "timeDifference": 19.500042000000576
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Negotiation in Everyday Life: Applying the Framework Beyond the Boardroom",
+          "expectedStart": 2287.84,
+          "expectedEnd": 2410.28,
+          "actualStart": 2308.8373750000005,
+          "actualEnd": 2431.2805000000003,
+          "timeDifference": 20.997375000000375
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Building a Negotiation Mindset: Lifelong Growth and Adaptation",
+          "expectedStart": 2410.28,
+          "expectedEnd": 2521.84,
+          "actualStart": 2432.7805000000003,
+          "actualEnd": 2544.340458,
+          "timeDifference": 22.500500000000102
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2521.84,
+          "expectedEnd": 2654.01,
+          "actualStart": 2545.840458,
+          "actualEnd": 2678.0134160000002,
+          "timeDifference": 24.00045799999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.851083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Negotiation: Moving Beyond Compromise and Logic"
+        },
+        {
+          "startTime": 312.765416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Negotiation: Moving Beyond Compromise and Logic and Chapter 2 Tactical Empathy: Understanding and Validating Emotions"
+        },
+        {
+          "startTime": 521.359874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Tactical Empathy: Understanding and Validating Emotions and Chapter 3 Listening as Influence: The Power of Mirroring, Labeling, and Silence"
+        },
+        {
+          "startTime": 716.147666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Listening as Influence: The Power of Mirroring, Labeling, and Silence and Chapter 4 The Productive Power of “No”: Redefining Rejection in Negotiation"
+        },
+        {
+          "startTime": 936.152333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Productive Power of “No”: Redefining Rejection in Negotiation and Chapter 5 Guiding the Conversation: Calibrated Questions and the Art of Discovery"
+        },
+        {
+          "startTime": 1124.2305000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Guiding the Conversation: Calibrated Questions and the Art of Discovery and Chapter 6 The Ackerman Model: A Systematic Approach to Making Offers"
+        },
+        {
+          "startTime": 1318.6012500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ackerman Model: A Systematic Approach to Making Offers and Chapter 7 Emotional Intelligence in Action: Turning Obstacles into Opportunities"
+        },
+        {
+          "startTime": 1478.827958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Emotional Intelligence in Action: Turning Obstacles into Opportunities and Chapter 8 Creating Leverage: The Power of Perceived Alternatives"
+        },
+        {
+          "startTime": 1649.7164160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creating Leverage: The Power of Perceived Alternatives and Chapter 9 The Illusion of Fairness: Managing Expectations and Anchoring"
+        },
+        {
+          "startTime": 1793.0559580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Illusion of Fairness: Managing Expectations and Anchoring and Chapter 10 “That’s Right”: The Turning Point of True Understanding"
+        },
+        {
+          "startTime": 1917.0926250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 “That’s Right”: The Turning Point of True Understanding and Chapter 11 The Power of “How Am I Supposed to Do That?”: Deflecting Demands with Calibrated Pushback"
+        },
+        {
+          "startTime": 2035.4786670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of “How Am I Supposed to Do That?”: Deflecting Demands with Calibrated Pushback and Chapter 12 Bargaining with Difficult People: Staying Grounded Amidst Aggression"
+        },
+        {
+          "startTime": 2171.2400420000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Bargaining with Difficult People: Staying Grounded Amidst Aggression and Chapter 13 The Black Swan Principle: Uncovering Hidden Game-Changers"
+        },
+        {
+          "startTime": 2307.3373750000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Black Swan Principle: Uncovering Hidden Game-Changers and Chapter 14 Negotiation in Everyday Life: Applying the Framework Beyond the Boardroom"
+        },
+        {
+          "startTime": 2431.2805000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Negotiation in Everyday Life: Applying the Framework Beyond the Boardroom and Chapter 15 Building a Negotiation Mindset: Lifelong Growth and Adaptation"
+        },
+        {
+          "startTime": 2544.340458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Building a Negotiation Mindset: Lifelong Growth and Adaptation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2859",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:50:41.093Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

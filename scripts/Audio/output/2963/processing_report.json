@@ -1,0 +1,455 @@
+{
+  "bookId": "2963",
+  "timestamp": "2025-07-14T07:53:44.400Z",
+  "success": false,
+  "processingTime": -1752479284359,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4392,
+    "totalAudioFiles": 12,
+    "totalDuration": 1912.5155399999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1912.5155399999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2963/optimized_text/2963.md",
+    "fileSize": 769,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "2963.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2963/metadata/2963_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1912.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2963/metadata/2963_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2963/metadata/2963_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2963/2963_complete.wav",
+    "duration": 1912.515542,
+    "fileSize": 91800824,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2963/introduction.wav",
+          "duration": 84.786375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.786375,
+          "startTime": 0,
+          "endTime": 84.786375
+        },
+        {
+          "path": "Audio/output/2963/chapter_01.wav",
+          "duration": 192.868458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Belonging in a City That Never Sleeps",
+          "actualDuration": 192.868458,
+          "startTime": 86.286375,
+          "endTime": 279.154833
+        },
+        {
+          "path": "Audio/output/2963/chapter_02.wav",
+          "duration": 169.041958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Spiral of Self-Destruction and the Illusion of Control",
+          "actualDuration": 169.041958,
+          "startTime": 280.654833,
+          "endTime": 449.69679099999996
+        },
+        {
+          "path": "Audio/output/2963/chapter_03.wav",
+          "duration": 180.185792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing the Mirror: Honest Self-Examination and the Road to Recovery",
+          "actualDuration": 180.185792,
+          "startTime": 451.19679099999996,
+          "endTime": 631.382583
+        },
+        {
+          "path": "Audio/output/2963/chapter_04.wav",
+          "duration": 177.206958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Modern Dating and the Pressure to Be “Wife Material”",
+          "actualDuration": 177.206958,
+          "startTime": 632.882583,
+          "endTime": 810.0895409999999
+        },
+        {
+          "path": "Audio/output/2963/chapter_05.wav",
+          "duration": 181.729333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Self-Worth and Embracing Imperfection",
+          "actualDuration": 181.729333,
+          "startTime": 811.5895409999999,
+          "endTime": 993.3188739999999
+        },
+        {
+          "path": "Audio/output/2963/chapter_06.wav",
+          "duration": 172.231083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road of Recovery: Relapse, Resilience, and Small Victories",
+          "actualDuration": 172.231083,
+          "startTime": 994.8188739999999,
+          "endTime": 1167.049957
+        },
+        {
+          "path": "Audio/output/2963/chapter_07.wav",
+          "duration": 180.165708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Family Ties: Healing Old Wounds and Rewriting the Past",
+          "actualDuration": 180.165708,
+          "startTime": 1168.549957,
+          "endTime": 1348.715665
+        },
+        {
+          "path": "Audio/output/2963/chapter_08.wav",
+          "duration": 152.144583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Friendship, Community, and the Power of Being Seen",
+          "actualDuration": 152.144583,
+          "startTime": 1350.215665,
+          "endTime": 1502.360248
+        },
+        {
+          "path": "Audio/output/2963/chapter_09.wav",
+          "duration": 147.533833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Sexuality and Writing a New Narrative",
+          "actualDuration": 147.533833,
+          "startTime": 1503.860248,
+          "endTime": 1651.394081
+        },
+        {
+          "path": "Audio/output/2963/chapter_10.wav",
+          "duration": 157.931167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Mess: Humor, Hope, and the Ongoing Journey",
+          "actualDuration": 157.931167,
+          "startTime": 1652.894081,
+          "endTime": 1810.8252479999999
+        },
+        {
+          "path": "Audio/output/2963/conclusion.wav",
+          "duration": 116.690292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.690292,
+          "startTime": 1812.3252479999999,
+          "endTime": 1929.0155399999999
+        }
+      ],
+      "totalDuration": 1929.0155399999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.79,
+          "actualStart": 0,
+          "actualEnd": 84.786375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Belonging in a City That Never Sleeps",
+          "expectedStart": 84.79,
+          "expectedEnd": 277.66,
+          "actualStart": 86.286375,
+          "actualEnd": 279.154833,
+          "timeDifference": 1.4963750000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Spiral of Self-Destruction and the Illusion of Control",
+          "expectedStart": 277.66,
+          "expectedEnd": 446.7,
+          "actualStart": 280.654833,
+          "actualEnd": 449.69679099999996,
+          "timeDifference": 2.9948329999999714
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing the Mirror: Honest Self-Examination and the Road to Recovery",
+          "expectedStart": 446.7,
+          "expectedEnd": 626.89,
+          "actualStart": 451.19679099999996,
+          "actualEnd": 631.382583,
+          "timeDifference": 4.496790999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Modern Dating and the Pressure to Be “Wife Material”",
+          "expectedStart": 626.89,
+          "expectedEnd": 804.1,
+          "actualStart": 632.882583,
+          "actualEnd": 810.0895409999999,
+          "timeDifference": 5.992582999999968
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Self-Worth and Embracing Imperfection",
+          "expectedStart": 804.1,
+          "expectedEnd": 985.83,
+          "actualStart": 811.5895409999999,
+          "actualEnd": 993.3188739999999,
+          "timeDifference": 7.489540999999917
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road of Recovery: Relapse, Resilience, and Small Victories",
+          "expectedStart": 985.83,
+          "expectedEnd": 1158.06,
+          "actualStart": 994.8188739999999,
+          "actualEnd": 1167.049957,
+          "timeDifference": 8.988873999999896
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Family Ties: Healing Old Wounds and Rewriting the Past",
+          "expectedStart": 1158.06,
+          "expectedEnd": 1338.23,
+          "actualStart": 1168.549957,
+          "actualEnd": 1348.715665,
+          "timeDifference": 10.489957000000004
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Friendship, Community, and the Power of Being Seen",
+          "expectedStart": 1338.23,
+          "expectedEnd": 1490.37,
+          "actualStart": 1350.215665,
+          "actualEnd": 1502.360248,
+          "timeDifference": 11.985664999999926
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Sexuality and Writing a New Narrative",
+          "expectedStart": 1490.37,
+          "expectedEnd": 1637.9,
+          "actualStart": 1503.860248,
+          "actualEnd": 1651.394081,
+          "timeDifference": 13.490248000000065
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Mess: Humor, Hope, and the Ongoing Journey",
+          "expectedStart": 1637.9,
+          "expectedEnd": 1795.83,
+          "actualStart": 1652.894081,
+          "actualEnd": 1810.8252479999999,
+          "timeDifference": 14.994080999999824
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1795.83,
+          "expectedEnd": 1912.52,
+          "actualStart": 1812.3252479999999,
+          "actualEnd": 1929.0155399999999,
+          "timeDifference": 16.495247999999947
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.786375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Belonging in a City That Never Sleeps"
+        },
+        {
+          "startTime": 279.154833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Belonging in a City That Never Sleeps and Chapter 2 The Spiral of Self-Destruction and the Illusion of Control"
+        },
+        {
+          "startTime": 449.69679099999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Spiral of Self-Destruction and the Illusion of Control and Chapter 3 Facing the Mirror: Honest Self-Examination and the Road to Recovery"
+        },
+        {
+          "startTime": 631.382583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing the Mirror: Honest Self-Examination and the Road to Recovery and Chapter 4 Navigating Modern Dating and the Pressure to Be “Wife Material”"
+        },
+        {
+          "startTime": 810.0895409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Modern Dating and the Pressure to Be “Wife Material” and Chapter 5 Redefining Self-Worth and Embracing Imperfection"
+        },
+        {
+          "startTime": 993.3188739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Self-Worth and Embracing Imperfection and Chapter 6 The Long Road of Recovery: Relapse, Resilience, and Small Victories"
+        },
+        {
+          "startTime": 1167.049957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road of Recovery: Relapse, Resilience, and Small Victories and Chapter 7 Family Ties: Healing Old Wounds and Rewriting the Past"
+        },
+        {
+          "startTime": 1348.715665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Family Ties: Healing Old Wounds and Rewriting the Past and Chapter 8 Friendship, Community, and the Power of Being Seen"
+        },
+        {
+          "startTime": 1502.360248,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Friendship, Community, and the Power of Being Seen and Chapter 9 Reclaiming Sexuality and Writing a New Narrative"
+        },
+        {
+          "startTime": 1651.394081,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Sexuality and Writing a New Narrative and Chapter 10 Embracing the Mess: Humor, Hope, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1810.8252479999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Mess: Humor, Hope, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2963",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:48:05.977Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

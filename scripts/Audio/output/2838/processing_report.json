@@ -1,0 +1,456 @@
+{
+  "bookId": "2838",
+  "timestamp": "2025-07-13T23:29:31.569Z",
+  "success": false,
+  "processingTime": -1752448996396,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4759,
+    "totalAudioFiles": 12,
+    "totalDuration": 2186.021541
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2186.021541
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2838/optimized_text/2838.md",
+    "fileSize": 800,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2838.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2838/metadata/2838_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2186.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2838/metadata/2838_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2838/metadata/2838_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2838/2838_complete.wav",
+    "duration": 2186.021542,
+    "fileSize": 104929112,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2838/introduction.wav",
+          "duration": 91.679625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.679625,
+          "startTime": 0,
+          "endTime": 91.679625
+        },
+        {
+          "path": "Audio/output/2838/chapter_01.wav",
+          "duration": 266.433083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Uncertainty and Loyalty",
+          "actualDuration": 266.433083,
+          "startTime": 93.179625,
+          "endTime": 359.612708
+        },
+        {
+          "path": "Audio/output/2838/chapter_02.wav",
+          "duration": 224.957917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Family History and the Power of Place",
+          "actualDuration": 224.957917,
+          "startTime": 361.112708,
+          "endTime": 586.0706250000001
+        },
+        {
+          "path": "Audio/output/2838/chapter_03.wav",
+          "duration": 238.641208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle with Instability, Addiction, and Broken Promises",
+          "actualDuration": 238.641208,
+          "startTime": 587.5706250000001,
+          "endTime": 826.2118330000001
+        },
+        {
+          "path": "Audio/output/2838/chapter_04.wav",
+          "duration": 193.692458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Education, Mentorship, and Resilience in Breaking the Cycle",
+          "actualDuration": 193.692458,
+          "startTime": 827.7118330000001,
+          "endTime": 1021.4042910000001
+        },
+        {
+          "path": "Audio/output/2838/chapter_05.wav",
+          "duration": 197.113417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Clash Between Cultural Identity and Personal Advancement",
+          "actualDuration": 197.113417,
+          "startTime": 1022.9042910000001,
+          "endTime": 1220.017708
+        },
+        {
+          "path": "Audio/output/2838/chapter_06.wav",
+          "duration": 193.212917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Adulthood: The Lingering Shadows of the Past",
+          "actualDuration": 193.212917,
+          "startTime": 1221.517708,
+          "endTime": 1414.7306250000001
+        },
+        {
+          "path": "Audio/output/2838/chapter_07.wav",
+          "duration": 197.473333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Broader Landscape: Economic Decline and Cultural Disconnection",
+          "actualDuration": 197.473333,
+          "startTime": 1416.2306250000001,
+          "endTime": 1613.703958
+        },
+        {
+          "path": "Audio/output/2838/chapter_08.wav",
+          "duration": 193.312333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Belonging: Identity, Class, and the American Dream",
+          "actualDuration": 193.312333,
+          "startTime": 1615.203958,
+          "endTime": 1808.5162910000001
+        },
+        {
+          "path": "Audio/output/2838/chapter_09.wav",
+          "duration": 162.448667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections on Change: What It Takes to Heal and Move Forward",
+          "actualDuration": 162.448667,
+          "startTime": 1810.0162910000001,
+          "endTime": 1972.464958
+        },
+        {
+          "path": "Audio/output/2838/chapter_10.wav",
+          "duration": 105.576333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Ahead: Hope, Responsibility, and the Power of Story",
+          "actualDuration": 105.576333,
+          "startTime": 1973.964958,
+          "endTime": 2079.541291
+        },
+        {
+          "path": "Audio/output/2838/conclusion.wav",
+          "duration": 121.48025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.48025,
+          "startTime": 2081.041291,
+          "endTime": 2202.521541
+        }
+      ],
+      "totalDuration": 2202.521541,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.68,
+          "actualStart": 0,
+          "actualEnd": 91.679625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Uncertainty and Loyalty",
+          "expectedStart": 91.68,
+          "expectedEnd": 358.11,
+          "actualStart": 93.179625,
+          "actualEnd": 359.612708,
+          "timeDifference": 1.4996249999999947
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Family History and the Power of Place",
+          "expectedStart": 358.11,
+          "expectedEnd": 583.07,
+          "actualStart": 361.112708,
+          "actualEnd": 586.0706250000001,
+          "timeDifference": 3.002707999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle with Instability, Addiction, and Broken Promises",
+          "expectedStart": 583.07,
+          "expectedEnd": 821.71,
+          "actualStart": 587.5706250000001,
+          "actualEnd": 826.2118330000001,
+          "timeDifference": 4.500625000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Education, Mentorship, and Resilience in Breaking the Cycle",
+          "expectedStart": 821.71,
+          "expectedEnd": 1015.4,
+          "actualStart": 827.7118330000001,
+          "actualEnd": 1021.4042910000001,
+          "timeDifference": 6.001833000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Clash Between Cultural Identity and Personal Advancement",
+          "expectedStart": 1015.4,
+          "expectedEnd": 1212.51,
+          "actualStart": 1022.9042910000001,
+          "actualEnd": 1220.017708,
+          "timeDifference": 7.50429100000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Adulthood: The Lingering Shadows of the Past",
+          "expectedStart": 1212.51,
+          "expectedEnd": 1405.72,
+          "actualStart": 1221.517708,
+          "actualEnd": 1414.7306250000001,
+          "timeDifference": 9.007708000000093
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Broader Landscape: Economic Decline and Cultural Disconnection",
+          "expectedStart": 1405.72,
+          "expectedEnd": 1603.19,
+          "actualStart": 1416.2306250000001,
+          "actualEnd": 1613.703958,
+          "timeDifference": 10.510625000000118
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Belonging: Identity, Class, and the American Dream",
+          "expectedStart": 1603.19,
+          "expectedEnd": 1796.5,
+          "actualStart": 1615.203958,
+          "actualEnd": 1808.5162910000001,
+          "timeDifference": 12.013958000000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections on Change: What It Takes to Heal and Move Forward",
+          "expectedStart": 1796.5,
+          "expectedEnd": 1958.95,
+          "actualStart": 1810.0162910000001,
+          "actualEnd": 1972.464958,
+          "timeDifference": 13.516291000000138
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Ahead: Hope, Responsibility, and the Power of Story",
+          "expectedStart": 1958.95,
+          "expectedEnd": 2064.53,
+          "actualStart": 1973.964958,
+          "actualEnd": 2079.541291,
+          "timeDifference": 15.014957999999979
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2064.53,
+          "expectedEnd": 2186.01,
+          "actualStart": 2081.041291,
+          "actualEnd": 2202.521541,
+          "timeDifference": 16.5112909999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.679625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Uncertainty and Loyalty"
+        },
+        {
+          "startTime": 359.612708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Uncertainty and Loyalty and Chapter 2 The Weight of Family History and the Power of Place"
+        },
+        {
+          "startTime": 586.0706250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Family History and the Power of Place and Chapter 3 The Struggle with Instability, Addiction, and Broken Promises"
+        },
+        {
+          "startTime": 826.2118330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle with Instability, Addiction, and Broken Promises and Chapter 4 The Role of Education, Mentorship, and Resilience in Breaking the Cycle"
+        },
+        {
+          "startTime": 1021.4042910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Education, Mentorship, and Resilience in Breaking the Cycle and Chapter 5 The Clash Between Cultural Identity and Personal Advancement"
+        },
+        {
+          "startTime": 1220.017708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Clash Between Cultural Identity and Personal Advancement and Chapter 6 Navigating Adulthood: The Lingering Shadows of the Past"
+        },
+        {
+          "startTime": 1414.7306250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Adulthood: The Lingering Shadows of the Past and Chapter 7 The Broader Landscape: Economic Decline and Cultural Disconnection"
+        },
+        {
+          "startTime": 1613.703958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Broader Landscape: Economic Decline and Cultural Disconnection and Chapter 8 The Search for Belonging: Identity, Class, and the American Dream"
+        },
+        {
+          "startTime": 1808.5162910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Belonging: Identity, Class, and the American Dream and Chapter 9 Reflections on Change: What It Takes to Heal and Move Forward"
+        },
+        {
+          "startTime": 1972.464958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections on Change: What It Takes to Heal and Move Forward and Chapter 10 Looking Ahead: Hope, Responsibility, and the Power of Story"
+        },
+        {
+          "startTime": 2079.541291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Ahead: Hope, Responsibility, and the Power of Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2838",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:23:16.927Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

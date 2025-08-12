@@ -1,0 +1,456 @@
+{
+  "bookId": "3130",
+  "timestamp": "2025-07-14T20:41:36.960Z",
+  "success": false,
+  "processingTime": -1752525355732,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4184,
+    "totalAudioFiles": 12,
+    "totalDuration": 1886.5678740000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1886.5678740000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3130/optimized_text/3130.md",
+    "fileSize": 787,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "3130.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3130/metadata/3130_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1886.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3130/metadata/3130_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3130/metadata/3130_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3130/3130_complete.wav",
+    "duration": 1886.567875,
+    "fileSize": 90555336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3130/introduction.wav",
+          "duration": 91.96025,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.96025,
+          "startTime": 0,
+          "endTime": 91.96025
+        },
+        {
+          "path": "Audio/output/3130/chapter_01.wav",
+          "duration": 193.213833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons in Deception and the Allure of Reinvention",
+          "actualDuration": 193.213833,
+          "startTime": 93.46025,
+          "endTime": 286.674083
+        },
+        {
+          "path": "Audio/output/3130/chapter_02.wav",
+          "duration": 231.425083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mastering the Art of the Con: Impersonation and Social Engineering",
+          "actualDuration": 231.425083,
+          "startTime": 288.174083,
+          "endTime": 519.599166
+        },
+        {
+          "path": "Audio/output/3130/chapter_03.wav",
+          "duration": 175.831167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Pursuit: Law Enforcement, Close Calls, and the Cost of Evasion",
+          "actualDuration": 175.831167,
+          "startTime": 521.099166,
+          "endTime": 696.930333
+        },
+        {
+          "path": "Audio/output/3130/chapter_04.wav",
+          "duration": 187.296292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living on the Edge: The Psychology of Manipulation and the Toll of Deceit",
+          "actualDuration": 187.296292,
+          "startTime": 698.430333,
+          "endTime": 885.726625
+        },
+        {
+          "path": "Audio/output/3130/chapter_05.wav",
+          "duration": 163.355,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Turning Point: Capture, Consequences, and the Possibility of Redemption",
+          "actualDuration": 163.355,
+          "startTime": 887.226625,
+          "endTime": 1050.581625
+        },
+        {
+          "path": "Audio/output/3130/chapter_06.wav",
+          "duration": 176.46225,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Rebuilding a Life from the Ashes",
+          "actualDuration": 176.46225,
+          "startTime": 1052.081625,
+          "endTime": 1228.543875
+        },
+        {
+          "path": "Audio/output/3130/chapter_07.wav",
+          "duration": 184.146958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Fraud: Lessons for a Changing World",
+          "actualDuration": 184.146958,
+          "startTime": 1230.043875,
+          "endTime": 1414.190833
+        },
+        {
+          "path": "Audio/output/3130/chapter_08.wav",
+          "duration": 148.029958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost: Victims, Forgiveness, and Moving Forward",
+          "actualDuration": 148.029958,
+          "startTime": 1415.690833,
+          "endTime": 1563.7207910000002
+        },
+        {
+          "path": "Audio/output/3130/chapter_09.wav",
+          "duration": 124.2615,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Trust, Systems, and the Fragility of Security",
+          "actualDuration": 124.2615,
+          "startTime": 1565.2207910000002,
+          "endTime": 1689.4822910000003
+        },
+        {
+          "path": "Audio/output/3130/chapter_10.wav",
+          "duration": 93.331708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy: Lessons from a Life on Both Sides of the Law",
+          "actualDuration": 93.331708,
+          "startTime": 1690.9822910000003,
+          "endTime": 1784.3139990000002
+        },
+        {
+          "path": "Audio/output/3130/conclusion.wav",
+          "duration": 117.253875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.253875,
+          "startTime": 1785.8139990000002,
+          "endTime": 1903.0678740000003
+        }
+      ],
+      "totalDuration": 1903.0678740000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.96,
+          "actualStart": 0,
+          "actualEnd": 91.96025,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons in Deception and the Allure of Reinvention",
+          "expectedStart": 91.96,
+          "expectedEnd": 285.17,
+          "actualStart": 93.46025,
+          "actualEnd": 286.674083,
+          "timeDifference": 1.5002500000000083
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mastering the Art of the Con: Impersonation and Social Engineering",
+          "expectedStart": 285.17,
+          "expectedEnd": 516.6,
+          "actualStart": 288.174083,
+          "actualEnd": 519.599166,
+          "timeDifference": 3.00408299999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Pursuit: Law Enforcement, Close Calls, and the Cost of Evasion",
+          "expectedStart": 516.6,
+          "expectedEnd": 692.43,
+          "actualStart": 521.099166,
+          "actualEnd": 696.930333,
+          "timeDifference": 4.499165999999946
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living on the Edge: The Psychology of Manipulation and the Toll of Deceit",
+          "expectedStart": 692.43,
+          "expectedEnd": 879.73,
+          "actualStart": 698.430333,
+          "actualEnd": 885.726625,
+          "timeDifference": 6.000333000000069
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Turning Point: Capture, Consequences, and the Possibility of Redemption",
+          "expectedStart": 879.73,
+          "expectedEnd": 1043.09,
+          "actualStart": 887.226625,
+          "actualEnd": 1050.581625,
+          "timeDifference": 7.4966249999999945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Rebuilding a Life from the Ashes",
+          "expectedStart": 1043.09,
+          "expectedEnd": 1219.55,
+          "actualStart": 1052.081625,
+          "actualEnd": 1228.543875,
+          "timeDifference": 8.991625000000113
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Fraud: Lessons for a Changing World",
+          "expectedStart": 1219.55,
+          "expectedEnd": 1403.7,
+          "actualStart": 1230.043875,
+          "actualEnd": 1414.190833,
+          "timeDifference": 10.493875000000116
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost: Victims, Forgiveness, and Moving Forward",
+          "expectedStart": 1403.7,
+          "expectedEnd": 1551.73,
+          "actualStart": 1415.690833,
+          "actualEnd": 1563.7207910000002,
+          "timeDifference": 11.990833000000066
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Trust, Systems, and the Fragility of Security",
+          "expectedStart": 1551.73,
+          "expectedEnd": 1675.99,
+          "actualStart": 1565.2207910000002,
+          "actualEnd": 1689.4822910000003,
+          "timeDifference": 13.490791000000172
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy: Lessons from a Life on Both Sides of the Law",
+          "expectedStart": 1675.99,
+          "expectedEnd": 1769.32,
+          "actualStart": 1690.9822910000003,
+          "actualEnd": 1784.3139990000002,
+          "timeDifference": 14.99229100000025
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1769.32,
+          "expectedEnd": 1886.57,
+          "actualStart": 1785.8139990000002,
+          "actualEnd": 1903.0678740000003,
+          "timeDifference": 16.493999000000258
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.96025,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons in Deception and the Allure of Reinvention"
+        },
+        {
+          "startTime": 286.674083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons in Deception and the Allure of Reinvention and Chapter 2 Mastering the Art of the Con: Impersonation and Social Engineering"
+        },
+        {
+          "startTime": 519.599166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mastering the Art of the Con: Impersonation and Social Engineering and Chapter 3 The Pursuit: Law Enforcement, Close Calls, and the Cost of Evasion"
+        },
+        {
+          "startTime": 696.930333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Pursuit: Law Enforcement, Close Calls, and the Cost of Evasion and Chapter 4 Living on the Edge: The Psychology of Manipulation and the Toll of Deceit"
+        },
+        {
+          "startTime": 885.726625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living on the Edge: The Psychology of Manipulation and the Toll of Deceit and Chapter 5 The Turning Point: Capture, Consequences, and the Possibility of Redemption"
+        },
+        {
+          "startTime": 1050.581625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Turning Point: Capture, Consequences, and the Possibility of Redemption and Chapter 6 Aftermath: Rebuilding a Life from the Ashes"
+        },
+        {
+          "startTime": 1228.543875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Rebuilding a Life from the Ashes and Chapter 7 The Evolution of Fraud: Lessons for a Changing World"
+        },
+        {
+          "startTime": 1414.190833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Fraud: Lessons for a Changing World and Chapter 8 The Human Cost: Victims, Forgiveness, and Moving Forward"
+        },
+        {
+          "startTime": 1563.7207910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost: Victims, Forgiveness, and Moving Forward and Chapter 9 Trust, Systems, and the Fragility of Security"
+        },
+        {
+          "startTime": 1689.4822910000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Trust, Systems, and the Fragility of Security and Chapter 10 Legacy: Lessons from a Life on Both Sides of the Law"
+        },
+        {
+          "startTime": 1784.3139990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy: Lessons from a Life on Both Sides of the Law and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3130",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:35:57.330Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

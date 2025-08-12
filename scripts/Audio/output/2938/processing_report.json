@@ -1,0 +1,456 @@
+{
+  "bookId": "2938",
+  "timestamp": "2025-07-14T05:43:17.382Z",
+  "success": false,
+  "processingTime": -1752471560456,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3506,
+    "totalAudioFiles": 12,
+    "totalDuration": 1610.4587510000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1610.4587510000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2938/optimized_text/2938.md",
+    "fileSize": 724,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2938.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2938/metadata/2938_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1610.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2938/metadata/2938_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2938/metadata/2938_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2938/2938_complete.wav",
+    "duration": 1610.45875,
+    "fileSize": 77302098,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2938/introduction.wav",
+          "duration": 102.434792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.434792,
+          "startTime": 0,
+          "endTime": 102.434792
+        },
+        {
+          "path": "Audio/output/2938/chapter_01.wav",
+          "duration": 186.297917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A City of Promise and the Confidence of Progress",
+          "actualDuration": 186.297917,
+          "startTime": 103.934792,
+          "endTime": 290.232709
+        },
+        {
+          "path": "Audio/output/2938/chapter_02.wav",
+          "duration": 142.121375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science of Weather and the Limits of Understanding",
+          "actualDuration": 142.121375,
+          "startTime": 291.732709,
+          "endTime": 433.854084
+        },
+        {
+          "path": "Audio/output/2938/chapter_03.wav",
+          "duration": 135.412667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Warning Signs and the Calm Before the Storm",
+          "actualDuration": 135.412667,
+          "startTime": 435.354084,
+          "endTime": 570.766751
+        },
+        {
+          "path": "Audio/output/2938/chapter_04.wav",
+          "duration": 162.7955,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Storm Arrives and the City Faces Disaster",
+          "actualDuration": 162.7955,
+          "startTime": 572.266751,
+          "endTime": 735.0622510000001
+        },
+        {
+          "path": "Audio/output/2938/chapter_05.wav",
+          "duration": 97.259625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Searching for Meaning and Rebuilding After Loss",
+          "actualDuration": 97.259625,
+          "startTime": 736.5622510000001,
+          "endTime": 833.8218760000001
+        },
+        {
+          "path": "Audio/output/2938/chapter_06.wav",
+          "duration": 151.372958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: The Human Cost and the Search for Loved Ones",
+          "actualDuration": 151.372958,
+          "startTime": 835.3218760000001,
+          "endTime": 986.6948340000001
+        },
+        {
+          "path": "Audio/output/2938/chapter_07.wav",
+          "duration": 124.03875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Reckoning: Blame, Regret, and the Search for Answers",
+          "actualDuration": 124.03875,
+          "startTime": 988.1948340000001,
+          "endTime": 1112.233584
+        },
+        {
+          "path": "Audio/output/2938/chapter_08.wav",
+          "duration": 141.624292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding and Reinvention: Galveston’s New Identity",
+          "actualDuration": 141.624292,
+          "startTime": 1113.733584,
+          "endTime": 1255.357876
+        },
+        {
+          "path": "Audio/output/2938/chapter_09.wav",
+          "duration": 134.933667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Evolution of Weather Science: Lessons Learned",
+          "actualDuration": 134.933667,
+          "startTime": 1256.857876,
+          "endTime": 1391.791543
+        },
+        {
+          "path": "Audio/output/2938/chapter_10.wav",
+          "duration": 101.549458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Memory, Caution, and the Human Spirit",
+          "actualDuration": 101.549458,
+          "startTime": 1393.291543,
+          "endTime": 1494.841001
+        },
+        {
+          "path": "Audio/output/2938/conclusion.wav",
+          "duration": 130.61775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.61775,
+          "startTime": 1496.341001,
+          "endTime": 1626.9587510000001
+        }
+      ],
+      "totalDuration": 1626.9587510000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.43,
+          "actualStart": 0,
+          "actualEnd": 102.434792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A City of Promise and the Confidence of Progress",
+          "expectedStart": 102.43,
+          "expectedEnd": 288.73,
+          "actualStart": 103.934792,
+          "actualEnd": 290.232709,
+          "timeDifference": 1.5047919999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science of Weather and the Limits of Understanding",
+          "expectedStart": 288.73,
+          "expectedEnd": 430.85,
+          "actualStart": 291.732709,
+          "actualEnd": 433.854084,
+          "timeDifference": 3.0027089999999816
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Warning Signs and the Calm Before the Storm",
+          "expectedStart": 430.85,
+          "expectedEnd": 566.26,
+          "actualStart": 435.354084,
+          "actualEnd": 570.766751,
+          "timeDifference": 4.5040839999999776
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Storm Arrives and the City Faces Disaster",
+          "expectedStart": 566.26,
+          "expectedEnd": 729.06,
+          "actualStart": 572.266751,
+          "actualEnd": 735.0622510000001,
+          "timeDifference": 6.006751000000008
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Searching for Meaning and Rebuilding After Loss",
+          "expectedStart": 729.06,
+          "expectedEnd": 826.32,
+          "actualStart": 736.5622510000001,
+          "actualEnd": 833.8218760000001,
+          "timeDifference": 7.502251000000115
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: The Human Cost and the Search for Loved Ones",
+          "expectedStart": 826.32,
+          "expectedEnd": 977.69,
+          "actualStart": 835.3218760000001,
+          "actualEnd": 986.6948340000001,
+          "timeDifference": 9.001876000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Reckoning: Blame, Regret, and the Search for Answers",
+          "expectedStart": 977.69,
+          "expectedEnd": 1101.73,
+          "actualStart": 988.1948340000001,
+          "actualEnd": 1112.233584,
+          "timeDifference": 10.504834000000074
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding and Reinvention: Galveston’s New Identity",
+          "expectedStart": 1101.73,
+          "expectedEnd": 1243.35,
+          "actualStart": 1113.733584,
+          "actualEnd": 1255.357876,
+          "timeDifference": 12.003584000000046
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Evolution of Weather Science: Lessons Learned",
+          "expectedStart": 1243.35,
+          "expectedEnd": 1378.28,
+          "actualStart": 1256.857876,
+          "actualEnd": 1391.791543,
+          "timeDifference": 13.507876000000124
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Memory, Caution, and the Human Spirit",
+          "expectedStart": 1378.28,
+          "expectedEnd": 1479.83,
+          "actualStart": 1393.291543,
+          "actualEnd": 1494.841001,
+          "timeDifference": 15.011543000000074
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1479.83,
+          "expectedEnd": 1610.45,
+          "actualStart": 1496.341001,
+          "actualEnd": 1626.9587510000001,
+          "timeDifference": 16.51100100000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.434792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A City of Promise and the Confidence of Progress"
+        },
+        {
+          "startTime": 290.232709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A City of Promise and the Confidence of Progress and Chapter 2 The Science of Weather and the Limits of Understanding"
+        },
+        {
+          "startTime": 433.854084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science of Weather and the Limits of Understanding and Chapter 3 Warning Signs and the Calm Before the Storm"
+        },
+        {
+          "startTime": 570.766751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Warning Signs and the Calm Before the Storm and Chapter 4 The Storm Arrives and the City Faces Disaster"
+        },
+        {
+          "startTime": 735.0622510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Storm Arrives and the City Faces Disaster and Chapter 5 Searching for Meaning and Rebuilding After Loss"
+        },
+        {
+          "startTime": 833.8218760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Searching for Meaning and Rebuilding After Loss and Chapter 6 Picking Up the Pieces: The Human Cost and the Search for Loved Ones"
+        },
+        {
+          "startTime": 986.6948340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: The Human Cost and the Search for Loved Ones and Chapter 7 The Reckoning: Blame, Regret, and the Search for Answers"
+        },
+        {
+          "startTime": 1112.233584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Reckoning: Blame, Regret, and the Search for Answers and Chapter 8 Rebuilding and Reinvention: Galveston’s New Identity"
+        },
+        {
+          "startTime": 1255.357876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding and Reinvention: Galveston’s New Identity and Chapter 9 The Evolution of Weather Science: Lessons Learned"
+        },
+        {
+          "startTime": 1391.791543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Evolution of Weather Science: Lessons Learned and Chapter 10 The Enduring Legacy: Memory, Caution, and the Human Spirit"
+        },
+        {
+          "startTime": 1494.841001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Memory, Caution, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2938",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:39:21.644Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

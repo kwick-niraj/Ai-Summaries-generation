@@ -1,0 +1,456 @@
+{
+  "bookId": "3198",
+  "timestamp": "2025-07-15T02:34:01.998Z",
+  "success": false,
+  "processingTime": -1752546459033,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4215,
+    "totalAudioFiles": 12,
+    "totalDuration": 2050.4230420000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2050.4230420000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3198/optimized_text/3198.md",
+    "fileSize": 608,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "3198.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3198/metadata/3198_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2050.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3198/metadata/3198_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3198/metadata/3198_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3198/3198_complete.wav",
+    "duration": 2050.423042,
+    "fileSize": 98420384,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3198/introduction.wav",
+          "duration": 83.545,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.545,
+          "startTime": 0,
+          "endTime": 83.545
+        },
+        {
+          "path": "Audio/output/3198/chapter_01.wav",
+          "duration": 214.105583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Core Needs in Marriage",
+          "actualDuration": 214.105583,
+          "startTime": 85.045,
+          "endTime": 299.150583
+        },
+        {
+          "path": "Audio/output/3198/chapter_02.wav",
+          "duration": 219.094625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Destructive Pattern of the Crazy Cycle",
+          "actualDuration": 219.094625,
+          "startTime": 300.650583,
+          "endTime": 519.745208
+        },
+        {
+          "path": "Audio/output/3198/chapter_03.wav",
+          "duration": 203.292583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Path to Breaking Negative Patterns",
+          "actualDuration": 203.292583,
+          "startTime": 521.245208,
+          "endTime": 724.5377910000001
+        },
+        {
+          "path": "Audio/output/3198/chapter_04.wav",
+          "duration": 208.185708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building the Energizing Cycle of Love and Respect",
+          "actualDuration": 208.185708,
+          "startTime": 726.0377910000001,
+          "endTime": 934.2234990000001
+        },
+        {
+          "path": "Audio/output/3198/chapter_05.wav",
+          "duration": 231.822917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Communication Strategies for Lasting Connection",
+          "actualDuration": 231.822917,
+          "startTime": 935.7234990000001,
+          "endTime": 1167.5464160000001
+        },
+        {
+          "path": "Audio/output/3198/chapter_06.wav",
+          "duration": 195.733625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practical Ways to Show Love and Respect Daily",
+          "actualDuration": 195.733625,
+          "startTime": 1169.0464160000001,
+          "endTime": 1364.7800410000002
+        },
+        {
+          "path": "Audio/output/3198/chapter_07.wav",
+          "duration": 166.656625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Conflict with Love and Respect",
+          "actualDuration": 166.656625,
+          "startTime": 1366.2800410000002,
+          "endTime": 1532.9366660000003
+        },
+        {
+          "path": "Audio/output/3198/chapter_08.wav",
+          "duration": 160.083625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Faith and Shared Values",
+          "actualDuration": 160.083625,
+          "startTime": 1534.4366660000003,
+          "endTime": 1694.5202910000003
+        },
+        {
+          "path": "Audio/output/3198/chapter_09.wav",
+          "duration": 131.153292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Growth and Preventing Drift",
+          "actualDuration": 131.153292,
+          "startTime": 1696.0202910000003,
+          "endTime": 1827.1735830000002
+        },
+        {
+          "path": "Audio/output/3198/chapter_10.wav",
+          "duration": 125.320417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of Love and Respect",
+          "actualDuration": 125.320417,
+          "startTime": 1828.6735830000002,
+          "endTime": 1953.9940000000001
+        },
+        {
+          "path": "Audio/output/3198/conclusion.wav",
+          "duration": 111.429042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.429042,
+          "startTime": 1955.4940000000001,
+          "endTime": 2066.9230420000004
+        }
+      ],
+      "totalDuration": 2066.9230420000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.55,
+          "actualStart": 0,
+          "actualEnd": 83.545,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Core Needs in Marriage",
+          "expectedStart": 83.55,
+          "expectedEnd": 297.66,
+          "actualStart": 85.045,
+          "actualEnd": 299.150583,
+          "timeDifference": 1.4950000000000045
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Destructive Pattern of the Crazy Cycle",
+          "expectedStart": 297.66,
+          "expectedEnd": 516.75,
+          "actualStart": 300.650583,
+          "actualEnd": 519.745208,
+          "timeDifference": 2.9905829999999582
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Path to Breaking Negative Patterns",
+          "expectedStart": 516.75,
+          "expectedEnd": 720.04,
+          "actualStart": 521.245208,
+          "actualEnd": 724.5377910000001,
+          "timeDifference": 4.495208000000048
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building the Energizing Cycle of Love and Respect",
+          "expectedStart": 720.04,
+          "expectedEnd": 928.23,
+          "actualStart": 726.0377910000001,
+          "actualEnd": 934.2234990000001,
+          "timeDifference": 5.99779100000012
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Communication Strategies for Lasting Connection",
+          "expectedStart": 928.23,
+          "expectedEnd": 1160.05,
+          "actualStart": 935.7234990000001,
+          "actualEnd": 1167.5464160000001,
+          "timeDifference": 7.4934990000000425
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practical Ways to Show Love and Respect Daily",
+          "expectedStart": 1160.05,
+          "expectedEnd": 1355.78,
+          "actualStart": 1169.0464160000001,
+          "actualEnd": 1364.7800410000002,
+          "timeDifference": 8.996416000000181
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Conflict with Love and Respect",
+          "expectedStart": 1355.78,
+          "expectedEnd": 1522.44,
+          "actualStart": 1366.2800410000002,
+          "actualEnd": 1532.9366660000003,
+          "timeDifference": 10.500041000000238
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Faith and Shared Values",
+          "expectedStart": 1522.44,
+          "expectedEnd": 1682.52,
+          "actualStart": 1534.4366660000003,
+          "actualEnd": 1694.5202910000003,
+          "timeDifference": 11.996666000000232
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Growth and Preventing Drift",
+          "expectedStart": 1682.52,
+          "expectedEnd": 1813.67,
+          "actualStart": 1696.0202910000003,
+          "actualEnd": 1827.1735830000002,
+          "timeDifference": 13.500291000000288
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of Love and Respect",
+          "expectedStart": 1813.67,
+          "expectedEnd": 1938.99,
+          "actualStart": 1828.6735830000002,
+          "actualEnd": 1953.9940000000001,
+          "timeDifference": 15.003583000000162
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1938.99,
+          "expectedEnd": 2050.42,
+          "actualStart": 1955.4940000000001,
+          "actualEnd": 2066.9230420000004,
+          "timeDifference": 16.504000000000133
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.545,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Core Needs in Marriage"
+        },
+        {
+          "startTime": 299.150583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Core Needs in Marriage and Chapter 2 The Destructive Pattern of the Crazy Cycle"
+        },
+        {
+          "startTime": 519.745208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Destructive Pattern of the Crazy Cycle and Chapter 3 The Path to Breaking Negative Patterns"
+        },
+        {
+          "startTime": 724.5377910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Path to Breaking Negative Patterns and Chapter 4 Building the Energizing Cycle of Love and Respect"
+        },
+        {
+          "startTime": 934.2234990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building the Energizing Cycle of Love and Respect and Chapter 5 Communication Strategies for Lasting Connection"
+        },
+        {
+          "startTime": 1167.5464160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Communication Strategies for Lasting Connection and Chapter 6 Practical Ways to Show Love and Respect Daily"
+        },
+        {
+          "startTime": 1364.7800410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practical Ways to Show Love and Respect Daily and Chapter 7 Navigating Conflict with Love and Respect"
+        },
+        {
+          "startTime": 1532.9366660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Conflict with Love and Respect and Chapter 8 The Role of Faith and Shared Values"
+        },
+        {
+          "startTime": 1694.5202910000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Faith and Shared Values and Chapter 9 Sustaining Growth and Preventing Drift"
+        },
+        {
+          "startTime": 1827.1735830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Growth and Preventing Drift and Chapter 10 The Legacy of Love and Respect"
+        },
+        {
+          "startTime": 1953.9940000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of Love and Respect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3198",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:27:40.358Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

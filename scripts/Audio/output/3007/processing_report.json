@@ -1,0 +1,431 @@
+{
+  "bookId": "3007",
+  "timestamp": "2025-07-14T10:54:17.100Z",
+  "success": false,
+  "processingTime": -1752490220726,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4191,
+    "totalAudioFiles": 12,
+    "totalDuration": 1523.2629570000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1523.2629570000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3007/optimized_text/3007.md",
+    "fileSize": 812,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "3007.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3007/metadata/3007_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1523.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3007/metadata/3007_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3007/metadata/3007_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3007/3007_complete.wav",
+    "duration": 1523.262958,
+    "fileSize": 73116700,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3007/introduction.wav",
+          "duration": 102.712333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.712333,
+          "startTime": 0,
+          "endTime": 102.712333
+        },
+        {
+          "path": "Audio/output/3007/chapter_01.wav",
+          "duration": 204.132833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Community on Edge: Life in Puritan New England",
+          "actualDuration": 204.132833,
+          "startTime": 104.212333,
+          "endTime": 308.345166
+        },
+        {
+          "path": "Audio/output/3007/chapter_02.wav",
+          "duration": 208.369583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Spark: Strange Behaviors and Growing Suspicion",
+          "actualDuration": 208.369583,
+          "startTime": 309.845166,
+          "endTime": 518.214749
+        },
+        {
+          "path": "Audio/output/3007/chapter_04.wav",
+          "duration": 134.161542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost: Suffering, Confession, and the Limits of Endurance",
+          "actualDuration": 134.161542,
+          "startTime": 519.714749,
+          "endTime": 653.876291
+        },
+        {
+          "path": "Audio/output/3007/chapter_05.wav",
+          "duration": 138.454958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Unraveling: Doubt, Regret, and the Search for Meaning",
+          "actualDuration": 138.454958,
+          "startTime": 655.376291,
+          "endTime": 793.8312490000001
+        },
+        {
+          "path": "Audio/output/3007/chapter_06.wav",
+          "duration": 134.15775,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: Aftermath and the Struggle to Heal",
+          "actualDuration": 134.15775,
+          "startTime": 795.3312490000001,
+          "endTime": 929.488999
+        },
+        {
+          "path": "Audio/output/3007/chapter_07.wav",
+          "duration": 136.654917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Shadow: Remorse, Reconciliation, and the Search for Justice",
+          "actualDuration": 136.654917,
+          "startTime": 930.988999,
+          "endTime": 1067.643916
+        },
+        {
+          "path": "Audio/output/3007/chapter_08.wav",
+          "duration": 138.13075,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Echoes of Salem: Memory, Storytelling, and the Birth of a Legend",
+          "actualDuration": 138.13075,
+          "startTime": 1069.143916,
+          "endTime": 1207.274666
+        },
+        {
+          "path": "Audio/output/3007/chapter_09.wav",
+          "duration": 117.645708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for the Future: Fear, Power, and the Human Heart",
+          "actualDuration": 117.645708,
+          "startTime": 1208.774666,
+          "endTime": 1326.420374
+        },
+        {
+          "path": "Audio/output/3007/chapter_10.wav",
+          "duration": 112.255625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Salem in American Culture and Imagination",
+          "actualDuration": 112.255625,
+          "startTime": 1327.920374,
+          "endTime": 1440.175999
+        },
+        {
+          "path": "Audio/output/3007/conclusion.wav",
+          "duration": 96.586958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.586958,
+          "startTime": 1441.675999,
+          "endTime": 1538.2629570000001
+        }
+      ],
+      "totalDuration": 1538.2629570000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.71,
+          "actualStart": 0,
+          "actualEnd": 102.712333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Community on Edge: Life in Puritan New England",
+          "expectedStart": 102.71,
+          "expectedEnd": 306.84,
+          "actualStart": 104.212333,
+          "actualEnd": 308.345166,
+          "timeDifference": 1.5023330000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Spark: Strange Behaviors and Growing Suspicion",
+          "expectedStart": 306.84,
+          "expectedEnd": 515.21,
+          "actualStart": 309.845166,
+          "actualEnd": 518.214749,
+          "timeDifference": 3.005166000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost: Suffering, Confession, and the Limits of Endurance",
+          "expectedStart": 515.21,
+          "expectedEnd": 649.37,
+          "actualStart": 519.714749,
+          "actualEnd": 653.876291,
+          "timeDifference": 4.504748999999947
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Unraveling: Doubt, Regret, and the Search for Meaning",
+          "expectedStart": 649.37,
+          "expectedEnd": 787.82,
+          "actualStart": 655.376291,
+          "actualEnd": 793.8312490000001,
+          "timeDifference": 6.006291000000033
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: Aftermath and the Struggle to Heal",
+          "expectedStart": 787.82,
+          "expectedEnd": 921.98,
+          "actualStart": 795.3312490000001,
+          "actualEnd": 929.488999,
+          "timeDifference": 7.511249000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Shadow: Remorse, Reconciliation, and the Search for Justice",
+          "expectedStart": 921.98,
+          "expectedEnd": 1058.63,
+          "actualStart": 930.988999,
+          "actualEnd": 1067.643916,
+          "timeDifference": 9.008999000000017
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Echoes of Salem: Memory, Storytelling, and the Birth of a Legend",
+          "expectedStart": 1058.63,
+          "expectedEnd": 1196.76,
+          "actualStart": 1069.143916,
+          "actualEnd": 1207.274666,
+          "timeDifference": 10.513915999999881
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for the Future: Fear, Power, and the Human Heart",
+          "expectedStart": 1196.76,
+          "expectedEnd": 1314.41,
+          "actualStart": 1208.774666,
+          "actualEnd": 1326.420374,
+          "timeDifference": 12.014666000000034
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Salem in American Culture and Imagination",
+          "expectedStart": 1314.41,
+          "expectedEnd": 1426.67,
+          "actualStart": 1327.920374,
+          "actualEnd": 1440.175999,
+          "timeDifference": 13.510373999999956
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1426.67,
+          "expectedEnd": 1523.26,
+          "actualStart": 1441.675999,
+          "actualEnd": 1538.2629570000001,
+          "timeDifference": 15.005998999999974
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.712333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Community on Edge: Life in Puritan New England"
+        },
+        {
+          "startTime": 308.345166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Community on Edge: Life in Puritan New England and Chapter 2 The Spark: Strange Behaviors and Growing Suspicion"
+        },
+        {
+          "startTime": 518.214749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Spark: Strange Behaviors and Growing Suspicion and Chapter 4 The Human Cost: Suffering, Confession, and the Limits of Endurance"
+        },
+        {
+          "startTime": 653.876291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost: Suffering, Confession, and the Limits of Endurance and Chapter 5 The Unraveling: Doubt, Regret, and the Search for Meaning"
+        },
+        {
+          "startTime": 793.8312490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Unraveling: Doubt, Regret, and the Search for Meaning and Chapter 6 Picking Up the Pieces: Aftermath and the Struggle to Heal"
+        },
+        {
+          "startTime": 929.488999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: Aftermath and the Struggle to Heal and Chapter 7 The Long Shadow: Remorse, Reconciliation, and the Search for Justice"
+        },
+        {
+          "startTime": 1067.643916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Shadow: Remorse, Reconciliation, and the Search for Justice and Chapter 8 The Echoes of Salem: Memory, Storytelling, and the Birth of a Legend"
+        },
+        {
+          "startTime": 1207.274666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Echoes of Salem: Memory, Storytelling, and the Birth of a Legend and Chapter 9 Lessons for the Future: Fear, Power, and the Human Heart"
+        },
+        {
+          "startTime": 1326.420374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for the Future: Fear, Power, and the Human Heart and Chapter 10 The Enduring Legacy: Salem in American Culture and Imagination"
+        },
+        {
+          "startTime": 1440.175999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Salem in American Culture and Imagination and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3007",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T10:50:21.231Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

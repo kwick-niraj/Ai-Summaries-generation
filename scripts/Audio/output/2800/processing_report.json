@@ -1,0 +1,455 @@
+{
+  "bookId": "2800",
+  "timestamp": "2025-07-13T20:44:34.965Z",
+  "success": false,
+  "processingTime": -1752439197124,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4699,
+    "totalAudioFiles": 12,
+    "totalDuration": 1986.393251
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1986.393251
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2800/optimized_text/2800.md",
+    "fileSize": 865,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "2800.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2800/metadata/2800_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1986.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2800/metadata/2800_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2800/metadata/2800_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2800/2800_complete.wav",
+    "duration": 1986.39325,
+    "fileSize": 95346954,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2800/introduction.wav",
+          "duration": 63.263958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 63.263958,
+          "startTime": 0,
+          "endTime": 63.263958
+        },
+        {
+          "path": "Audio/output/2800/chapter_01.wav",
+          "duration": 253.128375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a World of Contradictions: Family, Innocence, and Early Longings",
+          "actualDuration": 253.128375,
+          "startTime": 64.763958,
+          "endTime": 317.892333
+        },
+        {
+          "path": "Audio/output/2800/chapter_02.wav",
+          "duration": 230.547542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Tradition: Marriage, Womanhood, and the Loss of Innocence",
+          "actualDuration": 230.547542,
+          "startTime": 319.392333,
+          "endTime": 549.939875
+        },
+        {
+          "path": "Audio/output/2800/chapter_03.wav",
+          "duration": 215.112417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Search for Self: Writing, Rebellion, and the Power of Words",
+          "actualDuration": 215.112417,
+          "startTime": 551.439875,
+          "endTime": 766.5522920000001
+        },
+        {
+          "path": "Audio/output/2800/chapter_04.wav",
+          "duration": 189.180625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Love, Betrayal, and the Complexity of Desire",
+          "actualDuration": 189.180625,
+          "startTime": 768.0522920000001,
+          "endTime": 957.232917
+        },
+        {
+          "path": "Audio/output/2800/chapter_05.wav",
+          "duration": 164.895042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle for Freedom: Identity, Resilience, and the Cost of Honesty",
+          "actualDuration": 164.895042,
+          "startTime": 958.732917,
+          "endTime": 1123.627959
+        },
+        {
+          "path": "Audio/output/2800/chapter_06.wav",
+          "duration": 163.405667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Public Eye: Fame, Scrutiny, and the Price of Speaking Out",
+          "actualDuration": 163.405667,
+          "startTime": 1125.127959,
+          "endTime": 1288.533626
+        },
+        {
+          "path": "Audio/output/2800/chapter_07.wav",
+          "duration": 165.915375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Motherhood Revisited: Healing, Forgiveness, and the Changing Shape of Love",
+          "actualDuration": 165.915375,
+          "startTime": 1290.033626,
+          "endTime": 1455.949001
+        },
+        {
+          "path": "Audio/output/2800/chapter_08.wav",
+          "duration": 163.164875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Beyond: Travel, Curiosity, and the Expansion of Self",
+          "actualDuration": 163.164875,
+          "startTime": 1457.449001,
+          "endTime": 1620.613876
+        },
+        {
+          "path": "Audio/output/2800/chapter_09.wav",
+          "duration": 159.944875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Return Home: Reconciliation, Roots, and the Meaning of Belonging",
+          "actualDuration": 159.944875,
+          "startTime": 1622.113876,
+          "endTime": 1782.0587509999998
+        },
+        {
+          "path": "Audio/output/2800/chapter_10.wav",
+          "duration": 110.82075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Quest: Meaning, Connection, and the Courage to Begin Again",
+          "actualDuration": 110.82075,
+          "startTime": 1783.5587509999998,
+          "endTime": 1894.379501
+        },
+        {
+          "path": "Audio/output/2800/conclusion.wav",
+          "duration": 107.01375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.01375,
+          "startTime": 1895.879501,
+          "endTime": 2002.893251
+        }
+      ],
+      "totalDuration": 2002.893251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 63.26,
+          "actualStart": 0,
+          "actualEnd": 63.263958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a World of Contradictions: Family, Innocence, and Early Longings",
+          "expectedStart": 63.26,
+          "expectedEnd": 316.39,
+          "actualStart": 64.763958,
+          "actualEnd": 317.892333,
+          "timeDifference": 1.5039580000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Tradition: Marriage, Womanhood, and the Loss of Innocence",
+          "expectedStart": 316.39,
+          "expectedEnd": 546.94,
+          "actualStart": 319.392333,
+          "actualEnd": 549.939875,
+          "timeDifference": 3.0023330000000215
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Search for Self: Writing, Rebellion, and the Power of Words",
+          "expectedStart": 546.94,
+          "expectedEnd": 762.05,
+          "actualStart": 551.439875,
+          "actualEnd": 766.5522920000001,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Love, Betrayal, and the Complexity of Desire",
+          "expectedStart": 762.05,
+          "expectedEnd": 951.23,
+          "actualStart": 768.0522920000001,
+          "actualEnd": 957.232917,
+          "timeDifference": 6.002292000000125
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle for Freedom: Identity, Resilience, and the Cost of Honesty",
+          "expectedStart": 951.23,
+          "expectedEnd": 1116.13,
+          "actualStart": 958.732917,
+          "actualEnd": 1123.627959,
+          "timeDifference": 7.502917000000025
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Public Eye: Fame, Scrutiny, and the Price of Speaking Out",
+          "expectedStart": 1116.13,
+          "expectedEnd": 1279.54,
+          "actualStart": 1125.127959,
+          "actualEnd": 1288.533626,
+          "timeDifference": 8.99795899999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Motherhood Revisited: Healing, Forgiveness, and the Changing Shape of Love",
+          "expectedStart": 1279.54,
+          "expectedEnd": 1445.46,
+          "actualStart": 1290.033626,
+          "actualEnd": 1455.949001,
+          "timeDifference": 10.49362599999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Beyond: Travel, Curiosity, and the Expansion of Self",
+          "expectedStart": 1445.46,
+          "expectedEnd": 1608.62,
+          "actualStart": 1457.449001,
+          "actualEnd": 1620.613876,
+          "timeDifference": 11.989000999999917
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Return Home: Reconciliation, Roots, and the Meaning of Belonging",
+          "expectedStart": 1608.62,
+          "expectedEnd": 1768.56,
+          "actualStart": 1622.113876,
+          "actualEnd": 1782.0587509999998,
+          "timeDifference": 13.493876
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Quest: Meaning, Connection, and the Courage to Begin Again",
+          "expectedStart": 1768.56,
+          "expectedEnd": 1879.38,
+          "actualStart": 1783.5587509999998,
+          "actualEnd": 1894.379501,
+          "timeDifference": 14.998750999999857
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1879.38,
+          "expectedEnd": 1986.39,
+          "actualStart": 1895.879501,
+          "actualEnd": 2002.893251,
+          "timeDifference": 16.499500999999782
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 63.263958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a World of Contradictions: Family, Innocence, and Early Longings"
+        },
+        {
+          "startTime": 317.892333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a World of Contradictions: Family, Innocence, and Early Longings and Chapter 2 The Weight of Tradition: Marriage, Womanhood, and the Loss of Innocence"
+        },
+        {
+          "startTime": 549.939875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Tradition: Marriage, Womanhood, and the Loss of Innocence and Chapter 3 The Search for Self: Writing, Rebellion, and the Power of Words"
+        },
+        {
+          "startTime": 766.5522920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Search for Self: Writing, Rebellion, and the Power of Words and Chapter 4 Love, Betrayal, and the Complexity of Desire"
+        },
+        {
+          "startTime": 957.232917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Love, Betrayal, and the Complexity of Desire and Chapter 5 The Struggle for Freedom: Identity, Resilience, and the Cost of Honesty"
+        },
+        {
+          "startTime": 1123.627959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle for Freedom: Identity, Resilience, and the Cost of Honesty and Chapter 6 The Public Eye: Fame, Scrutiny, and the Price of Speaking Out"
+        },
+        {
+          "startTime": 1288.533626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Public Eye: Fame, Scrutiny, and the Price of Speaking Out and Chapter 7 Motherhood Revisited: Healing, Forgiveness, and the Changing Shape of Love"
+        },
+        {
+          "startTime": 1455.949001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Motherhood Revisited: Healing, Forgiveness, and the Changing Shape of Love and Chapter 8 The World Beyond: Travel, Curiosity, and the Expansion of Self"
+        },
+        {
+          "startTime": 1620.613876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Beyond: Travel, Curiosity, and the Expansion of Self and Chapter 9 The Return Home: Reconciliation, Roots, and the Meaning of Belonging"
+        },
+        {
+          "startTime": 1782.0587509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Return Home: Reconciliation, Roots, and the Meaning of Belonging and Chapter 10 The Enduring Quest: Meaning, Connection, and the Courage to Begin Again"
+        },
+        {
+          "startTime": 1894.379501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Quest: Meaning, Connection, and the Courage to Begin Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2800",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:39:58.736Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

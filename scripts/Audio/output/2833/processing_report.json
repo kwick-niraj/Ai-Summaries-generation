@@ -1,0 +1,455 @@
+{
+  "bookId": "2833",
+  "timestamp": "2025-07-13T22:59:18.601Z",
+  "success": false,
+  "processingTime": -1752447200163,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3958,
+    "totalAudioFiles": 12,
+    "totalDuration": 1780.4497090000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1780.4497090000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2833/optimized_text/2833.md",
+    "fileSize": 851,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2833.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2833/metadata/2833_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1780.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2833/metadata/2833_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2833/metadata/2833_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2833/2833_complete.wav",
+    "duration": 1780.449708,
+    "fileSize": 85461664,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2833/introduction.wav",
+          "duration": 80.374875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.374875,
+          "startTime": 0,
+          "endTime": 80.374875
+        },
+        {
+          "path": "Audio/output/2833/chapter_01.wav",
+          "duration": 180.843208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Lost at Sea: Why Longitude Mattered",
+          "actualDuration": 180.843208,
+          "startTime": 81.874875,
+          "endTime": 262.718083
+        },
+        {
+          "path": "Audio/output/2833/chapter_02.wav",
+          "duration": 185.806208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Search for a Solution: Science, Rivalry, and the Promise of a Prize",
+          "actualDuration": 185.806208,
+          "startTime": 264.218083,
+          "endTime": 450.02429099999995
+        },
+        {
+          "path": "Audio/output/2833/chapter_03.wav",
+          "duration": 206.495167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 John Harrison’s Journey: From Village Carpenter to Relentless Innovator",
+          "actualDuration": 206.495167,
+          "startTime": 451.52429099999995,
+          "endTime": 658.019458
+        },
+        {
+          "path": "Audio/output/2833/chapter_04.wav",
+          "duration": 209.897625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Battle for Recognition: Doubt, Delay, and the Struggle for Acceptance",
+          "actualDuration": 209.897625,
+          "startTime": 659.519458,
+          "endTime": 869.417083
+        },
+        {
+          "path": "Audio/output/2833/chapter_05.wav",
+          "duration": 158.375458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Turning Point: Triumph, Legacy, and the Changing World",
+          "actualDuration": 158.375458,
+          "startTime": 870.917083,
+          "endTime": 1029.292541
+        },
+        {
+          "path": "Audio/output/2833/chapter_06.wav",
+          "duration": 144.655167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples Across the World: How Harrison’s Invention Changed Lives",
+          "actualDuration": 144.655167,
+          "startTime": 1030.792541,
+          "endTime": 1175.4477080000001
+        },
+        {
+          "path": "Audio/output/2833/chapter_07.wav",
+          "duration": 139.541042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Navigation: From Chronometer to Modern Maps",
+          "actualDuration": 139.541042,
+          "startTime": 1176.9477080000001,
+          "endTime": 1316.4887500000002
+        },
+        {
+          "path": "Audio/output/2833/chapter_08.wav",
+          "duration": 142.700417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost: Struggle, Sacrifice, and the Price of Progress",
+          "actualDuration": 142.700417,
+          "startTime": 1317.9887500000002,
+          "endTime": 1460.6891670000002
+        },
+        {
+          "path": "Audio/output/2833/chapter_09.wav",
+          "duration": 122.724708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for Today: Innovation, Recognition, and the Power of Persistence",
+          "actualDuration": 122.724708,
+          "startTime": 1462.1891670000002,
+          "endTime": 1584.9138750000002
+        },
+        {
+          "path": "Audio/output/2833/chapter_10.wav",
+          "duration": 100.949292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Mystery: Wonder, Curiosity, and the Spirit of Discovery",
+          "actualDuration": 100.949292,
+          "startTime": 1586.4138750000002,
+          "endTime": 1687.3631670000002
+        },
+        {
+          "path": "Audio/output/2833/conclusion.wav",
+          "duration": 108.086542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.086542,
+          "startTime": 1688.8631670000002,
+          "endTime": 1796.9497090000002
+        }
+      ],
+      "totalDuration": 1796.9497090000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.37,
+          "actualStart": 0,
+          "actualEnd": 80.374875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Lost at Sea: Why Longitude Mattered",
+          "expectedStart": 80.37,
+          "expectedEnd": 261.21,
+          "actualStart": 81.874875,
+          "actualEnd": 262.718083,
+          "timeDifference": 1.5048749999999984
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Search for a Solution: Science, Rivalry, and the Promise of a Prize",
+          "expectedStart": 261.21,
+          "expectedEnd": 447.02,
+          "actualStart": 264.218083,
+          "actualEnd": 450.02429099999995,
+          "timeDifference": 3.008082999999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 John Harrison’s Journey: From Village Carpenter to Relentless Innovator",
+          "expectedStart": 447.02,
+          "expectedEnd": 653.52,
+          "actualStart": 451.52429099999995,
+          "actualEnd": 658.019458,
+          "timeDifference": 4.5042909999999665
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Battle for Recognition: Doubt, Delay, and the Struggle for Acceptance",
+          "expectedStart": 653.52,
+          "expectedEnd": 863.42,
+          "actualStart": 659.519458,
+          "actualEnd": 869.417083,
+          "timeDifference": 5.999458000000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Turning Point: Triumph, Legacy, and the Changing World",
+          "expectedStart": 863.42,
+          "expectedEnd": 1021.8,
+          "actualStart": 870.917083,
+          "actualEnd": 1029.292541,
+          "timeDifference": 7.497083000000089
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples Across the World: How Harrison’s Invention Changed Lives",
+          "expectedStart": 1021.8,
+          "expectedEnd": 1166.46,
+          "actualStart": 1030.792541,
+          "actualEnd": 1175.4477080000001,
+          "timeDifference": 8.992541000000074
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Navigation: From Chronometer to Modern Maps",
+          "expectedStart": 1166.46,
+          "expectedEnd": 1306,
+          "actualStart": 1176.9477080000001,
+          "actualEnd": 1316.4887500000002,
+          "timeDifference": 10.487708000000111
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost: Struggle, Sacrifice, and the Price of Progress",
+          "expectedStart": 1306,
+          "expectedEnd": 1448.7,
+          "actualStart": 1317.9887500000002,
+          "actualEnd": 1460.6891670000002,
+          "timeDifference": 11.98875000000021
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for Today: Innovation, Recognition, and the Power of Persistence",
+          "expectedStart": 1448.7,
+          "expectedEnd": 1571.42,
+          "actualStart": 1462.1891670000002,
+          "actualEnd": 1584.9138750000002,
+          "timeDifference": 13.48916700000018
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Mystery: Wonder, Curiosity, and the Spirit of Discovery",
+          "expectedStart": 1571.42,
+          "expectedEnd": 1672.37,
+          "actualStart": 1586.4138750000002,
+          "actualEnd": 1687.3631670000002,
+          "timeDifference": 14.993875000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1672.37,
+          "expectedEnd": 1780.46,
+          "actualStart": 1688.8631670000002,
+          "actualEnd": 1796.9497090000002,
+          "timeDifference": 16.493167000000312
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.374875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Lost at Sea: Why Longitude Mattered"
+        },
+        {
+          "startTime": 262.718083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Lost at Sea: Why Longitude Mattered and Chapter 2 The Search for a Solution: Science, Rivalry, and the Promise of a Prize"
+        },
+        {
+          "startTime": 450.02429099999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Search for a Solution: Science, Rivalry, and the Promise of a Prize and Chapter 3 John Harrison’s Journey: From Village Carpenter to Relentless Innovator"
+        },
+        {
+          "startTime": 658.019458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 John Harrison’s Journey: From Village Carpenter to Relentless Innovator and Chapter 4 The Battle for Recognition: Doubt, Delay, and the Struggle for Acceptance"
+        },
+        {
+          "startTime": 869.417083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Battle for Recognition: Doubt, Delay, and the Struggle for Acceptance and Chapter 5 The Turning Point: Triumph, Legacy, and the Changing World"
+        },
+        {
+          "startTime": 1029.292541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Turning Point: Triumph, Legacy, and the Changing World and Chapter 6 Ripples Across the World: How Harrison’s Invention Changed Lives"
+        },
+        {
+          "startTime": 1175.4477080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples Across the World: How Harrison’s Invention Changed Lives and Chapter 7 The Evolution of Navigation: From Chronometer to Modern Maps"
+        },
+        {
+          "startTime": 1316.4887500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Navigation: From Chronometer to Modern Maps and Chapter 8 The Human Cost: Struggle, Sacrifice, and the Price of Progress"
+        },
+        {
+          "startTime": 1460.6891670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost: Struggle, Sacrifice, and the Price of Progress and Chapter 9 Lessons for Today: Innovation, Recognition, and the Power of Persistence"
+        },
+        {
+          "startTime": 1584.9138750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for Today: Innovation, Recognition, and the Power of Persistence and Chapter 10 The Enduring Mystery: Wonder, Curiosity, and the Spirit of Discovery"
+        },
+        {
+          "startTime": 1687.3631670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Mystery: Wonder, Curiosity, and the Spirit of Discovery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2833",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:53:20.703Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

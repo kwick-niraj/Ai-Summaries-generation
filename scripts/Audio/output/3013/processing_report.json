@@ -1,0 +1,456 @@
+{
+  "bookId": "3013",
+  "timestamp": "2025-07-14T11:27:56.603Z",
+  "success": false,
+  "processingTime": -1752491959995,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 6480,
+    "totalAudioFiles": 15,
+    "totalDuration": 2372.376625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 12,
+    "failed": 3,
+    "duration": 2372.376625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3013/optimized_text/3013.md",
+    "fileSize": 1038,
+    "wordCount": 148,
+    "format": "markdown",
+    "filename": "3013.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3013/metadata/3013_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2372.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3013/metadata/3013_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3013/metadata/3013_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3013/3013_complete.wav",
+    "duration": 2372.376625,
+    "fileSize": 113874156,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3013/introduction.wav",
+          "duration": 80.067667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.067667,
+          "startTime": 0,
+          "endTime": 80.067667
+        },
+        {
+          "path": "Audio/output/3013/chapter_01.wav",
+          "duration": 240.126458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Comfort of Certainty and the Roots of Belief",
+          "actualDuration": 240.126458,
+          "startTime": 81.567667,
+          "endTime": 321.694125
+        },
+        {
+          "path": "Audio/output/3013/chapter_02.wav",
+          "duration": 302.636,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Science, Superstition, and the Invisible Boundaries of Knowledge",
+          "actualDuration": 302.636,
+          "startTime": 323.194125,
+          "endTime": 625.830125
+        },
+        {
+          "path": "Audio/output/3013/chapter_03.wav",
+          "duration": 270.8495,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Language and the Limits of Understanding",
+          "actualDuration": 270.8495,
+          "startTime": 627.330125,
+          "endTime": 898.179625
+        },
+        {
+          "path": "Audio/output/3013/chapter_04.wav",
+          "duration": 254.50225,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Tradition, Culture, and the Inherited Stories We Live By",
+          "actualDuration": 254.50225,
+          "startTime": 899.679625,
+          "endTime": 1154.181875
+        },
+        {
+          "path": "Audio/output/3013/chapter_05.wav",
+          "duration": 249.530333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dangers of Dogmatism and the Value of Uncertainty",
+          "actualDuration": 249.530333,
+          "startTime": 1155.681875,
+          "endTime": 1405.212208
+        },
+        {
+          "path": "Audio/output/3013/chapter_09.wav",
+          "duration": 193.711333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Paradox of Progress: Technology, Change, and the Persistence of Old Beliefs",
+          "actualDuration": 193.711333,
+          "startTime": 1406.712208,
+          "endTime": 1600.423541
+        },
+        {
+          "path": "Audio/output/3013/chapter_10.wav",
+          "duration": 159.246917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Courage to Doubt: Personal Transformation and the Art of Letting Go",
+          "actualDuration": 159.246917,
+          "startTime": 1601.923541,
+          "endTime": 1761.1704579999998
+        },
+        {
+          "path": "Audio/output/3013/chapter_11.wav",
+          "duration": 164.187,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Wisdom in Practice: Building a Life Beyond Superstition",
+          "actualDuration": 164.187,
+          "startTime": 1762.6704579999998,
+          "endTime": 1926.857458
+        },
+        {
+          "path": "Audio/output/3013/chapter_12.wav",
+          "duration": 180.234042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ripple Effect: How Open-Mindedness Transforms Communities",
+          "actualDuration": 180.234042,
+          "startTime": 1928.357458,
+          "endTime": 2108.5915
+        },
+        {
+          "path": "Audio/output/3013/chapter_13.wav",
+          "duration": 140.278917,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Living with Uncertainty: Finding Meaning in the Unknown",
+          "actualDuration": 140.278917,
+          "startTime": 2110.0915,
+          "endTime": 2250.370417
+        },
+        {
+          "path": "Audio/output/3013/conclusion.wav",
+          "duration": 137.006208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.006208,
+          "startTime": 2251.870417,
+          "endTime": 2388.876625
+        }
+      ],
+      "totalDuration": 2388.876625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.07,
+          "actualStart": 0,
+          "actualEnd": 80.067667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Comfort of Certainty and the Roots of Belief",
+          "expectedStart": 80.07,
+          "expectedEnd": 320.2,
+          "actualStart": 81.567667,
+          "actualEnd": 321.694125,
+          "timeDifference": 1.497667000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Science, Superstition, and the Invisible Boundaries of Knowledge",
+          "expectedStart": 320.2,
+          "expectedEnd": 622.84,
+          "actualStart": 323.194125,
+          "actualEnd": 625.830125,
+          "timeDifference": 2.994124999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Language and the Limits of Understanding",
+          "expectedStart": 622.84,
+          "expectedEnd": 893.69,
+          "actualStart": 627.330125,
+          "actualEnd": 898.179625,
+          "timeDifference": 4.490124999999921
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Tradition, Culture, and the Inherited Stories We Live By",
+          "expectedStart": 893.69,
+          "expectedEnd": 1148.19,
+          "actualStart": 899.679625,
+          "actualEnd": 1154.181875,
+          "timeDifference": 5.989624999999933
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dangers of Dogmatism and the Value of Uncertainty",
+          "expectedStart": 1148.19,
+          "expectedEnd": 1397.72,
+          "actualStart": 1155.681875,
+          "actualEnd": 1405.212208,
+          "timeDifference": 7.491874999999936
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Paradox of Progress: Technology, Change, and the Persistence of Old Beliefs",
+          "expectedStart": 1397.72,
+          "expectedEnd": 1591.43,
+          "actualStart": 1406.712208,
+          "actualEnd": 1600.423541,
+          "timeDifference": 8.992207999999891
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Courage to Doubt: Personal Transformation and the Art of Letting Go",
+          "expectedStart": 1591.43,
+          "expectedEnd": 1750.68,
+          "actualStart": 1601.923541,
+          "actualEnd": 1761.1704579999998,
+          "timeDifference": 10.493540999999823
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Wisdom in Practice: Building a Life Beyond Superstition",
+          "expectedStart": 1750.68,
+          "expectedEnd": 1914.87,
+          "actualStart": 1762.6704579999998,
+          "actualEnd": 1926.857458,
+          "timeDifference": 11.990457999999762
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ripple Effect: How Open-Mindedness Transforms Communities",
+          "expectedStart": 1914.87,
+          "expectedEnd": 2095.1,
+          "actualStart": 1928.357458,
+          "actualEnd": 2108.5915,
+          "timeDifference": 13.48745800000006
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Living with Uncertainty: Finding Meaning in the Unknown",
+          "expectedStart": 2095.1,
+          "expectedEnd": 2235.38,
+          "actualStart": 2110.0915,
+          "actualEnd": 2250.370417,
+          "timeDifference": 14.991500000000087
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2235.38,
+          "expectedEnd": 2372.39,
+          "actualStart": 2251.870417,
+          "actualEnd": 2388.876625,
+          "timeDifference": 16.49041699999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.067667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Comfort of Certainty and the Roots of Belief"
+        },
+        {
+          "startTime": 321.694125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Comfort of Certainty and the Roots of Belief and Chapter 2 Science, Superstition, and the Invisible Boundaries of Knowledge"
+        },
+        {
+          "startTime": 625.830125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Science, Superstition, and the Invisible Boundaries of Knowledge and Chapter 3 The Power of Language and the Limits of Understanding"
+        },
+        {
+          "startTime": 898.179625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Language and the Limits of Understanding and Chapter 4 Tradition, Culture, and the Inherited Stories We Live By"
+        },
+        {
+          "startTime": 1154.181875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Tradition, Culture, and the Inherited Stories We Live By and Chapter 5 The Dangers of Dogmatism and the Value of Uncertainty"
+        },
+        {
+          "startTime": 1405.212208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dangers of Dogmatism and the Value of Uncertainty and Chapter 9 The Paradox of Progress: Technology, Change, and the Persistence of Old Beliefs"
+        },
+        {
+          "startTime": 1600.423541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Paradox of Progress: Technology, Change, and the Persistence of Old Beliefs and Chapter 10 The Courage to Doubt: Personal Transformation and the Art of Letting Go"
+        },
+        {
+          "startTime": 1761.1704579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Courage to Doubt: Personal Transformation and the Art of Letting Go and Chapter 11 Wisdom in Practice: Building a Life Beyond Superstition"
+        },
+        {
+          "startTime": 1926.857458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Wisdom in Practice: Building a Life Beyond Superstition and Chapter 12 The Ripple Effect: How Open-Mindedness Transforms Communities"
+        },
+        {
+          "startTime": 2108.5915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ripple Effect: How Open-Mindedness Transforms Communities and Chapter 13 Living with Uncertainty: Finding Meaning in the Unknown"
+        },
+        {
+          "startTime": 2250.370417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Living with Uncertainty: Finding Meaning in the Unknown and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3013",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:19:21.555Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

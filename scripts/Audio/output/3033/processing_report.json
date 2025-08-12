@@ -1,0 +1,504 @@
+{
+  "bookId": "3033",
+  "timestamp": "2025-07-14T13:05:07.483Z",
+  "success": false,
+  "processingTime": -1752497810460,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5468,
+    "totalAudioFiles": 14,
+    "totalDuration": 2906.5484180000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2906.5484180000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3033/optimized_text/3033.md",
+    "fileSize": 976,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "3033.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3033/metadata/3033_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2906.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3033/metadata/3033_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3033/metadata/3033_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3033/3033_complete.wav",
+    "duration": 2906.548417,
+    "fileSize": 139514402,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3033/introduction.wav",
+          "duration": 78.842583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.842583,
+          "startTime": 0,
+          "endTime": 78.842583
+        },
+        {
+          "path": "Audio/output/3033/chapter_01.wav",
+          "duration": 297.376042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Business Models: Why Structure and Language Matter",
+          "actualDuration": 297.376042,
+          "startTime": 80.342583,
+          "endTime": 377.718625
+        },
+        {
+          "path": "Audio/output/3033/chapter_02.wav",
+          "duration": 383.365,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Nine Building Blocks: Mapping the Core of Any Business",
+          "actualDuration": 383.365,
+          "startTime": 379.218625,
+          "endTime": 762.583625
+        },
+        {
+          "path": "Audio/output/3033/chapter_03.wav",
+          "duration": 266.915875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Designing and Prototyping Business Models: Turning Ideas into Testable Maps",
+          "actualDuration": 266.915875,
+          "startTime": 764.083625,
+          "endTime": 1030.9995
+        },
+        {
+          "path": "Audio/output/3033/chapter_04.wav",
+          "duration": 181.241917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Visual Thinking and Collaboration: Harnessing Collective Intelligence",
+          "actualDuration": 181.241917,
+          "startTime": 1032.4995,
+          "endTime": 1213.741417
+        },
+        {
+          "path": "Audio/output/3033/chapter_05.wav",
+          "duration": 190.231625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Patterns and Types of Business Models: Learning from Real-World Examples",
+          "actualDuration": 190.231625,
+          "startTime": 1215.241417,
+          "endTime": 1405.473042
+        },
+        {
+          "path": "Audio/output/3033/chapter_06.wav",
+          "duration": 175.189917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Analyzing Business Models: Tools for Clarity and Insight",
+          "actualDuration": 175.189917,
+          "startTime": 1406.973042,
+          "endTime": 1582.162959
+        },
+        {
+          "path": "Audio/output/3033/chapter_07.wav",
+          "duration": 219.047042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Testing and Validating Business Models: From Assumptions to Evidence",
+          "actualDuration": 219.047042,
+          "startTime": 1583.662959,
+          "endTime": 1802.710001
+        },
+        {
+          "path": "Audio/output/3033/chapter_08.wav",
+          "duration": 199.154625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Evolving and Transforming Business Models: Navigating Change",
+          "actualDuration": 199.154625,
+          "startTime": 1804.210001,
+          "endTime": 2003.364626
+        },
+        {
+          "path": "Audio/output/3033/chapter_09.wav",
+          "duration": 200.22125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Designing in Context: Industry, Market, and Organizational Fit",
+          "actualDuration": 200.22125,
+          "startTime": 2004.864626,
+          "endTime": 2205.085876
+        },
+        {
+          "path": "Audio/output/3033/chapter_10.wav",
+          "duration": 211.823417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Implementation: Bringing Business Models to Life",
+          "actualDuration": 211.823417,
+          "startTime": 2206.585876,
+          "endTime": 2418.409293
+        },
+        {
+          "path": "Audio/output/3033/chapter_11.wav",
+          "duration": 195.668958,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Scaling and Sustaining Business Models: From Pilot to Growth",
+          "actualDuration": 195.668958,
+          "startTime": 2419.909293,
+          "endTime": 2615.5782510000004
+        },
+        {
+          "path": "Audio/output/3033/chapter_12.wav",
+          "duration": 170.374167,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Fostering a Culture of Business Model Innovation",
+          "actualDuration": 170.374167,
+          "startTime": 2617.0782510000004,
+          "endTime": 2787.4524180000003
+        },
+        {
+          "path": "Audio/output/3033/conclusion.wav",
+          "duration": 137.096,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.096,
+          "startTime": 2788.9524180000003,
+          "endTime": 2926.0484180000003
+        }
+      ],
+      "totalDuration": 2926.0484180000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.84,
+          "actualStart": 0,
+          "actualEnd": 78.842583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Business Models: Why Structure and Language Matter",
+          "expectedStart": 78.84,
+          "expectedEnd": 376.22,
+          "actualStart": 80.342583,
+          "actualEnd": 377.718625,
+          "timeDifference": 1.5025830000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Nine Building Blocks: Mapping the Core of Any Business",
+          "expectedStart": 376.22,
+          "expectedEnd": 759.59,
+          "actualStart": 379.218625,
+          "actualEnd": 762.583625,
+          "timeDifference": 2.9986249999999472
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Designing and Prototyping Business Models: Turning Ideas into Testable Maps",
+          "expectedStart": 759.59,
+          "expectedEnd": 1026.51,
+          "actualStart": 764.083625,
+          "actualEnd": 1030.9995,
+          "timeDifference": 4.493624999999952
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Visual Thinking and Collaboration: Harnessing Collective Intelligence",
+          "expectedStart": 1026.51,
+          "expectedEnd": 1207.75,
+          "actualStart": 1032.4995,
+          "actualEnd": 1213.741417,
+          "timeDifference": 5.989499999999907
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Patterns and Types of Business Models: Learning from Real-World Examples",
+          "expectedStart": 1207.75,
+          "expectedEnd": 1397.98,
+          "actualStart": 1215.241417,
+          "actualEnd": 1405.473042,
+          "timeDifference": 7.491416999999956
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Analyzing Business Models: Tools for Clarity and Insight",
+          "expectedStart": 1397.98,
+          "expectedEnd": 1573.17,
+          "actualStart": 1406.973042,
+          "actualEnd": 1582.162959,
+          "timeDifference": 8.99304200000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Testing and Validating Business Models: From Assumptions to Evidence",
+          "expectedStart": 1573.17,
+          "expectedEnd": 1792.22,
+          "actualStart": 1583.662959,
+          "actualEnd": 1802.710001,
+          "timeDifference": 10.492958999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Evolving and Transforming Business Models: Navigating Change",
+          "expectedStart": 1792.22,
+          "expectedEnd": 1991.37,
+          "actualStart": 1804.210001,
+          "actualEnd": 2003.364626,
+          "timeDifference": 11.990000999999893
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Designing in Context: Industry, Market, and Organizational Fit",
+          "expectedStart": 1991.37,
+          "expectedEnd": 2191.59,
+          "actualStart": 2004.864626,
+          "actualEnd": 2205.085876,
+          "timeDifference": 13.494626000000153
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Implementation: Bringing Business Models to Life",
+          "expectedStart": 2191.59,
+          "expectedEnd": 2403.41,
+          "actualStart": 2206.585876,
+          "actualEnd": 2418.409293,
+          "timeDifference": 14.995875999999953
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Scaling and Sustaining Business Models: From Pilot to Growth",
+          "expectedStart": 2403.41,
+          "expectedEnd": 2599.08,
+          "actualStart": 2419.909293,
+          "actualEnd": 2615.5782510000004,
+          "timeDifference": 16.499293000000307
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Fostering a Culture of Business Model Innovation",
+          "expectedStart": 2599.08,
+          "expectedEnd": 2769.45,
+          "actualStart": 2617.0782510000004,
+          "actualEnd": 2787.4524180000003,
+          "timeDifference": 17.998251000000437
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2769.45,
+          "expectedEnd": 2906.55,
+          "actualStart": 2788.9524180000003,
+          "actualEnd": 2926.0484180000003,
+          "timeDifference": 19.50241800000049
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.842583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Business Models: Why Structure and Language Matter"
+        },
+        {
+          "startTime": 377.718625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Business Models: Why Structure and Language Matter and Chapter 2 The Nine Building Blocks: Mapping the Core of Any Business"
+        },
+        {
+          "startTime": 762.583625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Nine Building Blocks: Mapping the Core of Any Business and Chapter 3 Designing and Prototyping Business Models: Turning Ideas into Testable Maps"
+        },
+        {
+          "startTime": 1030.9995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Designing and Prototyping Business Models: Turning Ideas into Testable Maps and Chapter 4 Visual Thinking and Collaboration: Harnessing Collective Intelligence"
+        },
+        {
+          "startTime": 1213.741417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Visual Thinking and Collaboration: Harnessing Collective Intelligence and Chapter 5 Patterns and Types of Business Models: Learning from Real-World Examples"
+        },
+        {
+          "startTime": 1405.473042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Patterns and Types of Business Models: Learning from Real-World Examples and Chapter 6 Analyzing Business Models: Tools for Clarity and Insight"
+        },
+        {
+          "startTime": 1582.162959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Analyzing Business Models: Tools for Clarity and Insight and Chapter 7 Testing and Validating Business Models: From Assumptions to Evidence"
+        },
+        {
+          "startTime": 1802.710001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Testing and Validating Business Models: From Assumptions to Evidence and Chapter 8 Evolving and Transforming Business Models: Navigating Change"
+        },
+        {
+          "startTime": 2003.364626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Evolving and Transforming Business Models: Navigating Change and Chapter 9 Designing in Context: Industry, Market, and Organizational Fit"
+        },
+        {
+          "startTime": 2205.085876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Designing in Context: Industry, Market, and Organizational Fit and Chapter 10 Implementation: Bringing Business Models to Life"
+        },
+        {
+          "startTime": 2418.409293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Implementation: Bringing Business Models to Life and Chapter 11 Scaling and Sustaining Business Models: From Pilot to Growth"
+        },
+        {
+          "startTime": 2615.5782510000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Scaling and Sustaining Business Models: From Pilot to Growth and Chapter 12 Fostering a Culture of Business Model Innovation"
+        },
+        {
+          "startTime": 2787.4524180000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Fostering a Culture of Business Model Innovation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3033",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:56:52.083Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

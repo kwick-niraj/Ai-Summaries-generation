@@ -1,0 +1,456 @@
+{
+  "bookId": "2889",
+  "timestamp": "2025-07-14T02:19:28.323Z",
+  "success": false,
+  "processingTime": -1752459291944,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4976,
+    "totalAudioFiles": 12,
+    "totalDuration": 2356.293708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2356.293708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2889/optimized_text/2889.md",
+    "fileSize": 633,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2889.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2889/metadata/2889_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2356.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2889/metadata/2889_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2889/metadata/2889_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 73,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2889/2889_complete.wav",
+    "duration": 2356.293708,
+    "fileSize": 113102176,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2889/introduction.wav",
+          "duration": 99.063208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.063208,
+          "startTime": 0,
+          "endTime": 99.063208
+        },
+        {
+          "path": "Audio/output/2889/chapter_01.wav",
+          "duration": 256.14125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out with Old Memories and New Curiosity",
+          "actualDuration": 256.14125,
+          "startTime": 100.563208,
+          "endTime": 356.70445800000005
+        },
+        {
+          "path": "Audio/output/2889/chapter_02.wav",
+          "duration": 238.181292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Everyday Comedy of Being a Foreigner",
+          "actualDuration": 238.181292,
+          "startTime": 358.20445800000005,
+          "endTime": 596.38575
+        },
+        {
+          "path": "Audio/output/2889/chapter_03.wav",
+          "duration": 286.434833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Contrasts, Surprises, and the Changing Face of Europe",
+          "actualDuration": 286.434833,
+          "startTime": 597.88575,
+          "endTime": 884.320583
+        },
+        {
+          "path": "Audio/output/2889/chapter_04.wav",
+          "duration": 199.319167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Nostalgia, Memory, and the Search for Meaning",
+          "actualDuration": 199.319167,
+          "startTime": 885.820583,
+          "endTime": 1085.13975
+        },
+        {
+          "path": "Audio/output/2889/chapter_05.wav",
+          "duration": 269.371792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Culture Clashes and the Humor in Everyday Life",
+          "actualDuration": 269.371792,
+          "startTime": 1086.63975,
+          "endTime": 1356.0115420000002
+        },
+        {
+          "path": "Audio/output/2889/chapter_06.wav",
+          "duration": 208.693667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Getting Lost and the Unexpected Gifts of Wandering",
+          "actualDuration": 208.693667,
+          "startTime": 1357.5115420000002,
+          "endTime": 1566.2052090000002
+        },
+        {
+          "path": "Audio/output/2889/chapter_07.wav",
+          "duration": 182.945833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Encounters That Change You",
+          "actualDuration": 182.945833,
+          "startTime": 1567.7052090000002,
+          "endTime": 1750.6510420000002
+        },
+        {
+          "path": "Audio/output/2889/chapter_08.wav",
+          "duration": 193.378917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Weight of History and the Echoes of the Past",
+          "actualDuration": 193.378917,
+          "startTime": 1752.1510420000002,
+          "endTime": 1945.5299590000002
+        },
+        {
+          "path": "Audio/output/2889/chapter_09.wav",
+          "duration": 156.904708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Challenge of Returning Home",
+          "actualDuration": 156.904708,
+          "startTime": 1947.0299590000002,
+          "endTime": 2103.934667
+        },
+        {
+          "path": "Audio/output/2889/chapter_10.wav",
+          "duration": 134.231458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lasting Impact of the Journey",
+          "actualDuration": 134.231458,
+          "startTime": 2105.434667,
+          "endTime": 2239.666125
+        },
+        {
+          "path": "Audio/output/2889/conclusion.wav",
+          "duration": 131.627583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.627583,
+          "startTime": 2241.166125,
+          "endTime": 2372.793708
+        }
+      ],
+      "totalDuration": 2372.793708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.06,
+          "actualStart": 0,
+          "actualEnd": 99.063208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out with Old Memories and New Curiosity",
+          "expectedStart": 99.06,
+          "expectedEnd": 355.2,
+          "actualStart": 100.563208,
+          "actualEnd": 356.70445800000005,
+          "timeDifference": 1.5032080000000008
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Everyday Comedy of Being a Foreigner",
+          "expectedStart": 355.2,
+          "expectedEnd": 593.38,
+          "actualStart": 358.20445800000005,
+          "actualEnd": 596.38575,
+          "timeDifference": 3.0044580000000565
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Contrasts, Surprises, and the Changing Face of Europe",
+          "expectedStart": 593.38,
+          "expectedEnd": 879.81,
+          "actualStart": 597.88575,
+          "actualEnd": 884.320583,
+          "timeDifference": 4.505750000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Nostalgia, Memory, and the Search for Meaning",
+          "expectedStart": 879.81,
+          "expectedEnd": 1079.13,
+          "actualStart": 885.820583,
+          "actualEnd": 1085.13975,
+          "timeDifference": 6.010583000000111
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Culture Clashes and the Humor in Everyday Life",
+          "expectedStart": 1079.13,
+          "expectedEnd": 1348.5,
+          "actualStart": 1086.63975,
+          "actualEnd": 1356.0115420000002,
+          "timeDifference": 7.50974999999994
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Getting Lost and the Unexpected Gifts of Wandering",
+          "expectedStart": 1348.5,
+          "expectedEnd": 1557.19,
+          "actualStart": 1357.5115420000002,
+          "actualEnd": 1566.2052090000002,
+          "timeDifference": 9.01154200000019
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Encounters That Change You",
+          "expectedStart": 1557.19,
+          "expectedEnd": 1740.14,
+          "actualStart": 1567.7052090000002,
+          "actualEnd": 1750.6510420000002,
+          "timeDifference": 10.51520900000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Weight of History and the Echoes of the Past",
+          "expectedStart": 1740.14,
+          "expectedEnd": 1933.52,
+          "actualStart": 1752.1510420000002,
+          "actualEnd": 1945.5299590000002,
+          "timeDifference": 12.011042000000089
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Challenge of Returning Home",
+          "expectedStart": 1933.52,
+          "expectedEnd": 2090.42,
+          "actualStart": 1947.0299590000002,
+          "actualEnd": 2103.934667,
+          "timeDifference": 13.509959000000208
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lasting Impact of the Journey",
+          "expectedStart": 2090.42,
+          "expectedEnd": 2224.65,
+          "actualStart": 2105.434667,
+          "actualEnd": 2239.666125,
+          "timeDifference": 15.014666999999918
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2224.65,
+          "expectedEnd": 2356.28,
+          "actualStart": 2241.166125,
+          "actualEnd": 2372.793708,
+          "timeDifference": 16.516125000000102
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.063208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out with Old Memories and New Curiosity"
+        },
+        {
+          "startTime": 356.70445800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out with Old Memories and New Curiosity and Chapter 2 The Everyday Comedy of Being a Foreigner"
+        },
+        {
+          "startTime": 596.38575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Everyday Comedy of Being a Foreigner and Chapter 3 Contrasts, Surprises, and the Changing Face of Europe"
+        },
+        {
+          "startTime": 884.320583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Contrasts, Surprises, and the Changing Face of Europe and Chapter 4 Nostalgia, Memory, and the Search for Meaning"
+        },
+        {
+          "startTime": 1085.13975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Nostalgia, Memory, and the Search for Meaning and Chapter 5 Culture Clashes and the Humor in Everyday Life"
+        },
+        {
+          "startTime": 1356.0115420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Culture Clashes and the Humor in Everyday Life and Chapter 6 The Art of Getting Lost and the Unexpected Gifts of Wandering"
+        },
+        {
+          "startTime": 1566.2052090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Getting Lost and the Unexpected Gifts of Wandering and Chapter 7 Encounters That Change You"
+        },
+        {
+          "startTime": 1750.6510420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Encounters That Change You and Chapter 8 The Weight of History and the Echoes of the Past"
+        },
+        {
+          "startTime": 1945.5299590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Weight of History and the Echoes of the Past and Chapter 9 The Challenge of Returning Home"
+        },
+        {
+          "startTime": 2103.934667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Challenge of Returning Home and Chapter 10 The Lasting Impact of the Journey"
+        },
+        {
+          "startTime": 2239.666125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lasting Impact of the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2889",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 73,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:14:51.968Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

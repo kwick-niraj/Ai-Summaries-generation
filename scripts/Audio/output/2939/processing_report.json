@@ -1,0 +1,456 @@
+{
+  "bookId": "2939",
+  "timestamp": "2025-07-14T05:48:09.256Z",
+  "success": false,
+  "processingTime": -1752471798386,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4346,
+    "totalAudioFiles": 12,
+    "totalDuration": 2292.869124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2292.869124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2939/optimized_text/2939.md",
+    "fileSize": 732,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2939.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2939/metadata/2939_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2292.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2939/metadata/2939_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2939/metadata/2939_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2939/2939_complete.wav",
+    "duration": 2292.869125,
+    "fileSize": 110057796,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2939/introduction.wav",
+          "duration": 93.438625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.438625,
+          "startTime": 0,
+          "endTime": 93.438625
+        },
+        {
+          "path": "Audio/output/2939/chapter_01.wav",
+          "duration": 219.904458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Emotional Traps and Pressing Pause",
+          "actualDuration": 219.904458,
+          "startTime": 94.938625,
+          "endTime": 314.843083
+        },
+        {
+          "path": "Audio/output/2939/chapter_02.wav",
+          "duration": 233.216292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Legal Landscape Before Taking Action",
+          "actualDuration": 233.216292,
+          "startTime": 316.343083,
+          "endTime": 549.559375
+        },
+        {
+          "path": "Audio/output/2939/chapter_03.wav",
+          "duration": 208.782708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Protecting Children and Fostering Healthy Co-Parenting",
+          "actualDuration": 208.782708,
+          "startTime": 551.059375,
+          "endTime": 759.842083
+        },
+        {
+          "path": "Audio/output/2939/chapter_04.wav",
+          "duration": 225.037083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Communicating Effectively to Prevent and Resolve Conflict",
+          "actualDuration": 225.037083,
+          "startTime": 761.342083,
+          "endTime": 986.3791659999999
+        },
+        {
+          "path": "Audio/output/2939/chapter_05.wav",
+          "duration": 250.068542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Setting Realistic Financial Expectations and Preparing Thoroughly",
+          "actualDuration": 250.068542,
+          "startTime": 987.8791659999999,
+          "endTime": 1237.947708
+        },
+        {
+          "path": "Audio/output/2939/chapter_06.wav",
+          "duration": 203.022083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Negotiation and Mediation with a Clear Mind",
+          "actualDuration": 203.022083,
+          "startTime": 1239.447708,
+          "endTime": 1442.469791
+        },
+        {
+          "path": "Audio/output/2939/chapter_07.wav",
+          "duration": 198.9595,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Stress, Self-Care, and Emotional Recovery",
+          "actualDuration": 198.9595,
+          "startTime": 1443.969791,
+          "endTime": 1642.929291
+        },
+        {
+          "path": "Audio/output/2939/chapter_08.wav",
+          "duration": 178.398458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding Identity and Creating a New Vision",
+          "actualDuration": 178.398458,
+          "startTime": 1644.429291,
+          "endTime": 1822.827749
+        },
+        {
+          "path": "Audio/output/2939/chapter_09.wav",
+          "duration": 180.736125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Maintaining Healthy Boundaries and Relationships Post-Divorce",
+          "actualDuration": 180.736125,
+          "startTime": 1824.327749,
+          "endTime": 2005.063874
+        },
+        {
+          "path": "Audio/output/2939/chapter_10.wav",
+          "duration": 170.577708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Cultivating Long-Term Resilience and Growth",
+          "actualDuration": 170.577708,
+          "startTime": 2006.563874,
+          "endTime": 2177.1415819999997
+        },
+        {
+          "path": "Audio/output/2939/conclusion.wav",
+          "duration": 130.727542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.727542,
+          "startTime": 2178.6415819999997,
+          "endTime": 2309.369124
+        }
+      ],
+      "totalDuration": 2309.369124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.44,
+          "actualStart": 0,
+          "actualEnd": 93.438625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Emotional Traps and Pressing Pause",
+          "expectedStart": 93.44,
+          "expectedEnd": 313.34,
+          "actualStart": 94.938625,
+          "actualEnd": 314.843083,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Legal Landscape Before Taking Action",
+          "expectedStart": 313.34,
+          "expectedEnd": 546.56,
+          "actualStart": 316.343083,
+          "actualEnd": 549.559375,
+          "timeDifference": 3.0030830000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Protecting Children and Fostering Healthy Co-Parenting",
+          "expectedStart": 546.56,
+          "expectedEnd": 755.34,
+          "actualStart": 551.059375,
+          "actualEnd": 759.842083,
+          "timeDifference": 4.4993750000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Communicating Effectively to Prevent and Resolve Conflict",
+          "expectedStart": 755.34,
+          "expectedEnd": 980.38,
+          "actualStart": 761.342083,
+          "actualEnd": 986.3791659999999,
+          "timeDifference": 6.0020829999999705
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Setting Realistic Financial Expectations and Preparing Thoroughly",
+          "expectedStart": 980.38,
+          "expectedEnd": 1230.45,
+          "actualStart": 987.8791659999999,
+          "actualEnd": 1237.947708,
+          "timeDifference": 7.499165999999946
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Negotiation and Mediation with a Clear Mind",
+          "expectedStart": 1230.45,
+          "expectedEnd": 1433.47,
+          "actualStart": 1239.447708,
+          "actualEnd": 1442.469791,
+          "timeDifference": 8.997707999999875
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Stress, Self-Care, and Emotional Recovery",
+          "expectedStart": 1433.47,
+          "expectedEnd": 1632.43,
+          "actualStart": 1443.969791,
+          "actualEnd": 1642.929291,
+          "timeDifference": 10.49979099999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding Identity and Creating a New Vision",
+          "expectedStart": 1632.43,
+          "expectedEnd": 1810.83,
+          "actualStart": 1644.429291,
+          "actualEnd": 1822.827749,
+          "timeDifference": 11.999290999999857
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Maintaining Healthy Boundaries and Relationships Post-Divorce",
+          "expectedStart": 1810.83,
+          "expectedEnd": 1991.57,
+          "actualStart": 1824.327749,
+          "actualEnd": 2005.063874,
+          "timeDifference": 13.497749000000113
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Cultivating Long-Term Resilience and Growth",
+          "expectedStart": 1991.57,
+          "expectedEnd": 2162.15,
+          "actualStart": 2006.563874,
+          "actualEnd": 2177.1415819999997,
+          "timeDifference": 14.993874000000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2162.15,
+          "expectedEnd": 2292.88,
+          "actualStart": 2178.6415819999997,
+          "actualEnd": 2309.369124,
+          "timeDifference": 16.491581999999653
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.438625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Emotional Traps and Pressing Pause"
+        },
+        {
+          "startTime": 314.843083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Emotional Traps and Pressing Pause and Chapter 2 Understanding the Legal Landscape Before Taking Action"
+        },
+        {
+          "startTime": 549.559375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Legal Landscape Before Taking Action and Chapter 3 Protecting Children and Fostering Healthy Co-Parenting"
+        },
+        {
+          "startTime": 759.842083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Protecting Children and Fostering Healthy Co-Parenting and Chapter 4 Communicating Effectively to Prevent and Resolve Conflict"
+        },
+        {
+          "startTime": 986.3791659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Communicating Effectively to Prevent and Resolve Conflict and Chapter 5 Setting Realistic Financial Expectations and Preparing Thoroughly"
+        },
+        {
+          "startTime": 1237.947708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Setting Realistic Financial Expectations and Preparing Thoroughly and Chapter 6 Navigating Negotiation and Mediation with a Clear Mind"
+        },
+        {
+          "startTime": 1442.469791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Negotiation and Mediation with a Clear Mind and Chapter 7 Managing Stress, Self-Care, and Emotional Recovery"
+        },
+        {
+          "startTime": 1642.929291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Stress, Self-Care, and Emotional Recovery and Chapter 8 Rebuilding Identity and Creating a New Vision"
+        },
+        {
+          "startTime": 1822.827749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding Identity and Creating a New Vision and Chapter 9 Maintaining Healthy Boundaries and Relationships Post-Divorce"
+        },
+        {
+          "startTime": 2005.063874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Maintaining Healthy Boundaries and Relationships Post-Divorce and Chapter 10 Cultivating Long-Term Resilience and Growth"
+        },
+        {
+          "startTime": 2177.1415819999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Cultivating Long-Term Resilience and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2939",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T05:43:18.890Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

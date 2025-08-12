@@ -1,0 +1,456 @@
+{
+  "bookId": "3153",
+  "timestamp": "2025-07-14T22:23:13.780Z",
+  "success": false,
+  "processingTime": -1752531490768,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4990,
+    "totalAudioFiles": 12,
+    "totalDuration": 2143.1976259999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2143.1976259999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3153/optimized_text/3153.md",
+    "fileSize": 783,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "3153.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3153/metadata/3153_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2143.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3153/metadata/3153_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3153/metadata/3153_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3153/3153_complete.wav",
+    "duration": 2143.197625,
+    "fileSize": 102873564,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3153/introduction.wav",
+          "duration": 97.792333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.792333,
+          "startTime": 0,
+          "endTime": 97.792333
+        },
+        {
+          "path": "Audio/output/3153/chapter_01.wav",
+          "duration": 203.545917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life on the Edge: Surviving the Streets and Searching for Meaning",
+          "actualDuration": 203.545917,
+          "startTime": 99.292333,
+          "endTime": 302.83825
+        },
+        {
+          "path": "Audio/output/3153/chapter_02.wav",
+          "duration": 229.181625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 An Unexpected Visitor: The Arrival of a Stray Cat",
+          "actualDuration": 229.181625,
+          "startTime": 304.33825,
+          "endTime": 533.519875
+        },
+        {
+          "path": "Audio/output/3153/chapter_03.wav",
+          "duration": 194.889292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Trust and Routine: The First Steps Toward Recovery",
+          "actualDuration": 194.889292,
+          "startTime": 535.019875,
+          "endTime": 729.909167
+        },
+        {
+          "path": "Audio/output/3153/chapter_04.wav",
+          "duration": 184.818125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Judgment and Finding Compassion: Life in the Public Eye",
+          "actualDuration": 184.818125,
+          "startTime": 731.409167,
+          "endTime": 916.227292
+        },
+        {
+          "path": "Audio/output/3153/chapter_05.wav",
+          "duration": 199.661208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Victories and Setbacks: The Ongoing Struggle for Stability",
+          "actualDuration": 199.661208,
+          "startTime": 917.727292,
+          "endTime": 1117.3885
+        },
+        {
+          "path": "Audio/output/3153/chapter_06.wav",
+          "duration": 196.435292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Attention",
+          "actualDuration": 196.435292,
+          "startTime": 1118.8885,
+          "endTime": 1315.3237920000001
+        },
+        {
+          "path": "Audio/output/3153/chapter_07.wav",
+          "duration": 206.316167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing Old Wounds: Family, Forgiveness, and Facing the Past",
+          "actualDuration": 206.316167,
+          "startTime": 1316.8237920000001,
+          "endTime": 1523.139959
+        },
+        {
+          "path": "Audio/output/3153/chapter_08.wav",
+          "duration": 165.756125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Road to Recovery: Temptation, Relapse, and Resilience",
+          "actualDuration": 165.756125,
+          "startTime": 1524.639959,
+          "endTime": 1690.396084
+        },
+        {
+          "path": "Audio/output/3153/chapter_09.wav",
+          "duration": 178.7005,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 New Beginnings: Finding a Place to Call Home",
+          "actualDuration": 178.7005,
+          "startTime": 1691.896084,
+          "endTime": 1870.596584
+        },
+        {
+          "path": "Audio/output/3153/chapter_10.wav",
+          "duration": 164.534917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sharing the Story: Purpose, Advocacy, and Giving Back",
+          "actualDuration": 164.534917,
+          "startTime": 1872.096584,
+          "endTime": 2036.6315009999998
+        },
+        {
+          "path": "Audio/output/3153/conclusion.wav",
+          "duration": 121.566125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.566125,
+          "startTime": 2038.1315009999998,
+          "endTime": 2159.6976259999997
+        }
+      ],
+      "totalDuration": 2159.6976259999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.79,
+          "actualStart": 0,
+          "actualEnd": 97.792333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life on the Edge: Surviving the Streets and Searching for Meaning",
+          "expectedStart": 97.79,
+          "expectedEnd": 301.34,
+          "actualStart": 99.292333,
+          "actualEnd": 302.83825,
+          "timeDifference": 1.502332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 An Unexpected Visitor: The Arrival of a Stray Cat",
+          "expectedStart": 301.34,
+          "expectedEnd": 530.52,
+          "actualStart": 304.33825,
+          "actualEnd": 533.519875,
+          "timeDifference": 2.9982500000000414
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Trust and Routine: The First Steps Toward Recovery",
+          "expectedStart": 530.52,
+          "expectedEnd": 725.41,
+          "actualStart": 535.019875,
+          "actualEnd": 729.909167,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Judgment and Finding Compassion: Life in the Public Eye",
+          "expectedStart": 725.41,
+          "expectedEnd": 910.23,
+          "actualStart": 731.409167,
+          "actualEnd": 916.227292,
+          "timeDifference": 5.999167000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Victories and Setbacks: The Ongoing Struggle for Stability",
+          "expectedStart": 910.23,
+          "expectedEnd": 1109.89,
+          "actualStart": 917.727292,
+          "actualEnd": 1117.3885,
+          "timeDifference": 7.497292000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Attention",
+          "expectedStart": 1109.89,
+          "expectedEnd": 1306.33,
+          "actualStart": 1118.8885,
+          "actualEnd": 1315.3237920000001,
+          "timeDifference": 8.998499999999922
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing Old Wounds: Family, Forgiveness, and Facing the Past",
+          "expectedStart": 1306.33,
+          "expectedEnd": 1512.65,
+          "actualStart": 1316.8237920000001,
+          "actualEnd": 1523.139959,
+          "timeDifference": 10.493792000000212
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Road to Recovery: Temptation, Relapse, and Resilience",
+          "expectedStart": 1512.65,
+          "expectedEnd": 1678.41,
+          "actualStart": 1524.639959,
+          "actualEnd": 1690.396084,
+          "timeDifference": 11.989958999999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 New Beginnings: Finding a Place to Call Home",
+          "expectedStart": 1678.41,
+          "expectedEnd": 1857.11,
+          "actualStart": 1691.896084,
+          "actualEnd": 1870.596584,
+          "timeDifference": 13.486083999999892
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sharing the Story: Purpose, Advocacy, and Giving Back",
+          "expectedStart": 1857.11,
+          "expectedEnd": 2021.64,
+          "actualStart": 1872.096584,
+          "actualEnd": 2036.6315009999998,
+          "timeDifference": 14.986583999999993
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2021.64,
+          "expectedEnd": 2143.21,
+          "actualStart": 2038.1315009999998,
+          "actualEnd": 2159.6976259999997,
+          "timeDifference": 16.491500999999744
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.792333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life on the Edge: Surviving the Streets and Searching for Meaning"
+        },
+        {
+          "startTime": 302.83825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life on the Edge: Surviving the Streets and Searching for Meaning and Chapter 2 An Unexpected Visitor: The Arrival of a Stray Cat"
+        },
+        {
+          "startTime": 533.519875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 An Unexpected Visitor: The Arrival of a Stray Cat and Chapter 3 Building Trust and Routine: The First Steps Toward Recovery"
+        },
+        {
+          "startTime": 729.909167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Trust and Routine: The First Steps Toward Recovery and Chapter 4 Facing Judgment and Finding Compassion: Life in the Public Eye"
+        },
+        {
+          "startTime": 916.227292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Judgment and Finding Compassion: Life in the Public Eye and Chapter 5 Small Victories and Setbacks: The Ongoing Struggle for Stability"
+        },
+        {
+          "startTime": 1117.3885,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Victories and Setbacks: The Ongoing Struggle for Stability and Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Attention"
+        },
+        {
+          "startTime": 1315.3237920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Attention and Chapter 7 Healing Old Wounds: Family, Forgiveness, and Facing the Past"
+        },
+        {
+          "startTime": 1523.139959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing Old Wounds: Family, Forgiveness, and Facing the Past and Chapter 8 The Road to Recovery: Temptation, Relapse, and Resilience"
+        },
+        {
+          "startTime": 1690.396084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Road to Recovery: Temptation, Relapse, and Resilience and Chapter 9 New Beginnings: Finding a Place to Call Home"
+        },
+        {
+          "startTime": 1870.596584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 New Beginnings: Finding a Place to Call Home and Chapter 10 Sharing the Story: Purpose, Advocacy, and Giving Back"
+        },
+        {
+          "startTime": 2036.6315009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sharing the Story: Purpose, Advocacy, and Giving Back and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3153",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T22:18:12.004Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

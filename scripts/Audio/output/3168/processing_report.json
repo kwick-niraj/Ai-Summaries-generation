@@ -1,0 +1,456 @@
+{
+  "bookId": "3168",
+  "timestamp": "2025-07-14T23:52:15.391Z",
+  "success": false,
+  "processingTime": -1752536671647,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3496,
+    "totalAudioFiles": 12,
+    "totalDuration": 1742.3172089999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1742.3172089999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3168/optimized_text/3168.md",
+    "fileSize": 692,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "3168.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3168/metadata/3168_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1742.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3168/metadata/3168_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3168/metadata/3168_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3168/3168_complete.wav",
+    "duration": 1742.317208,
+    "fileSize": 83631304,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3168/introduction.wav",
+          "duration": 95.398125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.398125,
+          "startTime": 0,
+          "endTime": 95.398125
+        },
+        {
+          "path": "Audio/output/3168/chapter_01.wav",
+          "duration": 176.026542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Clear Signs of Interest and Disinterest",
+          "actualDuration": 176.026542,
+          "startTime": 96.898125,
+          "endTime": 272.924667
+        },
+        {
+          "path": "Audio/output/3168/chapter_02.wav",
+          "duration": 186.456333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Trap of Making Excuses and the Cost to Self-Respect",
+          "actualDuration": 186.456333,
+          "startTime": 274.424667,
+          "endTime": 460.881
+        },
+        {
+          "path": "Audio/output/3168/chapter_03.wav",
+          "duration": 168.021208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Honest Self-Reflection and Setting Boundaries",
+          "actualDuration": 168.021208,
+          "startTime": 462.381,
+          "endTime": 630.402208
+        },
+        {
+          "path": "Audio/output/3168/chapter_04.wav",
+          "duration": 149.357042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Letting Go of the Myth of Exceptions and Embracing Reality",
+          "actualDuration": 149.357042,
+          "startTime": 631.902208,
+          "endTime": 781.25925
+        },
+        {
+          "path": "Audio/output/3168/chapter_05.wav",
+          "duration": 181.391375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Space for Healthy, Reciprocated Love",
+          "actualDuration": 181.391375,
+          "startTime": 782.75925,
+          "endTime": 964.150625
+        },
+        {
+          "path": "Audio/output/3168/chapter_06.wav",
+          "duration": 152.638667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practicing Detachment and Reclaiming Emotional Energy",
+          "actualDuration": 152.638667,
+          "startTime": 965.650625,
+          "endTime": 1118.289292
+        },
+        {
+          "path": "Audio/output/3168/chapter_07.wav",
+          "duration": 130.0185,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rewriting the Internal Narrative",
+          "actualDuration": 130.0185,
+          "startTime": 1119.789292,
+          "endTime": 1249.8077919999998
+        },
+        {
+          "path": "Audio/output/3168/chapter_08.wav",
+          "duration": 129.413625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Self-Trust and Intuitive Decision-Making",
+          "actualDuration": 129.413625,
+          "startTime": 1251.3077919999998,
+          "endTime": 1380.7214169999997
+        },
+        {
+          "path": "Audio/output/3168/chapter_09.wav",
+          "duration": 107.597667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Vulnerability and Authentic Connection",
+          "actualDuration": 107.597667,
+          "startTime": 1382.2214169999997,
+          "endTime": 1489.8190839999997
+        },
+        {
+          "path": "Audio/output/3168/chapter_10.wav",
+          "duration": 113.121792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward with Openness and Hope",
+          "actualDuration": 113.121792,
+          "startTime": 1491.3190839999997,
+          "endTime": 1604.4408759999997
+        },
+        {
+          "path": "Audio/output/3168/conclusion.wav",
+          "duration": 152.876333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 152.876333,
+          "startTime": 1605.9408759999997,
+          "endTime": 1758.8172089999996
+        }
+      ],
+      "totalDuration": 1758.8172089999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.4,
+          "actualStart": 0,
+          "actualEnd": 95.398125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Clear Signs of Interest and Disinterest",
+          "expectedStart": 95.4,
+          "expectedEnd": 271.43,
+          "actualStart": 96.898125,
+          "actualEnd": 272.924667,
+          "timeDifference": 1.4981249999999875
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Trap of Making Excuses and the Cost to Self-Respect",
+          "expectedStart": 271.43,
+          "expectedEnd": 457.89,
+          "actualStart": 274.424667,
+          "actualEnd": 460.881,
+          "timeDifference": 2.9946669999999926
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Honest Self-Reflection and Setting Boundaries",
+          "expectedStart": 457.89,
+          "expectedEnd": 625.91,
+          "actualStart": 462.381,
+          "actualEnd": 630.402208,
+          "timeDifference": 4.4909999999999854
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Letting Go of the Myth of Exceptions and Embracing Reality",
+          "expectedStart": 625.91,
+          "expectedEnd": 775.27,
+          "actualStart": 631.902208,
+          "actualEnd": 781.25925,
+          "timeDifference": 5.992208000000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Space for Healthy, Reciprocated Love",
+          "expectedStart": 775.27,
+          "expectedEnd": 956.66,
+          "actualStart": 782.75925,
+          "actualEnd": 964.150625,
+          "timeDifference": 7.48924999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practicing Detachment and Reclaiming Emotional Energy",
+          "expectedStart": 956.66,
+          "expectedEnd": 1109.3,
+          "actualStart": 965.650625,
+          "actualEnd": 1118.289292,
+          "timeDifference": 8.990625000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rewriting the Internal Narrative",
+          "expectedStart": 1109.3,
+          "expectedEnd": 1239.32,
+          "actualStart": 1119.789292,
+          "actualEnd": 1249.8077919999998,
+          "timeDifference": 10.489291999999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Self-Trust and Intuitive Decision-Making",
+          "expectedStart": 1239.32,
+          "expectedEnd": 1368.73,
+          "actualStart": 1251.3077919999998,
+          "actualEnd": 1380.7214169999997,
+          "timeDifference": 11.9877919999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Vulnerability and Authentic Connection",
+          "expectedStart": 1368.73,
+          "expectedEnd": 1476.33,
+          "actualStart": 1382.2214169999997,
+          "actualEnd": 1489.8190839999997,
+          "timeDifference": 13.491416999999728
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward with Openness and Hope",
+          "expectedStart": 1476.33,
+          "expectedEnd": 1589.45,
+          "actualStart": 1491.3190839999997,
+          "actualEnd": 1604.4408759999997,
+          "timeDifference": 14.98908399999982
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1589.45,
+          "expectedEnd": 1742.33,
+          "actualStart": 1605.9408759999997,
+          "actualEnd": 1758.8172089999996,
+          "timeDifference": 16.490875999999616
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.398125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Clear Signs of Interest and Disinterest"
+        },
+        {
+          "startTime": 272.924667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Clear Signs of Interest and Disinterest and Chapter 2 The Trap of Making Excuses and the Cost to Self-Respect"
+        },
+        {
+          "startTime": 460.881,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Trap of Making Excuses and the Cost to Self-Respect and Chapter 3 The Power of Honest Self-Reflection and Setting Boundaries"
+        },
+        {
+          "startTime": 630.402208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Honest Self-Reflection and Setting Boundaries and Chapter 4 Letting Go of the Myth of Exceptions and Embracing Reality"
+        },
+        {
+          "startTime": 781.25925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Letting Go of the Myth of Exceptions and Embracing Reality and Chapter 5 Creating Space for Healthy, Reciprocated Love"
+        },
+        {
+          "startTime": 964.150625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Space for Healthy, Reciprocated Love and Chapter 6 Practicing Detachment and Reclaiming Emotional Energy"
+        },
+        {
+          "startTime": 1118.289292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practicing Detachment and Reclaiming Emotional Energy and Chapter 7 Rewriting the Internal Narrative"
+        },
+        {
+          "startTime": 1249.8077919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rewriting the Internal Narrative and Chapter 8 Cultivating Self-Trust and Intuitive Decision-Making"
+        },
+        {
+          "startTime": 1380.7214169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Self-Trust and Intuitive Decision-Making and Chapter 9 Embracing Vulnerability and Authentic Connection"
+        },
+        {
+          "startTime": 1489.8190839999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Vulnerability and Authentic Connection and Chapter 10 Moving Forward with Openness and Hope"
+        },
+        {
+          "startTime": 1604.4408759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward with Openness and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3168",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:44:32.953Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

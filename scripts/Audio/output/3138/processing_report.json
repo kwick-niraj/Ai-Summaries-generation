@@ -1,0 +1,456 @@
+{
+  "bookId": "3138",
+  "timestamp": "2025-07-14T21:24:15.464Z",
+  "success": false,
+  "processingTime": -1752527960435,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5732,
+    "totalAudioFiles": 12,
+    "totalDuration": 2672.6905
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2672.6905
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3138/optimized_text/3138.md",
+    "fileSize": 785,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "3138.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3138/metadata/3138_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2672.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3138/metadata/3138_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3138/metadata/3138_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3138/3138_complete.wav",
+    "duration": 2672.6905,
+    "fileSize": 128289222,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3138/introduction.wav",
+          "duration": 108.841208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.841208,
+          "startTime": 0,
+          "endTime": 108.841208
+        },
+        {
+          "path": "Audio/output/3138/chapter_01.wav",
+          "duration": 331.987458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Happiness in a Demanding World",
+          "actualDuration": 331.987458,
+          "startTime": 110.341208,
+          "endTime": 442.328666
+        },
+        {
+          "path": "Audio/output/3138/chapter_02.wav",
+          "duration": 286.681292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Discomfort: Instincts and the Demands of Society",
+          "actualDuration": 286.681292,
+          "startTime": 443.828666,
+          "endTime": 730.509958
+        },
+        {
+          "path": "Audio/output/3138/chapter_03.wav",
+          "duration": 265.928417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Birth of Guilt and the Inner Judge",
+          "actualDuration": 265.928417,
+          "startTime": 732.009958,
+          "endTime": 997.938375
+        },
+        {
+          "path": "Audio/output/3138/chapter_04.wav",
+          "duration": 271.270792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle Between Love, Aggression, and Social Order",
+          "actualDuration": 271.270792,
+          "startTime": 999.438375,
+          "endTime": 1270.709167
+        },
+        {
+          "path": "Audio/output/3138/chapter_05.wav",
+          "duration": 245.588042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Culture and the Persistence of Discontent",
+          "actualDuration": 245.588042,
+          "startTime": 1272.209167,
+          "endTime": 1517.797209
+        },
+        {
+          "path": "Audio/output/3138/chapter_06.wav",
+          "duration": 245.425208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Superego’s Shadow: How Conscience Evolves and Tightens Its Grip",
+          "actualDuration": 245.425208,
+          "startTime": 1519.297209,
+          "endTime": 1764.722417
+        },
+        {
+          "path": "Audio/output/3138/chapter_07.wav",
+          "duration": 212.031333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Paradox of Progress: Comfort, Anxiety, and the Modern Mind",
+          "actualDuration": 212.031333,
+          "startTime": 1766.222417,
+          "endTime": 1978.2537499999999
+        },
+        {
+          "path": "Audio/output/3138/chapter_08.wav",
+          "duration": 200.699917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unconscious Rebellion: Dreams, Art, and the Hidden Self",
+          "actualDuration": 200.699917,
+          "startTime": 1979.7537499999999,
+          "endTime": 2180.4536669999998
+        },
+        {
+          "path": "Audio/output/3138/chapter_09.wav",
+          "duration": 187.255458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Fragility of Belonging: Religion, Community, and the Need for Connection",
+          "actualDuration": 187.255458,
+          "startTime": 2181.9536669999998,
+          "endTime": 2369.209125
+        },
+        {
+          "path": "Audio/output/3138/chapter_10.wav",
+          "duration": 155.361542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Struggle: Instinct, Order, and the Human Condition",
+          "actualDuration": 155.361542,
+          "startTime": 2370.709125,
+          "endTime": 2526.070667
+        },
+        {
+          "path": "Audio/output/3138/conclusion.wav",
+          "duration": 161.619833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.619833,
+          "startTime": 2527.570667,
+          "endTime": 2689.1905
+        }
+      ],
+      "totalDuration": 2689.1905,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.84,
+          "actualStart": 0,
+          "actualEnd": 108.841208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Happiness in a Demanding World",
+          "expectedStart": 108.84,
+          "expectedEnd": 440.83,
+          "actualStart": 110.341208,
+          "actualEnd": 442.328666,
+          "timeDifference": 1.5012079999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Discomfort: Instincts and the Demands of Society",
+          "expectedStart": 440.83,
+          "expectedEnd": 727.51,
+          "actualStart": 443.828666,
+          "actualEnd": 730.509958,
+          "timeDifference": 2.9986660000000143
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Birth of Guilt and the Inner Judge",
+          "expectedStart": 727.51,
+          "expectedEnd": 993.44,
+          "actualStart": 732.009958,
+          "actualEnd": 997.938375,
+          "timeDifference": 4.499957999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle Between Love, Aggression, and Social Order",
+          "expectedStart": 993.44,
+          "expectedEnd": 1264.71,
+          "actualStart": 999.438375,
+          "actualEnd": 1270.709167,
+          "timeDifference": 5.998374999999896
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Culture and the Persistence of Discontent",
+          "expectedStart": 1264.71,
+          "expectedEnd": 1510.3,
+          "actualStart": 1272.209167,
+          "actualEnd": 1517.797209,
+          "timeDifference": 7.499166999999943
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Superego’s Shadow: How Conscience Evolves and Tightens Its Grip",
+          "expectedStart": 1510.3,
+          "expectedEnd": 1755.73,
+          "actualStart": 1519.297209,
+          "actualEnd": 1764.722417,
+          "timeDifference": 8.997209000000112
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Paradox of Progress: Comfort, Anxiety, and the Modern Mind",
+          "expectedStart": 1755.73,
+          "expectedEnd": 1967.76,
+          "actualStart": 1766.222417,
+          "actualEnd": 1978.2537499999999,
+          "timeDifference": 10.492416999999932
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unconscious Rebellion: Dreams, Art, and the Hidden Self",
+          "expectedStart": 1967.76,
+          "expectedEnd": 2168.46,
+          "actualStart": 1979.7537499999999,
+          "actualEnd": 2180.4536669999998,
+          "timeDifference": 11.993749999999864
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Fragility of Belonging: Religion, Community, and the Need for Connection",
+          "expectedStart": 2168.46,
+          "expectedEnd": 2355.72,
+          "actualStart": 2181.9536669999998,
+          "actualEnd": 2369.209125,
+          "timeDifference": 13.493666999999732
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Struggle: Instinct, Order, and the Human Condition",
+          "expectedStart": 2355.72,
+          "expectedEnd": 2511.08,
+          "actualStart": 2370.709125,
+          "actualEnd": 2526.070667,
+          "timeDifference": 14.989125000000058
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2511.08,
+          "expectedEnd": 2672.7,
+          "actualStart": 2527.570667,
+          "actualEnd": 2689.1905,
+          "timeDifference": 16.49066700000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.841208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Happiness in a Demanding World"
+        },
+        {
+          "startTime": 442.328666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Happiness in a Demanding World and Chapter 2 The Roots of Discomfort: Instincts and the Demands of Society"
+        },
+        {
+          "startTime": 730.509958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Discomfort: Instincts and the Demands of Society and Chapter 3 The Birth of Guilt and the Inner Judge"
+        },
+        {
+          "startTime": 997.938375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Birth of Guilt and the Inner Judge and Chapter 4 The Struggle Between Love, Aggression, and Social Order"
+        },
+        {
+          "startTime": 1270.709167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle Between Love, Aggression, and Social Order and Chapter 5 The Limits of Culture and the Persistence of Discontent"
+        },
+        {
+          "startTime": 1517.797209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Culture and the Persistence of Discontent and Chapter 6 The Superego’s Shadow: How Conscience Evolves and Tightens Its Grip"
+        },
+        {
+          "startTime": 1764.722417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Superego’s Shadow: How Conscience Evolves and Tightens Its Grip and Chapter 7 The Paradox of Progress: Comfort, Anxiety, and the Modern Mind"
+        },
+        {
+          "startTime": 1978.2537499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Paradox of Progress: Comfort, Anxiety, and the Modern Mind and Chapter 8 The Unconscious Rebellion: Dreams, Art, and the Hidden Self"
+        },
+        {
+          "startTime": 2180.4536669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unconscious Rebellion: Dreams, Art, and the Hidden Self and Chapter 9 The Fragility of Belonging: Religion, Community, and the Need for Connection"
+        },
+        {
+          "startTime": 2369.209125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Fragility of Belonging: Religion, Community, and the Need for Connection and Chapter 10 The Ongoing Struggle: Instinct, Order, and the Human Condition"
+        },
+        {
+          "startTime": 2526.070667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Struggle: Instinct, Order, and the Human Condition and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3138",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:19:21.954Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

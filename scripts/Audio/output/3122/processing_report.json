@@ -1,0 +1,504 @@
+{
+  "bookId": "3122",
+  "timestamp": "2025-07-14T20:08:13.913Z",
+  "success": false,
+  "processingTime": -1752523119363,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5224,
+    "totalAudioFiles": 14,
+    "totalDuration": 2674.586957
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2674.586957
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3122/optimized_text/3122.md",
+    "fileSize": 1027,
+    "wordCount": 137,
+    "format": "markdown",
+    "filename": "3122.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3122/metadata/3122_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2674.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3122/metadata/3122_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3122/metadata/3122_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3122/3122_complete.wav",
+    "duration": 2674.586958,
+    "fileSize": 128380252,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3122/introduction.wav",
+          "duration": 89.147292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.147292,
+          "startTime": 0,
+          "endTime": 89.147292
+        },
+        {
+          "path": "Audio/output/3122/chapter_01.wav",
+          "duration": 290.23225,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Difference Arrives: Families Facing the Unexpected",
+          "actualDuration": 290.23225,
+          "startTime": 90.647292,
+          "endTime": 380.879542
+        },
+        {
+          "path": "Audio/output/3122/chapter_02.wav",
+          "duration": 202.302292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Challenge of Deafness: Language, Culture, and Belonging",
+          "actualDuration": 202.302292,
+          "startTime": 382.379542,
+          "endTime": 584.681834
+        },
+        {
+          "path": "Audio/output/3122/chapter_03.wav",
+          "duration": 254.831958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Down Syndrome: Redefining Expectations and Finding Joy",
+          "actualDuration": 254.831958,
+          "startTime": 586.181834,
+          "endTime": 841.013792
+        },
+        {
+          "path": "Audio/output/3122/chapter_04.wav",
+          "duration": 213.940583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Autism and the Search for Connection: Understanding Minds That Work Differently",
+          "actualDuration": 213.940583,
+          "startTime": 842.513792,
+          "endTime": 1056.454375
+        },
+        {
+          "path": "Audio/output/3122/chapter_05.wav",
+          "duration": 234.307625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living with Schizophrenia: Love, Loss, and the Limits of Understanding",
+          "actualDuration": 234.307625,
+          "startTime": 1057.954375,
+          "endTime": 1292.262
+        },
+        {
+          "path": "Audio/output/3122/chapter_06.wav",
+          "duration": 214.673917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World of Disability: Physical Difference and the Architecture of Belonging",
+          "actualDuration": 214.673917,
+          "startTime": 1293.762,
+          "endTime": 1508.435917
+        },
+        {
+          "path": "Audio/output/3122/chapter_07.wav",
+          "duration": 196.686958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Complexity of Genius: Giftedness, Alienation, and the Search for Balance",
+          "actualDuration": 196.686958,
+          "startTime": 1509.935917,
+          "endTime": 1706.622875
+        },
+        {
+          "path": "Audio/output/3122/chapter_08.wav",
+          "duration": 169.427833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Children Born of Rape: Identity, Stigma, and the Power of Story",
+          "actualDuration": 169.427833,
+          "startTime": 1708.122875,
+          "endTime": 1877.550708
+        },
+        {
+          "path": "Audio/output/3122/chapter_09.wav",
+          "duration": 200.530583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Transgender Children: Gender, Transition, and the Meaning of Authenticity",
+          "actualDuration": 200.530583,
+          "startTime": 1879.050708,
+          "endTime": 2079.581291
+        },
+        {
+          "path": "Audio/output/3122/chapter_10.wav",
+          "duration": 162.992833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Crime and Forgiveness: When Children Break the Law",
+          "actualDuration": 162.992833,
+          "startTime": 2081.081291,
+          "endTime": 2244.0741239999998
+        },
+        {
+          "path": "Audio/output/3122/chapter_11.wav",
+          "duration": 166.062875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of Community: Finding Belonging Beyond the Family",
+          "actualDuration": 166.062875,
+          "startTime": 2245.5741239999998,
+          "endTime": 2411.636999
+        },
+        {
+          "path": "Audio/output/3122/chapter_12.wav",
+          "duration": 140.373958,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Acceptance and Transformation: The Evolving Meaning of Family",
+          "actualDuration": 140.373958,
+          "startTime": 2413.136999,
+          "endTime": 2553.510957
+        },
+        {
+          "path": "Audio/output/3122/conclusion.wav",
+          "duration": 139.076,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.076,
+          "startTime": 2555.010957,
+          "endTime": 2694.086957
+        }
+      ],
+      "totalDuration": 2694.086957,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.15,
+          "actualStart": 0,
+          "actualEnd": 89.147292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Difference Arrives: Families Facing the Unexpected",
+          "expectedStart": 89.15,
+          "expectedEnd": 379.38,
+          "actualStart": 90.647292,
+          "actualEnd": 380.879542,
+          "timeDifference": 1.4972919999999874
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Challenge of Deafness: Language, Culture, and Belonging",
+          "expectedStart": 379.38,
+          "expectedEnd": 581.68,
+          "actualStart": 382.379542,
+          "actualEnd": 584.681834,
+          "timeDifference": 2.9995420000000195
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Down Syndrome: Redefining Expectations and Finding Joy",
+          "expectedStart": 581.68,
+          "expectedEnd": 836.51,
+          "actualStart": 586.181834,
+          "actualEnd": 841.013792,
+          "timeDifference": 4.501834000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Autism and the Search for Connection: Understanding Minds That Work Differently",
+          "expectedStart": 836.51,
+          "expectedEnd": 1050.45,
+          "actualStart": 842.513792,
+          "actualEnd": 1056.454375,
+          "timeDifference": 6.003791999999976
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living with Schizophrenia: Love, Loss, and the Limits of Understanding",
+          "expectedStart": 1050.45,
+          "expectedEnd": 1284.76,
+          "actualStart": 1057.954375,
+          "actualEnd": 1292.262,
+          "timeDifference": 7.504374999999982
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World of Disability: Physical Difference and the Architecture of Belonging",
+          "expectedStart": 1284.76,
+          "expectedEnd": 1499.43,
+          "actualStart": 1293.762,
+          "actualEnd": 1508.435917,
+          "timeDifference": 9.001999999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Complexity of Genius: Giftedness, Alienation, and the Search for Balance",
+          "expectedStart": 1499.43,
+          "expectedEnd": 1696.12,
+          "actualStart": 1509.935917,
+          "actualEnd": 1706.622875,
+          "timeDifference": 10.505916999999954
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Children Born of Rape: Identity, Stigma, and the Power of Story",
+          "expectedStart": 1696.12,
+          "expectedEnd": 1865.55,
+          "actualStart": 1708.122875,
+          "actualEnd": 1877.550708,
+          "timeDifference": 12.002875000000131
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Transgender Children: Gender, Transition, and the Meaning of Authenticity",
+          "expectedStart": 1865.55,
+          "expectedEnd": 2066.08,
+          "actualStart": 1879.050708,
+          "actualEnd": 2079.581291,
+          "timeDifference": 13.500708000000031
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Crime and Forgiveness: When Children Break the Law",
+          "expectedStart": 2066.08,
+          "expectedEnd": 2229.07,
+          "actualStart": 2081.081291,
+          "actualEnd": 2244.0741239999998,
+          "timeDifference": 15.001291000000037
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of Community: Finding Belonging Beyond the Family",
+          "expectedStart": 2229.07,
+          "expectedEnd": 2395.13,
+          "actualStart": 2245.5741239999998,
+          "actualEnd": 2411.636999,
+          "timeDifference": 16.504123999999592
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Acceptance and Transformation: The Evolving Meaning of Family",
+          "expectedStart": 2395.13,
+          "expectedEnd": 2535.5,
+          "actualStart": 2413.136999,
+          "actualEnd": 2553.510957,
+          "timeDifference": 18.006998999999723
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2535.5,
+          "expectedEnd": 2674.58,
+          "actualStart": 2555.010957,
+          "actualEnd": 2694.086957,
+          "timeDifference": 19.510956999999962
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.147292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Difference Arrives: Families Facing the Unexpected"
+        },
+        {
+          "startTime": 380.879542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Difference Arrives: Families Facing the Unexpected and Chapter 2 The Challenge of Deafness: Language, Culture, and Belonging"
+        },
+        {
+          "startTime": 584.681834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Challenge of Deafness: Language, Culture, and Belonging and Chapter 3 Navigating Down Syndrome: Redefining Expectations and Finding Joy"
+        },
+        {
+          "startTime": 841.013792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Down Syndrome: Redefining Expectations and Finding Joy and Chapter 4 Autism and the Search for Connection: Understanding Minds That Work Differently"
+        },
+        {
+          "startTime": 1056.454375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Autism and the Search for Connection: Understanding Minds That Work Differently and Chapter 5 Living with Schizophrenia: Love, Loss, and the Limits of Understanding"
+        },
+        {
+          "startTime": 1292.262,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living with Schizophrenia: Love, Loss, and the Limits of Understanding and Chapter 6 The World of Disability: Physical Difference and the Architecture of Belonging"
+        },
+        {
+          "startTime": 1508.435917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World of Disability: Physical Difference and the Architecture of Belonging and Chapter 7 The Complexity of Genius: Giftedness, Alienation, and the Search for Balance"
+        },
+        {
+          "startTime": 1706.622875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Complexity of Genius: Giftedness, Alienation, and the Search for Balance and Chapter 8 Children Born of Rape: Identity, Stigma, and the Power of Story"
+        },
+        {
+          "startTime": 1877.550708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Children Born of Rape: Identity, Stigma, and the Power of Story and Chapter 9 Transgender Children: Gender, Transition, and the Meaning of Authenticity"
+        },
+        {
+          "startTime": 2079.581291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Transgender Children: Gender, Transition, and the Meaning of Authenticity and Chapter 10 Crime and Forgiveness: When Children Break the Law"
+        },
+        {
+          "startTime": 2244.0741239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Crime and Forgiveness: When Children Break the Law and Chapter 11 The Power of Community: Finding Belonging Beyond the Family"
+        },
+        {
+          "startTime": 2411.636999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of Community: Finding Belonging Beyond the Family and Chapter 12 Acceptance and Transformation: The Evolving Meaning of Family"
+        },
+        {
+          "startTime": 2553.510957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Acceptance and Transformation: The Evolving Meaning of Family and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3122",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T19:58:40.980Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

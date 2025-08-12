@@ -1,0 +1,455 @@
+{
+  "bookId": "3100",
+  "timestamp": "2025-07-14T18:27:37.784Z",
+  "success": false,
+  "processingTime": -1752517278152,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4399,
+    "totalAudioFiles": 12,
+    "totalDuration": 1845.4909160000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1845.4909160000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3100/optimized_text/3100.md",
+    "fileSize": 600,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "3100.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3100/metadata/3100_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1845.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3100/metadata/3100_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3100/metadata/3100_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3100/3100_complete.wav",
+    "duration": 1845.490917,
+    "fileSize": 88583642,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3100/introduction.wav",
+          "duration": 78.321542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.321542,
+          "startTime": 0,
+          "endTime": 78.321542
+        },
+        {
+          "path": "Audio/output/3100/chapter_01.wav",
+          "duration": 173.809833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life Before Everything Changed",
+          "actualDuration": 173.809833,
+          "startTime": 79.821542,
+          "endTime": 253.631375
+        },
+        {
+          "path": "Audio/output/3100/chapter_02.wav",
+          "duration": 192.162958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Accident and Its Immediate Aftermath",
+          "actualDuration": 192.162958,
+          "startTime": 255.131375,
+          "endTime": 447.294333
+        },
+        {
+          "path": "Audio/output/3100/chapter_03.wav",
+          "duration": 214.388792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Wrestling with Loss and Searching for Meaning",
+          "actualDuration": 214.388792,
+          "startTime": 448.794333,
+          "endTime": 663.183125
+        },
+        {
+          "path": "Audio/output/3100/chapter_04.wav",
+          "duration": 216.933958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Faith and Purpose in a Changed Life",
+          "actualDuration": 216.933958,
+          "startTime": 664.683125,
+          "endTime": 881.617083
+        },
+        {
+          "path": "Audio/output/3100/chapter_05.wav",
+          "duration": 212.873333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing a New Identity and Inspiring Others",
+          "actualDuration": 212.873333,
+          "startTime": 883.117083,
+          "endTime": 1095.990416
+        },
+        {
+          "path": "Audio/output/3100/chapter_06.wav",
+          "duration": 144.951458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating the Ongoing Struggles",
+          "actualDuration": 144.951458,
+          "startTime": 1097.490416,
+          "endTime": 1242.441874
+        },
+        {
+          "path": "Audio/output/3100/chapter_07.wav",
+          "duration": 137.217583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Faith and Redefining Miracles",
+          "actualDuration": 137.217583,
+          "startTime": 1243.941874,
+          "endTime": 1381.1594570000002
+        },
+        {
+          "path": "Audio/output/3100/chapter_08.wav",
+          "duration": 130.875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Story and Community",
+          "actualDuration": 130.875,
+          "startTime": 1382.6594570000002,
+          "endTime": 1513.5344570000002
+        },
+        {
+          "path": "Audio/output/3100/chapter_09.wav",
+          "duration": 116.108542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love, Relationships, and the Longing for Connection",
+          "actualDuration": 116.108542,
+          "startTime": 1515.0344570000002,
+          "endTime": 1631.1429990000001
+        },
+        {
+          "path": "Audio/output/3100/chapter_10.wav",
+          "duration": 122.138667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Leaving a Legacy",
+          "actualDuration": 122.138667,
+          "startTime": 1632.6429990000001,
+          "endTime": 1754.781666
+        },
+        {
+          "path": "Audio/output/3100/conclusion.wav",
+          "duration": 105.70925,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.70925,
+          "startTime": 1756.281666,
+          "endTime": 1861.9909160000002
+        }
+      ],
+      "totalDuration": 1861.9909160000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.32,
+          "actualStart": 0,
+          "actualEnd": 78.321542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life Before Everything Changed",
+          "expectedStart": 78.32,
+          "expectedEnd": 252.13,
+          "actualStart": 79.821542,
+          "actualEnd": 253.631375,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Accident and Its Immediate Aftermath",
+          "expectedStart": 252.13,
+          "expectedEnd": 444.29,
+          "actualStart": 255.131375,
+          "actualEnd": 447.294333,
+          "timeDifference": 3.001374999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Wrestling with Loss and Searching for Meaning",
+          "expectedStart": 444.29,
+          "expectedEnd": 658.68,
+          "actualStart": 448.794333,
+          "actualEnd": 663.183125,
+          "timeDifference": 4.504332999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Faith and Purpose in a Changed Life",
+          "expectedStart": 658.68,
+          "expectedEnd": 875.61,
+          "actualStart": 664.683125,
+          "actualEnd": 881.617083,
+          "timeDifference": 6.003125000000068
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing a New Identity and Inspiring Others",
+          "expectedStart": 875.61,
+          "expectedEnd": 1088.48,
+          "actualStart": 883.117083,
+          "actualEnd": 1095.990416,
+          "timeDifference": 7.507082999999966
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating the Ongoing Struggles",
+          "expectedStart": 1088.48,
+          "expectedEnd": 1233.43,
+          "actualStart": 1097.490416,
+          "actualEnd": 1242.441874,
+          "timeDifference": 9.010416000000077
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Faith and Redefining Miracles",
+          "expectedStart": 1233.43,
+          "expectedEnd": 1370.65,
+          "actualStart": 1243.941874,
+          "actualEnd": 1381.1594570000002,
+          "timeDifference": 10.511874000000034
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Story and Community",
+          "expectedStart": 1370.65,
+          "expectedEnd": 1501.53,
+          "actualStart": 1382.6594570000002,
+          "actualEnd": 1513.5344570000002,
+          "timeDifference": 12.009457000000111
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love, Relationships, and the Longing for Connection",
+          "expectedStart": 1501.53,
+          "expectedEnd": 1617.64,
+          "actualStart": 1515.0344570000002,
+          "actualEnd": 1631.1429990000001,
+          "timeDifference": 13.50445700000023
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Leaving a Legacy",
+          "expectedStart": 1617.64,
+          "expectedEnd": 1739.78,
+          "actualStart": 1632.6429990000001,
+          "actualEnd": 1754.781666,
+          "timeDifference": 15.002999000000045
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1739.78,
+          "expectedEnd": 1845.49,
+          "actualStart": 1756.281666,
+          "actualEnd": 1861.9909160000002,
+          "timeDifference": 16.501666000000114
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.321542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life Before Everything Changed"
+        },
+        {
+          "startTime": 253.631375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life Before Everything Changed and Chapter 2 The Accident and Its Immediate Aftermath"
+        },
+        {
+          "startTime": 447.294333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Accident and Its Immediate Aftermath and Chapter 3 Wrestling with Loss and Searching for Meaning"
+        },
+        {
+          "startTime": 663.183125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Wrestling with Loss and Searching for Meaning and Chapter 4 Finding Faith and Purpose in a Changed Life"
+        },
+        {
+          "startTime": 881.617083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Faith and Purpose in a Changed Life and Chapter 5 Embracing a New Identity and Inspiring Others"
+        },
+        {
+          "startTime": 1095.990416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing a New Identity and Inspiring Others and Chapter 6 Navigating the Ongoing Struggles"
+        },
+        {
+          "startTime": 1242.441874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating the Ongoing Struggles and Chapter 7 Deepening Faith and Redefining Miracles"
+        },
+        {
+          "startTime": 1381.1594570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Faith and Redefining Miracles and Chapter 8 The Power of Story and Community"
+        },
+        {
+          "startTime": 1513.5344570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Story and Community and Chapter 9 Love, Relationships, and the Longing for Connection"
+        },
+        {
+          "startTime": 1631.1429990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love, Relationships, and the Longing for Connection and Chapter 10 Living with Purpose and Leaving a Legacy"
+        },
+        {
+          "startTime": 1754.781666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Leaving a Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3100",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:21:19.407Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

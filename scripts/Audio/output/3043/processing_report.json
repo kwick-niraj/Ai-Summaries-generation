@@ -1,0 +1,456 @@
+{
+  "bookId": "3043",
+  "timestamp": "2025-07-14T13:52:49.373Z",
+  "success": false,
+  "processingTime": -1752500751725,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4187,
+    "totalAudioFiles": 12,
+    "totalDuration": 2048.7425829999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2048.7425829999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3043/optimized_text/3043.md",
+    "fileSize": 721,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "3043.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3043/metadata/3043_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2048.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3043/metadata/3043_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3043/metadata/3043_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3043/3043_complete.wav",
+    "duration": 2048.742583,
+    "fileSize": 98339722,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3043/introduction.wav",
+          "duration": 74.5345,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 74.5345,
+          "startTime": 0,
+          "endTime": 74.5345
+        },
+        {
+          "path": "Audio/output/3043/chapter_01.wav",
+          "duration": 243.928792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Love in a Changed World",
+          "actualDuration": 243.928792,
+          "startTime": 76.0345,
+          "endTime": 319.96329199999997
+        },
+        {
+          "path": "Audio/output/3043/chapter_02.wav",
+          "duration": 257.131708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Technology Shapes First Impressions and Communication",
+          "actualDuration": 257.131708,
+          "startTime": 321.46329199999997,
+          "endTime": 578.595
+        },
+        {
+          "path": "Audio/output/3043/chapter_03.wav",
+          "duration": 221.173583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Promise and Pitfalls of Online Dating",
+          "actualDuration": 221.173583,
+          "startTime": 580.095,
+          "endTime": 801.268583
+        },
+        {
+          "path": "Audio/output/3043/chapter_04.wav",
+          "duration": 202.686458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Changing Expectations and the Quest for Fulfillment",
+          "actualDuration": 202.686458,
+          "startTime": 802.768583,
+          "endTime": 1005.455041
+        },
+        {
+          "path": "Audio/output/3043/chapter_05.wav",
+          "duration": 173.203208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Love Across Cultures: How Traditions and Technology Intersect",
+          "actualDuration": 173.203208,
+          "startTime": 1006.955041,
+          "endTime": 1180.158249
+        },
+        {
+          "path": "Audio/output/3043/chapter_06.wav",
+          "duration": 148.497375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Realities of Commitment in a World of Infinite Options",
+          "actualDuration": 148.497375,
+          "startTime": 1181.658249,
+          "endTime": 1330.155624
+        },
+        {
+          "path": "Audio/output/3043/chapter_07.wav",
+          "duration": 175.391917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Ghosting, Breadcrumbing, and the New Etiquette of Ending Things",
+          "actualDuration": 175.391917,
+          "startTime": 1331.655624,
+          "endTime": 1507.047541
+        },
+        {
+          "path": "Audio/output/3043/chapter_08.wav",
+          "duration": 188.17725,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Impact of Digital Habits on Intimacy",
+          "actualDuration": 188.17725,
+          "startTime": 1508.547541,
+          "endTime": 1696.7247909999999
+        },
+        {
+          "path": "Audio/output/3043/chapter_09.wav",
+          "duration": 147.692875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Evolution of Love: Adapting to Change",
+          "actualDuration": 147.692875,
+          "startTime": 1698.2247909999999,
+          "endTime": 1845.9176659999998
+        },
+        {
+          "path": "Audio/output/3043/chapter_10.wav",
+          "duration": 117.303875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Hope, Resilience, and the Future of Romance",
+          "actualDuration": 117.303875,
+          "startTime": 1847.4176659999998,
+          "endTime": 1964.721541
+        },
+        {
+          "path": "Audio/output/3043/conclusion.wav",
+          "duration": 99.021042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.021042,
+          "startTime": 1966.221541,
+          "endTime": 2065.2425829999997
+        }
+      ],
+      "totalDuration": 2065.2425829999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 74.53,
+          "actualStart": 0,
+          "actualEnd": 74.5345,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Love in a Changed World",
+          "expectedStart": 74.53,
+          "expectedEnd": 318.46,
+          "actualStart": 76.0345,
+          "actualEnd": 319.96329199999997,
+          "timeDifference": 1.504499999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Technology Shapes First Impressions and Communication",
+          "expectedStart": 318.46,
+          "expectedEnd": 575.59,
+          "actualStart": 321.46329199999997,
+          "actualEnd": 578.595,
+          "timeDifference": 3.0032919999999876
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Promise and Pitfalls of Online Dating",
+          "expectedStart": 575.59,
+          "expectedEnd": 796.76,
+          "actualStart": 580.095,
+          "actualEnd": 801.268583,
+          "timeDifference": 4.5049999999999955
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Changing Expectations and the Quest for Fulfillment",
+          "expectedStart": 796.76,
+          "expectedEnd": 999.45,
+          "actualStart": 802.768583,
+          "actualEnd": 1005.455041,
+          "timeDifference": 6.008583000000044
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Love Across Cultures: How Traditions and Technology Intersect",
+          "expectedStart": 999.45,
+          "expectedEnd": 1172.65,
+          "actualStart": 1006.955041,
+          "actualEnd": 1180.158249,
+          "timeDifference": 7.505041000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Realities of Commitment in a World of Infinite Options",
+          "expectedStart": 1172.65,
+          "expectedEnd": 1321.15,
+          "actualStart": 1181.658249,
+          "actualEnd": 1330.155624,
+          "timeDifference": 9.008248999999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Ghosting, Breadcrumbing, and the New Etiquette of Ending Things",
+          "expectedStart": 1321.15,
+          "expectedEnd": 1496.54,
+          "actualStart": 1331.655624,
+          "actualEnd": 1507.047541,
+          "timeDifference": 10.505623999999898
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Impact of Digital Habits on Intimacy",
+          "expectedStart": 1496.54,
+          "expectedEnd": 1684.72,
+          "actualStart": 1508.547541,
+          "actualEnd": 1696.7247909999999,
+          "timeDifference": 12.007540999999947
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Evolution of Love: Adapting to Change",
+          "expectedStart": 1684.72,
+          "expectedEnd": 1832.41,
+          "actualStart": 1698.2247909999999,
+          "actualEnd": 1845.9176659999998,
+          "timeDifference": 13.504790999999841
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Hope, Resilience, and the Future of Romance",
+          "expectedStart": 1832.41,
+          "expectedEnd": 1949.71,
+          "actualStart": 1847.4176659999998,
+          "actualEnd": 1964.721541,
+          "timeDifference": 15.007665999999745
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1949.71,
+          "expectedEnd": 2048.73,
+          "actualStart": 1966.221541,
+          "actualEnd": 2065.2425829999997,
+          "timeDifference": 16.511540999999852
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 74.5345,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Love in a Changed World"
+        },
+        {
+          "startTime": 319.96329199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Love in a Changed World and Chapter 2 How Technology Shapes First Impressions and Communication"
+        },
+        {
+          "startTime": 578.595,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Technology Shapes First Impressions and Communication and Chapter 3 The Promise and Pitfalls of Online Dating"
+        },
+        {
+          "startTime": 801.268583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Promise and Pitfalls of Online Dating and Chapter 4 Changing Expectations and the Quest for Fulfillment"
+        },
+        {
+          "startTime": 1005.455041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Changing Expectations and the Quest for Fulfillment and Chapter 5 Love Across Cultures: How Traditions and Technology Intersect"
+        },
+        {
+          "startTime": 1180.158249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Love Across Cultures: How Traditions and Technology Intersect and Chapter 6 The Realities of Commitment in a World of Infinite Options"
+        },
+        {
+          "startTime": 1330.155624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Realities of Commitment in a World of Infinite Options and Chapter 7 Ghosting, Breadcrumbing, and the New Etiquette of Ending Things"
+        },
+        {
+          "startTime": 1507.047541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Ghosting, Breadcrumbing, and the New Etiquette of Ending Things and Chapter 8 The Impact of Digital Habits on Intimacy"
+        },
+        {
+          "startTime": 1696.7247909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Impact of Digital Habits on Intimacy and Chapter 9 The Ongoing Evolution of Love: Adapting to Change"
+        },
+        {
+          "startTime": 1845.9176659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Evolution of Love: Adapting to Change and Chapter 10 Looking Forward: Hope, Resilience, and the Future of Romance"
+        },
+        {
+          "startTime": 1964.721541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Hope, Resilience, and the Future of Romance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3043",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:45:53.233Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3056",
+  "timestamp": "2025-07-14T15:09:40.993Z",
+  "success": false,
+  "processingTime": -1752505408666,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4128,
+    "totalAudioFiles": 12,
+    "totalDuration": 1966.044041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1966.044041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3056/optimized_text/3056.md",
+    "fileSize": 494,
+    "wordCount": 71,
+    "format": "markdown",
+    "filename": "3056.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3056/metadata/3056_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1966.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3056/metadata/3056_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3056/metadata/3056_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3056/3056_complete.wav",
+    "duration": 1966.044042,
+    "fileSize": 94370192,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3056/introduction.wav",
+          "duration": 90.056,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.056,
+          "startTime": 0,
+          "endTime": 90.056
+        },
+        {
+          "path": "Audio/output/3056/chapter_01.wav",
+          "duration": 221.4115,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Secret World of Trees",
+          "actualDuration": 221.4115,
+          "startTime": 91.556,
+          "endTime": 312.9675
+        },
+        {
+          "path": "Audio/output/3056/chapter_02.wav",
+          "duration": 200.973917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Trees Communicate and Cooperate",
+          "actualDuration": 200.973917,
+          "startTime": 314.4675,
+          "endTime": 515.441417
+        },
+        {
+          "path": "Audio/output/3056/chapter_03.wav",
+          "duration": 200.511917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Social Lives of Trees",
+          "actualDuration": 200.511917,
+          "startTime": 516.941417,
+          "endTime": 717.453334
+        },
+        {
+          "path": "Audio/output/3056/chapter_04.wav",
+          "duration": 220.331083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Intelligence of Nature",
+          "actualDuration": 220.331083,
+          "startTime": 718.953334,
+          "endTime": 939.2844170000001
+        },
+        {
+          "path": "Audio/output/3056/chapter_05.wav",
+          "duration": 177.499458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Human Impact and the Fragility of Forests",
+          "actualDuration": 177.499458,
+          "startTime": 940.7844170000001,
+          "endTime": 1118.283875
+        },
+        {
+          "path": "Audio/output/3056/chapter_06.wav",
+          "duration": 179.265083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Resilience of Forests",
+          "actualDuration": 179.265083,
+          "startTime": 1119.783875,
+          "endTime": 1299.048958
+        },
+        {
+          "path": "Audio/output/3056/chapter_07.wav",
+          "duration": 177.876125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Biodiversity",
+          "actualDuration": 177.876125,
+          "startTime": 1300.548958,
+          "endTime": 1478.425083
+        },
+        {
+          "path": "Audio/output/3056/chapter_08.wav",
+          "duration": 143.434417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons for Human Society",
+          "actualDuration": 143.434417,
+          "startTime": 1479.925083,
+          "endTime": 1623.3595
+        },
+        {
+          "path": "Audio/output/3056/chapter_09.wav",
+          "duration": 141.527583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Forests",
+          "actualDuration": 141.527583,
+          "startTime": 1624.8595,
+          "endTime": 1766.387083
+        },
+        {
+          "path": "Audio/output/3056/chapter_10.wav",
+          "duration": 106.843583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Wisdom of Trees",
+          "actualDuration": 106.843583,
+          "startTime": 1767.887083,
+          "endTime": 1874.7306660000002
+        },
+        {
+          "path": "Audio/output/3056/conclusion.wav",
+          "duration": 106.313375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.313375,
+          "startTime": 1876.2306660000002,
+          "endTime": 1982.544041
+        }
+      ],
+      "totalDuration": 1982.544041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.06,
+          "actualStart": 0,
+          "actualEnd": 90.056,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Secret World of Trees",
+          "expectedStart": 90.06,
+          "expectedEnd": 311.47,
+          "actualStart": 91.556,
+          "actualEnd": 312.9675,
+          "timeDifference": 1.4959999999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Trees Communicate and Cooperate",
+          "expectedStart": 311.47,
+          "expectedEnd": 512.44,
+          "actualStart": 314.4675,
+          "actualEnd": 515.441417,
+          "timeDifference": 2.9974999999999454
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Social Lives of Trees",
+          "expectedStart": 512.44,
+          "expectedEnd": 712.95,
+          "actualStart": 516.941417,
+          "actualEnd": 717.453334,
+          "timeDifference": 4.501416999999947
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Intelligence of Nature",
+          "expectedStart": 712.95,
+          "expectedEnd": 933.28,
+          "actualStart": 718.953334,
+          "actualEnd": 939.2844170000001,
+          "timeDifference": 6.003333999999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Human Impact and the Fragility of Forests",
+          "expectedStart": 933.28,
+          "expectedEnd": 1110.78,
+          "actualStart": 940.7844170000001,
+          "actualEnd": 1118.283875,
+          "timeDifference": 7.504417000000103
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Resilience of Forests",
+          "expectedStart": 1110.78,
+          "expectedEnd": 1290.05,
+          "actualStart": 1119.783875,
+          "actualEnd": 1299.048958,
+          "timeDifference": 9.003875000000107
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Biodiversity",
+          "expectedStart": 1290.05,
+          "expectedEnd": 1467.93,
+          "actualStart": 1300.548958,
+          "actualEnd": 1478.425083,
+          "timeDifference": 10.49895800000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons for Human Society",
+          "expectedStart": 1467.93,
+          "expectedEnd": 1611.36,
+          "actualStart": 1479.925083,
+          "actualEnd": 1623.3595,
+          "timeDifference": 11.995083000000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Forests",
+          "expectedStart": 1611.36,
+          "expectedEnd": 1752.89,
+          "actualStart": 1624.8595,
+          "actualEnd": 1766.387083,
+          "timeDifference": 13.499500000000126
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Wisdom of Trees",
+          "expectedStart": 1752.89,
+          "expectedEnd": 1859.73,
+          "actualStart": 1767.887083,
+          "actualEnd": 1874.7306660000002,
+          "timeDifference": 14.997082999999975
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1859.73,
+          "expectedEnd": 1966.04,
+          "actualStart": 1876.2306660000002,
+          "actualEnd": 1982.544041,
+          "timeDifference": 16.500666000000138
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.056,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Secret World of Trees"
+        },
+        {
+          "startTime": 312.9675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Secret World of Trees and Chapter 2 How Trees Communicate and Cooperate"
+        },
+        {
+          "startTime": 515.441417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Trees Communicate and Cooperate and Chapter 3 The Social Lives of Trees"
+        },
+        {
+          "startTime": 717.453334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Social Lives of Trees and Chapter 4 The Intelligence of Nature"
+        },
+        {
+          "startTime": 939.2844170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Intelligence of Nature and Chapter 5 Human Impact and the Fragility of Forests"
+        },
+        {
+          "startTime": 1118.283875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Human Impact and the Fragility of Forests and Chapter 6 The Resilience of Forests"
+        },
+        {
+          "startTime": 1299.048958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Resilience of Forests and Chapter 7 The Power of Biodiversity"
+        },
+        {
+          "startTime": 1478.425083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Biodiversity and Chapter 8 Lessons for Human Society"
+        },
+        {
+          "startTime": 1623.3595,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons for Human Society and Chapter 9 The Future of Forests"
+        },
+        {
+          "startTime": 1766.387083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Forests and Chapter 10 Living with the Wisdom of Trees"
+        },
+        {
+          "startTime": 1874.7306660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Wisdom of Trees and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3056",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:03:29.964Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

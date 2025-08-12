@@ -1,0 +1,456 @@
+{
+  "bookId": "3113",
+  "timestamp": "2025-07-14T19:18:55.543Z",
+  "success": false,
+  "processingTime": -1752520290168,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4505,
+    "totalAudioFiles": 12,
+    "totalDuration": 2321.201709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2321.201709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3113/optimized_text/3113.md",
+    "fileSize": 745,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "3113.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3113/metadata/3113_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2321.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3113/metadata/3113_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3113/metadata/3113_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3113/3113_complete.wav",
+    "duration": 2321.201708,
+    "fileSize": 111417760,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3113/introduction.wav",
+          "duration": 84.093625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.093625,
+          "startTime": 0,
+          "endTime": 84.093625
+        },
+        {
+          "path": "Audio/output/3113/chapter_01.wav",
+          "duration": 259.975,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the New Landscape of Hybrid and Remote Work",
+          "actualDuration": 259.975,
+          "startTime": 85.593625,
+          "endTime": 345.568625
+        },
+        {
+          "path": "Audio/output/3113/chapter_02.wav",
+          "duration": 264.229125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Setting Clear Expectations and Building Trust from a Distance",
+          "actualDuration": 264.229125,
+          "startTime": 347.068625,
+          "endTime": 611.29775
+        },
+        {
+          "path": "Audio/output/3113/chapter_03.wav",
+          "duration": 241.366708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Communication and Collaboration in Distributed Teams",
+          "actualDuration": 241.366708,
+          "startTime": 612.79775,
+          "endTime": 854.164458
+        },
+        {
+          "path": "Audio/output/3113/chapter_04.wav",
+          "duration": 196.637458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Benchmarking and Adopting Best Practices for Team Success",
+          "actualDuration": 196.637458,
+          "startTime": 855.664458,
+          "endTime": 1052.301916
+        },
+        {
+          "path": "Audio/output/3113/chapter_05.wav",
+          "duration": 213.449542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Sustaining Engagement and Productivity in Hybrid Teams",
+          "actualDuration": 213.449542,
+          "startTime": 1053.801916,
+          "endTime": 1267.251458
+        },
+        {
+          "path": "Audio/output/3113/chapter_06.wav",
+          "duration": 193.357542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embedding Hybrid and Remote Practices into Organizational Culture",
+          "actualDuration": 193.357542,
+          "startTime": 1268.751458,
+          "endTime": 1462.109
+        },
+        {
+          "path": "Audio/output/3113/chapter_07.wav",
+          "duration": 217.48425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Leading Through Change and Uncertainty",
+          "actualDuration": 217.48425,
+          "startTime": 1463.609,
+          "endTime": 1681.09325
+        },
+        {
+          "path": "Audio/output/3113/chapter_08.wav",
+          "duration": 202.400875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Measuring Success and Continuous Improvement",
+          "actualDuration": 202.400875,
+          "startTime": 1682.59325,
+          "endTime": 1884.994125
+        },
+        {
+          "path": "Audio/output/3113/chapter_09.wav",
+          "duration": 160.7905,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Advanced Tools and Techniques for Hybrid and Remote Teams",
+          "actualDuration": 160.7905,
+          "startTime": 1886.494125,
+          "endTime": 2047.284625
+        },
+        {
+          "path": "Audio/output/3113/chapter_10.wav",
+          "duration": 162.198792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Case Studies: Real-World Applications and Lessons Learned",
+          "actualDuration": 162.198792,
+          "startTime": 2048.7846250000002,
+          "endTime": 2210.9834170000004
+        },
+        {
+          "path": "Audio/output/3113/conclusion.wav",
+          "duration": 125.218292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.218292,
+          "startTime": 2212.4834170000004,
+          "endTime": 2337.7017090000004
+        }
+      ],
+      "totalDuration": 2337.7017090000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.09,
+          "actualStart": 0,
+          "actualEnd": 84.093625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the New Landscape of Hybrid and Remote Work",
+          "expectedStart": 84.09,
+          "expectedEnd": 344.07,
+          "actualStart": 85.593625,
+          "actualEnd": 345.568625,
+          "timeDifference": 1.5036249999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Setting Clear Expectations and Building Trust from a Distance",
+          "expectedStart": 344.07,
+          "expectedEnd": 608.3,
+          "actualStart": 347.068625,
+          "actualEnd": 611.29775,
+          "timeDifference": 2.998625000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Communication and Collaboration in Distributed Teams",
+          "expectedStart": 608.3,
+          "expectedEnd": 849.67,
+          "actualStart": 612.79775,
+          "actualEnd": 854.164458,
+          "timeDifference": 4.497749999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Benchmarking and Adopting Best Practices for Team Success",
+          "expectedStart": 849.67,
+          "expectedEnd": 1046.31,
+          "actualStart": 855.664458,
+          "actualEnd": 1052.301916,
+          "timeDifference": 5.994458000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Sustaining Engagement and Productivity in Hybrid Teams",
+          "expectedStart": 1046.31,
+          "expectedEnd": 1259.76,
+          "actualStart": 1053.801916,
+          "actualEnd": 1267.251458,
+          "timeDifference": 7.4919159999999465
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embedding Hybrid and Remote Practices into Organizational Culture",
+          "expectedStart": 1259.76,
+          "expectedEnd": 1453.12,
+          "actualStart": 1268.751458,
+          "actualEnd": 1462.109,
+          "timeDifference": 8.991457999999966
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Leading Through Change and Uncertainty",
+          "expectedStart": 1453.12,
+          "expectedEnd": 1670.6,
+          "actualStart": 1463.609,
+          "actualEnd": 1681.09325,
+          "timeDifference": 10.489000000000033
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Measuring Success and Continuous Improvement",
+          "expectedStart": 1670.6,
+          "expectedEnd": 1873,
+          "actualStart": 1682.59325,
+          "actualEnd": 1884.994125,
+          "timeDifference": 11.993249999999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Advanced Tools and Techniques for Hybrid and Remote Teams",
+          "expectedStart": 1873,
+          "expectedEnd": 2033.79,
+          "actualStart": 1886.494125,
+          "actualEnd": 2047.284625,
+          "timeDifference": 13.49412499999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Case Studies: Real-World Applications and Lessons Learned",
+          "expectedStart": 2033.79,
+          "expectedEnd": 2195.99,
+          "actualStart": 2048.7846250000002,
+          "actualEnd": 2210.9834170000004,
+          "timeDifference": 14.99462500000027
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2195.99,
+          "expectedEnd": 2321.21,
+          "actualStart": 2212.4834170000004,
+          "actualEnd": 2337.7017090000004,
+          "timeDifference": 16.49341700000059
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.093625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the New Landscape of Hybrid and Remote Work"
+        },
+        {
+          "startTime": 345.568625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the New Landscape of Hybrid and Remote Work and Chapter 2 Setting Clear Expectations and Building Trust from a Distance"
+        },
+        {
+          "startTime": 611.29775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Setting Clear Expectations and Building Trust from a Distance and Chapter 3 Communication and Collaboration in Distributed Teams"
+        },
+        {
+          "startTime": 854.164458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Communication and Collaboration in Distributed Teams and Chapter 4 Benchmarking and Adopting Best Practices for Team Success"
+        },
+        {
+          "startTime": 1052.301916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Benchmarking and Adopting Best Practices for Team Success and Chapter 5 Sustaining Engagement and Productivity in Hybrid Teams"
+        },
+        {
+          "startTime": 1267.251458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Sustaining Engagement and Productivity in Hybrid Teams and Chapter 6 Embedding Hybrid and Remote Practices into Organizational Culture"
+        },
+        {
+          "startTime": 1462.109,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embedding Hybrid and Remote Practices into Organizational Culture and Chapter 7 Leading Through Change and Uncertainty"
+        },
+        {
+          "startTime": 1681.09325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Leading Through Change and Uncertainty and Chapter 8 Measuring Success and Continuous Improvement"
+        },
+        {
+          "startTime": 1884.994125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Measuring Success and Continuous Improvement and Chapter 9 Advanced Tools and Techniques for Hybrid and Remote Teams"
+        },
+        {
+          "startTime": 2047.284625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Advanced Tools and Techniques for Hybrid and Remote Teams and Chapter 10 Case Studies: Real-World Applications and Lessons Learned"
+        },
+        {
+          "startTime": 2210.9834170000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Case Studies: Real-World Applications and Lessons Learned and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3113",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T19:11:31.366Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

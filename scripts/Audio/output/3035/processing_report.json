@@ -1,0 +1,503 @@
+{
+  "bookId": "3035",
+  "timestamp": "2025-07-14T13:18:07.207Z",
+  "success": false,
+  "processingTime": -1752498628597,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5095,
+    "totalAudioFiles": 14,
+    "totalDuration": 2321.9255829999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2321.9255829999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3035/optimized_text/3035.md",
+    "fileSize": 944,
+    "wordCount": 136,
+    "format": "markdown",
+    "filename": "3035.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3035/metadata/3035_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2321.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3035/metadata/3035_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3035/metadata/3035_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3035/3035_complete.wav",
+    "duration": 2321.925583,
+    "fileSize": 111452506,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3035/introduction.wav",
+          "duration": 88.488417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.488417,
+          "startTime": 0,
+          "endTime": 88.488417
+        },
+        {
+          "path": "Audio/output/3035/chapter_01.wav",
+          "duration": 234.749833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World Shaped by Gender Expectations",
+          "actualDuration": 234.749833,
+          "startTime": 89.988417,
+          "endTime": 324.73825
+        },
+        {
+          "path": "Audio/output/3035/chapter_02.wav",
+          "duration": 275.7815,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Entering the Political Arena and Facing Old Patterns in New Places",
+          "actualDuration": 275.7815,
+          "startTime": 326.23825,
+          "endTime": 602.0197499999999
+        },
+        {
+          "path": "Audio/output/3035/chapter_03.wav",
+          "duration": 228.710833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Power, Loyalty, and Betrayal in the Halls of Government",
+          "actualDuration": 228.710833,
+          "startTime": 603.5197499999999,
+          "endTime": 832.2305829999999
+        },
+        {
+          "path": "Audio/output/3035/chapter_04.wav",
+          "duration": 245.302333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Personal Cost of Speaking Out and the Power of Collective Action",
+          "actualDuration": 245.302333,
+          "startTime": 833.7305829999999,
+          "endTime": 1079.032916
+        },
+        {
+          "path": "Audio/output/3035/chapter_05.wav",
+          "duration": 169.225125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Resilience, Empowerment, and the Ongoing Fight for Equality",
+          "actualDuration": 169.225125,
+          "startTime": 1080.532916,
+          "endTime": 1249.7580409999998
+        },
+        {
+          "path": "Audio/output/3035/chapter_06.wav",
+          "duration": 166.846167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Labor: Emotional Work and the Double Standard",
+          "actualDuration": 166.846167,
+          "startTime": 1251.2580409999998,
+          "endTime": 1418.1042079999997
+        },
+        {
+          "path": "Audio/output/3035/chapter_07.wav",
+          "duration": 152.398,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Allies, Adversaries, and the Complexity of Change",
+          "actualDuration": 152.398,
+          "startTime": 1419.6042079999997,
+          "endTime": 1572.0022079999997
+        },
+        {
+          "path": "Audio/output/3035/chapter_08.wav",
+          "duration": 144.559625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Media Mirror: Narratives, Scandals, and the Battle for Truth",
+          "actualDuration": 144.559625,
+          "startTime": 1573.5022079999997,
+          "endTime": 1718.0618329999998
+        },
+        {
+          "path": "Audio/output/3035/chapter_09.wav",
+          "duration": 142.844375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Intersectionality: Race, Class, and the Layers of Inequality",
+          "actualDuration": 142.844375,
+          "startTime": 1719.5618329999998,
+          "endTime": 1862.4062079999999
+        },
+        {
+          "path": "Audio/output/3035/chapter_10.wav",
+          "duration": 134.776292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leadership Redefined: New Models for a New Generation",
+          "actualDuration": 134.776292,
+          "startTime": 1863.9062079999999,
+          "endTime": 1998.6825
+        },
+        {
+          "path": "Audio/output/3035/chapter_11.wav",
+          "duration": 117.739458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Healing, Forgiveness, and the Long Road to Wholeness",
+          "actualDuration": 117.739458,
+          "startTime": 2000.1825,
+          "endTime": 2117.921958
+        },
+        {
+          "path": "Audio/output/3035/chapter_12.wav",
+          "duration": 115.740875,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Legacy and the Next Generation: Planting Seeds for the Future",
+          "actualDuration": 115.740875,
+          "startTime": 2119.421958,
+          "endTime": 2235.162833
+        },
+        {
+          "path": "Audio/output/3035/conclusion.wav",
+          "duration": 104.76275,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.76275,
+          "startTime": 2236.662833,
+          "endTime": 2341.4255829999997
+        }
+      ],
+      "totalDuration": 2341.4255829999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.49,
+          "actualStart": 0,
+          "actualEnd": 88.488417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World Shaped by Gender Expectations",
+          "expectedStart": 88.49,
+          "expectedEnd": 323.24,
+          "actualStart": 89.988417,
+          "actualEnd": 324.73825,
+          "timeDifference": 1.4984170000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Entering the Political Arena and Facing Old Patterns in New Places",
+          "expectedStart": 323.24,
+          "expectedEnd": 599.02,
+          "actualStart": 326.23825,
+          "actualEnd": 602.0197499999999,
+          "timeDifference": 2.9982499999999845
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Power, Loyalty, and Betrayal in the Halls of Government",
+          "expectedStart": 599.02,
+          "expectedEnd": 827.73,
+          "actualStart": 603.5197499999999,
+          "actualEnd": 832.2305829999999,
+          "timeDifference": 4.499749999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Personal Cost of Speaking Out and the Power of Collective Action",
+          "expectedStart": 827.73,
+          "expectedEnd": 1073.03,
+          "actualStart": 833.7305829999999,
+          "actualEnd": 1079.032916,
+          "timeDifference": 6.000582999999892
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Resilience, Empowerment, and the Ongoing Fight for Equality",
+          "expectedStart": 1073.03,
+          "expectedEnd": 1242.26,
+          "actualStart": 1080.532916,
+          "actualEnd": 1249.7580409999998,
+          "timeDifference": 7.502915999999914
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Labor: Emotional Work and the Double Standard",
+          "expectedStart": 1242.26,
+          "expectedEnd": 1409.11,
+          "actualStart": 1251.2580409999998,
+          "actualEnd": 1418.1042079999997,
+          "timeDifference": 8.99804099999983
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Allies, Adversaries, and the Complexity of Change",
+          "expectedStart": 1409.11,
+          "expectedEnd": 1561.51,
+          "actualStart": 1419.6042079999997,
+          "actualEnd": 1572.0022079999997,
+          "timeDifference": 10.494207999999844
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Media Mirror: Narratives, Scandals, and the Battle for Truth",
+          "expectedStart": 1561.51,
+          "expectedEnd": 1706.07,
+          "actualStart": 1573.5022079999997,
+          "actualEnd": 1718.0618329999998,
+          "timeDifference": 11.992207999999664
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Intersectionality: Race, Class, and the Layers of Inequality",
+          "expectedStart": 1706.07,
+          "expectedEnd": 1848.91,
+          "actualStart": 1719.5618329999998,
+          "actualEnd": 1862.4062079999999,
+          "timeDifference": 13.491832999999815
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leadership Redefined: New Models for a New Generation",
+          "expectedStart": 1848.91,
+          "expectedEnd": 1983.69,
+          "actualStart": 1863.9062079999999,
+          "actualEnd": 1998.6825,
+          "timeDifference": 14.996207999999797
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Healing, Forgiveness, and the Long Road to Wholeness",
+          "expectedStart": 1983.69,
+          "expectedEnd": 2101.43,
+          "actualStart": 2000.1825,
+          "actualEnd": 2117.921958,
+          "timeDifference": 16.492499999999836
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Legacy and the Next Generation: Planting Seeds for the Future",
+          "expectedStart": 2101.43,
+          "expectedEnd": 2217.17,
+          "actualStart": 2119.421958,
+          "actualEnd": 2235.162833,
+          "timeDifference": 17.991958000000068
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2217.17,
+          "expectedEnd": 2321.93,
+          "actualStart": 2236.662833,
+          "actualEnd": 2341.4255829999997,
+          "timeDifference": 19.49283299999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.488417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World Shaped by Gender Expectations"
+        },
+        {
+          "startTime": 324.73825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World Shaped by Gender Expectations and Chapter 2 Entering the Political Arena and Facing Old Patterns in New Places"
+        },
+        {
+          "startTime": 602.0197499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Entering the Political Arena and Facing Old Patterns in New Places and Chapter 3 Navigating Power, Loyalty, and Betrayal in the Halls of Government"
+        },
+        {
+          "startTime": 832.2305829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Power, Loyalty, and Betrayal in the Halls of Government and Chapter 4 The Personal Cost of Speaking Out and the Power of Collective Action"
+        },
+        {
+          "startTime": 1079.032916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Personal Cost of Speaking Out and the Power of Collective Action and Chapter 5 Resilience, Empowerment, and the Ongoing Fight for Equality"
+        },
+        {
+          "startTime": 1249.7580409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Resilience, Empowerment, and the Ongoing Fight for Equality and Chapter 6 The Unseen Labor: Emotional Work and the Double Standard"
+        },
+        {
+          "startTime": 1418.1042079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Labor: Emotional Work and the Double Standard and Chapter 7 Allies, Adversaries, and the Complexity of Change"
+        },
+        {
+          "startTime": 1572.0022079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Allies, Adversaries, and the Complexity of Change and Chapter 8 The Media Mirror: Narratives, Scandals, and the Battle for Truth"
+        },
+        {
+          "startTime": 1718.0618329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Media Mirror: Narratives, Scandals, and the Battle for Truth and Chapter 9 Intersectionality: Race, Class, and the Layers of Inequality"
+        },
+        {
+          "startTime": 1862.4062079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Intersectionality: Race, Class, and the Layers of Inequality and Chapter 10 Leadership Redefined: New Models for a New Generation"
+        },
+        {
+          "startTime": 1998.6825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leadership Redefined: New Models for a New Generation and Chapter 11 Healing, Forgiveness, and the Long Road to Wholeness"
+        },
+        {
+          "startTime": 2117.921958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Healing, Forgiveness, and the Long Road to Wholeness and Chapter 12 Legacy and the Next Generation: Planting Seeds for the Future"
+        },
+        {
+          "startTime": 2235.162833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Legacy and the Next Generation: Planting Seeds for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3035",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T13:10:30.206Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

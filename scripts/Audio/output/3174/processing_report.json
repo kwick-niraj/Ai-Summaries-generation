@@ -1,0 +1,480 @@
+{
+  "bookId": "3174",
+  "timestamp": "2025-07-15T00:45:14.492Z",
+  "success": false,
+  "processingTime": -1752539250409,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5177,
+    "totalAudioFiles": 13,
+    "totalDuration": 2462.171709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2462.171709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3174/optimized_text/3174.md",
+    "fileSize": 780,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "3174.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3174/metadata/3174_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2462.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3174/metadata/3174_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3174/metadata/3174_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3174/3174_complete.wav",
+    "duration": 2462.171708,
+    "fileSize": 118184320,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3174/introduction.wav",
+          "duration": 99.89,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.89,
+          "startTime": 0,
+          "endTime": 99.89
+        },
+        {
+          "path": "Audio/output/3174/chapter_01.wav",
+          "duration": 242.882625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Unity in Nature’s Laws",
+          "actualDuration": 242.882625,
+          "startTime": 101.39,
+          "endTime": 344.272625
+        },
+        {
+          "path": "Audio/output/3174/chapter_02.wav",
+          "duration": 258.573917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Two Pillars: Gravity and Quantum Mechanics",
+          "actualDuration": 258.573917,
+          "startTime": 345.772625,
+          "endTime": 604.346542
+        },
+        {
+          "path": "Audio/output/3174/chapter_03.wav",
+          "duration": 298.231125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Birth of String Theory and the Promise of Unification",
+          "actualDuration": 298.231125,
+          "startTime": 605.846542,
+          "endTime": 904.077667
+        },
+        {
+          "path": "Audio/output/3174/chapter_04.wav",
+          "duration": 237.556417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Hidden Dimensions and the Shape of Reality",
+          "actualDuration": 237.556417,
+          "startTime": 905.577667,
+          "endTime": 1143.134084
+        },
+        {
+          "path": "Audio/output/3174/chapter_05.wav",
+          "duration": 214.195167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Beauty and Challenge of a Unified Theory",
+          "actualDuration": 214.195167,
+          "startTime": 1144.634084,
+          "endTime": 1358.829251
+        },
+        {
+          "path": "Audio/output/3174/chapter_06.wav",
+          "duration": 162.252708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance of Dualities: New Symmetries in String Theory",
+          "actualDuration": 162.252708,
+          "startTime": 1360.329251,
+          "endTime": 1522.581959
+        },
+        {
+          "path": "Audio/output/3174/chapter_07.wav",
+          "duration": 203.35525,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 M-Theory and the Multiverse: Expanding the Cosmic Canvas",
+          "actualDuration": 203.35525,
+          "startTime": 1524.081959,
+          "endTime": 1727.4372090000002
+        },
+        {
+          "path": "Audio/output/3174/chapter_08.wav",
+          "duration": 190.236208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Black Holes, Holograms, and the Edge of Knowledge",
+          "actualDuration": 190.236208,
+          "startTime": 1728.9372090000002,
+          "endTime": 1919.1734170000002
+        },
+        {
+          "path": "Audio/output/3174/chapter_09.wav",
+          "duration": 162.8725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Challenge of Experiment: Testing the Theory",
+          "actualDuration": 162.8725,
+          "startTime": 1920.6734170000002,
+          "endTime": 2083.5459170000004
+        },
+        {
+          "path": "Audio/output/3174/chapter_10.wav",
+          "duration": 155.973917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Side of the Quest: Wonder, Doubt, and Perseverance",
+          "actualDuration": 155.973917,
+          "startTime": 2085.0459170000004,
+          "endTime": 2241.019834
+        },
+        {
+          "path": "Audio/output/3174/chapter_11.wav",
+          "duration": 130.588167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Road Ahead: Imagination, Humility, and the Future of Physics",
+          "actualDuration": 130.588167,
+          "startTime": 2242.519834,
+          "endTime": 2373.108001
+        },
+        {
+          "path": "Audio/output/3174/conclusion.wav",
+          "duration": 105.563708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.563708,
+          "startTime": 2374.608001,
+          "endTime": 2480.171709
+        }
+      ],
+      "totalDuration": 2480.171709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.89,
+          "actualStart": 0,
+          "actualEnd": 99.89,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Unity in Nature’s Laws",
+          "expectedStart": 99.89,
+          "expectedEnd": 342.77,
+          "actualStart": 101.39,
+          "actualEnd": 344.272625,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Two Pillars: Gravity and Quantum Mechanics",
+          "expectedStart": 342.77,
+          "expectedEnd": 601.34,
+          "actualStart": 345.772625,
+          "actualEnd": 604.346542,
+          "timeDifference": 3.002625000000023
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Birth of String Theory and the Promise of Unification",
+          "expectedStart": 601.34,
+          "expectedEnd": 899.57,
+          "actualStart": 605.846542,
+          "actualEnd": 904.077667,
+          "timeDifference": 4.506541999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Hidden Dimensions and the Shape of Reality",
+          "expectedStart": 899.57,
+          "expectedEnd": 1137.13,
+          "actualStart": 905.577667,
+          "actualEnd": 1143.134084,
+          "timeDifference": 6.0076669999999694
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Beauty and Challenge of a Unified Theory",
+          "expectedStart": 1137.13,
+          "expectedEnd": 1351.33,
+          "actualStart": 1144.634084,
+          "actualEnd": 1358.829251,
+          "timeDifference": 7.504083999999921
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance of Dualities: New Symmetries in String Theory",
+          "expectedStart": 1351.33,
+          "expectedEnd": 1513.58,
+          "actualStart": 1360.329251,
+          "actualEnd": 1522.581959,
+          "timeDifference": 8.999251000000186
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 M-Theory and the Multiverse: Expanding the Cosmic Canvas",
+          "expectedStart": 1513.58,
+          "expectedEnd": 1716.94,
+          "actualStart": 1524.081959,
+          "actualEnd": 1727.4372090000002,
+          "timeDifference": 10.50195900000017
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Black Holes, Holograms, and the Edge of Knowledge",
+          "expectedStart": 1716.94,
+          "expectedEnd": 1907.18,
+          "actualStart": 1728.9372090000002,
+          "actualEnd": 1919.1734170000002,
+          "timeDifference": 11.997209000000112
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Challenge of Experiment: Testing the Theory",
+          "expectedStart": 1907.18,
+          "expectedEnd": 2070.05,
+          "actualStart": 1920.6734170000002,
+          "actualEnd": 2083.5459170000004,
+          "timeDifference": 13.493417000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Side of the Quest: Wonder, Doubt, and Perseverance",
+          "expectedStart": 2070.05,
+          "expectedEnd": 2226.02,
+          "actualStart": 2085.0459170000004,
+          "actualEnd": 2241.019834,
+          "timeDifference": 14.99591700000019
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Road Ahead: Imagination, Humility, and the Future of Physics",
+          "expectedStart": 2226.02,
+          "expectedEnd": 2356.61,
+          "actualStart": 2242.519834,
+          "actualEnd": 2373.108001,
+          "timeDifference": 16.49983400000019
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2356.61,
+          "expectedEnd": 2462.17,
+          "actualStart": 2374.608001,
+          "actualEnd": 2480.171709,
+          "timeDifference": 17.99800099999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.89,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Unity in Nature’s Laws"
+        },
+        {
+          "startTime": 344.272625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Unity in Nature’s Laws and Chapter 2 The Two Pillars: Gravity and Quantum Mechanics"
+        },
+        {
+          "startTime": 604.346542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Two Pillars: Gravity and Quantum Mechanics and Chapter 3 The Birth of String Theory and the Promise of Unification"
+        },
+        {
+          "startTime": 904.077667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Birth of String Theory and the Promise of Unification and Chapter 4 Hidden Dimensions and the Shape of Reality"
+        },
+        {
+          "startTime": 1143.134084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Hidden Dimensions and the Shape of Reality and Chapter 5 The Beauty and Challenge of a Unified Theory"
+        },
+        {
+          "startTime": 1358.829251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Beauty and Challenge of a Unified Theory and Chapter 6 The Dance of Dualities: New Symmetries in String Theory"
+        },
+        {
+          "startTime": 1522.581959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance of Dualities: New Symmetries in String Theory and Chapter 7 M-Theory and the Multiverse: Expanding the Cosmic Canvas"
+        },
+        {
+          "startTime": 1727.4372090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 M-Theory and the Multiverse: Expanding the Cosmic Canvas and Chapter 8 Black Holes, Holograms, and the Edge of Knowledge"
+        },
+        {
+          "startTime": 1919.1734170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Black Holes, Holograms, and the Edge of Knowledge and Chapter 9 The Challenge of Experiment: Testing the Theory"
+        },
+        {
+          "startTime": 2083.5459170000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Challenge of Experiment: Testing the Theory and Chapter 10 The Human Side of the Quest: Wonder, Doubt, and Perseverance"
+        },
+        {
+          "startTime": 2241.019834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Side of the Quest: Wonder, Doubt, and Perseverance and Chapter 11 The Road Ahead: Imagination, Humility, and the Future of Physics"
+        },
+        {
+          "startTime": 2373.108001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Road Ahead: Imagination, Humility, and the Future of Physics and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3174",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T00:27:30.984Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

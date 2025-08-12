@@ -1,0 +1,456 @@
+{
+  "bookId": "2802",
+  "timestamp": "2025-07-13T20:49:52.596Z",
+  "success": false,
+  "processingTime": -1752439475969,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4552,
+    "totalAudioFiles": 12,
+    "totalDuration": 2241.835501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2241.835501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2802/optimized_text/2802.md",
+    "fileSize": 675,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2802.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2802/metadata/2802_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2241.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2802/metadata/2802_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2802/metadata/2802_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2802/2802_complete.wav",
+    "duration": 2241.8355,
+    "fileSize": 107608182,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2802/introduction.wav",
+          "duration": 93.378792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.378792,
+          "startTime": 0,
+          "endTime": 93.378792
+        },
+        {
+          "path": "Audio/output/2802/chapter_01.wav",
+          "duration": 212.696792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Imitation as the Foundation of Art",
+          "actualDuration": 212.696792,
+          "startTime": 94.878792,
+          "endTime": 307.575584
+        },
+        {
+          "path": "Audio/output/2802/chapter_02.wav",
+          "duration": 244.442292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Nature and Purpose of Tragedy",
+          "actualDuration": 244.442292,
+          "startTime": 309.075584,
+          "endTime": 553.517876
+        },
+        {
+          "path": "Audio/output/2802/chapter_03.wav",
+          "duration": 258.469708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Strong Plot—The Heart of Effective Drama",
+          "actualDuration": 258.469708,
+          "startTime": 555.017876,
+          "endTime": 813.487584
+        },
+        {
+          "path": "Audio/output/2802/chapter_04.wav",
+          "duration": 257.097625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Crafting Characters and Thought—Bringing Stories to Life",
+          "actualDuration": 257.097625,
+          "startTime": 814.987584,
+          "endTime": 1072.0852089999998
+        },
+        {
+          "path": "Audio/output/2802/chapter_05.wav",
+          "duration": 235.353917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Language, Music, and Spectacle in Drama",
+          "actualDuration": 235.353917,
+          "startTime": 1073.5852089999998,
+          "endTime": 1308.9391259999998
+        },
+        {
+          "path": "Audio/output/2802/chapter_06.wav",
+          "duration": 220.043542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Structure and Unity of Dramatic Works",
+          "actualDuration": 220.043542,
+          "startTime": 1310.4391259999998,
+          "endTime": 1530.4826679999996
+        },
+        {
+          "path": "Audio/output/2802/chapter_07.wav",
+          "duration": 184.121708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Distinctive Features of Tragedy and Epic Poetry",
+          "actualDuration": 184.121708,
+          "startTime": 1531.9826679999996,
+          "endTime": 1716.1043759999998
+        },
+        {
+          "path": "Audio/output/2802/chapter_08.wav",
+          "duration": 144.566417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Causes of Tragic Error—Hamartia and Human Fallibility",
+          "actualDuration": 144.566417,
+          "startTime": 1717.6043759999998,
+          "endTime": 1862.1707929999998
+        },
+        {
+          "path": "Audio/output/2802/chapter_09.wav",
+          "duration": 148.3745,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Guidance for Writers and Audiences",
+          "actualDuration": 148.3745,
+          "startTime": 1863.6707929999998,
+          "endTime": 2012.0452929999997
+        },
+        {
+          "path": "Audio/output/2802/chapter_10.wav",
+          "duration": 118.440625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Value of Dramatic Art",
+          "actualDuration": 118.440625,
+          "startTime": 2013.5452929999997,
+          "endTime": 2131.985918
+        },
+        {
+          "path": "Audio/output/2802/conclusion.wav",
+          "duration": 124.849583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.849583,
+          "startTime": 2133.485918,
+          "endTime": 2258.335501
+        }
+      ],
+      "totalDuration": 2258.335501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.38,
+          "actualStart": 0,
+          "actualEnd": 93.378792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Imitation as the Foundation of Art",
+          "expectedStart": 93.38,
+          "expectedEnd": 306.08,
+          "actualStart": 94.878792,
+          "actualEnd": 307.575584,
+          "timeDifference": 1.4987920000000088
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Nature and Purpose of Tragedy",
+          "expectedStart": 306.08,
+          "expectedEnd": 550.52,
+          "actualStart": 309.075584,
+          "actualEnd": 553.517876,
+          "timeDifference": 2.995584000000008
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Strong Plot—The Heart of Effective Drama",
+          "expectedStart": 550.52,
+          "expectedEnd": 808.99,
+          "actualStart": 555.017876,
+          "actualEnd": 813.487584,
+          "timeDifference": 4.497876000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Crafting Characters and Thought—Bringing Stories to Life",
+          "expectedStart": 808.99,
+          "expectedEnd": 1066.09,
+          "actualStart": 814.987584,
+          "actualEnd": 1072.0852089999998,
+          "timeDifference": 5.997583999999961
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Language, Music, and Spectacle in Drama",
+          "expectedStart": 1066.09,
+          "expectedEnd": 1301.44,
+          "actualStart": 1073.5852089999998,
+          "actualEnd": 1308.9391259999998,
+          "timeDifference": 7.495208999999932
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Structure and Unity of Dramatic Works",
+          "expectedStart": 1301.44,
+          "expectedEnd": 1521.48,
+          "actualStart": 1310.4391259999998,
+          "actualEnd": 1530.4826679999996,
+          "timeDifference": 8.999125999999706
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Distinctive Features of Tragedy and Epic Poetry",
+          "expectedStart": 1521.48,
+          "expectedEnd": 1705.6,
+          "actualStart": 1531.9826679999996,
+          "actualEnd": 1716.1043759999998,
+          "timeDifference": 10.50266799999963
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Causes of Tragic Error—Hamartia and Human Fallibility",
+          "expectedStart": 1705.6,
+          "expectedEnd": 1850.17,
+          "actualStart": 1717.6043759999998,
+          "actualEnd": 1862.1707929999998,
+          "timeDifference": 12.004375999999866
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Guidance for Writers and Audiences",
+          "expectedStart": 1850.17,
+          "expectedEnd": 1998.54,
+          "actualStart": 1863.6707929999998,
+          "actualEnd": 2012.0452929999997,
+          "timeDifference": 13.500792999999703
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Value of Dramatic Art",
+          "expectedStart": 1998.54,
+          "expectedEnd": 2116.98,
+          "actualStart": 2013.5452929999997,
+          "actualEnd": 2131.985918,
+          "timeDifference": 15.00529299999971
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2116.98,
+          "expectedEnd": 2241.83,
+          "actualStart": 2133.485918,
+          "actualEnd": 2258.335501,
+          "timeDifference": 16.505917999999838
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.378792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Imitation as the Foundation of Art"
+        },
+        {
+          "startTime": 307.575584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Imitation as the Foundation of Art and Chapter 2 The Nature and Purpose of Tragedy"
+        },
+        {
+          "startTime": 553.517876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Nature and Purpose of Tragedy and Chapter 3 Building a Strong Plot—The Heart of Effective Drama"
+        },
+        {
+          "startTime": 813.487584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Strong Plot—The Heart of Effective Drama and Chapter 4 Crafting Characters and Thought—Bringing Stories to Life"
+        },
+        {
+          "startTime": 1072.0852089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Crafting Characters and Thought—Bringing Stories to Life and Chapter 5 The Role of Language, Music, and Spectacle in Drama"
+        },
+        {
+          "startTime": 1308.9391259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Language, Music, and Spectacle in Drama and Chapter 6 The Structure and Unity of Dramatic Works"
+        },
+        {
+          "startTime": 1530.4826679999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Structure and Unity of Dramatic Works and Chapter 7 The Distinctive Features of Tragedy and Epic Poetry"
+        },
+        {
+          "startTime": 1716.1043759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Distinctive Features of Tragedy and Epic Poetry and Chapter 8 The Causes of Tragic Error—Hamartia and Human Fallibility"
+        },
+        {
+          "startTime": 1862.1707929999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Causes of Tragic Error—Hamartia and Human Fallibility and Chapter 9 Practical Guidance for Writers and Audiences"
+        },
+        {
+          "startTime": 2012.0452929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Guidance for Writers and Audiences and Chapter 10 The Enduring Value of Dramatic Art"
+        },
+        {
+          "startTime": 2131.985918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Value of Dramatic Art and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2802",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T20:44:36.555Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

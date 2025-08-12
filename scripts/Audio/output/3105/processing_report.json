@@ -1,0 +1,456 @@
+{
+  "bookId": "3105",
+  "timestamp": "2025-07-14T18:47:43.483Z",
+  "success": false,
+  "processingTime": -1752518463520,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4792,
+    "totalAudioFiles": 12,
+    "totalDuration": 2302.175084
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2302.175084
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3105/optimized_text/3105.md",
+    "fileSize": 662,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "3105.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3105/metadata/3105_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2302.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3105/metadata/3105_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3105/metadata/3105_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3105/3105_complete.wav",
+    "duration": 2302.175083,
+    "fileSize": 110504482,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3105/introduction.wav",
+          "duration": 100.883167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.883167,
+          "startTime": 0,
+          "endTime": 100.883167
+        },
+        {
+          "path": "Audio/output/3105/chapter_01.wav",
+          "duration": 239.262625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 From Outcast to Unifier on the Mongolian Steppe",
+          "actualDuration": 239.262625,
+          "startTime": 102.383167,
+          "endTime": 341.64579200000003
+        },
+        {
+          "path": "Audio/output/3105/chapter_02.wav",
+          "duration": 255.874083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a New Kind of Empire",
+          "actualDuration": 255.874083,
+          "startTime": 343.14579200000003,
+          "endTime": 599.0198750000001
+        },
+        {
+          "path": "Audio/output/3105/chapter_03.wav",
+          "duration": 242.743542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mongol Way of War and the Art of Adaptation",
+          "actualDuration": 242.743542,
+          "startTime": 600.5198750000001,
+          "endTime": 843.2634170000001
+        },
+        {
+          "path": "Audio/output/3105/chapter_04.wav",
+          "duration": 214.39,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Empire’s Golden Age and the Spread of Ideas",
+          "actualDuration": 214.39,
+          "startTime": 844.7634170000001,
+          "endTime": 1059.153417
+        },
+        {
+          "path": "Audio/output/3105/chapter_05.wav",
+          "duration": 205.176167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Myths and Understanding the Mongol Legacy",
+          "actualDuration": 205.176167,
+          "startTime": 1060.653417,
+          "endTime": 1265.829584
+        },
+        {
+          "path": "Audio/output/3105/chapter_06.wav",
+          "duration": 219.757583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Fracturing of Empire and the Weight of Inheritance",
+          "actualDuration": 219.757583,
+          "startTime": 1267.329584,
+          "endTime": 1487.0871670000001
+        },
+        {
+          "path": "Audio/output/3105/chapter_07.wav",
+          "duration": 203.32475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Mongol Legacy in China and the Rise of the Yuan",
+          "actualDuration": 203.32475,
+          "startTime": 1488.5871670000001,
+          "endTime": 1691.9119170000001
+        },
+        {
+          "path": "Audio/output/3105/chapter_08.wav",
+          "duration": 178.4055,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Mongol Influence on the Islamic World",
+          "actualDuration": 178.4055,
+          "startTime": 1693.4119170000001,
+          "endTime": 1871.8174170000002
+        },
+        {
+          "path": "Audio/output/3105/chapter_09.wav",
+          "duration": 181.386292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Mongol Impact on Europe and the Dawn of a New Age",
+          "actualDuration": 181.386292,
+          "startTime": 1873.3174170000002,
+          "endTime": 2054.7037090000003
+        },
+        {
+          "path": "Audio/output/3105/chapter_10.wav",
+          "duration": 137.415625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit of Genghis Khan",
+          "actualDuration": 137.415625,
+          "startTime": 2056.2037090000003,
+          "endTime": 2193.6193340000004
+        },
+        {
+          "path": "Audio/output/3105/conclusion.wav",
+          "duration": 123.55575,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.55575,
+          "startTime": 2195.1193340000004,
+          "endTime": 2318.6750840000004
+        }
+      ],
+      "totalDuration": 2318.6750840000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.88,
+          "actualStart": 0,
+          "actualEnd": 100.883167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 From Outcast to Unifier on the Mongolian Steppe",
+          "expectedStart": 100.88,
+          "expectedEnd": 340.14,
+          "actualStart": 102.383167,
+          "actualEnd": 341.64579200000003,
+          "timeDifference": 1.5031670000000048
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a New Kind of Empire",
+          "expectedStart": 340.14,
+          "expectedEnd": 596.01,
+          "actualStart": 343.14579200000003,
+          "actualEnd": 599.0198750000001,
+          "timeDifference": 3.005792000000042
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mongol Way of War and the Art of Adaptation",
+          "expectedStart": 596.01,
+          "expectedEnd": 838.75,
+          "actualStart": 600.5198750000001,
+          "actualEnd": 843.2634170000001,
+          "timeDifference": 4.509875000000079
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Empire’s Golden Age and the Spread of Ideas",
+          "expectedStart": 838.75,
+          "expectedEnd": 1053.14,
+          "actualStart": 844.7634170000001,
+          "actualEnd": 1059.153417,
+          "timeDifference": 6.013417000000118
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Myths and Understanding the Mongol Legacy",
+          "expectedStart": 1053.14,
+          "expectedEnd": 1258.32,
+          "actualStart": 1060.653417,
+          "actualEnd": 1265.829584,
+          "timeDifference": 7.51341699999989
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Fracturing of Empire and the Weight of Inheritance",
+          "expectedStart": 1258.32,
+          "expectedEnd": 1478.08,
+          "actualStart": 1267.329584,
+          "actualEnd": 1487.0871670000001,
+          "timeDifference": 9.009584000000132
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Mongol Legacy in China and the Rise of the Yuan",
+          "expectedStart": 1478.08,
+          "expectedEnd": 1681.4,
+          "actualStart": 1488.5871670000001,
+          "actualEnd": 1691.9119170000001,
+          "timeDifference": 10.507167000000209
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Mongol Influence on the Islamic World",
+          "expectedStart": 1681.4,
+          "expectedEnd": 1859.81,
+          "actualStart": 1693.4119170000001,
+          "actualEnd": 1871.8174170000002,
+          "timeDifference": 12.01191700000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Mongol Impact on Europe and the Dawn of a New Age",
+          "expectedStart": 1859.81,
+          "expectedEnd": 2041.2,
+          "actualStart": 1873.3174170000002,
+          "actualEnd": 2054.7037090000003,
+          "timeDifference": 13.50741700000026
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit of Genghis Khan",
+          "expectedStart": 2041.2,
+          "expectedEnd": 2178.62,
+          "actualStart": 2056.2037090000003,
+          "actualEnd": 2193.6193340000004,
+          "timeDifference": 15.003709000000299
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2178.62,
+          "expectedEnd": 2302.18,
+          "actualStart": 2195.1193340000004,
+          "actualEnd": 2318.6750840000004,
+          "timeDifference": 16.499334000000545
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.883167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 From Outcast to Unifier on the Mongolian Steppe"
+        },
+        {
+          "startTime": 341.64579200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 From Outcast to Unifier on the Mongolian Steppe and Chapter 2 Building a New Kind of Empire"
+        },
+        {
+          "startTime": 599.0198750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a New Kind of Empire and Chapter 3 The Mongol Way of War and the Art of Adaptation"
+        },
+        {
+          "startTime": 843.2634170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mongol Way of War and the Art of Adaptation and Chapter 4 The Empire’s Golden Age and the Spread of Ideas"
+        },
+        {
+          "startTime": 1059.153417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Empire’s Golden Age and the Spread of Ideas and Chapter 5 Challenging Myths and Understanding the Mongol Legacy"
+        },
+        {
+          "startTime": 1265.829584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Myths and Understanding the Mongol Legacy and Chapter 6 The Fracturing of Empire and the Weight of Inheritance"
+        },
+        {
+          "startTime": 1487.0871670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Fracturing of Empire and the Weight of Inheritance and Chapter 7 The Mongol Legacy in China and the Rise of the Yuan"
+        },
+        {
+          "startTime": 1691.9119170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Mongol Legacy in China and the Rise of the Yuan and Chapter 8 The Mongol Influence on the Islamic World"
+        },
+        {
+          "startTime": 1871.8174170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Mongol Influence on the Islamic World and Chapter 9 The Mongol Impact on Europe and the Dawn of a New Age"
+        },
+        {
+          "startTime": 2054.7037090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Mongol Impact on Europe and the Dawn of a New Age and Chapter 10 The Enduring Spirit of Genghis Khan"
+        },
+        {
+          "startTime": 2193.6193340000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit of Genghis Khan and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3105",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:41:04.732Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

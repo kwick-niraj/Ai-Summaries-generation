@@ -1,0 +1,456 @@
+{
+  "bookId": "2819",
+  "timestamp": "2025-07-13T22:07:23.039Z",
+  "success": false,
+  "processingTime": -1752444102971,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4718,
+    "totalAudioFiles": 12,
+    "totalDuration": 2164.847418
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2164.847418
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2819/optimized_text/2819.md",
+    "fileSize": 727,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2819.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2819/metadata/2819_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2164.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2819/metadata/2819_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2819/metadata/2819_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2819/2819_complete.wav",
+    "duration": 2164.847417,
+    "fileSize": 103912754,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2819/introduction.wav",
+          "duration": 84.226917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.226917,
+          "startTime": 0,
+          "endTime": 84.226917
+        },
+        {
+          "path": "Audio/output/2819/chapter_01.wav",
+          "duration": 221.90375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Love Turns Uneasy: Recognizing the Hidden Patterns",
+          "actualDuration": 221.90375,
+          "startTime": 85.726917,
+          "endTime": 307.630667
+        },
+        {
+          "path": "Audio/output/2819/chapter_02.wav",
+          "duration": 223.150292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mindset of Control: What Drives Abusive Partners",
+          "actualDuration": 223.150292,
+          "startTime": 309.130667,
+          "endTime": 532.280959
+        },
+        {
+          "path": "Audio/output/2819/chapter_03.wav",
+          "duration": 209.744917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Myths and Misconceptions: Why the Truth Gets Lost",
+          "actualDuration": 209.744917,
+          "startTime": 533.780959,
+          "endTime": 743.525876
+        },
+        {
+          "path": "Audio/output/2819/chapter_04.wav",
+          "duration": 210.346167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cycle of Hope and Fear: Why Leaving Is So Hard",
+          "actualDuration": 210.346167,
+          "startTime": 745.025876,
+          "endTime": 955.3720430000001
+        },
+        {
+          "path": "Audio/output/2819/chapter_05.wav",
+          "duration": 192.094375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Early Warning Signs: How Control and Devaluation Begin",
+          "actualDuration": 192.094375,
+          "startTime": 956.8720430000001,
+          "endTime": 1148.966418
+        },
+        {
+          "path": "Audio/output/2819/chapter_06.wav",
+          "duration": 173.691125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Turning Point: When Change Feels Possible",
+          "actualDuration": 173.691125,
+          "startTime": 1150.466418,
+          "endTime": 1324.157543
+        },
+        {
+          "path": "Audio/output/2819/chapter_07.wav",
+          "duration": 188.920042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Illusion of Change: Promises, Apologies, and False Starts",
+          "actualDuration": 188.920042,
+          "startTime": 1325.657543,
+          "endTime": 1514.577585
+        },
+        {
+          "path": "Audio/output/2819/chapter_08.wav",
+          "duration": 161.747333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Friends, Family, and Community: Breaking the Isolation",
+          "actualDuration": 161.747333,
+          "startTime": 1516.077585,
+          "endTime": 1677.824918
+        },
+        {
+          "path": "Audio/output/2819/chapter_09.wav",
+          "duration": 184.449083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Accountability and Real Change: What It Really Takes",
+          "actualDuration": 184.449083,
+          "startTime": 1679.324918,
+          "endTime": 1863.774001
+        },
+        {
+          "path": "Audio/output/2819/chapter_10.wav",
+          "duration": 176.714917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reclaiming Autonomy: The Path to Healing",
+          "actualDuration": 176.714917,
+          "startTime": 1865.274001,
+          "endTime": 2041.988918
+        },
+        {
+          "path": "Audio/output/2819/conclusion.wav",
+          "duration": 137.8585,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.8585,
+          "startTime": 2043.488918,
+          "endTime": 2181.347418
+        }
+      ],
+      "totalDuration": 2181.347418,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.23,
+          "actualStart": 0,
+          "actualEnd": 84.226917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Love Turns Uneasy: Recognizing the Hidden Patterns",
+          "expectedStart": 84.23,
+          "expectedEnd": 306.13,
+          "actualStart": 85.726917,
+          "actualEnd": 307.630667,
+          "timeDifference": 1.4969169999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mindset of Control: What Drives Abusive Partners",
+          "expectedStart": 306.13,
+          "expectedEnd": 529.28,
+          "actualStart": 309.130667,
+          "actualEnd": 532.280959,
+          "timeDifference": 3.0006670000000213
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Myths and Misconceptions: Why the Truth Gets Lost",
+          "expectedStart": 529.28,
+          "expectedEnd": 739.02,
+          "actualStart": 533.780959,
+          "actualEnd": 743.525876,
+          "timeDifference": 4.50095900000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cycle of Hope and Fear: Why Leaving Is So Hard",
+          "expectedStart": 739.02,
+          "expectedEnd": 949.37,
+          "actualStart": 745.025876,
+          "actualEnd": 955.3720430000001,
+          "timeDifference": 6.0058760000000575
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Early Warning Signs: How Control and Devaluation Begin",
+          "expectedStart": 949.37,
+          "expectedEnd": 1141.46,
+          "actualStart": 956.8720430000001,
+          "actualEnd": 1148.966418,
+          "timeDifference": 7.5020430000000715
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Turning Point: When Change Feels Possible",
+          "expectedStart": 1141.46,
+          "expectedEnd": 1315.15,
+          "actualStart": 1150.466418,
+          "actualEnd": 1324.157543,
+          "timeDifference": 9.00641799999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Illusion of Change: Promises, Apologies, and False Starts",
+          "expectedStart": 1315.15,
+          "expectedEnd": 1504.07,
+          "actualStart": 1325.657543,
+          "actualEnd": 1514.577585,
+          "timeDifference": 10.507542999999941
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Friends, Family, and Community: Breaking the Isolation",
+          "expectedStart": 1504.07,
+          "expectedEnd": 1665.82,
+          "actualStart": 1516.077585,
+          "actualEnd": 1677.824918,
+          "timeDifference": 12.007585000000063
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Accountability and Real Change: What It Really Takes",
+          "expectedStart": 1665.82,
+          "expectedEnd": 1850.27,
+          "actualStart": 1679.324918,
+          "actualEnd": 1863.774001,
+          "timeDifference": 13.504918000000089
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reclaiming Autonomy: The Path to Healing",
+          "expectedStart": 1850.27,
+          "expectedEnd": 2026.98,
+          "actualStart": 1865.274001,
+          "actualEnd": 2041.988918,
+          "timeDifference": 15.004001000000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2026.98,
+          "expectedEnd": 2164.84,
+          "actualStart": 2043.488918,
+          "actualEnd": 2181.347418,
+          "timeDifference": 16.508917999999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.226917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Love Turns Uneasy: Recognizing the Hidden Patterns"
+        },
+        {
+          "startTime": 307.630667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Love Turns Uneasy: Recognizing the Hidden Patterns and Chapter 2 The Mindset of Control: What Drives Abusive Partners"
+        },
+        {
+          "startTime": 532.280959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mindset of Control: What Drives Abusive Partners and Chapter 3 Myths and Misconceptions: Why the Truth Gets Lost"
+        },
+        {
+          "startTime": 743.525876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Myths and Misconceptions: Why the Truth Gets Lost and Chapter 4 The Cycle of Hope and Fear: Why Leaving Is So Hard"
+        },
+        {
+          "startTime": 955.3720430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cycle of Hope and Fear: Why Leaving Is So Hard and Chapter 5 Early Warning Signs: How Control and Devaluation Begin"
+        },
+        {
+          "startTime": 1148.966418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Early Warning Signs: How Control and Devaluation Begin and Chapter 6 The Turning Point: When Change Feels Possible"
+        },
+        {
+          "startTime": 1324.157543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Turning Point: When Change Feels Possible and Chapter 7 The Illusion of Change: Promises, Apologies, and False Starts"
+        },
+        {
+          "startTime": 1514.577585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Illusion of Change: Promises, Apologies, and False Starts and Chapter 8 The Role of Friends, Family, and Community: Breaking the Isolation"
+        },
+        {
+          "startTime": 1677.824918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Friends, Family, and Community: Breaking the Isolation and Chapter 9 Accountability and Real Change: What It Really Takes"
+        },
+        {
+          "startTime": 1863.774001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Accountability and Real Change: What It Really Takes and Chapter 10 Reclaiming Autonomy: The Path to Healing"
+        },
+        {
+          "startTime": 2041.988918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reclaiming Autonomy: The Path to Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2819",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:01:44.511Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

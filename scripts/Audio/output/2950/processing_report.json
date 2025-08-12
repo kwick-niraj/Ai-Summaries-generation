@@ -1,0 +1,456 @@
+{
+  "bookId": "2950",
+  "timestamp": "2025-07-14T06:43:35.866Z",
+  "success": false,
+  "processingTime": -1752475016856,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4533,
+    "totalAudioFiles": 12,
+    "totalDuration": 2014.5264989999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2014.5264989999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2950/optimized_text/2950.md",
+    "fileSize": 829,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "2950.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2950/metadata/2950_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2014.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2950/metadata/2950_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2950/metadata/2950_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2950/2950_complete.wav",
+    "duration": 2014.5265,
+    "fileSize": 96697350,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2950/introduction.wav",
+          "duration": 83.884833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.884833,
+          "startTime": 0,
+          "endTime": 83.884833
+        },
+        {
+          "path": "Audio/output/2950/chapter_01.wav",
+          "duration": 207.719833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Signs: Unseen Warnings and Quiet Suffering",
+          "actualDuration": 207.719833,
+          "startTime": 85.384833,
+          "endTime": 293.104666
+        },
+        {
+          "path": "Audio/output/2950/chapter_02.wav",
+          "duration": 189.372208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Institutional Blindness: Bureaucracy, Denial, and the Cost of Delay",
+          "actualDuration": 189.372208,
+          "startTime": 294.604666,
+          "endTime": 483.976874
+        },
+        {
+          "path": "Audio/output/2950/chapter_03.wav",
+          "duration": 172.30575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Toll: Stories of Loss, Stigma, and Resilience",
+          "actualDuration": 172.30575,
+          "startTime": 485.476874,
+          "endTime": 657.7826239999999
+        },
+        {
+          "path": "Audio/output/2950/chapter_04.wav",
+          "duration": 191.720167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle for Recognition: Activism, Journalism, and the Fight for Truth",
+          "actualDuration": 191.720167,
+          "startTime": 659.2826239999999,
+          "endTime": 851.0027909999999
+        },
+        {
+          "path": "Audio/output/2950/chapter_05.wav",
+          "duration": 181.533958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Science and Uncertainty: Searching for Answers Amid Chaos",
+          "actualDuration": 181.533958,
+          "startTime": 852.5027909999999,
+          "endTime": 1034.0367489999999
+        },
+        {
+          "path": "Audio/output/2950/chapter_06.wav",
+          "duration": 205.319875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Tipping Point: Public Awareness and the Shifting Conversation",
+          "actualDuration": 205.319875,
+          "startTime": 1035.5367489999999,
+          "endTime": 1240.8566239999998
+        },
+        {
+          "path": "Audio/output/2950/chapter_07.wav",
+          "duration": 205.162458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Politics of Care: Funding, Policy, and the Battle for Resources",
+          "actualDuration": 205.162458,
+          "startTime": 1242.3566239999998,
+          "endTime": 1447.5190819999998
+        },
+        {
+          "path": "Audio/output/2950/chapter_08.wav",
+          "duration": 166.61225,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Personal Becomes Political: Grassroots Movements and the Power of Community",
+          "actualDuration": 166.61225,
+          "startTime": 1449.0190819999998,
+          "endTime": 1615.6313319999997
+        },
+        {
+          "path": "Audio/output/2950/chapter_09.wav",
+          "duration": 148.116,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reckoning and Reflection: Facing the Legacy of the Epidemic",
+          "actualDuration": 148.116,
+          "startTime": 1617.1313319999997,
+          "endTime": 1765.2473319999997
+        },
+        {
+          "path": "Audio/output/2950/chapter_10.wav",
+          "duration": 149.539542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Lessons: Memory, Hope, and the Work Ahead",
+          "actualDuration": 149.539542,
+          "startTime": 1766.7473319999997,
+          "endTime": 1916.2868739999997
+        },
+        {
+          "path": "Audio/output/2950/conclusion.wav",
+          "duration": 113.239625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.239625,
+          "startTime": 1917.7868739999997,
+          "endTime": 2031.0264989999996
+        }
+      ],
+      "totalDuration": 2031.0264989999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.88,
+          "actualStart": 0,
+          "actualEnd": 83.884833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Signs: Unseen Warnings and Quiet Suffering",
+          "expectedStart": 83.88,
+          "expectedEnd": 291.6,
+          "actualStart": 85.384833,
+          "actualEnd": 293.104666,
+          "timeDifference": 1.504833000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Institutional Blindness: Bureaucracy, Denial, and the Cost of Delay",
+          "expectedStart": 291.6,
+          "expectedEnd": 480.97,
+          "actualStart": 294.604666,
+          "actualEnd": 483.976874,
+          "timeDifference": 3.004665999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Toll: Stories of Loss, Stigma, and Resilience",
+          "expectedStart": 480.97,
+          "expectedEnd": 653.28,
+          "actualStart": 485.476874,
+          "actualEnd": 657.7826239999999,
+          "timeDifference": 4.506873999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle for Recognition: Activism, Journalism, and the Fight for Truth",
+          "expectedStart": 653.28,
+          "expectedEnd": 845,
+          "actualStart": 659.2826239999999,
+          "actualEnd": 851.0027909999999,
+          "timeDifference": 6.002623999999969
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Science and Uncertainty: Searching for Answers Amid Chaos",
+          "expectedStart": 845,
+          "expectedEnd": 1026.53,
+          "actualStart": 852.5027909999999,
+          "actualEnd": 1034.0367489999999,
+          "timeDifference": 7.502790999999888
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Tipping Point: Public Awareness and the Shifting Conversation",
+          "expectedStart": 1026.53,
+          "expectedEnd": 1231.85,
+          "actualStart": 1035.5367489999999,
+          "actualEnd": 1240.8566239999998,
+          "timeDifference": 9.0067489999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Politics of Care: Funding, Policy, and the Battle for Resources",
+          "expectedStart": 1231.85,
+          "expectedEnd": 1437.01,
+          "actualStart": 1242.3566239999998,
+          "actualEnd": 1447.5190819999998,
+          "timeDifference": 10.506623999999874
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Personal Becomes Political: Grassroots Movements and the Power of Community",
+          "expectedStart": 1437.01,
+          "expectedEnd": 1603.62,
+          "actualStart": 1449.0190819999998,
+          "actualEnd": 1615.6313319999997,
+          "timeDifference": 12.009081999999808
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reckoning and Reflection: Facing the Legacy of the Epidemic",
+          "expectedStart": 1603.62,
+          "expectedEnd": 1751.74,
+          "actualStart": 1617.1313319999997,
+          "actualEnd": 1765.2473319999997,
+          "timeDifference": 13.511331999999811
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Lessons: Memory, Hope, and the Work Ahead",
+          "expectedStart": 1751.74,
+          "expectedEnd": 1901.28,
+          "actualStart": 1766.7473319999997,
+          "actualEnd": 1916.2868739999997,
+          "timeDifference": 15.007331999999678
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1901.28,
+          "expectedEnd": 2014.52,
+          "actualStart": 1917.7868739999997,
+          "actualEnd": 2031.0264989999996,
+          "timeDifference": 16.506873999999698
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.884833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Signs: Unseen Warnings and Quiet Suffering"
+        },
+        {
+          "startTime": 293.104666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Signs: Unseen Warnings and Quiet Suffering and Chapter 2 Institutional Blindness: Bureaucracy, Denial, and the Cost of Delay"
+        },
+        {
+          "startTime": 483.976874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Institutional Blindness: Bureaucracy, Denial, and the Cost of Delay and Chapter 3 The Human Toll: Stories of Loss, Stigma, and Resilience"
+        },
+        {
+          "startTime": 657.7826239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Toll: Stories of Loss, Stigma, and Resilience and Chapter 4 The Struggle for Recognition: Activism, Journalism, and the Fight for Truth"
+        },
+        {
+          "startTime": 851.0027909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle for Recognition: Activism, Journalism, and the Fight for Truth and Chapter 5 Science and Uncertainty: Searching for Answers Amid Chaos"
+        },
+        {
+          "startTime": 1034.0367489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Science and Uncertainty: Searching for Answers Amid Chaos and Chapter 6 The Tipping Point: Public Awareness and the Shifting Conversation"
+        },
+        {
+          "startTime": 1240.8566239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Tipping Point: Public Awareness and the Shifting Conversation and Chapter 7 The Politics of Care: Funding, Policy, and the Battle for Resources"
+        },
+        {
+          "startTime": 1447.5190819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Politics of Care: Funding, Policy, and the Battle for Resources and Chapter 8 The Personal Becomes Political: Grassroots Movements and the Power of Community"
+        },
+        {
+          "startTime": 1615.6313319999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Personal Becomes Political: Grassroots Movements and the Power of Community and Chapter 9 Reckoning and Reflection: Facing the Legacy of the Epidemic"
+        },
+        {
+          "startTime": 1765.2473319999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reckoning and Reflection: Facing the Legacy of the Epidemic and Chapter 10 Enduring Lessons: Memory, Hope, and the Work Ahead"
+        },
+        {
+          "startTime": 1916.2868739999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Lessons: Memory, Hope, and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2950",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:36:58.427Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

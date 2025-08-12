@@ -1,0 +1,456 @@
+{
+  "bookId": "3076",
+  "timestamp": "2025-07-14T16:41:16.112Z",
+  "success": false,
+  "processingTime": -1752510752709,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5716,
+    "totalAudioFiles": 12,
+    "totalDuration": 2670.668707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2670.668707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3076/optimized_text/3076.md",
+    "fileSize": 740,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "3076.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3076/metadata/3076_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2670.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3076/metadata/3076_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3076/metadata/3076_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3076/3076_complete.wav",
+    "duration": 2670.668708,
+    "fileSize": 128192176,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3076/introduction.wav",
+          "duration": 81.570292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.570292,
+          "startTime": 0,
+          "endTime": 81.570292
+        },
+        {
+          "path": "Audio/output/3076/chapter_01.wav",
+          "duration": 248.904083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Certainty and the Roots of Restlessness",
+          "actualDuration": 248.904083,
+          "startTime": 83.070292,
+          "endTime": 331.974375
+        },
+        {
+          "path": "Audio/output/3076/chapter_02.wav",
+          "duration": 254.21425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Illusion of Control and the Trap of the Ego",
+          "actualDuration": 254.21425,
+          "startTime": 333.474375,
+          "endTime": 587.688625
+        },
+        {
+          "path": "Audio/output/3076/chapter_03.wav",
+          "duration": 263.500125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Nature of Anxiety and the Cost of Escaping the Present",
+          "actualDuration": 263.500125,
+          "startTime": 589.188625,
+          "endTime": 852.68875
+        },
+        {
+          "path": "Audio/output/3076/chapter_04.wav",
+          "duration": 273.5535,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Impermanence and Finding Freedom in Change",
+          "actualDuration": 273.5535,
+          "startTime": 854.18875,
+          "endTime": 1127.74225
+        },
+        {
+          "path": "Audio/output/3076/chapter_05.wav",
+          "duration": 234.081708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Presence and the Path to Inner Peace",
+          "actualDuration": 234.081708,
+          "startTime": 1129.24225,
+          "endTime": 1363.323958
+        },
+        {
+          "path": "Audio/output/3076/chapter_06.wav",
+          "duration": 262.302375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Letting Go of the Self: Beyond the Illusion of Separation",
+          "actualDuration": 262.302375,
+          "startTime": 1364.823958,
+          "endTime": 1627.126333
+        },
+        {
+          "path": "Audio/output/3076/chapter_07.wav",
+          "duration": 223.663208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Eastern and Western Wisdom: A New Perspective on Security",
+          "actualDuration": 223.663208,
+          "startTime": 1628.626333,
+          "endTime": 1852.2895409999999
+        },
+        {
+          "path": "Audio/output/3076/chapter_08.wav",
+          "duration": 238.306375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Practice of Surrender: Trusting the Flow of Life",
+          "actualDuration": 238.306375,
+          "startTime": 1853.7895409999999,
+          "endTime": 2092.0959159999998
+        },
+        {
+          "path": "Audio/output/3076/chapter_09.wav",
+          "duration": 225.246458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with Uncertainty: Cultivating Resilience and Joy",
+          "actualDuration": 225.246458,
+          "startTime": 2093.5959159999998,
+          "endTime": 2318.842374
+        },
+        {
+          "path": "Audio/output/3076/chapter_10.wav",
+          "duration": 215.185958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Wisdom of Insecurity: A New Way of Being",
+          "actualDuration": 215.185958,
+          "startTime": 2320.342374,
+          "endTime": 2535.528332
+        },
+        {
+          "path": "Audio/output/3076/conclusion.wav",
+          "duration": 150.140375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.140375,
+          "startTime": 2537.028332,
+          "endTime": 2687.168707
+        }
+      ],
+      "totalDuration": 2687.168707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.57,
+          "actualStart": 0,
+          "actualEnd": 81.570292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Certainty and the Roots of Restlessness",
+          "expectedStart": 81.57,
+          "expectedEnd": 330.47,
+          "actualStart": 83.070292,
+          "actualEnd": 331.974375,
+          "timeDifference": 1.5002920000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Illusion of Control and the Trap of the Ego",
+          "expectedStart": 330.47,
+          "expectedEnd": 584.68,
+          "actualStart": 333.474375,
+          "actualEnd": 587.688625,
+          "timeDifference": 3.004374999999982
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Nature of Anxiety and the Cost of Escaping the Present",
+          "expectedStart": 584.68,
+          "expectedEnd": 848.18,
+          "actualStart": 589.188625,
+          "actualEnd": 852.68875,
+          "timeDifference": 4.508625000000052
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Impermanence and Finding Freedom in Change",
+          "expectedStart": 848.18,
+          "expectedEnd": 1121.73,
+          "actualStart": 854.18875,
+          "actualEnd": 1127.74225,
+          "timeDifference": 6.008750000000077
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Presence and the Path to Inner Peace",
+          "expectedStart": 1121.73,
+          "expectedEnd": 1355.81,
+          "actualStart": 1129.24225,
+          "actualEnd": 1363.323958,
+          "timeDifference": 7.5122499999999945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Letting Go of the Self: Beyond the Illusion of Separation",
+          "expectedStart": 1355.81,
+          "expectedEnd": 1618.11,
+          "actualStart": 1364.823958,
+          "actualEnd": 1627.126333,
+          "timeDifference": 9.013958000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Eastern and Western Wisdom: A New Perspective on Security",
+          "expectedStart": 1618.11,
+          "expectedEnd": 1841.77,
+          "actualStart": 1628.626333,
+          "actualEnd": 1852.2895409999999,
+          "timeDifference": 10.516333000000031
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Practice of Surrender: Trusting the Flow of Life",
+          "expectedStart": 1841.77,
+          "expectedEnd": 2080.08,
+          "actualStart": 1853.7895409999999,
+          "actualEnd": 2092.0959159999998,
+          "timeDifference": 12.01954099999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with Uncertainty: Cultivating Resilience and Joy",
+          "expectedStart": 2080.08,
+          "expectedEnd": 2305.33,
+          "actualStart": 2093.5959159999998,
+          "actualEnd": 2318.842374,
+          "timeDifference": 13.515915999999834
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Wisdom of Insecurity: A New Way of Being",
+          "expectedStart": 2305.33,
+          "expectedEnd": 2520.52,
+          "actualStart": 2320.342374,
+          "actualEnd": 2535.528332,
+          "timeDifference": 15.012373999999909
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2520.52,
+          "expectedEnd": 2670.66,
+          "actualStart": 2537.028332,
+          "actualEnd": 2687.168707,
+          "timeDifference": 16.508331999999882
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.570292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Certainty and the Roots of Restlessness"
+        },
+        {
+          "startTime": 331.974375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Certainty and the Roots of Restlessness and Chapter 2 The Illusion of Control and the Trap of the Ego"
+        },
+        {
+          "startTime": 587.688625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Illusion of Control and the Trap of the Ego and Chapter 3 The Nature of Anxiety and the Cost of Escaping the Present"
+        },
+        {
+          "startTime": 852.68875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Nature of Anxiety and the Cost of Escaping the Present and Chapter 4 Embracing Impermanence and Finding Freedom in Change"
+        },
+        {
+          "startTime": 1127.74225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Impermanence and Finding Freedom in Change and Chapter 5 The Power of Presence and the Path to Inner Peace"
+        },
+        {
+          "startTime": 1363.323958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Presence and the Path to Inner Peace and Chapter 6 Letting Go of the Self: Beyond the Illusion of Separation"
+        },
+        {
+          "startTime": 1627.126333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Letting Go of the Self: Beyond the Illusion of Separation and Chapter 7 Integrating Eastern and Western Wisdom: A New Perspective on Security"
+        },
+        {
+          "startTime": 1852.2895409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Eastern and Western Wisdom: A New Perspective on Security and Chapter 8 The Practice of Surrender: Trusting the Flow of Life"
+        },
+        {
+          "startTime": 2092.0959159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Practice of Surrender: Trusting the Flow of Life and Chapter 9 Living with Uncertainty: Cultivating Resilience and Joy"
+        },
+        {
+          "startTime": 2318.842374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with Uncertainty: Cultivating Resilience and Joy and Chapter 10 The Wisdom of Insecurity: A New Way of Being"
+        },
+        {
+          "startTime": 2535.528332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Wisdom of Insecurity: A New Way of Being and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3076",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:32:33.945Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

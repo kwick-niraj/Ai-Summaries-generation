@@ -1,0 +1,456 @@
+{
+  "bookId": "2898",
+  "timestamp": "2025-07-14T03:04:26.535Z",
+  "success": false,
+  "processingTime": -1752461986538,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3769,
+    "totalAudioFiles": 12,
+    "totalDuration": 2016.6800819999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2016.6800819999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2898/optimized_text/2898.md",
+    "fileSize": 701,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2898.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2898/metadata/2898_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2016.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2898/metadata/2898_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2898/metadata/2898_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2898/2898_complete.wav",
+    "duration": 2016.680083,
+    "fileSize": 96800722,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2898/introduction.wav",
+          "duration": 96.341333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.341333,
+          "startTime": 0,
+          "endTime": 96.341333
+        },
+        {
+          "path": "Audio/output/2898/chapter_01.wav",
+          "duration": 192.173583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Hidden Patterns That Shape Perception",
+          "actualDuration": 192.173583,
+          "startTime": 97.841333,
+          "endTime": 290.014916
+        },
+        {
+          "path": "Audio/output/2898/chapter_02.wav",
+          "duration": 199.051833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Bias Shapes Communication and Fuels Misunderstandings",
+          "actualDuration": 199.051833,
+          "startTime": 291.514916,
+          "endTime": 490.566749
+        },
+        {
+          "path": "Audio/output/2898/chapter_03.wav",
+          "duration": 166.029542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Self-Awareness as the Foundation for Change",
+          "actualDuration": 166.029542,
+          "startTime": 492.066749,
+          "endTime": 658.0962910000001
+        },
+        {
+          "path": "Audio/output/2898/chapter_04.wav",
+          "duration": 200.265208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Empathy and Active Listening as Tools for Bridging Divides",
+          "actualDuration": 200.265208,
+          "startTime": 659.5962910000001,
+          "endTime": 859.8614990000001
+        },
+        {
+          "path": "Audio/output/2898/chapter_05.wav",
+          "duration": 216.007542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Strategies for Challenging and Reframing Biased Thinking",
+          "actualDuration": 216.007542,
+          "startTime": 861.3614990000001,
+          "endTime": 1077.3690410000002
+        },
+        {
+          "path": "Audio/output/2898/chapter_06.wav",
+          "duration": 183.858,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Repairing Relationships After Bias-Driven Conflict",
+          "actualDuration": 183.858,
+          "startTime": 1078.8690410000002,
+          "endTime": 1262.727041
+        },
+        {
+          "path": "Audio/output/2898/chapter_07.wav",
+          "duration": 170.480458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Creating Environments That Reduce Bias",
+          "actualDuration": 170.480458,
+          "startTime": 1264.227041,
+          "endTime": 1434.707499
+        },
+        {
+          "path": "Audio/output/2898/chapter_08.wav",
+          "duration": 153.841708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Growth Through Ongoing Practice",
+          "actualDuration": 153.841708,
+          "startTime": 1436.207499,
+          "endTime": 1590.049207
+        },
+        {
+          "path": "Audio/output/2898/chapter_09.wav",
+          "duration": 174.494375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Cultural and Systemic Bias",
+          "actualDuration": 174.494375,
+          "startTime": 1591.549207,
+          "endTime": 1766.043582
+        },
+        {
+          "path": "Audio/output/2898/chapter_10.wav",
+          "duration": 113.059542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Bias Awareness Into Everyday Life",
+          "actualDuration": 113.059542,
+          "startTime": 1767.543582,
+          "endTime": 1880.603124
+        },
+        {
+          "path": "Audio/output/2898/conclusion.wav",
+          "duration": 151.076958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 151.076958,
+          "startTime": 1882.103124,
+          "endTime": 2033.1800819999999
+        }
+      ],
+      "totalDuration": 2033.1800819999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.34,
+          "actualStart": 0,
+          "actualEnd": 96.341333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Hidden Patterns That Shape Perception",
+          "expectedStart": 96.34,
+          "expectedEnd": 288.51,
+          "actualStart": 97.841333,
+          "actualEnd": 290.014916,
+          "timeDifference": 1.5013330000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Bias Shapes Communication and Fuels Misunderstandings",
+          "expectedStart": 288.51,
+          "expectedEnd": 487.56,
+          "actualStart": 291.514916,
+          "actualEnd": 490.566749,
+          "timeDifference": 3.004916000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Self-Awareness as the Foundation for Change",
+          "expectedStart": 487.56,
+          "expectedEnd": 653.59,
+          "actualStart": 492.066749,
+          "actualEnd": 658.0962910000001,
+          "timeDifference": 4.506749000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Empathy and Active Listening as Tools for Bridging Divides",
+          "expectedStart": 653.59,
+          "expectedEnd": 853.86,
+          "actualStart": 659.5962910000001,
+          "actualEnd": 859.8614990000001,
+          "timeDifference": 6.006291000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Strategies for Challenging and Reframing Biased Thinking",
+          "expectedStart": 853.86,
+          "expectedEnd": 1069.87,
+          "actualStart": 861.3614990000001,
+          "actualEnd": 1077.3690410000002,
+          "timeDifference": 7.501499000000081
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Repairing Relationships After Bias-Driven Conflict",
+          "expectedStart": 1069.87,
+          "expectedEnd": 1253.73,
+          "actualStart": 1078.8690410000002,
+          "actualEnd": 1262.727041,
+          "timeDifference": 8.999041000000261
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Creating Environments That Reduce Bias",
+          "expectedStart": 1253.73,
+          "expectedEnd": 1424.21,
+          "actualStart": 1264.227041,
+          "actualEnd": 1434.707499,
+          "timeDifference": 10.497041000000081
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Growth Through Ongoing Practice",
+          "expectedStart": 1424.21,
+          "expectedEnd": 1578.05,
+          "actualStart": 1436.207499,
+          "actualEnd": 1590.049207,
+          "timeDifference": 11.997499000000062
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Cultural and Systemic Bias",
+          "expectedStart": 1578.05,
+          "expectedEnd": 1752.54,
+          "actualStart": 1591.549207,
+          "actualEnd": 1766.043582,
+          "timeDifference": 13.49920700000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Bias Awareness Into Everyday Life",
+          "expectedStart": 1752.54,
+          "expectedEnd": 1865.6,
+          "actualStart": 1767.543582,
+          "actualEnd": 1880.603124,
+          "timeDifference": 15.003582000000051
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1865.6,
+          "expectedEnd": 2016.68,
+          "actualStart": 1882.103124,
+          "actualEnd": 2033.1800819999999,
+          "timeDifference": 16.50312400000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.341333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Hidden Patterns That Shape Perception"
+        },
+        {
+          "startTime": 290.014916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Hidden Patterns That Shape Perception and Chapter 2 How Bias Shapes Communication and Fuels Misunderstandings"
+        },
+        {
+          "startTime": 490.566749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Bias Shapes Communication and Fuels Misunderstandings and Chapter 3 Building Self-Awareness as the Foundation for Change"
+        },
+        {
+          "startTime": 658.0962910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Self-Awareness as the Foundation for Change and Chapter 4 Empathy and Active Listening as Tools for Bridging Divides"
+        },
+        {
+          "startTime": 859.8614990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Empathy and Active Listening as Tools for Bridging Divides and Chapter 5 Practical Strategies for Challenging and Reframing Biased Thinking"
+        },
+        {
+          "startTime": 1077.3690410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Strategies for Challenging and Reframing Biased Thinking and Chapter 6 Repairing Relationships After Bias-Driven Conflict"
+        },
+        {
+          "startTime": 1262.727041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Repairing Relationships After Bias-Driven Conflict and Chapter 7 Creating Environments That Reduce Bias"
+        },
+        {
+          "startTime": 1434.707499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Creating Environments That Reduce Bias and Chapter 8 Sustaining Growth Through Ongoing Practice"
+        },
+        {
+          "startTime": 1590.049207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Growth Through Ongoing Practice and Chapter 9 Navigating Cultural and Systemic Bias"
+        },
+        {
+          "startTime": 1766.043582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Cultural and Systemic Bias and Chapter 10 Integrating Bias Awareness Into Everyday Life"
+        },
+        {
+          "startTime": 1880.603124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Bias Awareness Into Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2898",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:59:47.065Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

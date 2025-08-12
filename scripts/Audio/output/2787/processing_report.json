@@ -1,0 +1,504 @@
+{
+  "bookId": "2787",
+  "timestamp": "2025-07-13T19:38:29.905Z",
+  "success": false,
+  "processingTime": -1752435113342,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5164,
+    "totalAudioFiles": 14,
+    "totalDuration": 2442.49029
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2442.49029
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2787/optimized_text/2787.md",
+    "fileSize": 868,
+    "wordCount": 130,
+    "format": "markdown",
+    "filename": "2787.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2787/metadata/2787_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2442.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2787/metadata/2787_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2787/metadata/2787_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2787/2787_complete.wav",
+    "duration": 2442.490292,
+    "fileSize": 117239612,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2787/introduction.wav",
+          "duration": 85.229333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.229333,
+          "startTime": 0,
+          "endTime": 85.229333
+        },
+        {
+          "path": "Audio/output/2787/chapter_01.wav",
+          "duration": 245.266542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Mind’s Hidden Shortcuts and Everyday Self-Deception",
+          "actualDuration": 245.266542,
+          "startTime": 86.729333,
+          "endTime": 331.99587499999996
+        },
+        {
+          "path": "Audio/output/2787/chapter_02.wav",
+          "duration": 226.021125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unreliable Nature of Memory and Personal History",
+          "actualDuration": 226.021125,
+          "startTime": 333.49587499999996,
+          "endTime": 559.5169999999999
+        },
+        {
+          "path": "Audio/output/2787/chapter_03.wav",
+          "duration": 210.709458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Stories We Tell Ourselves and the Power of Rationalization",
+          "actualDuration": 210.709458,
+          "startTime": 561.0169999999999,
+          "endTime": 771.726458
+        },
+        {
+          "path": "Audio/output/2787/chapter_04.wav",
+          "duration": 217.844875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Intuition and the Illusion of Understanding",
+          "actualDuration": 217.844875,
+          "startTime": 773.226458,
+          "endTime": 991.071333
+        },
+        {
+          "path": "Audio/output/2787/chapter_05.wav",
+          "duration": 200.440458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Social Mind and the Need for Belonging",
+          "actualDuration": 200.440458,
+          "startTime": 992.571333,
+          "endTime": 1193.011791
+        },
+        {
+          "path": "Audio/output/2787/chapter_06.wav",
+          "duration": 163.160208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Comfort of Certainty and the Trap of Overconfidence",
+          "actualDuration": 163.160208,
+          "startTime": 1194.511791,
+          "endTime": 1357.671999
+        },
+        {
+          "path": "Audio/output/2787/chapter_07.wav",
+          "duration": 155.496417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Influence of Authority and the Power of Obedience",
+          "actualDuration": 155.496417,
+          "startTime": 1359.171999,
+          "endTime": 1514.668416
+        },
+        {
+          "path": "Audio/output/2787/chapter_08.wav",
+          "duration": 173.3445,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Pull of Groupthink and the Cost of Consensus",
+          "actualDuration": 173.3445,
+          "startTime": 1516.168416,
+          "endTime": 1689.512916
+        },
+        {
+          "path": "Audio/output/2787/chapter_09.wav",
+          "duration": 156.923333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Subtle Power of Framing and the Language of Persuasion",
+          "actualDuration": 156.923333,
+          "startTime": 1691.012916,
+          "endTime": 1847.9362489999999
+        },
+        {
+          "path": "Audio/output/2787/chapter_10.wav",
+          "duration": 162.566208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Myth of Willpower and the Reality of Self-Control",
+          "actualDuration": 162.566208,
+          "startTime": 1849.4362489999999,
+          "endTime": 2012.0024569999998
+        },
+        {
+          "path": "Audio/output/2787/chapter_11.wav",
+          "duration": 156.489208,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Lure of Stories and the Need for Meaning",
+          "actualDuration": 156.489208,
+          "startTime": 2013.5024569999998,
+          "endTime": 2169.991665
+        },
+        {
+          "path": "Audio/output/2787/chapter_12.wav",
+          "duration": 150.574625,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Path to Self-Awareness and Critical Thinking",
+          "actualDuration": 150.574625,
+          "startTime": 2171.491665,
+          "endTime": 2322.06629
+        },
+        {
+          "path": "Audio/output/2787/conclusion.wav",
+          "duration": 138.424,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.424,
+          "startTime": 2323.56629,
+          "endTime": 2461.99029
+        }
+      ],
+      "totalDuration": 2461.99029,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.23,
+          "actualStart": 0,
+          "actualEnd": 85.229333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Mind’s Hidden Shortcuts and Everyday Self-Deception",
+          "expectedStart": 85.23,
+          "expectedEnd": 330.5,
+          "actualStart": 86.729333,
+          "actualEnd": 331.99587499999996,
+          "timeDifference": 1.499332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unreliable Nature of Memory and Personal History",
+          "expectedStart": 330.5,
+          "expectedEnd": 556.52,
+          "actualStart": 333.49587499999996,
+          "actualEnd": 559.5169999999999,
+          "timeDifference": 2.9958749999999554
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Stories We Tell Ourselves and the Power of Rationalization",
+          "expectedStart": 556.52,
+          "expectedEnd": 767.23,
+          "actualStart": 561.0169999999999,
+          "actualEnd": 771.726458,
+          "timeDifference": 4.496999999999957
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Intuition and the Illusion of Understanding",
+          "expectedStart": 767.23,
+          "expectedEnd": 985.07,
+          "actualStart": 773.226458,
+          "actualEnd": 991.071333,
+          "timeDifference": 5.996457999999961
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Social Mind and the Need for Belonging",
+          "expectedStart": 985.07,
+          "expectedEnd": 1185.51,
+          "actualStart": 992.571333,
+          "actualEnd": 1193.011791,
+          "timeDifference": 7.501332999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Comfort of Certainty and the Trap of Overconfidence",
+          "expectedStart": 1185.51,
+          "expectedEnd": 1348.67,
+          "actualStart": 1194.511791,
+          "actualEnd": 1357.671999,
+          "timeDifference": 9.001790999999912
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Influence of Authority and the Power of Obedience",
+          "expectedStart": 1348.67,
+          "expectedEnd": 1504.17,
+          "actualStart": 1359.171999,
+          "actualEnd": 1514.668416,
+          "timeDifference": 10.501998999999842
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Pull of Groupthink and the Cost of Consensus",
+          "expectedStart": 1504.17,
+          "expectedEnd": 1677.51,
+          "actualStart": 1516.168416,
+          "actualEnd": 1689.512916,
+          "timeDifference": 11.998415999999906
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Subtle Power of Framing and the Language of Persuasion",
+          "expectedStart": 1677.51,
+          "expectedEnd": 1834.43,
+          "actualStart": 1691.012916,
+          "actualEnd": 1847.9362489999999,
+          "timeDifference": 13.502915999999914
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Myth of Willpower and the Reality of Self-Control",
+          "expectedStart": 1834.43,
+          "expectedEnd": 1997,
+          "actualStart": 1849.4362489999999,
+          "actualEnd": 2012.0024569999998,
+          "timeDifference": 15.006248999999798
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Lure of Stories and the Need for Meaning",
+          "expectedStart": 1997,
+          "expectedEnd": 2153.49,
+          "actualStart": 2013.5024569999998,
+          "actualEnd": 2169.991665,
+          "timeDifference": 16.502456999999822
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Path to Self-Awareness and Critical Thinking",
+          "expectedStart": 2153.49,
+          "expectedEnd": 2304.06,
+          "actualStart": 2171.491665,
+          "actualEnd": 2322.06629,
+          "timeDifference": 18.00166500000023
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2304.06,
+          "expectedEnd": 2442.48,
+          "actualStart": 2323.56629,
+          "actualEnd": 2461.99029,
+          "timeDifference": 19.506290000000263
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.229333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Mind’s Hidden Shortcuts and Everyday Self-Deception"
+        },
+        {
+          "startTime": 331.99587499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Mind’s Hidden Shortcuts and Everyday Self-Deception and Chapter 2 The Unreliable Nature of Memory and Personal History"
+        },
+        {
+          "startTime": 559.5169999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unreliable Nature of Memory and Personal History and Chapter 3 The Stories We Tell Ourselves and the Power of Rationalization"
+        },
+        {
+          "startTime": 771.726458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Stories We Tell Ourselves and the Power of Rationalization and Chapter 4 The Limits of Intuition and the Illusion of Understanding"
+        },
+        {
+          "startTime": 991.071333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Intuition and the Illusion of Understanding and Chapter 5 The Social Mind and the Need for Belonging"
+        },
+        {
+          "startTime": 1193.011791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Social Mind and the Need for Belonging and Chapter 6 The Comfort of Certainty and the Trap of Overconfidence"
+        },
+        {
+          "startTime": 1357.671999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Comfort of Certainty and the Trap of Overconfidence and Chapter 7 The Influence of Authority and the Power of Obedience"
+        },
+        {
+          "startTime": 1514.668416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Influence of Authority and the Power of Obedience and Chapter 8 The Pull of Groupthink and the Cost of Consensus"
+        },
+        {
+          "startTime": 1689.512916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Pull of Groupthink and the Cost of Consensus and Chapter 9 The Subtle Power of Framing and the Language of Persuasion"
+        },
+        {
+          "startTime": 1847.9362489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Subtle Power of Framing and the Language of Persuasion and Chapter 10 The Myth of Willpower and the Reality of Self-Control"
+        },
+        {
+          "startTime": 2012.0024569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Myth of Willpower and the Reality of Self-Control and Chapter 11 The Lure of Stories and the Need for Meaning"
+        },
+        {
+          "startTime": 2169.991665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Lure of Stories and the Need for Meaning and Chapter 12 The Path to Self-Awareness and Critical Thinking"
+        },
+        {
+          "startTime": 2322.06629,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Path to Self-Awareness and Critical Thinking and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2787",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:31:56.285Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

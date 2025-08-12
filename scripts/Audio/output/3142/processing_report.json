@@ -1,0 +1,456 @@
+{
+  "bookId": "3142",
+  "timestamp": "2025-07-14T21:38:14.402Z",
+  "success": false,
+  "processingTime": -1752528774828,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4454,
+    "totalAudioFiles": 12,
+    "totalDuration": 2507.417249
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2507.417249
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3142/optimized_text/3142.md",
+    "fileSize": 728,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3142.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3142/metadata/3142_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2507.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3142/metadata/3142_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3142/metadata/3142_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3142/3142_complete.wav",
+    "duration": 2507.41725,
+    "fileSize": 120356106,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3142/introduction.wav",
+          "duration": 101.211667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.211667,
+          "startTime": 0,
+          "endTime": 101.211667
+        },
+        {
+          "path": "Audio/output/3142/chapter_01.wav",
+          "duration": 266.037375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Hidden World Inside and Around Us",
+          "actualDuration": 266.037375,
+          "startTime": 102.711667,
+          "endTime": 368.74904200000003
+        },
+        {
+          "path": "Audio/output/3142/chapter_02.wav",
+          "duration": 265.242833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Microbes as Essential Partners in Every Animal’s Life",
+          "actualDuration": 265.242833,
+          "startTime": 370.24904200000003,
+          "endTime": 635.491875
+        },
+        {
+          "path": "Audio/output/3142/chapter_03.wav",
+          "duration": 264.373958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Microbes Shape Health, Immunity, and Development",
+          "actualDuration": 264.373958,
+          "startTime": 636.991875,
+          "endTime": 901.3658330000001
+        },
+        {
+          "path": "Audio/output/3142/chapter_04.wav",
+          "duration": 280.772083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Microbes as Drivers of Evolution and Innovation",
+          "actualDuration": 280.772083,
+          "startTime": 902.8658330000001,
+          "endTime": 1183.6379160000001
+        },
+        {
+          "path": "Audio/output/3142/chapter_05.wav",
+          "duration": 242.902667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking the Battle: Microbes Beyond Good and Bad",
+          "actualDuration": 242.902667,
+          "startTime": 1185.1379160000001,
+          "endTime": 1428.0405830000002
+        },
+        {
+          "path": "Audio/output/3142/chapter_06.wav",
+          "duration": 197.355208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Microbes and the Mind: The Invisible Influence on Behavior",
+          "actualDuration": 197.355208,
+          "startTime": 1429.5405830000002,
+          "endTime": 1626.8957910000001
+        },
+        {
+          "path": "Audio/output/3142/chapter_07.wav",
+          "duration": 206.722208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Risks and Rewards of Manipulating Microbiomes",
+          "actualDuration": 206.722208,
+          "startTime": 1628.3957910000001,
+          "endTime": 1835.117999
+        },
+        {
+          "path": "Audio/output/3142/chapter_08.wav",
+          "duration": 211.269958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Microbes in the Modern World: Challenges and Opportunities",
+          "actualDuration": 211.269958,
+          "startTime": 1836.617999,
+          "endTime": 2047.8879570000001
+        },
+        {
+          "path": "Audio/output/3142/chapter_09.wav",
+          "duration": 164.290417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Our Relationship with Microbes",
+          "actualDuration": 164.290417,
+          "startTime": 2049.387957,
+          "endTime": 2213.678374
+        },
+        {
+          "path": "Audio/output/3142/chapter_10.wav",
+          "duration": 143.841958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Multitudes Within: A New Way of Seeing Ourselves",
+          "actualDuration": 143.841958,
+          "startTime": 2215.178374,
+          "endTime": 2359.020332
+        },
+        {
+          "path": "Audio/output/3142/conclusion.wav",
+          "duration": 163.396917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 163.396917,
+          "startTime": 2360.520332,
+          "endTime": 2523.917249
+        }
+      ],
+      "totalDuration": 2523.917249,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.21,
+          "actualStart": 0,
+          "actualEnd": 101.211667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Hidden World Inside and Around Us",
+          "expectedStart": 101.21,
+          "expectedEnd": 367.25,
+          "actualStart": 102.711667,
+          "actualEnd": 368.74904200000003,
+          "timeDifference": 1.5016670000000119
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Microbes as Essential Partners in Every Animal’s Life",
+          "expectedStart": 367.25,
+          "expectedEnd": 632.49,
+          "actualStart": 370.24904200000003,
+          "actualEnd": 635.491875,
+          "timeDifference": 2.9990420000000313
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Microbes Shape Health, Immunity, and Development",
+          "expectedStart": 632.49,
+          "expectedEnd": 896.86,
+          "actualStart": 636.991875,
+          "actualEnd": 901.3658330000001,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Microbes as Drivers of Evolution and Innovation",
+          "expectedStart": 896.86,
+          "expectedEnd": 1177.63,
+          "actualStart": 902.8658330000001,
+          "actualEnd": 1183.6379160000001,
+          "timeDifference": 6.005833000000052
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking the Battle: Microbes Beyond Good and Bad",
+          "expectedStart": 1177.63,
+          "expectedEnd": 1420.53,
+          "actualStart": 1185.1379160000001,
+          "actualEnd": 1428.0405830000002,
+          "timeDifference": 7.507916000000023
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Microbes and the Mind: The Invisible Influence on Behavior",
+          "expectedStart": 1420.53,
+          "expectedEnd": 1617.89,
+          "actualStart": 1429.5405830000002,
+          "actualEnd": 1626.8957910000001,
+          "timeDifference": 9.010583000000224
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Risks and Rewards of Manipulating Microbiomes",
+          "expectedStart": 1617.89,
+          "expectedEnd": 1824.61,
+          "actualStart": 1628.3957910000001,
+          "actualEnd": 1835.117999,
+          "timeDifference": 10.505791000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Microbes in the Modern World: Challenges and Opportunities",
+          "expectedStart": 1824.61,
+          "expectedEnd": 2035.88,
+          "actualStart": 1836.617999,
+          "actualEnd": 2047.8879570000001,
+          "timeDifference": 12.007999000000154
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Our Relationship with Microbes",
+          "expectedStart": 2035.88,
+          "expectedEnd": 2200.17,
+          "actualStart": 2049.387957,
+          "actualEnd": 2213.678374,
+          "timeDifference": 13.507956999999806
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Multitudes Within: A New Way of Seeing Ourselves",
+          "expectedStart": 2200.17,
+          "expectedEnd": 2344.01,
+          "actualStart": 2215.178374,
+          "actualEnd": 2359.020332,
+          "timeDifference": 15.008374000000003
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2344.01,
+          "expectedEnd": 2507.41,
+          "actualStart": 2360.520332,
+          "actualEnd": 2523.917249,
+          "timeDifference": 16.510331999999835
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.211667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Hidden World Inside and Around Us"
+        },
+        {
+          "startTime": 368.74904200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Hidden World Inside and Around Us and Chapter 2 Microbes as Essential Partners in Every Animal’s Life"
+        },
+        {
+          "startTime": 635.491875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Microbes as Essential Partners in Every Animal’s Life and Chapter 3 How Microbes Shape Health, Immunity, and Development"
+        },
+        {
+          "startTime": 901.3658330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Microbes Shape Health, Immunity, and Development and Chapter 4 Microbes as Drivers of Evolution and Innovation"
+        },
+        {
+          "startTime": 1183.6379160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Microbes as Drivers of Evolution and Innovation and Chapter 5 Rethinking the Battle: Microbes Beyond Good and Bad"
+        },
+        {
+          "startTime": 1428.0405830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking the Battle: Microbes Beyond Good and Bad and Chapter 6 Microbes and the Mind: The Invisible Influence on Behavior"
+        },
+        {
+          "startTime": 1626.8957910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Microbes and the Mind: The Invisible Influence on Behavior and Chapter 7 The Risks and Rewards of Manipulating Microbiomes"
+        },
+        {
+          "startTime": 1835.117999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Risks and Rewards of Manipulating Microbiomes and Chapter 8 Microbes in the Modern World: Challenges and Opportunities"
+        },
+        {
+          "startTime": 2047.8879570000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Microbes in the Modern World: Challenges and Opportunities and Chapter 9 The Future of Our Relationship with Microbes"
+        },
+        {
+          "startTime": 2213.678374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Our Relationship with Microbes and Chapter 10 Embracing the Multitudes Within: A New Way of Seeing Ourselves"
+        },
+        {
+          "startTime": 2359.020332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Multitudes Within: A New Way of Seeing Ourselves and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3142",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T21:32:55.359Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

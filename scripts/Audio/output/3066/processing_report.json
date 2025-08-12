@@ -1,0 +1,456 @@
+{
+  "bookId": "3066",
+  "timestamp": "2025-07-14T16:03:28.594Z",
+  "success": false,
+  "processingTime": -1752508711862,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4404,
+    "totalAudioFiles": 12,
+    "totalDuration": 2102.901166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2102.901166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3066/optimized_text/3066.md",
+    "fileSize": 681,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "3066.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3066/metadata/3066_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2102.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3066/metadata/3066_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3066/metadata/3066_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3066/3066_complete.wav",
+    "duration": 2102.901167,
+    "fileSize": 100939334,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3066/introduction.wav",
+          "duration": 96.694958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.694958,
+          "startTime": 0,
+          "endTime": 96.694958
+        },
+        {
+          "path": "Audio/output/3066/chapter_01.wav",
+          "duration": 222.506583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Popularity Became a Measure of Leadership",
+          "actualDuration": 222.506583,
+          "startTime": 98.194958,
+          "endTime": 320.701541
+        },
+        {
+          "path": "Audio/output/3066/chapter_02.wav",
+          "duration": 203.37625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Celebrity Culture in American Politics",
+          "actualDuration": 203.37625,
+          "startTime": 322.201541,
+          "endTime": 525.577791
+        },
+        {
+          "path": "Audio/output/3066/chapter_03.wav",
+          "duration": 181.277042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Media’s Power to Shape Presidential Images",
+          "actualDuration": 181.277042,
+          "startTime": 527.077791,
+          "endTime": 708.3548330000001
+        },
+        {
+          "path": "Audio/output/3066/chapter_04.wav",
+          "duration": 208.864625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Comparing Presidents Across Different Eras",
+          "actualDuration": 208.864625,
+          "startTime": 709.8548330000001,
+          "endTime": 918.719458
+        },
+        {
+          "path": "Audio/output/3066/chapter_05.wav",
+          "duration": 176.684375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Tension Between Popularity and Effectiveness",
+          "actualDuration": 176.684375,
+          "startTime": 920.219458,
+          "endTime": 1096.903833
+        },
+        {
+          "path": "Audio/output/3066/chapter_06.wav",
+          "duration": 202.130083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Social Media Presidency: A New Kind of Connection",
+          "actualDuration": 202.130083,
+          "startTime": 1098.403833,
+          "endTime": 1300.533916
+        },
+        {
+          "path": "Audio/output/3066/chapter_07.wav",
+          "duration": 165.719375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Scandals, Setbacks, and the Fragility of Popularity",
+          "actualDuration": 165.719375,
+          "startTime": 1302.033916,
+          "endTime": 1467.753291
+        },
+        {
+          "path": "Audio/output/3066/chapter_08.wav",
+          "duration": 173.243625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Making—and Breaking—of Presidential Myths",
+          "actualDuration": 173.243625,
+          "startTime": 1469.253291,
+          "endTime": 1642.496916
+        },
+        {
+          "path": "Audio/output/3066/chapter_09.wav",
+          "duration": 172.822208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The People’s Role: Shaping and Reflecting Popularity",
+          "actualDuration": 172.822208,
+          "startTime": 1643.996916,
+          "endTime": 1816.819124
+        },
+        {
+          "path": "Audio/output/3066/chapter_10.wav",
+          "duration": 161.457042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Memory, and the Search for Meaning",
+          "actualDuration": 161.457042,
+          "startTime": 1818.319124,
+          "endTime": 1979.776166
+        },
+        {
+          "path": "Audio/output/3066/conclusion.wav",
+          "duration": 138.125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.125,
+          "startTime": 1981.276166,
+          "endTime": 2119.401166
+        }
+      ],
+      "totalDuration": 2119.401166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.69,
+          "actualStart": 0,
+          "actualEnd": 96.694958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Popularity Became a Measure of Leadership",
+          "expectedStart": 96.69,
+          "expectedEnd": 319.2,
+          "actualStart": 98.194958,
+          "actualEnd": 320.701541,
+          "timeDifference": 1.504958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Celebrity Culture in American Politics",
+          "expectedStart": 319.2,
+          "expectedEnd": 522.58,
+          "actualStart": 322.201541,
+          "actualEnd": 525.577791,
+          "timeDifference": 3.0015410000000315
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Media’s Power to Shape Presidential Images",
+          "expectedStart": 522.58,
+          "expectedEnd": 703.86,
+          "actualStart": 527.077791,
+          "actualEnd": 708.3548330000001,
+          "timeDifference": 4.4977910000000065
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Comparing Presidents Across Different Eras",
+          "expectedStart": 703.86,
+          "expectedEnd": 912.72,
+          "actualStart": 709.8548330000001,
+          "actualEnd": 918.719458,
+          "timeDifference": 5.994833000000085
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Tension Between Popularity and Effectiveness",
+          "expectedStart": 912.72,
+          "expectedEnd": 1089.4,
+          "actualStart": 920.219458,
+          "actualEnd": 1096.903833,
+          "timeDifference": 7.499458000000004
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Social Media Presidency: A New Kind of Connection",
+          "expectedStart": 1089.4,
+          "expectedEnd": 1291.53,
+          "actualStart": 1098.403833,
+          "actualEnd": 1300.533916,
+          "timeDifference": 9.003832999999986
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Scandals, Setbacks, and the Fragility of Popularity",
+          "expectedStart": 1291.53,
+          "expectedEnd": 1457.25,
+          "actualStart": 1302.033916,
+          "actualEnd": 1467.753291,
+          "timeDifference": 10.503916000000117
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Making—and Breaking—of Presidential Myths",
+          "expectedStart": 1457.25,
+          "expectedEnd": 1630.49,
+          "actualStart": 1469.253291,
+          "actualEnd": 1642.496916,
+          "timeDifference": 12.00329099999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The People’s Role: Shaping and Reflecting Popularity",
+          "expectedStart": 1630.49,
+          "expectedEnd": 1803.31,
+          "actualStart": 1643.996916,
+          "actualEnd": 1816.819124,
+          "timeDifference": 13.506916000000047
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Memory, and the Search for Meaning",
+          "expectedStart": 1803.31,
+          "expectedEnd": 1964.77,
+          "actualStart": 1818.319124,
+          "actualEnd": 1979.776166,
+          "timeDifference": 15.009124000000156
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1964.77,
+          "expectedEnd": 2102.9,
+          "actualStart": 1981.276166,
+          "actualEnd": 2119.401166,
+          "timeDifference": 16.50616600000012
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.694958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Popularity Became a Measure of Leadership"
+        },
+        {
+          "startTime": 320.701541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Popularity Became a Measure of Leadership and Chapter 2 The Rise of Celebrity Culture in American Politics"
+        },
+        {
+          "startTime": 525.577791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Celebrity Culture in American Politics and Chapter 3 Media’s Power to Shape Presidential Images"
+        },
+        {
+          "startTime": 708.3548330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Media’s Power to Shape Presidential Images and Chapter 4 Comparing Presidents Across Different Eras"
+        },
+        {
+          "startTime": 918.719458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Comparing Presidents Across Different Eras and Chapter 5 The Tension Between Popularity and Effectiveness"
+        },
+        {
+          "startTime": 1096.903833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Tension Between Popularity and Effectiveness and Chapter 6 The Social Media Presidency: A New Kind of Connection"
+        },
+        {
+          "startTime": 1300.533916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Social Media Presidency: A New Kind of Connection and Chapter 7 Scandals, Setbacks, and the Fragility of Popularity"
+        },
+        {
+          "startTime": 1467.753291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Scandals, Setbacks, and the Fragility of Popularity and Chapter 8 The Making—and Breaking—of Presidential Myths"
+        },
+        {
+          "startTime": 1642.496916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Making—and Breaking—of Presidential Myths and Chapter 9 The People’s Role: Shaping and Reflecting Popularity"
+        },
+        {
+          "startTime": 1816.819124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The People’s Role: Shaping and Reflecting Popularity and Chapter 10 Legacy, Memory, and the Search for Meaning"
+        },
+        {
+          "startTime": 1979.776166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Memory, and the Search for Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3066",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:58:33.025Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

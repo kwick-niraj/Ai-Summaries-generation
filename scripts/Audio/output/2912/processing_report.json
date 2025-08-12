@@ -1,0 +1,456 @@
+{
+  "bookId": "2912",
+  "timestamp": "2025-07-14T04:01:19.525Z",
+  "success": false,
+  "processingTime": -1752465340990,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3576,
+    "totalAudioFiles": 12,
+    "totalDuration": 1629.4175819999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1629.4175819999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2912/optimized_text/2912.md",
+    "fileSize": 791,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2912.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2912/metadata/2912_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1629.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2912/metadata/2912_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2912/metadata/2912_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2912/2912_complete.wav",
+    "duration": 1629.417583,
+    "fileSize": 78212122,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2912/introduction.wav",
+          "duration": 108.138625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.138625,
+          "startTime": 0,
+          "endTime": 108.138625
+        },
+        {
+          "path": "Audio/output/2912/chapter_01.wav",
+          "duration": 170.447708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ambition, Promise, and the Lure of Power in Washington",
+          "actualDuration": 170.447708,
+          "startTime": 109.638625,
+          "endTime": 280.086333
+        },
+        {
+          "path": "Audio/output/2912/chapter_02.wav",
+          "duration": 169.15325,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Seeds of Misjudgment and the Weight of History",
+          "actualDuration": 169.15325,
+          "startTime": 281.586333,
+          "endTime": 450.73958300000004
+        },
+        {
+          "path": "Audio/output/2912/chapter_03.wav",
+          "duration": 159.27725,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Machinery of Government and the Power of Groupthink",
+          "actualDuration": 159.27725,
+          "startTime": 452.23958300000004,
+          "endTime": 611.516833
+        },
+        {
+          "path": "Audio/output/2912/chapter_04.wav",
+          "duration": 150.543875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Expertise and the Blind Spots of American Exceptionalism",
+          "actualDuration": 150.543875,
+          "startTime": 613.016833,
+          "endTime": 763.560708
+        },
+        {
+          "path": "Audio/output/2912/chapter_05.wav",
+          "duration": 112.617833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Unintended Consequences and the Human Cost of Policy",
+          "actualDuration": 112.617833,
+          "startTime": 765.060708,
+          "endTime": 877.678541
+        },
+        {
+          "path": "Audio/output/2912/chapter_06.wav",
+          "duration": 154.645333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling—Doubt, Dissent, and the Search for Answers",
+          "actualDuration": 154.645333,
+          "startTime": 879.178541,
+          "endTime": 1033.823874
+        },
+        {
+          "path": "Audio/output/2912/chapter_07.wav",
+          "duration": 131.734083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Accountability and the Burden of Responsibility",
+          "actualDuration": 131.734083,
+          "startTime": 1035.323874,
+          "endTime": 1167.057957
+        },
+        {
+          "path": "Audio/output/2912/chapter_08.wav",
+          "duration": 133.94175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons in Leadership—Humility, Listening, and the Limits of Power",
+          "actualDuration": 133.94175,
+          "startTime": 1168.557957,
+          "endTime": 1302.499707
+        },
+        {
+          "path": "Audio/output/2912/chapter_09.wav",
+          "duration": 118.795917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Impact—Memory, Healing, and the Path Forward",
+          "actualDuration": 118.795917,
+          "startTime": 1303.999707,
+          "endTime": 1422.7956239999999
+        },
+        {
+          "path": "Audio/output/2912/chapter_10.wav",
+          "duration": 95.820375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wisdom for the Future—Leadership, Citizenship, and the Courage to Change",
+          "actualDuration": 95.820375,
+          "startTime": 1424.2956239999999,
+          "endTime": 1520.1159989999999
+        },
+        {
+          "path": "Audio/output/2912/conclusion.wav",
+          "duration": 124.301583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.301583,
+          "startTime": 1521.6159989999999,
+          "endTime": 1645.9175819999998
+        }
+      ],
+      "totalDuration": 1645.9175819999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.14,
+          "actualStart": 0,
+          "actualEnd": 108.138625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ambition, Promise, and the Lure of Power in Washington",
+          "expectedStart": 108.14,
+          "expectedEnd": 278.59,
+          "actualStart": 109.638625,
+          "actualEnd": 280.086333,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Seeds of Misjudgment and the Weight of History",
+          "expectedStart": 278.59,
+          "expectedEnd": 447.74,
+          "actualStart": 281.586333,
+          "actualEnd": 450.73958300000004,
+          "timeDifference": 2.9963330000000497
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Machinery of Government and the Power of Groupthink",
+          "expectedStart": 447.74,
+          "expectedEnd": 607.02,
+          "actualStart": 452.23958300000004,
+          "actualEnd": 611.516833,
+          "timeDifference": 4.49958300000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Expertise and the Blind Spots of American Exceptionalism",
+          "expectedStart": 607.02,
+          "expectedEnd": 757.56,
+          "actualStart": 613.016833,
+          "actualEnd": 763.560708,
+          "timeDifference": 5.996833000000038
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Unintended Consequences and the Human Cost of Policy",
+          "expectedStart": 757.56,
+          "expectedEnd": 870.18,
+          "actualStart": 765.060708,
+          "actualEnd": 877.678541,
+          "timeDifference": 7.5007080000000315
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling—Doubt, Dissent, and the Search for Answers",
+          "expectedStart": 870.18,
+          "expectedEnd": 1024.83,
+          "actualStart": 879.178541,
+          "actualEnd": 1033.823874,
+          "timeDifference": 8.998541000000046
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Accountability and the Burden of Responsibility",
+          "expectedStart": 1024.83,
+          "expectedEnd": 1156.56,
+          "actualStart": 1035.323874,
+          "actualEnd": 1167.057957,
+          "timeDifference": 10.493874000000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons in Leadership—Humility, Listening, and the Limits of Power",
+          "expectedStart": 1156.56,
+          "expectedEnd": 1290.5,
+          "actualStart": 1168.557957,
+          "actualEnd": 1302.499707,
+          "timeDifference": 11.997957000000042
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Impact—Memory, Healing, and the Path Forward",
+          "expectedStart": 1290.5,
+          "expectedEnd": 1409.3,
+          "actualStart": 1303.999707,
+          "actualEnd": 1422.7956239999999,
+          "timeDifference": 13.499706999999944
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wisdom for the Future—Leadership, Citizenship, and the Courage to Change",
+          "expectedStart": 1409.3,
+          "expectedEnd": 1505.12,
+          "actualStart": 1424.2956239999999,
+          "actualEnd": 1520.1159989999999,
+          "timeDifference": 14.995623999999907
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1505.12,
+          "expectedEnd": 1629.42,
+          "actualStart": 1521.6159989999999,
+          "actualEnd": 1645.9175819999998,
+          "timeDifference": 16.495998999999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.138625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ambition, Promise, and the Lure of Power in Washington"
+        },
+        {
+          "startTime": 280.086333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ambition, Promise, and the Lure of Power in Washington and Chapter 2 The Seeds of Misjudgment and the Weight of History"
+        },
+        {
+          "startTime": 450.73958300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Seeds of Misjudgment and the Weight of History and Chapter 3 The Machinery of Government and the Power of Groupthink"
+        },
+        {
+          "startTime": 611.516833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Machinery of Government and the Power of Groupthink and Chapter 4 The Limits of Expertise and the Blind Spots of American Exceptionalism"
+        },
+        {
+          "startTime": 763.560708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Expertise and the Blind Spots of American Exceptionalism and Chapter 5 Unintended Consequences and the Human Cost of Policy"
+        },
+        {
+          "startTime": 877.678541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Unintended Consequences and the Human Cost of Policy and Chapter 6 The Unraveling—Doubt, Dissent, and the Search for Answers"
+        },
+        {
+          "startTime": 1033.823874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling—Doubt, Dissent, and the Search for Answers and Chapter 7 Accountability and the Burden of Responsibility"
+        },
+        {
+          "startTime": 1167.057957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Accountability and the Burden of Responsibility and Chapter 8 Lessons in Leadership—Humility, Listening, and the Limits of Power"
+        },
+        {
+          "startTime": 1302.499707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons in Leadership—Humility, Listening, and the Limits of Power and Chapter 9 The Enduring Impact—Memory, Healing, and the Path Forward"
+        },
+        {
+          "startTime": 1422.7956239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Impact—Memory, Healing, and the Path Forward and Chapter 10 Wisdom for the Future—Leadership, Citizenship, and the Courage to Change"
+        },
+        {
+          "startTime": 1520.1159989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wisdom for the Future—Leadership, Citizenship, and the Courage to Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2912",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:55:41.491Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

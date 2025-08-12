@@ -1,0 +1,456 @@
+{
+  "bookId": "2892",
+  "timestamp": "2025-07-14T02:37:40.124Z",
+  "success": false,
+  "processingTime": -1752460277486,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4932,
+    "totalAudioFiles": 12,
+    "totalDuration": 2200.565834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2200.565834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2892/optimized_text/2892.md",
+    "fileSize": 796,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "2892.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2892/metadata/2892_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2200.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2892/metadata/2892_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2892/metadata/2892_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2892/2892_complete.wav",
+    "duration": 2200.565833,
+    "fileSize": 105627238,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2892/introduction.wav",
+          "duration": 110.252875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.252875,
+          "startTime": 0,
+          "endTime": 110.252875
+        },
+        {
+          "path": "Audio/output/2892/chapter_01.wav",
+          "duration": 257.786958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Drifting to the Edge — The Rise of the Outlaw Biker",
+          "actualDuration": 257.786958,
+          "startTime": 111.752875,
+          "endTime": 369.53983300000004
+        },
+        {
+          "path": "Audio/output/2892/chapter_02.wav",
+          "duration": 269.105375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Inside the Brotherhood — Rituals, Loyalty, and the Code",
+          "actualDuration": 269.105375,
+          "startTime": 371.03983300000004,
+          "endTime": 640.145208
+        },
+        {
+          "path": "Audio/output/2892/chapter_03.wav",
+          "duration": 231.19,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Media’s Gaze — Sensationalism, Myth, and the Making of a Legend",
+          "actualDuration": 231.19,
+          "startTime": 641.645208,
+          "endTime": 872.835208
+        },
+        {
+          "path": "Audio/output/2892/chapter_04.wav",
+          "duration": 194.202667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Violence, Law, and the Boundaries of Freedom",
+          "actualDuration": 194.202667,
+          "startTime": 874.335208,
+          "endTime": 1068.537875
+        },
+        {
+          "path": "Audio/output/2892/chapter_05.wav",
+          "duration": 174.079125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Outlaw Image and the American Dream",
+          "actualDuration": 174.079125,
+          "startTime": 1070.037875,
+          "endTime": 1244.117
+        },
+        {
+          "path": "Audio/output/2892/chapter_06.wav",
+          "duration": 165.205042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road Unfolds — Journeys, Brotherhood, and the Open Highway",
+          "actualDuration": 165.205042,
+          "startTime": 1245.617,
+          "endTime": 1410.822042
+        },
+        {
+          "path": "Audio/output/2892/chapter_07.wav",
+          "duration": 158.25,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Collisions with Authority — Trials, Tensions, and the Price of Defiance",
+          "actualDuration": 158.25,
+          "startTime": 1412.322042,
+          "endTime": 1570.572042
+        },
+        {
+          "path": "Audio/output/2892/chapter_08.wav",
+          "duration": 178.36175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Outsiders and Allies — Women, Friends, and the Edges of the Club",
+          "actualDuration": 178.36175,
+          "startTime": 1572.072042,
+          "endTime": 1750.433792
+        },
+        {
+          "path": "Audio/output/2892/chapter_09.wav",
+          "duration": 162.576583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Turning Tide — Change, Disillusionment, and the End of an Era",
+          "actualDuration": 162.576583,
+          "startTime": 1751.933792,
+          "endTime": 1914.510375
+        },
+        {
+          "path": "Audio/output/2892/chapter_10.wav",
+          "duration": 170.519542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Reflection — The Outlaw Myth in Modern America",
+          "actualDuration": 170.519542,
+          "startTime": 1916.010375,
+          "endTime": 2086.529917
+        },
+        {
+          "path": "Audio/output/2892/conclusion.wav",
+          "duration": 129.035917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.035917,
+          "startTime": 2088.029917,
+          "endTime": 2217.065834
+        }
+      ],
+      "totalDuration": 2217.065834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.25,
+          "actualStart": 0,
+          "actualEnd": 110.252875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Drifting to the Edge — The Rise of the Outlaw Biker",
+          "expectedStart": 110.25,
+          "expectedEnd": 368.04,
+          "actualStart": 111.752875,
+          "actualEnd": 369.53983300000004,
+          "timeDifference": 1.502875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Inside the Brotherhood — Rituals, Loyalty, and the Code",
+          "expectedStart": 368.04,
+          "expectedEnd": 637.15,
+          "actualStart": 371.03983300000004,
+          "actualEnd": 640.145208,
+          "timeDifference": 2.9998330000000237
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Media’s Gaze — Sensationalism, Myth, and the Making of a Legend",
+          "expectedStart": 637.15,
+          "expectedEnd": 868.34,
+          "actualStart": 641.645208,
+          "actualEnd": 872.835208,
+          "timeDifference": 4.495208000000048
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Violence, Law, and the Boundaries of Freedom",
+          "expectedStart": 868.34,
+          "expectedEnd": 1062.54,
+          "actualStart": 874.335208,
+          "actualEnd": 1068.537875,
+          "timeDifference": 5.995207999999934
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Outlaw Image and the American Dream",
+          "expectedStart": 1062.54,
+          "expectedEnd": 1236.62,
+          "actualStart": 1070.037875,
+          "actualEnd": 1244.117,
+          "timeDifference": 7.497875000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road Unfolds — Journeys, Brotherhood, and the Open Highway",
+          "expectedStart": 1236.62,
+          "expectedEnd": 1401.83,
+          "actualStart": 1245.617,
+          "actualEnd": 1410.822042,
+          "timeDifference": 8.997000000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Collisions with Authority — Trials, Tensions, and the Price of Defiance",
+          "expectedStart": 1401.83,
+          "expectedEnd": 1560.08,
+          "actualStart": 1412.322042,
+          "actualEnd": 1570.572042,
+          "timeDifference": 10.492042000000083
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Outsiders and Allies — Women, Friends, and the Edges of the Club",
+          "expectedStart": 1560.08,
+          "expectedEnd": 1738.44,
+          "actualStart": 1572.072042,
+          "actualEnd": 1750.433792,
+          "timeDifference": 11.992042000000083
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Turning Tide — Change, Disillusionment, and the End of an Era",
+          "expectedStart": 1738.44,
+          "expectedEnd": 1901.02,
+          "actualStart": 1751.933792,
+          "actualEnd": 1914.510375,
+          "timeDifference": 13.493791999999985
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Reflection — The Outlaw Myth in Modern America",
+          "expectedStart": 1901.02,
+          "expectedEnd": 2071.54,
+          "actualStart": 1916.010375,
+          "actualEnd": 2086.529917,
+          "timeDifference": 14.990375000000085
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2071.54,
+          "expectedEnd": 2200.58,
+          "actualStart": 2088.029917,
+          "actualEnd": 2217.065834,
+          "timeDifference": 16.489916999999878
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.252875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Drifting to the Edge — The Rise of the Outlaw Biker"
+        },
+        {
+          "startTime": 369.53983300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Drifting to the Edge — The Rise of the Outlaw Biker and Chapter 2 Inside the Brotherhood — Rituals, Loyalty, and the Code"
+        },
+        {
+          "startTime": 640.145208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Inside the Brotherhood — Rituals, Loyalty, and the Code and Chapter 3 The Media’s Gaze — Sensationalism, Myth, and the Making of a Legend"
+        },
+        {
+          "startTime": 872.835208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Media’s Gaze — Sensationalism, Myth, and the Making of a Legend and Chapter 4 Violence, Law, and the Boundaries of Freedom"
+        },
+        {
+          "startTime": 1068.537875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Violence, Law, and the Boundaries of Freedom and Chapter 5 The Outlaw Image and the American Dream"
+        },
+        {
+          "startTime": 1244.117,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Outlaw Image and the American Dream and Chapter 6 The Road Unfolds — Journeys, Brotherhood, and the Open Highway"
+        },
+        {
+          "startTime": 1410.822042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road Unfolds — Journeys, Brotherhood, and the Open Highway and Chapter 7 Collisions with Authority — Trials, Tensions, and the Price of Defiance"
+        },
+        {
+          "startTime": 1570.572042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Collisions with Authority — Trials, Tensions, and the Price of Defiance and Chapter 8 Outsiders and Allies — Women, Friends, and the Edges of the Club"
+        },
+        {
+          "startTime": 1750.433792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Outsiders and Allies — Women, Friends, and the Edges of the Club and Chapter 9 The Turning Tide — Change, Disillusionment, and the End of an Era"
+        },
+        {
+          "startTime": 1914.510375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Turning Tide — Change, Disillusionment, and the End of an Era and Chapter 10 Legacy and Reflection — The Outlaw Myth in Modern America"
+        },
+        {
+          "startTime": 2086.529917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Reflection — The Outlaw Myth in Modern America and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2892",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:31:18.682Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

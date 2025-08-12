@@ -1,0 +1,456 @@
+{
+  "bookId": "3057",
+  "timestamp": "2025-07-14T15:16:25.078Z",
+  "success": false,
+  "processingTime": -1752505781998,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4340,
+    "totalAudioFiles": 12,
+    "totalDuration": 2048.193001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2048.193001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3057/optimized_text/3057.md",
+    "fileSize": 703,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "3057.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3057/metadata/3057_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2048.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3057/metadata/3057_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3057/metadata/3057_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3057/3057_complete.wav",
+    "duration": 2048.193,
+    "fileSize": 98313342,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3057/introduction.wav",
+          "duration": 97.6025,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.6025,
+          "startTime": 0,
+          "endTime": 97.6025
+        },
+        {
+          "path": "Audio/output/3057/chapter_01.wav",
+          "duration": 182.314375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A World of Tension and Uncertainty",
+          "actualDuration": 182.314375,
+          "startTime": 99.1025,
+          "endTime": 281.416875
+        },
+        {
+          "path": "Audio/output/3057/chapter_02.wav",
+          "duration": 201.922417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Balkans: A Powder Keg Waiting for a Spark",
+          "actualDuration": 201.922417,
+          "startTime": 282.916875,
+          "endTime": 484.839292
+        },
+        {
+          "path": "Audio/output/3057/chapter_03.wav",
+          "duration": 233.222875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Leaders, Ambitions, and the Limits of Control",
+          "actualDuration": 233.222875,
+          "startTime": 486.339292,
+          "endTime": 719.562167
+        },
+        {
+          "path": "Audio/output/3057/chapter_04.wav",
+          "duration": 198.129667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Web of Alliances and the Trap of Commitments",
+          "actualDuration": 198.129667,
+          "startTime": 721.062167,
+          "endTime": 919.1918340000001
+        },
+        {
+          "path": "Audio/output/3057/chapter_05.wav",
+          "duration": 206.859583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Road to Sarajevo: Accidents, Plots, and Missed Warnings",
+          "actualDuration": 206.859583,
+          "startTime": 920.6918340000001,
+          "endTime": 1127.5514170000001
+        },
+        {
+          "path": "Audio/output/3057/chapter_06.wav",
+          "duration": 189.780667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The July Crisis: A Month of Decisions and Doubt",
+          "actualDuration": 189.780667,
+          "startTime": 1129.0514170000001,
+          "endTime": 1318.8320840000001
+        },
+        {
+          "path": "Audio/output/3057/chapter_07.wav",
+          "duration": 198.7105,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Dominoes Fall: Mobilization and the Point of No Return",
+          "actualDuration": 198.7105,
+          "startTime": 1320.3320840000001,
+          "endTime": 1519.042584
+        },
+        {
+          "path": "Audio/output/3057/chapter_08.wav",
+          "duration": 170.319625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The First Weeks: Hopes, Illusions, and the Reality of War",
+          "actualDuration": 170.319625,
+          "startTime": 1520.542584,
+          "endTime": 1690.8622090000001
+        },
+        {
+          "path": "Audio/output/3057/chapter_09.wav",
+          "duration": 130.649417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Sleepwalkers: How Ordinary Choices Led to Catastrophe",
+          "actualDuration": 130.649417,
+          "startTime": 1692.3622090000001,
+          "endTime": 1823.0116260000002
+        },
+        {
+          "path": "Audio/output/3057/chapter_10.wav",
+          "duration": 120.144417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Echoes and Lessons: The War’s Shadow in Our Time",
+          "actualDuration": 120.144417,
+          "startTime": 1824.5116260000002,
+          "endTime": 1944.6560430000002
+        },
+        {
+          "path": "Audio/output/3057/conclusion.wav",
+          "duration": 118.536958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.536958,
+          "startTime": 1946.1560430000002,
+          "endTime": 2064.693001
+        }
+      ],
+      "totalDuration": 2064.693001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.6,
+          "actualStart": 0,
+          "actualEnd": 97.6025,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A World of Tension and Uncertainty",
+          "expectedStart": 97.6,
+          "expectedEnd": 279.91,
+          "actualStart": 99.1025,
+          "actualEnd": 281.416875,
+          "timeDifference": 1.502500000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Balkans: A Powder Keg Waiting for a Spark",
+          "expectedStart": 279.91,
+          "expectedEnd": 481.83,
+          "actualStart": 282.916875,
+          "actualEnd": 484.839292,
+          "timeDifference": 3.0068749999999795
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Leaders, Ambitions, and the Limits of Control",
+          "expectedStart": 481.83,
+          "expectedEnd": 715.05,
+          "actualStart": 486.339292,
+          "actualEnd": 719.562167,
+          "timeDifference": 4.509292000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Web of Alliances and the Trap of Commitments",
+          "expectedStart": 715.05,
+          "expectedEnd": 913.18,
+          "actualStart": 721.062167,
+          "actualEnd": 919.1918340000001,
+          "timeDifference": 6.01216700000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Road to Sarajevo: Accidents, Plots, and Missed Warnings",
+          "expectedStart": 913.18,
+          "expectedEnd": 1120.04,
+          "actualStart": 920.6918340000001,
+          "actualEnd": 1127.5514170000001,
+          "timeDifference": 7.511834000000135
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The July Crisis: A Month of Decisions and Doubt",
+          "expectedStart": 1120.04,
+          "expectedEnd": 1309.82,
+          "actualStart": 1129.0514170000001,
+          "actualEnd": 1318.8320840000001,
+          "timeDifference": 9.011417000000165
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Dominoes Fall: Mobilization and the Point of No Return",
+          "expectedStart": 1309.82,
+          "expectedEnd": 1508.53,
+          "actualStart": 1320.3320840000001,
+          "actualEnd": 1519.042584,
+          "timeDifference": 10.512084000000186
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The First Weeks: Hopes, Illusions, and the Reality of War",
+          "expectedStart": 1508.53,
+          "expectedEnd": 1678.85,
+          "actualStart": 1520.542584,
+          "actualEnd": 1690.8622090000001,
+          "timeDifference": 12.01258400000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Sleepwalkers: How Ordinary Choices Led to Catastrophe",
+          "expectedStart": 1678.85,
+          "expectedEnd": 1809.5,
+          "actualStart": 1692.3622090000001,
+          "actualEnd": 1823.0116260000002,
+          "timeDifference": 13.512209000000212
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Echoes and Lessons: The War’s Shadow in Our Time",
+          "expectedStart": 1809.5,
+          "expectedEnd": 1929.64,
+          "actualStart": 1824.5116260000002,
+          "actualEnd": 1944.6560430000002,
+          "timeDifference": 15.011626000000206
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1929.64,
+          "expectedEnd": 2048.18,
+          "actualStart": 1946.1560430000002,
+          "actualEnd": 2064.693001,
+          "timeDifference": 16.51604300000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.6025,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A World of Tension and Uncertainty"
+        },
+        {
+          "startTime": 281.416875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A World of Tension and Uncertainty and Chapter 2 The Balkans: A Powder Keg Waiting for a Spark"
+        },
+        {
+          "startTime": 484.839292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Balkans: A Powder Keg Waiting for a Spark and Chapter 3 Leaders, Ambitions, and the Limits of Control"
+        },
+        {
+          "startTime": 719.562167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Leaders, Ambitions, and the Limits of Control and Chapter 4 The Web of Alliances and the Trap of Commitments"
+        },
+        {
+          "startTime": 919.1918340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Web of Alliances and the Trap of Commitments and Chapter 5 The Road to Sarajevo: Accidents, Plots, and Missed Warnings"
+        },
+        {
+          "startTime": 1127.5514170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Road to Sarajevo: Accidents, Plots, and Missed Warnings and Chapter 6 The July Crisis: A Month of Decisions and Doubt"
+        },
+        {
+          "startTime": 1318.8320840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The July Crisis: A Month of Decisions and Doubt and Chapter 7 The Dominoes Fall: Mobilization and the Point of No Return"
+        },
+        {
+          "startTime": 1519.042584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Dominoes Fall: Mobilization and the Point of No Return and Chapter 8 The First Weeks: Hopes, Illusions, and the Reality of War"
+        },
+        {
+          "startTime": 1690.8622090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The First Weeks: Hopes, Illusions, and the Reality of War and Chapter 9 The Sleepwalkers: How Ordinary Choices Led to Catastrophe"
+        },
+        {
+          "startTime": 1823.0116260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Sleepwalkers: How Ordinary Choices Led to Catastrophe and Chapter 10 Echoes and Lessons: The War’s Shadow in Our Time"
+        },
+        {
+          "startTime": 1944.6560430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Echoes and Lessons: The War’s Shadow in Our Time and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3057",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T15:09:43.193Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

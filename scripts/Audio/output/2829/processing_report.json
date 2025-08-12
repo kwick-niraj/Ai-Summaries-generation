@@ -1,0 +1,455 @@
+{
+  "bookId": "2829",
+  "timestamp": "2025-07-13T22:48:41.365Z",
+  "success": false,
+  "processingTime": -1752446622583,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4507,
+    "totalAudioFiles": 12,
+    "totalDuration": 1978.8319579999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1978.8319579999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2829/optimized_text/2829.md",
+    "fileSize": 594,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2829.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2829/metadata/2829_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1978.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2829/metadata/2829_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2829/metadata/2829_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2829/2829_complete.wav",
+    "duration": 1978.831958,
+    "fileSize": 94984012,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2829/introduction.wav",
+          "duration": 104.458542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.458542,
+          "startTime": 0,
+          "endTime": 104.458542
+        },
+        {
+          "path": "Audio/output/2829/chapter_01.wav",
+          "duration": 239.867458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Inside a World Apart",
+          "actualDuration": 239.867458,
+          "startTime": 105.958542,
+          "endTime": 345.826
+        },
+        {
+          "path": "Audio/output/2829/chapter_02.wav",
+          "duration": 201.16825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for Identity Beyond Survival",
+          "actualDuration": 201.16825,
+          "startTime": 347.326,
+          "endTime": 548.49425
+        },
+        {
+          "path": "Audio/output/2829/chapter_03.wav",
+          "duration": 206.8815,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Realities of Blue-Collar Queer Life",
+          "actualDuration": 206.8815,
+          "startTime": 549.99425,
+          "endTime": 756.8757499999999
+        },
+        {
+          "path": "Audio/output/2829/chapter_04.wav",
+          "duration": 191.059,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Lingering Weight of Trauma and the Work of Recovery",
+          "actualDuration": 191.059,
+          "startTime": 758.3757499999999,
+          "endTime": 949.4347499999999
+        },
+        {
+          "path": "Audio/output/2829/chapter_05.wav",
+          "duration": 158.137583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Belonging and Defining Self on New Terms",
+          "actualDuration": 158.137583,
+          "startTime": 950.9347499999999,
+          "endTime": 1109.0723329999998
+        },
+        {
+          "path": "Audio/output/2829/chapter_06.wav",
+          "duration": 173.006042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ongoing Work of Healing",
+          "actualDuration": 173.006042,
+          "startTime": 1110.5723329999998,
+          "endTime": 1283.5783749999998
+        },
+        {
+          "path": "Audio/output/2829/chapter_07.wav",
+          "duration": 152.467625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power and Peril of Storytelling",
+          "actualDuration": 152.467625,
+          "startTime": 1285.0783749999998,
+          "endTime": 1437.5459999999998
+        },
+        {
+          "path": "Audio/output/2829/chapter_08.wav",
+          "duration": 151.067208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resilience in the Face of Uncertainty",
+          "actualDuration": 151.067208,
+          "startTime": 1439.0459999999998,
+          "endTime": 1590.1132079999998
+        },
+        {
+          "path": "Audio/output/2829/chapter_09.wav",
+          "duration": 151.080875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Chosen Family and Community",
+          "actualDuration": 151.080875,
+          "startTime": 1591.6132079999998,
+          "endTime": 1742.6940829999999
+        },
+        {
+          "path": "Audio/output/2829/chapter_10.wav",
+          "duration": 140.885458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Authentically and Embracing the Future",
+          "actualDuration": 140.885458,
+          "startTime": 1744.1940829999999,
+          "endTime": 1885.0795409999998
+        },
+        {
+          "path": "Audio/output/2829/conclusion.wav",
+          "duration": 108.752417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.752417,
+          "startTime": 1886.5795409999998,
+          "endTime": 1995.3319579999998
+        }
+      ],
+      "totalDuration": 1995.3319579999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.46,
+          "actualStart": 0,
+          "actualEnd": 104.458542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Inside a World Apart",
+          "expectedStart": 104.46,
+          "expectedEnd": 344.33,
+          "actualStart": 105.958542,
+          "actualEnd": 345.826,
+          "timeDifference": 1.4985420000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for Identity Beyond Survival",
+          "expectedStart": 344.33,
+          "expectedEnd": 545.5,
+          "actualStart": 347.326,
+          "actualEnd": 548.49425,
+          "timeDifference": 2.9960000000000377
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Realities of Blue-Collar Queer Life",
+          "expectedStart": 545.5,
+          "expectedEnd": 752.38,
+          "actualStart": 549.99425,
+          "actualEnd": 756.8757499999999,
+          "timeDifference": 4.494249999999965
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Lingering Weight of Trauma and the Work of Recovery",
+          "expectedStart": 752.38,
+          "expectedEnd": 943.44,
+          "actualStart": 758.3757499999999,
+          "actualEnd": 949.4347499999999,
+          "timeDifference": 5.99574999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Belonging and Defining Self on New Terms",
+          "expectedStart": 943.44,
+          "expectedEnd": 1101.58,
+          "actualStart": 950.9347499999999,
+          "actualEnd": 1109.0723329999998,
+          "timeDifference": 7.49474999999984
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ongoing Work of Healing",
+          "expectedStart": 1101.58,
+          "expectedEnd": 1274.59,
+          "actualStart": 1110.5723329999998,
+          "actualEnd": 1283.5783749999998,
+          "timeDifference": 8.992332999999917
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power and Peril of Storytelling",
+          "expectedStart": 1274.59,
+          "expectedEnd": 1427.06,
+          "actualStart": 1285.0783749999998,
+          "actualEnd": 1437.5459999999998,
+          "timeDifference": 10.488374999999905
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resilience in the Face of Uncertainty",
+          "expectedStart": 1427.06,
+          "expectedEnd": 1578.13,
+          "actualStart": 1439.0459999999998,
+          "actualEnd": 1590.1132079999998,
+          "timeDifference": 11.985999999999876
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Chosen Family and Community",
+          "expectedStart": 1578.13,
+          "expectedEnd": 1729.21,
+          "actualStart": 1591.6132079999998,
+          "actualEnd": 1742.6940829999999,
+          "timeDifference": 13.48320799999965
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Authentically and Embracing the Future",
+          "expectedStart": 1729.21,
+          "expectedEnd": 1870.1,
+          "actualStart": 1744.1940829999999,
+          "actualEnd": 1885.0795409999998,
+          "timeDifference": 14.984082999999828
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1870.1,
+          "expectedEnd": 1978.85,
+          "actualStart": 1886.5795409999998,
+          "actualEnd": 1995.3319579999998,
+          "timeDifference": 16.479540999999926
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.458542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Inside a World Apart"
+        },
+        {
+          "startTime": 345.826,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Inside a World Apart and Chapter 2 Searching for Identity Beyond Survival"
+        },
+        {
+          "startTime": 548.49425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for Identity Beyond Survival and Chapter 3 The Realities of Blue-Collar Queer Life"
+        },
+        {
+          "startTime": 756.8757499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Realities of Blue-Collar Queer Life and Chapter 4 The Lingering Weight of Trauma and the Work of Recovery"
+        },
+        {
+          "startTime": 949.4347499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Lingering Weight of Trauma and the Work of Recovery and Chapter 5 Finding Belonging and Defining Self on New Terms"
+        },
+        {
+          "startTime": 1109.0723329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Belonging and Defining Self on New Terms and Chapter 6 The Ongoing Work of Healing"
+        },
+        {
+          "startTime": 1283.5783749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ongoing Work of Healing and Chapter 7 The Power and Peril of Storytelling"
+        },
+        {
+          "startTime": 1437.5459999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power and Peril of Storytelling and Chapter 8 Resilience in the Face of Uncertainty"
+        },
+        {
+          "startTime": 1590.1132079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resilience in the Face of Uncertainty and Chapter 9 Building Chosen Family and Community"
+        },
+        {
+          "startTime": 1742.6940829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Chosen Family and Community and Chapter 10 Living Authentically and Embracing the Future"
+        },
+        {
+          "startTime": 1885.0795409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Authentically and Embracing the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2829",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:43:43.093Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

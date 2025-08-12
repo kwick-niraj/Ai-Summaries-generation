@@ -1,0 +1,504 @@
+{
+  "bookId": "3085",
+  "timestamp": "2025-07-14T17:19:51.537Z",
+  "success": false,
+  "processingTime": -1752513122688,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5672,
+    "totalAudioFiles": 14,
+    "totalDuration": 2629.221167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2629.221167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3085/optimized_text/3085.md",
+    "fileSize": 807,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "3085.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3085/metadata/3085_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2629.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3085/metadata/3085_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3085/metadata/3085_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3085/3085_complete.wav",
+    "duration": 2629.221167,
+    "fileSize": 126202694,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3085/introduction.wav",
+          "duration": 86.50125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.50125,
+          "startTime": 0,
+          "endTime": 86.50125
+        },
+        {
+          "path": "Audio/output/3085/chapter_01.wav",
+          "duration": 264.458542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking What Depression and Anxiety Really Mean",
+          "actualDuration": 264.458542,
+          "startTime": 88.00125,
+          "endTime": 352.459792
+        },
+        {
+          "path": "Audio/output/3085/chapter_02.wav",
+          "duration": 254.579167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Medication and the Search for Real Relief",
+          "actualDuration": 254.579167,
+          "startTime": 353.959792,
+          "endTime": 608.538959
+        },
+        {
+          "path": "Audio/output/3085/chapter_03.wav",
+          "duration": 250.538917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Disconnection from Meaningful Work and Its Hidden Toll",
+          "actualDuration": 250.538917,
+          "startTime": 610.038959,
+          "endTime": 860.577876
+        },
+        {
+          "path": "Audio/output/3085/chapter_04.wav",
+          "duration": 245.297417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Pain of Social Isolation and the Need for Belonging",
+          "actualDuration": 245.297417,
+          "startTime": 862.077876,
+          "endTime": 1107.375293
+        },
+        {
+          "path": "Audio/output/3085/chapter_05.wav",
+          "duration": 203.652208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Loss of Meaningful Values and the Rise of Empty Pursuits",
+          "actualDuration": 203.652208,
+          "startTime": 1108.875293,
+          "endTime": 1312.527501
+        },
+        {
+          "path": "Audio/output/3085/chapter_06.wav",
+          "duration": 206.632792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Disconnection from Childhood Trauma and the Shadows That Linger",
+          "actualDuration": 206.632792,
+          "startTime": 1314.027501,
+          "endTime": 1520.660293
+        },
+        {
+          "path": "Audio/output/3085/chapter_07.wav",
+          "duration": 184.140625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Disconnection from Status and Respect",
+          "actualDuration": 184.140625,
+          "startTime": 1522.160293,
+          "endTime": 1706.300918
+        },
+        {
+          "path": "Audio/output/3085/chapter_08.wav",
+          "duration": 174.37775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Disconnection from the Natural World",
+          "actualDuration": 174.37775,
+          "startTime": 1707.800918,
+          "endTime": 1882.178668
+        },
+        {
+          "path": "Audio/output/3085/chapter_09.wav",
+          "duration": 172.07525,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Disconnection from a Secure and Hopeful Future",
+          "actualDuration": 172.07525,
+          "startTime": 1883.678668,
+          "endTime": 2055.753918
+        },
+        {
+          "path": "Audio/output/3085/chapter_10.wav",
+          "duration": 168.916333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reconnection—The Pathways to Healing",
+          "actualDuration": 168.916333,
+          "startTime": 2057.253918,
+          "endTime": 2226.170251
+        },
+        {
+          "path": "Audio/output/3085/chapter_11.wav",
+          "duration": 144.459083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of Community and Collective Action",
+          "actualDuration": 144.459083,
+          "startTime": 2227.670251,
+          "endTime": 2372.129334
+        },
+        {
+          "path": "Audio/output/3085/chapter_12.wav",
+          "duration": 131.345083,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 New Stories, New Possibilities",
+          "actualDuration": 131.345083,
+          "startTime": 2373.629334,
+          "endTime": 2504.9744170000004
+        },
+        {
+          "path": "Audio/output/3085/conclusion.wav",
+          "duration": 142.24675,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.24675,
+          "startTime": 2506.4744170000004,
+          "endTime": 2648.721167
+        }
+      ],
+      "totalDuration": 2648.721167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.5,
+          "actualStart": 0,
+          "actualEnd": 86.50125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking What Depression and Anxiety Really Mean",
+          "expectedStart": 86.5,
+          "expectedEnd": 350.96,
+          "actualStart": 88.00125,
+          "actualEnd": 352.459792,
+          "timeDifference": 1.5012499999999989
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Medication and the Search for Real Relief",
+          "expectedStart": 350.96,
+          "expectedEnd": 605.54,
+          "actualStart": 353.959792,
+          "actualEnd": 608.538959,
+          "timeDifference": 2.9997920000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Disconnection from Meaningful Work and Its Hidden Toll",
+          "expectedStart": 605.54,
+          "expectedEnd": 856.08,
+          "actualStart": 610.038959,
+          "actualEnd": 860.577876,
+          "timeDifference": 4.4989590000000135
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Pain of Social Isolation and the Need for Belonging",
+          "expectedStart": 856.08,
+          "expectedEnd": 1101.38,
+          "actualStart": 862.077876,
+          "actualEnd": 1107.375293,
+          "timeDifference": 5.997875999999906
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Loss of Meaningful Values and the Rise of Empty Pursuits",
+          "expectedStart": 1101.38,
+          "expectedEnd": 1305.03,
+          "actualStart": 1108.875293,
+          "actualEnd": 1312.527501,
+          "timeDifference": 7.495292999999947
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Disconnection from Childhood Trauma and the Shadows That Linger",
+          "expectedStart": 1305.03,
+          "expectedEnd": 1511.66,
+          "actualStart": 1314.027501,
+          "actualEnd": 1520.660293,
+          "timeDifference": 8.997501000000057
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Disconnection from Status and Respect",
+          "expectedStart": 1511.66,
+          "expectedEnd": 1695.8,
+          "actualStart": 1522.160293,
+          "actualEnd": 1706.300918,
+          "timeDifference": 10.500292999999829
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Disconnection from the Natural World",
+          "expectedStart": 1695.8,
+          "expectedEnd": 1870.18,
+          "actualStart": 1707.800918,
+          "actualEnd": 1882.178668,
+          "timeDifference": 12.000917999999956
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Disconnection from a Secure and Hopeful Future",
+          "expectedStart": 1870.18,
+          "expectedEnd": 2042.26,
+          "actualStart": 1883.678668,
+          "actualEnd": 2055.753918,
+          "timeDifference": 13.498667999999952
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reconnection—The Pathways to Healing",
+          "expectedStart": 2042.26,
+          "expectedEnd": 2211.18,
+          "actualStart": 2057.253918,
+          "actualEnd": 2226.170251,
+          "timeDifference": 14.993917999999894
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of Community and Collective Action",
+          "expectedStart": 2211.18,
+          "expectedEnd": 2355.64,
+          "actualStart": 2227.670251,
+          "actualEnd": 2372.129334,
+          "timeDifference": 16.49025100000017
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 New Stories, New Possibilities",
+          "expectedStart": 2355.64,
+          "expectedEnd": 2486.99,
+          "actualStart": 2373.629334,
+          "actualEnd": 2504.9744170000004,
+          "timeDifference": 17.989334000000326
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2486.99,
+          "expectedEnd": 2629.24,
+          "actualStart": 2506.4744170000004,
+          "actualEnd": 2648.721167,
+          "timeDifference": 19.484417000000576
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.50125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking What Depression and Anxiety Really Mean"
+        },
+        {
+          "startTime": 352.459792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking What Depression and Anxiety Really Mean and Chapter 2 The Limits of Medication and the Search for Real Relief"
+        },
+        {
+          "startTime": 608.538959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Medication and the Search for Real Relief and Chapter 3 Disconnection from Meaningful Work and Its Hidden Toll"
+        },
+        {
+          "startTime": 860.577876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Disconnection from Meaningful Work and Its Hidden Toll and Chapter 4 The Pain of Social Isolation and the Need for Belonging"
+        },
+        {
+          "startTime": 1107.375293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Pain of Social Isolation and the Need for Belonging and Chapter 5 The Loss of Meaningful Values and the Rise of Empty Pursuits"
+        },
+        {
+          "startTime": 1312.527501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Loss of Meaningful Values and the Rise of Empty Pursuits and Chapter 6 Disconnection from Childhood Trauma and the Shadows That Linger"
+        },
+        {
+          "startTime": 1520.660293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Disconnection from Childhood Trauma and the Shadows That Linger and Chapter 7 Disconnection from Status and Respect"
+        },
+        {
+          "startTime": 1706.300918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Disconnection from Status and Respect and Chapter 8 Disconnection from the Natural World"
+        },
+        {
+          "startTime": 1882.178668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Disconnection from the Natural World and Chapter 9 Disconnection from a Secure and Hopeful Future"
+        },
+        {
+          "startTime": 2055.753918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Disconnection from a Secure and Hopeful Future and Chapter 10 Reconnection—The Pathways to Healing"
+        },
+        {
+          "startTime": 2226.170251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reconnection—The Pathways to Healing and Chapter 11 The Power of Community and Collective Action"
+        },
+        {
+          "startTime": 2372.129334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of Community and Collective Action and Chapter 12 New Stories, New Possibilities"
+        },
+        {
+          "startTime": 2504.9744170000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 New Stories, New Possibilities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3085",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:12:03.854Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

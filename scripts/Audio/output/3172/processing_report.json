@@ -1,0 +1,456 @@
+{
+  "bookId": "3172",
+  "timestamp": "2025-07-15T00:22:44.331Z",
+  "success": false,
+  "processingTime": -1752537934542,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5013,
+    "totalAudioFiles": 12,
+    "totalDuration": 2223.503667
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2223.503667
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3172/optimized_text/3172.md",
+    "fileSize": 792,
+    "wordCount": 124,
+    "format": "markdown",
+    "filename": "3172.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3172/metadata/3172_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2223.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3172/metadata/3172_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3172/metadata/3172_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3172/3172_complete.wav",
+    "duration": 2223.503667,
+    "fileSize": 106728254,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3172/introduction.wav",
+          "duration": 88.815292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.815292,
+          "startTime": 0,
+          "endTime": 88.815292
+        },
+        {
+          "path": "Audio/output/3172/chapter_01.wav",
+          "duration": 252.964375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Edge of the World",
+          "actualDuration": 252.964375,
+          "startTime": 90.315292,
+          "endTime": 343.279667
+        },
+        {
+          "path": "Audio/output/3172/chapter_02.wav",
+          "duration": 255.39625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Trapped by the Ice: Facing the First Real Crisis",
+          "actualDuration": 255.39625,
+          "startTime": 344.779667,
+          "endTime": 600.175917
+        },
+        {
+          "path": "Audio/output/3172/chapter_03.wav",
+          "duration": 255.777958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Endurance Is Lost: Letting Go and Starting Over",
+          "actualDuration": 255.777958,
+          "startTime": 601.675917,
+          "endTime": 857.453875
+        },
+        {
+          "path": "Audio/output/3172/chapter_04.wav",
+          "duration": 195.134875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Drifting on the Ice: The Long Wait and the Power of Hope",
+          "actualDuration": 195.134875,
+          "startTime": 858.953875,
+          "endTime": 1054.0887500000001
+        },
+        {
+          "path": "Audio/output/3172/chapter_05.wav",
+          "duration": 224.003583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Open Boat Journey: Risk, Sacrifice, and the Will to Survive",
+          "actualDuration": 224.003583,
+          "startTime": 1055.5887500000001,
+          "endTime": 1279.592333
+        },
+        {
+          "path": "Audio/output/3172/chapter_06.wav",
+          "duration": 189.19,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Elephant Island: Shelter, Uncertainty, and the Bonds That Hold",
+          "actualDuration": 189.19,
+          "startTime": 1281.092333,
+          "endTime": 1470.282333
+        },
+        {
+          "path": "Audio/output/3172/chapter_07.wav",
+          "duration": 209.330292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Impossible Voyage: Shackleton’s Gamble and the Edge of Human Limits",
+          "actualDuration": 209.330292,
+          "startTime": 1471.782333,
+          "endTime": 1681.1126250000002
+        },
+        {
+          "path": "Audio/output/3172/chapter_08.wav",
+          "duration": 169.070625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Waiting for Rescue: Faith, Doubt, and the Longest Days",
+          "actualDuration": 169.070625,
+          "startTime": 1682.6126250000002,
+          "endTime": 1851.6832500000003
+        },
+        {
+          "path": "Audio/output/3172/chapter_09.wav",
+          "duration": 153.0625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Homecoming: The Weight of Survival and the Stories We Carry",
+          "actualDuration": 153.0625,
+          "startTime": 1853.1832500000003,
+          "endTime": 2006.2457500000003
+        },
+        {
+          "path": "Audio/output/3172/chapter_10.wav",
+          "duration": 130.234167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons of Endurance: What Remains When the Ice Melts",
+          "actualDuration": 130.234167,
+          "startTime": 2007.7457500000003,
+          "endTime": 2137.979917
+        },
+        {
+          "path": "Audio/output/3172/conclusion.wav",
+          "duration": 100.52375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 100.52375,
+          "startTime": 2139.479917,
+          "endTime": 2240.003667
+        }
+      ],
+      "totalDuration": 2240.003667,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.82,
+          "actualStart": 0,
+          "actualEnd": 88.815292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Edge of the World",
+          "expectedStart": 88.82,
+          "expectedEnd": 341.78,
+          "actualStart": 90.315292,
+          "actualEnd": 343.279667,
+          "timeDifference": 1.4952920000000063
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Trapped by the Ice: Facing the First Real Crisis",
+          "expectedStart": 341.78,
+          "expectedEnd": 597.18,
+          "actualStart": 344.779667,
+          "actualEnd": 600.175917,
+          "timeDifference": 2.999667000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Endurance Is Lost: Letting Go and Starting Over",
+          "expectedStart": 597.18,
+          "expectedEnd": 852.96,
+          "actualStart": 601.675917,
+          "actualEnd": 857.453875,
+          "timeDifference": 4.495917000000077
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Drifting on the Ice: The Long Wait and the Power of Hope",
+          "expectedStart": 852.96,
+          "expectedEnd": 1048.09,
+          "actualStart": 858.953875,
+          "actualEnd": 1054.0887500000001,
+          "timeDifference": 5.993875000000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Open Boat Journey: Risk, Sacrifice, and the Will to Survive",
+          "expectedStart": 1048.09,
+          "expectedEnd": 1272.09,
+          "actualStart": 1055.5887500000001,
+          "actualEnd": 1279.592333,
+          "timeDifference": 7.4987500000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Elephant Island: Shelter, Uncertainty, and the Bonds That Hold",
+          "expectedStart": 1272.09,
+          "expectedEnd": 1461.28,
+          "actualStart": 1281.092333,
+          "actualEnd": 1470.282333,
+          "timeDifference": 9.002333000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Impossible Voyage: Shackleton’s Gamble and the Edge of Human Limits",
+          "expectedStart": 1461.28,
+          "expectedEnd": 1670.61,
+          "actualStart": 1471.782333,
+          "actualEnd": 1681.1126250000002,
+          "timeDifference": 10.502333000000135
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Waiting for Rescue: Faith, Doubt, and the Longest Days",
+          "expectedStart": 1670.61,
+          "expectedEnd": 1839.68,
+          "actualStart": 1682.6126250000002,
+          "actualEnd": 1851.6832500000003,
+          "timeDifference": 12.002625000000307
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Homecoming: The Weight of Survival and the Stories We Carry",
+          "expectedStart": 1839.68,
+          "expectedEnd": 1992.74,
+          "actualStart": 1853.1832500000003,
+          "actualEnd": 2006.2457500000003,
+          "timeDifference": 13.503250000000207
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons of Endurance: What Remains When the Ice Melts",
+          "expectedStart": 1992.74,
+          "expectedEnd": 2122.97,
+          "actualStart": 2007.7457500000003,
+          "actualEnd": 2137.979917,
+          "timeDifference": 15.005750000000262
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2122.97,
+          "expectedEnd": 2223.49,
+          "actualStart": 2139.479917,
+          "actualEnd": 2240.003667,
+          "timeDifference": 16.509917000000314
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.815292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Edge of the World"
+        },
+        {
+          "startTime": 343.279667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Edge of the World and Chapter 2 Trapped by the Ice: Facing the First Real Crisis"
+        },
+        {
+          "startTime": 600.175917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Trapped by the Ice: Facing the First Real Crisis and Chapter 3 The Endurance Is Lost: Letting Go and Starting Over"
+        },
+        {
+          "startTime": 857.453875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Endurance Is Lost: Letting Go and Starting Over and Chapter 4 Drifting on the Ice: The Long Wait and the Power of Hope"
+        },
+        {
+          "startTime": 1054.0887500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Drifting on the Ice: The Long Wait and the Power of Hope and Chapter 5 The Open Boat Journey: Risk, Sacrifice, and the Will to Survive"
+        },
+        {
+          "startTime": 1279.592333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Open Boat Journey: Risk, Sacrifice, and the Will to Survive and Chapter 6 Elephant Island: Shelter, Uncertainty, and the Bonds That Hold"
+        },
+        {
+          "startTime": 1470.282333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Elephant Island: Shelter, Uncertainty, and the Bonds That Hold and Chapter 7 The Impossible Voyage: Shackleton’s Gamble and the Edge of Human Limits"
+        },
+        {
+          "startTime": 1681.1126250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Impossible Voyage: Shackleton’s Gamble and the Edge of Human Limits and Chapter 8 Waiting for Rescue: Faith, Doubt, and the Longest Days"
+        },
+        {
+          "startTime": 1851.6832500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Waiting for Rescue: Faith, Doubt, and the Longest Days and Chapter 9 Homecoming: The Weight of Survival and the Stories We Carry"
+        },
+        {
+          "startTime": 2006.2457500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Homecoming: The Weight of Survival and the Stories We Carry and Chapter 10 Lessons of Endurance: What Remains When the Ice Melts"
+        },
+        {
+          "startTime": 2137.979917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons of Endurance: What Remains When the Ice Melts and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3172",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T00:05:35.759Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "bookId": "3016",
+  "timestamp": "2025-07-14T11:46:20.118Z",
+  "success": false,
+  "processingTime": -1752493180279,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 3418,
+    "totalAudioFiles": 14,
+    "totalDuration": 2066.012833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2066.012833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3016/optimized_text/3016.md",
+    "fileSize": 866,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "3016.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3016/metadata/3016_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2066.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3016/metadata/3016_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3016/metadata/3016_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3016/3016_complete.wav",
+    "duration": 2066.012833,
+    "fileSize": 99168694,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3016/introduction.wav",
+          "duration": 100.880917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.880917,
+          "startTime": 0,
+          "endTime": 100.880917
+        },
+        {
+          "path": "Audio/output/3016/chapter_01.wav",
+          "duration": 161.365292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation of Order and Self-Respect",
+          "actualDuration": 161.365292,
+          "startTime": 102.380917,
+          "endTime": 263.746209
+        },
+        {
+          "path": "Audio/output/3016/chapter_02.wav",
+          "duration": 140.593458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Caring for Oneself as a Moral Responsibility",
+          "actualDuration": 140.593458,
+          "startTime": 265.246209,
+          "endTime": 405.839667
+        },
+        {
+          "path": "Audio/output/3016/chapter_03.wav",
+          "duration": 146.345333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Relationships and the Influence of Social Circles",
+          "actualDuration": 146.345333,
+          "startTime": 407.339667,
+          "endTime": 553.6850000000001
+        },
+        {
+          "path": "Audio/output/3016/chapter_04.wav",
+          "duration": 156.564333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Focusing on Personal Progress Instead of Comparison",
+          "actualDuration": 156.564333,
+          "startTime": 555.1850000000001,
+          "endTime": 711.7493330000001
+        },
+        {
+          "path": "Audio/output/3016/chapter_05.wav",
+          "duration": 154.143417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Discipline and Love in Parenting and Self-Development",
+          "actualDuration": 154.143417,
+          "startTime": 713.2493330000001,
+          "endTime": 867.3927500000001
+        },
+        {
+          "path": "Audio/output/3016/chapter_06.wav",
+          "duration": 139.462917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Taking Responsibility Before Criticizing the World",
+          "actualDuration": 139.462917,
+          "startTime": 868.8927500000001,
+          "endTime": 1008.355667
+        },
+        {
+          "path": "Audio/output/3016/chapter_07.wav",
+          "duration": 169.192125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Choosing Meaning Over Short-Term Gain",
+          "actualDuration": 169.192125,
+          "startTime": 1009.855667,
+          "endTime": 1179.047792
+        },
+        {
+          "path": "Audio/output/3016/chapter_08.wav",
+          "duration": 145.09,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Honesty and the Transformative Power of Truth",
+          "actualDuration": 145.09,
+          "startTime": 1180.547792,
+          "endTime": 1325.637792
+        },
+        {
+          "path": "Audio/output/3016/chapter_09.wav",
+          "duration": 137.55625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Importance of Listening and Open-Minded Dialogue",
+          "actualDuration": 137.55625,
+          "startTime": 1327.137792,
+          "endTime": 1464.694042
+        },
+        {
+          "path": "Audio/output/3016/chapter_10.wav",
+          "duration": 151.618125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Value of Precision in Speech and Action",
+          "actualDuration": 151.618125,
+          "startTime": 1466.194042,
+          "endTime": 1617.812167
+        },
+        {
+          "path": "Audio/output/3016/chapter_11.wav",
+          "duration": 147.2075,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Accepting the Reality of Suffering and the Limits of Control",
+          "actualDuration": 147.2075,
+          "startTime": 1619.312167,
+          "endTime": 1766.519667
+        },
+        {
+          "path": "Audio/output/3016/chapter_12.wav",
+          "duration": 145.813708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Nurturing the Good—Protecting Innocence and Encouraging Joy",
+          "actualDuration": 145.813708,
+          "startTime": 1768.019667,
+          "endTime": 1913.833375
+        },
+        {
+          "path": "Audio/output/3016/conclusion.wav",
+          "duration": 170.179458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 170.179458,
+          "startTime": 1915.333375,
+          "endTime": 2085.512833
+        }
+      ],
+      "totalDuration": 2085.512833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.88,
+          "actualStart": 0,
+          "actualEnd": 100.880917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation of Order and Self-Respect",
+          "expectedStart": 100.88,
+          "expectedEnd": 262.25,
+          "actualStart": 102.380917,
+          "actualEnd": 263.746209,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Caring for Oneself as a Moral Responsibility",
+          "expectedStart": 262.25,
+          "expectedEnd": 402.84,
+          "actualStart": 265.246209,
+          "actualEnd": 405.839667,
+          "timeDifference": 2.9962090000000217
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Relationships and the Influence of Social Circles",
+          "expectedStart": 402.84,
+          "expectedEnd": 549.19,
+          "actualStart": 407.339667,
+          "actualEnd": 553.6850000000001,
+          "timeDifference": 4.499667000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Focusing on Personal Progress Instead of Comparison",
+          "expectedStart": 549.19,
+          "expectedEnd": 705.75,
+          "actualStart": 555.1850000000001,
+          "actualEnd": 711.7493330000001,
+          "timeDifference": 5.9950000000000045
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Discipline and Love in Parenting and Self-Development",
+          "expectedStart": 705.75,
+          "expectedEnd": 859.89,
+          "actualStart": 713.2493330000001,
+          "actualEnd": 867.3927500000001,
+          "timeDifference": 7.499333000000092
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Taking Responsibility Before Criticizing the World",
+          "expectedStart": 859.89,
+          "expectedEnd": 999.35,
+          "actualStart": 868.8927500000001,
+          "actualEnd": 1008.355667,
+          "timeDifference": 9.002750000000106
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Choosing Meaning Over Short-Term Gain",
+          "expectedStart": 999.35,
+          "expectedEnd": 1168.54,
+          "actualStart": 1009.855667,
+          "actualEnd": 1179.047792,
+          "timeDifference": 10.505667000000017
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Honesty and the Transformative Power of Truth",
+          "expectedStart": 1168.54,
+          "expectedEnd": 1313.63,
+          "actualStart": 1180.547792,
+          "actualEnd": 1325.637792,
+          "timeDifference": 12.007792000000109
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Importance of Listening and Open-Minded Dialogue",
+          "expectedStart": 1313.63,
+          "expectedEnd": 1451.19,
+          "actualStart": 1327.137792,
+          "actualEnd": 1464.694042,
+          "timeDifference": 13.507791999999881
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Value of Precision in Speech and Action",
+          "expectedStart": 1451.19,
+          "expectedEnd": 1602.81,
+          "actualStart": 1466.194042,
+          "actualEnd": 1617.812167,
+          "timeDifference": 15.004042000000027
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Accepting the Reality of Suffering and the Limits of Control",
+          "expectedStart": 1602.81,
+          "expectedEnd": 1750.02,
+          "actualStart": 1619.312167,
+          "actualEnd": 1766.519667,
+          "timeDifference": 16.5021670000001
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Nurturing the Good—Protecting Innocence and Encouraging Joy",
+          "expectedStart": 1750.02,
+          "expectedEnd": 1895.83,
+          "actualStart": 1768.019667,
+          "actualEnd": 1913.833375,
+          "timeDifference": 17.999667000000045
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1895.83,
+          "expectedEnd": 2066.01,
+          "actualStart": 1915.333375,
+          "actualEnd": 2085.512833,
+          "timeDifference": 19.503375000000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.880917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation of Order and Self-Respect"
+        },
+        {
+          "startTime": 263.746209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation of Order and Self-Respect and Chapter 2 Caring for Oneself as a Moral Responsibility"
+        },
+        {
+          "startTime": 405.839667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Caring for Oneself as a Moral Responsibility and Chapter 3 The Power of Relationships and the Influence of Social Circles"
+        },
+        {
+          "startTime": 553.6850000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Relationships and the Influence of Social Circles and Chapter 4 Focusing on Personal Progress Instead of Comparison"
+        },
+        {
+          "startTime": 711.7493330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Focusing on Personal Progress Instead of Comparison and Chapter 5 The Role of Discipline and Love in Parenting and Self-Development"
+        },
+        {
+          "startTime": 867.3927500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Discipline and Love in Parenting and Self-Development and Chapter 6 Taking Responsibility Before Criticizing the World"
+        },
+        {
+          "startTime": 1008.355667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Taking Responsibility Before Criticizing the World and Chapter 7 Choosing Meaning Over Short-Term Gain"
+        },
+        {
+          "startTime": 1179.047792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Choosing Meaning Over Short-Term Gain and Chapter 8 Embracing Honesty and the Transformative Power of Truth"
+        },
+        {
+          "startTime": 1325.637792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Honesty and the Transformative Power of Truth and Chapter 9 The Importance of Listening and Open-Minded Dialogue"
+        },
+        {
+          "startTime": 1464.694042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Importance of Listening and Open-Minded Dialogue and Chapter 10 The Value of Precision in Speech and Action"
+        },
+        {
+          "startTime": 1617.812167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Value of Precision in Speech and Action and Chapter 11 Accepting the Reality of Suffering and the Limits of Control"
+        },
+        {
+          "startTime": 1766.519667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Accepting the Reality of Suffering and the Limits of Control and Chapter 12 Nurturing the Good—Protecting Innocence and Encouraging Joy"
+        },
+        {
+          "startTime": 1913.833375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Nurturing the Good—Protecting Innocence and Encouraging Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3016",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T11:39:41.466Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

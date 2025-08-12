@@ -1,0 +1,456 @@
+{
+  "bookId": "2994",
+  "timestamp": "2025-07-14T10:05:25.837Z",
+  "success": false,
+  "processingTime": -1752487168046,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5149,
+    "totalAudioFiles": 12,
+    "totalDuration": 2087.507168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2087.507168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2994/optimized_text/2994.md",
+    "fileSize": 861,
+    "wordCount": 127,
+    "format": "markdown",
+    "filename": "2994.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2994/metadata/2994_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2087.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2994/metadata/2994_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2994/metadata/2994_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2994/2994_complete.wav",
+    "duration": 2087.507167,
+    "fileSize": 100200422,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2994/introduction.wav",
+          "duration": 95.392542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.392542,
+          "startTime": 0,
+          "endTime": 95.392542
+        },
+        {
+          "path": "Audio/output/2994/chapter_01.wav",
+          "duration": 242.627,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Day That Changed Everything: Shock, Disbelief, and the Search for Answers",
+          "actualDuration": 242.627,
+          "startTime": 96.892542,
+          "endTime": 339.519542
+        },
+        {
+          "path": "Audio/output/2994/chapter_02.wav",
+          "duration": 246.816417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Parenting in the Shadows: Love, Blind Spots, and the Illusion of Safety",
+          "actualDuration": 246.816417,
+          "startTime": 341.019542,
+          "endTime": 587.835959
+        },
+        {
+          "path": "Audio/output/2994/chapter_03.wav",
+          "duration": 234.799125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Grief, Guilt, and the Weight of Responsibility",
+          "actualDuration": 234.799125,
+          "startTime": 589.335959,
+          "endTime": 824.135084
+        },
+        {
+          "path": "Audio/output/2994/chapter_04.wav",
+          "duration": 194.438625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Struggles of Mental Illness: What Most People Don’t See",
+          "actualDuration": 194.438625,
+          "startTime": 825.635084,
+          "endTime": 1020.073709
+        },
+        {
+          "path": "Audio/output/2994/chapter_05.wav",
+          "duration": 183.684292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking the Silence: Stigma, Empathy, and the Path to Prevention",
+          "actualDuration": 183.684292,
+          "startTime": 1021.573709,
+          "endTime": 1205.258001
+        },
+        {
+          "path": "Audio/output/2994/chapter_06.wav",
+          "duration": 177.442042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing the World Again: Rebuilding Life in the Wake of Loss",
+          "actualDuration": 177.442042,
+          "startTime": 1206.758001,
+          "endTime": 1384.2000429999998
+        },
+        {
+          "path": "Audio/output/2994/chapter_07.wav",
+          "duration": 152.915375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Road to Understanding: Therapy, Reflection, and the Search for Meaning",
+          "actualDuration": 152.915375,
+          "startTime": 1385.7000429999998,
+          "endTime": 1538.6154179999999
+        },
+        {
+          "path": "Audio/output/2994/chapter_08.wav",
+          "duration": 155.707333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reaching Out: Advocacy, Education, and the Power of Story",
+          "actualDuration": 155.707333,
+          "startTime": 1540.1154179999999,
+          "endTime": 1695.822751
+        },
+        {
+          "path": "Audio/output/2994/chapter_09.wav",
+          "duration": 155.445042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Work of Healing: Forgiveness, Acceptance, and Moving Forward",
+          "actualDuration": 155.445042,
+          "startTime": 1697.322751,
+          "endTime": 1852.767793
+        },
+        {
+          "path": "Audio/output/2994/chapter_10.wav",
+          "duration": 114.903125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the Future: Hope, Prevention, and the Call to Action",
+          "actualDuration": 114.903125,
+          "startTime": 1854.267793,
+          "endTime": 1969.170918
+        },
+        {
+          "path": "Audio/output/2994/conclusion.wav",
+          "duration": 133.33625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.33625,
+          "startTime": 1970.670918,
+          "endTime": 2104.007168
+        }
+      ],
+      "totalDuration": 2104.007168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.39,
+          "actualStart": 0,
+          "actualEnd": 95.392542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Day That Changed Everything: Shock, Disbelief, and the Search for Answers",
+          "expectedStart": 95.39,
+          "expectedEnd": 338.02,
+          "actualStart": 96.892542,
+          "actualEnd": 339.519542,
+          "timeDifference": 1.5025420000000054
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Parenting in the Shadows: Love, Blind Spots, and the Illusion of Safety",
+          "expectedStart": 338.02,
+          "expectedEnd": 584.84,
+          "actualStart": 341.019542,
+          "actualEnd": 587.835959,
+          "timeDifference": 2.9995420000000195
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Grief, Guilt, and the Weight of Responsibility",
+          "expectedStart": 584.84,
+          "expectedEnd": 819.64,
+          "actualStart": 589.335959,
+          "actualEnd": 824.135084,
+          "timeDifference": 4.495958999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Struggles of Mental Illness: What Most People Don’t See",
+          "expectedStart": 819.64,
+          "expectedEnd": 1014.08,
+          "actualStart": 825.635084,
+          "actualEnd": 1020.073709,
+          "timeDifference": 5.99508400000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking the Silence: Stigma, Empathy, and the Path to Prevention",
+          "expectedStart": 1014.08,
+          "expectedEnd": 1197.76,
+          "actualStart": 1021.573709,
+          "actualEnd": 1205.258001,
+          "timeDifference": 7.493708999999967
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing the World Again: Rebuilding Life in the Wake of Loss",
+          "expectedStart": 1197.76,
+          "expectedEnd": 1375.2,
+          "actualStart": 1206.758001,
+          "actualEnd": 1384.2000429999998,
+          "timeDifference": 8.998000999999931
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Road to Understanding: Therapy, Reflection, and the Search for Meaning",
+          "expectedStart": 1375.2,
+          "expectedEnd": 1528.12,
+          "actualStart": 1385.7000429999998,
+          "actualEnd": 1538.6154179999999,
+          "timeDifference": 10.500042999999778
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reaching Out: Advocacy, Education, and the Power of Story",
+          "expectedStart": 1528.12,
+          "expectedEnd": 1683.83,
+          "actualStart": 1540.1154179999999,
+          "actualEnd": 1695.822751,
+          "timeDifference": 11.995417999999972
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Work of Healing: Forgiveness, Acceptance, and Moving Forward",
+          "expectedStart": 1683.83,
+          "expectedEnd": 1839.28,
+          "actualStart": 1697.322751,
+          "actualEnd": 1852.767793,
+          "timeDifference": 13.492750999999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the Future: Hope, Prevention, and the Call to Action",
+          "expectedStart": 1839.28,
+          "expectedEnd": 1954.18,
+          "actualStart": 1854.267793,
+          "actualEnd": 1969.170918,
+          "timeDifference": 14.98779300000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1954.18,
+          "expectedEnd": 2087.52,
+          "actualStart": 1970.670918,
+          "actualEnd": 2104.007168,
+          "timeDifference": 16.490917999999965
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.392542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Day That Changed Everything: Shock, Disbelief, and the Search for Answers"
+        },
+        {
+          "startTime": 339.519542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Day That Changed Everything: Shock, Disbelief, and the Search for Answers and Chapter 2 Parenting in the Shadows: Love, Blind Spots, and the Illusion of Safety"
+        },
+        {
+          "startTime": 587.835959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Parenting in the Shadows: Love, Blind Spots, and the Illusion of Safety and Chapter 3 Grief, Guilt, and the Weight of Responsibility"
+        },
+        {
+          "startTime": 824.135084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Grief, Guilt, and the Weight of Responsibility and Chapter 4 The Hidden Struggles of Mental Illness: What Most People Don’t See"
+        },
+        {
+          "startTime": 1020.073709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Struggles of Mental Illness: What Most People Don’t See and Chapter 5 Breaking the Silence: Stigma, Empathy, and the Path to Prevention"
+        },
+        {
+          "startTime": 1205.258001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking the Silence: Stigma, Empathy, and the Path to Prevention and Chapter 6 Facing the World Again: Rebuilding Life in the Wake of Loss"
+        },
+        {
+          "startTime": 1384.2000429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing the World Again: Rebuilding Life in the Wake of Loss and Chapter 7 The Long Road to Understanding: Therapy, Reflection, and the Search for Meaning"
+        },
+        {
+          "startTime": 1538.6154179999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Road to Understanding: Therapy, Reflection, and the Search for Meaning and Chapter 8 Reaching Out: Advocacy, Education, and the Power of Story"
+        },
+        {
+          "startTime": 1695.822751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reaching Out: Advocacy, Education, and the Power of Story and Chapter 9 The Ongoing Work of Healing: Forgiveness, Acceptance, and Moving Forward"
+        },
+        {
+          "startTime": 1852.767793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Work of Healing: Forgiveness, Acceptance, and Moving Forward and Chapter 10 Lessons for the Future: Hope, Prevention, and the Call to Action"
+        },
+        {
+          "startTime": 1969.170918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the Future: Hope, Prevention, and the Call to Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2994",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:59:28.587Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

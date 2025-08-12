@@ -1,0 +1,456 @@
+{
+  "bookId": "2956",
+  "timestamp": "2025-07-14T07:13:12.827Z",
+  "success": false,
+  "processingTime": -1752476817334,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4193,
+    "totalAudioFiles": 12,
+    "totalDuration": 1752.05379
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1752.05379
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2956/optimized_text/2956.md",
+    "fileSize": 685,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2956.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2956/metadata/2956_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1752.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2956/metadata/2956_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2956/metadata/2956_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2956/2956_complete.wav",
+    "duration": 1752.053792,
+    "fileSize": 84098660,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2956/introduction.wav",
+          "duration": 82.633,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.633,
+          "startTime": 0,
+          "endTime": 82.633
+        },
+        {
+          "path": "Audio/output/2956/chapter_01.wav",
+          "duration": 200.46975,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Starting Small and Facing the Blank Page",
+          "actualDuration": 200.46975,
+          "startTime": 84.133,
+          "endTime": 284.60275
+        },
+        {
+          "path": "Audio/output/2956/chapter_02.wav",
+          "duration": 186.753333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Imperfection and the Power of Messy Drafts",
+          "actualDuration": 186.753333,
+          "startTime": 286.10275,
+          "endTime": 472.856083
+        },
+        {
+          "path": "Audio/output/2956/chapter_03.wav",
+          "duration": 150.941583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Your Voice and Telling the Truth",
+          "actualDuration": 150.941583,
+          "startTime": 474.356083,
+          "endTime": 625.297666
+        },
+        {
+          "path": "Audio/output/2956/chapter_04.wav",
+          "duration": 180.760333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Criticism, Rejection, and the Realities of Publication",
+          "actualDuration": 180.760333,
+          "startTime": 626.797666,
+          "endTime": 807.5579990000001
+        },
+        {
+          "path": "Audio/output/2956/chapter_05.wav",
+          "duration": 150.970042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Importance of Community, Mentorship, and Shared Experience",
+          "actualDuration": 150.970042,
+          "startTime": 809.0579990000001,
+          "endTime": 960.0280410000001
+        },
+        {
+          "path": "Audio/output/2956/chapter_06.wav",
+          "duration": 155.777542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Observation and Paying Attention",
+          "actualDuration": 155.777542,
+          "startTime": 961.5280410000001,
+          "endTime": 1117.305583
+        },
+        {
+          "path": "Audio/output/2956/chapter_07.wav",
+          "duration": 143.329958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Writing as a Way Through Grief, Joy, and Change",
+          "actualDuration": 143.329958,
+          "startTime": 1118.805583,
+          "endTime": 1262.135541
+        },
+        {
+          "path": "Audio/output/2956/chapter_08.wav",
+          "duration": 128.865208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Imagination and Play",
+          "actualDuration": 128.865208,
+          "startTime": 1263.635541,
+          "endTime": 1392.500749
+        },
+        {
+          "path": "Audio/output/2956/chapter_09.wav",
+          "duration": 144.251208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Letting Go of Ego and the Illusion of Control",
+          "actualDuration": 144.251208,
+          "startTime": 1394.000749,
+          "endTime": 1538.251957
+        },
+        {
+          "path": "Audio/output/2956/chapter_10.wav",
+          "duration": 119.308958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Value of Creativity and the Writer’s Life",
+          "actualDuration": 119.308958,
+          "startTime": 1539.751957,
+          "endTime": 1659.060915
+        },
+        {
+          "path": "Audio/output/2956/conclusion.wav",
+          "duration": 107.992875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.992875,
+          "startTime": 1660.560915,
+          "endTime": 1768.55379
+        }
+      ],
+      "totalDuration": 1768.55379,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.63,
+          "actualStart": 0,
+          "actualEnd": 82.633,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Starting Small and Facing the Blank Page",
+          "expectedStart": 82.63,
+          "expectedEnd": 283.1,
+          "actualStart": 84.133,
+          "actualEnd": 284.60275,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Imperfection and the Power of Messy Drafts",
+          "expectedStart": 283.1,
+          "expectedEnd": 469.85,
+          "actualStart": 286.10275,
+          "actualEnd": 472.856083,
+          "timeDifference": 3.002749999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Your Voice and Telling the Truth",
+          "expectedStart": 469.85,
+          "expectedEnd": 620.79,
+          "actualStart": 474.356083,
+          "actualEnd": 625.297666,
+          "timeDifference": 4.50608299999999
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Criticism, Rejection, and the Realities of Publication",
+          "expectedStart": 620.79,
+          "expectedEnd": 801.55,
+          "actualStart": 626.797666,
+          "actualEnd": 807.5579990000001,
+          "timeDifference": 6.007666000000086
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Importance of Community, Mentorship, and Shared Experience",
+          "expectedStart": 801.55,
+          "expectedEnd": 952.52,
+          "actualStart": 809.0579990000001,
+          "actualEnd": 960.0280410000001,
+          "timeDifference": 7.507999000000154
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Observation and Paying Attention",
+          "expectedStart": 952.52,
+          "expectedEnd": 1108.3,
+          "actualStart": 961.5280410000001,
+          "actualEnd": 1117.305583,
+          "timeDifference": 9.008041000000162
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Writing as a Way Through Grief, Joy, and Change",
+          "expectedStart": 1108.3,
+          "expectedEnd": 1251.63,
+          "actualStart": 1118.805583,
+          "actualEnd": 1262.135541,
+          "timeDifference": 10.505583000000115
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Imagination and Play",
+          "expectedStart": 1251.63,
+          "expectedEnd": 1380.5,
+          "actualStart": 1263.635541,
+          "actualEnd": 1392.500749,
+          "timeDifference": 12.005540999999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Letting Go of Ego and the Illusion of Control",
+          "expectedStart": 1380.5,
+          "expectedEnd": 1524.75,
+          "actualStart": 1394.000749,
+          "actualEnd": 1538.251957,
+          "timeDifference": 13.500749000000042
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Value of Creativity and the Writer’s Life",
+          "expectedStart": 1524.75,
+          "expectedEnd": 1644.06,
+          "actualStart": 1539.751957,
+          "actualEnd": 1659.060915,
+          "timeDifference": 15.001956999999948
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1644.06,
+          "expectedEnd": 1752.05,
+          "actualStart": 1660.560915,
+          "actualEnd": 1768.55379,
+          "timeDifference": 16.500915000000077
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.633,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Starting Small and Facing the Blank Page"
+        },
+        {
+          "startTime": 284.60275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Starting Small and Facing the Blank Page and Chapter 2 Embracing Imperfection and the Power of Messy Drafts"
+        },
+        {
+          "startTime": 472.856083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Imperfection and the Power of Messy Drafts and Chapter 3 Finding Your Voice and Telling the Truth"
+        },
+        {
+          "startTime": 625.297666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Your Voice and Telling the Truth and Chapter 4 Navigating Criticism, Rejection, and the Realities of Publication"
+        },
+        {
+          "startTime": 807.5579990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Criticism, Rejection, and the Realities of Publication and Chapter 5 The Importance of Community, Mentorship, and Shared Experience"
+        },
+        {
+          "startTime": 960.0280410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Importance of Community, Mentorship, and Shared Experience and Chapter 6 The Art of Observation and Paying Attention"
+        },
+        {
+          "startTime": 1117.305583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Observation and Paying Attention and Chapter 7 Writing as a Way Through Grief, Joy, and Change"
+        },
+        {
+          "startTime": 1262.135541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Writing as a Way Through Grief, Joy, and Change and Chapter 8 The Role of Imagination and Play"
+        },
+        {
+          "startTime": 1392.500749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Imagination and Play and Chapter 9 Letting Go of Ego and the Illusion of Control"
+        },
+        {
+          "startTime": 1538.251957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Letting Go of Ego and the Illusion of Control and Chapter 10 The Enduring Value of Creativity and the Writer’s Life"
+        },
+        {
+          "startTime": 1659.060915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Value of Creativity and the Writer’s Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2956",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:06:58.627Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

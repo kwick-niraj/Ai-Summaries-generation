@@ -1,0 +1,455 @@
+{
+  "bookId": "2984",
+  "timestamp": "2025-07-14T09:20:47.782Z",
+  "success": false,
+  "processingTime": -1752484515970,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4461,
+    "totalAudioFiles": 12,
+    "totalDuration": 1800.2429579999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1800.2429579999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2984/optimized_text/2984.md",
+    "fileSize": 601,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2984.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2984/metadata/2984_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1800.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2984/metadata/2984_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2984/metadata/2984_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2984/2984_complete.wav",
+    "duration": 1800.242958,
+    "fileSize": 86411740,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2984/introduction.wav",
+          "duration": 89.929875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.929875,
+          "startTime": 0,
+          "endTime": 89.929875
+        },
+        {
+          "path": "Audio/output/2984/chapter_01.wav",
+          "duration": 168.543833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life Is Never as Simple as It Looks",
+          "actualDuration": 168.543833,
+          "startTime": 91.429875,
+          "endTime": 259.973708
+        },
+        {
+          "path": "Audio/output/2984/chapter_02.wav",
+          "duration": 190.995625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Comedy and Challenge of Marriage",
+          "actualDuration": 190.995625,
+          "startTime": 261.473708,
+          "endTime": 452.469333
+        },
+        {
+          "path": "Audio/output/2984/chapter_03.wav",
+          "duration": 199.477083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Realities and Rewards of Motherhood",
+          "actualDuration": 199.477083,
+          "startTime": 453.969333,
+          "endTime": 653.446416
+        },
+        {
+          "path": "Audio/output/2984/chapter_04.wav",
+          "duration": 187.908667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Unseen Work of Running a Household",
+          "actualDuration": 187.908667,
+          "startTime": 654.946416,
+          "endTime": 842.855083
+        },
+        {
+          "path": "Audio/output/2984/chapter_05.wav",
+          "duration": 168.736583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Joy in Imperfection",
+          "actualDuration": 168.736583,
+          "startTime": 844.355083,
+          "endTime": 1013.091666
+        },
+        {
+          "path": "Audio/output/2984/chapter_06.wav",
+          "duration": 131.376083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Surviving Social Expectations",
+          "actualDuration": 131.376083,
+          "startTime": 1014.591666,
+          "endTime": 1145.967749
+        },
+        {
+          "path": "Audio/output/2984/chapter_07.wav",
+          "duration": 145.124875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Money, Worries, and the Myth of Security",
+          "actualDuration": 145.124875,
+          "startTime": 1147.467749,
+          "endTime": 1292.592624
+        },
+        {
+          "path": "Audio/output/2984/chapter_08.wav",
+          "duration": 137.20775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ups and Downs of Parenting Teenagers",
+          "actualDuration": 137.20775,
+          "startTime": 1294.092624,
+          "endTime": 1431.300374
+        },
+        {
+          "path": "Audio/output/2984/chapter_09.wav",
+          "duration": 133.234292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Aging, Change, and the Shifting Seasons of Family",
+          "actualDuration": 133.234292,
+          "startTime": 1432.800374,
+          "endTime": 1566.034666
+        },
+        {
+          "path": "Audio/output/2984/chapter_10.wav",
+          "duration": 128.380542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Gratitude, Humor, and the Heart of Resilience",
+          "actualDuration": 128.380542,
+          "startTime": 1567.534666,
+          "endTime": 1695.915208
+        },
+        {
+          "path": "Audio/output/2984/conclusion.wav",
+          "duration": 119.32775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.32775,
+          "startTime": 1697.415208,
+          "endTime": 1816.7429579999998
+        }
+      ],
+      "totalDuration": 1816.7429579999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.93,
+          "actualStart": 0,
+          "actualEnd": 89.929875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life Is Never as Simple as It Looks",
+          "expectedStart": 89.93,
+          "expectedEnd": 258.47,
+          "actualStart": 91.429875,
+          "actualEnd": 259.973708,
+          "timeDifference": 1.4998749999999887
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Comedy and Challenge of Marriage",
+          "expectedStart": 258.47,
+          "expectedEnd": 449.47,
+          "actualStart": 261.473708,
+          "actualEnd": 452.469333,
+          "timeDifference": 3.0037079999999605
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Realities and Rewards of Motherhood",
+          "expectedStart": 449.47,
+          "expectedEnd": 648.95,
+          "actualStart": 453.969333,
+          "actualEnd": 653.446416,
+          "timeDifference": 4.499332999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Unseen Work of Running a Household",
+          "expectedStart": 648.95,
+          "expectedEnd": 836.86,
+          "actualStart": 654.946416,
+          "actualEnd": 842.855083,
+          "timeDifference": 5.996415999999954
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Joy in Imperfection",
+          "expectedStart": 836.86,
+          "expectedEnd": 1005.6,
+          "actualStart": 844.355083,
+          "actualEnd": 1013.091666,
+          "timeDifference": 7.495083000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Surviving Social Expectations",
+          "expectedStart": 1005.6,
+          "expectedEnd": 1136.98,
+          "actualStart": 1014.591666,
+          "actualEnd": 1145.967749,
+          "timeDifference": 8.99166600000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Money, Worries, and the Myth of Security",
+          "expectedStart": 1136.98,
+          "expectedEnd": 1282.1,
+          "actualStart": 1147.467749,
+          "actualEnd": 1292.592624,
+          "timeDifference": 10.487748999999894
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ups and Downs of Parenting Teenagers",
+          "expectedStart": 1282.1,
+          "expectedEnd": 1419.31,
+          "actualStart": 1294.092624,
+          "actualEnd": 1431.300374,
+          "timeDifference": 11.992623999999978
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Aging, Change, and the Shifting Seasons of Family",
+          "expectedStart": 1419.31,
+          "expectedEnd": 1552.54,
+          "actualStart": 1432.800374,
+          "actualEnd": 1566.034666,
+          "timeDifference": 13.490373999999974
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Gratitude, Humor, and the Heart of Resilience",
+          "expectedStart": 1552.54,
+          "expectedEnd": 1680.92,
+          "actualStart": 1567.534666,
+          "actualEnd": 1695.915208,
+          "timeDifference": 14.994666000000052
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1680.92,
+          "expectedEnd": 1800.25,
+          "actualStart": 1697.415208,
+          "actualEnd": 1816.7429579999998,
+          "timeDifference": 16.49520799999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.929875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life Is Never as Simple as It Looks"
+        },
+        {
+          "startTime": 259.973708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life Is Never as Simple as It Looks and Chapter 2 The Comedy and Challenge of Marriage"
+        },
+        {
+          "startTime": 452.469333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Comedy and Challenge of Marriage and Chapter 3 The Realities and Rewards of Motherhood"
+        },
+        {
+          "startTime": 653.446416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Realities and Rewards of Motherhood and Chapter 4 The Unseen Work of Running a Household"
+        },
+        {
+          "startTime": 842.855083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Unseen Work of Running a Household and Chapter 5 Finding Joy in Imperfection"
+        },
+        {
+          "startTime": 1013.091666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Joy in Imperfection and Chapter 6 The Art of Surviving Social Expectations"
+        },
+        {
+          "startTime": 1145.967749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Surviving Social Expectations and Chapter 7 Money, Worries, and the Myth of Security"
+        },
+        {
+          "startTime": 1292.592624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Money, Worries, and the Myth of Security and Chapter 8 The Ups and Downs of Parenting Teenagers"
+        },
+        {
+          "startTime": 1431.300374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ups and Downs of Parenting Teenagers and Chapter 9 Aging, Change, and the Shifting Seasons of Family"
+        },
+        {
+          "startTime": 1566.034666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Aging, Change, and the Shifting Seasons of Family and Chapter 10 Gratitude, Humor, and the Heart of Resilience"
+        },
+        {
+          "startTime": 1695.915208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Gratitude, Humor, and the Heart of Resilience and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2984",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:15:17.159Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

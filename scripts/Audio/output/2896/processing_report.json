@@ -1,0 +1,431 @@
+{
+  "bookId": "2896",
+  "timestamp": "2025-07-14T02:59:45.533Z",
+  "success": false,
+  "processingTime": -1752461718581,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4708,
+    "totalAudioFiles": 12,
+    "totalDuration": 1675.701041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1675.701041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2896/optimized_text/2896.md",
+    "fileSize": 555,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2896.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2896/metadata/2896_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1675.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2896/metadata/2896_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2896/metadata/2896_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2896/2896_complete.wav",
+    "duration": 1675.701042,
+    "fileSize": 80433728,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2896/introduction.wav",
+          "duration": 68.04925,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 68.04925,
+          "startTime": 0,
+          "endTime": 68.04925
+        },
+        {
+          "path": "Audio/output/2896/chapter_01.wav",
+          "duration": 203.988375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Day the King Was Said to Die",
+          "actualDuration": 203.988375,
+          "startTime": 69.54925,
+          "endTime": 273.537625
+        },
+        {
+          "path": "Audio/output/2896/chapter_02.wav",
+          "duration": 200.593042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Unanswered Questions and Unsettling Details",
+          "actualDuration": 200.593042,
+          "startTime": 275.037625,
+          "endTime": 475.630667
+        },
+        {
+          "path": "Audio/output/2896/chapter_03.wav",
+          "duration": 227.92,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Making of a Legend and the Birth of a Conspiracy",
+          "actualDuration": 227.92,
+          "startTime": 477.130667,
+          "endTime": 705.050667
+        },
+        {
+          "path": "Audio/output/2896/chapter_05.wav",
+          "duration": 182.280833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Media and the Shaping of Public Belief",
+          "actualDuration": 182.280833,
+          "startTime": 706.550667,
+          "endTime": 888.8315
+        },
+        {
+          "path": "Audio/output/2896/chapter_06.wav",
+          "duration": 168.434333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Persistence of Belief",
+          "actualDuration": 168.434333,
+          "startTime": 890.3315,
+          "endTime": 1058.765833
+        },
+        {
+          "path": "Audio/output/2896/chapter_07.wav",
+          "duration": 141.86675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Psychology of Conspiracy",
+          "actualDuration": 141.86675,
+          "startTime": 1060.265833,
+          "endTime": 1202.1325829999998
+        },
+        {
+          "path": "Audio/output/2896/chapter_08.wav",
+          "duration": 136.940583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Legacy",
+          "actualDuration": 136.940583,
+          "startTime": 1203.6325829999998,
+          "endTime": 1340.573166
+        },
+        {
+          "path": "Audio/output/2896/chapter_09.wav",
+          "duration": 118.1965,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Search for Closure",
+          "actualDuration": 118.1965,
+          "startTime": 1342.073166,
+          "endTime": 1460.269666
+        },
+        {
+          "path": "Audio/output/2896/chapter_10.wav",
+          "duration": 118.853458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 What the Elvis Mystery Teaches Us",
+          "actualDuration": 118.853458,
+          "startTime": 1461.769666,
+          "endTime": 1580.623124
+        },
+        {
+          "path": "Audio/output/2896/conclusion.wav",
+          "duration": 108.577917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.577917,
+          "startTime": 1582.123124,
+          "endTime": 1690.701041
+        }
+      ],
+      "totalDuration": 1690.701041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 68.05,
+          "actualStart": 0,
+          "actualEnd": 68.04925,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Day the King Was Said to Die",
+          "expectedStart": 68.05,
+          "expectedEnd": 272.04,
+          "actualStart": 69.54925,
+          "actualEnd": 273.537625,
+          "timeDifference": 1.4992500000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Unanswered Questions and Unsettling Details",
+          "expectedStart": 272.04,
+          "expectedEnd": 472.63,
+          "actualStart": 275.037625,
+          "actualEnd": 475.630667,
+          "timeDifference": 2.997624999999971
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Making of a Legend and the Birth of a Conspiracy",
+          "expectedStart": 472.63,
+          "expectedEnd": 700.55,
+          "actualStart": 477.130667,
+          "actualEnd": 705.050667,
+          "timeDifference": 4.500667000000021
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Media and the Shaping of Public Belief",
+          "expectedStart": 700.55,
+          "expectedEnd": 882.83,
+          "actualStart": 706.550667,
+          "actualEnd": 888.8315,
+          "timeDifference": 6.000667000000021
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Persistence of Belief",
+          "expectedStart": 882.83,
+          "expectedEnd": 1051.26,
+          "actualStart": 890.3315,
+          "actualEnd": 1058.765833,
+          "timeDifference": 7.5014999999999645
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Psychology of Conspiracy",
+          "expectedStart": 1051.26,
+          "expectedEnd": 1193.13,
+          "actualStart": 1060.265833,
+          "actualEnd": 1202.1325829999998,
+          "timeDifference": 9.005832999999939
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Legacy",
+          "expectedStart": 1193.13,
+          "expectedEnd": 1330.07,
+          "actualStart": 1203.6325829999998,
+          "actualEnd": 1340.573166,
+          "timeDifference": 10.502582999999731
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Search for Closure",
+          "expectedStart": 1330.07,
+          "expectedEnd": 1448.27,
+          "actualStart": 1342.073166,
+          "actualEnd": 1460.269666,
+          "timeDifference": 12.003165999999965
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 What the Elvis Mystery Teaches Us",
+          "expectedStart": 1448.27,
+          "expectedEnd": 1567.12,
+          "actualStart": 1461.769666,
+          "actualEnd": 1580.623124,
+          "timeDifference": 13.499665999999934
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1567.12,
+          "expectedEnd": 1675.7,
+          "actualStart": 1582.123124,
+          "actualEnd": 1690.701041,
+          "timeDifference": 15.00312400000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 68.04925,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Day the King Was Said to Die"
+        },
+        {
+          "startTime": 273.537625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Day the King Was Said to Die and Chapter 2 Unanswered Questions and Unsettling Details"
+        },
+        {
+          "startTime": 475.630667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Unanswered Questions and Unsettling Details and Chapter 3 The Making of a Legend and the Birth of a Conspiracy"
+        },
+        {
+          "startTime": 705.050667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Making of a Legend and the Birth of a Conspiracy and Chapter 5 The Role of Media and the Shaping of Public Belief"
+        },
+        {
+          "startTime": 888.8315,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Media and the Shaping of Public Belief and Chapter 6 The Persistence of Belief"
+        },
+        {
+          "startTime": 1058.765833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Persistence of Belief and Chapter 7 The Psychology of Conspiracy"
+        },
+        {
+          "startTime": 1202.1325829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Psychology of Conspiracy and Chapter 8 The Enduring Legacy"
+        },
+        {
+          "startTime": 1340.573166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Legacy and Chapter 9 The Search for Closure"
+        },
+        {
+          "startTime": 1460.269666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Search for Closure and Chapter 10 What the Elvis Mystery Teaches Us"
+        },
+        {
+          "startTime": 1580.623124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 What the Elvis Mystery Teaches Us and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2896",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:55:19.760Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2967",
+  "timestamp": "2025-07-14T08:05:34.886Z",
+  "success": false,
+  "processingTime": -1752479971693,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4901,
+    "totalAudioFiles": 12,
+    "totalDuration": 2221.029
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2221.029
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2967/optimized_text/2967.md",
+    "fileSize": 614,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2967.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2967/metadata/2967_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2221.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2967/metadata/2967_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2967/metadata/2967_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2967/2967_complete.wav",
+    "duration": 2221.029,
+    "fileSize": 106609470,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2967/introduction.wav",
+          "duration": 113.852375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.852375,
+          "startTime": 0,
+          "endTime": 113.852375
+        },
+        {
+          "path": "Audio/output/2967/chapter_01.wav",
+          "duration": 239.856833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in the Shadow of Secrets and Fear",
+          "actualDuration": 239.856833,
+          "startTime": 115.352375,
+          "endTime": 355.209208
+        },
+        {
+          "path": "Audio/output/2967/chapter_02.wav",
+          "duration": 258.931042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Manipulation and the Cost of Obedience",
+          "actualDuration": 258.931042,
+          "startTime": 356.709208,
+          "endTime": 615.6402499999999
+        },
+        {
+          "path": "Audio/output/2967/chapter_03.wav",
+          "duration": 239.139833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Lasting Impact of Trauma and the Struggle for Identity",
+          "actualDuration": 239.139833,
+          "startTime": 617.1402499999999,
+          "endTime": 856.2800829999999
+        },
+        {
+          "path": "Audio/output/2967/chapter_04.wav",
+          "duration": 238.362667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Breaking Point: Confronting the Family’s Darkest Truths",
+          "actualDuration": 238.362667,
+          "startTime": 857.7800829999999,
+          "endTime": 1096.14275
+        },
+        {
+          "path": "Audio/output/2967/chapter_05.wav",
+          "duration": 197.392667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Searching for Redemption and Building a New Life",
+          "actualDuration": 197.392667,
+          "startTime": 1097.64275,
+          "endTime": 1295.035417
+        },
+        {
+          "path": "Audio/output/2967/chapter_06.wav",
+          "duration": 213.907125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Forgiveness",
+          "actualDuration": 213.907125,
+          "startTime": 1296.535417,
+          "endTime": 1510.442542
+        },
+        {
+          "path": "Audio/output/2967/chapter_07.wav",
+          "duration": 168.283083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Breaking the Cycle: Becoming a Parent",
+          "actualDuration": 168.283083,
+          "startTime": 1511.942542,
+          "endTime": 1680.225625
+        },
+        {
+          "path": "Audio/output/2967/chapter_08.wav",
+          "duration": 162.131708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Meaning and Connection",
+          "actualDuration": 162.131708,
+          "startTime": 1681.725625,
+          "endTime": 1843.857333
+        },
+        {
+          "path": "Audio/output/2967/chapter_09.wav",
+          "duration": 155.987125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reconciling with the Past",
+          "actualDuration": 155.987125,
+          "startTime": 1845.357333,
+          "endTime": 2001.344458
+        },
+        {
+          "path": "Audio/output/2967/chapter_10.wav",
+          "duration": 119.976292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Beyond the Lie",
+          "actualDuration": 119.976292,
+          "startTime": 2002.844458,
+          "endTime": 2122.82075
+        },
+        {
+          "path": "Audio/output/2967/conclusion.wav",
+          "duration": 113.20825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.20825,
+          "startTime": 2124.32075,
+          "endTime": 2237.529
+        }
+      ],
+      "totalDuration": 2237.529,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.85,
+          "actualStart": 0,
+          "actualEnd": 113.852375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in the Shadow of Secrets and Fear",
+          "expectedStart": 113.85,
+          "expectedEnd": 353.71,
+          "actualStart": 115.352375,
+          "actualEnd": 355.209208,
+          "timeDifference": 1.5023750000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Manipulation and the Cost of Obedience",
+          "expectedStart": 353.71,
+          "expectedEnd": 612.64,
+          "actualStart": 356.709208,
+          "actualEnd": 615.6402499999999,
+          "timeDifference": 2.99920800000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Lasting Impact of Trauma and the Struggle for Identity",
+          "expectedStart": 612.64,
+          "expectedEnd": 851.78,
+          "actualStart": 617.1402499999999,
+          "actualEnd": 856.2800829999999,
+          "timeDifference": 4.500249999999937
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Breaking Point: Confronting the Family’s Darkest Truths",
+          "expectedStart": 851.78,
+          "expectedEnd": 1090.14,
+          "actualStart": 857.7800829999999,
+          "actualEnd": 1096.14275,
+          "timeDifference": 6.000082999999904
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Searching for Redemption and Building a New Life",
+          "expectedStart": 1090.14,
+          "expectedEnd": 1287.53,
+          "actualStart": 1097.64275,
+          "actualEnd": 1295.035417,
+          "timeDifference": 7.502749999999878
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Forgiveness",
+          "expectedStart": 1287.53,
+          "expectedEnd": 1501.44,
+          "actualStart": 1296.535417,
+          "actualEnd": 1510.442542,
+          "timeDifference": 9.00541700000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Breaking the Cycle: Becoming a Parent",
+          "expectedStart": 1501.44,
+          "expectedEnd": 1669.72,
+          "actualStart": 1511.942542,
+          "actualEnd": 1680.225625,
+          "timeDifference": 10.502541999999949
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Meaning and Connection",
+          "expectedStart": 1669.72,
+          "expectedEnd": 1831.85,
+          "actualStart": 1681.725625,
+          "actualEnd": 1843.857333,
+          "timeDifference": 12.005625000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reconciling with the Past",
+          "expectedStart": 1831.85,
+          "expectedEnd": 1987.84,
+          "actualStart": 1845.357333,
+          "actualEnd": 2001.344458,
+          "timeDifference": 13.507333000000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Beyond the Lie",
+          "expectedStart": 1987.84,
+          "expectedEnd": 2107.82,
+          "actualStart": 2002.844458,
+          "actualEnd": 2122.82075,
+          "timeDifference": 15.004458000000113
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2107.82,
+          "expectedEnd": 2221.03,
+          "actualStart": 2124.32075,
+          "actualEnd": 2237.529,
+          "timeDifference": 16.500749999999698
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.852375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in the Shadow of Secrets and Fear"
+        },
+        {
+          "startTime": 355.209208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in the Shadow of Secrets and Fear and Chapter 2 The Weight of Manipulation and the Cost of Obedience"
+        },
+        {
+          "startTime": 615.6402499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Manipulation and the Cost of Obedience and Chapter 3 The Lasting Impact of Trauma and the Struggle for Identity"
+        },
+        {
+          "startTime": 856.2800829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Lasting Impact of Trauma and the Struggle for Identity and Chapter 4 The Breaking Point: Confronting the Family’s Darkest Truths"
+        },
+        {
+          "startTime": 1096.14275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Breaking Point: Confronting the Family’s Darkest Truths and Chapter 5 Searching for Redemption and Building a New Life"
+        },
+        {
+          "startTime": 1295.035417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Searching for Redemption and Building a New Life and Chapter 6 The Long Road to Forgiveness"
+        },
+        {
+          "startTime": 1510.442542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Forgiveness and Chapter 7 Breaking the Cycle: Becoming a Parent"
+        },
+        {
+          "startTime": 1680.225625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Breaking the Cycle: Becoming a Parent and Chapter 8 The Search for Meaning and Connection"
+        },
+        {
+          "startTime": 1843.857333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Meaning and Connection and Chapter 9 Reconciling with the Past"
+        },
+        {
+          "startTime": 2001.344458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reconciling with the Past and Chapter 10 Living Beyond the Lie"
+        },
+        {
+          "startTime": 2122.82075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Beyond the Lie and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2967",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T07:59:32.883Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

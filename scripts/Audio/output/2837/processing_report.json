@@ -1,0 +1,456 @@
+{
+  "bookId": "2837",
+  "timestamp": "2025-07-13T23:23:15.391Z",
+  "success": false,
+  "processingTime": -1752448702751,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5255,
+    "totalAudioFiles": 12,
+    "totalDuration": 2275.600375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2275.600375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2837/optimized_text/2837.md",
+    "fileSize": 740,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2837.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2837/metadata/2837_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2275.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2837/metadata/2837_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2837/metadata/2837_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2837/2837_complete.wav",
+    "duration": 2275.600375,
+    "fileSize": 109228896,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2837/introduction.wav",
+          "duration": 99.220167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.220167,
+          "startTime": 0,
+          "endTime": 99.220167
+        },
+        {
+          "path": "Audio/output/2837/chapter_01.wav",
+          "duration": 234.923208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Seeds of Rivalry and the Shadow of Fear",
+          "actualDuration": 234.923208,
+          "startTime": 100.720167,
+          "endTime": 335.643375
+        },
+        {
+          "path": "Audio/output/2837/chapter_02.wav",
+          "duration": 264.515,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First Years of War and the Strain of Uncertainty",
+          "actualDuration": 264.515,
+          "startTime": 337.143375,
+          "endTime": 601.658375
+        },
+        {
+          "path": "Audio/output/2837/chapter_03.wav",
+          "duration": 262.4715,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Power and the Limits of Leadership",
+          "actualDuration": 262.4715,
+          "startTime": 603.158375,
+          "endTime": 865.629875
+        },
+        {
+          "path": "Audio/output/2837/chapter_04.wav",
+          "duration": 261.007375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Erosion of Ethics and the Cost of Prolonged Conflict",
+          "actualDuration": 261.007375,
+          "startTime": 867.129875,
+          "endTime": 1128.13725
+        },
+        {
+          "path": "Audio/output/2837/chapter_05.wav",
+          "duration": 206.336167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Shifting Alliances and the Unpredictable Course of War",
+          "actualDuration": 206.336167,
+          "startTime": 1129.63725,
+          "endTime": 1335.973417
+        },
+        {
+          "path": "Audio/output/2837/chapter_06.wav",
+          "duration": 218.996542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Descent into Civil Strife and the Fracturing of Communities",
+          "actualDuration": 218.996542,
+          "startTime": 1337.473417,
+          "endTime": 1556.469959
+        },
+        {
+          "path": "Audio/output/2837/chapter_07.wav",
+          "duration": 175.807458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Final Gambles and the Collapse of Old Certainties",
+          "actualDuration": 175.807458,
+          "startTime": 1557.969959,
+          "endTime": 1733.777417
+        },
+        {
+          "path": "Audio/output/2837/chapter_08.wav",
+          "duration": 149.265083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Surrender, Reckoning, and the Search for Meaning",
+          "actualDuration": 149.265083,
+          "startTime": 1735.277417,
+          "endTime": 1884.5425
+        },
+        {
+          "path": "Audio/output/2837/chapter_09.wav",
+          "duration": 171.221125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Power, Human Nature, and the Cost of Conflict",
+          "actualDuration": 171.221125,
+          "startTime": 1886.0425,
+          "endTime": 2057.263625
+        },
+        {
+          "path": "Audio/output/2837/chapter_10.wav",
+          "duration": 122.752917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Echoes—Memory, Reflection, and the Human Story",
+          "actualDuration": 122.752917,
+          "startTime": 2058.763625,
+          "endTime": 2181.516542
+        },
+        {
+          "path": "Audio/output/2837/conclusion.wav",
+          "duration": 109.083833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.083833,
+          "startTime": 2183.016542,
+          "endTime": 2292.100375
+        }
+      ],
+      "totalDuration": 2292.100375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.22,
+          "actualStart": 0,
+          "actualEnd": 99.220167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Seeds of Rivalry and the Shadow of Fear",
+          "expectedStart": 99.22,
+          "expectedEnd": 334.14,
+          "actualStart": 100.720167,
+          "actualEnd": 335.643375,
+          "timeDifference": 1.5001670000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First Years of War and the Strain of Uncertainty",
+          "expectedStart": 334.14,
+          "expectedEnd": 598.66,
+          "actualStart": 337.143375,
+          "actualEnd": 601.658375,
+          "timeDifference": 3.0033750000000055
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Power and the Limits of Leadership",
+          "expectedStart": 598.66,
+          "expectedEnd": 861.13,
+          "actualStart": 603.158375,
+          "actualEnd": 865.629875,
+          "timeDifference": 4.49837500000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Erosion of Ethics and the Cost of Prolonged Conflict",
+          "expectedStart": 861.13,
+          "expectedEnd": 1122.14,
+          "actualStart": 867.129875,
+          "actualEnd": 1128.13725,
+          "timeDifference": 5.9998749999999745
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Shifting Alliances and the Unpredictable Course of War",
+          "expectedStart": 1122.14,
+          "expectedEnd": 1328.48,
+          "actualStart": 1129.63725,
+          "actualEnd": 1335.973417,
+          "timeDifference": 7.4972499999998945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Descent into Civil Strife and the Fracturing of Communities",
+          "expectedStart": 1328.48,
+          "expectedEnd": 1547.48,
+          "actualStart": 1337.473417,
+          "actualEnd": 1556.469959,
+          "timeDifference": 8.993416999999909
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Final Gambles and the Collapse of Old Certainties",
+          "expectedStart": 1547.48,
+          "expectedEnd": 1723.29,
+          "actualStart": 1557.969959,
+          "actualEnd": 1733.777417,
+          "timeDifference": 10.489958999999999
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Surrender, Reckoning, and the Search for Meaning",
+          "expectedStart": 1723.29,
+          "expectedEnd": 1872.56,
+          "actualStart": 1735.277417,
+          "actualEnd": 1884.5425,
+          "timeDifference": 11.98741700000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Power, Human Nature, and the Cost of Conflict",
+          "expectedStart": 1872.56,
+          "expectedEnd": 2043.78,
+          "actualStart": 1886.0425,
+          "actualEnd": 2057.263625,
+          "timeDifference": 13.482500000000073
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Echoes—Memory, Reflection, and the Human Story",
+          "expectedStart": 2043.78,
+          "expectedEnd": 2166.53,
+          "actualStart": 2058.763625,
+          "actualEnd": 2181.516542,
+          "timeDifference": 14.983625000000075
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2166.53,
+          "expectedEnd": 2275.61,
+          "actualStart": 2183.016542,
+          "actualEnd": 2292.100375,
+          "timeDifference": 16.486541999999645
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.220167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Seeds of Rivalry and the Shadow of Fear"
+        },
+        {
+          "startTime": 335.643375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Seeds of Rivalry and the Shadow of Fear and Chapter 2 The First Years of War and the Strain of Uncertainty"
+        },
+        {
+          "startTime": 601.658375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First Years of War and the Strain of Uncertainty and Chapter 3 The Struggle for Power and the Limits of Leadership"
+        },
+        {
+          "startTime": 865.629875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Power and the Limits of Leadership and Chapter 4 The Erosion of Ethics and the Cost of Prolonged Conflict"
+        },
+        {
+          "startTime": 1128.13725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Erosion of Ethics and the Cost of Prolonged Conflict and Chapter 5 Shifting Alliances and the Unpredictable Course of War"
+        },
+        {
+          "startTime": 1335.973417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Shifting Alliances and the Unpredictable Course of War and Chapter 6 The Descent into Civil Strife and the Fracturing of Communities"
+        },
+        {
+          "startTime": 1556.469959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Descent into Civil Strife and the Fracturing of Communities and Chapter 7 The Final Gambles and the Collapse of Old Certainties"
+        },
+        {
+          "startTime": 1733.777417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Final Gambles and the Collapse of Old Certainties and Chapter 8 Surrender, Reckoning, and the Search for Meaning"
+        },
+        {
+          "startTime": 1884.5425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Surrender, Reckoning, and the Search for Meaning and Chapter 9 Lessons in Power, Human Nature, and the Cost of Conflict"
+        },
+        {
+          "startTime": 2057.263625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Power, Human Nature, and the Cost of Conflict and Chapter 10 The Enduring Echoes—Memory, Reflection, and the Human Story"
+        },
+        {
+          "startTime": 2181.516542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Echoes—Memory, Reflection, and the Human Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2837",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:18:23.229Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

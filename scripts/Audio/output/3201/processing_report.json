@@ -1,0 +1,455 @@
+{
+  "bookId": "3201",
+  "timestamp": "2025-07-15T02:45:49.704Z",
+  "success": false,
+  "processingTime": -1752547206532,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5225,
+    "totalAudioFiles": 12,
+    "totalDuration": 2262.049457
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2262.049457
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3201/optimized_text/3201.md",
+    "fileSize": 768,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "3201.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3201/metadata/3201_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2262.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3201/metadata/3201_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3201/metadata/3201_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3201/3201_complete.wav",
+    "duration": 2262.049458,
+    "fileSize": 108578452,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3201/introduction.wav",
+          "duration": 104.999667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.999667,
+          "startTime": 0,
+          "endTime": 104.999667
+        },
+        {
+          "path": "Audio/output/3201/chapter_01.wav",
+          "duration": 227.39575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeing What’s Always Been There: The Hidden Patterns of Sexism",
+          "actualDuration": 227.39575,
+          "startTime": 106.499667,
+          "endTime": 333.895417
+        },
+        {
+          "path": "Audio/output/3201/chapter_02.wav",
+          "duration": 268.732958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Early Lessons: How Sexism Shapes Childhood and Growing Up",
+          "actualDuration": 268.732958,
+          "startTime": 335.395417,
+          "endTime": 604.128375
+        },
+        {
+          "path": "Audio/output/3201/chapter_03.wav",
+          "duration": 259.489958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Workplace: Barriers, Double Standards, and Silent Battles",
+          "actualDuration": 259.489958,
+          "startTime": 605.628375,
+          "endTime": 865.118333
+        },
+        {
+          "path": "Audio/output/3201/chapter_04.wav",
+          "duration": 201.233875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Public Spaces and Private Lives: Navigating Safety, Freedom, and Blame",
+          "actualDuration": 201.233875,
+          "startTime": 866.618333,
+          "endTime": 1067.852208
+        },
+        {
+          "path": "Audio/output/3201/chapter_05.wav",
+          "duration": 231.00025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Media Mirror: How Culture Reinforces and Challenges Sexism",
+          "actualDuration": 231.00025,
+          "startTime": 1069.352208,
+          "endTime": 1300.352458
+        },
+        {
+          "path": "Audio/output/3201/chapter_06.wav",
+          "duration": 215.362208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Love, Sex, and Relationships: The Intimate Terrain of Gender Expectations",
+          "actualDuration": 215.362208,
+          "startTime": 1301.852458,
+          "endTime": 1517.214666
+        },
+        {
+          "path": "Audio/output/3201/chapter_07.wav",
+          "duration": 183.610708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Intersectionality: When Sexism Meets Other Barriers",
+          "actualDuration": 183.610708,
+          "startTime": 1518.714666,
+          "endTime": 1702.325374
+        },
+        {
+          "path": "Audio/output/3201/chapter_08.wav",
+          "duration": 152.086083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Men, Boys, and the Cost of Sexism",
+          "actualDuration": 152.086083,
+          "startTime": 1703.825374,
+          "endTime": 1855.911457
+        },
+        {
+          "path": "Audio/output/3201/chapter_09.wav",
+          "duration": 164.509625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Speaking Up and Pushing Back: The Power of Voices",
+          "actualDuration": 164.509625,
+          "startTime": 1857.411457,
+          "endTime": 2021.9210819999998
+        },
+        {
+          "path": "Audio/output/3201/chapter_10.wav",
+          "duration": 144.016333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward Change: Building a Fairer, Safer World",
+          "actualDuration": 144.016333,
+          "startTime": 2023.4210819999998,
+          "endTime": 2167.437415
+        },
+        {
+          "path": "Audio/output/3201/conclusion.wav",
+          "duration": 109.612042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.612042,
+          "startTime": 2168.937415,
+          "endTime": 2278.549457
+        }
+      ],
+      "totalDuration": 2278.549457,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105,
+          "actualStart": 0,
+          "actualEnd": 104.999667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeing What’s Always Been There: The Hidden Patterns of Sexism",
+          "expectedStart": 105,
+          "expectedEnd": 332.4,
+          "actualStart": 106.499667,
+          "actualEnd": 333.895417,
+          "timeDifference": 1.4996670000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Early Lessons: How Sexism Shapes Childhood and Growing Up",
+          "expectedStart": 332.4,
+          "expectedEnd": 601.13,
+          "actualStart": 335.395417,
+          "actualEnd": 604.128375,
+          "timeDifference": 2.9954170000000317
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Workplace: Barriers, Double Standards, and Silent Battles",
+          "expectedStart": 601.13,
+          "expectedEnd": 860.62,
+          "actualStart": 605.628375,
+          "actualEnd": 865.118333,
+          "timeDifference": 4.49837500000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Public Spaces and Private Lives: Navigating Safety, Freedom, and Blame",
+          "expectedStart": 860.62,
+          "expectedEnd": 1061.85,
+          "actualStart": 866.618333,
+          "actualEnd": 1067.852208,
+          "timeDifference": 5.998333000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Media Mirror: How Culture Reinforces and Challenges Sexism",
+          "expectedStart": 1061.85,
+          "expectedEnd": 1292.85,
+          "actualStart": 1069.352208,
+          "actualEnd": 1300.352458,
+          "timeDifference": 7.50220800000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Love, Sex, and Relationships: The Intimate Terrain of Gender Expectations",
+          "expectedStart": 1292.85,
+          "expectedEnd": 1508.21,
+          "actualStart": 1301.852458,
+          "actualEnd": 1517.214666,
+          "timeDifference": 9.00245800000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Intersectionality: When Sexism Meets Other Barriers",
+          "expectedStart": 1508.21,
+          "expectedEnd": 1691.82,
+          "actualStart": 1518.714666,
+          "actualEnd": 1702.325374,
+          "timeDifference": 10.504666000000043
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Men, Boys, and the Cost of Sexism",
+          "expectedStart": 1691.82,
+          "expectedEnd": 1843.91,
+          "actualStart": 1703.825374,
+          "actualEnd": 1855.911457,
+          "timeDifference": 12.005374000000074
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Speaking Up and Pushing Back: The Power of Voices",
+          "expectedStart": 1843.91,
+          "expectedEnd": 2008.42,
+          "actualStart": 1857.411457,
+          "actualEnd": 2021.9210819999998,
+          "timeDifference": 13.501456999999846
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward Change: Building a Fairer, Safer World",
+          "expectedStart": 2008.42,
+          "expectedEnd": 2152.44,
+          "actualStart": 2023.4210819999998,
+          "actualEnd": 2167.437415,
+          "timeDifference": 15.00108199999977
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2152.44,
+          "expectedEnd": 2262.05,
+          "actualStart": 2168.937415,
+          "actualEnd": 2278.549457,
+          "timeDifference": 16.49741499999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.999667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeing What’s Always Been There: The Hidden Patterns of Sexism"
+        },
+        {
+          "startTime": 333.895417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeing What’s Always Been There: The Hidden Patterns of Sexism and Chapter 2 Early Lessons: How Sexism Shapes Childhood and Growing Up"
+        },
+        {
+          "startTime": 604.128375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Early Lessons: How Sexism Shapes Childhood and Growing Up and Chapter 3 The Workplace: Barriers, Double Standards, and Silent Battles"
+        },
+        {
+          "startTime": 865.118333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Workplace: Barriers, Double Standards, and Silent Battles and Chapter 4 Public Spaces and Private Lives: Navigating Safety, Freedom, and Blame"
+        },
+        {
+          "startTime": 1067.852208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Public Spaces and Private Lives: Navigating Safety, Freedom, and Blame and Chapter 5 The Media Mirror: How Culture Reinforces and Challenges Sexism"
+        },
+        {
+          "startTime": 1300.352458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Media Mirror: How Culture Reinforces and Challenges Sexism and Chapter 6 Love, Sex, and Relationships: The Intimate Terrain of Gender Expectations"
+        },
+        {
+          "startTime": 1517.214666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Love, Sex, and Relationships: The Intimate Terrain of Gender Expectations and Chapter 7 Intersectionality: When Sexism Meets Other Barriers"
+        },
+        {
+          "startTime": 1702.325374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Intersectionality: When Sexism Meets Other Barriers and Chapter 8 Men, Boys, and the Cost of Sexism"
+        },
+        {
+          "startTime": 1855.911457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Men, Boys, and the Cost of Sexism and Chapter 9 Speaking Up and Pushing Back: The Power of Voices"
+        },
+        {
+          "startTime": 2021.9210819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Speaking Up and Pushing Back: The Power of Voices and Chapter 10 Toward Change: Building a Fairer, Safer World"
+        },
+        {
+          "startTime": 2167.437415,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward Change: Building a Fairer, Safer World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3201",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:40:07.758Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

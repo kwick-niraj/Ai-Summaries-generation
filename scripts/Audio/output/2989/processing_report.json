@@ -1,0 +1,432 @@
+{
+  "bookId": "2989",
+  "timestamp": "2025-07-14T09:42:43.877Z",
+  "success": false,
+  "processingTime": -1752485864778,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4087,
+    "totalAudioFiles": 11,
+    "totalDuration": 1760.8686670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1760.8686670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2989/optimized_text/2989.md",
+    "fileSize": 545,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "2989.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2989/metadata/2989_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1760.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2989/metadata/2989_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2989/metadata/2989_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2989/2989_complete.wav",
+    "duration": 1760.868667,
+    "fileSize": 84521774,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2989/introduction.wav",
+          "duration": 86.265875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.265875,
+          "startTime": 0,
+          "endTime": 86.265875
+        },
+        {
+          "path": "Audio/output/2989/chapter_01.wav",
+          "duration": 209.69325,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Dreams and Promises on the Open Plains",
+          "actualDuration": 209.69325,
+          "startTime": 87.765875,
+          "endTime": 297.459125
+        },
+        {
+          "path": "Audio/output/2989/chapter_02.wav",
+          "duration": 215.497083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Land Unravels and the Winds Begin",
+          "actualDuration": 215.497083,
+          "startTime": 298.959125,
+          "endTime": 514.456208
+        },
+        {
+          "path": "Audio/output/2989/chapter_03.wav",
+          "duration": 223.311708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Surviving the Black Blizzards",
+          "actualDuration": 223.311708,
+          "startTime": 515.956208,
+          "endTime": 739.267916
+        },
+        {
+          "path": "Audio/output/2989/chapter_04.wav",
+          "duration": 210.410125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost and the Search for Answers",
+          "actualDuration": 210.410125,
+          "startTime": 740.767916,
+          "endTime": 951.178041
+        },
+        {
+          "path": "Audio/output/2989/chapter_05.wav",
+          "duration": 144.165542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons in Resilience and the Long Road to Recovery",
+          "actualDuration": 144.165542,
+          "startTime": 952.678041,
+          "endTime": 1096.843583
+        },
+        {
+          "path": "Audio/output/2989/chapter_06.wav",
+          "duration": 145.805667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces—A New Kind of Hope",
+          "actualDuration": 145.805667,
+          "startTime": 1098.343583,
+          "endTime": 1244.1492500000002
+        },
+        {
+          "path": "Audio/output/2989/chapter_07.wav",
+          "duration": 145.684917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Memory, Story, and the Weight of the Past",
+          "actualDuration": 145.684917,
+          "startTime": 1245.6492500000002,
+          "endTime": 1391.3341670000002
+        },
+        {
+          "path": "Audio/output/2989/chapter_08.wav",
+          "duration": 140.715083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Land Remembers—Nature’s Slow Recovery",
+          "actualDuration": 140.715083,
+          "startTime": 1392.8341670000002,
+          "endTime": 1533.5492500000003
+        },
+        {
+          "path": "Audio/output/2989/chapter_09.wav",
+          "duration": 127.511167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy—Warnings for the Future",
+          "actualDuration": 127.511167,
+          "startTime": 1535.0492500000003,
+          "endTime": 1662.5604170000001
+        },
+        {
+          "path": "Audio/output/2989/conclusion.wav",
+          "duration": 111.80825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.80825,
+          "startTime": 1664.0604170000001,
+          "endTime": 1775.8686670000002
+        }
+      ],
+      "totalDuration": 1775.8686670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.27,
+          "actualStart": 0,
+          "actualEnd": 86.265875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Dreams and Promises on the Open Plains",
+          "expectedStart": 86.27,
+          "expectedEnd": 295.96,
+          "actualStart": 87.765875,
+          "actualEnd": 297.459125,
+          "timeDifference": 1.495874999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Land Unravels and the Winds Begin",
+          "expectedStart": 295.96,
+          "expectedEnd": 511.46,
+          "actualStart": 298.959125,
+          "actualEnd": 514.456208,
+          "timeDifference": 2.9991249999999923
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Surviving the Black Blizzards",
+          "expectedStart": 511.46,
+          "expectedEnd": 734.77,
+          "actualStart": 515.956208,
+          "actualEnd": 739.267916,
+          "timeDifference": 4.496207999999967
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost and the Search for Answers",
+          "expectedStart": 734.77,
+          "expectedEnd": 945.18,
+          "actualStart": 740.767916,
+          "actualEnd": 951.178041,
+          "timeDifference": 5.997916000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons in Resilience and the Long Road to Recovery",
+          "expectedStart": 945.18,
+          "expectedEnd": 1089.35,
+          "actualStart": 952.678041,
+          "actualEnd": 1096.843583,
+          "timeDifference": 7.4980410000000575
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces—A New Kind of Hope",
+          "expectedStart": 1089.35,
+          "expectedEnd": 1235.16,
+          "actualStart": 1098.343583,
+          "actualEnd": 1244.1492500000002,
+          "timeDifference": 8.993583000000172
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Memory, Story, and the Weight of the Past",
+          "expectedStart": 1235.16,
+          "expectedEnd": 1380.84,
+          "actualStart": 1245.6492500000002,
+          "actualEnd": 1391.3341670000002,
+          "timeDifference": 10.489250000000084
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Land Remembers—Nature’s Slow Recovery",
+          "expectedStart": 1380.84,
+          "expectedEnd": 1521.56,
+          "actualStart": 1392.8341670000002,
+          "actualEnd": 1533.5492500000003,
+          "timeDifference": 11.994167000000289
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy—Warnings for the Future",
+          "expectedStart": 1521.56,
+          "expectedEnd": 1649.07,
+          "actualStart": 1535.0492500000003,
+          "actualEnd": 1662.5604170000001,
+          "timeDifference": 13.489250000000311
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1649.07,
+          "expectedEnd": 1760.88,
+          "actualStart": 1664.0604170000001,
+          "actualEnd": 1775.8686670000002,
+          "timeDifference": 14.990417000000207
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.265875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Dreams and Promises on the Open Plains"
+        },
+        {
+          "startTime": 297.459125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Dreams and Promises on the Open Plains and Chapter 2 The Land Unravels and the Winds Begin"
+        },
+        {
+          "startTime": 514.456208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Land Unravels and the Winds Begin and Chapter 3 Surviving the Black Blizzards"
+        },
+        {
+          "startTime": 739.267916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Surviving the Black Blizzards and Chapter 4 The Human Cost and the Search for Answers"
+        },
+        {
+          "startTime": 951.178041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost and the Search for Answers and Chapter 5 Lessons in Resilience and the Long Road to Recovery"
+        },
+        {
+          "startTime": 1096.843583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons in Resilience and the Long Road to Recovery and Chapter 6 Picking Up the Pieces—A New Kind of Hope"
+        },
+        {
+          "startTime": 1244.1492500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces—A New Kind of Hope and Chapter 7 Memory, Story, and the Weight of the Past"
+        },
+        {
+          "startTime": 1391.3341670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Memory, Story, and the Weight of the Past and Chapter 8 The Land Remembers—Nature’s Slow Recovery"
+        },
+        {
+          "startTime": 1533.5492500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Land Remembers—Nature’s Slow Recovery and Chapter 9 The Legacy—Warnings for the Future"
+        },
+        {
+          "startTime": 1662.5604170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy—Warnings for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2989",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T09:37:45.991Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

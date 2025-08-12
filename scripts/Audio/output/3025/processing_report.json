@@ -1,0 +1,455 @@
+{
+  "bookId": "3025",
+  "timestamp": "2025-07-14T12:38:48.792Z",
+  "success": false,
+  "processingTime": -1752496438505,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4912,
+    "totalAudioFiles": 12,
+    "totalDuration": 1919.200374
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1919.200374
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3025/optimized_text/3025.md",
+    "fileSize": 784,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "3025.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3025/metadata/3025_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1919.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3025/metadata/3025_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3025/metadata/3025_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3025/3025_complete.wav",
+    "duration": 1919.200375,
+    "fileSize": 92121696,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3025/introduction.wav",
+          "duration": 90.916833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.916833,
+          "startTime": 0,
+          "endTime": 90.916833
+        },
+        {
+          "path": "Audio/output/3025/chapter_01.wav",
+          "duration": 231.017333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Dreams, Unlikely Paths, and the Start of Something New",
+          "actualDuration": 231.017333,
+          "startTime": 92.416833,
+          "endTime": 323.434166
+        },
+        {
+          "path": "Audio/output/3025/chapter_02.wav",
+          "duration": 225.429042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Place in Hollywood and the Power of Persistence",
+          "actualDuration": 225.429042,
+          "startTime": 324.934166,
+          "endTime": 550.363208
+        },
+        {
+          "path": "Audio/output/3025/chapter_03.wav",
+          "duration": 219.75125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life on the Set of Gilmore Girls and the Meaning of Belonging",
+          "actualDuration": 219.75125,
+          "startTime": 551.863208,
+          "endTime": 771.614458
+        },
+        {
+          "path": "Audio/output/3025/chapter_04.wav",
+          "duration": 152.629458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Change, Embracing Growth, and Life Beyond the Screen",
+          "actualDuration": 152.629458,
+          "startTime": 773.114458,
+          "endTime": 925.743916
+        },
+        {
+          "path": "Audio/output/3025/chapter_05.wav",
+          "duration": 136.65825,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Revisiting the Past and Finding Closure in Unexpected Ways",
+          "actualDuration": 136.65825,
+          "startTime": 927.243916,
+          "endTime": 1063.902166
+        },
+        {
+          "path": "Audio/output/3025/chapter_06.wav",
+          "duration": 180.030583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Fast Talking and the Joy of Finding Your Voice",
+          "actualDuration": 180.030583,
+          "startTime": 1065.402166,
+          "endTime": 1245.432749
+        },
+        {
+          "path": "Audio/output/3025/chapter_07.wav",
+          "duration": 186.0465,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Fame, Fan Encounters, and the Reality of Public Life",
+          "actualDuration": 186.0465,
+          "startTime": 1246.932749,
+          "endTime": 1432.979249
+        },
+        {
+          "path": "Audio/output/3025/chapter_08.wav",
+          "duration": 142.946083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Writing, Creativity, and the Courage to Try Something New",
+          "actualDuration": 142.946083,
+          "startTime": 1434.479249,
+          "endTime": 1577.425332
+        },
+        {
+          "path": "Audio/output/3025/chapter_09.wav",
+          "duration": 139.606042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Friendship, Love, and the Messiness of Real Life",
+          "actualDuration": 139.606042,
+          "startTime": 1578.925332,
+          "endTime": 1718.5313740000001
+        },
+        {
+          "path": "Audio/output/3025/chapter_10.wav",
+          "duration": 109.367542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Journey and the Power of Looking Forward",
+          "actualDuration": 109.367542,
+          "startTime": 1720.0313740000001,
+          "endTime": 1829.398916
+        },
+        {
+          "path": "Audio/output/3025/conclusion.wav",
+          "duration": 104.801458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.801458,
+          "startTime": 1830.898916,
+          "endTime": 1935.700374
+        }
+      ],
+      "totalDuration": 1935.700374,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.92,
+          "actualStart": 0,
+          "actualEnd": 90.916833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Dreams, Unlikely Paths, and the Start of Something New",
+          "expectedStart": 90.92,
+          "expectedEnd": 321.94,
+          "actualStart": 92.416833,
+          "actualEnd": 323.434166,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Place in Hollywood and the Power of Persistence",
+          "expectedStart": 321.94,
+          "expectedEnd": 547.37,
+          "actualStart": 324.934166,
+          "actualEnd": 550.363208,
+          "timeDifference": 2.994166000000007
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life on the Set of Gilmore Girls and the Meaning of Belonging",
+          "expectedStart": 547.37,
+          "expectedEnd": 767.12,
+          "actualStart": 551.863208,
+          "actualEnd": 771.614458,
+          "timeDifference": 4.493207999999981
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Change, Embracing Growth, and Life Beyond the Screen",
+          "expectedStart": 767.12,
+          "expectedEnd": 919.75,
+          "actualStart": 773.114458,
+          "actualEnd": 925.743916,
+          "timeDifference": 5.994458000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Revisiting the Past and Finding Closure in Unexpected Ways",
+          "expectedStart": 919.75,
+          "expectedEnd": 1056.41,
+          "actualStart": 927.243916,
+          "actualEnd": 1063.902166,
+          "timeDifference": 7.493916000000013
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Fast Talking and the Joy of Finding Your Voice",
+          "expectedStart": 1056.41,
+          "expectedEnd": 1236.44,
+          "actualStart": 1065.402166,
+          "actualEnd": 1245.432749,
+          "timeDifference": 8.992165999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Fame, Fan Encounters, and the Reality of Public Life",
+          "expectedStart": 1236.44,
+          "expectedEnd": 1422.49,
+          "actualStart": 1246.932749,
+          "actualEnd": 1432.979249,
+          "timeDifference": 10.492749000000003
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Writing, Creativity, and the Courage to Try Something New",
+          "expectedStart": 1422.49,
+          "expectedEnd": 1565.44,
+          "actualStart": 1434.479249,
+          "actualEnd": 1577.425332,
+          "timeDifference": 11.989248999999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Friendship, Love, and the Messiness of Real Life",
+          "expectedStart": 1565.44,
+          "expectedEnd": 1705.05,
+          "actualStart": 1578.925332,
+          "actualEnd": 1718.5313740000001,
+          "timeDifference": 13.485331999999971
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Journey and the Power of Looking Forward",
+          "expectedStart": 1705.05,
+          "expectedEnd": 1814.42,
+          "actualStart": 1720.0313740000001,
+          "actualEnd": 1829.398916,
+          "timeDifference": 14.981374000000187
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1814.42,
+          "expectedEnd": 1919.22,
+          "actualStart": 1830.898916,
+          "actualEnd": 1935.700374,
+          "timeDifference": 16.478916000000027
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.916833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Dreams, Unlikely Paths, and the Start of Something New"
+        },
+        {
+          "startTime": 323.434166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Dreams, Unlikely Paths, and the Start of Something New and Chapter 2 Finding a Place in Hollywood and the Power of Persistence"
+        },
+        {
+          "startTime": 550.363208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Place in Hollywood and the Power of Persistence and Chapter 3 Life on the Set of Gilmore Girls and the Meaning of Belonging"
+        },
+        {
+          "startTime": 771.614458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life on the Set of Gilmore Girls and the Meaning of Belonging and Chapter 4 Navigating Change, Embracing Growth, and Life Beyond the Screen"
+        },
+        {
+          "startTime": 925.743916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Change, Embracing Growth, and Life Beyond the Screen and Chapter 5 Revisiting the Past and Finding Closure in Unexpected Ways"
+        },
+        {
+          "startTime": 1063.902166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Revisiting the Past and Finding Closure in Unexpected Ways and Chapter 6 The Art of Fast Talking and the Joy of Finding Your Voice"
+        },
+        {
+          "startTime": 1245.432749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Fast Talking and the Joy of Finding Your Voice and Chapter 7 Navigating Fame, Fan Encounters, and the Reality of Public Life"
+        },
+        {
+          "startTime": 1432.979249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Fame, Fan Encounters, and the Reality of Public Life and Chapter 8 Writing, Creativity, and the Courage to Try Something New"
+        },
+        {
+          "startTime": 1577.425332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Writing, Creativity, and the Courage to Try Something New and Chapter 9 Friendship, Love, and the Messiness of Real Life"
+        },
+        {
+          "startTime": 1718.5313740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Friendship, Love, and the Messiness of Real Life and Chapter 10 Lessons from the Journey and the Power of Looking Forward"
+        },
+        {
+          "startTime": 1829.398916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Journey and the Power of Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3025",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:34:00.045Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

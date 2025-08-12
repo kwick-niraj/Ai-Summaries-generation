@@ -1,0 +1,455 @@
+{
+  "bookId": "2875",
+  "timestamp": "2025-07-14T01:36:58.272Z",
+  "success": false,
+  "processingTime": -1752456704650,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3837,
+    "totalAudioFiles": 12,
+    "totalDuration": 1569.7283760000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1569.7283760000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2875/optimized_text/2875.md",
+    "fileSize": 695,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2875.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2875/metadata/2875_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1569.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2875/metadata/2875_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2875/metadata/2875_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2875/2875_complete.wav",
+    "duration": 1569.728375,
+    "fileSize": 75347040,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2875/introduction.wav",
+          "duration": 94.908,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.908,
+          "startTime": 0,
+          "endTime": 94.908
+        },
+        {
+          "path": "Audio/output/2875/chapter_01.wav",
+          "duration": 180.125333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Entering a World of Appearances and Unspoken Rules",
+          "actualDuration": 180.125333,
+          "startTime": 96.408,
+          "endTime": 276.533333
+        },
+        {
+          "path": "Audio/output/2875/chapter_02.wav",
+          "duration": 162.51375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Behind the Curtain: The Realities of Power and Image",
+          "actualDuration": 162.51375,
+          "startTime": 278.033333,
+          "endTime": 440.54708300000004
+        },
+        {
+          "path": "Audio/output/2875/chapter_03.wav",
+          "duration": 159.449792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The High Price of Loyalty and the Erosion of Trust",
+          "actualDuration": 159.449792,
+          "startTime": 442.04708300000004,
+          "endTime": 601.496875
+        },
+        {
+          "path": "Audio/output/2875/chapter_04.wav",
+          "duration": 165.169792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Scandal, Blame, and the Weight of Public Scrutiny",
+          "actualDuration": 165.169792,
+          "startTime": 602.996875,
+          "endTime": 768.1666670000001
+        },
+        {
+          "path": "Audio/output/2875/chapter_05.wav",
+          "duration": 107.698,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cost of Speaking Out and the Search for Closure",
+          "actualDuration": 107.698,
+          "startTime": 769.6666670000001,
+          "endTime": 877.364667
+        },
+        {
+          "path": "Audio/output/2875/chapter_06.wav",
+          "duration": 130.450542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: Life After the White House",
+          "actualDuration": 130.450542,
+          "startTime": 878.864667,
+          "endTime": 1009.3152090000001
+        },
+        {
+          "path": "Audio/output/2875/chapter_07.wav",
+          "duration": 117.298375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons in Forgiveness and Letting Go",
+          "actualDuration": 117.298375,
+          "startTime": 1010.8152090000001,
+          "endTime": 1128.1135840000002
+        },
+        {
+          "path": "Audio/output/2875/chapter_08.wav",
+          "duration": 140.450083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effects: Family, Reputation, and the Public Eye",
+          "actualDuration": 140.450083,
+          "startTime": 1129.6135840000002,
+          "endTime": 1270.0636670000001
+        },
+        {
+          "path": "Audio/output/2875/chapter_09.wav",
+          "duration": 123.414625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Identity and Purpose",
+          "actualDuration": 123.414625,
+          "startTime": 1271.5636670000001,
+          "endTime": 1394.9782920000002
+        },
+        {
+          "path": "Audio/output/2875/chapter_10.wav",
+          "duration": 87.692167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Wisdom, Boundaries, and New Beginnings",
+          "actualDuration": 87.692167,
+          "startTime": 1396.4782920000002,
+          "endTime": 1484.1704590000002
+        },
+        {
+          "path": "Audio/output/2875/conclusion.wav",
+          "duration": 100.557917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 100.557917,
+          "startTime": 1485.6704590000002,
+          "endTime": 1586.2283760000003
+        }
+      ],
+      "totalDuration": 1586.2283760000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.91,
+          "actualStart": 0,
+          "actualEnd": 94.908,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Entering a World of Appearances and Unspoken Rules",
+          "expectedStart": 94.91,
+          "expectedEnd": 275.04,
+          "actualStart": 96.408,
+          "actualEnd": 276.533333,
+          "timeDifference": 1.4980000000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Behind the Curtain: The Realities of Power and Image",
+          "expectedStart": 275.04,
+          "expectedEnd": 437.55,
+          "actualStart": 278.033333,
+          "actualEnd": 440.54708300000004,
+          "timeDifference": 2.993333000000007
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The High Price of Loyalty and the Erosion of Trust",
+          "expectedStart": 437.55,
+          "expectedEnd": 597,
+          "actualStart": 442.04708300000004,
+          "actualEnd": 601.496875,
+          "timeDifference": 4.497083000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Scandal, Blame, and the Weight of Public Scrutiny",
+          "expectedStart": 597,
+          "expectedEnd": 762.17,
+          "actualStart": 602.996875,
+          "actualEnd": 768.1666670000001,
+          "timeDifference": 5.9968750000000455
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cost of Speaking Out and the Search for Closure",
+          "expectedStart": 762.17,
+          "expectedEnd": 869.87,
+          "actualStart": 769.6666670000001,
+          "actualEnd": 877.364667,
+          "timeDifference": 7.496667000000116
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: Life After the White House",
+          "expectedStart": 869.87,
+          "expectedEnd": 1000.32,
+          "actualStart": 878.864667,
+          "actualEnd": 1009.3152090000001,
+          "timeDifference": 8.99466700000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons in Forgiveness and Letting Go",
+          "expectedStart": 1000.32,
+          "expectedEnd": 1117.62,
+          "actualStart": 1010.8152090000001,
+          "actualEnd": 1128.1135840000002,
+          "timeDifference": 10.495209000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effects: Family, Reputation, and the Public Eye",
+          "expectedStart": 1117.62,
+          "expectedEnd": 1258.07,
+          "actualStart": 1129.6135840000002,
+          "actualEnd": 1270.0636670000001,
+          "timeDifference": 11.993584000000283
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Identity and Purpose",
+          "expectedStart": 1258.07,
+          "expectedEnd": 1381.48,
+          "actualStart": 1271.5636670000001,
+          "actualEnd": 1394.9782920000002,
+          "timeDifference": 13.493667000000187
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Wisdom, Boundaries, and New Beginnings",
+          "expectedStart": 1381.48,
+          "expectedEnd": 1469.17,
+          "actualStart": 1396.4782920000002,
+          "actualEnd": 1484.1704590000002,
+          "timeDifference": 14.99829200000022
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1469.17,
+          "expectedEnd": 1569.73,
+          "actualStart": 1485.6704590000002,
+          "actualEnd": 1586.2283760000003,
+          "timeDifference": 16.50045900000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.908,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Entering a World of Appearances and Unspoken Rules"
+        },
+        {
+          "startTime": 276.533333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Entering a World of Appearances and Unspoken Rules and Chapter 2 Behind the Curtain: The Realities of Power and Image"
+        },
+        {
+          "startTime": 440.54708300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Behind the Curtain: The Realities of Power and Image and Chapter 3 The High Price of Loyalty and the Erosion of Trust"
+        },
+        {
+          "startTime": 601.496875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The High Price of Loyalty and the Erosion of Trust and Chapter 4 Navigating Scandal, Blame, and the Weight of Public Scrutiny"
+        },
+        {
+          "startTime": 768.1666670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Scandal, Blame, and the Weight of Public Scrutiny and Chapter 5 The Cost of Speaking Out and the Search for Closure"
+        },
+        {
+          "startTime": 877.364667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cost of Speaking Out and the Search for Closure and Chapter 6 Picking Up the Pieces: Life After the White House"
+        },
+        {
+          "startTime": 1009.3152090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: Life After the White House and Chapter 7 Lessons in Forgiveness and Letting Go"
+        },
+        {
+          "startTime": 1128.1135840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons in Forgiveness and Letting Go and Chapter 8 The Ripple Effects: Family, Reputation, and the Public Eye"
+        },
+        {
+          "startTime": 1270.0636670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effects: Family, Reputation, and the Public Eye and Chapter 9 Reclaiming Identity and Purpose"
+        },
+        {
+          "startTime": 1394.9782920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Identity and Purpose and Chapter 10 Moving Forward: Wisdom, Boundaries, and New Beginnings"
+        },
+        {
+          "startTime": 1484.1704590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Wisdom, Boundaries, and New Beginnings and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2875",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:31:45.849Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

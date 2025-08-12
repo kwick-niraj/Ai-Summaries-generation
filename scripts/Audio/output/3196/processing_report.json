@@ -1,0 +1,456 @@
+{
+  "bookId": "3196",
+  "timestamp": "2025-07-15T02:19:59.138Z",
+  "success": false,
+  "processingTime": -1752545616978,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5177,
+    "totalAudioFiles": 12,
+    "totalDuration": 2196.4451670000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2196.4451670000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3196/optimized_text/3196.md",
+    "fileSize": 691,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "3196.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3196/metadata/3196_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2196.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3196/metadata/3196_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3196/metadata/3196_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3196/3196_complete.wav",
+    "duration": 2196.445167,
+    "fileSize": 105429446,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3196/introduction.wav",
+          "duration": 81.722375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.722375,
+          "startTime": 0,
+          "endTime": 81.722375
+        },
+        {
+          "path": "Audio/output/3196/chapter_01.wav",
+          "duration": 225.886,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Mornings Hold the Key to Personal Change",
+          "actualDuration": 225.886,
+          "startTime": 83.222375,
+          "endTime": 309.108375
+        },
+        {
+          "path": "Audio/output/3196/chapter_02.wav",
+          "duration": 217.286208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying What Matters Most Before the Day Begins",
+          "actualDuration": 217.286208,
+          "startTime": 310.608375,
+          "endTime": 527.894583
+        },
+        {
+          "path": "Audio/output/3196/chapter_03.wav",
+          "duration": 249.515083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Designing a Morning Routine That Reflects Personal Values",
+          "actualDuration": 249.515083,
+          "startTime": 529.394583,
+          "endTime": 778.909666
+        },
+        {
+          "path": "Audio/output/3196/chapter_04.wav",
+          "duration": 225.586417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Habits That Make Morning Routines Stick",
+          "actualDuration": 225.586417,
+          "startTime": 780.409666,
+          "endTime": 1005.996083
+        },
+        {
+          "path": "Audio/output/3196/chapter_05.wav",
+          "duration": 190.139167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Using Mornings for Self-Care, Planning, and Personal Growth",
+          "actualDuration": 190.139167,
+          "startTime": 1007.496083,
+          "endTime": 1197.63525
+        },
+        {
+          "path": "Audio/output/3196/chapter_06.wav",
+          "duration": 227.197292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Troubleshooting Common Morning Routine Obstacles",
+          "actualDuration": 227.197292,
+          "startTime": 1199.13525,
+          "endTime": 1426.332542
+        },
+        {
+          "path": "Audio/output/3196/chapter_07.wav",
+          "duration": 192.378333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Morning Routines with Broader Life Design",
+          "actualDuration": 192.378333,
+          "startTime": 1427.832542,
+          "endTime": 1620.2108750000002
+        },
+        {
+          "path": "Audio/output/3196/chapter_08.wav",
+          "duration": 173.230042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Advanced Strategies for Deepening Morning Impact",
+          "actualDuration": 173.230042,
+          "startTime": 1621.7108750000002,
+          "endTime": 1794.9409170000001
+        },
+        {
+          "path": "Audio/output/3196/chapter_09.wav",
+          "duration": 150.671292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Momentum and Navigating Setbacks",
+          "actualDuration": 150.671292,
+          "startTime": 1796.4409170000001,
+          "endTime": 1947.1122090000001
+        },
+        {
+          "path": "Audio/output/3196/chapter_10.wav",
+          "duration": 147.321,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lifelong Value of Morning Mastery",
+          "actualDuration": 147.321,
+          "startTime": 1948.6122090000001,
+          "endTime": 2095.9332090000003
+        },
+        {
+          "path": "Audio/output/3196/conclusion.wav",
+          "duration": 115.511958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.511958,
+          "startTime": 2097.4332090000003,
+          "endTime": 2212.9451670000003
+        }
+      ],
+      "totalDuration": 2212.9451670000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.72,
+          "actualStart": 0,
+          "actualEnd": 81.722375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Mornings Hold the Key to Personal Change",
+          "expectedStart": 81.72,
+          "expectedEnd": 307.61,
+          "actualStart": 83.222375,
+          "actualEnd": 309.108375,
+          "timeDifference": 1.5023750000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying What Matters Most Before the Day Begins",
+          "expectedStart": 307.61,
+          "expectedEnd": 524.9,
+          "actualStart": 310.608375,
+          "actualEnd": 527.894583,
+          "timeDifference": 2.99837500000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Designing a Morning Routine That Reflects Personal Values",
+          "expectedStart": 524.9,
+          "expectedEnd": 774.42,
+          "actualStart": 529.394583,
+          "actualEnd": 778.909666,
+          "timeDifference": 4.494583000000034
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Habits That Make Morning Routines Stick",
+          "expectedStart": 774.42,
+          "expectedEnd": 1000.01,
+          "actualStart": 780.409666,
+          "actualEnd": 1005.996083,
+          "timeDifference": 5.989666000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Using Mornings for Self-Care, Planning, and Personal Growth",
+          "expectedStart": 1000.01,
+          "expectedEnd": 1190.15,
+          "actualStart": 1007.496083,
+          "actualEnd": 1197.63525,
+          "timeDifference": 7.486083000000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Troubleshooting Common Morning Routine Obstacles",
+          "expectedStart": 1190.15,
+          "expectedEnd": 1417.35,
+          "actualStart": 1199.13525,
+          "actualEnd": 1426.332542,
+          "timeDifference": 8.98524999999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Morning Routines with Broader Life Design",
+          "expectedStart": 1417.35,
+          "expectedEnd": 1609.73,
+          "actualStart": 1427.832542,
+          "actualEnd": 1620.2108750000002,
+          "timeDifference": 10.482542000000194
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Advanced Strategies for Deepening Morning Impact",
+          "expectedStart": 1609.73,
+          "expectedEnd": 1782.96,
+          "actualStart": 1621.7108750000002,
+          "actualEnd": 1794.9409170000001,
+          "timeDifference": 11.980875000000196
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Momentum and Navigating Setbacks",
+          "expectedStart": 1782.96,
+          "expectedEnd": 1933.63,
+          "actualStart": 1796.4409170000001,
+          "actualEnd": 1947.1122090000001,
+          "timeDifference": 13.48091700000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lifelong Value of Morning Mastery",
+          "expectedStart": 1933.63,
+          "expectedEnd": 2080.95,
+          "actualStart": 1948.6122090000001,
+          "actualEnd": 2095.9332090000003,
+          "timeDifference": 14.982209000000012
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2080.95,
+          "expectedEnd": 2196.46,
+          "actualStart": 2097.4332090000003,
+          "actualEnd": 2212.9451670000003,
+          "timeDifference": 16.483209000000443
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.722375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Mornings Hold the Key to Personal Change"
+        },
+        {
+          "startTime": 309.108375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Mornings Hold the Key to Personal Change and Chapter 2 Identifying What Matters Most Before the Day Begins"
+        },
+        {
+          "startTime": 527.894583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying What Matters Most Before the Day Begins and Chapter 3 Designing a Morning Routine That Reflects Personal Values"
+        },
+        {
+          "startTime": 778.909666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Designing a Morning Routine That Reflects Personal Values and Chapter 4 Building Habits That Make Morning Routines Stick"
+        },
+        {
+          "startTime": 1005.996083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Habits That Make Morning Routines Stick and Chapter 5 Using Mornings for Self-Care, Planning, and Personal Growth"
+        },
+        {
+          "startTime": 1197.63525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Using Mornings for Self-Care, Planning, and Personal Growth and Chapter 6 Troubleshooting Common Morning Routine Obstacles"
+        },
+        {
+          "startTime": 1426.332542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Troubleshooting Common Morning Routine Obstacles and Chapter 7 Integrating Morning Routines with Broader Life Design"
+        },
+        {
+          "startTime": 1620.2108750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Morning Routines with Broader Life Design and Chapter 8 Advanced Strategies for Deepening Morning Impact"
+        },
+        {
+          "startTime": 1794.9409170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Advanced Strategies for Deepening Morning Impact and Chapter 9 Sustaining Momentum and Navigating Setbacks"
+        },
+        {
+          "startTime": 1947.1122090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Momentum and Navigating Setbacks and Chapter 10 The Lifelong Value of Morning Mastery"
+        },
+        {
+          "startTime": 2095.9332090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lifelong Value of Morning Mastery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3196",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:13:38.282Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

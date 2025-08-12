@@ -1,0 +1,456 @@
+{
+  "bookId": "2856",
+  "timestamp": "2025-07-14T00:37:45.106Z",
+  "success": false,
+  "processingTime": -1752453192569,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4341,
+    "totalAudioFiles": 12,
+    "totalDuration": 2114.172334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2114.172334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2856/optimized_text/2856.md",
+    "fileSize": 651,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2856.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2856/metadata/2856_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2114.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2856/metadata/2856_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2856/metadata/2856_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2856/2856_complete.wav",
+    "duration": 2114.172333,
+    "fileSize": 101480350,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2856/introduction.wav",
+          "duration": 81.421375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.421375,
+          "startTime": 0,
+          "endTime": 81.421375
+        },
+        {
+          "path": "Audio/output/2856/chapter_01.wav",
+          "duration": 232.018083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering That the Brain Can Change at Any Age",
+          "actualDuration": 232.018083,
+          "startTime": 82.921375,
+          "endTime": 314.939458
+        },
+        {
+          "path": "Audio/output/2856/chapter_02.wav",
+          "duration": 238.305375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Stories of Recovery and the Power of Practice",
+          "actualDuration": 238.305375,
+          "startTime": 316.439458,
+          "endTime": 554.744833
+        },
+        {
+          "path": "Audio/output/2856/chapter_03.wav",
+          "duration": 217.228792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How the Brain Rewires Itself Through Experience",
+          "actualDuration": 217.228792,
+          "startTime": 556.244833,
+          "endTime": 773.473625
+        },
+        {
+          "path": "Audio/output/2856/chapter_04.wav",
+          "duration": 204.000292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Tools and Techniques That Harness Brain Plasticity",
+          "actualDuration": 204.000292,
+          "startTime": 774.973625,
+          "endTime": 978.973917
+        },
+        {
+          "path": "Audio/output/2856/chapter_05.wav",
+          "duration": 163.88925,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Human Potential and the Limits of the Mind",
+          "actualDuration": 163.88925,
+          "startTime": 980.473917,
+          "endTime": 1144.363167
+        },
+        {
+          "path": "Audio/output/2856/chapter_06.wav",
+          "duration": 190.5705,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Brain’s Role in Chronic Pain and Phantom Limbs",
+          "actualDuration": 190.5705,
+          "startTime": 1145.863167,
+          "endTime": 1336.433667
+        },
+        {
+          "path": "Audio/output/2856/chapter_07.wav",
+          "duration": 208.52475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Sex, and the Plastic Brain",
+          "actualDuration": 208.52475,
+          "startTime": 1337.933667,
+          "endTime": 1546.458417
+        },
+        {
+          "path": "Audio/output/2856/chapter_08.wav",
+          "duration": 167.353375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Aging, Memory, and the Possibility of Renewal",
+          "actualDuration": 167.353375,
+          "startTime": 1547.958417,
+          "endTime": 1715.311792
+        },
+        {
+          "path": "Audio/output/2856/chapter_09.wav",
+          "duration": 152.842792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dark Side of Plasticity",
+          "actualDuration": 152.842792,
+          "startTime": 1716.811792,
+          "endTime": 1869.6545839999999
+        },
+        {
+          "path": "Audio/output/2856/chapter_10.wav",
+          "duration": 135.828208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Neuroplasticity and the Human Story",
+          "actualDuration": 135.828208,
+          "startTime": 1871.1545839999999,
+          "endTime": 2006.9827919999998
+        },
+        {
+          "path": "Audio/output/2856/conclusion.wav",
+          "duration": 122.189542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.189542,
+          "startTime": 2008.4827919999998,
+          "endTime": 2130.672334
+        }
+      ],
+      "totalDuration": 2130.672334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.42,
+          "actualStart": 0,
+          "actualEnd": 81.421375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering That the Brain Can Change at Any Age",
+          "expectedStart": 81.42,
+          "expectedEnd": 313.44,
+          "actualStart": 82.921375,
+          "actualEnd": 314.939458,
+          "timeDifference": 1.501374999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Stories of Recovery and the Power of Practice",
+          "expectedStart": 313.44,
+          "expectedEnd": 551.75,
+          "actualStart": 316.439458,
+          "actualEnd": 554.744833,
+          "timeDifference": 2.999458000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How the Brain Rewires Itself Through Experience",
+          "expectedStart": 551.75,
+          "expectedEnd": 768.98,
+          "actualStart": 556.244833,
+          "actualEnd": 773.473625,
+          "timeDifference": 4.494832999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Tools and Techniques That Harness Brain Plasticity",
+          "expectedStart": 768.98,
+          "expectedEnd": 972.98,
+          "actualStart": 774.973625,
+          "actualEnd": 978.973917,
+          "timeDifference": 5.993624999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Human Potential and the Limits of the Mind",
+          "expectedStart": 972.98,
+          "expectedEnd": 1136.87,
+          "actualStart": 980.473917,
+          "actualEnd": 1144.363167,
+          "timeDifference": 7.49391700000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Brain’s Role in Chronic Pain and Phantom Limbs",
+          "expectedStart": 1136.87,
+          "expectedEnd": 1327.44,
+          "actualStart": 1145.863167,
+          "actualEnd": 1336.433667,
+          "timeDifference": 8.993167000000085
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Sex, and the Plastic Brain",
+          "expectedStart": 1327.44,
+          "expectedEnd": 1535.96,
+          "actualStart": 1337.933667,
+          "actualEnd": 1546.458417,
+          "timeDifference": 10.49366699999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Aging, Memory, and the Possibility of Renewal",
+          "expectedStart": 1535.96,
+          "expectedEnd": 1703.31,
+          "actualStart": 1547.958417,
+          "actualEnd": 1715.311792,
+          "timeDifference": 11.998417000000018
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dark Side of Plasticity",
+          "expectedStart": 1703.31,
+          "expectedEnd": 1856.15,
+          "actualStart": 1716.811792,
+          "actualEnd": 1869.6545839999999,
+          "timeDifference": 13.501792000000023
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Neuroplasticity and the Human Story",
+          "expectedStart": 1856.15,
+          "expectedEnd": 1991.98,
+          "actualStart": 1871.1545839999999,
+          "actualEnd": 2006.9827919999998,
+          "timeDifference": 15.004583999999795
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1991.98,
+          "expectedEnd": 2114.17,
+          "actualStart": 2008.4827919999998,
+          "actualEnd": 2130.672334,
+          "timeDifference": 16.502791999999772
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.421375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering That the Brain Can Change at Any Age"
+        },
+        {
+          "startTime": 314.939458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering That the Brain Can Change at Any Age and Chapter 2 Stories of Recovery and the Power of Practice"
+        },
+        {
+          "startTime": 554.744833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Stories of Recovery and the Power of Practice and Chapter 3 How the Brain Rewires Itself Through Experience"
+        },
+        {
+          "startTime": 773.473625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How the Brain Rewires Itself Through Experience and Chapter 4 Tools and Techniques That Harness Brain Plasticity"
+        },
+        {
+          "startTime": 978.973917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Tools and Techniques That Harness Brain Plasticity and Chapter 5 Rethinking Human Potential and the Limits of the Mind"
+        },
+        {
+          "startTime": 1144.363167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Human Potential and the Limits of the Mind and Chapter 6 The Brain’s Role in Chronic Pain and Phantom Limbs"
+        },
+        {
+          "startTime": 1336.433667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Brain’s Role in Chronic Pain and Phantom Limbs and Chapter 7 Love, Sex, and the Plastic Brain"
+        },
+        {
+          "startTime": 1546.458417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Sex, and the Plastic Brain and Chapter 8 Aging, Memory, and the Possibility of Renewal"
+        },
+        {
+          "startTime": 1715.311792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Aging, Memory, and the Possibility of Renewal and Chapter 9 The Dark Side of Plasticity"
+        },
+        {
+          "startTime": 1869.6545839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dark Side of Plasticity and Chapter 10 The Future of Neuroplasticity and the Human Story"
+        },
+        {
+          "startTime": 2006.9827919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Neuroplasticity and the Human Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2856",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:33:13.080Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

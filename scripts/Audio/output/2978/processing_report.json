@@ -1,0 +1,505 @@
+{
+  "bookId": "2978",
+  "timestamp": "2025-07-14T08:59:56.049Z",
+  "success": false,
+  "processingTime": -1752483153129,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5904,
+    "totalAudioFiles": 14,
+    "totalDuration": 2824.077416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2824.077416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2978/optimized_text/2978.md",
+    "fileSize": 964,
+    "wordCount": 130,
+    "format": "markdown",
+    "filename": "2978.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2978/metadata/2978_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2824.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2978/metadata/2978_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2978/metadata/2978_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2978/2978_complete.wav",
+    "duration": 2824.077417,
+    "fileSize": 135555794,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2978/introduction.wav",
+          "duration": 103.299167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.299167,
+          "startTime": 0,
+          "endTime": 103.299167
+        },
+        {
+          "path": "Audio/output/2978/chapter_01.wav",
+          "duration": 248.328375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Before Bethlehem—The Eternal Nature and Foreordination of Jesus",
+          "actualDuration": 248.328375,
+          "startTime": 104.799167,
+          "endTime": 353.127542
+        },
+        {
+          "path": "Audio/output/2978/chapter_02.wav",
+          "duration": 264.795,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Birth and Early Years—A Life Set Apart from the Start",
+          "actualDuration": 264.795,
+          "startTime": 354.627542,
+          "endTime": 619.422542
+        },
+        {
+          "path": "Audio/output/2978/chapter_03.wav",
+          "duration": 254.819,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Baptism and Temptation—Embracing Humanity and Divine Purpose",
+          "actualDuration": 254.819,
+          "startTime": 620.922542,
+          "endTime": 875.741542
+        },
+        {
+          "path": "Audio/output/2978/chapter_04.wav",
+          "duration": 254.574333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Early Ministry—Teaching, Healing, and Gathering Disciples",
+          "actualDuration": 254.574333,
+          "startTime": 877.241542,
+          "endTime": 1131.815875
+        },
+        {
+          "path": "Audio/output/2978/chapter_05.wav",
+          "duration": 205.924083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Nature of Christ—Divinity and Humanity in Daily Life",
+          "actualDuration": 205.924083,
+          "startTime": 1133.315875,
+          "endTime": 1339.2399580000001
+        },
+        {
+          "path": "Audio/output/2978/chapter_06.wav",
+          "duration": 217.009292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Sermon on the Mount—A New Way of Seeing",
+          "actualDuration": 217.009292,
+          "startTime": 1340.7399580000001,
+          "endTime": 1557.74925
+        },
+        {
+          "path": "Audio/output/2978/chapter_07.wav",
+          "duration": 201.937,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Parables and Miracles—Stories That Change Hearts",
+          "actualDuration": 201.937,
+          "startTime": 1559.24925,
+          "endTime": 1761.1862500000002
+        },
+        {
+          "path": "Audio/output/2978/chapter_08.wav",
+          "duration": 200.331375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Opposition and the Road to Jerusalem—Courage in the Face of Rejection",
+          "actualDuration": 200.331375,
+          "startTime": 1762.6862500000002,
+          "endTime": 1963.0176250000002
+        },
+        {
+          "path": "Audio/output/2978/chapter_09.wav",
+          "duration": 183.804208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Last Supper and Gethsemane—Love’s Deepest Test",
+          "actualDuration": 183.804208,
+          "startTime": 1964.5176250000002,
+          "endTime": 2148.321833
+        },
+        {
+          "path": "Audio/output/2978/chapter_10.wav",
+          "duration": 175.180583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Trial and Crucifixion—The Cost of Redemption",
+          "actualDuration": 175.180583,
+          "startTime": 2149.821833,
+          "endTime": 2325.002416
+        },
+        {
+          "path": "Audio/output/2978/chapter_11.wav",
+          "duration": 137.504042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Resurrection—Hope Restored",
+          "actualDuration": 137.504042,
+          "startTime": 2326.502416,
+          "endTime": 2464.006458
+        },
+        {
+          "path": "Audio/output/2978/chapter_12.wav",
+          "duration": 132.3535,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Forty Days and Ascension—Preparing for What Comes Next",
+          "actualDuration": 132.3535,
+          "startTime": 2465.506458,
+          "endTime": 2597.859958
+        },
+        {
+          "path": "Audio/output/2978/chapter_13.wav",
+          "duration": 244.217458,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Lasting Impact—The Living Christ in Every Age",
+          "actualDuration": 244.217458,
+          "startTime": 2599.359958,
+          "endTime": 2843.577416
+        }
+      ],
+      "totalDuration": 2843.577416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.3,
+          "actualStart": 0,
+          "actualEnd": 103.299167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Before Bethlehem—The Eternal Nature and Foreordination of Jesus",
+          "expectedStart": 103.3,
+          "expectedEnd": 351.63,
+          "actualStart": 104.799167,
+          "actualEnd": 353.127542,
+          "timeDifference": 1.499167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Birth and Early Years—A Life Set Apart from the Start",
+          "expectedStart": 351.63,
+          "expectedEnd": 616.42,
+          "actualStart": 354.627542,
+          "actualEnd": 619.422542,
+          "timeDifference": 2.99754200000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Baptism and Temptation—Embracing Humanity and Divine Purpose",
+          "expectedStart": 616.42,
+          "expectedEnd": 871.24,
+          "actualStart": 620.922542,
+          "actualEnd": 875.741542,
+          "timeDifference": 4.502542000000062
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Early Ministry—Teaching, Healing, and Gathering Disciples",
+          "expectedStart": 871.24,
+          "expectedEnd": 1125.81,
+          "actualStart": 877.241542,
+          "actualEnd": 1131.815875,
+          "timeDifference": 6.001541999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Nature of Christ—Divinity and Humanity in Daily Life",
+          "expectedStart": 1125.81,
+          "expectedEnd": 1331.73,
+          "actualStart": 1133.315875,
+          "actualEnd": 1339.2399580000001,
+          "timeDifference": 7.50587500000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Sermon on the Mount—A New Way of Seeing",
+          "expectedStart": 1331.73,
+          "expectedEnd": 1548.74,
+          "actualStart": 1340.7399580000001,
+          "actualEnd": 1557.74925,
+          "timeDifference": 9.009958000000097
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Parables and Miracles—Stories That Change Hearts",
+          "expectedStart": 1548.74,
+          "expectedEnd": 1750.68,
+          "actualStart": 1559.24925,
+          "actualEnd": 1761.1862500000002,
+          "timeDifference": 10.509250000000065
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Opposition and the Road to Jerusalem—Courage in the Face of Rejection",
+          "expectedStart": 1750.68,
+          "expectedEnd": 1951.01,
+          "actualStart": 1762.6862500000002,
+          "actualEnd": 1963.0176250000002,
+          "timeDifference": 12.006250000000136
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Last Supper and Gethsemane—Love’s Deepest Test",
+          "expectedStart": 1951.01,
+          "expectedEnd": 2134.81,
+          "actualStart": 1964.5176250000002,
+          "actualEnd": 2148.321833,
+          "timeDifference": 13.50762500000019
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Trial and Crucifixion—The Cost of Redemption",
+          "expectedStart": 2134.81,
+          "expectedEnd": 2309.99,
+          "actualStart": 2149.821833,
+          "actualEnd": 2325.002416,
+          "timeDifference": 15.011833000000024
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Resurrection—Hope Restored",
+          "expectedStart": 2309.99,
+          "expectedEnd": 2447.49,
+          "actualStart": 2326.502416,
+          "actualEnd": 2464.006458,
+          "timeDifference": 16.51241600000003
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Forty Days and Ascension—Preparing for What Comes Next",
+          "expectedStart": 2447.49,
+          "expectedEnd": 2579.84,
+          "actualStart": 2465.506458,
+          "actualEnd": 2597.859958,
+          "timeDifference": 18.016458000000057
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Lasting Impact—The Living Christ in Every Age",
+          "expectedStart": 2579.84,
+          "expectedEnd": 2824.06,
+          "actualStart": 2599.359958,
+          "actualEnd": 2843.577416,
+          "timeDifference": 19.51995799999986
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.299167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Before Bethlehem—The Eternal Nature and Foreordination of Jesus"
+        },
+        {
+          "startTime": 353.127542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Before Bethlehem—The Eternal Nature and Foreordination of Jesus and Chapter 2 The Birth and Early Years—A Life Set Apart from the Start"
+        },
+        {
+          "startTime": 619.422542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Birth and Early Years—A Life Set Apart from the Start and Chapter 3 The Baptism and Temptation—Embracing Humanity and Divine Purpose"
+        },
+        {
+          "startTime": 875.741542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Baptism and Temptation—Embracing Humanity and Divine Purpose and Chapter 4 The Early Ministry—Teaching, Healing, and Gathering Disciples"
+        },
+        {
+          "startTime": 1131.815875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Early Ministry—Teaching, Healing, and Gathering Disciples and Chapter 5 The Nature of Christ—Divinity and Humanity in Daily Life"
+        },
+        {
+          "startTime": 1339.2399580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Nature of Christ—Divinity and Humanity in Daily Life and Chapter 6 The Sermon on the Mount—A New Way of Seeing"
+        },
+        {
+          "startTime": 1557.74925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Sermon on the Mount—A New Way of Seeing and Chapter 7 Parables and Miracles—Stories That Change Hearts"
+        },
+        {
+          "startTime": 1761.1862500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Parables and Miracles—Stories That Change Hearts and Chapter 8 Opposition and the Road to Jerusalem—Courage in the Face of Rejection"
+        },
+        {
+          "startTime": 1963.0176250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Opposition and the Road to Jerusalem—Courage in the Face of Rejection and Chapter 9 The Last Supper and Gethsemane—Love’s Deepest Test"
+        },
+        {
+          "startTime": 2148.321833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Last Supper and Gethsemane—Love’s Deepest Test and Chapter 10 The Trial and Crucifixion—The Cost of Redemption"
+        },
+        {
+          "startTime": 2325.002416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Trial and Crucifixion—The Cost of Redemption and Chapter 11 The Resurrection—Hope Restored"
+        },
+        {
+          "startTime": 2464.006458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Resurrection—Hope Restored and Chapter 12 The Forty Days and Ascension—Preparing for What Comes Next"
+        },
+        {
+          "startTime": 2597.859958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Forty Days and Ascension—Preparing for What Comes Next and Chapter 13 The Lasting Impact—The Living Christ in Every Age"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2978",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T08:52:34.434Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

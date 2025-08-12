@@ -1,0 +1,552 @@
+{
+  "bookId": "2945",
+  "timestamp": "2025-07-14T06:24:52.489Z",
+  "success": false,
+  "processingTime": -1752473733642,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5835,
+    "totalAudioFiles": 16,
+    "totalDuration": 2554.835625999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2554.835625999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2945/optimized_text/2945.md",
+    "fileSize": 961,
+    "wordCount": 126,
+    "format": "markdown",
+    "filename": "2945.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2945/metadata/2945_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2554.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2945/metadata/2945_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2945/metadata/2945_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2945/2945_complete.wav",
+    "duration": 2554.835625,
+    "fileSize": 122632188,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2945/introduction.wav",
+          "duration": 92.719875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.719875,
+          "startTime": 0,
+          "endTime": 92.719875
+        },
+        {
+          "path": "Audio/output/2945/chapter_01.wav",
+          "duration": 234.646042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Moment When Life Knocks Us Down",
+          "actualDuration": 234.646042,
+          "startTime": 94.219875,
+          "endTime": 328.86591699999997
+        },
+        {
+          "path": "Audio/output/2945/chapter_02.wav",
+          "duration": 238.970417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Stories We Tell Ourselves",
+          "actualDuration": 238.970417,
+          "startTime": 330.36591699999997,
+          "endTime": 569.336334
+        },
+        {
+          "path": "Audio/output/2945/chapter_03.wav",
+          "duration": 214.992917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Owning Our Stories",
+          "actualDuration": 214.992917,
+          "startTime": 570.836334,
+          "endTime": 785.829251
+        },
+        {
+          "path": "Audio/output/2945/chapter_04.wav",
+          "duration": 170.343125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Struggle into Strength and Connection",
+          "actualDuration": 170.343125,
+          "startTime": 787.329251,
+          "endTime": 957.672376
+        },
+        {
+          "path": "Audio/output/2945/chapter_05.wav",
+          "duration": 162.454417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Courage to Live, Love, and Lead with Vulnerability",
+          "actualDuration": 162.454417,
+          "startTime": 959.172376,
+          "endTime": 1121.626793
+        },
+        {
+          "path": "Audio/output/2945/chapter_06.wav",
+          "duration": 172.737375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Reckoning—Learning to Stay with Discomfort",
+          "actualDuration": 172.737375,
+          "startTime": 1123.126793,
+          "endTime": 1295.8641679999998
+        },
+        {
+          "path": "Audio/output/2945/chapter_07.wav",
+          "duration": 185.797125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rumble—Challenging the First Draft",
+          "actualDuration": 185.797125,
+          "startTime": 1297.3641679999998,
+          "endTime": 1483.161293
+        },
+        {
+          "path": "Audio/output/2945/chapter_08.wav",
+          "duration": 175.440208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Revolution—Writing a New Ending",
+          "actualDuration": 175.440208,
+          "startTime": 1484.661293,
+          "endTime": 1660.1015009999999
+        },
+        {
+          "path": "Audio/output/2945/chapter_09.wav",
+          "duration": 151.006542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Arena—Living Brave Every Day",
+          "actualDuration": 151.006542,
+          "startTime": 1661.6015009999999,
+          "endTime": 1812.608043
+        },
+        {
+          "path": "Audio/output/2945/chapter_10.wav",
+          "duration": 144.855417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wholeheartedness—The Practice of Living and Loving Fully",
+          "actualDuration": 144.855417,
+          "startTime": 1814.108043,
+          "endTime": 1958.96346
+        },
+        {
+          "path": "Audio/output/2945/chapter_11.wav",
+          "duration": 121.532167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Gifts of Imperfection—Letting Go of What We’re Supposed to Be",
+          "actualDuration": 121.532167,
+          "startTime": 1960.46346,
+          "endTime": 2081.995627
+        },
+        {
+          "path": "Audio/output/2945/chapter_12.wav",
+          "duration": 143.760583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Rising Strong at Work—Building Resilient Teams and Cultures",
+          "actualDuration": 143.760583,
+          "startTime": 2083.495627,
+          "endTime": 2227.2562099999996
+        },
+        {
+          "path": "Audio/output/2945/chapter_13.wav",
+          "duration": 126.336125,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Rising Strong in Relationships—Repair, Reconnection, and Growth",
+          "actualDuration": 126.336125,
+          "startTime": 2228.7562099999996,
+          "endTime": 2355.0923349999994
+        },
+        {
+          "path": "Audio/output/2945/chapter_14.wav",
+          "duration": 109.260958,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Ongoing Practice—Falling, Rising, and Beginning Again",
+          "actualDuration": 109.260958,
+          "startTime": 2356.5923349999994,
+          "endTime": 2465.853292999999
+        },
+        {
+          "path": "Audio/output/2945/conclusion.wav",
+          "duration": 109.982333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.982333,
+          "startTime": 2467.353292999999,
+          "endTime": 2577.335625999999
+        }
+      ],
+      "totalDuration": 2577.335625999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.72,
+          "actualStart": 0,
+          "actualEnd": 92.719875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Moment When Life Knocks Us Down",
+          "expectedStart": 92.72,
+          "expectedEnd": 327.37,
+          "actualStart": 94.219875,
+          "actualEnd": 328.86591699999997,
+          "timeDifference": 1.499875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Stories We Tell Ourselves",
+          "expectedStart": 327.37,
+          "expectedEnd": 566.34,
+          "actualStart": 330.36591699999997,
+          "actualEnd": 569.336334,
+          "timeDifference": 2.995916999999963
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Owning Our Stories",
+          "expectedStart": 566.34,
+          "expectedEnd": 781.33,
+          "actualStart": 570.836334,
+          "actualEnd": 785.829251,
+          "timeDifference": 4.496333999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Struggle into Strength and Connection",
+          "expectedStart": 781.33,
+          "expectedEnd": 951.67,
+          "actualStart": 787.329251,
+          "actualEnd": 957.672376,
+          "timeDifference": 5.999250999999958
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Courage to Live, Love, and Lead with Vulnerability",
+          "expectedStart": 951.67,
+          "expectedEnd": 1114.12,
+          "actualStart": 959.172376,
+          "actualEnd": 1121.626793,
+          "timeDifference": 7.502376000000027
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Reckoning—Learning to Stay with Discomfort",
+          "expectedStart": 1114.12,
+          "expectedEnd": 1286.86,
+          "actualStart": 1123.126793,
+          "actualEnd": 1295.8641679999998,
+          "timeDifference": 9.006793000000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rumble—Challenging the First Draft",
+          "expectedStart": 1286.86,
+          "expectedEnd": 1472.66,
+          "actualStart": 1297.3641679999998,
+          "actualEnd": 1483.161293,
+          "timeDifference": 10.504167999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Revolution—Writing a New Ending",
+          "expectedStart": 1472.66,
+          "expectedEnd": 1648.1,
+          "actualStart": 1484.661293,
+          "actualEnd": 1660.1015009999999,
+          "timeDifference": 12.001292999999805
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Arena—Living Brave Every Day",
+          "expectedStart": 1648.1,
+          "expectedEnd": 1799.11,
+          "actualStart": 1661.6015009999999,
+          "actualEnd": 1812.608043,
+          "timeDifference": 13.501500999999962
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wholeheartedness—The Practice of Living and Loving Fully",
+          "expectedStart": 1799.11,
+          "expectedEnd": 1943.97,
+          "actualStart": 1814.108043,
+          "actualEnd": 1958.96346,
+          "timeDifference": 14.998043000000052
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Gifts of Imperfection—Letting Go of What We’re Supposed to Be",
+          "expectedStart": 1943.97,
+          "expectedEnd": 2065.5,
+          "actualStart": 1960.46346,
+          "actualEnd": 2081.995627,
+          "timeDifference": 16.493459999999914
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Rising Strong at Work—Building Resilient Teams and Cultures",
+          "expectedStart": 2065.5,
+          "expectedEnd": 2209.26,
+          "actualStart": 2083.495627,
+          "actualEnd": 2227.2562099999996,
+          "timeDifference": 17.995626999999786
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Rising Strong in Relationships—Repair, Reconnection, and Growth",
+          "expectedStart": 2209.26,
+          "expectedEnd": 2335.6,
+          "actualStart": 2228.7562099999996,
+          "actualEnd": 2355.0923349999994,
+          "timeDifference": 19.496209999999337
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Ongoing Practice—Falling, Rising, and Beginning Again",
+          "expectedStart": 2335.6,
+          "expectedEnd": 2444.86,
+          "actualStart": 2356.5923349999994,
+          "actualEnd": 2465.853292999999,
+          "timeDifference": 20.992334999999457
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2444.86,
+          "expectedEnd": 2554.84,
+          "actualStart": 2467.353292999999,
+          "actualEnd": 2577.335625999999,
+          "timeDifference": 22.493292999999085
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.719875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Moment When Life Knocks Us Down"
+        },
+        {
+          "startTime": 328.86591699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Moment When Life Knocks Us Down and Chapter 2 Understanding the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 569.336334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Stories We Tell Ourselves and Chapter 3 The Power of Owning Our Stories"
+        },
+        {
+          "startTime": 785.829251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Owning Our Stories and Chapter 4 Turning Struggle into Strength and Connection"
+        },
+        {
+          "startTime": 957.672376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Struggle into Strength and Connection and Chapter 5 The Courage to Live, Love, and Lead with Vulnerability"
+        },
+        {
+          "startTime": 1121.626793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Courage to Live, Love, and Lead with Vulnerability and Chapter 6 The Reckoning—Learning to Stay with Discomfort"
+        },
+        {
+          "startTime": 1295.8641679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Reckoning—Learning to Stay with Discomfort and Chapter 7 The Rumble—Challenging the First Draft"
+        },
+        {
+          "startTime": 1483.161293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rumble—Challenging the First Draft and Chapter 8 The Revolution—Writing a New Ending"
+        },
+        {
+          "startTime": 1660.1015009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Revolution—Writing a New Ending and Chapter 9 The Arena—Living Brave Every Day"
+        },
+        {
+          "startTime": 1812.608043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Arena—Living Brave Every Day and Chapter 10 Wholeheartedness—The Practice of Living and Loving Fully"
+        },
+        {
+          "startTime": 1958.96346,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wholeheartedness—The Practice of Living and Loving Fully and Chapter 11 The Gifts of Imperfection—Letting Go of What We’re Supposed to Be"
+        },
+        {
+          "startTime": 2081.995627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Gifts of Imperfection—Letting Go of What We’re Supposed to Be and Chapter 12 Rising Strong at Work—Building Resilient Teams and Cultures"
+        },
+        {
+          "startTime": 2227.2562099999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Rising Strong at Work—Building Resilient Teams and Cultures and Chapter 13 Rising Strong in Relationships—Repair, Reconnection, and Growth"
+        },
+        {
+          "startTime": 2355.0923349999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Rising Strong in Relationships—Repair, Reconnection, and Growth and Chapter 14 The Ongoing Practice—Falling, Rising, and Beginning Again"
+        },
+        {
+          "startTime": 2465.853292999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Ongoing Practice—Falling, Rising, and Beginning Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2945",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T06:15:33.668Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "2788",
+  "timestamp": "2025-07-13T19:42:45.092Z",
+  "success": false,
+  "processingTime": -1752435510909,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5050,
+    "totalAudioFiles": 12,
+    "totalDuration": 1922.490167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1922.490167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2788/optimized_text/2788.md",
+    "fileSize": 730,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2788.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2788/metadata/2788_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1922.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2788/metadata/2788_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2788/metadata/2788_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2788/2788_complete.wav",
+    "duration": 1922.490167,
+    "fileSize": 92279606,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2788/introduction.wav",
+          "duration": 107.080375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.080375,
+          "startTime": 0,
+          "endTime": 107.080375
+        },
+        {
+          "path": "Audio/output/2788/chapter_01.wav",
+          "duration": 240.264292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Steps into the Machinery of Repression",
+          "actualDuration": 240.264292,
+          "startTime": 108.580375,
+          "endTime": 348.844667
+        },
+        {
+          "path": "Audio/output/2788/chapter_03.wav",
+          "duration": 248.9275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Bureaucracy of Oppression and the Logic of Fear",
+          "actualDuration": 248.9275,
+          "startTime": 350.344667,
+          "endTime": 599.2721670000001
+        },
+        {
+          "path": "Audio/output/2788/chapter_04.wav",
+          "duration": 207.707917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Survival, Dignity, and the Quiet Acts of Resistance",
+          "actualDuration": 207.707917,
+          "startTime": 600.7721670000001,
+          "endTime": 808.480084
+        },
+        {
+          "path": "Audio/output/2788/chapter_05.wav",
+          "duration": 175.735333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bearing Witness and the Power of Memory",
+          "actualDuration": 175.735333,
+          "startTime": 809.980084,
+          "endTime": 985.715417
+        },
+        {
+          "path": "Audio/output/2788/chapter_06.wav",
+          "duration": 195.267375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Evolution of the System and the Expansion of Suffering",
+          "actualDuration": 195.267375,
+          "startTime": 987.215417,
+          "endTime": 1182.482792
+        },
+        {
+          "path": "Audio/output/2788/chapter_07.wav",
+          "duration": 170.303667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Aftermath—Freedom, Trauma, and the Struggle to Rebuild",
+          "actualDuration": 170.303667,
+          "startTime": 1183.982792,
+          "endTime": 1354.286459
+        },
+        {
+          "path": "Audio/output/2788/chapter_08.wav",
+          "duration": 157.410583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effects—Generations Marked by Silence",
+          "actualDuration": 157.410583,
+          "startTime": 1355.786459,
+          "endTime": 1513.197042
+        },
+        {
+          "path": "Audio/output/2788/chapter_09.wav",
+          "duration": 164.087333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Search for Justice and the Limits of Accountability",
+          "actualDuration": 164.087333,
+          "startTime": 1514.697042,
+          "endTime": 1678.784375
+        },
+        {
+          "path": "Audio/output/2788/chapter_10.wav",
+          "duration": 135.103292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Humanity—Memory, Responsibility, and the Fragility of Freedom",
+          "actualDuration": 135.103292,
+          "startTime": 1680.284375,
+          "endTime": 1815.387667
+        },
+        {
+          "path": "Audio/output/2788/conclusion.wav",
+          "duration": 120.6025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.6025,
+          "startTime": 1816.887667,
+          "endTime": 1937.490167
+        }
+      ],
+      "totalDuration": 1937.490167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.08,
+          "actualStart": 0,
+          "actualEnd": 107.080375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Steps into the Machinery of Repression",
+          "expectedStart": 107.08,
+          "expectedEnd": 347.34,
+          "actualStart": 108.580375,
+          "actualEnd": 348.844667,
+          "timeDifference": 1.5003750000000053
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Bureaucracy of Oppression and the Logic of Fear",
+          "expectedStart": 347.34,
+          "expectedEnd": 596.27,
+          "actualStart": 350.344667,
+          "actualEnd": 599.2721670000001,
+          "timeDifference": 3.0046670000000404
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Survival, Dignity, and the Quiet Acts of Resistance",
+          "expectedStart": 596.27,
+          "expectedEnd": 803.98,
+          "actualStart": 600.7721670000001,
+          "actualEnd": 808.480084,
+          "timeDifference": 4.5021670000000995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bearing Witness and the Power of Memory",
+          "expectedStart": 803.98,
+          "expectedEnd": 979.72,
+          "actualStart": 809.980084,
+          "actualEnd": 985.715417,
+          "timeDifference": 6.000084000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Evolution of the System and the Expansion of Suffering",
+          "expectedStart": 979.72,
+          "expectedEnd": 1174.99,
+          "actualStart": 987.215417,
+          "actualEnd": 1182.482792,
+          "timeDifference": 7.495416999999975
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Aftermath—Freedom, Trauma, and the Struggle to Rebuild",
+          "expectedStart": 1174.99,
+          "expectedEnd": 1345.29,
+          "actualStart": 1183.982792,
+          "actualEnd": 1354.286459,
+          "timeDifference": 8.992792000000009
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effects—Generations Marked by Silence",
+          "expectedStart": 1345.29,
+          "expectedEnd": 1502.7,
+          "actualStart": 1355.786459,
+          "actualEnd": 1513.197042,
+          "timeDifference": 10.496458999999959
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Search for Justice and the Limits of Accountability",
+          "expectedStart": 1502.7,
+          "expectedEnd": 1666.79,
+          "actualStart": 1514.697042,
+          "actualEnd": 1678.784375,
+          "timeDifference": 11.997041999999965
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Humanity—Memory, Responsibility, and the Fragility of Freedom",
+          "expectedStart": 1666.79,
+          "expectedEnd": 1801.89,
+          "actualStart": 1680.284375,
+          "actualEnd": 1815.387667,
+          "timeDifference": 13.494374999999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1801.89,
+          "expectedEnd": 1922.49,
+          "actualStart": 1816.887667,
+          "actualEnd": 1937.490167,
+          "timeDifference": 14.997666999999865
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.080375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Steps into the Machinery of Repression"
+        },
+        {
+          "startTime": 348.844667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Steps into the Machinery of Repression and Chapter 3 The Bureaucracy of Oppression and the Logic of Fear"
+        },
+        {
+          "startTime": 599.2721670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Bureaucracy of Oppression and the Logic of Fear and Chapter 4 Survival, Dignity, and the Quiet Acts of Resistance"
+        },
+        {
+          "startTime": 808.480084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Survival, Dignity, and the Quiet Acts of Resistance and Chapter 5 Bearing Witness and the Power of Memory"
+        },
+        {
+          "startTime": 985.715417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bearing Witness and the Power of Memory and Chapter 6 The Evolution of the System and the Expansion of Suffering"
+        },
+        {
+          "startTime": 1182.482792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Evolution of the System and the Expansion of Suffering and Chapter 7 The Aftermath—Freedom, Trauma, and the Struggle to Rebuild"
+        },
+        {
+          "startTime": 1354.286459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Aftermath—Freedom, Trauma, and the Struggle to Rebuild and Chapter 8 The Ripple Effects—Generations Marked by Silence"
+        },
+        {
+          "startTime": 1513.197042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effects—Generations Marked by Silence and Chapter 9 The Search for Justice and the Limits of Accountability"
+        },
+        {
+          "startTime": 1678.784375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Search for Justice and the Limits of Accountability and Chapter 10 Lessons for Humanity—Memory, Responsibility, and the Fragility of Freedom"
+        },
+        {
+          "startTime": 1815.387667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Humanity—Memory, Responsibility, and the Fragility of Freedom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2788",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:38:32.610Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

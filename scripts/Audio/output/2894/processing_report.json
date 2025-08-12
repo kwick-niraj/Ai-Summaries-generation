@@ -1,0 +1,431 @@
+{
+  "bookId": "2894",
+  "timestamp": "2025-07-14T02:49:29.910Z",
+  "success": false,
+  "processingTime": -1752461015294,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4701,
+    "totalAudioFiles": 12,
+    "totalDuration": 1789.9842919999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1789.9842919999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2894/optimized_text/2894.md",
+    "fileSize": 744,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2894.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2894/metadata/2894_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1789.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2894/metadata/2894_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2894/metadata/2894_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2894/2894_complete.wav",
+    "duration": 1789.984292,
+    "fileSize": 85919324,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2894/introduction.wav",
+          "duration": 91.440333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.440333,
+          "startTime": 0,
+          "endTime": 91.440333
+        },
+        {
+          "path": "Audio/output/2894/chapter_01.wav",
+          "duration": 217.516167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Pull of Unsolved Mysteries and the Birth of an Obsession",
+          "actualDuration": 217.516167,
+          "startTime": 92.940333,
+          "endTime": 310.4565
+        },
+        {
+          "path": "Audio/output/2894/chapter_03.wav",
+          "duration": 215.563042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost: Lives Changed by Violence",
+          "actualDuration": 215.563042,
+          "startTime": 311.9565,
+          "endTime": 527.519542
+        },
+        {
+          "path": "Audio/output/2894/chapter_04.wav",
+          "duration": 223.32625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Evolution of the Investigation: From Frustration to Breakthroughs",
+          "actualDuration": 223.32625,
+          "startTime": 529.019542,
+          "endTime": 752.345792
+        },
+        {
+          "path": "Audio/output/2894/chapter_05.wav",
+          "duration": 165.2885,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Personal Toll of Obsession and the Cost of Pursuing Justice",
+          "actualDuration": 165.2885,
+          "startTime": 753.845792,
+          "endTime": 919.134292
+        },
+        {
+          "path": "Audio/output/2894/chapter_06.wav",
+          "duration": 170.162583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Breakthrough: Science, Serendipity, and the Unmasking",
+          "actualDuration": 170.162583,
+          "startTime": 920.634292,
+          "endTime": 1090.796875
+        },
+        {
+          "path": "Audio/output/2894/chapter_07.wav",
+          "duration": 139.870958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Aftermath: Justice, Healing, and the Weight of Truth",
+          "actualDuration": 139.870958,
+          "startTime": 1092.296875,
+          "endTime": 1232.167833
+        },
+        {
+          "path": "Audio/output/2894/chapter_08.wav",
+          "duration": 178.966792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Michelle’s Legacy: The Writer Who Wouldn’t Let Go",
+          "actualDuration": 178.966792,
+          "startTime": 1233.667833,
+          "endTime": 1412.634625
+        },
+        {
+          "path": "Audio/output/2894/chapter_09.wav",
+          "duration": 149.515167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: How a Case Changes Culture",
+          "actualDuration": 149.515167,
+          "startTime": 1414.134625,
+          "endTime": 1563.649792
+        },
+        {
+          "path": "Audio/output/2894/chapter_10.wav",
+          "duration": 125.693292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Past: Memory, Resilience, and Moving Forward",
+          "actualDuration": 125.693292,
+          "startTime": 1565.149792,
+          "endTime": 1690.8430839999999
+        },
+        {
+          "path": "Audio/output/2894/conclusion.wav",
+          "duration": 112.641208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.641208,
+          "startTime": 1692.3430839999999,
+          "endTime": 1804.9842919999999
+        }
+      ],
+      "totalDuration": 1804.9842919999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.44,
+          "actualStart": 0,
+          "actualEnd": 91.440333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Pull of Unsolved Mysteries and the Birth of an Obsession",
+          "expectedStart": 91.44,
+          "expectedEnd": 308.96,
+          "actualStart": 92.940333,
+          "actualEnd": 310.4565,
+          "timeDifference": 1.5003329999999977
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost: Lives Changed by Violence",
+          "expectedStart": 308.96,
+          "expectedEnd": 524.52,
+          "actualStart": 311.9565,
+          "actualEnd": 527.519542,
+          "timeDifference": 2.996500000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Evolution of the Investigation: From Frustration to Breakthroughs",
+          "expectedStart": 524.52,
+          "expectedEnd": 747.85,
+          "actualStart": 529.019542,
+          "actualEnd": 752.345792,
+          "timeDifference": 4.4995420000000195
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Personal Toll of Obsession and the Cost of Pursuing Justice",
+          "expectedStart": 747.85,
+          "expectedEnd": 913.14,
+          "actualStart": 753.845792,
+          "actualEnd": 919.134292,
+          "timeDifference": 5.995791999999938
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Breakthrough: Science, Serendipity, and the Unmasking",
+          "expectedStart": 913.14,
+          "expectedEnd": 1083.3,
+          "actualStart": 920.634292,
+          "actualEnd": 1090.796875,
+          "timeDifference": 7.494291999999973
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Aftermath: Justice, Healing, and the Weight of Truth",
+          "expectedStart": 1083.3,
+          "expectedEnd": 1223.17,
+          "actualStart": 1092.296875,
+          "actualEnd": 1232.167833,
+          "timeDifference": 8.996875000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Michelle’s Legacy: The Writer Who Wouldn’t Let Go",
+          "expectedStart": 1223.17,
+          "expectedEnd": 1402.14,
+          "actualStart": 1233.667833,
+          "actualEnd": 1412.634625,
+          "timeDifference": 10.4978329999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: How a Case Changes Culture",
+          "expectedStart": 1402.14,
+          "expectedEnd": 1551.66,
+          "actualStart": 1414.134625,
+          "actualEnd": 1563.649792,
+          "timeDifference": 11.994624999999814
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Past: Memory, Resilience, and Moving Forward",
+          "expectedStart": 1551.66,
+          "expectedEnd": 1677.35,
+          "actualStart": 1565.149792,
+          "actualEnd": 1690.8430839999999,
+          "timeDifference": 13.489791999999852
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1677.35,
+          "expectedEnd": 1789.99,
+          "actualStart": 1692.3430839999999,
+          "actualEnd": 1804.9842919999999,
+          "timeDifference": 14.993083999999953
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.440333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Pull of Unsolved Mysteries and the Birth of an Obsession"
+        },
+        {
+          "startTime": 310.4565,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Pull of Unsolved Mysteries and the Birth of an Obsession and Chapter 3 The Human Cost: Lives Changed by Violence"
+        },
+        {
+          "startTime": 527.519542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost: Lives Changed by Violence and Chapter 4 The Evolution of the Investigation: From Frustration to Breakthroughs"
+        },
+        {
+          "startTime": 752.345792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Evolution of the Investigation: From Frustration to Breakthroughs and Chapter 5 The Personal Toll of Obsession and the Cost of Pursuing Justice"
+        },
+        {
+          "startTime": 919.134292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Personal Toll of Obsession and the Cost of Pursuing Justice and Chapter 6 The Breakthrough: Science, Serendipity, and the Unmasking"
+        },
+        {
+          "startTime": 1090.796875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Breakthrough: Science, Serendipity, and the Unmasking and Chapter 7 The Aftermath: Justice, Healing, and the Weight of Truth"
+        },
+        {
+          "startTime": 1232.167833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Aftermath: Justice, Healing, and the Weight of Truth and Chapter 8 Michelle’s Legacy: The Writer Who Wouldn’t Let Go"
+        },
+        {
+          "startTime": 1412.634625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Michelle’s Legacy: The Writer Who Wouldn’t Let Go and Chapter 9 The Ripple Effect: How a Case Changes Culture"
+        },
+        {
+          "startTime": 1563.649792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: How a Case Changes Culture and Chapter 10 Living with the Past: Memory, Resilience, and Moving Forward"
+        },
+        {
+          "startTime": 1690.8430839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Past: Memory, Resilience, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2894",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T02:43:36.576Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

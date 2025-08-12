@@ -1,0 +1,455 @@
+{
+  "bookId": "3004",
+  "timestamp": "2025-07-14T10:40:17.824Z",
+  "success": false,
+  "processingTime": -1752489338335,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4594,
+    "totalAudioFiles": 12,
+    "totalDuration": 2011.600375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2011.600375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3004/optimized_text/3004.md",
+    "fileSize": 734,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "3004.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3004/metadata/3004_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2011.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3004/metadata/3004_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3004/metadata/3004_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3004/3004_complete.wav",
+    "duration": 2011.600375,
+    "fileSize": 96556896,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3004/introduction.wav",
+          "duration": 89.7835,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.7835,
+          "startTime": 0,
+          "endTime": 89.7835
+        },
+        {
+          "path": "Audio/output/3004/chapter_01.wav",
+          "duration": 221.390333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Quiet Power of Private Wealth in American Politics",
+          "actualDuration": 221.390333,
+          "startTime": 91.2835,
+          "endTime": 312.673833
+        },
+        {
+          "path": "Audio/output/3004/chapter_02.wav",
+          "duration": 211.6535,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Network to Shape the National Conversation",
+          "actualDuration": 211.6535,
+          "startTime": 314.173833,
+          "endTime": 525.827333
+        },
+        {
+          "path": "Audio/output/3004/chapter_03.wav",
+          "duration": 198.573875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Rise of Dark Money and the Transformation of the Republican Party",
+          "actualDuration": 198.573875,
+          "startTime": 527.327333,
+          "endTime": 725.901208
+        },
+        {
+          "path": "Audio/output/3004/chapter_04.wav",
+          "duration": 183.6815,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Battle Over Science, Climate, and Public Policy",
+          "actualDuration": 183.6815,
+          "startTime": 727.401208,
+          "endTime": 911.082708
+        },
+        {
+          "path": "Audio/output/3004/chapter_05.wav",
+          "duration": 175.175292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Hidden Costs of Secrecy and the Erosion of Democracy",
+          "actualDuration": 175.175292,
+          "startTime": 912.582708,
+          "endTime": 1087.758
+        },
+        {
+          "path": "Audio/output/3004/chapter_06.wav",
+          "duration": 179.105042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Infiltration of American Institutions",
+          "actualDuration": 179.105042,
+          "startTime": 1089.258,
+          "endTime": 1268.363042
+        },
+        {
+          "path": "Audio/output/3004/chapter_07.wav",
+          "duration": 165.598375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Human Cost—Stories from the Front Lines",
+          "actualDuration": 165.598375,
+          "startTime": 1269.863042,
+          "endTime": 1435.461417
+        },
+        {
+          "path": "Audio/output/3004/chapter_08.wav",
+          "duration": 163.25475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resistance and the Struggle for Transparency",
+          "actualDuration": 163.25475,
+          "startTime": 1436.961417,
+          "endTime": 1600.216167
+        },
+        {
+          "path": "Audio/output/3004/chapter_09.wav",
+          "duration": 149.833958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Reform and the Persistence of Power",
+          "actualDuration": 149.833958,
+          "startTime": 1601.716167,
+          "endTime": 1751.550125
+        },
+        {
+          "path": "Audio/output/3004/chapter_10.wav",
+          "duration": 162.855417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward—Reclaiming Democracy in the Age of Dark Money",
+          "actualDuration": 162.855417,
+          "startTime": 1753.050125,
+          "endTime": 1915.905542
+        },
+        {
+          "path": "Audio/output/3004/conclusion.wav",
+          "duration": 110.694833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.694833,
+          "startTime": 1917.405542,
+          "endTime": 2028.100375
+        }
+      ],
+      "totalDuration": 2028.100375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.78,
+          "actualStart": 0,
+          "actualEnd": 89.7835,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Quiet Power of Private Wealth in American Politics",
+          "expectedStart": 89.78,
+          "expectedEnd": 311.17,
+          "actualStart": 91.2835,
+          "actualEnd": 312.673833,
+          "timeDifference": 1.5035000000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Network to Shape the National Conversation",
+          "expectedStart": 311.17,
+          "expectedEnd": 522.82,
+          "actualStart": 314.173833,
+          "actualEnd": 525.827333,
+          "timeDifference": 3.003832999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Rise of Dark Money and the Transformation of the Republican Party",
+          "expectedStart": 522.82,
+          "expectedEnd": 721.39,
+          "actualStart": 527.327333,
+          "actualEnd": 725.901208,
+          "timeDifference": 4.507332999999903
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Battle Over Science, Climate, and Public Policy",
+          "expectedStart": 721.39,
+          "expectedEnd": 905.07,
+          "actualStart": 727.401208,
+          "actualEnd": 911.082708,
+          "timeDifference": 6.0112080000000105
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Hidden Costs of Secrecy and the Erosion of Democracy",
+          "expectedStart": 905.07,
+          "expectedEnd": 1080.25,
+          "actualStart": 912.582708,
+          "actualEnd": 1087.758,
+          "timeDifference": 7.512707999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Infiltration of American Institutions",
+          "expectedStart": 1080.25,
+          "expectedEnd": 1259.36,
+          "actualStart": 1089.258,
+          "actualEnd": 1268.363042,
+          "timeDifference": 9.008000000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Human Cost—Stories from the Front Lines",
+          "expectedStart": 1259.36,
+          "expectedEnd": 1424.96,
+          "actualStart": 1269.863042,
+          "actualEnd": 1435.461417,
+          "timeDifference": 10.50304200000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resistance and the Struggle for Transparency",
+          "expectedStart": 1424.96,
+          "expectedEnd": 1588.21,
+          "actualStart": 1436.961417,
+          "actualEnd": 1600.216167,
+          "timeDifference": 12.001416999999947
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Reform and the Persistence of Power",
+          "expectedStart": 1588.21,
+          "expectedEnd": 1738.04,
+          "actualStart": 1601.716167,
+          "actualEnd": 1751.550125,
+          "timeDifference": 13.506167000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward—Reclaiming Democracy in the Age of Dark Money",
+          "expectedStart": 1738.04,
+          "expectedEnd": 1900.9,
+          "actualStart": 1753.050125,
+          "actualEnd": 1915.905542,
+          "timeDifference": 15.010125000000016
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1900.9,
+          "expectedEnd": 2011.59,
+          "actualStart": 1917.405542,
+          "actualEnd": 2028.100375,
+          "timeDifference": 16.505541999999878
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.7835,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Quiet Power of Private Wealth in American Politics"
+        },
+        {
+          "startTime": 312.673833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Quiet Power of Private Wealth in American Politics and Chapter 2 Building a Network to Shape the National Conversation"
+        },
+        {
+          "startTime": 525.827333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Network to Shape the National Conversation and Chapter 3 The Rise of Dark Money and the Transformation of the Republican Party"
+        },
+        {
+          "startTime": 725.901208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Rise of Dark Money and the Transformation of the Republican Party and Chapter 4 The Battle Over Science, Climate, and Public Policy"
+        },
+        {
+          "startTime": 911.082708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Battle Over Science, Climate, and Public Policy and Chapter 5 The Hidden Costs of Secrecy and the Erosion of Democracy"
+        },
+        {
+          "startTime": 1087.758,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Hidden Costs of Secrecy and the Erosion of Democracy and Chapter 6 The Quiet Infiltration of American Institutions"
+        },
+        {
+          "startTime": 1268.363042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Infiltration of American Institutions and Chapter 7 The Human Cost—Stories from the Front Lines"
+        },
+        {
+          "startTime": 1435.461417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Human Cost—Stories from the Front Lines and Chapter 8 Resistance and the Struggle for Transparency"
+        },
+        {
+          "startTime": 1600.216167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resistance and the Struggle for Transparency and Chapter 9 The Limits of Reform and the Persistence of Power"
+        },
+        {
+          "startTime": 1751.550125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Reform and the Persistence of Power and Chapter 10 Looking Forward—Reclaiming Democracy in the Age of Dark Money"
+        },
+        {
+          "startTime": 1915.905542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward—Reclaiming Democracy in the Age of Dark Money and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3004",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T10:35:39.894Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

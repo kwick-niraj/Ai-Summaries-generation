@@ -1,0 +1,456 @@
+{
+  "bookId": "2882",
+  "timestamp": "2025-07-14T02:01:04.644Z",
+  "success": false,
+  "processingTime": -1752458062512,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4879,
+    "totalAudioFiles": 12,
+    "totalDuration": 2156.478248
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2156.478248
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2882/optimized_text/2882.md",
+    "fileSize": 553,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "2882.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2882/metadata/2882_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2156.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2882/metadata/2882_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2882/metadata/2882_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2882/2882_complete.wav",
+    "duration": 2156.47825,
+    "fileSize": 103511034,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2882/introduction.wav",
+          "duration": 88.670708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.670708,
+          "startTime": 0,
+          "endTime": 88.670708
+        },
+        {
+          "path": "Audio/output/2882/chapter_01.wav",
+          "duration": 231.846333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Noticing the Moment We Get Caught",
+          "actualDuration": 231.846333,
+          "startTime": 90.170708,
+          "endTime": 322.017041
+        },
+        {
+          "path": "Audio/output/2882/chapter_02.wav",
+          "duration": 240.201833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Why We React the Way We Do",
+          "actualDuration": 240.201833,
+          "startTime": 323.517041,
+          "endTime": 563.718874
+        },
+        {
+          "path": "Audio/output/2882/chapter_03.wav",
+          "duration": 205.694667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Pausing and Observing",
+          "actualDuration": 205.694667,
+          "startTime": 565.218874,
+          "endTime": 770.913541
+        },
+        {
+          "path": "Audio/output/2882/chapter_04.wav",
+          "duration": 208.675208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Meeting Difficult Emotions with Openness",
+          "actualDuration": 208.675208,
+          "startTime": 772.413541,
+          "endTime": 981.088749
+        },
+        {
+          "path": "Audio/output/2882/chapter_05.wav",
+          "duration": 211.465083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultivating Compassion for Ourselves and Others",
+          "actualDuration": 211.465083,
+          "startTime": 982.588749,
+          "endTime": 1194.053832
+        },
+        {
+          "path": "Audio/output/2882/chapter_06.wav",
+          "duration": 182.2675,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Working with Triggers in Everyday Life",
+          "actualDuration": 182.2675,
+          "startTime": 1195.553832,
+          "endTime": 1377.821332
+        },
+        {
+          "path": "Audio/output/2882/chapter_07.wav",
+          "duration": 173.987,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Wisdom of Letting Go",
+          "actualDuration": 173.987,
+          "startTime": 1379.321332,
+          "endTime": 1553.308332
+        },
+        {
+          "path": "Audio/output/2882/chapter_08.wav",
+          "duration": 173.899583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindfulness in the Midst of Chaos",
+          "actualDuration": 173.899583,
+          "startTime": 1554.808332,
+          "endTime": 1728.707915
+        },
+        {
+          "path": "Audio/output/2882/chapter_09.wav",
+          "duration": 178.342083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Resilience Through Practice",
+          "actualDuration": 178.342083,
+          "startTime": 1730.207915,
+          "endTime": 1908.549998
+        },
+        {
+          "path": "Audio/output/2882/chapter_10.wav",
+          "duration": 143.299042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with an Open Heart",
+          "actualDuration": 143.299042,
+          "startTime": 1910.049998,
+          "endTime": 2053.34904
+        },
+        {
+          "path": "Audio/output/2882/conclusion.wav",
+          "duration": 118.129208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.129208,
+          "startTime": 2054.84904,
+          "endTime": 2172.978248
+        }
+      ],
+      "totalDuration": 2172.978248,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.67,
+          "actualStart": 0,
+          "actualEnd": 88.670708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Noticing the Moment We Get Caught",
+          "expectedStart": 88.67,
+          "expectedEnd": 320.52,
+          "actualStart": 90.170708,
+          "actualEnd": 322.017041,
+          "timeDifference": 1.500708000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Why We React the Way We Do",
+          "expectedStart": 320.52,
+          "expectedEnd": 560.72,
+          "actualStart": 323.517041,
+          "actualEnd": 563.718874,
+          "timeDifference": 2.9970410000000243
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Pausing and Observing",
+          "expectedStart": 560.72,
+          "expectedEnd": 766.41,
+          "actualStart": 565.218874,
+          "actualEnd": 770.913541,
+          "timeDifference": 4.498874000000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Meeting Difficult Emotions with Openness",
+          "expectedStart": 766.41,
+          "expectedEnd": 975.09,
+          "actualStart": 772.413541,
+          "actualEnd": 981.088749,
+          "timeDifference": 6.003541000000041
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultivating Compassion for Ourselves and Others",
+          "expectedStart": 975.09,
+          "expectedEnd": 1186.56,
+          "actualStart": 982.588749,
+          "actualEnd": 1194.053832,
+          "timeDifference": 7.498748999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Working with Triggers in Everyday Life",
+          "expectedStart": 1186.56,
+          "expectedEnd": 1368.83,
+          "actualStart": 1195.553832,
+          "actualEnd": 1377.821332,
+          "timeDifference": 8.993832000000111
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Wisdom of Letting Go",
+          "expectedStart": 1368.83,
+          "expectedEnd": 1542.82,
+          "actualStart": 1379.321332,
+          "actualEnd": 1553.308332,
+          "timeDifference": 10.491332000000057
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindfulness in the Midst of Chaos",
+          "expectedStart": 1542.82,
+          "expectedEnd": 1716.72,
+          "actualStart": 1554.808332,
+          "actualEnd": 1728.707915,
+          "timeDifference": 11.988332000000128
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Resilience Through Practice",
+          "expectedStart": 1716.72,
+          "expectedEnd": 1895.06,
+          "actualStart": 1730.207915,
+          "actualEnd": 1908.549998,
+          "timeDifference": 13.48791499999993
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with an Open Heart",
+          "expectedStart": 1895.06,
+          "expectedEnd": 2038.36,
+          "actualStart": 1910.049998,
+          "actualEnd": 2053.34904,
+          "timeDifference": 14.989998000000014
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2038.36,
+          "expectedEnd": 2156.49,
+          "actualStart": 2054.84904,
+          "actualEnd": 2172.978248,
+          "timeDifference": 16.48904000000016
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.670708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Noticing the Moment We Get Caught"
+        },
+        {
+          "startTime": 322.017041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Noticing the Moment We Get Caught and Chapter 2 Understanding Why We React the Way We Do"
+        },
+        {
+          "startTime": 563.718874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Why We React the Way We Do and Chapter 3 The Power of Pausing and Observing"
+        },
+        {
+          "startTime": 770.913541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Pausing and Observing and Chapter 4 Meeting Difficult Emotions with Openness"
+        },
+        {
+          "startTime": 981.088749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Meeting Difficult Emotions with Openness and Chapter 5 Cultivating Compassion for Ourselves and Others"
+        },
+        {
+          "startTime": 1194.053832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultivating Compassion for Ourselves and Others and Chapter 6 Working with Triggers in Everyday Life"
+        },
+        {
+          "startTime": 1377.821332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Working with Triggers in Everyday Life and Chapter 7 The Wisdom of Letting Go"
+        },
+        {
+          "startTime": 1553.308332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Wisdom of Letting Go and Chapter 8 Mindfulness in the Midst of Chaos"
+        },
+        {
+          "startTime": 1728.707915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindfulness in the Midst of Chaos and Chapter 9 Building Resilience Through Practice"
+        },
+        {
+          "startTime": 1908.549998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Resilience Through Practice and Chapter 10 Living with an Open Heart"
+        },
+        {
+          "startTime": 2053.34904,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with an Open Heart and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2882",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:54:23.812Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

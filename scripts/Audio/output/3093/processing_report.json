@@ -1,0 +1,455 @@
+{
+  "bookId": "3093",
+  "timestamp": "2025-07-14T17:49:22.501Z",
+  "success": false,
+  "processingTime": -1752514910291,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4241,
+    "totalAudioFiles": 12,
+    "totalDuration": 1776.6517509999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1776.6517509999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3093/optimized_text/3093.md",
+    "fileSize": 623,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "3093.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3093/metadata/3093_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1776.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3093/metadata/3093_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3093/metadata/3093_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3093/3093_complete.wav",
+    "duration": 1776.65175,
+    "fileSize": 85279362,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3093/introduction.wav",
+          "duration": 86.014958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.014958,
+          "startTime": 0,
+          "endTime": 86.014958
+        },
+        {
+          "path": "Audio/output/3093/chapter_01.wav",
+          "duration": 213.7045,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Restless Spirit Faces a New Frontier",
+          "actualDuration": 213.7045,
+          "startTime": 87.514958,
+          "endTime": 301.219458
+        },
+        {
+          "path": "Audio/output/3093/chapter_02.wav",
+          "duration": 198.328292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Into the Unknown: The First Steps Down the River",
+          "actualDuration": 198.328292,
+          "startTime": 302.719458,
+          "endTime": 501.04774999999995
+        },
+        {
+          "path": "Audio/output/3093/chapter_03.wav",
+          "duration": 176.009417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Hard Lessons in Leadership and Survival",
+          "actualDuration": 176.009417,
+          "startTime": 502.54774999999995,
+          "endTime": 678.5571669999999
+        },
+        {
+          "path": "Audio/output/3093/chapter_04.wav",
+          "duration": 169.112917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The River’s Toll: Sickness, Loss, and the Limits of Endurance",
+          "actualDuration": 169.112917,
+          "startTime": 680.0571669999999,
+          "endTime": 849.170084
+        },
+        {
+          "path": "Audio/output/3093/chapter_05.wav",
+          "duration": 137.405667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons from the Heart of the Jungle",
+          "actualDuration": 137.405667,
+          "startTime": 850.670084,
+          "endTime": 988.075751
+        },
+        {
+          "path": "Audio/output/3093/chapter_06.wav",
+          "duration": 163.666375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Final Push: When Hope Runs Thin",
+          "actualDuration": 163.666375,
+          "startTime": 989.575751,
+          "endTime": 1153.2421259999999
+        },
+        {
+          "path": "Audio/output/3093/chapter_07.wav",
+          "duration": 144.887958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rescue and Return: The World Beyond the Jungle",
+          "actualDuration": 144.887958,
+          "startTime": 1154.7421259999999,
+          "endTime": 1299.630084
+        },
+        {
+          "path": "Audio/output/3093/chapter_08.wav",
+          "duration": 123.49875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Aftermath: Legacy and Reflection",
+          "actualDuration": 123.49875,
+          "startTime": 1301.130084,
+          "endTime": 1424.6288339999999
+        },
+        {
+          "path": "Audio/output/3093/chapter_09.wav",
+          "duration": 150.548333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Enduring Lessons: What the River Taught",
+          "actualDuration": 150.548333,
+          "startTime": 1426.1288339999999,
+          "endTime": 1576.6771669999998
+        },
+        {
+          "path": "Audio/output/3093/chapter_10.wav",
+          "duration": 86.359917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The River’s Echo: A Story That Endures",
+          "actualDuration": 86.359917,
+          "startTime": 1578.1771669999998,
+          "endTime": 1664.5370839999998
+        },
+        {
+          "path": "Audio/output/3093/conclusion.wav",
+          "duration": 127.114667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.114667,
+          "startTime": 1666.0370839999998,
+          "endTime": 1793.1517509999999
+        }
+      ],
+      "totalDuration": 1793.1517509999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.01,
+          "actualStart": 0,
+          "actualEnd": 86.014958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Restless Spirit Faces a New Frontier",
+          "expectedStart": 86.01,
+          "expectedEnd": 299.71,
+          "actualStart": 87.514958,
+          "actualEnd": 301.219458,
+          "timeDifference": 1.5049579999999878
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Into the Unknown: The First Steps Down the River",
+          "expectedStart": 299.71,
+          "expectedEnd": 498.04,
+          "actualStart": 302.719458,
+          "actualEnd": 501.04774999999995,
+          "timeDifference": 3.009457999999995
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Hard Lessons in Leadership and Survival",
+          "expectedStart": 498.04,
+          "expectedEnd": 674.05,
+          "actualStart": 502.54774999999995,
+          "actualEnd": 678.5571669999999,
+          "timeDifference": 4.50774999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The River’s Toll: Sickness, Loss, and the Limits of Endurance",
+          "expectedStart": 674.05,
+          "expectedEnd": 843.16,
+          "actualStart": 680.0571669999999,
+          "actualEnd": 849.170084,
+          "timeDifference": 6.007166999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons from the Heart of the Jungle",
+          "expectedStart": 843.16,
+          "expectedEnd": 980.57,
+          "actualStart": 850.670084,
+          "actualEnd": 988.075751,
+          "timeDifference": 7.510084000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Final Push: When Hope Runs Thin",
+          "expectedStart": 980.57,
+          "expectedEnd": 1144.24,
+          "actualStart": 989.575751,
+          "actualEnd": 1153.2421259999999,
+          "timeDifference": 9.005750999999918
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rescue and Return: The World Beyond the Jungle",
+          "expectedStart": 1144.24,
+          "expectedEnd": 1289.13,
+          "actualStart": 1154.7421259999999,
+          "actualEnd": 1299.630084,
+          "timeDifference": 10.502125999999862
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Aftermath: Legacy and Reflection",
+          "expectedStart": 1289.13,
+          "expectedEnd": 1412.63,
+          "actualStart": 1301.130084,
+          "actualEnd": 1424.6288339999999,
+          "timeDifference": 12.000083999999788
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Enduring Lessons: What the River Taught",
+          "expectedStart": 1412.63,
+          "expectedEnd": 1563.18,
+          "actualStart": 1426.1288339999999,
+          "actualEnd": 1576.6771669999998,
+          "timeDifference": 13.49883399999976
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The River’s Echo: A Story That Endures",
+          "expectedStart": 1563.18,
+          "expectedEnd": 1649.54,
+          "actualStart": 1578.1771669999998,
+          "actualEnd": 1664.5370839999998,
+          "timeDifference": 14.997166999999763
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1649.54,
+          "expectedEnd": 1776.65,
+          "actualStart": 1666.0370839999998,
+          "actualEnd": 1793.1517509999999,
+          "timeDifference": 16.49708399999986
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.014958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Restless Spirit Faces a New Frontier"
+        },
+        {
+          "startTime": 301.219458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Restless Spirit Faces a New Frontier and Chapter 2 Into the Unknown: The First Steps Down the River"
+        },
+        {
+          "startTime": 501.04774999999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Into the Unknown: The First Steps Down the River and Chapter 3 Hard Lessons in Leadership and Survival"
+        },
+        {
+          "startTime": 678.5571669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Hard Lessons in Leadership and Survival and Chapter 4 The River’s Toll: Sickness, Loss, and the Limits of Endurance"
+        },
+        {
+          "startTime": 849.170084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The River’s Toll: Sickness, Loss, and the Limits of Endurance and Chapter 5 Lessons from the Heart of the Jungle"
+        },
+        {
+          "startTime": 988.075751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons from the Heart of the Jungle and Chapter 6 The Final Push: When Hope Runs Thin"
+        },
+        {
+          "startTime": 1153.2421259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Final Push: When Hope Runs Thin and Chapter 7 Rescue and Return: The World Beyond the Jungle"
+        },
+        {
+          "startTime": 1299.630084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rescue and Return: The World Beyond the Jungle and Chapter 8 The Aftermath: Legacy and Reflection"
+        },
+        {
+          "startTime": 1424.6288339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Aftermath: Legacy and Reflection and Chapter 9 Enduring Lessons: What the River Taught"
+        },
+        {
+          "startTime": 1576.6771669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Enduring Lessons: What the River Taught and Chapter 10 The River’s Echo: A Story That Endures"
+        },
+        {
+          "startTime": 1664.5370839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The River’s Echo: A Story That Endures and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3093",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:41:51.492Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3132",
+  "timestamp": "2025-07-14T20:53:16.198Z",
+  "success": false,
+  "processingTime": -1752526105105,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4364,
+    "totalAudioFiles": 12,
+    "totalDuration": 2091.030375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2091.030375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3132/optimized_text/3132.md",
+    "fileSize": 680,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "3132.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3132/metadata/3132_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2091.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3132/metadata/3132_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3132/metadata/3132_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3132/3132_complete.wav",
+    "duration": 2091.030375,
+    "fileSize": 100369536,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3132/introduction.wav",
+          "duration": 94.814542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.814542,
+          "startTime": 0,
+          "endTime": 94.814542
+        },
+        {
+          "path": "Audio/output/3132/chapter_01.wav",
+          "duration": 258.556333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Wealth and Inequality Shape Everyday Life",
+          "actualDuration": 258.556333,
+          "startTime": 96.314542,
+          "endTime": 354.870875
+        },
+        {
+          "path": "Audio/output/3132/chapter_02.wav",
+          "duration": 246.683792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Deep Roots of Capital and Its Power",
+          "actualDuration": 246.683792,
+          "startTime": 356.370875,
+          "endTime": 603.054667
+        },
+        {
+          "path": "Audio/output/3132/chapter_03.wav",
+          "duration": 199.023292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Why Wealth Grows Faster Than the Economy",
+          "actualDuration": 199.023292,
+          "startTime": 604.554667,
+          "endTime": 803.577959
+        },
+        {
+          "path": "Audio/output/3132/chapter_04.wav",
+          "duration": 188.360125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Policy and the Power of Intervention",
+          "actualDuration": 188.360125,
+          "startTime": 805.077959,
+          "endTime": 993.438084
+        },
+        {
+          "path": "Audio/output/3132/chapter_05.wav",
+          "duration": 174.783458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Future of Inequality and the Search for Solutions",
+          "actualDuration": 174.783458,
+          "startTime": 994.938084,
+          "endTime": 1169.721542
+        },
+        {
+          "path": "Audio/output/3132/chapter_06.wav",
+          "duration": 183.6125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Global Landscape—Inequality Without Borders",
+          "actualDuration": 183.6125,
+          "startTime": 1171.221542,
+          "endTime": 1354.834042
+        },
+        {
+          "path": "Audio/output/3132/chapter_07.wav",
+          "duration": 153.178583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Technology, Automation, and the New Face of Work",
+          "actualDuration": 153.178583,
+          "startTime": 1356.334042,
+          "endTime": 1509.5126249999998
+        },
+        {
+          "path": "Audio/output/3132/chapter_08.wav",
+          "duration": 157.373667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Inheritance, Merit, and the Myth of Equal Opportunity",
+          "actualDuration": 157.373667,
+          "startTime": 1511.0126249999998,
+          "endTime": 1668.386292
+        },
+        {
+          "path": "Audio/output/3132/chapter_09.wav",
+          "duration": 144.781792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Politics of Inequality—Power, Policy, and Resistance",
+          "actualDuration": 144.781792,
+          "startTime": 1669.886292,
+          "endTime": 1814.668084
+        },
+        {
+          "path": "Audio/output/3132/chapter_10.wav",
+          "duration": 139.456833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Imagining a Fairer Future—Paths to Renewal",
+          "actualDuration": 139.456833,
+          "startTime": 1816.168084,
+          "endTime": 1955.6249169999999
+        },
+        {
+          "path": "Audio/output/3132/conclusion.wav",
+          "duration": 150.405458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.405458,
+          "startTime": 1957.1249169999999,
+          "endTime": 2107.530375
+        }
+      ],
+      "totalDuration": 2107.530375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.81,
+          "actualStart": 0,
+          "actualEnd": 94.814542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Wealth and Inequality Shape Everyday Life",
+          "expectedStart": 94.81,
+          "expectedEnd": 353.37,
+          "actualStart": 96.314542,
+          "actualEnd": 354.870875,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Deep Roots of Capital and Its Power",
+          "expectedStart": 353.37,
+          "expectedEnd": 600.05,
+          "actualStart": 356.370875,
+          "actualEnd": 603.054667,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Why Wealth Grows Faster Than the Economy",
+          "expectedStart": 600.05,
+          "expectedEnd": 799.07,
+          "actualStart": 604.554667,
+          "actualEnd": 803.577959,
+          "timeDifference": 4.50466700000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Policy and the Power of Intervention",
+          "expectedStart": 799.07,
+          "expectedEnd": 987.43,
+          "actualStart": 805.077959,
+          "actualEnd": 993.438084,
+          "timeDifference": 6.007958999999914
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Future of Inequality and the Search for Solutions",
+          "expectedStart": 987.43,
+          "expectedEnd": 1162.21,
+          "actualStart": 994.938084,
+          "actualEnd": 1169.721542,
+          "timeDifference": 7.5080840000000535
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Global Landscape—Inequality Without Borders",
+          "expectedStart": 1162.21,
+          "expectedEnd": 1345.82,
+          "actualStart": 1171.221542,
+          "actualEnd": 1354.834042,
+          "timeDifference": 9.011541999999963
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Technology, Automation, and the New Face of Work",
+          "expectedStart": 1345.82,
+          "expectedEnd": 1499,
+          "actualStart": 1356.334042,
+          "actualEnd": 1509.5126249999998,
+          "timeDifference": 10.514042000000018
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Inheritance, Merit, and the Myth of Equal Opportunity",
+          "expectedStart": 1499,
+          "expectedEnd": 1656.37,
+          "actualStart": 1511.0126249999998,
+          "actualEnd": 1668.386292,
+          "timeDifference": 12.012624999999844
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Politics of Inequality—Power, Policy, and Resistance",
+          "expectedStart": 1656.37,
+          "expectedEnd": 1801.15,
+          "actualStart": 1669.886292,
+          "actualEnd": 1814.668084,
+          "timeDifference": 13.516292000000021
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Imagining a Fairer Future—Paths to Renewal",
+          "expectedStart": 1801.15,
+          "expectedEnd": 1940.61,
+          "actualStart": 1816.168084,
+          "actualEnd": 1955.6249169999999,
+          "timeDifference": 15.018083999999817
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1940.61,
+          "expectedEnd": 2091.02,
+          "actualStart": 1957.1249169999999,
+          "actualEnd": 2107.530375,
+          "timeDifference": 16.51491699999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.814542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Wealth and Inequality Shape Everyday Life"
+        },
+        {
+          "startTime": 354.870875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Wealth and Inequality Shape Everyday Life and Chapter 2 The Deep Roots of Capital and Its Power"
+        },
+        {
+          "startTime": 603.054667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Deep Roots of Capital and Its Power and Chapter 3 Why Wealth Grows Faster Than the Economy"
+        },
+        {
+          "startTime": 803.577959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Why Wealth Grows Faster Than the Economy and Chapter 4 The Role of Policy and the Power of Intervention"
+        },
+        {
+          "startTime": 993.438084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Policy and the Power of Intervention and Chapter 5 The Future of Inequality and the Search for Solutions"
+        },
+        {
+          "startTime": 1169.721542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Future of Inequality and the Search for Solutions and Chapter 6 The Global Landscape—Inequality Without Borders"
+        },
+        {
+          "startTime": 1354.834042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Global Landscape—Inequality Without Borders and Chapter 7 Technology, Automation, and the New Face of Work"
+        },
+        {
+          "startTime": 1509.5126249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Technology, Automation, and the New Face of Work and Chapter 8 Inheritance, Merit, and the Myth of Equal Opportunity"
+        },
+        {
+          "startTime": 1668.386292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Inheritance, Merit, and the Myth of Equal Opportunity and Chapter 9 The Politics of Inequality—Power, Policy, and Resistance"
+        },
+        {
+          "startTime": 1814.668084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Politics of Inequality—Power, Policy, and Resistance and Chapter 10 Imagining a Fairer Future—Paths to Renewal"
+        },
+        {
+          "startTime": 1955.6249169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Imagining a Fairer Future—Paths to Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3132",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:48:26.687Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

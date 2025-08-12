@@ -1,0 +1,456 @@
+{
+  "bookId": "2901",
+  "timestamp": "2025-07-14T03:13:27.565Z",
+  "success": false,
+  "processingTime": -1752462569867,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4296,
+    "totalAudioFiles": 12,
+    "totalDuration": 2236.3014980000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2236.3014980000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2901/optimized_text/2901.md",
+    "fileSize": 600,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2901.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2901/metadata/2901_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2236.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2901/metadata/2901_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2901/metadata/2901_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2901/2901_complete.wav",
+    "duration": 2236.3015,
+    "fileSize": 107342550,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2901/introduction.wav",
+          "duration": 106.732833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.732833,
+          "startTime": 0,
+          "endTime": 106.732833
+        },
+        {
+          "path": "Audio/output/2901/chapter_01.wav",
+          "duration": 263.513958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Secret World of Online Honesty",
+          "actualDuration": 263.513958,
+          "startTime": 108.232833,
+          "endTime": 371.74679100000003
+        },
+        {
+          "path": "Audio/output/2901/chapter_02.wav",
+          "duration": 261.800583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What We Really Think: Prejudice, Desire, and the Hidden Mind",
+          "actualDuration": 261.800583,
+          "startTime": 373.24679100000003,
+          "endTime": 635.047374
+        },
+        {
+          "path": "Audio/output/2901/chapter_03.wav",
+          "duration": 209.442625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power and Pitfalls of Big Data",
+          "actualDuration": 209.442625,
+          "startTime": 636.547374,
+          "endTime": 845.989999
+        },
+        {
+          "path": "Audio/output/2901/chapter_04.wav",
+          "duration": 221.836375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Taboo Topics and the Unfiltered Truth",
+          "actualDuration": 221.836375,
+          "startTime": 847.489999,
+          "endTime": 1069.326374
+        },
+        {
+          "path": "Audio/output/2901/chapter_05.wav",
+          "duration": 239.250708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking What We Know About Society",
+          "actualDuration": 239.250708,
+          "startTime": 1070.826374,
+          "endTime": 1310.077082
+        },
+        {
+          "path": "Audio/output/2901/chapter_06.wav",
+          "duration": 180.192875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Data Gets Personal: The New Science of Human Behavior",
+          "actualDuration": 180.192875,
+          "startTime": 1311.577082,
+          "endTime": 1491.769957
+        },
+        {
+          "path": "Audio/output/2901/chapter_07.wav",
+          "duration": 191.2425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ethics of Knowing Too Much",
+          "actualDuration": 191.2425,
+          "startTime": 1493.269957,
+          "endTime": 1684.512457
+        },
+        {
+          "path": "Audio/output/2901/chapter_08.wav",
+          "duration": 179.183708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Data and the Business of Prediction",
+          "actualDuration": 179.183708,
+          "startTime": 1686.012457,
+          "endTime": 1865.196165
+        },
+        {
+          "path": "Audio/output/2901/chapter_09.wav",
+          "duration": 158.014333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The New Rules of Research",
+          "actualDuration": 158.014333,
+          "startTime": 1866.696165,
+          "endTime": 2024.7104980000001
+        },
+        {
+          "path": "Audio/output/2901/chapter_10.wav",
+          "duration": 127.340875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Truth: Honesty in a Digital World",
+          "actualDuration": 127.340875,
+          "startTime": 2026.2104980000001,
+          "endTime": 2153.5513730000002
+        },
+        {
+          "path": "Audio/output/2901/conclusion.wav",
+          "duration": 97.750125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 97.750125,
+          "startTime": 2155.0513730000002,
+          "endTime": 2252.8014980000003
+        }
+      ],
+      "totalDuration": 2252.8014980000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.73,
+          "actualStart": 0,
+          "actualEnd": 106.732833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Secret World of Online Honesty",
+          "expectedStart": 106.73,
+          "expectedEnd": 370.24,
+          "actualStart": 108.232833,
+          "actualEnd": 371.74679100000003,
+          "timeDifference": 1.5028329999999954
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What We Really Think: Prejudice, Desire, and the Hidden Mind",
+          "expectedStart": 370.24,
+          "expectedEnd": 632.04,
+          "actualStart": 373.24679100000003,
+          "actualEnd": 635.047374,
+          "timeDifference": 3.006791000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power and Pitfalls of Big Data",
+          "expectedStart": 632.04,
+          "expectedEnd": 841.48,
+          "actualStart": 636.547374,
+          "actualEnd": 845.989999,
+          "timeDifference": 4.507374000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Taboo Topics and the Unfiltered Truth",
+          "expectedStart": 841.48,
+          "expectedEnd": 1063.32,
+          "actualStart": 847.489999,
+          "actualEnd": 1069.326374,
+          "timeDifference": 6.009998999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking What We Know About Society",
+          "expectedStart": 1063.32,
+          "expectedEnd": 1302.57,
+          "actualStart": 1070.826374,
+          "actualEnd": 1310.077082,
+          "timeDifference": 7.506374000000051
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Data Gets Personal: The New Science of Human Behavior",
+          "expectedStart": 1302.57,
+          "expectedEnd": 1482.76,
+          "actualStart": 1311.577082,
+          "actualEnd": 1491.769957,
+          "timeDifference": 9.007082000000082
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ethics of Knowing Too Much",
+          "expectedStart": 1482.76,
+          "expectedEnd": 1674,
+          "actualStart": 1493.269957,
+          "actualEnd": 1684.512457,
+          "timeDifference": 10.509956999999986
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Data and the Business of Prediction",
+          "expectedStart": 1674,
+          "expectedEnd": 1853.18,
+          "actualStart": 1686.012457,
+          "actualEnd": 1865.196165,
+          "timeDifference": 12.01245700000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The New Rules of Research",
+          "expectedStart": 1853.18,
+          "expectedEnd": 2011.19,
+          "actualStart": 1866.696165,
+          "actualEnd": 2024.7104980000001,
+          "timeDifference": 13.516165
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Truth: Honesty in a Digital World",
+          "expectedStart": 2011.19,
+          "expectedEnd": 2138.53,
+          "actualStart": 2026.2104980000001,
+          "actualEnd": 2153.5513730000002,
+          "timeDifference": 15.020498000000089
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2138.53,
+          "expectedEnd": 2236.28,
+          "actualStart": 2155.0513730000002,
+          "actualEnd": 2252.8014980000003,
+          "timeDifference": 16.52137300000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.732833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Secret World of Online Honesty"
+        },
+        {
+          "startTime": 371.74679100000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Secret World of Online Honesty and Chapter 2 What We Really Think: Prejudice, Desire, and the Hidden Mind"
+        },
+        {
+          "startTime": 635.047374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What We Really Think: Prejudice, Desire, and the Hidden Mind and Chapter 3 The Power and Pitfalls of Big Data"
+        },
+        {
+          "startTime": 845.989999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power and Pitfalls of Big Data and Chapter 4 Taboo Topics and the Unfiltered Truth"
+        },
+        {
+          "startTime": 1069.326374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Taboo Topics and the Unfiltered Truth and Chapter 5 Rethinking What We Know About Society"
+        },
+        {
+          "startTime": 1310.077082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking What We Know About Society and Chapter 6 When Data Gets Personal: The New Science of Human Behavior"
+        },
+        {
+          "startTime": 1491.769957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Data Gets Personal: The New Science of Human Behavior and Chapter 7 The Ethics of Knowing Too Much"
+        },
+        {
+          "startTime": 1684.512457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ethics of Knowing Too Much and Chapter 8 Data and the Business of Prediction"
+        },
+        {
+          "startTime": 1865.196165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Data and the Business of Prediction and Chapter 9 The New Rules of Research"
+        },
+        {
+          "startTime": 2024.7104980000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The New Rules of Research and Chapter 10 The Future of Truth: Honesty in a Digital World"
+        },
+        {
+          "startTime": 2153.5513730000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Truth: Honesty in a Digital World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2901",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:09:31.147Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

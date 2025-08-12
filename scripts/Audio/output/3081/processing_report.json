@@ -1,0 +1,456 @@
+{
+  "bookId": "3081",
+  "timestamp": "2025-07-14T17:00:48.051Z",
+  "success": false,
+  "processingTime": -1752512057476,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4377,
+    "totalAudioFiles": 12,
+    "totalDuration": 1879.4204989999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1879.4204989999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3081/optimized_text/3081.md",
+    "fileSize": 554,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "3081.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3081/metadata/3081_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1879.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3081/metadata/3081_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3081/metadata/3081_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3081/3081_complete.wav",
+    "duration": 1879.4205,
+    "fileSize": 90212262,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3081/introduction.wav",
+          "duration": 100.235333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.235333,
+          "startTime": 0,
+          "endTime": 100.235333
+        },
+        {
+          "path": "Audio/output/3081/chapter_01.wav",
+          "duration": 187.546,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Unseen Toll of Urban Homicide",
+          "actualDuration": 187.546,
+          "startTime": 101.735333,
+          "endTime": 289.281333
+        },
+        {
+          "path": "Audio/output/3081/chapter_02.wav",
+          "duration": 206.853458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Neglect and the Cycle of Violence",
+          "actualDuration": 206.853458,
+          "startTime": 290.781333,
+          "endTime": 497.634791
+        },
+        {
+          "path": "Audio/output/3081/chapter_03.wav",
+          "duration": 185.645625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost of Unsolved Murders",
+          "actualDuration": 185.645625,
+          "startTime": 499.134791,
+          "endTime": 684.7804160000001
+        },
+        {
+          "path": "Audio/output/3081/chapter_04.wav",
+          "duration": 179.627,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Detective’s Mission: Fighting for Every Life",
+          "actualDuration": 179.627,
+          "startTime": 686.2804160000001,
+          "endTime": 865.907416
+        },
+        {
+          "path": "Audio/output/3081/chapter_05.wav",
+          "duration": 172.323125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Systemic Barriers to Justice",
+          "actualDuration": 172.323125,
+          "startTime": 867.407416,
+          "endTime": 1039.730541
+        },
+        {
+          "path": "Audio/output/3081/chapter_06.wav",
+          "duration": 174.851667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 A Case That Changes Everything",
+          "actualDuration": 174.851667,
+          "startTime": 1041.230541,
+          "endTime": 1216.0822079999998
+        },
+        {
+          "path": "Audio/output/3081/chapter_07.wav",
+          "duration": 165.493833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Reluctant Witnesses",
+          "actualDuration": 165.493833,
+          "startTime": 1217.5822079999998,
+          "endTime": 1383.0760409999998
+        },
+        {
+          "path": "Audio/output/3081/chapter_08.wav",
+          "duration": 144.811667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Community’s Quiet Strength",
+          "actualDuration": 144.811667,
+          "startTime": 1384.5760409999998,
+          "endTime": 1529.3877079999997
+        },
+        {
+          "path": "Audio/output/3081/chapter_09.wav",
+          "duration": 139.812208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Policing—and the Need for Reform",
+          "actualDuration": 139.812208,
+          "startTime": 1530.8877079999997,
+          "endTime": 1670.6999159999998
+        },
+        {
+          "path": "Audio/output/3081/chapter_10.wav",
+          "duration": 112.229083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from Ghettoside",
+          "actualDuration": 112.229083,
+          "startTime": 1672.1999159999998,
+          "endTime": 1784.4289989999997
+        },
+        {
+          "path": "Audio/output/3081/conclusion.wav",
+          "duration": 109.9915,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.9915,
+          "startTime": 1785.9289989999997,
+          "endTime": 1895.9204989999998
+        }
+      ],
+      "totalDuration": 1895.9204989999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.24,
+          "actualStart": 0,
+          "actualEnd": 100.235333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Unseen Toll of Urban Homicide",
+          "expectedStart": 100.24,
+          "expectedEnd": 287.79,
+          "actualStart": 101.735333,
+          "actualEnd": 289.281333,
+          "timeDifference": 1.4953330000000022
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Neglect and the Cycle of Violence",
+          "expectedStart": 287.79,
+          "expectedEnd": 494.64,
+          "actualStart": 290.781333,
+          "actualEnd": 497.634791,
+          "timeDifference": 2.9913329999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost of Unsolved Murders",
+          "expectedStart": 494.64,
+          "expectedEnd": 680.29,
+          "actualStart": 499.134791,
+          "actualEnd": 684.7804160000001,
+          "timeDifference": 4.494791000000021
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Detective’s Mission: Fighting for Every Life",
+          "expectedStart": 680.29,
+          "expectedEnd": 859.92,
+          "actualStart": 686.2804160000001,
+          "actualEnd": 865.907416,
+          "timeDifference": 5.990416000000096
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Systemic Barriers to Justice",
+          "expectedStart": 859.92,
+          "expectedEnd": 1032.24,
+          "actualStart": 867.407416,
+          "actualEnd": 1039.730541,
+          "timeDifference": 7.487416000000053
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 A Case That Changes Everything",
+          "expectedStart": 1032.24,
+          "expectedEnd": 1207.09,
+          "actualStart": 1041.230541,
+          "actualEnd": 1216.0822079999998,
+          "timeDifference": 8.990540999999894
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Reluctant Witnesses",
+          "expectedStart": 1207.09,
+          "expectedEnd": 1372.58,
+          "actualStart": 1217.5822079999998,
+          "actualEnd": 1383.0760409999998,
+          "timeDifference": 10.492207999999891
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Community’s Quiet Strength",
+          "expectedStart": 1372.58,
+          "expectedEnd": 1517.39,
+          "actualStart": 1384.5760409999998,
+          "actualEnd": 1529.3877079999997,
+          "timeDifference": 11.996040999999877
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Policing—and the Need for Reform",
+          "expectedStart": 1517.39,
+          "expectedEnd": 1657.2,
+          "actualStart": 1530.8877079999997,
+          "actualEnd": 1670.6999159999998,
+          "timeDifference": 13.497707999999648
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from Ghettoside",
+          "expectedStart": 1657.2,
+          "expectedEnd": 1769.43,
+          "actualStart": 1672.1999159999998,
+          "actualEnd": 1784.4289989999997,
+          "timeDifference": 14.999915999999757
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1769.43,
+          "expectedEnd": 1879.42,
+          "actualStart": 1785.9289989999997,
+          "actualEnd": 1895.9204989999998,
+          "timeDifference": 16.498998999999685
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.235333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Unseen Toll of Urban Homicide"
+        },
+        {
+          "startTime": 289.281333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Unseen Toll of Urban Homicide and Chapter 2 The Roots of Neglect and the Cycle of Violence"
+        },
+        {
+          "startTime": 497.634791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Neglect and the Cycle of Violence and Chapter 3 The Human Cost of Unsolved Murders"
+        },
+        {
+          "startTime": 684.7804160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost of Unsolved Murders and Chapter 4 The Detective’s Mission: Fighting for Every Life"
+        },
+        {
+          "startTime": 865.907416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Detective’s Mission: Fighting for Every Life and Chapter 5 The Systemic Barriers to Justice"
+        },
+        {
+          "startTime": 1039.730541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Systemic Barriers to Justice and Chapter 6 A Case That Changes Everything"
+        },
+        {
+          "startTime": 1216.0822079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 A Case That Changes Everything and Chapter 7 The Reluctant Witnesses"
+        },
+        {
+          "startTime": 1383.0760409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Reluctant Witnesses and Chapter 8 The Community’s Quiet Strength"
+        },
+        {
+          "startTime": 1529.3877079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Community’s Quiet Strength and Chapter 9 The Limits of Policing—and the Need for Reform"
+        },
+        {
+          "startTime": 1670.6999159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Policing—and the Need for Reform and Chapter 10 Lessons from Ghettoside"
+        },
+        {
+          "startTime": 1784.4289989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from Ghettoside and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3081",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:54:19.016Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

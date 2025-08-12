@@ -1,0 +1,456 @@
+{
+  "bookId": "3021",
+  "timestamp": "2025-07-14T12:11:12.471Z",
+  "success": false,
+  "processingTime": -1752494786901,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4445,
+    "totalAudioFiles": 12,
+    "totalDuration": 2006.925583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2006.925583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3021/optimized_text/3021.md",
+    "fileSize": 759,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "3021.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3021/metadata/3021_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2006.92,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3021/metadata/3021_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3021/metadata/3021_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3021/3021_complete.wav",
+    "duration": 2006.925583,
+    "fileSize": 96332506,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3021/introduction.wav",
+          "duration": 104.580292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.580292,
+          "startTime": 0,
+          "endTime": 104.580292
+        },
+        {
+          "path": "Audio/output/3021/chapter_01.wav",
+          "duration": 183.403167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Questioning Inherited Power and the Roots of Political Authority",
+          "actualDuration": 183.403167,
+          "startTime": 106.080292,
+          "endTime": 289.483459
+        },
+        {
+          "path": "Audio/output/3021/chapter_02.wav",
+          "duration": 193.165875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The State of Nature and the Birth of Natural Rights",
+          "actualDuration": 193.165875,
+          "startTime": 290.983459,
+          "endTime": 484.14933399999995
+        },
+        {
+          "path": "Audio/output/3021/chapter_03.wav",
+          "duration": 205.820625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Social Contract and the Formation of Civil Society",
+          "actualDuration": 205.820625,
+          "startTime": 485.64933399999995,
+          "endTime": 691.469959
+        },
+        {
+          "path": "Audio/output/3021/chapter_04.wav",
+          "duration": 212.477958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Property, Labor, and the Limits of Political Power",
+          "actualDuration": 212.477958,
+          "startTime": 692.969959,
+          "endTime": 905.447917
+        },
+        {
+          "path": "Audio/output/3021/chapter_05.wav",
+          "duration": 168.742,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Right to Resist and the Foundations of Political Legitimacy",
+          "actualDuration": 168.742,
+          "startTime": 906.947917,
+          "endTime": 1075.689917
+        },
+        {
+          "path": "Audio/output/3021/chapter_06.wav",
+          "duration": 194.260083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Structure of Government—Separation of Powers and the Rule of Law",
+          "actualDuration": 194.260083,
+          "startTime": 1077.189917,
+          "endTime": 1271.4499999999998
+        },
+        {
+          "path": "Audio/output/3021/chapter_07.wav",
+          "duration": 159.821417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Representation, Consent, and the Voice of the People",
+          "actualDuration": 159.821417,
+          "startTime": 1272.9499999999998,
+          "endTime": 1432.771417
+        },
+        {
+          "path": "Audio/output/3021/chapter_08.wav",
+          "duration": 166.418083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Civil Liberties and the Protection of Minority Rights",
+          "actualDuration": 166.418083,
+          "startTime": 1434.271417,
+          "endTime": 1600.6895
+        },
+        {
+          "path": "Audio/output/3021/chapter_09.wav",
+          "duration": 147.273333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Challenge—Balancing Liberty and Order",
+          "actualDuration": 147.273333,
+          "startTime": 1602.1895,
+          "endTime": 1749.462833
+        },
+        {
+          "path": "Audio/output/3021/chapter_10.wav",
+          "duration": 155.943625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Renewal, Reform, and the Future of Civil Society",
+          "actualDuration": 155.943625,
+          "startTime": 1750.962833,
+          "endTime": 1906.906458
+        },
+        {
+          "path": "Audio/output/3021/conclusion.wav",
+          "duration": 115.019125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.019125,
+          "startTime": 1908.406458,
+          "endTime": 2023.425583
+        }
+      ],
+      "totalDuration": 2023.425583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.58,
+          "actualStart": 0,
+          "actualEnd": 104.580292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Questioning Inherited Power and the Roots of Political Authority",
+          "expectedStart": 104.58,
+          "expectedEnd": 287.98,
+          "actualStart": 106.080292,
+          "actualEnd": 289.483459,
+          "timeDifference": 1.5002920000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The State of Nature and the Birth of Natural Rights",
+          "expectedStart": 287.98,
+          "expectedEnd": 481.15,
+          "actualStart": 290.983459,
+          "actualEnd": 484.14933399999995,
+          "timeDifference": 3.003458999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Social Contract and the Formation of Civil Society",
+          "expectedStart": 481.15,
+          "expectedEnd": 686.97,
+          "actualStart": 485.64933399999995,
+          "actualEnd": 691.469959,
+          "timeDifference": 4.499333999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Property, Labor, and the Limits of Political Power",
+          "expectedStart": 686.97,
+          "expectedEnd": 899.45,
+          "actualStart": 692.969959,
+          "actualEnd": 905.447917,
+          "timeDifference": 5.99995899999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Right to Resist and the Foundations of Political Legitimacy",
+          "expectedStart": 899.45,
+          "expectedEnd": 1068.19,
+          "actualStart": 906.947917,
+          "actualEnd": 1075.689917,
+          "timeDifference": 7.497916999999916
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Structure of Government—Separation of Powers and the Rule of Law",
+          "expectedStart": 1068.19,
+          "expectedEnd": 1262.45,
+          "actualStart": 1077.189917,
+          "actualEnd": 1271.4499999999998,
+          "timeDifference": 8.999916999999868
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Representation, Consent, and the Voice of the People",
+          "expectedStart": 1262.45,
+          "expectedEnd": 1422.27,
+          "actualStart": 1272.9499999999998,
+          "actualEnd": 1432.771417,
+          "timeDifference": 10.499999999999773
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Civil Liberties and the Protection of Minority Rights",
+          "expectedStart": 1422.27,
+          "expectedEnd": 1588.69,
+          "actualStart": 1434.271417,
+          "actualEnd": 1600.6895,
+          "timeDifference": 12.001416999999947
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Challenge—Balancing Liberty and Order",
+          "expectedStart": 1588.69,
+          "expectedEnd": 1735.96,
+          "actualStart": 1602.1895,
+          "actualEnd": 1749.462833,
+          "timeDifference": 13.499499999999898
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Renewal, Reform, and the Future of Civil Society",
+          "expectedStart": 1735.96,
+          "expectedEnd": 1891.9,
+          "actualStart": 1750.962833,
+          "actualEnd": 1906.906458,
+          "timeDifference": 15.00283300000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1891.9,
+          "expectedEnd": 2006.92,
+          "actualStart": 1908.406458,
+          "actualEnd": 2023.425583,
+          "timeDifference": 16.50645799999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.580292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Questioning Inherited Power and the Roots of Political Authority"
+        },
+        {
+          "startTime": 289.483459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Questioning Inherited Power and the Roots of Political Authority and Chapter 2 The State of Nature and the Birth of Natural Rights"
+        },
+        {
+          "startTime": 484.14933399999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The State of Nature and the Birth of Natural Rights and Chapter 3 The Social Contract and the Formation of Civil Society"
+        },
+        {
+          "startTime": 691.469959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Social Contract and the Formation of Civil Society and Chapter 4 Property, Labor, and the Limits of Political Power"
+        },
+        {
+          "startTime": 905.447917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Property, Labor, and the Limits of Political Power and Chapter 5 The Right to Resist and the Foundations of Political Legitimacy"
+        },
+        {
+          "startTime": 1075.689917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Right to Resist and the Foundations of Political Legitimacy and Chapter 6 The Structure of Government—Separation of Powers and the Rule of Law"
+        },
+        {
+          "startTime": 1271.4499999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Structure of Government—Separation of Powers and the Rule of Law and Chapter 7 Representation, Consent, and the Voice of the People"
+        },
+        {
+          "startTime": 1432.771417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Representation, Consent, and the Voice of the People and Chapter 8 Civil Liberties and the Protection of Minority Rights"
+        },
+        {
+          "startTime": 1600.6895,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Civil Liberties and the Protection of Minority Rights and Chapter 9 The Ongoing Challenge—Balancing Liberty and Order"
+        },
+        {
+          "startTime": 1749.462833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Challenge—Balancing Liberty and Order and Chapter 10 Renewal, Reform, and the Future of Civil Society"
+        },
+        {
+          "startTime": 1906.906458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Renewal, Reform, and the Future of Civil Society and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3021",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:06:28.426Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

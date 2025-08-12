@@ -1,0 +1,336 @@
+{
+  "bookId": "2997",
+  "timestamp": "2025-07-14T10:21:12.354Z",
+  "success": false,
+  "processingTime": -1752488247839,
+  "stats": {
+    "totalSections": 10,
+    "totalWords": 4551,
+    "totalAudioFiles": 10,
+    "totalDuration": 1242.0032919999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 8,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 10,
+    "successful": 7,
+    "failed": 3,
+    "duration": 1242.0032919999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2997/optimized_text/2997.md",
+    "fileSize": 652,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2997.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2997/metadata/2997_chapters.json",
+    "totalChapters": 10,
+    "totalDuration": 1242,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2997/metadata/2997_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2997/metadata/2997_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 10,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 8
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2997/2997_complete.wav",
+    "duration": 1242.003292,
+    "fileSize": 59616236,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2997/introduction.wav",
+          "duration": 89.20125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.20125,
+          "startTime": 0,
+          "endTime": 89.20125
+        },
+        {
+          "path": "Audio/output/2997/chapter_03.wav",
+          "duration": 295.54075,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Missed Signals: Intelligence Failures and Bureaucratic Obstacles",
+          "actualDuration": 295.54075,
+          "startTime": 90.70125,
+          "endTime": 386.242
+        },
+        {
+          "path": "Audio/output/2997/chapter_05.wav",
+          "duration": 200.177958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath: A World in Shock and the First Ripples of Response",
+          "actualDuration": 200.177958,
+          "startTime": 387.742,
+          "endTime": 587.919958
+        },
+        {
+          "path": "Audio/output/2997/chapter_06.wav",
+          "duration": 224.878792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War on Terror: Unraveling Borders and Unintended Consequences",
+          "actualDuration": 224.878792,
+          "startTime": 589.419958,
+          "endTime": 814.2987499999999
+        },
+        {
+          "path": "Audio/output/2997/chapter_07.wav",
+          "duration": 171.4035,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Human Cost: Stories of Loss, Resilience, and Change",
+          "actualDuration": 171.4035,
+          "startTime": 815.7987499999999,
+          "endTime": 987.2022499999999
+        },
+        {
+          "path": "Audio/output/2997/chapter_08.wav",
+          "duration": 162.83875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Legacy: Lessons, Warnings, and the Ongoing Struggle",
+          "actualDuration": 162.83875,
+          "startTime": 988.7022499999999,
+          "endTime": 1151.541
+        },
+        {
+          "path": "Audio/output/2997/conclusion.wav",
+          "duration": 97.962292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 97.962292,
+          "startTime": 1153.041,
+          "endTime": 1251.0032919999999
+        }
+      ],
+      "totalDuration": 1251.0032919999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.2,
+          "actualStart": 0,
+          "actualEnd": 89.20125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Missed Signals: Intelligence Failures and Bureaucratic Obstacles",
+          "expectedStart": 89.2,
+          "expectedEnd": 384.74,
+          "actualStart": 90.70125,
+          "actualEnd": 386.242,
+          "timeDifference": 1.5012499999999989
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath: A World in Shock and the First Ripples of Response",
+          "expectedStart": 384.74,
+          "expectedEnd": 584.92,
+          "actualStart": 387.742,
+          "actualEnd": 587.919958,
+          "timeDifference": 3.0020000000000095
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War on Terror: Unraveling Borders and Unintended Consequences",
+          "expectedStart": 584.92,
+          "expectedEnd": 809.8,
+          "actualStart": 589.419958,
+          "actualEnd": 814.2987499999999,
+          "timeDifference": 4.499957999999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Human Cost: Stories of Loss, Resilience, and Change",
+          "expectedStart": 809.8,
+          "expectedEnd": 981.2,
+          "actualStart": 815.7987499999999,
+          "actualEnd": 987.2022499999999,
+          "timeDifference": 5.998749999999973
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Legacy: Lessons, Warnings, and the Ongoing Struggle",
+          "expectedStart": 981.2,
+          "expectedEnd": 1144.04,
+          "actualStart": 988.7022499999999,
+          "actualEnd": 1151.541,
+          "timeDifference": 7.50224999999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1144.04,
+          "expectedEnd": 1242,
+          "actualStart": 1153.041,
+          "actualEnd": 1251.0032919999999,
+          "timeDifference": 9.000999999999976
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.20125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 3 Missed Signals: Intelligence Failures and Bureaucratic Obstacles"
+        },
+        {
+          "startTime": 386.242,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Missed Signals: Intelligence Failures and Bureaucratic Obstacles and Chapter 5 Aftermath: A World in Shock and the First Ripples of Response"
+        },
+        {
+          "startTime": 587.919958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath: A World in Shock and the First Ripples of Response and Chapter 6 The War on Terror: Unraveling Borders and Unintended Consequences"
+        },
+        {
+          "startTime": 814.2987499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War on Terror: Unraveling Borders and Unintended Consequences and Chapter 7 The Human Cost: Stories of Loss, Resilience, and Change"
+        },
+        {
+          "startTime": 987.2022499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Human Cost: Stories of Loss, Resilience, and Change and Chapter 8 The Legacy: Lessons, Warnings, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 1151.541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Legacy: Lessons, Warnings, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 7
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2997",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T10:17:29.372Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3094",
+  "timestamp": "2025-07-14T17:56:21.350Z",
+  "success": false,
+  "processingTime": -1752515363506,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4792,
+    "totalAudioFiles": 12,
+    "totalDuration": 2075.9144989999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2075.9144989999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3094/optimized_text/3094.md",
+    "fileSize": 794,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "3094.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3094/metadata/3094_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2075.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3094/metadata/3094_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3094/metadata/3094_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3094/3094_complete.wav",
+    "duration": 2075.9145,
+    "fileSize": 99643974,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3094/introduction.wav",
+          "duration": 113.586875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.586875,
+          "startTime": 0,
+          "endTime": 113.586875
+        },
+        {
+          "path": "Audio/output/3094/chapter_01.wav",
+          "duration": 291.420833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a World Apart — Entering the East End",
+          "actualDuration": 291.420833,
+          "startTime": 115.086875,
+          "endTime": 406.50770800000004
+        },
+        {
+          "path": "Audio/output/3094/chapter_02.wav",
+          "duration": 274.015458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Work of Birth — Challenges, Triumphs, and Everyday Miracles",
+          "actualDuration": 274.015458,
+          "startTime": 408.00770800000004,
+          "endTime": 682.0231660000001
+        },
+        {
+          "path": "Audio/output/3094/chapter_03.wav",
+          "duration": 202.439083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faces of Poverty — Life, Loss, and Survival in the East End",
+          "actualDuration": 202.439083,
+          "startTime": 683.5231660000001,
+          "endTime": 885.962249
+        },
+        {
+          "path": "Audio/output/3094/chapter_04.wav",
+          "duration": 209.268958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Bonds of Community — Compassion, Support, and Shared Struggle",
+          "actualDuration": 209.268958,
+          "startTime": 887.462249,
+          "endTime": 1096.731207
+        },
+        {
+          "path": "Audio/output/3094/chapter_05.wav",
+          "duration": 193.529042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons in Resilience — Growth, Change, and the Meaning of Care",
+          "actualDuration": 193.529042,
+          "startTime": 1098.231207,
+          "endTime": 1291.760249
+        },
+        {
+          "path": "Audio/output/3094/chapter_06.wav",
+          "duration": 169.14475,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Changing Times — The NHS and a New Era of Care",
+          "actualDuration": 169.14475,
+          "startTime": 1293.260249,
+          "endTime": 1462.4049989999999
+        },
+        {
+          "path": "Audio/output/3094/chapter_07.wav",
+          "duration": 130.611292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Loss — Grief, Healing, and Moving Forward",
+          "actualDuration": 130.611292,
+          "startTime": 1463.9049989999999,
+          "endTime": 1594.516291
+        },
+        {
+          "path": "Audio/output/3094/chapter_08.wav",
+          "duration": 139.094417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Small Victories — Joy, Laughter, and the Light in Dark Times",
+          "actualDuration": 139.094417,
+          "startTime": 1596.016291,
+          "endTime": 1735.110708
+        },
+        {
+          "path": "Audio/output/3094/chapter_09.wav",
+          "duration": 128.099458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Midwives’ Journeys — Growth, Doubt, and Finding Purpose",
+          "actualDuration": 128.099458,
+          "startTime": 1736.610708,
+          "endTime": 1864.7101659999998
+        },
+        {
+          "path": "Audio/output/3094/chapter_10.wav",
+          "duration": 116.401833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lasting Impact — Legacy, Memory, and the Power of Care",
+          "actualDuration": 116.401833,
+          "startTime": 1866.2101659999998,
+          "endTime": 1982.6119989999997
+        },
+        {
+          "path": "Audio/output/3094/conclusion.wav",
+          "duration": 108.3025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.3025,
+          "startTime": 1984.1119989999997,
+          "endTime": 2092.4144989999995
+        }
+      ],
+      "totalDuration": 2092.4144989999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.59,
+          "actualStart": 0,
+          "actualEnd": 113.586875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a World Apart — Entering the East End",
+          "expectedStart": 113.59,
+          "expectedEnd": 405.01,
+          "actualStart": 115.086875,
+          "actualEnd": 406.50770800000004,
+          "timeDifference": 1.4968750000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Work of Birth — Challenges, Triumphs, and Everyday Miracles",
+          "expectedStart": 405.01,
+          "expectedEnd": 679.03,
+          "actualStart": 408.00770800000004,
+          "actualEnd": 682.0231660000001,
+          "timeDifference": 2.9977080000000456
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faces of Poverty — Life, Loss, and Survival in the East End",
+          "expectedStart": 679.03,
+          "expectedEnd": 881.47,
+          "actualStart": 683.5231660000001,
+          "actualEnd": 885.962249,
+          "timeDifference": 4.4931660000000875
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Bonds of Community — Compassion, Support, and Shared Struggle",
+          "expectedStart": 881.47,
+          "expectedEnd": 1090.74,
+          "actualStart": 887.462249,
+          "actualEnd": 1096.731207,
+          "timeDifference": 5.992249000000015
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons in Resilience — Growth, Change, and the Meaning of Care",
+          "expectedStart": 1090.74,
+          "expectedEnd": 1284.27,
+          "actualStart": 1098.231207,
+          "actualEnd": 1291.760249,
+          "timeDifference": 7.491207000000031
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Changing Times — The NHS and a New Era of Care",
+          "expectedStart": 1284.27,
+          "expectedEnd": 1453.41,
+          "actualStart": 1293.260249,
+          "actualEnd": 1462.4049989999999,
+          "timeDifference": 8.990248999999949
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Loss — Grief, Healing, and Moving Forward",
+          "expectedStart": 1453.41,
+          "expectedEnd": 1584.02,
+          "actualStart": 1463.9049989999999,
+          "actualEnd": 1594.516291,
+          "timeDifference": 10.49499899999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Small Victories — Joy, Laughter, and the Light in Dark Times",
+          "expectedStart": 1584.02,
+          "expectedEnd": 1723.11,
+          "actualStart": 1596.016291,
+          "actualEnd": 1735.110708,
+          "timeDifference": 11.996290999999928
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Midwives’ Journeys — Growth, Doubt, and Finding Purpose",
+          "expectedStart": 1723.11,
+          "expectedEnd": 1851.21,
+          "actualStart": 1736.610708,
+          "actualEnd": 1864.7101659999998,
+          "timeDifference": 13.500708000000031
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lasting Impact — Legacy, Memory, and the Power of Care",
+          "expectedStart": 1851.21,
+          "expectedEnd": 1967.61,
+          "actualStart": 1866.2101659999998,
+          "actualEnd": 1982.6119989999997,
+          "timeDifference": 15.000165999999808
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1967.61,
+          "expectedEnd": 2075.91,
+          "actualStart": 1984.1119989999997,
+          "actualEnd": 2092.4144989999995,
+          "timeDifference": 16.50199899999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.586875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a World Apart — Entering the East End"
+        },
+        {
+          "startTime": 406.50770800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a World Apart — Entering the East End and Chapter 2 The Work of Birth — Challenges, Triumphs, and Everyday Miracles"
+        },
+        {
+          "startTime": 682.0231660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Work of Birth — Challenges, Triumphs, and Everyday Miracles and Chapter 3 Faces of Poverty — Life, Loss, and Survival in the East End"
+        },
+        {
+          "startTime": 885.962249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faces of Poverty — Life, Loss, and Survival in the East End and Chapter 4 Bonds of Community — Compassion, Support, and Shared Struggle"
+        },
+        {
+          "startTime": 1096.731207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Bonds of Community — Compassion, Support, and Shared Struggle and Chapter 5 Lessons in Resilience — Growth, Change, and the Meaning of Care"
+        },
+        {
+          "startTime": 1291.760249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons in Resilience — Growth, Change, and the Meaning of Care and Chapter 6 Changing Times — The NHS and a New Era of Care"
+        },
+        {
+          "startTime": 1462.4049989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Changing Times — The NHS and a New Era of Care and Chapter 7 The Weight of Loss — Grief, Healing, and Moving Forward"
+        },
+        {
+          "startTime": 1594.516291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Loss — Grief, Healing, and Moving Forward and Chapter 8 Small Victories — Joy, Laughter, and the Light in Dark Times"
+        },
+        {
+          "startTime": 1735.110708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Small Victories — Joy, Laughter, and the Light in Dark Times and Chapter 9 The Midwives’ Journeys — Growth, Doubt, and Finding Purpose"
+        },
+        {
+          "startTime": 1864.7101659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Midwives’ Journeys — Growth, Doubt, and Finding Purpose and Chapter 10 Lasting Impact — Legacy, Memory, and the Power of Care"
+        },
+        {
+          "startTime": 1982.6119989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lasting Impact — Legacy, Memory, and the Power of Care and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3094",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T17:49:24.708Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

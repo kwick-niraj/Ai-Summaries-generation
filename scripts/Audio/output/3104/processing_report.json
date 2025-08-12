@@ -1,0 +1,456 @@
+{
+  "bookId": "3104",
+  "timestamp": "2025-07-14T18:41:02.514Z",
+  "success": false,
+  "processingTime": -1752518041894,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4188,
+    "totalAudioFiles": 12,
+    "totalDuration": 2065.4129590000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2065.4129590000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3104/optimized_text/3104.md",
+    "fileSize": 714,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "3104.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3104/metadata/3104_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2065.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3104/metadata/3104_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3104/metadata/3104_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3104/3104_complete.wav",
+    "duration": 2065.412958,
+    "fileSize": 99139900,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3104/introduction.wav",
+          "duration": 79.593792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.593792,
+          "startTime": 0,
+          "endTime": 79.593792
+        },
+        {
+          "path": "Audio/output/3104/chapter_01.wav",
+          "duration": 203.367125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Shifting the Focus from Weaknesses to Strengths",
+          "actualDuration": 203.367125,
+          "startTime": 81.093792,
+          "endTime": 284.460917
+        },
+        {
+          "path": "Audio/output/3104/chapter_02.wav",
+          "duration": 206.241833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Nature of Talents and Strengths",
+          "actualDuration": 206.241833,
+          "startTime": 285.960917,
+          "endTime": 492.20275000000004
+        },
+        {
+          "path": "Audio/output/3104/chapter_03.wav",
+          "duration": 227.905875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Strengths Assessment—A Tool for Self-Discovery",
+          "actualDuration": 227.905875,
+          "startTime": 493.70275000000004,
+          "endTime": 721.6086250000001
+        },
+        {
+          "path": "Audio/output/3104/chapter_04.wav",
+          "duration": 186.663083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Applying Strengths in Daily Life and Work",
+          "actualDuration": 186.663083,
+          "startTime": 723.1086250000001,
+          "endTime": 909.7717080000001
+        },
+        {
+          "path": "Audio/output/3104/chapter_05.wav",
+          "duration": 193.571917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Weaknesses and Building Support Systems",
+          "actualDuration": 193.571917,
+          "startTime": 911.2717080000001,
+          "endTime": 1104.8436250000002
+        },
+        {
+          "path": "Audio/output/3104/chapter_06.wav",
+          "duration": 165.50375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Strengths Through Intentional Practice",
+          "actualDuration": 165.50375,
+          "startTime": 1106.3436250000002,
+          "endTime": 1271.8473750000003
+        },
+        {
+          "path": "Audio/output/3104/chapter_07.wav",
+          "duration": 158.039125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Strengths into Team and Organizational Culture",
+          "actualDuration": 158.039125,
+          "startTime": 1273.3473750000003,
+          "endTime": 1431.3865000000003
+        },
+        {
+          "path": "Audio/output/3104/chapter_08.wav",
+          "duration": 170.443667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Growth—Overcoming Plateaus and Setbacks",
+          "actualDuration": 170.443667,
+          "startTime": 1432.8865000000003,
+          "endTime": 1603.3301670000003
+        },
+        {
+          "path": "Audio/output/3104/chapter_09.wav",
+          "duration": 154.394125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Extending Strengths Beyond Work—Personal Life and Community",
+          "actualDuration": 154.394125,
+          "startTime": 1604.8301670000003,
+          "endTime": 1759.2242920000003
+        },
+        {
+          "path": "Audio/output/3104/chapter_10.wav",
+          "duration": 148.111917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Reflection, Renewal, and Legacy",
+          "actualDuration": 148.111917,
+          "startTime": 1760.7242920000003,
+          "endTime": 1908.8362090000003
+        },
+        {
+          "path": "Audio/output/3104/conclusion.wav",
+          "duration": 171.57675,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 171.57675,
+          "startTime": 1910.3362090000003,
+          "endTime": 2081.9129590000002
+        }
+      ],
+      "totalDuration": 2081.9129590000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.59,
+          "actualStart": 0,
+          "actualEnd": 79.593792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Shifting the Focus from Weaknesses to Strengths",
+          "expectedStart": 79.59,
+          "expectedEnd": 282.96,
+          "actualStart": 81.093792,
+          "actualEnd": 284.460917,
+          "timeDifference": 1.50379199999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Nature of Talents and Strengths",
+          "expectedStart": 282.96,
+          "expectedEnd": 489.2,
+          "actualStart": 285.960917,
+          "actualEnd": 492.20275000000004,
+          "timeDifference": 3.0009170000000154
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Strengths Assessment—A Tool for Self-Discovery",
+          "expectedStart": 489.2,
+          "expectedEnd": 717.11,
+          "actualStart": 493.70275000000004,
+          "actualEnd": 721.6086250000001,
+          "timeDifference": 4.502750000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Applying Strengths in Daily Life and Work",
+          "expectedStart": 717.11,
+          "expectedEnd": 903.77,
+          "actualStart": 723.1086250000001,
+          "actualEnd": 909.7717080000001,
+          "timeDifference": 5.998625000000061
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Weaknesses and Building Support Systems",
+          "expectedStart": 903.77,
+          "expectedEnd": 1097.34,
+          "actualStart": 911.2717080000001,
+          "actualEnd": 1104.8436250000002,
+          "timeDifference": 7.5017080000001215
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Strengths Through Intentional Practice",
+          "expectedStart": 1097.34,
+          "expectedEnd": 1262.84,
+          "actualStart": 1106.3436250000002,
+          "actualEnd": 1271.8473750000003,
+          "timeDifference": 9.003625000000284
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Strengths into Team and Organizational Culture",
+          "expectedStart": 1262.84,
+          "expectedEnd": 1420.88,
+          "actualStart": 1273.3473750000003,
+          "actualEnd": 1431.3865000000003,
+          "timeDifference": 10.507375000000366
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Growth—Overcoming Plateaus and Setbacks",
+          "expectedStart": 1420.88,
+          "expectedEnd": 1591.32,
+          "actualStart": 1432.8865000000003,
+          "actualEnd": 1603.3301670000003,
+          "timeDifference": 12.006500000000187
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Extending Strengths Beyond Work—Personal Life and Community",
+          "expectedStart": 1591.32,
+          "expectedEnd": 1745.71,
+          "actualStart": 1604.8301670000003,
+          "actualEnd": 1759.2242920000003,
+          "timeDifference": 13.510167000000365
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Reflection, Renewal, and Legacy",
+          "expectedStart": 1745.71,
+          "expectedEnd": 1893.82,
+          "actualStart": 1760.7242920000003,
+          "actualEnd": 1908.8362090000003,
+          "timeDifference": 15.014292000000296
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1893.82,
+          "expectedEnd": 2065.4,
+          "actualStart": 1910.3362090000003,
+          "actualEnd": 2081.9129590000002,
+          "timeDifference": 16.516209000000345
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.593792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Shifting the Focus from Weaknesses to Strengths"
+        },
+        {
+          "startTime": 284.460917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Shifting the Focus from Weaknesses to Strengths and Chapter 2 Understanding the Nature of Talents and Strengths"
+        },
+        {
+          "startTime": 492.20275000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Nature of Talents and Strengths and Chapter 3 The Strengths Assessment—A Tool for Self-Discovery"
+        },
+        {
+          "startTime": 721.6086250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Strengths Assessment—A Tool for Self-Discovery and Chapter 4 Applying Strengths in Daily Life and Work"
+        },
+        {
+          "startTime": 909.7717080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Applying Strengths in Daily Life and Work and Chapter 5 Navigating Weaknesses and Building Support Systems"
+        },
+        {
+          "startTime": 1104.8436250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Weaknesses and Building Support Systems and Chapter 6 Deepening Strengths Through Intentional Practice"
+        },
+        {
+          "startTime": 1271.8473750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Strengths Through Intentional Practice and Chapter 7 Integrating Strengths into Team and Organizational Culture"
+        },
+        {
+          "startTime": 1431.3865000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Strengths into Team and Organizational Culture and Chapter 8 Sustaining Growth—Overcoming Plateaus and Setbacks"
+        },
+        {
+          "startTime": 1603.3301670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Growth—Overcoming Plateaus and Setbacks and Chapter 9 Extending Strengths Beyond Work—Personal Life and Community"
+        },
+        {
+          "startTime": 1759.2242920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Extending Strengths Beyond Work—Personal Life and Community and Chapter 10 The Ongoing Journey—Reflection, Renewal, and Legacy"
+        },
+        {
+          "startTime": 1908.8362090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Reflection, Renewal, and Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3104",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:34:03.094Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

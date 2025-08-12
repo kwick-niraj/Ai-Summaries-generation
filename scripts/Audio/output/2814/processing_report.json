@@ -1,0 +1,432 @@
+{
+  "bookId": "2814",
+  "timestamp": "2025-07-13T21:37:37.975Z",
+  "success": false,
+  "processingTime": -1752442379334,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4895,
+    "totalAudioFiles": 11,
+    "totalDuration": 2013.9817919999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2013.9817919999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2814/optimized_text/2814.md",
+    "fileSize": 646,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2814.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2814/metadata/2814_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2013.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2814/metadata/2814_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2814/metadata/2814_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2814/2814_complete.wav",
+    "duration": 2013.981792,
+    "fileSize": 96671204,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2814/introduction.wav",
+          "duration": 90.510958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.510958,
+          "startTime": 0,
+          "endTime": 90.510958
+        },
+        {
+          "path": "Audio/output/2814/chapter_01.wav",
+          "duration": 225.999292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a World of Unquestioned Rules",
+          "actualDuration": 225.999292,
+          "startTime": 92.010958,
+          "endTime": 318.01025
+        },
+        {
+          "path": "Audio/output/2814/chapter_02.wav",
+          "duration": 222.091917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Obedience and the Loss of Choice",
+          "actualDuration": 222.091917,
+          "startTime": 319.51025,
+          "endTime": 541.602167
+        },
+        {
+          "path": "Audio/output/2814/chapter_03.wav",
+          "duration": 197.809458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living Under Control and the Cost of Silence",
+          "actualDuration": 197.809458,
+          "startTime": 543.102167,
+          "endTime": 740.911625
+        },
+        {
+          "path": "Audio/output/2814/chapter_04.wav",
+          "duration": 201.0595,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Breaking Point and the First Steps Toward Escape",
+          "actualDuration": 201.0595,
+          "startTime": 742.411625,
+          "endTime": 943.471125
+        },
+        {
+          "path": "Audio/output/2814/chapter_05.wav",
+          "duration": 183.498875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing the Outside World and the Fight for Justice",
+          "actualDuration": 183.498875,
+          "startTime": 944.971125,
+          "endTime": 1128.47
+        },
+        {
+          "path": "Audio/output/2814/chapter_06.wav",
+          "duration": 181.578167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Healing",
+          "actualDuration": 181.578167,
+          "startTime": 1129.97,
+          "endTime": 1311.548167
+        },
+        {
+          "path": "Audio/output/2814/chapter_07.wav",
+          "duration": 155.95125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rebuilding Relationships and Finding New Family",
+          "actualDuration": 155.95125,
+          "startTime": 1313.048167,
+          "endTime": 1468.999417
+        },
+        {
+          "path": "Audio/output/2814/chapter_08.wav",
+          "duration": 147.851958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Becoming an Advocate: Turning Pain into Purpose",
+          "actualDuration": 147.851958,
+          "startTime": 1470.499417,
+          "endTime": 1618.351375
+        },
+        {
+          "path": "Audio/output/2814/chapter_09.wav",
+          "duration": 174.930917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: Inspiring Change Beyond the Community",
+          "actualDuration": 174.930917,
+          "startTime": 1619.851375,
+          "endTime": 1794.7822919999999
+        },
+        {
+          "path": "Audio/output/2814/chapter_10.wav",
+          "duration": 232.6995,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reclaiming Freedom: Building a Life on Her Own Terms",
+          "actualDuration": 232.6995,
+          "startTime": 1796.2822919999999,
+          "endTime": 2028.9817919999998
+        }
+      ],
+      "totalDuration": 2028.9817919999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.51,
+          "actualStart": 0,
+          "actualEnd": 90.510958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a World of Unquestioned Rules",
+          "expectedStart": 90.51,
+          "expectedEnd": 316.51,
+          "actualStart": 92.010958,
+          "actualEnd": 318.01025,
+          "timeDifference": 1.5009579999999971
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Obedience and the Loss of Choice",
+          "expectedStart": 316.51,
+          "expectedEnd": 538.6,
+          "actualStart": 319.51025,
+          "actualEnd": 541.602167,
+          "timeDifference": 3.000249999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living Under Control and the Cost of Silence",
+          "expectedStart": 538.6,
+          "expectedEnd": 736.41,
+          "actualStart": 543.102167,
+          "actualEnd": 740.911625,
+          "timeDifference": 4.502166999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Breaking Point and the First Steps Toward Escape",
+          "expectedStart": 736.41,
+          "expectedEnd": 937.47,
+          "actualStart": 742.411625,
+          "actualEnd": 943.471125,
+          "timeDifference": 6.00162499999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing the Outside World and the Fight for Justice",
+          "expectedStart": 937.47,
+          "expectedEnd": 1120.97,
+          "actualStart": 944.971125,
+          "actualEnd": 1128.47,
+          "timeDifference": 7.501125000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Healing",
+          "expectedStart": 1120.97,
+          "expectedEnd": 1302.55,
+          "actualStart": 1129.97,
+          "actualEnd": 1311.548167,
+          "timeDifference": 9
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rebuilding Relationships and Finding New Family",
+          "expectedStart": 1302.55,
+          "expectedEnd": 1458.5,
+          "actualStart": 1313.048167,
+          "actualEnd": 1468.999417,
+          "timeDifference": 10.498166999999967
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Becoming an Advocate: Turning Pain into Purpose",
+          "expectedStart": 1458.5,
+          "expectedEnd": 1606.35,
+          "actualStart": 1470.499417,
+          "actualEnd": 1618.351375,
+          "timeDifference": 11.999416999999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: Inspiring Change Beyond the Community",
+          "expectedStart": 1606.35,
+          "expectedEnd": 1781.28,
+          "actualStart": 1619.851375,
+          "actualEnd": 1794.7822919999999,
+          "timeDifference": 13.501375000000053
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reclaiming Freedom: Building a Life on Her Own Terms",
+          "expectedStart": 1781.28,
+          "expectedEnd": 2013.98,
+          "actualStart": 1796.2822919999999,
+          "actualEnd": 2028.9817919999998,
+          "timeDifference": 15.002291999999898
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.510958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a World of Unquestioned Rules"
+        },
+        {
+          "startTime": 318.01025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a World of Unquestioned Rules and Chapter 2 The Weight of Obedience and the Loss of Choice"
+        },
+        {
+          "startTime": 541.602167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Obedience and the Loss of Choice and Chapter 3 Living Under Control and the Cost of Silence"
+        },
+        {
+          "startTime": 740.911625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living Under Control and the Cost of Silence and Chapter 4 The Breaking Point and the First Steps Toward Escape"
+        },
+        {
+          "startTime": 943.471125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Breaking Point and the First Steps Toward Escape and Chapter 5 Facing the Outside World and the Fight for Justice"
+        },
+        {
+          "startTime": 1128.47,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing the Outside World and the Fight for Justice and Chapter 6 The Long Road to Healing"
+        },
+        {
+          "startTime": 1311.548167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Healing and Chapter 7 Rebuilding Relationships and Finding New Family"
+        },
+        {
+          "startTime": 1468.999417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rebuilding Relationships and Finding New Family and Chapter 8 Becoming an Advocate: Turning Pain into Purpose"
+        },
+        {
+          "startTime": 1618.351375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Becoming an Advocate: Turning Pain into Purpose and Chapter 9 The Ripple Effect: Inspiring Change Beyond the Community"
+        },
+        {
+          "startTime": 1794.7822919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: Inspiring Change Beyond the Community and Chapter 10 Reclaiming Freedom: Building a Life on Her Own Terms"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2814",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:32:59.982Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

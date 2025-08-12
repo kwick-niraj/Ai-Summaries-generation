@@ -1,0 +1,456 @@
+{
+  "bookId": "2824",
+  "timestamp": "2025-07-13T22:34:54.266Z",
+  "success": false,
+  "processingTime": -1752445747704,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4965,
+    "totalAudioFiles": 12,
+    "totalDuration": 2372.289042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2372.289042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2824/optimized_text/2824.md",
+    "fileSize": 767,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2824.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2824/metadata/2824_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2372.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2824/metadata/2824_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2824/metadata/2824_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2824/2824_complete.wav",
+    "duration": 2372.289042,
+    "fileSize": 113869952,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2824/introduction.wav",
+          "duration": 92.769917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.769917,
+          "startTime": 0,
+          "endTime": 92.769917
+        },
+        {
+          "path": "Audio/output/2824/chapter_01.wav",
+          "duration": 290.166042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Question: From Blame to Curiosity",
+          "actualDuration": 290.166042,
+          "startTime": 94.269917,
+          "endTime": 384.435959
+        },
+        {
+          "path": "Audio/output/2824/chapter_02.wav",
+          "duration": 267.967667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Early Experiences Shape the Brain and Behavior",
+          "actualDuration": 267.967667,
+          "startTime": 385.935959,
+          "endTime": 653.903626
+        },
+        {
+          "path": "Audio/output/2824/chapter_03.wav",
+          "duration": 291.356458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Cost of Trauma and the Path to Resilience",
+          "actualDuration": 291.356458,
+          "startTime": 655.403626,
+          "endTime": 946.760084
+        },
+        {
+          "path": "Audio/output/2824/chapter_04.wav",
+          "duration": 246.816667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Connection and the Science of Healing",
+          "actualDuration": 246.816667,
+          "startTime": 948.260084,
+          "endTime": 1195.076751
+        },
+        {
+          "path": "Audio/output/2824/chapter_05.wav",
+          "duration": 229.44825,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Steps, Lasting Change: Building a Foundation for Recovery",
+          "actualDuration": 229.44825,
+          "startTime": 1196.576751,
+          "endTime": 1426.025001
+        },
+        {
+          "path": "Audio/output/2824/chapter_06.wav",
+          "duration": 159.425042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Body Remembers: Trauma’s Echoes in Everyday Life",
+          "actualDuration": 159.425042,
+          "startTime": 1427.525001,
+          "endTime": 1586.950043
+        },
+        {
+          "path": "Audio/output/2824/chapter_07.wav",
+          "duration": 194.807458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Breaking the Cycle: Parenting, Caregiving, and Generational Healing",
+          "actualDuration": 194.807458,
+          "startTime": 1588.450043,
+          "endTime": 1783.257501
+        },
+        {
+          "path": "Audio/output/2824/chapter_08.wav",
+          "duration": 174.054333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community Matters: The Role of Culture, Systems, and Social Support",
+          "actualDuration": 174.054333,
+          "startTime": 1784.757501,
+          "endTime": 1958.811834
+        },
+        {
+          "path": "Audio/output/2824/chapter_09.wav",
+          "duration": 148.632083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey: Setbacks, Growth, and the Power of Hope",
+          "actualDuration": 148.632083,
+          "startTime": 1960.311834,
+          "endTime": 2108.943917
+        },
+        {
+          "path": "Audio/output/2824/chapter_10.wav",
+          "duration": 143.13825,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rewriting the Story: Meaning, Purpose, and the Future",
+          "actualDuration": 143.13825,
+          "startTime": 2110.443917,
+          "endTime": 2253.582167
+        },
+        {
+          "path": "Audio/output/2824/conclusion.wav",
+          "duration": 133.706875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.706875,
+          "startTime": 2255.082167,
+          "endTime": 2388.789042
+        }
+      ],
+      "totalDuration": 2388.789042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.77,
+          "actualStart": 0,
+          "actualEnd": 92.769917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Question: From Blame to Curiosity",
+          "expectedStart": 92.77,
+          "expectedEnd": 382.94,
+          "actualStart": 94.269917,
+          "actualEnd": 384.435959,
+          "timeDifference": 1.4999170000000106
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Early Experiences Shape the Brain and Behavior",
+          "expectedStart": 382.94,
+          "expectedEnd": 650.91,
+          "actualStart": 385.935959,
+          "actualEnd": 653.903626,
+          "timeDifference": 2.9959590000000276
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Cost of Trauma and the Path to Resilience",
+          "expectedStart": 650.91,
+          "expectedEnd": 942.27,
+          "actualStart": 655.403626,
+          "actualEnd": 946.760084,
+          "timeDifference": 4.493626000000063
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Connection and the Science of Healing",
+          "expectedStart": 942.27,
+          "expectedEnd": 1189.09,
+          "actualStart": 948.260084,
+          "actualEnd": 1195.076751,
+          "timeDifference": 5.990084000000024
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Steps, Lasting Change: Building a Foundation for Recovery",
+          "expectedStart": 1189.09,
+          "expectedEnd": 1418.54,
+          "actualStart": 1196.576751,
+          "actualEnd": 1426.025001,
+          "timeDifference": 7.48675100000014
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Body Remembers: Trauma’s Echoes in Everyday Life",
+          "expectedStart": 1418.54,
+          "expectedEnd": 1577.97,
+          "actualStart": 1427.525001,
+          "actualEnd": 1586.950043,
+          "timeDifference": 8.985001000000011
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Breaking the Cycle: Parenting, Caregiving, and Generational Healing",
+          "expectedStart": 1577.97,
+          "expectedEnd": 1772.78,
+          "actualStart": 1588.450043,
+          "actualEnd": 1783.257501,
+          "timeDifference": 10.480043000000023
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community Matters: The Role of Culture, Systems, and Social Support",
+          "expectedStart": 1772.78,
+          "expectedEnd": 1946.83,
+          "actualStart": 1784.757501,
+          "actualEnd": 1958.811834,
+          "timeDifference": 11.977501000000075
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey: Setbacks, Growth, and the Power of Hope",
+          "expectedStart": 1946.83,
+          "expectedEnd": 2095.46,
+          "actualStart": 1960.311834,
+          "actualEnd": 2108.943917,
+          "timeDifference": 13.481834000000163
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rewriting the Story: Meaning, Purpose, and the Future",
+          "expectedStart": 2095.46,
+          "expectedEnd": 2238.6,
+          "actualStart": 2110.443917,
+          "actualEnd": 2253.582167,
+          "timeDifference": 14.98391700000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2238.6,
+          "expectedEnd": 2372.31,
+          "actualStart": 2255.082167,
+          "actualEnd": 2388.789042,
+          "timeDifference": 16.482167000000118
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.769917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Question: From Blame to Curiosity"
+        },
+        {
+          "startTime": 384.435959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Question: From Blame to Curiosity and Chapter 2 How Early Experiences Shape the Brain and Behavior"
+        },
+        {
+          "startTime": 653.903626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Early Experiences Shape the Brain and Behavior and Chapter 3 The Hidden Cost of Trauma and the Path to Resilience"
+        },
+        {
+          "startTime": 946.760084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Cost of Trauma and the Path to Resilience and Chapter 4 The Power of Connection and the Science of Healing"
+        },
+        {
+          "startTime": 1195.076751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Connection and the Science of Healing and Chapter 5 Small Steps, Lasting Change: Building a Foundation for Recovery"
+        },
+        {
+          "startTime": 1426.025001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Steps, Lasting Change: Building a Foundation for Recovery and Chapter 6 The Body Remembers: Trauma’s Echoes in Everyday Life"
+        },
+        {
+          "startTime": 1586.950043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Body Remembers: Trauma’s Echoes in Everyday Life and Chapter 7 Breaking the Cycle: Parenting, Caregiving, and Generational Healing"
+        },
+        {
+          "startTime": 1783.257501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Breaking the Cycle: Parenting, Caregiving, and Generational Healing and Chapter 8 Community Matters: The Role of Culture, Systems, and Social Support"
+        },
+        {
+          "startTime": 1958.811834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community Matters: The Role of Culture, Systems, and Social Support and Chapter 9 The Ongoing Journey: Setbacks, Growth, and the Power of Hope"
+        },
+        {
+          "startTime": 2108.943917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey: Setbacks, Growth, and the Power of Hope and Chapter 10 Rewriting the Story: Meaning, Purpose, and the Future"
+        },
+        {
+          "startTime": 2253.582167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rewriting the Story: Meaning, Purpose, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2824",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:29:09.109Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "2970",
+  "timestamp": "2025-07-14T08:27:43.329Z",
+  "success": false,
+  "processingTime": -1752481254515,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4235,
+    "totalAudioFiles": 12,
+    "totalDuration": 1886.929833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1886.929833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2970/optimized_text/2970.md",
+    "fileSize": 714,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2970.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2970/metadata/2970_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1886.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2970/metadata/2970_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2970/metadata/2970_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2970/2970_complete.wav",
+    "duration": 1886.929833,
+    "fileSize": 90572710,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2970/introduction.wav",
+          "duration": 95.815958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.815958,
+          "startTime": 0,
+          "endTime": 95.815958
+        },
+        {
+          "path": "Audio/output/2970/chapter_02.wav",
+          "duration": 221.683375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Harnessing Pain and Suffering as Tools for Growth",
+          "actualDuration": 221.683375,
+          "startTime": 97.315958,
+          "endTime": 318.999333
+        },
+        {
+          "path": "Audio/output/2970/chapter_03.wav",
+          "duration": 194.358583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The 40% Rule and Unlocking Hidden Potential",
+          "actualDuration": 194.358583,
+          "startTime": 320.499333,
+          "endTime": 514.8579159999999
+        },
+        {
+          "path": "Audio/output/2970/chapter_04.wav",
+          "duration": 226.815167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Discipline and Creating Relentless Routines",
+          "actualDuration": 226.815167,
+          "startTime": 516.3579159999999,
+          "endTime": 743.1730829999999
+        },
+        {
+          "path": "Audio/output/2970/chapter_05.wav",
+          "duration": 187.300667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Radical Honesty and Taking Full Responsibility",
+          "actualDuration": 187.300667,
+          "startTime": 744.6730829999999,
+          "endTime": 931.9737499999999
+        },
+        {
+          "path": "Audio/output/2970/chapter_06.wav",
+          "duration": 140.061,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Callusing the Mind—Deliberate Exposure to Discomfort",
+          "actualDuration": 140.061,
+          "startTime": 933.4737499999999,
+          "endTime": 1073.5347499999998
+        },
+        {
+          "path": "Audio/output/2970/chapter_07.wav",
+          "duration": 150.333625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Visualization and Mental Rehearsal",
+          "actualDuration": 150.333625,
+          "startTime": 1075.0347499999998,
+          "endTime": 1225.3683749999998
+        },
+        {
+          "path": "Audio/output/2970/chapter_08.wav",
+          "duration": 171.65275,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Accountability Loop—Feedback, Adaptation, and Growth",
+          "actualDuration": 171.65275,
+          "startTime": 1226.8683749999998,
+          "endTime": 1398.5211249999998
+        },
+        {
+          "path": "Audio/output/2970/chapter_09.wav",
+          "duration": 137.586208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Service, Purpose, and the Power of “Why”",
+          "actualDuration": 137.586208,
+          "startTime": 1400.0211249999998,
+          "endTime": 1537.6073329999997
+        },
+        {
+          "path": "Audio/output/2970/chapter_10.wav",
+          "duration": 190.42375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Resilience into Daily Life—Sustaining Transformation",
+          "actualDuration": 190.42375,
+          "startTime": 1539.1073329999997,
+          "endTime": 1729.5310829999996
+        },
+        {
+          "path": "Audio/output/2970/conclusion.wav",
+          "duration": 170.89875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 170.89875,
+          "startTime": 1731.0310829999996,
+          "endTime": 1901.9298329999997
+        }
+      ],
+      "totalDuration": 1901.9298329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.82,
+          "actualStart": 0,
+          "actualEnd": 95.815958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Harnessing Pain and Suffering as Tools for Growth",
+          "expectedStart": 95.82,
+          "expectedEnd": 317.5,
+          "actualStart": 97.315958,
+          "actualEnd": 318.999333,
+          "timeDifference": 1.4959580000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The 40% Rule and Unlocking Hidden Potential",
+          "expectedStart": 317.5,
+          "expectedEnd": 511.86,
+          "actualStart": 320.499333,
+          "actualEnd": 514.8579159999999,
+          "timeDifference": 2.9993329999999787
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Discipline and Creating Relentless Routines",
+          "expectedStart": 511.86,
+          "expectedEnd": 738.68,
+          "actualStart": 516.3579159999999,
+          "actualEnd": 743.1730829999999,
+          "timeDifference": 4.497915999999918
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Radical Honesty and Taking Full Responsibility",
+          "expectedStart": 738.68,
+          "expectedEnd": 925.98,
+          "actualStart": 744.6730829999999,
+          "actualEnd": 931.9737499999999,
+          "timeDifference": 5.993082999999956
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Callusing the Mind—Deliberate Exposure to Discomfort",
+          "expectedStart": 925.98,
+          "expectedEnd": 1066.04,
+          "actualStart": 933.4737499999999,
+          "actualEnd": 1073.5347499999998,
+          "timeDifference": 7.493749999999864
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Visualization and Mental Rehearsal",
+          "expectedStart": 1066.04,
+          "expectedEnd": 1216.37,
+          "actualStart": 1075.0347499999998,
+          "actualEnd": 1225.3683749999998,
+          "timeDifference": 8.99474999999984
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Accountability Loop—Feedback, Adaptation, and Growth",
+          "expectedStart": 1216.37,
+          "expectedEnd": 1388.02,
+          "actualStart": 1226.8683749999998,
+          "actualEnd": 1398.5211249999998,
+          "timeDifference": 10.498374999999896
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Service, Purpose, and the Power of “Why”",
+          "expectedStart": 1388.02,
+          "expectedEnd": 1525.61,
+          "actualStart": 1400.0211249999998,
+          "actualEnd": 1537.6073329999997,
+          "timeDifference": 12.001124999999774
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Resilience into Daily Life—Sustaining Transformation",
+          "expectedStart": 1525.61,
+          "expectedEnd": 1716.03,
+          "actualStart": 1539.1073329999997,
+          "actualEnd": 1729.5310829999996,
+          "timeDifference": 13.497332999999799
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1716.03,
+          "expectedEnd": 1886.93,
+          "actualStart": 1731.0310829999996,
+          "actualEnd": 1901.9298329999997,
+          "timeDifference": 15.001082999999653
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.815958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 Harnessing Pain and Suffering as Tools for Growth"
+        },
+        {
+          "startTime": 318.999333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Harnessing Pain and Suffering as Tools for Growth and Chapter 3 The 40% Rule and Unlocking Hidden Potential"
+        },
+        {
+          "startTime": 514.8579159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The 40% Rule and Unlocking Hidden Potential and Chapter 4 Building Discipline and Creating Relentless Routines"
+        },
+        {
+          "startTime": 743.1730829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Discipline and Creating Relentless Routines and Chapter 5 Radical Honesty and Taking Full Responsibility"
+        },
+        {
+          "startTime": 931.9737499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Radical Honesty and Taking Full Responsibility and Chapter 6 Callusing the Mind—Deliberate Exposure to Discomfort"
+        },
+        {
+          "startTime": 1073.5347499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Callusing the Mind—Deliberate Exposure to Discomfort and Chapter 7 The Power of Visualization and Mental Rehearsal"
+        },
+        {
+          "startTime": 1225.3683749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Visualization and Mental Rehearsal and Chapter 8 The Accountability Loop—Feedback, Adaptation, and Growth"
+        },
+        {
+          "startTime": 1398.5211249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Accountability Loop—Feedback, Adaptation, and Growth and Chapter 9 Service, Purpose, and the Power of “Why”"
+        },
+        {
+          "startTime": 1537.6073329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Service, Purpose, and the Power of “Why” and Chapter 10 Integrating Resilience into Daily Life—Sustaining Transformation"
+        },
+        {
+          "startTime": 1729.5310829999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Resilience into Daily Life—Sustaining Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2970",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T08:20:55.703Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

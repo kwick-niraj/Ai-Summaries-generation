@@ -1,0 +1,456 @@
+{
+  "bookId": "2789",
+  "timestamp": "2025-07-13T19:48:43.001Z",
+  "success": false,
+  "processingTime": -1752435766096,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4982,
+    "totalAudioFiles": 12,
+    "totalDuration": 2154.118958
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2154.118958
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2789/optimized_text/2789.md",
+    "fileSize": 812,
+    "wordCount": 124,
+    "format": "markdown",
+    "filename": "2789.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2789/metadata/2789_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2154.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2789/metadata/2789_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2789/metadata/2789_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2789/2789_complete.wav",
+    "duration": 2154.118958,
+    "fileSize": 103397788,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2789/introduction.wav",
+          "duration": 125.478417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 125.478417,
+          "startTime": 0,
+          "endTime": 125.478417
+        },
+        {
+          "path": "Audio/output/2789/chapter_01.wav",
+          "duration": 235.33175,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 An Evening of Conversation: Setting the Stage for Love’s Many Faces",
+          "actualDuration": 235.33175,
+          "startTime": 126.978417,
+          "endTime": 362.310167
+        },
+        {
+          "path": "Audio/output/2789/chapter_02.wav",
+          "duration": 232.775542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Different Views on Love: Stories of Devotion, Desire, and the Human Heart",
+          "actualDuration": 232.775542,
+          "startTime": 363.810167,
+          "endTime": 596.585709
+        },
+        {
+          "path": "Audio/output/2789/chapter_03.wav",
+          "duration": 225.83875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Transformative Power of Love: From Physical Attraction to Higher Meaning",
+          "actualDuration": 225.83875,
+          "startTime": 598.085709,
+          "endTime": 823.924459
+        },
+        {
+          "path": "Audio/output/2789/chapter_04.wav",
+          "duration": 224.855917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Love as a Path to Wisdom: The Ascent Toward Truth and Beauty",
+          "actualDuration": 224.855917,
+          "startTime": 825.424459,
+          "endTime": 1050.280376
+        },
+        {
+          "path": "Audio/output/2789/chapter_05.wav",
+          "duration": 177.29025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Love in Creativity, Virtue, and the Good Life",
+          "actualDuration": 177.29025,
+          "startTime": 1051.780376,
+          "endTime": 1229.070626
+        },
+        {
+          "path": "Audio/output/2789/chapter_06.wav",
+          "duration": 179.176958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Arrival of Socrates: A New Light on Love",
+          "actualDuration": 179.176958,
+          "startTime": 1230.570626,
+          "endTime": 1409.747584
+        },
+        {
+          "path": "Audio/output/2789/chapter_07.wav",
+          "duration": 169.9805,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Diotima’s Wisdom: Love as a Ladder to the Divine",
+          "actualDuration": 169.9805,
+          "startTime": 1411.247584,
+          "endTime": 1581.2280839999999
+        },
+        {
+          "path": "Audio/output/2789/chapter_08.wav",
+          "duration": 178.997583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Disruptive Guest: Love, Jealousy, and the Limits of Reason",
+          "actualDuration": 178.997583,
+          "startTime": 1582.7280839999999,
+          "endTime": 1761.725667
+        },
+        {
+          "path": "Audio/output/2789/chapter_09.wav",
+          "duration": 162.51725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Morning After: Reflection, Regret, and the Enduring Search",
+          "actualDuration": 162.51725,
+          "startTime": 1763.225667,
+          "endTime": 1925.742917
+        },
+        {
+          "path": "Audio/output/2789/chapter_10.wav",
+          "duration": 127.889583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of the Symposium: Love’s Enduring Questions",
+          "actualDuration": 127.889583,
+          "startTime": 1927.242917,
+          "endTime": 2055.1325
+        },
+        {
+          "path": "Audio/output/2789/conclusion.wav",
+          "duration": 113.986458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.986458,
+          "startTime": 2056.6325,
+          "endTime": 2170.618958
+        }
+      ],
+      "totalDuration": 2170.618958,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 125.48,
+          "actualStart": 0,
+          "actualEnd": 125.478417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 An Evening of Conversation: Setting the Stage for Love’s Many Faces",
+          "expectedStart": 125.48,
+          "expectedEnd": 360.81,
+          "actualStart": 126.978417,
+          "actualEnd": 362.310167,
+          "timeDifference": 1.4984169999999892
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Different Views on Love: Stories of Devotion, Desire, and the Human Heart",
+          "expectedStart": 360.81,
+          "expectedEnd": 593.59,
+          "actualStart": 363.810167,
+          "actualEnd": 596.585709,
+          "timeDifference": 3.0001669999999763
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Transformative Power of Love: From Physical Attraction to Higher Meaning",
+          "expectedStart": 593.59,
+          "expectedEnd": 819.43,
+          "actualStart": 598.085709,
+          "actualEnd": 823.924459,
+          "timeDifference": 4.49570899999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Love as a Path to Wisdom: The Ascent Toward Truth and Beauty",
+          "expectedStart": 819.43,
+          "expectedEnd": 1044.29,
+          "actualStart": 825.424459,
+          "actualEnd": 1050.280376,
+          "timeDifference": 5.994459000000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Love in Creativity, Virtue, and the Good Life",
+          "expectedStart": 1044.29,
+          "expectedEnd": 1221.58,
+          "actualStart": 1051.780376,
+          "actualEnd": 1229.070626,
+          "timeDifference": 7.490375999999969
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Arrival of Socrates: A New Light on Love",
+          "expectedStart": 1221.58,
+          "expectedEnd": 1400.76,
+          "actualStart": 1230.570626,
+          "actualEnd": 1409.747584,
+          "timeDifference": 8.99062600000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Diotima’s Wisdom: Love as a Ladder to the Divine",
+          "expectedStart": 1400.76,
+          "expectedEnd": 1570.74,
+          "actualStart": 1411.247584,
+          "actualEnd": 1581.2280839999999,
+          "timeDifference": 10.48758399999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Disruptive Guest: Love, Jealousy, and the Limits of Reason",
+          "expectedStart": 1570.74,
+          "expectedEnd": 1749.74,
+          "actualStart": 1582.7280839999999,
+          "actualEnd": 1761.725667,
+          "timeDifference": 11.988083999999844
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Morning After: Reflection, Regret, and the Enduring Search",
+          "expectedStart": 1749.74,
+          "expectedEnd": 1912.26,
+          "actualStart": 1763.225667,
+          "actualEnd": 1925.742917,
+          "timeDifference": 13.485666999999921
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of the Symposium: Love’s Enduring Questions",
+          "expectedStart": 1912.26,
+          "expectedEnd": 2040.15,
+          "actualStart": 1927.242917,
+          "actualEnd": 2055.1325,
+          "timeDifference": 14.982917000000043
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2040.15,
+          "expectedEnd": 2154.14,
+          "actualStart": 2056.6325,
+          "actualEnd": 2170.618958,
+          "timeDifference": 16.482500000000073
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 125.478417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 An Evening of Conversation: Setting the Stage for Love’s Many Faces"
+        },
+        {
+          "startTime": 362.310167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 An Evening of Conversation: Setting the Stage for Love’s Many Faces and Chapter 2 Different Views on Love: Stories of Devotion, Desire, and the Human Heart"
+        },
+        {
+          "startTime": 596.585709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Different Views on Love: Stories of Devotion, Desire, and the Human Heart and Chapter 3 The Transformative Power of Love: From Physical Attraction to Higher Meaning"
+        },
+        {
+          "startTime": 823.924459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Transformative Power of Love: From Physical Attraction to Higher Meaning and Chapter 4 Love as a Path to Wisdom: The Ascent Toward Truth and Beauty"
+        },
+        {
+          "startTime": 1050.280376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Love as a Path to Wisdom: The Ascent Toward Truth and Beauty and Chapter 5 The Role of Love in Creativity, Virtue, and the Good Life"
+        },
+        {
+          "startTime": 1229.070626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Love in Creativity, Virtue, and the Good Life and Chapter 6 The Arrival of Socrates: A New Light on Love"
+        },
+        {
+          "startTime": 1409.747584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Arrival of Socrates: A New Light on Love and Chapter 7 Diotima’s Wisdom: Love as a Ladder to the Divine"
+        },
+        {
+          "startTime": 1581.2280839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Diotima’s Wisdom: Love as a Ladder to the Divine and Chapter 8 The Disruptive Guest: Love, Jealousy, and the Limits of Reason"
+        },
+        {
+          "startTime": 1761.725667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Disruptive Guest: Love, Jealousy, and the Limits of Reason and Chapter 9 The Morning After: Reflection, Regret, and the Enduring Search"
+        },
+        {
+          "startTime": 1925.742917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Morning After: Reflection, Regret, and the Enduring Search and Chapter 10 The Legacy of the Symposium: Love’s Enduring Questions"
+        },
+        {
+          "startTime": 2055.1325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of the Symposium: Love’s Enduring Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2789",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:42:46.751Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

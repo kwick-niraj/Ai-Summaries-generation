@@ -1,0 +1,456 @@
+{
+  "bookId": "2839",
+  "timestamp": "2025-07-13T23:33:34.944Z",
+  "success": false,
+  "processingTime": -1752449372574,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3819,
+    "totalAudioFiles": 12,
+    "totalDuration": 1770.151959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1770.151959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2839/optimized_text/2839.md",
+    "fileSize": 836,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2839.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2839/metadata/2839_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1770.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2839/metadata/2839_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2839/metadata/2839_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2839/2839_complete.wav",
+    "duration": 1770.151958,
+    "fileSize": 84967372,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2839/introduction.wav",
+          "duration": 70.109833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 70.109833,
+          "startTime": 0,
+          "endTime": 70.109833
+        },
+        {
+          "path": "Audio/output/2839/chapter_01.wav",
+          "duration": 181.528792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Universal Need for Connection and the Modern Challenge",
+          "actualDuration": 181.528792,
+          "startTime": 71.609833,
+          "endTime": 253.138625
+        },
+        {
+          "path": "Audio/output/2839/chapter_02.wav",
+          "duration": 189.832167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Foundations of Deep Relationships: Vulnerability, Proximity, and Shared Purpose",
+          "actualDuration": 189.832167,
+          "startTime": 254.638625,
+          "endTime": 444.47079199999996
+        },
+        {
+          "path": "Audio/output/2839/chapter_03.wav",
+          "duration": 224.944958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Barriers to Connection: Fear, Rejection, and the Illusion of Self-Sufficiency",
+          "actualDuration": 224.944958,
+          "startTime": 445.97079199999996,
+          "endTime": 670.91575
+        },
+        {
+          "path": "Audio/output/2839/chapter_04.wav",
+          "duration": 181.013042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning from Biblical Models: Community as a Blueprint for Belonging",
+          "actualDuration": 181.013042,
+          "startTime": 672.41575,
+          "endTime": 853.428792
+        },
+        {
+          "path": "Audio/output/2839/chapter_05.wav",
+          "duration": 198.762667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Taking the First Steps: Practical Ways to Build and Sustain Community",
+          "actualDuration": 198.762667,
+          "startTime": 854.928792,
+          "endTime": 1053.6914590000001
+        },
+        {
+          "path": "Audio/output/2839/chapter_06.wav",
+          "duration": 128.577167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Trust: The Art of Showing Up and Staying Present",
+          "actualDuration": 128.577167,
+          "startTime": 1055.1914590000001,
+          "endTime": 1183.768626
+        },
+        {
+          "path": "Audio/output/2839/chapter_07.wav",
+          "duration": 136.577625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Conflict and Repair: Embracing Imperfection Together",
+          "actualDuration": 136.577625,
+          "startTime": 1185.268626,
+          "endTime": 1321.846251
+        },
+        {
+          "path": "Audio/output/2839/chapter_08.wav",
+          "duration": 121.544125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creating Rhythms and Rituals: Anchoring Community in Everyday Life",
+          "actualDuration": 121.544125,
+          "startTime": 1323.346251,
+          "endTime": 1444.8903759999998
+        },
+        {
+          "path": "Audio/output/2839/chapter_09.wav",
+          "duration": 109.69925,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Diversity and Expanding the Circle",
+          "actualDuration": 109.69925,
+          "startTime": 1446.3903759999998,
+          "endTime": 1556.089626
+        },
+        {
+          "path": "Audio/output/2839/chapter_10.wav",
+          "duration": 122.170708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Community Through Seasons of Change",
+          "actualDuration": 122.170708,
+          "startTime": 1557.589626,
+          "endTime": 1679.760334
+        },
+        {
+          "path": "Audio/output/2839/conclusion.wav",
+          "duration": 105.391625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.391625,
+          "startTime": 1681.260334,
+          "endTime": 1786.651959
+        }
+      ],
+      "totalDuration": 1786.651959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 70.11,
+          "actualStart": 0,
+          "actualEnd": 70.109833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Universal Need for Connection and the Modern Challenge",
+          "expectedStart": 70.11,
+          "expectedEnd": 251.64,
+          "actualStart": 71.609833,
+          "actualEnd": 253.138625,
+          "timeDifference": 1.4998329999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Foundations of Deep Relationships: Vulnerability, Proximity, and Shared Purpose",
+          "expectedStart": 251.64,
+          "expectedEnd": 441.47,
+          "actualStart": 254.638625,
+          "actualEnd": 444.47079199999996,
+          "timeDifference": 2.998625000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Barriers to Connection: Fear, Rejection, and the Illusion of Self-Sufficiency",
+          "expectedStart": 441.47,
+          "expectedEnd": 666.41,
+          "actualStart": 445.97079199999996,
+          "actualEnd": 670.91575,
+          "timeDifference": 4.500791999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning from Biblical Models: Community as a Blueprint for Belonging",
+          "expectedStart": 666.41,
+          "expectedEnd": 847.42,
+          "actualStart": 672.41575,
+          "actualEnd": 853.428792,
+          "timeDifference": 6.005750000000035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Taking the First Steps: Practical Ways to Build and Sustain Community",
+          "expectedStart": 847.42,
+          "expectedEnd": 1046.18,
+          "actualStart": 854.928792,
+          "actualEnd": 1053.6914590000001,
+          "timeDifference": 7.508792000000085
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Trust: The Art of Showing Up and Staying Present",
+          "expectedStart": 1046.18,
+          "expectedEnd": 1174.76,
+          "actualStart": 1055.1914590000001,
+          "actualEnd": 1183.768626,
+          "timeDifference": 9.011459000000059
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Conflict and Repair: Embracing Imperfection Together",
+          "expectedStart": 1174.76,
+          "expectedEnd": 1311.34,
+          "actualStart": 1185.268626,
+          "actualEnd": 1321.846251,
+          "timeDifference": 10.50862600000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creating Rhythms and Rituals: Anchoring Community in Everyday Life",
+          "expectedStart": 1311.34,
+          "expectedEnd": 1432.88,
+          "actualStart": 1323.346251,
+          "actualEnd": 1444.8903759999998,
+          "timeDifference": 12.00625100000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Diversity and Expanding the Circle",
+          "expectedStart": 1432.88,
+          "expectedEnd": 1542.58,
+          "actualStart": 1446.3903759999998,
+          "actualEnd": 1556.089626,
+          "timeDifference": 13.510375999999724
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Community Through Seasons of Change",
+          "expectedStart": 1542.58,
+          "expectedEnd": 1664.75,
+          "actualStart": 1557.589626,
+          "actualEnd": 1679.760334,
+          "timeDifference": 15.009626000000026
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1664.75,
+          "expectedEnd": 1770.14,
+          "actualStart": 1681.260334,
+          "actualEnd": 1786.651959,
+          "timeDifference": 16.510334000000057
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 70.109833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Universal Need for Connection and the Modern Challenge"
+        },
+        {
+          "startTime": 253.138625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Universal Need for Connection and the Modern Challenge and Chapter 2 The Foundations of Deep Relationships: Vulnerability, Proximity, and Shared Purpose"
+        },
+        {
+          "startTime": 444.47079199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Foundations of Deep Relationships: Vulnerability, Proximity, and Shared Purpose and Chapter 3 Barriers to Connection: Fear, Rejection, and the Illusion of Self-Sufficiency"
+        },
+        {
+          "startTime": 670.91575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Barriers to Connection: Fear, Rejection, and the Illusion of Self-Sufficiency and Chapter 4 Learning from Biblical Models: Community as a Blueprint for Belonging"
+        },
+        {
+          "startTime": 853.428792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning from Biblical Models: Community as a Blueprint for Belonging and Chapter 5 Taking the First Steps: Practical Ways to Build and Sustain Community"
+        },
+        {
+          "startTime": 1053.6914590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Taking the First Steps: Practical Ways to Build and Sustain Community and Chapter 6 Deepening Trust: The Art of Showing Up and Staying Present"
+        },
+        {
+          "startTime": 1183.768626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Trust: The Art of Showing Up and Staying Present and Chapter 7 Navigating Conflict and Repair: Embracing Imperfection Together"
+        },
+        {
+          "startTime": 1321.846251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Conflict and Repair: Embracing Imperfection Together and Chapter 8 Creating Rhythms and Rituals: Anchoring Community in Everyday Life"
+        },
+        {
+          "startTime": 1444.8903759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creating Rhythms and Rituals: Anchoring Community in Everyday Life and Chapter 9 Embracing Diversity and Expanding the Circle"
+        },
+        {
+          "startTime": 1556.089626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Diversity and Expanding the Circle and Chapter 10 Sustaining Community Through Seasons of Change"
+        },
+        {
+          "startTime": 1679.760334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Community Through Seasons of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2839",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:29:33.755Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "bookId": "3103",
+  "timestamp": "2025-07-14T18:34:00.888Z",
+  "success": false,
+  "processingTime": -1752517658792,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5616,
+    "totalAudioFiles": 14,
+    "totalDuration": 2397.593417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2397.593417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3103/optimized_text/3103.md",
+    "fileSize": 885,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "3103.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3103/metadata/3103_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2397.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3103/metadata/3103_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3103/metadata/3103_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3103/3103_complete.wav",
+    "duration": 2397.593417,
+    "fileSize": 115084562,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3103/introduction.wav",
+          "duration": 81.875208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.875208,
+          "startTime": 0,
+          "endTime": 81.875208
+        },
+        {
+          "path": "Audio/output/3103/chapter_01.wav",
+          "duration": 231.186208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World That Shapes Women’s Lives",
+          "actualDuration": 231.186208,
+          "startTime": 83.375208,
+          "endTime": 314.561416
+        },
+        {
+          "path": "Audio/output/3103/chapter_02.wav",
+          "duration": 204.476708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of Being “Good” and the Price of Obedience",
+          "actualDuration": 204.476708,
+          "startTime": 316.061416,
+          "endTime": 520.538124
+        },
+        {
+          "path": "Audio/output/3103/chapter_03.wav",
+          "duration": 220.95725,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Body as Battleground: Reclaiming Desire and Autonomy",
+          "actualDuration": 220.95725,
+          "startTime": 522.038124,
+          "endTime": 742.9953740000001
+        },
+        {
+          "path": "Audio/output/3103/chapter_04.wav",
+          "duration": 238.702667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Marriage, and the Trap of Traditional Roles",
+          "actualDuration": 238.702667,
+          "startTime": 744.4953740000001,
+          "endTime": 983.1980410000001
+        },
+        {
+          "path": "Audio/output/3103/chapter_05.wav",
+          "duration": 222.968792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Consumer Culture and the Reinforcement of Gender Inequality",
+          "actualDuration": 222.968792,
+          "startTime": 984.6980410000001,
+          "endTime": 1207.6668330000002
+        },
+        {
+          "path": "Audio/output/3103/chapter_06.wav",
+          "duration": 164.026917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Mind’s Cage: Internalized Oppression and the Silent Saboteur",
+          "actualDuration": 164.026917,
+          "startTime": 1209.1668330000002,
+          "endTime": 1373.1937500000001
+        },
+        {
+          "path": "Audio/output/3103/chapter_07.wav",
+          "duration": 180.489,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sexual Liberation: Breaking the Chains of Shame",
+          "actualDuration": 180.489,
+          "startTime": 1374.6937500000001,
+          "endTime": 1555.1827500000002
+        },
+        {
+          "path": "Audio/output/3103/chapter_08.wav",
+          "duration": 178.412667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Work, Ambition, and the Struggle for Recognition",
+          "actualDuration": 178.412667,
+          "startTime": 1556.6827500000002,
+          "endTime": 1735.0954170000002
+        },
+        {
+          "path": "Audio/output/3103/chapter_09.wav",
+          "duration": 152.330792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Friendship, Solidarity, and the Power of Connection",
+          "actualDuration": 152.330792,
+          "startTime": 1736.5954170000002,
+          "endTime": 1888.9262090000002
+        },
+        {
+          "path": "Audio/output/3103/chapter_10.wav",
+          "duration": 128.47775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reclaiming Identity: The Path to Wholeness",
+          "actualDuration": 128.47775,
+          "startTime": 1890.4262090000002,
+          "endTime": 2018.9039590000002
+        },
+        {
+          "path": "Audio/output/3103/chapter_11.wav",
+          "duration": 125.235583,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Power of Imagination: Envisioning a Different Future",
+          "actualDuration": 125.235583,
+          "startTime": 2020.4039590000002,
+          "endTime": 2145.6395420000003
+        },
+        {
+          "path": "Audio/output/3103/chapter_12.wav",
+          "duration": 137.04425,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Struggle: Resilience, Hope, and the Work Ahead",
+          "actualDuration": 137.04425,
+          "startTime": 2147.1395420000003,
+          "endTime": 2284.1837920000003
+        },
+        {
+          "path": "Audio/output/3103/conclusion.wav",
+          "duration": 131.409625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.409625,
+          "startTime": 2285.6837920000003,
+          "endTime": 2417.093417
+        }
+      ],
+      "totalDuration": 2417.093417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.88,
+          "actualStart": 0,
+          "actualEnd": 81.875208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World That Shapes Women’s Lives",
+          "expectedStart": 81.88,
+          "expectedEnd": 313.07,
+          "actualStart": 83.375208,
+          "actualEnd": 314.561416,
+          "timeDifference": 1.4952080000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of Being “Good” and the Price of Obedience",
+          "expectedStart": 313.07,
+          "expectedEnd": 517.55,
+          "actualStart": 316.061416,
+          "actualEnd": 520.538124,
+          "timeDifference": 2.991416000000015
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Body as Battleground: Reclaiming Desire and Autonomy",
+          "expectedStart": 517.55,
+          "expectedEnd": 738.51,
+          "actualStart": 522.038124,
+          "actualEnd": 742.9953740000001,
+          "timeDifference": 4.488124000000084
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Marriage, and the Trap of Traditional Roles",
+          "expectedStart": 738.51,
+          "expectedEnd": 977.21,
+          "actualStart": 744.4953740000001,
+          "actualEnd": 983.1980410000001,
+          "timeDifference": 5.985374000000093
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Consumer Culture and the Reinforcement of Gender Inequality",
+          "expectedStart": 977.21,
+          "expectedEnd": 1200.18,
+          "actualStart": 984.6980410000001,
+          "actualEnd": 1207.6668330000002,
+          "timeDifference": 7.488041000000067
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Mind’s Cage: Internalized Oppression and the Silent Saboteur",
+          "expectedStart": 1200.18,
+          "expectedEnd": 1364.21,
+          "actualStart": 1209.1668330000002,
+          "actualEnd": 1373.1937500000001,
+          "timeDifference": 8.98683300000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sexual Liberation: Breaking the Chains of Shame",
+          "expectedStart": 1364.21,
+          "expectedEnd": 1544.7,
+          "actualStart": 1374.6937500000001,
+          "actualEnd": 1555.1827500000002,
+          "timeDifference": 10.4837500000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Work, Ambition, and the Struggle for Recognition",
+          "expectedStart": 1544.7,
+          "expectedEnd": 1723.11,
+          "actualStart": 1556.6827500000002,
+          "actualEnd": 1735.0954170000002,
+          "timeDifference": 11.982750000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Friendship, Solidarity, and the Power of Connection",
+          "expectedStart": 1723.11,
+          "expectedEnd": 1875.44,
+          "actualStart": 1736.5954170000002,
+          "actualEnd": 1888.9262090000002,
+          "timeDifference": 13.485417000000325
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reclaiming Identity: The Path to Wholeness",
+          "expectedStart": 1875.44,
+          "expectedEnd": 2003.92,
+          "actualStart": 1890.4262090000002,
+          "actualEnd": 2018.9039590000002,
+          "timeDifference": 14.986209000000144
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Power of Imagination: Envisioning a Different Future",
+          "expectedStart": 2003.92,
+          "expectedEnd": 2129.16,
+          "actualStart": 2020.4039590000002,
+          "actualEnd": 2145.6395420000003,
+          "timeDifference": 16.48395900000014
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Struggle: Resilience, Hope, and the Work Ahead",
+          "expectedStart": 2129.16,
+          "expectedEnd": 2266.2,
+          "actualStart": 2147.1395420000003,
+          "actualEnd": 2284.1837920000003,
+          "timeDifference": 17.979542000000492
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2266.2,
+          "expectedEnd": 2397.61,
+          "actualStart": 2285.6837920000003,
+          "actualEnd": 2417.093417,
+          "timeDifference": 19.48379200000045
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.875208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World That Shapes Women’s Lives"
+        },
+        {
+          "startTime": 314.561416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World That Shapes Women’s Lives and Chapter 2 The Hidden Costs of Being “Good” and the Price of Obedience"
+        },
+        {
+          "startTime": 520.538124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of Being “Good” and the Price of Obedience and Chapter 3 The Body as Battleground: Reclaiming Desire and Autonomy"
+        },
+        {
+          "startTime": 742.9953740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Body as Battleground: Reclaiming Desire and Autonomy and Chapter 4 Family, Marriage, and the Trap of Traditional Roles"
+        },
+        {
+          "startTime": 983.1980410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Marriage, and the Trap of Traditional Roles and Chapter 5 Consumer Culture and the Reinforcement of Gender Inequality"
+        },
+        {
+          "startTime": 1207.6668330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Consumer Culture and the Reinforcement of Gender Inequality and Chapter 6 The Mind’s Cage: Internalized Oppression and the Silent Saboteur"
+        },
+        {
+          "startTime": 1373.1937500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Mind’s Cage: Internalized Oppression and the Silent Saboteur and Chapter 7 Sexual Liberation: Breaking the Chains of Shame"
+        },
+        {
+          "startTime": 1555.1827500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sexual Liberation: Breaking the Chains of Shame and Chapter 8 Work, Ambition, and the Struggle for Recognition"
+        },
+        {
+          "startTime": 1735.0954170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Work, Ambition, and the Struggle for Recognition and Chapter 9 Friendship, Solidarity, and the Power of Connection"
+        },
+        {
+          "startTime": 1888.9262090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Friendship, Solidarity, and the Power of Connection and Chapter 10 Reclaiming Identity: The Path to Wholeness"
+        },
+        {
+          "startTime": 2018.9039590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reclaiming Identity: The Path to Wholeness and Chapter 11 The Power of Imagination: Envisioning a Different Future"
+        },
+        {
+          "startTime": 2145.6395420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Power of Imagination: Envisioning a Different Future and Chapter 12 The Ongoing Struggle: Resilience, Hope, and the Work Ahead"
+        },
+        {
+          "startTime": 2284.1837920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Struggle: Resilience, Hope, and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3103",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:27:39.985Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

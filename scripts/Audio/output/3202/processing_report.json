@@ -1,0 +1,456 @@
+{
+  "bookId": "3202",
+  "timestamp": "2025-07-15T02:51:23.630Z",
+  "success": false,
+  "processingTime": -1752547550712,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4373,
+    "totalAudioFiles": 12,
+    "totalDuration": 2147.7623329999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2147.7623329999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3202/optimized_text/3202.md",
+    "fileSize": 689,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "3202.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3202/metadata/3202_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2147.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3202/metadata/3202_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3202/metadata/3202_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3202/3202_complete.wav",
+    "duration": 2147.762333,
+    "fileSize": 103092670,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3202/introduction.wav",
+          "duration": 110.779125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.779125,
+          "startTime": 0,
+          "endTime": 110.779125
+        },
+        {
+          "path": "Audio/output/3202/chapter_01.wav",
+          "duration": 218.508,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Curiosity and the Roots of Independent Thinking",
+          "actualDuration": 218.508,
+          "startTime": 112.279125,
+          "endTime": 330.787125
+        },
+        {
+          "path": "Audio/output/3202/chapter_02.wav",
+          "duration": 218.68675,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Love, Loss, and the Human Side of a Scientific Life",
+          "actualDuration": 218.68675,
+          "startTime": 332.287125,
+          "endTime": 550.973875
+        },
+        {
+          "path": "Audio/output/3202/chapter_03.wav",
+          "duration": 224.489,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Everyday Curiosity and the Joy of Discovery",
+          "actualDuration": 224.489,
+          "startTime": 552.473875,
+          "endTime": 776.962875
+        },
+        {
+          "path": "Audio/output/3202/chapter_04.wav",
+          "duration": 205.22725,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Integrity, Honesty, and the Courage to Speak Up",
+          "actualDuration": 205.22725,
+          "startTime": 778.462875,
+          "endTime": 983.6901250000001
+        },
+        {
+          "path": "Audio/output/3202/chapter_05.wav",
+          "duration": 216.321542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Value of Questioning Authority and Uncovering Truth",
+          "actualDuration": 216.321542,
+          "startTime": 985.1901250000001,
+          "endTime": 1201.511667
+        },
+        {
+          "path": "Audio/output/3202/chapter_06.wav",
+          "duration": 191.340833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Explaining: Making the Complex Simple",
+          "actualDuration": 191.340833,
+          "startTime": 1203.011667,
+          "endTime": 1394.3525
+        },
+        {
+          "path": "Audio/output/3202/chapter_07.wav",
+          "duration": 173.705083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Communication, Misunderstanding, and the Limits of Language",
+          "actualDuration": 173.705083,
+          "startTime": 1395.8525,
+          "endTime": 1569.557583
+        },
+        {
+          "path": "Audio/output/3202/chapter_08.wav",
+          "duration": 158.093167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Challenge of Public Responsibility",
+          "actualDuration": 158.093167,
+          "startTime": 1571.057583,
+          "endTime": 1729.15075
+        },
+        {
+          "path": "Audio/output/3202/chapter_09.wav",
+          "duration": 138.987125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Humor, Playfulness, and the Lightness of Being",
+          "actualDuration": 138.987125,
+          "startTime": 1730.65075,
+          "endTime": 1869.637875
+        },
+        {
+          "path": "Audio/output/3202/chapter_10.wav",
+          "duration": 130.28225,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Impact of Curiosity and Integrity",
+          "actualDuration": 130.28225,
+          "startTime": 1871.137875,
+          "endTime": 2001.4201249999999
+        },
+        {
+          "path": "Audio/output/3202/conclusion.wav",
+          "duration": 161.342208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.342208,
+          "startTime": 2002.9201249999999,
+          "endTime": 2164.2623329999997
+        }
+      ],
+      "totalDuration": 2164.2623329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.78,
+          "actualStart": 0,
+          "actualEnd": 110.779125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Curiosity and the Roots of Independent Thinking",
+          "expectedStart": 110.78,
+          "expectedEnd": 329.29,
+          "actualStart": 112.279125,
+          "actualEnd": 330.787125,
+          "timeDifference": 1.4991249999999923
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Love, Loss, and the Human Side of a Scientific Life",
+          "expectedStart": 329.29,
+          "expectedEnd": 547.98,
+          "actualStart": 332.287125,
+          "actualEnd": 550.973875,
+          "timeDifference": 2.9971249999999827
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Everyday Curiosity and the Joy of Discovery",
+          "expectedStart": 547.98,
+          "expectedEnd": 772.47,
+          "actualStart": 552.473875,
+          "actualEnd": 776.962875,
+          "timeDifference": 4.493875000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Integrity, Honesty, and the Courage to Speak Up",
+          "expectedStart": 772.47,
+          "expectedEnd": 977.7,
+          "actualStart": 778.462875,
+          "actualEnd": 983.6901250000001,
+          "timeDifference": 5.992875000000026
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Value of Questioning Authority and Uncovering Truth",
+          "expectedStart": 977.7,
+          "expectedEnd": 1194.02,
+          "actualStart": 985.1901250000001,
+          "actualEnd": 1201.511667,
+          "timeDifference": 7.490125000000035
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Explaining: Making the Complex Simple",
+          "expectedStart": 1194.02,
+          "expectedEnd": 1385.36,
+          "actualStart": 1203.011667,
+          "actualEnd": 1394.3525,
+          "timeDifference": 8.991667000000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Communication, Misunderstanding, and the Limits of Language",
+          "expectedStart": 1385.36,
+          "expectedEnd": 1559.07,
+          "actualStart": 1395.8525,
+          "actualEnd": 1569.557583,
+          "timeDifference": 10.492500000000064
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Challenge of Public Responsibility",
+          "expectedStart": 1559.07,
+          "expectedEnd": 1717.16,
+          "actualStart": 1571.057583,
+          "actualEnd": 1729.15075,
+          "timeDifference": 11.987583000000086
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Humor, Playfulness, and the Lightness of Being",
+          "expectedStart": 1717.16,
+          "expectedEnd": 1856.15,
+          "actualStart": 1730.65075,
+          "actualEnd": 1869.637875,
+          "timeDifference": 13.490749999999935
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Impact of Curiosity and Integrity",
+          "expectedStart": 1856.15,
+          "expectedEnd": 1986.43,
+          "actualStart": 1871.137875,
+          "actualEnd": 2001.4201249999999,
+          "timeDifference": 14.987874999999804
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1986.43,
+          "expectedEnd": 2147.77,
+          "actualStart": 2002.9201249999999,
+          "actualEnd": 2164.2623329999997,
+          "timeDifference": 16.490124999999807
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.779125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Curiosity and the Roots of Independent Thinking"
+        },
+        {
+          "startTime": 330.787125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Curiosity and the Roots of Independent Thinking and Chapter 2 Love, Loss, and the Human Side of a Scientific Life"
+        },
+        {
+          "startTime": 550.973875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Love, Loss, and the Human Side of a Scientific Life and Chapter 3 Everyday Curiosity and the Joy of Discovery"
+        },
+        {
+          "startTime": 776.962875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Everyday Curiosity and the Joy of Discovery and Chapter 4 Integrity, Honesty, and the Courage to Speak Up"
+        },
+        {
+          "startTime": 983.6901250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Integrity, Honesty, and the Courage to Speak Up and Chapter 5 The Value of Questioning Authority and Uncovering Truth"
+        },
+        {
+          "startTime": 1201.511667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Value of Questioning Authority and Uncovering Truth and Chapter 6 The Art of Explaining: Making the Complex Simple"
+        },
+        {
+          "startTime": 1394.3525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Explaining: Making the Complex Simple and Chapter 7 Communication, Misunderstanding, and the Limits of Language"
+        },
+        {
+          "startTime": 1569.557583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Communication, Misunderstanding, and the Limits of Language and Chapter 8 The Challenge of Public Responsibility"
+        },
+        {
+          "startTime": 1729.15075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Challenge of Public Responsibility and Chapter 9 Humor, Playfulness, and the Lightness of Being"
+        },
+        {
+          "startTime": 1869.637875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Humor, Playfulness, and the Lightness of Being and Chapter 10 The Enduring Impact of Curiosity and Integrity"
+        },
+        {
+          "startTime": 2001.4201249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Impact of Curiosity and Integrity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3202",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T02:45:50.739Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

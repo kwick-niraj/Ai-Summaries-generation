@@ -1,0 +1,456 @@
+{
+  "bookId": "3166",
+  "timestamp": "2025-07-14T23:34:41.545Z",
+  "success": false,
+  "processingTime": -1752535661612,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5538,
+    "totalAudioFiles": 12,
+    "totalDuration": 2508.649666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2508.649666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3166/optimized_text/3166.md",
+    "fileSize": 884,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "3166.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3166/metadata/3166_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2508.64,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3166/metadata/3166_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3166/metadata/3166_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3166/3166_complete.wav",
+    "duration": 2508.649667,
+    "fileSize": 120415262,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3166/introduction.wav",
+          "duration": 62.302,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 62.302,
+          "startTime": 0,
+          "endTime": 62.302
+        },
+        {
+          "path": "Audio/output/3166/chapter_01.wav",
+          "duration": 263.878958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a New World — The First Steps of Immigrant Families",
+          "actualDuration": 263.878958,
+          "startTime": 63.802,
+          "endTime": 327.68095800000003
+        },
+        {
+          "path": "Audio/output/3166/chapter_02.wav",
+          "duration": 299.866208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Ties and Community Support — The Backbone of Adaptation",
+          "actualDuration": 299.866208,
+          "startTime": 329.18095800000003,
+          "endTime": 629.0471660000001
+        },
+        {
+          "path": "Audio/output/3166/chapter_03.wav",
+          "duration": 301.0165,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 School as a Crossroads — Opportunity, Challenge, and Identity",
+          "actualDuration": 301.0165,
+          "startTime": 630.5471660000001,
+          "endTime": 931.563666
+        },
+        {
+          "path": "Audio/output/3166/chapter_04.wav",
+          "duration": 247.609417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Barriers and Finding Pathways — The Realities of Social Mobility",
+          "actualDuration": 247.609417,
+          "startTime": 933.063666,
+          "endTime": 1180.6730830000001
+        },
+        {
+          "path": "Audio/output/3166/chapter_05.wav",
+          "duration": 238.16275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Two Worlds — Identity, Belonging, and the Second Generation",
+          "actualDuration": 238.16275,
+          "startTime": 1182.1730830000001,
+          "endTime": 1420.335833
+        },
+        {
+          "path": "Audio/output/3166/chapter_06.wav",
+          "duration": 231.951542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Coming of Age — Dreams, Detours, and the Weight of Expectations",
+          "actualDuration": 231.951542,
+          "startTime": 1421.835833,
+          "endTime": 1653.787375
+        },
+        {
+          "path": "Audio/output/3166/chapter_07.wav",
+          "duration": 199.139708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Intergenerational Tensions — Negotiating Change and Continuity",
+          "actualDuration": 199.139708,
+          "startTime": 1655.287375,
+          "endTime": 1854.427083
+        },
+        {
+          "path": "Audio/output/3166/chapter_08.wav",
+          "duration": 235.744542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long View — Success, Setbacks, and the Meaning of Achievement",
+          "actualDuration": 235.744542,
+          "startTime": 1855.927083,
+          "endTime": 2091.671625
+        },
+        {
+          "path": "Audio/output/3166/chapter_09.wav",
+          "duration": 192.444333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 New Generations, New Questions — Multiculturalism and the Changing American Identity",
+          "actualDuration": 192.444333,
+          "startTime": 2093.171625,
+          "endTime": 2285.615958
+        },
+        {
+          "path": "Audio/output/3166/chapter_10.wav",
+          "duration": 121.23475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward — Lessons, Hopes, and the Ongoing Journey",
+          "actualDuration": 121.23475,
+          "startTime": 2287.115958,
+          "endTime": 2408.350708
+        },
+        {
+          "path": "Audio/output/3166/conclusion.wav",
+          "duration": 115.298958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.298958,
+          "startTime": 2409.850708,
+          "endTime": 2525.149666
+        }
+      ],
+      "totalDuration": 2525.149666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 62.3,
+          "actualStart": 0,
+          "actualEnd": 62.302,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a New World — The First Steps of Immigrant Families",
+          "expectedStart": 62.3,
+          "expectedEnd": 326.18,
+          "actualStart": 63.802,
+          "actualEnd": 327.68095800000003,
+          "timeDifference": 1.5020000000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Ties and Community Support — The Backbone of Adaptation",
+          "expectedStart": 326.18,
+          "expectedEnd": 626.05,
+          "actualStart": 329.18095800000003,
+          "actualEnd": 629.0471660000001,
+          "timeDifference": 3.0009580000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 School as a Crossroads — Opportunity, Challenge, and Identity",
+          "expectedStart": 626.05,
+          "expectedEnd": 927.07,
+          "actualStart": 630.5471660000001,
+          "actualEnd": 931.563666,
+          "timeDifference": 4.497166000000107
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Barriers and Finding Pathways — The Realities of Social Mobility",
+          "expectedStart": 927.07,
+          "expectedEnd": 1174.68,
+          "actualStart": 933.063666,
+          "actualEnd": 1180.6730830000001,
+          "timeDifference": 5.993665999999962
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Two Worlds — Identity, Belonging, and the Second Generation",
+          "expectedStart": 1174.68,
+          "expectedEnd": 1412.84,
+          "actualStart": 1182.1730830000001,
+          "actualEnd": 1420.335833,
+          "timeDifference": 7.49308300000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Coming of Age — Dreams, Detours, and the Weight of Expectations",
+          "expectedStart": 1412.84,
+          "expectedEnd": 1644.79,
+          "actualStart": 1421.835833,
+          "actualEnd": 1653.787375,
+          "timeDifference": 8.995833000000175
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Intergenerational Tensions — Negotiating Change and Continuity",
+          "expectedStart": 1644.79,
+          "expectedEnd": 1843.93,
+          "actualStart": 1655.287375,
+          "actualEnd": 1854.427083,
+          "timeDifference": 10.497375000000147
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long View — Success, Setbacks, and the Meaning of Achievement",
+          "expectedStart": 1843.93,
+          "expectedEnd": 2079.67,
+          "actualStart": 1855.927083,
+          "actualEnd": 2091.671625,
+          "timeDifference": 11.997082999999975
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 New Generations, New Questions — Multiculturalism and the Changing American Identity",
+          "expectedStart": 2079.67,
+          "expectedEnd": 2272.11,
+          "actualStart": 2093.171625,
+          "actualEnd": 2285.615958,
+          "timeDifference": 13.501624999999876
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward — Lessons, Hopes, and the Ongoing Journey",
+          "expectedStart": 2272.11,
+          "expectedEnd": 2393.34,
+          "actualStart": 2287.115958,
+          "actualEnd": 2408.350708,
+          "timeDifference": 15.005957999999737
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2393.34,
+          "expectedEnd": 2508.64,
+          "actualStart": 2409.850708,
+          "actualEnd": 2525.149666,
+          "timeDifference": 16.510707999999795
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 62.302,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a New World — The First Steps of Immigrant Families"
+        },
+        {
+          "startTime": 327.68095800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a New World — The First Steps of Immigrant Families and Chapter 2 Family Ties and Community Support — The Backbone of Adaptation"
+        },
+        {
+          "startTime": 629.0471660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Ties and Community Support — The Backbone of Adaptation and Chapter 3 School as a Crossroads — Opportunity, Challenge, and Identity"
+        },
+        {
+          "startTime": 931.563666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 School as a Crossroads — Opportunity, Challenge, and Identity and Chapter 4 Navigating Barriers and Finding Pathways — The Realities of Social Mobility"
+        },
+        {
+          "startTime": 1180.6730830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Barriers and Finding Pathways — The Realities of Social Mobility and Chapter 5 Balancing Two Worlds — Identity, Belonging, and the Second Generation"
+        },
+        {
+          "startTime": 1420.335833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Two Worlds — Identity, Belonging, and the Second Generation and Chapter 6 Coming of Age — Dreams, Detours, and the Weight of Expectations"
+        },
+        {
+          "startTime": 1653.787375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Coming of Age — Dreams, Detours, and the Weight of Expectations and Chapter 7 Intergenerational Tensions — Negotiating Change and Continuity"
+        },
+        {
+          "startTime": 1854.427083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Intergenerational Tensions — Negotiating Change and Continuity and Chapter 8 The Long View — Success, Setbacks, and the Meaning of Achievement"
+        },
+        {
+          "startTime": 2091.671625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long View — Success, Setbacks, and the Meaning of Achievement and Chapter 9 New Generations, New Questions — Multiculturalism and the Changing American Identity"
+        },
+        {
+          "startTime": 2285.615958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 New Generations, New Questions — Multiculturalism and the Changing American Identity and Chapter 10 Looking Forward — Lessons, Hopes, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2408.350708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward — Lessons, Hopes, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3166",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:27:42.134Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

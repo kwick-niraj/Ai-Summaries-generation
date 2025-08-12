@@ -1,0 +1,456 @@
+{
+  "bookId": "2841",
+  "timestamp": "2025-07-13T23:43:27.848Z",
+  "success": false,
+  "processingTime": -1752449897017,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3997,
+    "totalAudioFiles": 12,
+    "totalDuration": 1925.608292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1925.608292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2841/optimized_text/2841.md",
+    "fileSize": 819,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2841.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2841/metadata/2841_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1925.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2841/metadata/2841_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2841/metadata/2841_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2841/2841_complete.wav",
+    "duration": 1925.608292,
+    "fileSize": 92429276,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2841/introduction.wav",
+          "duration": 94.574667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.574667,
+          "startTime": 0,
+          "endTime": 94.574667
+        },
+        {
+          "path": "Audio/output/2841/chapter_01.wav",
+          "duration": 142.322083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundations of Active Reading: Moving Beyond Passive Absorption",
+          "actualDuration": 142.322083,
+          "startTime": 96.074667,
+          "endTime": 238.39675
+        },
+        {
+          "path": "Audio/output/2841/chapter_02.wav",
+          "duration": 240.137958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Four Levels of Reading: Building a Ladder of Understanding",
+          "actualDuration": 240.137958,
+          "startTime": 239.89675,
+          "endTime": 480.034708
+        },
+        {
+          "path": "Audio/output/2841/chapter_03.wav",
+          "duration": 179.244875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Inspectional Reading in Practice: Efficiently Surveying a Book",
+          "actualDuration": 179.244875,
+          "startTime": 481.534708,
+          "endTime": 660.779583
+        },
+        {
+          "path": "Audio/output/2841/chapter_04.wav",
+          "duration": 203.654042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Analytical Reading: Dissecting Arguments and Understanding Structure",
+          "actualDuration": 203.654042,
+          "startTime": 662.279583,
+          "endTime": 865.933625
+        },
+        {
+          "path": "Audio/output/2841/chapter_05.wav",
+          "duration": 197.464708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Tailoring Reading Approaches to Different Types of Books",
+          "actualDuration": 197.464708,
+          "startTime": 867.433625,
+          "endTime": 1064.898333
+        },
+        {
+          "path": "Audio/output/2841/chapter_06.wav",
+          "duration": 175.35875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Syntopical Reading: Mastering Comparative Understanding",
+          "actualDuration": 175.35875,
+          "startTime": 1066.398333,
+          "endTime": 1241.757083
+        },
+        {
+          "path": "Audio/output/2841/chapter_07.wav",
+          "duration": 138.975042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Asking Questions: Guiding Your Reading Journey",
+          "actualDuration": 138.975042,
+          "startTime": 1243.257083,
+          "endTime": 1382.232125
+        },
+        {
+          "path": "Audio/output/2841/chapter_08.wav",
+          "duration": 141.587083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Becoming a Self-Reliant Reader: Developing Intellectual Independence",
+          "actualDuration": 141.587083,
+          "startTime": 1383.732125,
+          "endTime": 1525.319208
+        },
+        {
+          "path": "Audio/output/2841/chapter_09.wav",
+          "duration": 130.910792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reading and Lifelong Learning: Integrating Books into Daily Life",
+          "actualDuration": 130.910792,
+          "startTime": 1526.819208,
+          "endTime": 1657.7299999999998
+        },
+        {
+          "path": "Audio/output/2841/chapter_10.wav",
+          "duration": 141.3695,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Joy and Responsibility of Reading: Cultivating Wisdom",
+          "actualDuration": 141.3695,
+          "startTime": 1659.2299999999998,
+          "endTime": 1800.5994999999998
+        },
+        {
+          "path": "Audio/output/2841/conclusion.wav",
+          "duration": 140.008792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.008792,
+          "startTime": 1802.0994999999998,
+          "endTime": 1942.108292
+        }
+      ],
+      "totalDuration": 1942.108292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.57,
+          "actualStart": 0,
+          "actualEnd": 94.574667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundations of Active Reading: Moving Beyond Passive Absorption",
+          "expectedStart": 94.57,
+          "expectedEnd": 236.89,
+          "actualStart": 96.074667,
+          "actualEnd": 238.39675,
+          "timeDifference": 1.504667000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Four Levels of Reading: Building a Ladder of Understanding",
+          "expectedStart": 236.89,
+          "expectedEnd": 477.03,
+          "actualStart": 239.89675,
+          "actualEnd": 480.034708,
+          "timeDifference": 3.006750000000011
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Inspectional Reading in Practice: Efficiently Surveying a Book",
+          "expectedStart": 477.03,
+          "expectedEnd": 656.27,
+          "actualStart": 481.534708,
+          "actualEnd": 660.779583,
+          "timeDifference": 4.504708000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Analytical Reading: Dissecting Arguments and Understanding Structure",
+          "expectedStart": 656.27,
+          "expectedEnd": 859.92,
+          "actualStart": 662.279583,
+          "actualEnd": 865.933625,
+          "timeDifference": 6.0095830000000205
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Tailoring Reading Approaches to Different Types of Books",
+          "expectedStart": 859.92,
+          "expectedEnd": 1057.38,
+          "actualStart": 867.433625,
+          "actualEnd": 1064.898333,
+          "timeDifference": 7.513625000000047
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Syntopical Reading: Mastering Comparative Understanding",
+          "expectedStart": 1057.38,
+          "expectedEnd": 1232.74,
+          "actualStart": 1066.398333,
+          "actualEnd": 1241.757083,
+          "timeDifference": 9.018332999999984
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Asking Questions: Guiding Your Reading Journey",
+          "expectedStart": 1232.74,
+          "expectedEnd": 1371.72,
+          "actualStart": 1243.257083,
+          "actualEnd": 1382.232125,
+          "timeDifference": 10.517082999999957
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Becoming a Self-Reliant Reader: Developing Intellectual Independence",
+          "expectedStart": 1371.72,
+          "expectedEnd": 1513.31,
+          "actualStart": 1383.732125,
+          "actualEnd": 1525.319208,
+          "timeDifference": 12.012124999999969
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reading and Lifelong Learning: Integrating Books into Daily Life",
+          "expectedStart": 1513.31,
+          "expectedEnd": 1644.22,
+          "actualStart": 1526.819208,
+          "actualEnd": 1657.7299999999998,
+          "timeDifference": 13.509207999999944
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Joy and Responsibility of Reading: Cultivating Wisdom",
+          "expectedStart": 1644.22,
+          "expectedEnd": 1785.59,
+          "actualStart": 1659.2299999999998,
+          "actualEnd": 1800.5994999999998,
+          "timeDifference": 15.009999999999764
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1785.59,
+          "expectedEnd": 1925.6,
+          "actualStart": 1802.0994999999998,
+          "actualEnd": 1942.108292,
+          "timeDifference": 16.50949999999989
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.574667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundations of Active Reading: Moving Beyond Passive Absorption"
+        },
+        {
+          "startTime": 238.39675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundations of Active Reading: Moving Beyond Passive Absorption and Chapter 2 The Four Levels of Reading: Building a Ladder of Understanding"
+        },
+        {
+          "startTime": 480.034708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Four Levels of Reading: Building a Ladder of Understanding and Chapter 3 Inspectional Reading in Practice: Efficiently Surveying a Book"
+        },
+        {
+          "startTime": 660.779583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Inspectional Reading in Practice: Efficiently Surveying a Book and Chapter 4 Analytical Reading: Dissecting Arguments and Understanding Structure"
+        },
+        {
+          "startTime": 865.933625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Analytical Reading: Dissecting Arguments and Understanding Structure and Chapter 5 Tailoring Reading Approaches to Different Types of Books"
+        },
+        {
+          "startTime": 1064.898333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Tailoring Reading Approaches to Different Types of Books and Chapter 6 Syntopical Reading: Mastering Comparative Understanding"
+        },
+        {
+          "startTime": 1241.757083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Syntopical Reading: Mastering Comparative Understanding and Chapter 7 The Art of Asking Questions: Guiding Your Reading Journey"
+        },
+        {
+          "startTime": 1382.232125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Asking Questions: Guiding Your Reading Journey and Chapter 8 Becoming a Self-Reliant Reader: Developing Intellectual Independence"
+        },
+        {
+          "startTime": 1525.319208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Becoming a Self-Reliant Reader: Developing Intellectual Independence and Chapter 9 Reading and Lifelong Learning: Integrating Books into Daily Life"
+        },
+        {
+          "startTime": 1657.7299999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reading and Lifelong Learning: Integrating Books into Daily Life and Chapter 10 The Joy and Responsibility of Reading: Cultivating Wisdom"
+        },
+        {
+          "startTime": 1800.5994999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Joy and Responsibility of Reading: Cultivating Wisdom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2841",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T23:38:17.496Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

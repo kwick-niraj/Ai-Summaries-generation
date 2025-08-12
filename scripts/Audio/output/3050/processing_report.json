@@ -1,0 +1,456 @@
+{
+  "bookId": "3050",
+  "timestamp": "2025-07-14T14:29:01.660Z",
+  "success": false,
+  "processingTime": -1752502935289,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4071,
+    "totalAudioFiles": 12,
+    "totalDuration": 1946.615709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1946.615709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3050/optimized_text/3050.md",
+    "fileSize": 720,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "3050.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3050/metadata/3050_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1946.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3050/metadata/3050_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3050/metadata/3050_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3050/3050_complete.wav",
+    "duration": 1946.615708,
+    "fileSize": 93437632,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3050/introduction.wav",
+          "duration": 100.702458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.702458,
+          "startTime": 0,
+          "endTime": 100.702458
+        },
+        {
+          "path": "Audio/output/3050/chapter_01.wav",
+          "duration": 216.131708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a War That Defies Explanation",
+          "actualDuration": 216.131708,
+          "startTime": 102.202458,
+          "endTime": 318.334166
+        },
+        {
+          "path": "Audio/output/3050/chapter_02.wav",
+          "duration": 188.32725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Living with Soldiers: Camaraderie, Fear, and the Search for Meaning",
+          "actualDuration": 188.32725,
+          "startTime": 319.834166,
+          "endTime": 508.161416
+        },
+        {
+          "path": "Audio/output/3050/chapter_03.wav",
+          "duration": 199.9605,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Surreal and Fragmented Nature of Combat",
+          "actualDuration": 199.9605,
+          "startTime": 509.661416,
+          "endTime": 709.6219159999999
+        },
+        {
+          "path": "Audio/output/3050/chapter_04.wav",
+          "duration": 219.311542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Psychological Toll: Witnessing and Being Changed",
+          "actualDuration": 219.311542,
+          "startTime": 711.1219159999999,
+          "endTime": 930.433458
+        },
+        {
+          "path": "Audio/output/3050/chapter_05.wav",
+          "duration": 195.640625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Distance Between Official Narratives and Lived Experience",
+          "actualDuration": 195.640625,
+          "startTime": 931.933458,
+          "endTime": 1127.574083
+        },
+        {
+          "path": "Audio/output/3050/chapter_06.wav",
+          "duration": 169.752125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War’s Aftermath: Carrying the Invisible Wounds",
+          "actualDuration": 169.752125,
+          "startTime": 1129.074083,
+          "endTime": 1298.826208
+        },
+        {
+          "path": "Audio/output/3050/chapter_07.wav",
+          "duration": 151.431417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Blurred Line: Observer, Participant, and the Ethics of Witnessing",
+          "actualDuration": 151.431417,
+          "startTime": 1300.326208,
+          "endTime": 1451.757625
+        },
+        {
+          "path": "Audio/output/3050/chapter_08.wav",
+          "duration": 143.928542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Myth, and the Stories We Tell",
+          "actualDuration": 143.928542,
+          "startTime": 1453.257625,
+          "endTime": 1597.1861669999998
+        },
+        {
+          "path": "Audio/output/3050/chapter_09.wav",
+          "duration": 114.169333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Humanity: What the War Reveals",
+          "actualDuration": 114.169333,
+          "startTime": 1598.6861669999998,
+          "endTime": 1712.8555
+        },
+        {
+          "path": "Audio/output/3050/chapter_10.wav",
+          "duration": 125.410417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Impact: Vietnam’s Shadow on the Present",
+          "actualDuration": 125.410417,
+          "startTime": 1714.3555,
+          "endTime": 1839.765917
+        },
+        {
+          "path": "Audio/output/3050/conclusion.wav",
+          "duration": 121.849792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.849792,
+          "startTime": 1841.265917,
+          "endTime": 1963.115709
+        }
+      ],
+      "totalDuration": 1963.115709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.7,
+          "actualStart": 0,
+          "actualEnd": 100.702458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a War That Defies Explanation",
+          "expectedStart": 100.7,
+          "expectedEnd": 316.83,
+          "actualStart": 102.202458,
+          "actualEnd": 318.334166,
+          "timeDifference": 1.50245799999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Living with Soldiers: Camaraderie, Fear, and the Search for Meaning",
+          "expectedStart": 316.83,
+          "expectedEnd": 505.16,
+          "actualStart": 319.834166,
+          "actualEnd": 508.161416,
+          "timeDifference": 3.004165999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Surreal and Fragmented Nature of Combat",
+          "expectedStart": 505.16,
+          "expectedEnd": 705.12,
+          "actualStart": 509.661416,
+          "actualEnd": 709.6219159999999,
+          "timeDifference": 4.501415999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Psychological Toll: Witnessing and Being Changed",
+          "expectedStart": 705.12,
+          "expectedEnd": 924.43,
+          "actualStart": 711.1219159999999,
+          "actualEnd": 930.433458,
+          "timeDifference": 6.001915999999937
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Distance Between Official Narratives and Lived Experience",
+          "expectedStart": 924.43,
+          "expectedEnd": 1120.07,
+          "actualStart": 931.933458,
+          "actualEnd": 1127.574083,
+          "timeDifference": 7.503458000000023
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War’s Aftermath: Carrying the Invisible Wounds",
+          "expectedStart": 1120.07,
+          "expectedEnd": 1289.82,
+          "actualStart": 1129.074083,
+          "actualEnd": 1298.826208,
+          "timeDifference": 9.004083000000037
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Blurred Line: Observer, Participant, and the Ethics of Witnessing",
+          "expectedStart": 1289.82,
+          "expectedEnd": 1441.25,
+          "actualStart": 1300.326208,
+          "actualEnd": 1451.757625,
+          "timeDifference": 10.506208000000015
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Myth, and the Stories We Tell",
+          "expectedStart": 1441.25,
+          "expectedEnd": 1585.18,
+          "actualStart": 1453.257625,
+          "actualEnd": 1597.1861669999998,
+          "timeDifference": 12.007624999999962
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Humanity: What the War Reveals",
+          "expectedStart": 1585.18,
+          "expectedEnd": 1699.35,
+          "actualStart": 1598.6861669999998,
+          "actualEnd": 1712.8555,
+          "timeDifference": 13.506166999999778
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Impact: Vietnam’s Shadow on the Present",
+          "expectedStart": 1699.35,
+          "expectedEnd": 1824.76,
+          "actualStart": 1714.3555,
+          "actualEnd": 1839.765917,
+          "timeDifference": 15.005499999999984
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1824.76,
+          "expectedEnd": 1946.61,
+          "actualStart": 1841.265917,
+          "actualEnd": 1963.115709,
+          "timeDifference": 16.505916999999954
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.702458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a War That Defies Explanation"
+        },
+        {
+          "startTime": 318.334166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a War That Defies Explanation and Chapter 2 Living with Soldiers: Camaraderie, Fear, and the Search for Meaning"
+        },
+        {
+          "startTime": 508.161416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Living with Soldiers: Camaraderie, Fear, and the Search for Meaning and Chapter 3 The Surreal and Fragmented Nature of Combat"
+        },
+        {
+          "startTime": 709.6219159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Surreal and Fragmented Nature of Combat and Chapter 4 The Psychological Toll: Witnessing and Being Changed"
+        },
+        {
+          "startTime": 930.433458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Psychological Toll: Witnessing and Being Changed and Chapter 5 The Distance Between Official Narratives and Lived Experience"
+        },
+        {
+          "startTime": 1127.574083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Distance Between Official Narratives and Lived Experience and Chapter 6 The War’s Aftermath: Carrying the Invisible Wounds"
+        },
+        {
+          "startTime": 1298.826208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War’s Aftermath: Carrying the Invisible Wounds and Chapter 7 The Blurred Line: Observer, Participant, and the Ethics of Witnessing"
+        },
+        {
+          "startTime": 1451.757625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Blurred Line: Observer, Participant, and the Ethics of Witnessing and Chapter 8 Memory, Myth, and the Stories We Tell"
+        },
+        {
+          "startTime": 1597.1861669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Myth, and the Stories We Tell and Chapter 9 Lessons in Humanity: What the War Reveals"
+        },
+        {
+          "startTime": 1712.8555,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Humanity: What the War Reveals and Chapter 10 The Enduring Impact: Vietnam’s Shadow on the Present"
+        },
+        {
+          "startTime": 1839.765917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Impact: Vietnam’s Shadow on the Present and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3050",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T14:22:16.798Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

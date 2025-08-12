@@ -1,0 +1,456 @@
+{
+  "bookId": "3215",
+  "timestamp": "2025-07-15T03:34:20.157Z",
+  "success": false,
+  "processingTime": -1752550172602,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3881,
+    "totalAudioFiles": 12,
+    "totalDuration": 2078.2251249999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2078.2251249999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3215/optimized_text/3215.md",
+    "fileSize": 820,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3215.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3215/metadata/3215_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2078.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3215/metadata/3215_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3215/metadata/3215_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3215/3215_complete.wav",
+    "duration": 2078.225125,
+    "fileSize": 99754884,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3215/introduction.wav",
+          "duration": 98.098625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.098625,
+          "startTime": 0,
+          "endTime": 98.098625
+        },
+        {
+          "path": "Audio/output/3215/chapter_01.wav",
+          "duration": 202.819083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Heart of a Great Talk—Finding and Shaping an Idea Worth Sharing",
+          "actualDuration": 202.819083,
+          "startTime": 99.598625,
+          "endTime": 302.417708
+        },
+        {
+          "path": "Audio/output/3215/chapter_02.wav",
+          "duration": 268.6995,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building the Foundation—Structuring a Talk for Clarity and Impact",
+          "actualDuration": 268.6995,
+          "startTime": 303.917708,
+          "endTime": 572.617208
+        },
+        {
+          "path": "Audio/output/3215/chapter_03.wav",
+          "duration": 213.775542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Connecting Authentically—The Power of Presence and Vulnerability",
+          "actualDuration": 213.775542,
+          "startTime": 574.117208,
+          "endTime": 787.89275
+        },
+        {
+          "path": "Audio/output/3215/chapter_04.wav",
+          "duration": 233.995917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Stage Fright—Transforming Anxiety into Energy",
+          "actualDuration": 233.995917,
+          "startTime": 789.39275,
+          "endTime": 1023.3886669999999
+        },
+        {
+          "path": "Audio/output/3215/chapter_05.wav",
+          "duration": 179.911208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Crafting Visuals and Using Technology to Support the Message",
+          "actualDuration": 179.911208,
+          "startTime": 1024.888667,
+          "endTime": 1204.799875
+        },
+        {
+          "path": "Audio/output/3215/chapter_06.wav",
+          "duration": 168.266125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Storytelling—Weaving Narratives for Lasting Impact",
+          "actualDuration": 168.266125,
+          "startTime": 1206.299875,
+          "endTime": 1374.5659999999998
+        },
+        {
+          "path": "Audio/output/3215/chapter_07.wav",
+          "duration": 159.177583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mastering Language—Clarity, Rhythm, and the Power of Words",
+          "actualDuration": 159.177583,
+          "startTime": 1376.0659999999998,
+          "endTime": 1535.2435829999997
+        },
+        {
+          "path": "Audio/output/3215/chapter_08.wav",
+          "duration": 165.963792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Handling Q&A and Unscripted Moments—Staying Grounded Under Pressure",
+          "actualDuration": 165.963792,
+          "startTime": 1536.7435829999997,
+          "endTime": 1702.7073749999997
+        },
+        {
+          "path": "Audio/output/3215/chapter_09.wav",
+          "duration": 152.068208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Honing Delivery—Voice, Body Language, and Stage Presence",
+          "actualDuration": 152.068208,
+          "startTime": 1704.2073749999997,
+          "endTime": 1856.2755829999996
+        },
+        {
+          "path": "Audio/output/3215/chapter_10.wav",
+          "duration": 114.3115,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Inspiring Action—Leaving a Lasting Impression",
+          "actualDuration": 114.3115,
+          "startTime": 1857.7755829999996,
+          "endTime": 1972.0870829999997
+        },
+        {
+          "path": "Audio/output/3215/conclusion.wav",
+          "duration": 121.138042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.138042,
+          "startTime": 1973.5870829999997,
+          "endTime": 2094.7251249999995
+        }
+      ],
+      "totalDuration": 2094.7251249999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.1,
+          "actualStart": 0,
+          "actualEnd": 98.098625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Heart of a Great Talk—Finding and Shaping an Idea Worth Sharing",
+          "expectedStart": 98.1,
+          "expectedEnd": 300.92,
+          "actualStart": 99.598625,
+          "actualEnd": 302.417708,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building the Foundation—Structuring a Talk for Clarity and Impact",
+          "expectedStart": 300.92,
+          "expectedEnd": 569.62,
+          "actualStart": 303.917708,
+          "actualEnd": 572.617208,
+          "timeDifference": 2.9977079999999887
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Connecting Authentically—The Power of Presence and Vulnerability",
+          "expectedStart": 569.62,
+          "expectedEnd": 783.4,
+          "actualStart": 574.117208,
+          "actualEnd": 787.89275,
+          "timeDifference": 4.4972080000000005
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Stage Fright—Transforming Anxiety into Energy",
+          "expectedStart": 783.4,
+          "expectedEnd": 1017.4,
+          "actualStart": 789.39275,
+          "actualEnd": 1023.3886669999999,
+          "timeDifference": 5.992750000000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Crafting Visuals and Using Technology to Support the Message",
+          "expectedStart": 1017.4,
+          "expectedEnd": 1197.31,
+          "actualStart": 1024.888667,
+          "actualEnd": 1204.799875,
+          "timeDifference": 7.488666999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Storytelling—Weaving Narratives for Lasting Impact",
+          "expectedStart": 1197.31,
+          "expectedEnd": 1365.58,
+          "actualStart": 1206.299875,
+          "actualEnd": 1374.5659999999998,
+          "timeDifference": 8.989874999999984
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mastering Language—Clarity, Rhythm, and the Power of Words",
+          "expectedStart": 1365.58,
+          "expectedEnd": 1524.76,
+          "actualStart": 1376.0659999999998,
+          "actualEnd": 1535.2435829999997,
+          "timeDifference": 10.485999999999876
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Handling Q&A and Unscripted Moments—Staying Grounded Under Pressure",
+          "expectedStart": 1524.76,
+          "expectedEnd": 1690.72,
+          "actualStart": 1536.7435829999997,
+          "actualEnd": 1702.7073749999997,
+          "timeDifference": 11.983582999999726
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Honing Delivery—Voice, Body Language, and Stage Presence",
+          "expectedStart": 1690.72,
+          "expectedEnd": 1842.79,
+          "actualStart": 1704.2073749999997,
+          "actualEnd": 1856.2755829999996,
+          "timeDifference": 13.487374999999702
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Inspiring Action—Leaving a Lasting Impression",
+          "expectedStart": 1842.79,
+          "expectedEnd": 1957.1,
+          "actualStart": 1857.7755829999996,
+          "actualEnd": 1972.0870829999997,
+          "timeDifference": 14.985582999999679
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1957.1,
+          "expectedEnd": 2078.24,
+          "actualStart": 1973.5870829999997,
+          "actualEnd": 2094.7251249999995,
+          "timeDifference": 16.487082999999757
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.098625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Heart of a Great Talk—Finding and Shaping an Idea Worth Sharing"
+        },
+        {
+          "startTime": 302.417708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Heart of a Great Talk—Finding and Shaping an Idea Worth Sharing and Chapter 2 Building the Foundation—Structuring a Talk for Clarity and Impact"
+        },
+        {
+          "startTime": 572.617208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building the Foundation—Structuring a Talk for Clarity and Impact and Chapter 3 Connecting Authentically—The Power of Presence and Vulnerability"
+        },
+        {
+          "startTime": 787.89275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Connecting Authentically—The Power of Presence and Vulnerability and Chapter 4 Overcoming Stage Fright—Transforming Anxiety into Energy"
+        },
+        {
+          "startTime": 1023.3886669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Stage Fright—Transforming Anxiety into Energy and Chapter 5 Crafting Visuals and Using Technology to Support the Message"
+        },
+        {
+          "startTime": 1204.799875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Crafting Visuals and Using Technology to Support the Message and Chapter 6 The Art of Storytelling—Weaving Narratives for Lasting Impact"
+        },
+        {
+          "startTime": 1374.5659999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Storytelling—Weaving Narratives for Lasting Impact and Chapter 7 Mastering Language—Clarity, Rhythm, and the Power of Words"
+        },
+        {
+          "startTime": 1535.2435829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mastering Language—Clarity, Rhythm, and the Power of Words and Chapter 8 Handling Q&A and Unscripted Moments—Staying Grounded Under Pressure"
+        },
+        {
+          "startTime": 1702.7073749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Handling Q&A and Unscripted Moments—Staying Grounded Under Pressure and Chapter 9 Honing Delivery—Voice, Body Language, and Stage Presence"
+        },
+        {
+          "startTime": 1856.2755829999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Honing Delivery—Voice, Body Language, and Stage Presence and Chapter 10 Inspiring Action—Leaving a Lasting Impression"
+        },
+        {
+          "startTime": 1972.0870829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Inspiring Action—Leaving a Lasting Impression and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3215",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:29:33.124Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

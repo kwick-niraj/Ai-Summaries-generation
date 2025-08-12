@@ -1,0 +1,456 @@
+{
+  "bookId": "2911",
+  "timestamp": "2025-07-14T03:55:39.986Z",
+  "success": false,
+  "processingTime": -1752465098443,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4462,
+    "totalAudioFiles": 12,
+    "totalDuration": 2006.9035000000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2006.9035000000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2911/optimized_text/2911.md",
+    "fileSize": 778,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2911.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2911/metadata/2911_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2006.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2911/metadata/2911_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2911/metadata/2911_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2911/2911_complete.wav",
+    "duration": 2006.9035,
+    "fileSize": 96331446,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2911/introduction.wav",
+          "duration": 100.260833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.260833,
+          "startTime": 0,
+          "endTime": 100.260833
+        },
+        {
+          "path": "Audio/output/2911/chapter_01.wav",
+          "duration": 220.999875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Laws Exist: The Search for Safety and Fairness",
+          "actualDuration": 220.999875,
+          "startTime": 101.760833,
+          "endTime": 322.760708
+        },
+        {
+          "path": "Audio/output/2911/chapter_02.wav",
+          "duration": 206.926833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Justice: Rights Before Rules",
+          "actualDuration": 206.926833,
+          "startTime": 324.260708,
+          "endTime": 531.187541
+        },
+        {
+          "path": "Audio/output/2911/chapter_03.wav",
+          "duration": 188.414875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 When Law Turns Against the People: The Problem of Legal Plunder",
+          "actualDuration": 188.414875,
+          "startTime": 532.687541,
+          "endTime": 721.102416
+        },
+        {
+          "path": "Audio/output/2911/chapter_04.wav",
+          "duration": 198.397917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Temptation of Power: How Good Intentions Lead to Control",
+          "actualDuration": 198.397917,
+          "startTime": 722.602416,
+          "endTime": 921.000333
+        },
+        {
+          "path": "Audio/output/2911/chapter_05.wav",
+          "duration": 189.045875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dangers of Social Engineering: When Government Tries to Shape Society",
+          "actualDuration": 189.045875,
+          "startTime": 922.500333,
+          "endTime": 1111.546208
+        },
+        {
+          "path": "Audio/output/2911/chapter_06.wav",
+          "duration": 164.693792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Cost of Overreaching Law: When Protection Becomes Oppression",
+          "actualDuration": 164.693792,
+          "startTime": 1113.046208,
+          "endTime": 1277.74
+        },
+        {
+          "path": "Audio/output/2911/chapter_07.wav",
+          "duration": 163.194083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Limited Government: Finding the Right Balance",
+          "actualDuration": 163.194083,
+          "startTime": 1279.24,
+          "endTime": 1442.434083
+        },
+        {
+          "path": "Audio/output/2911/chapter_08.wav",
+          "duration": 154.518375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Value of Liberty: Why Freedom Matters",
+          "actualDuration": 154.518375,
+          "startTime": 1443.934083,
+          "endTime": 1598.4524580000002
+        },
+        {
+          "path": "Audio/output/2911/chapter_09.wav",
+          "duration": 143.007958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Responsibility and Self-Government: The Other Side of Freedom",
+          "actualDuration": 143.007958,
+          "startTime": 1599.9524580000002,
+          "endTime": 1742.9604160000001
+        },
+        {
+          "path": "Audio/output/2911/chapter_10.wav",
+          "duration": 145.774292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Restoring the Law’s True Purpose: A Path Forward",
+          "actualDuration": 145.774292,
+          "startTime": 1744.4604160000001,
+          "endTime": 1890.2347080000002
+        },
+        {
+          "path": "Audio/output/2911/conclusion.wav",
+          "duration": 131.668792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.668792,
+          "startTime": 1891.7347080000002,
+          "endTime": 2023.4035000000001
+        }
+      ],
+      "totalDuration": 2023.4035000000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.26,
+          "actualStart": 0,
+          "actualEnd": 100.260833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Laws Exist: The Search for Safety and Fairness",
+          "expectedStart": 100.26,
+          "expectedEnd": 321.26,
+          "actualStart": 101.760833,
+          "actualEnd": 322.760708,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Justice: Rights Before Rules",
+          "expectedStart": 321.26,
+          "expectedEnd": 528.19,
+          "actualStart": 324.260708,
+          "actualEnd": 531.187541,
+          "timeDifference": 3.0007080000000315
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 When Law Turns Against the People: The Problem of Legal Plunder",
+          "expectedStart": 528.19,
+          "expectedEnd": 716.6,
+          "actualStart": 532.687541,
+          "actualEnd": 721.102416,
+          "timeDifference": 4.497540999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Temptation of Power: How Good Intentions Lead to Control",
+          "expectedStart": 716.6,
+          "expectedEnd": 915,
+          "actualStart": 722.602416,
+          "actualEnd": 921.000333,
+          "timeDifference": 6.002415999999926
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dangers of Social Engineering: When Government Tries to Shape Society",
+          "expectedStart": 915,
+          "expectedEnd": 1104.05,
+          "actualStart": 922.500333,
+          "actualEnd": 1111.546208,
+          "timeDifference": 7.500332999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Cost of Overreaching Law: When Protection Becomes Oppression",
+          "expectedStart": 1104.05,
+          "expectedEnd": 1268.74,
+          "actualStart": 1113.046208,
+          "actualEnd": 1277.74,
+          "timeDifference": 8.996208000000024
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Limited Government: Finding the Right Balance",
+          "expectedStart": 1268.74,
+          "expectedEnd": 1431.93,
+          "actualStart": 1279.24,
+          "actualEnd": 1442.434083,
+          "timeDifference": 10.5
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Value of Liberty: Why Freedom Matters",
+          "expectedStart": 1431.93,
+          "expectedEnd": 1586.45,
+          "actualStart": 1443.934083,
+          "actualEnd": 1598.4524580000002,
+          "timeDifference": 12.004083000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Responsibility and Self-Government: The Other Side of Freedom",
+          "expectedStart": 1586.45,
+          "expectedEnd": 1729.46,
+          "actualStart": 1599.9524580000002,
+          "actualEnd": 1742.9604160000001,
+          "timeDifference": 13.50245800000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Restoring the Law’s True Purpose: A Path Forward",
+          "expectedStart": 1729.46,
+          "expectedEnd": 1875.23,
+          "actualStart": 1744.4604160000001,
+          "actualEnd": 1890.2347080000002,
+          "timeDifference": 15.000416000000087
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1875.23,
+          "expectedEnd": 2006.9,
+          "actualStart": 1891.7347080000002,
+          "actualEnd": 2023.4035000000001,
+          "timeDifference": 16.504708000000164
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.260833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Laws Exist: The Search for Safety and Fairness"
+        },
+        {
+          "startTime": 322.760708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Laws Exist: The Search for Safety and Fairness and Chapter 2 The Roots of Justice: Rights Before Rules"
+        },
+        {
+          "startTime": 531.187541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Justice: Rights Before Rules and Chapter 3 When Law Turns Against the People: The Problem of Legal Plunder"
+        },
+        {
+          "startTime": 721.102416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 When Law Turns Against the People: The Problem of Legal Plunder and Chapter 4 The Temptation of Power: How Good Intentions Lead to Control"
+        },
+        {
+          "startTime": 921.000333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Temptation of Power: How Good Intentions Lead to Control and Chapter 5 The Dangers of Social Engineering: When Government Tries to Shape Society"
+        },
+        {
+          "startTime": 1111.546208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dangers of Social Engineering: When Government Tries to Shape Society and Chapter 6 The Cost of Overreaching Law: When Protection Becomes Oppression"
+        },
+        {
+          "startTime": 1277.74,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Cost of Overreaching Law: When Protection Becomes Oppression and Chapter 7 The Importance of Limited Government: Finding the Right Balance"
+        },
+        {
+          "startTime": 1442.434083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Limited Government: Finding the Right Balance and Chapter 8 The Enduring Value of Liberty: Why Freedom Matters"
+        },
+        {
+          "startTime": 1598.4524580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Value of Liberty: Why Freedom Matters and Chapter 9 Responsibility and Self-Government: The Other Side of Freedom"
+        },
+        {
+          "startTime": 1742.9604160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Responsibility and Self-Government: The Other Side of Freedom and Chapter 10 Restoring the Law’s True Purpose: A Path Forward"
+        },
+        {
+          "startTime": 1890.2347080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Restoring the Law’s True Purpose: A Path Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2911",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:51:39.621Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

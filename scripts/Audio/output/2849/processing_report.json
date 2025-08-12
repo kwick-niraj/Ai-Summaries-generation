@@ -1,0 +1,456 @@
+{
+  "bookId": "2849",
+  "timestamp": "2025-07-14T00:16:37.104Z",
+  "success": false,
+  "processingTime": -1752451846312,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4602,
+    "totalAudioFiles": 12,
+    "totalDuration": 2270.8733740000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2270.8733740000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2849/optimized_text/2849.md",
+    "fileSize": 655,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2849.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2849/metadata/2849_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2270.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2849/metadata/2849_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2849/metadata/2849_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2849/2849_complete.wav",
+    "duration": 2270.873375,
+    "fileSize": 109002000,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2849/introduction.wav",
+          "duration": 104.125292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.125292,
+          "startTime": 0,
+          "endTime": 104.125292
+        },
+        {
+          "path": "Audio/output/2849/chapter_01.wav",
+          "duration": 242.991792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Possibility and Wonder",
+          "actualDuration": 242.991792,
+          "startTime": 105.625292,
+          "endTime": 348.617084
+        },
+        {
+          "path": "Audio/output/2849/chapter_02.wav",
+          "duration": 282.071833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Life, Eccentricities, and the Comforts of Home",
+          "actualDuration": 282.071833,
+          "startTime": 350.117084,
+          "endTime": 632.188917
+        },
+        {
+          "path": "Audio/output/2849/chapter_03.wav",
+          "duration": 235.671583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 School Days, Mischief, and the Power of Imagination",
+          "actualDuration": 235.671583,
+          "startTime": 633.688917,
+          "endTime": 869.3605
+        },
+        {
+          "path": "Audio/output/2849/chapter_04.wav",
+          "duration": 265.417083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Joys and Oddities of American Culture in the 1950s",
+          "actualDuration": 265.417083,
+          "startTime": 870.8605,
+          "endTime": 1136.277583
+        },
+        {
+          "path": "Audio/output/2849/chapter_05.wav",
+          "duration": 184.90025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Friendship, Freedom, and the Unwritten Rules of Childhood",
+          "actualDuration": 184.90025,
+          "startTime": 1137.777583,
+          "endTime": 1322.677833
+        },
+        {
+          "path": "Audio/output/2849/chapter_06.wav",
+          "duration": 198.072708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Onset of Adolescence and the Shifting Landscape",
+          "actualDuration": 198.072708,
+          "startTime": 1324.177833,
+          "endTime": 1522.2505409999999
+        },
+        {
+          "path": "Audio/output/2849/chapter_07.wav",
+          "duration": 198.869083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Winds of Change—America in Transition",
+          "actualDuration": 198.869083,
+          "startTime": 1523.7505409999999,
+          "endTime": 1722.619624
+        },
+        {
+          "path": "Audio/output/2849/chapter_08.wav",
+          "duration": 157.034208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Bittersweet Nature of Nostalgia",
+          "actualDuration": 157.034208,
+          "startTime": 1724.119624,
+          "endTime": 1881.153832
+        },
+        {
+          "path": "Audio/output/2849/chapter_09.wav",
+          "duration": 135.454167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Power of Imagination",
+          "actualDuration": 135.454167,
+          "startTime": 1882.653832,
+          "endTime": 2018.107999
+        },
+        {
+          "path": "Audio/output/2849/chapter_10.wav",
+          "duration": 135.582375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Back, Moving Forward",
+          "actualDuration": 135.582375,
+          "startTime": 2019.607999,
+          "endTime": 2155.1903740000002
+        },
+        {
+          "path": "Audio/output/2849/conclusion.wav",
+          "duration": 130.683,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.683,
+          "startTime": 2156.6903740000002,
+          "endTime": 2287.3733740000002
+        }
+      ],
+      "totalDuration": 2287.3733740000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.13,
+          "actualStart": 0,
+          "actualEnd": 104.125292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Possibility and Wonder",
+          "expectedStart": 104.13,
+          "expectedEnd": 347.12,
+          "actualStart": 105.625292,
+          "actualEnd": 348.617084,
+          "timeDifference": 1.4952920000000063
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Life, Eccentricities, and the Comforts of Home",
+          "expectedStart": 347.12,
+          "expectedEnd": 629.19,
+          "actualStart": 350.117084,
+          "actualEnd": 632.188917,
+          "timeDifference": 2.9970839999999725
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 School Days, Mischief, and the Power of Imagination",
+          "expectedStart": 629.19,
+          "expectedEnd": 864.86,
+          "actualStart": 633.688917,
+          "actualEnd": 869.3605,
+          "timeDifference": 4.498916999999892
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Joys and Oddities of American Culture in the 1950s",
+          "expectedStart": 864.86,
+          "expectedEnd": 1130.28,
+          "actualStart": 870.8605,
+          "actualEnd": 1136.277583,
+          "timeDifference": 6.000499999999988
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Friendship, Freedom, and the Unwritten Rules of Childhood",
+          "expectedStart": 1130.28,
+          "expectedEnd": 1315.18,
+          "actualStart": 1137.777583,
+          "actualEnd": 1322.677833,
+          "timeDifference": 7.497583000000077
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Onset of Adolescence and the Shifting Landscape",
+          "expectedStart": 1315.18,
+          "expectedEnd": 1513.25,
+          "actualStart": 1324.177833,
+          "actualEnd": 1522.2505409999999,
+          "timeDifference": 8.9978329999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Winds of Change—America in Transition",
+          "expectedStart": 1513.25,
+          "expectedEnd": 1712.12,
+          "actualStart": 1523.7505409999999,
+          "actualEnd": 1722.619624,
+          "timeDifference": 10.500540999999885
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Bittersweet Nature of Nostalgia",
+          "expectedStart": 1712.12,
+          "expectedEnd": 1869.15,
+          "actualStart": 1724.119624,
+          "actualEnd": 1881.153832,
+          "timeDifference": 11.99962400000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Power of Imagination",
+          "expectedStart": 1869.15,
+          "expectedEnd": 2004.6,
+          "actualStart": 1882.653832,
+          "actualEnd": 2018.107999,
+          "timeDifference": 13.503831999999875
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Back, Moving Forward",
+          "expectedStart": 2004.6,
+          "expectedEnd": 2140.18,
+          "actualStart": 2019.607999,
+          "actualEnd": 2155.1903740000002,
+          "timeDifference": 15.007999000000154
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2140.18,
+          "expectedEnd": 2270.86,
+          "actualStart": 2156.6903740000002,
+          "actualEnd": 2287.3733740000002,
+          "timeDifference": 16.51037400000041
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.125292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Possibility and Wonder"
+        },
+        {
+          "startTime": 348.617084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Possibility and Wonder and Chapter 2 Family Life, Eccentricities, and the Comforts of Home"
+        },
+        {
+          "startTime": 632.188917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Life, Eccentricities, and the Comforts of Home and Chapter 3 School Days, Mischief, and the Power of Imagination"
+        },
+        {
+          "startTime": 869.3605,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 School Days, Mischief, and the Power of Imagination and Chapter 4 The Joys and Oddities of American Culture in the 1950s"
+        },
+        {
+          "startTime": 1136.277583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Joys and Oddities of American Culture in the 1950s and Chapter 5 Friendship, Freedom, and the Unwritten Rules of Childhood"
+        },
+        {
+          "startTime": 1322.677833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Friendship, Freedom, and the Unwritten Rules of Childhood and Chapter 6 The Onset of Adolescence and the Shifting Landscape"
+        },
+        {
+          "startTime": 1522.2505409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Onset of Adolescence and the Shifting Landscape and Chapter 7 The Winds of Change—America in Transition"
+        },
+        {
+          "startTime": 1722.619624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Winds of Change—America in Transition and Chapter 8 The Bittersweet Nature of Nostalgia"
+        },
+        {
+          "startTime": 1881.153832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Bittersweet Nature of Nostalgia and Chapter 9 The Enduring Power of Imagination"
+        },
+        {
+          "startTime": 2018.107999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Power of Imagination and Chapter 10 Looking Back, Moving Forward"
+        },
+        {
+          "startTime": 2155.1903740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Back, Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2849",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T00:10:46.825Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

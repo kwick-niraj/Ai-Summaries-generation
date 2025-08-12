@@ -1,0 +1,456 @@
+{
+  "bookId": "2826",
+  "timestamp": "2025-07-13T22:39:24.977Z",
+  "success": false,
+  "processingTime": -1752446095270,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3844,
+    "totalAudioFiles": 12,
+    "totalDuration": 2036.2242509999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2036.2242509999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2826/optimized_text/2826.md",
+    "fileSize": 754,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2826.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2826/metadata/2826_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2036.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2826/metadata/2826_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2826/metadata/2826_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2826/2826_complete.wav",
+    "duration": 2036.22425,
+    "fileSize": 97738842,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2826/introduction.wav",
+          "duration": 87.978875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.978875,
+          "startTime": 0,
+          "endTime": 87.978875
+        },
+        {
+          "path": "Audio/output/2826/chapter_01.wav",
+          "duration": 200.949708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Patterns—Why Stories Often Echo Each Other",
+          "actualDuration": 200.949708,
+          "startTime": 89.478875,
+          "endTime": 290.428583
+        },
+        {
+          "path": "Audio/output/2826/chapter_02.wav",
+          "duration": 219.38425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Symbols—How Objects and Actions Carry Deeper Meaning",
+          "actualDuration": 219.38425,
+          "startTime": 291.928583,
+          "endTime": 511.312833
+        },
+        {
+          "path": "Audio/output/2826/chapter_03.wav",
+          "duration": 195.795417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Allusions and Intertextuality—Literature as a Web of Connections",
+          "actualDuration": 195.795417,
+          "startTime": 512.812833,
+          "endTime": 708.60825
+        },
+        {
+          "path": "Audio/output/2826/chapter_04.wav",
+          "duration": 186.909875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Metaphor, Setting, and the Hidden Language of Place",
+          "actualDuration": 186.909875,
+          "startTime": 710.10825,
+          "endTime": 897.018125
+        },
+        {
+          "path": "Audio/output/2826/chapter_05.wav",
+          "duration": 160.878417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Irony and the Art of Subverting Expectations",
+          "actualDuration": 160.878417,
+          "startTime": 898.518125,
+          "endTime": 1059.396542
+        },
+        {
+          "path": "Audio/output/2826/chapter_06.wav",
+          "duration": 197.005292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Archetypes and the Shared Language of Story",
+          "actualDuration": 197.005292,
+          "startTime": 1060.896542,
+          "endTime": 1257.901834
+        },
+        {
+          "path": "Audio/output/2826/chapter_07.wav",
+          "duration": 178.706875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Genre—Expectations and Innovations",
+          "actualDuration": 178.706875,
+          "startTime": 1259.401834,
+          "endTime": 1438.108709
+        },
+        {
+          "path": "Audio/output/2826/chapter_08.wav",
+          "duration": 187.893917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Importance of Perspective—Who Tells the Story and Why It Matters",
+          "actualDuration": 187.893917,
+          "startTime": 1439.608709,
+          "endTime": 1627.502626
+        },
+        {
+          "path": "Audio/output/2826/chapter_09.wav",
+          "duration": 136.938708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Subtlety of Motif—Repetition and Resonance",
+          "actualDuration": 136.938708,
+          "startTime": 1629.002626,
+          "endTime": 1765.9413339999999
+        },
+        {
+          "path": "Audio/output/2826/chapter_10.wav",
+          "duration": 142.139875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Reader’s Role—Active Engagement and Meaning-Making",
+          "actualDuration": 142.139875,
+          "startTime": 1767.4413339999999,
+          "endTime": 1909.581209
+        },
+        {
+          "path": "Audio/output/2826/conclusion.wav",
+          "duration": 141.643042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.643042,
+          "startTime": 1911.081209,
+          "endTime": 2052.724251
+        }
+      ],
+      "totalDuration": 2052.724251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.98,
+          "actualStart": 0,
+          "actualEnd": 87.978875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Patterns—Why Stories Often Echo Each Other",
+          "expectedStart": 87.98,
+          "expectedEnd": 288.93,
+          "actualStart": 89.478875,
+          "actualEnd": 290.428583,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Symbols—How Objects and Actions Carry Deeper Meaning",
+          "expectedStart": 288.93,
+          "expectedEnd": 508.31,
+          "actualStart": 291.928583,
+          "actualEnd": 511.312833,
+          "timeDifference": 2.9985829999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Allusions and Intertextuality—Literature as a Web of Connections",
+          "expectedStart": 508.31,
+          "expectedEnd": 704.11,
+          "actualStart": 512.812833,
+          "actualEnd": 708.60825,
+          "timeDifference": 4.502832999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Metaphor, Setting, and the Hidden Language of Place",
+          "expectedStart": 704.11,
+          "expectedEnd": 891.02,
+          "actualStart": 710.10825,
+          "actualEnd": 897.018125,
+          "timeDifference": 5.9982499999999845
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Irony and the Art of Subverting Expectations",
+          "expectedStart": 891.02,
+          "expectedEnd": 1051.9,
+          "actualStart": 898.518125,
+          "actualEnd": 1059.396542,
+          "timeDifference": 7.498125000000073
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Archetypes and the Shared Language of Story",
+          "expectedStart": 1051.9,
+          "expectedEnd": 1248.91,
+          "actualStart": 1060.896542,
+          "actualEnd": 1257.901834,
+          "timeDifference": 8.996541999999863
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Genre—Expectations and Innovations",
+          "expectedStart": 1248.91,
+          "expectedEnd": 1427.62,
+          "actualStart": 1259.401834,
+          "actualEnd": 1438.108709,
+          "timeDifference": 10.491833999999926
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Importance of Perspective—Who Tells the Story and Why It Matters",
+          "expectedStart": 1427.62,
+          "expectedEnd": 1615.51,
+          "actualStart": 1439.608709,
+          "actualEnd": 1627.502626,
+          "timeDifference": 11.988709000000199
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Subtlety of Motif—Repetition and Resonance",
+          "expectedStart": 1615.51,
+          "expectedEnd": 1752.45,
+          "actualStart": 1629.002626,
+          "actualEnd": 1765.9413339999999,
+          "timeDifference": 13.492625999999973
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Reader’s Role—Active Engagement and Meaning-Making",
+          "expectedStart": 1752.45,
+          "expectedEnd": 1894.59,
+          "actualStart": 1767.4413339999999,
+          "actualEnd": 1909.581209,
+          "timeDifference": 14.991333999999824
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1894.59,
+          "expectedEnd": 2036.23,
+          "actualStart": 1911.081209,
+          "actualEnd": 2052.724251,
+          "timeDifference": 16.491209000000026
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.978875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Patterns—Why Stories Often Echo Each Other"
+        },
+        {
+          "startTime": 290.428583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Patterns—Why Stories Often Echo Each Other and Chapter 2 The Power of Symbols—How Objects and Actions Carry Deeper Meaning"
+        },
+        {
+          "startTime": 511.312833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Symbols—How Objects and Actions Carry Deeper Meaning and Chapter 3 Allusions and Intertextuality—Literature as a Web of Connections"
+        },
+        {
+          "startTime": 708.60825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Allusions and Intertextuality—Literature as a Web of Connections and Chapter 4 Metaphor, Setting, and the Hidden Language of Place"
+        },
+        {
+          "startTime": 897.018125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Metaphor, Setting, and the Hidden Language of Place and Chapter 5 Irony and the Art of Subverting Expectations"
+        },
+        {
+          "startTime": 1059.396542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Irony and the Art of Subverting Expectations and Chapter 6 Archetypes and the Shared Language of Story"
+        },
+        {
+          "startTime": 1257.901834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Archetypes and the Shared Language of Story and Chapter 7 The Role of Genre—Expectations and Innovations"
+        },
+        {
+          "startTime": 1438.108709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Genre—Expectations and Innovations and Chapter 8 The Importance of Perspective—Who Tells the Story and Why It Matters"
+        },
+        {
+          "startTime": 1627.502626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Importance of Perspective—Who Tells the Story and Why It Matters and Chapter 9 The Subtlety of Motif—Repetition and Resonance"
+        },
+        {
+          "startTime": 1765.9413339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Subtlety of Motif—Repetition and Resonance and Chapter 10 The Reader’s Role—Active Engagement and Meaning-Making"
+        },
+        {
+          "startTime": 1909.581209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Reader’s Role—Active Engagement and Meaning-Making and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2826",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T22:34:57.930Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

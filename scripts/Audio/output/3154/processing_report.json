@@ -1,0 +1,456 @@
+{
+  "bookId": "3154",
+  "timestamp": "2025-07-14T22:33:36.899Z",
+  "success": false,
+  "processingTime": -1752531794784,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4845,
+    "totalAudioFiles": 12,
+    "totalDuration": 2163.514001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2163.514001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3154/optimized_text/3154.md",
+    "fileSize": 657,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "3154.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3154/metadata/3154_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2163.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3154/metadata/3154_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3154/metadata/3154_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3154/3154_complete.wav",
+    "duration": 2163.514,
+    "fileSize": 103848750,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3154/introduction.wav",
+          "duration": 91.448167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.448167,
+          "startTime": 0,
+          "endTime": 91.448167
+        },
+        {
+          "path": "Audio/output/3154/chapter_01.wav",
+          "duration": 259.476667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Invisible Force That Holds Us Back",
+          "actualDuration": 259.476667,
+          "startTime": 92.948167,
+          "endTime": 352.42483400000003
+        },
+        {
+          "path": "Audio/output/3154/chapter_02.wav",
+          "duration": 256.872125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Resistance Shapes Our Lives and Choices",
+          "actualDuration": 256.872125,
+          "startTime": 353.92483400000003,
+          "endTime": 610.796959
+        },
+        {
+          "path": "Audio/output/3154/chapter_03.wav",
+          "duration": 241.702792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Turning Point: Choosing to Show Up Like a Professional",
+          "actualDuration": 241.702792,
+          "startTime": 612.296959,
+          "endTime": 853.9997510000001
+        },
+        {
+          "path": "Audio/output/3154/chapter_04.wav",
+          "duration": 213.278417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Discipline and Ritual in Creative Work",
+          "actualDuration": 213.278417,
+          "startTime": 855.4997510000001,
+          "endTime": 1068.778168
+        },
+        {
+          "path": "Audio/output/3154/chapter_05.wav",
+          "duration": 170.6405,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Inspiration and the Spiritual Side of Creative Struggle",
+          "actualDuration": 170.6405,
+          "startTime": 1070.278168,
+          "endTime": 1240.918668
+        },
+        {
+          "path": "Audio/output/3154/chapter_06.wav",
+          "duration": 186.378583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Deeper Commitment: Embracing the Long Haul",
+          "actualDuration": 186.378583,
+          "startTime": 1242.418668,
+          "endTime": 1428.797251
+        },
+        {
+          "path": "Audio/output/3154/chapter_07.wav",
+          "duration": 171.674125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Community and Support",
+          "actualDuration": 171.674125,
+          "startTime": 1430.297251,
+          "endTime": 1601.971376
+        },
+        {
+          "path": "Audio/output/3154/chapter_08.wav",
+          "duration": 155.253958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and Failure",
+          "actualDuration": 155.253958,
+          "startTime": 1603.471376,
+          "endTime": 1758.725334
+        },
+        {
+          "path": "Audio/output/3154/chapter_09.wav",
+          "duration": 147.1775,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Battle: Resistance Never Sleeps",
+          "actualDuration": 147.1775,
+          "startTime": 1760.225334,
+          "endTime": 1907.402834
+        },
+        {
+          "path": "Audio/output/3154/chapter_10.wav",
+          "duration": 138.05225,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Creative Life: Integration and Transformation",
+          "actualDuration": 138.05225,
+          "startTime": 1908.902834,
+          "endTime": 2046.955084
+        },
+        {
+          "path": "Audio/output/3154/conclusion.wav",
+          "duration": 131.558917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.558917,
+          "startTime": 2048.455084,
+          "endTime": 2180.014001
+        }
+      ],
+      "totalDuration": 2180.014001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.45,
+          "actualStart": 0,
+          "actualEnd": 91.448167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Invisible Force That Holds Us Back",
+          "expectedStart": 91.45,
+          "expectedEnd": 350.93,
+          "actualStart": 92.948167,
+          "actualEnd": 352.42483400000003,
+          "timeDifference": 1.4981669999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Resistance Shapes Our Lives and Choices",
+          "expectedStart": 350.93,
+          "expectedEnd": 607.8,
+          "actualStart": 353.92483400000003,
+          "actualEnd": 610.796959,
+          "timeDifference": 2.9948340000000258
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Turning Point: Choosing to Show Up Like a Professional",
+          "expectedStart": 607.8,
+          "expectedEnd": 849.5,
+          "actualStart": 612.296959,
+          "actualEnd": 853.9997510000001,
+          "timeDifference": 4.496959000000061
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Discipline and Ritual in Creative Work",
+          "expectedStart": 849.5,
+          "expectedEnd": 1062.78,
+          "actualStart": 855.4997510000001,
+          "actualEnd": 1068.778168,
+          "timeDifference": 5.99975100000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Inspiration and the Spiritual Side of Creative Struggle",
+          "expectedStart": 1062.78,
+          "expectedEnd": 1233.42,
+          "actualStart": 1070.278168,
+          "actualEnd": 1240.918668,
+          "timeDifference": 7.498168000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Deeper Commitment: Embracing the Long Haul",
+          "expectedStart": 1233.42,
+          "expectedEnd": 1419.8,
+          "actualStart": 1242.418668,
+          "actualEnd": 1428.797251,
+          "timeDifference": 8.998667999999952
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Community and Support",
+          "expectedStart": 1419.8,
+          "expectedEnd": 1591.47,
+          "actualStart": 1430.297251,
+          "actualEnd": 1601.971376,
+          "timeDifference": 10.497251000000006
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and Failure",
+          "expectedStart": 1591.47,
+          "expectedEnd": 1746.72,
+          "actualStart": 1603.471376,
+          "actualEnd": 1758.725334,
+          "timeDifference": 12.001375999999937
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Battle: Resistance Never Sleeps",
+          "expectedStart": 1746.72,
+          "expectedEnd": 1893.9,
+          "actualStart": 1760.225334,
+          "actualEnd": 1907.402834,
+          "timeDifference": 13.505333999999948
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Creative Life: Integration and Transformation",
+          "expectedStart": 1893.9,
+          "expectedEnd": 2031.95,
+          "actualStart": 1908.902834,
+          "actualEnd": 2046.955084,
+          "timeDifference": 15.002833999999893
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2031.95,
+          "expectedEnd": 2163.51,
+          "actualStart": 2048.455084,
+          "actualEnd": 2180.014001,
+          "timeDifference": 16.505084000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.448167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Invisible Force That Holds Us Back"
+        },
+        {
+          "startTime": 352.42483400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Invisible Force That Holds Us Back and Chapter 2 How Resistance Shapes Our Lives and Choices"
+        },
+        {
+          "startTime": 610.796959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Resistance Shapes Our Lives and Choices and Chapter 3 The Turning Point: Choosing to Show Up Like a Professional"
+        },
+        {
+          "startTime": 853.9997510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Turning Point: Choosing to Show Up Like a Professional and Chapter 4 The Power of Discipline and Ritual in Creative Work"
+        },
+        {
+          "startTime": 1068.778168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Discipline and Ritual in Creative Work and Chapter 5 Inspiration and the Spiritual Side of Creative Struggle"
+        },
+        {
+          "startTime": 1240.918668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Inspiration and the Spiritual Side of Creative Struggle and Chapter 6 The Deeper Commitment: Embracing the Long Haul"
+        },
+        {
+          "startTime": 1428.797251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Deeper Commitment: Embracing the Long Haul and Chapter 7 The Role of Community and Support"
+        },
+        {
+          "startTime": 1601.971376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Community and Support and Chapter 8 Navigating Setbacks and Failure"
+        },
+        {
+          "startTime": 1758.725334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and Failure and Chapter 9 The Ongoing Battle: Resistance Never Sleeps"
+        },
+        {
+          "startTime": 1907.402834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Battle: Resistance Never Sleeps and Chapter 10 Living the Creative Life: Integration and Transformation"
+        },
+        {
+          "startTime": 2046.955084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Creative Life: Integration and Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3154",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T22:23:16.327Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

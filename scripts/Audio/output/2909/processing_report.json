@@ -1,0 +1,456 @@
+{
+  "bookId": "2909",
+  "timestamp": "2025-07-14T03:46:16.050Z",
+  "success": false,
+  "processingTime": -1752464440863,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4428,
+    "totalAudioFiles": 12,
+    "totalDuration": 2000.479166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2000.479166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2909/optimized_text/2909.md",
+    "fileSize": 603,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2909.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2909/metadata/2909_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2000.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2909/metadata/2909_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2909/metadata/2909_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2909/2909_complete.wav",
+    "duration": 2000.479167,
+    "fileSize": 96023078,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2909/introduction.wav",
+          "duration": 102.575125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.575125,
+          "startTime": 0,
+          "endTime": 102.575125
+        },
+        {
+          "path": "Audio/output/2909/chapter_01.wav",
+          "duration": 179.892583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Reality of a Limited Lifespan",
+          "actualDuration": 179.892583,
+          "startTime": 104.075125,
+          "endTime": 283.967708
+        },
+        {
+          "path": "Audio/output/2909/chapter_02.wav",
+          "duration": 196.012625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Trap of Endless Productivity",
+          "actualDuration": 196.012625,
+          "startTime": 285.467708,
+          "endTime": 481.48033300000003
+        },
+        {
+          "path": "Audio/output/2909/chapter_03.wav",
+          "duration": 210.755667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Finitude and Letting Go of Control",
+          "actualDuration": 210.755667,
+          "startTime": 482.98033300000003,
+          "endTime": 693.736
+        },
+        {
+          "path": "Audio/output/2909/chapter_04.wav",
+          "duration": 192.831083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Choosing What Matters and Saying No",
+          "actualDuration": 192.831083,
+          "startTime": 695.236,
+          "endTime": 888.067083
+        },
+        {
+          "path": "Audio/output/2909/chapter_05.wav",
+          "duration": 188.745083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Value of Unstructured Time and Embracing Uncertainty",
+          "actualDuration": 188.745083,
+          "startTime": 889.567083,
+          "endTime": 1078.312166
+        },
+        {
+          "path": "Audio/output/2909/chapter_06.wav",
+          "duration": 195.886458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Patience and the Art of Waiting",
+          "actualDuration": 195.886458,
+          "startTime": 1079.812166,
+          "endTime": 1275.6986239999999
+        },
+        {
+          "path": "Audio/output/2909/chapter_07.wav",
+          "duration": 159.36675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Joy and Challenge of Deep Work",
+          "actualDuration": 159.36675,
+          "startTime": 1277.1986239999999,
+          "endTime": 1436.5653739999998
+        },
+        {
+          "path": "Audio/output/2909/chapter_08.wav",
+          "duration": 156.602875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Relationships: The Heart of a Finite Life",
+          "actualDuration": 156.602875,
+          "startTime": 1438.0653739999998,
+          "endTime": 1594.6682489999998
+        },
+        {
+          "path": "Audio/output/2909/chapter_09.wav",
+          "duration": 158.034875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Making Peace with Imperfection",
+          "actualDuration": 158.034875,
+          "startTime": 1596.1682489999998,
+          "endTime": 1754.203124
+        },
+        {
+          "path": "Audio/output/2909/chapter_10.wav",
+          "duration": 139.814542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living in the Present: The Only Time We Have",
+          "actualDuration": 139.814542,
+          "startTime": 1755.703124,
+          "endTime": 1895.517666
+        },
+        {
+          "path": "Audio/output/2909/conclusion.wav",
+          "duration": 119.9615,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.9615,
+          "startTime": 1897.017666,
+          "endTime": 2016.979166
+        }
+      ],
+      "totalDuration": 2016.979166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.58,
+          "actualStart": 0,
+          "actualEnd": 102.575125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Reality of a Limited Lifespan",
+          "expectedStart": 102.58,
+          "expectedEnd": 282.47,
+          "actualStart": 104.075125,
+          "actualEnd": 283.967708,
+          "timeDifference": 1.4951250000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Trap of Endless Productivity",
+          "expectedStart": 282.47,
+          "expectedEnd": 478.48,
+          "actualStart": 285.467708,
+          "actualEnd": 481.48033300000003,
+          "timeDifference": 2.9977079999999887
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Finitude and Letting Go of Control",
+          "expectedStart": 478.48,
+          "expectedEnd": 689.24,
+          "actualStart": 482.98033300000003,
+          "actualEnd": 693.736,
+          "timeDifference": 4.500333000000012
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Choosing What Matters and Saying No",
+          "expectedStart": 689.24,
+          "expectedEnd": 882.07,
+          "actualStart": 695.236,
+          "actualEnd": 888.067083,
+          "timeDifference": 5.995999999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Value of Unstructured Time and Embracing Uncertainty",
+          "expectedStart": 882.07,
+          "expectedEnd": 1070.82,
+          "actualStart": 889.567083,
+          "actualEnd": 1078.312166,
+          "timeDifference": 7.497082999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Patience and the Art of Waiting",
+          "expectedStart": 1070.82,
+          "expectedEnd": 1266.71,
+          "actualStart": 1079.812166,
+          "actualEnd": 1275.6986239999999,
+          "timeDifference": 8.992165999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Joy and Challenge of Deep Work",
+          "expectedStart": 1266.71,
+          "expectedEnd": 1426.08,
+          "actualStart": 1277.1986239999999,
+          "actualEnd": 1436.5653739999998,
+          "timeDifference": 10.488623999999845
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Relationships: The Heart of a Finite Life",
+          "expectedStart": 1426.08,
+          "expectedEnd": 1582.68,
+          "actualStart": 1438.0653739999998,
+          "actualEnd": 1594.6682489999998,
+          "timeDifference": 11.985373999999865
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Making Peace with Imperfection",
+          "expectedStart": 1582.68,
+          "expectedEnd": 1740.71,
+          "actualStart": 1596.1682489999998,
+          "actualEnd": 1754.203124,
+          "timeDifference": 13.488248999999769
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living in the Present: The Only Time We Have",
+          "expectedStart": 1740.71,
+          "expectedEnd": 1880.52,
+          "actualStart": 1755.703124,
+          "actualEnd": 1895.517666,
+          "timeDifference": 14.993123999999852
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1880.52,
+          "expectedEnd": 2000.48,
+          "actualStart": 1897.017666,
+          "actualEnd": 2016.979166,
+          "timeDifference": 16.49766599999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.575125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Reality of a Limited Lifespan"
+        },
+        {
+          "startTime": 283.967708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Reality of a Limited Lifespan and Chapter 2 The Trap of Endless Productivity"
+        },
+        {
+          "startTime": 481.48033300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Trap of Endless Productivity and Chapter 3 Embracing Finitude and Letting Go of Control"
+        },
+        {
+          "startTime": 693.736,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Finitude and Letting Go of Control and Chapter 4 Choosing What Matters and Saying No"
+        },
+        {
+          "startTime": 888.067083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Choosing What Matters and Saying No and Chapter 5 The Value of Unstructured Time and Embracing Uncertainty"
+        },
+        {
+          "startTime": 1078.312166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Value of Unstructured Time and Embracing Uncertainty and Chapter 6 The Power of Patience and the Art of Waiting"
+        },
+        {
+          "startTime": 1275.6986239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Patience and the Art of Waiting and Chapter 7 The Joy and Challenge of Deep Work"
+        },
+        {
+          "startTime": 1436.5653739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Joy and Challenge of Deep Work and Chapter 8 Relationships: The Heart of a Finite Life"
+        },
+        {
+          "startTime": 1594.6682489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Relationships: The Heart of a Finite Life and Chapter 9 Making Peace with Imperfection"
+        },
+        {
+          "startTime": 1754.203124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Making Peace with Imperfection and Chapter 10 Living in the Present: The Only Time We Have"
+        },
+        {
+          "startTime": 1895.517666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living in the Present: The Only Time We Have and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2909",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T03:40:42.047Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

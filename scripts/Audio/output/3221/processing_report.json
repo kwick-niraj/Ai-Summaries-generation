@@ -1,0 +1,456 @@
+{
+  "bookId": "3221",
+  "timestamp": "2025-07-15T03:57:53.432Z",
+  "success": false,
+  "processingTime": -1752551596754,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4790,
+    "totalAudioFiles": 12,
+    "totalDuration": 2224.0019999999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2224.0019999999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3221/optimized_text/3221.md",
+    "fileSize": 681,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "3221.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3221/metadata/3221_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2224.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3221/metadata/3221_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3221/metadata/3221_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3221/3221_complete.wav",
+    "duration": 2224.002,
+    "fileSize": 106752174,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3221/introduction.wav",
+          "duration": 99.479375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.479375,
+          "startTime": 0,
+          "endTime": 99.479375
+        },
+        {
+          "path": "Audio/output/3221/chapter_01.wav",
+          "duration": 261.841292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Living with Unusual Minds and the Search for Meaning",
+          "actualDuration": 261.841292,
+          "startTime": 100.979375,
+          "endTime": 362.820667
+        },
+        {
+          "path": "Audio/output/3221/chapter_02.wav",
+          "duration": 238.045167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The World Through Different Senses and the Power of Adaptation",
+          "actualDuration": 238.045167,
+          "startTime": 364.320667,
+          "endTime": 602.365834
+        },
+        {
+          "path": "Audio/output/3221/chapter_03.wav",
+          "duration": 229.986583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creativity Born from Neurological Difference",
+          "actualDuration": 229.986583,
+          "startTime": 603.865834,
+          "endTime": 833.852417
+        },
+        {
+          "path": "Audio/output/3221/chapter_04.wav",
+          "duration": 250.728833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Identity, Memory, and the Stories We Tell Ourselves",
+          "actualDuration": 250.728833,
+          "startTime": 835.352417,
+          "endTime": 1086.08125
+        },
+        {
+          "path": "Audio/output/3221/chapter_05.wav",
+          "duration": 238.745458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Paradoxes of Neurological Disorders and the Meaning of Normal",
+          "actualDuration": 238.745458,
+          "startTime": 1087.58125,
+          "endTime": 1326.326708
+        },
+        {
+          "path": "Audio/output/3221/chapter_06.wav",
+          "duration": 170.601792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unexpected Gifts of Obsession",
+          "actualDuration": 170.601792,
+          "startTime": 1327.826708,
+          "endTime": 1498.4285
+        },
+        {
+          "path": "Audio/output/3221/chapter_07.wav",
+          "duration": 183.847375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle for Connection and the Language of Empathy",
+          "actualDuration": 183.847375,
+          "startTime": 1499.9285,
+          "endTime": 1683.775875
+        },
+        {
+          "path": "Audio/output/3221/chapter_08.wav",
+          "duration": 149.783667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Living with Uncertainty",
+          "actualDuration": 149.783667,
+          "startTime": 1685.275875,
+          "endTime": 1835.059542
+        },
+        {
+          "path": "Audio/output/3221/chapter_09.wav",
+          "duration": 141.041,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Healing Power of Story",
+          "actualDuration": 141.041,
+          "startTime": 1836.559542,
+          "endTime": 1977.600542
+        },
+        {
+          "path": "Audio/output/3221/chapter_10.wav",
+          "duration": 137.864,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Neurodiversity and the Future of Understanding",
+          "actualDuration": 137.864,
+          "startTime": 1979.100542,
+          "endTime": 2116.9645419999997
+        },
+        {
+          "path": "Audio/output/3221/conclusion.wav",
+          "duration": 122.037458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.037458,
+          "startTime": 2118.4645419999997,
+          "endTime": 2240.5019999999995
+        }
+      ],
+      "totalDuration": 2240.5019999999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.48,
+          "actualStart": 0,
+          "actualEnd": 99.479375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Living with Unusual Minds and the Search for Meaning",
+          "expectedStart": 99.48,
+          "expectedEnd": 361.32,
+          "actualStart": 100.979375,
+          "actualEnd": 362.820667,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The World Through Different Senses and the Power of Adaptation",
+          "expectedStart": 361.32,
+          "expectedEnd": 599.37,
+          "actualStart": 364.320667,
+          "actualEnd": 602.365834,
+          "timeDifference": 3.0006670000000213
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creativity Born from Neurological Difference",
+          "expectedStart": 599.37,
+          "expectedEnd": 829.36,
+          "actualStart": 603.865834,
+          "actualEnd": 833.852417,
+          "timeDifference": 4.495833999999945
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Identity, Memory, and the Stories We Tell Ourselves",
+          "expectedStart": 829.36,
+          "expectedEnd": 1080.09,
+          "actualStart": 835.352417,
+          "actualEnd": 1086.08125,
+          "timeDifference": 5.992416999999932
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Paradoxes of Neurological Disorders and the Meaning of Normal",
+          "expectedStart": 1080.09,
+          "expectedEnd": 1318.84,
+          "actualStart": 1087.58125,
+          "actualEnd": 1326.326708,
+          "timeDifference": 7.491250000000036
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unexpected Gifts of Obsession",
+          "expectedStart": 1318.84,
+          "expectedEnd": 1489.44,
+          "actualStart": 1327.826708,
+          "actualEnd": 1498.4285,
+          "timeDifference": 8.986708000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle for Connection and the Language of Empathy",
+          "expectedStart": 1489.44,
+          "expectedEnd": 1673.29,
+          "actualStart": 1499.9285,
+          "actualEnd": 1683.775875,
+          "timeDifference": 10.48849999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Living with Uncertainty",
+          "expectedStart": 1673.29,
+          "expectedEnd": 1823.07,
+          "actualStart": 1685.275875,
+          "actualEnd": 1835.059542,
+          "timeDifference": 11.985875000000078
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Healing Power of Story",
+          "expectedStart": 1823.07,
+          "expectedEnd": 1964.11,
+          "actualStart": 1836.559542,
+          "actualEnd": 1977.600542,
+          "timeDifference": 13.489542000000029
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Neurodiversity and the Future of Understanding",
+          "expectedStart": 1964.11,
+          "expectedEnd": 2101.97,
+          "actualStart": 1979.100542,
+          "actualEnd": 2116.9645419999997,
+          "timeDifference": 14.990542000000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2101.97,
+          "expectedEnd": 2224.01,
+          "actualStart": 2118.4645419999997,
+          "actualEnd": 2240.5019999999995,
+          "timeDifference": 16.49454199999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.479375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Living with Unusual Minds and the Search for Meaning"
+        },
+        {
+          "startTime": 362.820667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Living with Unusual Minds and the Search for Meaning and Chapter 2 The World Through Different Senses and the Power of Adaptation"
+        },
+        {
+          "startTime": 602.365834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The World Through Different Senses and the Power of Adaptation and Chapter 3 Creativity Born from Neurological Difference"
+        },
+        {
+          "startTime": 833.852417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creativity Born from Neurological Difference and Chapter 4 Identity, Memory, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1086.08125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Identity, Memory, and the Stories We Tell Ourselves and Chapter 5 The Paradoxes of Neurological Disorders and the Meaning of Normal"
+        },
+        {
+          "startTime": 1326.326708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Paradoxes of Neurological Disorders and the Meaning of Normal and Chapter 6 The Unexpected Gifts of Obsession"
+        },
+        {
+          "startTime": 1498.4285,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unexpected Gifts of Obsession and Chapter 7 The Struggle for Connection and the Language of Empathy"
+        },
+        {
+          "startTime": 1683.775875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle for Connection and the Language of Empathy and Chapter 8 The Art of Living with Uncertainty"
+        },
+        {
+          "startTime": 1835.059542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Living with Uncertainty and Chapter 9 The Healing Power of Story"
+        },
+        {
+          "startTime": 1977.600542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Healing Power of Story and Chapter 10 Embracing Neurodiversity and the Future of Understanding"
+        },
+        {
+          "startTime": 2116.9645419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Neurodiversity and the Future of Understanding and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3221",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:53:17.963Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "3098",
+  "timestamp": "2025-07-14T18:21:17.148Z",
+  "success": false,
+  "processingTime": -1752516944155,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3827,
+    "totalAudioFiles": 12,
+    "totalDuration": 2108.3577910000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2108.3577910000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3098/optimized_text/3098.md",
+    "fileSize": 745,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "3098.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3098/metadata/3098_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2108.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3098/metadata/3098_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3098/metadata/3098_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3098/3098_complete.wav",
+    "duration": 2108.357792,
+    "fileSize": 101201252,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3098/introduction.wav",
+          "duration": 87.579458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.579458,
+          "startTime": 0,
+          "endTime": 87.579458
+        },
+        {
+          "path": "Audio/output/3098/chapter_01.wav",
+          "duration": 224.552333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation of Belief and Self-Confidence",
+          "actualDuration": 224.552333,
+          "startTime": 89.079458,
+          "endTime": 313.631791
+        },
+        {
+          "path": "Audio/output/3098/chapter_02.wav",
+          "duration": 203.388708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Harnessing Faith and Spiritual Practices for Inner Strength",
+          "actualDuration": 203.388708,
+          "startTime": 315.131791,
+          "endTime": 518.520499
+        },
+        {
+          "path": "Audio/output/3098/chapter_03.wav",
+          "duration": 201.174292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Replacing Worry and Fear with Constructive Action",
+          "actualDuration": 201.174292,
+          "startTime": 520.020499,
+          "endTime": 721.194791
+        },
+        {
+          "path": "Audio/output/3098/chapter_04.wav",
+          "duration": 184.615625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Positive Visualization and Expectation",
+          "actualDuration": 184.615625,
+          "startTime": 722.694791,
+          "endTime": 907.310416
+        },
+        {
+          "path": "Audio/output/3098/chapter_05.wav",
+          "duration": 228.90875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultivating Gratitude, Enthusiasm, and Forgiveness for Lasting Peace",
+          "actualDuration": 228.90875,
+          "startTime": 908.810416,
+          "endTime": 1137.719166
+        },
+        {
+          "path": "Audio/output/3098/chapter_06.wav",
+          "duration": 190.384,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Transforming Relationships Through Positive Communication",
+          "actualDuration": 190.384,
+          "startTime": 1139.219166,
+          "endTime": 1329.603166
+        },
+        {
+          "path": "Audio/output/3098/chapter_07.wav",
+          "duration": 156.550708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Breaking the Habit of Self-Criticism and Embracing Self-Compassion",
+          "actualDuration": 156.550708,
+          "startTime": 1331.103166,
+          "endTime": 1487.653874
+        },
+        {
+          "path": "Audio/output/3098/chapter_08.wav",
+          "duration": 151.701917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Setting Purposeful Goals and Sustaining Motivation",
+          "actualDuration": 151.701917,
+          "startTime": 1489.153874,
+          "endTime": 1640.8557910000002
+        },
+        {
+          "path": "Audio/output/3098/chapter_09.wav",
+          "duration": 145.261708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Managing Energy and Restoring Balance",
+          "actualDuration": 145.261708,
+          "startTime": 1642.3557910000002,
+          "endTime": 1787.6174990000002
+        },
+        {
+          "path": "Audio/output/3098/chapter_10.wav",
+          "duration": 166.879875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Positive Environment and Influencing Others",
+          "actualDuration": 166.879875,
+          "startTime": 1789.1174990000002,
+          "endTime": 1955.9973740000003
+        },
+        {
+          "path": "Audio/output/3098/conclusion.wav",
+          "duration": 167.360417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 167.360417,
+          "startTime": 1957.4973740000003,
+          "endTime": 2124.8577910000004
+        }
+      ],
+      "totalDuration": 2124.8577910000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.58,
+          "actualStart": 0,
+          "actualEnd": 87.579458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation of Belief and Self-Confidence",
+          "expectedStart": 87.58,
+          "expectedEnd": 312.13,
+          "actualStart": 89.079458,
+          "actualEnd": 313.631791,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Harnessing Faith and Spiritual Practices for Inner Strength",
+          "expectedStart": 312.13,
+          "expectedEnd": 515.52,
+          "actualStart": 315.131791,
+          "actualEnd": 518.520499,
+          "timeDifference": 3.0017910000000256
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Replacing Worry and Fear with Constructive Action",
+          "expectedStart": 515.52,
+          "expectedEnd": 716.69,
+          "actualStart": 520.020499,
+          "actualEnd": 721.194791,
+          "timeDifference": 4.500498999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Positive Visualization and Expectation",
+          "expectedStart": 716.69,
+          "expectedEnd": 901.31,
+          "actualStart": 722.694791,
+          "actualEnd": 907.310416,
+          "timeDifference": 6.004790999999955
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultivating Gratitude, Enthusiasm, and Forgiveness for Lasting Peace",
+          "expectedStart": 901.31,
+          "expectedEnd": 1130.22,
+          "actualStart": 908.810416,
+          "actualEnd": 1137.719166,
+          "timeDifference": 7.500416000000087
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Transforming Relationships Through Positive Communication",
+          "expectedStart": 1130.22,
+          "expectedEnd": 1320.6,
+          "actualStart": 1139.219166,
+          "actualEnd": 1329.603166,
+          "timeDifference": 8.99916600000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Breaking the Habit of Self-Criticism and Embracing Self-Compassion",
+          "expectedStart": 1320.6,
+          "expectedEnd": 1477.15,
+          "actualStart": 1331.103166,
+          "actualEnd": 1487.653874,
+          "timeDifference": 10.503166000000192
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Setting Purposeful Goals and Sustaining Motivation",
+          "expectedStart": 1477.15,
+          "expectedEnd": 1628.85,
+          "actualStart": 1489.153874,
+          "actualEnd": 1640.8557910000002,
+          "timeDifference": 12.003873999999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Managing Energy and Restoring Balance",
+          "expectedStart": 1628.85,
+          "expectedEnd": 1774.11,
+          "actualStart": 1642.3557910000002,
+          "actualEnd": 1787.6174990000002,
+          "timeDifference": 13.505791000000272
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Positive Environment and Influencing Others",
+          "expectedStart": 1774.11,
+          "expectedEnd": 1940.99,
+          "actualStart": 1789.1174990000002,
+          "actualEnd": 1955.9973740000003,
+          "timeDifference": 15.00749900000028
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1940.99,
+          "expectedEnd": 2108.35,
+          "actualStart": 1957.4973740000003,
+          "actualEnd": 2124.8577910000004,
+          "timeDifference": 16.507374000000254
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.579458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation of Belief and Self-Confidence"
+        },
+        {
+          "startTime": 313.631791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation of Belief and Self-Confidence and Chapter 2 Harnessing Faith and Spiritual Practices for Inner Strength"
+        },
+        {
+          "startTime": 518.520499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Harnessing Faith and Spiritual Practices for Inner Strength and Chapter 3 Replacing Worry and Fear with Constructive Action"
+        },
+        {
+          "startTime": 721.194791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Replacing Worry and Fear with Constructive Action and Chapter 4 The Power of Positive Visualization and Expectation"
+        },
+        {
+          "startTime": 907.310416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Positive Visualization and Expectation and Chapter 5 Cultivating Gratitude, Enthusiasm, and Forgiveness for Lasting Peace"
+        },
+        {
+          "startTime": 1137.719166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultivating Gratitude, Enthusiasm, and Forgiveness for Lasting Peace and Chapter 6 Transforming Relationships Through Positive Communication"
+        },
+        {
+          "startTime": 1329.603166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Transforming Relationships Through Positive Communication and Chapter 7 Breaking the Habit of Self-Criticism and Embracing Self-Compassion"
+        },
+        {
+          "startTime": 1487.653874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Breaking the Habit of Self-Criticism and Embracing Self-Compassion and Chapter 8 Setting Purposeful Goals and Sustaining Motivation"
+        },
+        {
+          "startTime": 1640.8557910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Setting Purposeful Goals and Sustaining Motivation and Chapter 9 Managing Energy and Restoring Balance"
+        },
+        {
+          "startTime": 1787.6174990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Managing Energy and Restoring Balance and Chapter 10 Creating a Positive Environment and Influencing Others"
+        },
+        {
+          "startTime": 1955.9973740000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Positive Environment and Influencing Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3098",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T18:15:45.360Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "bookId": "3167",
+  "timestamp": "2025-07-14T23:44:30.642Z",
+  "success": false,
+  "processingTime": -1752536082549,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4947,
+    "totalAudioFiles": 12,
+    "totalDuration": 1856.156792
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1856.156792
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3167/optimized_text/3167.md",
+    "fileSize": 473,
+    "wordCount": 69,
+    "format": "markdown",
+    "filename": "3167.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3167/metadata/3167_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1856.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3167/metadata/3167_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3167/metadata/3167_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3167/3167_complete.wav",
+    "duration": 1856.156792,
+    "fileSize": 89095604,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3167/introduction.wav",
+          "duration": 99.128542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.128542,
+          "startTime": 0,
+          "endTime": 99.128542
+        },
+        {
+          "path": "Audio/output/3167/chapter_01.wav",
+          "duration": 282.137542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Sudden Fall into the Unknown",
+          "actualDuration": 282.137542,
+          "startTime": 100.628542,
+          "endTime": 382.766084
+        },
+        {
+          "path": "Audio/output/3167/chapter_03.wav",
+          "duration": 251.299333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle to Endure and Adapt",
+          "actualDuration": 251.299333,
+          "startTime": 384.266084,
+          "endTime": 635.565417
+        },
+        {
+          "path": "Audio/output/3167/chapter_05.wav",
+          "duration": 212.126667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The First Steps Toward Rescue",
+          "actualDuration": 212.126667,
+          "startTime": 637.065417,
+          "endTime": 849.192084
+        },
+        {
+          "path": "Audio/output/3167/chapter_06.wav",
+          "duration": 202.929833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World Finds Out",
+          "actualDuration": 202.929833,
+          "startTime": 850.692084,
+          "endTime": 1053.621917
+        },
+        {
+          "path": "Audio/output/3167/chapter_07.wav",
+          "duration": 182.451417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Survival",
+          "actualDuration": 182.451417,
+          "startTime": 1055.121917,
+          "endTime": 1237.573334
+        },
+        {
+          "path": "Audio/output/3167/chapter_08.wav",
+          "duration": 171.661583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Public Reckoning",
+          "actualDuration": 171.661583,
+          "startTime": 1239.073334,
+          "endTime": 1410.734917
+        },
+        {
+          "path": "Audio/output/3167/chapter_09.wav",
+          "duration": 197.812958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing and Forgiveness",
+          "actualDuration": 197.812958,
+          "startTime": 1412.234917,
+          "endTime": 1610.047875
+        },
+        {
+          "path": "Audio/output/3167/chapter_10.wav",
+          "duration": 157.47875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Mountain",
+          "actualDuration": 157.47875,
+          "startTime": 1611.547875,
+          "endTime": 1769.026625
+        },
+        {
+          "path": "Audio/output/3167/conclusion.wav",
+          "duration": 99.130167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.130167,
+          "startTime": 1770.526625,
+          "endTime": 1869.656792
+        }
+      ],
+      "totalDuration": 1869.656792,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.13,
+          "actualStart": 0,
+          "actualEnd": 99.128542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Sudden Fall into the Unknown",
+          "expectedStart": 99.13,
+          "expectedEnd": 381.27,
+          "actualStart": 100.628542,
+          "actualEnd": 382.766084,
+          "timeDifference": 1.4985420000000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle to Endure and Adapt",
+          "expectedStart": 381.27,
+          "expectedEnd": 632.57,
+          "actualStart": 384.266084,
+          "actualEnd": 635.565417,
+          "timeDifference": 2.996083999999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The First Steps Toward Rescue",
+          "expectedStart": 632.57,
+          "expectedEnd": 844.7,
+          "actualStart": 637.065417,
+          "actualEnd": 849.192084,
+          "timeDifference": 4.495416999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World Finds Out",
+          "expectedStart": 844.7,
+          "expectedEnd": 1047.63,
+          "actualStart": 850.692084,
+          "actualEnd": 1053.621917,
+          "timeDifference": 5.992083999999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Survival",
+          "expectedStart": 1047.63,
+          "expectedEnd": 1230.08,
+          "actualStart": 1055.121917,
+          "actualEnd": 1237.573334,
+          "timeDifference": 7.49191699999983
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Public Reckoning",
+          "expectedStart": 1230.08,
+          "expectedEnd": 1401.74,
+          "actualStart": 1239.073334,
+          "actualEnd": 1410.734917,
+          "timeDifference": 8.993334000000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing and Forgiveness",
+          "expectedStart": 1401.74,
+          "expectedEnd": 1599.55,
+          "actualStart": 1412.234917,
+          "actualEnd": 1610.047875,
+          "timeDifference": 10.494916999999987
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Mountain",
+          "expectedStart": 1599.55,
+          "expectedEnd": 1757.03,
+          "actualStart": 1611.547875,
+          "actualEnd": 1769.026625,
+          "timeDifference": 11.997875000000022
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1757.03,
+          "expectedEnd": 1856.16,
+          "actualStart": 1770.526625,
+          "actualEnd": 1869.656792,
+          "timeDifference": 13.496624999999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.128542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Sudden Fall into the Unknown"
+        },
+        {
+          "startTime": 382.766084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Sudden Fall into the Unknown and Chapter 3 The Struggle to Endure and Adapt"
+        },
+        {
+          "startTime": 635.565417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle to Endure and Adapt and Chapter 5 The First Steps Toward Rescue"
+        },
+        {
+          "startTime": 849.192084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The First Steps Toward Rescue and Chapter 6 The World Finds Out"
+        },
+        {
+          "startTime": 1053.621917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World Finds Out and Chapter 7 The Weight of Survival"
+        },
+        {
+          "startTime": 1237.573334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Survival and Chapter 8 The Public Reckoning"
+        },
+        {
+          "startTime": 1410.734917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Public Reckoning and Chapter 9 Healing and Forgiveness"
+        },
+        {
+          "startTime": 1610.047875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing and Forgiveness and Chapter 10 Lessons from the Mountain"
+        },
+        {
+          "startTime": 1769.026625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Mountain and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3167",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T23:34:43.746Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

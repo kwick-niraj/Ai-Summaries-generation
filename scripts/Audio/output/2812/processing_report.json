@@ -1,0 +1,456 @@
+{
+  "bookId": "2812",
+  "timestamp": "2025-07-13T21:28:03.131Z",
+  "success": false,
+  "processingTime": -1752441801515,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4502,
+    "totalAudioFiles": 12,
+    "totalDuration": 2035.5862510000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2035.5862510000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2812/optimized_text/2812.md",
+    "fileSize": 737,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2812.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2812/metadata/2812_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2035.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2812/metadata/2812_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2812/metadata/2812_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2812/2812_complete.wav",
+    "duration": 2035.58625,
+    "fileSize": 97708218,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2812/introduction.wav",
+          "duration": 87.654292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.654292,
+          "startTime": 0,
+          "endTime": 87.654292
+        },
+        {
+          "path": "Audio/output/2812/chapter_01.wav",
+          "duration": 194.882917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Struggles and Limits of Traditional Prayer",
+          "actualDuration": 194.882917,
+          "startTime": 89.154292,
+          "endTime": 284.03720899999996
+        },
+        {
+          "path": "Audio/output/2812/chapter_02.wav",
+          "duration": 238.631833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering the Power of Praying Scripture",
+          "actualDuration": 238.631833,
+          "startTime": 285.53720899999996,
+          "endTime": 524.169042
+        },
+        {
+          "path": "Audio/output/2812/chapter_03.wav",
+          "duration": 221.952125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Simple Steps for Praying Through the Psalms",
+          "actualDuration": 221.952125,
+          "startTime": 525.669042,
+          "endTime": 747.621167
+        },
+        {
+          "path": "Audio/output/2812/chapter_04.wav",
+          "duration": 188.003875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Obstacles and Embracing Flexibility in Prayer",
+          "actualDuration": 188.003875,
+          "startTime": 749.121167,
+          "endTime": 937.125042
+        },
+        {
+          "path": "Audio/output/2812/chapter_05.wav",
+          "duration": 177.953,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Praying the Bible into Daily Life",
+          "actualDuration": 177.953,
+          "startTime": 938.625042,
+          "endTime": 1116.578042
+        },
+        {
+          "path": "Audio/output/2812/chapter_06.wav",
+          "duration": 205.688,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Expanding Beyond the Psalms—Praying Other Parts of Scripture",
+          "actualDuration": 205.688,
+          "startTime": 1118.078042,
+          "endTime": 1323.7660420000002
+        },
+        {
+          "path": "Audio/output/2812/chapter_07.wav",
+          "duration": 155.178458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening the Practice—Listening and Silence in Praying the Bible",
+          "actualDuration": 155.178458,
+          "startTime": 1325.2660420000002,
+          "endTime": 1480.4445000000003
+        },
+        {
+          "path": "Audio/output/2812/chapter_08.wav",
+          "duration": 174.463292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Addressing Common Questions and Misconceptions",
+          "actualDuration": 174.463292,
+          "startTime": 1481.9445000000003,
+          "endTime": 1656.4077920000002
+        },
+        {
+          "path": "Audio/output/2812/chapter_09.wav",
+          "duration": 127.210792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Praying the Bible in Community—Group and Family Applications",
+          "actualDuration": 127.210792,
+          "startTime": 1657.9077920000002,
+          "endTime": 1785.1185840000003
+        },
+        {
+          "path": "Audio/output/2812/chapter_10.wav",
+          "duration": 132.02325,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Practice—Lifelong Growth and Renewal",
+          "actualDuration": 132.02325,
+          "startTime": 1786.6185840000003,
+          "endTime": 1918.6418340000002
+        },
+        {
+          "path": "Audio/output/2812/conclusion.wav",
+          "duration": 131.944417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.944417,
+          "startTime": 1920.1418340000002,
+          "endTime": 2052.086251
+        }
+      ],
+      "totalDuration": 2052.086251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.65,
+          "actualStart": 0,
+          "actualEnd": 87.654292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Struggles and Limits of Traditional Prayer",
+          "expectedStart": 87.65,
+          "expectedEnd": 282.53,
+          "actualStart": 89.154292,
+          "actualEnd": 284.03720899999996,
+          "timeDifference": 1.5042919999999924
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering the Power of Praying Scripture",
+          "expectedStart": 282.53,
+          "expectedEnd": 521.16,
+          "actualStart": 285.53720899999996,
+          "actualEnd": 524.169042,
+          "timeDifference": 3.007208999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Simple Steps for Praying Through the Psalms",
+          "expectedStart": 521.16,
+          "expectedEnd": 743.11,
+          "actualStart": 525.669042,
+          "actualEnd": 747.621167,
+          "timeDifference": 4.509042000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Obstacles and Embracing Flexibility in Prayer",
+          "expectedStart": 743.11,
+          "expectedEnd": 931.11,
+          "actualStart": 749.121167,
+          "actualEnd": 937.125042,
+          "timeDifference": 6.011167
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Praying the Bible into Daily Life",
+          "expectedStart": 931.11,
+          "expectedEnd": 1109.06,
+          "actualStart": 938.625042,
+          "actualEnd": 1116.578042,
+          "timeDifference": 7.515041999999994
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Expanding Beyond the Psalms—Praying Other Parts of Scripture",
+          "expectedStart": 1109.06,
+          "expectedEnd": 1314.75,
+          "actualStart": 1118.078042,
+          "actualEnd": 1323.7660420000002,
+          "timeDifference": 9.01804200000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening the Practice—Listening and Silence in Praying the Bible",
+          "expectedStart": 1314.75,
+          "expectedEnd": 1469.93,
+          "actualStart": 1325.2660420000002,
+          "actualEnd": 1480.4445000000003,
+          "timeDifference": 10.516042000000198
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Addressing Common Questions and Misconceptions",
+          "expectedStart": 1469.93,
+          "expectedEnd": 1644.39,
+          "actualStart": 1481.9445000000003,
+          "actualEnd": 1656.4077920000002,
+          "timeDifference": 12.014500000000226
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Praying the Bible in Community—Group and Family Applications",
+          "expectedStart": 1644.39,
+          "expectedEnd": 1771.6,
+          "actualStart": 1657.9077920000002,
+          "actualEnd": 1785.1185840000003,
+          "timeDifference": 13.5177920000001
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Practice—Lifelong Growth and Renewal",
+          "expectedStart": 1771.6,
+          "expectedEnd": 1903.62,
+          "actualStart": 1786.6185840000003,
+          "actualEnd": 1918.6418340000002,
+          "timeDifference": 15.018584000000374
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1903.62,
+          "expectedEnd": 2035.56,
+          "actualStart": 1920.1418340000002,
+          "actualEnd": 2052.086251,
+          "timeDifference": 16.521834000000354
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.654292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Struggles and Limits of Traditional Prayer"
+        },
+        {
+          "startTime": 284.03720899999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Struggles and Limits of Traditional Prayer and Chapter 2 Discovering the Power of Praying Scripture"
+        },
+        {
+          "startTime": 524.169042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering the Power of Praying Scripture and Chapter 3 Simple Steps for Praying Through the Psalms"
+        },
+        {
+          "startTime": 747.621167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Simple Steps for Praying Through the Psalms and Chapter 4 Overcoming Obstacles and Embracing Flexibility in Prayer"
+        },
+        {
+          "startTime": 937.125042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Obstacles and Embracing Flexibility in Prayer and Chapter 5 Integrating Praying the Bible into Daily Life"
+        },
+        {
+          "startTime": 1116.578042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Praying the Bible into Daily Life and Chapter 6 Expanding Beyond the Psalms—Praying Other Parts of Scripture"
+        },
+        {
+          "startTime": 1323.7660420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Expanding Beyond the Psalms—Praying Other Parts of Scripture and Chapter 7 Deepening the Practice—Listening and Silence in Praying the Bible"
+        },
+        {
+          "startTime": 1480.4445000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening the Practice—Listening and Silence in Praying the Bible and Chapter 8 Addressing Common Questions and Misconceptions"
+        },
+        {
+          "startTime": 1656.4077920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Addressing Common Questions and Misconceptions and Chapter 9 Praying the Bible in Community—Group and Family Applications"
+        },
+        {
+          "startTime": 1785.1185840000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Praying the Bible in Community—Group and Family Applications and Chapter 10 Sustaining the Practice—Lifelong Growth and Renewal"
+        },
+        {
+          "startTime": 1918.6418340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Practice—Lifelong Growth and Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2812",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T21:23:22.759Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

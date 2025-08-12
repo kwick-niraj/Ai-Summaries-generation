@@ -1,0 +1,456 @@
+{
+  "bookId": "3213",
+  "timestamp": "2025-07-15T03:29:31.597Z",
+  "success": false,
+  "processingTime": -1752549885826,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4043,
+    "totalAudioFiles": 12,
+    "totalDuration": 2059.653501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2059.653501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3213/optimized_text/3213.md",
+    "fileSize": 788,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "3213.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3213/metadata/3213_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2059.64,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3213/metadata/3213_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3213/metadata/3213_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3213/3213_complete.wav",
+    "duration": 2059.6535,
+    "fileSize": 98863446,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3213/introduction.wav",
+          "duration": 80.204042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.204042,
+          "startTime": 0,
+          "endTime": 80.204042
+        },
+        {
+          "path": "Audio/output/3213/chapter_01.wav",
+          "duration": 239.4005,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Presence—The Foundation of Living in the Now",
+          "actualDuration": 239.4005,
+          "startTime": 81.704042,
+          "endTime": 321.104542
+        },
+        {
+          "path": "Audio/output/3213/chapter_02.wav",
+          "duration": 207.39925,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Mind and Ego—Breaking Free from Old Patterns",
+          "actualDuration": 207.39925,
+          "startTime": 322.604542,
+          "endTime": 530.003792
+        },
+        {
+          "path": "Audio/output/3213/chapter_03.wav",
+          "duration": 200.553542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Pain Body—Transforming Emotional Suffering",
+          "actualDuration": 200.553542,
+          "startTime": 531.503792,
+          "endTime": 732.057334
+        },
+        {
+          "path": "Audio/output/3213/chapter_04.wav",
+          "duration": 201.669375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Everyday Practices for Cultivating Mindful Awareness",
+          "actualDuration": 201.669375,
+          "startTime": 733.557334,
+          "endTime": 935.226709
+        },
+        {
+          "path": "Audio/output/3213/chapter_05.wav",
+          "duration": 178.704792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Acceptance, Surrender, and the Path to Inner Peace",
+          "actualDuration": 178.704792,
+          "startTime": 936.726709,
+          "endTime": 1115.431501
+        },
+        {
+          "path": "Audio/output/3213/chapter_06.wav",
+          "duration": 175.606875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Presence—Advanced Practices for Everyday Life",
+          "actualDuration": 175.606875,
+          "startTime": 1116.931501,
+          "endTime": 1292.538376
+        },
+        {
+          "path": "Audio/output/3213/chapter_07.wav",
+          "duration": 160.584167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Presence in Relationships—Transforming Connection and Communication",
+          "actualDuration": 160.584167,
+          "startTime": 1294.038376,
+          "endTime": 1454.622543
+        },
+        {
+          "path": "Audio/output/3213/chapter_08.wav",
+          "duration": 166.544333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unfolding of Spiritual Awakening—Living Beyond the Personal Self",
+          "actualDuration": 166.544333,
+          "startTime": 1456.122543,
+          "endTime": 1622.666876
+        },
+        {
+          "path": "Audio/output/3213/chapter_09.wav",
+          "duration": 138.737542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Presence—Sustaining Change in a Busy World",
+          "actualDuration": 138.737542,
+          "startTime": 1624.166876,
+          "endTime": 1762.904418
+        },
+        {
+          "path": "Audio/output/3213/chapter_10.wav",
+          "duration": 154.849,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect—Presence as a Force for Collective Change",
+          "actualDuration": 154.849,
+          "startTime": 1764.404418,
+          "endTime": 1919.253418
+        },
+        {
+          "path": "Audio/output/3213/conclusion.wav",
+          "duration": 155.400083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.400083,
+          "startTime": 1920.753418,
+          "endTime": 2076.153501
+        }
+      ],
+      "totalDuration": 2076.153501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.2,
+          "actualStart": 0,
+          "actualEnd": 80.204042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Presence—The Foundation of Living in the Now",
+          "expectedStart": 80.2,
+          "expectedEnd": 319.6,
+          "actualStart": 81.704042,
+          "actualEnd": 321.104542,
+          "timeDifference": 1.5040419999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Mind and Ego—Breaking Free from Old Patterns",
+          "expectedStart": 319.6,
+          "expectedEnd": 527,
+          "actualStart": 322.604542,
+          "actualEnd": 530.003792,
+          "timeDifference": 3.004541999999958
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Pain Body—Transforming Emotional Suffering",
+          "expectedStart": 527,
+          "expectedEnd": 727.55,
+          "actualStart": 531.503792,
+          "actualEnd": 732.057334,
+          "timeDifference": 4.503791999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Everyday Practices for Cultivating Mindful Awareness",
+          "expectedStart": 727.55,
+          "expectedEnd": 929.22,
+          "actualStart": 733.557334,
+          "actualEnd": 935.226709,
+          "timeDifference": 6.007334000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Acceptance, Surrender, and the Path to Inner Peace",
+          "expectedStart": 929.22,
+          "expectedEnd": 1107.92,
+          "actualStart": 936.726709,
+          "actualEnd": 1115.431501,
+          "timeDifference": 7.506709000000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Presence—Advanced Practices for Everyday Life",
+          "expectedStart": 1107.92,
+          "expectedEnd": 1283.53,
+          "actualStart": 1116.931501,
+          "actualEnd": 1292.538376,
+          "timeDifference": 9.011500999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Presence in Relationships—Transforming Connection and Communication",
+          "expectedStart": 1283.53,
+          "expectedEnd": 1444.11,
+          "actualStart": 1294.038376,
+          "actualEnd": 1454.622543,
+          "timeDifference": 10.508375999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unfolding of Spiritual Awakening—Living Beyond the Personal Self",
+          "expectedStart": 1444.11,
+          "expectedEnd": 1610.65,
+          "actualStart": 1456.122543,
+          "actualEnd": 1622.666876,
+          "timeDifference": 12.01254300000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Presence—Sustaining Change in a Busy World",
+          "expectedStart": 1610.65,
+          "expectedEnd": 1749.39,
+          "actualStart": 1624.166876,
+          "actualEnd": 1762.904418,
+          "timeDifference": 13.516875999999911
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect—Presence as a Force for Collective Change",
+          "expectedStart": 1749.39,
+          "expectedEnd": 1904.24,
+          "actualStart": 1764.404418,
+          "actualEnd": 1919.253418,
+          "timeDifference": 15.014417999999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1904.24,
+          "expectedEnd": 2059.64,
+          "actualStart": 1920.753418,
+          "actualEnd": 2076.153501,
+          "timeDifference": 16.513418
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.204042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Presence—The Foundation of Living in the Now"
+        },
+        {
+          "startTime": 321.104542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Presence—The Foundation of Living in the Now and Chapter 2 Understanding the Mind and Ego—Breaking Free from Old Patterns"
+        },
+        {
+          "startTime": 530.003792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Mind and Ego—Breaking Free from Old Patterns and Chapter 3 The Pain Body—Transforming Emotional Suffering"
+        },
+        {
+          "startTime": 732.057334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Pain Body—Transforming Emotional Suffering and Chapter 4 Everyday Practices for Cultivating Mindful Awareness"
+        },
+        {
+          "startTime": 935.226709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Everyday Practices for Cultivating Mindful Awareness and Chapter 5 Acceptance, Surrender, and the Path to Inner Peace"
+        },
+        {
+          "startTime": 1115.431501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Acceptance, Surrender, and the Path to Inner Peace and Chapter 6 Deepening Presence—Advanced Practices for Everyday Life"
+        },
+        {
+          "startTime": 1292.538376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Presence—Advanced Practices for Everyday Life and Chapter 7 Presence in Relationships—Transforming Connection and Communication"
+        },
+        {
+          "startTime": 1454.622543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Presence in Relationships—Transforming Connection and Communication and Chapter 8 The Unfolding of Spiritual Awakening—Living Beyond the Personal Self"
+        },
+        {
+          "startTime": 1622.666876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unfolding of Spiritual Awakening—Living Beyond the Personal Self and Chapter 9 Integrating Presence—Sustaining Change in a Busy World"
+        },
+        {
+          "startTime": 1762.904418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Presence—Sustaining Change in a Busy World and Chapter 10 The Ripple Effect—Presence as a Force for Collective Change"
+        },
+        {
+          "startTime": 1919.253418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect—Presence as a Force for Collective Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3213",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T03:24:47.139Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "bookId": "2862",
+  "timestamp": "2025-07-14T01:10:41.590Z",
+  "success": false,
+  "processingTime": -1752455157024,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4693,
+    "totalAudioFiles": 12,
+    "totalDuration": 1843.840709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1843.840709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2862/optimized_text/2862.md",
+    "fileSize": 748,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "2862.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2862/metadata/2862_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1843.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2862/metadata/2862_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2862/metadata/2862_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2862/2862_complete.wav",
+    "duration": 1843.840708,
+    "fileSize": 88504432,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2862/introduction.wav",
+          "duration": 91.564375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.564375,
+          "startTime": 0,
+          "endTime": 91.564375
+        },
+        {
+          "path": "Audio/output/2862/chapter_01.wav",
+          "duration": 254.1075,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a City That Looks the Other Way",
+          "actualDuration": 254.1075,
+          "startTime": 93.064375,
+          "endTime": 347.171875
+        },
+        {
+          "path": "Audio/output/2862/chapter_02.wav",
+          "duration": 223.4645,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 First Steps into a World of Temptation and Escape",
+          "actualDuration": 223.4645,
+          "startTime": 348.671875,
+          "endTime": 572.136375
+        },
+        {
+          "path": "Audio/output/2862/chapter_04.wav",
+          "duration": 189.6225,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Surviving on the Margins: Crime, Exploitation, and the Search for Belonging",
+          "actualDuration": 189.6225,
+          "startTime": 573.636375,
+          "endTime": 763.258875
+        },
+        {
+          "path": "Audio/output/2862/chapter_05.wav",
+          "duration": 147.158292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Family, Hope, and the Struggle to Break Free",
+          "actualDuration": 147.158292,
+          "startTime": 764.758875,
+          "endTime": 911.917167
+        },
+        {
+          "path": "Audio/output/2862/chapter_06.wav",
+          "duration": 244.5275,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath: Picking Up the Pieces",
+          "actualDuration": 244.5275,
+          "startTime": 913.417167,
+          "endTime": 1157.944667
+        },
+        {
+          "path": "Audio/output/2862/chapter_07.wav",
+          "duration": 176.693792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Shadow: Trauma, Memory, and the Cost of Survival",
+          "actualDuration": 176.693792,
+          "startTime": 1159.444667,
+          "endTime": 1336.138459
+        },
+        {
+          "path": "Audio/output/2862/chapter_08.wav",
+          "duration": 147.965125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: Family, Community, and the Next Generation",
+          "actualDuration": 147.965125,
+          "startTime": 1337.638459,
+          "endTime": 1485.603584
+        },
+        {
+          "path": "Audio/output/2862/chapter_09.wav",
+          "duration": 153.291708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from the Edge: What the City Taught (and Failed to Teach)",
+          "actualDuration": 153.291708,
+          "startTime": 1487.103584,
+          "endTime": 1640.395292
+        },
+        {
+          "path": "Audio/output/2862/chapter_10.wav",
+          "duration": 122.42325,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Hope, Resilience, and the Power of Connection",
+          "actualDuration": 122.42325,
+          "startTime": 1641.895292,
+          "endTime": 1764.318542
+        },
+        {
+          "path": "Audio/output/2862/conclusion.wav",
+          "duration": 93.022167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.022167,
+          "startTime": 1765.818542,
+          "endTime": 1858.840709
+        }
+      ],
+      "totalDuration": 1858.840709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.56,
+          "actualStart": 0,
+          "actualEnd": 91.564375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a City That Looks the Other Way",
+          "expectedStart": 91.56,
+          "expectedEnd": 345.67,
+          "actualStart": 93.064375,
+          "actualEnd": 347.171875,
+          "timeDifference": 1.504374999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 First Steps into a World of Temptation and Escape",
+          "expectedStart": 345.67,
+          "expectedEnd": 569.13,
+          "actualStart": 348.671875,
+          "actualEnd": 572.136375,
+          "timeDifference": 3.001874999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Surviving on the Margins: Crime, Exploitation, and the Search for Belonging",
+          "expectedStart": 569.13,
+          "expectedEnd": 758.75,
+          "actualStart": 573.636375,
+          "actualEnd": 763.258875,
+          "timeDifference": 4.506375000000048
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Family, Hope, and the Struggle to Break Free",
+          "expectedStart": 758.75,
+          "expectedEnd": 905.91,
+          "actualStart": 764.758875,
+          "actualEnd": 911.917167,
+          "timeDifference": 6.008874999999989
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath: Picking Up the Pieces",
+          "expectedStart": 905.91,
+          "expectedEnd": 1150.44,
+          "actualStart": 913.417167,
+          "actualEnd": 1157.944667,
+          "timeDifference": 7.507166999999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Shadow: Trauma, Memory, and the Cost of Survival",
+          "expectedStart": 1150.44,
+          "expectedEnd": 1327.13,
+          "actualStart": 1159.444667,
+          "actualEnd": 1336.138459,
+          "timeDifference": 9.004666999999927
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: Family, Community, and the Next Generation",
+          "expectedStart": 1327.13,
+          "expectedEnd": 1475.1,
+          "actualStart": 1337.638459,
+          "actualEnd": 1485.603584,
+          "timeDifference": 10.508458999999903
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from the Edge: What the City Taught (and Failed to Teach)",
+          "expectedStart": 1475.1,
+          "expectedEnd": 1628.39,
+          "actualStart": 1487.103584,
+          "actualEnd": 1640.395292,
+          "timeDifference": 12.003584000000046
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Hope, Resilience, and the Power of Connection",
+          "expectedStart": 1628.39,
+          "expectedEnd": 1750.81,
+          "actualStart": 1641.895292,
+          "actualEnd": 1764.318542,
+          "timeDifference": 13.505291999999827
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1750.81,
+          "expectedEnd": 1843.83,
+          "actualStart": 1765.818542,
+          "actualEnd": 1858.840709,
+          "timeDifference": 15.008542000000034
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.564375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a City That Looks the Other Way"
+        },
+        {
+          "startTime": 347.171875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a City That Looks the Other Way and Chapter 2 First Steps into a World of Temptation and Escape"
+        },
+        {
+          "startTime": 572.136375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 First Steps into a World of Temptation and Escape and Chapter 4 Surviving on the Margins: Crime, Exploitation, and the Search for Belonging"
+        },
+        {
+          "startTime": 763.258875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Surviving on the Margins: Crime, Exploitation, and the Search for Belonging and Chapter 5 Family, Hope, and the Struggle to Break Free"
+        },
+        {
+          "startTime": 911.917167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Family, Hope, and the Struggle to Break Free and Chapter 6 The Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1157.944667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath: Picking Up the Pieces and Chapter 7 The Long Shadow: Trauma, Memory, and the Cost of Survival"
+        },
+        {
+          "startTime": 1336.138459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Shadow: Trauma, Memory, and the Cost of Survival and Chapter 8 The Ripple Effect: Family, Community, and the Next Generation"
+        },
+        {
+          "startTime": 1485.603584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: Family, Community, and the Next Generation and Chapter 9 Lessons from the Edge: What the City Taught (and Failed to Teach)"
+        },
+        {
+          "startTime": 1640.395292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from the Edge: What the City Taught (and Failed to Teach) and Chapter 10 Moving Forward: Hope, Resilience, and the Power of Connection"
+        },
+        {
+          "startTime": 1764.318542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Hope, Resilience, and the Power of Connection and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2862",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:05:57.525Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

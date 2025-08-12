@@ -1,0 +1,456 @@
+{
+  "bookId": "3131",
+  "timestamp": "2025-07-14T20:48:24.099Z",
+  "success": false,
+  "processingTime": -1752525697965,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3750,
+    "totalAudioFiles": 12,
+    "totalDuration": 1915.424124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1915.424124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3131/optimized_text/3131.md",
+    "fileSize": 840,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "3131.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3131/metadata/3131_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1915.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3131/metadata/3131_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3131/metadata/3131_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3131/3131_complete.wav",
+    "duration": 1915.424125,
+    "fileSize": 91940436,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3131/introduction.wav",
+          "duration": 91.629708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.629708,
+          "startTime": 0,
+          "endTime": 91.629708
+        },
+        {
+          "path": "Audio/output/3131/chapter_01.wav",
+          "duration": 185.698,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation: The Heart of a Godly Father",
+          "actualDuration": 185.698,
+          "startTime": 93.129708,
+          "endTime": 278.82770800000003
+        },
+        {
+          "path": "Audio/output/3131/chapter_02.wav",
+          "duration": 167.263375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Strong Connections: Presence, Listening, and Everyday Involvement",
+          "actualDuration": 167.263375,
+          "startTime": 280.32770800000003,
+          "endTime": 447.591083
+        },
+        {
+          "path": "Audio/output/3131/chapter_03.wav",
+          "duration": 169.764958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Leading by Example: Modeling Christ-like Character in Daily Life",
+          "actualDuration": 169.764958,
+          "startTime": 449.091083,
+          "endTime": 618.856041
+        },
+        {
+          "path": "Audio/output/3131/chapter_04.wav",
+          "duration": 177.856333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Guiding with Love: Discipline, Encouragement, and Grace",
+          "actualDuration": 177.856333,
+          "startTime": 620.356041,
+          "endTime": 798.212374
+        },
+        {
+          "path": "Audio/output/3131/chapter_05.wav",
+          "duration": 170.082958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Nurturing Faith: Creating a Spiritually Rich Family Life",
+          "actualDuration": 170.082958,
+          "startTime": 799.712374,
+          "endTime": 969.7953319999999
+        },
+        {
+          "path": "Audio/output/3131/chapter_06.wav",
+          "duration": 168.829667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Balancing Work, Faith, and Family: Creating Harmony in a Busy Life",
+          "actualDuration": 168.829667,
+          "startTime": 971.2953319999999,
+          "endTime": 1140.124999
+        },
+        {
+          "path": "Audio/output/3131/chapter_07.wav",
+          "duration": 176.748375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating Emotional Health: Teaching Resilience, Empathy, and Self-Awareness",
+          "actualDuration": 176.748375,
+          "startTime": 1141.624999,
+          "endTime": 1318.3733739999998
+        },
+        {
+          "path": "Audio/output/3131/chapter_08.wav",
+          "duration": 156.374542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Fostering Independence and Responsibility: Preparing Children for Adulthood",
+          "actualDuration": 156.374542,
+          "startTime": 1319.8733739999998,
+          "endTime": 1476.2479159999998
+        },
+        {
+          "path": "Audio/output/3131/chapter_09.wav",
+          "duration": 155.100333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building a Legacy: Passing Down Values, Traditions, and Blessings",
+          "actualDuration": 155.100333,
+          "startTime": 1477.7479159999998,
+          "endTime": 1632.848249
+        },
+        {
+          "path": "Audio/output/3131/chapter_10.wav",
+          "duration": 157.606208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Ongoing Journey: Growth, Grace, and Hope",
+          "actualDuration": 157.606208,
+          "startTime": 1634.348249,
+          "endTime": 1791.9544569999998
+        },
+        {
+          "path": "Audio/output/3131/conclusion.wav",
+          "duration": 138.469667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.469667,
+          "startTime": 1793.4544569999998,
+          "endTime": 1931.924124
+        }
+      ],
+      "totalDuration": 1931.924124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.63,
+          "actualStart": 0,
+          "actualEnd": 91.629708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation: The Heart of a Godly Father",
+          "expectedStart": 91.63,
+          "expectedEnd": 277.33,
+          "actualStart": 93.129708,
+          "actualEnd": 278.82770800000003,
+          "timeDifference": 1.4997079999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Strong Connections: Presence, Listening, and Everyday Involvement",
+          "expectedStart": 277.33,
+          "expectedEnd": 444.59,
+          "actualStart": 280.32770800000003,
+          "actualEnd": 447.591083,
+          "timeDifference": 2.9977080000000456
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Leading by Example: Modeling Christ-like Character in Daily Life",
+          "expectedStart": 444.59,
+          "expectedEnd": 614.35,
+          "actualStart": 449.091083,
+          "actualEnd": 618.856041,
+          "timeDifference": 4.501083000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Guiding with Love: Discipline, Encouragement, and Grace",
+          "expectedStart": 614.35,
+          "expectedEnd": 792.21,
+          "actualStart": 620.356041,
+          "actualEnd": 798.212374,
+          "timeDifference": 6.006040999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Nurturing Faith: Creating a Spiritually Rich Family Life",
+          "expectedStart": 792.21,
+          "expectedEnd": 962.29,
+          "actualStart": 799.712374,
+          "actualEnd": 969.7953319999999,
+          "timeDifference": 7.502373999999918
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Balancing Work, Faith, and Family: Creating Harmony in a Busy Life",
+          "expectedStart": 962.29,
+          "expectedEnd": 1131.12,
+          "actualStart": 971.2953319999999,
+          "actualEnd": 1140.124999,
+          "timeDifference": 9.005331999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating Emotional Health: Teaching Resilience, Empathy, and Self-Awareness",
+          "expectedStart": 1131.12,
+          "expectedEnd": 1307.87,
+          "actualStart": 1141.624999,
+          "actualEnd": 1318.3733739999998,
+          "timeDifference": 10.504998999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Fostering Independence and Responsibility: Preparing Children for Adulthood",
+          "expectedStart": 1307.87,
+          "expectedEnd": 1464.24,
+          "actualStart": 1319.8733739999998,
+          "actualEnd": 1476.2479159999998,
+          "timeDifference": 12.003373999999894
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building a Legacy: Passing Down Values, Traditions, and Blessings",
+          "expectedStart": 1464.24,
+          "expectedEnd": 1619.34,
+          "actualStart": 1477.7479159999998,
+          "actualEnd": 1632.848249,
+          "timeDifference": 13.507915999999796
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Ongoing Journey: Growth, Grace, and Hope",
+          "expectedStart": 1619.34,
+          "expectedEnd": 1776.95,
+          "actualStart": 1634.348249,
+          "actualEnd": 1791.9544569999998,
+          "timeDifference": 15.008248999999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1776.95,
+          "expectedEnd": 1915.42,
+          "actualStart": 1793.4544569999998,
+          "actualEnd": 1931.924124,
+          "timeDifference": 16.504456999999775
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.629708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation: The Heart of a Godly Father"
+        },
+        {
+          "startTime": 278.82770800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation: The Heart of a Godly Father and Chapter 2 Building Strong Connections: Presence, Listening, and Everyday Involvement"
+        },
+        {
+          "startTime": 447.591083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Strong Connections: Presence, Listening, and Everyday Involvement and Chapter 3 Leading by Example: Modeling Christ-like Character in Daily Life"
+        },
+        {
+          "startTime": 618.856041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Leading by Example: Modeling Christ-like Character in Daily Life and Chapter 4 Guiding with Love: Discipline, Encouragement, and Grace"
+        },
+        {
+          "startTime": 798.212374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Guiding with Love: Discipline, Encouragement, and Grace and Chapter 5 Nurturing Faith: Creating a Spiritually Rich Family Life"
+        },
+        {
+          "startTime": 969.7953319999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Nurturing Faith: Creating a Spiritually Rich Family Life and Chapter 6 Balancing Work, Faith, and Family: Creating Harmony in a Busy Life"
+        },
+        {
+          "startTime": 1140.124999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Balancing Work, Faith, and Family: Creating Harmony in a Busy Life and Chapter 7 Cultivating Emotional Health: Teaching Resilience, Empathy, and Self-Awareness"
+        },
+        {
+          "startTime": 1318.3733739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating Emotional Health: Teaching Resilience, Empathy, and Self-Awareness and Chapter 8 Fostering Independence and Responsibility: Preparing Children for Adulthood"
+        },
+        {
+          "startTime": 1476.2479159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Fostering Independence and Responsibility: Preparing Children for Adulthood and Chapter 9 Building a Legacy: Passing Down Values, Traditions, and Blessings"
+        },
+        {
+          "startTime": 1632.848249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building a Legacy: Passing Down Values, Traditions, and Blessings and Chapter 10 Embracing the Ongoing Journey: Growth, Grace, and Hope"
+        },
+        {
+          "startTime": 1791.9544569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Ongoing Journey: Growth, Grace, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3131",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T20:41:39.543Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

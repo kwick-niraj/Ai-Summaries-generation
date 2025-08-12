@@ -1,0 +1,433 @@
+{
+  "bookId": "3173",
+  "timestamp": "2025-07-15T00:27:29.404Z",
+  "success": false,
+  "processingTime": -1752538965336,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4944,
+    "totalAudioFiles": 11,
+    "totalDuration": 2307.0804580000004
+  },
+  "sections": {
+    "introduction": false,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2307.0804580000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3173/optimized_text/3173.md",
+    "fileSize": 698,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "3173.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3173/metadata/3173_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2307.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3173/metadata/3173_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3173/metadata/3173_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": false,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3173/3173_complete.wav",
+    "duration": 2307.080458,
+    "fileSize": 110739940,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3173/chapter_01.wav",
+          "duration": 230.02075,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary Days and Unseen Dangers in Everyday Life",
+          "actualDuration": 230.02075,
+          "startTime": 0,
+          "endTime": 230.02075
+        },
+        {
+          "path": "Audio/output/3173/chapter_02.wav",
+          "duration": 237.379708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Trauma of Violence and the Struggle to Survive",
+          "actualDuration": 237.379708,
+          "startTime": 231.52075,
+          "endTime": 468.90045799999996
+        },
+        {
+          "path": "Audio/output/3173/chapter_03.wav",
+          "duration": 240.086458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Criminal Justice System: Hope, Frustration, and the Search for Justice",
+          "actualDuration": 240.086458,
+          "startTime": 470.40045799999996,
+          "endTime": 710.486916
+        },
+        {
+          "path": "Audio/output/3173/chapter_04.wav",
+          "duration": 253.449167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Community Response and the Power of Support",
+          "actualDuration": 253.449167,
+          "startTime": 711.986916,
+          "endTime": 965.4360829999999
+        },
+        {
+          "path": "Audio/output/3173/chapter_05.wav",
+          "duration": 219.252208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Strength and Reclaiming Life After Trauma",
+          "actualDuration": 219.252208,
+          "startTime": 966.9360829999999,
+          "endTime": 1186.188291
+        },
+        {
+          "path": "Audio/output/3173/chapter_06.wav",
+          "duration": 227.458875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advocacy, Awareness, and the Fight for Change",
+          "actualDuration": 227.458875,
+          "startTime": 1187.688291,
+          "endTime": 1415.147166
+        },
+        {
+          "path": "Audio/output/3173/chapter_07.wav",
+          "duration": 219.464333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Shadow: Living with the Aftermath",
+          "actualDuration": 219.464333,
+          "startTime": 1416.647166,
+          "endTime": 1636.111499
+        },
+        {
+          "path": "Audio/output/3173/chapter_08.wav",
+          "duration": 210.346375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Breaking the Silence: The Power of Telling the Truth",
+          "actualDuration": 210.346375,
+          "startTime": 1637.611499,
+          "endTime": 1847.9578740000002
+        },
+        {
+          "path": "Audio/output/3173/chapter_09.wav",
+          "duration": 193.326792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for Families, Communities, and Society",
+          "actualDuration": 193.326792,
+          "startTime": 1849.4578740000002,
+          "endTime": 2042.7846660000002
+        },
+        {
+          "path": "Audio/output/3173/chapter_10.wav",
+          "duration": 151.04875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Hope, Resilience, and the Possibility of Renewal",
+          "actualDuration": 151.04875,
+          "startTime": 2044.2846660000002,
+          "endTime": 2195.3334160000004
+        },
+        {
+          "path": "Audio/output/3173/conclusion.wav",
+          "duration": 125.247042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.247042,
+          "startTime": 2196.8334160000004,
+          "endTime": 2322.0804580000004
+        }
+      ],
+      "totalDuration": 2322.0804580000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Chapter 1 Ordinary Days and Unseen Dangers in Everyday Life",
+          "expectedStart": 0,
+          "expectedEnd": 230.02,
+          "actualStart": 0,
+          "actualEnd": 230.02075,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 2 The Trauma of Violence and the Struggle to Survive",
+          "expectedStart": 230.02,
+          "expectedEnd": 467.4,
+          "actualStart": 231.52075,
+          "actualEnd": 468.90045799999996,
+          "timeDifference": 1.5007499999999823
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 3 The Criminal Justice System: Hope, Frustration, and the Search for Justice",
+          "expectedStart": 467.4,
+          "expectedEnd": 707.49,
+          "actualStart": 470.40045799999996,
+          "actualEnd": 710.486916,
+          "timeDifference": 3.0004579999999805
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 4 Community Response and the Power of Support",
+          "expectedStart": 707.49,
+          "expectedEnd": 960.94,
+          "actualStart": 711.986916,
+          "actualEnd": 965.4360829999999,
+          "timeDifference": 4.496915999999942
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 5 Finding Strength and Reclaiming Life After Trauma",
+          "expectedStart": 960.94,
+          "expectedEnd": 1180.19,
+          "actualStart": 966.9360829999999,
+          "actualEnd": 1186.188291,
+          "timeDifference": 5.996082999999885
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 6 Advocacy, Awareness, and the Fight for Change",
+          "expectedStart": 1180.19,
+          "expectedEnd": 1407.65,
+          "actualStart": 1187.688291,
+          "actualEnd": 1415.147166,
+          "timeDifference": 7.498290999999881
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 7 The Long Shadow: Living with the Aftermath",
+          "expectedStart": 1407.65,
+          "expectedEnd": 1627.11,
+          "actualStart": 1416.647166,
+          "actualEnd": 1636.111499,
+          "timeDifference": 8.99716599999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 8 Breaking the Silence: The Power of Telling the Truth",
+          "expectedStart": 1627.11,
+          "expectedEnd": 1837.46,
+          "actualStart": 1637.611499,
+          "actualEnd": 1847.9578740000002,
+          "timeDifference": 10.501499000000194
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 9 Lessons for Families, Communities, and Society",
+          "expectedStart": 1837.46,
+          "expectedEnd": 2030.79,
+          "actualStart": 1849.4578740000002,
+          "actualEnd": 2042.7846660000002,
+          "timeDifference": 11.997874000000138
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 10 Moving Forward: Hope, Resilience, and the Possibility of Renewal",
+          "expectedStart": 2030.79,
+          "expectedEnd": 2181.84,
+          "actualStart": 2044.2846660000002,
+          "actualEnd": 2195.3334160000004,
+          "timeDifference": 13.49466600000028
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2181.84,
+          "expectedEnd": 2307.09,
+          "actualStart": 2196.8334160000004,
+          "actualEnd": 2322.0804580000004,
+          "timeDifference": 14.993416000000252
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 230.02075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary Days and Unseen Dangers in Everyday Life and Chapter 2 The Trauma of Violence and the Struggle to Survive"
+        },
+        {
+          "startTime": 468.90045799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Trauma of Violence and the Struggle to Survive and Chapter 3 The Criminal Justice System: Hope, Frustration, and the Search for Justice"
+        },
+        {
+          "startTime": 710.486916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Criminal Justice System: Hope, Frustration, and the Search for Justice and Chapter 4 Community Response and the Power of Support"
+        },
+        {
+          "startTime": 965.4360829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Community Response and the Power of Support and Chapter 5 Finding Strength and Reclaiming Life After Trauma"
+        },
+        {
+          "startTime": 1186.188291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Strength and Reclaiming Life After Trauma and Chapter 6 Advocacy, Awareness, and the Fight for Change"
+        },
+        {
+          "startTime": 1415.147166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advocacy, Awareness, and the Fight for Change and Chapter 7 The Long Shadow: Living with the Aftermath"
+        },
+        {
+          "startTime": 1636.111499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Shadow: Living with the Aftermath and Chapter 8 Breaking the Silence: The Power of Telling the Truth"
+        },
+        {
+          "startTime": 1847.9578740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Breaking the Silence: The Power of Telling the Truth and Chapter 9 Lessons for Families, Communities, and Society"
+        },
+        {
+          "startTime": 2042.7846660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for Families, Communities, and Society and Chapter 10 Moving Forward: Hope, Resilience, and the Possibility of Renewal"
+        },
+        {
+          "startTime": 2195.3334160000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Hope, Resilience, and the Possibility of Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3173",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-15T00:22:46.581Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

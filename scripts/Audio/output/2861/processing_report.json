@@ -1,0 +1,456 @@
+{
+  "bookId": "2861",
+  "timestamp": "2025-07-14T01:05:56.018Z",
+  "success": false,
+  "processingTime": -1752454911886,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4064,
+    "totalAudioFiles": 12,
+    "totalDuration": 2316.577666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2316.577666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2861/optimized_text/2861.md",
+    "fileSize": 704,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2861.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2861/metadata/2861_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2316.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2861/metadata/2861_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2861/metadata/2861_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2861/2861_complete.wav",
+    "duration": 2316.577667,
+    "fileSize": 111195806,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2861/introduction.wav",
+          "duration": 126.191458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 126.191458,
+          "startTime": 0,
+          "endTime": 126.191458
+        },
+        {
+          "path": "Audio/output/2861/chapter_01.wav",
+          "duration": 226.912625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Originality and the Value of Questioning the Status Quo",
+          "actualDuration": 226.912625,
+          "startTime": 127.691458,
+          "endTime": 354.604083
+        },
+        {
+          "path": "Audio/output/2861/chapter_02.wav",
+          "duration": 216.278625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Myths and Realities of Risk-Taking Among Original Thinkers",
+          "actualDuration": 216.278625,
+          "startTime": 356.104083,
+          "endTime": 572.382708
+        },
+        {
+          "path": "Audio/output/2861/chapter_03.wav",
+          "duration": 257.251125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Generating and Selecting Original Ideas",
+          "actualDuration": 257.251125,
+          "startTime": 573.882708,
+          "endTime": 831.133833
+        },
+        {
+          "path": "Audio/output/2861/chapter_04.wav",
+          "duration": 255.991583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Doubt, Fear, and the Role of Procrastination in Creativity",
+          "actualDuration": 255.991583,
+          "startTime": 832.633833,
+          "endTime": 1088.6254159999999
+        },
+        {
+          "path": "Audio/output/2861/chapter_05.wav",
+          "duration": 229.151125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Support and Overcoming Resistance to New Ideas",
+          "actualDuration": 229.151125,
+          "startTime": 1090.1254159999999,
+          "endTime": 1319.276541
+        },
+        {
+          "path": "Audio/output/2861/chapter_06.wav",
+          "duration": 189.32575,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Creating Cultures That Nurture Originality",
+          "actualDuration": 189.32575,
+          "startTime": 1320.776541,
+          "endTime": 1510.102291
+        },
+        {
+          "path": "Audio/output/2861/chapter_07.wav",
+          "duration": 190.283875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Leading Change Without Authority",
+          "actualDuration": 190.283875,
+          "startTime": 1511.602291,
+          "endTime": 1701.886166
+        },
+        {
+          "path": "Audio/output/2861/chapter_08.wav",
+          "duration": 154.954,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Motivation and Avoiding Burnout",
+          "actualDuration": 154.954,
+          "startTime": 1703.386166,
+          "endTime": 1858.340166
+        },
+        {
+          "path": "Audio/output/2861/chapter_09.wav",
+          "duration": 163.390042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embedding Originality Into Everyday Life",
+          "actualDuration": 163.390042,
+          "startTime": 1859.840166,
+          "endTime": 2023.230208
+        },
+        {
+          "path": "Audio/output/2861/chapter_10.wav",
+          "duration": 149.578625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect—Inspiring Originality in Others",
+          "actualDuration": 149.578625,
+          "startTime": 2024.730208,
+          "endTime": 2174.308833
+        },
+        {
+          "path": "Audio/output/2861/conclusion.wav",
+          "duration": 157.268833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 157.268833,
+          "startTime": 2175.808833,
+          "endTime": 2333.077666
+        }
+      ],
+      "totalDuration": 2333.077666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 126.19,
+          "actualStart": 0,
+          "actualEnd": 126.191458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Originality and the Value of Questioning the Status Quo",
+          "expectedStart": 126.19,
+          "expectedEnd": 353.1,
+          "actualStart": 127.691458,
+          "actualEnd": 354.604083,
+          "timeDifference": 1.5014579999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Myths and Realities of Risk-Taking Among Original Thinkers",
+          "expectedStart": 353.1,
+          "expectedEnd": 569.38,
+          "actualStart": 356.104083,
+          "actualEnd": 572.382708,
+          "timeDifference": 3.00408299999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Generating and Selecting Original Ideas",
+          "expectedStart": 569.38,
+          "expectedEnd": 826.63,
+          "actualStart": 573.882708,
+          "actualEnd": 831.133833,
+          "timeDifference": 4.502707999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Doubt, Fear, and the Role of Procrastination in Creativity",
+          "expectedStart": 826.63,
+          "expectedEnd": 1082.62,
+          "actualStart": 832.633833,
+          "actualEnd": 1088.6254159999999,
+          "timeDifference": 6.003832999999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Support and Overcoming Resistance to New Ideas",
+          "expectedStart": 1082.62,
+          "expectedEnd": 1311.77,
+          "actualStart": 1090.1254159999999,
+          "actualEnd": 1319.276541,
+          "timeDifference": 7.505415999999968
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Creating Cultures That Nurture Originality",
+          "expectedStart": 1311.77,
+          "expectedEnd": 1501.1,
+          "actualStart": 1320.776541,
+          "actualEnd": 1510.102291,
+          "timeDifference": 9.00654099999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Leading Change Without Authority",
+          "expectedStart": 1501.1,
+          "expectedEnd": 1691.38,
+          "actualStart": 1511.602291,
+          "actualEnd": 1701.886166,
+          "timeDifference": 10.502291000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Motivation and Avoiding Burnout",
+          "expectedStart": 1691.38,
+          "expectedEnd": 1846.33,
+          "actualStart": 1703.386166,
+          "actualEnd": 1858.340166,
+          "timeDifference": 12.006165999999894
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embedding Originality Into Everyday Life",
+          "expectedStart": 1846.33,
+          "expectedEnd": 2009.72,
+          "actualStart": 1859.840166,
+          "actualEnd": 2023.230208,
+          "timeDifference": 13.510166000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect—Inspiring Originality in Others",
+          "expectedStart": 2009.72,
+          "expectedEnd": 2159.3,
+          "actualStart": 2024.730208,
+          "actualEnd": 2174.308833,
+          "timeDifference": 15.01020799999992
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2159.3,
+          "expectedEnd": 2316.57,
+          "actualStart": 2175.808833,
+          "actualEnd": 2333.077666,
+          "timeDifference": 16.508832999999868
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 126.191458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Originality and the Value of Questioning the Status Quo"
+        },
+        {
+          "startTime": 354.604083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Originality and the Value of Questioning the Status Quo and Chapter 2 The Myths and Realities of Risk-Taking Among Original Thinkers"
+        },
+        {
+          "startTime": 572.382708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Myths and Realities of Risk-Taking Among Original Thinkers and Chapter 3 Generating and Selecting Original Ideas"
+        },
+        {
+          "startTime": 831.133833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Generating and Selecting Original Ideas and Chapter 4 Navigating Doubt, Fear, and the Role of Procrastination in Creativity"
+        },
+        {
+          "startTime": 1088.6254159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Doubt, Fear, and the Role of Procrastination in Creativity and Chapter 5 Building Support and Overcoming Resistance to New Ideas"
+        },
+        {
+          "startTime": 1319.276541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Support and Overcoming Resistance to New Ideas and Chapter 6 Creating Cultures That Nurture Originality"
+        },
+        {
+          "startTime": 1510.102291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Creating Cultures That Nurture Originality and Chapter 7 Leading Change Without Authority"
+        },
+        {
+          "startTime": 1701.886166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Leading Change Without Authority and Chapter 8 Sustaining Motivation and Avoiding Burnout"
+        },
+        {
+          "startTime": 1858.340166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Motivation and Avoiding Burnout and Chapter 9 Embedding Originality Into Everyday Life"
+        },
+        {
+          "startTime": 2023.230208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embedding Originality Into Everyday Life and Chapter 10 The Ripple Effect—Inspiring Originality in Others"
+        },
+        {
+          "startTime": 2174.308833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect—Inspiring Originality in Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2861",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T01:01:53.058Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

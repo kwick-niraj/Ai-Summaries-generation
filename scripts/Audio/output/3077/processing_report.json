@@ -1,0 +1,504 @@
+{
+  "bookId": "3077",
+  "timestamp": "2025-07-14T16:48:33.474Z",
+  "success": false,
+  "processingTime": -1752511277116,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5038,
+    "totalAudioFiles": 14,
+    "totalDuration": 2548.96325
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2548.96325
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3077/optimized_text/3077.md",
+    "fileSize": 758,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "3077.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3077/metadata/3077_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2548.97,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3077/metadata/3077_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3077/metadata/3077_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3077/3077_complete.wav",
+    "duration": 2548.96325,
+    "fileSize": 122350314,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3077/introduction.wav",
+          "duration": 89.711125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.711125,
+          "startTime": 0,
+          "endTime": 89.711125
+        },
+        {
+          "path": "Audio/output/3077/chapter_01.wav",
+          "duration": 282.076417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Country on the Edge of Change",
+          "actualDuration": 282.076417,
+          "startTime": 91.211125,
+          "endTime": 373.287542
+        },
+        {
+          "path": "Audio/output/3077/chapter_02.wav",
+          "duration": 247.355958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Flight That Changed Everything",
+          "actualDuration": 247.355958,
+          "startTime": 374.787542,
+          "endTime": 622.1434999999999
+        },
+        {
+          "path": "Audio/output/3077/chapter_03.wav",
+          "duration": 205.861958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Rise of Modern Celebrity and Mass Media",
+          "actualDuration": 205.861958,
+          "startTime": 623.6434999999999,
+          "endTime": 829.5054579999999
+        },
+        {
+          "path": "Audio/output/3077/chapter_04.wav",
+          "duration": 215.090375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Baseball, Ambition, and the American Dream",
+          "actualDuration": 215.090375,
+          "startTime": 831.0054579999999,
+          "endTime": 1046.0958329999999
+        },
+        {
+          "path": "Audio/output/3077/chapter_05.wav",
+          "duration": 254.815042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Prosperity, Inequality, and the Contradictions of Progress",
+          "actualDuration": 254.815042,
+          "startTime": 1047.5958329999999,
+          "endTime": 1302.4108749999998
+        },
+        {
+          "path": "Audio/output/3077/chapter_06.wav",
+          "duration": 184.144458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Floods That Tested a Nation",
+          "actualDuration": 184.144458,
+          "startTime": 1303.9108749999998,
+          "endTime": 1488.0553329999998
+        },
+        {
+          "path": "Audio/output/3077/chapter_07.wav",
+          "duration": 161.679,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Roar of Industry and the Quiet of Small Towns",
+          "actualDuration": 161.679,
+          "startTime": 1489.5553329999998,
+          "endTime": 1651.2343329999999
+        },
+        {
+          "path": "Audio/output/3077/chapter_08.wav",
+          "duration": 153.587292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Politics of Promise and Prejudice",
+          "actualDuration": 153.587292,
+          "startTime": 1652.7343329999999,
+          "endTime": 1806.3216249999998
+        },
+        {
+          "path": "Audio/output/3077/chapter_09.wav",
+          "duration": 173.282083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Culture of Spectacle and the Birth of Modern Entertainment",
+          "actualDuration": 173.282083,
+          "startTime": 1807.8216249999998,
+          "endTime": 1981.1037079999999
+        },
+        {
+          "path": "Audio/output/3077/chapter_10.wav",
+          "duration": 137.198625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Science, Innovation, and the Edge of Tomorrow",
+          "actualDuration": 137.198625,
+          "startTime": 1982.6037079999999,
+          "endTime": 2119.8023329999996
+        },
+        {
+          "path": "Audio/output/3077/chapter_11.wav",
+          "duration": 149.869167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Shadows of Crime and the Lure of Notoriety",
+          "actualDuration": 149.869167,
+          "startTime": 2121.3023329999996,
+          "endTime": 2271.1714999999995
+        },
+        {
+          "path": "Audio/output/3077/chapter_12.wav",
+          "duration": 157.527167,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The End of Summer and the Seeds of Change",
+          "actualDuration": 157.527167,
+          "startTime": 2272.6714999999995,
+          "endTime": 2430.1986669999997
+        },
+        {
+          "path": "Audio/output/3077/conclusion.wav",
+          "duration": 136.764583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.764583,
+          "startTime": 2431.6986669999997,
+          "endTime": 2568.46325
+        }
+      ],
+      "totalDuration": 2568.46325,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.71,
+          "actualStart": 0,
+          "actualEnd": 89.711125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Country on the Edge of Change",
+          "expectedStart": 89.71,
+          "expectedEnd": 371.79,
+          "actualStart": 91.211125,
+          "actualEnd": 373.287542,
+          "timeDifference": 1.5011250000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Flight That Changed Everything",
+          "expectedStart": 371.79,
+          "expectedEnd": 619.15,
+          "actualStart": 374.787542,
+          "actualEnd": 622.1434999999999,
+          "timeDifference": 2.997541999999953
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Rise of Modern Celebrity and Mass Media",
+          "expectedStart": 619.15,
+          "expectedEnd": 825.01,
+          "actualStart": 623.6434999999999,
+          "actualEnd": 829.5054579999999,
+          "timeDifference": 4.493499999999926
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Baseball, Ambition, and the American Dream",
+          "expectedStart": 825.01,
+          "expectedEnd": 1040.1,
+          "actualStart": 831.0054579999999,
+          "actualEnd": 1046.0958329999999,
+          "timeDifference": 5.995457999999871
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Prosperity, Inequality, and the Contradictions of Progress",
+          "expectedStart": 1040.1,
+          "expectedEnd": 1294.92,
+          "actualStart": 1047.5958329999999,
+          "actualEnd": 1302.4108749999998,
+          "timeDifference": 7.495832999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Floods That Tested a Nation",
+          "expectedStart": 1294.92,
+          "expectedEnd": 1479.06,
+          "actualStart": 1303.9108749999998,
+          "actualEnd": 1488.0553329999998,
+          "timeDifference": 8.990874999999733
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Roar of Industry and the Quiet of Small Towns",
+          "expectedStart": 1479.06,
+          "expectedEnd": 1640.74,
+          "actualStart": 1489.5553329999998,
+          "actualEnd": 1651.2343329999999,
+          "timeDifference": 10.495332999999846
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Politics of Promise and Prejudice",
+          "expectedStart": 1640.74,
+          "expectedEnd": 1794.33,
+          "actualStart": 1652.7343329999999,
+          "actualEnd": 1806.3216249999998,
+          "timeDifference": 11.99433299999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Culture of Spectacle and the Birth of Modern Entertainment",
+          "expectedStart": 1794.33,
+          "expectedEnd": 1967.61,
+          "actualStart": 1807.8216249999998,
+          "actualEnd": 1981.1037079999999,
+          "timeDifference": 13.491624999999885
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Science, Innovation, and the Edge of Tomorrow",
+          "expectedStart": 1967.61,
+          "expectedEnd": 2104.81,
+          "actualStart": 1982.6037079999999,
+          "actualEnd": 2119.8023329999996,
+          "timeDifference": 14.99370799999997
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Shadows of Crime and the Lure of Notoriety",
+          "expectedStart": 2104.81,
+          "expectedEnd": 2254.68,
+          "actualStart": 2121.3023329999996,
+          "actualEnd": 2271.1714999999995,
+          "timeDifference": 16.49233299999969
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The End of Summer and the Seeds of Change",
+          "expectedStart": 2254.68,
+          "expectedEnd": 2412.21,
+          "actualStart": 2272.6714999999995,
+          "actualEnd": 2430.1986669999997,
+          "timeDifference": 17.991499999999633
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2412.21,
+          "expectedEnd": 2548.97,
+          "actualStart": 2431.6986669999997,
+          "actualEnd": 2568.46325,
+          "timeDifference": 19.488666999999623
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.711125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Country on the Edge of Change"
+        },
+        {
+          "startTime": 373.287542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Country on the Edge of Change and Chapter 2 The Flight That Changed Everything"
+        },
+        {
+          "startTime": 622.1434999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Flight That Changed Everything and Chapter 3 The Rise of Modern Celebrity and Mass Media"
+        },
+        {
+          "startTime": 829.5054579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Rise of Modern Celebrity and Mass Media and Chapter 4 Baseball, Ambition, and the American Dream"
+        },
+        {
+          "startTime": 1046.0958329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Baseball, Ambition, and the American Dream and Chapter 5 Prosperity, Inequality, and the Contradictions of Progress"
+        },
+        {
+          "startTime": 1302.4108749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Prosperity, Inequality, and the Contradictions of Progress and Chapter 6 The Floods That Tested a Nation"
+        },
+        {
+          "startTime": 1488.0553329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Floods That Tested a Nation and Chapter 7 The Roar of Industry and the Quiet of Small Towns"
+        },
+        {
+          "startTime": 1651.2343329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Roar of Industry and the Quiet of Small Towns and Chapter 8 The Politics of Promise and Prejudice"
+        },
+        {
+          "startTime": 1806.3216249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Politics of Promise and Prejudice and Chapter 9 The Culture of Spectacle and the Birth of Modern Entertainment"
+        },
+        {
+          "startTime": 1981.1037079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Culture of Spectacle and the Birth of Modern Entertainment and Chapter 10 Science, Innovation, and the Edge of Tomorrow"
+        },
+        {
+          "startTime": 2119.8023329999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Science, Innovation, and the Edge of Tomorrow and Chapter 11 The Shadows of Crime and the Lure of Notoriety"
+        },
+        {
+          "startTime": 2271.1714999999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Shadows of Crime and the Lure of Notoriety and Chapter 12 The End of Summer and the Seeds of Change"
+        },
+        {
+          "startTime": 2430.1986669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The End of Summer and the Seeds of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3077",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T16:41:17.142Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

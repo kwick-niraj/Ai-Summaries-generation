@@ -1,0 +1,480 @@
+{
+  "bookId": "3027",
+  "timestamp": "2025-07-14T12:50:43.956Z",
+  "success": false,
+  "processingTime": -1752497028250,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4609,
+    "totalAudioFiles": 13,
+    "totalDuration": 2065.895418
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2065.895418
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/3027/optimized_text/3027.md",
+    "fileSize": 921,
+    "wordCount": 138,
+    "format": "markdown",
+    "filename": "3027.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/3027/metadata/3027_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2065.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/3027/metadata/3027_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/3027/metadata/3027_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/3027/3027_complete.wav",
+    "duration": 2065.895417,
+    "fileSize": 99163058,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/3027/introduction.wav",
+          "duration": 103.059417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.059417,
+          "startTime": 0,
+          "endTime": 103.059417
+        },
+        {
+          "path": "Audio/output/3027/chapter_01.wav",
+          "duration": 214.048417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Certainty: How Today’s Truths Become Tomorrow’s Myths",
+          "actualDuration": 214.048417,
+          "startTime": 104.559417,
+          "endTime": 318.607834
+        },
+        {
+          "path": "Audio/output/3027/chapter_02.wav",
+          "duration": 217.518875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Shifting Ground of Science: When Facts Become Flexible",
+          "actualDuration": 217.518875,
+          "startTime": 320.107834,
+          "endTime": 537.626709
+        },
+        {
+          "path": "Audio/output/3027/chapter_03.wav",
+          "duration": 179.795875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unpredictable Legacy of Art and Culture",
+          "actualDuration": 179.795875,
+          "startTime": 539.126709,
+          "endTime": 718.922584
+        },
+        {
+          "path": "Audio/output/3027/chapter_04.wav",
+          "duration": 177.629875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Prediction: Why the Future Always Surprises",
+          "actualDuration": 177.629875,
+          "startTime": 720.422584,
+          "endTime": 898.052459
+        },
+        {
+          "path": "Audio/output/3027/chapter_05.wav",
+          "duration": 160.146125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Stories We Tell Ourselves: How Narratives Shape Reality",
+          "actualDuration": 160.146125,
+          "startTime": 899.552459,
+          "endTime": 1059.698584
+        },
+        {
+          "path": "Audio/output/3027/chapter_06.wav",
+          "duration": 161.814542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Consensus: When Everyone Agrees, Are We Closer to the Truth?",
+          "actualDuration": 161.814542,
+          "startTime": 1061.198584,
+          "endTime": 1223.013126
+        },
+        {
+          "path": "Audio/output/3027/chapter_07.wav",
+          "duration": 151.050083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Gravity of the Present: Why It’s So Hard to See Beyond Now",
+          "actualDuration": 151.050083,
+          "startTime": 1224.513126,
+          "endTime": 1375.5632090000001
+        },
+        {
+          "path": "Audio/output/3027/chapter_08.wav",
+          "duration": 153.370667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Blind Spots of Progress: What We Miss When We Think We’re Advancing",
+          "actualDuration": 153.370667,
+          "startTime": 1377.0632090000001,
+          "endTime": 1530.433876
+        },
+        {
+          "path": "Audio/output/3027/chapter_09.wav",
+          "duration": 136.600167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Comfort of Closure: Why We Crave Endings (and Why They’re Rarely Real)",
+          "actualDuration": 136.600167,
+          "startTime": 1531.933876,
+          "endTime": 1668.534043
+        },
+        {
+          "path": "Audio/output/3027/chapter_10.wav",
+          "duration": 129.316792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Power of Doubt: How Uncertainty Fuels Creativity and Change",
+          "actualDuration": 129.316792,
+          "startTime": 1670.034043,
+          "endTime": 1799.3508350000002
+        },
+        {
+          "path": "Audio/output/3027/chapter_11.wav",
+          "duration": 126.246833,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Invitation to Wonder: Living with Questions, Not Just Answers",
+          "actualDuration": 126.246833,
+          "startTime": 1800.8508350000002,
+          "endTime": 1927.097668
+        },
+        {
+          "path": "Audio/output/3027/conclusion.wav",
+          "duration": 155.29775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.29775,
+          "startTime": 1928.597668,
+          "endTime": 2083.895418
+        }
+      ],
+      "totalDuration": 2083.895418,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.06,
+          "actualStart": 0,
+          "actualEnd": 103.059417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Certainty: How Today’s Truths Become Tomorrow’s Myths",
+          "expectedStart": 103.06,
+          "expectedEnd": 317.11,
+          "actualStart": 104.559417,
+          "actualEnd": 318.607834,
+          "timeDifference": 1.499416999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Shifting Ground of Science: When Facts Become Flexible",
+          "expectedStart": 317.11,
+          "expectedEnd": 534.63,
+          "actualStart": 320.107834,
+          "actualEnd": 537.626709,
+          "timeDifference": 2.9978340000000117
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unpredictable Legacy of Art and Culture",
+          "expectedStart": 534.63,
+          "expectedEnd": 714.43,
+          "actualStart": 539.126709,
+          "actualEnd": 718.922584,
+          "timeDifference": 4.49670900000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Prediction: Why the Future Always Surprises",
+          "expectedStart": 714.43,
+          "expectedEnd": 892.06,
+          "actualStart": 720.422584,
+          "actualEnd": 898.052459,
+          "timeDifference": 5.992584000000079
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Stories We Tell Ourselves: How Narratives Shape Reality",
+          "expectedStart": 892.06,
+          "expectedEnd": 1052.21,
+          "actualStart": 899.552459,
+          "actualEnd": 1059.698584,
+          "timeDifference": 7.4924590000000535
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Consensus: When Everyone Agrees, Are We Closer to the Truth?",
+          "expectedStart": 1052.21,
+          "expectedEnd": 1214.02,
+          "actualStart": 1061.198584,
+          "actualEnd": 1223.013126,
+          "timeDifference": 8.988583999999946
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Gravity of the Present: Why It’s So Hard to See Beyond Now",
+          "expectedStart": 1214.02,
+          "expectedEnd": 1365.07,
+          "actualStart": 1224.513126,
+          "actualEnd": 1375.5632090000001,
+          "timeDifference": 10.493126000000075
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Blind Spots of Progress: What We Miss When We Think We’re Advancing",
+          "expectedStart": 1365.07,
+          "expectedEnd": 1518.44,
+          "actualStart": 1377.0632090000001,
+          "actualEnd": 1530.433876,
+          "timeDifference": 11.993209000000206
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Comfort of Closure: Why We Crave Endings (and Why They’re Rarely Real)",
+          "expectedStart": 1518.44,
+          "expectedEnd": 1655.04,
+          "actualStart": 1531.933876,
+          "actualEnd": 1668.534043,
+          "timeDifference": 13.493876
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Power of Doubt: How Uncertainty Fuels Creativity and Change",
+          "expectedStart": 1655.04,
+          "expectedEnd": 1784.36,
+          "actualStart": 1670.034043,
+          "actualEnd": 1799.3508350000002,
+          "timeDifference": 14.994043000000147
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Invitation to Wonder: Living with Questions, Not Just Answers",
+          "expectedStart": 1784.36,
+          "expectedEnd": 1910.61,
+          "actualStart": 1800.8508350000002,
+          "actualEnd": 1927.097668,
+          "timeDifference": 16.49083500000029
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1910.61,
+          "expectedEnd": 2065.91,
+          "actualStart": 1928.597668,
+          "actualEnd": 2083.895418,
+          "timeDifference": 17.987668000000212
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.059417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Certainty: How Today’s Truths Become Tomorrow’s Myths"
+        },
+        {
+          "startTime": 318.607834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Certainty: How Today’s Truths Become Tomorrow’s Myths and Chapter 2 The Shifting Ground of Science: When Facts Become Flexible"
+        },
+        {
+          "startTime": 537.626709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Shifting Ground of Science: When Facts Become Flexible and Chapter 3 The Unpredictable Legacy of Art and Culture"
+        },
+        {
+          "startTime": 718.922584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unpredictable Legacy of Art and Culture and Chapter 4 The Limits of Prediction: Why the Future Always Surprises"
+        },
+        {
+          "startTime": 898.052459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Prediction: Why the Future Always Surprises and Chapter 5 The Stories We Tell Ourselves: How Narratives Shape Reality"
+        },
+        {
+          "startTime": 1059.698584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Stories We Tell Ourselves: How Narratives Shape Reality and Chapter 6 The Weight of Consensus: When Everyone Agrees, Are We Closer to the Truth?"
+        },
+        {
+          "startTime": 1223.013126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Consensus: When Everyone Agrees, Are We Closer to the Truth? and Chapter 7 The Gravity of the Present: Why It’s So Hard to See Beyond Now"
+        },
+        {
+          "startTime": 1375.5632090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Gravity of the Present: Why It’s So Hard to See Beyond Now and Chapter 8 The Blind Spots of Progress: What We Miss When We Think We’re Advancing"
+        },
+        {
+          "startTime": 1530.433876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Blind Spots of Progress: What We Miss When We Think We’re Advancing and Chapter 9 The Comfort of Closure: Why We Crave Endings (and Why They’re Rarely Real)"
+        },
+        {
+          "startTime": 1668.534043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Comfort of Closure: Why We Crave Endings (and Why They’re Rarely Real) and Chapter 10 The Power of Doubt: How Uncertainty Fuels Creativity and Change"
+        },
+        {
+          "startTime": 1799.3508350000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Power of Doubt: How Uncertainty Fuels Creativity and Change and Chapter 11 The Invitation to Wonder: Living with Questions, Not Just Answers"
+        },
+        {
+          "startTime": 1927.097668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Invitation to Wonder: Living with Questions, Not Just Answers and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "3027",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-14T12:43:48.267Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
