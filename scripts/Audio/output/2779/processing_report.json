@@ -1,0 +1,456 @@
+{
+  "bookId": "2779",
+  "timestamp": "2025-07-13T19:12:40.476Z",
+  "success": false,
+  "processingTime": -1752433651987,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4504,
+    "totalAudioFiles": 12,
+    "totalDuration": 2282.132168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2282.132168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2779/optimized_text/2779.md",
+    "fileSize": 732,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "2779.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2779/metadata/2779_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2282.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2779/metadata/2779_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2779/metadata/2779_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2779/2779_complete.wav",
+    "duration": 2282.132167,
+    "fileSize": 109542422,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2779/introduction.wav",
+          "duration": 116.764125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.764125,
+          "startTime": 0,
+          "endTime": 116.764125
+        },
+        {
+          "path": "Audio/output/2779/chapter_01.wav",
+          "duration": 229.084042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Hidden Costs of Chronic Niceness",
+          "actualDuration": 229.084042,
+          "startTime": 118.264125,
+          "endTime": 347.348167
+        },
+        {
+          "path": "Audio/output/2779/chapter_02.wav",
+          "duration": 240.906083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Tracing the Roots of People-Pleasing and Approval-Seeking",
+          "actualDuration": 240.906083,
+          "startTime": 348.848167,
+          "endTime": 589.75425
+        },
+        {
+          "path": "Audio/output/2779/chapter_03.wav",
+          "duration": 242.313667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Emotional Toll—Guilt, Fear, and the Cycle of Silence",
+          "actualDuration": 242.313667,
+          "startTime": 591.25425,
+          "endTime": 833.567917
+        },
+        {
+          "path": "Audio/output/2779/chapter_04.wav",
+          "duration": 251.313667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reclaiming Self-Worth and Building Assertiveness",
+          "actualDuration": 251.313667,
+          "startTime": 835.067917,
+          "endTime": 1086.381584
+        },
+        {
+          "path": "Audio/output/2779/chapter_05.wav",
+          "duration": 242.608292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Setting Boundaries and Embracing Honest Communication",
+          "actualDuration": 242.608292,
+          "startTime": 1087.881584,
+          "endTime": 1330.489876
+        },
+        {
+          "path": "Audio/output/2779/chapter_06.wav",
+          "duration": 180.64725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Pushback and Handling Discomfort",
+          "actualDuration": 180.64725,
+          "startTime": 1331.989876,
+          "endTime": 1512.637126
+        },
+        {
+          "path": "Audio/output/2779/chapter_07.wav",
+          "duration": 178.533042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rewriting the Internal Script—From Self-Criticism to Self-Compassion",
+          "actualDuration": 178.533042,
+          "startTime": 1514.137126,
+          "endTime": 1692.670168
+        },
+        {
+          "path": "Audio/output/2779/chapter_08.wav",
+          "duration": 157.24075,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Asking Boldly—Making Requests and Owning Desires",
+          "actualDuration": 157.24075,
+          "startTime": 1694.170168,
+          "endTime": 1851.410918
+        },
+        {
+          "path": "Audio/output/2779/chapter_09.wav",
+          "duration": 134.819458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Change—Building Habits of Authenticity",
+          "actualDuration": 134.819458,
+          "startTime": 1852.910918,
+          "endTime": 1987.730376
+        },
+        {
+          "path": "Audio/output/2779/chapter_10.wav",
+          "duration": 135.721167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Cultivating Authentic Relationships and Community",
+          "actualDuration": 135.721167,
+          "startTime": 1989.230376,
+          "endTime": 2124.951543
+        },
+        {
+          "path": "Audio/output/2779/conclusion.wav",
+          "duration": 172.180625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 172.180625,
+          "startTime": 2126.451543,
+          "endTime": 2298.632168
+        }
+      ],
+      "totalDuration": 2298.632168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.76,
+          "actualStart": 0,
+          "actualEnd": 116.764125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Hidden Costs of Chronic Niceness",
+          "expectedStart": 116.76,
+          "expectedEnd": 345.84,
+          "actualStart": 118.264125,
+          "actualEnd": 347.348167,
+          "timeDifference": 1.504125000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Tracing the Roots of People-Pleasing and Approval-Seeking",
+          "expectedStart": 345.84,
+          "expectedEnd": 586.75,
+          "actualStart": 348.848167,
+          "actualEnd": 589.75425,
+          "timeDifference": 3.0081670000000145
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Emotional Toll—Guilt, Fear, and the Cycle of Silence",
+          "expectedStart": 586.75,
+          "expectedEnd": 829.06,
+          "actualStart": 591.25425,
+          "actualEnd": 833.567917,
+          "timeDifference": 4.504249999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reclaiming Self-Worth and Building Assertiveness",
+          "expectedStart": 829.06,
+          "expectedEnd": 1080.37,
+          "actualStart": 835.067917,
+          "actualEnd": 1086.381584,
+          "timeDifference": 6.00791700000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Setting Boundaries and Embracing Honest Communication",
+          "expectedStart": 1080.37,
+          "expectedEnd": 1322.98,
+          "actualStart": 1087.881584,
+          "actualEnd": 1330.489876,
+          "timeDifference": 7.511584000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Pushback and Handling Discomfort",
+          "expectedStart": 1322.98,
+          "expectedEnd": 1503.63,
+          "actualStart": 1331.989876,
+          "actualEnd": 1512.637126,
+          "timeDifference": 9.009876000000077
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rewriting the Internal Script—From Self-Criticism to Self-Compassion",
+          "expectedStart": 1503.63,
+          "expectedEnd": 1682.16,
+          "actualStart": 1514.137126,
+          "actualEnd": 1692.670168,
+          "timeDifference": 10.507125999999971
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Asking Boldly—Making Requests and Owning Desires",
+          "expectedStart": 1682.16,
+          "expectedEnd": 1839.4,
+          "actualStart": 1694.170168,
+          "actualEnd": 1851.410918,
+          "timeDifference": 12.010168000000021
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Change—Building Habits of Authenticity",
+          "expectedStart": 1839.4,
+          "expectedEnd": 1974.22,
+          "actualStart": 1852.910918,
+          "actualEnd": 1987.730376,
+          "timeDifference": 13.510917999999947
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Cultivating Authentic Relationships and Community",
+          "expectedStart": 1974.22,
+          "expectedEnd": 2109.94,
+          "actualStart": 1989.230376,
+          "actualEnd": 2124.951543,
+          "timeDifference": 15.010375999999951
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2109.94,
+          "expectedEnd": 2282.12,
+          "actualStart": 2126.451543,
+          "actualEnd": 2298.632168,
+          "timeDifference": 16.511543000000074
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.764125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Hidden Costs of Chronic Niceness"
+        },
+        {
+          "startTime": 347.348167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Hidden Costs of Chronic Niceness and Chapter 2 Tracing the Roots of People-Pleasing and Approval-Seeking"
+        },
+        {
+          "startTime": 589.75425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Tracing the Roots of People-Pleasing and Approval-Seeking and Chapter 3 The Emotional Toll—Guilt, Fear, and the Cycle of Silence"
+        },
+        {
+          "startTime": 833.567917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Emotional Toll—Guilt, Fear, and the Cycle of Silence and Chapter 4 Reclaiming Self-Worth and Building Assertiveness"
+        },
+        {
+          "startTime": 1086.381584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reclaiming Self-Worth and Building Assertiveness and Chapter 5 Setting Boundaries and Embracing Honest Communication"
+        },
+        {
+          "startTime": 1330.489876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Setting Boundaries and Embracing Honest Communication and Chapter 6 Navigating Pushback and Handling Discomfort"
+        },
+        {
+          "startTime": 1512.637126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Pushback and Handling Discomfort and Chapter 7 Rewriting the Internal Script—From Self-Criticism to Self-Compassion"
+        },
+        {
+          "startTime": 1692.670168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rewriting the Internal Script—From Self-Criticism to Self-Compassion and Chapter 8 Asking Boldly—Making Requests and Owning Desires"
+        },
+        {
+          "startTime": 1851.410918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Asking Boldly—Making Requests and Owning Desires and Chapter 9 Sustaining Change—Building Habits of Authenticity"
+        },
+        {
+          "startTime": 1987.730376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Change—Building Habits of Authenticity and Chapter 10 Cultivating Authentic Relationships and Community"
+        },
+        {
+          "startTime": 2124.951543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Cultivating Authentic Relationships and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2779",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:07:33.834Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

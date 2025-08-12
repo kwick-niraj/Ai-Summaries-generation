@@ -1,0 +1,456 @@
+{
+  "bookId": "2748",
+  "timestamp": "2025-07-13T17:46:05.813Z",
+  "success": false,
+  "processingTime": -1752428532101,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4912,
+    "totalAudioFiles": 12,
+    "totalDuration": 2338.1434600000007
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2338.1434600000007
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2748/optimized_text/2748.md",
+    "fileSize": 699,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2748.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2748/metadata/2748_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2338.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2748/metadata/2748_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2748/metadata/2748_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2748/2748_complete.wav",
+    "duration": 2338.143458,
+    "fileSize": 112230964,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2748/introduction.wav",
+          "duration": 94.589792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.589792,
+          "startTime": 0,
+          "endTime": 94.589792
+        },
+        {
+          "path": "Audio/output/2748/chapter_01.wav",
+          "duration": 289.2105,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Dreams and the Seeds of Creative Culture",
+          "actualDuration": 289.2105,
+          "startTime": 96.089792,
+          "endTime": 385.300292
+        },
+        {
+          "path": "Audio/output/2748/chapter_02.wav",
+          "duration": 257.885833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Team That Trusts and Challenges Each Other",
+          "actualDuration": 257.885833,
+          "startTime": 386.800292,
+          "endTime": 644.686125
+        },
+        {
+          "path": "Audio/output/2748/chapter_03.wav",
+          "duration": 227.900792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Failure as a Path to Innovation",
+          "actualDuration": 227.900792,
+          "startTime": 646.186125,
+          "endTime": 874.086917
+        },
+        {
+          "path": "Audio/output/2748/chapter_04.wav",
+          "duration": 254.417125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Honest Feedback and the Braintrust Model",
+          "actualDuration": 254.417125,
+          "startTime": 875.586917,
+          "endTime": 1130.004042
+        },
+        {
+          "path": "Audio/output/2748/chapter_05.wav",
+          "duration": 250.64125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Protecting the Creative Culture from Hidden Threats",
+          "actualDuration": 250.64125,
+          "startTime": 1131.504042,
+          "endTime": 1382.1452920000002
+        },
+        {
+          "path": "Audio/output/2748/chapter_06.wav",
+          "duration": 162.243042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Growth and the Temptation of Certainty",
+          "actualDuration": 162.243042,
+          "startTime": 1383.6452920000002,
+          "endTime": 1545.8883340000002
+        },
+        {
+          "path": "Audio/output/2748/chapter_07.wav",
+          "duration": 184.4245,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Leadership as Stewardship, Not Control",
+          "actualDuration": 184.4245,
+          "startTime": 1547.3883340000002,
+          "endTime": 1731.8128340000003
+        },
+        {
+          "path": "Audio/output/2748/chapter_08.wav",
+          "duration": 159.92,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unseen Forces—Fear, Ego, and the Need for Safety",
+          "actualDuration": 159.92,
+          "startTime": 1733.3128340000003,
+          "endTime": 1893.2328340000004
+        },
+        {
+          "path": "Audio/output/2748/chapter_09.wav",
+          "duration": 178.910667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Creativity Through Change and Uncertainty",
+          "actualDuration": 178.910667,
+          "startTime": 1894.7328340000004,
+          "endTime": 2073.6435010000005
+        },
+        {
+          "path": "Audio/output/2748/chapter_10.wav",
+          "duration": 135.018042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Any Organization—Translating Pixar’s Wisdom",
+          "actualDuration": 135.018042,
+          "startTime": 2075.1435010000005,
+          "endTime": 2210.1615430000006
+        },
+        {
+          "path": "Audio/output/2748/conclusion.wav",
+          "duration": 142.981917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.981917,
+          "startTime": 2211.6615430000006,
+          "endTime": 2354.6434600000007
+        }
+      ],
+      "totalDuration": 2354.6434600000007,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.59,
+          "actualStart": 0,
+          "actualEnd": 94.589792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Dreams and the Seeds of Creative Culture",
+          "expectedStart": 94.59,
+          "expectedEnd": 383.8,
+          "actualStart": 96.089792,
+          "actualEnd": 385.300292,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Team That Trusts and Challenges Each Other",
+          "expectedStart": 383.8,
+          "expectedEnd": 641.69,
+          "actualStart": 386.800292,
+          "actualEnd": 644.686125,
+          "timeDifference": 3.0002920000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Failure as a Path to Innovation",
+          "expectedStart": 641.69,
+          "expectedEnd": 869.59,
+          "actualStart": 646.186125,
+          "actualEnd": 874.086917,
+          "timeDifference": 4.496124999999893
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Honest Feedback and the Braintrust Model",
+          "expectedStart": 869.59,
+          "expectedEnd": 1124.01,
+          "actualStart": 875.586917,
+          "actualEnd": 1130.004042,
+          "timeDifference": 5.996916999999939
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Protecting the Creative Culture from Hidden Threats",
+          "expectedStart": 1124.01,
+          "expectedEnd": 1374.65,
+          "actualStart": 1131.504042,
+          "actualEnd": 1382.1452920000002,
+          "timeDifference": 7.494042000000036
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Growth and the Temptation of Certainty",
+          "expectedStart": 1374.65,
+          "expectedEnd": 1536.89,
+          "actualStart": 1383.6452920000002,
+          "actualEnd": 1545.8883340000002,
+          "timeDifference": 8.995292000000063
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Leadership as Stewardship, Not Control",
+          "expectedStart": 1536.89,
+          "expectedEnd": 1721.31,
+          "actualStart": 1547.3883340000002,
+          "actualEnd": 1731.8128340000003,
+          "timeDifference": 10.498334000000114
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unseen Forces—Fear, Ego, and the Need for Safety",
+          "expectedStart": 1721.31,
+          "expectedEnd": 1881.23,
+          "actualStart": 1733.3128340000003,
+          "actualEnd": 1893.2328340000004,
+          "timeDifference": 12.002834000000348
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Creativity Through Change and Uncertainty",
+          "expectedStart": 1881.23,
+          "expectedEnd": 2060.14,
+          "actualStart": 1894.7328340000004,
+          "actualEnd": 2073.6435010000005,
+          "timeDifference": 13.502834000000348
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Any Organization—Translating Pixar’s Wisdom",
+          "expectedStart": 2060.14,
+          "expectedEnd": 2195.16,
+          "actualStart": 2075.1435010000005,
+          "actualEnd": 2210.1615430000006,
+          "timeDifference": 15.003501000000597
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2195.16,
+          "expectedEnd": 2338.14,
+          "actualStart": 2211.6615430000006,
+          "actualEnd": 2354.6434600000007,
+          "timeDifference": 16.501543000000765
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.589792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Dreams and the Seeds of Creative Culture"
+        },
+        {
+          "startTime": 385.300292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Dreams and the Seeds of Creative Culture and Chapter 2 Building a Team That Trusts and Challenges Each Other"
+        },
+        {
+          "startTime": 644.686125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Team That Trusts and Challenges Each Other and Chapter 3 Embracing Failure as a Path to Innovation"
+        },
+        {
+          "startTime": 874.086917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Failure as a Path to Innovation and Chapter 4 The Power of Honest Feedback and the Braintrust Model"
+        },
+        {
+          "startTime": 1130.004042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Honest Feedback and the Braintrust Model and Chapter 5 Protecting the Creative Culture from Hidden Threats"
+        },
+        {
+          "startTime": 1382.1452920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Protecting the Creative Culture from Hidden Threats and Chapter 6 Navigating Growth and the Temptation of Certainty"
+        },
+        {
+          "startTime": 1545.8883340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Growth and the Temptation of Certainty and Chapter 7 Leadership as Stewardship, Not Control"
+        },
+        {
+          "startTime": 1731.8128340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Leadership as Stewardship, Not Control and Chapter 8 The Unseen Forces—Fear, Ego, and the Need for Safety"
+        },
+        {
+          "startTime": 1893.2328340000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unseen Forces—Fear, Ego, and the Need for Safety and Chapter 9 Sustaining Creativity Through Change and Uncertainty"
+        },
+        {
+          "startTime": 2073.6435010000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Creativity Through Change and Uncertainty and Chapter 10 Lessons for Any Organization—Translating Pixar’s Wisdom"
+        },
+        {
+          "startTime": 2210.1615430000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Any Organization—Translating Pixar’s Wisdom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2748",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:42:12.633Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

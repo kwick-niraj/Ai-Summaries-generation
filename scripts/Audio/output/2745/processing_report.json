@@ -1,0 +1,384 @@
+{
+  "bookId": "2745",
+  "timestamp": "2025-07-13T17:38:40.432Z",
+  "success": false,
+  "processingTime": -1752428119767,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4515,
+    "totalAudioFiles": 12,
+    "totalDuration": 1416.591543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 9,
+    "failed": 3,
+    "duration": 1416.591543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2745/optimized_text/2745.md",
+    "fileSize": 3910,
+    "wordCount": 644,
+    "format": "markdown",
+    "filename": "2745.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2745/metadata/2745_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1416.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2745/metadata/2745_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2745/metadata/2745_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2745/2745_complete.wav",
+    "duration": 1416.591542,
+    "fileSize": 67996472,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2745/introduction.wav",
+          "duration": 84.439792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.439792,
+          "startTime": 0,
+          "endTime": 84.439792
+        },
+        {
+          "path": "Audio/output/2745/chapter_03.wav",
+          "duration": 186.141708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living with Lies: The Human Cost of Historical Amnesia",
+          "actualDuration": 186.141708,
+          "startTime": 85.939792,
+          "endTime": 272.0815
+        },
+        {
+          "path": "Audio/output/2745/chapter_04.wav",
+          "duration": 188.719792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Return of the Past: Katyn in the Age of Glasnost and Beyond",
+          "actualDuration": 188.719792,
+          "startTime": 273.5815,
+          "endTime": 462.301292
+        },
+        {
+          "path": "Audio/output/2745/chapter_05.wav",
+          "duration": 198.252167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory Wars: The Politics of History in Putin’s Russia",
+          "actualDuration": 198.252167,
+          "startTime": 463.801292,
+          "endTime": 662.053459
+        },
+        {
+          "path": "Audio/output/2745/chapter_06.wav",
+          "duration": 165.918292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unquiet Dead: Families, Justice, and the Long Road to Recognition",
+          "actualDuration": 165.918292,
+          "startTime": 663.553459,
+          "endTime": 829.471751
+        },
+        {
+          "path": "Audio/output/2745/chapter_07.wav",
+          "duration": 156.779375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Echoes of Katyn: Art, Literature, and the Struggle to Remember",
+          "actualDuration": 156.779375,
+          "startTime": 830.971751,
+          "endTime": 987.751126
+        },
+        {
+          "path": "Audio/output/2745/chapter_08.wav",
+          "duration": 173.182917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The International Stage: Diplomacy, Apologies, and the Limits of Reconciliation",
+          "actualDuration": 173.182917,
+          "startTime": 989.251126,
+          "endTime": 1162.434043
+        },
+        {
+          "path": "Audio/output/2745/chapter_09.wav",
+          "duration": 142.333667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The New Generation: Inheriting Memory, Shaping the Future",
+          "actualDuration": 142.333667,
+          "startTime": 1163.934043,
+          "endTime": 1306.26771
+        },
+        {
+          "path": "Audio/output/2745/conclusion.wav",
+          "duration": 120.823833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.823833,
+          "startTime": 1307.76771,
+          "endTime": 1428.591543
+        }
+      ],
+      "totalDuration": 1428.591543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.44,
+          "actualStart": 0,
+          "actualEnd": 84.439792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living with Lies: The Human Cost of Historical Amnesia",
+          "expectedStart": 84.44,
+          "expectedEnd": 270.58,
+          "actualStart": 85.939792,
+          "actualEnd": 272.0815,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Return of the Past: Katyn in the Age of Glasnost and Beyond",
+          "expectedStart": 270.58,
+          "expectedEnd": 459.3,
+          "actualStart": 273.5815,
+          "actualEnd": 462.301292,
+          "timeDifference": 3.0015000000000214
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory Wars: The Politics of History in Putin’s Russia",
+          "expectedStart": 459.3,
+          "expectedEnd": 657.55,
+          "actualStart": 463.801292,
+          "actualEnd": 662.053459,
+          "timeDifference": 4.501291999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unquiet Dead: Families, Justice, and the Long Road to Recognition",
+          "expectedStart": 657.55,
+          "expectedEnd": 823.47,
+          "actualStart": 663.553459,
+          "actualEnd": 829.471751,
+          "timeDifference": 6.003459000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Echoes of Katyn: Art, Literature, and the Struggle to Remember",
+          "expectedStart": 823.47,
+          "expectedEnd": 980.25,
+          "actualStart": 830.971751,
+          "actualEnd": 987.751126,
+          "timeDifference": 7.501751000000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The International Stage: Diplomacy, Apologies, and the Limits of Reconciliation",
+          "expectedStart": 980.25,
+          "expectedEnd": 1153.43,
+          "actualStart": 989.251126,
+          "actualEnd": 1162.434043,
+          "timeDifference": 9.001126
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The New Generation: Inheriting Memory, Shaping the Future",
+          "expectedStart": 1153.43,
+          "expectedEnd": 1295.76,
+          "actualStart": 1163.934043,
+          "actualEnd": 1306.26771,
+          "timeDifference": 10.50404299999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1295.76,
+          "expectedEnd": 1416.58,
+          "actualStart": 1307.76771,
+          "actualEnd": 1428.591543,
+          "timeDifference": 12.007710000000088
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.439792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 3 Living with Lies: The Human Cost of Historical Amnesia"
+        },
+        {
+          "startTime": 272.0815,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living with Lies: The Human Cost of Historical Amnesia and Chapter 4 The Return of the Past: Katyn in the Age of Glasnost and Beyond"
+        },
+        {
+          "startTime": 462.301292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Return of the Past: Katyn in the Age of Glasnost and Beyond and Chapter 5 Memory Wars: The Politics of History in Putin’s Russia"
+        },
+        {
+          "startTime": 662.053459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory Wars: The Politics of History in Putin’s Russia and Chapter 6 The Unquiet Dead: Families, Justice, and the Long Road to Recognition"
+        },
+        {
+          "startTime": 829.471751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unquiet Dead: Families, Justice, and the Long Road to Recognition and Chapter 7 The Echoes of Katyn: Art, Literature, and the Struggle to Remember"
+        },
+        {
+          "startTime": 987.751126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Echoes of Katyn: Art, Literature, and the Struggle to Remember and Chapter 8 The International Stage: Diplomacy, Apologies, and the Limits of Reconciliation"
+        },
+        {
+          "startTime": 1162.434043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The International Stage: Diplomacy, Apologies, and the Limits of Reconciliation and Chapter 9 The New Generation: Inheriting Memory, Shaping the Future"
+        },
+        {
+          "startTime": 1306.26771,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The New Generation: Inheriting Memory, Shaping the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 9
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2745",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:35:21.470Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "bookId": "2757",
+  "timestamp": "2025-07-13T18:16:05.633Z",
+  "success": false,
+  "processingTime": -1752430257124,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4562,
+    "totalAudioFiles": 13,
+    "totalDuration": 2179.308832
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2179.308832
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2757/optimized_text/2757.md",
+    "fileSize": 773,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "2757.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2757/metadata/2757_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2179.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2757/metadata/2757_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2757/metadata/2757_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2757/2757_complete.wav",
+    "duration": 2179.308833,
+    "fileSize": 104606902,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2757/introduction.wav",
+          "duration": 85.6565,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.6565,
+          "startTime": 0,
+          "endTime": 85.6565
+        },
+        {
+          "path": "Audio/output/2757/chapter_01.wav",
+          "duration": 254.050375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Height of Roman Power and the Seeds of Change",
+          "actualDuration": 254.050375,
+          "startTime": 87.1565,
+          "endTime": 341.20687499999997
+        },
+        {
+          "path": "Audio/output/2757/chapter_02.wav",
+          "duration": 227.375458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Internal Struggles and the Erosion of Civic Life",
+          "actualDuration": 227.375458,
+          "startTime": 342.70687499999997,
+          "endTime": 570.082333
+        },
+        {
+          "path": "Audio/output/2757/chapter_03.wav",
+          "duration": 195.358083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Pressures of Invasion and the Limits of Power",
+          "actualDuration": 195.358083,
+          "startTime": 571.582333,
+          "endTime": 766.9404159999999
+        },
+        {
+          "path": "Audio/output/2757/chapter_04.wav",
+          "duration": 214.580167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Rise of Christianity and the Transformation of Roman Society",
+          "actualDuration": 214.580167,
+          "startTime": 768.4404159999999,
+          "endTime": 983.0205829999999
+        },
+        {
+          "path": "Audio/output/2757/chapter_05.wav",
+          "duration": 209.515583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Leadership, Institutions, and the Struggle to Adapt",
+          "actualDuration": 209.515583,
+          "startTime": 984.5205829999999,
+          "endTime": 1194.0361659999999
+        },
+        {
+          "path": "Audio/output/2757/chapter_06.wav",
+          "duration": 165.376917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Empire Divided—East and West Drift Apart",
+          "actualDuration": 165.376917,
+          "startTime": 1195.5361659999999,
+          "endTime": 1360.913083
+        },
+        {
+          "path": "Audio/output/2757/chapter_07.wav",
+          "duration": 177.42275,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Barbarian Migrations—A World in Motion",
+          "actualDuration": 177.42275,
+          "startTime": 1362.413083,
+          "endTime": 1539.8358329999999
+        },
+        {
+          "path": "Audio/output/2757/chapter_08.wav",
+          "duration": 145.976875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Sack of Rome—A City’s Fall and a World’s Shock",
+          "actualDuration": 145.976875,
+          "startTime": 1541.3358329999999,
+          "endTime": 1687.312708
+        },
+        {
+          "path": "Audio/output/2757/chapter_09.wav",
+          "duration": 149.652458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Last Emperors and the End of the Western Empire",
+          "actualDuration": 149.652458,
+          "startTime": 1688.812708,
+          "endTime": 1838.465166
+        },
+        {
+          "path": "Audio/output/2757/chapter_10.wav",
+          "duration": 121.217,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Eastern Empire—Survival and Transformation",
+          "actualDuration": 121.217,
+          "startTime": 1839.965166,
+          "endTime": 1961.182166
+        },
+        {
+          "path": "Audio/output/2757/chapter_11.wav",
+          "duration": 125.436833,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Legacy of Rome—Memory, Myth, and Meaning",
+          "actualDuration": 125.436833,
+          "startTime": 1962.682166,
+          "endTime": 2088.1189990000003
+        },
+        {
+          "path": "Audio/output/2757/conclusion.wav",
+          "duration": 107.689833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.689833,
+          "startTime": 2089.6189990000003,
+          "endTime": 2197.308832
+        }
+      ],
+      "totalDuration": 2197.308832,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.66,
+          "actualStart": 0,
+          "actualEnd": 85.6565,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Height of Roman Power and the Seeds of Change",
+          "expectedStart": 85.66,
+          "expectedEnd": 339.71,
+          "actualStart": 87.1565,
+          "actualEnd": 341.20687499999997,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Internal Struggles and the Erosion of Civic Life",
+          "expectedStart": 339.71,
+          "expectedEnd": 567.09,
+          "actualStart": 342.70687499999997,
+          "actualEnd": 570.082333,
+          "timeDifference": 2.9968749999999886
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Pressures of Invasion and the Limits of Power",
+          "expectedStart": 567.09,
+          "expectedEnd": 762.45,
+          "actualStart": 571.582333,
+          "actualEnd": 766.9404159999999,
+          "timeDifference": 4.492332999999917
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Rise of Christianity and the Transformation of Roman Society",
+          "expectedStart": 762.45,
+          "expectedEnd": 977.03,
+          "actualStart": 768.4404159999999,
+          "actualEnd": 983.0205829999999,
+          "timeDifference": 5.990415999999868
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Leadership, Institutions, and the Struggle to Adapt",
+          "expectedStart": 977.03,
+          "expectedEnd": 1186.55,
+          "actualStart": 984.5205829999999,
+          "actualEnd": 1194.0361659999999,
+          "timeDifference": 7.490582999999901
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Empire Divided—East and West Drift Apart",
+          "expectedStart": 1186.55,
+          "expectedEnd": 1351.93,
+          "actualStart": 1195.5361659999999,
+          "actualEnd": 1360.913083,
+          "timeDifference": 8.986165999999912
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Barbarian Migrations—A World in Motion",
+          "expectedStart": 1351.93,
+          "expectedEnd": 1529.35,
+          "actualStart": 1362.413083,
+          "actualEnd": 1539.8358329999999,
+          "timeDifference": 10.483082999999851
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Sack of Rome—A City’s Fall and a World’s Shock",
+          "expectedStart": 1529.35,
+          "expectedEnd": 1675.33,
+          "actualStart": 1541.3358329999999,
+          "actualEnd": 1687.312708,
+          "timeDifference": 11.985832999999957
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Last Emperors and the End of the Western Empire",
+          "expectedStart": 1675.33,
+          "expectedEnd": 1824.98,
+          "actualStart": 1688.812708,
+          "actualEnd": 1838.465166,
+          "timeDifference": 13.482708000000002
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Eastern Empire—Survival and Transformation",
+          "expectedStart": 1824.98,
+          "expectedEnd": 1946.2,
+          "actualStart": 1839.965166,
+          "actualEnd": 1961.182166,
+          "timeDifference": 14.985165999999936
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Legacy of Rome—Memory, Myth, and Meaning",
+          "expectedStart": 1946.2,
+          "expectedEnd": 2071.64,
+          "actualStart": 1962.682166,
+          "actualEnd": 2088.1189990000003,
+          "timeDifference": 16.482166000000007
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2071.64,
+          "expectedEnd": 2179.33,
+          "actualStart": 2089.6189990000003,
+          "actualEnd": 2197.308832,
+          "timeDifference": 17.978999000000385
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.6565,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Height of Roman Power and the Seeds of Change"
+        },
+        {
+          "startTime": 341.20687499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Height of Roman Power and the Seeds of Change and Chapter 2 Internal Struggles and the Erosion of Civic Life"
+        },
+        {
+          "startTime": 570.082333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Internal Struggles and the Erosion of Civic Life and Chapter 3 The Pressures of Invasion and the Limits of Power"
+        },
+        {
+          "startTime": 766.9404159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Pressures of Invasion and the Limits of Power and Chapter 4 The Rise of Christianity and the Transformation of Roman Society"
+        },
+        {
+          "startTime": 983.0205829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Rise of Christianity and the Transformation of Roman Society and Chapter 5 Leadership, Institutions, and the Struggle to Adapt"
+        },
+        {
+          "startTime": 1194.0361659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Leadership, Institutions, and the Struggle to Adapt and Chapter 6 The Empire Divided—East and West Drift Apart"
+        },
+        {
+          "startTime": 1360.913083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Empire Divided—East and West Drift Apart and Chapter 7 The Barbarian Migrations—A World in Motion"
+        },
+        {
+          "startTime": 1539.8358329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Barbarian Migrations—A World in Motion and Chapter 8 The Sack of Rome—A City’s Fall and a World’s Shock"
+        },
+        {
+          "startTime": 1687.312708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Sack of Rome—A City’s Fall and a World’s Shock and Chapter 9 The Last Emperors and the End of the Western Empire"
+        },
+        {
+          "startTime": 1838.465166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Last Emperors and the End of the Western Empire and Chapter 10 The Eastern Empire—Survival and Transformation"
+        },
+        {
+          "startTime": 1961.182166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Eastern Empire—Survival and Transformation and Chapter 11 The Legacy of Rome—Memory, Myth, and Meaning"
+        },
+        {
+          "startTime": 2088.1189990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Legacy of Rome—Memory, Myth, and Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2757",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:10:57.645Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

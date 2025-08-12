@@ -1,0 +1,456 @@
+{
+  "bookId": "2752",
+  "timestamp": "2025-07-13T17:58:48.684Z",
+  "success": false,
+  "processingTime": -1752429289097,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4272,
+    "totalAudioFiles": 12,
+    "totalDuration": 2131.746834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2131.746834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2752/optimized_text/2752.md",
+    "fileSize": 850,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2752.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2752/metadata/2752_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2131.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2752/metadata/2752_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2752/metadata/2752_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2752/2752_complete.wav",
+    "duration": 2131.746833,
+    "fileSize": 102323926,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2752/introduction.wav",
+          "duration": 83.644375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.644375,
+          "startTime": 0,
+          "endTime": 83.644375
+        },
+        {
+          "path": "Audio/output/2752/chapter_01.wav",
+          "duration": 240.920792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Progress—Why Creating Something New Matters Most",
+          "actualDuration": 240.920792,
+          "startTime": 85.144375,
+          "endTime": 326.065167
+        },
+        {
+          "path": "Audio/output/2752/chapter_02.wav",
+          "duration": 231.798167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Monopoly—Why Unique Value Beats Competition",
+          "actualDuration": 231.798167,
+          "startTime": 327.565167,
+          "endTime": 559.363334
+        },
+        {
+          "path": "Audio/output/2752/chapter_03.wav",
+          "duration": 231.00475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Contrarian Thinking—Challenging Assumptions to Find Hidden Opportunities",
+          "actualDuration": 231.00475,
+          "startTime": 560.863334,
+          "endTime": 791.868084
+        },
+        {
+          "path": "Audio/output/2752/chapter_04.wav",
+          "duration": 212.350875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Strong Foundations—The Role of Founders, Teams, and Culture",
+          "actualDuration": 212.350875,
+          "startTime": 793.368084,
+          "endTime": 1005.7189589999999
+        },
+        {
+          "path": "Audio/output/2752/chapter_05.wav",
+          "duration": 178.863083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Beyond the Product—The Importance of Sales, Distribution, and Differentiation",
+          "actualDuration": 178.863083,
+          "startTime": 1007.2189589999999,
+          "endTime": 1186.082042
+        },
+        {
+          "path": "Audio/output/2752/chapter_06.wav",
+          "duration": 198.23275,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Scaling Up—From Small Beginnings to Lasting Impact",
+          "actualDuration": 198.23275,
+          "startTime": 1187.582042,
+          "endTime": 1385.8147920000001
+        },
+        {
+          "path": "Audio/output/2752/chapter_07.wav",
+          "duration": 161.351583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long-Term View—Durability, Defensibility, and the Power of Vision",
+          "actualDuration": 161.351583,
+          "startTime": 1387.3147920000001,
+          "endTime": 1548.6663750000002
+        },
+        {
+          "path": "Audio/output/2752/chapter_08.wav",
+          "duration": 195.916792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Uncertainty—Risk, Failure, and the Art of Adaptation",
+          "actualDuration": 195.916792,
+          "startTime": 1550.1663750000002,
+          "endTime": 1746.0831670000002
+        },
+        {
+          "path": "Audio/output/2752/chapter_09.wav",
+          "duration": 129.414625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Broader Impact—Innovation, Society, and the Future",
+          "actualDuration": 129.414625,
+          "startTime": 1747.5831670000002,
+          "endTime": 1876.9977920000001
+        },
+        {
+          "path": "Audio/output/2752/chapter_10.wav",
+          "duration": 143.675167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Putting It All Together—A Blueprint for Building the Future",
+          "actualDuration": 143.675167,
+          "startTime": 1878.4977920000001,
+          "endTime": 2022.172959
+        },
+        {
+          "path": "Audio/output/2752/conclusion.wav",
+          "duration": 124.573875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.573875,
+          "startTime": 2023.672959,
+          "endTime": 2148.246834
+        }
+      ],
+      "totalDuration": 2148.246834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.64,
+          "actualStart": 0,
+          "actualEnd": 83.644375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Progress—Why Creating Something New Matters Most",
+          "expectedStart": 83.64,
+          "expectedEnd": 324.56,
+          "actualStart": 85.144375,
+          "actualEnd": 326.065167,
+          "timeDifference": 1.504374999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Monopoly—Why Unique Value Beats Competition",
+          "expectedStart": 324.56,
+          "expectedEnd": 556.36,
+          "actualStart": 327.565167,
+          "actualEnd": 559.363334,
+          "timeDifference": 3.0051669999999717
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Contrarian Thinking—Challenging Assumptions to Find Hidden Opportunities",
+          "expectedStart": 556.36,
+          "expectedEnd": 787.36,
+          "actualStart": 560.863334,
+          "actualEnd": 791.868084,
+          "timeDifference": 4.503333999999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Strong Foundations—The Role of Founders, Teams, and Culture",
+          "expectedStart": 787.36,
+          "expectedEnd": 999.71,
+          "actualStart": 793.368084,
+          "actualEnd": 1005.7189589999999,
+          "timeDifference": 6.00808399999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Beyond the Product—The Importance of Sales, Distribution, and Differentiation",
+          "expectedStart": 999.71,
+          "expectedEnd": 1178.57,
+          "actualStart": 1007.2189589999999,
+          "actualEnd": 1186.082042,
+          "timeDifference": 7.508958999999891
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Scaling Up—From Small Beginnings to Lasting Impact",
+          "expectedStart": 1178.57,
+          "expectedEnd": 1376.8,
+          "actualStart": 1187.582042,
+          "actualEnd": 1385.8147920000001,
+          "timeDifference": 9.012042000000065
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long-Term View—Durability, Defensibility, and the Power of Vision",
+          "expectedStart": 1376.8,
+          "expectedEnd": 1538.15,
+          "actualStart": 1387.3147920000001,
+          "actualEnd": 1548.6663750000002,
+          "timeDifference": 10.51479200000017
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Uncertainty—Risk, Failure, and the Art of Adaptation",
+          "expectedStart": 1538.15,
+          "expectedEnd": 1734.07,
+          "actualStart": 1550.1663750000002,
+          "actualEnd": 1746.0831670000002,
+          "timeDifference": 12.016375000000153
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Broader Impact—Innovation, Society, and the Future",
+          "expectedStart": 1734.07,
+          "expectedEnd": 1863.48,
+          "actualStart": 1747.5831670000002,
+          "actualEnd": 1876.9977920000001,
+          "timeDifference": 13.513167000000294
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Putting It All Together—A Blueprint for Building the Future",
+          "expectedStart": 1863.48,
+          "expectedEnd": 2007.16,
+          "actualStart": 1878.4977920000001,
+          "actualEnd": 2022.172959,
+          "timeDifference": 15.0177920000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2007.16,
+          "expectedEnd": 2131.73,
+          "actualStart": 2023.672959,
+          "actualEnd": 2148.246834,
+          "timeDifference": 16.51295899999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.644375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Progress—Why Creating Something New Matters Most"
+        },
+        {
+          "startTime": 326.065167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Progress—Why Creating Something New Matters Most and Chapter 2 The Power of Monopoly—Why Unique Value Beats Competition"
+        },
+        {
+          "startTime": 559.363334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Monopoly—Why Unique Value Beats Competition and Chapter 3 Contrarian Thinking—Challenging Assumptions to Find Hidden Opportunities"
+        },
+        {
+          "startTime": 791.868084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Contrarian Thinking—Challenging Assumptions to Find Hidden Opportunities and Chapter 4 Building Strong Foundations—The Role of Founders, Teams, and Culture"
+        },
+        {
+          "startTime": 1005.7189589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Strong Foundations—The Role of Founders, Teams, and Culture and Chapter 5 Beyond the Product—The Importance of Sales, Distribution, and Differentiation"
+        },
+        {
+          "startTime": 1186.082042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Beyond the Product—The Importance of Sales, Distribution, and Differentiation and Chapter 6 Scaling Up—From Small Beginnings to Lasting Impact"
+        },
+        {
+          "startTime": 1385.8147920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Scaling Up—From Small Beginnings to Lasting Impact and Chapter 7 The Long-Term View—Durability, Defensibility, and the Power of Vision"
+        },
+        {
+          "startTime": 1548.6663750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long-Term View—Durability, Defensibility, and the Power of Vision and Chapter 8 Navigating Uncertainty—Risk, Failure, and the Art of Adaptation"
+        },
+        {
+          "startTime": 1746.0831670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Uncertainty—Risk, Failure, and the Art of Adaptation and Chapter 9 The Broader Impact—Innovation, Society, and the Future"
+        },
+        {
+          "startTime": 1876.9977920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Broader Impact—Innovation, Society, and the Future and Chapter 10 Putting It All Together—A Blueprint for Building the Future"
+        },
+        {
+          "startTime": 2022.172959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Putting It All Together—A Blueprint for Building the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2752",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:54:50.139Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

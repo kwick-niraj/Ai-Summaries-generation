@@ -1,0 +1,456 @@
+{
+  "bookId": "2778",
+  "timestamp": "2025-07-13T19:07:30.984Z",
+  "success": false,
+  "processingTime": -1752433285701,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4116,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.825544
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.825544
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2778/optimized_text/2778.md",
+    "fileSize": 813,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2778.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2778/metadata/2778_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2778/metadata/2778_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2778/metadata/2778_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2778/2778_complete.wav",
+    "duration": 1995.825542,
+    "fileSize": 95799704,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2778/introduction.wav",
+          "duration": 97.855792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.855792,
+          "startTime": 0,
+          "endTime": 97.855792
+        },
+        {
+          "path": "Audio/output/2778/chapter_01.wav",
+          "duration": 231.440667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Early Shadows: When Sadness Becomes a Constant Companion",
+          "actualDuration": 231.440667,
+          "startTime": 99.355792,
+          "endTime": 330.79645899999997
+        },
+        {
+          "path": "Audio/output/2778/chapter_02.wav",
+          "duration": 233.476042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for Relief: The Maze of Treatment and Misunderstanding",
+          "actualDuration": 233.476042,
+          "startTime": 332.29645899999997,
+          "endTime": 565.7725009999999
+        },
+        {
+          "path": "Audio/output/2778/chapter_03.wav",
+          "duration": 215.247833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living with Uncertainty: The Ongoing Struggle and the Need for Self-Understanding",
+          "actualDuration": 215.247833,
+          "startTime": 567.2725009999999,
+          "endTime": 782.5203339999999
+        },
+        {
+          "path": "Audio/output/2778/chapter_04.wav",
+          "duration": 208.540167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Stigma and Finding Community: The Power of Sharing Stories",
+          "actualDuration": 208.540167,
+          "startTime": 784.0203339999999,
+          "endTime": 992.5605009999999
+        },
+        {
+          "path": "Audio/output/2778/chapter_05.wav",
+          "duration": 149.005417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Persistence, Hope, and the Ongoing Work of Healing",
+          "actualDuration": 149.005417,
+          "startTime": 994.0605009999999,
+          "endTime": 1143.065918
+        },
+        {
+          "path": "Audio/output/2778/chapter_06.wav",
+          "duration": 137.526375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks: When Progress Feels Fragile",
+          "actualDuration": 137.526375,
+          "startTime": 1144.565918,
+          "endTime": 1282.092293
+        },
+        {
+          "path": "Audio/output/2778/chapter_07.wav",
+          "duration": 148.602875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Meaning: Finding Purpose Amid the Struggle",
+          "actualDuration": 148.602875,
+          "startTime": 1283.592293,
+          "endTime": 1432.195168
+        },
+        {
+          "path": "Audio/output/2778/chapter_08.wav",
+          "duration": 144.545125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Adapting to Change: The Ongoing Process of Growth",
+          "actualDuration": 144.545125,
+          "startTime": 1433.695168,
+          "endTime": 1578.240293
+        },
+        {
+          "path": "Audio/output/2778/chapter_09.wav",
+          "duration": 162.115042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Relationships and Boundaries: Learning to Connect Without Losing Oneself",
+          "actualDuration": 162.115042,
+          "startTime": 1579.740293,
+          "endTime": 1741.855335
+        },
+        {
+          "path": "Audio/output/2778/chapter_10.wav",
+          "duration": 143.733792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long View: Acceptance, Wisdom, and the Quiet Power of Endurance",
+          "actualDuration": 143.733792,
+          "startTime": 1743.355335,
+          "endTime": 1887.089127
+        },
+        {
+          "path": "Audio/output/2778/conclusion.wav",
+          "duration": 123.736417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.736417,
+          "startTime": 1888.589127,
+          "endTime": 2012.325544
+        }
+      ],
+      "totalDuration": 2012.325544,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.86,
+          "actualStart": 0,
+          "actualEnd": 97.855792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Early Shadows: When Sadness Becomes a Constant Companion",
+          "expectedStart": 97.86,
+          "expectedEnd": 329.3,
+          "actualStart": 99.355792,
+          "actualEnd": 330.79645899999997,
+          "timeDifference": 1.4957919999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for Relief: The Maze of Treatment and Misunderstanding",
+          "expectedStart": 329.3,
+          "expectedEnd": 562.78,
+          "actualStart": 332.29645899999997,
+          "actualEnd": 565.7725009999999,
+          "timeDifference": 2.996458999999959
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living with Uncertainty: The Ongoing Struggle and the Need for Self-Understanding",
+          "expectedStart": 562.78,
+          "expectedEnd": 778.03,
+          "actualStart": 567.2725009999999,
+          "actualEnd": 782.5203339999999,
+          "timeDifference": 4.4925009999999475
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Stigma and Finding Community: The Power of Sharing Stories",
+          "expectedStart": 778.03,
+          "expectedEnd": 986.57,
+          "actualStart": 784.0203339999999,
+          "actualEnd": 992.5605009999999,
+          "timeDifference": 5.990333999999962
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Persistence, Hope, and the Ongoing Work of Healing",
+          "expectedStart": 986.57,
+          "expectedEnd": 1135.58,
+          "actualStart": 994.0605009999999,
+          "actualEnd": 1143.065918,
+          "timeDifference": 7.490500999999881
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks: When Progress Feels Fragile",
+          "expectedStart": 1135.58,
+          "expectedEnd": 1273.11,
+          "actualStart": 1144.565918,
+          "actualEnd": 1282.092293,
+          "timeDifference": 8.985918000000083
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Meaning: Finding Purpose Amid the Struggle",
+          "expectedStart": 1273.11,
+          "expectedEnd": 1421.71,
+          "actualStart": 1283.592293,
+          "actualEnd": 1432.195168,
+          "timeDifference": 10.482293000000027
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Adapting to Change: The Ongoing Process of Growth",
+          "expectedStart": 1421.71,
+          "expectedEnd": 1566.26,
+          "actualStart": 1433.695168,
+          "actualEnd": 1578.240293,
+          "timeDifference": 11.98516799999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Relationships and Boundaries: Learning to Connect Without Losing Oneself",
+          "expectedStart": 1566.26,
+          "expectedEnd": 1728.38,
+          "actualStart": 1579.740293,
+          "actualEnd": 1741.855335,
+          "timeDifference": 13.480293000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long View: Acceptance, Wisdom, and the Quiet Power of Endurance",
+          "expectedStart": 1728.38,
+          "expectedEnd": 1872.11,
+          "actualStart": 1743.355335,
+          "actualEnd": 1887.089127,
+          "timeDifference": 14.975334999999859
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1872.11,
+          "expectedEnd": 1995.85,
+          "actualStart": 1888.589127,
+          "actualEnd": 2012.325544,
+          "timeDifference": 16.479127000000062
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.855792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Early Shadows: When Sadness Becomes a Constant Companion"
+        },
+        {
+          "startTime": 330.79645899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Early Shadows: When Sadness Becomes a Constant Companion and Chapter 2 Searching for Relief: The Maze of Treatment and Misunderstanding"
+        },
+        {
+          "startTime": 565.7725009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for Relief: The Maze of Treatment and Misunderstanding and Chapter 3 Living with Uncertainty: The Ongoing Struggle and the Need for Self-Understanding"
+        },
+        {
+          "startTime": 782.5203339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living with Uncertainty: The Ongoing Struggle and the Need for Self-Understanding and Chapter 4 Facing Stigma and Finding Community: The Power of Sharing Stories"
+        },
+        {
+          "startTime": 992.5605009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Stigma and Finding Community: The Power of Sharing Stories and Chapter 5 Persistence, Hope, and the Ongoing Work of Healing"
+        },
+        {
+          "startTime": 1143.065918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Persistence, Hope, and the Ongoing Work of Healing and Chapter 6 Navigating Setbacks: When Progress Feels Fragile"
+        },
+        {
+          "startTime": 1282.092293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks: When Progress Feels Fragile and Chapter 7 The Role of Meaning: Finding Purpose Amid the Struggle"
+        },
+        {
+          "startTime": 1432.195168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Meaning: Finding Purpose Amid the Struggle and Chapter 8 Adapting to Change: The Ongoing Process of Growth"
+        },
+        {
+          "startTime": 1578.240293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Adapting to Change: The Ongoing Process of Growth and Chapter 9 Relationships and Boundaries: Learning to Connect Without Losing Oneself"
+        },
+        {
+          "startTime": 1741.855335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Relationships and Boundaries: Learning to Connect Without Losing Oneself and Chapter 10 The Long View: Acceptance, Wisdom, and the Quiet Power of Endurance"
+        },
+        {
+          "startTime": 1887.089127,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long View: Acceptance, Wisdom, and the Quiet Power of Endurance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2778",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T19:01:27.355Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

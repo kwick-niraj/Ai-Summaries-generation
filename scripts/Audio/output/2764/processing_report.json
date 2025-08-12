@@ -1,0 +1,456 @@
+{
+  "bookId": "2764",
+  "timestamp": "2025-07-13T18:35:34.381Z",
+  "success": false,
+  "processingTime": -1752431526406,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4165,
+    "totalAudioFiles": 12,
+    "totalDuration": 1932.8521259999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1932.8521259999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2764/optimized_text/2764.md",
+    "fileSize": 626,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2764.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2764/metadata/2764_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1932.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2764/metadata/2764_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2764/metadata/2764_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2764/2764_complete.wav",
+    "duration": 1932.852125,
+    "fileSize": 92776980,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2764/introduction.wav",
+          "duration": 97.353125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.353125,
+          "startTime": 0,
+          "endTime": 97.353125
+        },
+        {
+          "path": "Audio/output/2764/chapter_01.wav",
+          "duration": 188.754917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Answers in a World of Doubt",
+          "actualDuration": 188.754917,
+          "startTime": 98.853125,
+          "endTime": 287.608042
+        },
+        {
+          "path": "Audio/output/2764/chapter_02.wav",
+          "duration": 191.345125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Examining the Historical Foundations of the Gospels",
+          "actualDuration": 191.345125,
+          "startTime": 289.108042,
+          "endTime": 480.453167
+        },
+        {
+          "path": "Audio/output/2764/chapter_03.wav",
+          "duration": 182.389958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Weighing Eyewitness Testimony and the Reliability of Ancient Documents",
+          "actualDuration": 182.389958,
+          "startTime": 481.953167,
+          "endTime": 664.343125
+        },
+        {
+          "path": "Audio/output/2764/chapter_04.wav",
+          "duration": 165.778125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Exploring the Identity and Claims of Jesus",
+          "actualDuration": 165.778125,
+          "startTime": 665.843125,
+          "endTime": 831.6212499999999
+        },
+        {
+          "path": "Audio/output/2764/chapter_05.wav",
+          "duration": 187.220333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Investigating the Death and Resurrection of Jesus",
+          "actualDuration": 187.220333,
+          "startTime": 833.1212499999999,
+          "endTime": 1020.3415829999999
+        },
+        {
+          "path": "Audio/output/2764/chapter_06.wav",
+          "duration": 197.677667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Wrestling with Alternative Explanations",
+          "actualDuration": 197.677667,
+          "startTime": 1021.8415829999999,
+          "endTime": 1219.5192499999998
+        },
+        {
+          "path": "Audio/output/2764/chapter_07.wav",
+          "duration": 173.211417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: How the Evidence Changes Lives",
+          "actualDuration": 173.211417,
+          "startTime": 1221.0192499999998,
+          "endTime": 1394.2306669999998
+        },
+        {
+          "path": "Audio/output/2764/chapter_08.wav",
+          "duration": 162.74225,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Cost of Belief",
+          "actualDuration": 162.74225,
+          "startTime": 1395.7306669999998,
+          "endTime": 1558.4729169999998
+        },
+        {
+          "path": "Audio/output/2764/chapter_09.wav",
+          "duration": 148.236125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Journey from Skepticism to Faith",
+          "actualDuration": 148.236125,
+          "startTime": 1559.9729169999998,
+          "endTime": 1708.2090419999997
+        },
+        {
+          "path": "Audio/output/2764/chapter_10.wav",
+          "duration": 106.801792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing a New Story",
+          "actualDuration": 106.801792,
+          "startTime": 1709.7090419999997,
+          "endTime": 1816.5108339999997
+        },
+        {
+          "path": "Audio/output/2764/conclusion.wav",
+          "duration": 131.341292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.341292,
+          "startTime": 1818.0108339999997,
+          "endTime": 1949.3521259999998
+        }
+      ],
+      "totalDuration": 1949.3521259999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.35,
+          "actualStart": 0,
+          "actualEnd": 97.353125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Answers in a World of Doubt",
+          "expectedStart": 97.35,
+          "expectedEnd": 286.1,
+          "actualStart": 98.853125,
+          "actualEnd": 287.608042,
+          "timeDifference": 1.5031250000000114
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Examining the Historical Foundations of the Gospels",
+          "expectedStart": 286.1,
+          "expectedEnd": 477.45,
+          "actualStart": 289.108042,
+          "actualEnd": 480.453167,
+          "timeDifference": 3.008041999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Weighing Eyewitness Testimony and the Reliability of Ancient Documents",
+          "expectedStart": 477.45,
+          "expectedEnd": 659.84,
+          "actualStart": 481.953167,
+          "actualEnd": 664.343125,
+          "timeDifference": 4.503167000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Exploring the Identity and Claims of Jesus",
+          "expectedStart": 659.84,
+          "expectedEnd": 825.62,
+          "actualStart": 665.843125,
+          "actualEnd": 831.6212499999999,
+          "timeDifference": 6.0031249999999545
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Investigating the Death and Resurrection of Jesus",
+          "expectedStart": 825.62,
+          "expectedEnd": 1012.84,
+          "actualStart": 833.1212499999999,
+          "actualEnd": 1020.3415829999999,
+          "timeDifference": 7.501249999999914
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Wrestling with Alternative Explanations",
+          "expectedStart": 1012.84,
+          "expectedEnd": 1210.52,
+          "actualStart": 1021.8415829999999,
+          "actualEnd": 1219.5192499999998,
+          "timeDifference": 9.001582999999869
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: How the Evidence Changes Lives",
+          "expectedStart": 1210.52,
+          "expectedEnd": 1383.73,
+          "actualStart": 1221.0192499999998,
+          "actualEnd": 1394.2306669999998,
+          "timeDifference": 10.499249999999847
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Cost of Belief",
+          "expectedStart": 1383.73,
+          "expectedEnd": 1546.47,
+          "actualStart": 1395.7306669999998,
+          "actualEnd": 1558.4729169999998,
+          "timeDifference": 12.000666999999794
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Journey from Skepticism to Faith",
+          "expectedStart": 1546.47,
+          "expectedEnd": 1694.71,
+          "actualStart": 1559.9729169999998,
+          "actualEnd": 1708.2090419999997,
+          "timeDifference": 13.502916999999798
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing a New Story",
+          "expectedStart": 1694.71,
+          "expectedEnd": 1801.51,
+          "actualStart": 1709.7090419999997,
+          "actualEnd": 1816.5108339999997,
+          "timeDifference": 14.99904199999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1801.51,
+          "expectedEnd": 1932.85,
+          "actualStart": 1818.0108339999997,
+          "actualEnd": 1949.3521259999998,
+          "timeDifference": 16.500833999999713
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.353125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Answers in a World of Doubt"
+        },
+        {
+          "startTime": 287.608042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Answers in a World of Doubt and Chapter 2 Examining the Historical Foundations of the Gospels"
+        },
+        {
+          "startTime": 480.453167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Examining the Historical Foundations of the Gospels and Chapter 3 Weighing Eyewitness Testimony and the Reliability of Ancient Documents"
+        },
+        {
+          "startTime": 664.343125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Weighing Eyewitness Testimony and the Reliability of Ancient Documents and Chapter 4 Exploring the Identity and Claims of Jesus"
+        },
+        {
+          "startTime": 831.6212499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Exploring the Identity and Claims of Jesus and Chapter 5 Investigating the Death and Resurrection of Jesus"
+        },
+        {
+          "startTime": 1020.3415829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Investigating the Death and Resurrection of Jesus and Chapter 6 Wrestling with Alternative Explanations"
+        },
+        {
+          "startTime": 1219.5192499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Wrestling with Alternative Explanations and Chapter 7 The Ripple Effect: How the Evidence Changes Lives"
+        },
+        {
+          "startTime": 1394.2306669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: How the Evidence Changes Lives and Chapter 8 Facing the Cost of Belief"
+        },
+        {
+          "startTime": 1558.4729169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Cost of Belief and Chapter 9 The Journey from Skepticism to Faith"
+        },
+        {
+          "startTime": 1708.2090419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Journey from Skepticism to Faith and Chapter 10 Embracing a New Story"
+        },
+        {
+          "startTime": 1816.5108339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing a New Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2764",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:32:06.956Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

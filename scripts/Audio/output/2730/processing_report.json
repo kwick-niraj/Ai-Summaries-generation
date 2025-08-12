@@ -1,0 +1,456 @@
+{
+  "bookId": "2730",
+  "timestamp": "2025-07-13T16:56:44.072Z",
+  "success": false,
+  "processingTime": -1752425507969,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4969,
+    "totalAudioFiles": 12,
+    "totalDuration": 2503.1971250000006
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2503.1971250000006
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2730/optimized_text/2730.md",
+    "fileSize": 704,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2730.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2730/metadata/2730_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2503.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2730/metadata/2730_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2730/metadata/2730_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2730/2730_complete.wav",
+    "duration": 2503.197125,
+    "fileSize": 120153540,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2730/introduction.wav",
+          "duration": 92.842167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.842167,
+          "startTime": 0,
+          "endTime": 92.842167
+        },
+        {
+          "path": "Audio/output/2730/chapter_01.wav",
+          "duration": 263.751458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeing Earth from Afar: A New Perspective on Home",
+          "actualDuration": 263.751458,
+          "startTime": 94.342167,
+          "endTime": 358.09362500000003
+        },
+        {
+          "path": "Audio/output/2730/chapter_02.wav",
+          "duration": 312.75825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Long Road to the Stars: Humanity’s Journey Beyond Earth",
+          "actualDuration": 312.75825,
+          "startTime": 359.59362500000003,
+          "endTime": 672.3518750000001
+        },
+        {
+          "path": "Audio/output/2730/chapter_03.wav",
+          "duration": 258.398167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Fragile Miracle: Understanding Earth’s Uniqueness",
+          "actualDuration": 258.398167,
+          "startTime": 673.8518750000001,
+          "endTime": 932.2500420000001
+        },
+        {
+          "path": "Audio/output/2730/chapter_04.wav",
+          "duration": 260.947875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Case for Exploration: Why Reaching Beyond Matters",
+          "actualDuration": 260.947875,
+          "startTime": 933.7500420000001,
+          "endTime": 1194.6979170000002
+        },
+        {
+          "path": "Audio/output/2730/chapter_05.wav",
+          "duration": 224.735292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Science, Humility, and the Cosmic Perspective",
+          "actualDuration": 224.735292,
+          "startTime": 1196.1979170000002,
+          "endTime": 1420.9332090000003
+        },
+        {
+          "path": "Audio/output/2730/chapter_06.wav",
+          "duration": 226.858375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Next Frontier: Building a Future Beyond Earth",
+          "actualDuration": 226.858375,
+          "startTime": 1422.4332090000003,
+          "endTime": 1649.2915840000003
+        },
+        {
+          "path": "Audio/output/2730/chapter_07.wav",
+          "duration": 225.759458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Challenge of Interstellar Travel: Reaching for the Stars",
+          "actualDuration": 225.759458,
+          "startTime": 1650.7915840000003,
+          "endTime": 1876.5510420000003
+        },
+        {
+          "path": "Audio/output/2730/chapter_08.wav",
+          "duration": 221.576125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Life: Are We Alone?",
+          "actualDuration": 221.576125,
+          "startTime": 1878.0510420000003,
+          "endTime": 2099.627167
+        },
+        {
+          "path": "Audio/output/2730/chapter_09.wav",
+          "duration": 181.111083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dangers of Complacency: Lessons from the Past",
+          "actualDuration": 181.111083,
+          "startTime": 2101.127167,
+          "endTime": 2282.2382500000003
+        },
+        {
+          "path": "Audio/output/2730/chapter_10.wav",
+          "duration": 132.618625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Significance of the Pale Blue Dot",
+          "actualDuration": 132.618625,
+          "startTime": 2283.7382500000003,
+          "endTime": 2416.3568750000004
+        },
+        {
+          "path": "Audio/output/2730/conclusion.wav",
+          "duration": 101.84025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.84025,
+          "startTime": 2417.8568750000004,
+          "endTime": 2519.6971250000006
+        }
+      ],
+      "totalDuration": 2519.6971250000006,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.84,
+          "actualStart": 0,
+          "actualEnd": 92.842167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeing Earth from Afar: A New Perspective on Home",
+          "expectedStart": 92.84,
+          "expectedEnd": 356.59,
+          "actualStart": 94.342167,
+          "actualEnd": 358.09362500000003,
+          "timeDifference": 1.502167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Long Road to the Stars: Humanity’s Journey Beyond Earth",
+          "expectedStart": 356.59,
+          "expectedEnd": 669.35,
+          "actualStart": 359.59362500000003,
+          "actualEnd": 672.3518750000001,
+          "timeDifference": 3.0036250000000564
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Fragile Miracle: Understanding Earth’s Uniqueness",
+          "expectedStart": 669.35,
+          "expectedEnd": 927.75,
+          "actualStart": 673.8518750000001,
+          "actualEnd": 932.2500420000001,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Case for Exploration: Why Reaching Beyond Matters",
+          "expectedStart": 927.75,
+          "expectedEnd": 1188.7,
+          "actualStart": 933.7500420000001,
+          "actualEnd": 1194.6979170000002,
+          "timeDifference": 6.000042000000121
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Science, Humility, and the Cosmic Perspective",
+          "expectedStart": 1188.7,
+          "expectedEnd": 1413.44,
+          "actualStart": 1196.1979170000002,
+          "actualEnd": 1420.9332090000003,
+          "timeDifference": 7.497917000000143
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Next Frontier: Building a Future Beyond Earth",
+          "expectedStart": 1413.44,
+          "expectedEnd": 1640.3,
+          "actualStart": 1422.4332090000003,
+          "actualEnd": 1649.2915840000003,
+          "timeDifference": 8.993209000000206
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Challenge of Interstellar Travel: Reaching for the Stars",
+          "expectedStart": 1640.3,
+          "expectedEnd": 1866.06,
+          "actualStart": 1650.7915840000003,
+          "actualEnd": 1876.5510420000003,
+          "timeDifference": 10.49158400000033
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Life: Are We Alone?",
+          "expectedStart": 1866.06,
+          "expectedEnd": 2087.64,
+          "actualStart": 1878.0510420000003,
+          "actualEnd": 2099.627167,
+          "timeDifference": 11.991042000000334
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dangers of Complacency: Lessons from the Past",
+          "expectedStart": 2087.64,
+          "expectedEnd": 2268.75,
+          "actualStart": 2101.127167,
+          "actualEnd": 2282.2382500000003,
+          "timeDifference": 13.487167000000227
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Significance of the Pale Blue Dot",
+          "expectedStart": 2268.75,
+          "expectedEnd": 2401.37,
+          "actualStart": 2283.7382500000003,
+          "actualEnd": 2416.3568750000004,
+          "timeDifference": 14.988250000000335
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2401.37,
+          "expectedEnd": 2503.21,
+          "actualStart": 2417.8568750000004,
+          "actualEnd": 2519.6971250000006,
+          "timeDifference": 16.48687500000051
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.842167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeing Earth from Afar: A New Perspective on Home"
+        },
+        {
+          "startTime": 358.09362500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeing Earth from Afar: A New Perspective on Home and Chapter 2 The Long Road to the Stars: Humanity’s Journey Beyond Earth"
+        },
+        {
+          "startTime": 672.3518750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Long Road to the Stars: Humanity’s Journey Beyond Earth and Chapter 3 The Fragile Miracle: Understanding Earth’s Uniqueness"
+        },
+        {
+          "startTime": 932.2500420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Fragile Miracle: Understanding Earth’s Uniqueness and Chapter 4 The Case for Exploration: Why Reaching Beyond Matters"
+        },
+        {
+          "startTime": 1194.6979170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Case for Exploration: Why Reaching Beyond Matters and Chapter 5 Science, Humility, and the Cosmic Perspective"
+        },
+        {
+          "startTime": 1420.9332090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Science, Humility, and the Cosmic Perspective and Chapter 6 The Next Frontier: Building a Future Beyond Earth"
+        },
+        {
+          "startTime": 1649.2915840000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Next Frontier: Building a Future Beyond Earth and Chapter 7 The Challenge of Interstellar Travel: Reaching for the Stars"
+        },
+        {
+          "startTime": 1876.5510420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Challenge of Interstellar Travel: Reaching for the Stars and Chapter 8 The Search for Life: Are We Alone?"
+        },
+        {
+          "startTime": 2099.627167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Life: Are We Alone? and Chapter 9 The Dangers of Complacency: Lessons from the Past"
+        },
+        {
+          "startTime": 2282.2382500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dangers of Complacency: Lessons from the Past and Chapter 10 The Enduring Significance of the Pale Blue Dot"
+        },
+        {
+          "startTime": 2416.3568750000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Significance of the Pale Blue Dot and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2730",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:51:48.482Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "bookId": "2770",
+  "timestamp": "2025-07-13T18:40:05.589Z",
+  "success": false,
+  "processingTime": -1752431735386,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4818,
+    "totalAudioFiles": 12,
+    "totalDuration": 1207.4885420000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 8,
+    "failed": 4,
+    "duration": 1207.4885420000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2770/optimized_text/2770.md",
+    "fileSize": 575,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "2770.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2770/metadata/2770_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1207.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2770/metadata/2770_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2770/metadata/2770_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2770/2770_complete.wav",
+    "duration": 1207.488542,
+    "fileSize": 57959528,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2770/introduction.wav",
+          "duration": 88.587542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.587542,
+          "startTime": 0,
+          "endTime": 88.587542
+        },
+        {
+          "path": "Audio/output/2770/chapter_01.wav",
+          "duration": 192.319125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Divided Rwanda",
+          "actualDuration": 192.319125,
+          "startTime": 90.087542,
+          "endTime": 282.406667
+        },
+        {
+          "path": "Audio/output/2770/chapter_05.wav",
+          "duration": 175.610417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rebuilding Life and Finding Purpose After Trauma",
+          "actualDuration": 175.610417,
+          "startTime": 283.906667,
+          "endTime": 459.51708400000007
+        },
+        {
+          "path": "Audio/output/2770/chapter_06.wav",
+          "duration": 187.085125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Reconciliation",
+          "actualDuration": 187.085125,
+          "startTime": 461.01708400000007,
+          "endTime": 648.1022090000001
+        },
+        {
+          "path": "Audio/output/2770/chapter_07.wav",
+          "duration": 162.679208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Bearing Witness—The Power of Story",
+          "actualDuration": 162.679208,
+          "startTime": 649.6022090000001,
+          "endTime": 812.2814170000001
+        },
+        {
+          "path": "Audio/output/2770/chapter_09.wav",
+          "duration": 146.804417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Advocacy and the Call to Action",
+          "actualDuration": 146.804417,
+          "startTime": 813.7814170000001,
+          "endTime": 960.5858340000002
+        },
+        {
+          "path": "Audio/output/2770/chapter_10.wav",
+          "duration": 142.545625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Impact of Forgiveness and Faith",
+          "actualDuration": 142.545625,
+          "startTime": 962.0858340000002,
+          "endTime": 1104.6314590000002
+        },
+        {
+          "path": "Audio/output/2770/conclusion.wav",
+          "duration": 111.857083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.857083,
+          "startTime": 1106.1314590000002,
+          "endTime": 1217.9885420000003
+        }
+      ],
+      "totalDuration": 1217.9885420000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.59,
+          "actualStart": 0,
+          "actualEnd": 88.587542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Divided Rwanda",
+          "expectedStart": 88.59,
+          "expectedEnd": 280.91,
+          "actualStart": 90.087542,
+          "actualEnd": 282.406667,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rebuilding Life and Finding Purpose After Trauma",
+          "expectedStart": 280.91,
+          "expectedEnd": 456.52,
+          "actualStart": 283.906667,
+          "actualEnd": 459.51708400000007,
+          "timeDifference": 2.996667000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Reconciliation",
+          "expectedStart": 456.52,
+          "expectedEnd": 643.61,
+          "actualStart": 461.01708400000007,
+          "actualEnd": 648.1022090000001,
+          "timeDifference": 4.497084000000086
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Bearing Witness—The Power of Story",
+          "expectedStart": 643.61,
+          "expectedEnd": 806.29,
+          "actualStart": 649.6022090000001,
+          "actualEnd": 812.2814170000001,
+          "timeDifference": 5.992209000000116
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Advocacy and the Call to Action",
+          "expectedStart": 806.29,
+          "expectedEnd": 953.09,
+          "actualStart": 813.7814170000001,
+          "actualEnd": 960.5858340000002,
+          "timeDifference": 7.491417000000183
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Impact of Forgiveness and Faith",
+          "expectedStart": 953.09,
+          "expectedEnd": 1095.64,
+          "actualStart": 962.0858340000002,
+          "actualEnd": 1104.6314590000002,
+          "timeDifference": 8.995834000000173
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1095.64,
+          "expectedEnd": 1207.5,
+          "actualStart": 1106.1314590000002,
+          "actualEnd": 1217.9885420000003,
+          "timeDifference": 10.491459000000077
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.587542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Divided Rwanda"
+        },
+        {
+          "startTime": 282.406667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Divided Rwanda and Chapter 5 Rebuilding Life and Finding Purpose After Trauma"
+        },
+        {
+          "startTime": 459.51708400000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rebuilding Life and Finding Purpose After Trauma and Chapter 6 The Long Road to Reconciliation"
+        },
+        {
+          "startTime": 648.1022090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Reconciliation and Chapter 7 Bearing Witness—The Power of Story"
+        },
+        {
+          "startTime": 812.2814170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Bearing Witness—The Power of Story and Chapter 9 Advocacy and the Call to Action"
+        },
+        {
+          "startTime": 960.5858340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Advocacy and the Call to Action and Chapter 10 The Enduring Impact of Forgiveness and Faith"
+        },
+        {
+          "startTime": 1104.6314590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Impact of Forgiveness and Faith and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 8
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2770",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:35:35.911Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2774",
+  "timestamp": "2025-07-13T18:56:14.891Z",
+  "success": false,
+  "processingTime": -1752432660327,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5105,
+    "totalAudioFiles": 12,
+    "totalDuration": 2173.6359170000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2173.6359170000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2774/optimized_text/2774.md",
+    "fileSize": 684,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2774.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2774/metadata/2774_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2173.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2774/metadata/2774_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2774/metadata/2774_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2774/2774_complete.wav",
+    "duration": 2173.635917,
+    "fileSize": 104334602,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2774/introduction.wav",
+          "duration": 84.729958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.729958,
+          "startTime": 0,
+          "endTime": 84.729958
+        },
+        {
+          "path": "Audio/output/2774/chapter_01.wav",
+          "duration": 249.65825,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Signs and the Hidden Struggle",
+          "actualDuration": 249.65825,
+          "startTime": 86.229958,
+          "endTime": 335.888208
+        },
+        {
+          "path": "Audio/output/2774/chapter_02.wav",
+          "duration": 223.113125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Onset of Mania and the Allure of Highs",
+          "actualDuration": 223.113125,
+          "startTime": 337.388208,
+          "endTime": 560.501333
+        },
+        {
+          "path": "Audio/output/2774/chapter_03.wav",
+          "duration": 229.910958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Descent into Darkness and the Search for Help",
+          "actualDuration": 229.910958,
+          "startTime": 562.001333,
+          "endTime": 791.9122910000001
+        },
+        {
+          "path": "Audio/output/2774/chapter_04.wav",
+          "duration": 202.385792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Treatment and the Challenge of Acceptance",
+          "actualDuration": 202.385792,
+          "startTime": 793.4122910000001,
+          "endTime": 995.7980830000001
+        },
+        {
+          "path": "Audio/output/2774/chapter_05.wav",
+          "duration": 223.712333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Intersection of Personal Experience and Professional Life",
+          "actualDuration": 223.712333,
+          "startTime": 997.2980830000001,
+          "endTime": 1221.010416
+        },
+        {
+          "path": "Audio/output/2774/chapter_06.wav",
+          "duration": 209.229,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ongoing Battle: Relapse, Recovery, and the Unpredictable Road",
+          "actualDuration": 209.229,
+          "startTime": 1222.510416,
+          "endTime": 1431.7394160000001
+        },
+        {
+          "path": "Audio/output/2774/chapter_07.wav",
+          "duration": 198.853542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Friendship, and the Challenge of Intimacy",
+          "actualDuration": 198.853542,
+          "startTime": 1433.2394160000001,
+          "endTime": 1632.0929580000002
+        },
+        {
+          "path": "Audio/output/2774/chapter_08.wav",
+          "duration": 177.65875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Finding Meaning: Work, Purpose, and Advocacy",
+          "actualDuration": 177.65875,
+          "startTime": 1633.5929580000002,
+          "endTime": 1811.2517080000002
+        },
+        {
+          "path": "Audio/output/2774/chapter_09.wav",
+          "duration": 117.499917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Search for Hope and Acceptance",
+          "actualDuration": 117.499917,
+          "startTime": 1812.7517080000002,
+          "endTime": 1930.2516250000003
+        },
+        {
+          "path": "Audio/output/2774/chapter_10.wav",
+          "duration": 141.583042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Unquiet: Wisdom for the Journey",
+          "actualDuration": 141.583042,
+          "startTime": 1931.7516250000003,
+          "endTime": 2073.3346670000005
+        },
+        {
+          "path": "Audio/output/2774/conclusion.wav",
+          "duration": 115.30125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.30125,
+          "startTime": 2074.8346670000005,
+          "endTime": 2190.1359170000005
+        }
+      ],
+      "totalDuration": 2190.1359170000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.73,
+          "actualStart": 0,
+          "actualEnd": 84.729958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Signs and the Hidden Struggle",
+          "expectedStart": 84.73,
+          "expectedEnd": 334.39,
+          "actualStart": 86.229958,
+          "actualEnd": 335.888208,
+          "timeDifference": 1.4999579999999924
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Onset of Mania and the Allure of Highs",
+          "expectedStart": 334.39,
+          "expectedEnd": 557.5,
+          "actualStart": 337.388208,
+          "actualEnd": 560.501333,
+          "timeDifference": 2.9982080000000337
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Descent into Darkness and the Search for Help",
+          "expectedStart": 557.5,
+          "expectedEnd": 787.41,
+          "actualStart": 562.001333,
+          "actualEnd": 791.9122910000001,
+          "timeDifference": 4.501333000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Treatment and the Challenge of Acceptance",
+          "expectedStart": 787.41,
+          "expectedEnd": 989.8,
+          "actualStart": 793.4122910000001,
+          "actualEnd": 995.7980830000001,
+          "timeDifference": 6.0022910000001275
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Intersection of Personal Experience and Professional Life",
+          "expectedStart": 989.8,
+          "expectedEnd": 1213.51,
+          "actualStart": 997.2980830000001,
+          "actualEnd": 1221.010416,
+          "timeDifference": 7.498083000000179
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ongoing Battle: Relapse, Recovery, and the Unpredictable Road",
+          "expectedStart": 1213.51,
+          "expectedEnd": 1422.74,
+          "actualStart": 1222.510416,
+          "actualEnd": 1431.7394160000001,
+          "timeDifference": 9.000416000000087
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Friendship, and the Challenge of Intimacy",
+          "expectedStart": 1422.74,
+          "expectedEnd": 1621.59,
+          "actualStart": 1433.2394160000001,
+          "actualEnd": 1632.0929580000002,
+          "timeDifference": 10.49941600000011
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Finding Meaning: Work, Purpose, and Advocacy",
+          "expectedStart": 1621.59,
+          "expectedEnd": 1799.25,
+          "actualStart": 1633.5929580000002,
+          "actualEnd": 1811.2517080000002,
+          "timeDifference": 12.002958000000262
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Search for Hope and Acceptance",
+          "expectedStart": 1799.25,
+          "expectedEnd": 1916.75,
+          "actualStart": 1812.7517080000002,
+          "actualEnd": 1930.2516250000003,
+          "timeDifference": 13.501708000000235
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Unquiet: Wisdom for the Journey",
+          "expectedStart": 1916.75,
+          "expectedEnd": 2058.33,
+          "actualStart": 1931.7516250000003,
+          "actualEnd": 2073.3346670000005,
+          "timeDifference": 15.001625000000331
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2058.33,
+          "expectedEnd": 2173.63,
+          "actualStart": 2074.8346670000005,
+          "actualEnd": 2190.1359170000005,
+          "timeDifference": 16.50466700000061
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.729958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Signs and the Hidden Struggle"
+        },
+        {
+          "startTime": 335.888208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Signs and the Hidden Struggle and Chapter 2 The Onset of Mania and the Allure of Highs"
+        },
+        {
+          "startTime": 560.501333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Onset of Mania and the Allure of Highs and Chapter 3 The Descent into Darkness and the Search for Help"
+        },
+        {
+          "startTime": 791.9122910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Descent into Darkness and the Search for Help and Chapter 4 Navigating Treatment and the Challenge of Acceptance"
+        },
+        {
+          "startTime": 995.7980830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Treatment and the Challenge of Acceptance and Chapter 5 The Intersection of Personal Experience and Professional Life"
+        },
+        {
+          "startTime": 1221.010416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Intersection of Personal Experience and Professional Life and Chapter 6 The Ongoing Battle: Relapse, Recovery, and the Unpredictable Road"
+        },
+        {
+          "startTime": 1431.7394160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ongoing Battle: Relapse, Recovery, and the Unpredictable Road and Chapter 7 Love, Friendship, and the Challenge of Intimacy"
+        },
+        {
+          "startTime": 1632.0929580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Friendship, and the Challenge of Intimacy and Chapter 8 Finding Meaning: Work, Purpose, and Advocacy"
+        },
+        {
+          "startTime": 1811.2517080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Finding Meaning: Work, Purpose, and Advocacy and Chapter 9 The Enduring Search for Hope and Acceptance"
+        },
+        {
+          "startTime": 1930.2516250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Search for Hope and Acceptance and Chapter 10 Living with Unquiet: Wisdom for the Journey"
+        },
+        {
+          "startTime": 2073.3346670000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Unquiet: Wisdom for the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2774",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:51:03.573Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "bookId": "2726",
+  "timestamp": "2025-07-13T16:43:45.852Z",
+  "success": false,
+  "processingTime": -1752424757144,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5085,
+    "totalAudioFiles": 13,
+    "totalDuration": 2171.195707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2171.195707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2726/optimized_text/2726.md",
+    "fileSize": 701,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2726.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2726/metadata/2726_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2171.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2726/metadata/2726_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2726/metadata/2726_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2726/2726_complete.wav",
+    "duration": 2171.195708,
+    "fileSize": 104217472,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2726/introduction.wav",
+          "duration": 84.004625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.004625,
+          "startTime": 0,
+          "endTime": 84.004625
+        },
+        {
+          "path": "Audio/output/2726/chapter_01.wav",
+          "duration": 246.791167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Divided Nation and the Unlikely Leader",
+          "actualDuration": 246.791167,
+          "startTime": 85.504625,
+          "endTime": 332.295792
+        },
+        {
+          "path": "Audio/output/2726/chapter_02.wav",
+          "duration": 255.250125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Cabinet from Former Adversaries",
+          "actualDuration": 255.250125,
+          "startTime": 333.795792,
+          "endTime": 589.045917
+        },
+        {
+          "path": "Audio/output/2726/chapter_03.wav",
+          "duration": 213.417292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Conflict and Harnessing Ambition",
+          "actualDuration": 213.417292,
+          "startTime": 590.545917,
+          "endTime": 803.963209
+        },
+        {
+          "path": "Audio/output/2726/chapter_04.wav",
+          "duration": 186.450833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Empathy, Humility, and the Power of Listening",
+          "actualDuration": 186.450833,
+          "startTime": 805.463209,
+          "endTime": 991.914042
+        },
+        {
+          "path": "Audio/output/2726/chapter_05.wav",
+          "duration": 179.928,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Forging Unity from Division",
+          "actualDuration": 179.928,
+          "startTime": 993.414042,
+          "endTime": 1173.342042
+        },
+        {
+          "path": "Audio/output/2726/chapter_06.wav",
+          "duration": 172.096333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of War and the Burden of Command",
+          "actualDuration": 172.096333,
+          "startTime": 1174.842042,
+          "endTime": 1346.938375
+        },
+        {
+          "path": "Audio/output/2726/chapter_07.wav",
+          "duration": 179.759708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Emancipation Proclamation: A Turning Point",
+          "actualDuration": 179.759708,
+          "startTime": 1348.438375,
+          "endTime": 1528.198083
+        },
+        {
+          "path": "Audio/output/2726/chapter_08.wav",
+          "duration": 165.003583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Struggle for Re-election and the Test of Faith",
+          "actualDuration": 165.003583,
+          "startTime": 1529.698083,
+          "endTime": 1694.701666
+        },
+        {
+          "path": "Audio/output/2726/chapter_09.wav",
+          "duration": 153.306125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Push: Victory and Tragedy",
+          "actualDuration": 153.306125,
+          "startTime": 1696.201666,
+          "endTime": 1849.507791
+        },
+        {
+          "path": "Audio/output/2726/chapter_10.wav",
+          "duration": 128.92475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of Lincoln’s Team: Lessons for the Future",
+          "actualDuration": 128.92475,
+          "startTime": 1851.007791,
+          "endTime": 1979.932541
+        },
+        {
+          "path": "Audio/output/2726/chapter_11.wav",
+          "duration": 110.942083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Enduring Wisdom: What Lincoln’s Story Offers Us Today",
+          "actualDuration": 110.942083,
+          "startTime": 1981.432541,
+          "endTime": 2092.374624
+        },
+        {
+          "path": "Audio/output/2726/conclusion.wav",
+          "duration": 95.321083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.321083,
+          "startTime": 2093.874624,
+          "endTime": 2189.195707
+        }
+      ],
+      "totalDuration": 2189.195707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84,
+          "actualStart": 0,
+          "actualEnd": 84.004625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Divided Nation and the Unlikely Leader",
+          "expectedStart": 84,
+          "expectedEnd": 330.79,
+          "actualStart": 85.504625,
+          "actualEnd": 332.295792,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Cabinet from Former Adversaries",
+          "expectedStart": 330.79,
+          "expectedEnd": 586.04,
+          "actualStart": 333.795792,
+          "actualEnd": 589.045917,
+          "timeDifference": 3.0057919999999854
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Conflict and Harnessing Ambition",
+          "expectedStart": 586.04,
+          "expectedEnd": 799.46,
+          "actualStart": 590.545917,
+          "actualEnd": 803.963209,
+          "timeDifference": 4.505917000000068
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Empathy, Humility, and the Power of Listening",
+          "expectedStart": 799.46,
+          "expectedEnd": 985.91,
+          "actualStart": 805.463209,
+          "actualEnd": 991.914042,
+          "timeDifference": 6.00320899999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Forging Unity from Division",
+          "expectedStart": 985.91,
+          "expectedEnd": 1165.84,
+          "actualStart": 993.414042,
+          "actualEnd": 1173.342042,
+          "timeDifference": 7.504042000000027
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of War and the Burden of Command",
+          "expectedStart": 1165.84,
+          "expectedEnd": 1337.94,
+          "actualStart": 1174.842042,
+          "actualEnd": 1346.938375,
+          "timeDifference": 9.002042000000074
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Emancipation Proclamation: A Turning Point",
+          "expectedStart": 1337.94,
+          "expectedEnd": 1517.7,
+          "actualStart": 1348.438375,
+          "actualEnd": 1528.198083,
+          "timeDifference": 10.498374999999896
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Struggle for Re-election and the Test of Faith",
+          "expectedStart": 1517.7,
+          "expectedEnd": 1682.7,
+          "actualStart": 1529.698083,
+          "actualEnd": 1694.701666,
+          "timeDifference": 11.998082999999951
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Push: Victory and Tragedy",
+          "expectedStart": 1682.7,
+          "expectedEnd": 1836.01,
+          "actualStart": 1696.201666,
+          "actualEnd": 1849.507791,
+          "timeDifference": 13.501665999999886
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of Lincoln’s Team: Lessons for the Future",
+          "expectedStart": 1836.01,
+          "expectedEnd": 1964.93,
+          "actualStart": 1851.007791,
+          "actualEnd": 1979.932541,
+          "timeDifference": 14.997791000000007
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Enduring Wisdom: What Lincoln’s Story Offers Us Today",
+          "expectedStart": 1964.93,
+          "expectedEnd": 2075.87,
+          "actualStart": 1981.432541,
+          "actualEnd": 2092.374624,
+          "timeDifference": 16.502540999999837
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2075.87,
+          "expectedEnd": 2171.19,
+          "actualStart": 2093.874624,
+          "actualEnd": 2189.195707,
+          "timeDifference": 18.00462400000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.004625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Divided Nation and the Unlikely Leader"
+        },
+        {
+          "startTime": 332.295792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Divided Nation and the Unlikely Leader and Chapter 2 Building a Cabinet from Former Adversaries"
+        },
+        {
+          "startTime": 589.045917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Cabinet from Former Adversaries and Chapter 3 Navigating Conflict and Harnessing Ambition"
+        },
+        {
+          "startTime": 803.963209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Conflict and Harnessing Ambition and Chapter 4 Empathy, Humility, and the Power of Listening"
+        },
+        {
+          "startTime": 991.914042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Empathy, Humility, and the Power of Listening and Chapter 5 Forging Unity from Division"
+        },
+        {
+          "startTime": 1173.342042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Forging Unity from Division and Chapter 6 The Weight of War and the Burden of Command"
+        },
+        {
+          "startTime": 1346.938375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of War and the Burden of Command and Chapter 7 The Emancipation Proclamation: A Turning Point"
+        },
+        {
+          "startTime": 1528.198083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Emancipation Proclamation: A Turning Point and Chapter 8 The Struggle for Re-election and the Test of Faith"
+        },
+        {
+          "startTime": 1694.701666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Struggle for Re-election and the Test of Faith and Chapter 9 The Final Push: Victory and Tragedy"
+        },
+        {
+          "startTime": 1849.507791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Push: Victory and Tragedy and Chapter 10 The Legacy of Lincoln’s Team: Lessons for the Future"
+        },
+        {
+          "startTime": 1979.932541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of Lincoln’s Team: Lessons for the Future and Chapter 11 Enduring Wisdom: What Lincoln’s Story Offers Us Today"
+        },
+        {
+          "startTime": 2092.374624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Enduring Wisdom: What Lincoln’s Story Offers Us Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2726",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:39:17.701Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

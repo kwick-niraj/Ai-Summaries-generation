@@ -1,0 +1,431 @@
+{
+  "bookId": "2756",
+  "timestamp": "2025-07-13T18:10:56.119Z",
+  "success": false,
+  "processingTime": -1752430046260,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4896,
+    "totalAudioFiles": 12,
+    "totalDuration": 1680.433916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1680.433916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2756/optimized_text/2756.md",
+    "fileSize": 624,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2756.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2756/metadata/2756_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1680.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2756/metadata/2756_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2756/metadata/2756_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2756/2756_complete.wav",
+    "duration": 1680.433917,
+    "fileSize": 80660906,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2756/introduction.wav",
+          "duration": 77.854083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.854083,
+          "startTime": 0,
+          "endTime": 77.854083
+        },
+        {
+          "path": "Audio/output/2756/chapter_01.wav",
+          "duration": 210.111625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Search for Belonging",
+          "actualDuration": 210.111625,
+          "startTime": 79.354083,
+          "endTime": 289.465708
+        },
+        {
+          "path": "Audio/output/2756/chapter_03.wav",
+          "duration": 198.080875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Years in Captivity: Enduring the Unimaginable",
+          "actualDuration": 198.080875,
+          "startTime": 290.965708,
+          "endTime": 489.046583
+        },
+        {
+          "path": "Audio/output/2756/chapter_04.wav",
+          "duration": 188.11875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Holding Onto Hope and the Will to Survive",
+          "actualDuration": 188.11875,
+          "startTime": 490.546583,
+          "endTime": 678.665333
+        },
+        {
+          "path": "Audio/output/2756/chapter_05.wav",
+          "duration": 172.554167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Long Road to Freedom",
+          "actualDuration": 172.554167,
+          "startTime": 680.165333,
+          "endTime": 852.7195
+        },
+        {
+          "path": "Audio/output/2756/chapter_06.wav",
+          "duration": 164.371875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The First Days of Freedom: Facing a Changed World",
+          "actualDuration": 164.371875,
+          "startTime": 854.2195,
+          "endTime": 1018.591375
+        },
+        {
+          "path": "Audio/output/2756/chapter_07.wav",
+          "duration": 161.305708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Survival: Navigating Trauma and Memory",
+          "actualDuration": 161.305708,
+          "startTime": 1020.091375,
+          "endTime": 1181.397083
+        },
+        {
+          "path": "Audio/output/2756/chapter_08.wav",
+          "duration": 137.923125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Identity: Finding a Voice",
+          "actualDuration": 137.923125,
+          "startTime": 1182.897083,
+          "endTime": 1320.820208
+        },
+        {
+          "path": "Audio/output/2756/chapter_09.wav",
+          "duration": 135.0575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey: Building a New Life",
+          "actualDuration": 135.0575,
+          "startTime": 1322.320208,
+          "endTime": 1457.377708
+        },
+        {
+          "path": "Audio/output/2756/chapter_10.wav",
+          "duration": 133.45425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Light After Darkness: Hope, Advocacy, and the Power of Community",
+          "actualDuration": 133.45425,
+          "startTime": 1458.877708,
+          "endTime": 1592.331958
+        },
+        {
+          "path": "Audio/output/2756/conclusion.wav",
+          "duration": 101.601958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.601958,
+          "startTime": 1593.831958,
+          "endTime": 1695.433916
+        }
+      ],
+      "totalDuration": 1695.433916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.85,
+          "actualStart": 0,
+          "actualEnd": 77.854083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Search for Belonging",
+          "expectedStart": 77.85,
+          "expectedEnd": 287.96,
+          "actualStart": 79.354083,
+          "actualEnd": 289.465708,
+          "timeDifference": 1.5040830000000085
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Years in Captivity: Enduring the Unimaginable",
+          "expectedStart": 287.96,
+          "expectedEnd": 486.04,
+          "actualStart": 290.965708,
+          "actualEnd": 489.046583,
+          "timeDifference": 3.005708000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Holding Onto Hope and the Will to Survive",
+          "expectedStart": 486.04,
+          "expectedEnd": 674.16,
+          "actualStart": 490.546583,
+          "actualEnd": 678.665333,
+          "timeDifference": 4.506582999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Long Road to Freedom",
+          "expectedStart": 674.16,
+          "expectedEnd": 846.71,
+          "actualStart": 680.165333,
+          "actualEnd": 852.7195,
+          "timeDifference": 6.005333000000064
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The First Days of Freedom: Facing a Changed World",
+          "expectedStart": 846.71,
+          "expectedEnd": 1011.08,
+          "actualStart": 854.2195,
+          "actualEnd": 1018.591375,
+          "timeDifference": 7.509500000000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Survival: Navigating Trauma and Memory",
+          "expectedStart": 1011.08,
+          "expectedEnd": 1172.39,
+          "actualStart": 1020.091375,
+          "actualEnd": 1181.397083,
+          "timeDifference": 9.01137499999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Identity: Finding a Voice",
+          "expectedStart": 1172.39,
+          "expectedEnd": 1310.31,
+          "actualStart": 1182.897083,
+          "actualEnd": 1320.820208,
+          "timeDifference": 10.507082999999966
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey: Building a New Life",
+          "expectedStart": 1310.31,
+          "expectedEnd": 1445.37,
+          "actualStart": 1322.320208,
+          "actualEnd": 1457.377708,
+          "timeDifference": 12.010208000000148
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Light After Darkness: Hope, Advocacy, and the Power of Community",
+          "expectedStart": 1445.37,
+          "expectedEnd": 1578.82,
+          "actualStart": 1458.877708,
+          "actualEnd": 1592.331958,
+          "timeDifference": 13.507708000000093
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1578.82,
+          "expectedEnd": 1680.42,
+          "actualStart": 1593.831958,
+          "actualEnd": 1695.433916,
+          "timeDifference": 15.01195800000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.854083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Struggles and the Search for Belonging"
+        },
+        {
+          "startTime": 289.465708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Search for Belonging and Chapter 3 Years in Captivity: Enduring the Unimaginable"
+        },
+        {
+          "startTime": 489.046583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Years in Captivity: Enduring the Unimaginable and Chapter 4 Holding Onto Hope and the Will to Survive"
+        },
+        {
+          "startTime": 678.665333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Holding Onto Hope and the Will to Survive and Chapter 5 The Long Road to Freedom"
+        },
+        {
+          "startTime": 852.7195,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Long Road to Freedom and Chapter 6 The First Days of Freedom: Facing a Changed World"
+        },
+        {
+          "startTime": 1018.591375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The First Days of Freedom: Facing a Changed World and Chapter 7 The Weight of Survival: Navigating Trauma and Memory"
+        },
+        {
+          "startTime": 1181.397083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Survival: Navigating Trauma and Memory and Chapter 8 Reclaiming Identity: Finding a Voice"
+        },
+        {
+          "startTime": 1320.820208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Identity: Finding a Voice and Chapter 9 The Ongoing Journey: Building a New Life"
+        },
+        {
+          "startTime": 1457.377708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey: Building a New Life and Chapter 10 Light After Darkness: Hope, Advocacy, and the Power of Community"
+        },
+        {
+          "startTime": 1592.331958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Light After Darkness: Hope, Advocacy, and the Power of Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2756",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:07:26.783Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2710",
+  "timestamp": "2025-07-13T16:04:21.350Z",
+  "success": false,
+  "processingTime": -1752422316258,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5106,
+    "totalAudioFiles": 12,
+    "totalDuration": 2423.8109580000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2423.8109580000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2710/optimized_text/2710.md",
+    "fileSize": 718,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2710.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2710/metadata/2710_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2423.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2710/metadata/2710_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2710/metadata/2710_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2710/2710_complete.wav",
+    "duration": 2423.810958,
+    "fileSize": 116343004,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2710/introduction.wav",
+          "duration": 111.420375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.420375,
+          "startTime": 0,
+          "endTime": 111.420375
+        },
+        {
+          "path": "Audio/output/2710/chapter_01.wav",
+          "duration": 289.185333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Unthinkable: When Life Changes Without Warning",
+          "actualDuration": 289.185333,
+          "startTime": 112.920375,
+          "endTime": 402.10570800000005
+        },
+        {
+          "path": "Audio/output/2710/chapter_02.wav",
+          "duration": 270.139,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Waiting: Living in Uncertainty and Holding onto Hope",
+          "actualDuration": 270.139,
+          "startTime": 403.60570800000005,
+          "endTime": 673.7447080000001
+        },
+        {
+          "path": "Audio/output/2710/chapter_03.wav",
+          "duration": 257.518208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Community: Finding Strength in Others",
+          "actualDuration": 257.518208,
+          "startTime": 675.2447080000001,
+          "endTime": 932.7629160000001
+        },
+        {
+          "path": "Audio/output/2710/chapter_04.wav",
+          "duration": 244.628875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Faith and Transformation: Growing Through Pain and Uncertainty",
+          "actualDuration": 244.628875,
+          "startTime": 934.2629160000001,
+          "endTime": 1178.891791
+        },
+        {
+          "path": "Audio/output/2710/chapter_05.wav",
+          "duration": 230.603458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing a New Life: Recovery, Renewal, and the Ongoing Journey",
+          "actualDuration": 230.603458,
+          "startTime": 1180.391791,
+          "endTime": 1410.995249
+        },
+        {
+          "path": "Audio/output/2710/chapter_06.wav",
+          "duration": 194.9485,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect: How One Story Inspires Many",
+          "actualDuration": 194.9485,
+          "startTime": 1412.495249,
+          "endTime": 1607.443749
+        },
+        {
+          "path": "Audio/output/2710/chapter_07.wav",
+          "duration": 165.805667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Setbacks: When Progress Isn’t Linear",
+          "actualDuration": 165.805667,
+          "startTime": 1608.943749,
+          "endTime": 1774.749416
+        },
+        {
+          "path": "Audio/output/2710/chapter_08.wav",
+          "duration": 177.32475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Redefining Identity: Who Am I Now?",
+          "actualDuration": 177.32475,
+          "startTime": 1776.249416,
+          "endTime": 1953.574166
+        },
+        {
+          "path": "Audio/output/2710/chapter_09.wav",
+          "duration": 175.558583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Giving Back: Turning Pain into Purpose",
+          "actualDuration": 175.558583,
+          "startTime": 1955.074166,
+          "endTime": 2130.6327490000003
+        },
+        {
+          "path": "Audio/output/2710/chapter_10.wav",
+          "duration": 171.674542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Uncertainty: Hope as a Daily Practice",
+          "actualDuration": 171.674542,
+          "startTime": 2132.1327490000003,
+          "endTime": 2303.8072910000005
+        },
+        {
+          "path": "Audio/output/2710/conclusion.wav",
+          "duration": 135.003667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.003667,
+          "startTime": 2305.3072910000005,
+          "endTime": 2440.3109580000005
+        }
+      ],
+      "totalDuration": 2440.3109580000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.42,
+          "actualStart": 0,
+          "actualEnd": 111.420375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Unthinkable: When Life Changes Without Warning",
+          "expectedStart": 111.42,
+          "expectedEnd": 400.61,
+          "actualStart": 112.920375,
+          "actualEnd": 402.10570800000005,
+          "timeDifference": 1.5003750000000053
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Waiting: Living in Uncertainty and Holding onto Hope",
+          "expectedStart": 400.61,
+          "expectedEnd": 670.75,
+          "actualStart": 403.60570800000005,
+          "actualEnd": 673.7447080000001,
+          "timeDifference": 2.995708000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Community: Finding Strength in Others",
+          "expectedStart": 670.75,
+          "expectedEnd": 928.27,
+          "actualStart": 675.2447080000001,
+          "actualEnd": 932.7629160000001,
+          "timeDifference": 4.49470800000006
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Faith and Transformation: Growing Through Pain and Uncertainty",
+          "expectedStart": 928.27,
+          "expectedEnd": 1172.9,
+          "actualStart": 934.2629160000001,
+          "actualEnd": 1178.891791,
+          "timeDifference": 5.99291600000015
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing a New Life: Recovery, Renewal, and the Ongoing Journey",
+          "expectedStart": 1172.9,
+          "expectedEnd": 1403.5,
+          "actualStart": 1180.391791,
+          "actualEnd": 1410.995249,
+          "timeDifference": 7.491790999999921
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect: How One Story Inspires Many",
+          "expectedStart": 1403.5,
+          "expectedEnd": 1598.45,
+          "actualStart": 1412.495249,
+          "actualEnd": 1607.443749,
+          "timeDifference": 8.995249000000058
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Setbacks: When Progress Isn’t Linear",
+          "expectedStart": 1598.45,
+          "expectedEnd": 1764.26,
+          "actualStart": 1608.943749,
+          "actualEnd": 1774.749416,
+          "timeDifference": 10.49374899999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Redefining Identity: Who Am I Now?",
+          "expectedStart": 1764.26,
+          "expectedEnd": 1941.58,
+          "actualStart": 1776.249416,
+          "actualEnd": 1953.574166,
+          "timeDifference": 11.98941600000012
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Giving Back: Turning Pain into Purpose",
+          "expectedStart": 1941.58,
+          "expectedEnd": 2117.14,
+          "actualStart": 1955.074166,
+          "actualEnd": 2130.6327490000003,
+          "timeDifference": 13.494166000000178
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Uncertainty: Hope as a Daily Practice",
+          "expectedStart": 2117.14,
+          "expectedEnd": 2288.81,
+          "actualStart": 2132.1327490000003,
+          "actualEnd": 2303.8072910000005,
+          "timeDifference": 14.992749000000458
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2288.81,
+          "expectedEnd": 2423.81,
+          "actualStart": 2305.3072910000005,
+          "actualEnd": 2440.3109580000005,
+          "timeDifference": 16.497291000000587
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.420375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Unthinkable: When Life Changes Without Warning"
+        },
+        {
+          "startTime": 402.10570800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Unthinkable: When Life Changes Without Warning and Chapter 2 The Weight of Waiting: Living in Uncertainty and Holding onto Hope"
+        },
+        {
+          "startTime": 673.7447080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Waiting: Living in Uncertainty and Holding onto Hope and Chapter 3 The Power of Community: Finding Strength in Others"
+        },
+        {
+          "startTime": 932.7629160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Community: Finding Strength in Others and Chapter 4 Faith and Transformation: Growing Through Pain and Uncertainty"
+        },
+        {
+          "startTime": 1178.891791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Faith and Transformation: Growing Through Pain and Uncertainty and Chapter 5 Embracing a New Life: Recovery, Renewal, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1410.995249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing a New Life: Recovery, Renewal, and the Ongoing Journey and Chapter 6 The Ripple Effect: How One Story Inspires Many"
+        },
+        {
+          "startTime": 1607.443749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect: How One Story Inspires Many and Chapter 7 Navigating Setbacks: When Progress Isn’t Linear"
+        },
+        {
+          "startTime": 1774.749416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Setbacks: When Progress Isn’t Linear and Chapter 8 Redefining Identity: Who Am I Now?"
+        },
+        {
+          "startTime": 1953.574166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Redefining Identity: Who Am I Now? and Chapter 9 Giving Back: Turning Pain into Purpose"
+        },
+        {
+          "startTime": 2130.6327490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Giving Back: Turning Pain into Purpose and Chapter 10 Living with Uncertainty: Hope as a Daily Practice"
+        },
+        {
+          "startTime": 2303.8072910000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Uncertainty: Hope as a Daily Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2710",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T15:58:37.846Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

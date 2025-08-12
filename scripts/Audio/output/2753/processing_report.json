@@ -1,0 +1,432 @@
+{
+  "bookId": "2753",
+  "timestamp": "2025-07-13T18:02:41.639Z",
+  "success": false,
+  "processingTime": -1752429529692,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5013,
+    "totalAudioFiles": 12,
+    "totalDuration": 2015.1867900000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2015.1867900000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2753/optimized_text/2753.md",
+    "fileSize": 770,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2753.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2753/metadata/2753_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2015.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2753/metadata/2753_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2753/metadata/2753_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2753/2753_complete.wav",
+    "duration": 2015.186792,
+    "fileSize": 96729044,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2753/introduction.wav",
+          "duration": 76.163333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.163333,
+          "startTime": 0,
+          "endTime": 76.163333
+        },
+        {
+          "path": "Audio/output/2753/chapter_01.wav",
+          "duration": 243.254708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary Lives Interrupted: The Day Everything Changed",
+          "actualDuration": 243.254708,
+          "startTime": 77.663333,
+          "endTime": 320.918041
+        },
+        {
+          "path": "Audio/output/2753/chapter_03.wav",
+          "duration": 245.100958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Bonds of Survival: Friendship, Trust, and Small Acts of Defiance",
+          "actualDuration": 245.100958,
+          "startTime": 322.418041,
+          "endTime": 567.518999
+        },
+        {
+          "path": "Audio/output/2753/chapter_04.wav",
+          "duration": 259.473833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Time: Coping, Endurance, and the Power of Hope",
+          "actualDuration": 259.473833,
+          "startTime": 569.018999,
+          "endTime": 828.492832
+        },
+        {
+          "path": "Audio/output/2753/chapter_05.wav",
+          "duration": 218.864958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Glimpses of Freedom: Small Victories and the Road to Escape",
+          "actualDuration": 218.864958,
+          "startTime": 829.992832,
+          "endTime": 1048.85779
+        },
+        {
+          "path": "Audio/output/2753/chapter_06.wav",
+          "duration": 207.064792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 After the Door Opens: The First Days of Freedom",
+          "actualDuration": 207.064792,
+          "startTime": 1050.35779,
+          "endTime": 1257.4225820000001
+        },
+        {
+          "path": "Audio/output/2753/chapter_07.wav",
+          "duration": 196.758375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Road to Healing: Trauma, Therapy, and Rebuilding Trust",
+          "actualDuration": 196.758375,
+          "startTime": 1258.9225820000001,
+          "endTime": 1455.680957
+        },
+        {
+          "path": "Audio/output/2753/chapter_08.wav",
+          "duration": 177.686625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Identity: Finding Voice and Purpose",
+          "actualDuration": 177.686625,
+          "startTime": 1457.180957,
+          "endTime": 1634.867582
+        },
+        {
+          "path": "Audio/output/2753/chapter_09.wav",
+          "duration": 153.254708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: Family, Community, and the Power of Solidarity",
+          "actualDuration": 153.254708,
+          "startTime": 1636.367582,
+          "endTime": 1789.62229
+        },
+        {
+          "path": "Audio/output/2753/chapter_10.wav",
+          "duration": 128.02275,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Past: Acceptance, Forgiveness, and Moving Forward",
+          "actualDuration": 128.02275,
+          "startTime": 1791.12229,
+          "endTime": 1919.14504
+        },
+        {
+          "path": "Audio/output/2753/conclusion.wav",
+          "duration": 109.54175,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.54175,
+          "startTime": 1920.64504,
+          "endTime": 2030.1867900000002
+        }
+      ],
+      "totalDuration": 2030.1867900000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.16,
+          "actualStart": 0,
+          "actualEnd": 76.163333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ordinary Lives Interrupted: The Day Everything Changed",
+          "expectedStart": 76.16,
+          "expectedEnd": 319.41,
+          "actualStart": 77.663333,
+          "actualEnd": 320.918041,
+          "timeDifference": 1.5033329999999978
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Bonds of Survival: Friendship, Trust, and Small Acts of Defiance",
+          "expectedStart": 319.41,
+          "expectedEnd": 564.51,
+          "actualStart": 322.418041,
+          "actualEnd": 567.518999,
+          "timeDifference": 3.0080409999999915
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Time: Coping, Endurance, and the Power of Hope",
+          "expectedStart": 564.51,
+          "expectedEnd": 823.98,
+          "actualStart": 569.018999,
+          "actualEnd": 828.492832,
+          "timeDifference": 4.508999000000017
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Glimpses of Freedom: Small Victories and the Road to Escape",
+          "expectedStart": 823.98,
+          "expectedEnd": 1042.84,
+          "actualStart": 829.992832,
+          "actualEnd": 1048.85779,
+          "timeDifference": 6.012832000000003
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 After the Door Opens: The First Days of Freedom",
+          "expectedStart": 1042.84,
+          "expectedEnd": 1249.9,
+          "actualStart": 1050.35779,
+          "actualEnd": 1257.4225820000001,
+          "timeDifference": 7.5177900000001046
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Road to Healing: Trauma, Therapy, and Rebuilding Trust",
+          "expectedStart": 1249.9,
+          "expectedEnd": 1446.66,
+          "actualStart": 1258.9225820000001,
+          "actualEnd": 1455.680957,
+          "timeDifference": 9.022582000000057
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Identity: Finding Voice and Purpose",
+          "expectedStart": 1446.66,
+          "expectedEnd": 1624.35,
+          "actualStart": 1457.180957,
+          "actualEnd": 1634.867582,
+          "timeDifference": 10.520956999999953
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: Family, Community, and the Power of Solidarity",
+          "expectedStart": 1624.35,
+          "expectedEnd": 1777.6,
+          "actualStart": 1636.367582,
+          "actualEnd": 1789.62229,
+          "timeDifference": 12.017582000000175
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Past: Acceptance, Forgiveness, and Moving Forward",
+          "expectedStart": 1777.6,
+          "expectedEnd": 1905.62,
+          "actualStart": 1791.12229,
+          "actualEnd": 1919.14504,
+          "timeDifference": 13.522290000000112
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1905.62,
+          "expectedEnd": 2015.16,
+          "actualStart": 1920.64504,
+          "actualEnd": 2030.1867900000002,
+          "timeDifference": 15.025040000000217
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.163333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ordinary Lives Interrupted: The Day Everything Changed"
+        },
+        {
+          "startTime": 320.918041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary Lives Interrupted: The Day Everything Changed and Chapter 3 Bonds of Survival: Friendship, Trust, and Small Acts of Defiance"
+        },
+        {
+          "startTime": 567.518999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Bonds of Survival: Friendship, Trust, and Small Acts of Defiance and Chapter 4 The Weight of Time: Coping, Endurance, and the Power of Hope"
+        },
+        {
+          "startTime": 828.492832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Time: Coping, Endurance, and the Power of Hope and Chapter 5 Glimpses of Freedom: Small Victories and the Road to Escape"
+        },
+        {
+          "startTime": 1048.85779,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Glimpses of Freedom: Small Victories and the Road to Escape and Chapter 6 After the Door Opens: The First Days of Freedom"
+        },
+        {
+          "startTime": 1257.4225820000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 After the Door Opens: The First Days of Freedom and Chapter 7 The Long Road to Healing: Trauma, Therapy, and Rebuilding Trust"
+        },
+        {
+          "startTime": 1455.680957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Road to Healing: Trauma, Therapy, and Rebuilding Trust and Chapter 8 Reclaiming Identity: Finding Voice and Purpose"
+        },
+        {
+          "startTime": 1634.867582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Identity: Finding Voice and Purpose and Chapter 9 The Ripple Effect: Family, Community, and the Power of Solidarity"
+        },
+        {
+          "startTime": 1789.62229,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: Family, Community, and the Power of Solidarity and Chapter 10 Living with the Past: Acceptance, Forgiveness, and Moving Forward"
+        },
+        {
+          "startTime": 1919.14504,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Past: Acceptance, Forgiveness, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2753",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:58:50.524Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

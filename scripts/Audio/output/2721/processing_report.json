@@ -1,0 +1,456 @@
+{
+  "bookId": "2721",
+  "timestamp": "2025-07-13T16:31:38.370Z",
+  "success": false,
+  "processingTime": -1752424001658,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4650,
+    "totalAudioFiles": 12,
+    "totalDuration": 2244.6675
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2244.6675
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2721/optimized_text/2721.md",
+    "fileSize": 665,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2721.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2721/metadata/2721_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2244.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2721/metadata/2721_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2721/metadata/2721_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2721/2721_complete.wav",
+    "duration": 2244.6675,
+    "fileSize": 107744118,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2721/introduction.wav",
+          "duration": 87.657792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.657792,
+          "startTime": 0,
+          "endTime": 87.657792
+        },
+        {
+          "path": "Audio/output/2721/chapter_01.wav",
+          "duration": 284.421708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons in Work, Character, and Ambition",
+          "actualDuration": 284.421708,
+          "startTime": 89.157792,
+          "endTime": 373.57950000000005
+        },
+        {
+          "path": "Audio/output/2721/chapter_02.wav",
+          "duration": 260.498583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating Change and Embracing Opportunity",
+          "actualDuration": 260.498583,
+          "startTime": 375.07950000000005,
+          "endTime": 635.5780830000001
+        },
+        {
+          "path": "Audio/output/2721/chapter_03.wav",
+          "duration": 239.084417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Trust and Leading with Integrity",
+          "actualDuration": 239.084417,
+          "startTime": 637.0780830000001,
+          "endTime": 876.1625000000001
+        },
+        {
+          "path": "Audio/output/2721/chapter_04.wav",
+          "duration": 248.714792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Vision and the Courage to Take Risks",
+          "actualDuration": 248.714792,
+          "startTime": 877.6625000000001,
+          "endTime": 1126.3772920000001
+        },
+        {
+          "path": "Audio/output/2721/chapter_05.wav",
+          "duration": 219.301875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Listening, Empathy, and the Value of Every Voice",
+          "actualDuration": 219.301875,
+          "startTime": 1127.8772920000001,
+          "endTime": 1347.1791670000002
+        },
+        {
+          "path": "Audio/output/2721/chapter_06.wav",
+          "duration": 197.152458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering Storms and Making the Hard Calls",
+          "actualDuration": 197.152458,
+          "startTime": 1348.6791670000002,
+          "endTime": 1545.8316250000003
+        },
+        {
+          "path": "Audio/output/2721/chapter_07.wav",
+          "duration": 166.4015,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Negotiation and the Power of Partnership",
+          "actualDuration": 166.4015,
+          "startTime": 1547.3316250000003,
+          "endTime": 1713.7331250000002
+        },
+        {
+          "path": "Audio/output/2721/chapter_08.wav",
+          "duration": 175.798042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creativity, Innovation, and the Magic of Storytelling",
+          "actualDuration": 175.798042,
+          "startTime": 1715.2331250000002,
+          "endTime": 1891.031167
+        },
+        {
+          "path": "Audio/output/2721/chapter_09.wav",
+          "duration": 144.246958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Succession, Legacy, and Letting Go",
+          "actualDuration": 144.246958,
+          "startTime": 1892.531167,
+          "endTime": 2036.778125
+        },
+        {
+          "path": "Audio/output/2721/chapter_10.wav",
+          "duration": 109.589417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections on Leadership, Life, and What Matters Most",
+          "actualDuration": 109.589417,
+          "startTime": 2038.278125,
+          "endTime": 2147.867542
+        },
+        {
+          "path": "Audio/output/2721/conclusion.wav",
+          "duration": 111.799958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.799958,
+          "startTime": 2149.367542,
+          "endTime": 2261.1675
+        }
+      ],
+      "totalDuration": 2261.1675,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.66,
+          "actualStart": 0,
+          "actualEnd": 87.657792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons in Work, Character, and Ambition",
+          "expectedStart": 87.66,
+          "expectedEnd": 372.08,
+          "actualStart": 89.157792,
+          "actualEnd": 373.57950000000005,
+          "timeDifference": 1.497792000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating Change and Embracing Opportunity",
+          "expectedStart": 372.08,
+          "expectedEnd": 632.58,
+          "actualStart": 375.07950000000005,
+          "actualEnd": 635.5780830000001,
+          "timeDifference": 2.9995000000000687
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Trust and Leading with Integrity",
+          "expectedStart": 632.58,
+          "expectedEnd": 871.66,
+          "actualStart": 637.0780830000001,
+          "actualEnd": 876.1625000000001,
+          "timeDifference": 4.498083000000065
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Vision and the Courage to Take Risks",
+          "expectedStart": 871.66,
+          "expectedEnd": 1120.37,
+          "actualStart": 877.6625000000001,
+          "actualEnd": 1126.3772920000001,
+          "timeDifference": 6.002500000000168
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Listening, Empathy, and the Value of Every Voice",
+          "expectedStart": 1120.37,
+          "expectedEnd": 1339.67,
+          "actualStart": 1127.8772920000001,
+          "actualEnd": 1347.1791670000002,
+          "timeDifference": 7.507292000000234
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering Storms and Making the Hard Calls",
+          "expectedStart": 1339.67,
+          "expectedEnd": 1536.82,
+          "actualStart": 1348.6791670000002,
+          "actualEnd": 1545.8316250000003,
+          "timeDifference": 9.009167000000161
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Negotiation and the Power of Partnership",
+          "expectedStart": 1536.82,
+          "expectedEnd": 1703.22,
+          "actualStart": 1547.3316250000003,
+          "actualEnd": 1713.7331250000002,
+          "timeDifference": 10.511625000000322
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creativity, Innovation, and the Magic of Storytelling",
+          "expectedStart": 1703.22,
+          "expectedEnd": 1879.02,
+          "actualStart": 1715.2331250000002,
+          "actualEnd": 1891.031167,
+          "timeDifference": 12.013125000000173
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Succession, Legacy, and Letting Go",
+          "expectedStart": 1879.02,
+          "expectedEnd": 2023.27,
+          "actualStart": 1892.531167,
+          "actualEnd": 2036.778125,
+          "timeDifference": 13.511167000000114
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections on Leadership, Life, and What Matters Most",
+          "expectedStart": 2023.27,
+          "expectedEnd": 2132.86,
+          "actualStart": 2038.278125,
+          "actualEnd": 2147.867542,
+          "timeDifference": 15.008125000000064
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2132.86,
+          "expectedEnd": 2244.66,
+          "actualStart": 2149.367542,
+          "actualEnd": 2261.1675,
+          "timeDifference": 16.50754199999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.657792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons in Work, Character, and Ambition"
+        },
+        {
+          "startTime": 373.57950000000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons in Work, Character, and Ambition and Chapter 2 Navigating Change and Embracing Opportunity"
+        },
+        {
+          "startTime": 635.5780830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating Change and Embracing Opportunity and Chapter 3 Building Trust and Leading with Integrity"
+        },
+        {
+          "startTime": 876.1625000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Trust and Leading with Integrity and Chapter 4 The Power of Vision and the Courage to Take Risks"
+        },
+        {
+          "startTime": 1126.3772920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Vision and the Courage to Take Risks and Chapter 5 Listening, Empathy, and the Value of Every Voice"
+        },
+        {
+          "startTime": 1347.1791670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Listening, Empathy, and the Value of Every Voice and Chapter 6 Weathering Storms and Making the Hard Calls"
+        },
+        {
+          "startTime": 1545.8316250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering Storms and Making the Hard Calls and Chapter 7 The Art of Negotiation and the Power of Partnership"
+        },
+        {
+          "startTime": 1713.7331250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Negotiation and the Power of Partnership and Chapter 8 Creativity, Innovation, and the Magic of Storytelling"
+        },
+        {
+          "startTime": 1891.031167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creativity, Innovation, and the Magic of Storytelling and Chapter 9 Succession, Legacy, and Letting Go"
+        },
+        {
+          "startTime": 2036.778125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Succession, Legacy, and Letting Go and Chapter 10 Reflections on Leadership, Life, and What Matters Most"
+        },
+        {
+          "startTime": 2147.867542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections on Leadership, Life, and What Matters Most and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2721",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:26:42.148Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

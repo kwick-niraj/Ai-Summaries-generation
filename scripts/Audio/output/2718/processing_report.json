@@ -1,0 +1,456 @@
+{
+  "bookId": "2718",
+  "timestamp": "2025-07-13T16:22:38.972Z",
+  "success": false,
+  "processingTime": -1752423465530,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4258,
+    "totalAudioFiles": 12,
+    "totalDuration": 1927.6376670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1927.6376670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2718/optimized_text/2718.md",
+    "fileSize": 551,
+    "wordCount": 80,
+    "format": "markdown",
+    "filename": "2718.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2718/metadata/2718_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1927.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2718/metadata/2718_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2718/metadata/2718_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2718/2718_complete.wav",
+    "duration": 1927.637667,
+    "fileSize": 92526686,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2718/introduction.wav",
+          "duration": 77.422208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.422208,
+          "startTime": 0,
+          "endTime": 77.422208
+        },
+        {
+          "path": "Audio/output/2718/chapter_01.wav",
+          "duration": 204.46325,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Regret Is Part of Being Human",
+          "actualDuration": 204.46325,
+          "startTime": 78.922208,
+          "endTime": 283.38545799999997
+        },
+        {
+          "path": "Audio/output/2718/chapter_02.wav",
+          "duration": 235.23175,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Four Core Types of Regret",
+          "actualDuration": 235.23175,
+          "startTime": 284.88545799999997,
+          "endTime": 520.117208
+        },
+        {
+          "path": "Audio/output/2718/chapter_03.wav",
+          "duration": 201.229542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Why Regret Hurts—and Why That’s Good",
+          "actualDuration": 201.229542,
+          "startTime": 521.617208,
+          "endTime": 722.84675
+        },
+        {
+          "path": "Audio/output/2718/chapter_04.wav",
+          "duration": 174.8415,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Regret into a Tool for Growth",
+          "actualDuration": 174.8415,
+          "startTime": 724.34675,
+          "endTime": 899.18825
+        },
+        {
+          "path": "Audio/output/2718/chapter_05.wav",
+          "duration": 162.212542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Regret as a Bridge to Others",
+          "actualDuration": 162.212542,
+          "startTime": 900.68825,
+          "endTime": 1062.9007920000001
+        },
+        {
+          "path": "Audio/output/2718/chapter_06.wav",
+          "duration": 182.978292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Regret and the Choices We Make",
+          "actualDuration": 182.978292,
+          "startTime": 1064.4007920000001,
+          "endTime": 1247.3790840000001
+        },
+        {
+          "path": "Audio/output/2718/chapter_07.wav",
+          "duration": 166.348792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Resilience Through Regret",
+          "actualDuration": 166.348792,
+          "startTime": 1248.8790840000001,
+          "endTime": 1415.2278760000002
+        },
+        {
+          "path": "Audio/output/2718/chapter_08.wav",
+          "duration": 138.5485,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Regret and the Pursuit of Meaning",
+          "actualDuration": 138.5485,
+          "startTime": 1416.7278760000002,
+          "endTime": 1555.2763760000003
+        },
+        {
+          "path": "Audio/output/2718/chapter_09.wav",
+          "duration": 147.345875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Strategies for Transforming Regret",
+          "actualDuration": 147.345875,
+          "startTime": 1556.7763760000003,
+          "endTime": 1704.1222510000002
+        },
+        {
+          "path": "Audio/output/2718/chapter_10.wav",
+          "duration": 130.751958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward—Embracing Regret as a Guide",
+          "actualDuration": 130.751958,
+          "startTime": 1705.6222510000002,
+          "endTime": 1836.3742090000003
+        },
+        {
+          "path": "Audio/output/2718/conclusion.wav",
+          "duration": 106.263458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.263458,
+          "startTime": 1837.8742090000003,
+          "endTime": 1944.1376670000002
+        }
+      ],
+      "totalDuration": 1944.1376670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.42,
+          "actualStart": 0,
+          "actualEnd": 77.422208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Regret Is Part of Being Human",
+          "expectedStart": 77.42,
+          "expectedEnd": 281.88,
+          "actualStart": 78.922208,
+          "actualEnd": 283.38545799999997,
+          "timeDifference": 1.502207999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Four Core Types of Regret",
+          "expectedStart": 281.88,
+          "expectedEnd": 517.11,
+          "actualStart": 284.88545799999997,
+          "actualEnd": 520.117208,
+          "timeDifference": 3.005457999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Why Regret Hurts—and Why That’s Good",
+          "expectedStart": 517.11,
+          "expectedEnd": 718.34,
+          "actualStart": 521.617208,
+          "actualEnd": 722.84675,
+          "timeDifference": 4.507207999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Regret into a Tool for Growth",
+          "expectedStart": 718.34,
+          "expectedEnd": 893.18,
+          "actualStart": 724.34675,
+          "actualEnd": 899.18825,
+          "timeDifference": 6.006750000000011
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Regret as a Bridge to Others",
+          "expectedStart": 893.18,
+          "expectedEnd": 1055.39,
+          "actualStart": 900.68825,
+          "actualEnd": 1062.9007920000001,
+          "timeDifference": 7.508250000000089
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Regret and the Choices We Make",
+          "expectedStart": 1055.39,
+          "expectedEnd": 1238.37,
+          "actualStart": 1064.4007920000001,
+          "actualEnd": 1247.3790840000001,
+          "timeDifference": 9.010792000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Resilience Through Regret",
+          "expectedStart": 1238.37,
+          "expectedEnd": 1404.72,
+          "actualStart": 1248.8790840000001,
+          "actualEnd": 1415.2278760000002,
+          "timeDifference": 10.509084000000257
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Regret and the Pursuit of Meaning",
+          "expectedStart": 1404.72,
+          "expectedEnd": 1543.27,
+          "actualStart": 1416.7278760000002,
+          "actualEnd": 1555.2763760000003,
+          "timeDifference": 12.007876000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Strategies for Transforming Regret",
+          "expectedStart": 1543.27,
+          "expectedEnd": 1690.62,
+          "actualStart": 1556.7763760000003,
+          "actualEnd": 1704.1222510000002,
+          "timeDifference": 13.506376000000273
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward—Embracing Regret as a Guide",
+          "expectedStart": 1690.62,
+          "expectedEnd": 1821.37,
+          "actualStart": 1705.6222510000002,
+          "actualEnd": 1836.3742090000003,
+          "timeDifference": 15.002251000000342
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1821.37,
+          "expectedEnd": 1927.63,
+          "actualStart": 1837.8742090000003,
+          "actualEnd": 1944.1376670000002,
+          "timeDifference": 16.5042090000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.422208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Regret Is Part of Being Human"
+        },
+        {
+          "startTime": 283.38545799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Regret Is Part of Being Human and Chapter 2 The Four Core Types of Regret"
+        },
+        {
+          "startTime": 520.117208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Four Core Types of Regret and Chapter 3 Why Regret Hurts—and Why That’s Good"
+        },
+        {
+          "startTime": 722.84675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Why Regret Hurts—and Why That’s Good and Chapter 4 Turning Regret into a Tool for Growth"
+        },
+        {
+          "startTime": 899.18825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Regret into a Tool for Growth and Chapter 5 Regret as a Bridge to Others"
+        },
+        {
+          "startTime": 1062.9007920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Regret as a Bridge to Others and Chapter 6 Regret and the Choices We Make"
+        },
+        {
+          "startTime": 1247.3790840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Regret and the Choices We Make and Chapter 7 Building Resilience Through Regret"
+        },
+        {
+          "startTime": 1415.2278760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Resilience Through Regret and Chapter 8 Regret and the Pursuit of Meaning"
+        },
+        {
+          "startTime": 1555.2763760000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Regret and the Pursuit of Meaning and Chapter 9 Practical Strategies for Transforming Regret"
+        },
+        {
+          "startTime": 1704.1222510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Strategies for Transforming Regret and Chapter 10 Living Forward—Embracing Regret as a Guide"
+        },
+        {
+          "startTime": 1836.3742090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward—Embracing Regret as a Guide and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2718",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:17:46.786Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

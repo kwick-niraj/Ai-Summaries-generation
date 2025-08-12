@@ -1,0 +1,456 @@
+{
+  "bookId": "2723",
+  "timestamp": "2025-07-13T16:35:59.355Z",
+  "success": false,
+  "processingTime": -1752424299375,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4816,
+    "totalAudioFiles": 12,
+    "totalDuration": 2176.245457
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2176.245457
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2723/optimized_text/2723.md",
+    "fileSize": 727,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2723.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2723/metadata/2723_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2176.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2723/metadata/2723_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2723/metadata/2723_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2723/2723_complete.wav",
+    "duration": 2176.245458,
+    "fileSize": 104459860,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2723/introduction.wav",
+          "duration": 79.059458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.059458,
+          "startTime": 0,
+          "endTime": 79.059458
+        },
+        {
+          "path": "Audio/output/2723/chapter_01.wav",
+          "duration": 239.3865,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Voice of Intuition in Everyday Life",
+          "actualDuration": 239.3865,
+          "startTime": 80.559458,
+          "endTime": 319.945958
+        },
+        {
+          "path": "Audio/output/2723/chapter_02.wav",
+          "duration": 207.204708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Fear Protects and When It Misleads",
+          "actualDuration": 207.204708,
+          "startTime": 321.445958,
+          "endTime": 528.650666
+        },
+        {
+          "path": "Audio/output/2723/chapter_03.wav",
+          "duration": 233.290833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Patterns Behind Violent Behavior",
+          "actualDuration": 233.290833,
+          "startTime": 530.150666,
+          "endTime": 763.441499
+        },
+        {
+          "path": "Audio/output/2723/chapter_04.wav",
+          "duration": 179.479,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Social Conditioning to Stay Safe",
+          "actualDuration": 179.479,
+          "startTime": 764.941499,
+          "endTime": 944.4204990000001
+        },
+        {
+          "path": "Audio/output/2723/chapter_05.wav",
+          "duration": 193.375458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Empowerment Through Awareness, Not Paranoia",
+          "actualDuration": 193.375458,
+          "startTime": 945.9204990000001,
+          "endTime": 1139.295957
+        },
+        {
+          "path": "Audio/output/2723/chapter_06.wav",
+          "duration": 228.979167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Predicting Violence: The Subtle Art of Pre-Incident Indicators",
+          "actualDuration": 228.979167,
+          "startTime": 1140.795957,
+          "endTime": 1369.775124
+        },
+        {
+          "path": "Audio/output/2723/chapter_07.wav",
+          "duration": 209.578125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Mindset of Those Who Threaten: Understanding Motives and Manipulation",
+          "actualDuration": 209.578125,
+          "startTime": 1371.275124,
+          "endTime": 1580.853249
+        },
+        {
+          "path": "Audio/output/2723/chapter_08.wav",
+          "duration": 201.080875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying the Gift of Fear: Real-World Strategies for Everyday Life",
+          "actualDuration": 201.080875,
+          "startTime": 1582.353249,
+          "endTime": 1783.4341239999999
+        },
+        {
+          "path": "Audio/output/2723/chapter_09.wav",
+          "duration": 163.575125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 When to Seek Help: Navigating Systems and Support",
+          "actualDuration": 163.575125,
+          "startTime": 1784.9341239999999,
+          "endTime": 1948.509249
+        },
+        {
+          "path": "Audio/output/2723/chapter_10.wav",
+          "duration": 131.789083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Confidence: Integrating Intuition into a Safer Life",
+          "actualDuration": 131.789083,
+          "startTime": 1950.009249,
+          "endTime": 2081.798332
+        },
+        {
+          "path": "Audio/output/2723/conclusion.wav",
+          "duration": 109.447125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.447125,
+          "startTime": 2083.298332,
+          "endTime": 2192.745457
+        }
+      ],
+      "totalDuration": 2192.745457,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.06,
+          "actualStart": 0,
+          "actualEnd": 79.059458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Voice of Intuition in Everyday Life",
+          "expectedStart": 79.06,
+          "expectedEnd": 318.45,
+          "actualStart": 80.559458,
+          "actualEnd": 319.945958,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Fear Protects and When It Misleads",
+          "expectedStart": 318.45,
+          "expectedEnd": 525.65,
+          "actualStart": 321.445958,
+          "actualEnd": 528.650666,
+          "timeDifference": 2.99595800000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Patterns Behind Violent Behavior",
+          "expectedStart": 525.65,
+          "expectedEnd": 758.94,
+          "actualStart": 530.150666,
+          "actualEnd": 763.441499,
+          "timeDifference": 4.500666000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Social Conditioning to Stay Safe",
+          "expectedStart": 758.94,
+          "expectedEnd": 938.42,
+          "actualStart": 764.941499,
+          "actualEnd": 944.4204990000001,
+          "timeDifference": 6.001498999999967
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Empowerment Through Awareness, Not Paranoia",
+          "expectedStart": 938.42,
+          "expectedEnd": 1131.8,
+          "actualStart": 945.9204990000001,
+          "actualEnd": 1139.295957,
+          "timeDifference": 7.500499000000104
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Predicting Violence: The Subtle Art of Pre-Incident Indicators",
+          "expectedStart": 1131.8,
+          "expectedEnd": 1360.78,
+          "actualStart": 1140.795957,
+          "actualEnd": 1369.775124,
+          "timeDifference": 8.99595700000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Mindset of Those Who Threaten: Understanding Motives and Manipulation",
+          "expectedStart": 1360.78,
+          "expectedEnd": 1570.36,
+          "actualStart": 1371.275124,
+          "actualEnd": 1580.853249,
+          "timeDifference": 10.495124000000033
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying the Gift of Fear: Real-World Strategies for Everyday Life",
+          "expectedStart": 1570.36,
+          "expectedEnd": 1771.44,
+          "actualStart": 1582.353249,
+          "actualEnd": 1783.4341239999999,
+          "timeDifference": 11.993249000000105
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 When to Seek Help: Navigating Systems and Support",
+          "expectedStart": 1771.44,
+          "expectedEnd": 1935.02,
+          "actualStart": 1784.9341239999999,
+          "actualEnd": 1948.509249,
+          "timeDifference": 13.494123999999829
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Confidence: Integrating Intuition into a Safer Life",
+          "expectedStart": 1935.02,
+          "expectedEnd": 2066.81,
+          "actualStart": 1950.009249,
+          "actualEnd": 2081.798332,
+          "timeDifference": 14.989248999999973
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2066.81,
+          "expectedEnd": 2176.26,
+          "actualStart": 2083.298332,
+          "actualEnd": 2192.745457,
+          "timeDifference": 16.4883319999999
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.059458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Voice of Intuition in Everyday Life"
+        },
+        {
+          "startTime": 319.945958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Voice of Intuition in Everyday Life and Chapter 2 How Fear Protects and When It Misleads"
+        },
+        {
+          "startTime": 528.650666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Fear Protects and When It Misleads and Chapter 3 The Patterns Behind Violent Behavior"
+        },
+        {
+          "startTime": 763.441499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Patterns Behind Violent Behavior and Chapter 4 Overcoming Social Conditioning to Stay Safe"
+        },
+        {
+          "startTime": 944.4204990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Social Conditioning to Stay Safe and Chapter 5 Empowerment Through Awareness, Not Paranoia"
+        },
+        {
+          "startTime": 1139.295957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Empowerment Through Awareness, Not Paranoia and Chapter 6 Predicting Violence: The Subtle Art of Pre-Incident Indicators"
+        },
+        {
+          "startTime": 1369.775124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Predicting Violence: The Subtle Art of Pre-Incident Indicators and Chapter 7 The Mindset of Those Who Threaten: Understanding Motives and Manipulation"
+        },
+        {
+          "startTime": 1580.853249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Mindset of Those Who Threaten: Understanding Motives and Manipulation and Chapter 8 Applying the Gift of Fear: Real-World Strategies for Everyday Life"
+        },
+        {
+          "startTime": 1783.4341239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying the Gift of Fear: Real-World Strategies for Everyday Life and Chapter 9 When to Seek Help: Navigating Systems and Support"
+        },
+        {
+          "startTime": 1948.509249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 When to Seek Help: Navigating Systems and Support and Chapter 10 Living with Confidence: Integrating Intuition into a Safer Life"
+        },
+        {
+          "startTime": 2081.798332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Confidence: Integrating Intuition into a Safer Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2723",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:31:39.874Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

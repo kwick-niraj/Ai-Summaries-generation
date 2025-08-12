@@ -1,0 +1,456 @@
+{
+  "bookId": "2729",
+  "timestamp": "2025-07-13T16:51:46.963Z",
+  "success": false,
+  "processingTime": -1752425301000,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4026,
+    "totalAudioFiles": 12,
+    "totalDuration": 1836.354665
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1836.354665
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2729/optimized_text/2729.md",
+    "fileSize": 495,
+    "wordCount": 69,
+    "format": "markdown",
+    "filename": "2729.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2729/metadata/2729_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1836.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2729/metadata/2729_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2729/metadata/2729_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2729/2729_complete.wav",
+    "duration": 1836.354667,
+    "fileSize": 88145102,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2729/introduction.wav",
+          "duration": 86.131042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.131042,
+          "startTime": 0,
+          "endTime": 86.131042
+        },
+        {
+          "path": "Audio/output/2729/chapter_01.wav",
+          "duration": 252.460917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Name and Hiding the Source",
+          "actualDuration": 252.460917,
+          "startTime": 87.631042,
+          "endTime": 340.091959
+        },
+        {
+          "path": "Audio/output/2729/chapter_02.wav",
+          "duration": 176.506833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Birth of Aggressive Pharmaceutical Marketing",
+          "actualDuration": 176.506833,
+          "startTime": 341.591959,
+          "endTime": 518.098792
+        },
+        {
+          "path": "Audio/output/2729/chapter_03.wav",
+          "duration": 209.501,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 OxyContin and the Making of a Crisis",
+          "actualDuration": 209.501,
+          "startTime": 519.598792,
+          "endTime": 729.099792
+        },
+        {
+          "path": "Audio/output/2729/chapter_04.wav",
+          "duration": 185.660833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Power, Privilege, and the Art of Reputation",
+          "actualDuration": 185.660833,
+          "startTime": 730.599792,
+          "endTime": 916.260625
+        },
+        {
+          "path": "Audio/output/2729/chapter_05.wav",
+          "duration": 157.374333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Accountability",
+          "actualDuration": 157.374333,
+          "startTime": 917.760625,
+          "endTime": 1075.134958
+        },
+        {
+          "path": "Audio/output/2729/chapter_06.wav",
+          "duration": 143.486958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling Begins",
+          "actualDuration": 143.486958,
+          "startTime": 1076.634958,
+          "endTime": 1220.121916
+        },
+        {
+          "path": "Audio/output/2729/chapter_07.wav",
+          "duration": 131.922375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art World Reckons",
+          "actualDuration": 131.922375,
+          "startTime": 1221.621916,
+          "endTime": 1353.5442910000002
+        },
+        {
+          "path": "Audio/output/2729/chapter_08.wav",
+          "duration": 147.380833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Justice",
+          "actualDuration": 147.380833,
+          "startTime": 1355.0442910000002,
+          "endTime": 1502.425124
+        },
+        {
+          "path": "Audio/output/2729/chapter_09.wav",
+          "duration": 110.246875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Next Generation",
+          "actualDuration": 110.246875,
+          "startTime": 1503.925124,
+          "endTime": 1614.1719990000001
+        },
+        {
+          "path": "Audio/output/2729/chapter_10.wav",
+          "duration": 118.419833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons Unlearned",
+          "actualDuration": 118.419833,
+          "startTime": 1615.6719990000001,
+          "endTime": 1734.091832
+        },
+        {
+          "path": "Audio/output/2729/conclusion.wav",
+          "duration": 117.262833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.262833,
+          "startTime": 1735.591832,
+          "endTime": 1852.854665
+        }
+      ],
+      "totalDuration": 1852.854665,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.13,
+          "actualStart": 0,
+          "actualEnd": 86.131042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Name and Hiding the Source",
+          "expectedStart": 86.13,
+          "expectedEnd": 338.59,
+          "actualStart": 87.631042,
+          "actualEnd": 340.091959,
+          "timeDifference": 1.5010419999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Birth of Aggressive Pharmaceutical Marketing",
+          "expectedStart": 338.59,
+          "expectedEnd": 515.1,
+          "actualStart": 341.591959,
+          "actualEnd": 518.098792,
+          "timeDifference": 3.0019589999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 OxyContin and the Making of a Crisis",
+          "expectedStart": 515.1,
+          "expectedEnd": 724.6,
+          "actualStart": 519.598792,
+          "actualEnd": 729.099792,
+          "timeDifference": 4.49879199999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Power, Privilege, and the Art of Reputation",
+          "expectedStart": 724.6,
+          "expectedEnd": 910.26,
+          "actualStart": 730.599792,
+          "actualEnd": 916.260625,
+          "timeDifference": 5.999791999999957
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Accountability",
+          "expectedStart": 910.26,
+          "expectedEnd": 1067.63,
+          "actualStart": 917.760625,
+          "actualEnd": 1075.134958,
+          "timeDifference": 7.500625000000014
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling Begins",
+          "expectedStart": 1067.63,
+          "expectedEnd": 1211.12,
+          "actualStart": 1076.634958,
+          "actualEnd": 1220.121916,
+          "timeDifference": 9.004957999999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art World Reckons",
+          "expectedStart": 1211.12,
+          "expectedEnd": 1343.04,
+          "actualStart": 1221.621916,
+          "actualEnd": 1353.5442910000002,
+          "timeDifference": 10.501916000000165
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Justice",
+          "expectedStart": 1343.04,
+          "expectedEnd": 1490.42,
+          "actualStart": 1355.0442910000002,
+          "actualEnd": 1502.425124,
+          "timeDifference": 12.004291000000194
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Next Generation",
+          "expectedStart": 1490.42,
+          "expectedEnd": 1600.67,
+          "actualStart": 1503.925124,
+          "actualEnd": 1614.1719990000001,
+          "timeDifference": 13.505124000000023
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons Unlearned",
+          "expectedStart": 1600.67,
+          "expectedEnd": 1719.09,
+          "actualStart": 1615.6719990000001,
+          "actualEnd": 1734.091832,
+          "timeDifference": 15.001999000000069
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1719.09,
+          "expectedEnd": 1836.35,
+          "actualStart": 1735.591832,
+          "actualEnd": 1852.854665,
+          "timeDifference": 16.50183200000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.131042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Name and Hiding the Source"
+        },
+        {
+          "startTime": 340.091959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Name and Hiding the Source and Chapter 2 The Birth of Aggressive Pharmaceutical Marketing"
+        },
+        {
+          "startTime": 518.098792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Birth of Aggressive Pharmaceutical Marketing and Chapter 3 OxyContin and the Making of a Crisis"
+        },
+        {
+          "startTime": 729.099792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 OxyContin and the Making of a Crisis and Chapter 4 Power, Privilege, and the Art of Reputation"
+        },
+        {
+          "startTime": 916.260625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Power, Privilege, and the Art of Reputation and Chapter 5 The Limits of Accountability"
+        },
+        {
+          "startTime": 1075.134958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Accountability and Chapter 6 The Unraveling Begins"
+        },
+        {
+          "startTime": 1220.121916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling Begins and Chapter 7 The Art World Reckons"
+        },
+        {
+          "startTime": 1353.5442910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art World Reckons and Chapter 8 The Search for Justice"
+        },
+        {
+          "startTime": 1502.425124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Justice and Chapter 9 The Next Generation"
+        },
+        {
+          "startTime": 1614.1719990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Next Generation and Chapter 10 Lessons Unlearned"
+        },
+        {
+          "startTime": 1734.091832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons Unlearned and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2729",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:48:21.547Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

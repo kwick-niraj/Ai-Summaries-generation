@@ -1,0 +1,504 @@
+{
+  "bookId": "2750",
+  "timestamp": "2025-07-13T17:50:45.067Z",
+  "success": false,
+  "processingTime": -1752428766818,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5567,
+    "totalAudioFiles": 14,
+    "totalDuration": 2698.2818749999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2698.2818749999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2750/optimized_text/2750.md",
+    "fileSize": 784,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2750.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2750/metadata/2750_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2698.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2750/metadata/2750_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2750/metadata/2750_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2750/2750_complete.wav",
+    "duration": 2698.281875,
+    "fileSize": 129517608,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2750/introduction.wav",
+          "duration": 97.231542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.231542,
+          "startTime": 0,
+          "endTime": 97.231542
+        },
+        {
+          "path": "Audio/output/2750/chapter_01.wav",
+          "duration": 258.4135,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Humanity Outgrew Its Old Nightmares",
+          "actualDuration": 258.4135,
+          "startTime": 98.731542,
+          "endTime": 357.145042
+        },
+        {
+          "path": "Audio/output/2750/chapter_02.wav",
+          "duration": 307.008667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The New Human Agenda—Chasing Immortality, Happiness, and Power",
+          "actualDuration": 307.008667,
+          "startTime": 358.645042,
+          "endTime": 665.6537089999999
+        },
+        {
+          "path": "Audio/output/2750/chapter_03.wav",
+          "duration": 215.235958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Rise and Transformation of Humanism",
+          "actualDuration": 215.235958,
+          "startTime": 667.1537089999999,
+          "endTime": 882.3896669999999
+        },
+        {
+          "path": "Audio/output/2750/chapter_04.wav",
+          "duration": 241.820542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power and Peril of Data and Algorithms",
+          "actualDuration": 241.820542,
+          "startTime": 883.8896669999999,
+          "endTime": 1125.7102089999998
+        },
+        {
+          "path": "Audio/output/2750/chapter_05.wav",
+          "duration": 215.143583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Uncertain Future—Ethics, Identity, and the Limits of Progress",
+          "actualDuration": 215.143583,
+          "startTime": 1127.2102089999998,
+          "endTime": 1342.3537919999999
+        },
+        {
+          "path": "Audio/output/2750/chapter_06.wav",
+          "duration": 208.555208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Intelligence and Consciousness Part Ways",
+          "actualDuration": 208.555208,
+          "startTime": 1343.8537919999999,
+          "endTime": 1552.4089999999999
+        },
+        {
+          "path": "Audio/output/2750/chapter_07.wav",
+          "duration": 211.943833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The New Religion of Dataism",
+          "actualDuration": 211.943833,
+          "startTime": 1553.9089999999999,
+          "endTime": 1765.852833
+        },
+        {
+          "path": "Audio/output/2750/chapter_08.wav",
+          "duration": 161.208917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Fragility of Liberal Humanism",
+          "actualDuration": 161.208917,
+          "startTime": 1767.352833,
+          "endTime": 1928.5617499999998
+        },
+        {
+          "path": "Audio/output/2750/chapter_09.wav",
+          "duration": 192.122,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Rise of Useless Classes and the New Inequality",
+          "actualDuration": 192.122,
+          "startTime": 1930.0617499999998,
+          "endTime": 2122.1837499999997
+        },
+        {
+          "path": "Audio/output/2750/chapter_10.wav",
+          "duration": 165.089958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Life—Redesigning Bodies, Minds, and Societies",
+          "actualDuration": 165.089958,
+          "startTime": 2123.6837499999997,
+          "endTime": 2288.7737079999997
+        },
+        {
+          "path": "Audio/output/2750/chapter_11.wav",
+          "duration": 147.82625,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The End of Homo Sapiens?",
+          "actualDuration": 147.82625,
+          "startTime": 2290.2737079999997,
+          "endTime": 2438.099958
+        },
+        {
+          "path": "Audio/output/2750/chapter_12.wav",
+          "duration": 131.697042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Search for Meaning in a World of Gods and Machines",
+          "actualDuration": 131.697042,
+          "startTime": 2439.599958,
+          "endTime": 2571.2969999999996
+        },
+        {
+          "path": "Audio/output/2750/conclusion.wav",
+          "duration": 144.984875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.984875,
+          "startTime": 2572.7969999999996,
+          "endTime": 2717.7818749999997
+        }
+      ],
+      "totalDuration": 2717.7818749999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.23,
+          "actualStart": 0,
+          "actualEnd": 97.231542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Humanity Outgrew Its Old Nightmares",
+          "expectedStart": 97.23,
+          "expectedEnd": 355.64,
+          "actualStart": 98.731542,
+          "actualEnd": 357.145042,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The New Human Agenda—Chasing Immortality, Happiness, and Power",
+          "expectedStart": 355.64,
+          "expectedEnd": 662.65,
+          "actualStart": 358.645042,
+          "actualEnd": 665.6537089999999,
+          "timeDifference": 3.005042000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Rise and Transformation of Humanism",
+          "expectedStart": 662.65,
+          "expectedEnd": 877.89,
+          "actualStart": 667.1537089999999,
+          "actualEnd": 882.3896669999999,
+          "timeDifference": 4.503708999999958
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power and Peril of Data and Algorithms",
+          "expectedStart": 877.89,
+          "expectedEnd": 1119.71,
+          "actualStart": 883.8896669999999,
+          "actualEnd": 1125.7102089999998,
+          "timeDifference": 5.999666999999931
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Uncertain Future—Ethics, Identity, and the Limits of Progress",
+          "expectedStart": 1119.71,
+          "expectedEnd": 1334.85,
+          "actualStart": 1127.2102089999998,
+          "actualEnd": 1342.3537919999999,
+          "timeDifference": 7.500208999999813
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Intelligence and Consciousness Part Ways",
+          "expectedStart": 1334.85,
+          "expectedEnd": 1543.41,
+          "actualStart": 1343.8537919999999,
+          "actualEnd": 1552.4089999999999,
+          "timeDifference": 9.003791999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The New Religion of Dataism",
+          "expectedStart": 1543.41,
+          "expectedEnd": 1755.35,
+          "actualStart": 1553.9089999999999,
+          "actualEnd": 1765.852833,
+          "timeDifference": 10.498999999999796
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Fragility of Liberal Humanism",
+          "expectedStart": 1755.35,
+          "expectedEnd": 1916.56,
+          "actualStart": 1767.352833,
+          "actualEnd": 1928.5617499999998,
+          "timeDifference": 12.00283300000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Rise of Useless Classes and the New Inequality",
+          "expectedStart": 1916.56,
+          "expectedEnd": 2108.68,
+          "actualStart": 1930.0617499999998,
+          "actualEnd": 2122.1837499999997,
+          "timeDifference": 13.501749999999902
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Life—Redesigning Bodies, Minds, and Societies",
+          "expectedStart": 2108.68,
+          "expectedEnd": 2273.77,
+          "actualStart": 2123.6837499999997,
+          "actualEnd": 2288.7737079999997,
+          "timeDifference": 15.003749999999854
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The End of Homo Sapiens?",
+          "expectedStart": 2273.77,
+          "expectedEnd": 2421.6,
+          "actualStart": 2290.2737079999997,
+          "actualEnd": 2438.099958,
+          "timeDifference": 16.503707999999733
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Search for Meaning in a World of Gods and Machines",
+          "expectedStart": 2421.6,
+          "expectedEnd": 2553.3,
+          "actualStart": 2439.599958,
+          "actualEnd": 2571.2969999999996,
+          "timeDifference": 17.99995799999988
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2553.3,
+          "expectedEnd": 2698.28,
+          "actualStart": 2572.7969999999996,
+          "actualEnd": 2717.7818749999997,
+          "timeDifference": 19.49699999999939
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.231542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Humanity Outgrew Its Old Nightmares"
+        },
+        {
+          "startTime": 357.145042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Humanity Outgrew Its Old Nightmares and Chapter 2 The New Human Agenda—Chasing Immortality, Happiness, and Power"
+        },
+        {
+          "startTime": 665.6537089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The New Human Agenda—Chasing Immortality, Happiness, and Power and Chapter 3 The Rise and Transformation of Humanism"
+        },
+        {
+          "startTime": 882.3896669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Rise and Transformation of Humanism and Chapter 4 The Power and Peril of Data and Algorithms"
+        },
+        {
+          "startTime": 1125.7102089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power and Peril of Data and Algorithms and Chapter 5 The Uncertain Future—Ethics, Identity, and the Limits of Progress"
+        },
+        {
+          "startTime": 1342.3537919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Uncertain Future—Ethics, Identity, and the Limits of Progress and Chapter 6 When Intelligence and Consciousness Part Ways"
+        },
+        {
+          "startTime": 1552.4089999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Intelligence and Consciousness Part Ways and Chapter 7 The New Religion of Dataism"
+        },
+        {
+          "startTime": 1765.852833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The New Religion of Dataism and Chapter 8 The Fragility of Liberal Humanism"
+        },
+        {
+          "startTime": 1928.5617499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Fragility of Liberal Humanism and Chapter 9 The Rise of Useless Classes and the New Inequality"
+        },
+        {
+          "startTime": 2122.1837499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Rise of Useless Classes and the New Inequality and Chapter 10 The Future of Life—Redesigning Bodies, Minds, and Societies"
+        },
+        {
+          "startTime": 2288.7737079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Life—Redesigning Bodies, Minds, and Societies and Chapter 11 The End of Homo Sapiens?"
+        },
+        {
+          "startTime": 2438.099958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The End of Homo Sapiens? and Chapter 12 The Search for Meaning in a World of Gods and Machines"
+        },
+        {
+          "startTime": 2571.2969999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Search for Meaning in a World of Gods and Machines and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2750",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:46:07.392Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2760",
+  "timestamp": "2025-07-13T18:24:23.663Z",
+  "success": false,
+  "processingTime": -1752430842787,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4233,
+    "totalAudioFiles": 12,
+    "totalDuration": 1797.196251
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1797.196251
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2760/optimized_text/2760.md",
+    "fileSize": 707,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2760.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2760/metadata/2760_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1797.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2760/metadata/2760_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2760/metadata/2760_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2760/2760_complete.wav",
+    "duration": 1797.19625,
+    "fileSize": 86265498,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2760/introduction.wav",
+          "duration": 90.424625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.424625,
+          "startTime": 0,
+          "endTime": 90.424625
+        },
+        {
+          "path": "Audio/output/2760/chapter_01.wav",
+          "duration": 230.2685,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Learning to Trust Others and Let Go of Self-Sufficiency",
+          "actualDuration": 230.2685,
+          "startTime": 91.924625,
+          "endTime": 322.193125
+        },
+        {
+          "path": "Audio/output/2760/chapter_02.wav",
+          "duration": 193.768917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Vulnerability and the Fear of Rejection",
+          "actualDuration": 193.768917,
+          "startTime": 323.693125,
+          "endTime": 517.462042
+        },
+        {
+          "path": "Audio/output/2760/chapter_03.wav",
+          "duration": 196.277083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Community Through Generosity and Trust",
+          "actualDuration": 196.277083,
+          "startTime": 518.962042,
+          "endTime": 715.2391250000001
+        },
+        {
+          "path": "Audio/output/2760/chapter_04.wav",
+          "duration": 173.302875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Redefining Value: Art, Money, and the Gift Economy",
+          "actualDuration": 173.302875,
+          "startTime": 716.7391250000001,
+          "endTime": 890.042
+        },
+        {
+          "path": "Audio/output/2760/chapter_05.wav",
+          "duration": 171.535417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Crowdfunding and the Modern Art of Asking",
+          "actualDuration": 171.535417,
+          "startTime": 891.542,
+          "endTime": 1063.077417
+        },
+        {
+          "path": "Audio/output/2760/chapter_06.wav",
+          "duration": 126.94125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Shame and the Struggle for Worthiness",
+          "actualDuration": 126.94125,
+          "startTime": 1064.577417,
+          "endTime": 1191.518667
+        },
+        {
+          "path": "Audio/output/2760/chapter_07.wav",
+          "duration": 127.263042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Boundaries: When to Say Yes, When to Say No",
+          "actualDuration": 127.263042,
+          "startTime": 1193.018667,
+          "endTime": 1320.281709
+        },
+        {
+          "path": "Audio/output/2760/chapter_08.wav",
+          "duration": 152.4245,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Technology: Connection and Disconnection",
+          "actualDuration": 152.4245,
+          "startTime": 1321.781709,
+          "endTime": 1474.2062090000002
+        },
+        {
+          "path": "Audio/output/2760/chapter_09.wav",
+          "duration": 124.768042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing Through Asking: Stories of Recovery and Renewal",
+          "actualDuration": 124.768042,
+          "startTime": 1475.7062090000002,
+          "endTime": 1600.474251
+        },
+        {
+          "path": "Audio/output/2760/chapter_10.wav",
+          "duration": 110.923208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: How Asking Changes the World",
+          "actualDuration": 110.923208,
+          "startTime": 1601.974251,
+          "endTime": 1712.897459
+        },
+        {
+          "path": "Audio/output/2760/conclusion.wav",
+          "duration": 99.298792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.298792,
+          "startTime": 1714.397459,
+          "endTime": 1813.696251
+        }
+      ],
+      "totalDuration": 1813.696251,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.42,
+          "actualStart": 0,
+          "actualEnd": 90.424625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Learning to Trust Others and Let Go of Self-Sufficiency",
+          "expectedStart": 90.42,
+          "expectedEnd": 320.69,
+          "actualStart": 91.924625,
+          "actualEnd": 322.193125,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Vulnerability and the Fear of Rejection",
+          "expectedStart": 320.69,
+          "expectedEnd": 514.46,
+          "actualStart": 323.693125,
+          "actualEnd": 517.462042,
+          "timeDifference": 3.0031250000000114
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Community Through Generosity and Trust",
+          "expectedStart": 514.46,
+          "expectedEnd": 710.74,
+          "actualStart": 518.962042,
+          "actualEnd": 715.2391250000001,
+          "timeDifference": 4.50204199999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Redefining Value: Art, Money, and the Gift Economy",
+          "expectedStart": 710.74,
+          "expectedEnd": 884.04,
+          "actualStart": 716.7391250000001,
+          "actualEnd": 890.042,
+          "timeDifference": 5.999125000000049
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Crowdfunding and the Modern Art of Asking",
+          "expectedStart": 884.04,
+          "expectedEnd": 1055.58,
+          "actualStart": 891.542,
+          "actualEnd": 1063.077417,
+          "timeDifference": 7.502000000000066
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Shame and the Struggle for Worthiness",
+          "expectedStart": 1055.58,
+          "expectedEnd": 1182.52,
+          "actualStart": 1064.577417,
+          "actualEnd": 1191.518667,
+          "timeDifference": 8.997417000000041
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Boundaries: When to Say Yes, When to Say No",
+          "expectedStart": 1182.52,
+          "expectedEnd": 1309.78,
+          "actualStart": 1193.018667,
+          "actualEnd": 1320.281709,
+          "timeDifference": 10.498667000000069
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Technology: Connection and Disconnection",
+          "expectedStart": 1309.78,
+          "expectedEnd": 1462.2,
+          "actualStart": 1321.781709,
+          "actualEnd": 1474.2062090000002,
+          "timeDifference": 12.001709000000119
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing Through Asking: Stories of Recovery and Renewal",
+          "expectedStart": 1462.2,
+          "expectedEnd": 1586.97,
+          "actualStart": 1475.7062090000002,
+          "actualEnd": 1600.474251,
+          "timeDifference": 13.506209000000126
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: How Asking Changes the World",
+          "expectedStart": 1586.97,
+          "expectedEnd": 1697.89,
+          "actualStart": 1601.974251,
+          "actualEnd": 1712.897459,
+          "timeDifference": 15.004251000000068
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1697.89,
+          "expectedEnd": 1797.19,
+          "actualStart": 1714.397459,
+          "actualEnd": 1813.696251,
+          "timeDifference": 16.507458999999926
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.424625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Learning to Trust Others and Let Go of Self-Sufficiency"
+        },
+        {
+          "startTime": 322.193125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Learning to Trust Others and Let Go of Self-Sufficiency and Chapter 2 The Power of Vulnerability and the Fear of Rejection"
+        },
+        {
+          "startTime": 517.462042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Vulnerability and the Fear of Rejection and Chapter 3 Building Community Through Generosity and Trust"
+        },
+        {
+          "startTime": 715.2391250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Community Through Generosity and Trust and Chapter 4 Redefining Value: Art, Money, and the Gift Economy"
+        },
+        {
+          "startTime": 890.042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Redefining Value: Art, Money, and the Gift Economy and Chapter 5 Crowdfunding and the Modern Art of Asking"
+        },
+        {
+          "startTime": 1063.077417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Crowdfunding and the Modern Art of Asking and Chapter 6 The Weight of Shame and the Struggle for Worthiness"
+        },
+        {
+          "startTime": 1191.518667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Shame and the Struggle for Worthiness and Chapter 7 Navigating Boundaries: When to Say Yes, When to Say No"
+        },
+        {
+          "startTime": 1320.281709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Boundaries: When to Say Yes, When to Say No and Chapter 8 The Role of Technology: Connection and Disconnection"
+        },
+        {
+          "startTime": 1474.2062090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Technology: Connection and Disconnection and Chapter 9 Healing Through Asking: Stories of Recovery and Renewal"
+        },
+        {
+          "startTime": 1600.474251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing Through Asking: Stories of Recovery and Renewal and Chapter 10 The Ripple Effect: How Asking Changes the World"
+        },
+        {
+          "startTime": 1712.897459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: How Asking Changes the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2760",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:20:43.535Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

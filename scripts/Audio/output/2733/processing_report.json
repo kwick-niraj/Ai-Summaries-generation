@@ -1,0 +1,456 @@
+{
+  "bookId": "2733",
+  "timestamp": "2025-07-13T17:05:33.062Z",
+  "success": false,
+  "processingTime": -1752426087756,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4063,
+    "totalAudioFiles": 12,
+    "totalDuration": 2072.527751
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2072.527751
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2733/optimized_text/2733.md",
+    "fileSize": 658,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2733.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2733/metadata/2733_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2072.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2733/metadata/2733_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2733/metadata/2733_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2733/2733_complete.wav",
+    "duration": 2072.52775,
+    "fileSize": 99481410,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2733/introduction.wav",
+          "duration": 88.255,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.255,
+          "startTime": 0,
+          "endTime": 88.255
+        },
+        {
+          "path": "Audio/output/2733/chapter_01.wav",
+          "duration": 189.052583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Trap of Doing Too Much",
+          "actualDuration": 189.052583,
+          "startTime": 89.755,
+          "endTime": 278.807583
+        },
+        {
+          "path": "Audio/output/2733/chapter_02.wav",
+          "duration": 204.854542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Core Principle—Less, But Better",
+          "actualDuration": 204.854542,
+          "startTime": 280.307583,
+          "endTime": 485.16212500000006
+        },
+        {
+          "path": "Audio/output/2733/chapter_03.wav",
+          "duration": 213.133292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Discernment—Separating the Vital Few from the Trivial Many",
+          "actualDuration": 213.133292,
+          "startTime": 486.66212500000006,
+          "endTime": 699.795417
+        },
+        {
+          "path": "Audio/output/2733/chapter_04.wav",
+          "duration": 213.012458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Saying No and Embracing Trade-Offs",
+          "actualDuration": 213.012458,
+          "startTime": 701.295417,
+          "endTime": 914.3078750000001
+        },
+        {
+          "path": "Audio/output/2733/chapter_05.wav",
+          "duration": 210.957042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Space to Think and Setting Boundaries",
+          "actualDuration": 210.957042,
+          "startTime": 915.8078750000001,
+          "endTime": 1126.764917
+        },
+        {
+          "path": "Audio/output/2733/chapter_06.wav",
+          "duration": 185.10575,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Selective Execution—Making Essentialism Happen",
+          "actualDuration": 185.10575,
+          "startTime": 1128.264917,
+          "endTime": 1313.370667
+        },
+        {
+          "path": "Audio/output/2733/chapter_07.wav",
+          "duration": 174.111625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Essentialist Routines and Habits",
+          "actualDuration": 174.111625,
+          "startTime": 1314.870667,
+          "endTime": 1488.982292
+        },
+        {
+          "path": "Audio/output/2733/chapter_08.wav",
+          "duration": 199.361417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Challenges and Staying the Course",
+          "actualDuration": 199.361417,
+          "startTime": 1490.482292,
+          "endTime": 1689.843709
+        },
+        {
+          "path": "Audio/output/2733/chapter_09.wav",
+          "duration": 156.418375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Essentialism in Relationships and Teams",
+          "actualDuration": 156.418375,
+          "startTime": 1691.343709,
+          "endTime": 1847.762084
+        },
+        {
+          "path": "Audio/output/2733/chapter_10.wav",
+          "duration": 120.731167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Essentialist Mindset for Life",
+          "actualDuration": 120.731167,
+          "startTime": 1849.262084,
+          "endTime": 1969.9932509999999
+        },
+        {
+          "path": "Audio/output/2733/conclusion.wav",
+          "duration": 117.5345,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.5345,
+          "startTime": 1971.4932509999999,
+          "endTime": 2089.027751
+        }
+      ],
+      "totalDuration": 2089.027751,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.26,
+          "actualStart": 0,
+          "actualEnd": 88.255,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Trap of Doing Too Much",
+          "expectedStart": 88.26,
+          "expectedEnd": 277.31,
+          "actualStart": 89.755,
+          "actualEnd": 278.807583,
+          "timeDifference": 1.4949999999999903
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Core Principle—Less, But Better",
+          "expectedStart": 277.31,
+          "expectedEnd": 482.16,
+          "actualStart": 280.307583,
+          "actualEnd": 485.16212500000006,
+          "timeDifference": 2.99758300000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Discernment—Separating the Vital Few from the Trivial Many",
+          "expectedStart": 482.16,
+          "expectedEnd": 695.29,
+          "actualStart": 486.66212500000006,
+          "actualEnd": 699.795417,
+          "timeDifference": 4.502125000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Saying No and Embracing Trade-Offs",
+          "expectedStart": 695.29,
+          "expectedEnd": 908.3,
+          "actualStart": 701.295417,
+          "actualEnd": 914.3078750000001,
+          "timeDifference": 6.0054170000000795
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Space to Think and Setting Boundaries",
+          "expectedStart": 908.3,
+          "expectedEnd": 1119.26,
+          "actualStart": 915.8078750000001,
+          "actualEnd": 1126.764917,
+          "timeDifference": 7.507875000000126
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Selective Execution—Making Essentialism Happen",
+          "expectedStart": 1119.26,
+          "expectedEnd": 1304.37,
+          "actualStart": 1128.264917,
+          "actualEnd": 1313.370667,
+          "timeDifference": 9.004916999999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Essentialist Routines and Habits",
+          "expectedStart": 1304.37,
+          "expectedEnd": 1478.48,
+          "actualStart": 1314.870667,
+          "actualEnd": 1488.982292,
+          "timeDifference": 10.500667000000021
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Challenges and Staying the Course",
+          "expectedStart": 1478.48,
+          "expectedEnd": 1677.84,
+          "actualStart": 1490.482292,
+          "actualEnd": 1689.843709,
+          "timeDifference": 12.002291999999898
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Essentialism in Relationships and Teams",
+          "expectedStart": 1677.84,
+          "expectedEnd": 1834.26,
+          "actualStart": 1691.343709,
+          "actualEnd": 1847.762084,
+          "timeDifference": 13.503709000000072
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Essentialist Mindset for Life",
+          "expectedStart": 1834.26,
+          "expectedEnd": 1954.99,
+          "actualStart": 1849.262084,
+          "actualEnd": 1969.9932509999999,
+          "timeDifference": 15.002083999999968
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1954.99,
+          "expectedEnd": 2072.52,
+          "actualStart": 1971.4932509999999,
+          "actualEnd": 2089.027751,
+          "timeDifference": 16.503250999999864
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.255,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Trap of Doing Too Much"
+        },
+        {
+          "startTime": 278.807583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Trap of Doing Too Much and Chapter 2 The Core Principle—Less, But Better"
+        },
+        {
+          "startTime": 485.16212500000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Core Principle—Less, But Better and Chapter 3 Discernment—Separating the Vital Few from the Trivial Many"
+        },
+        {
+          "startTime": 699.795417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Discernment—Separating the Vital Few from the Trivial Many and Chapter 4 The Power of Saying No and Embracing Trade-Offs"
+        },
+        {
+          "startTime": 914.3078750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Saying No and Embracing Trade-Offs and Chapter 5 Creating Space to Think and Setting Boundaries"
+        },
+        {
+          "startTime": 1126.764917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Space to Think and Setting Boundaries and Chapter 6 The Art of Selective Execution—Making Essentialism Happen"
+        },
+        {
+          "startTime": 1313.370667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Selective Execution—Making Essentialism Happen and Chapter 7 Building Essentialist Routines and Habits"
+        },
+        {
+          "startTime": 1488.982292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Essentialist Routines and Habits and Chapter 8 Navigating Challenges and Staying the Course"
+        },
+        {
+          "startTime": 1689.843709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Challenges and Staying the Course and Chapter 9 Essentialism in Relationships and Teams"
+        },
+        {
+          "startTime": 1847.762084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Essentialism in Relationships and Teams and Chapter 10 Sustaining the Essentialist Mindset for Life"
+        },
+        {
+          "startTime": 1969.9932509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Essentialist Mindset for Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2733",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:01:28.293Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

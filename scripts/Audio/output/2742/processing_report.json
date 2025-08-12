@@ -1,0 +1,408 @@
+{
+  "bookId": "2742",
+  "timestamp": "2025-07-13T17:30:36.800Z",
+  "success": false,
+  "processingTime": -1752427582247,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4728,
+    "totalAudioFiles": 12,
+    "totalDuration": 1818.42475
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1818.42475
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2742/optimized_text/2742.md",
+    "fileSize": 4159,
+    "wordCount": 652,
+    "format": "markdown",
+    "filename": "2742.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2742/metadata/2742_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1818.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2742/metadata/2742_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2742/metadata/2742_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2742/2742_complete.wav",
+    "duration": 1818.42475,
+    "fileSize": 87284466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2742/introduction.wav",
+          "duration": 96.112042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.112042,
+          "startTime": 0,
+          "endTime": 96.112042
+        },
+        {
+          "path": "Audio/output/2742/chapter_01.wav",
+          "duration": 275.395625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Crisis: Everyday Lives Shaped by Gender Inequality",
+          "actualDuration": 275.395625,
+          "startTime": 97.612042,
+          "endTime": 373.00766699999997
+        },
+        {
+          "path": "Audio/output/2742/chapter_03.wav",
+          "duration": 230.19475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Maternal Health: The Struggle for Survival and Dignity",
+          "actualDuration": 230.19475,
+          "startTime": 374.50766699999997,
+          "endTime": 604.702417
+        },
+        {
+          "path": "Audio/output/2742/chapter_04.wav",
+          "duration": 237.365583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Education and Economic Opportunity",
+          "actualDuration": 237.365583,
+          "startTime": 606.202417,
+          "endTime": 843.568
+        },
+        {
+          "path": "Audio/output/2742/chapter_05.wav",
+          "duration": 222.3255,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Grassroots Activism and the Path to Lasting Change",
+          "actualDuration": 222.3255,
+          "startTime": 845.068,
+          "endTime": 1067.3935
+        },
+        {
+          "path": "Audio/output/2742/chapter_06.wav",
+          "duration": 183.489583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Moral and Practical Imperative: Why Investing in Women Changes Everything",
+          "actualDuration": 183.489583,
+          "startTime": 1068.8935,
+          "endTime": 1252.383083
+        },
+        {
+          "path": "Audio/output/2742/chapter_07.wav",
+          "duration": 178.577875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Men and Boys: Allies in the Fight for Equality",
+          "actualDuration": 178.577875,
+          "startTime": 1253.883083,
+          "endTime": 1432.460958
+        },
+        {
+          "path": "Audio/output/2742/chapter_09.wav",
+          "duration": 164.272042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of the Individual: Stories of Courage and Transformation",
+          "actualDuration": 164.272042,
+          "startTime": 1433.960958,
+          "endTime": 1598.233
+        },
+        {
+          "path": "Audio/output/2742/chapter_10.wav",
+          "duration": 134.396208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 What You Can Do: Practical Steps Toward Global Change",
+          "actualDuration": 134.396208,
+          "startTime": 1599.733,
+          "endTime": 1734.1292079999998
+        },
+        {
+          "path": "Audio/output/2742/conclusion.wav",
+          "duration": 96.295542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.295542,
+          "startTime": 1735.6292079999998,
+          "endTime": 1831.92475
+        }
+      ],
+      "totalDuration": 1831.92475,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.11,
+          "actualStart": 0,
+          "actualEnd": 96.112042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Crisis: Everyday Lives Shaped by Gender Inequality",
+          "expectedStart": 96.11,
+          "expectedEnd": 371.51,
+          "actualStart": 97.612042,
+          "actualEnd": 373.00766699999997,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Maternal Health: The Struggle for Survival and Dignity",
+          "expectedStart": 371.51,
+          "expectedEnd": 601.7,
+          "actualStart": 374.50766699999997,
+          "actualEnd": 604.702417,
+          "timeDifference": 2.9976669999999785
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Education and Economic Opportunity",
+          "expectedStart": 601.7,
+          "expectedEnd": 839.07,
+          "actualStart": 606.202417,
+          "actualEnd": 843.568,
+          "timeDifference": 4.502416999999923
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Grassroots Activism and the Path to Lasting Change",
+          "expectedStart": 839.07,
+          "expectedEnd": 1061.4,
+          "actualStart": 845.068,
+          "actualEnd": 1067.3935,
+          "timeDifference": 5.997999999999934
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Moral and Practical Imperative: Why Investing in Women Changes Everything",
+          "expectedStart": 1061.4,
+          "expectedEnd": 1244.89,
+          "actualStart": 1068.8935,
+          "actualEnd": 1252.383083,
+          "timeDifference": 7.493499999999813
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Men and Boys: Allies in the Fight for Equality",
+          "expectedStart": 1244.89,
+          "expectedEnd": 1423.47,
+          "actualStart": 1253.883083,
+          "actualEnd": 1432.460958,
+          "timeDifference": 8.993082999999842
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of the Individual: Stories of Courage and Transformation",
+          "expectedStart": 1423.47,
+          "expectedEnd": 1587.74,
+          "actualStart": 1433.960958,
+          "actualEnd": 1598.233,
+          "timeDifference": 10.490957999999864
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 What You Can Do: Practical Steps Toward Global Change",
+          "expectedStart": 1587.74,
+          "expectedEnd": 1722.14,
+          "actualStart": 1599.733,
+          "actualEnd": 1734.1292079999998,
+          "timeDifference": 11.992999999999938
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1722.14,
+          "expectedEnd": 1818.44,
+          "actualStart": 1735.6292079999998,
+          "actualEnd": 1831.92475,
+          "timeDifference": 13.489207999999735
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.112042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Crisis: Everyday Lives Shaped by Gender Inequality"
+        },
+        {
+          "startTime": 373.00766699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Crisis: Everyday Lives Shaped by Gender Inequality and Chapter 3 Maternal Health: The Struggle for Survival and Dignity"
+        },
+        {
+          "startTime": 604.702417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Maternal Health: The Struggle for Survival and Dignity and Chapter 4 The Power of Education and Economic Opportunity"
+        },
+        {
+          "startTime": 843.568,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Education and Economic Opportunity and Chapter 5 Grassroots Activism and the Path to Lasting Change"
+        },
+        {
+          "startTime": 1067.3935,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Grassroots Activism and the Path to Lasting Change and Chapter 6 The Moral and Practical Imperative: Why Investing in Women Changes Everything"
+        },
+        {
+          "startTime": 1252.383083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Moral and Practical Imperative: Why Investing in Women Changes Everything and Chapter 7 The Role of Men and Boys: Allies in the Fight for Equality"
+        },
+        {
+          "startTime": 1432.460958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Men and Boys: Allies in the Fight for Equality and Chapter 9 The Power of the Individual: Stories of Courage and Transformation"
+        },
+        {
+          "startTime": 1598.233,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of the Individual: Stories of Courage and Transformation and Chapter 10 What You Can Do: Practical Steps Toward Global Change"
+        },
+        {
+          "startTime": 1734.1292079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 What You Can Do: Practical Steps Toward Global Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2742",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:26:23.079Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

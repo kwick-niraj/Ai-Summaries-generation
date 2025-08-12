@@ -1,0 +1,456 @@
+{
+  "bookId": "2755",
+  "timestamp": "2025-07-13T18:07:25.257Z",
+  "success": false,
+  "processingTime": -1752429762643,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4974,
+    "totalAudioFiles": 12,
+    "totalDuration": 2438.6595420000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2438.6595420000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2755/optimized_text/2755.md",
+    "fileSize": 829,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2755.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2755/metadata/2755_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2438.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2755/metadata/2755_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2755/metadata/2755_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2755/2755_complete.wav",
+    "duration": 2438.659542,
+    "fileSize": 117055736,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2755/introduction.wav",
+          "duration": 99.011792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.011792,
+          "startTime": 0,
+          "endTime": 99.011792
+        },
+        {
+          "path": "Audio/output/2755/chapter_01.wav",
+          "duration": 193.539375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Mental Limits and the Potential for Change",
+          "actualDuration": 193.539375,
+          "startTime": 100.511792,
+          "endTime": 294.051167
+        },
+        {
+          "path": "Audio/output/2755/chapter_02.wav",
+          "duration": 236.611583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Three Pillars of Limitless Learning: Mindset, Motivation, and Method",
+          "actualDuration": 236.611583,
+          "startTime": 295.551167,
+          "endTime": 532.16275
+        },
+        {
+          "path": "Audio/output/2755/chapter_03.wav",
+          "duration": 258.258708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rewiring Beliefs and Building a Growth-Oriented Mind",
+          "actualDuration": 258.258708,
+          "startTime": 533.66275,
+          "endTime": 791.921458
+        },
+        {
+          "path": "Audio/output/2755/chapter_04.wav",
+          "duration": 319.685292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Brain Training: Memory, Focus, and Speed-Reading Techniques",
+          "actualDuration": 319.685292,
+          "startTime": 793.421458,
+          "endTime": 1113.10675
+        },
+        {
+          "path": "Audio/output/2755/chapter_05.wav",
+          "duration": 209.630792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Digital Overload and Building Sustainable Habits",
+          "actualDuration": 209.630792,
+          "startTime": 1114.60675,
+          "endTime": 1324.2375419999998
+        },
+        {
+          "path": "Audio/output/2755/chapter_06.wav",
+          "duration": 213.802333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Memory Strategies: Making Learning Stick for the Long Term",
+          "actualDuration": 213.802333,
+          "startTime": 1325.7375419999998,
+          "endTime": 1539.539875
+        },
+        {
+          "path": "Audio/output/2755/chapter_07.wav",
+          "duration": 193.424042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Accelerating Learning: The Power of Meta-Learning and Mental Models",
+          "actualDuration": 193.424042,
+          "startTime": 1541.039875,
+          "endTime": 1734.463917
+        },
+        {
+          "path": "Audio/output/2755/chapter_08.wav",
+          "duration": 202.36225,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Unleashing Creativity: Thinking Differently and Solving Problems",
+          "actualDuration": 202.36225,
+          "startTime": 1735.963917,
+          "endTime": 1938.326167
+        },
+        {
+          "path": "Audio/output/2755/chapter_09.wav",
+          "duration": 181.249875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Mastering Focus and Flow: Deep Work in a Distracted World",
+          "actualDuration": 181.249875,
+          "startTime": 1939.826167,
+          "endTime": 2121.076042
+        },
+        {
+          "path": "Audio/output/2755/chapter_10.wav",
+          "duration": 190.89775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Limitless in Action: Applying the Framework to Real-World Goals",
+          "actualDuration": 190.89775,
+          "startTime": 2122.576042,
+          "endTime": 2313.4737920000002
+        },
+        {
+          "path": "Audio/output/2755/conclusion.wav",
+          "duration": 140.18575,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.18575,
+          "startTime": 2314.9737920000002,
+          "endTime": 2455.1595420000003
+        }
+      ],
+      "totalDuration": 2455.1595420000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.01,
+          "actualStart": 0,
+          "actualEnd": 99.011792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Mental Limits and the Potential for Change",
+          "expectedStart": 99.01,
+          "expectedEnd": 292.55,
+          "actualStart": 100.511792,
+          "actualEnd": 294.051167,
+          "timeDifference": 1.5017919999999947
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Three Pillars of Limitless Learning: Mindset, Motivation, and Method",
+          "expectedStart": 292.55,
+          "expectedEnd": 529.16,
+          "actualStart": 295.551167,
+          "actualEnd": 532.16275,
+          "timeDifference": 3.0011670000000095
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rewiring Beliefs and Building a Growth-Oriented Mind",
+          "expectedStart": 529.16,
+          "expectedEnd": 787.42,
+          "actualStart": 533.66275,
+          "actualEnd": 791.921458,
+          "timeDifference": 4.502749999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Brain Training: Memory, Focus, and Speed-Reading Techniques",
+          "expectedStart": 787.42,
+          "expectedEnd": 1107.11,
+          "actualStart": 793.421458,
+          "actualEnd": 1113.10675,
+          "timeDifference": 6.001458000000071
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Digital Overload and Building Sustainable Habits",
+          "expectedStart": 1107.11,
+          "expectedEnd": 1316.74,
+          "actualStart": 1114.60675,
+          "actualEnd": 1324.2375419999998,
+          "timeDifference": 7.49675000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Memory Strategies: Making Learning Stick for the Long Term",
+          "expectedStart": 1316.74,
+          "expectedEnd": 1530.54,
+          "actualStart": 1325.7375419999998,
+          "actualEnd": 1539.539875,
+          "timeDifference": 8.99754199999984
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Accelerating Learning: The Power of Meta-Learning and Mental Models",
+          "expectedStart": 1530.54,
+          "expectedEnd": 1723.96,
+          "actualStart": 1541.039875,
+          "actualEnd": 1734.463917,
+          "timeDifference": 10.499874999999975
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Unleashing Creativity: Thinking Differently and Solving Problems",
+          "expectedStart": 1723.96,
+          "expectedEnd": 1926.32,
+          "actualStart": 1735.963917,
+          "actualEnd": 1938.326167,
+          "timeDifference": 12.003917000000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Mastering Focus and Flow: Deep Work in a Distracted World",
+          "expectedStart": 1926.32,
+          "expectedEnd": 2107.57,
+          "actualStart": 1939.826167,
+          "actualEnd": 2121.076042,
+          "timeDifference": 13.506167000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Limitless in Action: Applying the Framework to Real-World Goals",
+          "expectedStart": 2107.57,
+          "expectedEnd": 2298.47,
+          "actualStart": 2122.576042,
+          "actualEnd": 2313.4737920000002,
+          "timeDifference": 15.00604199999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2298.47,
+          "expectedEnd": 2438.66,
+          "actualStart": 2314.9737920000002,
+          "actualEnd": 2455.1595420000003,
+          "timeDifference": 16.50379200000043
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.011792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Mental Limits and the Potential for Change"
+        },
+        {
+          "startTime": 294.051167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Mental Limits and the Potential for Change and Chapter 2 The Three Pillars of Limitless Learning: Mindset, Motivation, and Method"
+        },
+        {
+          "startTime": 532.16275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Three Pillars of Limitless Learning: Mindset, Motivation, and Method and Chapter 3 Rewiring Beliefs and Building a Growth-Oriented Mind"
+        },
+        {
+          "startTime": 791.921458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rewiring Beliefs and Building a Growth-Oriented Mind and Chapter 4 Practical Brain Training: Memory, Focus, and Speed-Reading Techniques"
+        },
+        {
+          "startTime": 1113.10675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Brain Training: Memory, Focus, and Speed-Reading Techniques and Chapter 5 Overcoming Digital Overload and Building Sustainable Habits"
+        },
+        {
+          "startTime": 1324.2375419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Digital Overload and Building Sustainable Habits and Chapter 6 Advanced Memory Strategies: Making Learning Stick for the Long Term"
+        },
+        {
+          "startTime": 1539.539875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Memory Strategies: Making Learning Stick for the Long Term and Chapter 7 Accelerating Learning: The Power of Meta-Learning and Mental Models"
+        },
+        {
+          "startTime": 1734.463917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Accelerating Learning: The Power of Meta-Learning and Mental Models and Chapter 8 Unleashing Creativity: Thinking Differently and Solving Problems"
+        },
+        {
+          "startTime": 1938.326167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Unleashing Creativity: Thinking Differently and Solving Problems and Chapter 9 Mastering Focus and Flow: Deep Work in a Distracted World"
+        },
+        {
+          "startTime": 2121.076042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Mastering Focus and Flow: Deep Work in a Distracted World and Chapter 10 Limitless in Action: Applying the Framework to Real-World Goals"
+        },
+        {
+          "startTime": 2313.4737920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Limitless in Action: Applying the Framework to Real-World Goals and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2755",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:02:43.172Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2713",
+  "timestamp": "2025-07-13T16:08:45.391Z",
+  "success": false,
+  "processingTime": -1752422662355,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3907,
+    "totalAudioFiles": 12,
+    "totalDuration": 2147.616793
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2147.616793
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2713/optimized_text/2713.md",
+    "fileSize": 878,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2713.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2713/metadata/2713_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2147.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2713/metadata/2713_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2713/metadata/2713_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2713/2713_complete.wav",
+    "duration": 2147.616792,
+    "fileSize": 103085684,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2713/introduction.wav",
+          "duration": 93.4465,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.4465,
+          "startTime": 0,
+          "endTime": 93.4465
+        },
+        {
+          "path": "Audio/output/2713/chapter_01.wav",
+          "duration": 179.824167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building the Foundation: Why Understanding Others Matters",
+          "actualDuration": 179.824167,
+          "startTime": 94.9465,
+          "endTime": 274.770667
+        },
+        {
+          "path": "Audio/output/2713/chapter_02.wav",
+          "duration": 250.941375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Observing the Surface: Body Language and Nonverbal Cues",
+          "actualDuration": 250.941375,
+          "startTime": 276.270667,
+          "endTime": 527.212042
+        },
+        {
+          "path": "Audio/output/2713/chapter_03.wav",
+          "duration": 229.444667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Establishing Baselines: The Importance of Context and Consistency",
+          "actualDuration": 229.444667,
+          "startTime": 528.712042,
+          "endTime": 758.156709
+        },
+        {
+          "path": "Audio/output/2713/chapter_04.wav",
+          "duration": 210.719042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Listening Beyond Words: The Art of Active Listening and Questioning",
+          "actualDuration": 210.719042,
+          "startTime": 759.656709,
+          "endTime": 970.375751
+        },
+        {
+          "path": "Audio/output/2713/chapter_05.wav",
+          "duration": 217.82775,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Recognizing Patterns: Predicting Behavior Through Empathy and Experience",
+          "actualDuration": 217.82775,
+          "startTime": 971.875751,
+          "endTime": 1189.703501
+        },
+        {
+          "path": "Audio/output/2713/chapter_06.wav",
+          "duration": 186.163583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Cognitive Biases: Seeing Others (and Ourselves) More Clearly",
+          "actualDuration": 186.163583,
+          "startTime": 1191.203501,
+          "endTime": 1377.367084
+        },
+        {
+          "path": "Audio/output/2713/chapter_07.wav",
+          "duration": 170.265167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Advanced Techniques: Calibrating and Testing Your Impressions",
+          "actualDuration": 170.265167,
+          "startTime": 1378.867084,
+          "endTime": 1549.132251
+        },
+        {
+          "path": "Audio/output/2713/chapter_08.wav",
+          "duration": 198.813125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying People-Reading in Everyday Life: Relationships, Work, and Conflict",
+          "actualDuration": 198.813125,
+          "startTime": 1550.632251,
+          "endTime": 1749.4453760000001
+        },
+        {
+          "path": "Audio/output/2713/chapter_09.wav",
+          "duration": 156.070875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Deception and Mixed Signals: When Words and Actions Don’t Match",
+          "actualDuration": 156.070875,
+          "startTime": 1750.9453760000001,
+          "endTime": 1907.016251
+        },
+        {
+          "path": "Audio/output/2713/chapter_10.wav",
+          "duration": 148.993417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Growing Your People-Reading Skills: Practice, Reflection, and Self-Awareness",
+          "actualDuration": 148.993417,
+          "startTime": 1908.516251,
+          "endTime": 2057.509668
+        },
+        {
+          "path": "Audio/output/2713/conclusion.wav",
+          "duration": 105.107125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.107125,
+          "startTime": 2059.009668,
+          "endTime": 2164.116793
+        }
+      ],
+      "totalDuration": 2164.116793,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.45,
+          "actualStart": 0,
+          "actualEnd": 93.4465,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building the Foundation: Why Understanding Others Matters",
+          "expectedStart": 93.45,
+          "expectedEnd": 273.27,
+          "actualStart": 94.9465,
+          "actualEnd": 274.770667,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Observing the Surface: Body Language and Nonverbal Cues",
+          "expectedStart": 273.27,
+          "expectedEnd": 524.21,
+          "actualStart": 276.270667,
+          "actualEnd": 527.212042,
+          "timeDifference": 3.0006670000000213
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Establishing Baselines: The Importance of Context and Consistency",
+          "expectedStart": 524.21,
+          "expectedEnd": 753.65,
+          "actualStart": 528.712042,
+          "actualEnd": 758.156709,
+          "timeDifference": 4.50204199999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Listening Beyond Words: The Art of Active Listening and Questioning",
+          "expectedStart": 753.65,
+          "expectedEnd": 964.37,
+          "actualStart": 759.656709,
+          "actualEnd": 970.375751,
+          "timeDifference": 6.006709000000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Recognizing Patterns: Predicting Behavior Through Empathy and Experience",
+          "expectedStart": 964.37,
+          "expectedEnd": 1182.2,
+          "actualStart": 971.875751,
+          "actualEnd": 1189.703501,
+          "timeDifference": 7.505751000000032
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Cognitive Biases: Seeing Others (and Ourselves) More Clearly",
+          "expectedStart": 1182.2,
+          "expectedEnd": 1368.36,
+          "actualStart": 1191.203501,
+          "actualEnd": 1377.367084,
+          "timeDifference": 9.003500999999915
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Advanced Techniques: Calibrating and Testing Your Impressions",
+          "expectedStart": 1368.36,
+          "expectedEnd": 1538.63,
+          "actualStart": 1378.867084,
+          "actualEnd": 1549.132251,
+          "timeDifference": 10.507084000000077
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying People-Reading in Everyday Life: Relationships, Work, and Conflict",
+          "expectedStart": 1538.63,
+          "expectedEnd": 1737.44,
+          "actualStart": 1550.632251,
+          "actualEnd": 1749.4453760000001,
+          "timeDifference": 12.002250999999887
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Deception and Mixed Signals: When Words and Actions Don’t Match",
+          "expectedStart": 1737.44,
+          "expectedEnd": 1893.51,
+          "actualStart": 1750.9453760000001,
+          "actualEnd": 1907.016251,
+          "timeDifference": 13.50537600000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Growing Your People-Reading Skills: Practice, Reflection, and Self-Awareness",
+          "expectedStart": 1893.51,
+          "expectedEnd": 2042.5,
+          "actualStart": 1908.516251,
+          "actualEnd": 2057.509668,
+          "timeDifference": 15.00625100000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2042.5,
+          "expectedEnd": 2147.61,
+          "actualStart": 2059.009668,
+          "actualEnd": 2164.116793,
+          "timeDifference": 16.509668000000147
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.4465,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building the Foundation: Why Understanding Others Matters"
+        },
+        {
+          "startTime": 274.770667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building the Foundation: Why Understanding Others Matters and Chapter 2 Observing the Surface: Body Language and Nonverbal Cues"
+        },
+        {
+          "startTime": 527.212042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Observing the Surface: Body Language and Nonverbal Cues and Chapter 3 Establishing Baselines: The Importance of Context and Consistency"
+        },
+        {
+          "startTime": 758.156709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Establishing Baselines: The Importance of Context and Consistency and Chapter 4 Listening Beyond Words: The Art of Active Listening and Questioning"
+        },
+        {
+          "startTime": 970.375751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Listening Beyond Words: The Art of Active Listening and Questioning and Chapter 5 Recognizing Patterns: Predicting Behavior Through Empathy and Experience"
+        },
+        {
+          "startTime": 1189.703501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Recognizing Patterns: Predicting Behavior Through Empathy and Experience and Chapter 6 Navigating Cognitive Biases: Seeing Others (and Ourselves) More Clearly"
+        },
+        {
+          "startTime": 1377.367084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Cognitive Biases: Seeing Others (and Ourselves) More Clearly and Chapter 7 Advanced Techniques: Calibrating and Testing Your Impressions"
+        },
+        {
+          "startTime": 1549.132251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Advanced Techniques: Calibrating and Testing Your Impressions and Chapter 8 Applying People-Reading in Everyday Life: Relationships, Work, and Conflict"
+        },
+        {
+          "startTime": 1749.4453760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying People-Reading in Everyday Life: Relationships, Work, and Conflict and Chapter 9 Navigating Deception and Mixed Signals: When Words and Actions Don’t Match"
+        },
+        {
+          "startTime": 1907.016251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Deception and Mixed Signals: When Words and Actions Don’t Match and Chapter 10 Growing Your People-Reading Skills: Practice, Reflection, and Self-Awareness"
+        },
+        {
+          "startTime": 2057.509668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Growing Your People-Reading Skills: Practice, Reflection, and Self-Awareness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2713",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:04:23.983Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

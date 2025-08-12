@@ -1,0 +1,456 @@
+{
+  "bookId": "2739",
+  "timestamp": "2025-07-13T17:22:32.648Z",
+  "success": false,
+  "processingTime": -1752427116841,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4439,
+    "totalAudioFiles": 12,
+    "totalDuration": 1928.1388329999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1928.1388329999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2739/optimized_text/2739.md",
+    "fileSize": 710,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2739.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2739/metadata/2739_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1928.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2739/metadata/2739_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2739/metadata/2739_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2739/2739_complete.wav",
+    "duration": 1928.138833,
+    "fileSize": 92550742,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2739/introduction.wav",
+          "duration": 87.117167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.117167,
+          "startTime": 0,
+          "endTime": 87.117167
+        },
+        {
+          "path": "Audio/output/2739/chapter_01.wav",
+          "duration": 212.737917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Weight of Perfection and the Search for Belonging",
+          "actualDuration": 212.737917,
+          "startTime": 88.617167,
+          "endTime": 301.35508400000003
+        },
+        {
+          "path": "Audio/output/2739/chapter_02.wav",
+          "duration": 199.983875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Shame and the Power of Vulnerability",
+          "actualDuration": 199.983875,
+          "startTime": 302.85508400000003,
+          "endTime": 502.83895900000005
+        },
+        {
+          "path": "Audio/output/2739/chapter_03.wav",
+          "duration": 197.250375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cultivating Self-Compassion and Letting Go of Numbing",
+          "actualDuration": 197.250375,
+          "startTime": 504.33895900000005,
+          "endTime": 701.589334
+        },
+        {
+          "path": "Audio/output/2739/chapter_04.wav",
+          "duration": 175.825208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Courage to Be Authentic and Set Boundaries",
+          "actualDuration": 175.825208,
+          "startTime": 703.089334,
+          "endTime": 878.914542
+        },
+        {
+          "path": "Audio/output/2739/chapter_05.wav",
+          "duration": 186.181625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Resilience Through Gratitude, Creativity, and Mindfulness",
+          "actualDuration": 186.181625,
+          "startTime": 880.414542,
+          "endTime": 1066.596167
+        },
+        {
+          "path": "Audio/output/2739/chapter_06.wav",
+          "duration": 174.743583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing Calm and Stillness in a Noisy World",
+          "actualDuration": 174.743583,
+          "startTime": 1068.096167,
+          "endTime": 1242.8397499999999
+        },
+        {
+          "path": "Audio/output/2739/chapter_07.wav",
+          "duration": 154.526875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating Meaningful Work and Letting Go of Comparison",
+          "actualDuration": 154.526875,
+          "startTime": 1244.3397499999999,
+          "endTime": 1398.8666249999999
+        },
+        {
+          "path": "Audio/output/2739/chapter_08.wav",
+          "duration": 160.9415,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Play, Rest, and Laughter",
+          "actualDuration": 160.9415,
+          "startTime": 1400.3666249999999,
+          "endTime": 1561.3081249999998
+        },
+        {
+          "path": "Audio/output/2739/chapter_09.wav",
+          "duration": 140.568125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practicing Gratitude and Joy in Everyday Life",
+          "actualDuration": 140.568125,
+          "startTime": 1562.8081249999998,
+          "endTime": 1703.3762499999998
+        },
+        {
+          "path": "Audio/output/2739/chapter_10.wav",
+          "duration": 124.853083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wholehearted Living: Courage, Connection, and Compassion",
+          "actualDuration": 124.853083,
+          "startTime": 1704.8762499999998,
+          "endTime": 1829.7293329999998
+        },
+        {
+          "path": "Audio/output/2739/conclusion.wav",
+          "duration": 113.4095,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.4095,
+          "startTime": 1831.2293329999998,
+          "endTime": 1944.6388329999997
+        }
+      ],
+      "totalDuration": 1944.6388329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.12,
+          "actualStart": 0,
+          "actualEnd": 87.117167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Weight of Perfection and the Search for Belonging",
+          "expectedStart": 87.12,
+          "expectedEnd": 299.86,
+          "actualStart": 88.617167,
+          "actualEnd": 301.35508400000003,
+          "timeDifference": 1.4971669999999904
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Shame and the Power of Vulnerability",
+          "expectedStart": 299.86,
+          "expectedEnd": 499.84,
+          "actualStart": 302.85508400000003,
+          "actualEnd": 502.83895900000005,
+          "timeDifference": 2.99508400000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cultivating Self-Compassion and Letting Go of Numbing",
+          "expectedStart": 499.84,
+          "expectedEnd": 697.09,
+          "actualStart": 504.33895900000005,
+          "actualEnd": 701.589334,
+          "timeDifference": 4.49895900000007
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Courage to Be Authentic and Set Boundaries",
+          "expectedStart": 697.09,
+          "expectedEnd": 872.92,
+          "actualStart": 703.089334,
+          "actualEnd": 878.914542,
+          "timeDifference": 5.999333999999976
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Resilience Through Gratitude, Creativity, and Mindfulness",
+          "expectedStart": 872.92,
+          "expectedEnd": 1059.1,
+          "actualStart": 880.414542,
+          "actualEnd": 1066.596167,
+          "timeDifference": 7.494542000000024
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing Calm and Stillness in a Noisy World",
+          "expectedStart": 1059.1,
+          "expectedEnd": 1233.84,
+          "actualStart": 1068.096167,
+          "actualEnd": 1242.8397499999999,
+          "timeDifference": 8.996167000000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating Meaningful Work and Letting Go of Comparison",
+          "expectedStart": 1233.84,
+          "expectedEnd": 1388.37,
+          "actualStart": 1244.3397499999999,
+          "actualEnd": 1398.8666249999999,
+          "timeDifference": 10.499749999999949
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Play, Rest, and Laughter",
+          "expectedStart": 1388.37,
+          "expectedEnd": 1549.31,
+          "actualStart": 1400.3666249999999,
+          "actualEnd": 1561.3081249999998,
+          "timeDifference": 11.996624999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practicing Gratitude and Joy in Everyday Life",
+          "expectedStart": 1549.31,
+          "expectedEnd": 1689.88,
+          "actualStart": 1562.8081249999998,
+          "actualEnd": 1703.3762499999998,
+          "timeDifference": 13.498124999999845
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wholehearted Living: Courage, Connection, and Compassion",
+          "expectedStart": 1689.88,
+          "expectedEnd": 1814.73,
+          "actualStart": 1704.8762499999998,
+          "actualEnd": 1829.7293329999998,
+          "timeDifference": 14.99624999999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1814.73,
+          "expectedEnd": 1928.14,
+          "actualStart": 1831.2293329999998,
+          "actualEnd": 1944.6388329999997,
+          "timeDifference": 16.49933299999975
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.117167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Weight of Perfection and the Search for Belonging"
+        },
+        {
+          "startTime": 301.35508400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Weight of Perfection and the Search for Belonging and Chapter 2 Understanding Shame and the Power of Vulnerability"
+        },
+        {
+          "startTime": 502.83895900000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Shame and the Power of Vulnerability and Chapter 3 Cultivating Self-Compassion and Letting Go of Numbing"
+        },
+        {
+          "startTime": 701.589334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cultivating Self-Compassion and Letting Go of Numbing and Chapter 4 The Courage to Be Authentic and Set Boundaries"
+        },
+        {
+          "startTime": 878.914542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Courage to Be Authentic and Set Boundaries and Chapter 5 Building Resilience Through Gratitude, Creativity, and Mindfulness"
+        },
+        {
+          "startTime": 1066.596167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Resilience Through Gratitude, Creativity, and Mindfulness and Chapter 6 Embracing Calm and Stillness in a Noisy World"
+        },
+        {
+          "startTime": 1242.8397499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing Calm and Stillness in a Noisy World and Chapter 7 Cultivating Meaningful Work and Letting Go of Comparison"
+        },
+        {
+          "startTime": 1398.8666249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating Meaningful Work and Letting Go of Comparison and Chapter 8 The Power of Play, Rest, and Laughter"
+        },
+        {
+          "startTime": 1561.3081249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Play, Rest, and Laughter and Chapter 9 Practicing Gratitude and Joy in Everyday Life"
+        },
+        {
+          "startTime": 1703.3762499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practicing Gratitude and Joy in Everyday Life and Chapter 10 Wholehearted Living: Courage, Connection, and Compassion"
+        },
+        {
+          "startTime": 1829.7293329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wholehearted Living: Courage, Connection, and Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2739",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:18:37.355Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

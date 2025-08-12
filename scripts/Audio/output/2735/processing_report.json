@@ -1,0 +1,432 @@
+{
+  "bookId": "2735",
+  "timestamp": "2025-07-13T17:09:54.005Z",
+  "success": false,
+  "processingTime": -1752426334066,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4272,
+    "totalAudioFiles": 11,
+    "totalDuration": 2117.8033750000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2117.8033750000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2735/optimized_text/2735.md",
+    "fileSize": 543,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "2735.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2735/metadata/2735_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2117.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2735/metadata/2735_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2735/metadata/2735_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2735/2735_complete.wav",
+    "duration": 2117.803375,
+    "fileSize": 101654640,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2735/introduction.wav",
+          "duration": 92.461292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.461292,
+          "startTime": 0,
+          "endTime": 92.461292
+        },
+        {
+          "path": "Audio/output/2735/chapter_01.wav",
+          "duration": 253.910708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Beer Helped Build the First Civilizations",
+          "actualDuration": 253.910708,
+          "startTime": 93.961292,
+          "endTime": 347.872
+        },
+        {
+          "path": "Audio/output/2735/chapter_02.wav",
+          "duration": 234.653125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Wine and the Rise of Social Hierarchies",
+          "actualDuration": 234.653125,
+          "startTime": 349.372,
+          "endTime": 584.025125
+        },
+        {
+          "path": "Audio/output/2735/chapter_03.wav",
+          "duration": 228.280208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Spirits, Exploration, and the Age of Empire",
+          "actualDuration": 228.280208,
+          "startTime": 585.525125,
+          "endTime": 813.805333
+        },
+        {
+          "path": "Audio/output/2735/chapter_04.wav",
+          "duration": 252.22675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Coffee and the Birth of Modern Thought",
+          "actualDuration": 252.22675,
+          "startTime": 815.305333,
+          "endTime": 1067.532083
+        },
+        {
+          "path": "Audio/output/2735/chapter_05.wav",
+          "duration": 207.4265,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Tea, Empire, and the Industrial Age",
+          "actualDuration": 207.4265,
+          "startTime": 1069.032083,
+          "endTime": 1276.458583
+        },
+        {
+          "path": "Audio/output/2735/chapter_06.wav",
+          "duration": 243.929792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Coca-Cola and the Age of Globalization",
+          "actualDuration": 243.929792,
+          "startTime": 1277.958583,
+          "endTime": 1521.888375
+        },
+        {
+          "path": "Audio/output/2735/chapter_07.wav",
+          "duration": 203.525458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Six Glasses in the Modern World",
+          "actualDuration": 203.525458,
+          "startTime": 1523.388375,
+          "endTime": 1726.913833
+        },
+        {
+          "path": "Audio/output/2735/chapter_08.wav",
+          "duration": 142.544458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Choice and the Future of Drinking",
+          "actualDuration": 142.544458,
+          "startTime": 1728.413833,
+          "endTime": 1870.9582910000001
+        },
+        {
+          "path": "Audio/output/2735/chapter_09.wav",
+          "duration": 143.552292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections—What We Drink, Who We Are",
+          "actualDuration": 143.552292,
+          "startTime": 1872.4582910000001,
+          "endTime": 2016.0105830000002
+        },
+        {
+          "path": "Audio/output/2735/conclusion.wav",
+          "duration": 115.292792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.292792,
+          "startTime": 2017.5105830000002,
+          "endTime": 2132.8033750000004
+        }
+      ],
+      "totalDuration": 2132.8033750000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.46,
+          "actualStart": 0,
+          "actualEnd": 92.461292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Beer Helped Build the First Civilizations",
+          "expectedStart": 92.46,
+          "expectedEnd": 346.37,
+          "actualStart": 93.961292,
+          "actualEnd": 347.872,
+          "timeDifference": 1.5012920000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Wine and the Rise of Social Hierarchies",
+          "expectedStart": 346.37,
+          "expectedEnd": 581.02,
+          "actualStart": 349.372,
+          "actualEnd": 584.025125,
+          "timeDifference": 3.0020000000000095
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Spirits, Exploration, and the Age of Empire",
+          "expectedStart": 581.02,
+          "expectedEnd": 809.3,
+          "actualStart": 585.525125,
+          "actualEnd": 813.805333,
+          "timeDifference": 4.505125000000021
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Coffee and the Birth of Modern Thought",
+          "expectedStart": 809.3,
+          "expectedEnd": 1061.53,
+          "actualStart": 815.305333,
+          "actualEnd": 1067.532083,
+          "timeDifference": 6.005333000000064
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Tea, Empire, and the Industrial Age",
+          "expectedStart": 1061.53,
+          "expectedEnd": 1268.96,
+          "actualStart": 1069.032083,
+          "actualEnd": 1276.458583,
+          "timeDifference": 7.502083000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Coca-Cola and the Age of Globalization",
+          "expectedStart": 1268.96,
+          "expectedEnd": 1512.89,
+          "actualStart": 1277.958583,
+          "actualEnd": 1521.888375,
+          "timeDifference": 8.998583000000053
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Six Glasses in the Modern World",
+          "expectedStart": 1512.89,
+          "expectedEnd": 1716.42,
+          "actualStart": 1523.388375,
+          "actualEnd": 1726.913833,
+          "timeDifference": 10.498374999999896
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Choice and the Future of Drinking",
+          "expectedStart": 1716.42,
+          "expectedEnd": 1858.96,
+          "actualStart": 1728.413833,
+          "actualEnd": 1870.9582910000001,
+          "timeDifference": 11.993832999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections—What We Drink, Who We Are",
+          "expectedStart": 1858.96,
+          "expectedEnd": 2002.51,
+          "actualStart": 1872.4582910000001,
+          "actualEnd": 2016.0105830000002,
+          "timeDifference": 13.498291000000108
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2002.51,
+          "expectedEnd": 2117.8,
+          "actualStart": 2017.5105830000002,
+          "actualEnd": 2132.8033750000004,
+          "timeDifference": 15.000583000000233
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.461292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Beer Helped Build the First Civilizations"
+        },
+        {
+          "startTime": 347.872,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Beer Helped Build the First Civilizations and Chapter 2 Wine and the Rise of Social Hierarchies"
+        },
+        {
+          "startTime": 584.025125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Wine and the Rise of Social Hierarchies and Chapter 3 Spirits, Exploration, and the Age of Empire"
+        },
+        {
+          "startTime": 813.805333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Spirits, Exploration, and the Age of Empire and Chapter 4 Coffee and the Birth of Modern Thought"
+        },
+        {
+          "startTime": 1067.532083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Coffee and the Birth of Modern Thought and Chapter 5 Tea, Empire, and the Industrial Age"
+        },
+        {
+          "startTime": 1276.458583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Tea, Empire, and the Industrial Age and Chapter 6 Coca-Cola and the Age of Globalization"
+        },
+        {
+          "startTime": 1521.888375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Coca-Cola and the Age of Globalization and Chapter 7 The Six Glasses in the Modern World"
+        },
+        {
+          "startTime": 1726.913833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Six Glasses in the Modern World and Chapter 8 The Power of Choice and the Future of Drinking"
+        },
+        {
+          "startTime": 1870.9582910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Choice and the Future of Drinking and Chapter 9 Reflections—What We Drink, Who We Are"
+        },
+        {
+          "startTime": 2016.0105830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections—What We Drink, Who We Are and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2735",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:05:34.552Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

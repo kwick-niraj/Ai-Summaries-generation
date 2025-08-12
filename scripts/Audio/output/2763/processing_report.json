@@ -1,0 +1,480 @@
+{
+  "bookId": "2763",
+  "timestamp": "2025-07-13T18:32:05.401Z",
+  "success": false,
+  "processingTime": -1752431298463,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4679,
+    "totalAudioFiles": 13,
+    "totalDuration": 2208.556166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2208.556166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2763/optimized_text/2763.md",
+    "fileSize": 795,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "2763.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2763/metadata/2763_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2208.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2763/metadata/2763_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2763/metadata/2763_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2763/2763_complete.wav",
+    "duration": 2208.556167,
+    "fileSize": 106010774,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2763/introduction.wav",
+          "duration": 93.808333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.808333,
+          "startTime": 0,
+          "endTime": 93.808333
+        },
+        {
+          "path": "Audio/output/2763/chapter_01.wav",
+          "duration": 215.369375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into the Unknown: Arrival and First Impressions",
+          "actualDuration": 215.369375,
+          "startTime": 95.308333,
+          "endTime": 310.677708
+        },
+        {
+          "path": "Audio/output/2763/chapter_02.wav",
+          "duration": 235.53475,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Into the Fire: The First Major Battle Unfolds",
+          "actualDuration": 235.53475,
+          "startTime": 312.177708,
+          "endTime": 547.712458
+        },
+        {
+          "path": "Audio/output/2763/chapter_03.wav",
+          "duration": 171.995583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost: Loss, Sacrifice, and Brotherhood",
+          "actualDuration": 171.995583,
+          "startTime": 549.212458,
+          "endTime": 721.208041
+        },
+        {
+          "path": "Audio/output/2763/chapter_04.wav",
+          "duration": 191.560875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leadership Under Fire: Decisions That Shaped the Battle",
+          "actualDuration": 191.560875,
+          "startTime": 722.708041,
+          "endTime": 914.268916
+        },
+        {
+          "path": "Audio/output/2763/chapter_05.wav",
+          "duration": 186.822625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Changing Face of War: Technology, Tactics, and Uncertainty",
+          "actualDuration": 186.822625,
+          "startTime": 915.768916,
+          "endTime": 1102.591541
+        },
+        {
+          "path": "Audio/output/2763/chapter_06.wav",
+          "duration": 202.056708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 After the Storm: Picking Up the Pieces",
+          "actualDuration": 202.056708,
+          "startTime": 1104.091541,
+          "endTime": 1306.148249
+        },
+        {
+          "path": "Audio/output/2763/chapter_07.wav",
+          "duration": 171.163917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Families, Homecomings, and the War at Home",
+          "actualDuration": 171.163917,
+          "startTime": 1307.648249,
+          "endTime": 1478.8121660000002
+        },
+        {
+          "path": "Audio/output/2763/chapter_08.wav",
+          "duration": 182.216208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons in Leadership: Reflections and Reckonings",
+          "actualDuration": 182.216208,
+          "startTime": 1480.3121660000002,
+          "endTime": 1662.5283740000002
+        },
+        {
+          "path": "Audio/output/2763/chapter_09.wav",
+          "duration": 139.158417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enemy’s Perspective: Respect, Strategy, and Shared Humanity",
+          "actualDuration": 139.158417,
+          "startTime": 1664.0283740000002,
+          "endTime": 1803.186791
+        },
+        {
+          "path": "Audio/output/2763/chapter_10.wav",
+          "duration": 154.574208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Memory and Meaning: The Long Road to Healing",
+          "actualDuration": 154.574208,
+          "startTime": 1804.686791,
+          "endTime": 1959.260999
+        },
+        {
+          "path": "Audio/output/2763/chapter_11.wav",
+          "duration": 140.215792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Battle’s Legacy: Changing the Course of a War",
+          "actualDuration": 140.215792,
+          "startTime": 1960.760999,
+          "endTime": 2100.976791
+        },
+        {
+          "path": "Audio/output/2763/conclusion.wav",
+          "duration": 124.079375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.079375,
+          "startTime": 2102.476791,
+          "endTime": 2226.556166
+        }
+      ],
+      "totalDuration": 2226.556166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.81,
+          "actualStart": 0,
+          "actualEnd": 93.808333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into the Unknown: Arrival and First Impressions",
+          "expectedStart": 93.81,
+          "expectedEnd": 309.18,
+          "actualStart": 95.308333,
+          "actualEnd": 310.677708,
+          "timeDifference": 1.4983330000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Into the Fire: The First Major Battle Unfolds",
+          "expectedStart": 309.18,
+          "expectedEnd": 544.71,
+          "actualStart": 312.177708,
+          "actualEnd": 547.712458,
+          "timeDifference": 2.9977079999999887
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost: Loss, Sacrifice, and Brotherhood",
+          "expectedStart": 544.71,
+          "expectedEnd": 716.71,
+          "actualStart": 549.212458,
+          "actualEnd": 721.208041,
+          "timeDifference": 4.502457999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leadership Under Fire: Decisions That Shaped the Battle",
+          "expectedStart": 716.71,
+          "expectedEnd": 908.27,
+          "actualStart": 722.708041,
+          "actualEnd": 914.268916,
+          "timeDifference": 5.998040999999944
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Changing Face of War: Technology, Tactics, and Uncertainty",
+          "expectedStart": 908.27,
+          "expectedEnd": 1095.09,
+          "actualStart": 915.768916,
+          "actualEnd": 1102.591541,
+          "timeDifference": 7.498916000000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 After the Storm: Picking Up the Pieces",
+          "expectedStart": 1095.09,
+          "expectedEnd": 1297.15,
+          "actualStart": 1104.091541,
+          "actualEnd": 1306.148249,
+          "timeDifference": 9.001541000000088
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Families, Homecomings, and the War at Home",
+          "expectedStart": 1297.15,
+          "expectedEnd": 1468.31,
+          "actualStart": 1307.648249,
+          "actualEnd": 1478.8121660000002,
+          "timeDifference": 10.498248999999987
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons in Leadership: Reflections and Reckonings",
+          "expectedStart": 1468.31,
+          "expectedEnd": 1650.53,
+          "actualStart": 1480.3121660000002,
+          "actualEnd": 1662.5283740000002,
+          "timeDifference": 12.002166000000216
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enemy’s Perspective: Respect, Strategy, and Shared Humanity",
+          "expectedStart": 1650.53,
+          "expectedEnd": 1789.69,
+          "actualStart": 1664.0283740000002,
+          "actualEnd": 1803.186791,
+          "timeDifference": 13.49837400000024
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Memory and Meaning: The Long Road to Healing",
+          "expectedStart": 1789.69,
+          "expectedEnd": 1944.26,
+          "actualStart": 1804.686791,
+          "actualEnd": 1959.260999,
+          "timeDifference": 14.99679100000003
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Battle’s Legacy: Changing the Course of a War",
+          "expectedStart": 1944.26,
+          "expectedEnd": 2084.48,
+          "actualStart": 1960.760999,
+          "actualEnd": 2100.976791,
+          "timeDifference": 16.500999000000093
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2084.48,
+          "expectedEnd": 2208.56,
+          "actualStart": 2102.476791,
+          "actualEnd": 2226.556166,
+          "timeDifference": 17.99679100000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.808333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into the Unknown: Arrival and First Impressions"
+        },
+        {
+          "startTime": 310.677708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into the Unknown: Arrival and First Impressions and Chapter 2 Into the Fire: The First Major Battle Unfolds"
+        },
+        {
+          "startTime": 547.712458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Into the Fire: The First Major Battle Unfolds and Chapter 3 The Human Cost: Loss, Sacrifice, and Brotherhood"
+        },
+        {
+          "startTime": 721.208041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost: Loss, Sacrifice, and Brotherhood and Chapter 4 Leadership Under Fire: Decisions That Shaped the Battle"
+        },
+        {
+          "startTime": 914.268916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leadership Under Fire: Decisions That Shaped the Battle and Chapter 5 The Changing Face of War: Technology, Tactics, and Uncertainty"
+        },
+        {
+          "startTime": 1102.591541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Changing Face of War: Technology, Tactics, and Uncertainty and Chapter 6 After the Storm: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1306.148249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 After the Storm: Picking Up the Pieces and Chapter 7 The Ripple Effect: Families, Homecomings, and the War at Home"
+        },
+        {
+          "startTime": 1478.8121660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Families, Homecomings, and the War at Home and Chapter 8 Lessons in Leadership: Reflections and Reckonings"
+        },
+        {
+          "startTime": 1662.5283740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons in Leadership: Reflections and Reckonings and Chapter 9 The Enemy’s Perspective: Respect, Strategy, and Shared Humanity"
+        },
+        {
+          "startTime": 1803.186791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enemy’s Perspective: Respect, Strategy, and Shared Humanity and Chapter 10 Memory and Meaning: The Long Road to Healing"
+        },
+        {
+          "startTime": 1959.260999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Memory and Meaning: The Long Road to Healing and Chapter 11 The Battle’s Legacy: Changing the Course of a War"
+        },
+        {
+          "startTime": 2100.976791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Battle’s Legacy: Changing the Course of a War and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2763",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:28:19.164Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

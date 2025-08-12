@@ -1,0 +1,432 @@
+{
+  "bookId": "2704",
+  "timestamp": "2025-07-13T15:53:08.484Z",
+  "success": false,
+  "processingTime": -1752421704405,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4281,
+    "totalAudioFiles": 11,
+    "totalDuration": 1924.7330829999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1924.7330829999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2704/optimized_text/2704.md",
+    "fileSize": 604,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "2704.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2704/metadata/2704_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1924.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2704/metadata/2704_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2704/metadata/2704_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2704/2704_complete.wav",
+    "duration": 1924.733083,
+    "fileSize": 92387266,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2704/introduction.wav",
+          "duration": 94.827542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.827542,
+          "startTime": 0,
+          "endTime": 94.827542
+        },
+        {
+          "path": "Audio/output/2704/chapter_01.wav",
+          "duration": 231.229292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Unseen Forces That Shape Every Team",
+          "actualDuration": 231.229292,
+          "startTime": 96.327542,
+          "endTime": 327.556834
+        },
+        {
+          "path": "Audio/output/2704/chapter_02.wav",
+          "duration": 216.322667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust and Communication from the Ground Up",
+          "actualDuration": 216.322667,
+          "startTime": 329.056834,
+          "endTime": 545.379501
+        },
+        {
+          "path": "Audio/output/2704/chapter_03.wav",
+          "duration": 205.39925,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Shared Goals and Values",
+          "actualDuration": 205.39925,
+          "startTime": 546.879501,
+          "endTime": 752.278751
+        },
+        {
+          "path": "Audio/output/2704/chapter_04.wav",
+          "duration": 204.3785,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Resilience: Learning and Growing Through Setbacks",
+          "actualDuration": 204.3785,
+          "startTime": 753.778751,
+          "endTime": 958.1572510000001
+        },
+        {
+          "path": "Audio/output/2704/chapter_05.wav",
+          "duration": 176.01,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindset: Training the Mental Side of Performance",
+          "actualDuration": 176.01,
+          "startTime": 959.6572510000001,
+          "endTime": 1135.667251
+        },
+        {
+          "path": "Audio/output/2704/chapter_06.wav",
+          "duration": 182.590583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Learning from Failure: Turning Setbacks into Stepping Stones",
+          "actualDuration": 182.590583,
+          "startTime": 1137.167251,
+          "endTime": 1319.757834
+        },
+        {
+          "path": "Audio/output/2704/chapter_07.wav",
+          "duration": 184.982083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining Motivation: Keeping the Fire Alive",
+          "actualDuration": 184.982083,
+          "startTime": 1321.257834,
+          "endTime": 1506.2399169999999
+        },
+        {
+          "path": "Audio/output/2704/chapter_08.wav",
+          "duration": 160.42575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Leadership: Guiding Without Controlling",
+          "actualDuration": 160.42575,
+          "startTime": 1507.7399169999999,
+          "endTime": 1668.1656669999998
+        },
+        {
+          "path": "Audio/output/2704/chapter_09.wav",
+          "duration": 129.874083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey: Building a Lasting Team Mindset",
+          "actualDuration": 129.874083,
+          "startTime": 1669.6656669999998,
+          "endTime": 1799.5397499999997
+        },
+        {
+          "path": "Audio/output/2704/conclusion.wav",
+          "duration": 138.693333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.693333,
+          "startTime": 1801.0397499999997,
+          "endTime": 1939.7330829999996
+        }
+      ],
+      "totalDuration": 1939.7330829999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.83,
+          "actualStart": 0,
+          "actualEnd": 94.827542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Unseen Forces That Shape Every Team",
+          "expectedStart": 94.83,
+          "expectedEnd": 326.06,
+          "actualStart": 96.327542,
+          "actualEnd": 327.556834,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust and Communication from the Ground Up",
+          "expectedStart": 326.06,
+          "expectedEnd": 542.38,
+          "actualStart": 329.056834,
+          "actualEnd": 545.379501,
+          "timeDifference": 2.9968339999999785
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Shared Goals and Values",
+          "expectedStart": 542.38,
+          "expectedEnd": 747.78,
+          "actualStart": 546.879501,
+          "actualEnd": 752.278751,
+          "timeDifference": 4.499501000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Resilience: Learning and Growing Through Setbacks",
+          "expectedStart": 747.78,
+          "expectedEnd": 952.16,
+          "actualStart": 753.778751,
+          "actualEnd": 958.1572510000001,
+          "timeDifference": 5.998751000000084
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindset: Training the Mental Side of Performance",
+          "expectedStart": 952.16,
+          "expectedEnd": 1128.17,
+          "actualStart": 959.6572510000001,
+          "actualEnd": 1135.667251,
+          "timeDifference": 7.497251000000119
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Learning from Failure: Turning Setbacks into Stepping Stones",
+          "expectedStart": 1128.17,
+          "expectedEnd": 1310.76,
+          "actualStart": 1137.167251,
+          "actualEnd": 1319.757834,
+          "timeDifference": 8.997251000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining Motivation: Keeping the Fire Alive",
+          "expectedStart": 1310.76,
+          "expectedEnd": 1495.74,
+          "actualStart": 1321.257834,
+          "actualEnd": 1506.2399169999999,
+          "timeDifference": 10.497834000000012
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Leadership: Guiding Without Controlling",
+          "expectedStart": 1495.74,
+          "expectedEnd": 1656.17,
+          "actualStart": 1507.7399169999999,
+          "actualEnd": 1668.1656669999998,
+          "timeDifference": 11.999916999999868
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey: Building a Lasting Team Mindset",
+          "expectedStart": 1656.17,
+          "expectedEnd": 1786.04,
+          "actualStart": 1669.6656669999998,
+          "actualEnd": 1799.5397499999997,
+          "timeDifference": 13.495666999999685
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1786.04,
+          "expectedEnd": 1924.73,
+          "actualStart": 1801.0397499999997,
+          "actualEnd": 1939.7330829999996,
+          "timeDifference": 14.999749999999722
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.827542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Unseen Forces That Shape Every Team"
+        },
+        {
+          "startTime": 327.556834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Unseen Forces That Shape Every Team and Chapter 2 Building Trust and Communication from the Ground Up"
+        },
+        {
+          "startTime": 545.379501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust and Communication from the Ground Up and Chapter 3 The Power of Shared Goals and Values"
+        },
+        {
+          "startTime": 752.278751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Shared Goals and Values and Chapter 4 Resilience: Learning and Growing Through Setbacks"
+        },
+        {
+          "startTime": 958.1572510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Resilience: Learning and Growing Through Setbacks and Chapter 5 Mindset: Training the Mental Side of Performance"
+        },
+        {
+          "startTime": 1135.667251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindset: Training the Mental Side of Performance and Chapter 6 Learning from Failure: Turning Setbacks into Stepping Stones"
+        },
+        {
+          "startTime": 1319.757834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Learning from Failure: Turning Setbacks into Stepping Stones and Chapter 7 Sustaining Motivation: Keeping the Fire Alive"
+        },
+        {
+          "startTime": 1506.2399169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining Motivation: Keeping the Fire Alive and Chapter 8 Leadership: Guiding Without Controlling"
+        },
+        {
+          "startTime": 1668.1656669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Leadership: Guiding Without Controlling and Chapter 9 The Ongoing Journey: Building a Lasting Team Mindset"
+        },
+        {
+          "startTime": 1799.5397499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey: Building a Lasting Team Mindset and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2704",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T15:48:24.963Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

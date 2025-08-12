@@ -1,0 +1,432 @@
+{
+  "bookId": "2720",
+  "timestamp": "2025-07-13T16:26:40.653Z",
+  "success": false,
+  "processingTime": -1752423759977,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4532,
+    "totalAudioFiles": 12,
+    "totalDuration": 1968.770832
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1968.770832
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2720/optimized_text/2720.md",
+    "fileSize": 3229,
+    "wordCount": 526,
+    "format": "markdown",
+    "filename": "2720.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2720/metadata/2720_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1968.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2720/metadata/2720_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2720/metadata/2720_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2720/2720_complete.wav",
+    "duration": 1968.770833,
+    "fileSize": 94501078,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2720/introduction.wav",
+          "duration": 97.752083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.752083,
+          "startTime": 0,
+          "endTime": 97.752083
+        },
+        {
+          "path": "Audio/output/2720/chapter_01.wav",
+          "duration": 227.75575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Boundaries of Compassion",
+          "actualDuration": 227.75575,
+          "startTime": 99.252083,
+          "endTime": 327.007833
+        },
+        {
+          "path": "Audio/output/2720/chapter_03.wav",
+          "duration": 237.512792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Animal Experimentation and the Ethics of Science",
+          "actualDuration": 237.512792,
+          "startTime": 328.507833,
+          "endTime": 566.020625
+        },
+        {
+          "path": "Audio/output/2720/chapter_04.wav",
+          "duration": 203.458333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Expanding the Circle of Moral Concern",
+          "actualDuration": 203.458333,
+          "startTime": 567.520625,
+          "endTime": 770.978958
+        },
+        {
+          "path": "Audio/output/2720/chapter_05.wav",
+          "duration": 152.417208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Everyday Choices and the Path to Change",
+          "actualDuration": 152.417208,
+          "startTime": 772.478958,
+          "endTime": 924.896166
+        },
+        {
+          "path": "Audio/output/2720/chapter_06.wav",
+          "duration": 213.393833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Movement for Animal Rights: Voices Rising",
+          "actualDuration": 213.393833,
+          "startTime": 926.396166,
+          "endTime": 1139.789999
+        },
+        {
+          "path": "Audio/output/2720/chapter_07.wav",
+          "duration": 178.94675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Information and the Challenge of Denial",
+          "actualDuration": 178.94675,
+          "startTime": 1141.289999,
+          "endTime": 1320.2367490000001
+        },
+        {
+          "path": "Audio/output/2720/chapter_08.wav",
+          "duration": 180.93475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Alternatives and Innovations: Rethinking What’s Possible",
+          "actualDuration": 180.93475,
+          "startTime": 1321.7367490000001,
+          "endTime": 1502.671499
+        },
+        {
+          "path": "Audio/output/2720/chapter_09.wav",
+          "duration": 186.287375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Laws, Policy, and the Slow March of Justice",
+          "actualDuration": 186.287375,
+          "startTime": 1504.171499,
+          "endTime": 1690.458874
+        },
+        {
+          "path": "Audio/output/2720/chapter_10.wav",
+          "duration": 159.254208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Culture of Compassion",
+          "actualDuration": 159.254208,
+          "startTime": 1691.958874,
+          "endTime": 1851.213082
+        },
+        {
+          "path": "Audio/output/2720/conclusion.wav",
+          "duration": 131.05775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.05775,
+          "startTime": 1852.713082,
+          "endTime": 1983.770832
+        }
+      ],
+      "totalDuration": 1983.770832,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.75,
+          "actualStart": 0,
+          "actualEnd": 97.752083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Boundaries of Compassion",
+          "expectedStart": 97.75,
+          "expectedEnd": 325.51,
+          "actualStart": 99.252083,
+          "actualEnd": 327.007833,
+          "timeDifference": 1.502082999999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Animal Experimentation and the Ethics of Science",
+          "expectedStart": 325.51,
+          "expectedEnd": 563.02,
+          "actualStart": 328.507833,
+          "actualEnd": 566.020625,
+          "timeDifference": 2.997833000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Expanding the Circle of Moral Concern",
+          "expectedStart": 563.02,
+          "expectedEnd": 766.48,
+          "actualStart": 567.520625,
+          "actualEnd": 770.978958,
+          "timeDifference": 4.500625000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Everyday Choices and the Path to Change",
+          "expectedStart": 766.48,
+          "expectedEnd": 918.9,
+          "actualStart": 772.478958,
+          "actualEnd": 924.896166,
+          "timeDifference": 5.998958000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Movement for Animal Rights: Voices Rising",
+          "expectedStart": 918.9,
+          "expectedEnd": 1132.29,
+          "actualStart": 926.396166,
+          "actualEnd": 1139.789999,
+          "timeDifference": 7.4961660000000165
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Information and the Challenge of Denial",
+          "expectedStart": 1132.29,
+          "expectedEnd": 1311.24,
+          "actualStart": 1141.289999,
+          "actualEnd": 1320.2367490000001,
+          "timeDifference": 8.999999000000116
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Alternatives and Innovations: Rethinking What’s Possible",
+          "expectedStart": 1311.24,
+          "expectedEnd": 1492.17,
+          "actualStart": 1321.7367490000001,
+          "actualEnd": 1502.671499,
+          "timeDifference": 10.496749000000136
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Laws, Policy, and the Slow March of Justice",
+          "expectedStart": 1492.17,
+          "expectedEnd": 1678.46,
+          "actualStart": 1504.171499,
+          "actualEnd": 1690.458874,
+          "timeDifference": 12.001498999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Culture of Compassion",
+          "expectedStart": 1678.46,
+          "expectedEnd": 1837.71,
+          "actualStart": 1691.958874,
+          "actualEnd": 1851.213082,
+          "timeDifference": 13.498873999999887
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1837.71,
+          "expectedEnd": 1968.77,
+          "actualStart": 1852.713082,
+          "actualEnd": 1983.770832,
+          "timeDifference": 15.00308199999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.752083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Boundaries of Compassion"
+        },
+        {
+          "startTime": 327.007833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Boundaries of Compassion and Chapter 3 Animal Experimentation and the Ethics of Science"
+        },
+        {
+          "startTime": 566.020625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Animal Experimentation and the Ethics of Science and Chapter 4 Expanding the Circle of Moral Concern"
+        },
+        {
+          "startTime": 770.978958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Expanding the Circle of Moral Concern and Chapter 5 Everyday Choices and the Path to Change"
+        },
+        {
+          "startTime": 924.896166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Everyday Choices and the Path to Change and Chapter 6 The Movement for Animal Rights: Voices Rising"
+        },
+        {
+          "startTime": 1139.789999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Movement for Animal Rights: Voices Rising and Chapter 7 The Power of Information and the Challenge of Denial"
+        },
+        {
+          "startTime": 1320.2367490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Information and the Challenge of Denial and Chapter 8 Alternatives and Innovations: Rethinking What’s Possible"
+        },
+        {
+          "startTime": 1502.671499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Alternatives and Innovations: Rethinking What’s Possible and Chapter 9 Laws, Policy, and the Slow March of Justice"
+        },
+        {
+          "startTime": 1690.458874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Laws, Policy, and the Slow March of Justice and Chapter 10 Building a Culture of Compassion"
+        },
+        {
+          "startTime": 1851.213082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Culture of Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2720",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:22:40.470Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

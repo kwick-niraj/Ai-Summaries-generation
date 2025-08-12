@@ -1,0 +1,456 @@
+{
+  "bookId": "2762",
+  "timestamp": "2025-07-13T18:28:17.457Z",
+  "success": false,
+  "processingTime": -1752431064674,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3870,
+    "totalAudioFiles": 12,
+    "totalDuration": 1986.1163329999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1986.1163329999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2762/optimized_text/2762.md",
+    "fileSize": 697,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "2762.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2762/metadata/2762_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1986.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2762/metadata/2762_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2762/metadata/2762_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2762/2762_complete.wav",
+    "duration": 1986.116333,
+    "fileSize": 95333662,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2762/introduction.wav",
+          "duration": 92.415375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.415375,
+          "startTime": 0,
+          "endTime": 92.415375
+        },
+        {
+          "path": "Audio/output/2762/chapter_01.wav",
+          "duration": 215.3935,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Automatic Nature of Human Decision-Making",
+          "actualDuration": 215.3935,
+          "startTime": 93.915375,
+          "endTime": 309.308875
+        },
+        {
+          "path": "Audio/output/2762/chapter_02.wav",
+          "duration": 223.17675,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Reciprocity in Social Interactions",
+          "actualDuration": 223.17675,
+          "startTime": 310.808875,
+          "endTime": 533.985625
+        },
+        {
+          "path": "Audio/output/2762/chapter_03.wav",
+          "duration": 201.823208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Commitment, Consistency, and the Drive to Align Actions",
+          "actualDuration": 201.823208,
+          "startTime": 535.485625,
+          "endTime": 737.308833
+        },
+        {
+          "path": "Audio/output/2762/chapter_04.wav",
+          "duration": 206.232417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Social Proof and the Influence of Group Behavior",
+          "actualDuration": 206.232417,
+          "startTime": 738.808833,
+          "endTime": 945.04125
+        },
+        {
+          "path": "Audio/output/2762/chapter_05.wav",
+          "duration": 212.305625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Liking and the Subtle Pull of Affinity",
+          "actualDuration": 212.305625,
+          "startTime": 946.54125,
+          "endTime": 1158.846875
+        },
+        {
+          "path": "Audio/output/2762/chapter_06.wav",
+          "duration": 146.952,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Authority and the Weight of Expert Influence",
+          "actualDuration": 146.952,
+          "startTime": 1160.346875,
+          "endTime": 1307.298875
+        },
+        {
+          "path": "Audio/output/2762/chapter_07.wav",
+          "duration": 161.96825,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Scarcity and the Allure of the Limited",
+          "actualDuration": 161.96825,
+          "startTime": 1308.798875,
+          "endTime": 1470.7671249999999
+        },
+        {
+          "path": "Audio/output/2762/chapter_08.wav",
+          "duration": 176.831333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Principles—Recognizing Patterns and Building Defenses",
+          "actualDuration": 176.831333,
+          "startTime": 1472.2671249999999,
+          "endTime": 1649.098458
+        },
+        {
+          "path": "Audio/output/2762/chapter_09.wav",
+          "duration": 104.48625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Ethical Influence—Using the Principles for Good",
+          "actualDuration": 104.48625,
+          "startTime": 1650.598458,
+          "endTime": 1755.0847079999999
+        },
+        {
+          "path": "Audio/output/2762/chapter_10.wav",
+          "duration": 137.626292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Practical Strategies for Self-Defense and Deliberate Choice",
+          "actualDuration": 137.626292,
+          "startTime": 1756.5847079999999,
+          "endTime": 1894.2109999999998
+        },
+        {
+          "path": "Audio/output/2762/conclusion.wav",
+          "duration": 106.905333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.905333,
+          "startTime": 1895.7109999999998,
+          "endTime": 2002.6163329999997
+        }
+      ],
+      "totalDuration": 2002.6163329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.42,
+          "actualStart": 0,
+          "actualEnd": 92.415375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Automatic Nature of Human Decision-Making",
+          "expectedStart": 92.42,
+          "expectedEnd": 307.81,
+          "actualStart": 93.915375,
+          "actualEnd": 309.308875,
+          "timeDifference": 1.4953749999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Reciprocity in Social Interactions",
+          "expectedStart": 307.81,
+          "expectedEnd": 530.99,
+          "actualStart": 310.808875,
+          "actualEnd": 533.985625,
+          "timeDifference": 2.998874999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Commitment, Consistency, and the Drive to Align Actions",
+          "expectedStart": 530.99,
+          "expectedEnd": 732.81,
+          "actualStart": 535.485625,
+          "actualEnd": 737.308833,
+          "timeDifference": 4.495625000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Social Proof and the Influence of Group Behavior",
+          "expectedStart": 732.81,
+          "expectedEnd": 939.04,
+          "actualStart": 738.808833,
+          "actualEnd": 945.04125,
+          "timeDifference": 5.998833000000104
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Liking and the Subtle Pull of Affinity",
+          "expectedStart": 939.04,
+          "expectedEnd": 1151.35,
+          "actualStart": 946.54125,
+          "actualEnd": 1158.846875,
+          "timeDifference": 7.501250000000027
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Authority and the Weight of Expert Influence",
+          "expectedStart": 1151.35,
+          "expectedEnd": 1298.3,
+          "actualStart": 1160.346875,
+          "actualEnd": 1307.298875,
+          "timeDifference": 8.996875000000045
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Scarcity and the Allure of the Limited",
+          "expectedStart": 1298.3,
+          "expectedEnd": 1460.27,
+          "actualStart": 1308.798875,
+          "actualEnd": 1470.7671249999999,
+          "timeDifference": 10.498874999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Principles—Recognizing Patterns and Building Defenses",
+          "expectedStart": 1460.27,
+          "expectedEnd": 1637.1,
+          "actualStart": 1472.2671249999999,
+          "actualEnd": 1649.098458,
+          "timeDifference": 11.997124999999869
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Ethical Influence—Using the Principles for Good",
+          "expectedStart": 1637.1,
+          "expectedEnd": 1741.59,
+          "actualStart": 1650.598458,
+          "actualEnd": 1755.0847079999999,
+          "timeDifference": 13.498458000000028
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Practical Strategies for Self-Defense and Deliberate Choice",
+          "expectedStart": 1741.59,
+          "expectedEnd": 1879.22,
+          "actualStart": 1756.5847079999999,
+          "actualEnd": 1894.2109999999998,
+          "timeDifference": 14.994707999999946
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1879.22,
+          "expectedEnd": 1986.13,
+          "actualStart": 1895.7109999999998,
+          "actualEnd": 2002.6163329999997,
+          "timeDifference": 16.490999999999758
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.415375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Automatic Nature of Human Decision-Making"
+        },
+        {
+          "startTime": 309.308875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Automatic Nature of Human Decision-Making and Chapter 2 The Power of Reciprocity in Social Interactions"
+        },
+        {
+          "startTime": 533.985625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Reciprocity in Social Interactions and Chapter 3 Commitment, Consistency, and the Drive to Align Actions"
+        },
+        {
+          "startTime": 737.308833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Commitment, Consistency, and the Drive to Align Actions and Chapter 4 Social Proof and the Influence of Group Behavior"
+        },
+        {
+          "startTime": 945.04125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Social Proof and the Influence of Group Behavior and Chapter 5 Liking and the Subtle Pull of Affinity"
+        },
+        {
+          "startTime": 1158.846875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Liking and the Subtle Pull of Affinity and Chapter 6 Authority and the Weight of Expert Influence"
+        },
+        {
+          "startTime": 1307.298875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Authority and the Weight of Expert Influence and Chapter 7 Scarcity and the Allure of the Limited"
+        },
+        {
+          "startTime": 1470.7671249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Scarcity and the Allure of the Limited and Chapter 8 Integrating the Principles—Recognizing Patterns and Building Defenses"
+        },
+        {
+          "startTime": 1649.098458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Principles—Recognizing Patterns and Building Defenses and Chapter 9 Ethical Influence—Using the Principles for Good"
+        },
+        {
+          "startTime": 1755.0847079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Ethical Influence—Using the Principles for Good and Chapter 10 Practical Strategies for Self-Defense and Deliberate Choice"
+        },
+        {
+          "startTime": 1894.2109999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Practical Strategies for Self-Defense and Deliberate Choice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2762",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T18:24:25.222Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

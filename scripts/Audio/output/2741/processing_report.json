@@ -1,0 +1,456 @@
+{
+  "bookId": "2741",
+  "timestamp": "2025-07-13T17:26:21.243Z",
+  "success": false,
+  "processingTime": -1752427353652,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4024,
+    "totalAudioFiles": 12,
+    "totalDuration": 1927.0710820000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1927.0710820000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2741/optimized_text/2741.md",
+    "fileSize": 762,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2741.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2741/metadata/2741_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1927.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2741/metadata/2741_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2741/metadata/2741_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2741/2741_complete.wav",
+    "duration": 1927.071083,
+    "fileSize": 92499490,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2741/introduction.wav",
+          "duration": 98.950708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.950708,
+          "startTime": 0,
+          "endTime": 98.950708
+        },
+        {
+          "path": "Audio/output/2741/chapter_01.wav",
+          "duration": 212.425625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Divided: Life Under Colonial Rule",
+          "actualDuration": 212.425625,
+          "startTime": 100.450708,
+          "endTime": 312.876333
+        },
+        {
+          "path": "Audio/output/2741/chapter_02.wav",
+          "duration": 189.348458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Oppression: How Colonialism Shapes the Mind",
+          "actualDuration": 189.348458,
+          "startTime": 314.376333,
+          "endTime": 503.724791
+        },
+        {
+          "path": "Audio/output/2741/chapter_03.wav",
+          "duration": 171.499583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Spark of Rebellion: Why Change Demands Confrontation",
+          "actualDuration": 171.499583,
+          "startTime": 505.224791,
+          "endTime": 676.724374
+        },
+        {
+          "path": "Audio/output/2741/chapter_04.wav",
+          "duration": 189.565125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building a New Nation: The Challenge of True Liberation",
+          "actualDuration": 189.565125,
+          "startTime": 678.224374,
+          "endTime": 867.789499
+        },
+        {
+          "path": "Audio/output/2741/chapter_05.wav",
+          "duration": 140.609042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Unity and Culture in Healing and Progress",
+          "actualDuration": 140.609042,
+          "startTime": 869.289499,
+          "endTime": 1009.898541
+        },
+        {
+          "path": "Audio/output/2741/chapter_06.wav",
+          "duration": 194.580167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Shadows of the Past: The Trap of Neocolonialism",
+          "actualDuration": 194.580167,
+          "startTime": 1011.398541,
+          "endTime": 1205.978708
+        },
+        {
+          "path": "Audio/output/2741/chapter_07.wav",
+          "duration": 160.282083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Responsibility of the Intellectual: Choosing Sides",
+          "actualDuration": 160.282083,
+          "startTime": 1207.478708,
+          "endTime": 1367.7607910000002
+        },
+        {
+          "path": "Audio/output/2741/chapter_08.wav",
+          "duration": 165.811208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Struggle Within: Healing the Wounds of Violence",
+          "actualDuration": 165.811208,
+          "startTime": 1369.2607910000002,
+          "endTime": 1535.0719990000002
+        },
+        {
+          "path": "Audio/output/2741/chapter_09.wav",
+          "duration": 150.993208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The People’s Voice: Democracy, Participation, and the Everyday Struggle",
+          "actualDuration": 150.993208,
+          "startTime": 1536.5719990000002,
+          "endTime": 1687.5652070000003
+        },
+        {
+          "path": "Audio/output/2741/chapter_10.wav",
+          "duration": 122.171875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a New Humanity: Dignity, Solidarity, and the Unfinished Journey",
+          "actualDuration": 122.171875,
+          "startTime": 1689.0652070000003,
+          "endTime": 1811.2370820000003
+        },
+        {
+          "path": "Audio/output/2741/conclusion.wav",
+          "duration": 130.834,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.834,
+          "startTime": 1812.7370820000003,
+          "endTime": 1943.5710820000004
+        }
+      ],
+      "totalDuration": 1943.5710820000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.95,
+          "actualStart": 0,
+          "actualEnd": 98.950708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Divided: Life Under Colonial Rule",
+          "expectedStart": 98.95,
+          "expectedEnd": 311.38,
+          "actualStart": 100.450708,
+          "actualEnd": 312.876333,
+          "timeDifference": 1.500708000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Oppression: How Colonialism Shapes the Mind",
+          "expectedStart": 311.38,
+          "expectedEnd": 500.73,
+          "actualStart": 314.376333,
+          "actualEnd": 503.724791,
+          "timeDifference": 2.996332999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Spark of Rebellion: Why Change Demands Confrontation",
+          "expectedStart": 500.73,
+          "expectedEnd": 672.23,
+          "actualStart": 505.224791,
+          "actualEnd": 676.724374,
+          "timeDifference": 4.494790999999964
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building a New Nation: The Challenge of True Liberation",
+          "expectedStart": 672.23,
+          "expectedEnd": 861.8,
+          "actualStart": 678.224374,
+          "actualEnd": 867.789499,
+          "timeDifference": 5.994373999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Unity and Culture in Healing and Progress",
+          "expectedStart": 861.8,
+          "expectedEnd": 1002.41,
+          "actualStart": 869.289499,
+          "actualEnd": 1009.898541,
+          "timeDifference": 7.489499000000023
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Shadows of the Past: The Trap of Neocolonialism",
+          "expectedStart": 1002.41,
+          "expectedEnd": 1196.99,
+          "actualStart": 1011.398541,
+          "actualEnd": 1205.978708,
+          "timeDifference": 8.988541000000055
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Responsibility of the Intellectual: Choosing Sides",
+          "expectedStart": 1196.99,
+          "expectedEnd": 1357.27,
+          "actualStart": 1207.478708,
+          "actualEnd": 1367.7607910000002,
+          "timeDifference": 10.488708000000088
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Struggle Within: Healing the Wounds of Violence",
+          "expectedStart": 1357.27,
+          "expectedEnd": 1523.08,
+          "actualStart": 1369.2607910000002,
+          "actualEnd": 1535.0719990000002,
+          "timeDifference": 11.990791000000172
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The People’s Voice: Democracy, Participation, and the Everyday Struggle",
+          "expectedStart": 1523.08,
+          "expectedEnd": 1674.07,
+          "actualStart": 1536.5719990000002,
+          "actualEnd": 1687.5652070000003,
+          "timeDifference": 13.491999000000305
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a New Humanity: Dignity, Solidarity, and the Unfinished Journey",
+          "expectedStart": 1674.07,
+          "expectedEnd": 1796.24,
+          "actualStart": 1689.0652070000003,
+          "actualEnd": 1811.2370820000003,
+          "timeDifference": 14.995207000000391
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1796.24,
+          "expectedEnd": 1927.07,
+          "actualStart": 1812.7370820000003,
+          "actualEnd": 1943.5710820000004,
+          "timeDifference": 16.49708200000032
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.950708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Divided: Life Under Colonial Rule"
+        },
+        {
+          "startTime": 312.876333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Divided: Life Under Colonial Rule and Chapter 2 The Weight of Oppression: How Colonialism Shapes the Mind"
+        },
+        {
+          "startTime": 503.724791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Oppression: How Colonialism Shapes the Mind and Chapter 3 The Spark of Rebellion: Why Change Demands Confrontation"
+        },
+        {
+          "startTime": 676.724374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Spark of Rebellion: Why Change Demands Confrontation and Chapter 4 Building a New Nation: The Challenge of True Liberation"
+        },
+        {
+          "startTime": 867.789499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building a New Nation: The Challenge of True Liberation and Chapter 5 The Role of Unity and Culture in Healing and Progress"
+        },
+        {
+          "startTime": 1009.898541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Unity and Culture in Healing and Progress and Chapter 6 Shadows of the Past: The Trap of Neocolonialism"
+        },
+        {
+          "startTime": 1205.978708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Shadows of the Past: The Trap of Neocolonialism and Chapter 7 The Responsibility of the Intellectual: Choosing Sides"
+        },
+        {
+          "startTime": 1367.7607910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Responsibility of the Intellectual: Choosing Sides and Chapter 8 The Struggle Within: Healing the Wounds of Violence"
+        },
+        {
+          "startTime": 1535.0719990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Struggle Within: Healing the Wounds of Violence and Chapter 9 The People’s Voice: Democracy, Participation, and the Everyday Struggle"
+        },
+        {
+          "startTime": 1687.5652070000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The People’s Voice: Democracy, Participation, and the Everyday Struggle and Chapter 10 Toward a New Humanity: Dignity, Solidarity, and the Unfinished Journey"
+        },
+        {
+          "startTime": 1811.2370820000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a New Humanity: Dignity, Solidarity, and the Unfinished Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2741",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T17:22:34.174Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

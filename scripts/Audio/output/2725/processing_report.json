@@ -1,0 +1,432 @@
+{
+  "bookId": "2725",
+  "timestamp": "2025-07-13T16:39:16.139Z",
+  "success": false,
+  "processingTime": -1752424560360,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4180,
+    "totalAudioFiles": 12,
+    "totalDuration": 1657.870002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1657.870002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2725/optimized_text/2725.md",
+    "fileSize": 714,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2725.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2725/metadata/2725_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1657.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2725/metadata/2725_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2725/metadata/2725_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2725/2725_complete.wav",
+    "duration": 1657.87,
+    "fileSize": 79577838,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2725/introduction.wav",
+          "duration": 92.766792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.766792,
+          "startTime": 0,
+          "endTime": 92.766792
+        },
+        {
+          "path": "Audio/output/2725/chapter_01.wav",
+          "duration": 249.16775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Wealth, Suspicion, and the Shadow of Violence in Osage Country",
+          "actualDuration": 249.16775,
+          "startTime": 94.266792,
+          "endTime": 343.434542
+        },
+        {
+          "path": "Audio/output/2725/chapter_03.wav",
+          "duration": 195.113292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Arrival of Federal Investigators and the Birth of Modern Policing",
+          "actualDuration": 195.113292,
+          "startTime": 344.934542,
+          "endTime": 540.047834
+        },
+        {
+          "path": "Audio/output/2725/chapter_04.wav",
+          "duration": 177.259292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Unraveling the Conspiracy and the Fight for Justice",
+          "actualDuration": 177.259292,
+          "startTime": 541.547834,
+          "endTime": 718.8071259999999
+        },
+        {
+          "path": "Audio/output/2725/chapter_05.wav",
+          "duration": 126.979667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Lingering Impact and the Search for Healing",
+          "actualDuration": 126.979667,
+          "startTime": 720.3071259999999,
+          "endTime": 847.286793
+        },
+        {
+          "path": "Audio/output/2725/chapter_06.wav",
+          "duration": 168.598917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes of Injustice: The Aftermath in Osage Country",
+          "actualDuration": 168.598917,
+          "startTime": 848.786793,
+          "endTime": 1017.38571
+        },
+        {
+          "path": "Audio/output/2725/chapter_07.wav",
+          "duration": 147.291042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The FBI’s Transformation: Lessons from Osage Country",
+          "actualDuration": 147.291042,
+          "startTime": 1018.88571,
+          "endTime": 1166.176752
+        },
+        {
+          "path": "Audio/output/2725/chapter_08.wav",
+          "duration": 150.772833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Silence, and the Struggle to Be Heard",
+          "actualDuration": 150.772833,
+          "startTime": 1167.676752,
+          "endTime": 1318.449585
+        },
+        {
+          "path": "Audio/output/2725/chapter_09.wav",
+          "duration": 135.53025,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Identity and Building a Future",
+          "actualDuration": 135.53025,
+          "startTime": 1319.949585,
+          "endTime": 1455.479835
+        },
+        {
+          "path": "Audio/output/2725/chapter_10.wav",
+          "duration": 99.324417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons of the Osage Tragedy",
+          "actualDuration": 99.324417,
+          "startTime": 1456.979835,
+          "endTime": 1556.3042520000001
+        },
+        {
+          "path": "Audio/output/2725/conclusion.wav",
+          "duration": 115.06575,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.06575,
+          "startTime": 1557.8042520000001,
+          "endTime": 1672.870002
+        }
+      ],
+      "totalDuration": 1672.870002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.77,
+          "actualStart": 0,
+          "actualEnd": 92.766792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Wealth, Suspicion, and the Shadow of Violence in Osage Country",
+          "expectedStart": 92.77,
+          "expectedEnd": 341.94,
+          "actualStart": 94.266792,
+          "actualEnd": 343.434542,
+          "timeDifference": 1.4967919999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Arrival of Federal Investigators and the Birth of Modern Policing",
+          "expectedStart": 341.94,
+          "expectedEnd": 537.05,
+          "actualStart": 344.934542,
+          "actualEnd": 540.047834,
+          "timeDifference": 2.994542000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Unraveling the Conspiracy and the Fight for Justice",
+          "expectedStart": 537.05,
+          "expectedEnd": 714.31,
+          "actualStart": 541.547834,
+          "actualEnd": 718.8071259999999,
+          "timeDifference": 4.497834000000012
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Lingering Impact and the Search for Healing",
+          "expectedStart": 714.31,
+          "expectedEnd": 841.29,
+          "actualStart": 720.3071259999999,
+          "actualEnd": 847.286793,
+          "timeDifference": 5.99712599999998
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes of Injustice: The Aftermath in Osage Country",
+          "expectedStart": 841.29,
+          "expectedEnd": 1009.89,
+          "actualStart": 848.786793,
+          "actualEnd": 1017.38571,
+          "timeDifference": 7.496793000000025
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The FBI’s Transformation: Lessons from Osage Country",
+          "expectedStart": 1009.89,
+          "expectedEnd": 1157.18,
+          "actualStart": 1018.88571,
+          "actualEnd": 1166.176752,
+          "timeDifference": 8.995710000000031
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Silence, and the Struggle to Be Heard",
+          "expectedStart": 1157.18,
+          "expectedEnd": 1307.95,
+          "actualStart": 1167.676752,
+          "actualEnd": 1318.449585,
+          "timeDifference": 10.496752000000015
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Identity and Building a Future",
+          "expectedStart": 1307.95,
+          "expectedEnd": 1443.48,
+          "actualStart": 1319.949585,
+          "actualEnd": 1455.479835,
+          "timeDifference": 11.999585000000025
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons of the Osage Tragedy",
+          "expectedStart": 1443.48,
+          "expectedEnd": 1542.8,
+          "actualStart": 1456.979835,
+          "actualEnd": 1556.3042520000001,
+          "timeDifference": 13.499835000000076
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1542.8,
+          "expectedEnd": 1657.87,
+          "actualStart": 1557.8042520000001,
+          "actualEnd": 1672.870002,
+          "timeDifference": 15.004252000000179
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.766792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Wealth, Suspicion, and the Shadow of Violence in Osage Country"
+        },
+        {
+          "startTime": 343.434542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Wealth, Suspicion, and the Shadow of Violence in Osage Country and Chapter 3 The Arrival of Federal Investigators and the Birth of Modern Policing"
+        },
+        {
+          "startTime": 540.047834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Arrival of Federal Investigators and the Birth of Modern Policing and Chapter 4 Unraveling the Conspiracy and the Fight for Justice"
+        },
+        {
+          "startTime": 718.8071259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Unraveling the Conspiracy and the Fight for Justice and Chapter 5 The Lingering Impact and the Search for Healing"
+        },
+        {
+          "startTime": 847.286793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Lingering Impact and the Search for Healing and Chapter 6 Echoes of Injustice: The Aftermath in Osage Country"
+        },
+        {
+          "startTime": 1017.38571,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes of Injustice: The Aftermath in Osage Country and Chapter 7 The FBI’s Transformation: Lessons from Osage Country"
+        },
+        {
+          "startTime": 1166.176752,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The FBI’s Transformation: Lessons from Osage Country and Chapter 8 Memory, Silence, and the Struggle to Be Heard"
+        },
+        {
+          "startTime": 1318.449585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Silence, and the Struggle to Be Heard and Chapter 9 Reclaiming Identity and Building a Future"
+        },
+        {
+          "startTime": 1455.479835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Identity and Building a Future and Chapter 10 The Enduring Lessons of the Osage Tragedy"
+        },
+        {
+          "startTime": 1556.3042520000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons of the Osage Tragedy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2725",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-13T16:36:00.918Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
